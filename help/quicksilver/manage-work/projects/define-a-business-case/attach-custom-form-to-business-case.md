@@ -2,12 +2,12 @@
 navigation-topic: business-case-and-scorecards
 title: Bifoga ett anpassat formulär till ett affärsärende
 description: Anpassade Forms används för att samla in information som inte visas i befintliga Adobe Workfront-fält.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -29,15 +29,14 @@ Mer information om hur du skapar anpassade Forms finns i artikeln [Skapa ett anp
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
-   <td> <p>Aktuell: Prime eller senare</p>
-   <p>Äldre: Pro eller senare</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> <p>Prime eller senare</p>
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront license/p&gt;</td> 
    <td> 
-   <p>Aktuell: Standard </p> 
-   <p>Äldre: Planera </p> </td> 
+   <p>Standard </p> 
+   <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -50,7 +49,7 @@ Mer information om hur du skapar anpassade Forms finns i artikeln [Skapa ett anp
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

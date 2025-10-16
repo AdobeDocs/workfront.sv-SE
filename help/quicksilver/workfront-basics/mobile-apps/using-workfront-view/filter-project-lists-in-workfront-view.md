@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 description: Som standard visas  [!DNL Adobe Workfront] Visa [!UICONTROL All Projects]-listan i [!DNL Workfront] så alla projekt som du har åtkomst till visas, oavsett status.
 author: Nolan
 exl-id: 78efce1a-f144-4e47-bd7e-c0347e016bea
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Du kan filtrera listan med projekt i [!DNL Workfront View] om du bara vill visa 
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst i [!DNL Workfront] för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,17 +31,21 @@ Du måste ha följande åtkomst i [!DNL Workfront] för att kunna utföra stegen
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong>/td&gt; 
+   <td role="rowheader"><strong>Adobe Workfront package</strong></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>[!UICONTROL Review] eller högre</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront-licens</strong></td> 
+   <td> 
+   <p>Medarbetare eller högre</p>
+   <p>Granska eller högre</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Filtrera listan [!UICONTROL projects] i [!UICONTROL Workfront View]
 

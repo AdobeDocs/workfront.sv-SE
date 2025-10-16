@@ -8,9 +8,9 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: e2e4fbb7-5433-4d88-8e36-d82f4cc8a194
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '617'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Du kan importera exporterade data på följande sätt:
 
 Sandlådemiljön för förhandsgranskning uppdateras under våra underhållsperioder under helgen.
 
-Mer information om underhållsfönstren för förhandsvisningens sandlådemiljö finns i [statuswebbplatsen för Adobe](https://status.adobe.com).
+Mer information om underhållsfönstren för förhandsvisningens sandlådemiljö finns i [Adobe statuswebbplats](https://status.adobe.com).
 
 >[!IMPORTANT]
 >
@@ -47,32 +47,27 @@ Mer information om underhållsfönstren för förhandsvisningens sandlådemiljö
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td>Alla</td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td><p>Nytt: Standard</p>
-       <p>eller</p>
-       <p>Aktuell: Planera</p></td>
-  </tr> 
+   <td>Adobe Workfront-licens</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>Konfigurationer på åtkomstnivå</td> 
+   <td>Systemadministratör</td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

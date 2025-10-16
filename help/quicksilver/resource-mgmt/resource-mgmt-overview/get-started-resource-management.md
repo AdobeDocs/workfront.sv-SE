@@ -7,9 +7,9 @@ description: Med Resurshantering kan du konfigurera ditt system så att användn
 author: Lisa
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,7 @@ Processen för att hantera resurser i Workfront omfattar följande steg:
   Mer information om resursplanering och tilldelning av arbete finns i följande avsnitt:
 
    * [Resursplanering: artikelindex](../../resource-mgmt/resource-planning/resource-planning-overview.md)
-   * [Adobe Workfront Scenario Planner](../../scenario-planner/scenario-planning.md)
+   * [[!DNL Adobe Workfront Scenario Planner]: artikelindex](../../scenario-planner/scenario-planning.md)
    * [Utjämning av arbetsbelastning: artikelindex](../../resource-mgmt/workload-balancer/workload-balancer.md)
 
 <!--

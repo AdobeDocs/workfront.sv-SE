@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 43ea91db-d6f2-4218-9261-580a7e5b31d0
-source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1090'
 ht-degree: 0%
 
 ---
@@ -124,7 +124,7 @@ För att öka effektiviteten och eliminera antalet klick har vi släppt en förb
 
 Användarna finns kvar på listan, rapporten eller kontrollpanelen efter att ha konverterat ett problem till ett projekt i stället för att omdirigeras till projektets sida. Ett meddelande om att projektet lyckades med länken till projektet visas när konverteringen är klar, så att du enkelt kan navigera till projektet, om det behövs.
 
-Mer information finns i [Konvertera ett problem till ett projekt i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+Mer information finns i [Konvertera ett problem till ett projekt](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 ## Allokeringstider tas inte längre bort när du ändrar tilldelningar
 

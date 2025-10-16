@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 479dfb9d-0e47-4790-a33a-336b415fbf6e
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
@@ -23,27 +23,22 @@ Du kan inaktivera ett företag som du inte längre använder samtidigt som alla 
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto">
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Workfront] plan</p> </td> 
-   <td><p>Aktuell: [!UICONTROL Team] eller högre</p>
-   <p>eller</p>
-   <p>Nytt: Alla</p>
+   <td> <p>[!DNL Workfront] package</p> </td> 
+   <td><p>Alla</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Adobe Workfront] licens</p> </td> 
-   <td><p>Aktuell: [!UICONTROL Plan]</p>
-   <p>eller</p>
-   <p>Nytt: [!UICONTROL Standard]</p>
+   <td> <p>[!DNL Adobe Workfront] licens</p> </td> 
+   <td><p>[!UICONTROL Plan]</p>
+   <p>[!UICONTROL Standard]</p>
    </td> 
   </tr>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><strong>Åtkomstnivåkonfigurationer</strong> </td> 
-   <td> <p>Något av följande:</p> 
+  <tr> 
+   <td>Konfigurationer på åtkomstnivå</td> 
+  <td> <p>Du måste ha något av följande:</p> 
     <ul> 
      <li> <p>Åtkomstnivån [!UICONTROL System Administrator], som gör att du kan redigera vilket företag som helst i systemet.</p> </li> 
      <li> <p>Administrativ åtkomst för att hantera företag, vilket gör att du kan redigera vilket företag som helst i systemet.</p> </li> 
@@ -52,16 +47,16 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
       <li> <p>Du kan också hantera företag som är kopplade till en grupp där du har tilldelats som gruppadministratör.</p> </li> 
       <li> <p>Om du vill lägga till och ta bort användare från systemet [!DNL Workfront] måste du ha något av följande:</p> 
        <ul> 
-        <li> <p>Åtkomstnivån [!UICONTROL System Administrator].</p> </li> 
-        <li> <p>I din åtkomstnivå måste [!UICONTROL Edit] väljas för inställningen [!UICONTROL Users]. Dessutom måste alternativet [!UICONTROL Create] och minst ett av de två alternativen [!UICONTROL User Admin] aktiveras för inställningen [!UICONTROL Users], under [!UICONTROL Fine-tune your settings] <img src="assets/gear-icon-in-access-levels.png">. </p> <p> <img src="assets/access-req-users.png"> </p> <p>Om du använder alternativet [!UICONTROL User Admin (Group Users)] måste du vara gruppadministratör för en grupp där användaren är medlem.</p> </li> 
+        <li> <p>Åtkomstnivån [!UICONTROL System Administrator]. </p> </li> 
+        <li> <p><b>[!UICONTROL Users]</b> inställningen i din åtkomstnivå konfigurerad till <b>[!UICONTROL Edit]</b> åtkomst, med <b>[!UICONTROL Create]</b> och minst ett av de två <b>[!UICONTROL User Admin]</b> alternativen aktiverade under <b>[!UICONTROL Fine-tune your settings]</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p> <img src="assets/access-req-users.png"> </p> <p>Om <b>[!UICONTROL User Admin (Group Users)]</b> är aktiverat måste du vara gruppadministratör för en grupp där användaren är medlem.</p> </li> 
        </ul>
        </li> 
-     </ul> </p> </td> 
+     </ul> </p> </td>
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

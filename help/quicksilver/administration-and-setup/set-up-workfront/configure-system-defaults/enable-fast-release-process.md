@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 71ef7a50-7a9f-43c4-b67c-8d9fc722569f
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,33 @@ Exempel:
 >
 >* Kunder som har köpt Workfront efter version 23.3 (juli 2023) har snabbversionsprocessen aktiverad som standard och kan avanmäla sig.
 >* Kunder som har köpt Workfront före version 23.3 har den snabba versionsprocessen inaktiverad som standard och kan välja att delta.
+
+## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Workfront package</td> 
+   <td><p>Alla</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td><p>Standard</p> <p>Plan</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td>Du måste vara Workfront-administratör. </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Att tänka på när du aktiverar eller inaktiverar processen för snabb släppning
 

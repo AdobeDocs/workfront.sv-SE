@@ -6,10 +6,10 @@ description: Efter installation av [!DNL Adobe Workfront] för [!DNL Salesforce]
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 84f8cb15-4840-4fe1-bf60-93bc4283b564
-source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 0%
+source-wordcount: '600'
+ht-degree: 1%
 
 ---
 
@@ -21,32 +21,35 @@ ht-degree: 0%
 >
 >Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Salesforce.
 >
->En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Mer information om de specifika funktionerna i Workfront Automation and Integration-modulerna för Salesforce finns i [Salesforce-moduler](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
+>Mer information om de specifika funktionerna i Workfront Automation and Integration-modulerna för Salesforce finns i [Salesforce-moduler](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
 När du har installerat [!DNL Adobe Workfront for Salesforce] kan du skicka [!DNL Workfront] förfrågningar från [!DNL Salesforce] säljprojekt och konton. Den här funktionaliteten finns i både [!DNL Classic]- och [!DNL Lightning Experience]-ramverket.
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna använda de funktioner som beskrivs i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>[!DNL Adobe Workfront] plan*</p></td> 
-   <td> <p>[!UICONTROL Pro] eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>[!DNL Adobe Workfront] licens*</p></td> 
-   <td> <p>[!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Standard</p>
+   <p>Plan</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Förutsättningar
 
@@ -90,7 +93,7 @@ Om du vill skicka en [!DNL Workfront]-begäran från en [!DNL Salesforce]-affär
    >
    >Beroende på hur administratören för [!DNL Workfront] konfigurerade det här avsnittet kan det ha ett annat namn.
 
-1. Välj fliken **[!UICONTROL Submitted Requests]**.
+1. Klicka på fliken **[!UICONTROL Submitted Requests]**.  
 
    Du kan visa alla förfrågningar som du eller andra har skickat från det här säljprojektet eller kontot på den här fliken.Förfrågningar som skickas till den här begärandekön i webbprogrammet visas inte i den här listan i [!DNL Salesforce].
 

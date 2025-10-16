@@ -3,12 +3,12 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Godkänn en tidrapport
 description: Processen att godkänna tidrapporter ger cheferna insyn i arbetstiden för sina direkta rapporter. Godkännarna kan verifiera att all registrerad tid har allokerats i rätt områden och att tillräckligt många timmar har registrerats för perioden.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -27,33 +27,28 @@ Information om hur du skickar in en tidrapport finns i [Skicka en tidrapport fö
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- </col> 
- <col> 
- </col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront</p></td> 
-   <td> <p>Alla</p> </td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
-   <td> <p>Nytt: Standard</p>
-   <p>Aktuell: Planera </p> 
-   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Administrativ åtkomst till tidrapporter och timmar </p> </td> 
-  </tr>
-
-</td> 
+   <td>Adobe Workfront-licens</td> 
+   <td>
+   <p>Standard</p>
+   <p>Plan</p></td>
+  </tr> 
+  <tr> 
+   <td>Konfigurationer på åtkomstnivå</td> 
+   <td><p>Administrativ åtkomst till tidrapporter och timmar</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

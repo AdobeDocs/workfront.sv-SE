@@ -6,9 +6,9 @@ description: Du kan överföra en ny dokumentversion och begära godkännande fr
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
-source-git-commit: 42fbb40cb8a0f3c70e22fd04bd3d0ce625f58fec
+source-git-commit: b615236d2666ebcc6db0d1f796fb0baaf362e0f2
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -38,17 +38,19 @@ Om den senaste dokumentversionen tas bort förblir de tidigare versionerna låst
    <td> <p> Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licenser*</td> 
+   <td role="rowheader">Adobe Workfront-licenser</td> 
    <td> <p>Begäran eller senare</p>
-   <p>Medarbetare eller högre</p> </td> 
+   <p>Medarbetare eller högre</p>
+   <p>Om du använder Frame.io-integreringen måste du ha en standardlicens för att skapa arbetsflöden för godkännande.</p>
+    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till dokument</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Redigera åtkomst till objektet som är associerat med dokumentet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Redigera åtkomst till objektet som är associerat med dokumentet</p> </td> 
   </tr> 
  </tbody> 
 </table>

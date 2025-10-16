@@ -7,16 +7,16 @@ description: Ett upplösningsbart objekt är ett problem vars upplösning är kn
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1760'
 ht-degree: 0%
 
 ---
 
 # Översikt över objekt som kan lösas och lösas
 
-<!-- Audited: 5/2025 -->
+<!-- Audited: 08/2025 -->
 
 Ett upplösningsbart objekt är ett problem vars upplösning är knuten till ett upplösningsbart objekt. Ett objekt som åtgärdar problemet är ett projekt, en uppgift eller ett annat problem.
 
@@ -76,7 +76,7 @@ The default status of the issue is controlled by the status of the project or ta
 
 ## Hantera det upplösta objektet under konverteringen till ett projekt eller en uppgift
 
-Beroende på hur Workfront eller gruppadministratören har konfigurerat inställningar för problem på system- eller gruppnivå kan du kanske hantera det lösta objektet när ett problem konverteras till ett projekt eller en uppgift.
+Beroende på hur Workfront eller gruppadministratören har konfigurerat inställningarna för problem på system- eller gruppnivå kan du kanske hantera det lösta objektet när ett problem konverteras till ett projekt eller en uppgift.
 
 Följande scenarier finns:
 
@@ -141,7 +141,7 @@ Följande standarduppgiftsstatus utlöser följande ändringar i standardutgivni
 
 | **AKTIVITETSSTATUS** | **UTFÄRDSSTATUS** |
 |---|---|
-| Nytt | Nytt |
+| Nyhet | Nyhet |
 | Pågår | Pågår |
 | Complete | Stängd |
 
@@ -149,7 +149,7 @@ Följande standardprojektstatus utlöser följande ändringar i standardutgivnin
 
 | **PROJEKTSTATUS** | **UTFÄRDSSTATUS** |
 |---|---|
-| Planering | Nytt |
+| Planering | Nyhet |
 | Aktuell | Pågår |
 | Parkerad | Parkerad |
 | Begärd | Utlöser ingen ändring av utgivningsstatus |

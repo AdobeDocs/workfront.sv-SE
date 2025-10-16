@@ -7,9 +7,9 @@ description: En iteration är en angiven tidsrymd som är reserverad för att sl
 author: Lisa
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -26,24 +26,21 @@ En iteration är en angiven tidsrymd som är reserverad för att slutföra arbet
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td> 
-   <p>Nytt: [!UICONTROL Contributor] eller senare</p> 
-   <p>eller</p>
-   <p>Aktuell: [!UICONTROL Request] eller högre</p>
+   <p>Medarbetare eller högre</p> 
+   <p>Begäran eller senare</p>
    </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
@@ -124,5 +121,5 @@ Use the [!UICONTROL Next Iteration] column to move cards from the current iterat
 ## Ta bort en iteration
 
 1. Klicka på fliken [!UICONTROL **Kortlista**] i arbetsflödet och öppna itereringsvyn.
-1. Klicka på ikonen **Ta bort** ![Ta bort &#x200B;](assets/delete.png) intill iterationen.
+1. Klicka på ikonen **Ta bort** ![Ta bort ](assets/delete.png) intill iterationen.
 1. Klicka på [!UICONTROL **Ta bort upprepning**] i bekräftelsemeddelandet.

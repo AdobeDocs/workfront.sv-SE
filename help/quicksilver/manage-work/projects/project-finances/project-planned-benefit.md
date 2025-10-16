@@ -7,9 +7,9 @@ description: Den planerade förmånen är det beräknade belopp som en organisat
 author: Lisa
 feature: Work Management
 exl-id: 1ded9d16-57be-40e0-b083-ee5273fd9b56
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
@@ -27,35 +27,32 @@ Mer information om beräkning av ett projekts nettovärde finns i artikeln [Ber�
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td>Alla</td> 
+   <td>Adobe Workfront package</td> 
+   <td>Alla </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td>Adobe Workfront-licens</td> 
    <td>
-   <p>Nytt: Standard</p>
-   <p>eller</p>
-   <p>Aktuell: Planera</p></td>  
+   <p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td>Konfigurationer på åtkomstnivå</td> 
    <td>Redigera åtkomst till projekt och finansiella data</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
+   <td>Objektbehörigheter</td> 
    <td>Hantera behörigheter till projektet med behörigheter för att hantera ekonomi</td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,7 +67,7 @@ Du kan visa eller uppdatera en planerad förmån för ett projekt inom följande
   Mer information om hur du skapar rapporter i Workfront finns i artikeln [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 * I Portfolio Optimizer.\
-  Mer information om optimering av Portfolio finns i artikeln [Översikt över optimering av Portfolio](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+  Mer information om Portfolio Optimizer finns i artikeln [Portfolio Optimizer - översikt](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 ## Uppdatera en planerad förmån för ett projekt
 

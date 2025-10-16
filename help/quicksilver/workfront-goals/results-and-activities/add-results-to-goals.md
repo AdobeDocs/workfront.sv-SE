@@ -7,20 +7,72 @@ description: Resultaten mäter förloppet för ett mål. Om du inte kopplar resu
 author: Alina
 feature: Workfront Goals
 exl-id: 30e22482-22e2-432d-bb73-7f9a9160aba2
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
 
 # Lägga till resultat i mål i Adobe Workfront
 
+<!--Audited for P&P only: 10/2025-->
+
 Resultaten mäter förloppet för ett mål. Om du inte kopplar resultat, aktiviteter eller justerade mål till ett mål kan du inte aktivera målet och du kan inte registrera förloppet för det.
 
 ## Åtkomstkrav
 
-Du måste ha följande:
+>[!NOTE]
+>
+>Ditt företag kan välja att fortsätta använda Adobe Workfront-mål om de tidigare har köpt det här paketet. Du måste prata med din kontorepresentant för mer information.
+>
+>Adobe Workfront-mål går inte längre att köpa.
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
+
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr>
+  <td> <p>Adobe Workfront package</p> </td> 
+   <td> 
+   <p>Adobe Workfront Ultimate</p>
+   </td> 
+  </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront-licens</td>
+ <td>
+ <p>Medarbetare eller högre</p>
+<p>Begäran eller senare</p></td>
+ </tr>
+  <tr>
+ <td role="rowheader">Åtkomstnivåkonfiguration</td>
+ <td> <p>Redigera åtkomst till mål</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Objektbehörigheter</td>
+ <td>
+  <div>
+  <p>Visa eller högre behörigheter för målet för att visa det</p>
+  <p>Hantera behörigheter till målet för att redigera det</p>
+  </div> </td>
+ </tr>
+<tr>
+   <td role="rowheader"><p>Layoutmall</p></td>
+   <td> <p>Alla användare, inklusive systemadministratörer, måste tilldelas en layoutmall som innehåller området Mål på huvudmenyn. </p>  
+</td>
+  </tr>
+</tbody>
+</table>
+
+Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto">
 <col>
@@ -29,55 +81,53 @@ Du måste ha följande:
 </col>
 <tbody>
  <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> 
-   <p>För den nya planen och licensstrukturen:
-  <ul><li>En Ultimate-plan </li></ul>
+   <p>For the new plan and license structure:
+  <ul><li>An Ultimate plan </li></ul>
    </p>
-<p>För aktuell plan och licensstruktur: 
-<ul><li> En Pro eller högre </li>
-  <li>En Adobe Workfront Goals-licens förutom en Workfront-licens.</li></ul></p>
+<p>For the current plan and license structure: 
+<ul><li> A Pro or higher </li>
+  <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
    </td> 
   </tr>
  <tr>
- <td role="rowheader">Adobe Workfront-licens*</td>
+ <td role="rowheader">Adobe Workfront license*</td>
  <td>
- <p>Ny licens: Medarbetare eller högre</p>
- eller
- <p>Aktuell licens: Begär eller högre</p> <p>Mer information finns i <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över Adobe Workfront-licenser</a>.</p> </td>
+ <p>New license: Contributor or higher</p>
+ Or
+ <p>Current license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
  </tr>
  <tr>
- <td role="rowheader">Produkt*</td>
+ <td role="rowheader">Product*</td>
  <td>
- <p> Nytt produktkrav, något av följande: </p>
+ <p> New product requirement, one of the following: </p>
 <ul>
-<li>A Select- eller Prime Adobe Workfront-plan och en extra licens för Adobe Workfront Goals.</li>
-<li>En Ultimate Workfront-plan som innehåller Workfront-mål som standard. </li></ul>
- <p>eller</p>
- <p>Aktuellt produktkrav: En Workfront-plan och ytterligare licens för Adobe Workfront-mål. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
+<li>A Select or Prime Adobe Workfront plan and an additional Adobe Workfront Goals license.</li>
+<li>An Ultimate Workfront plan which includes Workfront Goals by default. </li></ul>
+ <p>Or</p>
+ <p>Current product requirement: A Workfront plan and an additional license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
- <td role="rowheader"><p>Åtkomstnivå</p></td>
- <td> <p>Redigera åtkomst till mål</p>  </td>
+ <td role="rowheader"><p>Access level</p></td>
+ <td> <p>Edit access to Goals</p>  </td>
  </tr>
  <tr data-mc-conditions="">
- <td role="rowheader">Objektbehörigheter</td>
+ <td role="rowheader">Object permissions</td>
  <td>
   <div>
-  <p>Visa eller högre behörigheter för målet för att visa det</p>
-  <p>Hantera behörigheter till målet för att redigera det</p>
-  <p>Mer information om delningsmål finns i <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Dela ett mål i Workfront-mål</a>. </p>
+  <p>View or higher permissions to the goal to view it</p>
+  <p>Manage permissions to the goal to edit it</p>
+  <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
   </div> </td>
  </tr>
  <tr>
-   <td role="rowheader"><p>Layoutmall</p></td>
-   <td> <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller området Mål på huvudmenyn. </p>  
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
 </td>
   </tr>
 </tbody>
-</table>
-
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+</table>-->
 
 ## Förutsättningar
 

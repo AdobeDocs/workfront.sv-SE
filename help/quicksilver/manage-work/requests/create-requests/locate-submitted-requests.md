@@ -3,14 +3,14 @@ product-area: requests
 navigation-topic: create-requests
 title: Sök efter skickade begäranden
 description: Läs mer om de områden i Adobe Workfront där du kan hitta förfrågningar som du eller någon annan har skickat eller förfrågningar som du aldrig har skickat in och sparats som utkast.
-author: Alina
+author: Becky
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
@@ -41,21 +41,18 @@ Du kan hitta följande typer av förfrågningar som du eller någon annan har sk
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Nytt: Medarbetare eller högre</p>
-   eller
-   <p>Aktuell: Begäran eller senare</p>
+   <td> <p>Medarbetare eller högre</p>
+   <p>Begäran eller senare</p>
     </td> 
   </tr> 
   <tr> 
@@ -73,7 +70,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

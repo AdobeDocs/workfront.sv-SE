@@ -3,41 +3,41 @@ content-type: overview;how-to-procedural
 product-area: projects
 keywords: analys,mätvärden,projekt,uppgifter,tilldelad,fullständig,status,försenad,kommande
 navigation-topic: manage-projects
-title: Översikt över projektstatistik
+title: Förstå projektvärden
 description: Projektstatistik ger en visualisering av vad som händer i ett projekt, så att du snabbt kan bedöma projektets behov och status. Ta reda på hur du tolkar området Metrisk i den vänstra panelen i ett projekt.
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1161'
 ht-degree: 0%
 
 ---
 
-# Översikt över projektstatistik
+# Förstå projektstatistik
 
 Projektstatistik ger en allmän bild i diagramformat om hur ett projekt fungerar.
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront-licens*</td> 
-   <td> <p>Nytt: Ljus eller högre </p>
-   <p>Aktuell: Granska eller senare </p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Ljus eller högre</p>
+   <p>Granska eller högre</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Åtkomstnivåkonfiguration</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Visa åtkomst till projekt</p>  </td> 
   </tr> 
   <tr> 
@@ -50,6 +50,32 @@ Projektstatistik ger en allmän bild i diagramformat om hur ett projekt fungerar
 *Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Workfront license*</td> 
+   <td> <p>New: Light or higher </p>
+   <p>Current: Review or higher </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configuration</td> 
+   <td> <p>View access to Projects</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to a project</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Förutsättningar
 

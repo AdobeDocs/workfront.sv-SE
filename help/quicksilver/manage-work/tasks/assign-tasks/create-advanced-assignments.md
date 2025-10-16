@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
+source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -49,33 +49,32 @@ Dessutom kan du göra avancerade uppdrag inom följande områden av Workfront:
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td>Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Nytt: Standard</p>
-    <p>Aktuell: Arbete eller högre</p> </td> 
+   <td>Adobe Workfront-licens</td> 
+   <td> <p>Standard</p>
+   <p>Arbeta eller högre</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td role>Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till uppgifter och ärenden</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Contribute eller högre behörighet för en uppgift eller ett ärende</p>  </td> 
+   <td>Objektbehörigheter</td> 
+   <td> <p>Contribute eller högre behörighet för aktiviteten eller problemet</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -88,7 +87,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    >
    >Du kan göra avancerade uppdrag direkt i uppgifts- eller utleveranslistan. Klicka i fältet **Uppdrag** på samma rad som uppgiften eller utgåvan och klicka sedan på <span class="preview">**Avancerat**</span> eller **Ikonen Personer** för att öppna fönstret Avancerade uppdrag. Gå till steg 5 om du vill fortsätta skapa avancerade uppdrag.
    ><span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
-   >![Klicka på Avancerat eller på ikonen Personer &#x200B;](assets/access-aa-from-lists.png)
+   >![Klicka på Avancerat eller på ikonen Personer ](assets/access-aa-from-lists.png)
    >Exempelbild i produktionsmiljön:
    >![Klicka på ikonen Personer](assets/nwe-advanced-assignments-350x55.png)
 

@@ -6,9 +6,9 @@ description: En kalenderrapport är en dynamisk rapport som ger en visuell repre
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 40cc8628-7641-41ce-b8e5-7f5ed5ad36c7
-source-git-commit: 5c0278607faf65b58abeb9b813e403f97032a965
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,6 @@ En [!UICONTROL calendar]-rapport är en dynamisk rapport som ger en visuell repr
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -34,22 +32,21 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td><p>Nytt: Standard</p>
-       <p>eller</p>
-       <p>Aktuell: Planera</p></td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>[!UICONTROL Edit] åtkomst till [!UICONTROL Reports], [!UICONTROL Dashboards] och [!UICONTROL Calendars]</p></td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td>[!UICONTROL Manage] åtkomst till kalenderrapporten</td> 
+   <td>Hantera åtkomst till kalenderrapporten</td> 
   </tr> 
  </tbody> 
 </table>

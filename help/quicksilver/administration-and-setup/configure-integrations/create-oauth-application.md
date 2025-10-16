@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: 09f7e854c2df1291feb150d2169fa6ccd5cdb1d6
+source-git-commit: 711812d9fd4bf48bb7612c0339cee2cdbe08ef10
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1814'
 ht-degree: 0%
 
 ---
@@ -33,30 +33,26 @@ När du skapar ett [!UICONTROL OAuth2]-program genererar du ett klient-ID och en
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>Alla</p> </td> 
+   <td role="rowheader">Workfront package</td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td><p>Nytt: [!UICONTROL Standard]</p>
-   eller
-   <p>Aktuell:[!UICONTROL Plan]</p></td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td><p>Standard</p> <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> Du måste vara en [!DNL Workfront]-administratör. </td> 
+   <td>Du måste vara Workfront-administratör. </td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -132,7 +128,7 @@ När du skapar ett OAuth2-program ska du välja den typ av program som bäst upp
 1. Klicka på **[!UICONTROL System]** i den vänstra navigeringspanelen och välj sedan **[!UICONTROL OAuth2 Applications]**.
 1. Klicka på **[!UICONTROL Create app integration]**.
 Rutan **Nytt OAuth2-program** visas.
-1. Välj **[!UICONTROL Machine to Machine Application]** i rutan **Nytt OAuth2-program**.
+1. Välj **i rutan** Nytt OAuth2-program **[!UICONTROL Machine to Machine Application]**.
 1. Ange ett namn för det nya programmet, till exempel [!DNL Workfront] för ClientApp.
 1. Klicka på **[!UICONTROL Create]**.
 1. Fyll i fälten för den nya appen.
@@ -192,7 +188,7 @@ Instruktioner om hur du konfigurerar och använder OAuth2-programmet med inloggn
 1. Klicka på **[!UICONTROL Create app integration]**.
 
    **Nytt OAuth2-program** visas.
-1. Välj **[!UICONTROL Web Application]** i rutan **Nytt OAuth2-program**.
+1. Välj **i rutan** Nytt OAuth2-program **[!UICONTROL Web Application]**.
 1. Ange ett namn för det nya OAuth2-programmet, till exempel [!DNL Workfront] för ClientApp.
 1. Klicka på **[!UICONTROL Create]**.
 1. Fyll i fälten för den nya appen.
@@ -260,7 +256,7 @@ Instruktioner om hur du konfigurerar och använder OAuth2-programmet med inloggn
 1. Klicka på **[!UICONTROL Create app integration]**.
 
    Rutan **Nytt OAuth2-program** visas.
-1. Välj **[!UICONTROL Single Page Web Application]** i rutan **Nytt OAuth2-program**.
+1. Välj **i rutan** Nytt OAuth2-program **[!UICONTROL Single Page Web Application]**.
 1. Ange ett namn för det nya [!UICONTROL OAuth2]-programmet, till exempel [!DNL Workfront] för ClientApp.
 1. Klicka på **[!UICONTROL Create]**.
 1. Fyll i fälten för den nya appen.

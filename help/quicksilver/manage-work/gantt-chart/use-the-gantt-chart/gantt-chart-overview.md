@@ -1,20 +1,24 @@
 ---
 content-type: overview
 navigation-topic: gantt-chart
-title: Översikt över Gantt-schema
-description: Hitta information om diagrammet [!UICONTROL Gantt] i följande artiklar.
+title: 'Gantt-schema: Artikelindex'
+description: Gantt-scheman i Adobe Workfront ger en visuell representation av tidslinjen för en lista över uppgifter eller projekt. Hitta information om diagrammet [!UICONTROL Gantt] i följande artiklar.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: b4dc991e-d89c-4167-ac9c-54bda23d08d8
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Gantt Chart] - översikt
+# [!UICONTROL Gantt Chart]: Artikelindex
+
+<!--Audited: 08/2025-->
+
+Gantt-scheman i Adobe Workfront ger en visuell representation av tidslinjen för en lista över uppgifter eller projekt.
 
 Det här avsnittet innehåller följande artiklar:
 

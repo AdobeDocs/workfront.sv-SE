@@ -4,10 +4,10 @@ product-area: timesheets
 navigation-topic: timesheets-navigation-topic
 title: Översikt över tidrapporter
 description: Du kan använda tidrapporter för att spåra den tid du tillbringar på arbetet, både internt och externt, i Adobe Workfront.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 0%

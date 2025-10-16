@@ -6,9 +6,9 @@ description: Du kan ta bort enskilda godkännare eller granskare från ett dokum
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: b615236d2666ebcc6db0d1f796fb0baaf362e0f2
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -25,32 +25,35 @@ Du kan ta bort enskilda godkännare eller granskare från en resurs eller ett do
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Granska eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> 
+   <p>Medarbetare eller högre</p>
+   <p>Granska eller högre</p>
+   <p>Om du använder Frame.io-integreringen måste du ha en standardlicens för att skapa arbetsflöden för godkännande.</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa eller ge senare åtkomst till projekt, uppgifter, ärenden, mallar, portföljer, program, rapporter, instrumentpaneler och kalendrar, dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Visa eller ge senare åtkomst till projekt, uppgifter, ärenden, mallar, portföljer, program, rapporter, instrumentpaneler och kalendrar, dokument</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera åtkomst till objektet som är associerat med åtkomstbegäran eller godkännandet </p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera åtkomst till objektet som är associerat med åtkomstbegäran eller godkännandet </p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -60,7 +63,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Välj **Godkännanden** i den vänstra rutan.
 
-1. Håll muspekaren över namnet på den godkännare eller granskare som du vill ta bort och klicka sedan på ikonen **Ta bort** ![Ta bort &#x200B;](../assets/delete.png) som visas efter namnet.
+1. Håll muspekaren över namnet på den godkännare eller granskare som du vill ta bort och klicka sedan på ikonen **Ta bort** ![Ta bort ](../assets/delete.png) som visas efter namnet.
 
    Godkännandet eller granskningsbegäran tas bort och godkännaren får ett meddelande om att deras godkännande inte längre behövs. Deras godkännanderelaterade resursåtkomst tas också bort.
 
@@ -76,7 +79,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Välj den version av dokumentet som du vill ta bort en godkännare eller granskare för i listrutan för version. Den senaste versionen väljs som standard.
 
-1. Bläddra ned till avsnittet **Godkännanden** i rutan Dokumentsammanfattning. Håll muspekaren över namnet på den godkännare eller granskare som du vill ta bort och klicka sedan på ikonen **Ta bort** ![Ta bort &#x200B;](../assets/delete.png) som visas efter namnet.
+1. Bläddra ned till avsnittet **Godkännanden** i rutan Dokumentsammanfattning. Håll muspekaren över namnet på den godkännare eller granskare som du vill ta bort och klicka sedan på ikonen **Ta bort** ![Ta bort ](../assets/delete.png) som visas efter namnet.
 
    Godkännandet eller granskningsbegäran tas bort och godkännaren får ett meddelande om att deras godkännande inte längre behövs. Deras godkännanderelaterade resursåtkomst tas också bort.
 

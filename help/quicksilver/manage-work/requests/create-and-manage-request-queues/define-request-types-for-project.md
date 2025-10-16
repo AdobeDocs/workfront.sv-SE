@@ -3,12 +3,12 @@ product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
 title: Definiera frågetyper för ett projekt
 description: Du kan ordna den typ av problem eller förfrågningar som är loggade i Adobe Workfront med hjälp av frågetyper.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 627749bb-a8d7-4cc2-9d11-237811f82eb8
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -28,14 +28,14 @@ Du kan ordna den typ av problem eller förfrågningar som är loggade i Adobe Wo
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
    <td>
-    <p>Nytt: Standard</p>
-    <p>Aktuell: Planera</p></td>  
+    <p>Standard</p>
+    <p>Plan</p></td>  
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -48,7 +48,7 @@ Du kan ordna den typ av problem eller förfrågningar som är loggade i Adobe Wo
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

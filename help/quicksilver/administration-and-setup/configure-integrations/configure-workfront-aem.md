@@ -8,50 +8,47 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: 51dfd1ff1ad0f5847db42cfc1d5f9b5f907f672d
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '1648'
+source-wordcount: '1635'
 ht-degree: 0%
 
 ---
 
 # Konfigurera [!DNL Workfront] med [!DNL Adobe Experience Manager] äldre anslutning
 
+<!-- Audited: 4/2025 -->
+
 Som [!DNL Adobe Workfront]-administratör kan du integrera [!DNL Workfront] med [!UICONTROL Adobe Experience Manager (AEM) Assets] och ge din organisation en omfattande innehållshanteringslösning för att skapa, dela och underhålla resurser i ditt arbetsflöde.
 
 ## Åtkomstkrav
 
-<!-- Audited: 4/2025 -->
-
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Alla</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td><p>Nytt: Standard</p>
-   <p>eller</p>
-   <p>Aktuell: Planera</p>
- </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td>Systemadministratör </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>Adobe Workfront package
+   </td>
+   <td> <p>Prime eller Ultimate</p>
+    <p>Arbetsflöde Ultimate</p>
+   </td>
+  </tr>
+  <tr>
+   <td>Adobe Workfront-licenser
+   </td>
+   <td><p>Standard</p>
+   <p>Plan</p>
+   </td>
+  </tr>
+   <tr>
+   <td>Konfigurationer på åtkomstnivå
+   </td>
+   <td>Du måste vara en [!DNL Workfront]-administratör.
+   </td>
+  </tr>
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## [!DNL Workfront for AEM Assets]
 
@@ -74,7 +71,7 @@ Med [!DNL Workfront for AEM Assets connector] kan din organisation göra följan
 
 Innan du kan installera [!DNL Workfront]-anslutningen för [!UICONTROL AEM Assets] måste du kontrollera att följande krav uppfylls:
 
-* [!UICONTROL AEM Assets] är installerat och konfigurerat, version 6.5 eller senare. Mer information om hur du installerar [!UICONTROL AEM Assets] finns i [[!DNL Adobe Experience Manager] dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-manager).
+* [!UICONTROL AEM Assets] är installerat och konfigurerat, version 6.5 eller senare. Mer information om hur du installerar [!UICONTROL AEM Assets] finns i [[!DNL Adobe Experience Manager] dokumentationen](https://experienceleague.adobe.com/en/docs/experience-manager).
 * (Villkorligt) Om brandväggsreglerna inte tillåter trafik som förväntat lägger du till klustrets IP-adress och/eller domän i tillåtelselista. Mer information finns i [Konfigurera brandväggens tillåtelselista](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## Installera [!DNL Workfront for AEM Assets]-anslutningspaketet {#install-the-workfront-for-aem-assets-connector-package}
@@ -94,7 +91,7 @@ Om du vill installera [!DNL Workfront for AEM Assets]-anslutningen måste du imp
 
 1. Klicka på **[!UICONTROL Upload Package].**
 
-1. Bläddra efter och markera paketet **[!UICONTROL Workfront Connector]** i dialogrutan **[!UICONTROL Upload Package]** och klicka sedan på **[!UICONTROL OK]**. Paketet visas i [!UICONTROL CRX Package Manager].
+1. Bläddra efter och markera paketet **[!UICONTROL Upload Package]** i dialogrutan **[!UICONTROL Workfront Connector]** och klicka sedan på **[!UICONTROL OK]**. Paketet visas i [!UICONTROL CRX Package Manager].
 
 1. Klicka på **[!UICONTROL Install].**
 
@@ -127,7 +124,7 @@ Innan du börjar måste du aktivera behörigheter för Workfront Service:
 1. I det övre vänstra hörnet väljer du **[!UICONTROL Users]** &#x200B; i listrutan och anger *[!UICONTROL workfront-service]* i &#x200B; **[!UICONTROL Search]** . Välj användaren [!UICONTROL workfront-service].
 1. Välj **[!UICONTROL Add ACE]** till höger på skärmen för att skapa nya poster.
 1. I fönstret &#x200B;**[!UICONTROL Add New Entry]** &#x200B; markerar du kryssruteikonen i &#x200B; **[!UICONTROL Path]** och väljer mappen: */conf*
-1. I fältet **Behörigheter** anger du: *jcr:read*
+1. Ange **jcr** i fältet *Behörigheter:read*
 1. Välj **Lägg till** i det övre högra hörnet.
 1. (Valfritt) Upprepa stegen ovan om du vill skapa fler poster.
 
@@ -138,7 +135,7 @@ Innan du börjar måste du aktivera behörigheter för Workfront Service:
 
 1. (Villkorligt) Om du inte har gjort det än skapar du en [!DNL Workfront]-molnkonfigurationsfil:
 
-   1. Klicka på **[!UICONTROL Create]** i det övre högra hörnet på sidan [!DNL Global-Workfront].
+   1. Klicka på [!DNL Global-Workfront] i det övre högra hörnet på sidan **[!UICONTROL Create]**.
    1. I rutan **[!UICONTROL Workfront URL]** anger du URL:en för [!DNL Workfront]-instansen.
 
       Exempel: [!DNL https]://`<account>`.my.workfront.com, där `<account>` är det konto du använder för integreringar med AEM.
@@ -149,7 +146,7 @@ Innan du börjar måste du aktivera behörigheter för Workfront Service:
 
       Du kan länka till valfri mapp under roten /content/dam/.
 
-   1. Ange [!UICONTROL Workfront] API-nyckeln i rutan **[!UICONTROL Workfront API Key]**.
+   1. Ange **[!UICONTROL Workfront API Key]** API-nyckeln i rutan [!UICONTROL Workfront].
 
       Så här hämtar du [!DNL Workfront] API-nyckeln:
 
@@ -163,11 +160,11 @@ Innan du börjar måste du aktivera behörigheter för Workfront Service:
 
       1. (Villkorligt) Om du ännu inte har genererat någon API-nyckel måste du generera en:
 
-         1. Kontrollera att alternativet **[!UICONTROL After Creation, API keys expire in]** är **Inget** i avsnittet **[!UICONTROL API Key Settings]**.
+         1. Kontrollera att alternativet **[!UICONTROL API Key Settings]** är **[!UICONTROL After Creation, API keys expire in]** Inget **i avsnittet**.
 
             Om du väljer en förfalloperiod slutar kopplingen att fungera när API-nyckeln har upphört att gälla. Du måste sedan återskapa en API-nyckel och uppdatera din [!DNL Workfront]-konfiguration.
 
-         1. Klicka på **[!UICONTROL Generate API Key]** under etiketten **[!UICONTROL Your User's API Key]**. En API-nyckel för [!DNL Workfront] genererar och visar.
+         1. Klicka på **[!UICONTROL Your User's API Key]** under etiketten **[!UICONTROL Generate API Key]**. En API-nyckel för [!DNL Workfront] genererar och visar.
       1. Kopiera API-nyckeln till Urklipp.
       1. Öppna webbläsarfliken för AEM Connector och klistra sedan in API-nyckeln som du kopierade i rutan **[!DNL Workfront API Key]**.
    1. (Villkorligt) Klicka på fliken **[!UICONTROL Advanced]** i det övre vänstra hörnet på sidan [!UICONTROL [!DNL Workfront] Integration Configuration] och välj följande alternativ om tillämpligt:
@@ -244,7 +241,7 @@ Innan du börjar måste du aktivera behörigheter för Workfront Service:
 
 ## Konfigurera [!DNL Workfront] för integrering med [!DNL AEM assets] {#configure-workfront-to-integrate-with-aem-assets}
 
-När du har installerat [!UICONTROL Workfront for AEM Assets] Connector (enligt beskrivningen i [&#x200B; Installera [!UICONTROL Workfront for AEM Assets]-anslutningspaketet](#install-the-workfront-for-aem-assets-connector-package)) och konfigurerat [!UICONTROL AEM Assets] (enligt beskrivningen i [Konfigurera[!UICONTROL &#x200B; AEM Assets] för integrering med  [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront)) måste du konfigurera [!DNL Workfront] för att länka dokument mellan [!DNL Workfront] och [!DNL AEM Assets].
+När du har installerat [!UICONTROL Workfront for AEM Assets] Connector (enligt beskrivningen i [ Installera [!UICONTROL Workfront for AEM Assets]-anslutningspaketet](#install-the-workfront-for-aem-assets-connector-package)) och konfigurerat [!UICONTROL AEM Assets] (enligt beskrivningen i [Konfigurera[!UICONTROL  AEM Assets] för integrering med  [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront)) måste du konfigurera [!DNL Workfront] för att länka dokument mellan [!DNL Workfront] och [!DNL AEM Assets].
 
 1. Logga in på Workfront som administratör.
 
@@ -269,7 +266,7 @@ När du har installerat [!UICONTROL Workfront for AEM Assets] Connector (enligt 
 
 1. I listrutan **[!UICONTROL Authentication Type]** väljer du **[!UICONTROL ApiKey].**
 
-1. Klistra in AEM API-nyckeln som du kopierade när du konfigurerade [!UICONTROL AEM Assets] i rutan &#x200B;**[!UICONTROL API Key]**.
+1. Klistra in AEM API-nyckeln som du kopierade när du konfigurerade **[!UICONTROL API Key]** i rutan &#x200B;[!UICONTROL AEM Assets].
 1. Klicka på **[!UICONTROL Save]**.
 1. (Valfritt) Kontrollera att integreringen är markerad som [!UICONTROL Active].\
    ![aem_custom_integration_active.png](assets/aem-custom-integration-active-350x81.png)

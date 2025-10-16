@@ -6,9 +6,9 @@ description: Du kan använda området [!UICONTROL My Updates] för att snabbt gr
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
+source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
@@ -33,21 +33,18 @@ Om du har en annan licenstyp än Granska måste [!DNL Workfront]- eller gruppadm
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>Nytt: Medarbetare eller högre</p>
-   eller   
-   <p>Aktuell: [!UICONTROL Request] eller högre</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens</strong></td> 
+   <td> <p>Medarbetare eller högre</p>
+   <p>Begäran eller senare</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Åtkomstnivåkonfiguration</strong></td> 
@@ -60,7 +57,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-*Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

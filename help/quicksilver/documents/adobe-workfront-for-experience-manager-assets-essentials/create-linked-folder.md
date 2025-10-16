@@ -7,9 +7,9 @@ description: Du kan skapa en mapp som är länkad till Experience Manager Assets
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: e9c6a01e80d34bc873c9a06ae0782dc65afb2445
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -24,23 +24,23 @@ Om en resurs tas bort eller flyttas från en länkad mapp i Experience Manager A
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande:
-
 <table>
   <tr>
-   <td><strong>Adobe Workfront-plan*</strong>
+   <td><strong>Adobe Workfront-paket</strong>
    </td>
    <td>Alla
    </td>
   </tr>
   <tr>
-   <td><strong>Adobe Workfront-licenser*</strong>
+   <td><strong>Adobe Workfront-licenser</strong>
    </td>
-   <td>Plan
+   <td>
+   <p>Standard</p>
+   <p>Plan</p>
    </td>
   </tr>
   <tr>
-   <td><strong>Produkt</strong>
+   <td><strong>Ytterligare produkter</strong>
    </td>
    <td>Du måste ha Experience Manager Assets as a Cloud Service eller Assets Essentials, och du måste läggas till i produkten som användare.
    </td>
@@ -59,8 +59,7 @@ Du måste ha följande:
   </tr>
 </table>
 
-
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -7,9 +7,9 @@ description: För att få åtkomst till Data Connect-data måste du först skapa
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
+source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '617'
 ht-degree: 0%
 
 ---
@@ -18,41 +18,33 @@ ht-degree: 0%
 
 För att få tillgång till data i Data Connect måste du först skapa ett Snowflake-läsarkonto (eller tjänstkonto) för din organisation och sedan skapa en ny anslutning för varje användare eller verktyg som du vill ha tillgång till med Data Connect.
 
-När du har skapat en anslutning kan du hitta dess associerade URL och användarnamn genom att klicka på den på sidan **Dataanslutning** (**Huvudmeny** > **Inställningar** > **System** > **Dataanslutning**) på fliken **Befintliga anslutningar** .
+När du har skapat en anslutning kan du hitta dess associerade URL och användarnamn genom att klicka på den på sidan Dataanslutning (huvudmenyn > Inställningar > System > Dataanslutning) under fliken Befintliga anslutningar.
 
 Mer information om hur du använder en nyligen skapad anslutning med en extern produkt finns i [Upprätta en anslutning till Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md).
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkraven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td><p>Ingår i följande planer:</p>
-    <ul>
-        <li>Ultimate</li> 
-    </ul>    
-   <!--<p>Can be purchased as an add-on to the following plans:</p> 
-    <ul>
-        <li>Select</li> 
-        <li>Prime</li>
-    </ul>--> 
-    <p>Workfront Data Connect är inte tillgängligt för tidigare Workfront-planer.</p> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Ultimate</p>
+    <p>Arbetsflöde Ultimate</p>
    </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td><p>Plan</p></td> 
+   <td>
+   <p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör.</p></td> 
+   <td> <p>Du måste vara Workfront-administratör</p></td> 
   </tr> 
  </tbody> 
 </table>

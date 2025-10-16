@@ -6,9 +6,9 @@ description: En diagramrapport som visualiserar dina data som stapel-, kolumn-, 
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 56d0b9281387cc7b35055461e7868c7e4a194f81
+source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1381'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Delar av funktionen kanske inte är fullständiga eller fungerar som de ska i det här skedet. Skicka feedback om din upplevelse genom att följa instruktionerna i avsnittet [Ge feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) i översiktsartikeln i Canvas Dashboards.<br>
->&#x200B;>Om du har synpunkter på ett eventuellt fel eller tekniska problem ber vi dig skicka ett supportärende till Workfront Support. Mer information finns i [Kontakta kundsupport](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Observera att betaversionen inte är tillgänglig för följande molnleverantörer:
+>>Om du har synpunkter på ett eventuellt fel eller tekniska problem ber vi dig skicka ett supportärende till Workfront Support. Mer information finns i [Kontakta kundsupport](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>>Observera att betaversionen inte är tillgänglig för följande molnleverantörer:
 >
 >* Använd din egen nyckel för Amazon Web Services
 >* Azure
@@ -31,7 +31,7 @@ Du kan skapa och lägga till en diagramrapport på en Canvas Dashboard för att 
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven. 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -40,7 +40,7 @@ Du kan skapa och lägga till en diagramrapport på en Canvas Dashboard för att 
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
 <p>Alla </p> 
    </td> 
@@ -48,8 +48,8 @@ Du kan skapa och lägga till en diagramrapport på en Canvas Dashboard för att 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
    <td> 
-<p>Aktuell: Planera </p> 
-<p>Nytt: Standard</p> 
+<p>Standard</p> 
+<p>Plan</p> 
    </td> 
    </tr> 
   </tr> 
@@ -123,7 +123,7 @@ Det finns många konfigurationsalternativ för att skapa en diagramrapport. I de
 
 1. Följ stegen nedan för att konfigurera avsnittet **Filter**:
 
-   1. Klicka på ikonen **Filter**![&#x200B; Filter](assets/filter-icon.png) i den vänstra panelen.
+   1. Klicka på ikonen **Filter**![ Filter](assets/filter-icon.png) i den vänstra panelen.
    1. Välj **Redigera filter**.
    1. Klicka på **Lägg till villkor** och ange sedan fältet som du vill filtrera efter och modifieraren som definierar vilken typ av villkor som fältet måste uppfylla.
    1. (Valfritt) Klicka på **Lägg till filtergrupp** om du vill lägga till ytterligare en uppsättning filtervillkor. Standardoperatorn mellan uppsättningarna är AND. Klicka på operatorn för att ändra den till ELLER.

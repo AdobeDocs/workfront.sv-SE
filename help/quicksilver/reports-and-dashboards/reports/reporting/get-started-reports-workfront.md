@@ -7,9 +7,9 @@ description: Rapporterna ger insyn i vad som händer med användare och arbete. 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '3293'
+source-wordcount: '3292'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ Mer information om hur du skapar rapporter finns i [Skapa en anpassad rapport](/
 
 ### Krav för att skapa rapporter {#prerequisites-for-creating-reports}
 
-* Du måste ha en planlicens (aktuella licenser) eller en standardlicens (nya licenser) för att kunna skapa egna rapporter.
+* Du måste ha en Standard- eller Plan-licens för att kunna skapa egna rapporter.
 
   Information om Workfront licenstyper finns i [Licensöversikt](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) för aktuella licenser och [Översikt över nya licenser](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) för nya licenser.
 
@@ -177,7 +177,7 @@ Fliken Detaljer i en rapport visar rapporternas objekt och de attribut du välje
 >[!IMPORTANT]
 >
 >Information på fliken Detaljer kan visas på ett annat sätt än på fliken Diagram beroende på din tidszon.\
->Till exempel slutförde en användare i Kalifornien en uppgift kl. 21.30 PST den 12 februari. När en användare i New York visar en rapport som innehåller den här uppgiften som slutförd, visas det faktiska slutförandedatumet som den 13 februari på både fliken Information och diagraminformationen eftersom den slutfördes kl. 12.30 EST den 13 februari. I diagrammet inkluderas det dock i grupperingen 12 februari tills du expanderar diagramelementet.
+>En användare i Kalifornien slutförde till exempel en uppgift kl. 21.00 PST den 12 februari. :30 När en användare i New York visar en rapport som innehåller den här uppgiften som slutförd, visas det faktiska slutförandedatumet som den 13 februari på både fliken Information och diagraminformationen, eftersom det slutfördes kl. 12 :30 EST den 13 februari. I diagrammet inkluderas det dock i grupperingen 12 februari tills du expanderar diagramelementet.
 
 ### Fliken Sammanfattning {#summary-tab}
 
@@ -206,7 +206,7 @@ Rapporter som innehåller ett diagram har en diagramflik.
 >[!IMPORTANT]
 >
 >När du klickar på ett diagramelement kan den utökade informationen visas på ett annat sätt än det diagram som är baserat på din tidszon.\
->Till exempel slutförde en användare i Kalifornien en uppgift kl. 21.30 PST den 12 februari. När en användare i New York visar en rapport som innehåller den här uppgiften som slutförd, visas det faktiska slutförandedatumet som den 13 februari på både fliken Information och diagraminformationen eftersom den slutfördes kl. 12.30 EST den 13 februari. I diagrammet inkluderas det dock i grupperingen 12 februari tills du expanderar diagramelementet.
+>En användare i Kalifornien slutförde till exempel en uppgift kl. 21.00 PST den 12 februari. :30 När en användare i New York visar en rapport som innehåller den här uppgiften som slutförd, visas det faktiska slutförandedatumet som den 13 februari på både fliken Information och diagraminformationen, eftersom det slutfördes kl. 12 :30 EST den 13 februari. I diagrammet inkluderas det dock i grupperingen 12 februari tills du expanderar diagramelementet.
 
 Mer information om hur du skapar en rapport med ett diagram finns i artikeln [Lägg till ett diagram i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
@@ -325,7 +325,7 @@ Följande termer används som referens för Workfront-rapporter:
   </tr> 
   <tr> 
    <td>Fält</td> 
-   <td> <p>Hänvisar till objektens attribut. "Status" är till exempel ett fält för Projekt, Åtgärder eller Problem. "Portfolio Manager" är ett fält för objektet Portfolio.</p> <p>Du kan också ha anpassade fält som du skapar själv och lägger till i anpassade formulär.<br>Mer information om hur du skapar anpassade formulär finns i artikeln <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Skapa ett anpassat formulär</a>.</p> </td> 
+   <td> <p>Hänvisar till objektens attribut. "Status" är till exempel ett fält för Projekt, Åtgärder eller Problem. "Portfolio Manager" är ett fält för Portfolio-objektet.</p> <p>Du kan också ha anpassade fält som du skapar själv och lägger till i anpassade formulär.<br>Mer information om hur du skapar anpassade formulär finns i artikeln <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Skapa ett anpassat formulär</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Fältnamn </td> 

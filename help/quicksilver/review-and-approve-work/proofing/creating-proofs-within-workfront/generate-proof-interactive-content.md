@@ -2,51 +2,52 @@
 product-area: documents
 navigation-topic: create-proofs-within-workfront
 title: Skapa ett korrektur för interaktivt innehåll i en ZIP-fil
-description: Du kan generera ett korrektur för interaktivt innehåll som inte finns på webbplatsen och som lagras i en ZIP-fil. Exempel på den här typen av webbinnehåll är bl.a. annonser med direktuppspelad video eller ljud, HTML-animeringar och interaktiva banners.
+description: Du kan generera ett korrektur för interaktivt innehåll som inte finns på webbplatsen och som lagras i en ZIP-fil. Exempel på den här typen av webbinnehåll är bl.a. annonser med direktuppspelad video eller ljud, HTML-animationer och interaktiva banners.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ab00d17-a3a3-4417-a958-ac3d95cb8fc8
-source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
 
 # Skapa ett korrektur för interaktivt innehåll i en ZIP-fil
 
-Du kan generera ett korrektur för interaktivt innehåll som inte finns på webbplatsen och som lagras i en ZIP-fil. Exempel på den här typen av webbinnehåll är bl.a. annonser med direktuppspelad video eller ljud, HTML-animeringar och interaktiva banners.
+Du kan generera ett korrektur för interaktivt innehåll som inte finns på webbplatsen och som lagras i en ZIP-fil. Exempel på den här typen av webbinnehåll är bl.a. annonser med direktuppspelad video eller ljud, HTML-animationer och interaktiva banners.
 
 ## Åtkomstkrav
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Gammal plan: Premium</p> <p>Mer information om korrekturåtkomst för olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Åtkomst till korrekturfunktioner i Workfront</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Alla (du måste ha språkkontroll aktiverat för användaren)</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> 
+   <p>Standard</p>
+   <p>Arbete eller plan</p> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Behörighetsprofil för bevis </td> 
    <td>Chef eller högre</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till dokument</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -6,9 +6,9 @@ description: Du kan uppdatera status för ett projekt manuellt till en annan sta
 author: Alina
 feature: Work Management
 exl-id: 80098514-fd44-436d-836b-bd9c1b52b3a9
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -27,21 +27,20 @@ Mer information om projektets slutföringsläge finns i [Redigera projekt](/help
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Nytt: Standard </p> 
-   eller
-   <p>Aktuell: Planera </p>
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Standard</p> 
+   <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
@@ -55,7 +54,38 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New: Standard </p> 
+   Or
+   <p>Current: Plan </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions on the project</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Att tänka på när du uppdaterar till specifika statusar
 
@@ -71,6 +101,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    eller
 
-   Klicka på menyn **Mer** ![Mer &#x200B;](assets/qs-more-menu.png) bredvid namnet på projektet och klicka på **Redigera** och välj en ny status i fältet **Status**. Klicka sedan på **Spara**.
+   Klicka på menyn **Mer** ![Mer ](assets/qs-more-menu.png) bredvid namnet på projektet och klicka på **Redigera** och välj en ny status i fältet **Status**. Klicka sedan på **Spara**.
 
    Projektstatusen uppdateras till den valda statusen.

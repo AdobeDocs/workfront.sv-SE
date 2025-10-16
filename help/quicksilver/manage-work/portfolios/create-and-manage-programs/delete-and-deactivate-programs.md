@@ -5,7 +5,7 @@ title: Ta bort och inaktivera program
 description: Ett program representerar en samling projekt som delar en gemensam strategi, mål eller mål som överskrider projektgränserna. Programmen utgör en underindelning av portföljer och får inte finnas utanför en portfölj. Program har vanligtvis samma resurser som andra program i samma portfölj. Du kan ta bort eller inaktivera ett program när det inte är relevant.
 author: Alina
 feature: Work Management, Strategic Planning
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Vi rekommenderar att du inaktiverar en portfölj, i stället för att ta bort de
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td>
+   <td role="rowheader">[!DNL Adobe Workfront] package</td>
 
 <td> <p>Alla</p> </td> 
   </tr> 

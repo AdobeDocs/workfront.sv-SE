@@ -6,9 +6,9 @@ description: Din synlighet för objekt i Adobe Workfront beror på din åtkomst 
 author: Becky
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 18b96a6d57dc358bfe52e813bc98d8eb19f37dba
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '1338'
+source-wordcount: '1327'
 ht-degree: 0%
 
 ---
@@ -36,23 +36,20 @@ Du kan begära inledande åtkomst till objekt om någon delar en länk till obje
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
-
-Du måste ha följande för att kunna dela objekt:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td> <p>Alla </p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Nytt: Standard</p> 
-   <p>eller</p>
-   <p>Aktuell: Arbete eller högre</p> 
+   <td> <p>Standard</p> 
+   <p>Arbeta eller högre</p> 
    </td> 
   </tr> 
   <tr> 

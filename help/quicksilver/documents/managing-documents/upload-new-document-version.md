@@ -6,9 +6,9 @@ description: Du kan lägga till en ny version av ett dokument som du tidigare ha
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d475e0f0-112e-4d4e-b666-6e0af3ea7702
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,6 @@ Mer information om hur du lägger till en ny version av ett dokument som är lä
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -36,26 +34,27 @@ Du måste ha följande:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p> Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licenser*</td> 
-   <td> <p>Begäran eller senare</p> </td> 
+   <td role="rowheader">Adobe Workfront-licenser</td> 
+   <td> 
+   <p>Medarbetare eller högre</p>
+   <p>Begäran eller senare</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till dokument</p>  </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Redigera åtkomst till objektet som är associerat med dokumentet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Redigera åtkomst till objektet som är associerat med dokumentet</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
-
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Lägg till en ny version genom att dra och släppa

@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
@@ -32,21 +32,18 @@ E-postmallar kan associeras med påminnelsemeddelanden för problem, uppgifter, 
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td><p>Nytt: Standard</p>
-   eller
-   <p>Aktuell: Planera</p>
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td><p>Standard</p>
+   <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
@@ -56,7 +53,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-*Mer information om åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -102,7 +99,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr> 
      <tr> 
       <td role="rowheader">Brödtext </td> 
-      <td> <p>Lägg till texten för e-postmeddelandets innehåll.</p> <p>Du kan använda HTML-formatering för e-postinnehållet, vilket beskrivs i avsnittet <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">Lägg till HTML i en e-postmall</a> i den här artikeln.</p> </td> 
+      <td> <p>Lägg till texten för e-postmeddelandets innehåll.</p> <p>Du kan använda HTML-formatering för e-postinnehållet, vilket beskrivs i avsnittet <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">Lägg till HTML-formatering i en e-postmall</a> i den här artikeln.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -114,7 +111,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 Du kan lägga till HTML-taggar i e-postmallar för att skapa anpassade meddelanden.\
 Börja skapa e-postmallen enligt beskrivningen i [Skapa en ny e-postmall](#create-a-new-email-template).
 
-HTML kan förbättra e-postmallarna, vilket visas i följande avsnitt.
+HTML-formatering kan berika dina e-postmallar, vilket visas i följande avsnitt.
 
 * [Länka till Workfront-objekt](#link-to-workfront-objects)
 * [Länka till anpassade fält med HTML](#link-to-custom-fields-with-html)

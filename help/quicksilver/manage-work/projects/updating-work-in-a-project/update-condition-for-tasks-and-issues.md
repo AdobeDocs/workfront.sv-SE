@@ -6,9 +6,9 @@ description: Villkoret för en aktivitet eller ett problem är en flagga som ang
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
+source-git-commit: 2d8ad8baa6c470fd82b61202cb42443f568b1968
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
@@ -38,16 +38,15 @@ Villkorsvärdena som vi hänvisar till i den här artikeln är som standard till
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td> 
-   Nytt:
    <ul><li><p>Standard för uppgifter</p></li>
    <li><p>Medarbetare eller högre för problem</p></li></ul>
-   Aktuell:
+  <p>eller</p>
    <ul><li><p>Arbeta eller högre för uppgifter</p></li>
    <li><p>Begär eller högre för problem</p></li></ul>
     </td> 
@@ -65,9 +64,43 @@ Villkorsvärdena som vi hänvisar till i den här artikeln är som standard till
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> 
+   New:
+   <ul><li><p>Standard for tasks</p></li>
+   <li><p>Contributor or higher for issues</p></li></ul>
+   Current:
+   <ul><li><p>Work or higher for tasks</p></li>
+   <li><p>Request or higher for issues</p></li></ul>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>View or higher access to projects</p> <p>Edit access to tasks and issues </p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View or higher permissions on tasks and issues to view their Condition</p>
+   <p>Contribute permissions on tasks and issues to update the Condition</p>
+  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Förutsättningar
 

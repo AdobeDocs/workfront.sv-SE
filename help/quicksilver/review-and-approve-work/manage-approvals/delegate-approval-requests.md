@@ -6,9 +6,9 @@ description: Genom att delegera godkännandebegäranden kan du tilldela en annan
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: e0f6078cfab1b325302dbda8a656d2a65ee0b95c
+source-git-commit: 14360a82b0de65587a9413b58d9c69abb55fa29d
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1184'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,6 @@ Du kan inte delegera tidrapport-, dokument- eller korrekturgodkännanden.
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -46,17 +44,20 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
-   <td> <p>Granska eller högre</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
+   <td>
+   <p>Contribute eller senare</p>
+   <p>Granska eller högre</p> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta Workfront-administratören om du vill veta vilken plan eller licenstyp du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

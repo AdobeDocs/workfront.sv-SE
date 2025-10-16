@@ -6,9 +6,9 @@ description: Du kan bädda in en ny begärandekö i en instrumentpanel för att 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1143'
 ht-degree: 0%
 
 ---
@@ -25,43 +25,36 @@ Först måste du hämta en URL till begärandekön. För det andra kan du bädda
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront</strong></td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licens</strong></td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td> 
-      <p>Nytt:</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Aktuell:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
+      <p>Standard</p>
+      <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå</strong></td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> </td> 
-  </tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p></td> 
+  </tr>  
   <tr> 
-   <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
+   <td role="rowheader">Objektbehörigheter</td> 
    <td> <p>Hantera behörigheter på kontrollpanelen</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 

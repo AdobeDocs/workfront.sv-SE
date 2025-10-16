@@ -6,9 +6,9 @@ description: Du måste skapa en resurspool innan du kan associera den med använ
 author: Lisa
 feature: Resource Management
 exl-id: 0816a2d6-2a45-4e01-8ca2-6d0d190b2568
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -35,36 +35,31 @@ Mer information om hur du skapar resurspooler finns i [Skapa resurspooler](../..
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td><p>Nytt: Alla</p>
-       <p>eller</p>
-       <p>Aktuell: Pro eller högre</p> </td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td><p>Nytt: Standard</p>
-       <p>eller</p>
-       <p>Aktuell: Planera</p></td>
+   <td>Adobe Workfront-licens</td> 
+   <td><p>Standard</p>
+   <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td>Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till resurshantering som inkluderar åtkomst till Hantera resurspooler</p> <p>Redigera åtkomst till projekt, mallar och användare</p></td> 
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Objektbehörigheter</td> 
+  <tr> 
+   <td>Objektbehörigheter</td> 
    <td>Hantera behörigheter för de projekt, mallar och användare som du vill associera resurspoolerna med</td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

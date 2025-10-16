@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
+source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '828'
 ht-degree: 0%
 
 ---
@@ -43,31 +43,29 @@ När du har konfigurerat en layoutmall måste du tilldela den till användare f�
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td>Alla</td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td><p>Nytt: Standard</p>
-  <p> Aktuell: Planera</p>
-   </td> 
+   <td>Adobe Workfront-licens</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>För att kunna utföra dessa steg på systemnivå måste du ha åtkomstnivån Systemadministratör.
-Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> </td> 
+   <td>Konfigurationer på åtkomstnivå</td> 
+   <td> <p>För att kunna utföra dessa steg på systemnivå måste du ha åtkomstnivån Systemadministratör.</p>
+        <p>Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -136,11 +134,11 @@ Så här anpassar du startsidan med en layoutmall:
    >
    >* Alternativen Filter, Kolumner och Grupp är länkade till alternativen för listanpassning i layoutmallen. Ändringar som görs här gäller även för dessa inställningar.
    >* Användarna måste ha minst behörigheten Skapa för vyer för att administratörskolumnen ska kunna användas korrekt på hemsidorna.
-   ></p>
-   >   <li><p>Ange ett standardfilter eller en standardgrupp för widgeten genom att hålla markören över ett alternativ och klicka på <b>Ange som standard</b>. Den aktuella standardinställningen visar ett blått <b>Default</b>-märke till höger om den.</p></li>
-   >   <li><p>Lägg till ett befintligt filter, en kolumn eller en grupp i listan med tillgängliga alternativ genom att klicka på plustecknet längst ned i varje lista för att lägga till ett alternativ i listan. Observera att endast befintliga filter, fält (för kolumner) eller grupper kan läggas till på det här sättet.</p></li>
-   >   </ul>
-   >   <p>
+   </p>
+      <li><p>Ange ett standardfilter eller en standardgrupp för widgeten genom att hålla markören över ett alternativ och klicka på <b>Ange som standard</b>. Den aktuella standardinställningen visar ett blått <b>Default</b>-märke till höger om den.</p></li>
+      <li><p>Lägg till ett befintligt filter, en kolumn eller en grupp i listan med tillgängliga alternativ genom att klicka på plustecknet längst ned i varje lista för att lägga till ett alternativ i listan. Observera att endast befintliga filter, fält (för kolumner) eller grupper kan läggas till på det här sättet.</p></li>
+      </ul>
+      <p>
 
    >[!NOTE]
    >

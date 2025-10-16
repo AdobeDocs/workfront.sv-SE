@@ -2,18 +2,22 @@
 product-area: resource-management
 navigation-topic: use-the-gantt-chart
 title: Nivåresurser i [!UICONTROL Gantt Chart]
-description: Information om hur du jämnar ut resurser i Gantt-schemat.
+description: Om samma resurs tilldelas två olika uppgifter kan du använda resursutjämning för att justera tidslinjen för aktiviteterna så att de inte inträffar samtidigt. I den här artikeln finns information om hur du jämnar ut resurser i Gantt-schemat.
 author: Alina
 feature: Work Management
 exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
 
 # Nivåresurser i [!UICONTROL Gantt Chart]
+
+<!--Audited: 08/2025-->
+
+Du kan använda resursutjämning för att justera tidslinjen för aktiviteterna så att de inte inträffar samtidigt, om samma resurser tilldelas flera aktiviteter samtidigt.
 
 Att fördela resurser i ett projekt har två syften:
 
@@ -22,7 +26,37 @@ Att fördela resurser i ett projekt har två syften:
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>Alla</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Workfront] licens</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>[!UICONTROL Edit] behörighet till projekt</p></td>
+</tr> 
+  <tr> 
+   <td role="rowheader">Objektbehörigheter</td> 
+   <td> <p>[!UICONTROL Manage] tillgång till projektet</p>
+</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,26 +64,24 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Alla </p> </td> 
+   <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Workfront] licens*</td> 
+   <td role="rowheader">[!DNL Workfront] license*</td> 
    <td> <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>[!UICONTROL Edit] behörighet till projekt</p> <p><b>ANMÄRKNING</b>
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects</p> <p><b>NOTE</b>
 
-Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td>
 </tr> 
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>[!UICONTROL Manage] tillgång till projektet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+</table> -->
 
 ## Översikt över resursutjämning
 
@@ -73,7 +105,7 @@ Tänk på följande när du utjämnar resurser i ett projekt:
 Du kan använda uppgiftslistan [!UICONTROL Gantt Chart] för att jämna ut dina resurser.
 
 1. Gå till det projekt som du vill nivåindela.
-1. Klicka på ikonen **[!UICONTROL Gantt chart]** i området **[!UICONTROL Tasks]**.
+1. Klicka på ikonen **[!UICONTROL Tasks]** i området **[!UICONTROL Gantt chart]**.
 
    Alla ändringar sparas automatiskt när alternativet **[!UICONTROL Autosave]** aktiveras. Den är aktiverad som standard.
 
@@ -98,7 +130,7 @@ Du kan använda uppgiftslistan [!UICONTROL Gantt Chart] för att jämna ut dina 
    >
    >Resurserna kan vara överallokerade om de har tilldelats flera aktiviteter som inträffar under samma tidsram.
 
-1. (Valfritt och villkorligt) Om du har inaktiverat alternativet Spara automatiskt klickar du på ikonerna **[!UICONTROL Undo]** eller &#x200B;**[!UICONTROL Redo]** om du vill avbryta eller duplicera någon av ändringarna.
+1. (Valfritt och villkorligt) Om du har inaktiverat alternativet Spara automatiskt klickar du på ikonerna **[!UICONTROL Undo]** eller **[!UICONTROL Redo]** om du vill avbryta eller duplicera någon av ändringarna.
 
    >[!TIP]
    >

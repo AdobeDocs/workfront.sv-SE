@@ -6,9 +6,9 @@ description: Du kan uppdatera procentandelen färdigt för en uppgift för att a
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -23,23 +23,20 @@ Att uppdatera procentandelen slutförd för problem liknar att uppdatera den fö
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.
-
-Du måste ha följande åtkomst för att kunna uppdatera uppgifter manuellt:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Ny licens: Standard</p> 
-   eller
-   <p>Aktuell licens: Arbeta eller högre</p>
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Standard</p> 
+   <p>Arbeta eller högre</p>
    </td> 
   </tr> 
   <tr> 
@@ -53,9 +50,36 @@ Du måste ha följande åtkomst för att kunna uppdatera uppgifter manuellt:
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New license: Standard</p> 
+   Or
+   <p>Current license: Work or higher</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Tasks</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the task</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Områden där du kan uppdatera procentandelen färdigt för en uppgift
 

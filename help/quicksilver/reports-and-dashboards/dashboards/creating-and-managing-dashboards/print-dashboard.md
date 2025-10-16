@@ -2,13 +2,13 @@
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Skriva ut en instrumentpanel
-description: Du kan skriva ut eller exportera en kontrollpanel till en PDF-fil. Om du vill skriva ut en kontrollpanel måste du ha behörighet att visa den.
+description: Du kan skriva ut eller exportera en kontrollpanel till en .PDF-fil. Om du vill skriva ut en kontrollpanel måste du ha behörighet att visa den.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 30f3481b-23b6-4dc9-be0d-9cffd5d4dfed
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!-- Audited: 1/2025 -->
 
-Du kan skriva ut eller exportera en kontrollpanel till en PDF-fil. Om du vill skriva ut en kontrollpanel måste du ha behörighet att visa den.
+Du kan skriva ut eller exportera en kontrollpanel till en .PDF-fil. Om du vill skriva ut en kontrollpanel måste du ha behörighet att visa den.
 
 >[!NOTE]
 >
@@ -25,43 +25,35 @@ Du kan skriva ut eller exportera en kontrollpanel till en PDF-fil. Om du vill sk
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
-
-Du måste ha följande:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront</strong></td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licens</strong></td> 
-      <td> 
-      <p>Nytt:</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Aktuell:</p>
-         <ul>
-         <li><p>Arbeta eller högre</p></li>
-         </ul>
-   </td>
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> 
+      <p>Standard</p>
+      <p>Arbeta eller högre</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå</strong></td> 
-   <td> <p>Visa åtkomst till rapporter, instrumentpaneler och kalendrar</p> </td> 
-  </tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p></td> 
+  </tr>  
   <tr> 
-   <td role="rowheader"><strong>Objektbehörigheter</strong>/td&gt; 
+   <td role="rowheader">Objektbehörigheter</td> 
    <td> <p>Visa behörigheter på kontrollpanelen</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -114,6 +106,6 @@ Följande information ingår inte i den utskrivna eller exporterade instrumentpa
    Utskriftsalternativen varierar beroende på vilken webbläsare och webbläsarversion du använder.
 
 1. (Valfritt) Spara instrumentpanelen som en .PDF-fil och klicka sedan på **Spara** för att spara .PDF.\
-   Mer information om hur du sparar kontrollpanelen som en .PDF-fil finns i [Exportera en kontrollpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
+   Mer information om hur du sparar instrumentpanelen som en .PDF-fil finns i [Exportera en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
 
 1. Klicka på **Skriv ut**.

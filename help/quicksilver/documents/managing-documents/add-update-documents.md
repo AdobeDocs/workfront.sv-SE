@@ -6,9 +6,9 @@ description: Du kan lägga till eller svara på uppdateringar av ett dokument f�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -23,20 +23,19 @@ Du kan lägga till eller svara på uppdateringar av ett dokument för att kommun
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p> Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licenser*</td> 
-   <td> <p>Nytt: Medarbetare eller högre</p> 
-   <p>Aktuell: Begäran eller senare</p>
+   <td role="rowheader">Adobe Workfront-licenser</td> 
+   <td> <p>Medarbetare eller högre</p> 
+   <p>Begäran eller senare</p>
    </td> 
   </tr> 
   <tr> 
@@ -51,7 +50,7 @@ Du måste ha följande:
  </tbody> 
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: manage-projects
 title: Kräv tid för godkännande av ett projekt
-description: Kräv tid för godkännande av ett projekt
+description: Du kan konfigurera projektet så att det kräver att de timmar som loggas mot projektet godkänns av projektägaren. När timmarna är konfigurerade på det här sättet måste de först godkännas av projektägaren innan de kan användas i en faktureringspost.
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '785'
 ht-degree: 0%
 
 ---
@@ -26,30 +26,30 @@ Mer information om faktureringsposter finns i artikeln [Skapa faktureringsposter
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td> <p>Så här kräver du tid för att godkänna projektet:</p>
-   <ul><li>Nytt: Standard</li>
-   <li>Aktuell: Planera</li></ul>
+   <ul><li><p>Standard</p></li>
+   <li><p>Plan</p></li></ul>
 
 <p>Så här godkänner du timmar som är inloggade i ett projekt:</p>
-   <ul><li>Nytt: Ljus eller högre</li>
-   <li>Granska eller högre</li>
+   <ul><li><p>Ljus eller högre</p></li>
+   <li><p>Granska eller högre</p></li>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till projekt eller högre</p>  </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till projekt</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -73,14 +73,63 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>To require time to be approved on the project:</p>
+   <ul><li>New: Standard</li>
+   <li>Current: Plan</li></ul>
+   
+   <p>To approve hours logged on a project:</p>
+   <ul><li>New: Light or higher</li>
+   <li>Review or higher</li>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Projects or higher</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to the project or higher</p>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Additional access</td> 
+   <td> <p>You must meet at least one of the following conditions to approve time on a project:</p> 
+    <ul> 
+     <li>You are the Project Owner with the access and permissions specified above. In this case, you can do the following if one of the conditions below exists: 
+      <ul>
+       <li>If you have Manage permissions on the project, you can approve or reject hours logged on the project by any other user.</li>
+       <li> If you have Contribute or View access to the project you will be able to approve or reject only the hours logged by you or any other user that reports you.<br></li>
+      </ul></li> 
+     <li>You have a Plan license with administrative access to Timesheets &amp; Hours. In this case:
+      <ul>
+       <li>You can approve or reject any hours on the projects you have at least permissions to View. </li>
+      </ul></li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Kräv tid för godkännande av ett projekt
 
 Så här kräver du projektledarens godkännande för timmar i projektet:
 
 1. Gå till projektet där du vill ha godkännande i timmar.
-1. Klicka på ikonen **Mer** ![Mer &#x200B;](assets/more-icon.png) till höger om projektnamnet och klicka sedan på **Redigera**.\
+1. Klicka på ikonen **Mer** ![Mer ](assets/more-icon.png) till höger om projektnamnet och klicka sedan på **Redigera**.\
    Dialogrutan Redigera projekt visas.
 
 1. I avsnittet **Projektinställningar** väljer du **Kräv tid för att godkännas för det här projektet**.

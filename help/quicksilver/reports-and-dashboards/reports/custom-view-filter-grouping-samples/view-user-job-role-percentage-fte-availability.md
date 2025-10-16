@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Visa: Procent av användarjobbroll för FTE-tillgänglighet'
+title: 'Visa: Procentandel av FTE-tillgänglighet för användarjobbroll'
 description: Du kan lägga till en kolumn i vyn över en användarlista för att visa en lista över de jobbroller användaren är kopplad till samt procentandelen FTE-tillgänglighet för varje jobbroll, enligt definitionen i användarprofilen.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: d479b0b1-8ad5-47d6-8ef8-80261b46ecea
-source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -28,44 +28,33 @@ Mer information om hur du definierar procentandelen FTE-tillgänglighet för anv
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p> Aktuell: 
-   <ul>
-   <li>Begäran om att ändra en vy</li> 
-   <li>Planera att ändra en rapport</li>
-   </ul>
-     </p>
-     <p> Nytt: 
-   <ul>
-   <li>Medarbetare som ändrar en vy</li> 
-   <li>Standard för att ändra en rapport</li>
-   </ul>
-     </p>
-    </td> 
+   <td> 
+   <p>Medarbetare eller begäran om att ändra en vy </p>
+   <p>Standard eller Plan för att ändra en rapport</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en vy</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter i en rapport</p> </td> 
+   <td> <p>Hantera behörigheter i en rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
 Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 

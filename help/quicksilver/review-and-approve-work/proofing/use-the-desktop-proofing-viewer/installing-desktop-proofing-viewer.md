@@ -6,9 +6,9 @@ description: Desktop Proofing Viewer, som huvudsakligen är avsedd för korrektu
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
+source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -32,15 +32,14 @@ Programmet stöds av följande operativsystem:
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td> <p>Nytt: Alla</p> <p>eller</p> <p>Aktuell: Pro eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Alla</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 

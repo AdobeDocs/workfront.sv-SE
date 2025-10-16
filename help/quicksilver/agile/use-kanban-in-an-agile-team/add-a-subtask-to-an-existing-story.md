@@ -6,9 +6,9 @@ description: Läs den här artikeln om du vill veta mer om hur du skapar underak
 author: Lisa
 feature: Agile
 exl-id: c6610616-80e5-4ded-9d23-63f15536e45c
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,6 @@ Tänk på följande när du skapar underuppgifter för befintliga artiklar:
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -40,18 +38,17 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td> <p>Nytt: [!UICONTROL Standard]</p> 
-   eller
-   <p>Aktuell: [!UICONTROL Work] eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Standard</p> 
+   <p>Arbeta eller högre</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td>[!UICONTROL Contribute] eller [!UICONTROL Manage] åtkomst till aktiviteten som underaktiviteten är på</td> 
+   <td>Contribute- eller Hantera-åtkomst till uppgiften som underaktiviteten är aktiverad för</td> 
   </tr> 
  </tbody> 
 </table>

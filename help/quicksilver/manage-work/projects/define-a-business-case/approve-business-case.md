@@ -2,12 +2,12 @@
 navigation-topic: business-case-and-scorecards
 title: Godkänn ett affärsärende
 description: När du har slutfört och skickat in affärsärendet för en projektförfrågan måste affärsärendet godkännas. Detta beror på arbetsflödet i organisationen. Ett projekt kan börja utan att Business Case behöver godkännas, men Adobe Workfront-administratören och projektägarna tycker kanske inte att det är idealiskt.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -29,18 +29,16 @@ Mer information om hur du fyller i och skickar ett affärsärende finns i artike
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-   <p>Aktuell: Prime eller senare</p>
-   <p>eller</p>
-   <p>Äldre: Business eller högre</p> 
+   <p>Prime eller senare</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td> 
-   <p>Aktuell: Standard </p> 
-   <p>Äldre: Planera </p> </td> 
+   <p>Standard </p> 
+   <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -53,7 +51,7 @@ Mer information om hur du fyller i och skickar ett affärsärende finns i artike
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

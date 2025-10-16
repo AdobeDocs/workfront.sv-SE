@@ -2,12 +2,12 @@
 navigation-topic: business-case-and-scorecards
 title: Tillämpa ett styrkort på ett projekt och generera ett justeringsresultat
 description: Du kan använda ett styrkort för att mäta hur väl ett projekt anpassar sig till de villkor som tidigare fastställts för en portfölj. Ett styrkort avspeglar ofta en organisations uppdrag, värderingar och strategiska mål.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1211'
 ht-degree: 0%
 
 ---
@@ -29,18 +29,15 @@ Mer information om styrkort och hur du kan skapa ett finns i [Skapa ett styrkort
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td>
-   <p>Aktuell: Prime eller senare</p>
-   <p>eller</p>
-   <p>Äldre: Business eller högre</p> </td>
+   <p>Prime eller senare</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td>
-   <p>Aktuell: Standard</p>
-   <p>eller</p>
-   <p>Äldre: Planera</p></td>  
+   <p>Standard</p>
+   <p>Plan</p></td>  
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -53,7 +50,7 @@ Mer information om styrkort och hur du kan skapa ett finns i [Skapa ett styrkort
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

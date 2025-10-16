@@ -6,9 +6,9 @@ description: Du kan uppdatera implementeringsdatumet för en uppgift eller ett �
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
@@ -30,25 +30,24 @@ Du kan uppdatera implementeringsdatumet för en uppgift eller ett ärende som du
 
 <!--Audited: 01/2024-->
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td> 
-   Nytt:
    <ul>
    <li><p>Standard för uppgifter</p> </li>
    <li><p>Medarbetare eller högre för problem</p></li>
    </ul>
-   Aktuell:
+   <p>eller</p>
 <ul>
    <li><p>Arbeta eller högre för uppgifter</p></li> 
    <li><p>Begär eller högre för problem</p></li>
@@ -69,9 +68,47 @@ Du kan uppdatera implementeringsdatumet för en uppgift eller ett ärende som du
  </tbody> 
 </table>
 
-* Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> 
+   New:
+   <ul>
+   <li><p>Standard for tasks</p> </li>
+   <li><p>Contributor or higher for issues</p></li>
+   </ul>
+   Current:
+<ul>
+   <li><p>Work or higher for tasks</p></li> 
+   <li><p>Request or higher for issues</p></li>
+</ul>
+
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Tasks and Issues</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions on the task or issue</p>
+   <p> You must be assigned to the task or issue to update the commit date </p>
+    </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Förutsättningar
 

@@ -6,9 +6,9 @@ description: Du kan besvara e-postmeddelanden från Workfront som genererats fr�
 author: Nolan and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
@@ -44,20 +44,28 @@ Du kan svara på e-post från Workfront som genereras från kommentarer som gjor
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront package</strong></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licens*</strong></td> 
-   <td> <p>Nytt: Medarbetare eller högre för problem och dokument; Ljus eller högre för alla andra objekt</p>
-   <p>Aktuell: Begär eller högre för utgåvor och dokument; Granska eller högre för alla andra objekt</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront-licens</strong></td> 
+   <td> <p>För ärenden och dokument:</p>
+
+<ul><li><p>Medarbetare eller högre</p></li>
+   <li><p>Begäran eller senare</p></li></ul>
+
+<p>För alla andra objekt:</p>
+   <ul><li><p>Ljus eller högre</p></li>
+   <li><p>Granska eller högre</p></li></ul>
+
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Åtkomstnivåkonfiguration</strong></td> 
@@ -70,7 +78,34 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav för Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav för Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td> <p>New: Contributor or higher for issues and documents; Light or higher for all other objects</p>
+   <p>Current: Request or higher for issues and documents; Review or higher for all other objects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Access level configuration</strong></td> 
+   <td> <p>View or higher access to the objects where you want to post the reply</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Object permission</strong></td> 
+   <td> <p>View or higher permissions to the objects where you want to post the reply</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Svara på en uppdatering från ett e-postmeddelande
 

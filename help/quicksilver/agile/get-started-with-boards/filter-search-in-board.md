@@ -6,9 +6,9 @@ description: Du kan filtrera en anslagstavla så att endast vissa kort visas.
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ När du sorterar på anslagstavlan sorteras alla kort i kolumnerna. Det går int
 
 Genom att söka kan du även hitta ett visst kort på kortet.
 
-När filter används visas en indikator på ![ritytan &#x200B;](assets/boards-filterapplied-30x30.png). Klicka på **[!UICONTROL Clear All]** för att ta bort alla filter från ritytan och klicka på komprimeringsikonen för att stänga filterpanelen.
+När filter används visas en indikator på ![ritytan ](assets/boards-filterapplied-30x30.png). Klicka på **[!UICONTROL Clear All]** för att ta bort alla filter från ritytan och klicka på komprimeringsikonen för att stänga filterpanelen.
 
 ![Panelen Filter](assets/boards-all-filters-collapsed-0823.png)
 
@@ -36,22 +36,19 @@ När filter används visas en indikator på ![ritytan &#x200B;](assets/boards-fi
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td> 
-   <p>Nytt: [!UICONTROL Contributor] eller senare</p> 
-   <p>eller</p>
-   <p>Aktuell: [!UICONTROL Request] eller högre</p>
+   <p>Medarbetare eller högre</p> 
+   <p>Begäran eller senare</p>
    </td> 
   </tr> 
  </tbody> 

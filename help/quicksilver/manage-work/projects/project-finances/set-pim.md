@@ -6,9 +6,9 @@ description: Performance Index Method (PIM) for the project controls the method 
 author: Lisa
 feature: Work Management
 exl-id: de628881-c016-4521-bc33-3bcfba19a88f
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
@@ -26,35 +26,32 @@ Workfront beräknar dessa värden enligt följande:
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td>Alla</td> 
+   <td>Adobe Workfront package</td> 
+   <td>Alla </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td>Adobe Workfront-licens</td> 
    <td>
-   <p>Nytt: Standard</p>
-   <p>eller</p>
-   <p>Aktuell: Planera</p></td>  
+   <p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td>Konfigurationer på åtkomstnivå</td> 
    <td>Redigera åtkomst till projekt och finansiella data</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
+   <td>Objektbehörigheter</td> 
    <td>Hantera behörigheter till projektet med behörigheter för att hantera ekonomi</td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

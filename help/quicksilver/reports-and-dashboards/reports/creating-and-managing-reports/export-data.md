@@ -6,9 +6,9 @@ description: Du kan exportera Adobe Workfront-data från listor, rapporter, kont
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '2264'
+source-wordcount: '2252'
 ht-degree: 0%
 
 ---
@@ -46,29 +46,20 @@ Informationen i den här artikeln gäller inte följande exporter:
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td>
-    <p>Nytt:</p>
-      <ul>
-      <li>Ljus eller högre</li>
-      </ul>
-    <p>Aktuell:</p>
-      <ul>
-      <li>Granska eller högre</li>
-    </td> 
+   <td> 
+      <p>Ljus</p>
+      <p>Granska</p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -81,7 +72,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -195,7 +186,7 @@ Om du har frågor eller funderingar kring din begränsning kan du kontakta Workf
 
    eller
 
-   Klicka på ikonen **Exportera** ![Exportera &#x200B;](assets/export-icon-nwe.png) och välj sedan ett format.
+   Klicka på ikonen **Exportera** ![Exportera ](assets/export-icon-nwe.png) och välj sedan ett format.
 
    Vilka alternativ som är tillgängliga för PDF-export beror på inställningarna för Språkinställning för e-post i användarinställningarna för Workfront:
 

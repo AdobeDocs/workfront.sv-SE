@@ -3,13 +3,13 @@ product-area: projects
 navigation-topic: manage-issues
 title: Tilldela ärenden
 description: Du kan tilldela utgåvor till användare, roller och team för att ange vem som ansvarar för att slutföra utgåvorna. Allmän information om hur du tilldelar problem finns i Ändra problemtilldelningar - översikt.
-author: Alina
+author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
+source-git-commit: 7aa420946115fc612ad1d9e310583e5453ae0678
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1432'
 ht-degree: 0%
 
 ---
@@ -47,35 +47,33 @@ Att tilldela ärenden och uppgifter är detsamma som i Adobe Workfront. Allmän 
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td>Adobe Workfront package</td> 
    <td> <p>Alla </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Nytt: Medarbetare eller högre</p>
-   <p>Aktuell: Granska eller senare</p> </td> 
+   <td>Adobe Workfront-licens</td> 
+   <td> <p>Medarbetare eller högre</p>
+   <p>Granska eller högre</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Åtkomstnivå</td> 
+   <td>Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till problem</p> <p>Visa eller högre åtkomst till projekt och uppgifter för att tilldela ett problem</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
+   <td>Objektbehörigheter</td> 
    <td> <p>Hantera behörigheter för problemet</p> <p> Visa behörigheter eller högre för det projekt eller den uppgift där problemet finns, när du tilldelar ett problem</p><p>Contribute-behörigheter eller högre till det projekt eller den uppgift där problemet finns, när du tilldelar flera utgåvor.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

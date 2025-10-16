@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -34,14 +34,14 @@ Prioriteter visar arbetsuppgifter som tilldelats dig. Du kan inte se arbetsobjek
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront package</strong></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licens*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront-licens</strong></td> 
    <td> 
-   <p>Aktuell: Granskare eller senare</p>
-   <p>Nytt: Ljus eller högre</p> 
+   <p>Granskare eller högre</p>
+   <p>Ljus eller högre</p> 
    </td> 
   </tr> 
   <tr> 

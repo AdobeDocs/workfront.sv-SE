@@ -6,9 +6,9 @@ description: Du kan filtrera en rapport efter tidsramen för ett datum som finns
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '947'
 ht-degree: 0%
 
 ---
@@ -23,25 +23,21 @@ Du kan filtrera en rapport efter tidsramen för ett datum som finns i ett objekt
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-      <td> 
-      <p>Nytt: Standard</p>
-       <p> eller</p>
-      <p>Aktuell: Planera</p>
+   <td> 
+      <p>Standard</p>
+      <p>Plan</p>
    </td>
-
-</tr> 
+  </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p></td> 

@@ -6,9 +6,9 @@ description: En ny anslagstavla innehåller som standard tre kolumner. Du kan l�
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 97b2118b1897f75dea0e45758e3d7f7c3409b234
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1026'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,6 @@ Mer information om hur du sorterar korten i kolumner finns i [Filtrera och söka
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -36,14 +34,15 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td> <p>Nytt: Medarbetare eller högre </p>
-        <p>eller</p> 
-        <p>Aktuell: [!UICONTROL Request] eller högre </p></td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> 
+   <p>Medarbetare eller högre</p> 
+   <p>Begäran eller senare</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>

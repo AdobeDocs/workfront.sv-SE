@@ -6,9 +6,9 @@ description: Du kan budgetera resurser i Adobe Workfront Resursplanering med pro
 author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '2127'
+source-wordcount: '2098'
 ht-degree: 0%
 
 ---
@@ -35,36 +35,31 @@ Läs följande artiklar innan du börjar budgetera information i resursplanerare
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-    <td><p>Nytt: Alla</p>
-       <p>eller</p>
-       <p>Aktuell: Pro eller högre</p> </td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Alla</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td><p>Nytt: Standard</p>
-       <p>eller</p>
-       <p>Aktuell: Planera</p></td> 
+   <td>Adobe Workfront-licens</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td>Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till resurshantering som inkluderar åtkomst till Redigera prioriteringar och budgettimmar i Resursplanering</p> <p>Redigera åtkomst till finansiella data för att budgetera resurser efter kostnad</p> <p>Redigera åtkomst till projekt och användare</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
+   <td>Objektbehörigheter</td> 
    <td> <p>Hantera behörigheter för de projekt som du vill budgetera information för</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -109,7 +104,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
    * Klicka på menyn **Mer** för projektet och klicka sedan på **Ange rollernas planerade timmar som budgeterade**.\
      Budgeterade timmar för varje roll beräknas med följande formel:\
-     &#x200B;*
+     *
 
      `Role Budgeted Hours = Role Planned Hours`
 
@@ -179,8 +174,8 @@ Om du vill budgetera allokeringar i resursplaneraren i rollvyn***:
    * I kolumnen **BDG** anger du manuellt antalet budgeterade timmar, FTE eller kostnad för jobbrollerna.\
      Detta fördelar rollbudgeterade timmar till projektbudgeterade timmar för de projekt som du har tillgång till för att hantera.
 
-   * Klicka på menyn **Mer** för jobbrollen och klicka sedan på **Ange projektens planerade timmar som budgeterade.**&#x200B;Rollbudgeterade timmar beräknas med följande formel:\
-     &#x200B;*
+   * Klicka på menyn **Mer** för jobbrollen och klicka sedan på **Ange projektens planerade timmar som budgeterade.**Rollbudgeterade timmar beräknas med följande formel:\
+     *
 
      `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 

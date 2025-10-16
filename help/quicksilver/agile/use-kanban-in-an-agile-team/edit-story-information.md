@@ -6,9 +6,9 @@ description: När du visar en artikelruta på Kanban-tavlan kan du redigera text
 author: Lisa
 feature: Agile
 exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
-source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -73,8 +73,6 @@ När du visar en artikelruta på [!UICONTROL Kanban]-panelen är informationen i
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -82,14 +80,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td> <p>Nytt: [!UICONTROL Standard]</p> 
-   eller
-   <p>Aktuell: [!UICONTROL Work] eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Standard</p> 
+   <p>Arbeta eller högre</p> </td> 
   </tr>
  </tbody> 
 </table>

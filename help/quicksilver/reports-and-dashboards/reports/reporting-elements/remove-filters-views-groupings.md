@@ -6,9 +6,9 @@ description: Du kan ta bort ett filter, en vy eller en gruppering från listor o
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '801'
 ht-degree: 0%
 
 ---
@@ -21,46 +21,37 @@ Du kan ta bort ett filter, en vy eller en gruppering från listor och rapporter 
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-plan*</strong></td> 
-   <td> <p>Alla </p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licens*</strong></td> 
+   <td role="rowheader">Adobe Workfront-licens</strong></td> 
    <td> 
-      <p>Nytt:</p>
-         <ul>
-         <li><p>Medarbetare eller högre</p></li>
-         </ul>
-      <p>Aktuell:</p>
-         <ul>
-         <li><p>Begäran eller senare</p></li>
-         </ul>
+    <p>Medarbetare eller högre</p>
+    <p>Begäran eller senare</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td><p>Visa eller ge senare åtkomst till filter, vyer, grupperingar</p></td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till filter, vyer, grupperingar</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
-   <td><p>Visa behörigheter med åtkomst för delning till filtret, vyn eller grupperingen som du vill ta bort</p>
+   <td role="rowheader">Objektbehörigheter</td> 
+    <td> <p>Visa behörigheter med åtkomst för delning till filtret, vyn eller grupperingen som du vill ta bort</p></td> 
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -83,14 +74,14 @@ Följande scenarier gäller när du tar bort eller tar bort ett filter med stand
 ### Ta bort ett filter med standardverktyget
 
 1. Gå till en lista med projekt, uppgifter, utgåvor, portfolior, program, användare, mallar eller grupper.
-1. Klicka på ikonen **Filter** ![Filter &#x200B;](assets/filter-nwepng.png) .
+1. Klicka på ikonen **Filter** ![Filter ](assets/filter-nwepng.png) .
 1. Hovra över ett filter under **Delat med mig**, klicka på **Mer**-menyn ![Mer-ikonen](assets/more-icon-spectrum.png) och klicka sedan på **Ta bort**.
 1. Välj **Ta bort** i bekräftelsemeddelandet om du vill ta bort filtret permanent.
 
 ### Ta bort ett filter med standardverktyget
 
 1. Gå till en lista med projekt, uppgifter, utgåvor, portfolior, program, användare, mallar eller grupper.
-1. Klicka på ikonen **Filter** ![Filter &#x200B;](assets/filter-nwepng.png) .
+1. Klicka på ikonen **Filter** ![Filter ](assets/filter-nwepng.png) .
 1. Håll pekaren över ett filter som du har behörighet att ta bort, klicka på ikonen **Mer** ![Mer](assets/more-icon-spectrum.png) och klicka sedan på **Ta bort**.
 
    ![Ta bort filter](assets/new-filters-more-menu-options-with-delete.png)

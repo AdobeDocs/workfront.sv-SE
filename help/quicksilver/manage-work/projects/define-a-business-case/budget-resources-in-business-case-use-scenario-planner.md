@@ -2,12 +2,12 @@
 navigation-topic: business-case-and-scorecards
 title: Budgetresurser i affärsärendet med scenarioplaneraren
 description: Som en del av resursplaneringen kan du använda Adobe Workfront Scenario Planner för att budgetera de jobbroller som krävs för att slutföra arbetet i ett projekt när du bygger affärsplanen.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Du kan också budgetera resurser i ett affärsärende med hjälp av Resursplaner
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,14 +44,13 @@ Du kan också budgetera resurser i ett affärsärende med hjälp av Resursplaner
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
-   <td><p>Aktuell: Ultimate</p> 
-   <p>Äldre: Business eller högre</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td><p>Prime eller senare</p> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
-   <td><p>Aktuell: Ljus eller högre 
-   <p>Äldre: Granska eller senare</p> </td> 
+   <td><p>Ljus eller högre 
+   <p>Granska eller högre</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Produkt</p></td> 

@@ -7,9 +7,9 @@ description: Du kan sammanfoga informationen som visas i flera separata kolumner
 author: Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1070'
 ht-degree: 0%
 
 ---
@@ -24,44 +24,33 @@ Du kan sammanfoga informationen som visas i flera separata kolumner och visa den
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p> Aktuell: 
-   <ul>
-   <li>Begäran om att ändra en vy</li> 
-   <li>Planera att ändra en rapport</li>
-   </ul>
-     </p>
-     <p> Nytt: 
-   <ul>
-   <li>Medarbetare som ändrar en vy</li> 
-   <li>Standard för att ändra en rapport</li>
-   </ul>
-     </p>
-    </td> 
+   <td> 
+   <p>Medarbetare eller begäran om att ändra en vy </p>
+   <p>Standard eller Plan för att ändra en rapport</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en vy</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter i en rapport</p> </td> 
+   <td> <p>Hantera behörigheter i en rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
 Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 
@@ -95,7 +84,7 @@ Du kan sammanfoga data från flera separata kolumner så att de visas i en kolum
 Så här sammanfogar du data från två kolumner utan radbrytning:
 
 1. Gå till en lista med objekt.
-1. I listrutan **Visa** markerar du en vy och klickar sedan på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) för att redigera vyn.
+1. I listrutan **Visa** markerar du en vy och klickar sedan på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) för att redigera vyn.
 1. Gå till den första kolumnen som du vill sammanfoga och klicka sedan på **Växla till textläge** > **Redigera textläge**.
 1. Lägg till följande text i den första kolumnen som du vill sammanfoga:
 
@@ -131,7 +120,7 @@ Så här sammanfogar du data från två kolumner utan radbrytning:
 Gör följande för att sammanfoga data från flera kolumner så att de visas i en gemensam kolumn med en radbrytning mellan värdena från varje kolumn:
 
 1. Gå till en lista med objekt.
-1. I listrutan **Visa** markerar du en vy och klickar sedan på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) för att redigera vyn.
+1. I listrutan **Visa** markerar du en vy och klickar sedan på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) för att redigera vyn.
 1. Lägg till en tredje kolumn mellan de två kolumner som du vill sammanfoga.
 
    >[!TIP]

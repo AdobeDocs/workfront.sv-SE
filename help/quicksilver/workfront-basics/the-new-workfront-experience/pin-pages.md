@@ -5,9 +5,9 @@ description: Du kan fästa ditt viktigaste arbete [!DNL Adobe Workfront] för ö
 feature: Get Started with Workfront
 author: Courtney
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
+source-git-commit: d7b8d7285d23d14f5390c9de1001de553c2b796f
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,6 @@ Du kan tilldelas till en layoutmall som redan har fästa sidor (vilket beskrivs 
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -33,20 +31,19 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] package</strong></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licens</strong></td> 
-   <td> <p>Nytt: Medarbetare</p> 
-   <p>eller</p>
-     <p>Aktuell: Begäran</p>
+   <td> <p>Medarbetare</p> 
+     <p>Begäran</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -77,7 +74,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 ## Byta namn på en fäst sida
 
 1. Hovra över den fästa sidan i den övre navigeringen.
-1. Klicka på ikonen **Mer** ![Mer &#x200B;](assets/more-icon.png) som visas bredvid stiftets namn och välj **[!UICONTROL Rename pin]**.
+1. Klicka på ikonen **Mer** ![Mer ](assets/more-icon.png) som visas bredvid stiftets namn och välj **[!UICONTROL Rename pin]**.
 
    ![Byt namn på stiftet](assets/pin-menu.png)
 

@@ -7,9 +7,9 @@ description: En begäran representerar en väntande aktivitet eller utleverans. 
 author: Lisa
 feature: People Teams and Groups, Work Management
 exl-id: ef96e520-0d5f-4180-a27a-1fbbffff8f2b
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -26,27 +26,23 @@ En begäran representerar en väntande aktivitet eller utleverans. Arbetsförfr�
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
    <td>
    <p>Så här tilldelar du eller arbetar med en begäran:
-   <p>Nytt: Ljus eller högre </br>
-    eller</br>
-   Aktuell: Granska eller senare</p>
+   <p>Ljus eller högre</p>
+  <p>Granska eller högre</p>
    <p>Så här tilldelar du om en begäran:
-   <p>Nytt: Standard</br>
-    eller</br>
-   Aktuell: Arbete eller högre</p></td>
+   <p>Standard</p>
+   <p>Arbeta eller högre</p></td>
   </tr> 
  </tbody> 
 </table>

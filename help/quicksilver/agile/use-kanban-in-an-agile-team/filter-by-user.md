@@ -6,9 +6,9 @@ description: Du kan använda filtret på en Kanban-tavla för att se vilka arbet
 author: Lisa
 feature: Agile
 exl-id: e6f6beda-aaf9-4053-97ed-3a48e617d8e9
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ Du kan använda filtret på en [!UICONTROL Kanban]-anslagstavla för att se vilk
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -30,14 +28,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td> <p>Nytt: [!UICONTROL Standard]</p> 
-   eller
-   <p>Aktuell: [!UICONTROL Work] eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Standard</p> 
+   <p>Arbeta eller högre</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -47,8 +44,6 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 +++
 
 ## Filtrera efter användare på Kanban-tavlan
-
-Så här filtrerar du ett [!UICONTROL Kanban]-kort:
 
 {{step1-to-team}}
 

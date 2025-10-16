@@ -2,13 +2,13 @@
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
 title: Åtkomst till  [!DNL Adobe Workfront] objekt från en delad länk i [!DNL Slack]
-description: När länkar till [!DNL Adobe Workfront] -objekt delas med dig i en Slack-kanal kan du visa ytterligare information om dem i Slack efter att du har installerat och konfigurerat  [!DNL Workfront]  för Slack.
+description: När länkar till [!DNL Adobe Workfront] objekt delas med dig i en Slack-kanal kan du visa ytterligare information om dem i Slack, efter att du har installerat och konfigurerat [!DNL Workfront] för Slack.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 587c6ac7-cc56-480f-852d-f0bd36b3f3cf
-source-git-commit: eeb90d8f80b1680d880d07f41e9d80c0658495fa
+source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
@@ -25,24 +25,26 @@ När en användare delar en länk till ett objekt i [!DNL Workfront] med dig, ka
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna använda de funktioner som beskrivs i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td> <p>[!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Alla</p>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Förutsättningar
 
@@ -70,7 +72,7 @@ Innan du kan komma åt dina favoriter och senaste objekt från [!DNL Slack] mås
 
    * **[!UICONTROL Planned Completion Date]**: Mer information om det planerade slutförandedatumet finns i [Ange projektets planerade slutförandedatum](../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
 
-   * **[!UICONTROL Portfolio]** Namn: Mer information om portföljer finns i [Översikt över Portfolio i Adobe Workfront](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+   * **[!UICONTROL Portfolio]** Namn: Mer information om portföljer finns i [Förstå portföljmetod](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
    * **[!UICONTROL Condition]**: Mer information om projektvillkor finns i [Översikt över projektvillkor och villkorstyp](../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 

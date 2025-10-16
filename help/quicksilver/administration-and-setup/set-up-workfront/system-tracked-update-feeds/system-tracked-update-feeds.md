@@ -9,7 +9,7 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Översikt över systemspårade uppdateringar
 
-<!-- Audited: 06/2025-->
+<!-- Audited: 08/2025-->
 
 [!DNL Adobe Workfront] fångar aktiviteten som äger rum på vissa objekt genom att logga statusinformation i objektets [!UICONTROL Updates] -avsnitt.
 

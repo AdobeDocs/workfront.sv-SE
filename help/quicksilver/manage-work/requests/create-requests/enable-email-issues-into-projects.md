@@ -3,12 +3,12 @@ product-area: requests
 navigation-topic: create-requests
 title: Gör det möjligt för användare att skicka ett ärende via e-post till ett begärandeköprojekt
 description: Du kan konfigurera ett projekt så att användare kan lägga till problem i projektet via e-post.
-author: Alina, Courtney
+author: Becky
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: bca543ad2ee8ead26cfa662900eb513af36f743c
+source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -27,21 +27,18 @@ Du kan konfigurera ett projekt så att användare kan lägga till problem i proj
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Nytt: Medarbetare eller högre</p>
-   eller
-   <p>Aktuell: Begäran eller senare</p>
+   <td> <p>Medarbetare eller högre</p>
+   <p>Begäran eller senare</p>
     </td> 
   </tr> 
   <tr> 
@@ -55,7 +52,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -79,7 +76,7 @@ Följande villkor krävs för att konfigurera ett projekt så att användare kan
 >* Workfront tillåter en unik e-postkö per begäran för alla kluster. Om du väljer att inaktivera din begärandekö behåller du den e-postadress du skapade så länge som den fortfarande finns i rutan Ange e-postadress. Om du väljer att inte längre använda e-postadressen måste du ta bort den från fältet Intag-e-post så att den kan användas senare.
 >
 >* Om det finns flera köämnen eller ämnesgrupper i kön i begärandekön väljer Workfront slumpmässigt det köämne som förfrågningarna ska gå till, vilket gör det svårt att hantera e-postförfrågningar.
->  &#x200B;>Vi rekommenderar att det projekt som du ställer in för att ta emot begäranden via e-post inte ska ha mer än ett köämne. Om de inskickade förfrågningarna är avsedda för olika resurser eller projekt bör du dirigera eller flytta dem manuellt efter att de har skickats.
+>  >Vi rekommenderar att det projekt som du ställer in för att ta emot begäranden via e-post inte ska ha mer än ett köämne. Om de inskickade förfrågningarna är avsedda för olika resurser eller projekt bör du dirigera eller flytta dem manuellt efter att de har skickats.
 
 1. Gå till det projekt som du vill aktivera för att ta emot utgåvor via e-post.
 1. Klicka på **Köinformation** i den vänstra panelen.

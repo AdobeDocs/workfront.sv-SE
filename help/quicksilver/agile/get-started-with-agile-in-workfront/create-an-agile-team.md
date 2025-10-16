@@ -6,9 +6,9 @@ description: Med Adobe Workfront kan smidiga team slutföra arbetet på ett inkr
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,6 @@ Alla användare i organisationen kan se det flexibla teamet och se alla flexibla
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -40,15 +38,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td> <p>Nytt: Standard</p>
-   Aktuell: 
-   <ul><li><p>[!UICONTROL Plan] skapa ett nytt smidigt team</p></li> 
-   <li><p>[!UICONTROL Work] eller högre för att konvertera ett team till ett smidigt team</p></li></ul> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Standard</p>
+   <p>Planera att skapa ett nytt smidigt team</p>
+  <p>Arbeta eller senare för att konvertera ett team till ett smidigt team</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -160,7 +157,7 @@ Du kan konvertera ett befintligt team till ett smidigt team:
    Endast teammedlemmar med en [!UICONTROL Standard]-, [!UICONTROL Plan]- eller [!UICONTROL Work]-licens kan se det här alternativet.
    ![Välj Redigera](assets/edit-team-settings.png)
 
-1. Välj **[!UICONTROL This is an Agile Team]** i avsnittet **[!UICONTROL Agile]**.
+1. Välj **[!UICONTROL Agile]** i avsnittet **[!UICONTROL This is an Agile Team]**.
 
 1. I avsnittet **[!UICONTROL Methodology]** väljer du om teamet ska använda en **[!UICONTROL Scrum]** eller **[!UICONTROL Kanban]** flexibel metod.
 

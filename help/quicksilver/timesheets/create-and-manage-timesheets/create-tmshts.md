@@ -3,12 +3,12 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Skapa en tidrapport för engångsbruk
 description: Du kan skapa en tidrapport för engångsbruk manuellt om du vill ha en tidrapport som inte är återkommande. När slutdatumet för tidrapporten nås och du behöver fler tidrapporter måste du skapa nya.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: b293dd50-a9b8-448b-afc1-8c7c7c79183b
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
@@ -38,29 +38,28 @@ Mer information om hur du manuellt genererar tidrapporter för alla användare i
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande för att kunna utföra stegen i den här artikeln:
-
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td> <p>Alla</p> </td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Nytt: Standard </p>
-   <p>Aktuell: Planera </p> </td> 
+   <td>Adobe Workfront-licens</td> 
+   <td>
+   <p>Standard</p>
+   <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Åtkomstnivå</td> 
-   <td> <p>Du måste ha administrativ åtkomst till tidrapporter. </p>  </td> 
+   <td>Konfigurationer på åtkomstnivå</td> 
+   <td><p>Administrativ åtkomst till tidrapporter</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav för Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -84,7 +83,7 @@ Filtret **Alla** är markerat som standard. Då visas alla tidrapporter som du h
 
      ![Mina filterknappar för tidrapporter på listsidan för tidrapporter](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Klicka på ikonen **Filter** ![Filter &#x200B;](assets/filter-nwepng.png) om du vill använda ett annat filter eller skapa ett nytt. Mer information om hur du skapar eller uppdaterar filter finns i [Skapa eller redigera filter i Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Klicka på ikonen **Filter** ![Filter ](assets/filter-nwepng.png) om du vill använda ett annat filter eller skapa ett nytt. Mer information om hur du skapar eller uppdaterar filter finns i [Skapa eller redigera filter i Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
@@ -93,7 +92,7 @@ Filtret **Alla** är markerat som standard. Då visas alla tidrapporter som du h
    >   * [Anpassa filter, vyer och grupperingar med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
 
 
-1. (Valfritt) Klicka på ikonen **Sök** ![Sök &#x200B;](assets/search-icon.png) om du vill skriva ett nyckelord och söka efter en viss tidrapport. Du kan t.ex. söka efter en tidsram för tidrapporten med ägarnamnet.
+1. (Valfritt) Klicka på ikonen **Sök** ![Sök ](assets/search-icon.png) om du vill skriva ett nyckelord och söka efter en viss tidrapport. Du kan t.ex. söka efter en tidsram för tidrapporten med ägarnamnet.
 
 1. (Valfritt) Klicka på ikonerna **Visa** ![Visa](assets/view-icon.png) eller **Gruppera** ![Gruppera](assets/grouping.png) om du vill använda en annan vy eller gruppering eller skapa en ny.
 

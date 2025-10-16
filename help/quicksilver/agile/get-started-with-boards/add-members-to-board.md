@@ -6,9 +6,9 @@ description: Personer måste läggas till i styrelsen som medlemmar innan de kan
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -23,22 +23,19 @@ Den som har skapat en styrelse är som standard ägare. Styrelseledamot är den 
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td> 
-   <p>Nytt: [!UICONTROL Contributor] eller senare</p> 
-   <p>eller</p>
-   <p>Aktuell: [!UICONTROL Request] eller högre</p>
+   <p>Medarbetare eller högre</p> 
+   <p>Begäran eller senare</p>
    </td> 
   </tr> 
  </tbody> 

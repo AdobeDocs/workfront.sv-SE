@@ -7,23 +7,52 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 8f5b78c9-b84f-4f56-b7cc-ba686fac2da1
-source-git-commit: c2ce6776ceebe3c1d3915e3791fc84eb0245ba4d
+source-git-commit: e9a9e45720c8b9ad25e3fa9340c813a73989fb4a
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
 
 # Domänformat för Adobe Workfront API-anrop
 
-När du gör ett API-anrop till Workfront API använder du organisationens domän i anropet. Formatet för den här domän-URL:en skiljer sig åt beroende på om din organisation har anslutit till det enhetliga Adobe-gränssnittet.
+När du gör ett API-anrop till Workfront API använder du organisationens domän i anropet. Formatet för den här domän-URL:en skiljer sig åt beroende på om din organisation har anslutit till Adobe Unified Shell.
 
-Om du vill veta om din organisation finns på Adobe Unified Shell kan du kontrollera den URL som visas när du visar en Workfront-sida.
+Om du vill veta om din organisation finns i Adobe Unified Shell kan du kontrollera den URL som visas när du visar en Workfront-sida.
 
 | Workfront URL börjar med: | URL för API-anrop: |
 |---|---|
 | `<yourdomain>.my.workfront.com` | `<yourdomain>.my.workfront.com` |
 | `experience.adobe.com` | `<yourdomain>.my.workfront.adobe.com` |
+
+## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Alla </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td><p>Standard</p>
+   <p>Plan</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Du måste vara Workfront-administratör</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 
 Så här hittar du din domän:
 

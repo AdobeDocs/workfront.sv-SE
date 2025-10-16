@@ -6,9 +6,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
-source-git-commit: 3c8438fef3333c5f7ceab7b19b6755d4e4246cb9
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,6 @@ Vissa händelsemeddelanden har flera ämnesrader, vilket innebär att dessa hän
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -44,21 +42,24 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td>
+   <p>Standard</p>
+   <p>Plan</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Planering eller senare, med administrativ åtkomst till påminnelsemeddelanden</p> <p>Mer information om hur du ger en plananvändare administrativ åtkomst finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Bevilja användare administrativ åtkomst till vissa områden</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Planering eller senare, med administrativ åtkomst till påminnelsemeddelanden</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -86,7 +87,7 @@ Vissa händelsemeddelanden har flera ämnesrader, beroende på vilka objekt de u
 
 Om en användare ingår i en konversation om uppgiften, utgåvan, malluppgiften eller dokumentet, genereras ett e-postmeddelande med den första ämnesraden. Ämnesraden innehåller &quot;referenceObject:name&quot; och systemet definierar objektet och visar lämpligt namn i ämnesfältet. Ämnesraden i e-postmeddelandet ser ut ungefär så här:&quot;Kommentar till uppgift 123 i projekt ABC.&quot;
 
-Om det läggs till i en projektkonversation genereras ett e-postmeddelande med det andra ämnet. Här innehåller ämnesraden&quot;topReferenceObject:name&quot; och återigen identifierar Workfront vilket objekt som refererades och returnerar objektnamnet i stället för&quot;topReferenceObject:name&quot; i ämnet. Ämnesraden i e-postmeddelandet ser ut ungefär så här:&quot;Kommentar i projekt ABC&quot;.
+Om det läggs till i en projektkonversation genereras ett e-postmeddelande med det andra ämnet. Här innehåller ämnesraden&quot;topReferenceObject:name&quot; och återigen identifierar Workfront vilket objekt som refererades och returnerar objektnamnet i stället för&quot;topReferenceObject:name&quot; i ämnesraden. Ämnesraden i e-postmeddelandet ser ut ungefär så här:&quot;Kommentar i projekt ABC&quot;.
 
 Om du vill redigera ämnesraderna i e-postmeddelanden och lägga till ytterligare fält på någon av ämnesraderna läser du [Anpassa ämnesrader i e-postmeddelanden för händelsemeddelanden](#customize-email-subject-lines-for-event-notifications) i den här artikeln.
 

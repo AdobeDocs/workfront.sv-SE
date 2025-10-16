@@ -6,9 +6,9 @@ description: Åsidosätt faktureringstariffer på projektnivå med faktureringst
 author: Lisa
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -25,35 +25,32 @@ Du kan konfigurera ett projekt så att det använder faktureringstariffer på f�
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td>Adobe Workfront package</td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td>Adobe Workfront-licens</td> 
    <td>
-   <p>Nytt: Standard</p>
-   <p>eller</p>
-   <p>Aktuell: Planera</p></td> 
+   <p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td>Konfigurationer på åtkomstnivå</td> 
    <td>Redigera åtkomst till projekt och finansiella data</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
+   <td>Objektbehörigheter</td> 
    <td>Hantera behörigheter till projektet med behörigheter för att hantera ekonomi</td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,7 +61,7 @@ När ett företag är associerat med ett projekt och det här alternativet är a
 När en användare manuellt beräknar om budgeten för projektet tillämpas eventuella ändringar av faktureringstarifferna på företagsnivå. Historiska intäktsberäkningar åsidosätts också såvida de inte markeras som fakturerade.
 
 1. Gå till ett projekt.
-1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/qs-more-icon-on-an-object.png) bredvid namnet på projektet i sidhuvudet och klicka sedan på **Redigera**.
+1. Klicka på menyn **Mer** ![Mer ](assets/qs-more-icon-on-an-object.png) bredvid namnet på projektet i sidhuvudet och klicka sedan på **Redigera**.
 1. I avsnittet **Ekonomi** aktiverar du alternativet **Tillåt faktureringstariffer på företagsnivå för att åsidosätta faktureringstariffer på projektnivå**.
 
    >[!CAUTION]

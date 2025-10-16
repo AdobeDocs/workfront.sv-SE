@@ -6,9 +6,9 @@ description: När du har länkat en resurs från Experience Manager Assets Essen
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abd641a1-081b-4b86-95ee-f0ed030d704c
-source-git-commit: 5d818b2e3c3314c6af076df46f7f806214f97bab
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -23,36 +23,32 @@ När du har länkat en resurs från Experience Manager Assets Essentials kan du 
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p> Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licenser</td> 
    <td> 
-   <p>Nytt: Standard</p>
-   <p>eller</p>
-   <p>Aktuell: Arbete eller högre</p>
-   <p>Korrektur måste vara aktiverat för användaren.</p>
+   <p>Standard</p>
+   <p>Arbeta eller högre</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Produkt</td> 
+   <td role="rowheader">Ytterligare produkter</td> 
    <td>Du måste ha Experience Manager as a Cloud Service eller Assets Essentials, och du måste läggas till i produkten som användare i Admin Console. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till dokument</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa åtkomst eller högre</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa åtkomst eller högre</p>  </td> 
   </tr> 
  </tbody> 
 </table>

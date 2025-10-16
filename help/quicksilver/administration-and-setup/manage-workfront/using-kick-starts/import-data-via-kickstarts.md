@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
+source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '2848'
+source-wordcount: '2828'
 ht-degree: 0%
 
 ---
@@ -34,31 +34,27 @@ Var och en av dessa procedurer beskrivs i rätt ordning i den här artikeln.
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td>Alla</td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td>
-   <p> Nytt: Standard</p>
-   eller
-   <p>Aktuell: Planera</p></td> 
+   <td>Adobe Workfront-licens</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td>[!UICONTROL System Administrator]</td> 
+   <td>Konfigurationer på åtkomstnivå</td> 
+   <td>Systemadministratör</td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -211,9 +207,9 @@ Så här exporterar du en snabbstartsmall:
      </tr>
 
    <tr> 
-      <td>Anteckning</td> 
+      <td>Obs</td> 
       <td>Exporterar som Excel-fil</td> 
-      <td> <p> Anteckning</p> <p>Inställningar </p> </td> 
+      <td> <p> Obs</p> <p>Inställningar </p> </td> 
      </tr> 
      <tr> 
       <td>Portfolio</td> 
@@ -378,7 +374,7 @@ Workfront kan bearbeta de flesta datumformat. Du måste dock se till att datumko
 
 Workfront godkänner också tidsvärden som en del av datumet.
 
-Exempel: 07/10/2022 01:30 eller 07/10/2022 1:00 PM.
+Exempel: 07/10/2022 01 :30 eller 07/10/2022 1:00 PM.
 
 Om du utelämnar en tid i datumet gör Workfront något av följande:
 

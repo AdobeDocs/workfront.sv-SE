@@ -6,9 +6,9 @@ description: Du kan ändra storlek på eller komprimera nedtoningsdiagrammet fö
 author: Lisa
 feature: Agile
 exl-id: ad7ea883-987a-4278-8d24-7c1dd4e542a3
-source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,6 @@ Alla ändringar du gör av storleken eller synligheten för nedladdningsdiagramm
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -32,14 +30,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td> <p>Nytt: [!UICONTROL Light] eller senare</p> 
-   eller
-   <p>Aktuell: [!UICONTROL Review] eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Ljus eller högre</p> 
+   <p>Granska eller högre</p> </td> 
   </tr>
  </tbody> 
 </table>

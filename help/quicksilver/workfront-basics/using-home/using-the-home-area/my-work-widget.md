@@ -6,9 +6,9 @@ description: Widgeten Mitt arbete visar alla dina tilldelade uppgifter, utgåvor
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '720'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,6 @@ Widgeten Mitt arbete visar alla dina tilldelade uppgifter, utgåvor och förfrå
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -34,16 +32,16 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licens</strong></td> 
-   <td> <p>Aktuell: Contribute</p>
-   <p>eller</p> 
-   <p>Nytt:[!UICONTROL Light] eller senare<p> 
+   <td> 
+      <p>Ljus eller högre</p>
+   <p>Contribute eller senare</p>
   </td> 
-  </tr> </ul>
+  </tr>
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå</strong></td> 
    <td> <p>[!UICONTROL View] eller högre tillgång till projekt, uppgifter, ärenden och dokument</p> </td> 
@@ -55,7 +53,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

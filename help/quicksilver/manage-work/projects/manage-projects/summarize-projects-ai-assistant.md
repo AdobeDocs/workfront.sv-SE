@@ -6,9 +6,9 @@ description: Projekthuvudet innehåller en knapp som använder AI Assistant för
 author: Becky
 feature: Get Started with Workfront
 exl-id: e0ac2a50-a75b-4453-8edf-850b8de74327
-source-git-commit: 769cacc12f35b019f8c97c243681f4adb3a3c0c9
+source-git-commit: a24180f95c89c76605eaa735467a791102254645
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -27,35 +27,31 @@ Du kan använda knappen Projektsammanfattning för att generera en sammanfattnin
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td><p>Nytt: Alla</p>
-       <p>eller</p>
-       <p>Aktuell: Inte tillgänglig</p></td>
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Alla</p>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td><p>Nytt: Standard</p>
-       <p>eller</p>
-       <p>Aktuell: Inte tillgänglig</p></td>
+   <td><p>Standard</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td><p>Nytt: Standard</p>
-       <p>eller</p>
-       <p>Aktuell: Inte tillgänglig</p></td>
+   <td role="rowheader">Objektbehörigheter</td> 
+   <td><p>Du måste ha Visa-åtkomst till projektet</p>
   </tr> 
  </tbody> 
  </tbody> 
 </table>
 
 Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Förutsättningar
 

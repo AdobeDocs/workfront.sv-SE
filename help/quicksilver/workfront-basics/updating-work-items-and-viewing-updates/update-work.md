@@ -6,9 +6,9 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: c06f25de917474ffae9a7de3a00033fdf9c84b58
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '3234'
+source-wordcount: '3201'
 ht-degree: 0%
 
 ---
@@ -70,8 +70,6 @@ Mer information om hur du kommenterar kort, mål och poster i Workfront Planning
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -79,15 +77,21 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront package</strong></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licens*</strong></td> 
-   <td> 
-   <p>Nytt: Medarbetare eller högre för problem och dokument: Ljus eller högre för alla andra objekt</p>
-   <p>Aktuell: Begär eller högre för utgåvor och dokument; Granska eller högre för alla andra objekt</p>
-   </td> 
+   <td role="rowheader"><strong>Adobe Workfront-licens</strong></td> 
+   <td> <p>För ärenden och dokument:</p>
+
+<ul><li><p>Medarbetare eller högre</p></li>
+   <li><p>Begäran eller senare</p></li></ul>
+
+<p>För alla andra objekt:</p>
+   <ul><li><p>Ljus eller högre</p></li>
+   <li><p>Granska eller högre</p></li></ul>
+
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå</strong></td> 
@@ -100,9 +104,39 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td> 
+   <p>New: Contributor or higher for issues and documents: Light or higher for all other objects</p>
+   <p>Current: Request or higher for issues and documents; Review or higher for all other objects</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Access level configurations</strong></td> 
+   <td> <p>View or Edit access for the object the update is on</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
+   <td> <p>View access to the object</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
 
 ## Att tänka på när du kommenterar objekt
 
@@ -250,8 +284,8 @@ Fliken **Kommentarer** är markerad som standard.
    >Om du navigerar bort från uppdateringsavsnittet innan du är klar med att skriva och skicka en kommentar, kommer kommentaren på sidan att vara i utkastläge även efter att du loggat ut och loggat in igen. Alla bilder som läggs till i kommentaren sparas också i utkastet. Utkast sparas i 7 dagar efter vilka de tas bort och kan inte återställas. Kommentarerna är bara synliga för användaren som skriver dem.
 
 1. (Valfritt) Om du vill ångra eller göra om en ändring använder du följande kortkommandon:
-   * CTRL + Z ( ⌘ + z för Mac) för att ångra en ändring
-   * CTRL + Y ( ⌘+y för Mac) för att göra om en ändring
+   * CTRL + Z (⌘ + z för Mac) för att ångra en ändring
+   * CTRL + Y (⌘+y för Mac) för att göra om en ändring
 
 1. <span class="preview">(Valfritt) I området **Tagga personer eller team** börjar du skriva namnet eller e-postadressen för en användare, eller ett team som du vill inkludera i kommentaren, eller markerar den när den visas i listan. </span>
 1. (Valfritt) Använd alternativen i verktygsfältet RTF för att formatera texten, lägga till känslolägesikoner, länkar eller bilder till uppdateringen för att förbättra innehållet. Mer information finns i avsnittet [Använd RTF i en Workfront-uppdatering](#use-rich-text-in-a-workfront-update) i den här artikeln.
@@ -329,12 +363,12 @@ Du kan förbättra dina kommentarer genom att använda RTF eller lägga till oli
 
    | **Attribut** | **Verktygsfältsknapp** | **Mac kortkommandon** | **Windows-kortkommandon** |
    |---|---|---|---|
-   | Fet | ![Fet ikon](assets/mceclip10.png) | Jesse+b | Ctrl+B |
-   | Kursiv | ![Kursiv ikon](assets/mceclip9.png) | Jesse+i | Ctrl+I |
-   | Understruken | ![Understrykningsikon](assets/mceclip8.png) | Jesse+u | Ctrl+U |
-   | Hyperlänk | ![Hyperlänkikon](assets/mceclip7.png) | <br>Så här öppnar du rutan Lägg till länkar:¥+K</br> <br>Så här klistrar du in en länk över den markerade texten: +V</br> | <br>Så här öppnar du rutan Lägg till länkar: Ctrl+K</br> <br>Så här klistrar du in en länk över den markerade texten: Ctrl+V</br> |
-   | Punktlista | ![Ikon för punktlista](assets/mceclip6.png) | Jesse+Shift+8 | Ctrl+Skift+8 |
-   | Numrerad lista | ![Ikon för numrerad lista](assets/mceclip5.png) | Jesse+Shift+7 | Ctrl+Skift+7 |
+   | Fet | ![Fet ikon](assets/mceclip10.png) | ⌘+b | Ctrl+B |
+   | Kursiv | ![Kursiv ikon](assets/mceclip9.png) | ⌘+i | Ctrl+I |
+   | Understruken | ![Understrykningsikon](assets/mceclip8.png) | ⌘+u | Ctrl+U |
+   | Hyperlänk | ![Hyperlänkikon](assets/mceclip7.png) | <br>Så här öppnar du rutan Lägg till länkar: ⌘+K</br> <br>Så här klistrar du in en länk över den markerade texten: ⌘+V</br> | <br>Så här öppnar du rutan Lägg till länkar: Ctrl+K</br> <br>Så här klistrar du in en länk över den markerade texten: Ctrl+V</br> |
+   | Punktlista | ![Ikon för punktlista](assets/mceclip6.png) | ⌘+Skift+8 | Ctrl+Skift+8 |
+   | Numrerad lista | ![Ikon för numrerad lista](assets/mceclip5.png) | ⌘+Skift+7 | Ctrl+Skift+7 |
 
    <!--| Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |<br>Ctrl+Shift+9</br> <br>This is not available in the new commenting experience. </br> |-->
 
@@ -372,7 +406,7 @@ Du kan förbättra dina kommentarer genom att använda RTF eller lägga till oli
 1. (Valfritt) Så här lägger du till en URL-länk till ytterligare informationskällor:
 
    1. Klicka i uppdateringen där du vill infoga en länk.
-   1. Klicka på ikonen **Hyperlänk** ![Hyperlänk](assets/link-icon.png) i verktygsfältet **RTF** .
+   1. Klicka på ikonen **Hyperlänk** **Hyperlänk** i verktygsfältet ![RTF](assets/link-icon.png) .
 
    1. I rutan **Skapa länk**, under **URL**, skriver eller klistrar du in URL:en för den källa som du vill länka till.
 
@@ -406,7 +440,7 @@ Du kan förbättra dina kommentarer genom att använda RTF eller lägga till oli
    >* Största bildfilsstorlek är 7 MB. Bildfiltyper som stöds är .jpg, .gif och .png.
    >* Bilder är tillgängliga från uppdateringsavsnittet för ett objekt och är även tillgängliga i området Dokument under huvudmenyn.
    >Du kan kopiera en skärmbild från datorn med en tangentbordskombination, eller till exempel funktionen Skriv ut skärm (på Windows-datorer).
-   >* Du kan klistra in bilden genom att högerklicka i den nya kommentaren och sedan klicka på **Klistra in** eller genom att trycka på CTRL + V för Windows (eller Δ+ V för Mac) på tangentbordet.
+   >* Du kan klistra in bilden genom att högerklicka i den nya kommentaren och sedan klicka på **Klistra in** eller genom att trycka på CTRL + V för Windows (eller ⌘ + V för Mac) på tangentbordet.
    >* Du kan skicka en uppdatering med en bild och utan text.
    >* När du tar bort en kommentar som innehåller en bild tas bilden bort både från uppdateringsavsnittet och från dokumentområdet. Bilden tas också bort från dokumentområdet när du redigerar en kommentar och tar bort bilden.
    >* När någon tar bort en bild som är kopplad till en kommentar från dokumentområdet tas den även bort från kommentaren.
@@ -584,7 +618,7 @@ Ingen Workfront-användare (inklusive Workfront-administratören) kan ta bort up
 
    När kommentaren som du tar bort har tillhörande svar, finns det en indikation på att kommentaren togs bort med namnet på den användare som tog bort den.
 
-   ![Kommentarsindikatorn &#x200B;](assets/removed-comment-indicator-new-experience.png) har tagits bort
+   ![Kommentarsindikatorn ](assets/removed-comment-indicator-new-experience.png) har tagits bort
 
    Borttagna kommentarer tas bort direkt från Workfront. En användare som använder uppdateringsavsnittet ser en kommentar som tas bort av en annan användare i realtid.
 

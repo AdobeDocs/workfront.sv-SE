@@ -6,9 +6,9 @@ description: Genom att beräkna om tidslinjer kan cheferna se hur olika faktorer
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: d846f2f90a8ca2a38c1b18897341cb50f4c5aef4
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
@@ -27,20 +27,20 @@ Automatisk omberäkning av tidslinjen sker utan särskild åtkomst för någon a
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Standard </p> 
-    <p>Plan </p>
+   <td> <p>Standard</p> 
+    <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
@@ -58,6 +58,32 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 +++
 
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard </p> 
+    <p>Plan </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Projects</p> <p>System administrator to recalculate timeline for all projects in the system</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to a project</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
+
 ## Automatisk omberäkning
 
 Som standard räknas projekttidslinjer om automatiskt varje dag när projektomfånget ändras eller varje natt. Workfront-administratören avgör om tidslinjer ska beräknas automatiskt varje natt eller om omfångsändringar ska göras genom att hantera tidslinjeinställningarna under Projektinställningar i installationsprogrammet. Mer information finns i [Konfigurera tidslinjeomberäkningar för projekt](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
@@ -67,8 +93,8 @@ Som standard räknas projekttidslinjer om automatiskt varje dag när projektomf�
 >* Om tidslinjen för ett projekt är längre än 15 år inaktiveras den automatiska omberäkningen för det projektet och du kan bara välja en manuell uppdateringstyp. Om du ändrar datum för projektet till mindre än 15 år måste du beräkna om tidslinjen manuellt en gång innan den beräknas automatiskt.
 >* I sandlådemiljöerna Förhandsgranska och Anpassad uppdatering inaktiveras nattomberäkningen och projekttidslinjerna beräknas inte om automatiskt. Du måste beräkna om projekttidslinjen manuellt för miljöerna Preview och Custom Refresh Sandbox.
 >* Om ett projekt är komplext kanske den automatiska tidslinjeberäkningen inte utförs.
->  &#x200B;> Ett exempel på ett komplext projekt kan vara ett projekt med flera beroenden, ett stort antal uppgifter, flera föregångare mellan projekt eller flera indrag för uppgifter.
->  &#x200B;> Workfront skickar en varning till höger om projektnamnet på projektsidan som talar om för användarna att projekttidslinjen måste beräknas om manuellt. Endast användare med behörigheten Hantera för projektet kan beräkna om tidslinjen manuellt.
+>  > Ett exempel på ett komplext projekt kan vara ett projekt med flera beroenden, ett stort antal uppgifter, flera föregångare mellan projekt eller flera indrag för uppgifter.
+>  > Workfront skickar en varning till höger om projektnamnet på projektsidan som talar om för användarna att projekttidslinjen måste beräknas om manuellt. Endast användare med behörigheten Hantera för projektet kan beräkna om tidslinjen manuellt.
 >
 >   ![](assets/project-warning-to-manually-recalculate-timeline.png)
 >

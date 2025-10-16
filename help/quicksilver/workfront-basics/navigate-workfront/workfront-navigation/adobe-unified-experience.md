@@ -6,9 +6,9 @@ description: Om du får åtkomst till [!DNL Workfront] via Adobe Experience Clou
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
+source-git-commit: 29083931a4910c99027edb856ab200c8a4345679
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -30,25 +30,23 @@ Om din organisation använder Adobe Unified Experience börjar den URL som du an
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront package</strong></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>Nytt: [!UICONTROL Contributor] eller senare</p> 
-   <p>Aktuell: [!UICONTROL Request] eller högre</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront-licens</strong></td> 
+   <td> <p>Medarbetare eller högre</p> 
+   <p>Begäran eller senare</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -93,7 +91,7 @@ När du har loggat in på [!DNL Adobe Experience Cloud] kan du visa alla [!DNL W
 
 ## Navigera [!DNL Workfront]
 
-Använd ikonen [!UICONTROL Main Menu] ![Huvudmeny &#x200B;](assets/main-menu-icon-left-nav.png) till vänster om navigeringsfältet i [!DNL Workfront] för att navigera till sidor som du har tillgång till. Vilka alternativ som är tillgängliga i [!UICONTROL Main Menu] beror på:
+Använd ikonen [!UICONTROL Main Menu] ![Huvudmeny ](assets/main-menu-icon-left-nav.png) till vänster om navigeringsfältet i [!DNL Workfront] för att navigera till sidor som du har tillgång till. Vilka alternativ som är tillgängliga i [!UICONTROL Main Menu] beror på:
 
 * **Layoutmallskonfigurationer**: Information om hur en [!DNL Workfront] -administratör kan ändra [!UICONTROL Main Menu] från en layoutmall finns i [Anpassa [!UICONTROL Main Menu] med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 * **Licenstyp**: Information om standardkonfigurationerna för olika licenstyper finns i [Förstå navigeringen för en [!UICONTROL Review]-licensanvändare](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) eller [Förstå navigeringen för en [!UICONTROL Work]-licensanvändare](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
@@ -125,7 +123,7 @@ Om din organisation använder ett separat program för att hantera lösenord än
 
 Om ditt lösenord hanteras av [!DNL Adobe] kan du ändra lösenordet i ditt Adobe-konto.
 
-[Läs den här artikeln om hur du ändrar ditt Adobe-lösenord.](https://helpx.adobe.com/se/manage-account/using/change-or-reset-password.html){target="_blank"}
+[Läs den här artikeln om hur du ändrar ditt Adobe-lösenord.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 Kontakta administratören om du vill ha mer information om hur du ändrar ditt lösenord.
 

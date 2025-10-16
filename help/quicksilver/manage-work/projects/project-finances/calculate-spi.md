@@ -7,9 +7,9 @@ description: Schemalägg prestandaindex (SPI) beskriver förhållandet mellan de
 author: Lisa
 feature: Work Management
 exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -26,35 +26,32 @@ Schemalägg prestandaindex (SPI) beskriver förhållandet mellan det planerade s
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td>Adobe Workfront package</td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td>Adobe Workfront-licens</td> 
    <td>
-   <p>Nytt: Ljus eller högre</p>
-   <p>eller</p>
-   <p>Aktuell: Granska eller senare</p></td>  
+   <p>Ljus eller högre</p>
+   <p>Granska eller högre</p></td>  
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td>Konfigurationer på åtkomstnivå</td> 
    <td>Visa åtkomst till projekt och finansiella data</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
+   <td>Objektbehörigheter</td> 
    <td>Visa eller högre behörigheter för projektet med behörighet att visa ekonomi</td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

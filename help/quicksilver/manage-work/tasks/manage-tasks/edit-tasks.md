@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: ea0ae13abe9373bef7a1d146ca1951c8c383f994
+source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
 workflow-type: tm+mt
 source-wordcount: '3829'
 ht-degree: 0%
@@ -48,11 +48,11 @@ Du kan redigera information om åtgärder som du har skapat eller om du har beh�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td> <p>Alla </p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td> <p>Standard</p>
    <p>Arbeta eller högre</p> </td> 
   </tr> 
@@ -82,6 +82,44 @@ Du kan redigera information om åtgärder som du har skapat eller om du har beh�
 *Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Standard</p>
+   <p>Work or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Tasks and Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
+    <ul> 
+     <li> <p>Contribute permissions to a task to edit the following information in the Task Details area: </p>
+     <ul>
+     <li>Description</li>
+     <li>Status</li>
+     </ul>  
+      </li> 
+     <li> <p>Manage permissions to a task to edit all the information in the Details area and the Edit Task box</p> </li> 
+    </ul> 
+    <ul> 
+     <li> <p>Contribute or higher permissions to the project</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Begränsningar för redigering av uppgifter
 

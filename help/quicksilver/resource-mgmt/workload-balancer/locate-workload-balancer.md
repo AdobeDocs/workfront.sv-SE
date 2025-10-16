@@ -7,9 +7,9 @@ description: Utjämning av arbetsbelastning är tillgängligt för flera projekt
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
+source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -42,25 +42,21 @@ I den här artikeln beskrivs de områden där du kan komma åt belastningsutjäm
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td> <p>Alla </p> </td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Alla</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td><p>Nytt: Standard</p>
-       <p>eller</p>
-       <p>Aktuell: Planera när du använder belastningsutjämnaren för arbetsbelastning i resursområdet:</br>
-       Arbeta, när du använder belastningsutjämnaren för ett team eller projekt</p>
+   <td>Adobe Workfront-licens</td> 
+   <td><p>Standard</p>
+       <p>Planera, när du använder belastningsutjämnaren för arbetsbelastning i resursområdet; Arbeta när du använder belastningsutjämnaren för ett team eller projekt</p>
        <p><span class="preview">Obs! Alla användare har tillgång till arbetsbelastningsutjämnaren i sina egna användarprofiler, utan några licenskrav.</span></p></td>
   </tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td>Konfigurationer på åtkomstnivå</td> 
    <td> <p>Visa eller öka åtkomsten till följande:</p> 
     <ul> 
      <li>Resurshantering</li> 
@@ -70,13 +66,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
+   <td>Objektbehörigheter</td> 
    <td>Visa behörigheter eller högre för projekt, uppgifter och ärenden</td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

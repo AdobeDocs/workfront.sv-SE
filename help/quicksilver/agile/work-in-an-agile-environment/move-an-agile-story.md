@@ -6,10 +6,10 @@ description: Du kan flytta en flexibel artikel till en annan upprepning (för Sc
 author: Lisa
 feature: Agile
 exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
-source-git-commit: 68aafe63ff8b60a542ed9dd0900b3742c26a1e4f
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 0%
+source-wordcount: '322'
+ht-degree: 1%
 
 ---
 
@@ -21,8 +21,6 @@ Du kan flytta en flexibel artikel till en annan upprepning (för Scrum-team) ell
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -30,18 +28,17 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td> <p>Nytt: [!UICONTROL Standard]</p> 
-   eller
-   <p>Aktuell: [!UICONTROL Work] eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Standard</p> 
+   <p>Arbeta eller högre</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td>[!UICONTROL Manage] åtkomst till artikeln</td> 
+   <td>Hantera åtkomst till artikeln</td> 
   </tr> 
  </tbody> 
 </table>

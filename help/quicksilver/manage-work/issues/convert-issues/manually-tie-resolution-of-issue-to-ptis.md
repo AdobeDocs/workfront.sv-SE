@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: convert-issues
-title: Koppla lösningen av ett problem manuellt till andra problem, uppgifter eller projekt
+title: Koppla en problemlösning till andra problem, uppgifter eller projekt manuellt
 description: Du kan koppla en problemlösning manuellt till en lösning på ett projekt, en uppgift eller ett problem utan att konvertera problemet. Problemet blir ett av de objekt som kan lösas i projektet, uppgiften eller problemet som du väljer. När du gör detta ändras statusen för projektet, aktiviteten eller utgåvan av statusen för den ursprungliga utgåvan.
 author: Alina
 feature: Work Management
 exl-id: f57f67cb-60b3-4a95-9963-fa339e542551
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
 
 # Koppla lösningen av ett problem manuellt till andra problem, uppgifter eller projekt
+
+<!--Audited: 08/2025-->
 
 Du kan koppla en problemlösning manuellt till en lösning på ett projekt, en uppgift eller ett problem utan att konvertera problemet. Problemet blir ett av de objekt som kan lösas i projektet, uppgiften eller problemet som du väljer. När du gör detta ändras statusen för projektet, aktiviteten eller utgåvan av statusen för den ursprungliga utgåvan.
 
@@ -25,32 +27,60 @@ Mer information om hur du löser och löser problem finns i [Översikt över obj
 
 ## Åtkomstkrav
 
-Du måste ha följande:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Alla </p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Begäran eller senare</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td><p>Medarbetare eller högre</p> 
+   <p>Begäran eller senare</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till problem, uppgifter, projekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till problem, uppgifter, projekt</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter för det problem som du länkar till ett annat problem, en annan uppgift eller ett annat projekt</p> <p>Visa eller högre behörigheter för det problem, den uppgift eller det projekt som du lägger till i det befintliga problemet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter för det problem som du länkar till ett annat problem, en annan uppgift eller ett annat projekt</p> <p>Visa eller högre behörigheter för det problem, den uppgift eller det projekt som du lägger till i det befintliga problemet</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Issues,&nbsp;Tasks, Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the issue you link to another issue, task, or project</p> <p>View or higher permissions to the issue, task, or project you add to the existing issue</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Förutsättningar
 

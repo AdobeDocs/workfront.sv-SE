@@ -6,9 +6,9 @@ description: Du kan öppna panelen Sammanfattning i Utjämning av arbetsbelastni
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -23,26 +23,22 @@ Panelen Sammanfattning är tillgänglig för uppgifter och problem i både arbet
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td> <p>Alla </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td><p>Nytt: Standard</p>
-       <p>eller</p>
-       <p>Aktuell: Planera när du använder belastningsutjämnaren för arbetsbelastning i resursområdet:</br>
-       Arbeta, när du använder belastningsutjämnaren för ett team eller projekt</p></td>
+   <td>Adobe Workfront package</td> 
+   <td><p>Alla</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Redigera åtkomst till följande:</p> 
+   <td>Adobe Workfront-licens</td> 
+   <td><p>Standard</p>
+       <p>Planera, när du använder belastningsutjämnaren för arbetsbelastning i resursområdet; Arbeta när du använder belastningsutjämnaren för ett team eller projekt</p></td>
+  </tr>
+  <tr> 
+   <td>Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Visa eller öka åtkomsten till följande:</p> 
     <ul> 
      <li>Resurshantering</li> 
      <li>Projekt</li> 
@@ -52,13 +48,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
-   <td>Contribute-behörigheter eller högre för projekt, uppgifter och ärenden</td> 
+   <td>Objektbehörigheter</td> 
+   <td>Contribute eller högre behörigheter för projekt, uppgifter och ärenden</td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -97,4 +93,4 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    Mer information om hur du uppdaterar information med Sammanfattning finns i [Sammanfattningsöversikt](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 1. (Villkorligt) Om du öppnade något av avsnitten i arbetsobjektet klickar du på webbläsarens **Tillbaka** för att återgå till arbetsbelastningsutjämnaren.
-1. Klicka på ikonen **Stäng** ![Stäng &#x200B;](assets/close-icon.png) i det övre högra hörnet av sammanfattningen för att stänga den.
+1. Klicka på ikonen **Stäng** ![Stäng ](assets/close-icon.png) i det övre högra hörnet av sammanfattningen för att stänga den.

@@ -6,9 +6,9 @@ description: Du kan använda villkorsstyrd formatering för att jämföra två o
 author: Nolan
 feature: Reports and Dashboards
 exl-id: da4447ba-6e76-4701-88ee-87a30393bed9
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -21,29 +21,21 @@ Du kan använda villkorsstyrd formatering för att jämföra två olika fält i 
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
-
-Du måste ha följande:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
    <td> 
-      <p>Nytt:</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Aktuell:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
+     <p>Standard</p>
+     <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
@@ -57,7 +49,7 @@ Du måste ha följande:
  </tbody> 
 </table>
 
-Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -97,7 +89,7 @@ Så här jämför du det planerade startdatumet och det faktiska startdatumet f�
 
    >[!NOTE]
    >
-   >Om du jämför ett Workfront-fält använder du kamelversionssyntax för fältets namn. Om du jämför ett anpassat fält använder du **DE:Faktiskt namn för fältet** för det namnfält som du jämför med det första fältet.\
+   >Om du jämför ett Workfront-fält använder du kamelversionssyntax för fältets namn. Om du jämför ett anpassat fält använder du **DE:Actual-namnet för fältet** för det namnfält som du jämför med det första fältet.\
    >Om du till exempel jämför **Faktiskt startdatum** med ett anpassat fält med namnet **Leveransdatum** lägger du till följande programsats i textlägeskoden:
    >
    >`styledef.case.0.comparison.rightmethod=DE:Delivery Date`

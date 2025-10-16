@@ -6,9 +6,9 @@ description: Kontrollpanelen [!UICONTROL boards] visar en lista med paneler som 
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '768'
 ht-degree: 0%
 
 ---
@@ -37,22 +37,19 @@ Mer information om hur du skapar en ny anslagstavla eller redigerar en befintlig
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td> 
-   <p>Nytt: [!UICONTROL Contributor] eller senare</p> 
-   <p>eller</p>
-   <p>Aktuell: [!UICONTROL Request] eller högre</p>
+   <p>Medarbetare eller högre</p> 
+   <p>Begäran eller senare</p>
    </td> 
   </tr> 
  </tbody> 
@@ -113,7 +110,7 @@ När du arkiverar en styrelse eller ett arbetsflöde skickas det till arkivet oc
 
    Arkiverade objekt är dolda på panelens kontrollpanel såvida du inte använder ett filter för att visa dem. Mer information finns i avsnittet [[!UICONTROL Filter boards]](#filter-boards) i den här artikeln.
 
-1. Om du vill återställa ett arkiverat bord eller arbetsflöde klickar du på **[!UICONTROL More]**-menyikonen ![Mer &#x200B;](assets/more-icon-spectrum.png) på anslagstavlan eller i arbetsflödet och väljer **[!UICONTROL Restore]**.
+1. Om du vill återställa ett arkiverat bord eller arbetsflöde klickar du på **[!UICONTROL More]**-menyikonen ![Mer ](assets/more-icon-spectrum.png) på anslagstavlan eller i arbetsflödet och väljer **[!UICONTROL Restore]**.
 
 ## Ta bort en anslagstavla eller ett arbetsflöde
 

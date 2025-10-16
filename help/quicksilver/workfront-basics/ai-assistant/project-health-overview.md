@@ -5,9 +5,9 @@ description: Funktionen Project Health utnyttjar funktionerna i AI Assistant fö
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: d1ded406b8c4da975e2ff4d6825954cabd483ed2
+source-git-commit: dce36c38a626b4d3799fb1d1f673bdc49d81e274
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1508'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,8 @@ AI Assistant kan generera en Project Health-utvärdering för följande objekt:
 
 Mer information om AI Assistant finns i [Översikt över AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
-+++ Expandera om du vill visa åtkomstkraven. 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -36,9 +37,10 @@ Mer information om AI Assistant finns i [Översikt över AI Assistant](/help/qui
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Select, Prime eller Ultimate </p> 
+<p>Markera eller högre </p> 
+<p>Välj eller högre arbetsflöde</p>
    </td> 
 <tr> 
  <tr> 
@@ -50,9 +52,9 @@ Mer information om AI Assistant finns i [Översikt över AI Assistant](/help/qui
   </tr> 
   <tr> 
    <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td> 
-   <td><p>Administratör för att hantera Project Health-konfigurationer </p>
-   <p>Redigera för att tillämpa Project Health-konfigurationer </p>
-     <p>Visa för att visa Project Health-konfigurationer </p>
+   <td><p>Du måste vara systemadministratör för att kunna hantera Project Health-konfigurationer </p>
+   <p>Redigera åtkomst till projekt för att använda Project Health-konfigurationer </p>
+     <p>Visa åtkomst till projekt för att visa Project Health-konfigurationer </p>
   </td> 
   </tr>  
     </tr>  
@@ -216,7 +218,7 @@ När en administratör har skapat en projekthälsokonfiguration kan användare m
 
 1. Välj ett projekt på sidan **Projekt**.
 
-1. Klicka på ikonen **Mer** ![Mer &#x200B;](assets/more-icon.png) till höger om projektnamnet och välj sedan **Redigera**. Sidpanelen **Redigera projekt** öppnas.
+1. Klicka på ikonen **Mer** ![Mer ](assets/more-icon.png) till höger om projektnamnet och välj sedan **Redigera**. Sidpanelen **Redigera projekt** öppnas.
 
 1. Välj **Projektinställningar** i den vänstra panelen.
 
@@ -267,7 +269,7 @@ Mer information finns i följande avsnitt i den här artikeln: [Hantera projekth
 
    ![Utökad information](assets/expanded-details.png)
 
-1. När du har granskat projekthälsoinformationen klickar du på ikonen **Stäng** ![Stäng &#x200B;](assets/close-icon.png) i det övre högra hörnet av AI Assistant.
+1. När du har granskat projekthälsoinformationen klickar du på ikonen **Stäng** ![Stäng ](assets/close-icon.png) i det övre högra hörnet av AI Assistant.
 
 ## Generera en Project Health-utvärdering för flera projekt
 
@@ -289,7 +291,7 @@ Ett projekt inkluderas bara i den kombinerade Project Health-bedömningen om pro
 
 1. (Valfritt) Klicka på ett av projektets hälsovillkorsemblem för att expandera projektlistan och välj sedan en länk för ett visst projekt för att gå till informationssidan för det projektet.
 
-1. När du har granskat projektens hälsoinformation klickar du på ikonen **Stäng** ![Stäng &#x200B;](assets/close-icon.png) i det övre högra hörnet av AI Assistant för att stänga den.
+1. När du har granskat projektens hälsoinformation klickar du på ikonen **Stäng** ![Stäng ](assets/close-icon.png) i det övre högra hörnet av AI Assistant för att stänga den.
 
 <!--
 

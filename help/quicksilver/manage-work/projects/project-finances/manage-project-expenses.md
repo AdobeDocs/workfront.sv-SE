@@ -6,9 +6,9 @@ description: Processen för att skapa och hantera utgifter är densamma för bå
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: e1884aa7975018a737538d909954319e6feee318
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -30,27 +30,27 @@ Det totala beloppet för dina utgifter för alla uppgifter och projekt bidrar ti
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td>Adobe Workfront package</td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td>Adobe Workfront-licens</td> 
    <td>
-   <p>Nytt: Standard</p>
-   <p>Aktuell: Arbete eller högre</p></td> 
+   <p>Standard</p>
+   <p>Arbeta eller högre</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td>Konfigurationer på åtkomstnivå</td> 
    <td>Redigera åtkomst till projekt och finansiella data</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
-   <td>Contribute eller högre behörigheter för projektet med behörighet att visa eller hantera ekonomi</td> 
+   <td>Objektbehörigheter</td> 
+   <td>Contribute eller högre behörigheter för projektet, med behörighet att visa eller hantera ekonomi</td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

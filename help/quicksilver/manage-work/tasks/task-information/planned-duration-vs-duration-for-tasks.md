@@ -2,12 +2,12 @@
 content-type: reference
 product-area: projects
 navigation-topic: task-information
-title: Skillnad mellan planerad varaktighet och varaktighet för uppgifter
+title: Skillnad mellan planerad varaktighet och varaktighet för aktiviteter
 description: Varaktighet är tiden mellan planerad start och planerad slutförandedatum för en arbetsuppgift. Aktiviteter har en varaktighet och en planerad varaktighet i Adobe Workfront, beroende på aktivitetens varaktighetstyp.
 author: Alina
 feature: Work Management
 exl-id: 183a3334-b4af-4f45-8e72-9e82ff3862a0
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 0%

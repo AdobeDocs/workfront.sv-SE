@@ -6,9 +6,9 @@ description: Du kan flytta problem mellan projekt och uppgifter.
 author: Alina
 feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -30,26 +30,23 @@ Du kan flytta problem mellan följande objekt:
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Nytt:</p> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> 
    <ul><li>Medarbetare eller högre</li>
    <li>Ljus eller högre för att flytta problem i avsnittet Problem i ett projekt</li></ul>
-   <p>Aktuell:</p>
-   <ul>
-   <li><p>Begäran eller senare</p></li>
+   Eller:
+   <ul>   <li><p>Begäran eller senare</p></li>
    <li><p>Granska eller högre licens för att flytta problem i avsnittet Problem i ett projekt.</p></li></ul>   
      </td> 
   </tr> 
@@ -67,6 +64,38 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 *Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New:</p> 
+   <ul><li>Contributor or higher</li>
+   <li>Light or higher to move issues in the Issues section of a project</li></ul>
+   <p>Current:</p>
+   <ul>
+   <li><p>Request or higher</p></li>
+   <li><p>Review or higher license to move issues in the Issues section of a project.</p></li></ul>   
+     </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Issues</p> <p>View or higher access to Projects and Tasks</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the issue</p> <p>Contribute permissions to the item where you are moving the issue with the ability to Add Issues.</td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Att tänka på när det gäller rörliga frågor
 

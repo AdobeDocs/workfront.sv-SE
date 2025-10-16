@@ -7,9 +7,9 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
+source-git-commit: 3d12c144552474439b247739b47de9454a2233f2
 workflow-type: tm+mt
-source-wordcount: '1891'
+source-wordcount: '1822'
 ht-degree: 0%
 
 ---
@@ -40,32 +40,32 @@ Mer information om hur du skapar en global godkännandeprocess finns i [Skapa en
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Arbeta eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> 
+   <p>Standard</p>
+   <p>Arbeta eller högre</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst eller senare till projekt, uppgifter, problem eller mallar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst eller senare till projekt, uppgifter, problem eller mallar</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter för projektet, aktiviteten, utgåvan eller mallen</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter för projektet, aktiviteten, utgåvan eller mallen</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -233,7 +233,7 @@ Så här tar du bort eller tar bort en godkännandeprocess från en arbetsuppgif
 1. Klicka på en av följande ikoner i det övre högra hörnet av avsnittet Godkännanden, beroende på vilken typ av godkännande som är associerat med objektet:
 
    * **Ikonen** Ta bort ![ikon](assets/remove-icon---x-in-circle.png) för globala godkännanden eller godkännanden på gruppnivå.
-   * **Ikonen** Ta bort ![ikonen &#x200B;](assets/delete.png) för engångsgodkännanden.
+   * **Ikonen** Ta bort ![ikonen ](assets/delete.png) för engångsgodkännanden.
 
 1. Bekräfta genom att klicka på **Ta bort** eller **Ta bort**.
 

@@ -4,12 +4,12 @@ product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
 title: Det går inte att logga tid för framtida datum
 description: Du kan inte logga timmar för framtida datum i projekt, uppgifter eller utgåvor eftersom fälten är inaktiverade.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 6108fad2-f0a2-4989-8645-69a16820032b
-source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Systemadministratörer kan uppdatera en inställning så att du kan logga tid f�
 
 Som systemadministratör gör du följande:
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Expandera **Tidrapporter och timmar** och klicka sedan på **Inställningar**.
 

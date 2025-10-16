@@ -6,14 +6,16 @@ description: Du kan redigera ett enskilt problem eller redigera problem i en pro
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
 
 # Redigera problem i en lista
+
+<!--Audited: 08/2025-->
 
 Du kan redigera ett enskilt problem eller redigera problem i en problemlista eller rapport. I den här artikeln beskrivs hur du redigerar problem i listor.
 
@@ -21,19 +23,26 @@ Mer information om hur du redigerar ett enskilt problem finns i [Redigera proble
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra åtgärderna i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Begäran eller senare</p> <p>Granska eller högre licens för att redigera problem i avsnittet Problem i ett projekt.</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td>
+
+<ul><li><p>Medarbetare eller högre</p> </li>
+   <li><p>Ljus eller högre licens för att redigera ett problem i avsnittet Problem i ett projekt</p></li></ul> 
+    eller
+   <ul><li><p>Begärande eller högre</p> </li>
+   <li><p>Granskare eller högre licens för att redigera ett problem i avsnittet Problem i ett projekt</p></li></ul> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
@@ -46,7 +55,34 @@ Du måste ha följande åtkomst för att kunna utföra åtgärderna i den här a
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> <p>Review or higher license to edit issues in the Issues section of a project.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Issues</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Contribute or higher permissions to the issue</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Inline edit issues
 
@@ -71,40 +107,40 @@ Så här infogar du redigering av en utgåva:
 
    Mer information om redigering av textbundna objekt finns i [Redigera objekt textbundet i en lista i Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
-## Redigera problem i en lista
+## Redigera problem från en lista
 
 1. Gå till en lista med problem i ett projekt eller en uppgift.
 1. Gör något av följande
 
-   * Markera problemet i listan och klicka sedan på Redigera-ikonen ![Redigera-ikonen](assets/qs-edit-icon.png) i verktygsfältet.
-   * Klicka på **Mer-menyn** ![Mer-menyn](assets/more-icon-task-list.png) till höger om problemnamnet och klicka sedan på **Öppna på en ny flik**. Då öppnas sidan med problem på en ny flik. Klicka på **Mer** > **Redigera** på sidan Problem.
-   * Klicka på **Mer-menyn** ![Mer-menyn](assets/more-icon-task-list.png) till höger om problemnamnet och klicka sedan på **Redigera**.
+   * Markera problemet i listan och klicka sedan på ikonen **Redigera** ![Redigera ](assets/qs-edit-icon.png) i verktygsfältet.
+   * Klicka på namnet på problemet och klicka sedan på **Redigera**.
 
-     Alla dessa åtgärder öppnar rutan Redigera problem.
+     Alla dessa åtgärder öppnar rutan **Redigera problem**.
 
-     Mer information om hur du redigerar problem i rutan Redigera problem finns i [Redigera problem](../../../manage-work/issues/manage-issues/edit-issues.md).
+     Mer information om hur du redigerar problem i rutan **Redigera problem** finns i [Redigera problem](../../../manage-work/issues/manage-issues/edit-issues.md).
 
 ## Redigera problem med hjälp av Sammanfattning
 
-Du kan redigera ett problem i en lista med hjälp av Sammanfattning.
+Du kan redigera ett problem i en lista med hjälp av panelen Sammanfattning.
 
 1. Gå till det projekt vars utgåvor du vill redigera.
 1. Klicka på **Problem** i den vänstra panelen.
 
    Listan med problem i projektet visas.
 
-1. Markera ett problem som du vill redigera och klicka sedan på ikonen **Öppna sammanfattning** ![Öppna sammanfattning](assets/qs-open-summary-icon-in-new-toolbar-small.png) i det övre högra hörnet av problemlistan.
+1. Markera ett problem som du vill redigera och klicka sedan på ikonen **Öppna sammanfattning** ![Öppna sammanfattningsikonen](assets/qs-open-summary-icon-in-new-toolbar-small.png) i det övre högra hörnet av problemlistan.
 
    **Sammanfattningen** öppnas.
 
 1. (Valfritt) Börja skriva en uppdatering för problemet i området **Uppdateringar** .
 1. Klicka på någon av följande ikoner eller områden för att gå till problemet och redigera information på problemnivå:
 
-   | Dokument | Klicka **Klicka här om du vill lägga till** för att lägga till dokument i utgåvan. |
+   | Ikon | Åtgärd |
    |---|---|
-   | Information | Klicka för att uppdatera information om problemet. |
-   | Timmar | Klicka för att logga timmar. |
-   | Godkännanden | Klicka för att lägga till godkännanden av utgåvor. |
+   | Ikonen ![Dokument](assets/documents-icon-in-summary.png) | Klicka **Klicka här om du vill lägga till** för att lägga till dokument i utgåvan. |
+   | Information ![Ikon för detaljer](assets/details-icon-in-summary.png) | Klicka för att uppdatera information om problemet. |
+   | ![Loggtid](assets/log-time-icon-in-summary.png) | Klicka för att logga timmar. |
+   | Godkännanden ![ikonen Godkännanden](assets/approvals-icon-in-summary.png) | Klicka för att lägga till godkännanden av utgåvor. |
 
 1. (Valfritt) Klicka på ikonen **Öppna sammanfattning** igen eller på ikonen **X** i det övre högra hörnet av sammanfattningen för att stänga panelen och redigera ärendet textbundet.
 
@@ -127,7 +163,7 @@ Så här redigerar du flera problem samtidigt:
 
    Att redigera information i alla frågor är identiskt med att redigera information i ett problem när du redigerar följande områden:
 
-   * Ökning
+   * Översikt
    * Inställningar
    * Uppdrag
    * Kommentar

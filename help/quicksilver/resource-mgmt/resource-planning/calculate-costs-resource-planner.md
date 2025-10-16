@@ -6,9 +6,9 @@ description: Du kan budgetera dina resurser i Adobe Workfront Resursplanering ge
 author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1392'
 ht-degree: 0%
 
 ---
@@ -36,36 +36,31 @@ Mer information om hur du förstår informationen i resursplaneraren vid budgete
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-    <td><p>Nytt: Alla</p>
-       <p>eller</p>
-       <p>Aktuell: Pro eller högre</p> </td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Alla</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td><p>Nytt: Standard</p>
-       <p>eller</p>
-       <p>Aktuell: Planera</p></td> 
+   <td>Adobe Workfront-licens</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td>Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till resurshantering som inkluderar åtkomst till Redigera prioriteringar och budgettimmar i Resursplanering</p> <p>Redigera åtkomst till finansiella data, projekt och användare</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter för de projekt som du vill budgetera information för med möjlighet att hantera finanser</p></td> 
+   <td>Objektbehörigheter</td> 
+   <td> <p>Hantera behörigheter för de projekt som du vill budgetera information för med möjlighet att hantera finanser</p></td>
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -155,7 +150,7 @@ Om rollen inte har någon kostnad per timme är den tillgängliga rollkostnaden 
 
 Följande scenarier används vid beräkning av planerad kostnad för användare, roller och projektet:
 
-* När **kostnadstypen** är **Användare per timme &#x200B;** och det inte finns **någon tilldelning** för aktiviteten:
+* När **kostnadstypen** är **Användare per timme **och det inte finns **någon tilldelning** för aktiviteten:
 
    * **Roll och användarplanerad kostnad**:
 

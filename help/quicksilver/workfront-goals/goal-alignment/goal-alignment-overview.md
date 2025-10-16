@@ -7,34 +7,41 @@ description: Målanpassningen säkerställer att alla i organisationen är på s
 author: Alina
 feature: Workfront Goals
 exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
 
 # Översikt över måljustering i Adobe Workfront-mål
 
-<!--Audited P&P only: 4/2025-->
+<!--Audited: 10/2025-->
 
 >[!IMPORTANT]
 >
->Din organisation måste ha följande för att kunna använda de funktioner som beskrivs i den här artikeln:
+>Ditt företag kan välja att fortsätta använda Adobe Workfront-mål om de tidigare har köpt det här paketet. Du måste prata med din kontorepresentant för mer information.
 >
->* För den nya planen och licensstrukturen:
->
->   * Ultimate Workfront-planen
->    
->* För aktuell plan och licensstruktur:
->
->   * En plan för Pro eller senare Workfront
->   * En Adobe Workfront Goals-licens förutom en Workfront-licens.
->
->Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront Goals-licens.
+>Adobe Workfront-mål går inte längre att köpa.
 > 
 >Mer information om åtkomst till Workfront-mål finns i [Krav för att använda Workfront-mål](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
+
+<!--Old:
+>Your organization must have the following to use the functionality described in this article:
+>
+>* For the new plan and license structure:
+>
+>   * The Ultimate Workfront plan 
+>    
+>* For the current plan and license structure: 
+>
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
+>
+>Contact your Workfront account manager to learn about a Workfront Goals license.    
+> 
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).-->
 
 Målanpassning är en viktig del av målhanteringen. Ni kan se till att alla i organisationen är på samma sida om vad som måste göras för att driva strategin framåt genom att anpassa deras mål till varandra och till de organisatoriska målen för team, grupper och företaget.
 
@@ -44,7 +51,7 @@ Mer information om de effektivaste strategierna när du justerar mål finns i [K
 
 ## Överväganden för att justera mål
 
-* Ett mål kan inte bidra till mer än ett annat mål samtidigt. Även om du kan ha flera underordnade mål justerade mot samma överordnade mål, kan ett underordnat mål bara ha en överordnad. Mer information om mål för överordnade och underordnade finns i avsnittet [Förstå mål för överordnade och underordnade &#x200B;](#understand-parent-and-children-goals) i den här artikeln.
+* Ett mål kan inte bidra till mer än ett annat mål samtidigt. Även om du kan ha flera underordnade mål justerade mot samma överordnade mål, kan ett underordnat mål bara ha en överordnad. Mer information om mål för överordnade och underordnade finns i avsnittet [Förstå mål för överordnade och underordnade ](#understand-parent-and-children-goals) i den här artikeln.
 * Ett mål kan ha flera justerade (eller underordnade) mål samt flera aktiviteter och resultat. Dessutom kan varje underordnat mål ha andra aktiviteter och resultat som påverkar dess förlopp samt förloppet för det överordnade målet.
 
   >[!TIP]
@@ -64,7 +71,7 @@ Det finns två sätt att anpassa mål:
 
 * **En justering uppifrån och ned**: Du kan konvertera ett resultat eller en aktivitet för ett mål till ett annat mål. Det nya målet blir det underordnade målet för det ursprungliga målet som blir överordnat. Mer information om justering uppifrån och ned finns i [Justera mål genom att konvertera resultat och aktiviteter till mål](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
 
-Mer information om mål för överordnade och underordnade finns i avsnittet [Förstå mål för överordnade och underordnade &#x200B;](#understand-parent-and-children-goals) i den här artikeln.
+Mer information om mål för överordnade och underordnade finns i avsnittet [Förstå mål för överordnade och underordnade ](#understand-parent-and-children-goals) i den här artikeln.
 
 ## Förstå mål för överordnade och underordnade {#understand-parent-and-children-goals}
 
@@ -95,7 +102,7 @@ Efter att ha justerat målen ingår de i samma hierarki och är synliga inom oli
 -->
 Du kan visa underordnade och överordnade mål inom följande områden:
 
-* Avsnittet Förloppsindikatorer på en målsida, under gruppen Typ:Mål.
+* Förloppsindikatoravsnittet på en målsida, under grupperingen Type:Goal.
 * Måljusteringsdelen på sidan Mål.
 
 

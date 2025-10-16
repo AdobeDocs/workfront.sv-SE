@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 085b0f04-5a9c-49b9-86d7-2363731ee067
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -28,30 +28,30 @@ Du måste ha följande:
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] plan</strong>
+   <td>Adobe Workfront package
    </td>
-   <td> Prime eller Ultimate (endast nya planer)
+   <td> <p>Prime eller Ultimate</p>
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] licenser</strong>
+   <td><strong>Workfront-licenser</strong>
    </td>
-   <td> [!UICONTROL Standard]
+   <td> <p>Standard</p>&gt;
    </td>
   </tr>
    <tr>
    <td>Konfigurationer på åtkomstnivå
    </td>
-   <td>Du måste vara en [!DNL Workfront]-administratör.
+   <td><p>Du måste vara Workfront-administratör.</p>
    </td>
   </tr>
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Förutsättningar
 
-Din organisation måste finnas på Adobe Business Platform för att kunna jämföra objekt mellan miljöer.
+Organisationen måste vara på Adobe Business Platform för att kunna jämföra objekt mellan miljöer.
 
 ## Generera en objektjämförelse
 

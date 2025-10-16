@@ -6,9 +6,9 @@ description: Du kan bädda in en extern webbsida i en instrumentpanel för att g
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1017'
 ht-degree: 0%
 
 ---
@@ -29,23 +29,23 @@ Om din organisation till exempel har en webbaserad dokumentdatabas, wiki eller n
 >
 >
 >* Instrumentpanelssidor stöds inte längre som inbäddade externa sidor i Dashboards. Befintliga kontrollpaneler ändras inte automatiskt för att ta bort dessa externa sidor, men ändringar av en kontrollpanel som innehåller en sådan referens kan inte sparas förrän referensen tas bort eller ändras.
-> Följande Workfront.com-underdomäner stöds inte längre:
+>  > Följande Workfront.com-underdomäner stöds inte längre:
 >
 >     * /dashboards &#x200B;
->     * /dashboard/ID-&#x200B;
->     * /portfolio/:ID/content-dashboard__:dashboardID &#x200B;
->     * /program/ID/content-dashboard__:dashboardID &#x200B;
->     * /project/:ID/content-dashboard__:dashboardID &#x200B;
->     * /task/:ID/content-dashboard__:dashboardID &#x200B;
->     * /template/:ID/content-dashboard__:dashboardID &#x200B;
->     * /templateTask/:ID/content-dashboard__:dashboardID &#x200B;
+>     * /dashboard/:ID &#x200B;
+>     * /portfolio/:ID/content-dashboard_:dashboardID &#x200B;
+>     * /program/:ID/content-dashboard_:dashboardID &#x200B;
+>     * /project/:ID/content-dashboard_:dashboardID &#x200B;
+>     * /task/:ID/content-dashboard_:dashboardID &#x200B;
+>     * /template/:ID/content-dashboard_:dashboardID &#x200B;
+>     * /template/mask/:ID/content-dashboard_:dashboardID &#x200B;
 >     * /resourceManagement/:ID/
->     * content-dashboard__:dashboardID &#x200B;
->     * /team/ID/content-dashboard__:dashboardID &#x200B;
->     * /iteration/:ID/content-dashboard__:dashboardID &#x200B;
->     * /requests/:ID/content-dashboard__:dashboardID &#x200B;
->     * /group/:ID/content-dashboard__:dashboardID &#x200B;
->     * /billingrecord/:ID/content-dashboard__:dashboardID
+>     * content-dashboard_:dashboardID &#x200B;
+>     * /team/:ID/content-dashboard_:dashboardID &#x200B;
+>     * /iteration/:ID/content-dashboard_:dashboardID &#x200B;
+>     * /requests/:ID/content-dashboard_:dashboardID &#x200B;
+>     * /group/:ID/content-dashboard_:dashboardID &#x200B;
+>     * /billingrecord/:ID/content-dashboard_:dashboardID
 >
 >Som en alternativ lösning kan du överväga att ta med en listrapport på instrumentpanelen enligt beskrivningen i [Lägg till en rapport på en instrumentpanel](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
 
@@ -53,41 +53,34 @@ Om din organisation till exempel har en webbaserad dokumentdatabas, wiki eller n
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront</strong></td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licens</strong></td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td> 
-      <p>Nytt:</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Aktuell:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
-   </td>
+      <p>Standard</p>
+      <p>Plan</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå</strong></td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> </td> 
-  </tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p></td> 
+  </tr>  
   <tr> 
-   <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
+   <td role="rowheader">Objektbehörigheter</td> 
    <td> <p>Redigera åtkomst till kontrollpanelen</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 
@@ -173,7 +166,7 @@ Så här uppdaterar du informationen för en extern sida som används i en kontr
    ![Redigera extern sida infogat](assets/nwe-inline-edit-external-page-350x226.png)
 
 1. Uppdatera fälten som du vill ändra i rutan **Redigera extern sida** och klicka sedan på **Spara**.
-1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort &#x200B;](assets/delete.png) om du vill ta bort den externa sidan från instrumentpanelen. Mer information finns i [Ta bort en extern sida från en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
+1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort ](assets/delete.png) om du vill ta bort den externa sidan från instrumentpanelen. Mer information finns i [Ta bort en extern sida från en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
 1. Klicka på **Spara + Stäng**.
 
 ## Visa externa sidor i en rapport

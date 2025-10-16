@@ -6,9 +6,9 @@ description: Du kan migrera dina arbetsuppgifter från en smidig team-kanban-sty
 author: Lisa
 feature: Agile
 exl-id: 72e3902b-af9a-497c-817f-63630c4fb73b
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Du kan migrera dina arbetsuppgifter från en smidig team-kanban-styrelse till en ny eller befintlig Workfront-styrelse. När du kör migreringen kopieras alla kort på Kanban-tavlan till Workfront styrelse. Du får inte välja specifika kort.
 
-Kortens placering på Workfront board baseras på spaltregler. (En princip kan till exempel flytta alla kort med statusen &quot;Pågår&quot; till en viss kolumn. Mer information om kolumnprinciper finns i [Hantera board-kolumner](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).) Om det inte finns några profiler eller om korten inte matchar profilerna placeras korten i kolumnen längst till vänster på ritytan. För närvarande läggs inga kort i kolumnen Eftersläpning på det äldre kortet till på Workfront-kortet.
+Kortens placering på Workfront board baseras på spaltregler. (En princip kan till exempel flytta alla kort med statusen &quot;Pågår&quot; till en viss kolumn. Mer information om kolumnprinciper finns i [Hantera kortkolumner](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).) Om det inte finns några principer eller om korten inte matchar profilerna placeras korten i kolumnen längst till vänster på anslagstavlan. För närvarande läggs inga kort i kolumnen Eftersläpning på det äldre kortet till på Workfront-kortet.
 
 Korten tas inte bort från den flexibla teamets Kanban-tavla, och kortstatusändringarna synkroniseras med båda tavlorna. Du kan låta båda styrelserna vara aktiva tills du är redo att byta till Workfront Boards.
 
@@ -25,22 +25,19 @@ Korten tas inte bort från den flexibla teamets Kanban-tavla, och kortstatusänd
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td> 
-   <p>Nytt: [!UICONTROL Contributor] eller senare</p> 
-   <p>eller</p>
-   <p>Aktuell: [!UICONTROL Request] eller högre</p>
+   <p>Medarbetare eller högre</p> 
+   <p>Begäran eller senare</p>
    </td> 
   </tr> 
  </tbody> 

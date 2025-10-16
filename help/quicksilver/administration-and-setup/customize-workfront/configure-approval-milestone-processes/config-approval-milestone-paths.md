@@ -1,5 +1,5 @@
 ---
-title: Godkännandeprocesser och milstolpebanor
+title: 'Godkännandeprocesser och milstolpesökvägar: Artikelindex'
 user-type: administrator
 content-type: reference
 product-area: system-administration;projects
@@ -10,14 +10,16 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 5719f8ce-0b30-42a1-9b88-1466630401f2
-source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
+source-git-commit: 87a64e84c36d99cbafde4f40725467219db8e79b
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '82'
 ht-degree: 0%
 
 ---
 
-# Godkännandeprocesser och milstolpar
+# Godkännandeprocesser och milstolpbanor: artikelindex
+
+<!--Audited: 08/2025-->
 
 Det här avsnittet innehåller följande artiklar:
 

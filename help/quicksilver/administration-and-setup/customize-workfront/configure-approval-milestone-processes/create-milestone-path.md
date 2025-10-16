@@ -8,16 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: e717e095f1995dbed0232789616d42492156d843
+source-git-commit: b392446704211bf32ed5ec6ab78e670710d92b7d
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
 
 # Skapa en milstolpe-bana
 
-<!--Audited: 07/2024-->
+<!--Audited: 08/2025-->
 
 <!--
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -41,32 +41,59 @@ Som Adobe Workfront-administratör kan du skapa milstolpar som sedan kan använd
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td>Alla</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
+  <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td><p>Systemadministratör</p></td>
+  </tr> 
+ </tbody> 
+</table>
+
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old: 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td><p>Standard</p>
    <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör.</p></td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
-+++
++++-->
 
 ## Milstolpar och milstolpar
 
@@ -143,15 +170,15 @@ Mer information om hur du kan associera en milstolpe med ett projekt och en mils
 
    Mer information om hur du associerar milstolpar till projekt och milstolpar till aktiviteter finns i [Associera milstolpar med aktiviteter](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
-1. (Valfritt) Välj en milstolpe i listan Milstolpbanor och klicka sedan på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) för att öppna milstolpbanan och redigera informationen.
-1. (Valfritt) Klicka på ikonen **Exportera** ![Exportera &#x200B;](assets/export-icon.png) och välj sedan bland följande format för att exportera listan över milstolpbanor till en fil:
+1. (Valfritt) Välj en milstolpe i listan Milstolpbanor och klicka sedan på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) för att öppna milstolpbanan och redigera informationen.
+1. (Valfritt) Klicka på ikonen **Exportera** ![Exportera ](assets/export-icon.png) och välj sedan bland följande format för att exportera listan över milstolpbanor till en fil:
 
    * PDF
    * Excel
    * Excel (xlsx)
    * Tabbavgränsad
 
-1. (Valfritt) Markera en eller flera milstolpar i listan med milstolpar och klicka sedan på ikonen **Ta bort** ![Ta bort &#x200B;](assets/delete-icon.png) för att ta bort den.
+1. (Valfritt) Markera en eller flera milstolpar i listan med milstolpar och klicka sedan på ikonen **Ta bort** ![Ta bort ](assets/delete-icon.png) för att ta bort den.
 1. Klicka på **Ja, ta bort den**.
 
    Milstolpen tas bort och kan inte återställas. Milstolpbanan tas bort från alla projekt som tidigare associerats med den och alla milstolpar tas bort från de uppgifter som är associerade med dem.

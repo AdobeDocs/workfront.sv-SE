@@ -5,43 +5,42 @@ description: Du kan snabbt sammanfatta arbetsobjekt och dokument med funktionen 
 author: Becky
 feature: Get Started with Workfront
 exl-id: c7460e8f-a7ae-415a-8db0-29736e8be0f8
-source-git-commit: bec1318d83938964697d76b83062ef11745802e3
+source-git-commit: e9a9e45720c8b9ad25e3fa9340c813a73989fb4a
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
 
 # Få hjälp av AI Assistant
 
-AI Assistant hittar information i Workfront-dokumentationen och du behöver inte besöka Adobe Experience League för att få den hjälp du behöver.
+AI Assistant kan hitta information i Workfront-dokumentationen och du behöver inte besöka Adobe Experience League för att få den hjälp du behöver.
 
 Om du till exempel frågar AI-assistenten&quot;Hur skapar jag en begärandekö&quot; returneras instruktioner om hur du skapar begäran som hämtas från artikeln [Skapa och hantera begärandeköer](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
+
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td><p>Nytt: Alla</p>
-       <p>eller</p>
-       <p>Aktuell: Inte tillgänglig</p></td>
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Alla </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td><p>Nytt: Standard</p>
-       <p>eller</p>
-       <p>Aktuell: Inte tillgänglig</p></td>
+   <td><p>Alla</p>
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Förutsättningar
 

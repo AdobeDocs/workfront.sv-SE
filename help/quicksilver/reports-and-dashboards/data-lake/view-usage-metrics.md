@@ -7,9 +7,9 @@ description: På fliken Workfront Data Connect Metrics kan du visa organisatione
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 29185bd1-e058-4b42-a508-53406fb9ddd2
-source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
+source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -20,35 +20,27 @@ På fliken [!DNL Workfront Data Connect] [!UICONTROL Metrics] kan du visa din or
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkraven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td><p>Ingår i följande planer:</p>
-    <ul>
-        <li>Ultimate</li> 
-    </ul>    
-   <!--<p>Can be purchased as an add-on to the following plans:</p> 
-    <ul>
-        <li>Select</li> 
-        <li>Prime</li>
-    </ul>--> 
-    <p>Workfront Data Connect är inte tillgängligt för tidigare Workfront-planer.</p> 
-   </td> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Ultimate</p>
+    <p>Arbetsflöde Ultimate</p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td><p>Plan</p></td> 
+   <td>
+   <p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör.</p></td> 
+   <td> <p>Du måste vara Workfront-administratör</p></td> 
   </tr> 
  </tbody> 
 </table>

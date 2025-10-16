@@ -2,12 +2,12 @@
 navigation-topic: business-case-and-scorecards
 title: Skapa ett affärsärende för ett projekt
 description: Du kan använda affärsärendet för att begära ett projekt och definiera syfte, budget och den potentiella fördelen för projektet. Portfolio-chefen eller projektsponsorn använder informationen från affärsärendet för att analysera och prioritera projektet innan de godkänner det.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -27,17 +27,16 @@ Du kan använda affärsärendet för att begära ett projekt och definiera syfte
  <col> 
  <tbody> 
  <tr> 
-   <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront</p></td> 
    <td> 
-   <p>Aktuell: Prime eller senare</p> 
-   <p>Äldre: Pro eller senare</p> 
+   <p>Prime eller senare</p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
    <td> 
-   <p>Aktuell: Standard </p> 
-   <p>Äldre: Planera </p> </td> 
+   <p>Standard </p> 
+   <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td> 
@@ -50,7 +49,7 @@ Du kan använda affärsärendet för att begära ett projekt och definiera syfte
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

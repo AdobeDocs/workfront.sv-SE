@@ -2,20 +2,22 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: issues
-title: Ärendeinformation
+title: 'Ärendeinformation: Artikelindex'
 description: Problem är arbetsobjekt som representerar oväntat eller oplanerat arbete i ett projekt. Följande artiklar innehåller information om problem.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 95ea93d7-6cc3-4aaa-a8f7-8a59dda6b5f1
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
 
-# Ärendeinformation
+# Ärendeinformation: artikelindex
+
+<!--Audited: 08/2025-->
 
 När du arbetar med ett projekt kanske du upptäcker att oväntade händelser inträffar. Du kan logga oväntade händelser som problem för ett visst projekt eller för en uppgift.
 
@@ -26,5 +28,5 @@ Det här avsnittet innehåller följande artiklar:
 * [Översikt över utfärdandevaraktighet](../../../manage-work/issues/issue-information/issue-duration.md)
 * [Uppdatera prioritet för utgåva](../../../manage-work/issues/issue-information/update-issue-priority.md)
 * [Uppdatera allvarlighetsgrad för problem](../../../manage-work/issues/issue-information/update-issue-severity.md)
-* [Översikt över det planerade slutförandedatumet &#x200B;](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
+* [Översikt över det planerade slutförandedatumet ](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
 * [Använd&quot;opTask&quot; och&quot;issue&quot; när du refererar till problem](../../../manage-work/issues/issue-information/use-optask-instead-of-issue.md)

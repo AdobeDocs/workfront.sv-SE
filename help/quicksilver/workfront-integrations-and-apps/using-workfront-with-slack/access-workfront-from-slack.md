@@ -6,9 +6,9 @@ description: Om du integrerar [!DNL Adobe Workfront] med [!DNL Slack] kan du kom
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5f531217-3bd6-4156-8b9f-eabc95d4df10
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1071'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,29 @@ ht-degree: 0%
 Genom att integrera [!DNL Adobe Workfront] med [!DNL Slack] kan du komma åt [!DNL Workfront] från [!DNL Slack] eller utföra vissa åtgärder i [!DNL Workfront] med hjälp av ett snedstreck-kommando. Integrationen kan användas från valfri [!DNL Slack]-miljö, inklusive [!DNL Slack]-mobilappen.
 
 Du eller din [!DNL Slack]-administratör måste installera [!DNL Workfront]-appen i din [!DNL Slack]-instans innan du kan använda [!DNL Workfront] från [!DNL Slack]. Mer information finns i [Konfigurera Adobe Workfront för Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+
+## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Alla</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Alla</p>
+  </tr> 
+ </tbody> 
+</table>
+
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Om snedstreckskommandon {#about-slash-commands}
 
@@ -37,7 +60,7 @@ En lista med alla kommandon som du kan köra från Slack för [!DNL Workfront] f
 
 ## Logga in på [!DNL Workfront] från [!DNL Slack] {#log-in-to-workfront-from-slack}
 
-När du skriver ett kommando i meddelandefältet i Slack blir du ombedd att logga in på [!DNL Workfront] först.\
+När du skriver ett kommando i meddelandefältet i Slack blir du först ombedd att logga in på [!DNL Workfront].\
 En fullständig lista med [!DNL Workfront] kommandon från [!DNL Slack] finns i avsnittet [Åtkomst [!DNL Workfront]  från ett snedstreck i  [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack) i den här artikeln.
 
 Logga in på [!DNL Workfront] från [!DNL Slack]:
@@ -103,7 +126,7 @@ Logga in på [!DNL Workfront] från [!DNL Slack]:
 
      Lägger till en aktivitet i [!DNL Workfront].
 
-     Mer information om hur du lägger till uppgifter i [!DNL Workfront] från Slack finns i avsnittet&quot;Skapa uppgifter från [!DNL Slack]&quot; i [Skapa uppgifter och problem från [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md).
+     Mer information om hur du lägger till uppgifter i [!DNL Workfront] från Slack finns i avsnittet&quot;Skapa uppgifter från [!DNL Slack]&quot; i [Skapa uppgifter och ärenden från [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md).
 
    * `/wf add issue <Issue Name>`
 

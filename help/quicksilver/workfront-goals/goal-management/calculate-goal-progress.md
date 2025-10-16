@@ -6,9 +6,9 @@ description: Målutvecklingen styrs av förloppsindikatorer som aktiviteter, res
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
@@ -17,23 +17,31 @@ ht-degree: 0%
 
 <!--Audited for P&P only: 4/2025-->
 
->[!IMPORTANT]
+>[!NOTE]
 >
->Din organisation måste ha följande för att kunna använda de funktioner som beskrivs i den här artikeln:
+>Ditt företag kan välja att fortsätta använda Adobe Workfront-mål om de tidigare har köpt det här paketet. Du måste prata med din kontorepresentant för mer information.
 >
->
->* För den nya planen och licensstrukturen:
->
->   * En Ultimate-plan
->    
->* För aktuell plan och licensstruktur:
->
->   * En Pro eller högre
->   * En Adobe Workfront Goals-licens förutom en Workfront-licens.
->
-> Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront Goals-licens.
+>Adobe Workfront-mål går inte längre att köpa.
 >
 >Mer information om åtkomst till Workfront-mål finns i [Krav för att använda Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+<!--Old:
+>[!IMPORTANT]
+>
+>Your organization must have the following to use the functionality described in this article:
+>
+>
+>* For the new plan and license structure:
+>
+>   * An Ultimate plan 
+>    
+>* For the current plan and license structure: 
+>
+>   * A Pro or higher 
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
+>
+> Contact your Workfront account manager to learn about a Workfront Goals license.-->
+
 
 Adobe Workfront beräknar automatiskt målutvecklingen baserat på förloppet för sina förloppsindikatorer.
 
@@ -65,7 +73,7 @@ Följande punkter betraktas som förloppsindikatorer för målen:
 
   Mer information om hur du lägger till resultat i mål finns i [Lägga till resultat i mål i Adobe Workfront-mål](../../workfront-goals/results-and-activities/add-results-to-goals.md).
 
-* Verksamhet
+* Aktiviteter
 
   Mer information om hur du lägger till aktiviteter, inklusive projekt, till mål finns i [Lägg till aktiviteter i mål i Adobe Workfront-mål](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
 
@@ -131,7 +139,7 @@ Tabellen nedan visar målvillkorsetiketterna och målförloppsprocenten som är 
    <td><b>Ikon för villkorsindikator</b></td> 
   </tr> 
   <tr> 
-   <td>Nytt</td> 
+   <td>Nyhet</td> 
    <td> <p>Målet är nyskapat och har ännu inte registrerats. Ett målförlopp visas som Nytt tills någon uppdaterar förloppet för första gången. </p> <p>Information om hur du uppdaterar målförloppet finns i <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md" class="MCXref xref">Uppdatera målförloppet i Adobe Workfront-mål</a>.</p> </td> 
    <td>Ingen procent</td> 
    <td>Inget fält</td> 

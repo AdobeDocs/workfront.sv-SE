@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 2be211a8-df84-49c3-827f-1215c77159e0
-source-git-commit: 909236983b7eefa25ea7961a2f760d87cae23132
+source-git-commit: 1554c067afcc548c7f7abd03dbc3a49404e3c89c
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -26,30 +26,27 @@ Om det finns grupper ovanför gruppen som du hanterar kan deras administratörer
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td>Alla</td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td>
-   <td><p>Nytt: Standard</p>
-       <p>eller</p>
-       <p>Aktuell: Planera</p></td>
+   <td>Adobe Workfront-licens</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td>Konfigurationer på åtkomstnivå</td> 
    <td>Du måste vara gruppadministratör för gruppen eller systemadministratör.</td>
   </tr>
-  </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -62,7 +59,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    I listan som visas kan du se de grupper som du hanterar, tillsammans med eventuella undergrupper som de har. Adobe Workfront-administratörer kan se alla grupper.
 
 1. Klicka på namnet på gruppen som du vill skapa eller ändra layoutmallar för.
-1. Klicka på ikonen **Layoutmallar** ![Layoutmallar &#x200B;](assets/layout-templates-icon.png) i den vänstra panelen.
+1. Klicka på ikonen **Layoutmallar** ![Layoutmallar ](assets/layout-templates-icon.png) i den vänstra panelen.
 
 1. Gör något av följande:
 
@@ -76,9 +73,9 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
      Mer information om hur du kopierar en layoutmall för att skapa en ny finns i [Kopiera en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
 
-   * Om du vill redigera en befintlig grupplayoutmall markerar du den och klickar sedan på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) .
+   * Om du vill redigera en befintlig grupplayoutmall markerar du den och klickar sedan på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) .
 
      Mer information om hur du redigerar en layoutmall finns i [Skapa och hantera layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-   * Om du vill ta bort en eller flera layoutmallar markerar du dem och klickar sedan på ikonen **Ta bort** ![Ta bort &#x200B;](assets/delete.png) .
-   * Om du vill exportera listan med layoutmallar klickar du på ikonen **Exportera** ![Exportera &#x200B;](assets/export-icon.png) .
+   * Om du vill ta bort en eller flera layoutmallar markerar du dem och klickar sedan på ikonen **Ta bort** ![Ta bort ](assets/delete.png) .
+   * Om du vill exportera listan med layoutmallar klickar du på ikonen **Exportera** ![Exportera ](assets/export-icon.png) .

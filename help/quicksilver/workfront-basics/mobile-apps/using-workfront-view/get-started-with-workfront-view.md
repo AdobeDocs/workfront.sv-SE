@@ -6,10 +6,10 @@ description: Med mobilappen  [!DNL Adobe Workfront] View kan du hålla reda på 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: cca4d969-8237-49df-98fb-f70ee40a7e93
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 0%
+source-wordcount: '273'
+ht-degree: 1%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Med mobilappen [!DNL Adobe Workfront View] kan du hålla reda på hur projekten fortlöper när du är på språng.
 
-[!DNL Workfront View] är ett rapporteringsverktyg. Du kan inte göra ändringar eller slutföra arbetet med appen [!DNL Workfront View]. Du kan bara visa status för dina projekt. Avsikten är att projektledare, projektledare och andra projektintressenter ska kunna ansluta till ett högnivågränssnitt för att övervaka sina projekt.
+[!DNL Workfront View] är ett rapporteringsverktyg. Du kan inte göra ändringar eller slutföra arbetet med appen [!DNL Workfront View]. Du kan bara visa status för dina projekt. Det är avsett för projektledare, Portfolio-chefer och andra projektintressenter för att ansluta till ett gränssnitt på hög nivå för att övervaka deras projekt.
 
 Om du måste slutföra arbetet måste du använda mobilappen [!DNL Workfront] som är tillgänglig på [!DNL iOS]- och [!DNL Android]-telefoner.
 
@@ -25,7 +25,11 @@ Om du måste slutföra arbetet måste du använda mobilappen [!DNL Workfront] so
 
 Appen [!DNL Workfront View] stöds bara för [!DNL iPads].
 
-Du måste ha följande åtkomst i [!DNL Workfront] för att komma åt information i [!DNL Workfront View] och utföra stegen i den här artikeln:
+Användare med [!UICONTROL Requestor] och [!UICONTROL External] licenser kan inte komma åt [!DNL Workfront] med mobilappen [!DNL Workfront View].
+
+## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,19 +38,21 @@ Du måste ha följande åtkomst i [!DNL Workfront] för att komma åt informatio
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront package</strong></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>[!UICONTROL Review] eller högre</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront-licens</strong></td> 
+   <td> 
+   <p>Medarbetare eller högre</p>
+   <p>Granska eller högre</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Användare med [!UICONTROL Requestor] och [!UICONTROL External] licenser kan inte komma åt [!DNL Workfront] med mobilappen [!DNL Workfront View].
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
++++
 
 ## Hämta appen [!DNL Workfront View]
 

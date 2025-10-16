@@ -6,10 +6,10 @@ description: Läs den här artikeln om du vill felsöka de projekt jag är på, 
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 4701464a-4cf5-4be1-bcc0-0892019986ec
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 0%
+source-wordcount: '184'
+ht-degree: 1%
 
 ---
 
@@ -17,26 +17,34 @@ ht-degree: 0%
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
-   <td> <p>Alla</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Adobe [!DNL Workfront]-licens</strong></td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå</strong></td> 
-   <td> <p>[!UICONTROL System administrator]</p> </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>Adobe Workfront package
+   </td>
+   <td> <p>Prime eller Ultimate</p>
+    <p>Arbetsflöde Ultimate</p>
+   </td>
+  </tr>
+  <tr>
+   <td>Adobe Workfront-licenser
+   </td>
+   <td><p>Standard</p>
+   <p>Plan</p>
+   </td>
+  </tr>
+   <tr>
+   <td>Konfigurationer på åtkomstnivå
+   </td>
+   <td>Du måste vara en [!DNL Workfront]-administratör.
+   </td>
+  </tr>
 </table>
+
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+
 
 ## Problem
 

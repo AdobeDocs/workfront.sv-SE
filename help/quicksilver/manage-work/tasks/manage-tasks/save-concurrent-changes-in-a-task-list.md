@@ -1,12 +1,12 @@
 ---
 product-area: projects
 navigation-topic: manage-tasks
-title: Översikt över att spara samtidiga ändringar i en uppgiftslista
+title: Översikt över Spara samtidiga ändringar i en uppgiftslista
 description: När du redigerar uppgifter i en lista kan du använda separata inställningar för att ange om du vill att ändringarna ska sparas automatiskt när du redigerar uppgifter i en lista manuellt.
 author: Alina
 feature: Work Management
 exl-id: dff52425-4711-40a8-8f40-205d75c506ef
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%

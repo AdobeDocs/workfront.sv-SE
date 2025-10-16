@@ -6,9 +6,9 @@ description: För att effektivt hitta arbetsobjekt och fokusera på de användar
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: fc82ce4b5abb2cd7411d62ac8bb428bc5337386f
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '2454'
+source-wordcount: '2433'
 ht-degree: 0%
 
 ---
@@ -36,27 +36,21 @@ Den här artikeln innehåller information om filter i Utjämning av arbetsbelast
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
-
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td> <p>Alla</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td><p>Nytt: Standard</p>
-       <p>Aktuell: Planera (när du använder arbetsbelastningsutjämnaren i resursområdet)</p>
-       <p>eller</p>
-       <p>Arbete (när du använder belastningsutjämnaren för ett team eller projekt)</p></td>
+   <td>Adobe Workfront package</td> 
+   <td><p>Alla</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td>Adobe Workfront-licens</td> 
+   <td><p>Standard</p>
+       <p>Planera, när du använder belastningsutjämnaren för arbetsbelastning i resursområdet; Arbeta när du använder belastningsutjämnaren för ett team eller projekt</p></td>
+  </tr>
+  <tr> 
+   <td>Konfigurationer på åtkomstnivå</td> 
    <td> <p>Visa eller öka åtkomsten till följande:</p> 
     <ul> 
      <li>Resurshantering</li> 
@@ -68,7 +62,7 @@ Den här artikeln innehåller information om filter i Utjämning av arbetsbelast
     <p>Redigera åtkomst till filter, vyer och grupperingar när du skapar eller redigerar filter </p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
+   <td>Objektbehörigheter</td> 
    <td> <p>Visa eller högre behörigheter för projekt, uppgifter, utgåvor</p>
    <p>Hantera behörigheter för de filter som du vill redigera eller ta bort</p>
    </td> 
@@ -76,7 +70,7 @@ Den här artikeln innehåller information om filter i Utjämning av arbetsbelast
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -159,7 +153,7 @@ Du kan skapa ett filter från grunden eller redigera något av de fördefinierad
 
    Mer information om hur du får åtkomst till arbetsbelastningsutjämnaren finns i [Navigera i arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-1. Klicka på ikonen **Filter** ![Filter](assets/filter-icon.png) i det övre högra hörnet av antingen **Ej tilldelat arbete** eller **Tilldelat arbete** . Rutan **Filter** visas till höger och namnet på området som du skapar filtret för visas i sidhuvudet.
+1. Klicka på ikonen **Filter** **Filter** i det övre högra hörnet av antingen **Ej tilldelat arbete** eller ![Tilldelat arbete](assets/filter-icon.png) . Rutan **Filter** visas till höger och namnet på området som du skapar filtret för visas i sidhuvudet.
 
    ![Filterlista](assets/filters-list.png)
 
@@ -209,7 +203,7 @@ Du kan skapa ett filter från grunden eller redigera något av de fördefinierad
       >
       >![Filtersats för projektstatus](assets/project-status-filter.png)
 
-   1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort &#x200B;](assets/delete.png) om du vill ta bort ett filtervillkor.
+   1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort ](assets/delete.png) om du vill ta bort ett filtervillkor.
 
 1. (Valfritt) Klicka på **Lägg till filter** för att lägga till ytterligare filtervillkor och upprepa sedan åtgärderna från steg 4.
 
@@ -251,7 +245,7 @@ Du kan duplicera och redigera ett filter för att skapa ett nytt.
 
    Mer information om hur du får åtkomst till arbetsbelastningsutjämnaren finns i [Navigera i arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-1. Klicka på ikonen **Filter** ![Filter](assets/filter-icon.png) i det övre högra hörnet av antingen **Ej tilldelat arbete** eller **Tilldelat arbete** .  Rutan **Filter** visas till höger och namnet på området som du duplicerar filtret för visas i sidhuvudet.
+1. Klicka på ikonen **Filter** **Filter** i det övre högra hörnet av antingen **Ej tilldelat arbete** eller ![Tilldelat arbete](assets/filter-icon.png) .  Rutan **Filter** visas till höger och namnet på området som du duplicerar filtret för visas i sidhuvudet.
 
 1. Håll pekaren över ett befintligt filter och klicka sedan på menyn **Mer** ![Mer](assets/more-menu-edit-filter.png) .
 1. Klicka på **Duplicera**.
@@ -282,7 +276,7 @@ Du kan redigera ett sparat filter i Utjämning av arbetsbelastning.
 
    Mer information om hur du får åtkomst till arbetsbelastningsutjämnaren finns i [Navigera i arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-1. Klicka på ikonen **Filter** ![Filter &#x200B;](assets/filter-icon.png) i det övre högra hörnet av områdena **Ej tilldelat** eller **Tilldelat arbete** . Filterverktyget visas till höger.
+1. Klicka på ikonen **Filter** **Filter** i det övre högra hörnet av områdena **Ej tilldelat** eller ![Tilldelat arbete](assets/filter-icon.png) . Filterverktyget visas till höger.
 
 1. För musen över det filter som du vill redigera och klicka sedan på ikonen **Redigera** ![Redigera filterikon](assets/wb-edit-filter-icon.png) .
 
@@ -290,7 +284,7 @@ Du kan redigera ett sparat filter i Utjämning av arbetsbelastning.
 
    * Ändra någon av filtersatserna.
    * Klicka på **Lägg till filter** för att lägga till nya filtersatser.
-   * Klicka på ikonen **Ta bort** ![Ta bort &#x200B;](assets/delete.png) om du vill ta bort befintliga filtersatser.
+   * Klicka på ikonen **Ta bort** ![Ta bort ](assets/delete.png) om du vill ta bort befintliga filtersatser.
 
 1. (Valfritt) Klicka på **Använd**. Resultaten uppdateras i Utjämning av arbetsbelastning till vänster för att illustrera de ändringar du har gjort i filtret.
 
@@ -314,7 +308,7 @@ Tänk på följande innan du tar bort ett filter:
 
    Mer information om hur du får åtkomst till arbetsbelastningsutjämnaren finns i [Navigera i arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-1. Klicka på ikonen **Filter** ![Filterikon](assets/filter-icon.png) i det övre högra hörnet av områdena **Ej tilldelat arbete** eller **Tilldelat arbete**. Rutan **Filter** visas till höger.
+1. Klicka på ikonen **Filter** **Filterikon** i det övre högra hörnet av områdena **Ej tilldelat arbete** eller ![Tilldelat arbete](assets/filter-icon.png). Rutan **Filter** visas till höger.
 
 1. För musen över ett filter, klicka på menyn **Mer** ![Mer](assets/more-menu-edit-filter.png) och klicka sedan på **Ta bort**.
 
@@ -341,7 +335,7 @@ Dela ett filter:
 
    Mer information om hur du får åtkomst till arbetsbelastningsutjämnaren finns i [Navigera i arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-1. Klicka på ikonen **Filter** ![Filterikon](assets/filter-icon.png) i det övre högra hörnet av områdena **Ej tilldelat arbete** eller **Tilldelat arbete**. Rutan **Filter** visas till höger.
+1. Klicka på ikonen **Filter** **Filterikon** i det övre högra hörnet av områdena **Ej tilldelat arbete** eller ![Tilldelat arbete](assets/filter-icon.png). Rutan **Filter** visas till höger.
 
 1. Håll pekaren över ett filter och klicka sedan på menyn **Mer** ![Mer](assets/more-menu-edit-filter.png) .
 

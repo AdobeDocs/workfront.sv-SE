@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: f9455b5aa57585a0e037f024807c19d48296d518
+source-git-commit: 39b3ecde744625c070a5c4378938e297f50feeaa
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -37,34 +37,30 @@ När du har konfigurerat en layoutmall måste du tilldela den till användare f�
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront</strong></td> 
+   <td>Adobe Workfront package</td> 
    <td><p>Alla</p>
-
-<p>Det går bara att lägga till anpassade program på huvudmenyn för organisationer som har licens för Adobe App Builder.</p></td> 
+       <p>Det går bara att lägga till anpassade program på huvudmenyn för organisationer som har licens för Adobe App Builder.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licens*</strong></td> 
-   <td><p>Aktuell: Planera</p>
-   eller
-   <p>Nytt: Standard</p></td> 
+   <td>Adobe Workfront-licens</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Åtkomstnivåkonfiguration</strong></td> 
+   <td>Konfigurationer på åtkomstnivå</td> 
    <td> <p>För att kunna utföra dessa steg på systemnivå måste du ha åtkomstnivån Systemadministratör.</p>
-    <p>Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> 
-     </td> 
+        <p>Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Mer information om åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -129,7 +125,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    * Dölj ![Dölj ikon](assets/remove-icon---x-in-circle.png) **Aktiva objekt** som du inte vill visa
    * Visa ![Visa ikon](assets/add-icon-plus-in-circle.png) **Tillgängliga objekt** som du vill visa på huvudmenyn.
-   * Dra ikonen ![Dra &#x200B;](assets/move-icon---dots.png) **aktiva objekt** om du vill ändra deras visningsordning på huvudmenyn.
+   * Dra ikonen ![Dra ](assets/move-icon---dots.png) **aktiva objekt** om du vill ändra deras visningsordning på huvudmenyn.
 
 1. Klicka på **Klar**.
 

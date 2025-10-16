@@ -7,10 +7,10 @@ description: Läs de här tipsen när du får ett felmeddelande om att användar
 author: Lisa
 feature: People Teams and Groups
 exl-id: dc9accf0-7ef4-4555-9b1c-d69b2110f3da
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 722295463c1338a70ff42c26acf69b09cf33f725
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 0%
+source-wordcount: '280'
+ht-degree: 1%
 
 ---
 
@@ -20,31 +20,28 @@ ht-degree: 0%
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront</p> </td> 
-   <td>Alla</td> 
+  <tr> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td>Adobe Workfront-licens</td> 
    <td>
-   <p>Nytt: Standard</p>
-   <p>eller</p>
-   <p>Aktuell: Planera</p></td>
+   <p>Standard</p>
+   <p>Plan</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Systemadministratör</p> </td> 
+  <tr> 
+   <td>Konfigurationer på åtkomstnivå</td> 
+   <td><p>Systemadministratör</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,7 +68,7 @@ Kontrollera att användarnamnet och e-postadressen är unika i den aktuella [!DN
 1. I listan med personer kan du kontrollera i kolumnen **[!UICONTROL Email]** för att se till att det inte finns några dubbla e-postmeddelanden.
 1. Lägg till en kolumn för användarnamn i vyn.
 
-   1. Klicka på **[!UICONTROL Customize View]** i listrutan **[!UICONTROL View]**.
+   1. Klicka på **[!UICONTROL View]** i listrutan **[!UICONTROL Customize View]**.
    1. Klicka på **[!UICONTROL Add Column]**.
    1. Skriv *[!UICONTROL username]* i sökfältet.
    1. Välj **[!UICONTROL User]** > **[!UICONTROL Username]**.

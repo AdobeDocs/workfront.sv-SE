@@ -6,9 +6,9 @@ description: Läs den här artikeln om du vill veta mer om riktlinjer för kolum
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1004'
 ht-degree: 0%
 
 ---
@@ -38,43 +38,37 @@ Nedan följer riktlinjer för hur kolumnbredder fungerar i Adobe Workfront:
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-plan*</strong></td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licens*</strong></td> 
+   <td role="rowheader">Adobe Workfront-licens</strong></td> 
    <td> 
-      <p>Nytt:</p>
-         <ul>
-         <li><p>Medarbetare eller högre</p></li>
-         </ul>
-      <p>Aktuell:</p>
-         <ul>
-         <li><p>Begäran eller senare</p></li>
-         </ul>
+    <p>Medarbetare eller högre</p>
+    <p>Begäran eller senare</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att redigera vyn i en rapport</p></td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att redigera en vy i en rapport</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
-   <td> <p>Hantera behörigheter till en rapport för att redigera en vy i en rapport</p> <p>Hantera behörigheter till en vy för att redigera den</p></td> 
+   <td role="rowheader">Objektbehörigheter</td> 
+    <td> <p>Hantera behörigheter till en rapport för att redigera en vy i en rapport</p> <p>Hantera behörigheter till en vy för att redigera den</p></td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

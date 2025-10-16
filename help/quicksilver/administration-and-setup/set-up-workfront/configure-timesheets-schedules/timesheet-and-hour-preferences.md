@@ -8,9 +8,9 @@ author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: e8c89b68a022ae1c0cf5da20257cd8bc36e94d4c
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -44,24 +44,22 @@ Alla ändringar du gör i tidrapporter påverkar alla tidrapporter som skapas i 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Alla</td> 
+   <td>[!DNL Adobe Workfront] package</td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td><p>Aktuell:[!UICONTROL Plan]</p>
-   eller
-   <p>Nytt: Standard</p>
-   </td> 
+   <td>[!DNL Adobe Workfront] licens</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td>[!UICONTROL System Administrator]</td>
-</tr> 
+   <td>Konfigurationer på åtkomstnivå</td> 
+   <td>[!UICONTROL System Administrator]</td> 
+  </tr> 
  </tbody> 
 </table>
 
-Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -1,28 +1,30 @@
 ---
 product-area: projects
 navigation-topic: issue-information
-title: Uppdatera allvarlighetsgrad för utgåva
+title: Uppdatera allvarlighetsgrad för problem
 description: Du kan koppla en allvarlighetsgrad till problem i Adobe Workfront. Aktiviteter och projekt har ingen allvarlighetsgrad.
 author: Alina
 feature: Work Management
 exl-id: 81302e9c-8861-4a08-b8b3-c4eeac54524e
-source-git-commit: 1fa62033f83a96ea5c1036598b832dd2ebfa19c4
+source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
 
 # Uppdatera allvarlighetsgrad för utgåva
 
+<!--Audited: 08/2025-->
+
 Du kan koppla en allvarlighetsgrad till problem i Adobe Workfront. Aktiviteter och projekt har ingen allvarlighetsgrad.
 
-Problem är oväntade händelser som kan förhindra att dina projekt slutförs i tid eller inom budgeten. Du kan använda allvarlighetsgrader för att ange hur allvarligt ett problem är. 
+Problem är oväntade händelser som kan förhindra att dina projekt slutförs i tid eller inom budgeten. Du kan använda allvarlighetsgrader för att ange hur allvarligt ett problem är.
 
 Din Workfront-administratör definierar de allvarlighetsgrader som är tillgängliga i Workfront. När de har upprättat dem kan du koppla dem till en utgåva.\
 Mer information om hur du skapar allvarlighetsgrader i Workfront finns i [Skapa eller anpassa utgåvans svårighetsgrad](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
 
-Du måste ha Contribute-behörighet för ett problem för att kunna uppdatera allvarlighetsgraden. 
+Du måste ha Contribute-behörighet för ett problem för att kunna uppdatera allvarlighetsgraden.
 
 Du kan uppdatera problemens svårighetsgrad i följande områden i Workfront:
 
@@ -32,32 +34,35 @@ Du kan uppdatera problemens svårighetsgrad i följande områden i Workfront:
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Alla </p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Begäran eller senare</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td><p>Medarbetare eller högre</p> 
+   <p>Begäran eller senare</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till problem</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till problem</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter för problemet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter för problemet</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Uppdatera allvarlighetsgrad för utgåva
 

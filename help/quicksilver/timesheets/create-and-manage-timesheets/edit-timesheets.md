@@ -3,12 +3,12 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Redigera tidrapportinformation
 description: Som användare med administrativ åtkomst till tidrapporter kan du redigera information om befintliga tidrapporter i Adobe Workfront. Du kan till exempel redigera ägaren, godkännarna eller tidsramen för tidrapporten.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
-source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -23,33 +23,34 @@ Du kan redigera information på en enda tidrapport eller redigera flera tidrappo
 >
 >Om användare är kopplade till tidrapportprofiler och tidrapporterna genereras automatiskt, återspeglas inte de ändringar du gör i befintliga tidrapporter på de tidrapporter som kommer att genereras för framtida datum. Alla tidrapporter som genereras automatiskt har de inställningar som har angetts i tidrapportprofilerna. Mer information finns i [Skapa tidrapportprofiler](../create-and-manage-timesheets/create-timesheet-profiles.md)
 
-
 ## Åtkomstkrav
 
-Du måste ha följande för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td> <p>Alla</p> </td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Adobe Workfront-licens</td> 
+   <td>
+   <p>Standard</p>
+   <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Du måste ha administrativ åtkomst till tidrapporter. </p> <p>Mer information finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Bevilja användare administrativ åtkomst till vissa områden</a>.</p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr> 
+   <td>Konfigurationer på åtkomstnivå</td> 
+   <td><p>Administrativ åtkomst till tidrapporter</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Redigera tidrapporter
 

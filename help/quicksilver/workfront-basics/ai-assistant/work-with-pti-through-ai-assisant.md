@@ -5,9 +5,9 @@ description: Du kan snabbt sammanfatta arbetsobjekt och dokument med funktionen 
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: e9a9e45720c8b9ad25e3fa9340c813a73989fb4a
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,11 @@ AI Assistant kan hjälpa dig att hitta projekt, uppgifter och problem i Workfron
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront</td> 
-   <td><p>Nytt: Alla</p>
-       <p>Aktuell: Inte tillgänglig</p></td>
+   <td><p>Alla</p>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td><p>Nytt: Standard</p>
-       <p>Aktuell: Inte tillgänglig</p></td>
+   <td><p>Standard</p>
   </tr> 
  </tbody> 
 </table>

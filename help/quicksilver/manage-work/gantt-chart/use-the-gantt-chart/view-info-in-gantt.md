@@ -1,51 +1,80 @@
 ---
 navigation-topic: use-the-gantt-chart
 title: Visa information i [!UICONTROL Gantt Chart]
-description: Aktivitetslistan Gantt Chart och Project list Gantt Chart innehåller information om projekt och uppgifter.
+description: Adobe Workfront-aktiviteten och projektet [!UICONTROL Gantt Charts] visar information om aktiviteter och projekt.
 author: Alina
 feature: Work Management
 exl-id: e6b55699-0831-40d4-a997-6fe3f8828ee1
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '782'
 ht-degree: 0%
 
 ---
 
 # Visa information i [!UICONTROL Gantt Chart]
 
-Uppgiftslistan [!UICONTROL Gantt Chart] och projektlistan [!UICONTROL Gantt Chart] visar information om projekt och uppgifter.
+<!--Audited: 08/2025-->
+
+Adobe Workfront-aktiviteten och projektet [!UICONTROL Gantt Charts] visar information om aktiviteter och projekt.
 
 ## Åtkomstkrav
 
-Du måste ha följande för att kunna följa stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Alla </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licensöversikt*</td> 
-   <td> <p>[!UICONTROL Review] eller högre</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td><p>[!UICONTROL Light] eller högre</p>
+    <p>[!UICONTROL Review] eller högre</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>[!UICONTROL View] eller högre åtkomst till projekt och uppgifter</p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>[!UICONTROL View] eller högre åtkomst till projekt och uppgifter</p></td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>[!UICONTROL View] eller bättre åtkomst till projektet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>[!UICONTROL View] eller bättre åtkomst till projekt och uppgifter</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++ 
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenses overview*</td> 
+   <td> <p>[!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[!UICONTROL View] or higher access to Projects and Tasks</p> <p><b>NOTE</b>
+
+If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td>
+</tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL View] or higher access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Hitta [!UICONTROL Gantt Chart]
 
@@ -75,17 +104,13 @@ Så här visar du uppgifter i ett projekt från en lista med projekt:
 
 1. Gå till något av de områden som nämns ovan.
 
-   Klicka till exempel på [!UICONTROL Main Menu] på **[!UICONTROL Projects]**.
+   Klicka till exempel på [!UICONTROL **Huvudmeny**] ![Huvudmenyikonen](assets/lines-main-menu.png) i Workfront på **[!UICONTROL Projects]**.
 
    En lista med projekt visas.
 
-1. Klicka på ikonen **[!UICONTROL Gantt chart]** ![Gantt &#x200B;](assets/gantt-icon-nwe.png) i skärmens övre högra hörn.
+1. Klicka på ikonen **[!UICONTROL Gantt chart]** ![Gantt ](assets/gantt-icon-nwe.png) i skärmens övre högra hörn.
 
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: images conditioned for classic and nwe) <br></p>
-   -->
-
-1. Klicka på ikonen **[!UICONTROL Show Task List]**.
+1. Klicka på ikonen **[!UICONTROL Show Task List]** ![Visa aktivitetslista](assets/show-task-list-icon.png) .
 
 1. Klicka på listrutepilen bredvid namnet på projektet i projektlistan till vänster om du vill visa uppgifter under det projektet.\
    Detta visar aktivitetsinformation på [!UICONTROL Gantt Chart].\
@@ -132,7 +157,7 @@ Du kan justera tidsperioden som visas på [!UICONTROL Gantt Chart] om du vill vi
    >
    >Ögonblicksbilden av tidslinjen visas först när du har klickat på den vågräta rullningslisten.
 
-   ![stretchy_gantt_minimap_with_outline_1_.png](assets/stretchy-gantt-minimap-with-outline--1--350x140.png)
+   ![Minikarta för ögonblicksbild av tidslinje](assets/stretchy-gantt-minimap-with-outline--1--350x140.png)
 
 1. (Valfritt) Klicka var som helst inuti ögonblicksbilden av tidslinjen för att navigera till en viss punkt i projektets livslängd.\
    eller\
@@ -156,7 +181,7 @@ Filter och grupperingar som du tillämpar på listan återspeglas både i projek
    Grupperingar som du tillämpar på listan återspeglas på [!UICONTROL Gantt Chart].\
    Mer information om hur du använder en gruppering finns i [Översikt över grupperingar i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-Vyer visas inte på [!UICONTROL Gantt Chart]. När du exporterar [!UICONTROL Gantt Chart] (enligt beskrivningen i [&#x200B; Exportera [!UICONTROL Gantt Chart] till PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)) exporteras uppgiftslistan förutom [!UICONTROL Gantt chart], med den aktuella vyn tillämpad på listan.
+Vyer visas inte på [!UICONTROL Gantt Chart]. När du exporterar [!UICONTROL Gantt Chart] (enligt beskrivningen i [ Exportera [!UICONTROL Gantt Chart] till PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)) exporteras uppgiftslistan förutom [!UICONTROL Gantt chart], med den aktuella vyn tillämpad på listan.
 
 ## Konfigurera visningsalternativ
 

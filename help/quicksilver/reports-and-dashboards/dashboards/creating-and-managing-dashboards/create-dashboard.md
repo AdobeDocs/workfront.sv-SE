@@ -6,9 +6,9 @@ description: Du kan skapa kontrollpaneler för att snabbt komma åt information 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -25,36 +25,33 @@ Mer information om instrumentpaneler finns i [Kom igång med instrumentpaneler](
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande:
-
-<table style="table-layout:auto">
+<table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Adobe Workfront</strong></p> </td> 
-   <td>Alla</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Adobe Workfront-licens</strong></p> </td> 
-   <td> <p>Aktuell: Planera </p>
-   eller
-   <p>Nytt: Standard </p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> 
+      <p>Standard</p>
+      <p>Plan</p>
+   </td> 
   </tr> 
   <tr> 
-   <td><strong>Åtkomstnivåkonfigurationer</strong> </td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> </td> 
-  </tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p></td> 
+  </tr>  
   <tr> 
-   <td> <p><strong>Objektbehörigheter</strong> </p> </td> 
+   <td role="rowheader">Objektbehörigheter</td> 
    <td> <p>Du får behörigheten Hantera för de instrumentpaneler du skapar</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

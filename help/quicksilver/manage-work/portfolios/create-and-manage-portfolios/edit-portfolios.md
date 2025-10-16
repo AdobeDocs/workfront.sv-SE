@@ -6,9 +6,9 @@ description: Du kan redigera information om portföljer som du har skapat eller 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: cfbd38d9ab8f1976f891164a2572bb929339477d
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '976'
 ht-degree: 0%
 
 ---
@@ -36,22 +36,22 @@ Du kan redigera en portfölj på portföljsidan eller redigera portföljer i en 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> <p>Alla</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] licenser*</td> 
-   <td> <p>Nytt: Standard</p>
-   <p>Aktuell: [!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">Adobe [!DNL Workfront] licenser</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Åtkomstnivå</td> 
-   <td> <p>[!UICONTROL Edit] åtkomst till portföljer</p>  </td> 
+   <td> <p>[!UICONTROL Edit] behörighet till [!UICONTROL Portfolios]</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
    <td> <p>[!UICONTROL Manage] behörigheter till en portfölj</p>
-   <p> Hantera behörigheter för projekten i portföljen för att lägga till eller ta bort dem från portföljen</p>  </td> 
+   <p>[!UICONTROL Manage] behörigheter till projekten i portföljen för att lägga till eller ta bort dem från portföljen</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,6 +59,35 @@ Du kan redigera en portfölj på portföljsidan eller redigera portföljer i en 
 *Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++ 
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Any</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe [!DNL Workfront] licenses*</td> 
+   <td> <p>New: Standard</p>
+   <p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>[!UICONTROL Edit] access to Portfolios</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to a portfolio</p>
+   <p> Manage permissions to the projects in the portfolio to add or remove them from the portfolio</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
 ## Redigera portföljer
 
@@ -80,17 +109,17 @@ Du kan redigera en portfölj på portföljsidan eller redigera portföljer i en 
 
       Så här redigerar du information i avsnittet [!UICONTROL **Detaljer**]:
 
-   1. (Valfritt) Klicka på ikonen **[!UICONTROL Collapse all]** ![Komprimera alla &#x200B;](assets/collapse-all-icon.png) i det övre högra hörnet om du vill komprimera alla områden.
-   1. (Valfritt och villkorligt) När ett område är komprimerat klickar du på ikonen **Expandera** ![Expandera &#x200B;](assets/right-pointing-arrow.png) bredvid varje område för att expandera området som du vill redigera.
+   1. (Valfritt) Klicka på ikonen **[!UICONTROL Collapse all]** ![Komprimera alla ](assets/collapse-all-icon.png) i det övre högra hörnet om du vill komprimera alla områden.
+   1. (Valfritt och villkorligt) När ett område är komprimerat klickar du på ikonen **Expandera** ![Expandera ](assets/right-pointing-arrow.png) bredvid varje område för att expandera området som du vill redigera.
 
       >[!TIP]
       >
-      >Du kan klicka på ikonen **Expandera alla** ![Expandera &#x200B;](assets/right-pointing-arrow.png) i det övre högra hörnet av detaljavsnittet när alla områden är komprimerade.
+      >Du kan klicka på ikonen **Expandera alla** ![Expandera ](assets/right-pointing-arrow.png) i det övre högra hörnet av detaljavsnittet när alla områden är komprimerade.
 
       Om du vill ha information om de fält som visas i avsnittet [!UICONTROL **Portfolio Details**] kan du fortsätta redigera portföljen i rutan [!UICONTROL **Redigera Portfolio**] enligt beskrivningen nedan.
    1. (Valfritt) Om det inte finns några anpassade formulär kopplade till portföljen börjar du med att skriva namnet på ett formulär i fältet **[!UICONTROL Add custom form]** i det övre högra hörnet på sidan **Information** och markerar det sedan när det visas i listan.
    1. Lägg till information i fälten i områdena [!UICONTROL **Översikt**] och [!UICONTROL **Anpassad Forms**] och klicka sedan på [!UICONTROL **Spara ändringar**].
-   1. (Valfritt) Klicka på ikonen **[!UICONTROL Export]** ![&#x200B; Exportera &#x200B;](assets/export.png) om du vill exportera [!UICONTROL Overview] och anpassad formulärinformation till en PDF-fil. Klicka sedan på **[!UICONTROL Export]**. Välj bland följande:
+   1. (Valfritt) Klicka på ikonen **[!UICONTROL Export]** ![ Exportera ](assets/export.png) om du vill exportera [!UICONTROL Overview] och anpassad formulärinformation till en PDF-fil. Klicka sedan på **[!UICONTROL Export]**. Välj bland följande:
 
 
       * Markera alla (visas bara när det finns minst ett anpassat formulär bifogat)

@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
@@ -29,25 +29,21 @@ Mer information om hur du använder anpassade åtkomstnivåer för att hantera a
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td>Alla</td> 
   </tr> 
     <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Nytt: Standard </p>
- <p>eller</p> 
-<p>Aktuell: Planera </p> 
+   <td> <p>Standard</p>
+   <p>Plan</p>
 </td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Du måste vara Workfront-administratör.</p> </td> 
   </tr> 

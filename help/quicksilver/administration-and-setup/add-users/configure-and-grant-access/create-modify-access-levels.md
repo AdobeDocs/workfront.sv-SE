@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 674c46b699ba445abba06bec3e4da4a710c60d63
+source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1505'
 ht-degree: 0%
 
 ---
@@ -34,21 +34,18 @@ Som Adobe Workfront-administratör kan du skapa anpassade åtkomstnivåer och an
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td>Nytt: Standard
-   <p>eller</p>
-   <p>Aktuell: Planera</p></td> 
+   <td><p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -66,7 +63,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 {{step-1-to-setup}}
 
 1. Klicka på **Åtkomstnivåer** i den vänstra panelen.
-1. &#x200B;
+1. 
    * I produktionsmiljön:
 Välj den åtkomstnivå som du vill kopiera och anpassa och klicka sedan på **Kopiera**.
 
@@ -76,11 +73,11 @@ Välj den åtkomstnivå som du vill kopiera och anpassa och klicka sedan på **K
 
    * <span class="preview">I förhandsvisningsmiljön:</span>
 
-     <span class="preview">Välj den åtkomstnivå som du vill kopiera och anpassa och klicka sedan på ikonen **Kopiera** ![Kopiera &#x200B;](assets/copy-icon.png) . </span>
+     <span class="preview">Välj den åtkomstnivå som du vill kopiera och anpassa och klicka sedan på ikonen **Kopiera** ![Kopiera ](assets/copy-icon.png) . </span>
 
      <span class="preview">eller </span>
 
-     <span class="preview">Om du redigerar en befintlig åtkomstnivå väljer du åtkomstnivå genom att klicka i rutan till vänster om åtkomstnivån och klickar sedan på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) . </span>
+     <span class="preview">Om du redigerar en befintlig åtkomstnivå väljer du åtkomstnivå genom att klicka i rutan till vänster om åtkomstnivån och klickar sedan på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) . </span>
 
 1. I rutan som visas gör du något av följande för att börja konfigurera den anpassade åtkomstnivån:
 

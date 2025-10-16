@@ -2,12 +2,12 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: 'Typ av varaktighet: ansträngningsstyrd'
+title: 'Översikt över varaktighetstyp: ansträngningsstyrd'
 description: Ansträngningsstyrd är en typ av varaktighet som du kan ange för en uppgift i Adobe Workfront. Allmän information om varaktighetstyper i Workfront finns i Översikt över Varaktighet och Varaktighetstyp.
 author: Alina
 feature: Work Management
 exl-id: 3c8534f7-02d0-4404-a37b-0ef6360e8efc
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 0%

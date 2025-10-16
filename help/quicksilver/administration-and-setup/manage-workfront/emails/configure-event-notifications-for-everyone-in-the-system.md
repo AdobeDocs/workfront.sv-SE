@@ -5,9 +5,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -36,32 +36,28 @@ Information om hur du låser upp ett händelsemeddelande så att gruppadministra
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Nytt: Standard</p>
- <p>eller</p> 
-<p>Aktuell: Planera</p> 
+   <td> <p>Standard</p>
+<p>Plan</p> 
 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Planering eller senare, med administrativ åtkomst till påminnelsemeddelanden</p> </td> 
+   <td> <p>Planering eller senare med administrativ åtkomst till påminnelsemeddelanden</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Konfigurera händelsemeddelanden för alla användare
@@ -88,7 +84,7 @@ Du måste aktivera meddelanden under Konfigurera i Workfront innan användare ka
 
    Mer information om hur du anpassar ämnesraderna i e-postmeddelanden finns i [Anpassa e-postämnen för händelsemeddelanden](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md).
 
-1. (Valfritt) Om du vill låsa upp konfigurationen för ett e-postmeddelande så att gruppadministratörer kan konfigurera den separat för sina grupper klickar du på knappen ![Lås &#x200B;](assets/lock-toggle-button.png) till höger om meddelandet för att växla till den olåsta positionen ![Lås upp &#x200B;](assets/unlock-toggle-button.png).
+1. (Valfritt) Om du vill låsa upp konfigurationen för ett e-postmeddelande så att gruppadministratörer kan konfigurera den separat för sina grupper klickar du på knappen ![Lås ](assets/lock-toggle-button.png) till höger om meddelandet för att växla till den olåsta positionen ![Lås upp ](assets/unlock-toggle-button.png).
 
    Mer information finns i [Lås upp eller låsa konfigurationen för händelsemeddelanden för alla grupper](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
 

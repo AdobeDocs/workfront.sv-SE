@@ -2,12 +2,12 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Översikt över datum för aktivitetsleverans
+title: Översikt över datum för aktivitetens leverans
 description: Leveransdatumet är det datum då en uppgift blir tillgänglig för arbete. Det innebär vanligtvis att dess föregångare har löst sig och att den som tilldelats uppgiften kan börja arbeta med den.
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 0%

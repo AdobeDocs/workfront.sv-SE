@@ -6,9 +6,9 @@ description: När du har installerat [!DNL Adobe Workfront] för Salesforce kan 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b38c91ae-342b-4002-a947-7a0ab1aaca93
-source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1472'
 ht-degree: 0%
 
 ---
@@ -21,32 +21,35 @@ ht-degree: 0%
 >
 >Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Salesforce.
 >
->En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Mer information om de specifika funktionerna i Workfront Automation and Integration-modulerna för Salesforce finns i [Salesforce-moduler](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
+>Mer information om de specifika funktionerna i Workfront Automation and Integration-modulerna för Salesforce finns i [Salesforce-moduler](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
 När du har installerat [!DNL Adobe Workfront] för Salesforce kan du definiera utlösare som skapar [!DNL Workfront]-projekt när vissa villkor uppfylls för [!DNL Salesforce] [!UICONTROL Opportunities] och [!UICONTROL Accounts].
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna använda de funktioner som beskrivs i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td> <p>[!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Standard</p>
+   <p>Plan</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Förutsättningar
 
@@ -159,7 +162,7 @@ Konfigurera utlösare i [!UICONTROL Salesforce]:
       >Projektet skapas endast när scenen uppdateras på [!UICONTROL Opportunity]. Ett unikt projekt skapas för varje produkt som anges när scenfältet uppdateras, och inte när produkterna läggs till i [!UICONTROL Opportunities].
 
 1. (Valfritt) Klicka på **[!UICONTROL New Trigger]**.
-1. (Valfritt) Välj **Konto i listrutan &#x200B;** [!UICONTROL [!DNL Salesforce] Object]**
+1. (Valfritt) Välj **Konto i listrutan **[!UICONTROL [!DNL Salesforce] Object]**
 **.
 
    Detta är ett obligatoriskt fält.
@@ -168,7 +171,7 @@ Konfigurera utlösare i [!UICONTROL Salesforce]:
    1. Välj en **[!UICONTROL Type]** i listrutan **[!UICONTROL Type]**.
 
       Vid ett **konto
-**&#x200B; anges som &#x200B;** [!UICONTROL Type] **&#x200B; som anges här i [!DNL Salesforce], en &#x200B;** [!UICONTROL Project]** skapas i [!DNL Workfront].
+** anges som **[!UICONTROL Type]** som anges här i [!DNL Salesforce], en **[!UICONTROL Project]** skapas i [!DNL Workfront].
 
       Detta är ett obligatoriskt fält.
 
@@ -217,7 +220,7 @@ Så här visar du projekt som skapats från ett [!UICONTROL Opportunity] eller k
    >
    >Beroende på hur administratören för [!DNL Workfront] konfigurerade det här avsnittet kan det ha ett annat namn.
 
-1. Välj fliken **[!UICONTROL Projects]**.
+1. Klicka på fliken **[!UICONTROL Projects]**.  
 
    Alla projekt som skapas av definierade utlösare visas på den här fliken. Alla användare i [!DNL Salesforce] som också har ett [!DNL Workfront]-konto och som kan ha behörighet att se de här projekten i [!DNL Workfront] kan också se dem i [!DNL Salesforce] för [!UICONTROL Opportunity] eller kontot
 som genererade dem.

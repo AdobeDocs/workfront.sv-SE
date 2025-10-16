@@ -6,9 +6,9 @@ description: Ett korrektur arkiveras automatiskt när det inte öppnas på 60 da
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ac4ce52a-ef63-43a8-9f2d-95f0cdb56f53
-source-git-commit: 1b85267e811f5832480316be5322ee819abaf190
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
@@ -21,25 +21,28 @@ Ett korrektur arkiveras automatiskt när det inte öppnas på 60 dagar i följd.
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om korrekturåtkomst för olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Åtkomst till korrekturfunktioner i Workfront</a>.</p> </td> 
-  </tr>
-
-<tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Alla</p> </td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader"> <p>Adobe Workfront-licens</p> </td> 
+   <td> 
+   <p>Alla</p>
+   </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader">Åtkomstbevis </td> 
    <td>Gäst eller högre</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan- eller korrekturåtkomst du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

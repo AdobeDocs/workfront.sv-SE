@@ -6,7 +6,7 @@ description: Gantt-scheman i Adobe Workfront ger en visuell representation av ti
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Kom igång med [!UICONTROL Gantt Chart]
 
-<!-- Audited: 01/2024 -->
+<!-- Audited: 08/2025 -->
 
 Gantt-scheman i Adobe Workfront ger en visuell representation av tidslinjen för en lista över uppgifter eller projekt.
 

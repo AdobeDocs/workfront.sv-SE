@@ -6,9 +6,9 @@ description: Du kan ta bort tilldelning av användare från arbetsobjekt på arb
 author: Lisa
 feature: Resource Management
 exl-id: e4293d4a-afb8-48ef-8a8e-6fad2ef82a25
-source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -27,25 +27,21 @@ Mer information om att frigöra flera användare samtidigt finns i [Tilldela fle
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td> <p>Alla </p> </td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Alla</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td><p>Nytt: Standard</p>
-       <p>eller</p>
-       <p>Aktuell: Planera när du använder belastningsutjämnaren för arbetsbelastning i resursområdet:</br>
-       Arbeta, när du använder belastningsutjämnaren för ett team eller projekt</p></td>
+   <td>Adobe Workfront-licens</td> 
+   <td><p>Standard</p>
+       <p>Planera, när du använder belastningsutjämnaren för arbetsbelastning i resursområdet; Arbeta när du använder belastningsutjämnaren för ett team eller projekt</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td>Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till följande:</p> 
     <ul> 
      <li>Resurshantering</li> 
@@ -55,13 +51,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
     </ul></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
+   <td>Objektbehörigheter</td> 
    <td>Contribute-behörigheter eller högre för projekt, uppgifter och ärenden som innehåller Skapa uppdrag</td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -75,7 +71,7 @@ Så här tar du bort tilldelning av arbetsobjekt från användare:
 1. Gör något av följande:
 
    * Hitta det objekt som du vill ta bort tilldelning för i en användares område, klicka på det och dra och släpp det i området Ej tilldelat eller i en annan användares område.
-   * Klicka på ikonen **Mer** ![Mer &#x200B;](assets/more-icon-task-list.png) till höger om namnet på ett arbetsobjekt, klicka på **Tilldela det här till**, ta bort namnet på enheterna som tilldelats arbetsobjektet eller ange ett annat namn och klicka sedan på **Spara**.
+   * Klicka på ikonen **Mer** ![Mer ](assets/more-icon-task-list.png) till höger om namnet på ett arbetsobjekt, klicka på **Tilldela det här till**, ta bort namnet på enheterna som tilldelats arbetsobjektet eller ange ett annat namn och klicka sedan på **Spara**.
 
      ![Tilldela detta till](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 

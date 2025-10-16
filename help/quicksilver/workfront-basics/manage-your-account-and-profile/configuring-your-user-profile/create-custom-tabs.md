@@ -6,9 +6,9 @@ description: Den information du ser i  [!DNL Workfront] webbprogrammet visas oft
 author: Becky and Lisa
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: 0efbc6051443d8e0ed96512b72d0949b288f7c2d
+source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Informationen som du ser i webbprogrammet [!DNL Workfront] visas ofta som standard i de vänstra panelavsnitten. Varje avsnitt innehåller olika information om ett [!DNL Workfront]-område eller objekt.
 
-Mer information om standardområdena för [!DNL Workfront] finns i artikeln [Om standardlayouten [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
+Mer information om standardområdena för [!DNL Workfront] finns i artikeln [Om standardlayouten [!DNL Adobe Workfront] ](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
 Förutom de avsnitt som medföljer [!DNL Workfront] som standard kan du lägga till en instrumentpanel där du kan visa information som är relevant för ditt arbetsflöde. Du kan inte lägga till en kontrollpanel till alla områden och objekt.
 
@@ -44,34 +44,32 @@ I följande tabell visas alla [!DNL Workfront] områden och objekt som innehåll
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- </col> 
- <col> 
- </col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Alla</p> </td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td> <p>[!UICONTROL Review] eller högre</p> </td> 
+   <td>Adobe Workfront-licens</td> 
+   <td>
+   <p>Ljus eller högre</p>
+   <p>Granska eller högre</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td>[!UICONTROL Reviewer] eller högre</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
-   <td>Visa åtkomst till objekttypen</td> 
+   <td>Objektbehörigheter</td> 
+   <td><p>Visa åtkomst till objekttypen</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan eller licenstyp du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Lägg till en instrumentpanel i den vänstra panelen för ett [!DNL Workfront]-objekt eller -område
 
@@ -99,7 +97,7 @@ När du har skapat kontrollpanelen eller den externa sidan kan du lägga till de
 
 ## Visa instrumentpaneler på den vänstra panelen med objekt
 
-Mer information om hur du lägger till en kontrollpanel under ett objekt finns i avsnittet [[!UICONTROL Add a dashboard] på den vänstra panelen i ett Workfront-objekt eller -område &#x200B;](#add-a-dashboard-in-the-left-panel-of-a-workfront-object-or-area) i den här artikeln.
+Mer information om hur du lägger till en kontrollpanel under ett objekt finns i avsnittet [[!UICONTROL Add a dashboard] på den vänstra panelen i ett Workfront-objekt eller -område ](#add-a-dashboard-in-the-left-panel-of-a-workfront-object-or-area) i den här artikeln.
 
 När du lägger till en kontrollpanel i den vänstra panelen av ett objekt fungerar objektet som ett filter för kontrollpanelen. Om du till exempel lägger till en uppgiftsrapport på en kontrollpanel och lägger till kontrollpanelen i ett projekt, visas bara uppgifter från det projekt som du visar på kontrollpanelen.
 

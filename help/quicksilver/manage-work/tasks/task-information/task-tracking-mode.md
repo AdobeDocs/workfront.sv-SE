@@ -2,12 +2,12 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Översikt över läget Uppgiftsspårning
+title: Översikt över Spårningsläge för uppgift
 description: Du kan justera inställningen för spårningsläge för en uppgift när du skapar eller redigerar en uppgift för att styra hur och när statusindikatorerna för en uppgift visas. I Adobe Workfront visas statusflaggor när du konfigurerar vissa inställningar för att spåra förloppet för uppgifter.
 author: Alina
 feature: Work Management
 exl-id: 397b5593-ac01-40cf-b683-fcf671a53d26
-source-git-commit: d2836549ee3c615201ce5f3454258e9af31efa42
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 0%

@@ -6,9 +6,9 @@ description: Du kan exportera information från valfri vy i resursplaneraren til
 author: Lisa
 feature: Resource Management
 exl-id: 07acd28a-5dc0-45b4-bdf2-20abbd5e098c
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -25,36 +25,32 @@ Du kan exportera information från valfri vy i resursplaneraren till en Excel-fi
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td><p>Nytt: Alla</p>
-       <p>eller</p>
-       <p>Aktuell: Pro eller högre</p> </td> 
+  <tr> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Alla</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td><p>Nytt: Ljus eller högre</p>
-       <p>eller</p>
-       <p>Aktuell: Granska eller senare</p></td>
+   <td>Adobe Workfront-licens</td> 
+   <td><p>Ljus eller högre</p>
+       <p>Granska eller högre</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Visa åtkomst eller senare till projekt, användare och resurshantering</p> </td> 
+   <td>Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Visa åtkomst eller senare till projekt, användare och resurshantering</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa behörigheter eller högre för projekt</p> </td> 
+   <td>Objektbehörigheter</td> 
+   <td> <p>Visa eller högre behörigheter för projekt</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

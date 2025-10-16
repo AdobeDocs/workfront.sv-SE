@@ -6,9 +6,9 @@ description: Du kan begränsa mängden information som visas på skärmen i en l
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '2419'
+source-wordcount: '2375'
 ht-degree: 0%
 
 ---
@@ -35,48 +35,35 @@ Du kan använda följande typer av filter i Adobe Workfront:
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-plan*</strong></td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licens*</strong></td> 
+   <td role="rowheader">Adobe Workfront-licens</strong></td> 
    <td> 
-      <p>Nytt:</p>
-         <ul>
-         <li><p>Medarbetare som ändrar ett filter</p></li>
-         <li><p>Standard för att ändra ett filter i en rapport</p></li>
-         </ul>
-      <p>Aktuell:</p>
-         <ul>
-         <li><p>Begäran om att ändra ett filter</p></li>
-         <li><p>Planera att ändra ett filter i en rapport</p></li>
-         </ul>
+    <p>Medarbetare eller begäran om att ändra ett filter</p>
+    <p>Standard eller Plan för att ändra ett filter i en rapport</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <ul><li><p>Redigera åtkomst till filter, vyer och grupperingar</p></li></ul>
-
-Om du vill redigera ett filter i en rapport måste du ha följande åtkomstnivåkonfiguration förutom Redigera åtkomst till filter, vyer och grupperingar:
-
-<ul><li><p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p></li></ul>   
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objektbehörigheter*</strong></td> 
-   <td> <p>Hantera behörigheter till ett filter</p></td> 
+   <td role="rowheader">Objektbehörigheter</td> 
+   <td> <p>Hantera behörigheter till ett filter</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -101,7 +88,7 @@ Du kan skapa filter med hjälp av de typer av filterverktyg som beskrivs i tabel
 <li> <p>Projekt</p> </li>
 <li> <p>Uppgifter </p> </li>
 <li> <p>Problem</p> </li>
-<li> <p>Portfolio</p> </li>
+<li> <p>Portföljer</p> </li>
 <li> <p>Program</p> </li>
 <li> <p>Användare</p> </li>
 <li> <p>Mallar</p> </li>
@@ -180,7 +167,7 @@ Du kan skapa filter med hjälp av standardgränssnittet i Builder på följande 
 Skapa ett filter med standardgränssnittet i Builder:
 
 1. Gå till en lista där du vill skapa ett filter eller som innehåller det filter som du vill anpassa.
-1. Klicka på ikonen **Filter** ![Filter &#x200B;](assets/filter-nwepng.png) för att öppna Builder-gränssnittet.
+1. Klicka på ikonen **Filter** ![Filter ](assets/filter-nwepng.png) för att öppna Builder-gränssnittet.
 
    ![Standardfilterverktyg](assets/new-filters-all-filter-types.png)
 
@@ -212,7 +199,7 @@ Skapa ett filter med standardgränssnittet i Builder:
 1. Gör något av följande:
 
    * Klicka på **Nytt filter** om du vill skapa ett filter från grunden.
-   * Håll pekaren över ett befintligt filter som du har behörighet att hantera och klicka på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) för att redigera det.
+   * Håll pekaren över ett befintligt filter som du har behörighet att hantera och klicka på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) för att redigera det.
 
      eller
 
@@ -262,7 +249,7 @@ Skapa ett filter med standardgränssnittet i Builder:
    >Beroende på vilken modifierare du har valt kan du välja flera värden.
 
 1. Klicka på **Lägg till filter** om du vill välja ett annat fält och lägga till ett filtervillkor i filterinstruktionen.
-1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort &#x200B;](assets/delete.png) om du vill ta bort befintliga filtersatser.
+1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort ](assets/delete.png) om du vill ta bort befintliga filtersatser.
 
    eller
 
@@ -363,7 +350,7 @@ Du kan skapa äldre filter i listor och rapporter på följande sätt:
 Oberoende av vilken metod du använder för att skapa filter ser det ut ungefär som när du skapar ett filter från början eller från ett befintligt filter.
 
 1. Gå till en lista eller rapport som innehåller filtret som du vill anpassa.
-1. Klicka på ikonen **Filter** ![Filter &#x200B;](assets/filter-nwepng.png), klicka på ikonen **Mer** ![Mer](assets/more-icon.png) och klicka sedan på **Gå tillbaka till äldre filter**.
+1. Klicka på ikonen **Filter** ![Filter ](assets/filter-nwepng.png), klicka på ikonen **Mer** ![Mer](assets/more-icon.png) och klicka sedan på **Gå tillbaka till äldre filter**.
 
    >[!TIP]
    >
@@ -373,7 +360,7 @@ Oberoende av vilken metod du använder för att skapa filter ser det ut ungefär
 
    eller
 
-   Håll pekaren över det filter som du vill ändra och klicka på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) .
+   Håll pekaren över det filter som du vill ändra och klicka på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) .
 
    Verktyget för att anpassa filtret startas.
 

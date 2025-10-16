@@ -6,7 +6,7 @@ description: Du kan skapa personliga uppgifter i Adobe [!DNL Workfront] från Mi
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 31b86c8d-967a-446a-86f2-3d38e44c45e1
-source-git-commit: 940cbfb34f12eacd5ba698f60fb7a3e67eb62b22
+source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 0%
@@ -21,26 +21,31 @@ ht-degree: 0%
 >
 >Den uppdaterade Workfront-integreringen är nu tillgänglig och helt kompatibel med New Teams. I de flesta fall visas Workfront automatiskt när användaren har gått över. Om så inte är fallet kan integreringen installeras manuellt från Microsoft Teams App Store. Information om hur du installerar eller verifierar Workfront-integreringen i klienten New Teams finns i [Installera [!DNL Adobe Workfront] för Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
+
+
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
-  </tr>
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Standard</p>
+   <p>Arbeta eller högre</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Förutsättningar
 
@@ -73,7 +78,7 @@ Information om hur du installerar [!DNL Workfront for Microsoft Teams] och logga
 
         ![ms_teams_new_task_card.png](assets/ms-teams-new-task-card-350x181.png)
 
-1. Ange följande information på [!UICONTROL New task]-kortet i [!UICONTROL Workfront]-robotkanalen:
+1. Ange följande information på [!UICONTROL Workfront]-kortet i [!UICONTROL New task]-robotkanalen:
 
    * Uppgiftsnamn i fältet **[!UICONTROL Write the task's title]**.
    * Uppgiftsbeskrivning i fältet **[!UICONTROL Write the tasks's description]**.
@@ -83,7 +88,7 @@ Information om hur du installerar [!DNL Workfront for Microsoft Teams] och logga
 
    Den nya personliga aktiviteten skapas i [!DNL Workfront]. Ett [!UICONTROL Reference Number] har tilldelats det och är synligt på kortet [!UICONTROL new task].
 
-   Mer information om referensnummer finns i avsnittet [[!UICONTROL Reference Numbers] av objekt &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects) i artikeln [Förstå objekt i [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+   Mer information om referensnummer finns i avsnittet [[!UICONTROL Reference Numbers] av objekt ](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects) i artikeln [Förstå objekt i [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 1. (Valfritt) Klicka på **[!UICONTROL Edit]** om du vill redigera aktivitetsinformationen ytterligare.
 1. (Valfritt) Klicka på **[!UICONTROL View in [!DNL Workfront]]** om du vill öppna uppgiften på en ny flik i [!DNL Workfront] och redigera aktiviteten ytterligare, flytta den till ett projekt eller tilldela den till någon annan.

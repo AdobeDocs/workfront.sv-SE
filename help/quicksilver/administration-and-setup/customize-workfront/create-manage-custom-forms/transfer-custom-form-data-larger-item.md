@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -30,31 +30,27 @@ Mer information finns i [Översikt över konverteringsproblem i Adobe Workfront]
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront</p> </td> 
-   <td>Alla</td> 
+  <tr> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td>
-   <p>Nytt: Standard</p>
-   <p>eller</p>
-   <p>Aktuell: Planera</p></td> 
+   <td>Adobe Workfront-licens</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+  <tr> 
+   <td>Konfigurationer på åtkomstnivå</td> 
    <td> <p>Administrativ åtkomst till anpassade formulär</p> </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -79,8 +75,8 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 1. Lägg till ytterligare objekt i det anpassade formuläret för det problem eller den uppgift som du konverterar, enligt beskrivningen i avsnittet [Första: Lägg till ytterligare objekt i det anpassade formuläret](#first-add-additonal-objects-to-the-custom-form) i den här artikeln.
 1. Konvertera utgåvan eller aktiviteten med alternativet **Anpassad Forms** i rutan som visas för att välja det anpassade formulär som du behöver. Instruktioner finns i följande artiklar:
 
-   * [Konvertera ett problem till ett projekt i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
-   * [Konvertera ett problem till en uppgift i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
+   * [Konvertera ett ärende till ett projekt](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
+   * [Konvertera ett problem till en uppgift](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
    * [Konvertera en uppgift till ett projekt](../../../manage-work/tasks/manage-tasks/convert-task-to-project.md)
 
 1. I dialogrutan **Konvertera till (objekttyp)** som visas klickar du på listrutan **Lägg till Forms** och väljer det formulär som du kopierade i föregående avsnitt.

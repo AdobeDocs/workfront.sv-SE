@@ -3,13 +3,13 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Loggtid
 description: Du kan logga tid för arbetsobjekt i &stämpel;nbsp;Adobe Workfront för att ange hur många timmar du ska arbeta med dem. Du kan också logga tid som inte är relaterad till arbetet, som semester, sjuktid eller tid som du tillbringar i möten. Den tid du loggar visas i tidrapporten.
-author: Alina
+author: Lisa
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '4073'
+source-wordcount: '4078'
 ht-degree: 0%
 
 ---
@@ -35,39 +35,39 @@ Mer information om vilken typ av timmar du kan logga in i Workfront finns i [Han
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td>Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td> 
-   <ul><li> Ljus eller högre för att logga timmar för en aktivitet, ett problem eller allmänna timmar på en tidrapport</li>
-   <li>Standard för att logga timmar i projekt</li></ul>
+   <ul><li><p>Ljus eller högre för att logga timmar för en aktivitet, ett problem eller allmänna timmar på en tidrapport</p></li>
+   <li><p>Standard för att logga timmar i projekt</p></li></ul>
 
 <p>Eller: </p>
 
-<ul><li>Granska eller senare för att logga allmänna timmar i en tidrapport</li>
-   <li>Arbeta eller senare för att logga timmar i ett projekt, en uppgift eller ett ärende</li></ul> </td> 
+<ul><li><p>Granska eller senare för att logga allmänna timmar i en tidrapport</p></li>
+   <li><p>Arbeta eller senare för att logga timmar i ett projekt, en uppgift eller ett ärende</p></li></ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Redigera åtkomst till den typ av arbetspost som du loggar tid för </p> <p>Du behöver till exempel Redigera-åtkomst till Problem för att kunna logga tid för problem</p> </td> 
+   <td>Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till den typ av arbetspost som du loggar tid för </p> <p>Du behöver till exempel Redigera-åtkomst till Problem för att kunna logga tid för problem</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Contribute eller högre behörigheter för det arbetsobjekt du loggar tid för, inklusive behörigheter för loggtimmar</p> </td> 
+   <td>Objektbehörigheter</td>
+   <td> <p>Contribute eller högre behörigheter för det arbetsobjekt du loggar tid för, inklusive behörigheter för loggtimmar</p> </td>
   </tr> 
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

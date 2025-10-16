@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '838'
 ht-degree: 0%
 
 ---
@@ -47,24 +47,24 @@ Du kan hantera användarna i projektet och mallens team genom att lägga till de
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven. 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Standard </p>
-    <p>Plan </p>
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Standard</p>
+    <p>Plan</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Åtkomstnivå</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till projekt och mallar</p> <p>Visa eller ge användare högre åtkomst</p> </td> 
   </tr> 
   <tr> 
@@ -74,13 +74,11 @@ Du kan hantera användarna i projektet och mallens team genom att lägga till de
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 <!--Old access: 
-
-You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -92,121 +90,123 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Standard </p>
+    <p>Plan </p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>View or higher access to Users</p> <p><b>NOTE</b> 
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Projects and Templates</p> <p>View or higher access to Users</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View or higher permissions to a project or to a template</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator.-->
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Lägga till användare i ett projektteam
 
-När du lägger till användare i projektteamet får de behörigheten Visa för projektet och projektets uppgifter, utgåvor och dokument. Mer information finns i artikeln [Översikt över projektgruppen](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+
+## Add users to a Project Team
+
+When you add users to the project team, they gain View permissions on the project and the tasks, issues, and documents of the project. For more information, see the article [Project Team overview](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 >[!TIP]
 >
->Användare i projektgruppen läggs inte automatiskt till i resurshanteringsverktygen för projektet.
+>Users on the Project Team are not automatically added to the resource management tools for the project.
 
-Du kan lägga till användare i projektteamet på följande sätt:
+You can add users to the project team in the following ways:
 
-* [Lägg till användare automatiskt i ett projektteam](#automatically-add-users-to-a-project-team)
-* [Lägga till användare manuellt i ett projektteam](#manually-add-users-to-a-project-team)
+* [Automatically add users to a Project Team](#automatically-add-users-to-a-project-team) 
+* [Manually add users to a Project Team](#manually-add-users-to-a-project-team)
 
-### Lägg till användare automatiskt i ett projektteam {#automatically-add-users-to-a-project-team}
+### Automatically add users to a Project Team {#automatically-add-users-to-a-project-team}
 
-De användare som uppfyller följande roller i projektet läggs automatiskt till i projektteamet och visas i avsnittet Personer när projektet skapas:
+The users that fulfill the following roles on the project are automatically added to the project team and appear  in the People section when the project is created:
 
-* Den som har skapat projektet
-* Projektägaren
-* Projektsponsorn
+* The creator of the project
+* The project owner
+* The project sponsor
 
-Användare läggs också automatiskt till i projektteamet när de tilldelas följande:
+Users are also automatically added to the project team when they are assigned to the following:
 
-* Uppgifter
-* Problem
+* Tasks
+* Issues
 
-### Lägga till användare manuellt i ett projektteam {#manually-add-users-to-a-project-team}
+### Manually add users to a Project Team {#manually-add-users-to-a-project-team}
 
-Om användare som inte har någon roll i projektet vill få meddelanden om vissa uppdateringar eller ändringar under projektets livslängd kan du lägga till dem manuellt i projektteamet.
+If users that don't fulfill any role on the project want to be notified about certain updates or changes during the life of the project, you can manually add them to the project team. 
 
-Mer information om vilka meddelanden som kan aktiveras för användare i projektteamet finns i [Händelsemeddelandetyper](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+ For more information about what notifications can be enabled for users on the project team, see [Event notification types](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md). 
 
-<!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
+ <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 
 >[!IMPORTANT]
 >
 >You can add to the Project Team only users that belong to the Group associated with the project. You cannot add users that belong to the Subgroups of the project's group. 
 
--->
 
-## Hantera personer i ett projekt
 
-1. Gå till det projekt som du vill hantera projektteamet för.
+## Manage people on a project
+
+1. Go to the project you want to manage the project team for.
 
    >[!TIP]
    >
-   >Du måste ha användare tilldelade till uppgifter, problem eller som intressenter i projektet för att de ska kunna visas i avsnittet Personer.
+   >You must have users assigned to tasks, issues or as stakeholders on the project to have them display in the People section.
 
-1. Klicka på **Personer** i den vänstra panelen.
+1. Click **People** in the left panel. 
 
-1. Klicka på **Lägg till användare**.
+1. Click **Add users**. 
 
-   Rutan **Lägg till användare i projektgruppen** visas.
+   The **Add users to Project Team** box displays.
 
    ![add_users_dialog.png](assets/add-users-dialog-350x217.png)
 
-1. I rutan **Lägg till användare** börjar du skriva namnet på en aktiv Workfront-användare som du vill lägga till i projektteamet och klickar sedan på namnet när det visas i listan.
+1. In the **Add users** box, begin typing the name of an active Workfront user that you want to add to the project team, then click the name when it appears in the list.
 
-   Upprepa det här steget om du vill lägga till flera användare i projektteamet. Användarna måste tillhöra den grupp som är associerad med projektet.
+   Repeat this step to add multiple users to the project team. The users must belong to the group associated with the project. 
 
    >[!TIP]
    >
-   >* Du kan inte lägga till användare genom att lägga till deras team, grupper, företag eller jobbroller.
-   >* Lägg märke till avataren, användarens primära roll och deras e-postadress för att skilja mellan användare med identiska namn när du lägger till användarna. Användarna måste vara associerade med minst en jobbroll för att kunna visa den när du lägger till dem.
+   >* You cannot add users by adding their teams, groups, companies, or job roles.
+   >* As you add the users, notice the avatar, the user's Primary Role, and their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.
    >
-   >  Du måste ha inställningen Visa kontaktinformation aktiverad på din åtkomstnivå för att användare ska kunna visa användarnas e-postmeddelanden. Mer information finns i [Bevilja åtkomst för användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >  You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-1. Klicka på **Lägg till**.
+1. Click **Add**.
 
-   Användarna får behörigheten Visa i projektet och får meddelanden om projektet som en del av projektteamet.
+   The users gain View permissions to the project and receive notifications about the project as part of the project team.
 
-1. (Valfritt) Om du vill att en användare ska få ett meddelande när deras jobbroll läggs till i en aktivitet, ett ärende eller ett projektgodkännande klickar du i kolumnen **Jobbroll** för användaren och väljer en jobbroll som ska associeras med godkännandet.
+1. (Optional) If you want a user to receive a  notification when their job role is added to a task, issue, or project approval, click inside the **Job Role** column for the user, and select a job role that will be associated with the approval. 
 
-   Användarna får meddelanden om de godkännanden som tilldelats den valda jobbrollen.
+   The users will receive notifications related to the approvals assigned to the selected job role. 
 
-   Mer information finns i avsnittet Rollbaserade godkännanden i artikeln [Översikt över projektteamet](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md).
+   For more information see the "Role-based approvals" section in the article [Project Team overview](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md).
 
-1. Markera en eller flera användare i listan och klicka sedan på ikonen **Ta bort** ![Ta bort &#x200B;](assets/remove-icon.png) för att ta bort dem från gruppen.
+1. Select one or several users in the list, then click the **Remove** icon ![Remove icon](assets/remove-icon.png) to remove them from the team. 
+ 
+1. Click **Yes, Remove Selected Users** to confirm and remove the users.
 
-1. Klicka på **Ja, ta bort markerade användare** för att bekräfta och ta bort användarna.
+   Users are removed and unassigned from incomplete work items.
 
-   Användare tas bort och blir inte tilldelade från ofullständiga arbetsobjekt.
+   For more information, see the [Considerations for removing users from a project team](#considerations-for-removing-users-from-a-project-team) section in this article.
+1. (Optional) To send an update for this project to users, click **Update All** to send the update to everyone on the team
 
-   Mer information finns i avsnittet [Att tänka på när du tar bort användare från ett projektteam](#considerations-for-removing-users-from-a-project-team) i den här artikeln.
-1. (Valfritt) Om du vill skicka en uppdatering för det här projektet till användare klickar du på **Uppdatera alla** för att skicka uppdateringen till alla i gruppen
+   Or 
 
-   eller
-
-   Markera en eller flera användare i listan och klicka sedan på **Skicka uppdatering till användare**.
+   Select one or multiple users in the list, then click **Send Update to User**.
 
    <!--update screen shot when they fix the bug - the text above the box needs to match the OLD box, below-->
 
-   ![Skicka uppdatering till användarrutan i projektet](assets/send-update-to-user-on-project-box-2025.png)
+![Skicka uppdatering till användarrutan i projektet](assets/send-update-to-user-on-project-box-2025.png)
 
-   <!--Old UI for projects but the text above the comment box is right and matches the functionality):
+<!--Old UI for projects but the text above the comment box is right and matches the functionality):
    ![OLD Send update to user on a project](assets/send-update-to-user-on-project-box.png)-->
 
-   Rutan **Skicka uppdatering till användare** öppnas.
+Rutan **Skicka uppdatering till användare** öppnas.
 
 1. Gör något av följande:
 
@@ -219,7 +219,7 @@ Mer information om vilka meddelanden som kan aktiveras för användare i projekt
 
    Användarna kan få ett e-postmeddelande om de är aktiverade för dem och de får ett meddelande i appen om den nya uppdateringen.
 
-1. (Valfritt) Klicka på ikonen **Exportera** ![Exportera &#x200B;](assets/export-icon.png) för att exportera listan med användare till en fil
+1. (Valfritt) Klicka på ikonen **Exportera** ![Exportera ](assets/export-icon.png) för att exportera listan med användare till en fil
 
    eller
 
@@ -270,7 +270,7 @@ Mer information om vilka meddelanden som kan aktiveras för användare i projekt
 
    Användarna kan få ett e-postmeddelande om de är aktiverade för dem och de får ett meddelande i appen om den nya uppdateringen.
 
-1. Klicka på ikonen **Exportera** ![Exportera &#x200B;](assets/export-icon.png) om du vill exportera listan med användare till en fil
+1. Klicka på ikonen **Exportera** ![Exportera ](assets/export-icon.png) om du vill exportera listan med användare till en fil
 
    eller
 

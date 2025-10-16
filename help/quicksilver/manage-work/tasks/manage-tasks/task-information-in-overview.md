@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: Hantera aktivitetsinformation i området Översikt över aktivitetsinformation
-description: Hantera aktivitetsinformation i området Översikt över aktivitetsinformation
+description: Du kan visa eller redigera information om en uppgift genom att gå till området Översikt i avsnittet Uppgiftsinformation. Det finns ett begränsat antal fält som du kan visa eller redigera i avsnittet Uppgiftsinformation.
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '2089'
+source-wordcount: '2102'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,9 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, do it in both articles)</p>
 -->
 
-Du kan visa eller redigera information om en uppgift genom att gå till området Översikt i avsnittet Uppgiftsinformation. Det finns ett begränsat antal fält som du kan visa eller redigera i det här området. Mer information om hur du redigerar all information för en uppgift finns i [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+Du kan visa eller redigera information om en uppgift genom att gå till området Översikt i avsnittet Uppgiftsinformation. Det finns ett begränsat antal fält som du kan visa eller redigera i avsnittet Uppgiftsinformation.
+
+Mer information om hur du redigerar all information för en uppgift finns i [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 I den här artikeln beskrivs hur du visar eller redigerar information i området Översikt i Uppgiftsinformation. Mer information om hur du uppdaterar andra områden i Uppgiftsinformation finns i följande artiklar:
 
@@ -29,31 +31,29 @@ I den här artikeln beskrivs hur du visar eller redigerar information i området
 
 ## Åtkomstkrav
 
-Du måste ha följande:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;">
-   *Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. 
- </caption> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront<b>-plan*</b> </p> </td> 
+   <td> <p>Adobe Workfront package</p> </td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront<b> licens*</b> </p> </td> 
-   <td> <p>Arbeta eller högre</p> </td> 
+   <td> <p>Adobe Workfront-licens </p> </td> 
+   <td><p>Standard</p> 
+   <p>Arbeta eller högre</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Åtkomstnivåkonfigurationer*</strong> </td> 
-   <td> <p>Visa eller öka åtkomsten till projekt och uppgifter</p> <p>Om du har rätt åtkomstnivå men ändå inte kan redigera detaljavsnittet för uppgiften frågar du Adobe Workfront om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td>Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Visa eller öka åtkomsten till projekt och uppgifter</p> <p>Om du har rätt åtkomstnivå men ändå inte kan redigera detaljavsnittet för uppgiften frågar du Adobe Workfront om de har angett ytterligare begränsningar för din åtkomstnivå. </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Objektbehörigheter</strong> </p> </td> 
-   <td> <p>Contribute eller högre behörighet för projektet</p> <p>Visa behörigheter för aktiviteten om du vill visa information i detaljavsnittet. </p> 
-   <p>Contribute-behörigheter för att uppdatera följande information i informationsavsnittet:</p>
+   <td> <p>Objektbehörigheter</p> </td> 
+   <td> <p>Contribute eller högre behörigheter för projektet</p> <p>Visa behörigheter för aktiviteten om du vill visa information i detaljavsnittet. </p> 
+   <p>Contribute-behörighet för aktiviteten så att följande information uppdateras i avsnittet Detaljer:</p>
 
 <ul>
    <li>Beskrivning</li>
@@ -64,6 +64,42 @@ Du måste ha följande:
   </tr> 
  </tbody> 
 </table>
+
+Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>Adobe Workfront<b> plan*</b> </p> </td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront<b> license*</b> </p> </td> 
+   <td> <p>Work or higher</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td><strong>Access level configurations*</strong> </td> 
+   <td> <p>View or higher access to Projects and Tasks</p> <p>If you have the correct access level but still can't edit the Details  section  of the task, ask your Adobe Workfront if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><strong>Object permissions</strong> </p> </td> 
+   <td> <p>Contribute or higher permissions for the project</p> <p>View permissions for the task to view information in the Details section. </p> 
+   <p>Contribute permissions for the task to update the following information  in the Details section:</p>
+
+   <ul>
+   <li>Description</li>
+   <li>Status</li>
+   </ul>
+   
+   <p>Manage permissions for the task to update all information in the Details section.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Redigera uppgiftsinformation i avsnittet Översikt över aktivitetsinformation
 

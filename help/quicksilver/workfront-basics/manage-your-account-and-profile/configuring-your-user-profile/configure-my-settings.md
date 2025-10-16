@@ -6,7 +6,7 @@ description: Din [!DNL Adobe Workfront] profil innehåller information om dig sj
 author: Becky
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 00162e3d20ab541f3233afd5d0c5d90b4c4d6309
+source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
 workflow-type: tm+mt
 source-wordcount: '2903'
 ht-degree: 0%
@@ -254,7 +254,7 @@ Du kan ändra något av följande i det här underavsnittet:
    <td> Om din [!DNL Workfront]-administratör har aktiverat en SSO-integrering med [!DNL Workfront] visas ditt SSO-användarnamn i det här fältet. Typen av SSO-konfiguration som är aktiverad för din [!DNL Workfront]-instans visas i det här fältet.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>(Villkorligt) [!UICONTROL Only Allow &lt;SSO Configuration> Authentication]</strong></td> 
+   <td role="rowheader"><strong>(Villkorligt) [!UICONTROL Only Allow <SSO Configuration> Authentication]</strong></td> 
    <td> <p> Om administratören för [!DNL Workfront] aktiverade en SSO-integrering med [!DNL Workfront] och har uppdaterat användare för enkel inloggning, är det här fältet markerat som standard. Typen av SSO-konfiguration som är aktiverad för din [!DNL Workfront]-instans visas i det här fältet.</p> <p>När det här fältet är markerat måste du logga in på [!DNL Workfront] med dina SSO-autentiseringsuppgifter. Om du avmarkerar den kan du logga in på [!DNL Workfront] med dina [!DNL Workfront]-inloggningsuppgifter.</p> <p>Mer information om hur du konfigurerar [!DNL Workfront] med en SSO-lösning finns i <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">Enkel inloggning i [!DNL Workfront]: artikelindex</a>. Mer information om hur du uppdaterar användare för enkel inloggning finns i <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Uppdatera användare för enkel inloggning</a>.</p> </td> 
   </tr>
  </tbody> 
@@ -392,13 +392,13 @@ Du kan ändra något av följande i det här underavsnittet:
   --> 
   <tr> 
    <td role="rowheader"><strong>(Villkorligt) [!UICONTROL User can generate proofs (... out of ... proof licenses left)]</strong></td> 
-   <td>Det här fältet är bara tillgängligt om ditt företag använder en äldre [!DNL Workfront]-plan och har köpt komponenten [!DNL Workfront Proof]. När det är markerat aktiveras du som korrekturanvändare. Här visas även antalet licenser som används i systemet av det totala antalet köpta korrekturlicenser. Det här fältet är bara synligt och redigerbart för användare som också är [!DNL Workfront] administratörer. Mer information om planalternativ för korrektur i [!DNL Workfront] finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">Åtkomst till korrekturfunktioner i [!DNL Workfront]</a>.</td>
+   <td>Det här fältet är bara tillgängligt om ditt företag använder ett äldre [!DNL Workfront]-paket och har köpt komponenten [!DNL Workfront Proof]. När det är markerat aktiveras du som korrekturanvändare. Här visas även antalet licenser som används i systemet av det totala antalet köpta korrekturlicenser. Det här fältet är bara synligt och redigerbart för användare som också är [!DNL Workfront] administratörer. Mer information om planalternativ för korrektur i [!DNL Workfront] finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">Åtkomst till korrekturfunktioner i [!DNL Workfront]</a>.</td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Villkorligt) [!UICONTROL Permission Profile]</strong></td> 
    <td> <p>I det här fältet visas åtkomstnivån i [!DNL Workfront Proof]. Det är bara tillgängligt om:</p> 
     <ul> 
-     <li>Ditt företag använder en äldre [!DNL Workfront]-plan och har köpt komponenten [!DNL Workfront Proof], eller så har du en [!UICONTROL Standard]-, [!UICONTROL Work]- eller [!UICONTROL Plan]-licens för en nyare [!DNL Workfront]-plan.</li> 
+     <li>Ditt företag använder ett äldre [!DNL Workfront]-paket och har köpt komponenten [!DNL Workfront Proof], eller så har du en [!UICONTROL Standard]-, [!UICONTROL Work]- eller [!UICONTROL Plan]-licens för ett nyare [!DNL Workfront]-paket.</li> 
      <li>Du är aktiverad som korrekturanvändare.</li> 
     </ul> <p>[!DNL Workfront] administratörer kan redigera fältet för alla användare utom själva, så att alla användare ser fältet som skrivskyddat i sina egna profiler. Mer information om behörighetsprofilen finns i <a href="../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md" class="MCXref xref">Översikt över behörighetsprofiler</a>.</p> </td> 
   </tr> 

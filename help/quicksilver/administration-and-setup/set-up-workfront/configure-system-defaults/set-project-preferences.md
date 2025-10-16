@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
 workflow-type: tm+mt
-source-wordcount: '2249'
+source-wordcount: '2226'
 ht-degree: 0%
 
 ---
@@ -34,31 +34,27 @@ Som [!DNL Adobe Workfront]-administratör kan du konfigurera standardinställnin
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>[!DNL Adobe Workfront] plan</p></td> 
-   <td>Alla</td> 
+   <td>[!DNL Adobe Workfront] package</td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td><p>Nytt: [!UICONTROL Standard]</p>
-   eller
-   <p>Aktuell: [!UICONTROL Plan]</p>
-   </td> 
+   <td>[!DNL Adobe Workfront] licens</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td>Konfigurationer på åtkomstnivå</td> 
    <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -143,7 +139,7 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt i he
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Estimate at Completion &#x200B;]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Estimate at Completion ]</p> </td> 
    <td> <p>Avgör vilka data [!DNL Workfront] använder för att beräkna [!UICONTROL Estimate at Completion] (EAC) som representerar den planerade totala kostnaden för ett projekt.</p> 
     <ul> 
      <li><strong>[!UICONTROL Calculate at project level]</strong>: EAC för den överordnade aktiviteten och projektet bestäms genom att [!UICONTROL Actual Hours] eller [!UICONTROL Actual Labor Cost] anges i EAC-formlerna. Den här beräkningen innehåller [!UICONTROL Actual Hours] eller [!UICONTROL Costs and Expenses] som lagts till direkt i den överordnade aktiviteten eller projektet.</li> 

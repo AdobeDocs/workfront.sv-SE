@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,6 @@ Du kan skapa nya uppgifter och ärenden direkt från prioriteter:
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,14 +29,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront package</strong></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licens*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront-licens</strong></td> 
    <td> 
-   <p>Aktuell: Begär eller högre för begäranden; Granska eller högre för problem; Arbeta eller högre för uppgifter</p>
-   <p>Nytt: Medarbetare eller senare för begäranden; Ljus eller högre för problem och dokument: Standard eller högre uppgifter</p> 
+   <p>Begäran eller högre för begäranden; Granska eller högre för problem; Arbeta eller högre för uppgifter</p>
+   <p>Medarbetare eller högre för begäranden; Ljus eller högre för problem och dokument: Standarduppgifter eller högre</p> 
    </td> 
   </tr> 
   <tr> 

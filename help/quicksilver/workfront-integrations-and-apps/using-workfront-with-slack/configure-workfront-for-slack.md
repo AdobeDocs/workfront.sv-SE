@@ -6,9 +6,9 @@ description: Genom att integrera [!DNL Adobe Workfront] med Slack kan du komma �
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cac75a81-26e8-4713-a6be-453943b431ab
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '391'
 ht-degree: 1%
 
 ---
@@ -24,26 +24,28 @@ Genom att integrera [!DNL Adobe Workfront] med [!DNL Slack] kan du göra följan
 
 Beroende på hur din [!DNL Slack]-miljö är konfigurerad kan du installera och konfigurera [!DNL Workfront for Slack] själv, eller så måste [!DNL Workfront] -administratören installera och konfigurera den innan du kan konfigurera den själv.
 
-När du integrerar din [!DNL Slack]-instans med [!DNL Workfront] kan användare använda [!DNL Workfront] när de samarbetar i sina [!DNL Slack]-kanaler. Integrationen kan användas från valfri [!DNL Slack]-miljö, inklusive [!DNL Slack]-mobilappen.
+När du integrerar din [!DNL Slack]-instans med [!DNL Workfront] kan användare använda [!DNL Workfront] när de samarbetar i sina [!DNL Slack]-kanaler. Integrationen kan användas från valfri [!DNL Slack]-miljö, inklusive [!DNL Slack]-mobilappen. ## Åtkomstkrav
 
-## Åtkomstkrav
-
-Du måste ha följande:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/se/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] plan]</a>*</td> 
-   <td> <p>[!UICONTROL Pro] eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Alla</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Alla</p>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.\
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Krav för att använda [!DNL Workfront] med [!DNL Slack]
 

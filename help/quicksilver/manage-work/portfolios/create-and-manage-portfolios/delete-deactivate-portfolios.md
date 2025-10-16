@@ -6,16 +6,16 @@ description: Portföljer är samlingar av projekt eller program i Adobe Workfron
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
 
 # Ta bort och inaktivera portföljer
 
-<!--Audited: 2/2024-->
+<!--Audited: 08/2025-->
 
 Portföljer är samlingar av projekt eller program i [!DNL Adobe Workfront]. Du kan ta bort eller inaktivera en portfölj om du upptäcker att den inte är relevant för ditt system.
 
@@ -23,15 +23,15 @@ Vi rekommenderar att du inaktiverar en portfölj som inte längre behöver koppl
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.
++++ Expandera om du vill visa åtkomstkraven.Expandera om du vill visa åtkomstkraven för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>Alla </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
@@ -52,6 +52,35 @@ Vi rekommenderar att du inaktiverar en portfölj som inte längre behöver koppl
 Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects and Portfolios</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions on the portfolio </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Översikt över borttagning och inaktivering av portföljer
 
@@ -92,8 +121,8 @@ När du inaktiverar en portfölj kan du fortfarande komma åt den från området
 
 1. Klicka på **[!UICONTROL Portfolios]** .
 1. Klicka på namnet på portföljen.
-1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-icon.png) till höger om portföljnamnet och klicka sedan på **[!UICONTROL Deactivate Portfolio]**.
+1. Klicka på menyn **Mer** ![Mer ](assets/more-icon.png) till höger om portföljnamnet och klicka sedan på **[!UICONTROL Deactivate Portfolio]**.
 Portföljen inaktiveras omedelbart.
-1. (Valfritt) Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-icon.png) till höger om portföljnamnet och klicka sedan på **[!UICONTROL Activate Portfolio]** för att återaktivera det.
+1. (Valfritt) Klicka på menyn **Mer** ![Mer ](assets/more-icon.png) till höger om portföljnamnet och klicka sedan på **[!UICONTROL Activate Portfolio]** för att återaktivera det.
 
 

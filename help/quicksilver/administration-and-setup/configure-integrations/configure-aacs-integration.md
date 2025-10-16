@@ -6,7 +6,7 @@ description: Du kan koppla ditt arbete till ditt innehåll i  [!DNL Experience M
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
 source-wordcount: '1658'
 ht-degree: 0%
@@ -39,34 +39,35 @@ Du kan koppla ditt arbete till ditt innehåll i [!DNL Experience Manager Assets]
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table>
   <tr>
-   <td>[!DNL Adobe Workfront] plan
+   <td>Adobe Workfront package
    </td>
-   <td>Alla
+   <td> <p>Prime eller Ultimate</p>
+    <p>Arbetsflöde Ultimate</p>
+   </td>
+  </tr>
+    <tr>
+   <td>Adobe Workfront-licenser
+   </td>
+   <td>Standard
+   <p>Plan</p>
+   </td>
+  </tr>
+  </tr>
+    <tr>
+   <td>Adobe Experience Manager-licenser
+   </td>
+   <td>Standard
    </td>
   </tr>
   <tr>
-   <td>[!DNL Adobe Workfront] licens
-   </td>
-   <td><p>Aktuell: [!UICONTROL Plan]</p>
-   <p>Nytt: [!UICONTROL Standard]</p></td>
-  </tr>
-  <tr>
-   <td>[!DNL Experience Manager] licens
-   </td>
-   <td>[!UICONTROL Standard]
-   </td>
-  </tr>
-  <tr>
-   <td>Produkt
+   <td>Ytterligare produkter
    </td>
    <td>Du måste ha [!DNL Experience Manager Assets as a Cloud Service] och du måste läggas till i produkten som en användare.
    </td>
   </tr>
-  <tr>
+   <tr>
    <td>Konfigurationer på åtkomstnivå
    </td>
    <td>Du måste vara en [!DNL Workfront]-administratör.
@@ -121,7 +122,7 @@ Innan du börjar mappa metadatafält måste du konfigurera metadatafält i både
 
 Konfigurera metadatafält:
 
-1. Konfigurera ett metadataschema i [!DNL Experience Manager Assets] enligt beskrivningen i [Konfigurera metadatamappning för resurser mellan Adobe [!DNL Workfront]  och [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+1. Konfigurera ett metadataschema i [!DNL Experience Manager Assets] enligt beskrivningen i [Konfigurera metadatamappning för resurser mellan Adobe [!DNL Workfront]  och [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. Konfigurera anpassade formulärfält i Workfront. [!DNL Workfront] har många inbyggda anpassade fält som du kan använda. Du kan även skapa egna anpassade fält enligt beskrivningen i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
@@ -151,7 +152,7 @@ Du kan mappa ett fält som stöds av Workfront till en tagg i Experience Manager
 
 När du har skapat taggarna i Experience Manager Assets visas de i listrutan Taggar i avsnittet Metadata. Om du vill länka ett fält till en tagg väljer du `xcm:keywords` i listrutan Experience Manager Assets i metadatamappningsområdet.
 
-Mer information om taggar i Experience Manager Assets, inklusive hur du skapar och hanterar taggar, finns i [Administrera taggar](https://experienceleague.adobe.com/sv/docs/experience-manager-64/administering/contentmanagement/tags).
+Mer information om taggar i Experience Manager Assets, inklusive hur du skapar och hanterar taggar, finns i [Administrera taggar](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags).
 
 **Anpassade metadataschfält för Experience Manager Assets**
 
@@ -277,8 +278,8 @@ Du kan skapa upp till 100 länkade mappar per mappträd.
       >   `/`, `:`, `[`, `]`, `|`, `*`
 
    1. Om du vill lägga till en kapslad mapp i mappträdet klickar du på menyn med tre punkter bredvid mappen som du vill skapa en kapslad mapp i och väljer **Lägg till mapp**. Fyll i fälten enligt beskrivningen i Stega föregående steg.
-   1. Om du vill länka en mapp till Workfront markerar du mappen och klickar på **Skapa länkad mapp**   ikon ![Länk &#x200B;](assets/link-folder.png) .
-   1. (Valfritt) Om du vill redigera en mapp markerar du mappen och klickar på ikonen **Redigera mapp** ![Redigera &#x200B;](assets/edit-icon.png) .
+   1. Om du vill länka en mapp till Workfront markerar du mappen och klickar på **Skapa länkad mapp**   ikon ![Länk ](assets/link-folder.png) .
+   1. (Valfritt) Om du vill redigera en mapp markerar du mappen och klickar på ikonen **Redigera mapp** ![Redigera ](assets/edit-icon.png) .
    1. (Valfritt) Om du vill ta bort en mapp markerar du mappen och klickar på ikonen **Ta bort mapp** ![Ta bort mapp](assets/delete-folder.png) .
 1. (Villkorligt) Om du vill lägga till ytterligare ett mappträd klickar du på **+ Lägg till mappträd** och följer stegen i steg 5.
 

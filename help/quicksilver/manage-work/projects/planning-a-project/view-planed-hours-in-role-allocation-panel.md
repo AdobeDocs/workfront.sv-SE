@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: plan-a-project
 title: Visa projektplanerade timmar i panelen Rollallokering
 description: Du kan visa rollallokering för alla jobbroller som har tilldelats arbetsobjekt i ett projekt på panelen Rollallokering i projektet.
-author: Alina
+author: Alina, Lisa
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -24,14 +24,50 @@ Du kan visa rollallokering för alla jobbroller som har tilldelats arbetsobjekt 
 >* [Visa rollallokering för projekt och initiativ i uppgiftslistan](../../../scenario-planner/show-role-allocation-task-list-nwe.md)
 >* [Visa rollallokering för projekt och initiativ i Utjämning av arbetsbelastning](../../../scenario-planner/show-role-allocation-workload-balancer.md)
 >
->  Du måste ha en licens för Scenarioplanering för att kunna se initieringstimmar på panelen Rollallokering. Mer information om scenarioplanen finns i [Kom igång med scenarioplanen](../../../scenario-planner/get-started-with-scenario-planning.md) .
+>  Du måste ha en licens för Scenarioplanering för att kunna se initieringstimmar på panelen Rollallokering. Mer information om scenarioplanen finns i [Kom igång med scenarioplanen](../../../scenario-planner/get-started-with-scenario-planning.md).
 >
+>Om ditt företag tidigare har köpt Adobe Scenario Planner så har den blivit inköpt. Scenarioplanen är inte längre tillgänglig att köpa.
 
 ## Åtkomstkrav
 
-<!--drafted for P&P:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workflow Ultimate</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> 
+   <p>Ljus eller högre</p>
+   <p>Granska eller högre</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Visa eller ge högre åtkomst till projekt</p>
+   <p>Redigera åtkomst till Scenario Planner för att uppdatera öppettider för initiativ</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objektbehörigheter</td> 
+   <td> <p>Visa eller högre behörigheter i projektet</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+
+able style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -41,10 +77,7 @@ Du kan visa rollallokering för alla jobbroller som har tilldelats arbetsobjekt 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Light or higher</p> 
-   Or
-   <p>Legacy license: Review or higher</p> 
-   </td> 
+   <td> <p>Review or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -55,36 +88,7 @@ Du kan visa rollallokering för alla jobbroller som har tilldelats arbetsobjekt 
    <td> <p>View or higher permissions on the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
--->
-
-Du måste ha följande:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Alla </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Granska eller högre</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa eller ge högre åtkomst till projekt</p> <p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa eller högre behörigheter i projektet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+</table>-->
 
 ## Förutsättningar
 

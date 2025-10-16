@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
+source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '2160'
+source-wordcount: '2139'
 ht-degree: 0%
 
 ---
@@ -42,31 +42,27 @@ Dessa fält kan ibland ha många (ibland hundratals) alternativ. Om du importera
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td>Alla</td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td>
-   <p> Nytt: Standard</p>
-   eller
-   <p>Aktuell: Planera</p></td> 
+   <td>Adobe Workfront-licens</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td>[!UICONTROL System Administrator]</td> 
+   <td>Konfigurationer på åtkomstnivå</td> 
+   <td>Systemadministratör</td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -222,7 +218,7 @@ Så här fyller du i Excel-kalkylbladet med information om de nya anpassade fäl
      >
      >Du kan bara ha ett standardalternativ för varje fält.
 
-   * **`setParameterID`** = de alternativ som motsvarar det anpassade fältet _Varumärke_ har **`setParameterID`** 1, och de alternativ som motsvarar _Media_ har **`setParameterID`**&#x200B;2. `PARAM` och `POPT` blad korsrefererar varandra för att ange vilka alternativ som tillhör vilka anpassade fält.
+   * **`setParameterID`** = de alternativ som motsvarar det anpassade fältet _Varumärke_ har **`setParameterID`** 1, och de alternativ som motsvarar _Media_ har **`setParameterID`**2. `PARAM` och `POPT` blad korsrefererar varandra för att ange vilka alternativ som tillhör vilka anpassade fält.
    * **`setDisplayOrder`**= Visningsordningskolumnen anger i vilken ordning alternativen visas i det anpassade fältet. Du kan börja med 1 och fortsätta i stigande ordning för alla alternativ, oavsett vilka fält de tillhör. Det viktiga här är att ha unika nummer för varje alternativ.
    * Kolumnerna **`setLabel`** och `**setValue`** innehåller vanligtvis samma information och de bör återspegla de namn som du vill ha i Workfront-gränssnittet. Värdet för ett alternativ är det namn som visas i rapporter, till exempel, medan etiketten visas i de anpassade formerna när den kopplas till ett objekt. Mer information finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
    * **`setIsHidden`** = ange `TRUE` om du vill att något av alternativen ska vara dolt.

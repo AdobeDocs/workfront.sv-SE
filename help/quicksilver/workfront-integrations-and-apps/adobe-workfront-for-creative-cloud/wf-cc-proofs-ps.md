@@ -6,9 +6,9 @@ description: Du kan överföra förinställningar för fotodokument som korrektu
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
-source-git-commit: 9cbf1706e6c535ff7f52627d2c6e13de65ec76d0
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Du kan överföra vissa förinställningstyper för Photoshop-dokument som korre
 
 >[!IMPORTANT]
 >
->Filen måste vara en fotodokumentförinställning enligt beskrivningen i [Mallar och förinställningar i Photoshop](https://helpx.adobe.com/se/photoshop/using/create-documents.html).
+>Filen måste vara en fotodokumentförinställning enligt beskrivningen i [Mallar och förinställningar i Photoshop](https://helpx.adobe.com/photoshop/using/create-documents.html).
 
 
 
@@ -27,22 +27,22 @@ Du kan överföra vissa förinställningstyper för Photoshop-dokument som korre
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Aktuell plan: [!UICONTROL Pro] eller högre</p> <p>eller</p> <p>Äldre plan: [!UICONTROL Premium]</p> <p>Mer information om åtkomst till korrektur med olika planer finns i .</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td> <p>Aktuell plan: [!UICONTROL Work] eller [!UICONTROL Proof]</p> <p>Äldre plan: Alla (du måste ha språkkontroll aktiverat för användaren)</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td> 
+   <p>Standard</p>
+   <p>Arbeta eller högre</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Produkt</td> 
+   <td role="rowheader">Ytterligare produkter</td> 
    <td>Du måste ha en [!DNL Adobe Creative Cloud]-licens förutom en [!DNL Workfront]-licens.</td> 
   </tr> 
   <tr> 
@@ -51,12 +51,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Redigera åtkomst till [!UICONTROL Documents]</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till [!UICONTROL Documents]</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,11 +73,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    ![Återgå till arbetslistan](assets/go-back-to-work-list-350x314.png)
 
 1. Gå till arbetsuppgiften där du vill överföra ett korrektur.
-1. Klicka på ikonen **[!UICONTROL Document]** ![Dokument &#x200B;](assets/documents.png) i navigeringsfältet.
+1. Klicka på ikonen **[!UICONTROL Document]** ![Dokument ](assets/documents.png) i navigeringsfältet.
 1. Klicka på **[!UICONTROL New File]** längst ned på panelen [!DNL Workfront].
 1. Aktivera växlingsknappen **[!UICONTROL Create a proof]**.
 1. (Valfritt) Skriv ett namn på korrekturet i textrutan **[!UICONTROL Proof Name]**.
-1. Välj **[!UICONTROL Basic]** i avsnittet **[!UICONTROL Proof Approvals]**.
+1. Välj **[!UICONTROL Proof Approvals]** i avsnittet **[!UICONTROL Basic]**.
 1. (Valfritt) Lägg till godkännare.
 1. (Valfritt) Skriv en kommentar i området **[!UICONTROL Updates]**.
 
@@ -99,12 +99,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    ![Återgå till arbetslistan](assets/go-back-to-work-list-350x314.png)
 
 1. Gå till arbetsuppgiften där du vill överföra ett korrektur.
-1. Klicka på ikonen **[!UICONTROL Document]** ![Dokument &#x200B;](assets/documents.png) i navigeringsfältet.
+1. Klicka på ikonen **[!UICONTROL Document]** ![Dokument ](assets/documents.png) i navigeringsfältet.
 
 1. Klicka på **[!UICONTROL New File]** längst ned på panelen [!DNL Workfront].
 1. Aktivera växlingsknappen **[!UICONTROL Create a proof]**.
 1. (Valfritt) Skriv ett namn på korrekturet i textrutan **[!UICONTROL Proof Name]**.
-1. Välj **[!UICONTROL Automated]** i avsnittet **[!UICONTROL Proof Approvals]**.
+1. Välj **[!UICONTROL Proof Approvals]** i avsnittet **[!UICONTROL Automated]**.
 1. (Valfritt) Skriv namnet på en korrekturarbetsflödesmall i rutan **[!UICONTROL Workflow Template]**.
 
 {{adjust-proof-settings}}
@@ -132,12 +132,12 @@ Du kan överföra en ny version av ett korrektur. Plugin-programmet kommer ihåg
    ![Återgå till arbetslistan](assets/go-back-to-work-list-350x314.png)
 
 1. Gå till den arbetsuppgift som du behöver överföra ett dokument till.
-1. Klicka på ikonen **[!UICONTROL Document]** ![Dokument &#x200B;](assets/documents.png) i navigeringsfältet.
+1. Klicka på ikonen **[!UICONTROL Document]** ![Dokument ](assets/documents.png) i navigeringsfältet.
 
 1. Klicka på **[!UICONTROL New Version]** längst ned på panelen [!DNL Workfront].
 1. Aktivera växlingsknappen **[!UICONTROL Create a proof]**.
 
-1. Välj **[!UICONTROL Basic]** eller **[!UICONTROL Automated]** i avsnittet *[!UICONTROL *Proof approvals]**.
+1. Välj *[!UICONTROL *Proof approvals]* eller **[!UICONTROL Basic]** i avsnittet **[!UICONTROL Automated]***.
 
 1. Lägg till **[!UICONTROL Reviewers]** eller en **[!UICONTROL Workflow template]** baserat på den godkännandetyp som du valde i steg 7.
 

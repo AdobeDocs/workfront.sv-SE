@@ -6,7 +6,7 @@ description: Du kan skapa komplexa textlägesfilter med EXISTS-satser. Den här 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
 source-wordcount: '2668'
 ht-degree: 0%
@@ -40,9 +40,9 @@ Mer information om vilka objekt som finns i Workfront och om deras hierarki och 
 
 När du skapar filter kan du referera till andra objekt som är anslutna till filtrets objekt inom upp till två relationsnivåer med hjälp av standardrapporteringsgränssnittet.
 
-Du kan t.ex. referera till Portfolio-ID:t i ett utgåvfilter för att endast visa problem i projekt som är kopplade till en viss portfölj med hjälp av standardgränssnittet. I det här fallet är portföljen två nivåer bort från emissioner.
+Du kan till exempel referera till Portfolio-id:t i ett problemfilter om du bara vill visa problem i projekt som är kopplade till en viss portfölj med hjälp av standardgränssnittet. I det här fallet är portföljen två nivåer bort från emissioner.
 
-Du kan emellertid inte referera till Portfolio-ägaren i ett emissionsfilter med hjälp av standardgränssnittet för att endast visa problem från projekt som är kopplade till portföljer där ägaren är en viss användare. Du måste använda textläge för att komma åt fältet Portfolio Ägarnamn, som ligger tre nivåer bort från problemen.
+Du kan emellertid inte referera till Portfolio Owner i ett problemfilter med hjälp av standardgränssnittet för att endast visa problem från projekt som är kopplade till portföljer där ägaren är en viss användare. Du måste använda textläge för att komma åt fältet Portfolio ägarnamn, som ligger tre nivåer bort från problemen.
 
 ![Utfärda till portföljägarikoner](assets/issue-to-portfolio-owner-sraight-line-icons-350x83.png)
 
@@ -84,7 +84,7 @@ Tänk på följande regler när du använder EXISTS-programsatser i ett filter:
 
 * När ett länkat objekt saknas på grund av att det ursprungliga objektet och målobjektet är direktanslutna kan du använda objektkoden för målobjektet i stället för det länkade objektet.
 * Du kan referera till flera fält (målfält) på samma objekt (målobjekt), och då måste du koppla ihop de rader som refererar till fälten med AND.\
-  Ett exempel på filtrering av mer än ett fält som tillhör målobjektet finns i avsnittet [Exempel 4: Filtrera efter flera fält: uppgifter efter Portfolio ägarnamn och Portfolio justeringsstyrkortets ID &#x200B;](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id) i den här artikeln.
+  Ett exempel på filtrering av mer än ett fält som tillhör målobjektet finns i avsnittet [Exempel 4: Filtrera efter flera fält: uppgifter efter Portfolio ägarnamn och Portfolio justeringsstyrkort-ID](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id) i den här artikeln.
 
 * Den enda modifierare som stöds för en EXISTS-sats är NOTEXISTS.
 
@@ -92,27 +92,19 @@ Tänk på följande regler när du använder EXISTS-programsatser i ett filter:
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
    <td> 
-      <p>Nytt:</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Aktuell:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
+     <p>Standard</p>
+     <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
@@ -121,12 +113,12 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter till en rapport för att redigera filter i en rapport</p> <p>Hantera behörigheter för ett filter för att redigera det</p></td> 
+   <td><p>Hantera behörigheter till en rapport för att redigera filter i en rapport</p> <p>Hantera behörigheter för ett filter för att redigera det</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -140,7 +132,7 @@ Du kan skapa ett filter som refererar till objekt på flera nivåer i objekthier
 
 Du måste alltid använda en EXISTS-programsats och textlägesgränssnittet för att skapa det här filtret.
 
-Exempel på filter finns i avsnittet [Exempel 1: Filter för utgåvor efter Portfolio-ägarnamn](#example-1-filter-for-issues-by-portfolio-owner-name) i den här artikeln.
+Exempel på filter finns i avsnittet [Exempel 1: Filter för problem efter Portfolio-ägarnamn](#example-1-filter-for-issues-by-portfolio-owner-name) i den här artikeln.
 
 Så här skapar du ett filter som sträcker sig över flera nivåer i objekthierarkin:
 
@@ -228,11 +220,11 @@ Så här skapar du ett filter som refererar till saknade objekt:
 
 Använd de här exemplen för att skapa textlägesfilter med EXISTS-satser.
 
-### Exempel 1: Filtrera efter utleveranser efter Portfolio ägarnamn {#example-1-filter-for-issues-by-portfolio-owner-name}
+### Exempel 1: Filtrera efter utgåvor efter Portfolio ägarnamn {#example-1-filter-for-issues-by-portfolio-owner-name}
 
 Med hjälp av textlägesgränssnittet kan du skapa ett filter för en lista med problem som bara visar problem i projekt som är kopplade till en portfölj vars ägare är en viss användare.
 
-Så här filtrerar du utleveranser efter Portfolio ägarnamn:
+Så här filtrerar du problem efter Portfolio ägarnamn:
 
 1. Skapa ett problemfilter.\
    Mer information om hur du skapar filter finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
@@ -358,7 +350,7 @@ Du kan till exempel filtrera en lista med uppgifter så att endast uppgifter som
 * De är kopplade till ett projekt som är kopplat till en portfölj vars ägare är en specifik användare.
 * De är kopplade till ett projekt som är kopplat till en portfölj vars projekt inte är kopplade till ett visst justeringskort.
 
-Så här filtrerar du uppgifter efter Portfolio ägarens namn och Portfolio justeringsstyrkortets ID:
+Så här filtrerar du uppgifter efter Portfolio ägarnamn och Portfolio justeringsstyrkort-ID:
 
 1. Skapa ett uppgiftsfilter.\
    Mer information om hur du skapar filter finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
@@ -384,7 +376,7 @@ Så här filtrerar du uppgifter efter Portfolio ägarens namn och Portfolio just
    >* Det andra målfältet är Styrkort-ID för justering.
    >* Det länkade objektet är Projekt.
    >* Objektkoden för det länkade objektet är PROJ.
-   >* Länkningsfältet till målobjektet är ID (för Portfolio).
+   >* Länkningsfältet till målobjektet är ID:t (för Portfolio).
    >* Länkningsfältet som visas på det ursprungliga objektet är projectID.
    >* Ersätt ownerID med ett användar-ID från din miljö.
 

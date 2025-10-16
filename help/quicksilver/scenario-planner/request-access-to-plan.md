@@ -2,14 +2,14 @@
 product-area: enterprise-scenario-planner-product-area
 keywords: plan,behörigheter,resurs,initiativ,,scenarier,scenario
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Begär åtkomst till en plan i scenarioplanen
+title: Begär åtkomst till en plan i scenarioplaneraren
 description: Du kan begära åtkomst till en plan i Adobe Workfront Scenarioplan när länken till planen delas med dig.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: fa47cb8c-a3ca-4748-b67d-2d8ed34b9b4a
-source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
+source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,39 @@ Du kan begära åtkomst till en plan i [!DNL Adobe Workfront Scenario Planner] n
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] package</p> </td> 
+   <td> 
+   <p>Workfront Ultimate</p>
+<p><b>ANMÄRKNING</b></p>
+<p>Kontakta Workfront om du har ett annat Workfront-paket.</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] licens</p> </td> 
+   <td> <p>[!UICONTROL Light] eller högre</p> 
+   <p>[!UICONTROL Review] eller högre</p> </td> 
+  </tr> 
+    <tr> 
+   <td>Konfigurationer på åtkomstnivå</td> 
+   <td> <p>[!UICONTROL View] eller högre åtkomst till [!DNL Scenario Planner]</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Mer information om åtkomst till scenarioplanen finns i [Åtkomst krävs för att använda  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+
+Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav för Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -29,34 +60,30 @@ Du kan begära åtkomst till en plan i [!DNL Adobe Workfront Scenario Planner] n
   <tr> 
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
-   <li><p>Nytt: Ultimate </p></li>
-   <p>Scenarioplanen är inte tillgänglig för nya Workfront Select- eller Workfront Prime-planer. </p>
-   <li><p>Aktuell: [!UICONTROL Business] eller högre</p></ul>
+   <li><p>New: Ultimate </p></li>
+   <p>The Scenario Planner is not available for the new Workfront Select or Workfront Prime plans. </p>
+   <li><p>Current: [!UICONTROL Business] or higher</p></ul>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] licens*</p> </td> 
-   <td> <p>Nytt: Ljus eller högre</p> 
-   <p>Aktuell: [!UICONTROL Review] eller högre</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>New: Light or higher</p> 
+   <p>Current: [!UICONTROL Review] or higher</p> </td> 
   </tr> 
   <tr> 
-   <td>Produkt* </td> 
-   <td> <ul><li><p>För nya Workfront-planer:</p><p> Adobe Workfront</li></p>
-   <li><p>För nuvarande Workfront-planer: </p>
+   <td>Product* </td> 
+   <td> <ul><li><p>For the new Workfront plans:</p><p> Adobe Workfront</li></p>
+   <li><p>For the current Workfront plans: </p>
    <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
-
-<p>Mer information finns i <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Åtkomst krävs för att använda [!DNL Scenario Planner]</a>. </p> </td> 
+   
+   <p>For more information, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Åtkomstnivå </td> 
-   <td>  <p>[!UICONTROL View] eller högre åtkomst till [!DNL Scenario Planner]</p>  </td> 
+   <td>Access level </td> 
+   <td>  <p>[!UICONTROL View] or higher access to the [!DNL Scenario Planner]</p>  </td> 
   </tr>
  </tbody> 
-</table>
-
-*Mer information finns i [Åtkomstkrav för Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 ## Förutsättningar
 

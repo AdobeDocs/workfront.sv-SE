@@ -8,16 +8,16 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '2193'
+source-wordcount: '2213'
 ht-degree: 0%
 
 ---
 
 # Skapa en godkännandeprocess för arbetsobjekt
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 08/2025-->
 
 <!--see below the "hidden" content for the redesigned tabs - August 2023-->
 
@@ -44,35 +44,65 @@ Mer information om godkännanden som är kopplade till dokument eller korrektur 
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-paket*</td> 
+   <td><p>För godkännandeprocesser på systemnivå eller för engångsbruk:</p><ul><li><p>Alla paket</p></li></ul>
+   <p>För godkännandeprocess på gruppnivå:</p>
+   <ul><li><p>Arbetsflöde Prime eller Ultimate</p></li>
+   <li><p>Workfront Prime eller Ultimate</p></li></ul>
+   </td>
+
+</tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Standard</p>
+ <p>Plan</p> 
+</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Om du är systemadministratör eller har administrativ åtkomst till godkännandeprocesser kan du skapa en godkännandeprocess på systemnivå eller en godkännandeprocess på gruppnivå för en viss grupp.</p> 
+   <p>Om du är gruppadministratör och har administrativ åtkomst till godkännandeprocesser kan du skapa godkännandeprocesser på gruppnivå för grupper som du hanterar.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*Mer information om informationen i den här tabellen finns i [Åtkomstkraven i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td><p>Godkännandeprocess på systemnivå eller för engångsbruk: Alla</p>
-   <p>Godkännandeprocess på gruppnivå: Prime eller Ultimate</p></td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td><p>System-level or single-use approval process: Any</p>
+   <p>Group-level approval process: Prime or Ultimate</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Nytt: Standard </p>
- <p>eller</p> 
-<p>Aktuell: Planera </p> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Standard </p>
+ <p>or</p> 
+<p>Current: Plan </p> 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Om du är systemadministratör eller har administrativ åtkomst till godkännandeprocesser kan du skapa en godkännandeprocess på systemnivå eller en godkännandeprocess på gruppnivå för en viss grupp.</p> 
-   <p>Om du är gruppadministratör kan du skapa godkännandeprocesser på gruppnivå för grupper som du hanterar.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>If you are a system administrator or you have administrative access to approval processes, you can create a system-level approval process, or a group-level approval process for a particular group.</p> 
+   <p>If you are a group administrator, you can create group-level approval processes for groups that you manage.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
-+++
 
 ## Skapa en global godkännandeprocess på systemnivå eller gruppnivå för arbetsobjekt
 
@@ -99,7 +129,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
     <tbody> 
      <tr> 
       <td role="rowheader">Namn på godkännandeprocess</td> 
-      <td><p>Skriv ett beskrivande namn för godkännandeprocessen. Användarna ser det här namnet när de tillämpar godkännandeprocessen på ett objekt, vilket beskrivs i <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associera en ny eller befintlig godkännandeprocess med arbete</a>.</p></td> 
+      <td><p>Skriv ett beskrivande namn för godkännandeprocessen. Användarna ser det här namnet när de tillämpar godkännandeprocessen på ett objekt, vilket beskrivs i <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associera en ny eller befintlig godkännandeprocess med arbete</a>.</p> <p> Detta är ett obligatoriskt fält. </p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Beskrivning</td> 
@@ -116,8 +146,9 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
        <li>Om du är systemadministratör eller har administrativ åtkomst till godkännandeprocesser kan du se vilken grupp som helst i systemet när du skriver dess namn. <b>Alla grupper</b> är markerade som standard. </li> 
        <li>Om du är gruppadministratör utan administrativ åtkomst till godkännandeprocesser kan du tilldela godkännandeprocessen till alla grupper som du hanterar när du skriver dess namn. Alternativet <b>Alla grupper</b> är inte tillgängligt.</li> 
        </ul> 
+       <p>Detta är ett obligatoriskt fält.</p>
        <p>Det här alternativet är inte tillgängligt för enstaka godkännandeprocesser.</p> 
-       <p><b>VARNING</b>: När du gör ändringar i den gruppspecifika godkännandeprocessen kan de befintliga godkännandeprocesserna som redan har associerats med arbetsobjekten ändras. Mer information om de här ändringarna finns i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Hur ändringar i grupp- och godkännandeprocessen påverkar tilldelade godkännandeprocesser</a>.</p> 
+       <p><b>VARNING</b></p> <p> När du gör ändringar i den gruppspecifika godkännandeprocessen kan de befintliga godkännandeprocesserna som redan har kopplats till arbetsobjekten ändras. Mer information om de här ändringarna finns i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Hur ändringar i grupp- och godkännandeprocessen påverkar tilldelade godkännandeprocesser</a>.</p> 
        <p>Mer information om hur du listar och hanterar gruppens godkännandeprocesser från gruppens sida finns i <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Godkännandeprocesser på gruppnivå</a>. </p> 
        <p>Mer information om administrativ åtkomst till godkännandeprocesser finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Bevilja användare administrativ åtkomst till vissa områden</a>.</p> </td> 
      </tr> 
@@ -134,7 +165,9 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
     <tbody> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">Starta godkännandeprocessen när statusen är inställd på</p> </td> 
-      <td> <p>Välj den status som ska utlösa godkännandeprocessen för arbetsobjekt. När någon uppdaterar en arbetsuppgift till den här statusen påbörjas godkännandeprocessen. </p> <p>Samma status kan inte väljas för flera godkännandeprocesssökvägar.</p> <p>De tillgängliga statusvärdena baseras på vad som har valts under alternativet <b>Det här godkännandet kan användas av </b> (förklaras i tabellen ovan):</p> 
+      <td> <p>Välj den status som ska utlösa godkännandeprocessen för arbetsobjekt. När någon uppdaterar en arbetsuppgift till den här statusen påbörjas godkännandeprocessen. </p> 
+      <p>Detta är ett obligatoriskt fält. </p>
+      <p>Samma status kan inte väljas för flera godkännandeprocesssökvägar.</p> <p>De tillgängliga statusvärdena baseras på vad som har valts under alternativet <b>Det här godkännandet kan användas av </b> (förklaras i tabellen ovan):</p> 
        <ul> 
        <li> Om <b>alla grupper</b> är markerade är endast systemomfattande statusar tillgängliga
        <li> <p>Om en viss grupp är markerad är bara de statusar som är tillgängliga för den gruppen tillgängliga</p> </li> 
@@ -146,18 +179,19 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
      </tr> 
      <tr> 
       <td role="rowheader">Godkännare</td> 
-      <td> <p>Börja skriva namnet på den användare, det team eller den jobbroll som du vill utse till godkännare för den här scenen och klicka sedan på namnet när det visas i listrutan. Du kan bara lägga till aktiva användare, <span>jobbroller</span> och team. </p>
+      <td> <p>Börja skriva namnet på den användare, det team eller den jobbroll som du vill utse till godkännare för den här scenen och klicka sedan på namnet när det visas i listrutan. Du kan bara lägga till aktiva användare, <span>jobbroller</span> och team. </p> 
+      <p>Detta är ett obligatoriskt fält.</p>
 
-   <p><b>TIPS</b>:</p>
+   <p><b>TIPS</b></p>
 
    <p>När du lägger till en användare som godkännare ska du lägga märke till avataren, användarens primära roll eller användarens e-postadress för att skilja mellan användare med identiska namn. Användarna måste vara associerade med minst en jobbroll för att kunna visa den när du lägger till dem.</p>
       <p>Du måste ha inställningen Visa kontaktinformation aktiverad på din åtkomstnivå för att användare ska kunna visa användarnas e-postmeddelanden. Mer information finns i <a href="../../add-users/configure-and-grant-access/grant-access-other-users.md">Bevilja åtkomst för användare</a>. </p>
 
-   <p><b>OBS</b>:
+   <p><b>ANMÄRKNING</b>
 
    När du lägger till en användare, ett team eller en roll som godkännare får de inte automatiskt behörighet till objektet som är kopplat till det godkännandet. De får behörigheter till objektet när godkännandesteget aktiveras. Annars måste objekten delas med dem innan de kan fatta ett beslut om godkännande. </p> <p>Du kan också utse en person till godkännare genom att ange den enskildes roll. Du kan till exempel tilldela en projektägare, en projektsponsor, en Portfolio-ägare, en programägare eller en projektledare som godkännare. Dessa alternativ visas automatiskt när du börjar skriva.</p>
 
-   <p><b>VIKTIGT</b>:  
+   <p><b>VIKTIGT</b>  
        <ul> 
        <li> <p>När du tilldelar ett godkännande till projektsponsorn och ingen utses till projektledare tilldelas godkännandet till projektägaren. Om ingen har utsetts till projektägare tilldelas Workfront-administratören godkännandet. </p> </li> 
       </ul> 
@@ -166,7 +200,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
        </ul> 
        <ul> 
        <li> <p>När du tilldelar projektägaren ett godkännande och ingen utses till projektägare tilldelas godkännandet till Workfront huvudadministratör enligt anvisningarna i avsnittet Kundinformation i inställningsområdet. Mer information finns i <a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">Konfigurera grundläggande information för systemet</a>.  </p> </li> 
-       </ul> <p> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>Du kan upprepa den här processen om du vill lägga till flera godkännare på scenen. I ett och samma steg kan en kombination av användare, team och jobbroller ingå som godkännare. Det finns ingen gräns för hur många godkännare du kan lägga till på en scen.</p> <p><b>VIKTIGT</b>:  <p>När du tilldelar jobbroller som godkännare kan alla användare som är kopplade till den jobbrollen som också finns i projektteamet fatta ett beslut om godkännandet. </p> <p>När du tilldelar ett team som godkännare kan alla användare i det teamet fatta ett beslut om godkännandet. </p> <p>Mer information om projektteamet finns i <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Översikt över projektteamet</a>. Mer information om hur du godkänner arbete finns i <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Godkänna arbete </a>.</p> </p> </td> 
+       </ul> <p> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>Du kan upprepa den här processen om du vill lägga till flera godkännare på scenen. I ett och samma steg kan en kombination av användare, team och jobbroller ingå som godkännare. Det finns ingen gräns för hur många godkännare du kan lägga till på en scen.</p> <p><b>VIKTIGT</b></p> <p>När du tilldelar jobbroller som godkännare kan alla användare som är kopplade till den jobbrollen som också finns i projektteamet fatta ett beslut om godkännandet. </p> <p>När du tilldelar ett team som godkännare kan alla användare i det teamet fatta ett beslut om godkännandet. </p> <p>Mer information om projektteamet finns i <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Översikt över projektteamet</a>. Mer information om hur du godkänner arbete finns i <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Godkänna arbete </a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Endast ett beslut krävs <br> <br> (visas bara om du lägger till flera godkännare på scenen) </td> 
@@ -223,4 +257,4 @@ Instruktioner om hur du associerar en godkännandeprocess med en arbetsuppgift f
 
 Som standard kan användare som har behörighet att hantera projekt, uppgifter och problem skapa godkännandeprocesser för dem. Mer information om hur du lägger till godkännandeprocesser för enstaka användning i projekt, uppgifter och utgåvor finns i avsnittet [Associera en godkännandeprocess för enstaka användning med ett projekt, en uppgift, ett ärende, en mall eller en malluppgift](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#creating-a-single-use-approval-process) i artikeln [Associera en ny eller befintlig godkännandeprocess med arbete](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
-Användare kan också ändra inställningar för en global godkännandeprocess som är kopplad till en arbetsuppgift. De här ändringarna påverkar bara det projekt, den uppgift eller det problem som är kopplat till godkännandeprocessen på systemnivå. Mer information finns i avsnittet [Ändra en global godkännandeprocess för ett specifikt objekt](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#modifying-a-global-approval-process) i artikeln [Associera en ny eller befintlig godkännandeprocess med arbete](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)).
+Användare kan också ändra inställningar för en global godkännandeprocess som är kopplad till en arbetsuppgift. De här ändringarna påverkar bara det projekt, den uppgift eller det problem som är kopplat till godkännandeprocessen på systemnivå. Mer information finns i avsnittet Ändra en global godkännandeprocess för användning på ett specifikt objekt i artikeln [Associera en ny eller befintlig godkännandeprocess med arbete](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).

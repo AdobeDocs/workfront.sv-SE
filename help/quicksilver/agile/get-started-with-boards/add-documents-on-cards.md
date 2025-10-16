@@ -6,9 +6,9 @@ description: Du kan lägga till dokument på anslutna kort på Adobe Workfront B
 author: Lisa
 feature: Agile
 exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -25,27 +25,24 @@ Du kan lägga till dokument på anslutna kort på Adobe Workfront Boards. Alla d
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td> 
-   <p>Nytt: [!UICONTROL Contributor] eller senare</p> 
-   <p>eller</p>
-   <p>Aktuell: [!UICONTROL Request] eller högre</p>
+   <p>Medarbetare eller högre</p> 
+   <p>Begäran eller senare</p>
    </td> 
   </tr> 
    <tr>
    <td role="rowheader">Konfigurationer på åtkomstnivå</td>
-   <td>[!UICONTROL Edit] behörighet till dokument</td>
+   <td>Redigera åtkomst till dokument</td>
   </tr>
  </tbody> 
 </table>
@@ -72,4 +69,4 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
    >[!NOTE]
    >
-   >PDF visar ingen miniatyrbild.
+   >PDF-filer visar inte någon miniatyrbild.

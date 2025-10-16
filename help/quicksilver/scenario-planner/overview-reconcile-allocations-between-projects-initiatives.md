@@ -6,7 +6,7 @@ description: Översikt över avstämning av resursallokeringar mellan projekt oc
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 82cd9641-1213-436c-935a-2f04a0425e9c
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Du kan koppla projekt till initiativ genom att göra något av följande:
 
   Mer information finns i [Importera projekt till planer i  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
 
-* Publish-initiativ till projekt
+* Publicera projekt
 
   Mer information finns i [Uppdatera eller skapa projekt genom att publicera initiativ i  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) .
 

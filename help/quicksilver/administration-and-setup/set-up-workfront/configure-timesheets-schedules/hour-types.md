@@ -9,9 +9,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: 0c45c768be1dda579e507f5f6ff4b127021a5f73
+source-git-commit: e8c89b68a022ae1c0cf5da20257cd8bc36e94d4c
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1074'
 ht-degree: 0%
 
 ---
@@ -57,29 +57,29 @@ Mer information om hur du loggar timmar och associerar dem med timtyper finns i 
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td>Alla</td> 
+   <td>[!DNL Adobe Workfront] package</td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Standard eller plan</p>
-   </td> 
+   <td>[!DNL Adobe Workfront] licens</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Åtkomstnivå</td> 
-   <td>Systemadministratör</td>
+   <td>Konfigurationer på åtkomstnivå</td> 
+   <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-*Mer information om informationen i den här tabellen finns i [Åtkomstkraven i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -157,7 +157,7 @@ Som [!DNL Workfront]-administratör kan du redigera timtyper för din organisati
 
 1. Klicka på **Tidrapport och timmar** i den vänstra panelen och klicka sedan på **Timtyper**.
 
-1. Klicka på ett timtypsnamn eller välj timtyp och klicka sedan på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) längst upp i listan.
+1. Klicka på ett timtypsnamn eller välj timtyp och klicka sedan på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) längst upp i listan.
 1. Ange följande information i dialogrutan **Redigera timtyper**:
 
    <table style="table-layout:auto"> 

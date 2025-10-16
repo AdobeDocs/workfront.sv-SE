@@ -6,9 +6,9 @@ description: Du kan anpassa vilken typ av information som visas på skärmen med
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: d98998627ac5161fd12bb2d86f65555550c82a48
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1713'
 ht-degree: 0%
 
 ---
@@ -25,44 +25,35 @@ I den här artikeln beskrivs hur du skapar och redigerar standardvyer för listo
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront</strong></td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licens*</strong></td> 
+   <td role="rowheader">Adobe Workfront-licens</strong></td> 
    <td> 
-      <p>Nytt:</p>
-         <ul>
-         <li><p>Medarbetare eller högre</p></li>
-         </ul>
-      <p>Aktuell:</p>
-         <ul>
-         <li><p>Begäran eller senare</p></li>
-         </ul>
+    <p>Medarbetare eller högre</p>
+    <p>Begäran eller senare</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att skapa en vy i en rapport</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objektbehörigheter*</strong></td> 
+   <td role="rowheader">Objektbehörigheter</td> 
    <td> <p>Hantera behörigheter till en rapport för att skapa eller redigera en vy i en rapport</p> <p>Hantera behörigheter till en vy för att redigera den</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Skapa eller anpassa en vy
@@ -80,7 +71,7 @@ Du kan skapa en ny standardvy eller anpassa en befintlig standardvy som du skapa
 
 1. Klicka på knappen **+ Ny vy** för att skapa en ny vy.
 eller
-Klicka på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) som visas i muspekaren till höger om en befintlig vy som du vill redigera.
+Klicka på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) som visas i muspekaren till höger om en befintlig vy som du vill redigera.
 Dialogrutan **Anpassa vy** visas.
 
 1. Gör något av följande i avsnittet **Förhandsvisa kolumn**:
@@ -90,7 +81,6 @@ Dialogrutan **Anpassa vy** visas.
    * Justera den ordning som kolumnerna visas i genom att dra kolumnrubriken till en ny plats.
 
    * Klicka på **Sammanfatta den här kolumnen med** i området **Kolumninställningar** och välj hur du vill att data ska visas i kolumnen. Det här alternativet är tillgängligt för följande kolumntyper:
-
      <table style="table-layout:auto"> 
          <col> 
          <col> 

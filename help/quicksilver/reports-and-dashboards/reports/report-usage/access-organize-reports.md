@@ -6,9 +6,9 @@ description: Du kan använda rapporter i Adobe Workfront för att granska eller 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
-source-git-commit: da574efdede5aee34518f251cabdfe96983a69eb
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -19,38 +19,42 @@ Du kan använda rapporter i Adobe Workfront för att granska eller redigera info
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> 
+   <p>Standard</p>
+   <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter i en rapport</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter i en rapport</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Visa rapporter
 
 Så här får du åtkomst till rapporter som du har skapat eller som har delats med dig eller delats offentligt:
 
-1. Klicka på **Rapporter** på **Huvudmenyn** ![Huvudmenyikonen](assets/main-menu-icon.png).
+1. Klicka på **Rapporter** på ![Huvudmenyn](assets/main-menu-icon.png) **Huvudmenyikonen**.
 
 1. Klicka på något av följande alternativ, beroende på vilken rapport du vill visa:
 
@@ -67,7 +71,7 @@ Du kan använda mappar för att ordna de rapporter som du skapar. Du kan inte or
 
 ### Skapa en ny mapp för rapporter {#create-a-new-folder-for-reports}
 
-1. Klicka på **Rapporter** på **Huvudmenyn** ![Huvudmenyikonen](assets/main-menu-icon.png).
+1. Klicka på **Rapporter** på ![Huvudmenyn](assets/main-menu-icon.png) **Huvudmenyikonen**.
 
 1. Klicka på ikonen **Ny mapp** .\
    ![Ikon för ny mapp](assets/nwe-new-folder-350x346.png)
@@ -82,7 +86,7 @@ Du kan använda mappar för att ordna de rapporter som du skapar. Du kan inte or
 
 ### Lägga till rapporter i en mapp {#add-reports-to-a-folder}
 
-1. Klicka på **Rapporter** på **Huvudmenyn** ![Huvudmenyikonen](assets/main-menu-icon.png).
+1. Klicka på **Rapporter** på ![Huvudmenyn](assets/main-menu-icon.png) **Huvudmenyikonen**.
 
 1. Klicka på **Mina rapporter**.\
    eller\

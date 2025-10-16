@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: manage-issues
 title: Ändra användartilldelningar för flera utgåvor i en lista
 description: Ändra användartilldelningar för flera utgåvor i en lista
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 7aa420946115fc612ad1d9e310583e5453ae0678
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '749'
 ht-degree: 0%
 
 ---
@@ -33,33 +33,33 @@ Allmän information om hur du tilldelar problem finns i [Översikt över hur du 
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td> <p>Alla </p> </td> 
+   <td>Adobe Workfront package</td> 
+   <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licenser*</td> 
-   <td> <p>Nytt: Standard </p>
-   <p>Aktuell: Begäran eller senare</p> </td> 
+   <td>Adobe Workfront-licens</td> 
+   <td> <p>Standard</p>
+   <p>Begäran eller senare</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td>Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till problem</p> <p>Visa eller högre åtkomst till projekt och uppgifter för att tilldela ett problem</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
+   <td>Objektbehörigheter</td> 
    <td> <p>Hantera behörigheter för problemet</p> <p>Contribute-behörigheter eller högre till det projekt eller den uppgift där problemet finns, när du tilldelar flera utgåvor.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -102,7 +102,7 @@ Allmän information om hur du tilldelar problem finns i [Översikt över hur du 
    1. Börja skriva namnet på den användare eller roll som du vill filtrera efter och klicka sedan på namnet när det visas i listrutan.
    1. Klicka på **Spara filter.**
 
-1. Markera de ärenden som du vill ändra uppdrag för och klicka sedan på ikonen **Redigera** ![Redigera &#x200B;](assets/qs-edit-icon.png) .
+1. Markera de ärenden som du vill ändra uppdrag för och klicka sedan på ikonen **Redigera** ![Redigera ](assets/qs-edit-icon.png) .
 
    **Redigera problem** visas. De redigerade objekten visas i det övre vänstra hörnet på sidan.
 

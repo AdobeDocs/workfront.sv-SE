@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -46,22 +46,24 @@ Tänk på följande när du arbetar med behörigheter för posttyper:
 * Användare kan inte ha större behörighet för en posttyp än de har för arbetsytan som posttypen tillhör.
 * Om du tar bort användarnas behörigheter till en posttyp tas inte deras visningsåtkomst bort till alla posttyper på arbetsytan, eftersom deras behörigheter inte tas bort från arbetsytan.
 
-| Adobe Workfront licenstyp* | Högsta tillåtna behörighet i Adobe Workfront Planning |
+| Adobe Workfront licenstyp | Högsta tillåtna behörighet i Adobe Workfront Planning |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Standard | <p>Användare kan hantera arbetsytor, posttyper och vyer. De kan skapa, redigera och ta bort arbetsytor, posttyper, poster, fält och vyer.</p> <br> <p>Systemadministratörer har behörigheten Hantera för alla arbetsytor, inklusive de som de inte skapade.</p> |
 | Ljus eller Medarbetare | <p>Användarna kan visa de arbetsytor som delas med dem samt posttyper, poster och fält för dessa arbetsytor.</p> <br> <p>Användarna kan visa de vyer som delas med dem, men de kan inte skapa egna. </p><br> <p>Användare kan inte skapa, redigera eller ta bort arbetsytor, posttyper, poster eller fält.</p> |
 
-*Workfront Planning finns inte för tidigare Workfront-licenser.
-Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+<!--Old: 
+*Workfront Planning is not available for legacy Workfront licenses. 
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
 
 ### Licenstyper och behörigheter till arbetsytor och posttyper
 
 Endast användare med en standardlicens kan ha Contribute- eller Hantera-behörigheter för arbetsytor och posttyper. Behörigheterna Contribute och Hantera för arbetsytor och posttyper överförs också till poster och fält.
 
+Systemadministratörer kan visa alla arbetsytor i systemet, inklusive de som de inte skapade.
+
 Användare med alla andra licenstyper kan ha behörigheten Visa på arbetsytor och posttyper som delas med dem, samt till poster och fält.
 
-Systemadministratörer kan visa alla arbetsytor i systemet, inklusive de som de inte skapade.
 
 >[!INFO]
 >
@@ -76,7 +78,11 @@ Systemadministratörer kan visa alla arbetsytor i systemet, inklusive de som de 
 
 ### Licenstyper och behörigheter till vyer
 
-Endast användare med en standardlicens kan ha behörigheten Hantera för att visa. Användare med alla andra licenstyper kan ha behörigheten Visa för vyer som delas med dem.
+Endast användare med en standardlicens kan ha behörigheten Hantera för att visa.
+
+Systemadministratörer kan inte komma åt vyer som de inte skapade. De måste delas med dem.
+
+Användare med alla andra licenstyper kan ha behörigheten Visa för vyer som delas med dem.
 
 >[!INFO]
 >

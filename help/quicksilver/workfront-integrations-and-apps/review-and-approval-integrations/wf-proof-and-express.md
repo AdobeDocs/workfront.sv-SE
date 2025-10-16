@@ -8,9 +8,9 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: dce2d9413b3a363d6508cabec0147c260817ed98
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Använd Workfront Proof med Adobe Express för att
  <col> 
  <tbody> 
  <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront Pack</td> 
    <td> 
    <p>Alla</p> 
    </td> 
@@ -51,15 +51,14 @@ Använd Workfront Proof med Adobe Express för att
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Produkt</td> 
+   <td role="rowheader">Ytterligare produkter</td> 
    <td> 
    <p> Du måste ha Adobe Express, och du måste läggas till i produkten som användare i Admin Console. </p> </td> 
   </tr>
-
-</tbody> 
+ </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -90,7 +89,7 @@ När en Express-mall blandas om krävs ett godkännande före publicering, vilke
 
 Användare måste ha en Workfront-licens av standardtyp för att kunna begära godkännande från Adobe Express.
 
-Lär dig hur du [får godkännande av designer](https://helpx.adobe.com/se/express/web/share-and-publish/share-and-collaborate/request-approval.html).
+Lär dig hur du [får godkännande av designer](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).
 
 
 ## Mixa om Express-mallar och skicka för granskning och godkännande

@@ -6,9 +6,9 @@ description: När arbetsuppgifter och ärenden tilldelas till dig visas de i wid
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ När arbetsuppgifter och ärenden tilldelas till dig visas de i widgeten Mitt ar
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,25 +31,27 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>[!UICONTROL Work] eller högre</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens</strong></td> 
+   <td>
+   <p>Standard</p>
+    <p>Arbeta eller högre</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>[!UICONTROL Edit] tillgång till uppgifter och ärenden</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå</strong></td> 
+   <td> <p>[!UICONTROL Edit] tillgång till uppgifter och ärenden</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
-   <td> <p>Contribute-behörigheter eller högre för de uppgifter och ärenden du behöver arbeta med</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Contribute-behörigheter eller högre för de uppgifter och ärenden du behöver arbeta med</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -59,14 +61,14 @@ Arbetsobjekt som har tilldelats dig visas i widgeten Mitt arbete i [!UICONTROL H
 
 Du kan välja filter som visar objekt som du kan arbeta med, eller objekt som du redan arbetar med.
 
-I den här artikeln beskrivs hur du använder filtren i området [!UICONTROL Home] för att visa objekt som du för närvarande arbetar med eller kan överväga att börja arbeta med. Mer information om hur du använder filter i området [!UICONTROL Home] finns i [Visa objekt i [!UICONTROL worklist] i området [!UICONTROL Home] &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+I den här artikeln beskrivs hur du använder filtren i området [!UICONTROL Home] för att visa objekt som du för närvarande arbetar med eller kan överväga att börja arbeta med. Mer information om hur du använder filter i området [!UICONTROL Home] finns i [Visa objekt i [!UICONTROL worklist] i området [!UICONTROL Home] ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 Så här visar du ett arbetsobjekt i widgeten Mitt arbete:
 
 1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
 1. (Villkorligt) Klicka på **Anpassa** för att lägga till widgeten **Mitt arbete**.
 
-1. Klicka på ikonen **Filter** ![Filtrera &#x200B;](assets/filter-nwepng.png) i det övre vänstra hörnet i widgetens arbetslista.
+1. Klicka på ikonen **Filter** ![Filtrera ](assets/filter-nwepng.png) i det övre vänstra hörnet i widgetens arbetslista.
 
 1. Klicka på något eller båda av följande alternativ för uppgifter:
 

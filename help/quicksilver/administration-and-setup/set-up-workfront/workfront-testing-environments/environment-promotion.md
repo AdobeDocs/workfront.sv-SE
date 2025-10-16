@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: e9df34c206dd65ccc2edec00087248eb4ed16f54
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '2093'
+source-wordcount: '2088'
 ht-degree: 0%
 
 ---
@@ -32,26 +32,26 @@ Du måste ha följande:
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] plan</strong>
+   <td>Adobe Workfront package
    </td>
-   <td> Prime eller Ultimate (endast nya planer)
+   <td> <p>Prime eller Ultimate</p>
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] licenser</strong>
+   <td><strong>Workfront-licenser</strong>
    </td>
-   <td> [!UICONTROL Standard]
+   <td> <p>Standard</p>&gt;
    </td>
   </tr>
    <tr>
    <td>Konfigurationer på åtkomstnivå
    </td>
-   <td>Du måste vara en [!DNL Workfront]-administratör.
+   <td><p>Du måste vara Workfront-administratör.</p>
    </td>
   </tr>
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Förutsättningar
 
@@ -107,7 +107,7 @@ Det här anropet kör en flerstegsprocess.
 
 I det första steget skapas ett tomt kampanjpaket med statusen&quot;ASSEMBLING&quot;.
 
-I det andra steget används arrayen `objectCollections` som finns i POSTENS brödtext för att samla ihop de begärda posterna från Workfront. Det här steget kan ta flera minuter, beroende på hur många poster som har begärts och din Workfront-konfiguration. I slutet av den här processen uppdateras det tomma erbjudandepaketet med `packageEntities` och statusen anges automatiskt till UTKAST.
+I det andra steget används arrayen `objectCollections` som finns i POST-brödtexten för att samla ihop de begärda posterna från Workfront. Det här steget kan ta flera minuter, beroende på hur många poster som har begärts och din Workfront-konfiguration. I slutet av den här processen uppdateras det tomma erbjudandepaketet med `packageEntities` och statusen anges automatiskt till UTKAST.
 
 
 >[!NOTE]
@@ -364,7 +364,7 @@ _Tom_
   </tbody> 
 </table>
 
-Det här samtalet uppdaterar allt innehåll i erbjudandepaketet som finns i PATCH.
+Det här samtalet uppdaterar allt innehåll i erbjudandepaketet som finns i PATCH-brödtexten.
 
 De redigerbara attributen är:
 
@@ -691,7 +691,7 @@ eller
   </tbody> 
 </table>
 
-Det här anropet initierar ett installationsförsök för ett kampanjpaket till målmiljön som identifieras i POSTENS URL.
+Det här anropet initierar ett installationsförsök för ett kampanjpaket till målmiljön som identifieras i POST-URL:en.
 
 #### URL
 

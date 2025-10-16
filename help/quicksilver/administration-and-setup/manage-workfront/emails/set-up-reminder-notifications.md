@@ -5,9 +5,9 @@ author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1209'
 ht-degree: 0%
 
 ---
@@ -35,21 +35,18 @@ An example of how this can be used would be helpful here and/or in the section <
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Nytt: Standard </p>
- <p>eller</p> 
-<p>Aktuell: Planera</p> 
+   <td> <p>Standard </p>
+<p>Plan</p> 
 </td> 
   </tr> 
   <tr> 
@@ -59,13 +56,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-*Mer information om informationen i den här tabellen finns i [Åtkomstkraven i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Anpassa påminnelsemeddelandet
 
-Du kan anpassa ämnet, brödtexten och HTML i e-postmeddelandet med påminnelser.
+Du kan anpassa ämnet, brödtexten och HTML i påminnelsemeddelandet.
 
 Du kan också använda det standardmeddelande som ingår i påminnelsemeddelandet. I standardmeddelandet används påminnelsemeddelandets namn som e-postmeddelandets ämne och objektnamnet i e-postmeddelandets brödtext, inklusive händelsen som utlöste meddelandet.
 

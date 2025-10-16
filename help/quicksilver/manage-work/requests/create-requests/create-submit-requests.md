@@ -3,12 +3,12 @@ product-area: requests
 navigation-topic: create-requests
 title: Skapa och skicka begäranden
 description: Planerat arbete representeras i Adobe Workfront av projekt och uppgifter. Du kan dock arbeta i en miljö där oplanerat arbete - i form av slumpmässiga begäranden - kan komma in när som helst. Workfront tillhandahåller ett arbetsflöde för den här typen av miljö genom att använda frågeköer.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
+source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
 workflow-type: tm+mt
-source-wordcount: '2790'
+source-wordcount: '2767'
 ht-degree: 0%
 
 ---
@@ -52,22 +52,19 @@ Du kan skapa en ny Workfront Planning-begäran om du vill skapa poster i Workfro
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Nytt: Medarbetare eller högre</p>
-   eller
-   <p>Aktuell: Begäran eller senare</p>
+   <td> <p>Medarbetare eller högre</p>
+   <p>Begäran eller senare</p>
     </td> 
   </tr> 
   <tr> 
@@ -81,7 +78,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+source-git-commit: 46e072d40cc881c3a903c8fd51475dc185f1f849
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 0%
@@ -53,11 +53,11 @@ Ge nätverksadministratören följande information:
   </tr> 
   <tr> 
    <td role="rowheader">Ditt kluster</td> 
-   <td>Information om hur du hittar din organisations kluster finns i <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Visa din organisations kluster och Workfront-plan</a>.</td> 
+   <td>Information om hur du hittar din organisations kluster finns i <a href="#view-your-organization-s-cluster-and-workfront-package" class="MCXref xref">Visa din organisations kluster och Workfront-paket</a>.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Din Workfront-plan</td> 
-   <td> <p>Information om hur du hittar din organisations plan finns i <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Visa din organisations kluster och Workfront-plan.</a></p> </td> 
+   <td role="rowheader">Ditt Workfront-paket</td> 
+   <td> <p>Information om hur du hittar din organisations paket finns i <a href="#view-your-organization-s-cluster-and-workfront-package" class="MCXref xref">Visa din organisations kluster och Workfront-paket.</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Din domän</td> 
@@ -93,7 +93,7 @@ Ge nätverksadministratören följande information:
 >
 >Om du lägger till någon av dessa produkter, integreringar eller funktioner vid ett senare tillfälle måste du kontakta nätverksadministratören så att de kan justera tillåtelselista.
 
-### Visa din organisations kluster och Workfront-plan {#view-your-organization-s-cluster-and-workfront-plan}
+### Visa din organisations kluster och Workfront-paket {#view-your-organization-s-cluster-and-workfront-package}
 
 {{step-1-to-setup}}
 
@@ -104,8 +104,8 @@ Ge nätverksadministratören följande information:
 
    ![Hitta kluster](assets/locate-cluster.png)
 
-1. Om du vill visa din Workfront-plan väljer du **licenser**.
+1. Om du vill visa ditt Workfront-paket väljer du **Licenser**.
 
-   Din plan visas i det övre högra hörnet på sidan.
+   Paketet visas i sidans övre högra hörn.
 
    ![Hitta plan](assets/locate-plan.png)

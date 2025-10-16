@@ -7,9 +7,9 @@ description: Din Adobe Workfront-administratör ger användarna åtkomst till at
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: 48c0f5c617f41a4ce51ea45c17817aa869ba5adb
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '1392'
+source-wordcount: '1387'
 ht-degree: 0%
 
 ---
@@ -34,21 +34,18 @@ Användarna kan också dela dokument som de har överfört eller har åtkomst ti
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
-Du måste ha följande för att kunna dela objekt:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Nytt: Standard</p> 
-   eller
-   <p>Aktuell: Arbete eller högre</p>
+   <td> <p>Standard</p> 
+   <p>Arbeta eller högre</p>
    </td> 
   </tr> 
   <tr> 
@@ -62,7 +59,7 @@ Du måste ha följande för att kunna dela objekt:
  </tbody> 
 </table>
 
-Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -78,7 +75,7 @@ Användaren som överför ett dokument till Workfront har som standard behörigh
 
    ![Länk för dokumentinformation](assets/document-details-link.png)
 
-1. Klicka på ikonen **Mer** ![Mer &#x200B;](assets/more-icon.png) till höger om dokumentnamnet och klicka sedan på **Dela**. Dialogrutan **Dela [dokumentnamn]** öppnas.
+1. Klicka på ikonen **Mer** ![Mer ](assets/more-icon.png) till höger om dokumentnamnet och klicka sedan på **Dela**. Dialogrutan **Dela [dokumentnamn]** öppnas.
 
    ![Dela ett dokument](assets/share-a-document-350x160.png)
 

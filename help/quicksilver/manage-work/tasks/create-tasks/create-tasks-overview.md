@@ -1,14 +1,14 @@
 ---
 product-area: projects
 navigation-topic: create-tasks
-title: Skapa uppgiftsöversikt
+title: Skapa aktivitetsöversikt
 description: Du kan bara skapa uppgifter i ett projekt efter att du har skapat projektet.
 author: Alina
 feature: Work Management
 exl-id: 7bd6578e-9288-4793-ba07-a0c126c479b9
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '885'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ När du definierar standardinformation som ska kopplas till uppgifter som lagts 
 * När du kopierar uppgifter från ett projekt till ett annat och målprojektet har olika standardinställningar för uppgifter, behåller de kopierade uppgifterna standardinställningarna från det ursprungliga projektet, såvida de inte rensas i kopieringsprocessen.
 * När du duplicerar en uppgift i samma projekt överförs de anpassade formulären och godkännandeprocessen till den duplicerade uppgiften.
 
-  Mer information om att kopiera och duplicera uppgifter finns i [&#128279;](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) [Kopiera och duplicera uppgifter](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Mer information om att kopiera och duplicera uppgifter finns i [Kopiera och duplicera uppgifter](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
 * När du flyttar aktiviteten till ett annat projekt sparas standardinställningarna för aktiviteten på aktiviteterna från det ursprungliga projektet, oavsett standardinställningarna för aktiviteten i det nya projektet.
 

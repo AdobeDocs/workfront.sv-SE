@@ -1,19 +1,21 @@
 ---
 product-area: portfolios
 navigation-topic: portfolios-overview
-title: Navigera i en portfölj
+title: Navigera inom en Portfolio
 description: Navigera i en portfölj
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
 
 # Navigera i en portfölj
+
+<!--Audited: 08/2025-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This article will need to be further revised and maybe merged into Understanding Portfolios?! (other?!).)</p>
@@ -21,31 +23,29 @@ ht-degree: 0%
 
 I [!DNL Adobe Workfront] representerar en portfölj en samling projekt som konkurrerar om samma resurser, budget, schema och prioritet. Det främsta syftet med portföljen är att hjälpa chefer och projektledare att välja att arbeta med projekt som ger mest nytta för en organisation.
 
-Mer information om portföljer finns i [Översikt över Portfolio i [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+Mer information om portföljer finns i [Förstå portföljmetod](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 ## Åtkomstkrav
 
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>Alla </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td> <p>Nytt: [!UICONTROL Standard] </p>
-   <p>Aktuell: [!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td> <p>[!UICONTROL Standard] </p>
+   <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>[!UICONTROL Edit] tillgång till projekt och portföljer</p>  </td> 
+   <td> <p>[!UICONTROL Edit] åtkomst till [!UICONTROL Projects] och [!UICONTROL Portfolios]</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -57,6 +57,34 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 *Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>New: [!UICONTROL Standard] </p>
+   <p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects and Portfolios</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio</p> <p>View or higher permissions to the projects</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
 ## Navigera i en portfölj
 
@@ -113,9 +141,12 @@ Mer information om program finns i avsnittet [Skapa och hantera program](../../.
 
    >[!IMPORTANT]
    >
-   >Ditt företag måste ha en [!UICONTROL Business]-plan eller en senare [!DNL Workfront]-plan för att få tillgång till [!UICONTROL Portfolio Optimizer].
+   >Ditt företag måste ha följande paket för att få tillgång till [!UICONTROL Portfolio Optimizer]:
+   >
+   >[!UICONTROL Prime] eller senare [!DNL Workfront]\
+   >[!UICONTROL Business] eller senare [!DNL Workfront]
 
-   Mer information om hur du använder Portfolio Optimizer finns i avsnittet [Hantera projekt i Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md).
+   Mer information om hur du använder Portfolio Optimizer finns i avsnittet [Hantera projekt i Portfolio Optimizer: artikelindex](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md).
 
 1. (Valfritt) Klicka på **Dokument** i den vänstra panelen för att bifoga dokument till portföljen.
 1. (Valfritt) Klicka på **[!UICONTROL Updates]** i den vänstra panelen för att lägga till kommentarer i portföljens uppdateringsström. Mer information finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
@@ -130,4 +161,4 @@ Mer information om program finns i avsnittet [Skapa och hantera program](../../.
 
    * Dela portföljen med andra användare.
 
-1. (Valfritt) Klicka på ikonen **Stjärna** ![Stjärna &#x200B;](assets/qs-star-icon-favorites-39x38.png) till höger om portföljnamnet för att lägga till portföljen i din favoritlista.
+1. (Valfritt) Klicka på ikonen **Stjärna** ![Stjärna ](assets/qs-star-icon-favorites-39x38.png) till höger om portföljnamnet för att lägga till portföljen i din favoritlista.

@@ -7,9 +7,9 @@ description: Scenario Planner kräver en separat licens utöver Adobe Workfront-
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: ba3b3525-cba8-44fe-856d-8ba50cd3b524
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -20,14 +20,7 @@ ht-degree: 0%
 
 Syftet med [!DNL Workfront Scenario Planner] är att påskynda genomförandet av dina organisationsnivåplaner och hjälpa dig att fatta viktiga beslut som ger förutsägbara och önskade resultat för din verksamhet.
 
-Du måste ha följande [!DNL Workfront]-plan för att få tillgång till [!DNL Workfront Scenario Planner]:
-
-* För den nya Workfront-planen: En [!UICONTROL Ultimate]-plan.
-* För den aktuella [!DNL Workfront]-planen: du måste ha en Business-plan eller en senare plan, förutom att köpa en [!DNL Scenario Planner]-licens.
-
-Mer information om den åtkomst som krävs för att använda [!DNL Workfront Scenario Planner] finns i [Åtkomst som krävs för att använda  [!DNL Scenario Planner]](access-needed-to-use-sp.md).
-
-## [!DNL Scenario Planner] - översikt
+## [!DNL Scenario Planner] översikt
 
 Med hjälp av [!DNL Workfront Scenario Planner] kan du skapa företagsplaner som skisserar företagets övergripande strategiska resultat. Du kan definiera flera initiativ för en plan och placera dem i olika scenarier för att hitta den optimala lösningen för att genomföra planen.
 
@@ -75,7 +68,7 @@ Följande funktioner ingår för närvarande i [!DNL Workfront Scenario Planner]
 
   Mer information om hur du importerar projekt till en plan finns i [Importera projekt till planer i  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
 
-* Publish ett scenario för att skapa eller uppdatera projekt som är kopplade till satsningarna i scenariot
+* Publicera ett scenario för att skapa eller uppdatera projekt som är länkade till satsningarna i scenariot
 
   Mer information om publiceringsscenarier finns i [Uppdatera eller skapa projekt genom att publicera initiativ i  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 

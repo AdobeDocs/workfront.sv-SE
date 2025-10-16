@@ -6,9 +6,9 @@ description: Portfolio eller Project Portfolio Management (PPM) är processen at
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Portfolio eller Project Portfolio Management (PPM) är processen att prioritera och hantera en lista med projekt för att uppnå specifika affärsmål.
 
-I den här artikeln beskrivs de allmänna begreppen för portföljhantering. Allmän information om hanteringen av portföljer i Adobe Workfront finns i [Portfolio - översikt i Adobe Workfront](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+I den här artikeln beskrivs de allmänna begreppen för portföljhantering. Allmän information om hanteringen av portföljer i Adobe Workfront finns i [Förstå portföljmetod](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 En portfölj är en samling projekt med gemensamma affärsmål. Resultatet av en effektiv PPM-metod gör att cheferna kan
 
@@ -63,7 +63,7 @@ Mer information om hur du skapar ett affärsärende och en projektförfrågan fi
 
 När du har skickat in projektförfrågan granskar Portfolio-chefen eller ett ledningsgrupp den och avgör om projektet ska godkännas eller inte. Om de godkänner projektet väljs projektet ut för ett företag som Project Portfolio.
 
-Mer information om portföljer finns i [Översikt över Portfolio i [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md). Mer information om hur du godkänner ett affärsärende finns i [Godkänn ett affärsärende](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
+Mer information om portföljer finns i [Förstå portföljmetod](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md). Mer information om hur du godkänner ett affärsärende finns i [Godkänn ett affärsärende](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
 ### Portfolio Optimization {#portfolio-optimization}
 

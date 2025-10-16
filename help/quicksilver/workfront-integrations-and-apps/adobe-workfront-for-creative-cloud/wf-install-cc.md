@@ -6,9 +6,9 @@ description: Du kan installera [!DNL Adobe Workfront for design and video]  frå
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 9473926f1b90f4e76c82b7e5dd15c50a667102df
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -41,28 +41,30 @@ Du kan installera [!DNL Adobe Workfront for design and video] från [!DNL Adobe 
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
+ </col> 
  <col> 
+ </col> 
  <tbody> 
  <!-- <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package/td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Work] or [!UICONTROL Plan]</p> </td> 
+   <td>
+   <p>Standard</p>
+    <p>Work or higher</p> </td> 
   </tr> -->
   <tr> 
-   <td role="rowheader">Produkt</td> 
-   <td><p>Du måste ha en [!DNL Adobe Creative Cloud]-licens förutom en [!DNL Workfront]-licens.</p><p>Mer information finns i <a href="https://helpx.adobe.com/se/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud supportpolicy</a>.</p></td> 
+   <td role="rowheader">Ytterligare produkter</td> 
+   <td><p>Du måste ha en [!DNL Adobe Creative Cloud]-licens förutom en [!DNL Workfront]-licens.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -114,7 +116,7 @@ Du kan installera [!DNL Adobe Workfront for design and video] själv från [!DNL
 
 ## Logga in på [!DNL Adobe Workfront for design and video]
 
-1. Välj **[!UICONTROL Plugin Panel]** på menyn **[!UICONTROL Plugins]** överst på skärmen.
+1. Välj **[!UICONTROL Plugins]** på menyn **[!UICONTROL Plugin Panel]** överst på skärmen.
 1. Välj **[!DNL Adobe Workfront for design and video]**.
 1. Ange din domän och klicka sedan på **[!UICONTROL Log in]**. En webbläsarsida öppnas.
 

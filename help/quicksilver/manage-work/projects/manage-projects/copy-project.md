@@ -7,9 +7,9 @@ author: Alina
 feature: Projects, Work Management
 role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -52,36 +52,6 @@ Observera att du inte kan kopiera projekt i grupp.
 
 ## Åtkomstkrav
 
-<!-- drafted for P&P:
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> <p>Adobe Workfront plan*</p> </td> 
-   <td>Any</td> 
-  </tr> 
-  <tr> 
-   <td> <p>Adobe Workfront license*</p> </td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
-   </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td><strong>Access level configurations*</strong> </td> 
-   <td> <p>Edit access to Projects with ability to Create <span>and Copy</span> projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>View permissions or higher to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -90,23 +60,20 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront</p> </td> 
+   <td> <p>Adobe Workfront package</p> </td>  
    <td>Alla</td> 
   </tr> 
   <tr> 
    <td> <p>Adobe Workfront-licens</p> </td> 
-   <td> <p>Nytt: Standard </p> 
-   <p>eller</p>
-   <p>Aktuell: Planera </p>
+   <td> <p>Standard</p> 
+   <p>Plan</p>
+      </td> 
+  </tr> 
+     <td>Konfigurationer på åtkomstnivå </td> 
+   <td> <p>Redigera åtkomst till projekt med möjlighet att skapa och kopiera projekt</p> </td> 
+  </tr>
 
-</td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>Konfigurationer på åtkomstnivå </td> 
-   <td> <p>Redigera åtkomst till projekt med möjlighet att skapa projekt av typen <span> och Kopiera</span></p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> <p>Objektbehörigheter </p> </td> 
+<td> <p>Objektbehörigheter </p> </td> 
    <td> <p>Visa behörigheter eller högre till projektet</p>  </td> 
   </tr> 
  </tbody> 
@@ -115,6 +82,35 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+ 
+ <table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>Adobe Workfront plan</p> </td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront license</p> </td> 
+   <td> <p>New: Standard </p> 
+   <p>Or</p>
+   <p>Current: Plan </p>
+   
+   </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Access level configurations </td> 
+   <td> <p>Edit access to Projects with ability to Create <span>and Copy</span> projects</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>View permissions or higher to the project</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Kopiera ett enstaka projekt
 

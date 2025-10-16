@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: ec0e2be036ce1298e285ce85cdeddae97cd1f144
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
@@ -33,32 +33,34 @@ Som [!DNL Adobe Workfront]-administratör kan du konfigurera dokumentintegrering
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande för att kunna utföra stegen i den här artikeln:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Alla</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td><p>Nytt: [!UICONTROL Standard]</p>
-       <p>eller</p>
-       <p>Aktuell: [!UICONTROL Plan]</p></td>
-  </tr> 
-  <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara en [!DNL Workfront]-administratör.</p> </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>Adobe Workfront package
+   </td>
+   <td> <p>Prime eller Ultimate</p>
+    <p>Arbetsflöde Ultimate</p>
+   </td>
+  </tr>
+    <tr>
+   <td>Adobe Workfront-licenser
+   </td>
+   <td>Standard
+   <p>Plan</p>
+   </td>
+  </tr>
+   <tr>
+   <td>Konfigurationer på åtkomstnivå
+   </td>
+   <td>Du måste vara en [!DNL Workfront]-administratör.
+   </td>
+  </tr>
 </table>
 
 Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+
 
 ## Integrationer som stöds
 
@@ -74,7 +76,7 @@ Du kan konfigurera följande integreringar för hantering av dokument:
 
 * [!DNL Workfront Proof]
 
-  Genom att länka korrektur från [!DNL Workfront Proof] kan du göra korrektur som ursprungligen skapades i [!DNL Workfront Proof] tillgängliga i [!DNL Workfront]. För de aktuella planerna krävs en [!UICONTROL Pro] [!DNL Workfront]-plan eller högre för att den här funktionen ska kunna användas. Den här funktionen är tillgänglig för alla planer för nya planer. Mer information om olika tillgängliga planer finns i [Workfront-planer](https://business.adobe.com/se/products/workfront/pricing.html).
+  Genom att länka korrektur från [!DNL Workfront Proof] kan du göra korrektur som ursprungligen skapades i [!DNL Workfront Proof] tillgängliga i [!DNL Workfront].
 
 * [!DNL Microsoft SharePoint]
 
@@ -96,8 +98,6 @@ Du kan konfigurera följande integreringar för hantering av dokument:
   >Du kan granska och godkänna dokument som är länkade från en extern molnleverantör på samma sätt som du granskar och godkänner dokument som överförts direkt till [!DNL Workfront].
 
 * Andra dokumentleverantörer (via anpassade dokumentintegreringar).
-
-  För de aktuella planerna krävs en [!UICONTROL Pro] [!DNL Workfront]-plan eller högre för att den här funktionen ska kunna användas. Den här funktionen är tillgänglig för alla planer för nya planer. Mer information om olika tillgängliga planer finns i [Workfront-planer](https://business.adobe.com/se/products/workfront/pricing.html).
 
 Dessutom kan du förbättra dokumentupplevelsen av [!DNL Workfront] med en DAM-integrering från tredje part. Administratörer måste aktivera de här funktionerna för att användare ska kunna länka tjänsten till sitt [!DNL Workfront]-konto.
 

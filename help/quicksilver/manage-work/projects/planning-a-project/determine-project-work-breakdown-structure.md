@@ -6,7 +6,7 @@ description: Att definiera en struktur för arbetsfördelning (WBS) för ett pro
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
 source-wordcount: '1750'
 ht-degree: 0%

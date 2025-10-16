@@ -6,9 +6,9 @@ description: Från kontrollpanelen [!UICONTROL boards] kan du skapa en ny panel 
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 0c0c1f538cfd12e18c504fcb42ee424789d1cde8
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -23,23 +23,21 @@ Från kontrollpanelen [!UICONTROL boards] kan du skapa en ny panel eller rediger
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
-    <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td> <p>Nytt: Medarbetare eller högre </p>
- <p>eller</p> 
-<p>Aktuell: [!UICONTROL Request] eller högre </p> 
-</td> 
-  </tr>
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> 
+   <p>Medarbetare eller högre</p> 
+   <p>Begäran eller senare</p>
+   </td> 
+  </tr> 
  </tbody> 
 </table>
 

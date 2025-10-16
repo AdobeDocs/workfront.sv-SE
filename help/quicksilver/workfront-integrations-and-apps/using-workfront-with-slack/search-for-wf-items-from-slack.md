@@ -6,37 +6,41 @@ description: Du kan söka efter [!DNL Adobe Workfront] objekt från [!DNL Slack]
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 85821f21-d4fd-4f28-bd7a-0c109a4433a8
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
 
 # Sök efter [!DNL Adobe Workfront] objekt från [!DNL Slack]
 
-Du kan söka efter [!DNL Adobe Workfront] objekt från [!DNL Slack] om appen [!DNL Workfront] har installerats på din instans av [!DNL Slack].
+Du kan söka efter [!DNL Adobe Workfront] objekt från [!DNL Slack] om appen [!DNL Slack] har installerats på din instans av [!DNL Workfront].
 
 Mer information om hur du konfigurerar [!DNL Workfront] med [!DNL Slack] finns i [Konfigurera [!DNL Adobe Workfront] för [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
 ## Åtkomstkrav
 
-Du måste ha följande:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/se/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] plan]</a>*</td> 
-   <td> <p>[!UICONTROL Pro] eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Alla</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Alla</p>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.\
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Förutsättningar
 
@@ -75,7 +79,7 @@ Innan du kan söka efter [!DNL Workfront] objekt från [!DNL Slack] måste du
    * Program
    * Kontrollpanel
    * Företag
-   * Anteckning
+   * Obs
 
      Du kan bara markera en objekttyp åt gången.\
       En lista med objekt som matchar sökvillkoren visas.

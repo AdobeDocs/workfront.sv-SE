@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 6068c9c53568d3ebec9fae294bfee1cbd365714b
+source-git-commit: f8d04790caefd12c9811ea3ed94e1f892311d031
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -48,31 +48,31 @@ Some users, such as executives, need to be able to control which administrators 
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td>Alla</td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Alla</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Nytt: Standard</p>
-   <p>eller</p>
-   <p>Aktuell: Planera</p></td> 
-  </tr> 
+   <td>Adobe Workfront-licens</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td> 
+  </tr>
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Med åtkomstnivån Systemadministratör kan du logga in som vem som helst.</p> <p>Med åtkomstnivån Standard eller Planner kan du logga in som en användare med en lägre licensnivå om inställningen Användare i åtkomstnivån är konfigurerad för att redigera åtkomst, med alternativet Skapa och minst ett av de två alternativen för användaradministration är aktiverat under Finjustera inställningarna <img src="assets/gear-icon-in-access-levels.png">. </p> 
-   <p>Obs! Om användaradministratör (gruppanvändare) är aktiverat måste du vara gruppadministratör för en grupp där användaren är medlem av dessa två alternativ.</p></td>
+   <td>Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Du måste ha något av följande:</p> 
+    <ul> 
+     <li> <p>Åtkomstnivån Systemadministratör. På så sätt kan du logga in som alla.</li> 
+     <li> <p><b>Användare</b> i din åtkomstnivå har konfigurerats till <b>Redigera</b> åtkomst, med <b>Skapa</b> och minst ett av de två <b>användaradministratörsalternativen</b> som har aktiverats under <b>Finjustera inställningarna</b> <img src="assets/gear-icon-in-access-levels.png">. På så sätt kan du logga in som en användare med en lägre licensnivå. </p> <p>Om <b>Användaradministratör (gruppanvändare)</b> är aktiverat måste du vara gruppadministratör för en grupp där användaren är medlem.</p> </li> 
+    </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

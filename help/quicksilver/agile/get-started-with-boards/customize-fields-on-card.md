@@ -6,9 +6,9 @@ description: Du kan anpassa vilka fält som ska visas på ett kort genom att ina
 author: Lisa
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -34,22 +34,19 @@ Du kan även visa anpassade fält som tidigare skapats. Du kan inte designa och 
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td> 
-   <p>Nytt: [!UICONTROL Contributor] eller senare</p> 
-   <p>eller</p>
-   <p>Aktuell: [!UICONTROL Request] eller högre</p>
+   <p>Medarbetare eller högre</p> 
+   <p>Begäran eller senare</p>
    </td> 
   </tr> 
  </tbody> 
@@ -70,7 +67,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    De flesta fält och avsnitt är aktiverade som standard.
 
 1. Stäng av ett fält eller avsnitt för att inaktivera det i båda kortvyerna.
-1. Klicka på ikonen Dölj ![Dölj &#x200B;](assets/eye-hide-icon.png) bredvid ett fält eller avsnitt om du vill dölja det i den komprimerade vyn.
+1. Klicka på ikonen Dölj ![Dölj ](assets/eye-hide-icon.png) bredvid ett fält eller avsnitt om du vill dölja det i den komprimerade vyn.
 1. Om du vill visa alla fält och avsnitt i båda vyerna klickar du på [!UICONTROL **Återställ alla fält till standard**].
 1. Klicka på [!UICONTROL **Dölj konfigurera**] för att stänga konfigurationspanelen.
 
@@ -82,7 +79,7 @@ Informationen i anpassade fält kan redigeras på kortet, men vissa anpassade el
 
 1. Gå till en anslagstavla och klicka på [!UICONTROL **Konfigurera**] för att öppna konfigurationspanelen.
 1. Expandera [!UICONTROL **kort**].
-1. Klicka på [!UICONTROL **Lägg till anpassat fält**] under [!UICONTROL Card Fields].
+1. Klicka på [!UICONTROL Card Fields]Lägg till anpassat fält [!UICONTROL **under**].
 1. Välj [!UICONTROL **Aktivitet**] eller [!UICONTROL **Problem**].
 
    Kategorierna för tillgängliga fält för uppgifter eller ärenden visas. Expandera en kategori om du vill visa alla fält. Du kan också söka efter ett fält.

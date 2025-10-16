@@ -6,9 +6,9 @@ description: Du kan lägga till kommentarer till alla mål som du kan visa i Ado
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,13 @@ Du kan lägga till kommentarer till alla mål som du kan visa i Adobe Workfront-
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+>[!NOTE]
+>
+>Ditt företag kan välja att fortsätta använda Adobe Workfront-mål om de tidigare har köpt det här paketet. Du måste prata med din kontorepresentant för mer information.
+>
+>Adobe Workfront-mål går inte längre att köpa.
 
-Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskrivs i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto">
 <col>
@@ -44,45 +48,32 @@ Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskriv
 <col>
 </col>
 <tbody>
- <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+ <tr>
+  <td> <p>Adobe Workfront package</p> </td> 
    <td> 
-   <p>För den nya planen och licensstrukturen:
-  <ul><li>En Ultimate-plan </li></ul>
-   </p>
-<p>För aktuell plan och licensstruktur: 
-<ul><li> En Pro eller högre </li>
-  <li>En Adobe Workfront Goals-licens förutom en Workfront-licens.</li></ul></p>
+   <p>Adobe Workfront Ultimate</p>
    </td> 
   </tr>
  <tr>
  <td role="rowheader">Adobe Workfront-licens</td>
  <td>
- <p>Alla</td>
+ <p>Alla</p></td>
  </tr>
- <tr>
- <td role="rowheader">Produkt*</td>
- <td>
- <p> Nytt produktkrav: Workfront</p>
- eller
- <p>Aktuellt produktkrav: Förutom en Workfront-licens måste du köpa en licens för Adobe Workfront Goals. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
- </tr>
- <tr>
+  <tr>
  <td role="rowheader">Åtkomstnivåkonfiguration</td>
- <td> <p>Visa eller öka åtkomsten till mål</p> </td>
+ <td> <p>Visa eller öka åtkomsten till mål</p> 
+ </td>
  </tr>
- <tr data-mc-conditions="">
+ <tr>
  <td role="rowheader">Objektbehörigheter</td>
  <td>
   <div>
   <p>Visa eller högre behörigheter för målet</p>
-  <p>Som standard får användarna ingen åtkomst till målen </p>
- <p>Mer information om delningsmål finns i <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Dela ett mål i Workfront-mål</a>. </p>
   </div> </td>
  </tr>
  <tr>
    <td role="rowheader"><p>Layoutmall</p></td>
-   <td> <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller området Mål på huvudmenyn. </p>  
+   <td> <p>Alla användare, inklusive systemadministratörer, måste tilldelas en layoutmall som innehåller området Mål på huvudmenyn. </p>  
 </td>
   </tr>
 </tbody>
@@ -92,11 +83,62 @@ Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskriv
 
 +++
 
+<!--Old:
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> 
+   <p>For the new plan and license structure:
+  <ul><li>An Ultimate plan </li></ul>
+   </p>
+<p>For the current plan and license structure: 
+<ul><li> A Pro or higher </li>
+  <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
+   </td> 
+  </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront license</td>
+ <td>
+ <p>Any</td>
+ </tr>
+ <tr>
+ <td role="rowheader">Product*</td>
+ <td>
+ <p> New product requirement: Workfront</p>
+ Or
+ <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Access level configuration</td>
+ <td> <p>View or higher access to Goals</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Object permissions</td>
+ <td>
+  <div>
+  <p>View or higher permissions to the goal</p>
+  <p>By default, users get No Access to goals </p>
+ <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
+  </div> </td>
+ </tr>
+ <tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
+</td>
+  </tr>
+</tbody>
+</table>-->
+
 ## Hantera målkommentarer
 
 Du kan lägga till kommentarer till mål i uppdateringsavsnittet på målsidan.
 
-1. Klicka på ikonen **Huvudmeny** ![Huvudmeny &#x200B;](assets/main-menu-icon.png) i det övre högra hörnet eller på ikonen **Huvudmeny** ![Huvudmenyrader](assets/lines-main-menu.png) i det övre vänstra hörnet, om det finns några, och klicka sedan på **Mål** .
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny ](assets/main-menu-icon.png) i det övre högra hörnet eller på ikonen **Huvudmeny** ![Huvudmenyrader](assets/lines-main-menu.png) i det övre vänstra hörnet, om det finns några, och klicka sedan på **Mål** .
 Detta öppnar mållistan.
 1. Leta reda på målet som du vill lägga till kommentarer i och klicka sedan på namnet för att öppna målsidan.
 1. Klicka på **Uppdateringar** i den vänstra panelen.

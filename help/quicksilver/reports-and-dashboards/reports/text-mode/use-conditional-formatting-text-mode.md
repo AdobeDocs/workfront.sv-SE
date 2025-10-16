@@ -6,7 +6,7 @@ description: Använda villkorsstyrd formatering i textläge
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
 source-wordcount: '1734'
 ht-degree: 0%
@@ -26,28 +26,20 @@ Mer information om hur du använder villkorsstyrd formatering i en vy finns i [A
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
    <td> 
-      <p>Nytt:</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Aktuell:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
-   </td>
+     <p>Standard</p>
+     <p>Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -56,11 +48,11 @@ Du måste ha följande:
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
    <td> <p>Hantera behörigheter till en rapport för att redigera vyer i en rapport</p> <p>Hantera behörigheter till en vy för att redigera den</p> </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -90,7 +82,7 @@ Så här lägger du till villkorsstyrd formatering i en vy i textlägesgränssni
 1. Klicka på den kolumn i vyn som du vill använda villkorsstyrd formatering på.
 1. Klicka på **Växla till textläge**.
 1. Klicka på **Klicka för att redigera text** i området **Visa i den här kolumnen:**.
-1. Lägg till kodexemplen som finns i [Formatera vyer med textläget &#x200B;](#format-views-using-text-mode) längst ned i texten i den markerade kolumnen.
+1. Lägg till kodexemplen som finns i [Formatera vyer med textläget ](#format-views-using-text-mode) längst ned i texten i den markerade kolumnen.
 1. Klicka på **Spara** och sedan på **Spara vy**.
 
 ## Formatera vyer med textläge {#format-views-using-text-mode}

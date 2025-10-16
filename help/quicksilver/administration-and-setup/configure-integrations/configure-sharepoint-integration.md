@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 711812d9fd4bf48bb7612c0339cee2cdbe08ef10
 workflow-type: tm+mt
-source-wordcount: '1689'
+source-wordcount: '1671'
 ht-degree: 0%
 
 ---
@@ -47,28 +47,26 @@ Den här integreringen är bara kompatibel med [!DNL SharePoint Online]. Lokala 
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Alla</td> 
+   <td role="rowheader">Workfront package</td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td>Nytt: Standard <p>eller</p><p>Aktuell: Planera</p></td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td><p>Standard</p> <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td>Du måste vara en [!DNL Workfront]-administratör. </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td>Du måste vara Workfront-administratör. </td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -194,7 +192,7 @@ Din [!DNL SharePoint]-klienthemlighet går ut en gång om året. För att säker
 1. Generera en ny klienthemlighet enligt beskrivningen i [Ersätt en utgående klienthemlighet i ett  [!DNL SharePoint] tillägg](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret).
 1. Kopiera den här klienthemligheten till en säker plats.
 1. Logga in på [!DNL Workfront] som administratör.
-1. I Workfront klickar du på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klickar du på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och sedan på ikonen **[!UICONTROL Setup]** ![Konfigurera &#x200B;](/help/_includes/assets/gear-icon-setup.png) .
+1. I Workfront klickar du på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klickar du på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och sedan på ikonen **[!UICONTROL Setup]** ![Konfigurera ](/help/_includes/assets/gear-icon-setup.png) .
 1. Klicka på **[!UICONTROL Documents]** > **[!UICONTROL [!DNL SharePoint] Integration]** i den vänstra panelen.
 1. Klicka på den [!DNL SharePoint]-integrering som du vill uppdatera och klicka sedan på **[!UICONTROL Edit]**.
 1. Leta reda på avsnittet **Anslutningsinformation** i redigeringsfönstret och ange sedan den nya klienthemligheten i fältet **[!UICONTROL SharePoint Client Secret]**.

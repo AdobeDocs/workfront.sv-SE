@@ -6,9 +6,9 @@ description: Du kan länka dokument och mappar till Adobe Workfront från extern
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: a005c7114388e1c20a4847b3da3229667be0ded7
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '2568'
+source-wordcount: '2545'
 ht-degree: 0%
 
 ---
@@ -61,21 +61,18 @@ Du kan granska och godkänna dokument som är länkade till en extern molnlevera
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td>
+   <td role="rowheader">Adobe Workfront package</td>
    <td> <p> Alla</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td>
-   <td><p>Nytt: Medarbetare eller högre</p>
-    <p>eller</p>
-    <p>Aktuell: Begäran eller senare</p> </td>
+   <td><p>Medarbetare eller högre</p>
+    <p>Begäran eller senare</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -84,7 +81,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

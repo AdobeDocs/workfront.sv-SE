@@ -6,9 +6,9 @@ description: Din Adobe Workfront-administratör kan ge dig åtkomst till att vis
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1574'
 ht-degree: 0%
 
 ---
@@ -26,23 +26,20 @@ Behörigheterna är specifika för ett objekt i Workfront och definierar vilka �
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
-
-Du måste ha följande för att kunna dela objekt:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td> <p>Alla </p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Nytt: Standard</p> 
-   eller
-   <p>Aktuell: Arbete eller högre</p>
+   <td> <p>Standard</p> 
+   <p>Arbeta eller högre</p> 
    </td> 
   </tr> 
   <tr> 
@@ -56,7 +53,7 @@ Du måste ha följande för att kunna dela objekt:
  </tbody> 
 </table>
 
-Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -77,7 +74,7 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
 
 * När du delar ett projekt ärver alla uppgifter, utgåvor och dokument samma behörigheter, om inget annat anges.
 
-  Information om hur du hanterar åtkomst till aktiviteter och problem i projektet baserat på en användares behörigheter till projektet finns i avsnittet [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) i artikeln [Redigera projekt](../../manage-work/projects/manage-projects/edit-projects.md).
+  Information om hur du hanterar åtkomst till aktiviteter och problem i projektet baserat på en användares behörigheter till projektet finns i avsnittet [](../../manage-work/projects/manage-projects/edit-projects.md#access) i artikeln [Redigera projekt](../../manage-work/projects/manage-projects/edit-projects.md).
 
   Workfront-administratören kan ange om dokument ska ärva behörigheter från högre objekt på användarens åtkomstnivå. Mer information om att begränsa ärvda behörigheter i dokument finns i [Skapa eller ändra anpassade åtkomstnivåer](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 

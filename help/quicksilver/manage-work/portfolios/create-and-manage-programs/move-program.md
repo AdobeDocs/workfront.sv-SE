@@ -6,9 +6,9 @@ description: Du kan lägga till befintliga program i en portfölj. Eftersom prog
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -27,23 +27,21 @@ Du kan lägga till befintliga program i en portfölj. Eftersom program inte kan 
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td> <p>Nytt: [!UICONTROL Standard] </p><p>eller </p><p>Aktuell: [!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td> <p>[!UICONTROL Standard]</p><p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>[!UICONTROL Edit] tillgång till portföljer och program </p> </td> 
+   <td> <p>[!UICONTROL Edit] åtkomst till [!UICONTROL Portfolios] och [!UICONTROL Programs] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -55,6 +53,31 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 *Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>New: [!UICONTROL Standard] </p><p>Or </p><p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to Portfolios and Programs </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio and the program</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Lägg till ett befintligt program i en portfölj
 
@@ -74,7 +97,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    Du kan lägga till fler än ett program.
 
-1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort &#x200B;](assets/delete-icon.png) bredvid namnet på ett program om du bestämmer dig för att inte lägga till det i portföljen.
+1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort ](assets/delete-icon.png) bredvid namnet på ett program om du bestämmer dig för att inte lägga till det i portföljen.
 
 1. Klicka på **[!UICONTROL Add Programs]**. <!--check this button in the UI after they implemented the changes??-->
 

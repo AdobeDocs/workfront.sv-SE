@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '1734'
+source-wordcount: '1700'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Sandlådan för anpassad uppdatering är en miljö där du kan testa och arbeta 
 >
 >  Det finns också en extra kostnad för att hämta den anpassade uppdateringssandlådan som inte behövs för förhandsvisningssandlådan.
 >
->  Mer information om förhandsvisningssandlådan finns i [Förhandsgranskningssandlådemiljön [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+>  Mer information om förhandsvisningssandlådan finns i [Förhandsgranskningssandlådemiljön [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
 ## Åtkomstkrav
 
@@ -42,21 +42,24 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Workfront] plan</td> 
-   <td> <p>[!UICONTROL Business] eller högre</p> </td> 
+   <td role="rowheader">Workfront package</td> 
+   <td> <p>Prime eller Ultimate</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">[!DNL Workfront] licens</p> </td> 
-   <td> <p>[!UICONTROL Plan] </p> <p>Du måste vara en [!DNL Workfront]-administratör. Mer information om [!DNL Workfront] administratörer finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>.</p> </td> 
+   <td role="rowheader"> Workfront-licens</td> 
+   <td> <p>Standard</p><p>Plan</p>  </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">Supportpaket</td> 
-   <td> <p>[!UICONTROL Plus], [!UICONTROL Preferred] eller [!UICONTROL Enterprise]</p> <p>Standardsupportpaketet har inte tillgång till den anpassade uppdateringssandlådan, men det har tillgång till förhandsvisningens sandlåda.</p> </td> 
-  </tr> 
+  </tr>
+   <tr>
+   <td>Konfigurationer på åtkomstnivå
+   </td>
+   <td><p>Du måste vara Workfront-administratör.</p>
+   </td>
+  </tr>
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -89,7 +92,7 @@ Som [!DNL Workfront]-administratör har du åtkomst till din anpassade uppdateri
 
 Så här kommer du åt din anpassade uppdateringssandlåda:
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny &#x200B;](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på ikonen **[!UICONTROL Setup]** ![Nätform &#x200B;](assets/gear-icon-settings.png) .
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny ](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på ikonen **[!UICONTROL Setup]** ![Nätform ](assets/gear-icon-settings.png) .
 
 1. Klicka på **[!UICONTROL System]** >**[!UICONTROL Preferences]**.
 

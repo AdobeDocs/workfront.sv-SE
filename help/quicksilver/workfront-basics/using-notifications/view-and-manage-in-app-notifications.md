@@ -5,9 +5,9 @@ description: 'Meddelanden i appen håller dig informerad om två typer av inform
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c5da114-33cc-422b-84f4-67bc7fcd67c6
-source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
+source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ En lista över arbetsobjektet och meddelanden som du kan ta emot finns i [Övers
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,17 +37,21 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] package</strong></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>[!UICONTROL Request] eller högre</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens</strong></td> 
+   <td> 
+   <p>Medarbetare eller högre</p>
+   <p>Begäran eller senare</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan eller licenstyp du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Visa meddelanden
 
@@ -151,7 +155,7 @@ Du kan komma åt ett meddelande som du har tagit bort under de senaste 30 dagarn
 1. Klicka på den numrerade ikonen ![Notifications (Meddelanden)](assets/notifications-icon-jewel.jpg) i det övre högra hörnet av [!DNL Workfront] för att öppna din lista över meddelanden.
 1. Klicka på **[!UICONTROL Announcements]** eller **[!UICONTROL View All Announcements]**.
 
-1. Klicka på **[!UICONTROL Deleted]** på sidan **[!UICONTROL Announcements]** som visas.
+1. Klicka på **[!UICONTROL Announcements]** på sidan **[!UICONTROL Deleted]** som visas.
 
 1. Klicka på det meddelande som du vill visa.
 1. (Valfritt) Om du vill återställa meddelandet klickar du på **[!UICONTROL Move to Inbox]** ovan och till höger om meddelandet.

@@ -6,9 +6,9 @@ description: Smarta mappar används för att hantera dokument utanför ett proje
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
-source-git-commit: 3695c5bb566434d70907bfecf775ccd12b9208f4
+source-git-commit: 3f9a824780f2ded914d461a473aef3b6ecfa8701
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
@@ -23,28 +23,28 @@ Som standard är två smarta mappar tillgängliga första gången du öppnar omr
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Granska eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> 
+   <p>Medarbetare eller högre</p>
+   <p>Granska eller högre</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till dokument</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,7 +68,7 @@ Du kan visa mappar i miniatyrvyn, standardvyn eller listvyn. Om du vill ändra v
 ## Redigera en smart mapp 
 
 1. Gå till området **Dokument** som innehåller den smarta mappen som du vill redigera.
-1. I kolumnen **Mappar** klickar du på ikonen **Mer** ![Mer &#x200B;](assets/more-icon.png) bredvid den smarta mapp som du vill redigera.
+1. I kolumnen **Mappar** klickar du på ikonen **Mer** ![Mer ](assets/more-icon.png) bredvid den smarta mapp som du vill redigera.
 1. Klicka på **Redigera**.
 
 1. Gör ändringarna och klicka sedan på **Spara mapp**.

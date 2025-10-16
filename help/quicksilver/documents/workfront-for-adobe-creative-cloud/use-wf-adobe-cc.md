@@ -6,9 +6,9 @@ description: Du kan använda Workfront Extension för att exportera digitalt inn
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 3f9a824780f2ded914d461a473aef3b6ecfa8701
 workflow-type: tm+mt
-source-wordcount: '3107'
+source-wordcount: '3069'
 ht-degree: 0%
 
 ---
@@ -37,26 +37,24 @@ Workfront-tillägget stöds för Adobe Creative Cloud 2017 och senare i följand
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Aktuell: Pro eller högre</p>
-   eller
-   <p>Nytt: Alla planer</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Alla</p>
+ </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Aktuell: Arbete eller högre</p>
-   eller
-   <p>Nytt: Standard</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> 
+      <p>Standard</p> 
+   <p>Arbeta eller högre</p>
+</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Produkt</td> 
+   <td role="rowheader">Ytterligare produkter</td> 
    <td>Du måste ha en Adobe Creative Cloud-licens förutom en Workfront-licens.</td> 
   </tr> 
   <tr> 
@@ -66,7 +64,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -350,7 +348,7 @@ Om ni använder automatiserade arbetsflödesmallar kan ni generera ett korrektur
 
 1. I Adobe-programmet klickar du på **Fönster** > **Tillägg** > **Workfront**.
 
-1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) i panelens övre högra hörn.
+1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) i panelens övre högra hörn.
 
 1. (Valfritt) Klicka på **Feedback** för att öppna en kort enkät och skicka dina synpunkter om Workfront för Adobe Creative Cloud till Workfront.
 1. Klicka på **Logga ut**.\

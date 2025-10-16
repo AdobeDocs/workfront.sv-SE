@@ -6,9 +6,9 @@ description: Ekonomer beräknas för ett projekt i takt med att förändringar s
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1609'
 ht-degree: 0%
 
 ---
@@ -21,35 +21,32 @@ Ekonomer beräknas för ett projekt i takt med att förändringar sker i de timm
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td>Adobe Workfront package</td> 
    <td>Alla </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td>Adobe Workfront-licens</td> 
    <td>
-   <p>Nytt: Standard</p>
-   <p>eller</p>
-   <p>Aktuell: Planera</p></td> 
+   <p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td>Konfigurationer på åtkomstnivå</td> 
    <td>Redigera åtkomst till projekt och finansiella data</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
+   <td>Objektbehörigheter</td> 
    <td>Hantera behörigheter till projektet med behörigheter för att hantera ekonomi</td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -181,7 +178,7 @@ Du kan manuellt beräkna om ekonomin för flera projekt genom att redigera dem i
 Så här beräknar du om ekonomin för flera projekt manuellt:
 
 1. Gå till en lista med projekt.
-1. Markera flera projekt i listan och klicka sedan på ikonen **Mer** ![Mer &#x200B;](assets/qs-more-icon-on-an-object.png) överst i listan.
+1. Markera flera projekt i listan och klicka sedan på ikonen **Mer** ![Mer ](assets/qs-more-icon-on-an-object.png) överst i listan.
 
    ![Beräkna om uttryck](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 

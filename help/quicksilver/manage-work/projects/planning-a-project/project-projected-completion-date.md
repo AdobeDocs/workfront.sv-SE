@@ -7,9 +7,9 @@ description: Det planerade slutförandedatumet är en beräknad realtidsindikato
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ I följande avsnitt beskrivs hur det planerade slutförandedatumet bestäms för
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 
 <table style="table-layout:auto"> 
@@ -32,23 +32,21 @@ I följande avsnitt beskrivs hur det planerade slutförandedatumet bestäms för
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td> 
-   <p>Nytt: 
    <ul><li><p>Medarbetare eller senare för att visa det planerade slutförandedatumet i en rapport</p></li> <li><p>En standardlicens för att skapa en rapport</p></li> </ul>
-
-<p>Aktuell: 
+   eller
    <ul><li><p>Granska eller senare om du vill visa det planerade slutförandedatumet i en rapport</p></li> 
    <li><p>En planlicens för att skapa en rapport</p> </li></ul>
       </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Åtkomstnivå</td> 
-   <td> <p>Visa eller ge högre åtkomst till projekt</p> <p>Du måste ha behörighet att redigera rapporter, instrumentpaneler och kalendrar för att skapa en rapport</p> <p>Du måste ha behörighet att redigera filter, vyer och grupperingar för att kunna skapa en rapport eller ändra en listvy</p>  </td> 
+   <td> <p>Visa eller ge högre åtkomst till projekt</p> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att skapa en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att skapa en rapport eller ändra en listvy</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -57,7 +55,7 @@ I följande avsnitt beskrivs hur det planerade slutförandedatumet bestäms för
  </tbody> 
 </table>
 
-*Mer information om informationen i den här tabellen finns i [Åtkomstkraven i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

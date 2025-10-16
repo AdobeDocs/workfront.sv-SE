@@ -6,9 +6,9 @@ description: Du kan skapa, redigera och tilldela tidrapportprofiler som generera
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 395a7788ddfda71264b7b964953435affd7761e9
+source-git-commit: b0b9b80b4eb718e3e131ee0cd022f54cb906f187
 workflow-type: tm+mt
-source-wordcount: '1597'
+source-wordcount: '1584'
 ht-degree: 0%
 
 ---
@@ -29,29 +29,28 @@ Mer information om hur du skapar en tidrapport manuellt finns i [Skapa en tidrap
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td> <p>Alla</p> </td> 
-  </tr> 
-   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Nytt: Standard </p>
- <p>eller</p> 
-<p>Aktuell: Planera </p> 
-</td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste ha administrativ åtkomst till tidrapporter. </p> </td> 
+   <td>Adobe Workfront-licens</td> 
+   <td>
+   <p>Standard</p>
+   <p>Plan</p></td>
+  </tr> 
+  <tr> 
+   <td>Konfigurationer på åtkomstnivå</td> 
+   <td><p>Administrativ åtkomst till tidrapporter</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Mer information om informationen i den här tabellen finns i [Åtkomstkraven i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

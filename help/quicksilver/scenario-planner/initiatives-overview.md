@@ -2,12 +2,12 @@
 content-type: overview
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Översikt över initiativ i scenarioplaneraren
+title: Översikt över initiativ i scenarioplanen
 description: Scenarioplaneraren finns endast i den nya Adobe Workfront-upplevelsen och kräver ytterligare en licens. Mer information om Workfront Scenarioplan finns i Översikt över scenarioplanen.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d67f51e5-7c5c-436b-b0c3-e5afbd7cebca
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 0%
@@ -45,11 +45,6 @@ Tänk på följande när du skapar initiativ:
 * Du kan skapa flera initiativ i en plan. Med varje initiativ kan ni utforma en strategi på hög nivå för att uppnå arbetet på avdelningen.
 * Ni kan prioritera initiativ inom en plan för att se till att det viktigaste initiativet får mest budget och mest resurser.
 * När du skapar initiativ i en plan kan alla som ser den planen också se alla initiativ i planen.
-
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might change when we add to the access levels granularity)</p>
-  -->
-
 * Du kan publicera initiativ för att skapa projekt eller för att uppdatera projekt som är länkade till dem. Mer information om publiceringsinitiativ finns i [Uppdatera eller skapa projekt genom att publicera initiativen i  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 
 ## Finansiell information om initiativ

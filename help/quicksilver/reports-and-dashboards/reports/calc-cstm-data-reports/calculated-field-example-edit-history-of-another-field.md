@@ -3,14 +3,14 @@ content-type: reference
 product-area: reporting
 keywords: granskning,spåra,anpassad,fält
 navigation-topic: calculate-custom-data-reports
-title: "Exempel på beräknat anpassat fält: visa redigeringshistorik för ett fält"
+title: 'Exempel på beräknat anpassat fält: visa ett fälts redigeringshistorik'
 description: Om användare uppdaterar anpassade fält regelbundet och du vill samla in en logg över alla ändringar som gjorts i ett fält samt ett datum när ändringarna inträffar, kan du spara informationen i ett beräknat anpassat fält.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: e233ef28-c95a-42a1-b2eb-448dad5feddb
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -35,35 +35,38 @@ Detta gör följande:
 
 ## Åtkomstkrav
 
-Du måste ha följande:
+## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;"> 
-  <p>*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.</p> 
- </caption> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront-plan*</p> </td> 
-   <td>Alla</td> 
+   <td> <p>Adobe Workfront package</p> </td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
-   <td> <p>Workfront-licens*</p> </td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Adobe Workfront-licens</p> </td> 
+   <td>
+      <p>Standard</p>
+      <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td><strong>Åtkomstnivåkonfigurationer*</strong> </td> 
-   <td> <p>Administrativ åtkomst till anpassad Forms</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td><p>Konfigurationer på åtkomstnivå</p></td> 
+   <td> <p>Administrativ åtkomst till anpassad Forms</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Objektbehörigheter</strong> </p> </td> 
-   <td> <p>Hantera behörigheter i anpassade formulär </p> <p>Mer information finns i <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Dela ett anpassat formulär</a>.<br></p> </td> 
+   <td> <p>Objektbehörigheter</p> </td> 
+   <td> <p>Hantera behörigheter i anpassade formulär</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Förutsättningar
 

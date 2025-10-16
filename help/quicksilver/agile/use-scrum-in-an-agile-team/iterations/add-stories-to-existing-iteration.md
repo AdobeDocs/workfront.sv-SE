@@ -6,9 +6,9 @@ description: Du kan lägga till artiklar i en iteration på flera olika sätt.
 author: Lisa
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
-source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -28,23 +28,20 @@ Du kan lägga till artiklar i en iteration på något av följande sätt:
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td> <p>Nytt: [!UICONTROL Standard]</p> 
-   eller
-   <p>Aktuell: [!UICONTROL Work] eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Standard</p> 
+   <p>Arbeta eller högre</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td>[!UICONTROL Manage] åtkomst till det projekt som artikeln är på </td> 
+   <td>Hantera åtkomst till det projekt som artikeln är på </td> 
   </tr>
  </tbody> 
 </table>

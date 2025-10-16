@@ -3,12 +3,12 @@ product-area: timesheets;system-administration
 navigation-topic: create-and-manage-timesheets
 title: Definiera timtyper och tillgänglighet
 description: En timtyp är en etikett som du kan använda för att kategorisera tidsangivelser. Beroende på organisationens rapporteringskrav för timmar kan detta vara en viktig del av loggningstiden.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 3c07a6b0-4751-4fce-ac28-6a83084025d4
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1479'
 ht-degree: 0%
 
 ---
@@ -36,32 +36,30 @@ När rätt timtyper har konfigurerats kan du logga tid från flera platser i Wor
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td>Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Nytt: Standard</p> 
-   <p>Aktuell: Planera</p>
+   <td>Adobe Workfront-licens</td> 
+   <td> <p>Standard</p> 
+   <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td>Konfigurationer på åtkomstnivå</td> 
    <td> <p>Systemadministratörsåtkomst för att definiera systemomfattande timtyper och för att redigera alla användare</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
+   <td>Objektbehörigheter</td> 
    <td>Hantera åtkomst till projektet för att definiera timtyper i ett projekt</td> 
   </tr> 
  </tbody> 
 </table>
 
-*Mer information om informationen i den här tabellen finns i [Åtkomstkraven i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -76,7 +74,7 @@ Projektägaren avgör om alla timtyper som definieras på systemnivå är tillg�
 {{step1-to-projects}}
 
 1. På sidan **Projekt** väljer du det projekt som du vill fastställa tillgängligheten för timtyper för.
-1. Klicka på ikonen **Mer** ![Mer &#x200B;](assets/more-icon.png) bredvid projektnamnet i sidhuvudet och klicka sedan på **Redigera**. Panelen **Redigera projekt** öppnas.
+1. Klicka på ikonen **Mer** ![Mer ](assets/more-icon.png) bredvid projektnamnet i sidhuvudet och klicka sedan på **Redigera**. Panelen **Redigera projekt** öppnas.
 
 1. Gå till inställningen **Filtertimtyper** i avsnittet **Projektinställningar**.
 

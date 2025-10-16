@@ -6,10 +6,10 @@ description: Du kan installera plugin-programmet Adobe Workfront for Photoshop f
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 0%
+source-wordcount: '467'
+ht-degree: 1%
 
 ---
 
@@ -32,28 +32,28 @@ Du kan installera plugin-programmet [!DNL Adobe Workfront for Photoshop] från [
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <!--<tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td>Any</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Work] or [!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> 
+   <p>Standard</p>
+   <p>Work or higher</p> </td> 
   </tr> -->
   <tr> 
-   <td role="rowheader">Produkt</td> 
-   <td><p>Du måste ha en [!DNL Adobe Creative Cloud]-licens förutom en [!DNL Workfront]-licens.</p><p>Mer information finns i <a href="https://helpx.adobe.com/se/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud supportpolicy</a>.</p></td> 
+   <td role="rowheader">Ytterligare produkter</td> 
+   <td><p>Du måste ha en [!DNL Adobe Creative Cloud]-licens förutom en [!DNL Workfront]-licens.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -100,7 +100,7 @@ Du kan installera plugin-programmet [!DNL Adobe Workfront for Photoshop] själv 
 
 ## Logga in på [!DNL Adobe Workfront for Photoshop]
 
-1. Välj **[!UICONTROL Plugin Panel]** på menyn **[!UICONTROL Plugins]** överst på skärmen.
+1. Välj **[!UICONTROL Plugins]** på menyn **[!UICONTROL Plugin Panel]** överst på skärmen.
 1. Välj **[!DNL Adobe Workfront for Photoshop]**.
 1. Ange din domän och klicka sedan på **[!UICONTROL Log in]**. En webbläsarsida öppnas. Du kanske måste ge Photoshop tillstånd att öppna webbläsaren.
 
@@ -109,7 +109,7 @@ Du kan installera plugin-programmet [!DNL Adobe Workfront for Photoshop] själv 
    >* Om du vill hitta din domän öppnar du en webbläsare, navigerar till din [!DNL Workfront]-instans och kopierar den första delen av URL-adressen:\
    >![Hitta domän](assets/domain-350x50.png)
    >
-   > * Om din Workfront-instans är integrerad med Experience Cloud ber du din administratör att ge dig den Workfront-domän som finns under Product > Workfront i Admin Console.
+   > * Om din Workfront-instans är integrerad med Experience Cloud ber du administratören att ge dig den Workfront-domän som finns under Produkt > Workfront i Admin Console.
 
 1. Ange dina [!DNL Workfront]-inloggningsuppgifter i webbläsaren och klicka sedan på **[!UICONTROL Log in]**. Om ditt företag använder en enkel inloggning (SSO) dirigeras du till din SSO-leverantörs sida för att logga in.
 

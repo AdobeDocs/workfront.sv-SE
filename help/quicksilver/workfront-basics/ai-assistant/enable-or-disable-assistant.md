@@ -5,9 +5,9 @@ description: Du kan styra vilka åtkomstnivåer i organisationen som har tillgå
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: d929599ccdbfb90d731a3dfb9d83d3eb54d345ea
+source-git-commit: 8a0923bbdc8731652e59647409ef9b32e802e895
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -18,32 +18,31 @@ Som Workfront-administratör kan du styra vilka användare i organisationen som 
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att aktivera eller inaktivera AI-assistenten:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td><p>Nytt: Alla</p>
-       <p>eller</p>
-       <p>Aktuell: Inte tillgänglig</p></td>
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Alla </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td><p>Nytt: Standard</p>
-       <p>eller</p>
-       <p>Aktuell: Inte tillgänglig</p></td>
+   <td><p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör.</p> </td> 
+   <td> <p>Du måste vara Workfront-administratör</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Aktivera eller inaktivera AI-assistenten i Workfront
 

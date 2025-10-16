@@ -8,10 +8,10 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Nolan, Becky
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
-source-git-commit: 01b7eb79028eb3fe47f988a31cb62ace31bba3f1
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 0%
+source-wordcount: '246'
+ht-degree: 1%
 
 ---
 
@@ -23,32 +23,37 @@ Du kan integrera [!DNL JumpSeat] med [!DNL Workfront] för att skapa anpassad pr
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Enterprise] </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td>[!UICONTROL Plan]</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Produkt</td> 
-   <td>Du måste ha en aktiv [!DNL JumpSeat]-plan.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p> Du måste vara en [!DNL Workfront]-administratör. Mer information om [!DNL Workfront] administratörer finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>.</p> </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>Adobe Workfront package
+   </td>
+    <p>Arbetsflöde Ultimate</p>
+   <td> <p>Prime eller Ultimate</p>
+   </td>
+  </tr>
+    <tr>
+   <td>Adobe Workfront-licenser
+   </td>
+   <td>Standard
+   <p>Plan</p>
+   </td>
+  </tr>
+  </tr>
+  <tr>
+   <td>Produkt
+   </td>
+   <td>Du måste ha en aktiv [!DNL JumpSeat]-plan.
+   </td>
+  </tr>
+   <tr>
+   <td>Konfigurationer på åtkomstnivå
+   </td>
+   <td>Du måste vara en [!DNL Workfront]-administratör.
+   </td>
+  </tr>
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -85,7 +90,7 @@ Så här konfigurerar du integreringen av [!DNL JumpSeat]:
 
 https://{mycompanyname}.hoppseat.io
 
-&#x200B;>>
+>>
 
 >[!ENDSHADEBOX]
 

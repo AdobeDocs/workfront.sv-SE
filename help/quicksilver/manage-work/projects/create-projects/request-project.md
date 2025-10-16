@@ -6,9 +6,9 @@ description: Du kan begära att ett projekt ska godkännas innan du börjar arbe
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -34,37 +34,68 @@ Du kan begära ett projekt när du lägger till ett nytt projekt i följande omr
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">Adobe Workfront-licens*</p> </td> 
-   <td> <p>Nytt: Standard </p>
-   eller
-   <p>Aktuell: Planera </p>
+   <td role="rowheader"> <p role="rowheader">Adobe Workfront-licens</p> </td> 
+   <td> <p>Standard</p>
+   <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Åtkomstnivå</td> 
-   <td> <p>Redigera åtkomst till projekt</p> </td> 
+   <td role="rowheader">Åtkomstnivåkonfiguration</td> 
+   <td> <p>Redigera åtkomst till projekt</p>
+   <p>Om du begär ett projekt från en portfölj eller ett program måste du ha behörighet att redigera portföljer och program</p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>När du skapar en projektförfrågan får du automatiskt behörigheten Hantera för projektet </p> </td> 
+   <td> <p>När du skapar en projektförfrågan får du automatiskt behörigheten Hantera för projektet </p> 
+   <p>Om du begär ett projekt från en portfölj eller ett program måste du ha behörigheten Hantera för portföljen och programmet.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p role="rowheader">Adobe Workfront license*</p> </td> 
+   <td> <p>New: Standard </p>
+   Or
+   <p>Current: Plan </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>When you create a project request you automatically receive Manage permissions to the project </p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Begär ett projekt
 

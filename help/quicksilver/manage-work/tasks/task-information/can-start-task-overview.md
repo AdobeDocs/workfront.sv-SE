@@ -2,12 +2,12 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: '&grave;Can Start&grave; overview for tasks'
+title: '"Kan starta" Översikt över aktiviteter'
 description: När en uppgift är klar att starta lägger Adobe Workfront till en Can Start-indikator i uppgiften för att enkelt identifiera att det är säkert för dig att börja arbeta med uppgiften. Du kan visa den här indikatorn i vyn för en uppgiftslista eller rapport.
 author: Alina
 feature: Work Management
 exl-id: 158f8370-9717-4c61-99fa-e3b76a9e61cb
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%

@@ -6,9 +6,9 @@ description: Du kan konfigurera följande alternativ för Kanban-team under elle
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1386'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,6 @@ Mer information om hur du konfigurerar ett Scrum-team finns i [Konfigurera Scrum
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -46,15 +44,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td> <p>Nytt: [!UICONTROL Standard]</p> 
-   eller
-   <p>Aktuell: [!UICONTROL Work] eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Standard</p> 
+   <p>Arbeta eller högre</p> </td> 
   </tr>
 
 <tr> 
@@ -97,14 +94,14 @@ Så här definierar du de statusvärden som är tillgängliga för den artikelpa
 
 {{step1-to-team}}
 
-1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team &#x200B;](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
+1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team ](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
 
 1. Välj det flexibla team som du vill hantera.
 1. Klicka på menyn **[!UICONTROL More]** och välj sedan **[!UICONTROL Edit]**.
 
    ![Redigera team](assets/edit-team-settings-350x205.png)
 
-1. Gå till området **[!UICONTROL Story Board]** i avsnittet **[!UICONTROL Agile]**.
+1. Gå till området **[!UICONTROL Agile]** i avsnittet **[!UICONTROL Story Board]**.
 
 1. (Valfritt) Klicka på **[!UICONTROL Add Column]** om du vill lägga till ytterligare en statuskolumn på artikelpanelen.
 1. (Valfritt) Dra en statuskolumn med dra och släpp-indikatorn för att ändra ordningen på statuskolumnerna på artikelpanelen. Den första kolumnen kan inte flyttas och du kan inte dra en annan kolumn framför den första kolumnen.
@@ -145,7 +142,7 @@ Så här konfigurerar du artikelkort som tilldelats det flexibla teamet så att 
 
 {{step1-to-team}}
 
-1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team &#x200B;](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
+1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team ](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
 
 1. Välj det flexibla team som du vill hantera.
 1. Klicka på menyn **[!UICONTROL More]** och välj sedan **[!UICONTROL Edit]**.
@@ -170,7 +167,7 @@ Så här begränsar du PIA för ditt Kanban-team:
 
 {{step1-to-team}}
 
-1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team &#x200B;](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
+1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team ](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
 
 1. Välj det Kanban-team som du vill hantera.
 1. Klicka på **[!UICONTROL More]**-menyn ![](assets/more-menu.png) och välj sedan **[!UICONTROL Edit]**.
@@ -195,7 +192,7 @@ Du kan konfigurera artiklar från en eftersläpning så att de automatiskt lägg
 
 {{step1-to-team}}
 
-1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team &#x200B;](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
+1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team ](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
 
 1. Välj det Kanban-team som du vill hantera.
 1. Klicka på **[!UICONTROL More]**-menyn ![](assets/more-menu.png) och välj sedan **[!UICONTROL Edit]**.

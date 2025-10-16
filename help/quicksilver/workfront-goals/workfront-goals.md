@@ -6,33 +6,43 @@ draft: Probably
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: 945a7d15-f10e-4829-aedb-e0de46cd6090
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront-mål: artikelindex
 
-<!--Audited: 04/2025-->
+<!--Audited: 10/2025-->
+
+>[!NOTE]
+>
+>Ditt företag kan välja att fortsätta använda Adobe Workfront-mål om de tidigare har köpt det här paketet. Du måste prata med din kontorepresentant för mer information.
+>
+>Adobe Workfront-mål går inte längre att köpa.
+>
+>Mer information om åtkomst till Workfront-mål finns i [Krav för att använda Workfront-mål](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+<!--Old:
 
 >[!IMPORTANT]
 >
->Din organisation måste ha följande för att kunna använda de funktioner som beskrivs i den här artikeln:
+>Your organization must have the following to use the functionality described in this article:
 >
->* För den nya planen och licensstrukturen:
+>* For the new plan and license structure:
 >
->   * Ultimate Workfront-planen
+>   * The Ultimate Workfront plan 
 >    
->* För aktuell plan och licensstruktur:
+>* For the current plan and license structure: 
 >
->   * En plan för Pro eller senare Workfront
->   * En Adobe Workfront Goals-licens förutom en Workfront-licens.
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
->Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront Goals-licens.
+>Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->Mer information om åtkomst till Workfront-mål finns i [Krav för att använda Workfront-mål](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   -->
 
 
 Adobe Workfront-mål hjälper er att definiera, kommunicera och uppnå strategiska resultat genom att koppla ihop strategi för att genomföra arbetet och leverera det.

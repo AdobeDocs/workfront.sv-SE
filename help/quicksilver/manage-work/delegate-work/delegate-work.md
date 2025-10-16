@@ -4,11 +4,11 @@ content-type: reference
 navigation-topic: projects-navigation-topic
 title: Delegera arbete
 description: När du planerar att vara borta från kontoret under en kort period kan du tillfälligt delegera ditt arbete till andra användare för att säkerställa att din frånvaro inte blir ett hinder för arbetet. Artiklarna i det här avsnittet innehåller information om hur du kan delegera arbete medan du tillfälligt är utanför kontoret.
-author: Alina
+author: Becky
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: e449366e-3bfa-4710-a597-91de404112d4
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 0%

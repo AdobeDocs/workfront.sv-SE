@@ -2,13 +2,13 @@
 product-area: projects;templates
 navigation-topic: manage-projects
 title: Spara ett projekt som en mall
-description: Spara ett projekt som en mall på projektnivå så att användarna ser det i användargränssnittet. Det finns en annan artikel som den här länken länkar till som är mer detaljerad (steg för steg). Den här funktionaliteten måste finnas kvar i både projekt- OCH mallområdena.)
+description: Spara ett projekt som en mallSpara som mall på projektnivå, så att användarna ser det i användargränssnittet. Det finns en annan artikel där den här länken är mer detaljerad (steg för steg).
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
+source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -42,14 +42,13 @@ Om du bestämmer dig för att ett projekt ska inträffa igen någon gång i fram
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td> <p>Alla </p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Nytt: Standard </p>
-   eller 
-   <p>Aktuell: Planera </p> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Standard</p>
+   <p>Plan</p> 
    </td> 
   </tr> 
   <tr> 
@@ -63,9 +62,37 @@ Om du bestämmer dig för att ett projekt ska inträffa igen någon gång i fram
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New: Standard </p>
+   Or 
+   <p>Current: Plan </p> 
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Templates</p> /td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View or higher permissions to a project </p> <p>You obtain Manage permissions to the template after you save the project as a template</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Spara ett projekt som en mall
 

@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
-source-git-commit: 4fbf88c544cd56887e6f6f36d7aabfa0668a2a05
+source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -33,32 +33,27 @@ Observera att systemomfattande filter, vyer och grupperingar som du skapar skilj
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Alla</td> 
+   <td>[!DNL Adobe Workfront] package</td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td><p>Nytt: [!UICONTROL Standard]</p>
-   eller
-   <p>Aktuell: [!UICONTROL Plan]</p>
-   </td> 
-  </tr>
+   <td>[!DNL Adobe Workfront] licens</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
+  </tr> 
   <tr> 
-  <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>Konfigurationer på åtkomstnivå</td> 
+   <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,7 +68,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
    eller
 
-   Om du redigerar ett befintligt filter, en befintlig vy eller en befintlig gruppering markerar du det och klickar sedan på ikonen **[!UICONTROL Edit]** ![Redigera &#x200B;](assets/edit-icon.png) .
+   Om du redigerar ett befintligt filter, en befintlig vy eller en befintlig gruppering markerar du det och klickar sedan på ikonen **[!UICONTROL Edit]** ![Redigera ](assets/edit-icon.png) .
 
 1. Konfigurera filter, vy eller gruppering.
 
@@ -125,7 +120,7 @@ I de här stegen beskrivs hur du delar anpassade filter, vyer och grupperingar m
 
 1. Klicka på **[!UICONTROL Interface]** och sedan på något av följande: **[!UICONTROL Filters]**, **[!UICONTROL Views]** eller **[!UICONTROL Groupings]**.
 
-1. Markera filtret, vyn eller grupperingen som du vill dela och klicka sedan på ikonen **[!UICONTROL Share]** ![Dela &#x200B;](assets/share-icon.png) .
+1. Markera filtret, vyn eller grupperingen som du vill dela och klicka sedan på ikonen **[!UICONTROL Share]** ![Dela ](assets/share-icon.png) .
 1. Börja skriva namnet på specifika användare, team, roller, grupper eller företag som filtret, vyn eller grupperingen ska delas med och klicka sedan på namnet i listrutan.
 
    Mer information om delning finns i [Översikt över delningsbehörigheter för objekt](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).

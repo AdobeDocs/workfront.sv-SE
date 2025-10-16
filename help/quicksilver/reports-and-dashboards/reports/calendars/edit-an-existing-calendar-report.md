@@ -6,9 +6,9 @@ description: Du kan ändra en befintlig kalender genom att lägga till eller ta 
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: 5c0278607faf65b58abeb9b813e403f97032a965
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,6 @@ Du kan ändra en befintlig kalender genom att lägga till eller ta bort en länk
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -34,22 +32,21 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td><p>Nytt: Standard</p>
-       <p>eller</p>
-       <p>Aktuell: Planera</p></td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>[!UICONTROL Edit] åtkomst till [!UICONTROL Reports], [!UICONTROL Dashboards] och [!UICONTROL Calendars]</p></td> 
+   <td> <p> Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td>[!UICONTROL Manage] åtkomst till kalenderrapporten</td> 
+   <td>Hantera åtkomst till kalenderrapporten</td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,13 +67,11 @@ Om du har delat kalenderrapporten med andra användare eller team uppdateras det
    1. Klicka på **[!UICONTROL Add to Calendar].**
    1. Börja skriva namnet på ett projekt som du vill lägga till kalenderhändelser från och klicka sedan på namnet när det visas i listrutan.
    1. Klicka på **Lägg till**.
-
       ![lägg till ett projekt i en kalender](assets/add-a-calendar-project.png)
 
 
 1. (Valfritt) Så här lägger du till en kalendergrupp eller ändrar en befintlig kalendergrupp:
    1. Klicka på menyn **Mer** bredvid projektnamnet och klicka sedan på **Redigera**.
-
       ![redigera projekt i kalendern](assets/edit-project-in-calendar.png)
 
    1. Välj hur du vill gruppera dina objekt:

@@ -7,50 +7,84 @@ description: Du kan redigera information i ett anpassat formulär när formulär
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
 
 # Redigera information i anpassade formulärfält
 
+<!--Audited: 10/2025-->
+
 Du kan redigera information i ett anpassat formulär när formuläret har kopplats till ett objekt. Mer information om hur du lägger till anpassade formulär till objekt finns i [Lägga till ett anpassat formulär till ett objekt](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 ## Åtkomstkrav
 
-Du måste ha följande:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Workfront-plan*</p> </td> 
-   <td>Team eller högre</td> 
+   <td role="rowheader"> <p>Adobe Workfront package</p> </td> 
+   <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Workfront-licenser*</p> </td> 
-   <td> <p>Begäran eller senare</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront-licens</p> </td> 
+   <td> <p>Medarbetare eller högre</p> 
+   <p>Begäran eller senare</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till objektet som du vill redigera det anpassade formuläret för</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till objektet som du vill redigera det anpassade formuläret för</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Objektbehörigheter</p> </td> 
    <td> 
     <ul> 
      <li> <p>Contribute eller högre behörigheter för det objekt som du vill redigera det anpassade formuläret för</p> </li> 
-     <li>Visa behörigheter för de fält som du vill redigera. Mer information om att dela behörigheter för anpassade fält finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md" class="MCXref xref">Konfigurera delning för anpassade fält och widgetar</a>.</li> 
-     <li> <p>Redigera behörigheter för de avsnitt i formuläret där fälten som du vill redigera finns</p> </li> 
-    </ul> <p>Mer information om hur du begär ytterligare åtkomst för objekt finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+     <li><p>Visa behörigheter för de fält som du vill redigera.</p></li> 
+     <li><p>Redigera behörigheter för de avsnitt i formuläret där fälten som du vill redigera finns</p></li> 
+    </ul></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Workfront plan*</p> </td> 
+   <td>Team or higher</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Workfront licenses*</p> </td> 
+   <td> <p>Request or higher</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Access level*</td> 
+   <td> <p>Edit access to the object for which you want to edit the custom form</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Object permissions</p> </td> 
+   <td> 
+    <ul> 
+     <li> <p>Contribute or higher permissions on the object for which you want to edit the custom form</p> </li> 
+     <li>View permissions on the fields you want to edit. For information about sharing permissions for custom fields, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md" class="MCXref xref">Configure sharing for custom fields and widgets</a>.</li> 
+     <li> <p>Edit permissions for the sections on the form where the fields you want to edit are located</p> </li> 
+    </ul> <p>For information on requesting additional access for objects, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Förutsättningar
 
@@ -132,9 +166,7 @@ Du kan manuellt beräkna om anpassade fält för flera objekt genom att redigera
 
 >[!TIP]
 >
->Beroende på hur komplexa dina projekt är rekommenderar vi att du inte väljer ett stort antal projekt när du beräknar om beräknade anpassade fält i grupp för att få optimala prestanda. Vissa saker som kan göra ett projekt för komplext kan vara flera beroenden, tilldelningar eller ett stort antal anpassade fält.
->
->Så här beräknar du om anpassade uttryck i grupp från en lista med projekt:
+>Du kan också beräkna om anpassade uttryck från en objektlista. Om du till exempel vill beräkna om anpassade uttryck i grupp från en lista med projekt:
 >
 >1. Gå till en projektlista eller rapport och välj ett eller flera projekt.
 >1. Klicka på menyn **Mer** ![](assets/more-icon.png) och sedan på **Beräkna om anpassade uttryck**.
@@ -142,3 +174,7 @@ Du kan manuellt beräkna om anpassade fält för flera objekt genom att redigera
 >![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 >
 >Workfront beräknar alla anpassade fält för alla markerade projekt.
+>>Alla listor med objekt har inte den här funktionen.
+>
+>Beroende på hur komplexa dina projekt är rekommenderar vi att du inte väljer ett stort antal projekt när du beräknar om beräknade anpassade fält i grupp för att få optimala prestanda. Vissa saker som kan göra ett projekt för komplext kan vara flera beroenden, tilldelningar eller ett stort antal anpassade fält.
+

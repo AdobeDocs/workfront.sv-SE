@@ -7,9 +7,9 @@ description: Du kan använda den här vyn i en projektlista eller rapport om du 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a3f59f69-7f39-4814-bd2f-7734d620081e
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -32,44 +32,33 @@ Informationen i den här rapporten finns även i området Personer i projektet.
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p> Aktuell: 
-   <ul>
-   <li>Begäran om att ändra en vy</li> 
-   <li>Planera att ändra en rapport</li>
-   </ul>
-     </p>
-     <p> Nytt: 
-   <ul>
-   <li>Medarbetare som ändrar en vy</li> 
-   <li>Standard för att ändra en rapport</li>
-   </ul>
-     </p>
-    </td> 
+   <td> 
+   <p>Medarbetare eller begäran om att ändra en vy </p>
+   <p>Standard eller Plan för att ändra en rapport</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en vy</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter i en rapport</p> </td> 
+   <td> <p>Hantera behörigheter i en rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
 Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 

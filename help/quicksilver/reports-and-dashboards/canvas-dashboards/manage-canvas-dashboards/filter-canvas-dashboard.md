@@ -6,9 +6,9 @@ description: Du kan använda ett filter på en Canvas-kontrollpanel när den har
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
-source-git-commit: 56d0b9281387cc7b35055461e7868c7e4a194f81
+source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Delar av funktionen kanske inte är fullständiga eller fungerar som de ska i det här skedet. Skicka feedback om din upplevelse genom att följa instruktionerna i avsnittet [Ge feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) i översiktsartikeln i Canvas Dashboards.<br>
->&#x200B;>Om du har synpunkter på ett eventuellt fel eller tekniska problem ber vi dig skicka ett supportärende till Workfront Support. Mer information finns i [Kontakta kundsupport](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Observera att betaversionen inte är tillgänglig för följande molnleverantörer:
+>>Om du har synpunkter på ett eventuellt fel eller tekniska problem ber vi dig skicka ett supportärende till Workfront Support. Mer information finns i [Kontakta kundsupport](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>>Observera att betaversionen inte är tillgänglig för följande molnleverantörer:
 >
 >* Använd din egen nyckel för Amazon Web Services
 >* Azure
@@ -30,7 +30,7 @@ Du kan använda ett filter på en Canvas Dashboard som innehåller uppmaningar. 
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven. 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -39,7 +39,7 @@ Du kan använda ett filter på en Canvas Dashboard som innehåller uppmaningar. 
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
 <p>Alla </p> 
    </td> 
@@ -47,8 +47,8 @@ Du kan använda ett filter på en Canvas Dashboard som innehåller uppmaningar. 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
    <td> 
-<p>Aktuell: Planera </p> 
-<p>Nytt: Standard</p> 
+<p>Standard</p> 
+<p>Plan</p> 
    </td> 
    </tr> 
   </tr> 
@@ -176,4 +176,4 @@ Alla användare som har tillgång till en kontrollpanel kan lägga till en kontr
 1. I avsnittet **Visa poster där..** väljer du ett villkor för en eller alla uppmaningar som visas. Uppmaningen tillämpas och en **kontrollpanelsfilter**-tagg visas i hörnet av rapportwidgeten.
    ![Välj villkor](assets/prompts-list.png)
 
-1. Klicka på ikonen **Stäng** ![Stäng &#x200B;](assets/close-icon.png) i det övre högra hörnet om du vill dölja panelen.
+1. Klicka på ikonen **Stäng** ![Stäng ](assets/close-icon.png) i det övre högra hörnet om du vill dölja panelen.

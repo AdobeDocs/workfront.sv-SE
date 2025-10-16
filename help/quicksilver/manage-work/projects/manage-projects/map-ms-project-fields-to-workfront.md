@@ -1,12 +1,12 @@
 ---
 product-area: projects
 navigation-topic: manage-projects
-title: Mappa Microsoft Project-fält till Adobe Workfront-projekt
+title: Mappa Microsoft-projektfält till Adobe Workfront-projekt
 description: Projekt i Adobe Workfront och Microsoft Project är oftast kompatibla. I den här artikeln beskrivs hur de vanligaste projektfälten från de två programmen mappas till varandra.
 author: Alina
 feature: Work Management
 exl-id: 381eb6ad-8084-406b-90f9-44460b58a04c
-source-git-commit: c566eb094e96abca6073554433434822c567bc34
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%

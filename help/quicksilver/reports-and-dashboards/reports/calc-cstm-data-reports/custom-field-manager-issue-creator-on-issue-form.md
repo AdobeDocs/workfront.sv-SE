@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
-title: "Exempel på beräknat anpassat fält: visa hanteraren för den som har skapat ett ärende i det anpassade formuläret"
+title: 'Exempel på beräknat anpassat fält: visa hanteraren för den som skapat ett ärende i det anpassade formuläret'
 description: Med hjälp av ett beräknat anpassat fält kan du visa namnet på den som har skapat ett ärende i ett anpassat formulär som har kopplats till problemet. Med samma programsats kan du skapa liknande beräkningsfält för projekt, utgåvor och andra objekt.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -26,32 +26,36 @@ Med hjälp av ett beräknat anpassat fält kan du visa namnet på den som har sk
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront-plan*</p> </td> 
-   <td>Alla</td> 
+   <td> <p>Adobe Workfront package</p> </td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront-licens*</p> </td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Adobe Workfront-licens</p> </td> 
+   <td>
+      <p>Standard</p>
+      <p>Plan</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td>Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Administrativ åtkomst till anpassade formulär<br>Mer information om att bevilja administrativ åtkomst från åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Bevilja användare administrativ åtkomst till vissa områden</a>.</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+  <tr> 
+   <td><p>Konfigurationer på åtkomstnivå</p></td> 
+   <td> <p>Administrativ åtkomst till anpassade formulär</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td> <p>Objektbehörigheter</p> </td> 
-   <td> <p>Contribute-åtkomst till det objekt som formuläret är kopplat till har åtkomst till Redigera det anpassade formuläret</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Contribute-åtkomst till det objekt som formuläret är kopplat till har åtkomst till Redigera det anpassade formuläret</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Visa den som har skapat ett ärende i det anpassade formuläret
 

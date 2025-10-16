@@ -6,9 +6,9 @@ description: Du kan konfigurera följande alternativ för Scrum-team under eller
 author: Lisa
 feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1607'
 ht-degree: 0%
 
 ---
@@ -34,8 +34,6 @@ Mer information om hur du konfigurerar ett Kanban-team finns i [Konfigurera Kanb
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -43,15 +41,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td> <p>Nytt: [!UICONTROL Standard]</p> 
-   eller
-   <p>Aktuell: [!UICONTROL Work] eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Standard</p> 
+   <p>Arbeta eller högre</p> </td> 
   </tr>
 
 <tr> 
@@ -115,7 +112,7 @@ Så här definierar du de statusvärden som är tillgängliga för den artikelpa
 
    ![Redigera team](assets/edit-team-settings-350x205.png)
 
-1. Gå till området **[!UICONTROL Story Board]** i avsnittet **[!UICONTROL Agile]**.
+1. Gå till området **[!UICONTROL Agile]** i avsnittet **[!UICONTROL Story Board]**.
 
 1. (Valfritt) Klicka på **[!UICONTROL Add Column]** om du vill lägga till ytterligare en statuskolumn på artikelpanelen.
 1. (Valfritt) Dra en statuskolumn med dra och släpp-indikatorn för att ändra ordningen på statuskolumnerna på artikelpanelen. Den första kolumnen kan inte flyttas och du kan inte dra en annan kolumn framför den första kolumnen.
@@ -138,7 +135,7 @@ Så här definierar du de statusvärden som är tillgängliga för den artikelpa
 
 ### Konfigurera statuskolumner för projekt {#configure-status-columns-for-projects}
 
-Mer information om hur du konfigurerar statuskolumner för ett projekt finns i avsnittet [Skapa eller anpassa en [!UICONTROL Agile] vy &#x200B;](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view) i artikeln [Skapa eller redigera vyer i  [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+Mer information om hur du konfigurerar statuskolumner för ett projekt finns i avsnittet [Skapa eller anpassa en [!UICONTROL Agile] vy ](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view) i artikeln [Skapa eller redigera vyer i  [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## Konfigurera ytterligare fält som ska visas på artikelkort på den flexibla artikelpanelen
 
@@ -200,7 +197,7 @@ Så här ändrar du hur färger tilldelas artiklar för ett smidigt team:
 1. I avsnittet [!UICONTROL Agile] i området [!UICONTROL Associate Card Color to] väljer du bland följande alternativ:
 
    * **[!UICONTROL Project]**: Färger är kopplade till projektet som artikeln är kopplad till. (När en artikel skapas måste den kopplas till ett projekt, vilket beskrivs i [Skapa en artikel](/help/quicksilver/agile/work-in-an-agile-environment/create-an-agile-story.md). Alla uppgifter från samma projekt visas med samma färg.
-   * **[!UICONTROL Free Form]**: Alla kort visas som blått som standard tills en användare ändrar färgen manuellt, enligt beskrivningen i [[!UICONTROL Categorize stories by color] på skärmtangentbordet &#x200B;](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md).
+   * **[!UICONTROL Free Form]**: Alla kort visas som blått som standard tills en användare ändrar färgen manuellt, enligt beskrivningen i [[!UICONTROL Categorize stories by color] på skärmtangentbordet ](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md).
    * **[!UICONTROL Priority]**: Färgerna är kopplade till artikelprioriteten enligt följande:
 
       * Hög = Röd

@@ -5,20 +5,19 @@ author: Alina
 draft: Probably
 feature: Workfront Scenario Planner
 exl-id: a6afe39f-1663-493d-a582-0a396ce138c2
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
 
 # Kom igång med [!DNL Scenario Planner]
 
-[!DNL Scenario Planner] kräver ytterligare en licens till [!DNL Adobe Workfront]-licensen. Mer information om Workfront [!DNL Scenario Planner] finns i [Översikt [!DNL Scenario Planner] Översikt](../scenario-planner/scenario-planner-overview.md).
-
 Du kan använda [!DNL Adobe Workfront Scenario Planner] för att skapa företagsplaner som ger en översikt över företagets övergripande strategiska resultat. Du kan definiera flera initiativ för en plan och placera dem i olika scenarier för att hitta den optimala lösningen för att genomföra planen.
 
 En översikt över [!DNL Workfront Scenario Planner] på hög nivå finns i [Översikt [!DNL Scenario Planner] Översikt](../scenario-planner/scenario-planner-overview.md).
+
 
 ## Metoder för att använda [!DNL Workfront Scenario Planner]
 

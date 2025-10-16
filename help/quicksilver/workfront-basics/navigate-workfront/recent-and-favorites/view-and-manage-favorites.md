@@ -6,9 +6,9 @@ description: Med Favoriter-menyn kan du snabbt komma åt objekt. Objekten finns 
 feature: Get Started with Workfront
 author: Courtney
 exl-id: bf9dc447-751c-4802-9e6a-ecd31538dba4
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,6 @@ På menyn [!UICONTROL Favorites] kan du komma åt objekt snabbt. Objekten finns 
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -32,15 +30,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td> <p>
-      <p>Nytt: Medarbetare eller högre<p>
-      <p>eller</p>
-      <p>Aktuell: Begäran eller senare</p> </td> 
+      <p>Medarbetare eller högre<p>
+      <p>Begäran eller senare</td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,7 +63,7 @@ Du kan lägga till senaste objekt eller den aktuella sidan på menyn [!UICONTROL
 
 ### Lägg till senaste objekt som favorit
 
-1. Klicka på ikonen **[!UICONTROL Recents]** ![Senaste &#x200B;](assets/recents-icon-40x43.png) i det övre högra hörnet på en sida i den nya [!DNL Adobe Workfront]-upplevelsen.
+1. Klicka på ikonen **[!UICONTROL Recents]** ![Senaste ](assets/recents-icon-40x43.png) i det övre högra hörnet på en sida i den nya [!DNL Adobe Workfront]-upplevelsen.
 1. Klicka på stjärnan i linje med det objekt du vill spara som favorit. Det senaste objektet visas på menyn **Favoriter**.
 
    ![Favorit ett nyligen använt objekt](assets/recents-section.png)

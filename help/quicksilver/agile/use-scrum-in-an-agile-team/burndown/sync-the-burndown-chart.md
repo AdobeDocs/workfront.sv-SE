@@ -6,9 +6,9 @@ description: Nedladdningsschemat synkroniseras automatiskt med data i ditt proje
 author: Lisa
 feature: Agile
 exl-id: 39086d73-4835-4e15-8fa6-7a7efc48a38b
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ Nedladdningsschemat synkroniseras automatiskt med data i ditt projekt eller din 
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -30,14 +28,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td> <p>Nytt: [!UICONTROL Light] eller senare</p> 
-   eller
-   <p>Aktuell: [!UICONTROL Review] eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Ljus eller högre</p> 
+   <p>Granska eller högre</p> </td> 
   </tr>
  </tbody> 
 </table>

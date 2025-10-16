@@ -6,18 +6,20 @@ description: Giltighetstiden för en utgåva är antalet dagar mellan det planer
 author: Alina
 feature: Work Management
 exl-id: 5a8f7c74-21e4-4e90-bb55-b4ff6e35a751
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
 
 # Översikt över problemvaraktighet
 
+<!--Audited: 08/2025-->
+
 Giltighetstiden för en utgåva är antalet dagar mellan det planerade startdatumet och det planerade slutförandedatumet för utgåvan.
 
-Giltighetstiden för en utgåva beräknas automatiskt av Adobe Workfront och kan inte ändras manuellt.
+Adobe Workfront beräknar automatiskt problemets varaktighet och kan inte ändras manuellt.
 
 Du kan visa varaktigheten för ett problem i en problemrapport eller i en lista över problem.
 

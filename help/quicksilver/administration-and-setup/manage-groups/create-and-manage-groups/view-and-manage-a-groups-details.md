@@ -5,9 +5,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: edd2c58a-f912-4638-b6a3-ff3b1b622f48
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -20,56 +20,35 @@ Du kan visa och redigera sidan Gruppinformation för en grupp eller undergrupp s
 * Namn på företagsledare och gruppadministratörer
 * Ett alternativ som gör att du kan göra gruppen och dess undergrupper offentliga eller privata
 
-  <!--
-  <li>An option that allows you to deactivate or reactivate a group and its subgroups.
-  DRAFTED IN FLARE:
-  Make this change when Callisto adds the
-  <b>Is active</b>
-   option to the Details pag
-  </li>
-  -->
-
 Mer information om andra sätt att hantera en grupp finns i [Skapa en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 Mer information om hur du kan inaktivera eller återaktivera en grupp finns i [Inaktivera eller återaktivera en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
 
-<!--
-DRAFTED IN FLARE:
-Delete this paragraph when Callisto adds the
-<b>Is active</b>
- option to the Details pag
--->
-
 ## Åtkomstkrav
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td>Alla</td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
+   <td>Adobe Workfront-licens</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td><p>Nytt: Standard</p>
-       <p>eller</p>
-       <p>Aktuell: Planera</p></td>
-  </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td>Konfigurationer på åtkomstnivå</td> 
    <td>Du måste vara gruppadministratör för gruppen eller systemadministratör.</td>
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

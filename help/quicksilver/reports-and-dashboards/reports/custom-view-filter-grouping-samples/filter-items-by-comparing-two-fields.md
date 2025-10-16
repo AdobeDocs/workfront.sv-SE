@@ -7,9 +7,9 @@ description: Du kan filtrera objekt från en lista genom att jämföra två av d
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 6a41db8e-1456-4031-bf2a-ca6d4111ad44
-source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -22,28 +22,21 @@ Du kan filtrera objekt från en lista genom att jämföra två av deras fält. D
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td> 
-    <p>Nytt:</p>
-   <ul><li><p>Medarbetare som ändrar ett filter </p></li>
-   <li><p>Standard för att ändra en rapport</p></li> </ul>
-
-<p>Aktuell:</p>
-   <ul><li><p>Begäran om att ändra ett filter </p></li>
-   <li><p>Planera att ändra en rapport</p></li> </ul></td> 
+   <p>Medarbetare eller begäran om att ändra ett filter </p>
+   <p>Standard eller Plan för att ändra en rapport</p>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -56,7 +49,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,7 +58,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Gå till en lista med uppgifter.
 1. Välj **Nytt filter** i listrutan **Filter**.
 
-1. Lägg till ett filter för **aktiviteten:Faktiskt slutförandedatum** > **Större än** > **Välj ett datum**.
+1. Lägg till ett filter för **aktiviteten:Actual Slutförandedatum** > **Större än** > **Välj ett datum**.
 
    >[!TIP]
    >

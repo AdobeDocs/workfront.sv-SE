@@ -6,9 +6,9 @@ description: Du kan redigera uppgiftsinformation i en lista med uppgifter genom 
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
 workflow-type: tm+mt
-source-wordcount: '2822'
+source-wordcount: '2764'
 ht-degree: 0%
 
 ---
@@ -28,29 +28,55 @@ Du kan redigera uppgiftsinformation i en lista med uppgifter genom att redigera 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Nytt: Standard<p>
-   <p>Aktuell: Arbete eller högre</p>
+   <td> <p>Standard<p>
+   <p>Arbeta eller högre</p>
     </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Redigera åtkomst till uppgifter och projekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till uppgifter och projekt</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Contribute eller högre behörigheter för aktiviteten och projektet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Contribute eller högre behörigheter för aktiviteten och projektet</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++ 
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Standard<p>
+   <p>Current: Work or higher</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Tasks and&nbsp;Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Contribute or higher permissions to the task and the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Att tänka på när du redigerar uppgifter i en lista {#considerations-about-editing-tasks-in-a-list}
 
@@ -258,9 +284,9 @@ Så här redigerar du uppgifter i en lista när du väljer alternativet Spara st
 
 1. Tryck på **Enter** (Windows) eller **Return** (Mac) på tangentbordet om du vill spara ändringarna tillfälligt.
 
-1. (Valfritt) Klicka på ikonen **Ångra** ![Ångra &#x200B;](assets/undo-icon-on-task-list.png) om du vill ångra en ändring och återställa ett fält till det ursprungliga läget.
+1. (Valfritt) Klicka på ikonen **Ångra** ![Ångra ](assets/undo-icon-on-task-list.png) om du vill ångra en ändring och återställa ett fält till det ursprungliga läget.
 
-1. (Valfritt och villkorligt) Klicka på ikonen **Gör om** ![Gör om &#x200B;](assets/redo-icon-on-task-list.png) för att återställa den ändring du ångrat.
+1. (Valfritt och villkorligt) Klicka på ikonen **Gör om** ![Gör om ](assets/redo-icon-on-task-list.png) för att återställa den ändring du ångrat.
 
 1. (Valfritt) Högerklicka på en uppgift som du vill ändra.
 
@@ -367,8 +393,8 @@ Så här redigerar du uppgifter i en lista när du använder alternativet Spara 
 1. Redigera fält som du har behörighet att uppdatera manuellt.
 
 1. Tryck på **Enter** (Windows) eller **Return** (Mac) på tangentbordet om du vill spara ändringarna tillfälligt.
-1. (Valfritt) Klicka på ikonen **Ångra** ![Ångra &#x200B;](assets/undo-icon-on-task-list.png) om du vill ångra en ändring och återställa ett fält till det ursprungliga läget.
-1. (Valfritt och villkorligt) Klicka på ikonen **Gör om** ![Gör om &#x200B;](assets/redo-icon-on-task-list.png) för att återskapa den ändring du ångrat.
+1. (Valfritt) Klicka på ikonen **Ångra** ![Ångra ](assets/undo-icon-on-task-list.png) om du vill ångra en ändring och återställa ett fält till det ursprungliga läget.
+1. (Valfritt och villkorligt) Klicka på ikonen **Gör om** ![Gör om ](assets/redo-icon-on-task-list.png) för att återskapa den ändring du ångrat.
 
 1. (Valfritt) Högerklicka på en uppgift som du vill ändra.
 

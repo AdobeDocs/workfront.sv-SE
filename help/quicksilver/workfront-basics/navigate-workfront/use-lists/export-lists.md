@@ -5,9 +5,9 @@ description: Du kan exportera en lista med objekt från Adobe Workfront. När ob
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 31159d6d-f03a-4f84-a454-25a232971441
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -22,28 +22,22 @@ Mer information om exportformat och begränsningar finns i [Exportera data](../.
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td> 
-    <p>Nytt:</p>
-   <ul><li><p>Medarbetare eller högre </p></li>
-   </ul>
-
-<p>Aktuell:</p>
-   <ul><li><p>Begäran eller senare</p></li>
-    </ul></td> 
+   <p>Medarbetare eller högre </p>
+   <p>Begäran eller senare</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -56,7 +50,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -3,10 +3,10 @@ content-type: overview
 navigation-topic: business-case-and-scorecards
 title: Översikt över finansiella fält för ärenden
 description: Underfliken Affärsärende innehåller finansiella fält för projektet. För att vissa av de finansiella fälten ska få sina värden måste motsvarande områden i affärsärendet fyllas i.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: d420fc3e-e98d-47a0-a456-b2df17d72f34
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 0%

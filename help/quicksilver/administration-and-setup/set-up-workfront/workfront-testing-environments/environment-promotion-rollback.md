@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 70f7e2a8-bb27-4546-afb7-53e0eec30bf1
-source-git-commit: 7e15301dae4b761d19c85a3581bfdb4540ed40fd
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -31,26 +31,26 @@ Du måste ha följande:
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] plan</strong>
+   <td>Adobe Workfront package
    </td>
-   <td> <p>Nytt: Prime eller Ultimate</p><p>eller</p><p>Aktuell: Inte tillgänglig</p>
+   <td> <p>Prime eller Ultimate</p>
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] licenser</strong>
+   <td><strong>Workfront-licenser</strong>
    </td>
-   <td> <p>[!UICONTROL Standard]</p><p>eller</p><p>Aktuell: Inte tillgänglig</p>
+   <td> <p>Standard</p>&gt;
    </td>
   </tr>
    <tr>
    <td>Konfigurationer på åtkomstnivå
    </td>
-   <td>Du måste vara en [!DNL Workfront]-administratör.
+   <td><p>Du måste vara Workfront-administratör.</p>
    </td>
   </tr>
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Förutsättningar
 

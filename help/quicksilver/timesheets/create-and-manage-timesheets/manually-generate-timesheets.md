@@ -3,12 +3,12 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Generera tidrapporter manuellt
 description: Om du vill aktivera ändringar som du har gjort i tidrapportprofilerna så att de återspeglar de aktuella tidrapporterna, måste du först ta bort de befintliga tidrapporterna och sedan generera nya manuellt. Du kan generera tidrapporter manuellt från tidrapporterna eller diagnostikområdet i installationsprogrammet, vilket förklaras i den här artikeln.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 316c270a-c64e-4d83-a035-4128abe33f87
-source-git-commit: 311816df863d3c03a54d43c8fa3cac69d2d6d7d4
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -21,28 +21,30 @@ Instruktioner om hur du tar bort tidrapporter finns i [Ta bort tidrapporter i Ad
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td> <p>Alla</p> </td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Adobe Workfront-licens</td> 
+   <td>
+   <p>Standard</p>
+   <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Du måste vara Workfront-administratör eller, om du arbetar med tidrapportprofiler för en grupp, du måste vara gruppadministratör (eller Workfront-administratör). Mer information finns i <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a>.</p> <p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td>Konfigurationer på åtkomstnivå</td> 
+   <td><p>Du måste vara Workfront-administratör eller, om du arbetar med tidrapportprofiler för en grupp, du måste vara gruppadministratör (eller Workfront-administratör).</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

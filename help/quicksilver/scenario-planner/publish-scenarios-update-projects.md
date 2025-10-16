@@ -2,14 +2,14 @@
 product-area: enterprise-scenario-planner-product-area
 keywords: publicera,planer,projekt,scenario,scenarier
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Uppdatera eller skapa projekt genom att publicera initiativ i Scenarioplanen
+title: Uppdatera eller skapa projekt med hjälp av publiceringsinitiativ i scenarioplaneraren
 description: Du kan skapa projekt från befintliga initiativ och uppdatera projekt som tidigare länkats till initiativ genom att publicera scenarier i Adobe Workfront Scenarioplan.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
-source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
+source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1583'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,47 @@ Publicering av ett scenario från [!DNL Adobe Workfront Scenario Planner] ger f�
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] package</p> </td> 
+   <td> 
+   <p>Workfront Ultimate</p>
+<p><b>ANMÄRKNING</b></p>
+<p>Kontakta Workfront om du har ett annat Workfront-paket.</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] licens</p> </td> 
+   <td> <p>[!UICONTROL Light] eller högre</p> 
+   <p>[!UICONTROL Review] eller högre</p> </td> 
+  </tr> 
+    <tr> 
+   <td>Konfigurationer på åtkomstnivå</td> 
+   <td> <p>[!UICONTROL Edit] åtkomst för [!DNL Scenario Planner] och [!UICONTROL Projects]</p></td> 
+  </tr> 
+  <tr> 
+   <td> <p>Objektbehörigheter </p> </td> 
+   <td> <ul> 
+     <li>[!UICONTROL Manage] behörigheter för planen </li> 
+     <li>[!UICONTROL Manage] behörigheter för publicerade projekt</li> 
+    </ul>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Mer information om åtkomst till scenarioplanen finns i [Åtkomst krävs för att använda  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+
+Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav för Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,41 +72,38 @@ Publicering av ett scenario från [!DNL Adobe Workfront Scenario Planner] ger f�
   <tr> 
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
-   <li><p>Nytt: Ultimate </p></li>
-   <p>Scenarioplanen är inte tillgänglig för nya Workfront Select- eller Workfront Prime-planer. </p>
-   <li><p>Aktuell: [!UICONTROL Business] eller högre</p></ul>
+   <li><p>New: Ultimate </p></li>
+   <p>The Scenario Planner is not available for the new Workfront Select or Workfront Prime plans. </p>
+   <li><p>Current: [!UICONTROL Business] or higher</p></ul>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] licens*</p> </td> 
-   <td> <p>Nytt: Ljus eller högre</p> 
-   <p>Aktuell: [!UICONTROL Review] eller högre</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>New: Light or higher</p> 
+   <p>Current: [!UICONTROL Review] or higher</p> </td> 
   </tr> 
   <tr> 
-   <td>Produkt* </td> 
-   <td> <ul><li><p>För nya Workfront-planer:</p><p> Adobe Workfront</li></p>
-   <li><p>För nuvarande Workfront-planer: </p>
+   <td>Product* </td> 
+   <td> <ul><li><p>For the new Workfront plans:</p><p> Adobe Workfront</li></p>
+   <li><p>For the current Workfront plans: </p>
    <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
-
-<p>Mer information finns i <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Åtkomst krävs för att använda [!DNL Scenario Planner]</a>. </p> </td> 
+   
+   <p>For more information, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Åtkomstnivå </td> 
-   <td> <p>[!UICONTROL Edit] åtkomst för [!DNL Scenario Planner] och [!UICONTROL Projects]</p></td> 
+   <td>Access level </td> 
+   <td> <p>[!UICONTROL Edit] access for the [!DNL Scenario Planner] and [!UICONTROL Projects]</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>Objektbehörigheter </p> </td> 
+   <td> <p>Object permissions </p> </td> 
    <td>  <ul> 
-     <li>[!UICONTROL Manage] behörigheter för planen </li> 
-     <li>[!UICONTROL Manage] behörigheter för publicerade projekt</li> 
-    </ul> <p>Mer information om hur du begär ytterligare åtkomst till en plan finns i <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Begär åtkomst till en plan i [!DNL Scenario Planner]</a>.</p> </td> 
+     <li>[!UICONTROL Manage] permissions for the plan </li> 
+     <li>[!UICONTROL Manage] permissions for published projects</li> 
+    </ul> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
+</table>-->
 
-*Mer information finns i [Åtkomstkrav för Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
 
 ## Förutsättningar
 
@@ -179,7 +216,7 @@ Innan du börjar:
 
    ![Initiativfilter](assets/initiatives-fitler-in-publishing-screen-scenario-planner.png)
 
-1. (Valfritt) Klicka på ikonen **[!UICONTROL Search]** ![&#x200B; Sök &#x200B;](assets/search-icon.png) och börja skriva namnet på ett initiativ för att snabbt hitta det i listan.
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Search]** ![ Sök ](assets/search-icon.png) och börja skriva namnet på ett initiativ för att snabbt hitta det i listan.
 1. Välj en eller flera initiativ att publicera och skapa eller uppdatera projekt från dem och klicka sedan på **[!UICONTROL Publish initiatives]**.
 
    Detta skapar ett nytt projekt från varje vald initiativ eller uppdaterar befintliga kopplade projekt, om de publicerade initiativen redan var kopplade till ett projekt.
@@ -229,7 +266,7 @@ Innan du börjar:
        </tr> 
        <tr> 
         <td role="rowheader"><span>[!UICONTROL Initiative Job Roles in FTEs and Hours]</span> </td> 
-        <td> <p>Information om de associerade jobbrollerna och deras tidsfördelningar för initiativet. Detta omfattar följande:</p> 
+        <td> <p>Information om de associerade jobbrollerna och deras tidsfördelningar för initiativet. Detta inkluderar:</p> 
          <ul> 
           <li>Jobbrollsnamn</li> 
           <li>Antal heltidsanställda</li> 
@@ -249,7 +286,7 @@ Innan du börjar:
      >   
      >   
      >   * Mer information om hur du lägger till eller tar bort områden i avsnittet [!UICONTROL Details] med hjälp av en layoutmall finns i [Anpassa vyn [!UICONTROL Details] med hjälp av en layoutmall](../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
-     >   * Mer information om hur du visar information i området [!UICONTROL Overview] i [!UICONTROL Project Details] finns i [[!UICONTROL Manage] -information i projektområdet [!UICONTROL Overview] &#x200B;](../manage-work/projects/manage-projects/understand-project-overview-area.md).
+     >   * Mer information om hur du visar information i området [!UICONTROL Overview] i [!UICONTROL Project Details] finns i [[!UICONTROL Manage] -information i projektområdet [!UICONTROL Overview] ](../manage-work/projects/manage-projects/understand-project-overview-area.md).
      >   
      >
 

@@ -1,7 +1,7 @@
 ---
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
 workflow-type: tm+mt
-source-wordcount: '2474'
+source-wordcount: '2433'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Du kan kontrollera att du associerar rätt grupp med gruppen genom att hålla ma
 
 ## Steg 1 - Gå till användare {#step-1-to-users}
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Users]** ![Användare &#x200B;](/help/_includes/assets/users-icon-in-main-menu.png) .
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Users]** ![Användare ](/help/_includes/assets/users-icon-in-main-menu.png) .
 
 
 <!-- Agile -->
@@ -289,15 +289,24 @@ Du måste installera rätt plugin-program för det Adobe Creative Cloud-program 
 >
 >Informationen i den här artikeln handlar om Adobe Workfront Planning, en extrafunktion från Adobe Workfront.
 >
->Du måste ha följande för att få tillgång till Workfront Planning:
->
->* Ett nytt Workfront-paket och en ny licens. Workfront Planning är inte tillgängligt för tidigare Workfront-paket eller licenser.
->* Ett Workfront Planning-paket.
->* Din organisations instans av Workfront måste integreras med Adobe Unified Experience.
->
-> En fullständig lista över krav för åtkomst till Workfront Planning finns i [Åtkomstöversikt](/help/quicksilver/planning/access/access-overview.md).
+>En lista över krav för åtkomst till Workfront Planning finns i [Åtkomstöversikt för Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 > 
 >Mer information om Workfront Planning finns i [Översikt över Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+
+<!--Old - before Oct. 15, 2025:
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
+>
+>You must have the following to access Workfront Planning:
+>
+>* A new Workfront package and license. Workfront Planning is not available for legacy Workfront packages or licenses. 
+>* A Workfront Planning package. 
+>* Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.
+>
+> For a complete list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
+> 
+>For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).-->
 
 <!--OLD: 
 >[!IMPORTANT]

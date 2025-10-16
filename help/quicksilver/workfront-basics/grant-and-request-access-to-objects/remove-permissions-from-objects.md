@@ -6,9 +6,9 @@ description: Du kan ta bort andra användares behörigheter för objekt som du h
 author: Alina
 feature: Get Started with Workfront
 exl-id: 8e191b5e-31df-4291-8b9d-9ca69be27561
-source-git-commit: ce7b475dbd11f9cfd7fcf9879c0f34bf993f9113
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -23,31 +23,21 @@ Liknande överväganden som för att dela objekt gäller för borttagning av beh
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
-
-
-Du måste ha följande för att kunna dela objekt:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront-licens*</td> 
-   <td> <p>Ny licens: Medarbetare eller högre</p>
-   eller  
-   <p>Aktuell licens: Begär eller högre</p>
-   <p><b>ANMÄRKNING</b></p>
-
-<p>Vissa objekt kräver högre åtkomst än Request. </p>
-
-<p>För den nya licensen kan till exempel en medarbetare dela problem, men bara standardlicensanvändare kan dela ett projekt.</p>
-
-<p>För den aktuella licensen kan en begärande dela utgåvor, men bara arbetare eller planerare kan dela ett projekt.</p> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Medarbetare eller högre</p> 
+   <p>Begäran eller senare</p>
+   <p><strong>Obs!</strong> Vissa objekt kräver högre åtkomst än Request.</p>
    </td> 
   </tr> 
   <tr> 
@@ -57,11 +47,11 @@ Du måste ha följande för att kunna dela objekt:
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
    <td> <p>Visa behörigheter eller högre för de objekt som du vill dela</p> <p>Hantera behörigheter för att ta bort ärvda behörigheter för objekt</p>  </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav för Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -83,7 +73,7 @@ Du kan ta bort enheter (användare, jobbroller, team, grupper, företag) från d
 
       ![ta bort behörighet](assets/remove-permissions-on-portfolio.png)
 
-   1. I listrutan **för**&#x200B;[ användarnamnet]s åtkomst till Workfront tas bort. Välj om du vill att deras åtkomst ska tas bort från det markerade objektet eller från alla underordnade objekt som är kopplade till det.
+   1. I listrutan **[för ]användarnamnet** s åtkomst till Workfront tas bort. Välj om du vill att deras åtkomst ska tas bort från det markerade objektet eller från alla underordnade objekt som är kopplade till det.
 
 1. (Villkorligt) Gör följande för projekt, uppgifter och ärenden:
 

@@ -1,12 +1,12 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: Uppdatera automatiskt utskicksstatus från Väntar på feedback till Pågår
+title: Uppdatera automatiskt utskicksstatus från väntar på feedback till Pågår
 description: När den primära kontakten för ett problem gör en uppdatering av problemet genom att antingen uppdatera ett fält (inklusive ett anpassat fält) eller lägga till en kommentar, uppdateras ärendets status automatiskt.
 author: Alina
 feature: Work Management
 exl-id: f94bb644-910f-4b46-80fd-fecbdf9cb18a
-source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
+source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%

@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: df10bc8f-b980-4c61-ae6d-bcea03103738
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 5fd855bec596926a4361fd07a1a763c7956e5e61
 workflow-type: tm+mt
-source-wordcount: '1764'
+source-wordcount: '1749'
 ht-degree: 0%
 
 ---
@@ -23,26 +23,23 @@ Du kan konfigurera information om en plan innan du installerar den. Plantyper f�
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td>
-   <p>Nytt: Standard</p>
-   <p>eller</p>
-   <p>Aktuell: Planera</p></td> 
+   <p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td>Du måste vara en [!DNL Workfront]-administratör. </td> 
+   <td>Workfront-administratör </td> 
   </tr> 
  </tbody> 
 </table>
@@ -85,7 +82,7 @@ Välj hur du vill installera mallen.
 
 Du kan också ange mallägandeskap innan du installerar ritningen. Du kan ändra de här fälten när mallen har installerats. Mer information finns i [Redigera projektmallar](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-![[!UICONTROL Template Preferences] avsnitt &#x200B;](assets/Blueprints_TemplatePreferences.png)
+![[!UICONTROL Template Preferences] avsnitt ](assets/Blueprints_TemplatePreferences.png)
 
 1. Ange ett nytt mallnamn i avsnittet [!UICONTROL Template Preferences].
 1. Ange följande:
@@ -157,7 +154,7 @@ Vissa mallar innehåller förskrivna jobbroller. Med jobbroller kan du tilldela 
 
 Planen söker efter rollnamnet för att se om några befintliga roller matchar. Sökningen är skiftlägeskänslig, så namnen måste vara en exakt matchning. Om inga befintliga roller matchar kan du skapa dem i en plan.
 
-![[!UICONTROL Role Mapping] avsnitt &#x200B;](assets/Blueprints_RoleMapping.png)
+![[!UICONTROL Role Mapping] avsnitt ](assets/Blueprints_RoleMapping.png)
 
 1. Om det finns en roll kan du välja något av följande alternativ:
 
@@ -188,7 +185,7 @@ Vissa mallar innehåller förskrivna team. Arbetet som tilldelats ett team kan u
 
 Planen söker efter teamets namn för att se om några befintliga team matchar. Sökningen är skiftlägeskänslig, så namnen måste vara en exakt matchning. Om inga befintliga team matchar kan du skapa dem i en plan.
 
-![[!UICONTROL Team Mapping] avsnitt &#x200B;](assets/Blueprints_TeamMapping.png)
+![[!UICONTROL Team Mapping] avsnitt ](assets/Blueprints_TeamMapping.png)
 
 1. Om ett team finns kan du välja något av följande alternativ:
 
@@ -219,7 +216,7 @@ Vissa ritningar innehåller förskrivna företag. Ett företag är en organisati
 
 Planen söker efter företagsnamnet för att se om några befintliga företag matchar. Sökningen är skiftlägeskänslig, så namnen måste vara en exakt matchning. Om inga befintliga företag matchar kan du skapa en plan för dem. Det primära företaget i planen mappas till det primära företaget i din miljö, även om de inte har samma namn.
 
-![[!UICONTROL Company Mapping] avsnitt &#x200B;](assets/Blueprints_CompanyMapping.png)
+![[!UICONTROL Company Mapping] avsnitt ](assets/Blueprints_CompanyMapping.png)
 
 1. Om det finns ett företag kan du välja något av följande alternativ:
 
@@ -254,7 +251,7 @@ Vissa utkast innehåller förskrivna grupper. En grupp är en grupp användare s
 
 Planen söker efter gruppnamnet för att se om några befintliga grupper matchar. Sökningen är skiftlägeskänslig, så namnen måste vara en exakt matchning. Om inga befintliga grupper matchar kan du skapa dem i planen.
 
-![[!UICONTROL Group Mapping] avsnitt &#x200B;](assets/Blueprints_GroupMapping.png)
+![[!UICONTROL Group Mapping] avsnitt ](assets/Blueprints_GroupMapping.png)
 
 1. Om det finns en grupp kan du markera **[!UICONTROL Remap Group]** och välja något av följande alternativ:
 

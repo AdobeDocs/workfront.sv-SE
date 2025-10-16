@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: business-case-and-scorecards
 title: Skapa och redigera risker i projekt
 description: Risker är tänkbara händelser eller faktorer som förhindrar att ett projekt slutförs i tid eller inom budgeten. Du kan registrera projektrisker som en del av skapandet av ett projekts affärsfall eller genom att använda fliken Risker. Du kan lägga till risker i projekt och mallar. Du kan inte associera risker med uppgifter eller ärenden.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,6 @@ Risker kan kopplas till kostnad, men den faktiska riskkostnaden påverkar inte p
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
@@ -44,17 +42,15 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
-   <td> <p>Aktuella planer:</p>
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <ul><li>Alla planer, för att lägga till risker i projektets riskområde</p></li>
    <li><p>Prime eller senare, för att lägga till risker i projektets affärsärende</p></li></ul>
-   <p>Äldre planer: Alla planer</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
-   <td> <p>Aktuell: Standard </p>
-   <p>Äldre: Planera </p> </td> 
+   <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
+   <td> <p>Standard </p>
+   <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td> 
@@ -67,7 +63,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 

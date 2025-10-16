@@ -3,19 +3,19 @@ product-area: timesheets;setup
 navigation-topic: configure-timesheet-preferences
 title: Konfigurera om tid är inloggad i timmar eller dagar
 description: Som användare med en planlicens kan du konfigurera om du ska logga in i Adobe Workfront i timmar eller dagar. Systemadministratörer kan konfigurera den här inställningen för enskilda användare eller för flera användare i organisationen. Som standard loggar användarna tid i timmar.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 4f801a13-182d-4e06-98ea-f6863f6a8edf
-source-git-commit: 106ef838bfee5e496cae864eca5c19fd12fdd18e
+source-git-commit: b0a3a11a3c04a0969bee99f8e1cea231911f0e6a
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
 
 # Konfigurera om tid är inloggad i timmar eller dagar
 
-Som användare med en planerarlicens kan du konfigurera om du ska logga in i Adobe Workfront i timmar eller dagar. Systemadministratörer kan konfigurera den här inställningen för enskilda användare eller för flera användare i organisationen. Som standard loggar användarna tid i timmar. Mer information om hur du loggar tid i Workfront finns i [Loggtid](../../timesheets/create-and-manage-timesheets/log-time.md).
+Som användare med en Standard- eller Plan-licens kan du konfigurera om du ska logga in i Adobe Workfront i timmar eller dagar. Systemadministratörer kan konfigurera den här inställningen för enskilda användare eller för flera användare i organisationen. Som standard loggar användarna tid i timmar. Mer information om hur du loggar tid i Workfront finns i [Loggtid](../../timesheets/create-and-manage-timesheets/log-time.md).
 
 >[!NOTE]
 >
@@ -23,34 +23,36 @@ Som användare med en planerarlicens kan du konfigurera om du ska logga in i Ado
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- </col> 
- <col> 
- </col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Alla</p> </td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Adobe Workfront-licens</td> 
+   <td>
+   <p>Standard</p>
+   <p>Plan</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Planerare kan konfigurera tiden för sig själva. Endast en Workfront-administratör kan konfigurera tiden för andra användare.</p> </td> 
+  <tr> 
+   <td>Konfigurationer på åtkomstnivå</td> 
+   <td><p>Standard- och Plan-användare kan konfigurera tiden för sig själva. Endast en Workfront-administratör kan konfigurera tiden för andra användare.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 1. Gör något av följande, beroende på ditt mål och din åtkomstnivå i systemet:
 
-   * **Planeringsanvändare konfigurerar tidsloggning för sig själv:** Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på ditt användarnamn bredvid din profilbild. Klicka sedan på ikonen **Mer** bredvid ditt namn och välj **Redigera**.
+   * **Standardanvändare eller plananvändare som konfigurerar tidsloggning för sig själv:** Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på ditt användarnamn bredvid din profilbild. Eller (om det är tillgängligt) klicka på din profilbild i det övre navigeringsområdet och klicka sedan på **[!UICONTROL Workfront Profile]**. Klicka sedan på ikonen **Mer** bredvid ditt namn och välj **Redigera**.
 
    * **Systemadministratören konfigurerar tidsloggning för andra:** Börja redigera ett eller flera användarkonton, enligt beskrivningen i [Redigera en användares profil](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
@@ -58,7 +60,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    ![Logga in med alternativ](assets/user-profile-log-time-options.png)
 
-1. (Villkorligt) Om du är systemadministratör och redigerar flera användare samtidigt väljer du **Logga in**.
 1. Välj bland följande alternativ för loggningstid:
 
    | Alternativ | Beskrivning |

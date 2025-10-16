@@ -2,19 +2,19 @@
 content-type: reference
 product-area: user-management;agile-and-teams
 navigation-topic: work-with-groups-and-teams
-title: Grupper kontra team i Adobe Workfront
-description: Grupper och team är samlingar med användare i Adobe Workfront.
+title: Grupper kontra team i Workfront
+description: Grupper och team är samlingar med användare i Adobe Workfront. Lär dig mer om skillnaderna och likheterna mellan grupper och team.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 28eb1967-390b-4500-abfc-8ed68ff14a16
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 722295463c1338a70ff42c26acf69b09cf33f725
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
 
-# Grupper kontra team i [!DNL Adobe Workfront]
+# Grupper kontra team i Workfront
 
 <!-- Audited: 12/2023 -->
 
@@ -36,7 +36,7 @@ Mer information om hur du skapar och hanterar grupper finns i [Skapa en grupp](.
 
 Vi rekommenderar att du konfigurerar team så att de matchar den dagliga arbetsstrukturen i avdelningsteamen.
 
-Du kan till exempel ha ett löneteam, en leverantörsreskontra och ett kundreskontrateam. Vanligtvis arbetar personer i var och en av dessa team med projekt, uppgifter eller frågor som är liknande för dessa team.
+Du kan t.ex. ha ett löneteam, ett kundtjänstteam och ett kundtjänstteam. Vanligtvis arbetar personer i var och en av dessa team med projekt, uppgifter eller frågor som är liknande för dessa team.
 
 Mer information om att skapa och hantera team finns i [Skapa och hantera team](../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md).
 

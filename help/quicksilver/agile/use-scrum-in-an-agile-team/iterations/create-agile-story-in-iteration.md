@@ -6,9 +6,9 @@ description: I den här artikeln beskrivs hur du skapar en ny, flexibel artikel 
 author: Lisa
 feature: Agile
 exl-id: 9712e065-5fbf-4deb-a39f-36e0e918ed12
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -21,23 +21,20 @@ I den här artikeln beskrivs hur du skapar en ny, flexibel artikel när du redan
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td> <p>Nytt: [!UICONTROL Standard]</p> 
-   eller
-   <p>Aktuell: [!UICONTROL Work] eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Standard</p> 
+   <p>Arbeta eller högre</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td>[!UICONTROL Manage] åtkomst till det projekt som artikeln är på </td> 
+   <td>Hantera åtkomst till det projekt som artikeln är på </td> 
   </tr>
  </tbody> 
 </table>

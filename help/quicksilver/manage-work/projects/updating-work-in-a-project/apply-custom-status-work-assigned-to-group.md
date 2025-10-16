@@ -1,14 +1,14 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: Tillämpa statusvärden på arbete som är associerat med en grupp
+title: Använd status för arbete som är associerat med en grupp
 description: Om ett projekt är associerat med en grupp kan du använda både systemnivåstatusvärden och en anpassad status som är associerad med den gruppen för projektet, uppgiften eller problemen i det projektet.
 author: Alina
 feature: Work Management
 exl-id: 7564ab6a-8ddf-4e76-8e45-d59f9cf8d38b
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,37 @@ Om ett projekt är associerat med en grupp kan du använda både systemnivåstat
 
 ## Åtkomstkrav
 
-<!--drafted for P&P:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Alla</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Standard</p>
+   <p>Plan</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till projekt</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objektbehörigheter</td> 
+   <td> <p>Hantera behörigheter för projektet</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -39,10 +68,7 @@ Om ett projekt är associerat med en grupp kan du använda både systemnivåstat
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p> 
-   </td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -55,37 +81,7 @@ Om ett projekt är associerat med en grupp kan du använda både systemnivåstat
    <td> <p>Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
--->
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Alla</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till projekt</p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr> 
-  <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter för projektet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+</table>-->
 
 ## Uppdatera projektgrupp och status
 
@@ -103,7 +99,7 @@ När du uppdaterar gruppen för ett projekt ändras alternativen som är tillgä
    >Om du väljer en annan grupp i den nedrullningsbara menyn **Grupp** ändras de anpassade statusarna på menyn **Status** automatiskt så att de korrelerar med den nya gruppen.
    >
    >
-   >![Listrutan Status utökad med anpassade statusvärden för projektet](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)   >
+   >![Listrutan Status utökad med anpassade statusvärden för projektet](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)
    >
 
 1. Välj status för projektet. De anpassade statusvärden som du skapade och tillämpade på den gruppen visas i listan.

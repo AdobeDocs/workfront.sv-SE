@@ -5,9 +5,9 @@ description: Adobe Workfront skickar meddelanden om objekt som du har tilldelats
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
-source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
+source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1496'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Mer information om att arbeta med prenumerationer finns i [Om att arbeta med pre
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,16 +43,18 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>[!UICONTROL Adobe Workfront] package</strong></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>[!UICONTROL Request] eller högre</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens</strong></td> 
+   <td> 
+   <p>Medarbetare eller högre</p>
+   <p>Begäran eller senare</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>Om [!DNL Workfront]-administratören har aktiverat <strong>[!UICONTROL View only updates in which they have been included in the conversation]</strong> på din åtkomstnivå kan du inte prenumerera på objekt i [!DNL Workfront].</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!UICONTROL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!UICONTROL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå</strong></td> 
+   <td> <p>Om [!DNL Workfront]-administratören har aktiverat <strong>[!UICONTROL View only updates in which they have been included in the conversation]</strong> på din åtkomstnivå kan du inte prenumerera på objekt i [!DNL Workfront].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
@@ -61,7 +63,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prenumerera på ett objekt
 
@@ -102,7 +106,7 @@ Så här säger du upp prenumerationen på ett ärende:
    >
    >Om du vill avbryta prenumerationen på projekt kan du göra något av följande:
    >
-   >* Gå till det projekt du vill avbryta prenumerationen på och klicka på ikonen **[!UICONTROL More]** ![Mer &#x200B;](assets/qs-more-menu.png) till höger om projektnamnet. Klicka sedan på **[!UICONTROL Unsubscribe]**.
+   >* Gå till det projekt du vill avbryta prenumerationen på och klicka på ikonen **[!UICONTROL More]** ![Mer ](assets/qs-more-menu.png) till höger om projektnamnet. Klicka sedan på **[!UICONTROL Unsubscribe]**.
    >* Gå till en projektlista eller rapport och välj ett projekt, klicka på ikonen **[!UICONTROL More]** ![Mer](assets/qs-more-menu.png) högst upp i listan och klicka sedan på **[!UICONTROL Unsubscribe]**. Det här är bara tillgängligt i en lista med projekt.
 
 1. Klicka på **[!UICONTROL More]** ![Mer ikon](assets/more-icon.png) och sedan på **[!UICONTROL Unsubscribe]**.

@@ -2,15 +2,15 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: 'Uppgiftsinformation: artikelindex'
+title: 'Uppgiftsinformation: Artikelindex'
 description: Uppgifter är arbetsuppgifter som bidrar till slutförandet av ett projekt i Adobe Workfront. Läs mer om uppgiftsinformation i följande artiklar.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 2c0e7f40-f680-4e7e-8827-be69703a393f
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!-- Audited: 5/2025 -->
 
-Det här avsnittet innehåller följande artiklar:
+Uppgifter är arbetsuppgifter som bidrar till slutförandet av ett projekt i Adobe Workfront. Läs mer om uppgiftsinformation i följande artiklar:
 
 * [Aktivitetsöversikt](../../../manage-work/tasks/task-information/tasks-overview.md)
 * [Visa faktiska timmar](../../../manage-work/tasks/task-information/actual-hours.md)
@@ -33,7 +33,7 @@ Det här avsnittet innehåller följande artiklar:
 * [Översikt över aktiviteten Planerat slutförandedatum](../../../manage-work/tasks/task-information/task-planned-completion-date.md)
 * [Aktivitetens leveransdatum - översikt](../../../manage-work/tasks/task-information/handoff-task-date.md)
 * [Aktivitet, Slack - översikt](../../../manage-work/tasks/task-information/task-slack-date.md)
-* Översikt över [&#x200B; Kan starta för aktiviteter &#x200B;](../../../manage-work/tasks/task-information/can-start-task-overview.md)
+* Översikt över [ Kan starta för aktiviteter ](../../../manage-work/tasks/task-information/can-start-task-overview.md)
 * [Ange spårningsläge för aktiviteter](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md)
 * [Uppdatera nivåfördröjning för aktivitet](../../../manage-work/tasks/task-information/task-leveling-delay.md)
 * [Uppdatera uppgiftskostnadstyp](../../../manage-work/tasks/task-information/update-task-cost-type.md)

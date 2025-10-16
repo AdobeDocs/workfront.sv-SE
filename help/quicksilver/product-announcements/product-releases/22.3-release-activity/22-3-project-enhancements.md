@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1235ad4a-72dd-45c5-8513-d073b3e9a2da
-source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1535'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Uppdateringen innehåller:
 * Standardformulären som definieras i området Aktivitetsinställningar i målprojektet som läggs till i den nya uppgiften.
 
 
-Mer information finns i [Konvertera ett problem till en uppgift i Adobe Workfront](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-task.md).
+Mer information finns i [Konvertera ett problem till en uppgift](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-task.md).
 
 ## Ny upplevelse vid konvertering av ett ärende till ett projekt utan mall
 

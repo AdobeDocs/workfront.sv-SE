@@ -7,9 +7,9 @@ description: Lär dig att beräkna tid- och datumskillnader.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -35,26 +35,24 @@ Du kan beräkna skillnaden mellan följande:
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Nytt: </p><ul><li><p>Medarbetare som ändrar en vy </p></li><li>
-   <p>Standard för att ändra en rapport</p></li></ul><p>eller</p><p>Aktuell:</p><ul><li><p>Begäran om att ändra en vy </p></li><li>
-   <p>Planera att ändra en rapport</p> </li><ul></td> 
+   <td> 
+   <p>Medarbetare eller begäran om att ändra ett filter </p>
+   <p>Standard eller Plan för att ändra en rapport</p>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en vy</p> </td> 
-  </tr>  
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra ett filter</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
    <td> <p>Hantera behörigheter i en rapport</p>  </td> 

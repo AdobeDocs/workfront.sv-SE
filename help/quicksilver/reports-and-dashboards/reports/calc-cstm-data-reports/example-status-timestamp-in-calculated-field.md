@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
-title: 'Exempel på beräknat anpassat fält: visa en statustidsstämpel i ett anpassat formulär'
+title: 'Exempel på beräknat anpassat fält: visa en tidsstämpel för status i ett anpassat formulär'
 description: I följande beräkningsfält visas det datum då objektets status markeras som Pågår (INP). Du kan använda samma information för beräknade anpassade fält för utgåvor, uppgifter eller projekt.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 55817a68-3655-4288-8cc7-48547829c46e
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -24,35 +24,36 @@ I följande beräkningsfält visas det datum då objektets status markeras som P
 
 ## Åtkomstkrav
 
-Du måste ha följande:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;"> 
-  <p>*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.</p> 
- </caption> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront-plan*</p> </td> 
-   <td>Alla</td> 
+   <td> <p>Adobe Workfront package</p> </td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront-licens*</p> </td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Adobe Workfront-licens</p> </td> 
+   <td>
+      <p>Standard</p>
+      <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td><strong>Åtkomstnivåkonfigurationer*</strong> </td> 
-   <td> <p>Redigera åtkomst till Skapa rapporter, instrumentpaneler och kalendrar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td><p>Konfigurationer på åtkomstnivå</p></td> 
+   <td> <p>Redigera åtkomst till Skapa rapporter, instrumentpaneler och kalendrar</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Objektbehörigheter</strong> </p> </td> 
-   <td> <p>Hantera behörigheter för objektet som formuläret är kopplat till</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.<br>Mer information om behörigheter för instrumentpaneler finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md" class="MCXref xref">Dela rapporter, instrumentpaneler och kalendrar </a>.</p> </td> 
+   <td> <p>Objektbehörigheter</p> </td> 
+   <td> <p>Hantera behörigheter för objektet som formuläret är kopplat till</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Förutsättning
 
@@ -62,7 +63,7 @@ Om du vill lägga till ett beräknat fält som visar ett fälts redigeringshisto
 
 1. Gå till ett anpassat formulär där du vill lägga till fältet.
 1. Klicka på **Beräknat** för att lägga till ett beräknat anpassat fält i formuläret.
-1. Ange en **etikett** för det anpassade fältet. Exempel:&quot;Status för tidsstämpelfält&quot;.
+1. Ange en **etikett** för det anpassade fältet. Exempel: &quot;Status för tidsstämpelfält&quot;.
 1. Klicka på **Spara+Stäng**.
 1. Öppna det anpassade formuläret igen och välj sedan det nya **statustidsstämpelsfältet** i formuläret.
 1. Kopiera och klistra in följande beräkning för det anpassade fältet i rutan **Beräkning**:

@@ -6,9 +6,9 @@ description: Uppgifter och ärenden kan tilldelas ett smidigt team och läggas t
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 6ae8e48361114e897d0be83ae81f8344074a5ec2
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '1253'
+source-wordcount: '1244'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 Följande arbetsuppgifter kan tilldelas ett smidigt team och läggas till i teamets eftersläpning som artiklar, beroende på den flexibla metod teamet använder:
 
 * **[!UICONTROL Scrum agile teams]:** Uppgifter och utgåvor kan tilldelas det flexibla teamet och läggas till i eftersläpningen.
-* **[!UICONTROL Kanban agile teams]:** Uppgifter kan tilldelas det flexibla teamet och läggas till i eftersläpningen. Användare kan visa eftersläpningen direkt från den flexibla artikelpanelen, enligt beskrivningen i [[!UICONTROL Add the backlog] till Kanban-tavlan &#x200B;](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md). Teamet använder denna eftersläpning för att prioritera och hantera sin arbetskö.
+* **[!UICONTROL Kanban agile teams]:** Uppgifter kan tilldelas det flexibla teamet och läggas till i eftersläpningen. Användare kan visa eftersläpningen direkt från den flexibla artikelpanelen, enligt beskrivningen i [[!UICONTROL Add the backlog] till Kanban-tavlan ](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md). Teamet använder denna eftersläpning för att prioritera och hantera sin arbetskö.
 
 Uppgifter eller problem kan tilldelas teamet (och sedan läggas till i teamets eftersläpning) var som helst i [!DNL Adobe Workfront]. Ett team kan till exempel tilldelas arbetsuppgifter från flera projekt.
 
@@ -30,8 +30,6 @@ Uppgifter eller problem kan tilldelas teamet (och sedan läggas till i teamets e
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -39,18 +37,17 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td> <p>Nytt: [!UICONTROL Standard]</p> 
-   eller
-   <p>Aktuell: [!UICONTROL Work] eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Standard</p> 
+   <p>Arbeta eller högre</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td>[!UICONTROL Manage] åtkomst till det projekt som artikeln är på </td> 
+   <td>Hantera åtkomst till det projekt som artikeln är på </td> 
   </tr> 
  </tbody> 
 </table>

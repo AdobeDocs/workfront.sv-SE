@@ -6,9 +6,9 @@ description: Du kan låsa och låsa upp ett korrektur manuellt när som helst un
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 39dc8c17-b087-4c7c-be19-3bbe93577966
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -21,19 +21,17 @@ Du kan låsa och låsa upp ett korrektur manuellt när som helst under gransknin
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Gammal plan: Premium</p> <p>Mer information om korrekturåtkomst för olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Åtkomst till korrekturfunktioner i Workfront</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Alla (du måste ha språkkontroll aktiverat för användaren)</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Alla</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Korrekturroll</td> 
@@ -46,7 +44,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,7 +63,7 @@ Lås ett korrektur:
 
    Mer information om sammanfattningen finns i [Sammanfattning för dokumentöversikt](../../../../documents/managing-documents/summary-for-documents.md).
 
-1. Klicka på ikonen **Lås** ![Lås &#x200B;](assets/unlock-proof-icon.png) i den vänstra panelen.
+1. Klicka på ikonen **Lås** ![Lås ](assets/unlock-proof-icon.png) i den vänstra panelen.
 
    ![Lås korrektur](assets/lock-proof-350x277.png)
 

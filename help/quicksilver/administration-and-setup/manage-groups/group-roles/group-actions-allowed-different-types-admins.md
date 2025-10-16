@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 416be55e172e2e2f0a1d8b593fdcb27d123e2fcb
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -230,7 +230,14 @@ I denna tabell listas de administrationsaktiviteter som är tillgängliga för:
 
 &#42;&#42; I gruppadministratörens åtkomstnivå måste åtkomsten till den här åtgärden vara aktiverad. Mer information finns i [Bevilja användare administrativ åtkomst till vissa områden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-&#42;&#42;&#42; Följande aktiviteter ingår i Avancerade företagskontroller och är inte tillgängliga för Select-planen. Det är bara organisationer som har köpt Prime- eller Ultimate-planer som har tillgång till dessa funktioner.  Mer information om prenumerationer finns på sidan [Priser och paketering för Adobe Workfront](https://business.adobe.com/se/products/workfront/pricing.html). (För organisationer som använder äldre planer visas aktiviteterna för grupp- och undergruppsadministratörer i tabellen ovan.)
+&#42;&#42;&#42; De här paketen innehåller de avancerade funktionerna för Enterprise Controls som listas nedan:
+
+* Arbetsflöde Prime och senare
+* Workfront Prime och senare
+
+Mer information om paket finns på sidan [Prissättning och paketering för Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
+
+Avancerade företagskontroller:
 
 * Konfigurera projekt-, uppgifts- och utgivningsinställningar på gruppnivå
 * Konfigurera tidrapport och timinställningar på gruppnivå

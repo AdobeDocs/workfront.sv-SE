@@ -7,7 +7,7 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 3190ad18-180e-42e5-aa10-bdad74303d3d
-source-git-commit: a3edfadc447a763c638cc926b386272890697f81
+source-git-commit: a5041aecad22d3e576d7f0e9a4388a3e5bc69565
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 0%
@@ -38,17 +38,17 @@ Mer information om Frame.io-integrering med Workfront finns i [Integreringsöver
    <td> <p> Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td role="rowheader">Adobe Workfront licenses</td> 
    <td> <p>Request or higher</p>
    <p>Contributor or higher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>Edit access to Documents</p>  </td> 
+   <td> <p>Edit access to Documents</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Edit access to the object associated with the document</p>  </td> 
+   <td> <p>Edit access to the object associated with the document</p> </td> 
   </tr> 
  </tbody> 
 </table>

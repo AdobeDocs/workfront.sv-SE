@@ -6,9 +6,9 @@ description: Iterationer är en nyckelkomponent för Scrum-team när det gäller
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: e24c97e78b210fc385052b573fe69d092b521a90
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ Iterationer är en nyckelkomponent för Scrum-team när det gäller att planera 
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -30,14 +28,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td> <p>Nytt: [!UICONTROL Light] eller senare</p> 
-   eller
-   <p>Aktuell: [!UICONTROL Review] eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Ljus eller högre</p> 
+   <p>Granska eller högre</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -54,7 +51,7 @@ Du kan lägga till en iteration i listan för att snabbt skapa en iteration och 
 
 1. (Valfritt) Klicka på ikonen **[!UICONTROL Switch team]** ![Byt team-ikon](assets/switch-team-icon.png) och välj sedan ett nytt Scrum-team i listrutan eller sök efter ett team i sökfältet.
 
-1. Klicka på **[!UICONTROL Add iteration]** på fliken **[!UICONTROL Iterations]**.
+1. Klicka på **[!UICONTROL Iterations]** på fliken **[!UICONTROL Add iteration]**.
 
    ![Klicka på Lägg till upprepning](assets/click-add-iteration.png)
 
@@ -155,7 +152,7 @@ Använd funktionen [!UICONTROL Plan Iteration] för att skapa en iteration med u
 
    >[!NOTE]
    >
-   >  När du lägger till uppgifter i en iteration beräknas startdatumet för aktiviteten enligt beskrivningen i [[!UICONTROL Understand] hur startdatum för aktiviteten beräknas när de läggs till i en iteration &#x200B;](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
+   >  När du lägger till uppgifter i en iteration beräknas startdatumet för aktiviteten enligt beskrivningen i [[!UICONTROL Understand] hur startdatum för aktiviteten beräknas när de läggs till i en iteration ](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
 
 
 ## Förstå hur startdatum för aktiviteter beräknas när de läggs till i en iteration {#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration}

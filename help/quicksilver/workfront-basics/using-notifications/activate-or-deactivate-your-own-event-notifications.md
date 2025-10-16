@@ -7,9 +7,9 @@ description: I den här artikeln beskrivs hur du kan hantera e-postmeddelanden i
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
+source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-Din Adobe [!DNL Workfront]-administratör konfigurerar vilka e-postmeddelanden som användare får när händelser inträffar i Workfront (enligt beskrivningen i [[!UICONTROL Configure event] -meddelanden för alla i systemet &#x200B;](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
+Din Adobe [!DNL Workfront]-administratör konfigurerar vilka e-postmeddelanden som användare får när händelser inträffar i Workfront (enligt beskrivningen i [[!UICONTROL Configure event] -meddelanden för alla i systemet ](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
 Gruppadministratören kan också konfigurera vilka meddelanden som är aktiverade för dig och användarna i [!UICONTROL Home Group]. Om [!UICONTROL Home Group] är en undergrupp får du meddelanden som är aktiverade för den översta gruppen ovanför gruppen.
 
@@ -36,8 +36,6 @@ Mer information om e-postmeddelanden finns i [[!DNL Adobe Workfront] meddelanden
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -45,21 +43,19 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licens</strong></td> 
-   <td>  <p>Nytt:</p> 
-   <ul><li>Medarbetare eller högre</li></ul>
-   <p>Aktuell:</p>
-   <ul><li>Begäran eller högre</li></ul>
+   <td> <p>Medarbetare eller högre</p>
+   <p>Begäran eller högre</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,9 +63,9 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 {{step1-click-profile-pic}}
 
-1. Klicka på ikonen **[!UICONTROL More]** ![Mer &#x200B;](assets/more-icon.png) bredvid ditt namn och klicka sedan på **[!UICONTROL Edit]**.
+1. Klicka på ikonen **[!UICONTROL More]** ![Mer ](assets/more-icon.png) bredvid ditt namn och klicka sedan på **[!UICONTROL Edit]**.
 
-1. Gå till avsnittet **[!UICONTROL Notifications]** i rutan **[!UICONTROL Edit Person]** som visas.
+1. Gå till avsnittet **[!UICONTROL Edit Person]** i rutan **[!UICONTROL Notifications]** som visas.
 
 1. Klicka på en kategori om du vill visa meddelandeinställningarna för den kategorin.
 

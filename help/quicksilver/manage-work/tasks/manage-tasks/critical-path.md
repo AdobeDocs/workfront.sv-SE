@@ -7,9 +7,9 @@ description: Att fastställa den kritiska vägen för ett projekt är ett automa
 author: Alina
 feature: Work Management
 exl-id: 9cbc84bf-d02b-4bb7-8d5d-922554d1262e
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
@@ -51,39 +51,64 @@ Eventuella förseningar i en uppgiftsaktivitet på den kritiska vägen påverkar
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Alla</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> 
+   <p>Standard<p>
+   <p>Arbeta eller högre</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Visa eller öka åtkomsten till uppgifter</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objektbehörigheter</td> 
+   <td> <p>Visa eller högre behörigheter för en uppgift </p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td> <p>Alla</p> </td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> 
-   <p>Nytt: Standard<p>
-   <p>eller</p>
-   <p>Aktuell: Arbete eller högre</p>
+   <p>New: Standard<p>
+   <p>Or</p>
+   <p>Current: Work or higher</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Visa eller öka åtkomsten till uppgifter</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>View or higher access to Tasks</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa eller högre behörigheter för en uppgift </p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View or higher permissions on a task </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-
-+++
+</table>-->
 
 ## Visa den kritiska sökvägen
 
@@ -106,7 +131,7 @@ Så här visar du uppgifter på den kritiska sökvägen i Gantt-schemat:
 
    ![gantt_chart_icon__1_.png](assets/gantt-icon.png)
 
-1. Klicka på ikonen **Alternativ** ![Alternativ &#x200B;](assets/options-icon.png) i det övre högra hörnet av Gantt-diagramavsnittet och välj sedan alternativet **Kritisk bana** i listrutan som visas. De uppgifter som finns på den kritiska banan har nu en röd linje ovanför tidslinjen.
+1. Klicka på ikonen **Alternativ** ![Alternativ ](assets/options-icon.png) i det övre högra hörnet av Gantt-diagramavsnittet och välj sedan alternativet **Kritisk bana** i listrutan som visas. De uppgifter som finns på den kritiska banan har nu en röd linje ovanför tidslinjen.
 
    ![crtitical_path_on_gantt__1_.png](assets/crtitical-path-on-gantt--1--350x137.png)
 
@@ -120,11 +145,11 @@ Så här visar du vilka uppgifter som finns på den kritiska sökvägen i en lis
 
 1. Klicka på **Åtgärder** i den vänstra panelen. Fliken **Uppgifter** öppnas.
 
-1. Klicka på ikonen **Visa** ![Visa &#x200B;](assets/view-icon.png) och välj sedan **Status** . De åtgärder som finns på den kritiska sökvägen visar en **Kritisk sökväg** -flagga i kolumnen **Flaggor** i listan.
+1. Klicka på ikonen **Visa** ![Visa ](assets/view-icon.png) och välj sedan **Status** . De åtgärder som finns på den kritiska sökvägen visar en **Kritisk sökväg** -flagga i kolumnen **Flaggor** i listan.
 
    eller
 
-   Klicka på ikonen **Filter** ![Filter &#x200B;](assets/filters-icon.png) och välj sedan **+ Nytt filter**.
+   Klicka på ikonen **Filter** ![Filter ](assets/filters-icon.png) och välj sedan **+ Nytt filter**.
 1. I det första fältet skriver du *Är kritisk* och markerar den när den visas under avsnittet **Åtgärder** i listan.
 
    ![Aktiviteten är ett kritiskt filter](assets/task-is-critical.png)

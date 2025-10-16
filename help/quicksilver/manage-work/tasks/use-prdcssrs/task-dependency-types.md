@@ -2,12 +2,12 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: use-predecessors
-title: Översikt över typer av uppgiftsberoenden
+title: Översikt över aktivitetsberoendetyper
 description: Beroendetyper refererar till föregående relationer mellan uppgifter. De definierar när den beroende aktiviteten kan starta eller slutföras baserat på början eller slutet av dess föregångare.
 author: Alina
 feature: Work Management
 exl-id: 30d1c60d-0632-4a32-b7e7-a9f8e81bf727
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 0%

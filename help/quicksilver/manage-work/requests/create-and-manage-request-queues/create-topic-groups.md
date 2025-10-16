@@ -3,14 +3,14 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Skapa ämnesgrupper
 description: Ämnesgrupper är associerade med frågeköer. De gör att du kan placera dina begärandeköer i flera kategorier, beroende på vilken typ av begäran det är.
-author: Alina
+author: Becky
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 0da05d048d0dab1c2f06870e589c1349c48ccc58
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -25,22 +25,19 @@ ht-degree: 0%
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">Adobe Workfront-licens</p> </td> 
    <td>   
-      <p>Nytt: Standard</p>
-      <p>eller</p> 
-      <p>Aktuell: Planera</p>
+      <p>Standard</p>
+      <p>Plan</p>
  </td> 
   </tr> 
   <tr> 
@@ -54,7 +51,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

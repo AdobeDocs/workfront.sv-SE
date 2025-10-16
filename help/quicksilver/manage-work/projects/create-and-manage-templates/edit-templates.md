@@ -6,9 +6,9 @@ description: Du kan redigera projektmallar för att återspegla ändringar i pro
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: ea0ae13abe9373bef7a1d146ca1951c8c383f994
+source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
 workflow-type: tm+mt
-source-wordcount: '5674'
+source-wordcount: '5672'
 ht-degree: 0%
 
 ---
@@ -48,27 +48,25 @@ Du kan redigera en mall i taget eller redigera flera mallar samtidigt.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td> <p>Alla </p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licenser*</td> 
+   <td role="rowheader">Adobe Workfront-licenser</td> 
    <td>
-      <p>Nytt: Standard</p>
-      <p>eller</p>
-      <p>Aktuell: Planera</p>
+      <p>Standard</p>
+      <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Åtkomstnivå</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till mallar</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
    <td> 
-    <ul> 
-     <li> <p>Contribute-behörigheter för en mall som du kan redigera på fliken Mallinformation</p> </li> 
-     <li> <p>Hantera behörigheter för en mall för att redigera den i rutan Redigera mall</p> </li> 
+    <p>Contribute-behörigheter för en mall som du kan redigera på fliken Mallinformation</p> 
+     <p>Hantera behörigheter för en mall för att redigera den i rutan Redigera mall</p>
    </td> 
   </tr> 
  </tbody> 
@@ -78,11 +76,44 @@ Du kan redigera en mall i taget eller redigera flera mallar samtidigt.
 
 +++
 
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront licenses*</td> 
+   <td>
+      <p>New: Standard</p>
+      <p>Or</p>
+      <p>Current: Plan</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Templates</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
+    <ul> 
+     <li> <p>Contribute permissions to a template to edit it in the Template Details tab</p> </li> 
+     <li> <p>Manage permissions to a template to edit it in the Edit Template box</p> </li> 
+   </td> 
+  </tr> 
+ </tbody> 
+</table>-->
+
 ## Redigera en mall {#edit-a-template}
 
 1. Gå till mallen som du vill redigera.
 1. (Villkorligt) Om du vill redigera begränsad information om mallen klickar du på **Mallinformation** i den vänstra panelen och går sedan till de områden som visas i den vänstra panelen för att redigera information för varje område.
-1. Om du vill redigera information i detaljavsnittet klickar du på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) , väljer något av områdena nedan eller klickar på **Redigera alla** om du vill redigera information i alla områden:
+1. Om du vill redigera information i detaljavsnittet klickar du på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) , väljer något av områdena nedan eller klickar på **Redigera alla** om du vill redigera information i alla områden:
 
    * Översikt
    * Anpassad Forms

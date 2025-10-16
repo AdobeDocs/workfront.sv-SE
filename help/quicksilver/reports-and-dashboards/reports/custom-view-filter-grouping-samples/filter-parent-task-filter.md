@@ -7,9 +7,9 @@ description: Du kan använda uppgiftsfiltren nedan för att visa arbetsuppgifter
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 4c3956e1-59e0-4bf2-8739-8064271d6281
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -28,28 +28,21 @@ Du kan använda uppgiftsfiltren nedan för att visa arbetsuppgifter. Arbetsuppgi
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td> 
-    <p>Nytt:</p>
-   <ul><li><p>Medarbetare som ändrar ett filter </p></li>
-   <li><p>Standard för att ändra en rapport</p></li> </ul>
-
-<p>Aktuell:</p>
-   <ul><li><p>Begäran om att ändra ett filter </p></li>
-   <li><p>Planera att ändra en rapport</p></li> </ul></td> 
+   <p>Medarbetare eller begäran om att ändra ett filter </p>
+   <p>Standard eller Plan för att ändra en rapport</p>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -62,7 +55,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,7 +63,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Du kan använda följande filter på en uppgiftsrapport om du vill visa uppgifter utan underordnade. De kan ha egna föräldrar och barn till andra uppgifter.
 
-1. Klicka på **Rapporter** i det övre högra hörnet av **Huvudmeny** ![Huvudmeny-ikonen](assets/main-menu-icon.png) eller på **Huvudmeny** ![Huvudmenyrader](assets/lines-main-menu.png) i det övre vänstra hörnet, om sådana finns.Rapporter.
+1. Klicka på **Rapporter** i det övre högra hörnet av ![Huvudmeny](assets/main-menu-icon.png) **Huvudmeny-ikonen** eller på ![Huvudmeny](assets/lines-main-menu.png) **Huvudmenyrader** i det övre vänstra hörnet, om sådana finns.Rapporter.
 
 1. Klicka på **Ny rapport**.
 1. Välj en **aktivitetsrapport**.
@@ -99,7 +92,7 @@ Du kan använda följande filter på en uppgiftsrapport om du vill visa uppgifte
 
 Du kan använda följande filter på en uppgiftsrapport för att visa uppgifter med överordnade, vilket innebär att de är underordnade uppgifter. Dessa åtgärder kan dock även ha egna underordnade eftersom filtret inte utesluter deras underordnade. Underordnade uppgifter som också är överordnade för andra uppgifter betraktas inte som arbetsuppgifter.
 
-1. Klicka på **Rapporter** i det övre högra hörnet av **Huvudmeny** ![Huvudmeny-ikonen](assets/main-menu-icon.png) eller på **Huvudmeny** ![Huvudmenyrader](assets/lines-main-menu.png) i det övre vänstra hörnet, om sådana finns.Rapporter.
+1. Klicka på **Rapporter** i det övre högra hörnet av ![Huvudmeny](assets/main-menu-icon.png) **Huvudmeny-ikonen** eller på ![Huvudmeny](assets/lines-main-menu.png) **Huvudmenyrader** i det övre vänstra hörnet, om sådana finns.Rapporter.
 
 1. Klicka på **Ny rapport**.
 1. Välj en **aktivitetsrapport**.
@@ -124,7 +117,7 @@ Du kan använda följande filter på en uppgiftsrapport för att visa uppgifter 
 
 Du kan använda följande filter på en uppgiftsrapport om du vill visa fristående arbetsuppgifter. De här uppgifterna har ingen överordnad och har inga egna underordnade.
 
-1. Klicka på **Rapporter** i det övre högra hörnet av **Huvudmeny** ![Huvudmeny-ikonen](assets/main-menu-icon.png) eller på **Huvudmeny** ![Huvudmenyrader](assets/lines-main-menu.png) i det övre vänstra hörnet, om sådana finns.Rapporter.
+1. Klicka på **Rapporter** i det övre högra hörnet av ![Huvudmeny](assets/main-menu-icon.png) **Huvudmeny-ikonen** eller på ![Huvudmeny](assets/lines-main-menu.png) **Huvudmenyrader** i det övre vänstra hörnet, om sådana finns.Rapporter.
 
 1. Klicka på **Ny rapport**.
 1. Välj en **aktivitetsrapport**.
@@ -136,7 +129,7 @@ Du kan använda följande filter på en uppgiftsrapport om du vill visa friståe
 1. I **Börja skriva fältnamn ...** rad börja skriva **Överordnat ID** och välj sedan **Aktivitet >> Överordnat ID** i listan.
 1. Välj **Är tom** som modifierare.
 
-   ![Överordnat ID är tomt och inga underordnade &#x200B;](assets/filter-parent-id-blank-and-zero-children-350x121.png)
+   ![Överordnat ID är tomt och inga underordnade ](assets/filter-parent-id-blank-and-zero-children-350x121.png)
 
    eller
 

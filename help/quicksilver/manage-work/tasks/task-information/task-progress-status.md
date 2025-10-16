@@ -2,12 +2,12 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Översikt över status för åtgärdsförlopp
+title: Översikt över status för aktivitetsstatus
 description: Adobe Workfront fastställer förloppsstatusen för en aktivitet genom att undersöka förloppet för aktiviteten över dess tidslinje. Du kan konfigurera Workfront för att fastställa ett projekts villkor baserat på värdet för aktiviteternas förloppsstatus. Mer information om hur du konfigurerar projektvillkoren finns i artikeln Översikt över projektvillkor och villkorstyp.
 author: Alina
 feature: Work Management
 exl-id: 38e5f89e-bdfa-433c-9371-3c3003ada3a3
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%

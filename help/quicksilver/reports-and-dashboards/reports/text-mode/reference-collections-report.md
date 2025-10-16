@@ -6,7 +6,7 @@ description: Referenssamlingar i en rapport
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 6bd9dc626befc4dfa4054760e7ec7d677f6da6e5
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
 source-wordcount: '2615'
 ht-degree: 0%
@@ -25,28 +25,20 @@ Mer information om hur du skapar en rapport i Workfront finns i [Skapa en anpass
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
    <td> 
-      <p>Nytt:</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Aktuell:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
-   </td>
+     <p>Standard</p>
+     <p>Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -59,7 +51,7 @@ Du måste ha följande:
  </tbody> 
 </table>
 
-Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -274,7 +266,7 @@ Raderna i ett textläge för en samling beskrivs i följande tabell:
   </tr> 
   <tr> 
    <td><code>listdelimiter=&lt;p&gt;</code> </td> 
-   <td> <p>Detta är avgränsaren som används för att separera värdena i listan.<br>Vi rekommenderar att du använder <code>&lt;p&gt;</code> som lägger till en radbrytning mellan värdena.</p> <p>Du kan även använda följande:</p> <p><code>&zwj;</code> (nollbreddsskarv). Värdena i samlingen har ingen separation mellan dem.<br><strong>,</strong> =kommaavgränsare. Samlingens värden avgränsas med ett kommatecken följt av inget blanksteg.<br><strong>/</strong> = snedstreck. Samlingens värden avgränsas med ett snedstreck.<br><strong>-</strong> = streckavgränsare. Samlingens värden avgränsas med ett streck.<br>Om du lämnar den här raden tom läggs ett kommatecken till följt av ett blanksteg mellan samlingens värden.</p> </td> 
+   <td> <p>Detta är avgränsaren som används för att separera värdena i listan.<br>Vi rekommenderar att du använder <code>&lt;p&gt;</code> som lägger till en radbrytning mellan värdena.</p> <p>Du kan även använda följande:</p> <p><code>&amp;zwj;</code> (nollbreddsskarv). Värdena i samlingen har ingen separation mellan dem.<br><strong>,</strong> =kommaavgränsare. Samlingens värden avgränsas med ett kommatecken följt av inget blanksteg.<br><strong>/</strong> = snedstreck. Samlingens värden avgränsas med ett snedstreck.<br><strong>-</strong> = streckavgränsare. Samlingens värden avgränsas med ett streck.<br>Om du lämnar den här raden tom läggs ett kommatecken till följt av ett blanksteg mellan samlingens värden.</p> </td> 
   </tr> 
   <tr> 
    <td><code>displayname=</code><em>Kolumnnamn</em> </td> 
@@ -403,7 +395,7 @@ Så här lägger du till en referens till en samling i den anpassade uppmaningen
 1. Klicka på **Rapportera frågor**.
 1. Klicka på **Lägg till fråga**.
 1. Klicka på **Egen fråga**.
-1. Ange namnet på uppmaningen i fältet **Fält**&#x200B;**namn**.
+1. Ange namnet på uppmaningen i fältet **Fält****namn**.
 
 1. Ange en **nedrullningsbar objektetikett**.
 1. Ange följande i fältet **Villkor**:

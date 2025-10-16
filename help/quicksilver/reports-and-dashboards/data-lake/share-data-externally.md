@@ -7,9 +7,9 @@ description: Med Workfront Data Connect kan ni använda företagets Workfront-da
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
+source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
@@ -43,35 +43,27 @@ De flesta produkter kräver följande information om din datasjön för att uppr
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkraven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td><p>Ingår i följande planer:</p>
-    <ul>
-        <li><p>Ultimate</p></li> 
-    </ul>    
-   <!--<p>Can be purchased as an add-on to the following plans:</p> 
-    <ul>
-        <li>Select</li> 
-        <li>Prime</li>
-    </ul>--> 
-    <p>Workfront Data Connect är inte tillgängligt för tidigare Workfront-planer.</p> 
-   </td> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Ultimate</p>
+    <p>Arbetsflöde Ultimate</p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td><p>Plan</p></td> 
+   <td>
+   <p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör.</p></td> 
+   <td> <p>Du måste vara Workfront-administratör</p></td> 
   </tr> 
  </tbody> 
 </table>

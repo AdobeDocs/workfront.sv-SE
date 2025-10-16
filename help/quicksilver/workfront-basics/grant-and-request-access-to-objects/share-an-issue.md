@@ -6,9 +6,9 @@ description: Din Adobe Workfront-administratör ger användarna åtkomst att vis
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
@@ -24,23 +24,20 @@ Behörigheterna är specifika för ett objekt i Workfront och definierar vilka �
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
-
-Du måste ha följande för att kunna dela objekt:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td> <p>Alla </p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Nytt: Standard</p> 
-   eller
-   <p>Aktuell: Arbete eller högre</p>
+   <td> <p>Standard</p> 
+   <p>Arbeta eller högre</p> 
    </td> 
   </tr> 
   <tr> 
@@ -54,7 +51,7 @@ Du måste ha följande för att kunna dela objekt:
  </tbody> 
 </table>
 
-Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -88,7 +85,7 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
    * Ange behörigheter för något av de överordnade objekten i utgåvan: projekt, program eller portfölj. Problem ärver behörigheterna från sina överordnade objekt. Mer information om hur du visar ärvda behörigheter för objekt finns i [Visa ärvda behörigheter för objekt](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
    * Lägg till entiteter i projektdelning på en mall som används för att skapa det projekt som utgåvan gäller. Mer information om att dela projekt från mallar finns i [Dela en mall](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Ange behörigheter för alla problem i ett projekt när du redigerar projektet. Information om hur du hanterar åtkomst till problem eller begäranden i projektet baserat på en användares behörigheter till projektet finns i avsnittet [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) i artikeln [Redigera projekt](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Ange behörigheter för alla problem i ett projekt när du redigerar projektet. Information om hur du hanterar åtkomst till problem eller begäranden i projektet baserat på en användares behörigheter till projektet finns i avsnittet [](../../manage-work/projects/manage-projects/edit-projects.md#access) i artikeln [Redigera projekt](../../manage-work/projects/manage-projects/edit-projects.md).
 
      >[!TIP]
      >

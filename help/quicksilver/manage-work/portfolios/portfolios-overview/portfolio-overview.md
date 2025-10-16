@@ -2,29 +2,29 @@
 content-type: overview
 product-area: portfolios
 navigation-topic: portfolios-overview
-title: Översikt över Portfolio i  [!DNL Adobe Workfront]
-description: Ett Portfolio är en samling projekt som har enhetliga egenskaper. Dessa projekt konkurrerar vanligtvis om samma resurser, budget eller tidskortplats. Du kan dela upp Portfolio i Program och associera projekten med Program innan de läggs till i Portfolio.
+title: Förstå Portfolio-metoder
+description: En Portfolio är en samling projekt som har enhetliga egenskaper. Dessa projekt konkurrerar vanligtvis om samma resurser, budget eller tidskortplats. Du kan dela upp portföljer i Program och associera projekten med Program innan de läggs till i en Portfolio.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: b340501e-1190-415e-aa96-5aad177c4b7b
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
 
-# Översikt över Portfolio i [!DNL Adobe Workfront]
+# Förstå portföljmetodik
 
 <!-- Audited: 1/2024 -->
 
 Portfolio eller Project Portfolio Management (PPM) är processen att prioritera och hantera en lista med projekt för att uppnå specifika affärsmål.
 
-Allmän information om PPM finns i [Översikt över Portfolio-hantering](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md).
+Allmän information om PPM finns i [Portfolio Management overview](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md).
 
-I Adobe Workfront är en portfölj en samling projekt som har enhetliga egenskaper. Dessa projekt konkurrerar vanligtvis om samma resurser, budget eller tidskortplats. Du kan dela upp Portfolio i Program och associera projekten med Program innan de läggs till i Portfolio.
+I Adobe Workfront är en portfölj en samling projekt som har enhetliga egenskaper. Dessa projekt konkurrerar vanligtvis om samma resurser, budget eller tidskortplats. Du kan dela upp portföljer i Program och associera projekten med Program innan de läggs till i en Portfolio.
 
-Du kan använda Portfolio och Program för att ordna projekt. Genom att organisera projekt kan du jämföra liknande projekt och avgöra var resurser ska användas bäst.
+Du kan använda Portföljer och Program för att ordna projekt. Genom att organisera projekt kan du jämföra liknande projekt och avgöra var resurser ska användas bäst.
 
 Mer information om hur du använder program finns i [Skapa ett program](../../../manage-work/portfolios/create-and-manage-programs/create-program.md).
 
@@ -34,25 +34,26 @@ Den här artikeln innehåller allmän information om portföljer i Workfront.
 
 <!--leave the table uncollapsed as this article is about access-->
 
-Du måste ha följande åtkomst för att skapa och hantera portföljer:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Nytt: Alla</p>
-   <p>Aktuell:[!UICONTROL Business] eller högre</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] paket</td> 
+   <td> <p>Workfront Prime eller senare</p>
+   <p>Arbetsflöde Prime eller senare</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td> <p>Nytt: [!UICONTROL Standard]</p>
-   <p>Aktuell:[!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>[!UICONTROL Edit] behörighet till Portfolio</p>  </td> 
+   <td> <p>[!UICONTROL Edit] åtkomst till portföljer</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -66,8 +67,39 @@ Du måste ha följande åtkomst för att skapa och hantera portföljer:
 
 *Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
 
-## portföljmetod för [!DNL Adobe Workfront]
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>New: Any</p>
+   <p>Current:[!UICONTROL Business] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>New: [!UICONTROL Standard]</p>
+   <p>Current:[!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to Portfolios</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>After you create a portfolio, you have Manage permissions to it, by default</p> 
+   <p>Manage permissions to edit a portfolio or add projects to it</p>
+   <p>View permissions to a portfolio to view it in Workfront</p>
+    </td> 
+  </tr> 
+ </tbody> 
+</table>-->
+
+## Förstå portföljmetoden [!DNL Adobe Workfront]
 
 I [!DNL Workfront] kan du lägga till projekt i portföljer för att skapa och organisera dina portföljer.
 
@@ -79,7 +111,7 @@ Vi rekommenderar att du följer dessa steg för att få en effektiv organisation
 
    [!UICONTROL Business Case] innehåller följande information:
 
-   * Allmän information om projektet (beskrivning, Portfolio och programtilldelningar, projektägare och sponsor)
+   * Allmän information om projektet (beskrivning, Portfolio- och programtilldelningar, projektägare och sponsor)
    * Projektets mål
    * Uppskattade utgiftskostnader
    * Resursbudgetar för arbetskostnader
@@ -93,7 +125,7 @@ Vi rekommenderar att du följer dessa steg för att få en effektiv organisation
    Den information du samlar in när du skapar ett affärsärende används i [!UICONTROL portfolio optimizer] och [!UICONTROL resource planner] för att underlätta hanteringen av projektval.
 1. Associera resurspooler med projekt när du skapar deras affärsärende.
 
-   Portfolio är vanligtvis konfigurerat för att motsvara resurspooler. Programmen på Portfolio är också kopplade till en resurspool. Detta samband bidrar till att säkerställa att all resursplanering passar Portfolio, eftersom projekten inom samma Portfolio vanligtvis konkurrerar om samma resurser.
+   Portföljer är vanligtvis konfigurerade för att motsvara resurspooler. Programmen i en Portfolio är också anpassade till en resurspool. Korrelationen säkerställer att all resursplanering passar in i Portfolio eftersom projekten inom samma Portfolio vanligtvis konkurrerar om samma resurser.
 
    Mer information finns i [Skapa resurspooler](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
@@ -102,6 +134,6 @@ Vi rekommenderar att du följer dessa steg för att få en effektiv organisation
    Mer information finns i [Godkänn ett affärsärende](/help/quicksilver/manage-work/projects/define-a-business-case/approve-business-case.md).
 1. Hantera prestanda för dina projekt i portföljen i [!UICONTROL Portfolio Optimizer].
 
-   Portfolio Managers kan spåra ekonomiska resultat i portföljen med hjälp av kontrollpanelen Portfolio. Kontrollpanelen visas i Portfolio sidhuvud.
+   Portfolio-chefer kan spåra ekonomiska resultat i portföljen med hjälp av Portfolio dashboard. Kontrollpanelen visas i Portfolio sidhuvud.
 
-   Mer information om ett Portfolio finansfält finns i avsnittet [Förstå finansfält i optimeringsdelen för Portfolio &#x200B;](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md#financial-fieds-subsection) i [Portfolio-optimeringsöversikten](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+   Mer information om ett Portfolio finansfält finns i avsnittet [Förstå finansfält i Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md#financial-fieds-subsection) i [Portfolio Optimizer-översikt](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).

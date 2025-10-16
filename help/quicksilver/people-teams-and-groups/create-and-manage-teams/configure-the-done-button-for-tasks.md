@@ -6,22 +6,22 @@ description: Knappen Klar kan automatiskt ange status för en uppgift eller ett 
 author: Lisa
 feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '692'
 ht-degree: 0%
 
 ---
 
 # Konfigurera knappen [!UICONTROL Done] för uppgifter
 
-Knappen [!UICONTROL Done] kan automatiskt ange status för en aktivitet eller ett problem. Som standard markeras en uppgift som [!UICONTROL Completed] när en tilldelad klickar på Markera som klar på sin arbetsuppgift.[!UICONTROL Adobe Workfront]
+Knappen [!UICONTROL Done] kan automatiskt ange status för en aktivitet eller ett problem. Som standard markeras en uppgift som [!UICONTROL Adobe Workfront] när en tilldelad klickar på Markera som klar på sin arbetsuppgift.[!UICONTROL Completed]
 
 >[!NOTE]
 >
 >Knappen Klar visas som Markera som färdig i alla områden av Workfront.
 
-## Ökning
+## Översikt
 
 Användare med vissa behörigheter kan konfigurera knappen [!UICONTROL Done] så att den associeras med vissa statusvärden i systemet. Det finns två olika sätt att använda knappen [!UICONTROL Done] för åtgärder i [!UICONTROL Workfront]:
 
@@ -33,23 +33,20 @@ Användare med vissa behörigheter kan konfigurera knappen [!UICONTROL Done] så
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront package</p> </td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
    <td>
-   <p>Nytt: Standard</p>
-   <p>eller</p>
-   <p>Aktuell: Planera</p></td>
-  </tr> 
+   <p>Standard</p>
+   <p>Plan</p></td>
+  </tr>  
  </tbody> 
 </table>
 
@@ -105,7 +102,7 @@ Så här associerar du användare med ett hemteam:
 1. Klicka på menyn **[!UICONTROL More]** och sedan på **[!UICONTROL Edit]**.\
    ![](assets/user-settings-nwe-350x291.png)
 
-1. Markera fältet **[!UICONTROL Home Team]** i avsnittet **[!UICONTROL Organization]**. Börja skriva namnet på det team vars inställningar du vill associera med användarna. Klicka på teamets namn när du ser det i listan.
+1. Markera fältet **[!UICONTROL Organization]** i avsnittet **[!UICONTROL Home Team]**. Börja skriva namnet på det team vars inställningar du vill associera med användarna. Klicka på teamets namn när du ser det i listan.
 
 1. Klicka på **[!UICONTROL Save Changes]**.\
    De användare du har valt är nu associerade med ett hemteam.

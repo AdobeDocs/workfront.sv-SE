@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 3942ba8d626a854344624bc5b7ea3ad01e8ad7fb
+source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
 workflow-type: tm+mt
-source-wordcount: '2075'
+source-wordcount: '1996'
 ht-degree: 0%
 
 ---
@@ -41,70 +41,42 @@ Mer information om hur en arbetsytehanterare kan skapa ett begärandeformulär o
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven. 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Produkter</p> </td>
-   <td>
-   <ul><li><p> Adobe Workfront</p></li>
-   <li><p> Adobe Workfront Planning<p></li></ul></td>
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront</p></td> 
+   <td> 
+<ul><li><p>Alla Workfront-paket</p></li>
+Och
+<li><p>Planeringspaket</p></li></ul>
+eller
+<ul><li><p>Alla arbetsflödespaket</p></li>
+Och
+<li><p>Planeringspaket</p></li></ul>
+   </td> </tr>
+
+</tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
+   <td><p>Extern licens, Contributor, Light eller Standard</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Objektbehörigheter</p></td> 
+   <td>   <p>Visa eller högre behörigheter för en arbetsyta och posttyp om du är en Workfront-användare</p>  </td> 
   </tr>  
- <tr>
-   <td role="rowheader"><p>Adobe Workfront-plan*</p></td>
-   <td>
-<p>Något av följande Workfront-planer:</p>
-<ul><li>Välj</li>
-<li>Prime</li>
-<li>Ultimate</li></ul>
-<p>Workfront Planning är inte tillgängligt för tidigare Workfront-planer</p>
-   </td>
-<tr>
-   <td role="rowheader"><p>Adobe Workfront Planning-paket*</p></td>
-   <td>
-<p>Alla </p>  
-<p>Kontakta din kontoansvarige på Workfront om du vill ha mer information om vad som ingår i respektive Workfront Planning-plan. </td>
-<tr>
-   <td role="rowheader"><p>Adobe Workfront</p></td>
-   <td>
-<p>Din organisations instans av Workfront måste vara registrerad på Adobe Unified Experience för att få tillgång till Workfront Planning.</p>
-<p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
-   </td>
-
-</tr>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront-licens*</p></td>
-   <td>
-   <p>Extern licens, Contributor, Light eller Standard</p>
-   <p>Workfront Planning är inte tillgängligt för tidigare Workfront-licenser</p>
-  </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td>
-   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Objektbehörigheter</p></td>
-   <td>
-   <p>Visa eller högre behörigheter för en arbetsyta och posttyp om du är en Workfront-användare</p> 
-  </td>
-  </tr>
- </tbody>
+</tbody> 
 </table>
 
-*Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
 
 ## Förutsättningar
 

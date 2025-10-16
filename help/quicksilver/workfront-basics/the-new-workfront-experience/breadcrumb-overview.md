@@ -4,9 +4,9 @@ title: Översikt över vägbeskrivningar
 description: Bläddringarna visar den fullständiga navigeringshierarkin för alla objekttyper.
 feature: Get Started with Workfront
 exl-id: c4103f8e-4c3f-4d4d-a0eb-628c60735ab7
-source-git-commit: 0fea13b0a1d8f14c2d601e0ed0a8d15684a3c4d7
+source-git-commit: d7b8d7285d23d14f5390c9de1001de553c2b796f
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -42,30 +42,7 @@ Du kan även använda följande tangenter för att navigera bland vägbeskrivnin
  </tbody> 
 </table>
 
-+++Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
-<table style="table-layout:auto"> 
- <col> 
- </col> 
- <col> 
- </col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Alla</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>[!UICONTROL Request] eller högre</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-*Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan eller licenstyp du har.
-
-+++
 
 <!--drafted: this is no longer possible, since we removed Campaigns, but it might come back as part of Maestro: 
 

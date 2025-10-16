@@ -6,9 +6,9 @@ description: När det inte längre behövs kan du ta bort ett projekt från ett 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 3dfd10e6-bcd0-48fb-b6aa-6e08cc52b230
-source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
@@ -25,24 +25,24 @@ Du kan ta bort ett projekt från ett program genom att göra något av följande
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td><p>Nytt: Standard</p> 
-   <p>Aktuell: [!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td><p>[!UICONTROL Standard]</p> 
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Åtkomstnivå</td> 
-   <td> <p>[!UICONTROL Edit] tillgång till Portfolio, program och projekt</p> <p>Du måste ha [!UICONTROL Delete]-åtkomst till projekt för att kunna ta bort projekt.</p> </td>
+   <td role="rowheader">Åtkomstnivåkonfiguration</td> 
+   <td> <p>[!UICONTROL Edit] tillgång till portföljer, program och projekt</p> <p>Du måste ha [!UICONTROL Delete]-åtkomst till projekt för att kunna ta bort projekt.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -54,6 +54,34 @@ Du kan ta bort ett projekt från ett program genom att göra något av följande
 *Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td><p>New: Standard</p> 
+   <p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>[!UICONTROL Edit] access to Portfolios, Programs , and Projects</p> <p>You must have [!UICONTROL Delete] access to Projects to delete projects.</p> </td>
+</tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio, the program, and the project</p> <p>You must have [!UICONTROL Delete] permissions to the project to delete it. </p> <p>After you create a program, you have [!UICONTROL Manage] permissions to it, by default.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)-->
 
 ## Ta bort ett projekt från ett program
 

@@ -6,9 +6,9 @@ description: Med appen  [!DNL Adobe Workfront for Microsoft Teams] kan du utför
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 940cbfb34f12eacd5ba698f60fb7a3e67eb62b22
+source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
@@ -31,29 +31,29 @@ Med appen [!DNL Adobe Workfront for Microsoft Teams] kan du utföra grundläggan
 >[!DNL Microsoft Teams] stöder inte längre [!DNL Internet Explorer]. Om du vill använda [!DNL Adobe Workfront for Microsoft Teams integration] måste du använda en annan webbläsare än [!DNL Internet Explorer].
 
 
+
+
 ## Åtkomstkrav
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td><p>Nytt: Standard</p>
-    <p>Aktuell: [!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Standard</p>
+   <p>Arbeta eller högre</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,7 +71,7 @@ Som teamägare i [!DNL Microsoft Teams] kan du installera appen [!DNL Workfront 
 1. Välj det team som du vill installera appen [!DNL Workfront for Microsoft Teams] för.
 1. Klicka på ikonen **[!UICONTROL More]** för det team som du vill installera integreringen med Workfront för Microsoft Teams för
 1. Klicka på fliken **[!UICONTROL Apps]**.
-1. Skriv *[!DNL Workfront]* i rutan **[!UICONTROL Search apps and more]**.
+1. Skriv **[!UICONTROL Search apps and more]** i rutan *[!DNL Workfront]*.
 1. Klicka på **Lägg till**.
 1. Klicka på **Lägg till** i den dialogruta som öppnas.
 1. I avsnittet Välj en kanal väljer du det team du vill lägga till Workfront-appen i och klickar på **Gå**.

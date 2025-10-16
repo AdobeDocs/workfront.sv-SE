@@ -3,12 +3,12 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Exportera en lista med tidrapporter
 description: Som personansvarig eller tidrapportgodkännare kan du behöva ladda ned en lista med tidrapporter för att snabbt kunna visa information om tidrapporterna för de personer du ansvarar för. Du kan göra detta genom att exportera en lista med tidrapporter.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: cb5b1c6c-7800-48f4-ae2c-c4007a161a6c
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -23,33 +23,31 @@ Som personansvarig eller tidrapportgodkännare kan du behöva ladda ned en lista
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td>Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Nytt: Ljus eller högre </p>
-   <p>Aktuell: Granska eller senare </p>
+   <td>Adobe Workfront-licens</td> 
+   <td> <p>Ljus eller högre </p>
+   <p>Granska eller högre</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Visa eller öka åtkomsten till uppgifter och problem </p> </td> 
+   <td>Åtkomstnivåkonfiguration</td> 
+   <td> <p>Visa eller ge högre åtkomst till uppgifter och ärenden</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa eller högre behörigheter i tidrapporten</p> </td> 
+   <td>Objektbehörigheter</td> 
+   <td> <p>Visa eller högre behörigheter för uppgifter och problem</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

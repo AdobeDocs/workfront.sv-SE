@@ -2,12 +2,12 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Översikt över Procent färdigt i projekt
+title: Översikt över projektets Procent färdigt
 description: Värdet för Procent färdigt för ett projekt beräknas baserat på aktiviteternas planerade varaktighet eller planerade timmar i projektet. Din Adobe Workfront-administratör eller en gruppadministratör definierar vilket värde som ska beaktas vid beräkningen av procentandelen färdig i ditt system när de konfigurerar information i området Projektinställningar. Mer information om hur du konfigurerar projektinställningar finns i Konfigurera systemomfattande projektinställningar.
 author: Alina
 feature: Work Management
 exl-id: d2395569-9fe5-42e7-a392-cff49eb519d9
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%

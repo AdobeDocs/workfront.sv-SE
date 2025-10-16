@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: fcc876d9-0512-424a-a731-6bbacd55af3f
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 929502c256011b464d938ad1095c127407e4a795
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 0%
+source-wordcount: '101'
+ht-degree: 1%
 
 ---
 
@@ -26,31 +26,27 @@ Jag kan inte längre se licenstypen Extern användare under Åtkomstnivåer i In
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Alla</td> 
+   <td>[!DNL Adobe Workfront] package</td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td>
-   <p>Nytt: Standard</p>
-   <p>eller</p>
-   <p>Aktuell: Planera</p></td> 
+   <td>[!DNL Adobe Workfront] licens</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td>Konfigurationer på åtkomstnivå</td> 
    <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,6 +54,6 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL System]** > **[!UICONTROL Preferences]**.
 
-1. Kontrollera att alternativet **[!UICONTROL Collaborate with people without Workfront accounts by using their email address]** är aktiverat i avsnittet **[!UICONTROL Security]**.
+1. Kontrollera att alternativet **[!UICONTROL Security]** är aktiverat i avsnittet **[!UICONTROL Collaborate with people without Workfront accounts by using their email address]**.
 
    Om det här alternativet inte är aktiverat visas inte den externa användaren i inställningarna för åtkomstnivå.

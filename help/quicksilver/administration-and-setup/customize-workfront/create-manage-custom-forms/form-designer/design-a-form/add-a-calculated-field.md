@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 0c2a54406ceb690e638cdc0376a3dc01a7c2df76
+source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
 workflow-type: tm+mt
-source-wordcount: '2434'
+source-wordcount: '2412'
 ht-degree: 0%
 
 ---
@@ -47,31 +47,27 @@ Ett beräknat anpassat fält kan innehålla:
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront</p> </td> 
-   <td>Alla</td> 
+  <tr> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td>
-   <p>Nytt: Standard</p>
-   <p>eller</p>
-   <p>Aktuell: Planera</p></td>
+   <td>Adobe Workfront-licens</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+  <tr> 
+   <td>Konfigurationer på åtkomstnivå</td> 
    <td> <p>Administrativ åtkomst till anpassade formulär</p> </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -182,7 +178,7 @@ En beräkning börjar oftast med ett uttryck följt av parenteser som innehålle
 
       Varje fält måste omges av klammerparenteser. När du börjar skriva namnet på ett fält ger systemet förslag och du kan välja ett som infogar det i beräkningen.
 
-+++ **Utöka för att se syntax som krävs i beräknade anpassade fält**
+      +++ **Utöka för att se syntax som krävs i beräknade anpassade fält**
 
       Varje fält måste ha den syntax som beskrivs nedan, med klammerparenteser runt varje fältnamn. När du börjar skriva namnet på ett fält ger systemet förslag och du kan välja ett som infogar det i beräkningen. Om du anger data i en beräkning felaktigt visas ett varningsmeddelande. Du kan inte spara formuläret om du inte redigerar beräkningen så att den innehåller giltiga fält och ett giltigt beräknat uttryck.
 
@@ -282,7 +278,7 @@ En beräkning börjar oftast med ett uttryck följt av parenteser som innehålle
            >
            ><div>I ett anpassat formulär som bifogas till ett objekt beräknas och sparas datum- och tidssatser i beräknade anpassade fält med UTC (Coordinated Universal Time), inte med de tidszonskonfigurationer som angetts för organisationens instans och din användarprofil. Beräkningar i ett anpassat formulär genereras baserat på varje användares enskilda tidszoner.</div>
 
-+++
+        +++
 
    1. Klicka i den stora textrutan och klicka sedan på **Uttryck** och **Fält** som är tillgängliga för att lägga till dem i beräkningen.
 
@@ -292,7 +288,7 @@ En beräkning börjar oftast med ett uttryck följt av parenteser som innehålle
 
       Om du skriver en inledande parentes läggs den avslutande parentesen till automatiskt.
 
-+++ **Expandera och se praktiska tips**
+      +++ **Expandera och se praktiska tips**
 
       >[!TIP]
       >
@@ -309,7 +305,7 @@ En beräkning börjar oftast med ett uttryck följt av parenteser som innehålle
       >  ![Förhandsgranska beräkning](assets/preview-calc.jpg)
       >* Referensuttryck i en lång beräkning med hjälp av radnumren som visas till vänster.
 
-+++
+      +++
    1. Klicka på **Minimera** när du är klar med att skapa beräkningen för det beräknade anpassade fältet.
 
    1. (Valfritt) Använd något av följande alternativ för att ytterligare konfigurera det beräknade anpassade fältet:

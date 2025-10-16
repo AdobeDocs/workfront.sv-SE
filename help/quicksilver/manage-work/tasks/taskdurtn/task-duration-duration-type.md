@@ -2,13 +2,13 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: "Aktivitetens varaktighet och varaktighetstyper: artikelindex"
+title: 'Typ av varaktighet och varaktighet för aktivitet: Artikelindex'
 description: En uppgifts varaktighetstyp identifierar relationen mellan antalet resurser som tilldelats en aktivitet, den totala ansträngningen och uppgiftens totala varaktighet. Lär dig mer om varaktighet och varaktighet för uppgifter i följande artiklar.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: df6cd9bc-e34f-4e84-8a1b-484a6bffe53c
-source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%

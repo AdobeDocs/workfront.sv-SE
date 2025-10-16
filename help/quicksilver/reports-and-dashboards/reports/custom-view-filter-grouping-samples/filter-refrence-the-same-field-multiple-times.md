@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Filter: Skapa flera filterregler som refererar till samma fält ('AND'-satser)"
+title: 'Filter: Skapa flera filterregler som refererar till samma fält (AND-satser)'
 description: I standardlägesgränssnittet, när du försöker skapa flera filter som refererar till samma fält (med AND-kvalificeraren), tas ett av filtren bort när du sparar rapporten och avslutar rapportbyggaren.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: fb167e9f-c8bd-43f6-84c9-9a87e80c3eb2
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -29,28 +29,21 @@ Du kan dock skapa det här filtret i textläge.
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td> 
-    <p>Nytt:</p>
-   <ul><li><p>Medarbetare som ändrar ett filter </p></li>
-   <li><p>Standard för att ändra en rapport</p></li> </ul>
-
-<p>Aktuell:</p>
-   <ul><li><p>Begäran om att ändra ett filter </p></li>
-   <li><p>Planera att ändra en rapport</p></li> </ul></td> 
+   <p>Medarbetare eller begäran om att ändra ett filter </p>
+   <p>Standard eller Plan för att ändra en rapport</p>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -63,7 +56,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

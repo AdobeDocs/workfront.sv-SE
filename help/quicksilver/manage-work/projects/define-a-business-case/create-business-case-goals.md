@@ -2,12 +2,12 @@
 navigation-topic: business-case-and-scorecards
 title: Skapa mål för affärsärenden
 description: Som en del av att skapa ett affärsärende kan du skapa en uppsättning mål för att definiera målen för ett projekt. Mål för affärsärenden används för att kommunicera till Portfolio-chefen eller projektsponsorn i syfte att slutföra ett projekt.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -50,15 +50,14 @@ Tänk på följande när du skapar affärsmål för dina projekt:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
-   <td> <p>Aktuell: Prime eller senare</p>
-   <p>Äldre: Pro eller senare</p>  </td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> <p>Prime eller senare</p>
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licens*</p></td>
+   <td role="rowheader"><p>Adobe Workfront-licens</p></td>
    <td> 
-   <p>Aktuell: Standard</p> 
-   <p>Äldre: Planera </p> 
+   <p>Standard</p> 
+   <p>Plan </p> 
    </td> 
   </tr> 
   <tr> 
@@ -72,7 +71,7 @@ Tänk på följande när du skapar affärsmål för dina projekt:
  </tbody> 
 </table>
 
-*Mer information om informationen i den här tabellen finns i [Åtkomstkraven i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

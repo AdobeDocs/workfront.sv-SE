@@ -2,22 +2,24 @@
 product-area: projects
 navigation-topic: manage-issues
 title: Ta bort problem
-description: Du kan ta bort problem eller förfrågningar i Adobe Workfront om du har rätt behörighet att göra det.
+description: Du kan ta bort problem eller förfrågningar i Adobe Workfront om du har rätt behörighet och behörighet att göra det, och när du upptäcker att de inte längre behövs. Vi rekommenderar att du stänger dem, i stället för att ta bort dem, så att du kan behålla precisionen i dina projekt.
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
 
 # Ta bort problem
 
-<!--Audited: 05/2025-->
+<!--Audited: 08/2025-->
 
-Du kan ta bort problem eller förfrågningar i Adobe Workfront om du har rätt behörighet att göra det.
+Du kan ta bort problem eller förfrågningar i Adobe Workfront om du har rätt behörighet och behörighet att göra det, och när du upptäcker att de inte längre behövs. Vi rekommenderar att du stänger dem, i stället för att ta bort dem, så att du kan behålla precisionen i dina projekt.
+
+Workfront-administratörer kan återställa borttagna problem.
 
 >[!TIP]
 >
@@ -25,22 +27,20 @@ Du kan ta bort problem eller förfrågningar i Adobe Workfront om du har rätt b
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkraven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Nytt: Medarbetare eller högre</p>
-   <p>Aktuell: Begäran eller senare</p>
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Medarbetare eller högre</p>
+   <p>Begäran eller senare</p>
  </td> 
   </tr> 
   <tr> 

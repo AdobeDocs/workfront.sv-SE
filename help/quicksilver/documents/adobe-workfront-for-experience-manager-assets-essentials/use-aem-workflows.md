@@ -6,9 +6,9 @@ description: Använd arbetsflöden i integreringen med Experience Manager Assets
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 99924f690c53584c090d19fff90d23d84ec306d4
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -28,44 +28,40 @@ När ett projekt skapas med en projektmall som ett arbetsflöde är tilldelat ti
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande:
-
-<table>
-  <tr>
-   <td><strong>Adobe Workfront-plan*</strong>
-   </td>
-   <td>Alla
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Adobe Workfront-licenser*</strong>
-   </td>
-   <td>Begäran eller senare
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Produkt</strong>
-   </td>
-   <td><p>Du måste ha Experience Manager Assets as a Cloud Service eller Assets Essentials, och du måste läggas till som användare i Admin Console.</p><p>Du måste ha skrivåtkomst till databasen i Adobe Experience Manager.</p>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Åtkomstnivåkonfigurationer*</strong>
-   </td>
-   <td>Redigera åtkomst till dokument
-<p>
-<strong>Obs! </strong>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <strong>Skapa eller ändra anpassade åtkomstnivåer</strong>.
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Objektbehörigheter</strong>
-   </td>
-   <td>Hantera åtkomst eller senare i projektet 
-<p>
-Mer information om hur du begär ytterligare åtkomst finns i <strong>Begär åtkomst till objekt </strong>.
-   </td>
-  </tr>
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p> Alla</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licenser</td> 
+   <td> 
+   <p>Medarbetare eller högre</p> 
+   <p>Begäran eller senare</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Ytterligare produkter</td> 
+   <td>Du måste ha Experience Manager as a Cloud Service eller Assets Essentials, och du måste läggas till i produkten som användare i Admin Console.</td> 
+  </tr> 
+   <tr> 
+    <td role="rowheader">Experience Manager-behörigheter</td> 
+    <td>Du måste ha skrivåtkomst till mappen.</td> 
+   </tr>
+  <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till dokument</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objektbehörigheter</td> 
+   <td> <p>Visa åtkomst eller högre</p> </td> 
+  </tr> 
+ </tbody> 
 </table>
+
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,7 +69,7 @@ Mer information om hur du begär ytterligare åtkomst finns i <strong>Begär åt
 
 Innan du börjar,
 
-* Din Workfront-administratör måste konfigurera arbetsflöden i en Adobe Experience Manager-integrering. Mer information finns i [Konfigurera Experience Manager Assets as a Cloud Service-integrering](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional).
+* Din Workfront-administratör måste konfigurera arbetsflöden i en Adobe Experience Manager-integrering. Mer information finns i [Konfigurera integreringen med Experience Manager Assets as a Cloud Service](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional).
 
 ## Lägga till ett arbetsflöde i en mall
 
@@ -91,7 +87,7 @@ Du kan lägga till ett arbetsflöde i en projektmall. Arbetsflödet används fö
 
    Instruktioner om specifika arbetsflöden finns i [Redigera arbetsflödesvärden i ett projekt](#edit-workflow-values-in-a-project) i den här artikeln.
 
-   Endast arbetsflöden som har aktiverats under Experience Manager i installationsprogrammet är tillgängliga i mallar eller projekt.
+   Endast arbetsflöden som har aktiverats under Experience Manager finns tillgängliga i mallar eller projekt.
 
 1. Ändringarna sparas automatiskt. <!-- do they though??-->
 
@@ -108,7 +104,7 @@ Du kan lägga till ett arbetsflöde när du skapar ett projekt eller lägga till
 1. När du väljer en mall för projektet väljer du den mall som innehåller de arbetsflöden du vill använda för det här projektet.
 1. (Valfritt) Redigera alla arbetsflödesvärden för projektet, enligt beskrivningen i [Redigera arbetsflödesvärden i ett projekt](#edit-workflow-values-in-a-project).
 
-   Endast arbetsflöden som har aktiverats under Experience Manager i installationsprogrammet är tillgängliga i mallar eller projekt.
+   Endast arbetsflöden som har aktiverats under Experience Manager finns tillgängliga i mallar eller projekt.
 
 
 ### Lägga till ett arbetsflöde i ett befintligt projekt
@@ -124,7 +120,7 @@ Du kan lägga till ett arbetsflöde när du skapar ett projekt eller lägga till
 1. När du väljer en mall för projektet väljer du den mall som innehåller de arbetsflöden du vill använda för det här projektet.
 1. (Valfritt) Redigera alla arbetsflödesvärden för projektet, enligt beskrivningen i [Redigera arbetsflödesvärden i ett projekt](#edit-workflow-values-in-a-project).
 
-   Endast arbetsflöden som har aktiverats under Experience Manager i installationsprogrammet är tillgängliga i mallar eller projekt.
+   Endast arbetsflöden som har aktiverats under Experience Manager finns tillgängliga i mallar eller projekt.
 
 
 
@@ -176,6 +172,6 @@ Redigera arbetsflödet för länkade mappar:
 
 Så här redigerar du arbetsflödet för publicering av resurser:
 
-1. Aktivera eller inaktivera **Publish-resurser automatiskt** efter behov.
+1. Aktivera eller inaktivera **Publicera resurser automatiskt** efter behov.
 1. (Villkorligt) Om du aktiverar publicering väljer du om du vill publicera till publiceringstjänsten, varumärkesportalen eller båda.
 1. Klicka på **[!UICONTROL Save]**.

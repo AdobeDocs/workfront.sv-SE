@@ -7,9 +7,9 @@ description: Du kan visa och hantera information om resursplanering för de proj
 author: Lisa
 feature: Resource Management
 exl-id: d2bfc411-188a-4f8b-8180-0e984f01b5ab
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -30,23 +30,20 @@ När ditt företag har köpt en Adobe Workfront-licens som innehåller resurspla
 
 Mer information om krav för att använda budgeteringsverktygen i Workfront finns i [Kom igång med resursplanering](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
-För att kunna budgetera resurser, hantera resurspooler och se Kostnadsinformation i resursplaneringsverktygen måste ditt företag och du ha följande åtkomst: 
+För att kunna budgetera resurser, hantera resurspooler och se Kostnadsinformation i resursplaneringsverktygen måste ditt företag och du ha följande åtkomst:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td><p>Nytt: Alla</p>
-       <p>eller</p>
-       <p>Aktuell: Pro eller högre</p> </td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td><p>Nytt: Standard</p>
-       <p>eller</p>
-       <p>Aktuell: Planera</p></td>
+   <td>Adobe Workfront-licens</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr>  
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -66,11 +63,9 @@ För att kunna budgetera resurser, hantera resurspooler och se Kostnadsinformati
    <td role="rowheader">Objektbehörigheter</td> 
    <td> <p>Hantera behörigheter för projektet med behörigheterna Hantera ekonomi.</p> <p>Mer information om projektbehörigheter finns i artikeln <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Dela ett projekt i Adobe Workfront</a>.</p> <p>Mer information om ekonomiska behörigheter för ett projekt finns i artikeln <a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Dela ekonomiska behörigheter för ett objekt</a></a>.</p>
 
-<p><b>ANMÄRKNING</b>
-
-Om du har mindre än Hantera behörigheter för minst ett projekt i rollen kan du inte budgetera timmar, FTE eller Kostnad för rollen när du budgeterar resurser i rollvyn. Du kan bara budgetera de projekt som du har behörigheten Hantera för.</p> </td>
-</tr> 
+<p><b>Obs!</b> Om du har mindre än Hantera behörigheter för minst ett projekt i rollen kan du inte budgetera timmar, FTE eller kostnad för rollen när du budgeterar resurser i rollvyn. Du kan bara budgetera de projekt som du har behörigheten Hantera för.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).

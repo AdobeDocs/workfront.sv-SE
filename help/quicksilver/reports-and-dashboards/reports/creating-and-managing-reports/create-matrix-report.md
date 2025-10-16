@@ -6,9 +6,9 @@ description: Matrisrapporter visar sammanfattningsinformation i ett aggregerat t
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 714f2802-089f-4a41-8205-f397cf474a24
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -34,43 +34,35 @@ Andra kolumner (till exempel Status) kan dock fortfarande visas i matrisrapporte
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-      <td> 
-      <p>Nytt:</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Aktuell:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> 
+      <p>Standard</p>
+      <p>Plan</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td><p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p></td> 
+   <td role="rowheader">Åtkomstnivåkonfiguration</td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter i en rapport</p></td> 
+ <td> <p>Hantera behörigheter i en rapport</p></td>  
   </tr> 
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -134,8 +126,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      >   * Anpassade datafält för tal- och valutavärden samlar alla uppgifter: överordnade, underordnade, överordnade och fristående uppgifter. Om du har skapat matrisrapporten för att visa Planerade timmar eller Faktiska timmar i kolumnen **Värde** ska du tänka på att timmar eller kostnadsinformation för eventuella överordnade objekt (till exempel överordnade uppgifter) inte visas i matrisrapporten. Om du vill visa timmar för överordnade objekt måste du visa fliken **Detaljer**.
      >   
      >   
-     >**Villkorliga regler:** Ange eventuella formateringsregler för sammansatta värden.\
+     >
 
+   **Villkorliga regler:** Ange eventuella formateringsregler för sammansatta värden.\
    När du har lagt till en regel kan du definiera fält- och textformat för hur fält som matchar den regeln visas. Klicka på **Lägg till regel** när du har definierat regeln och **Klar** för att spara regeln.
 
 1. Klicka på fliken **Filter** för att definiera vilken information som ska visas i rapporten.

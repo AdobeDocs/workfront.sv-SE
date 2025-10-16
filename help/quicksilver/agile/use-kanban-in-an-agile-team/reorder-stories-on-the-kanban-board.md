@@ -6,9 +6,9 @@ description: Du kanske vill ändra den ordning i vilken artiklar visas i statusk
 author: Lisa
 feature: Agile
 exl-id: 7d6142d2-4e6e-4f9f-81a8-bcc666757bad
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,6 @@ När du ändrar ordning på kolumnerna på [!DNL Kanban]-panelen sparas alla än
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -40,14 +38,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td> <p>Nytt: [!UICONTROL Standard]</p> 
-   eller
-   <p>Aktuell: [!UICONTROL Work] eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Standard</p> 
+   <p>Arbeta eller högre</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -57,8 +54,6 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 +++
 
 ## Ordna om artiklar på [!UICONTROL Kanban]-tavlan
-
-Så här ändrar du ordningen eller artiklarna:
 
 {{step1-to-team}}
 

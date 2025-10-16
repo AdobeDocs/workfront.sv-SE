@@ -5,7 +5,7 @@ description: Du kan exportera Gantt-schemat till en PDF. Efteråt kan du skriva 
 author: Alina
 feature: Work Management
 exl-id: 91aad9e0-25c9-4eae-aa66-8aab763d3b76
-source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 0%
@@ -14,26 +14,26 @@ ht-degree: 0%
 
 # Exportera [!UICONTROL Gantt Chart] till PDF
 
-<!--Audited: 5/2025-->
+<!--Audited: 08/2025-->
 
 Du kan exportera [!UICONTROL Gantt chart] till en PDF. Efteråt kan du skriva ut eller bifoga den i ett e-postmeddelande för att dela den med andra användare.
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront] plan</td> 
-   <td> <p>Alla </p> </td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront] package</td> 
+   <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront] licens</td> 
-   <td> <p>Nytt:[!UICONTROL Light] eller senare</p>
-   <p>Aktuell:[!UICONTROL Review] eller högre</p> </td> 
+   <td> <p>[!UICONTROL Light] eller högre</p>
+   <p>[!UICONTROL Review] eller högre</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -41,7 +41,7 @@ Du kan exportera [!UICONTROL Gantt chart] till en PDF. Efteråt kan du skriva ut
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>[!UICONTROL View] eller bättre åtkomst till projektet</p> </td> 
+   <td> <p>[!UICONTROL View] eller bättre åtkomst till projekt och uppgifter</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,6 +49,34 @@ Du kan exportera [!UICONTROL Gantt chart] till en PDF. Efteråt kan du skriva ut
 Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront] plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront] license</td> 
+   <td> <p>New:[!UICONTROL Light] or higher</p>
+   <p>Current:[!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL View] or higher access to Projects and Tasks</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL View] or higher access to the project</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+-->
 
 ## Exportera [!UICONTROL Gantt chart]
 

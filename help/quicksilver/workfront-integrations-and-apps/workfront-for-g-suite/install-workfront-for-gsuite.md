@@ -7,7 +7,7 @@ description: Du kan installera tillägget  [!DNL Adobe Workfront] för Google Wo
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: eb11d62d-86ed-49fc-8bbc-6f04eb30865d
-source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
+source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 0%
@@ -26,32 +26,34 @@ ht-degree: 0%
 >
 >Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Google Workspace.
 >
->En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Mer information om de specifika funktionerna i Workfront Automation and Integration-modulerna för Google Workspace finns i [Gmail-moduler](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) och [Google Calendar-moduler](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
+>Mer information om de specifika funktionerna i Workfront Automation and Integration-modulerna för Google Workspace finns i [Gmail-moduler](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) och [Google Calendar-moduler](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 Du kan installera tillägget [!DNL Adobe Workfront for Google Workspace] från Marketplace på [!DNL Google Workspace].
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
-  </tr>
-   </tbody> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Standard</p><p>Arbeta eller högre</p>
+  </tr> 
+ </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Installera [!DNL Workfront for Google Workspace]
 
@@ -62,6 +64,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    Klicka på plustecknet i sidofältet för [!DNL Google Workspace] tillägg längst till höger i en [!DNL Google Workspace]-app ([!DNL Gmail], [!DNL Google Calendar] eller [!DNL Google Drive]). Sök efter *[!DNL Workfront for Google Workspace]* och klicka sedan på appobjektet [!DNL Workfront for Google Workspace] som visas.
 
 1. Klicka på **[!UICONTROL Install]** och följ sedan anvisningarna som visas.
-1. (Villkorligt) Uppdatera sidan om du inte ser ikonen [!DNL Google Workspace] [!DNL Workfront]Workfront ![&#x200B; i sidofältet för tillägg &#x200B;](assets/wf-lion-icon.png) längst till höger på sidan, i appen [!DNL Google Workspace].
+1. (Villkorligt) Uppdatera sidan om du inte ser ikonen [!DNL Google Workspace] [!DNL Workfront]Workfront ![ i sidofältet för tillägg ](assets/wf-lion-icon.png) längst till höger på sidan, i appen [!DNL Google Workspace].
 
 Mer information om inloggning finns i [Logga in och ut från  [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md).

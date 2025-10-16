@@ -6,7 +6,7 @@ description: Namnet på ett problem visas som opTask i Adobe Workfront-databasen
 author: Alina
 feature: Work Management
 exl-id: 91107c04-616c-49b2-aa78-10e373d11f6b
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Använd&quot;opTask&quot; och&quot;issue&quot; när du refererar till problem
+
+<!--Audited: 08/2025-->
 
 Namnet på ett problem visas som `opTask` i Adobe Workfront-databasen. Det finns tillfällen när du behöver använda fältnamnet `issue` för att referera till problem, men för det mesta måste du använda fältnamnet `opTask` i stället för `issue` för att referera till problem.
 

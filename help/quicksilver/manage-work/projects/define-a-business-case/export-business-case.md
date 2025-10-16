@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: business-case-and-scorecards
 title: Exportera affärsärendet för ett projekt
 description: Du kan exportera affärsärendet till en PDF-fil om du behöver skriva ut den eller bifoga den till ett e-postmeddelande i ett mer komprimerat format.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -26,14 +26,14 @@ Du kan exportera affärsärendet till en PDF-fil om du behöver skriva ut den el
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
-   <td> <p>Aktuell: Prime eller senare </p> <p>Äldre: Pro eller senare </p> </td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> <p>Prime eller senare </p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
    <td> 
-   <p>Aktuell: Ljus eller högre</p>
-   <p>Äldre: Granska eller senare</p> </td> 
+   <p>Ljus eller högre</p>
+   <p>Granska eller högre</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -46,7 +46,7 @@ Du kan exportera affärsärendet till en PDF-fil om du behöver skriva ut den el
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

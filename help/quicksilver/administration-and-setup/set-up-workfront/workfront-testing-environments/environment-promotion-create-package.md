@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 839b53afb9233ef0e36e981b243c8b2593b45f0f
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '782'
 ht-degree: 0%
 
 ---
@@ -30,26 +30,26 @@ Du måste ha följande:
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] plan</strong>
+   <td>Adobe Workfront package
    </td>
-   <td> Prime eller Ultimate (endast nya planer)
+   <td> <p>Prime eller Ultimate</p>
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] licenser</strong>
+   <td><strong>Workfront-licenser</strong>
    </td>
-   <td> [!UICONTROL Standard]
+   <td> <p>Standard</p>&gt;
    </td>
   </tr>
    <tr>
    <td>Konfigurationer på åtkomstnivå
    </td>
-   <td>Du måste vara en [!DNL Workfront]-administratör.
+   <td><p>Du måste vara Workfront-administratör.</p>
    </td>
   </tr>
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Skapa ett paket
 
@@ -101,7 +101,7 @@ Ett paket måste ha statusen `DRAFT` för att kunna redigeras.
 1. (Valfritt) Om du vill visa innehållet, inklusive alla objekt och deras underordnade objekt, klickar du på listrutepilen bredvid objekttypen i avsnittet **Innehåll** .
 1. (Valfritt) Om du vill visa tidigare installationer och installationsförsök för det här paketet klickar du på **Distributioner**.
 1. (Valfritt) Om du vill redigera paketet klickar du på **Redigera paket** längst upp till höger på skärmen.
-Ett paket måste ha statusen `DRAFT` för att kunna redigeras. Om du vill flytta paketet till `DRAFT`-status väljer du `Draft` i fältet **Status**. Du kan sedan fortsätta redigera paketet.
+Ett paket måste ha statusen `DRAFT` för att kunna redigeras. Om du vill flytta paketet till `DRAFT`-status väljer du **i fältet** Status`Draft`. Du kan sedan fortsätta redigera paketet.
 1. Installera paketet genom att klicka på **Installera** längst upp till höger på skärmen.
 
    Instruktioner om hur du installerar ett paket finns i [Installera ett miljöerbjudande](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).

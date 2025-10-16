@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Beräknade anpassade fält kontra beräknade kolumner
 description: Om du vill samla flera fält i Adobe Workfront och visa det sammanlagda värdet i ett nytt fält kan du skapa ett beräknat anpassat fält i ett anpassat formulär eller en beräknad kolumn i en vy.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
 source-wordcount: '817'
 ht-degree: 0%

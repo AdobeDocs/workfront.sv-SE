@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
-source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
+source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -20,10 +20,6 @@ ht-degree: 0%
 <!--Audited: 03/2025-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
-
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Adobe Workfront har ett antal standardrisktyper som du kan koppla till projekt i planeringsfasen för att identifiera potentiella hinder innan du godkänner något arbete.
 
@@ -37,31 +33,27 @@ Du kan koppla risktyper till projektrisker för att identifiera vilken typ av ri
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Alla</td> 
+   <td>[!DNL Adobe Workfront] package</td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td><p>Nytt: [!UICONTROL Standard]</p>
-   eller
-   <p>Aktuell: [!UICONTROL Plan]</p>
-   </td> 
+   <td>[!DNL Adobe Workfront] licens</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>Konfigurationer på åtkomstnivå</td> 
+   <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-*Mer information om informationen i den här tabellen finns i [Åtkomstkraven i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -93,13 +85,13 @@ Du kan göra följande för att öka antalet risktyper i din Workfront-instans:
 1. Välj den risktyp som du vill redigera.
 1. Klicka på ikonen **[!UICONTROL Edit]** ![Redigera](assets/edit-icon.png).
 
-   <span class="preview">Rutan [!UICONTROL **Redigera risktyp**] öppnas.</span>
+   Rutan [!UICONTROL **Redigera risktyp**] öppnas.
 
    ![Redigera risktypsruta](assets/edit-risk-type-box.png)
 
    >[!TIP]
    >
-   >   Du kan redigera risktypsinformation infogat när du dubbelklickar på Namn eller Beskrivning för en risktyp i en lista över risktyper.
+   >Du kan redigera risktypsinformation infogat när du dubbelklickar på Namn eller Beskrivning för en risktyp i en lista över risktyper.
 
 1. (Valfritt) Ändra namn och beskrivning av risktypen.
 
@@ -107,9 +99,9 @@ Du kan göra följande för att öka antalet risktyper i din Workfront-instans:
 
 1. Klicka på **[!UICONTROL Save Changes].**
 
-1. (Valfritt) Om du vill ta bort en risktyp markerar du den i listan, klickar på ikonen [!UICONTROL **Ta bort**] ![Ta bort &#x200B;](assets/delete.png) och sedan på [!UICONTROL **Ja, ta bort den**] . Risktypen tas bort och kan inte återfås.
+1. (Valfritt) Om du vill ta bort en risktyp markerar du den i listan, klickar på ikonen [!UICONTROL **Ta bort**] ![Ta bort ](assets/delete.png) och sedan på [!UICONTROL **Ja, ta bort den**] . Risktypen tas bort och kan inte återfås.
 
-1. (Valfritt) Om du vill exportera en lista med risktyper klickar du på ikonen [!UICONTROL **Exportera**] ![Exportera &#x200B;](assets/export-icon.png) . Du kan exportera till följande filtyper:
+1. (Valfritt) Om du vill exportera en lista med risktyper klickar du på ikonen [!UICONTROL **Exportera**] ![Exportera ](assets/export-icon.png) . Du kan exportera till följande filtyper:
 
    * PDF
    * Excel
@@ -119,7 +111,6 @@ Du kan göra följande för att öka antalet risktyper i din Workfront-instans:
    >[!TIP]
    >
    >   Du kan först välja ett begränsat antal risktyper och sedan exportera dem för en mindre lista.
-
 
 ### Skapa risktyper {#create-risk-types}
 
@@ -135,10 +126,9 @@ Du kan skapa risktyper, förutom de som är standard.
 
    Klicka på [!UICONTROL **Lägg till fler risktyper**] i det nedre vänstra hörnet av listan över risktyper om du vill lägga till risktyper.
 
-   <span class="preview">Rutan **Ny risktyp** öppnas. <span>
+   Rutan **Ny risktyp** öppnas.
 
    ![Ny risktypsruta](assets/new-risk-type-box.png)
-
 
 1. Lägg till **[!UICONTROL Name]** (obligatoriskt) och **[!UICONTROL Description]** (valfritt) för risktypen.
 
@@ -150,7 +140,7 @@ Du kan skapa risktyper, förutom de som är standard.
 
    >[!TIP]
    >
-   >Om du vill redigera en anpassad risktyp läser du avsnittet [[!UICONTROL Edit existing] risktyper &#x200B;](#edit-existing-risk-types) i den här artikeln.
+   >Om du vill redigera en anpassad risktyp läser du avsnittet [[!UICONTROL Edit existing] risktyper ](#edit-existing-risk-types) i den här artikeln.
 
 ## Bifoga risker med risktyper i projekt
 

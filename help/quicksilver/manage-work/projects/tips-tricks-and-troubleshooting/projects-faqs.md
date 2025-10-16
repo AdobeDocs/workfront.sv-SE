@@ -1,13 +1,12 @@
 ---
 title: Vanliga frågor om projekt
-description: Vanliga frågor om projekt
+description: Den här artikeln innehåller de vanligaste frågorna om projekt i Adobe Workfront.
 author: Alina
-draft: Probably
 feature: Work Management
 exl-id: be262d72-f4e4-4426-a6bc-23499667fc97
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '636'
 ht-degree: 0%
 
 ---

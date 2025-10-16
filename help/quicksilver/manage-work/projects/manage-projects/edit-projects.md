@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '7643'
+source-wordcount: '7642'
 ht-degree: 0%
 
 ---
@@ -47,14 +47,13 @@ Det bästa är om du redigerar ett projekt när projektet har statusen Planering
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td><p>Nytt: Standard </p> 
-   eller
-   <p>Aktuell: Planera </p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td><p>Standard</p> 
+   <p>Plan</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -63,7 +62,7 @@ Det bästa är om du redigerar ett projekt när projektet har statusen Planering
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
    <td> 
-     <p>Hantera behörigheter för ett projekt </p> 
+     <p>Hantera behörigheter för ett projekt</p> 
      </td> 
   </tr> 
  </tbody> 
@@ -72,6 +71,37 @@ Det bästa är om du redigerar ett projekt när projektet har statusen Planering
 *Mer information om informationen i den här tabellen finns i [Åtkomstkraven i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td><p>New: Standard </p> 
+   Or
+   <p>Current: Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
+     <p>Manage permissions to a project </p> 
+     </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
 ## Begränsningar för redigering av projekt
 
@@ -118,7 +148,7 @@ Mer information om hur du skapar ett projekt från en mall finns i [Skapa ett pr
 
    Så här redigerar du information i detaljavsnittet:
 
-   1. (Valfritt) Klicka på ikonen **Komprimera alla** ![Komprimera alla &#x200B;](assets/collapse-icon.png) i det övre högra hörnet om du vill komprimera alla områden.
+   1. (Valfritt) Klicka på ikonen **Komprimera alla** ![Komprimera alla ](assets/collapse-icon.png) i det övre högra hörnet om du vill komprimera alla områden.
    1. (Valfritt och villkorligt) När ett område är komprimerat klickar du på **högerpilen** ![högerpilen](assets/right-pointing-arrow.png) bredvid varje område för att expandera det område som du vill redigera.
    1. Mer information om hur du redigerar information på fliken Projektinformation finns i följande artiklar:
 
@@ -126,10 +156,10 @@ Mer information om hur du skapar ett projekt från en mall finns i [Skapa ett pr
       * [Hantera information i projektfinansieringsdelen](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
 
    1. (Valfritt) Om du vill bifoga ett anpassat formulär börjar du skriva namnet på ett formulär i fältet **Lägg till anpassat formulär** och markerar det när det visas i listan. Klicka sedan på **Spara ändringar**.
-   1. (Valfritt) Klicka på ikonen **Exportera** ![Exportera &#x200B;](assets/export.png) om du vill exportera översiktsinformation och anpassad formulärinformation till en PDF-fil. Klicka sedan på **Exportera**. Välj bland följande:
+   1. (Valfritt) Klicka på ikonen **Exportera** ![Exportera ](assets/export.png) om du vill exportera översiktsinformation och anpassad formulärinformation till en PDF-fil. Klicka sedan på **Exportera**. Välj bland följande:
 
       * Markera alla (visas bara när det finns minst ett anpassat formulär bifogat)
-      * Ökning
+      * Översikt
       * Namnet på ett eller flera anpassade formulär
 
       PDF-filen hämtas till din dator.
@@ -187,7 +217,7 @@ Mer information om hur du skapar ett projekt från en mall finns i [Skapa ett pr
 
    Du kan inte redigera projektnamnet när du redigerar flera projekt samtidigt.
 
-### Ökning {#overview}
+### Översikt {#overview}
 
 1. Börja redigera ditt projekt enligt beskrivningen ovan.
 1. Klicka på **Översikt** i den vänstra panelen.
@@ -403,7 +433,7 @@ Så här redigerar du fält i finanssektorn:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Planerad förmån</strong> </td> 
-      <td> <p>Uppskatta den planerade fördelen med projektet. Detta används i affärsscenariot för projektet och i Portfolio Optimizer. Mer information om en planerad förmån för ett projekt finns i <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Översikt över projektplanerad förmån</a>. Den planerade fördelen med ett projekt beaktas när ett projekts nettovärde beräknas. </p> <p>Mer information finns i <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Hantera projekt i Portfolio Optimizer</a> .<br></p> </td> 
+      <td> <p>Uppskatta den planerade fördelen med projektet. Detta används i affärsscenariot för projektet och i Portfolio Optimizer. Mer information om en planerad förmån för ett projekt finns i <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Översikt över projektplanerad förmån</a>. Den planerade fördelen med ett projekt beaktas när ett projekts nettovärde beräknas. </p> <p>Mer information finns i <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Hantera projekt i Portfolio Optimizer: artikelindex</a> .<br></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Faktisk förmån</strong> </td> 
@@ -576,7 +606,7 @@ Mer information om hur de här inställningarna påverkar hur du skapar nya uppg
    | Storlek | Procent |
    |---|---|
    | Liten | 25 % |
-   | Medium | 50 % |
+   | Medium | 50 % |
    | Stor | 75 % |
 
    >[!TIP]

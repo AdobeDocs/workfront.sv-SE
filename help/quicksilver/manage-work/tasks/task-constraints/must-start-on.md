@@ -2,12 +2,12 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Aktivitetsbegränsningsöversikt: Måste starta på'
+title: 'Översikt över begränsning av aktivitet: Måste starta på'
 description: Använd åtgärdsbegränsningen Måste starta på (MSO) om du vill schemalägga en aktivitet att starta exakt på ett visst datum.
 author: Alina
 feature: Work Management
 exl-id: 09062d46-2b80-4758-946e-d6dec0f7a7c0
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%

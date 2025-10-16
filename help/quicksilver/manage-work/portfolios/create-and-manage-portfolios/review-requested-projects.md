@@ -6,9 +6,9 @@ description: Projektbegäranden visas som projekt med statusen [!UICONTROL Reque
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1acfb885-0da3-495d-ba66-e80e339e90de
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -30,21 +30,20 @@ Du kan granska begärda projekt i följande områden i [!DNL Adobe Workfront]:
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td><p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td> <p>[!UICONTROL Standard] </p> 
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -61,6 +60,31 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 +++
 
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td><p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>[!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL View] access or higher to Portfolios</p> <p>[!UICONTROL Edit] access to Projects</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL View] permissions or higher on the portfolio</p> <p>[!UICONTROL Manage] permissions on the projects to update their status</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
+
 ## Granska begärda projekt i en projektrapport
 
 Du kan skapa en rapport för projekt för att se vilka projekt som har statusen [!UICONTROL Requested].
@@ -71,7 +95,7 @@ Mer information om hur du godkänner projektbegäranden genom att skapa en proje
 
 1. Gå till portföljen vars begärda projekt du vill granska.
 1. Klicka på &#x200B;**[!UICONTROL Projects]** i den vänstra panelen
-1. Välj **[!UICONTROL Requested]** i listrutan **[!UICONTROL Filter]**.
+1. Välj **[!UICONTROL Filter]** i listrutan **[!UICONTROL Requested]**.
 
    Endast projekt med statusen **[!UICONTROL Requested]** visas i listan.
 

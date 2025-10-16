@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 2d76077d-2913-40b8-9596-4e201d12ec1a
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,6 @@ Prioriteter visar arbetsuppgifter som tilldelats dig. Du kan inte se arbetsobjek
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -32,14 +30,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront package</strong></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licens*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront-licens</strong></td> 
    <td> 
-   <p>Aktuell: Begär eller högre för problem; Arbeta eller högre för uppgifter</p>
-   <p>Nytt: Medarbetare eller högre eller högre, eller problem, Ljus eller högre för uppgifter</p> 
+   <p>Begär eller högre för problem; Arbeta eller högre för uppgifter</p>
+   <p>Medarbetare eller högre, eller problem; Ljus eller högre för uppgifter</p> 
    </td> 
   </tr> 
   <tr> 
@@ -53,7 +51,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,7 +71,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Klicka på ett arbetsobjektnamn för att öppna sidan **Översikt**.
 1. I avsnittet **Snabblänkar** hittar du länken som du vill kopiera.
-1. Klicka på ikonen **Kopiera**![&#x200B; Kopiera](assets/copy-icon.png) .
+1. Klicka på ikonen **Kopiera**![ Kopiera](assets/copy-icon.png) .
    ![Kopiera länk](assets/copy-link.png)
 
 ## Öppna en snabblänk

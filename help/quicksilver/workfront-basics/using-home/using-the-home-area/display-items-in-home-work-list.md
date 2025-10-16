@@ -6,9 +6,9 @@ description: Varje widget innehåller en egen arbetslista. Arbetslister visar al
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,6 @@ Varje widget innehåller en egen arbetslista. Arbetslister visar alla arbetsobje
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -37,13 +35,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licens</strong></td> 
-   <td> <p>Nytt:</p><ul><li>[!UICONTROL Contributor] endast för godkännanden</li> <li>[!UICONTROL Standard] eller högre för alla andra objekt</li> <p>eller</p> 
-  </ul><p>Aktuell:</p><ul><li>[!UICONTROL Review] endast för godkännanden</li> <li>[!UICONTROL Work] eller högre för alla andra objekt</li> </td> 
+   <td><ul><li>[!UICONTROL Contributor] endast för godkännanden</li> <li>[!UICONTROL Standard] eller högre för alla andra objekt</li> <p>eller</p> 
+  </ul><ul><li>[!UICONTROL Review] endast för godkännanden</li> <li>[!UICONTROL Work] eller högre för alla andra objekt</li> </td> 
   </tr> </ul>
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå</strong></td> 
@@ -56,7 +54,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -117,7 +115,7 @@ Så här filtrerar du ditt arbete:
    | Mina förfrågningar | Visar alla begäranden som du har skickat in |
    | Mina godkännanden | Visar alla väntande, tilldelade, delegerade och inskickade godkännanden |
 
-1. Klicka på ikonen **Filter** ![Filtrera &#x200B;](assets/filter-nwepng.png) i det övre högra hörnet av widgetens arbetslista.
+1. Klicka på ikonen **Filter** ![Filtrera ](assets/filter-nwepng.png) i det övre högra hörnet av widgetens arbetslista.
 1. Välj ett **föreslaget**-filter eller ett filter som du har skapat.
 Mer information om föreslagna filter finns i [Översikt över filter för hemwidget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md).
 1. (Valfritt) Aktivera **Staplingsfilter** om du vill välja flera filteralternativ.
@@ -144,7 +142,7 @@ Så här grupperar du din arbetslista:
    | Mina förfrågningar | Visar alla begäranden som du har skickat in |
    | Mina godkännanden | Visar alla väntande, tilldelade, delegerade och inskickade godkännanden |
 
-1. Klicka på ikonen **Grupp** ![Gruppera &#x200B;](assets/group-icon.png) i det övre högra hörnet av widgetens arbetslista.
+1. Klicka på ikonen **Grupp** ![Gruppera ](assets/group-icon.png) i det övre högra hörnet av widgetens arbetslista.
 1. Välj en **föreslagen** gruppering eller en gruppering som du har skapat.
    ![Gruppering utökad](assets/grouping-expanded.png)
 
@@ -166,9 +164,9 @@ Du kan välja vilka kolumner som ska visas i widgetens arbetslista:
    | Mina förfrågningar | Visar alla begäranden som du har skickat in |
    | Mina godkännanden | Visar alla väntande, tilldelade, delegerade och inskickade godkännanden |
 
-1. Klicka på ikonen **Kolumn** ![Kolumn &#x200B;](assets/column-icon.png) i det övre högra hörnet i widgetens arbetslista.
+1. Klicka på ikonen **Kolumn** ![Kolumn ](assets/column-icon.png) i det övre högra hörnet i widgetens arbetslista.
 1. Aktivera och inaktivera kolumnerna beroende på dina inställningar.
-1. (Valfritt) Klicka på ikonen **Dra** ![Dra ikonen &#x200B;](assets/drag-icon.png) för att ändra ordning på kolumnerna.
+1. (Valfritt) Klicka på ikonen **Dra** ![Dra ikonen ](assets/drag-icon.png) för att ändra ordning på kolumnerna.
    ![Kolumner utökade](assets/columns-expanded.png)
 
 

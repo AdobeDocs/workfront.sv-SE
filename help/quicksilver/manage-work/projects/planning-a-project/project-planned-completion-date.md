@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: fedb0328450896d212081715df4cde7644b169bc
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -27,25 +27,60 @@ Det planerade slutförandedatumet för ett projekt kan anges manuellt eller auto
 
 ## Åtkomstkrav
 
-<!--drafted for P&P:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p>
-   Or
-   <p>Legacy license: Plan </p>
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td><p>Standard</p>
+   <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till projekt</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objektbehörigheter</td> 
+   <td> <p>Hantera behörigheter för projektet</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>
+   New: Standard
+
+   Or
+
+   Current: Plan </p>
+   
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
    <td> <p>Edit access to Projects</p> <p><b>NOTE</b>
    
    If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
@@ -55,48 +90,7 @@ Det planerade slutförandedatumet för ett projekt kan anges manuellt eller auto
    <td> <p>Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
--->
-
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td> <p>Alla</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td><p>
-   Nytt: Standard
-
-eller
-
-Aktuell: Planera </p>
-
-</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Redigera åtkomst till projekt</p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr> 
-  <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter för projektet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 ## Ange manuellt planerat slutförandedatum för ett projekt
 
@@ -111,13 +105,13 @@ Så här schemalägger du ett projekt från Slutförandedatum:
 
 {{step1-to-projects}}
 
-1. Klicka på **Nytt projekt** och välj sedan **Nytt projekt** i listrutan som visas.
+1. Klicka på **Nytt projekt** och välj sedan **Nytt projekt** i listrutan.
 
    Mer information om hur du skapar projekt finns i artikeln [Skapa ett projekt](../../../manage-work/projects/create-projects/create-project.md).
 
 1. Välj **Projektinformation** i den vänstra panelen.
 
-1. Klicka på ikonen **Redigera projekt** ![Redigera &#x200B;](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) i det övre högra hörnet och välj sedan **Översikt** i listrutan som visas.
+1. Klicka på ikonen **Redigera projekt** ![Redigera ](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) i det övre högra hörnet och välj sedan **Översikt** i listrutan som visas.
 
 1. Klicka på fältet **Schemaläge** i avsnittet **Projektdatum** och välj sedan **Slutförandedatum**.
 
@@ -140,7 +134,7 @@ Så här schemalägger du ett projekt från startdatum:
 
 1. Välj **Projektinformation** i den vänstra panelen.
 
-1. Klicka på ikonen **Redigera projekt** ![Redigera &#x200B;](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) i det övre högra hörnet och välj sedan **Översikt** i listrutan som visas.
+1. Klicka på ikonen **Redigera projekt** ![Redigera ](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) i det övre högra hörnet och välj sedan **Översikt** i listrutan som visas.
 
 1. Klicka på fältet **Schemaläge** i avsnittet **Projektdatum** och välj sedan **Startdatum**.
 

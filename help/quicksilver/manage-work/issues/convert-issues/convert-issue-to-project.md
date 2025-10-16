@@ -1,25 +1,25 @@
 ---
 product-area: projects
 navigation-topic: convert-issues
-title: Konvertera ett problem till ett projekt i Adobe Workfront
-description: Konvertera ett problem till ett projekt i Adobe Workfront
+title: Konvertera ett ärende till ett projekt
+description: Om du behöver göra mer för att slutföra ett problem efter att utgåvan har skickats kan du konvertera det till ett projekt i Adobe Workfront.
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: 71ddeb83543c3c1491a412ac18deaa3ce1077c21
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1966'
+source-wordcount: '1958'
 ht-degree: 0%
 
 ---
 
-# Konvertera ett problem till ett projekt i Adobe Workfront
+# Konvertera ett ärende till ett projekt
 
-<!--Audited: 01/2024-->
+<!--Audited: 08/2025-->
 
 Om mer arbete behöver göras för att slutföra ett problem efter att utgåvan har skickats kan du konvertera utgåvan till ett projekt.
 
-Du kan konvertera ett ärende till ett nytt projekt eller konvertera det till ett projekt med hjälp av en mall. I den här artikeln beskrivs båda sätten att konvertera problem till projekt.
+Du kan konvertera en utgåva till ett projekt med vår utan att använda en projektmall. I den här artikeln beskrivs båda sätten att konvertera problem till projekt.
 
 >[!IMPORTANT]
 >
@@ -31,29 +31,27 @@ När du skapar ett projekt från ett problem fylls vissa av fälten i från andr
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
    <td>
-   <p>Nytt: Standard </p> 
-    <p>Aktuell: Planera </p> </td> 
+   <p>Standard</p> 
+    <p>Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till problem, uppgifter och projekt</p> <p>Redigera åtkomst till finansiella data för att uppdatera finansiell information för en prognos som konverterats från utgåvan</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa behörigheter för utgåvan</p> <p>Du får behörigheten Hantera för projektet när problemet har konverterats</p> </td> 
+   <td> <p>Visa behörigheter för utgåvan</p> <p>Du får behörigheten Hantera i projektet när du har konverterat problemet</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,6 +59,34 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td>
+   <p>New: Standard </p> 
+    <p>Current: Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Issues, Tasks, and Projects</p> <p>Edit access to Financial Data to update financial information for a projected converted from the issue</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to the issue</p> <p>You obtain Manage permissions to the project after the issue is converted</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
 
 ## Överväganden
 

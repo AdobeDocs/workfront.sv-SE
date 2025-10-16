@@ -6,9 +6,9 @@ description: Du kan inaktivera team som du inte längre använder samtidigt som 
 author: Lisa
 feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
-source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -46,23 +46,20 @@ Inaktiverade team visas inte när du söker efter ett team, men de visas fortfar
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader"> <p>Adobe Workfront package</p> </td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
    <td>
-   <p>Nytt: Standard</p>
-   <p>eller</p>
-   <p>Aktuell: Planera</p></td>
-  </tr>
+   <p>Standard</p>
+   <p>Plan</p></td>
+  </tr> 
   <tr>
    <td>Konfigurationer på åtkomstnivå</td>
    <td><p>Inga konfigurationer krävs för att inaktivera ett team.</p>

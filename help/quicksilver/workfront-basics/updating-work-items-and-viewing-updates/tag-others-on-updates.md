@@ -6,9 +6,9 @@ description: När du ger uppdateringskommentarer för ett Adobe Workfront-objekt
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
@@ -57,35 +57,65 @@ I stället för att inkludera de användarna i objektet genom att tilldela dem e
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront package</strong></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licens*</strong></td> 
-   <td> <p>Nytt: Medarbetare eller högre för problem och dokument; Ljus eller högre för alla andra objekt</p>
-   <p>Aktuell: Begär eller högre för utgåvor och dokument; Granska eller högre för alla andra objekt</p> </td> 
-  </tr> 
-  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront-licens</strong></td> 
+   <td> <p>För ärenden och dokument:</p>
+
+<ul><li><p>Medarbetare eller högre</p></li>
+   <li><p>Begäran eller senare</p></li></ul>
+
+<p>För alla andra objekt:</p>
+   <ul><li><p>Ljus eller högre</p></li>
+   <li><p>Granska eller högre</p></li></ul>
+
+</td>  
+  </tr>
    <td role="rowheader"><strong>Åtkomstnivåkonfiguration</strong></td> 
-   <td> <p>Visa eller ge senare åtkomst till de objekt där du vill skicka svaret</p> </td> 
+   <td> <p>Visa eller ge senare åtkomst till objekt där du vill tagga användare</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörighet</strong></td> 
-   <td> <p>Visa eller högre behörigheter för de objekt där du vill skicka svaret</p> </td> 
+   <td> <p>Visa eller högre behörigheter för de objekt där du vill tagga användare</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav för Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav för Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td> <p>New: Contributor or higher for issues and documents; Light or higher for all other objects</p>
+   <p>Current: Request or higher for issues and documents; Review or higher for all other objects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Access level configuration</strong></td> 
+   <td> <p>View or higher access to the objects where you want to post the reply</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Object permission</strong></td> 
+   <td> <p>View or higher permissions to the objects where you want to post the reply</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Tagga andra för uppdateringar
 
@@ -118,7 +148,9 @@ Du kan också ta bort användare som är taggade av misstag när du redigerar el
 
    ![Tagga en användare](assets/tag-others-unified-commenting-with-all-tab.png)
 
-1. (Valfritt) Aktivera **Privat till mitt företag** i uppdateringsrutans nedre högra hörn om du vill göra uppdateringen privat. Detta gör uppdateringen synlig endast för användare i ditt företag. Alternativet **Privat till mitt företag** är bara tillgängligt när ett företag har angetts i din Workfront-profil.
+1. (Valfritt) Aktivera **Privat till mitt företag** i uppdateringsrutans nedre högra hörn om du vill göra uppdateringen privat. Detta gör uppdateringen synlig endast för användare i ditt företag.
+
+   Alternativet **Privat till mitt företag** är bara tillgängligt när ett företag har angetts i din Workfront-profil.
 
    >[!NOTE]
    >

@@ -6,9 +6,9 @@ description: Använd belastningsutjämnaren för att förstå tillgängligheten 
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: a63c53652491a25b909b7563990d4375d8f5885f
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '4371'
+source-wordcount: '4348'
 ht-degree: 0%
 
 ---
@@ -23,31 +23,27 @@ Använd Utjämning av arbetsbelastning i Adobe Workfront för att tilldela anvä
 
 Utjämning av arbetsbelastning är tillgängligt i flera områden av Adobe Workfront. Att navigera är detsamma i alla områden.
 
-Mer information om var arbetsbelastningsutjämnaren finns finns i [Hitta arbetsbelastningsutjämnaren](https://experienceleague.adobe.com/sv/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
+Mer information om var arbetsbelastningsutjämnaren finns finns i [Hitta arbetsbelastningsutjämnaren](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
 
 ## Åtkomstkrav
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td> <p>Alla </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td><p>Nytt: Standard</p>
-       <p>eller</p>
-       <p>Aktuell: Planera när du använder belastningsutjämnaren för arbetsbelastning i resursområdet:</br>
-       Arbeta, när du använder belastningsutjämnaren för ett team eller projekt</p></td>
+   <td>Adobe Workfront package</td> 
+   <td><p>Alla</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td>Adobe Workfront-licens</td> 
+   <td><p>Standard</p>
+       <p>Planera, när du använder belastningsutjämnaren för arbetsbelastning i resursområdet; Arbeta när du använder belastningsutjämnaren för ett team eller projekt</p></td>
+  </tr>
+  <tr> 
+   <td>Konfigurationer på åtkomstnivå</td> 
    <td> <p>Visa eller öka åtkomsten till följande:</p> 
     <ul> 
      <li>Resurshantering</li> 
@@ -58,13 +54,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
+   <td>Objektbehörigheter</td> 
    <td>Visa eller högre behörigheter för projekt, uppgifter och ärenden</td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -109,8 +105,8 @@ Mer information om hur du visar information i Arbetsbelastningsutjämnaren finns
 
 Mer information om hur du hanterar resurser med hjälp av belastningsutjämnaren finns i följande artiklar:
 
-* [Översikt över tilldelning av arbete i arbetsbelastningsutjämnaren](https://experienceleague.adobe.com/sv/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [Hantera användarallokeringar i arbetsbelastningsutjämnaren](https://experienceleague.adobe.com/sv/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
+* [Översikt över tilldelning av arbete i arbetsbelastningsutjämnaren](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [Hantera användarallokeringar i arbetsbelastningsutjämnaren](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 
 ## Navigera i Utjämning av arbetsbelastning för flera projekt i resursområdet
@@ -166,7 +162,7 @@ Arbetsytan Ej tilldelat visas inte som standard. Vi rekommenderar att du använd
             > 
             >Mer information om hur du anpassar inställningar finns i avsnittet [Anpassa vyn](#customize-the-view) i den här artikeln.
 
-1. (Valfritt) Klicka på ikonen **Filter** ![Filter &#x200B;](assets/filter-icon.png) i området **Tilldelat arbete** och välj sedan **Standardfilter** i området **Förslag** i filterrutan.
+1. (Valfritt) Klicka på ikonen **Filter** ![Filter ](assets/filter-icon.png) i området **Tilldelat arbete** och välj sedan **Standardfilter** i området **Förslag** i filterrutan.
 
    När du använder standardfiltret visas användare som tillhör något av dina team och deras arbetsobjekt. Du kan redigera en kopia av det här filtret.
 
@@ -450,13 +446,13 @@ Sidan i ditt hemteam visas som standard.
 
    Du kan till exempel överväga att endast visa användare som tillhör dina team eller grupper. Mer information finns i [Filtrera information i Utjämning av arbetsbelastning](../workload-balancer/filter-information-workload-balancer.md).
 
-1. (Valfritt) Klicka på ikonen **Filter** ![Filtrera &#x200B;](assets/filter-icon.png) i området Tilldelad arbetsyta och välj alternativet **Det här projektets arbetsobjekt** i området **Förslag** i filterpanelen. Det här filtret är som standard avmarkerat.
+1. (Valfritt) Klicka på ikonen **Filter** ![Filtrera ](assets/filter-icon.png) i området Tilldelad arbetsyta och välj alternativet **Det här projektets arbetsobjekt** i området **Förslag** i filterpanelen. Det här filtret är som standard avmarkerat.
 
    När det här alternativet är markerat visas endast de objekt som tilldelats användare i det valda projektet.
 
    När alternativet inte är markerat visas alla objekt som tilldelats användarna i projektet, oavsett vilka projekt som objekten tillhör.
 
-1. (Valfritt och rekommenderas) Använd ett filter på arbetsytan Tilldelad arbetsyta för att visa användare som är viktiga för dig men som kanske inte är tilldelade till objekt i projektet. Klicka sedan på ikonen **Visa alla användare** ![Visa alla användare &#x200B;](assets/show-all-users-icon-project-workload-balancer.png) .
+1. (Valfritt och rekommenderas) Använd ett filter på arbetsytan Tilldelad arbetsyta för att visa användare som är viktiga för dig men som kanske inte är tilldelade till objekt i projektet. Klicka sedan på ikonen **Visa alla användare** ![Visa alla användare ](assets/show-all-users-icon-project-workload-balancer.png) .
 
    Genom att visa alla användare kan du visa alla användare i Workfront som ännu inte är tilldelade till arbete eller andra roller i projektet.
 

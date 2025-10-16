@@ -7,9 +7,9 @@ description: Med utkast får du grundläggande byggstenar som hjälper dig att s
 author: Becky, Lisa
 feature: System Setup and Administration, Work Management
 exl-id: 932072e4-4d52-4b4b-a045-0cd38cb882d3
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -24,27 +24,23 @@ Det är bara systemadministratören som kan installera utkast. Mer information f
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Alla</td> 
+   <td role="rowheader">Adobe Workfront Package</td> 
+   <td> <p>Alla </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td>
-   <p>Nytt: Medarbetare eller högre</p>
-   <p>eller</p>
-   <p>Aktuell: Begäran eller senare</p></td> 
-  </tr>
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td><p>Medarbetare eller högre</p><p>Begärande eller högre</p>
+  </td> 
+  </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

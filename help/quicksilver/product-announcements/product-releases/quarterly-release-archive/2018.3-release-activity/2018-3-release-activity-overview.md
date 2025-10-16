@@ -2,14 +2,14 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: Aktivitetsöversikt för version 2018.3
-description: "Obs! 2018.3-utgåvan gjordes tillgänglig i produktionsmiljön följande datum (för detaljerade datum och tidpunkter, se trust.workfront.com)"
+description: Obs! 2018.3-utgåvan gjordes tillgänglig i produktionsmiljön följande datum (för detaljerade datum och tidpunkter, se trust.workfront.com)
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 55787c1e-45af-4b9f-bdbc-10cfacb326e6
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 3ac15b6527a727cfe95075405fa19164c06b102f
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1126'
 ht-degree: 0%
 
 ---
@@ -108,9 +108,9 @@ ht-degree: 0%
 ### Andra förbättringar
 
 * [Microsoft OneDrive - dokumentintegrering](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md#document-integration-with-microsoft-onedrive) 
-* [Integrering med Workfront för Microsoft Teams](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md#workfront-for-microsoft-teams-integration) 
+* [Workfront för Microsoft Teams-integrering](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md#workfront-for-microsoft-teams-integration) 
 * [Uppdaterat Workfront för Adobe Creative Cloud-integrering](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md#updated-workfront-for-adobe-cc-integration) 
-* [Borttagning av Flash för rapport-, kalender- och dokumentdelning](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md#flash-removal-for-report-calendar-and-document-sharing)
+* [Flash-borttagning för rapport, kalender och dokumentdelning](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md#flash-removal-for-report-calendar-and-document-sharing)
 
 ## Meddelanden {#announcements}
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 * [API-version 3 stöds inte längre](#api-version-3-no-longer-supported)
 * [TLS-stödet upphör](#tls-support-is-ending)
 * [JSONP-stödet upphör](#jsonp-support-is-ending)
-* [Borttagning av Flash-program](#flash-application-removal)
+* [Ta bort Flash-program](#flash-application-removal)
 * [Olika alternativ för enkel inloggning som ska tas bort](#various-single-sign-on-options-to-be-removed)
 * [Äldre Workfront FusionUpdate - 20 september 2018](#legacy-workfront-fusionupdate-september-20-2018)
 
@@ -138,13 +138,13 @@ Mer information finns i  [TLS 1.2 krävs i Adobe Workfront](../../../../product
 
 ### JSONP-stödet upphör {#jsonp-support-is-ending}
 
-Eftersom JSONP (Javascript with Padding) är en gammal standard med kända säkerhetsbrister kommer Workfront inte längre att stödja JSONP från och med november 2018. Mer information finns i [Avsluta stöd för JSONP](../../../../wf-api/api/ending-support-jsonp.md).
+Eftersom JSONP (Javascript with Padding) är en gammal standard med kända säkerhetsbrister kommer Workfront inte längre att stödja JSONP från och med november 2018.
 
-### Borttagning av Flash {#flash-application-removal}
+### Borttagning av Flash-program {#flash-application-removal}
 
-Alla funktioner som bygger på Flash-teknik planeras att tas bort från Workfront med version 2018.3 och ersätts av en ny lösning.
+Alla funktioner som bygger på Flash-teknik planeras att tas bort från Workfront med version 2018.3 och ersätts med en ny lösning.
 
-Mer information om de äldre verktygen för Flash och deras ersättningar finns i [Ersättning av verktyg baserade på Flash i Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Mer information om de äldre Flash-verktygen och deras ersättningar finns i [Ersättning av Flash-baserade verktyg i Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 
 ### Olika alternativ för enkel inloggning som ska tas bort {#various-single-sign-on-options-to-be-removed}
 

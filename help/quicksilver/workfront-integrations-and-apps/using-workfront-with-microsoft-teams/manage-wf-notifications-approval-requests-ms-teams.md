@@ -6,7 +6,7 @@ description: Du kan få meddelanden från  [!DNL Adobe Workfront] om objekt som 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 940cbfb34f12eacd5ba698f60fb7a3e67eb62b22
+source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
 workflow-type: tm+mt
 source-wordcount: '1372'
 ht-degree: 0%
@@ -30,26 +30,31 @@ De här meddelandena innehåller [!DNL Workfront] åtgärder som du kan vidta in
 >[!DNL Microsoft Teams] stöder inte längre [!DNL Internet Explorer]. Om du vill använda [!DNL Adobe Workfront for Microsoft Teams integration] måste du använda en annan webbläsare än [!DNL Internet Explorer].
 
 
+
+
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Standard</p>
+   <p>Arbeta eller högre</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Krav för att ta emot [!DNL Workfront] meddelanden i [!DNL Microsoft Teams]
 
@@ -80,7 +85,7 @@ Så här hanterar du [!DNL Workfront]-meddelanden som du kan ta emot i [!DNL Mic
 1. Klicka på ikonen **[!UICONTROL More added]** (tre punkter) appar i det vänstra navigeringsfältet i [!DNL Microsoft Teams].
 
 1. Klicka på [!DNL Workfront] i listan som visas.
-1. Välj fliken **[!UICONTROL Settings]**.
+1. Klicka på fliken **[!UICONTROL Settings]**.  
 
    ![Inställningsfliken för MS Teams](assets/ms-teams-settings-tab-350x552.png)
 

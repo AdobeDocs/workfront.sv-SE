@@ -6,9 +6,9 @@ description: Du kan använda mallar som ett ramverk för att skapa projekt i Ado
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
@@ -45,29 +45,24 @@ Du har följande alternativ för att skapa ett projekt från en mall:
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td> <p>Alla </p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront-licens*</td> 
-   <td> <p>Nytt: Standard</p>
-        <p>eller</p>
-        <p>Aktuell: Planera </p> </td> 
+   <td role="rowheader">Workfront-licens</td> 
+   <td> <p>Standard</p>
+        <p>Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Åtkomstnivå</td> 
+   <td role="rowheader">Åtkomstnivåkonfiguration</td> 
    <td> <p>Redigera åtkomst till projekt och mallar</p>
-
-<p>redigera åtkomst till portföljer och program om mallen du använder innehåller en Portfolio och ett program</p>
-
-</td> 
+   <p>Redigera åtkomst till portföljer och program om mallen du använder innehåller en Portfolio och ett program</p>  
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -78,9 +73,42 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-*Mer information om informationen i den här tabellen finns i [Åtkomstkraven i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Workfront license*</td> 
+   <td> <p>New: Standard</p>
+        <p>or</p>
+        <p>Current: Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Projects and to Templates</p>
+   
+   <p>edit access to Portfolios and Programs, if the template you use contains a Portfolio and a Program</p>
+   
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to a template</p> 
+  <p>If the template you use contains a Portfolio and a Program, you must have Manage permissions to the portfolio and program to create the project </p> 
+   <p>When you create a project, you automatically receive Manage permissions to the project.</p></td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Skapa ett projekt från en mall i området Projekt
 
@@ -137,7 +165,7 @@ Du kan skapa ett projekt från området Projekt på huvudmenyn eller från områ
       * Antalet uppgifter i mallen
       * Namnen på de anpassade mallformulären
 
-   1. (Valfritt) Hovra över namnet på en mall i den vänstra rutan och klicka på ikonen **Favoriter** **&#x200B;**&#x200B;![Favoriter](assets/favorites-icon-small.png) för att markera den som en favorit för framtida bruk.
+   1. (Valfritt) Hovra över namnet på en mall i den vänstra rutan och klicka på ikonen **Favoriter** **** ![Favoriter](assets/favorites-icon-small.png) för att markera den som en favorit för framtida bruk.
 
       eller
 

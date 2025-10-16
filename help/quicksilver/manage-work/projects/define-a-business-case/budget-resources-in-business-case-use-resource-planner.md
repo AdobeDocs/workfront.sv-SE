@@ -2,12 +2,12 @@
 navigation-topic: business-case-and-scorecards
 title: Budgetresurser i affärsärendet med resursplaneraren
 description: Som en del av resursplaneringen kan du använda resursplaneraren på projektnivå för att budgetera de jobbroller som krävs för att slutföra arbetet i ett projekt när du skapar affärsplanen.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '1224'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -35,19 +35,17 @@ Du kan också budgetera resurser i ett affärsfall med hjälp av Adobe Workfront
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
-   <td> <p>Aktuell: Prime eller senare</p>
-   <p>Äldre: Pro eller senare</p> 
+   <td role="rowheader"><p>Adobe Workfront</p></td> 
+   <td> <p>Prime eller senare</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
-   <td> <p>Aktuell: Ljus eller högre</p>
-   <p>Äldre: Granska eller senare</p>
+   <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
+   <td> <p>Ljus eller högre</p>
+   <p>Granska eller högre</p>
 
 <p><b>VIKTIGT!</b></p> 
-   <p>Aktuell: Du måste ha en standardlicens för att kunna ändra resursbudgeteringsinformationen. </p> 
-   <p>Äldre: Du måste ha en planlicens för att kunna ändra resursbudgeteringsinformationen. </p>
+   <p>Du måste ha en Standard- eller Plan-licens för att kunna ändra resursbudgeteringsinformationen. </p> 
    </td> 
   </tr> 
   <tr> 
@@ -66,7 +64,7 @@ Du kan också budgetera resurser i ett affärsfall med hjälp av Adobe Workfront
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

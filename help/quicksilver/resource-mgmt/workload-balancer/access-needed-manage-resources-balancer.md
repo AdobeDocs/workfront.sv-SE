@@ -6,9 +6,9 @@ description: Utan rätt åtkomst eller behörigheter kanske du inte kan visa ell
 author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: 78d73d0d7bd0ffc00ae1afed0adb324501e0c310
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -21,40 +21,40 @@ Utan rätt åtkomst eller behörigheter kanske du inte kan visa eller hantera di
 
 Du måste ha tillgång till de användare vars arbetsbelastning du vill visa eller hantera i Utjämning av arbetsbelastning. Utöver detta måste du ha rätt åtkomstnivå och rätt behörigheter för de projekt som arbetet är kopplat till.
 
-## Adobe Workfront-planen behövs för att använda belastningsutjämnaren för olika områden
+<!--## Adobe Workfront package needed to use the Workload Balancer for different areas
 
-Följande tabell visar kopplingen mellan den Workfront-plan ditt företag har och var i systemet du kan använda belastningsutjämnaren:
+The following table illustrates the connection between the Workfront plan your company has and where in the system you can use the Workload Balancer:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p><b>Workfront-plan (aktuell)</b></p></td> 
-   <td> <p><b>Områden där du kan komma åt arbetsbelastningsutjämnaren</b></p> </td> 
+   <td><p><b>Workfront Plan (Current)</b></p></td> 
+   <td> <p><b>Areas where you can access the Workload Balancer</b></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Team eller högre </td> 
-   <td>Utjämning av arbetsbelastning för ett team eller ett projekt</td> 
+   <td>Team or higher </td> 
+   <td>Workload Balancer for a team or a project</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Pro eller högre</td> 
-   <td>Utjämning av arbetsbelastning för flera projekt på systemnivå</td> 
+   <td>Pro or higher</td> 
+   <td>Workload Balancer for multiple projects, at the system level</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p><b>Workfront-plan (ny)</b></p></td> 
-   <td> <p><b>Områden där du kan komma åt arbetsbelastningsutjämnaren</b></p> </td> 
+   <td><p><b>Workfront Plan (New)</b></p></td> 
+   <td> <p><b>Areas where you can access the Workload Balancer</b></p> </td> 
   </tr>
   <tr> 
-   <td role="rowheader">Alla </td> 
-   <td>Få åtkomst till belastningsutjämnaren var som helst i Workfront</td> 
+   <td>Any </td> 
+   <td>Access the Workload Balancer anywhere in Workfront</td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om Workfront-planer finns i [Våra planer](https://business.adobe.com/se/products/workfront/pricing.html).
+For information about the Workfront plans, see [Our Plans](https://business.adobe.com/products/workfront/pricing.html).
 
-Mer information om var du kan hitta arbetsbelastningsutjämnaren i Workfront finns i [Leta reda på arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+For information about where you can locate the Workload Balancer in Workfront, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).-->
 
 ## Åtkomst krävs för att visa arbetsbelastningsutjämnaren
 
@@ -65,24 +65,26 @@ Du måste ha följande åtkomst för att kunna visa arbetsbelastningsutjämnaren
  <col> 
  <tbody>
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td><p>Nytt: Standard</p>
-       <p>eller</p>
-       <p>Aktuell: Planerar att visa arbetsbelastningsutjämnaren i resursområdet:</br>
-       Arbeta, för att visa belastningsutjämnaren för ett team eller projekt</p></td>
+   <td>Adobe Workfront package</td> 
+   <td><p>Alla</p></td>
+  </tr>
+  <tr> 
+   <td>Adobe Workfront-licens</td> 
+   <td><p>Standard</p>
+       <p>Planera, för att visa belastningsutjämnaren i resursområdet, Arbete, för att visa belastningsutjämnaren för ett team eller projekt</p></td>
   </tr>  
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Visa eller högre åtkomst till resurshantering</p> <p>Mer information om åtkomstnivån för resurshantering finns i artikeln <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Bevilja åtkomst till resurshantering</a>.</p></td> 
+   <td>Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Visa eller högre åtkomst till resurshantering</p> <p>Mer information om åtkomstnivån för resurshantering finns i artikeln <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md">Bevilja åtkomst till resurshantering</a>.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Du måste ha behörigheten Visa för det projekt vars uppdrag du vill visa. </p> <p>Mer information om projektbehörigheter finns i artikeln <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Dela ett projekt i Adobe Workfront</a>.</p></td> 
+   <td>Objektbehörigheter</td> 
+   <td> <p>Du måste ha behörigheten Visa för det projekt vars uppdrag du vill visa. </p> <p>Mer information om projektbehörigheter finns i artikeln <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md">Dela ett projekt i Adobe Workfront</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <span class="preview">Alla användare har tillgång till arbetsbelastningsutjämnaren för sina egna profiler. Detta begränsas inte av licens- eller åtkomstnivå. Observera att belastningsutjämnaren för arbetsbelastning i en användarprofil är skrivskyddad och att tilldelningar och allokeringar inte kan ändras.</span>
 
@@ -95,25 +97,28 @@ Du måste ha följande åtkomst för att kunna hantera belastningsutjämnaren:
  <col> 
  <tbody>
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td><p>Nytt: Standard</p>
-       <p>eller</p>
-       <p>Aktuell: Planera, för att hantera tilldelningar i arbetsbelastningsutjämnaren i resursområdet:</br>
-       Arbeta, för att hantera tilldelningar i belastningsutjämnaren för ett team eller projekt</p></td>
+   <td>Adobe Workfront package</td> 
+   <td><p>Alla</p></td>
+  </tr>
+  <tr> 
+  <tr> 
+   <td>Adobe Workfront-licens</td> 
+   <td><p>Standard</p>
+       <p>Planera, för att hantera tilldelningar i Utjämning av arbetsbelastning i resursområdet, Arbeta, för att hantera tilldelningar i Utjämning av arbetsbelastning för ett team eller projekt</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Redigera åtkomst till resurshantering</p> 
-     <p>Mer information om åtkomstnivån för resurshantering finns i artikeln <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Bevilja åtkomst till resurshantering</a>.</p> </td> 
+   <td>Konfigurationer på åtkomstnivå</td>
+   <td> <p>Redigera åtkomst till resurshantering</p>
+     <p>Mer information om åtkomstnivån för resurshantering finns i artikeln <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" >Bevilja åtkomst till resurshantering</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p> Contribute eller högre behörigheter för det projekt vars uppdrag du vill hantera, inklusive behörigheter för att utföra uppdrag. </p> <p>Mer information om projektbehörigheter finns i artikeln <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Dela ett projekt i Adobe Workfront</a>.</p></td>
+   <td>Objektbehörigheter</td> 
+   <td> <p> Contribute eller högre behörigheter för det projekt vars uppdrag du vill hantera, inklusive behörigheter för att utföra uppdrag. </p> <p>Mer information om projektbehörigheter finns i artikeln <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md">Dela ett projekt i Adobe Workfront</a>.</p></td>
   </tr> 
- </tbody> 
+ </tbody>
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--these notes were inside the table: for the Edit access to Res Management
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">View or higher access to Financial Data, if you want to view information by cost (NOTE: this is not possible yet!)</p>    

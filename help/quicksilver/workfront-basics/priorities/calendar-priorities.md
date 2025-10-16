@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
@@ -37,14 +37,14 @@ Håll ordning på ditt material med en tydlig, visuell kalender. Med Prioritetsk
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
    <td> 
-   <p>Aktuell: Granskare eller senare</p>
-   <p>Nytt: Ljus eller högre</p> 
+   <p>Granskare eller högre</p>
+   <p>Ljus eller högre</p> 
    </td> 
   </tr> 
   <tr> 

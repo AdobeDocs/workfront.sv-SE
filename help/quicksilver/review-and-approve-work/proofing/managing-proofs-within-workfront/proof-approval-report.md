@@ -6,9 +6,9 @@ description: Du kan använda rapporten för godkännande av korrektur för att v
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f8c924e-7c33-43f3-a9d6-75c56af28527
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -21,32 +21,33 @@ Du kan använda rapporten för godkännande av korrektur för att visa informati
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Workfront-plan*</p> </td> 
+   <td role="rowheader"> <p>Workfront package</p> </td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Översikt över Adobe Workfront-licenser*</p> </td> 
-   <td> <p>Plan</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront-licens</p> </td> 
+   <td> 
+   <p>Standard</p>
+   <p>Plan</p>
+   </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><strong>Åtkomstnivå*</strong> </td> 
+   <td role="rowheader"><strong>Åtkomstnivåkonfiguration</strong> </td> 
    <td> <p>Redigera åtkomst till:</p> 
     <ul> 
      <li> <p>Skapa rapporter, instrumentpaneler och kalendrar</p> </li> 
      <li> <p>Skapa filter, vyer och grupperingar</p> </li> 
-    </ul> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+    </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

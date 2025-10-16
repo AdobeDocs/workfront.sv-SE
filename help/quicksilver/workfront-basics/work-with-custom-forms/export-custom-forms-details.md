@@ -5,14 +5,16 @@ author: Alina
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
-source-git-commit: c21029e098f6b4f51f8698155e2b8a2e789c8bfc
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
 
 # Exportera anpassade formulär och objektinformation
+
+<!--Audited: 10/2025-->
 
 Du kan exportera översikten och den anpassade formulärinformationen från avsnittet Detaljer för ett objekt till en PDF-fil. Du kan sedan skriva ut eller dela PDF med andra användare.
 
@@ -34,32 +36,64 @@ Den här funktionen stöds för följande objekt:
 
 ## Åtkomstkrav
 
-Du måste ha följande:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Workfront-plan*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront package</p> </td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Workfront-licens*</p> </td> 
-   <td> <p>Begär eller högre för problem</p> <p>Granska eller högre för projekt och uppgifter</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront-licens</p> </td> 
+   <td><p>För problem:</p>
+   <ul><li><p>Medarbetare eller högre</p></li>
+   <li><p>Begärande eller högre</p> </li></ul>
+   <p>För projekt och uppgifter:</p>
+   <ul><li><p>Ljus eller högre</p></li>
+   <li><p>Granskare eller högre</p></li></ul>
+    </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><strong>Åtkomstnivåkonfigurationer*</strong> </td> 
-   <td> <p>Visa eller högre för projekt, uppgifter och ärenden</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Visa eller högre för projekt, uppgifter och ärenden</p>  </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td role="rowheader"> <p>Objektbehörigheter</p> </td> 
-   <td> <p>Visa eller högre behörigheter för det projekt, den uppgift eller det problem vars formulär du vill exportera</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa eller högre behörigheter för det projekt, den uppgift eller det problem vars formulär du vill exportera</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Workfront plan*</p> </td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Workfront license*</p> </td> 
+   <td> <p>Request or higher for issues</p> <p>Review or higher for projects and tasks</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"><strong>Access level configurations*</strong> </td> 
+   <td> <p>View or higher for Projects, Tasks, and Issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Object permissions</p> </td> 
+   <td> <p>View or higher permissions to the project, task, or issue whose form you want to export</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Förutsättningar
 

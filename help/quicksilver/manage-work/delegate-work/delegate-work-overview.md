@@ -4,10 +4,10 @@ content-type: overview
 navigation-topic: delegate-work
 title: Delegera arbetsöversikt
 description: När du planerar att vara borta från kontoret under en kort period kan du tillfälligt delegera ditt arbete till andra användare för att säkerställa att din frånvaro inte blir ett hinder för arbetet.
-author: Lisa
+author: Becky
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 0%

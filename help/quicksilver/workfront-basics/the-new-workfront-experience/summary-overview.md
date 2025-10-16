@@ -5,14 +5,14 @@ description: Du kan använda panelen Sammanfattning för att granska och uppdate
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: d7b8d7285d23d14f5390c9de1001de553c2b796f
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Summary] - översikt
+# [!UICONTROL Summary] översikt
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
@@ -101,38 +101,8 @@ I den här artikeln beskrivs hur du får åtkomst till och använder panelen [!U
 
 Mer information om hur du får åtkomst till [!UICONTROL Summary] i [!UICONTROL Workload Balancer] finns i [Uppdatera arbetsobjekt i [!UICONTROL Workload Balancer] med [!UICONTROL Summary]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
 
-Mer information om hur du får åtkomst till [!UICONTROL Summary] för dokument finns i [[!UICONTROL Summary] för dokumentöversikt &#x200B;](../../documents/managing-documents/summary-for-documents.md).
+Mer information om hur du får åtkomst till [!UICONTROL Summary] för dokument finns i [[!UICONTROL Summary] för dokumentöversikt ](../../documents/managing-documents/summary-for-documents.md).
 
-## Åtkomstkrav
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
-   <td> <p>Alla</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>Nytt: Medarbetare eller högre</p>
-   eller
-   <p>Aktuell:[!UICONTROL Request] eller högre</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Åtkomstnivåkonfiguration</strong></td> 
-   <td> <p>[!UICONTROL View] eller högre tillgång till uppgifter, ärenden, dokument</p> <p>[!UICONTROL View] eller senare åtkomst till objekt som du vill visa dokument för [!UICONTROL Summary]</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
-   <td> <p>[!UICONTROL View] eller högre behörighet till en uppgift, ett problem eller ett dokument</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-*Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Visa panelen [!UICONTROL Summary] i en lista över uppgifter eller problem
 
@@ -159,7 +129,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
      Klicka på ikonen **X** i det övre högra hörnet av panelen [!UICONTROL Summary].
 
-   * Klicka på ikonen **[!UICONTROL Close Summary]** ![](assets/close-summary-with-text-nwe.png) i avsnittet [!UICONTROL Submitted] i området [!UICONTROL Requests]
+   * Klicka på ikonen [!UICONTROL Submitted] [!UICONTROL Requests] i avsnittet **[!UICONTROL Close Summary]** i området ![](assets/close-summary-with-text-nwe.png)
 
      eller
 

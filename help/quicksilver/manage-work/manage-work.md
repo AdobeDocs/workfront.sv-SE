@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 5d17322b-e517-4475-aa77-faaeb4677152
-source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,8 @@ Det här avsnittet innehåller följande underavsnitt:
 
 * [Projekt: artikelindex](../manage-work/projects/projects-overview.md)
 * [Uppgifter: artikelindex](../manage-work/tasks/tasks-overview.md)
-* [Problem](../manage-work/issues/issues-overview.md)
+* [Problem: artikelindex](../manage-work/issues/issues-overview.md)
 * [Gantt-schemat](../manage-work/gantt-chart/the-gantt-chart.md)
-* [Hantering av Portfolio](../manage-work/portfolios/portfolio-management-overview.md)
+* [Portfolio Management](../manage-work/portfolios/portfolio-management-overview.md)
 * [Begäranden](../manage-work/requests/requests-overview.md)
 * [Delegera arbete](../manage-work/delegate-work/delegate-work.md)

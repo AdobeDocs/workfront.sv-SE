@@ -8,16 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 0%
+source-wordcount: '244'
+ht-degree: 1%
 
 ---
 
 # Konfigurera inställningar för användaruppdateringar
 
-<!--Audited: 06/2025-->
+<!--Audited: 08/2025-->
 
 Du kan konfigurera inställningar som ger användarna åtkomst till vissa funktioner när de lägger till kommentarer i ett objekts [!UICONTROL Updates]-område.
 
@@ -25,26 +25,24 @@ Du kan konfigurera inställningar som ger användarna åtkomst till vissa funkti
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Alla</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td><p>Nytt: [!UICONTROL Standard]</p>
-   eller
-   <p>Aktuell: [!UICONTROL Plan]</p>
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td><p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p>
    </td> 
   </tr>  
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td><p>Om du vill utföra de här stegen på systemnivå måste du ha åtkomstnivån [!UICONTROL System Administrator].</p><p>Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p></td>
+   <td><p>Systemadministratör, om du vill utföra de här stegen på systemnivå. </p>
+   <p>Om du vill utföra de här stegen för en grupp ska du planera, förutom att vara grupphanteraren.</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -52,6 +50,30 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 *Mer information om informationen i den här tabellen finns i [Åtkomstkraven i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td><p>New: [!UICONTROL Standard]</p>
+   Or
+   <p>Current: [!UICONTROL Plan]</p>
+   </td> 
+  </tr>  
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td><p>To perform these steps at the system level, you need the [!UICONTROL System Administrator] access level.</p><p>To perform them for a group, you must be a manager of that group.</p></td>
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Tillåt användare att lägga till bilder i uppdateringar
 
@@ -63,9 +85,9 @@ Som standard kan användare inte lägga till bilder i uppdateringar. När du akt
 >* Bilder är tillgängliga via fliken [!UICONTROL Updates] för ett objekt och är även tillgängliga i området [!UICONTROL Documents] under [!UICONTROL Main Menu].
 >
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny &#x200B;](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på ikonen **[!UICONTROL Setup]** ![Nätform &#x200B;](assets/gear-icon-settings.png) .
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny ](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på ikonen **[!UICONTROL Setup]** ![Nätform ](assets/gear-icon-settings.png) .
 1. Välj **[!UICONTROL Interface]** > **[!UICONTROL Update Feeds]** i den vänstra panelen.
-1. Välj fliken **[!UICONTROL Preferences]**.
+1. Klicka på fliken **[!UICONTROL Preferences]**.  
 
    ![Användarinställningar för uppdateringsfeeds](assets/updatefeeds-preferences-350x137.png)
 

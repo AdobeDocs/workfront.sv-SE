@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d24f2aae-1c3d-41ed-ad17-6276bef2cf45
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1202'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Nu är det enklare att komma åt din lista med favoriter direkt efter att du har
 
 Det omdesignade gränssnittet matchar upplevelsen när du skapar ett projekt från en mall som vi också har uppdaterat nyligen.
 
-Mer information finns i [Konvertera ett problem till ett projekt i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+Mer information finns i [Konvertera ett problem till ett projekt](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 ## Konvertera ärenden till projekt med en mall från listor, rapporter och kontrollpaneler
 

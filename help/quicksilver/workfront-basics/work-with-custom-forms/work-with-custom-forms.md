@@ -2,21 +2,23 @@
 content-type: reference
 navigation-topic: get-started-with-workfront
 title: Arbeta med anpassade formulär
-description: Läs dessa artiklar och lär dig hur du arbetar med anpassade formulär i Adobe Workfront.
+description: Anpassade formulär lägger till fler fält i Workfront-objekt. Du kan uppdatera informationen i anpassade formulärfält när du har rätt åtkomst till dem. Du kan också exportera informationen i ett formulär eller lägga till eller ta bort formulär från Workfront-objekt. Läs artiklarna i den här listan och lär dig hur du arbetar med anpassade formulär i Adobe Workfront.
 author: Alina
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: ef68fcaf-b5b6-4e63-a37c-3a3926553992
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
 
 # Arbeta med anpassade formulär
 
-Det här avsnittet innehåller följande artiklar:
+Anpassade formulär lägger till fler fält i Workfront-objekt. Du kan uppdatera informationen i anpassade formulärfält när du har rätt åtkomst till dem. Du kan också exportera informationen i ett formulär eller lägga till eller ta bort formulär från Workfront-objekt.
+
+Läs artiklarna i följande lista och lär dig hur du arbetar med anpassade formulär i Adobe Workfront:
 
 * [Lägg till ett anpassat formulär i ett objekt](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
 * [Redigera information i anpassade formulärfält](../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)

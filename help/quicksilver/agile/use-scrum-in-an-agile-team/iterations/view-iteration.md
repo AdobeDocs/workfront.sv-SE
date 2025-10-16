@@ -6,9 +6,9 @@ description: Du kan visa alla iterationer för ett visst team eller så kan du v
 author: Lisa
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
-source-git-commit: 556a2b89f2e380d3a0725f0d53251d3e1e3c7ca7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ Du kan visa alla iterationer för ett visst team eller så kan du visa en enskil
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -30,14 +28,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td> <p>Nytt: [!UICONTROL Light] eller senare</p> 
-   eller
-   <p>Aktuell: [!UICONTROL Review] eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Ljus eller högre</p> 
+   <p>Granska eller högre</p> </td> 
   </tr>
  </tbody> 
 </table>

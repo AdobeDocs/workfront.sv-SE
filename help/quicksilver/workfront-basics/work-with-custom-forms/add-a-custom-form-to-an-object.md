@@ -7,9 +7,9 @@ description: Du kan lägga till ett befintligt anpassat formulär till något av
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '730'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Du kan lägga till ett befintligt anpassat formulär till något av objekten som
 * Uppgifter
 * Problem
 * Företag
-* Portfolio
+* Portföljer
 * Program
 * Dokument
 * Användare
@@ -41,38 +41,64 @@ Du kan bara lägga till ett anpassat formulär till de typer av objekt som formu
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskrivs i den här artikeln:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Alla</p> </td> 
+  </tr> 
+<tr> 
+  <td role="rowheader">Adobe Workfront-licens</td> 
+  <td> <p>Medarbetare eller högre</p>
+ <p>Begäran eller senare</p> 
+</td> 
+ </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till de objekt som du hanterar anpassade formulär för</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objektbehörigheter</td> 
+   <td> <p>Hantera behörigheter för objektet som du vill bifoga ett anpassat formulär för.</p> <p>Visa eller högre behörigheter för det anpassade formuläret, med behörighet att <b>bifoga till anpassade data</b>-objekt (projekt, uppgifter och utgåvor).</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td> <p>Alla </p> </td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
   </tr> 
 <tr> 
-  <td role="rowheader">Adobe Workfront-licens</td> 
-  <td> <p>Nytt: Medarbetare eller högre </p>
- <p>eller</p> 
-<p>Aktuell: Begäran eller senare </p> 
+  <td role="rowheader">Adobe Workfront license</td> 
+  <td> <p>New: Contributor or higher </p>
+ <p>or</p> 
+<p>Current: Request or higher </p> 
 </td> 
  </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till de objekt som du hanterar anpassade formulär för</p>
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to the objects for which you manage custom forms</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter för objektet som du vill bifoga ett anpassat formulär för.</p> <p>Visa eller högre behörigheter för det anpassade formuläret, med behörighet att <b>bifoga till anpassade data</b>-objekt (projekt, uppgifter och utgåvor). Mer information finns i <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Dela ett anpassat formulär</a>.</p> <p>Viktigt! Om du inte har någon planlicens med administrativ åtkomst till anpassad Forms måste du ha specifika behörigheter för att åtminstone visa det anpassade formuläret, vilket beskrivs i <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Dela ett anpassat formulär</a>. Dessa behörigheter måste beviljas dig även om formuläret är synligt i hela systemet. </p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt</a>.</p> </td> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the object for which you want to attach a custom form.</p> <p>View or higher permissions to the custom form, with permission to <b>Attach to Custom Data</b> objects (projects, tasks, and issues). For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Share a custom form</a>.</p> <p>Important: If you do not have a Plan license with administrative access to&nbsp;Custom&nbsp;Forms, you must have specific permissions to at least view the custom form, as described in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Share a custom form</a>. These permissions must be granted to you even if the form is visible system-wide. </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 ## Förutsättningar
 

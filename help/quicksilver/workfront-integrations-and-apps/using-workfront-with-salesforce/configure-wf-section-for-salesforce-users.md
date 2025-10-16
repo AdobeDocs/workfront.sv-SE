@@ -6,10 +6,10 @@ description: När du har installerat [!DNL Adobe Workfront] för Salesforce som 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
-source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 0%
+source-wordcount: '691'
+ht-degree: 1%
 
 ---
 
@@ -21,11 +21,9 @@ ht-degree: 0%
 >
 >Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Salesforce.
 >
->En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Mer information om de specifika funktionerna i Workfront Automation and Integration-modulerna för Salesforce finns i [Salesforce-moduler](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
-
-En [!UICONTROL Pro] [!DNL Workfront]-plan krävs för att använda den här funktionen. Mer information om olika tillgängliga planer finns i [[!DNL Workfront] Planer.](https://business.adobe.com/se/products/workfront/pricing.html)
+>Mer information om de specifika funktionerna i Workfront Automation and Integration-modulerna för Salesforce finns i [Salesforce-moduler](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
 När du har installerat [!DNL Adobe Workfront] för [!DNL Salesforce] som [!DNL Workfront]-administratör kan du göra den tillgänglig för dina användare genom att lägga till den i ett nytt avsnitt i deras [!UICONTROL Opportunity] och [!UICONTROL Account]
 sidlayouter i [!UICONTROL Salesforce] .
@@ -34,26 +32,31 @@ Information om hur du installerar [!DNL Workfront for Salesforce] finns i [Insta
 
 För att användare ska ha [!DNL Workfront] tillgängligt i både ramverket [!DNL Classic] och ramverket [!DNL Lightning Experience] måste du lägga till sidorna [!DNL WorkfrontOpportunities] och [!DNL WorkfrontAccounts] [!UICONTROL Visualforce] i sidlayouterna [!UICONTROL Opportunity] respektive [!UICONTROL Accounts].
 
+
+
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna använda de funktioner som beskrivs i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td> <p>[!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Standard</p>
+   <p>Plan</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Förutsättningar
 
@@ -149,7 +152,7 @@ eller [!UICONTROL Opportunity] -objekt.
 1. Logga in på [!DNL Salesforce] som systemadministratör.
 1. Gå till en **[!UICONTROL Opportunity]** eller **[!UICONTROL Account]**.
 
-1. Klicka på ikonen **[!UICONTROL Setup]** och sedan på **[!UICONTROL Edit Page]**.\
+1. Klicka på ikonen **[!UICONTROL Setup]** och sedan på **[!UICONTROL Edit Page]**.
 
 1. Expandera avsnittet **[!UICONTROL Custom-Managed]**.
 1. Dra och släpp komponenten **[!DNL Workfront]** på ditt [!UICONTROL Opportunity] eller konto

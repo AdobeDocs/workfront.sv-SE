@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Visa: Kombinerad information om aktivitet och problem i en timlista'
+title: 'Visa: Kombinerad uppgift och information om problem i en timlista'
 description: I den här timvyn kombineras kolumnerna Aktivitets- och Ärendenamn samt Aktivitets- och Utfärdandetimmar med hjälp av taggen sharecol. Eftersom en timpost bara kan tillhöra en aktivitet eller ett problem, kan båda objekten inte finnas i samma kolumn samtidigt. Varje rad i vyn innehåller information från en aktivitet eller ett problem.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cf1137fd-c26a-4907-afe9-2373d3434631
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -26,28 +26,21 @@ Mer information om taggen `sharecol` finns i [Visa: sammanfoga information från
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td> 
-    <p>Nytt:</p>
-   <ul><li><p>Medarbetare som ändrar ett filter </p></li>
-   <li><p>Standard för att ändra en rapport</p></li> </ul>
-
-<p>Aktuell:</p>
-   <ul><li><p>Begäran om att ändra ett filter </p></li>
-   <li><p>Planera att ändra en rapport</p></li> </ul></td> 
+   <p>Medarbetare eller begäran om att ändra ett filter </p>
+   <p>Standard eller Plan för att ändra en rapport</p>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -60,7 +53,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

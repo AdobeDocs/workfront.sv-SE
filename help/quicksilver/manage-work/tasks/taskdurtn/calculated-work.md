@@ -2,12 +2,12 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: 'Typ av varaktighet: beräknat arbete'
+title: 'Översikt över varaktighetstyp: Beräknat arbete'
 description: Beräknat arbete är en varaktighetstyp som du kan ange för en uppgift i Adobe Workfront. Allmän information om varaktighetstyper i Workfront finns i Översikt över Varaktighet och Varaktighetstyp.
 author: Alina
 feature: Work Management
 exl-id: f521c2f5-8d58-44c0-af18-6940ad0950ea
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Beräknat arbete är en varaktighetstyp som du kan ange för en uppgift i Adobe 
 
 Beräknat arbete avgör mängden arbetsinsats (planerade timmar) som krävs för att uppgiften ska kunna slutföras. Vi rekommenderar att du använder den beräknade varaktighetstypen för arbete när resurserna som tilldelats uppgiften tilldelas för hela aktivitetens varaktighet.
 
-Workfront eller en gruppadministratör kan ange systemets eller gruppens standardtyp för varaktighet som Beräknat arbete. I det här fallet skapas alla nya uppgifter med den här varaktighetstypen. Mer information om hur du ändrar uppgifter och utgåvor som en del av dina projektinställningar på system- eller gruppnivå finns i [Konfigurera uppgifter och ärenden för hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Workfront eller en gruppadministratör kan ange systemets eller gruppens standardtyp för varaktighet som Beräknat arbete. I det här fallet skapas alla nya uppgifter med den här varaktighetstypen. Mer information om hur du ändrar uppgifter och utgåvor som en del av dina projektinställningar på system- eller gruppnivå finns i [Konfigurera uppgifter och ärenden för hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 När resurser läggs till i en uppgift kan projektledaren förvänta sig att den planerade ansträngningen ökar. Ett timmars planeringsmöte med tre resurser representerar tre timmars arbete, och ett timmars planeringsmöte med tio resurser representerar tio timmars arbete. Detta förutsätter att varje resurs tilldelas till aktiviteten med 100 % allokering.
 

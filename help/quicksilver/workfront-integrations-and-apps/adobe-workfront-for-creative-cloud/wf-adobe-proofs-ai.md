@@ -6,9 +6,9 @@ description: Du kan ladda upp ritytorna som dokument för snabb granskning och g
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: e98f27d4-7c07-44cc-8df5-e04472ec946e
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '567'
 ht-degree: 0%
 
 ---
@@ -21,19 +21,17 @@ Du kan överföra dina ritytor som korrektur direkt till [!DNL Adobe Workfront] 
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Aktuell plan: [!UICONTROL Pro] eller högre</p> <p>eller</p> <p>Äldre plan: [!UICONTROL Premium]</p> <p>Mer information om åtkomst till korrektur med olika planer finns i .</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td> <p>Aktuell plan: [!UICONTROL Work] eller [!UICONTROL Proof]</p> <p>Äldre plan: Alla (du måste ha språkkontroll aktiverat för användaren)</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td> <p>Standard</p> <p>Arbeta eller högre</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
@@ -50,7 +48,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]- eller [!DNL Workfront Proof]-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil för korrektur du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,11 +65,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    ![Återgå till arbetslistan](assets/go-back-to-work-list-350x314.png)
 
 1. Gå till arbetsuppgiften där du vill överföra ett korrektur.
-1. Klicka på ikonen **[!UICONTROL Document]** ![Dokument &#x200B;](assets/documents.png) i navigeringsfältet.
+1. Klicka på ikonen **[!UICONTROL Document]** ![Dokument ](assets/documents.png) i navigeringsfältet.
 1. Klicka på **[!UICONTROL New File]** längst ned i plugin-programmet.
 1. Aktivera växlingsknappen **[!UICONTROL Create a proof]**.
 1. (Valfritt) Skriv ett namn på korrekturet i textrutan **[!UICONTROL Proof Name]**.
-1. Välj **[!UICONTROL Basic]** i avsnittet **[!UICONTROL Proof Approvals]**.
+1. Välj **[!UICONTROL Proof Approvals]** i avsnittet **[!UICONTROL Basic]**.
 1. (Valfritt) Lägg till godkännare.
 1. (Valfritt) Skriv en kommentar i området **[!UICONTROL Updates]**.
 
@@ -93,12 +91,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    ![Återgå till arbetslistan](assets/go-back-to-work-list-350x314.png)
 
 1. Gå till arbetsuppgiften där du vill överföra ett korrektur.
-1. Klicka på ikonen **[!UICONTROL Document]** ![Dokument &#x200B;](assets/documents.png) i navigeringsfältet.
+1. Klicka på ikonen **[!UICONTROL Document]** ![Dokument ](assets/documents.png) i navigeringsfältet.
 
 1. Klicka på **[!UICONTROL New File]** längst ned i plugin-programmet.
 1. Aktivera växlingsknappen **[!UICONTROL Create a proof]**.
 1. (Valfritt) Skriv ett namn på korrekturet i textrutan **[!UICONTROL Proof Name]**.
-1. Välj **[!UICONTROL Automated]** i avsnittet **[!UICONTROL Proof Approvals]**.
+1. Välj **[!UICONTROL Proof Approvals]** i avsnittet **[!UICONTROL Automated]**.
 1. (Valfritt) Skriv namnet på en korrekturarbetsflödesmall i rutan **[!UICONTROL Workflow Template]**.
 
 {{adjust-proof-settings}}
@@ -126,12 +124,12 @@ Du kan överföra en ny version av ett korrektur. Plugin-programmet kommer ihåg
    ![Återgå till arbetslistan](assets/go-back-to-work-list-350x314.png)
 
 1. Gå till den arbetsuppgift som du behöver överföra ett dokument till.
-1. Klicka på ikonen **[!UICONTROL Document]** ![Dokument &#x200B;](assets/documents.png) i navigeringsfältet.
+1. Klicka på ikonen **[!UICONTROL Document]** ![Dokument ](assets/documents.png) i navigeringsfältet.
 
 1. Klicka på **[!UICONTROL New Version]** längst ned i plugin-programmet.
 1. Aktivera växlingsknappen **[!UICONTROL Create a proof]**.
 
-1. Välj **[!UICONTROL Basic]** eller **[!UICONTROL Automated]** i avsnittet *[!UICONTROL *Proof approvals]**.
+1. Välj *[!UICONTROL *Proof approvals]* eller **[!UICONTROL Basic]** i avsnittet **[!UICONTROL Automated]***.
 
 1. Lägg till **[!UICONTROL Reviewers]** eller en **[!UICONTROL Workflow template]** baserat på den godkännandetyp som du valde i steg 7.
 

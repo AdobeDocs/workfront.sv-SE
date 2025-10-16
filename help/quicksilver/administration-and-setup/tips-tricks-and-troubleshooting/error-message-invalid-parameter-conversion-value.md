@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Felmeddelande: Ogiltig parameter: Konverteringsvärde"
-description: '"Du får följande felmeddelande när du försöker ändra formatet för ett anpassat fält i ett befintligt anpassat formulär: "Ogiltig parameter: konverteringsvärdet &grave;&lt;..&gt;&grave;"'
+title: 'Felmeddelande: Ogiltig parameter: Konverteringsvärde'
+description: 'Du får följande felmeddelande när du försöker ändra formatet för ett anpassat fält i ett befintligt anpassat formulär: "Ogiltig parameter: konverteringsvärdet `&lt;..&gt;`"'
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4f7aac95-4afb-422d-877b-0fa49ef43883
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: 929502c256011b464d938ad1095c127407e4a795
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -33,25 +33,21 @@ Du har t.ex. ett anpassat fält som är formaterat som text.  Nu vill du ändra 
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Alla</td> 
+   <td>[!DNL Adobe Workfront] package</td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td>
-   <p>Nytt: Standard</p>
-   <p>eller</p>
-   <p>Aktuell: Planera</p></td> 
-  </tr> 
+   <td>[!DNL Adobe Workfront] licens</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td>Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till:</p> 
     <ul> 
      <li> <p>Skapa rapporter, instrumentpaneler och kalendrar</p> </li> 
@@ -61,7 +57,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

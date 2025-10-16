@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 546e19ab-dc50-4d23-b5f6-31bde1c82b6a
-source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
+source-git-commit: 5fd855bec596926a4361fd07a1a763c7956e5e61
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -26,26 +26,23 @@ Du kan installera en plan i din produktionsmiljö eller i en sandlådemiljö.
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td>
-   <p>Nytt: Standard</p>
-   <p>eller</p>
-   <p>Aktuell: Planera</p></td> 
+   <p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td>Du måste vara en [!DNL Workfront]-administratör. </td> 
+   <td>Workfront-administratör</td> 
   </tr> 
  </tbody> 
 </table>
@@ -90,7 +87,7 @@ Du kan installera ditt paket i följande miljöer:
 1. (Valfritt) Klicka på **[!UICONTROL Details]** om du vill veta hur ritningen fungerar.
 1. Klicka på **[!UICONTROL Install]**.
 1. Välj om du vill installera i din produktionsmiljö eller i en sandlådemiljö.\
-   Mer information finns i [Var ska jag installera en plan?avsnittet &#x200B;](#where-should-i-install-a-blueprint) i den här artikeln.
+   Mer information finns i [Var ska jag installera en plan?avsnittet ](#where-should-i-install-a-blueprint) i den här artikeln.
 1. På sidan **Konfigurera** kan du göra något av följande:
 
    * Installera ritningen som den är. För ritningstyper som inte kräver någon konfiguration är detta det enda alternativet. För ritningstyper som behöver konfigureras kan du välja att installera ritningen nu och konfigurera den senare. Klicka på **[!UICONTROL Install as is]**.

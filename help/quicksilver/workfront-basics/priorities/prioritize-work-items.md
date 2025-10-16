@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,42 @@ ht-degree: 0%
 Du kan använda kolumnen Mitt fokus för att prioritera ditt arbete. Kolumnen Mitt fokus är ett personligt värde och påverkar inte den prioritet som har angetts för uppgiften eller problemet.
 
 Prioriteter visar arbetsuppgifter som tilldelats dig. Du kan inte se arbetsobjekt som tilldelats ditt team.
+
+## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront package</strong></td> 
+   <td> <p>Alla</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront-licens</strong></td> 
+   <td> 
+   <p>Granskare eller högre</p>
+   <p>Ljus eller högre</p> 
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå</strong></td> 
+   <td> <p>Visa eller redigera åtkomst för objektet som uppdateringen är aktiverad för</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
+   <td> <p>Visa åtkomst till objektet</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prioritera arbetet med kolumnen Mitt fokus
 

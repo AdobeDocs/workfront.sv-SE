@@ -2,22 +2,24 @@
 product-area: projects
 navigation-topic: use-the-gantt-chart
 title: Uppdatera information i Gantt-schema för uppgiftslista
-description: I Gantt-schemat för uppgiftslistan visas information om aktiviteter som finns i ett projekt eller en mall.
+description: Gantt-schemat för en Adobe Workfront-uppgiftslista innehåller information om aktiviteter som finns i ett projekt eller en mall.
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
 
 # Uppdatera information i uppgiftslistan [!UICONTROL Gantt Chart]
 
-Uppgiftslistan [!UICONTROL Gantt Chart] innehåller information om aktiviteter som finns i ett projekt eller en mall.
+<!--Audited: 08/2025-->
 
-I en mall återspeglar uppgiftslistan [!UICONTROL Gantt Chart] uppdateringar som gjorts i mallens uppgiftslista på aktivitetsnivå. Du kan inte redigera [!UICONTROL Gantt chart] som är associerad med en mall.
+[!UICONTROL Gantt Chart] i en Adobe Workfront-uppgiftslista visar information om aktiviteter som finns i ett projekt eller en mall.
+
+I en mall återspeglar uppgiftslistan [!UICONTROL Gantt Chart] uppdateringar som gjorts i mallens uppgiftslista på malluppgiftsnivån. Du kan inte redigera [!UICONTROL Gantt chart] som är associerad med en mall.
 
 I ett projekt kan du uppdatera aktivitetsinformation direkt i uppgiftslistan [!UICONTROL Gantt Chart].
 
@@ -31,7 +33,37 @@ I den här artikeln beskrivs följande åtgärder som du kan utföra direkt i up
 
 ## Åtkomstkrav
 
-Du måste ha följande för att kunna följa stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>Alla</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>[!UICONTROL Edit] åtkomst till projekt och uppgifter</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objektbehörigheter</td> 
+   <td> <p>[!UICONTROL Manage] tillgång till projektet och uppgifter</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++ 
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,24 +71,22 @@ Du måste ha följande för att kunna följa stegen i den här artikeln:
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Alla </p> </td> 
+   <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
    <td> <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>[!UICONTROL Edit] åtkomst till projekt och uppgifter</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects and Tasks</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>[!UICONTROL Manage] tillgång till projektet och uppgifter </p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] access to the project and tasks </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+</table>-->
 
 ## Ändra aktivitetsvaraktighet
 
@@ -95,7 +125,7 @@ Du måste ha följande för att kunna följa stegen i den här artikeln:
 ## Skapa eller ta bort tidigare relationer
 
 1. Gå till det projekt som du vill ändra.
-1. Klicka på ikonen **[!UICONTROL Gantt chart]** i området **[!UICONTROL Tasks]**.
+1. Klicka på ikonen **[!UICONTROL Tasks]** i området **[!UICONTROL Gantt chart]**.
 
    Alternativet **[!UICONTROL Autosave]** är markerat som standard. I så fall sparas alla ändringar automatiskt.
 
@@ -127,7 +157,7 @@ Du måste ha följande för att kunna följa stegen i den här artikeln:
 ## Ändra start- och slutdatum för aktivitet
 
 1. Gå till det projekt som du vill ändra.
-1. Klicka på ikonen **[!UICONTROL Gantt chart]** i området **[!UICONTROL Tasks]**.
+1. Klicka på ikonen **[!UICONTROL Tasks]** i området **[!UICONTROL Gantt chart]**.
 
    Alla ändringar sparas automatiskt när alternativet **[!UICONTROL Autosave]** aktiveras. Den är aktiverad som standard.
 
@@ -176,7 +206,7 @@ Du måste ha följande för att kunna följa stegen i den här artikeln:
 ## Procent av uppdatering klar
 
 1. Gå till det projekt som du vill ändra.
-1. Klicka på ikonen **[!UICONTROL Gantt chart]** i området **[!UICONTROL Tasks]**.
+1. Klicka på ikonen **[!UICONTROL Tasks]** i området **[!UICONTROL Gantt chart]**.
 
    ![Klicka på Gantt-schemaikonen](assets/click-gantt-chart-icon.png)
 

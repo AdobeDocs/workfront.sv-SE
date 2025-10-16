@@ -9,28 +9,24 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 30a41ae9-9755-4c7b-9e3b-d4a8b0ad7ee8
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 882c3e58e0e47c549be70dff3f5ac410b34a090f
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
 
 # Tillgång till korrekturfunktioner i Workfront
 
-Vilka språkfunktioner som är tillgängliga för användarna beror på vilken Workfront-plan din organisation har köpt.
+Språkkontroll ingår automatiskt för alla licenser i Workfront. Licenserna avgör vad användarna kan göra.
 
-## Korrektur i Workfront
+<!--Workfront instances using enterprise storage do not have access to proofing functionality. Instead, they use the native integration with Frame.io. For more information, see -->
 
-Det finns för närvarande tre alternativa stavningsplaner för korrektur i Workfront:
+De äldre Workfront-paketen för 2017 innehåller automatisk korrekturläsning för Work- och Plan-licenser om du har Workfront-planer för proffs, företag eller företag. Dessa planer håller på att fasas ut.
 
-* **Nya Workfront-planer**: Språkkontroll inkluderas automatiskt för alla licenser i de nya Workfront-planerna.
-* **Aktuella Workfront Pro+-planer**: Korrektur inkluderas automatiskt för Work- och Plan-licenser om du har Workfront-planer för proffs, företag eller företag.
-* **Äldre Workfront Premium-planer**: Det här alternativet gäller äldre Workfront-planer - Select, Enterprise, Premium. Språkkontroll ingår inte automatiskt i licenserna i den här planen. Du måste ge korrekturåtkomst till specifika användare i deras användarprofil.
+Om du är Workfront-administratör kan du kontrollera och se vilken plan din instans är på genom att gå till Inställningar > System > Licenser.
 
-  Om du är Workfront-administratör kan du kontrollera och se vilken plan din instans är på genom att gå till Inställningar > System > Licenser.
-
-### Språkfunktioner i Workfront
+## Språkfunktioner i Workfront
 
 Mer information om hur du beviljar och återkallar en användares åtkomst till att skapa och visa korrektur i Workfront finns i [Konfigurera en användares korrekturåtkomst](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
 

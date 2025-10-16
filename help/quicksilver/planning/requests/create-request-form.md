@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: de42feb0d5a349e6b4b403b790b4759f693f7f4c
+source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
 workflow-type: tm+mt
-source-wordcount: '3134'
+source-wordcount: '3042'
 ht-degree: 0%
 
 ---
@@ -34,77 +34,43 @@ Mer information om hur du skickar en begäran till en posttyp för att skapa en 
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven. 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Produkter</p> </td>
-   <td>
-   <ul><li><p> Adobe Workfront</p></li>
-   <li><p> Adobe Workfront Planning<p></li></ul></td>
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront</p></td> 
+   <td> 
+<ul><li><p>Alla Workfront-paket</p></li>
+Och
+<li><p>Planeringspaket</p></li></ul>
+eller
+<ul><li><p>Alla arbetsflödespaket</p></li>
+Och
+<li><p>Planeringspaket</p></li></ul>
+   </td> </tr>
+
+</tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
+   <td><p>Standard</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Objektbehörigheter</p></td> 
+   <td>   <p>Hantera behörigheter till en arbetsyta eller posttyp </a> </p>  
+   <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>  </td> 
   </tr>  
- <tr>
-   <td role="rowheader"><p>Adobe Workfront-plan*</p></td>
-   <td>
-<p>Något av följande Workfront-planer:</p>
-<ul><li>Välj</li>
-<li>Prime</li>
-<li>Ultimate</li></ul>
-<p>Workfront Planning är inte tillgängligt för tidigare Workfront-planer</p>
-   </td>
-
-<tr>
-   <td role="rowheader"><p>Adobe Workfront Planning-paket*</p></td>
-   <td>
-<p>Alla </p>  
-<p>Kontakta din kontoansvarige på Workfront om du vill ha mer information om vad som ingår i respektive Workfront Planning-plan. </td>
-
-<tr>
-   <td role="rowheader"><p>Adobe Workfront</p></td>
-   <td>
-<p>Din organisations instans av Workfront måste vara registrerad på Adobe Unified Experience för att få tillgång till Workfront Planning.</p>
-<p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
-   </td>
-
-</tr>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront-licens*</p></td>
-   <td>
-   <p>Standard</p>
-   <p>Workfront Planning är inte tillgängligt för tidigare Workfront-licenser</p>
-  </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td>
-   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Objektbehörigheter</p></td>
-   <td>
-   <ul>
-   <li><p>Hantera behörigheter till en arbetsyta och en posttyp</p></li>
-    <li><p>Systemadministratörer kan hantera arbetsytor som de inte skapade. </p></li>
-    </ul>
-   <p>Information om delningsbehörigheter för Workfront Planning-objekt finns i  
-   <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Översikt över delningsbehörigheter i Adobe Workfront Planning</a> 
-  </td>
-  </tr>
- </tbody>
+</tbody> 
 </table>
 
-*Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
 
 ## Begränsningar för fält- och värdesvisning i begärandeformulär
 
@@ -315,7 +281,7 @@ För närvarande är den enda tillgängliga åtgärden för automatisering av be
 ### Skapa formulär för fullständig begäran
 
 1. Skapa och konfigurera formuläret enligt beskrivningen i [Börja skapa ett begärandeformulär](#begin-creating-a-request-form) och [Konfigurera information för begärandeformuläret](#set-up-details-for-the-request-form).
-1. (Valfritt) Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om formulärets namn i rubriken och klicka sedan på **Redigera** för att uppdatera formulärets namn.
+1. (Valfritt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om formulärets namn i rubriken och klicka sedan på **Redigera** för att uppdatera formulärets namn.
 
 1. Klicka på **Publicera** för att publicera formuläret och få en unik länk för det.
 
@@ -344,7 +310,7 @@ För närvarande är den enda tillgängliga åtgärden för automatisering av be
 
    Posttypssidan öppnas i den vy som du senast använde. Som standard öppnas en posttypssida i tabellvyn.
 
-1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Hantera begärandeformulär**.
+1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Hantera begärandeformulär**.
 
    Alla förfrågningsformulär som är associerade med posttypen visas i en tabellvy.
 
@@ -361,7 +327,7 @@ För närvarande är den enda tillgängliga åtgärden för automatisering av be
 1. Klicka på vänsterpilen till vänster om **Begär formulär** i sidhuvudet för att stänga tabellen med förfrågningsformulär.
 
    Posttypssidan öppnas.
-1. (Valfritt och villkorligt) Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn i rubriken och gör sedan något av följande:
+1. (Valfritt och villkorligt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn i rubriken och gör sedan något av följande:
 
    1. Klicka på **Uppdatera begärandeformuläret** för att göra ändringar i begärandeformuläret och klicka sedan på ett begärandeformulär för att öppna och redigera det.
    1. Klicka på **Kopiera länk för att begära formulär** om du vill dela länken till formuläret med andra.

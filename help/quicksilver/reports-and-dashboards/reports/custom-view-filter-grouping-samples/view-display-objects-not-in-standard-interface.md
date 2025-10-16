@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Visa: Visa objekt som inte ingår i standardgränssnittet'
+title: 'Visa: Visningsobjekt som inte ingår i standardgränssnittet'
 description: Du kan visa objekt som inte ingår i standardlägesgränssnittet i en vy. Du kan bara göra detta genom att referera till dem via textläge.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c0138730-494b-4443-865a-44f8f00d5342
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -26,32 +26,25 @@ Du kan bestämma vilka fält som kan inkluderas i en vy på något av följande 
 
   Du kan använda textläge för att i en vy inkludera kolumn- eller fältnamnet i stället för ID:t genom att ersätta `fieldnameID` med `fieldname:name`.
 
-  I standardlägesgränssnittet är t.ex. fältet **Portfolio Ägar-ID** tillgängligt för en projektvy, men fältet **Portfolio Ägarnamn** är inte tillgängligt. Du kan använda textläge för att visa **Portfolio ägarnamn** i en vykolumn.
+  I standardlägesgränssnittet är t.ex. fältet **Portfolio Owner ID** tillgängligt för en projektvy, men fältet **Portfolio Owner Name** är inte tillgängligt. Du kan använda textläge för att visa **Portfolio Owner Name** i kolumnen för en vy.
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td> 
-    <p>Nytt:</p>
-   <ul><li><p>Medarbetare som ändrar ett filter </p></li>
-   <li><p>Standard för att ändra en rapport</p></li> </ul>
-
-<p>Aktuell:</p>
-   <ul><li><p>Begäran om att ändra ett filter </p></li>
-   <li><p>Planera att ändra en rapport</p></li> </ul></td> 
+   <p>Medarbetare eller begäran om att ändra ett filter </p>
+   <p>Standard eller Plan för att ändra en rapport</p>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -64,16 +57,16 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Exempel: lägg till kolumnen Portfolio ägarnamn i en projektvy
+## Exempel: lägg till kolumnen Portfolio-ägarnamn i en projektvy
 
 1. Gå till en lista med projekt.
 1. Klicka på **Ny vy** i listrutan **Visa**.
 
-1. Klicka på **Lägg till kolumn** och börja sedan skriva &quot;Portfolio Owner ID&quot; i fältet **Show i den här kolumnen** och markera den när den visas i listan.
+1. Klicka på **Lägg till kolumn** och börja sedan skriva&quot;Portfolio Owner ID&quot; i fältet **Visa i den här kolumnen** och markera den när den visas i listan.
 
 1. Klicka på **Växla till textläge** och sedan på **Redigera textläge**.
 1. Ersätt raden `valuefield` (`valuefield=portfolio:ownerID`) med följande rad:
@@ -96,6 +89,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    >[!TIP]
    >
-   >Ersätt alltid `ID` med `:name` på raden `valuefield` om du vill ersätta ett fält `ID` med fältet `name` i textläge.
+   >Ersätt alltid `ID` med `name` på raden `ID` om du vill ersätta ett fält `:name` med fältet `valuefield` i textläge.
 
 1. Klicka på **Klar** och sedan på **Spara vy**.

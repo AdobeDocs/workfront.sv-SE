@@ -1,27 +1,29 @@
 ---
 product-area: projects
 navigation-topic: convert-issues
-title: Översikt över konverteringsproblem i Adobe Workfront
+title: Översikt över Konvertera problem i Adobe Workfront
 description: Om mer arbete behöver utföras för att slutföra ett problem efter att utgåvan har skickats kan du konvertera utgåvan till ett projekt eller till en uppgift.
 author: Alina
 feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1506'
+source-wordcount: '1497'
 ht-degree: 0%
 
 ---
 
 # Översikt över konverteringsproblem i Adobe Workfront
 
+<!--Audited: 08/2025-->
+
 Om mer arbete behöver utföras för att slutföra ett problem efter att utgåvan har skickats kan du konvertera utgåvan till ett projekt eller till en uppgift.
 
-Mer information om hur du konverterar problem till aktiviteter finns i [Konvertera ett problem till en aktivitet i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md).
+Mer information om hur du konverterar problem till aktiviteter finns i [Konvertera ett problem till en uppgift](../../../manage-work/issues/convert-issues/convert-issue-to-task.md).
 
-Mer information om hur du konverterar problem till projekt finns i [Konvertera ett problem till ett projekt i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+Mer information om hur du konverterar problem till projekt finns i [Konvertera ett problem till ett projekt](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 ## Att tänka på vid konvertering av problem
 
@@ -62,7 +64,7 @@ Mer information om hur du konverterar problem till projekt finns i [Konvertera e
 
 När du konverterar ett problem till ett projekt kan du antingen konvertera det till ett tomt projekt eller använda en mall.
 
-Mer information finns i [Konvertera ett problem till ett projekt i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+Mer information finns i [Konvertera ett problem till ett projekt](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 När du använder en mall överförs vissa fält som fylls i i mallen till projektet som skapats från den konverterade utgåvan. Andra fält överförs till projektet från den konverterade utgåvan.
 

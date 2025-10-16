@@ -6,9 +6,9 @@ description: Du kan ta bort en rapport från en Canvas-kontrollpanel.
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 98d26160-a097-473d-8d66-e6d619cb2908
-source-git-commit: fb8b9a10aac45868e085fb5154ef02ce989b599d
+source-git-commit: b5fbff2b81efaf31d0a8abaf32d6195303876531
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Delar av funktionen kanske inte är fullständiga eller fungerar som de ska i det här skedet. Skicka feedback om din upplevelse genom att följa instruktionerna i avsnittet [Ge feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) i översiktsartikeln i Canvas Dashboards.<br>
->&#x200B;>Om du har synpunkter på ett eventuellt fel eller tekniska problem ber vi dig skicka ett supportärende till Workfront Support. Mer information finns i [Kontakta kundsupport](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Observera att betaversionen inte är tillgänglig för följande molnleverantörer:
+>>Om du har synpunkter på ett eventuellt fel eller tekniska problem ber vi dig skicka ett supportärende till Workfront Support. Mer information finns i [Kontakta kundsupport](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>>Observera att betaversionen inte är tillgänglig för följande molnleverantörer:
 >
 >* Använd din egen nyckel för Amazon Web Services
 >* Azure
@@ -31,7 +31,7 @@ Att ta bort en rapport är permanent. Om du behöver lägga till en rapport på 
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven. 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -40,7 +40,7 @@ Att ta bort en rapport är permanent. Om du behöver lägga till en rapport på 
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
 <p>Alla </p> 
    </td> 
@@ -48,8 +48,8 @@ Att ta bort en rapport är permanent. Om du behöver lägga till en rapport på 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
    <td> 
-<p>Aktuell: Planera </p> 
-<p>Nytt: Standard</p> 
+<p>Standard </p> 
+<p>Plan</p> 
    </td> 
    </tr> 
   </tr> 
@@ -80,7 +80,7 @@ Mer information finns i [Skapa en arbetsytans kontrollpanel](/help/quicksilver/r
 >[!WARNING]
 >
 >När en rapport har tagits bort kan den inte återställas. <br>
->&#x200B;>Om du har lagt till en befintlig klassisk rapport på en Canvas-kontrollpanel tas inte den ursprungliga rapporten bort om du tar bort den från kontrollpanelen.
+>>Om du har lagt till en befintlig klassisk rapport på en Canvas-kontrollpanel tas inte den ursprungliga rapporten bort om du tar bort den från kontrollpanelen.
 
 {{step1-to-dashboards}}
 

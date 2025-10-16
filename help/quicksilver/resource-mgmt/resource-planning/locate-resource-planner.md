@@ -6,9 +6,9 @@ description: Du kan använda Resursplanering för att hantera tilldelningen av r
 author: Lisa
 feature: Resource Management
 exl-id: 0de749df-5af9-4124-8539-06b82dca2ec4
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -25,38 +25,31 @@ Du kan använda Resursplanering för att hantera tilldelningen av resurser till 
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td><p>Nytt: Alla</p>
-       <p>eller</p>
-       <p>Aktuell: Pro eller högre</p> </td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Alla</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td><p>Nytt: Ljus eller högre;</br>
-          Standard för att hitta resursplaneraren på huvudmenyn</p>
-       <p>eller</p>
-       <p>Aktuell: Granska eller högre;</br>
-       Planera att hitta resursplaneraren på huvudmenyn</p></td>
+   <td>Adobe Workfront-licens</td> 
+   <td><p>Ljus eller högre för ett projekt; Standard för flera projekt</p>
+       <p>Granska eller högre för ett projekt, Planera för flera projekt</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td>Konfigurationer på åtkomstnivå</td> 
    <td> <p>Visa åtkomst eller senare till resurshantering</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
+   <td>Objektbehörigheter</td> 
    <td> <p>Visa behörigheter för projekt och användare </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,10 +60,6 @@ Kontrollera att alla krav för åtkomst och arbete med resursplaneraren är uppf
 Mer information om krav för resursplanering finns i [Kom igång med resursplanering](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
 ## Leta reda på resursplaneraren
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(this was moved from the get-started-resource-planner article)</p>
--->
 
 Du kan hitta resursplaneraren i två områden i Workfront, beroende på om du vill budgetera dina resurser för flera projekt eller bara för ett projekt.
 

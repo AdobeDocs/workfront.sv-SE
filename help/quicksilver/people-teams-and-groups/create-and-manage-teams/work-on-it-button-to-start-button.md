@@ -6,9 +6,9 @@ description: Adobe Workfront standardkonfiguration innehåller knappen Arbeta me
 author: Lisa
 feature: People Teams and Groups
 exl-id: 9387c5ae-2835-4d8f-80ec-22fcd16c5b6e
-source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
@@ -27,22 +27,19 @@ Du kan ersätta knappen [!DNL Work On It] med en [!UICONTROL Start]-knapp för e
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront package</p> </td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
    <td>
-   <p>Nytt: Standard</p>
-   <p>eller</p>
-   <p>Aktuell: Planera</p></td>
+   <p>Standard</p>
+   <p>Plan</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -98,7 +95,7 @@ Så här associerar du användare med ett hemteam:
 1. Klicka på menyn **[!UICONTROL More]** och välj sedan **[!UICONTROL Edit]**.\
    ![](assets/user-settings-nwe-350x291.png)
 
-1. Markera fältet **[!UICONTROL Home Team]** i avsnittet **[!UICONTROL Organization]**. Börja skriva namnet på det team vars inställningar du vill associera med användarna. Klicka på teamets namn när du ser det i listan.
+1. Markera fältet **[!UICONTROL Organization]** i avsnittet **[!UICONTROL Home Team]**. Börja skriva namnet på det team vars inställningar du vill associera med användarna. Klicka på teamets namn när du ser det i listan.
 
 1. Klicka på **[!UICONTROL Save Changes]**.\
    De användare du har valt är nu associerade med ett hemteam.

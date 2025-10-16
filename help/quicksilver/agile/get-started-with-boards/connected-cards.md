@@ -6,9 +6,9 @@ description: Du kan lägga till ett kort på din anslagstavla som är kopplat ti
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: f8feca57e039e34c320f2b967c58c5fc0862f665
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '1381'
+source-wordcount: '1309'
 ht-degree: 0%
 
 ---
@@ -40,21 +40,18 @@ Om du vill synkronisera anslutna kort med Workfront klickar du på **[!UICONTROL
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td>
-   <p>Nytt: Medarbetare eller högre</p>
-   <p>eller</p>
-   <p>Aktuell: Begäran eller senare</p>
- </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> 
+   <p>Medarbetare eller högre</p> 
+   <p>Begäran eller senare</p>
+   </td> 
   </tr> 
   <tr>
    <td role="rowheader">Konfigurationer på åtkomstnivå</td>
@@ -63,7 +60,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   <tr>
    <td role="rowheader">Objektbehörigheter</td>
    <td><p>Visa eller högre behörigheter för Workfront-aktiviteten eller -utgåvan</p>
-   <p><strong>Obs!</strong> Användare med visningsbehörighet för en uppgift eller ett problem kan inte vidta några åtgärder för kort som är anslutna till den, inklusive att flytta kortet till en annan kolumn på kortet. Visa användare kan bara öppna kortet för att se dess egenskaper och öppna den anslutna uppgiften eller utgåvan. Om du vill begära ytterligare åtkomst öppnar du uppgiften eller utgåvan och begär åtkomst dit.</td>
+</td>
   </tr>
  </tbody> 
 </table>
@@ -208,7 +205,7 @@ När du har skapat ett ad hoc-kort kan du konvertera det till ett anslutet kort.
 
 1. Gå till styrelsen och öppna ad hoc-kortet.
 1. Kontrollera kortets namn och beskrivning. De läggs till i uppgiften eller utgåvan som du skapar i [!DNL Workfront].
-1. Klicka på **[!UICONTROL Connect with Workfront]** i området [!UICONTROL Connection] i kortinformationen.
+1. Klicka på [!UICONTROL Connection] i området **[!UICONTROL Connect with Workfront]** i kortinformationen.
 1. I fönstret [!UICONTROL Connect Card] väljer du om du skapar en uppgift eller ett problem.
 1. Sök efter och välj ett projekt som uppgiften eller utgåvan ska läggas till i.
 

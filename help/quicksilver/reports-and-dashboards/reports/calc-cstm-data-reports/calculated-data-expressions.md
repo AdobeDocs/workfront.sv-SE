@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Översikt över beräknade datauttryck
 description: Du kan använda datauttryck för att definiera beräknade anpassade datafält i Adobe Workfront. Beräknade uttryck kopplar befintliga Workfront-fält i satser som genererar ett nytt fält.
-author: Courtney, Lisa
+author: Jenny, Lisa
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
 source-wordcount: '2551'
 ht-degree: 0%
@@ -83,7 +83,7 @@ Mer information om syntaxen som du måste använda i en beräknad anpassad kolum
 
 I listorna nedan definieras de tillgängliga uttryck som du kan använda när du skapar en av de tre olika typerna av beräknade anpassade fält i Workfront:
 
-* [Anpassade fält för datum och tid &#x200B;](#date-time-calculated-custom-fields)
+* [Anpassade fält för datum och tid ](#date-time-calculated-custom-fields)
 * [Matematiskt beräknade anpassade fält](#mathematical-calculated-custom-fields)
 * [Textberäknade anpassade fält](#text-calculated-custom-fields)
 

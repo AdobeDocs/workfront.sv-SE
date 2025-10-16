@@ -6,9 +6,9 @@ description: Du kan redigera information om program som du har skapat eller som 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '993'
 ht-degree: 0%
 
 ---
@@ -23,15 +23,12 @@ Du kan redigera ett program på programsidan eller redigera ett eller flera prog
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
@@ -40,7 +37,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Åtkomstnivå</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>[!UICONTROL Edit] tillgång till program</p>  </td> 
   </tr> 
   <tr> 
@@ -85,7 +82,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    1. (Valfritt och villkorligt) När ett område är komprimerat klickar du på **högerpilen** ![högerpilen](assets/right-pointing-arrow.png) bredvid varje område för att expandera det område som du vill redigera.
    1. Om du vill ha information om de fält som visas i avsnittet [!UICONTROL Program Details] kan du fortsätta redigera programmet i rutan [!UICONTROL Edit Program] enligt beskrivningen nedan.
    1. (Valfritt) Om det inte finns några anpassade formulär kopplade till programmet börjar du skriva namnet på ett formulär i fältet **[!UICONTROL Add custom form]**, markerar det när det visas i listan och klickar sedan på **[!UICONTROL Save Changes]**.
-   1. (Valfritt) Klicka på ikonen **[!UICONTROL Export]** ![&#x200B; Exportera &#x200B;](assets/export.png) om du vill exportera [!UICONTROL Overview] och anpassad formulärinformation till en PDF-fil. Klicka sedan på **[!UICONTROL Export]**. Välj bland följande:
+   1. (Valfritt) Klicka på ikonen **[!UICONTROL Export]** ![ Exportera ](assets/export.png) om du vill exportera [!UICONTROL Overview] och anpassad formulärinformation till en PDF-fil. Klicka sedan på **[!UICONTROL Export]**. Välj bland följande:
 
       * Markera alla (visas bara när det finns minst ett anpassat formulär bifogat)
       * [!UICONTROL Overview]

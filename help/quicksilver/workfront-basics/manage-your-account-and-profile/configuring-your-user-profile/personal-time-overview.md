@@ -7,9 +7,9 @@ description: Det är viktigt att ange i Adobe Workfront när en godkänd tid är
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: f10b0a4897d6250f0c4decf1fad069c598536a38
+source-git-commit: 95cc394c3e1aa0ee5713e981030a96e27dd1f183
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -38,33 +38,33 @@ Resurshanteringsverktygen använder också din personliga ledig tid för att ang
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Alla</td> 
+   <td> Adobe Workfront package</td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td> <p>Nytt: Standard (för att konfigurera din personliga tid till ledig)</p>
-        <p>eller</p>
-        <p>Aktuell: Arbeta eller högre (för att konfigurera din personliga tid till ledig)</p> </td>
+   <td>Adobe Workfront-licens</td> 
+   <td> <p>Om du vill konfigurera en ledig tid måste du ha:</p>
+        <p>Standard (för att konfigurera din privata tid av)</p>
+        <p>Arbeta eller högre (för att konfigurera din personliga tid till ledig)</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td>[!UICONTROL Manager] med [!UICONTROL Edit User] åtkomst (för att ändra tid för andra användares kalender)<br>
-   <strong>Obs!</strong> Om en hanterare redigerar en annan användares personliga tid i kalendern visas alla poster i användarens tidszon och inte i hanterarens tidszon.</td> 
+   <td>Konfigurationer på åtkomstnivå</td> 
+   <td><p>Om du vill ändra tiden för en annan användares kalender måste du vara användarens chef och ha behörigheten Redigera användare.</p>
+   <p><strong>Obs!</strong> Om en hanterare redigerar en annan användares personliga tid i kalendern visas alla poster i användarens tidszon och inte i hanterarens tidszon.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Konfigurera personlig tid av i [!DNL Workfront]
 

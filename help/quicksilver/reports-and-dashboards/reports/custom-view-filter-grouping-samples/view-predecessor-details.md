@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Visa: Information om föregående användare'
+title: 'Visa: Information om föregående'
 description: I den här uppgiftsvyn visas information om föregående aktiviteter för uppgifter som använder en samlingsvy. I en samlingsvy kan du visa information om objekt som finns i en"en-till-många"-relation. I det här fallet kan varje uppgift (en) ha flera föregående (många). I vyn visas namnet på aktiviteterna samt namnen på Föregående och Föregående, Föregående och Föregående samt Status för Föregående projekt.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0187da94-4895-47b1-914f-284fed9e0fd0
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -28,44 +28,33 @@ Mer information om hur du refererar till samlingar i rapporter finns i [Referens
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p> Aktuell: 
-   <ul>
-   <li>Begäran om att ändra en vy</li> 
-   <li>Planera att ändra en rapport</li>
-   </ul>
-     </p>
-     <p> Nytt: 
-   <ul>
-   <li>Medarbetare som ändrar en vy</li> 
-   <li>Standard för att ändra en rapport</li>
-   </ul>
-     </p>
-    </td> 
+   <td> 
+   <p>Medarbetare eller begäran om att ändra en vy </p>
+   <p>Standard eller Plan för att ändra en rapport</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en vy</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter i en rapport</p> </td> 
+   <td> <p>Hantera behörigheter i en rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
 Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 

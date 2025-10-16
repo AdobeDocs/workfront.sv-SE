@@ -6,9 +6,9 @@ description: Du kan dela en kalender med andra användare och göra den tillgän
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
-source-git-commit: 0606dab832753543ceef4b5b505413967176aec4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,6 @@ Du kan dela en kalender med andra användare och du kan göra den tillgänglig f
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -31,22 +29,21 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td><p>Ny: ljus</p>
-       <p>eller</p>
-       <p>Aktuell: Granska</p></td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td><p>Ljus</p>
+       <p>Granska</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>[!UICONTROL View] eller senare åtkomst till [!UICONTROL Reports], [!UICONTROL Dashboards] och [!UICONTROL Calendars]</p></td> 
+   <td> <p> Visa eller öka åtkomst till rapporter, instrumentpaneler och kalendrar</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td>[!UICONTROL View] eller högre behörigheter till kalenderrapporten, med tillgång till delning</td> 
+   <td>Visa eller högre behörigheter i kalenderrapporten, med tillgång till delning</td> 
   </tr> 
  </tbody> 
 </table>

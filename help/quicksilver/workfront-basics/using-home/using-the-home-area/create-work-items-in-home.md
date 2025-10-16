@@ -6,9 +6,9 @@ description: Du kan skapa arbetsobjekt och projekt från området [!UICONTROL Ho
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: e3e297bc548338032bc8f321ad3e1214be9cdee4
+source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -27,39 +27,36 @@ Från Hem kan du
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens</strong></td> 
    <td>
-    <p>Nytt: [!UICONTROL Standard]</p> 
-    <p>Aktuell: [!UICONTROL Work] eller högre</p> </td> 
+    <p>Standard</p> 
+    <p>Arbeta eller högre</p> </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>[!UICONTROL Worker]</p> <p><b>ANMÄRKNING</b></p> 
-   <p>Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+    <tr> 
+   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå</strong></td> 
+   <td> <p>Visa eller redigera åtkomst för objektet som uppdateringen är aktiverad för</p> </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader"><strong>Ytterligare produkter</strong></td> 
+   <td>Du måste ha Adobe Workfront Planning för att kunna visa planeringsförfrågningar eller begära formulär</td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
-   <td> <p>[!UICONTROL Edit] behörighet eller högre för uppgifter</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Product]</strong></td> 
-   <td> <ul><li>Adobe Workfront</li><li>Du måste ha Adobe Workfront Planning för att kunna visa planeringsförfrågningar eller begära formulär</td> 
+   <td> <p>[!UICONTROL Edit] behörighet eller högre för uppgifter</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

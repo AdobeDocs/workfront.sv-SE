@@ -6,9 +6,9 @@ description: Personliga uppgifter är tillfälliga arbetsförfrågningar som du 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: b40d6b10-19c7-4e11-a74f-a8af3ebafb65
-source-git-commit: a1081b7ce0877b08f9546ab57cfac3f2a580ea76
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -47,8 +47,6 @@ Oavsett hur du lägger till en personlig uppgift kan du hitta den i samma delar 
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -56,14 +54,15 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront package</strong></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licens*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront-licens</strong></td> 
    <td> 
-   <p>Nytt: Standard för att skicka begäranden till andra användare. Alla användare kan skapa egna arbetsförfrågningar.</p> 
-   <p>Aktuell: Planerar att skicka begäranden till andra användare. Alla användare kan skapa egna arbetsförfrågningar.</p>
+   <p>Standard<p>
+   <p>Plan</p>
+   <p>Det här är den licens som krävs för att skicka begäranden till andra användare. Alla användare kan skapa egna arbetsförfrågningar.</p> 
     </td> 
   </tr> 
   <tr> 
@@ -75,9 +74,36 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td> 
+   <p>New: Standard to send requests to other users. All users can create a work request for themselves.</p> 
+   <p>Current: Plan to send requests to other users. All users can create a work request for themselves.</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Access level configurations</strong></td> 
+   <td> <p>Edit access to Users to create a work request for them. View access to create a personal work request for yourself. </p>
+   </td> 
+  </tr> 
+ 
+ </tbody> 
+</table>-->
 
 
 ## Skapa en personlig arbetsförfrågan

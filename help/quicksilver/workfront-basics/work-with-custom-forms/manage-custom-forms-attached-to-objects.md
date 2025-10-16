@@ -6,7 +6,7 @@ description: Du kan uppdatera den ordning i vilken anpassade formulär som är k
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 0%
@@ -21,19 +21,20 @@ Du kan uppdatera den ordning i vilken anpassade formulär som är kopplade till 
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskrivs i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Begäran eller senare</p> </td> 
+   <td><p>Medarbetare eller högre</p> 
+   <p>Begäran eller senare</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -46,7 +47,33 @@ Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskriv
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Request or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to the objects for which you manage custom forms</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Contribute permissions or higher to the objects for which you manage custom forms</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Förutsättningar
 
@@ -77,7 +104,7 @@ Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskriv
 
    Gå till exempel till ett projekt och klicka på avsnittet **Projektinformation**.
 
-1. Klicka på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) i det övre högra hörnet på objektets sida och klicka sedan på **Redigera alla**.
+1. Klicka på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) i det övre högra hörnet på objektets sida och klicka sedan på **Redigera alla**.
 1. Klicka på ikonen **Ta bort** ![](assets/delete-icon.png) till höger om ett anpassat formulärnamn och klicka sedan på **Ta bort** för att bekräfta och ta bort formuläret från objektet eller **Avbryt** för att förhindra att det tas bort.
 1. Klicka på **Spara ändringar** .
 

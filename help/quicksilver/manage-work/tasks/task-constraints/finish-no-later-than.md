@@ -2,12 +2,12 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Översikt över aktivitetsbegränsning: Slutför inte senare än'
+title: 'Översikt över begränsning av aktivitet: Slutför inte senare än'
 description: Avsluta senast (FNLT) är en aktivitetsbegränsning som schemalägger en aktivitet som ska slutföras före det datum du anger.
 author: Alina
 feature: Work Management
 exl-id: ea0e74fb-45a0-4466-b57d-294a9babb340
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 0%

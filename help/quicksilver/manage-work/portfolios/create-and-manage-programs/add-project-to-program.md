@@ -6,16 +6,16 @@ description: Du kan ordna dina projekt genom att lägga till dem i program inom 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
 
 # Lägga till ett projekt i ett program
 
-<!--Audited: 5/2025-->
+<!--Audited: 08/2025-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
@@ -33,20 +33,20 @@ Mer information om hur du skapar program finns i [Skapa ett program](../../../ma
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td><p>Nytt: Standard</p> 
-   <p>Aktuell: [!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td><p>[!UICONTROL Standard]</p> 
+   <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Åtkomstnivå</td> 
@@ -62,6 +62,34 @@ Mer information om hur du skapar program finns i [Skapa ett program](../../../ma
 *Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td><p>New: Standard</p> 
+   <p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>[!UICONTROL Edit] access to Programs or higher</p> <p>[!UICONTROL Edit] access to Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to the program</p> <p>[!UICONTROL Manage] permissions to the projects</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 ## Lägg till ett projekt i ett befintligt program
 
@@ -113,7 +141,7 @@ Mer information om hur du skapar program finns i [Skapa ett program](../../../ma
    1. I rutan **[!UICONTROL Add Projects]** skriver du namnet på ett projekt i fältet **Lägg till projekt i det här programmet** och markerar det när det visas i listan. <!--check casing on links and buttons-->
 
       Du kan lägga till fler än ett projekt.
-   1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort &#x200B;](assets/delete-icon.png) bredvid namnet på ett projekt om du bestämmer dig för att inte lägga till det i programmet.
+   1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort ](assets/delete-icon.png) bredvid namnet på ett projekt om du bestämmer dig för att inte lägga till det i programmet.
 
    1. Klicka på **[!UICONTROL Add Projects]**. <!--check at unshimming-->
 

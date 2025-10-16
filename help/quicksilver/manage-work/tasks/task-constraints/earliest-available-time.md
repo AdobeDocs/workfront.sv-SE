@@ -2,12 +2,12 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Översikt över aktivitetsbegränsning: Tidigast tillgänglig tid'
+title: 'Översikt över begränsning av aktivitet: tidigaste tillgängliga tid'
 description: Tidigaste tillgängliga tid är en aktivitetsbegränsning som schemalägger att en uppgift påbörjas så snart som möjligt efter att ha övervägt eventuella föregående relationer.
 author: Alina
 feature: Work Management
 exl-id: 9c01e4bd-c6ca-4540-a0f1-ecdd44df84e0
-source-git-commit: 18f26f976a47af003817f2f82f8550bdfbc0ab90
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%

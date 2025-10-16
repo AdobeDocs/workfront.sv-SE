@@ -6,9 +6,9 @@ description: Du kan inte ta bort en mall från ett projekt. Du kan bara ta bort 
 author: Alina
 feature: Work Management
 exl-id: a8b6055a-7fac-4f9b-a880-10b2b85299b7
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -19,22 +19,20 @@ Du kan inte ta bort en mall från ett projekt. Du kan bara ta bort information s
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Nytt: Standard</p>
-   <p>Aktuell: Arbete eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Standard</p>
+   <p>Arbeta eller högre</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -42,14 +40,40 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera åtkomst till uppgifter </p> <p>Contribute eller senare åtkomst till projektet </p>  </td> 
+   <td> <p>Hantera åtkomst till uppgifter </p> <p>Contribute eller senare åtkomst till projektet</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New: Standard</p>
+   <p>Current: Work or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Tasks</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage access to tasks </p> <p>Contribute or higher access to the project </p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Alternativ för att ta bort mallinformation från ett projekt
 
@@ -88,4 +112,4 @@ Om du vill ta bort mallinformation som har lagts till i projektet kan du göra n
 
      Mer information om hur du skapar en vy finns i [Vyöversikt i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Markera alla uppgifter som identifieras i steg 2 som de har skapats från en mall och klicka sedan på **ikonen Ta bort**&#x200B;**> Ja, Ta bort den**. Mer information finns i [Ta bort uppgifter](../../../manage-work/tasks/manage-tasks/delete-tasks.md).
+1. Markera alla uppgifter som identifieras i steg 2 som de har skapats från en mall och klicka sedan på **ikonen Ta bort****> Ja, Ta bort den**. Mer information finns i [Ta bort uppgifter](../../../manage-work/tasks/manage-tasks/delete-tasks.md).

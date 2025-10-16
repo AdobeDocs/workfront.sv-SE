@@ -1,14 +1,14 @@
 ---
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Skapa och redigera planer i scenarioplaneraren
+title: Skapa och redigera planer i scenarioplanen
 description: Du kan skapa planer som en del av att använda Workfront Scenarioplan när du prioriterar företagets strategi på en högre nivå. Mer information om planer finns i Planer - översikt i Scenarioplaneraren.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
-source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
+source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
 workflow-type: tm+mt
-source-wordcount: '2285'
+source-wordcount: '2250'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,43 @@ Du kan skapa planer som en del av att använda [!DNL Workfront Scenario Planner]
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] package</p> </td> 
+   <td> 
+   <p>Workfront Ultimate</p>
+<p><b>ANMÄRKNING</b></p>
+<p>Kontakta Workfront om du har ett annat Workfront-paket.</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] licens</p> </td> 
+   <td> <p>[!UICONTROL Light] eller högre</p> 
+   <p>[!UICONTROL Review] eller högre</p> </td> 
+  </tr> 
+    <tr> 
+   <td>Konfigurationer på åtkomstnivå</td> 
+   <td> <p>[!UICONTROL Edit] åtkomst till [!DNL Scenario Planner]</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Objektbehörigheter </p> </td> 
+   <td> <p>[!UICONTROL Manage] behörigheter till en plan</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Mer information om åtkomst till scenarioplanen finns i [Åtkomst krävs för att använda  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+
+Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav för Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -36,38 +71,34 @@ Du kan skapa planer som en del av att använda [!DNL Workfront Scenario Planner]
   <tr> 
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
-   <li><p>Nytt: Ultimate </p></li>
-   <p>Scenarioplanen är inte tillgänglig för nya Workfront Select- eller Workfront Prime-planer. </p>
-   <li><p>Aktuell: [!UICONTROL Business] eller högre</p></ul>
+   <li><p>New: Ultimate </p></li>
+   <p>The Scenario Planner is not available for the new Workfront Select or Workfront Prime plans. </p>
+   <li><p>Current: [!UICONTROL Business] or higher</p></ul>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] licens*</p> </td> 
-   <td> <p>Nytt: Ljus eller högre</p> 
-   <p>Aktuell: [!UICONTROL Review] eller högre</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>New: Light or higher</p> 
+   <p>Current: [!UICONTROL Review] or higher</p> </td> 
   </tr> 
   <tr> 
-   <td>Produkt* </td> 
-   <td> <ul><li><p>För nya Workfront-planer:</p><p> Adobe Workfront</li></p>
-   <li><p>För nuvarande Workfront-planer: </p>
+   <td>Product* </td> 
+   <td> <ul><li><p>For the new Workfront plans:</p><p> Adobe Workfront</li></p>
+   <li><p>For the current Workfront plans: </p>
    <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
-
-<p>Mer information finns i <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Åtkomst krävs för att använda [!DNL Scenario Planner]</a>. </p> </td> 
+   
+   <p>For more information, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Åtkomstnivå </td> 
-   <td> <p>[!UICONTROL Edit] åtkomst till [!DNL Scenario Planner]</p> </td> 
+   <td>Access level </td> 
+   <td> <p>[!UICONTROL Edit] access to the [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>Objektbehörigheter </p> </td> 
-   <td> <p>[!UICONTROL Manage] behörigheter till en plan</p> <p>Mer information om hur du begär ytterligare åtkomst till en plan finns i <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Begär åtkomst till en plan i [!DNL Scenario Planner]</a>.</p> </td> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-*Mer information finns i [Åtkomstkrav för Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 ## Skapa eller redigera planer
 
@@ -89,7 +120,7 @@ Så här skapar eller redigerar du en plan:
 
 En lista över befintliga planer som du har skapat visas i [!DNL Workfront Scenario Planner].
 
-1. (Valfritt) Klicka på ikonen **[!UICONTROL Filter]** ![Filter &#x200B;](assets/filter-icon-34x37.png) i det övre högra hörnet av planlistan och välj något av följande:
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Filter]** ![Filter ](assets/filter-icon-34x37.png) i det övre högra hörnet av planlistan och välj något av följande:
 
    | Filter | Beskrivning |
    |---|---|
@@ -99,7 +130,7 @@ En lista över befintliga planer som du har skapat visas i [!DNL Workfront Scena
 
    ![Listrutealternativ för planfilter](assets/plans-filters-dropdown-options-scenario-planer.png)
 
-1. (Valfritt) Klicka på ikonen **[!UICONTROL Search]** ![&#x200B; Sök &#x200B;](assets/search-icon.png) om du vill skriva ett nyckelord och snabbt hitta en plan i listan.
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Search]** ![ Sök ](assets/search-icon.png) om du vill skriva ett nyckelord och snabbt hitta en plan i listan.
 
 1. Klicka på namnet på en befintlig plan för att redigera den och fortsätt med steg 7.
 
@@ -121,7 +152,7 @@ En lista över befintliga planer som du har skapat visas i [!DNL Workfront Scena
 
    ![Ny planruta](assets/new-plan-ui-adding-a-new-plan-350x306.png)
 
-1. (Villkorligt) Ange följande information när du skapar en ny plan:
+1. (Villkorligt) Ange följande information när du skapar en plan:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -355,7 +386,7 @@ En lista över befintliga planer som du har skapat visas i [!DNL Workfront Scena
 
    Mer information om hur du lägger till initiativ finns i artikeln [Skapa och redigera initiativ i  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
 
-1. (Valfritt) Skapa en kopia av det befintliga scenariot för att skapa ett nytt scenario för samma plan. Mer information om hur du skapar och arbetar med flera scenarier finns i [Skapa och jämföra planscenarier i  [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md).
+1. (Valfritt) Skapa en kopia av det befintliga scenariot för att skapa ett scenario med samma plan. Mer information om hur du skapar och arbetar med flera scenarier finns i [Skapa och jämföra planscenarier i  [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md).
 1. Klicka på **[!UICONTROL Save Plan]**.
 
    Din plan skapas eller uppdateras.

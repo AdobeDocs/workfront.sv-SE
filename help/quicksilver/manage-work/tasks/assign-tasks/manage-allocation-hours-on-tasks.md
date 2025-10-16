@@ -6,9 +6,9 @@ description: När du tilldelar användare eller roller till en uppgift, tilldela
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -25,33 +25,33 @@ Tilldelningstimmar representerar den totala tiden som en tilldelad resurs är pl
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td>Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Nytt: Standard </p>
-   <p>Aktuell: Arbete eller högre</p> </td> 
+   <td>Adobe Workfront-licens</td> 
+   <td> <p>Standard</p>
+   <p>Arbeta eller högre</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Redigera åtkomst till uppgifter</p> </td> 
+   <td>Konfigurationer på åtkomstnivå</td> 
+   <td>Redigera åtkomst till uppgifter</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Contribute eller högre behörigheter för aktiviteten</p> <p>Redigera behörigheter för att uppdatera allokeringstimmar i rutan Redigera uppgift</p> </td> 
-  </tr> 
- </tbody> 
+   <td>Objektbehörigheter</td>
+   <td><p>Contribute eller högre behörigheter för aktiviteten</p>
+   <p>Redigera behörigheter för att uppdatera allokeringstimmar i rutan Redigera uppgift</p></td>
+  </tr>
+ </tbody>
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

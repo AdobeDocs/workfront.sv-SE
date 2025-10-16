@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 9e7d20fe165e08997c14e207406fb8bed7597a56
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '956'
 ht-degree: 0%
 
 ---
@@ -26,28 +26,26 @@ Med enkel inloggning (SSO) kan du skicka attribut från identitetsleverantörens
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td>Alla</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td><p>Nytt: Standard</p><p>eller</p><p>Aktuell: Planera</p></td> 
+   <td><p>Standard</p><p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td><p>Du måste vara Workfront-administratör</p></td>
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,9 +61,9 @@ Tänk på följande när du mappar attribut:
 
 ## Mappa användarattribut för din organisation
 
-Hur du mappar attribut varierar beroende på om din organisation använder den enhetliga upplevelsen i Adobe.
+Hur du mappar attribut varierar beroende på om din organisation använder Adobe enhetliga upplevelse.
 
-Om du vill ta reda på om din organisation har en enhetlig Adobe-upplevelse kan du kontrollera den URL som du använder för att få tillgång till Workfront.
+Om du vill ta reda på om din organisation använder Adobe enhetliga upplevelse kan du kontrollera den URL som du använder för att få tillgång till Workfront.
 
 | URL | Adobe Experience |
 |---|---|
@@ -91,7 +89,7 @@ Om du vill ta reda på om din organisation har en enhetlig Adobe-upplevelse kan 
 
    Du kan mappa attribut som adress, chef, jobbroll, hemgrupp och så vidare.
 
-   Attributmappningar fungerar med ett 1:1-förhållande. Du kan till exempel inte ange alla grupper som en användare tillhör. Du kan bara ange en per användare.
+   Attributmappningar fungerar på ett :1-förhållande. Du kan till exempel inte ange alla grupper som en användare tillhör. Du kan bara ange en per användare.
 
    >[!IMPORTANT]
    >
@@ -138,11 +136,11 @@ Om du vill ta reda på om din organisation har en enhetlig Adobe-upplevelse kan 
 
 1. Klicka på fliken **Adobe**.
 
-1. (Valfritt och villkorligt) Om din organisations attributmappning har konfigurerats i den klassiska upplevelsen och du vill kopiera den attributmappningen till den enhetliga Adobe-upplevelsen klickar du på **Migrera mappningar**. Du kan sedan ta bort, ta bort eller redigera mappningarna.
+1. (Valfritt och villkorligt) Om attributmappningen i den klassiska upplevelsen har konfigurerats i organisationen och du vill kopiera den attributmappningen till den enhetliga Adobe-upplevelsen klickar du på **Migrera mappningar**. Du kan sedan ta bort, ta bort eller redigera mappningarna.
 
    >[!NOTE]
    >
-   >Vi rekommenderar att du migrerar mappningar första gången du konfigurerar mappningar i den enhetliga Adobe-upplevelsen. Det skadar inte att migrera dem igen senare, men det är inte nödvändigt att migrera dem mer än en gång.
+   >Vi rekommenderar att du migrerar mappningar första gången du konfigurerar mappningar i Adobe enhetliga upplevelse. Det skadar inte att migrera dem igen senare, men det är inte nödvändigt att migrera dem mer än en gång.
 
 1. Om du vill skapa en ny attributmappning klickar du på **Lägg till mappning**.
 

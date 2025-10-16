@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 934cef1a-8157-45db-b000-24a08a94dd18
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
@@ -23,33 +23,31 @@ Du kan även återaktivera jobbroller som tidigare har inaktiverats.
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>Alla </p> </td> 
+   <td>[!DNL Adobe Workfront] package</td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td>
-   <p>Nytt: [!UICONTROL Standard]</p>
-   <p>eller</p>
-   <p>Aktuell: [!UICONTROL Plan]</p></td> 
+   <td>[!DNL Adobe Workfront] licens</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td>Administrativ åtkomst till jobbroller</td> 
+   <td>Konfigurationer på åtkomstnivå</td> 
+   <td>Administrativ åtkomst till jobbroller</td>
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -112,7 +110,7 @@ Vi rekommenderar att du gör följande innan du inaktiverar en oanvänd jobbroll
 1. Klicka på &#x200B; **[!UICONTROL Job Roles]i den vänstra panelen.**
 1. (Valfritt) I listrutan **[!UICONTROL Filter]** väljer du **[!UICONTROL Active]** om du bara vill visa aktiva jobbroller.
 1. Klicka på namnet på den jobbroll som du vill inaktivera.
-1. Välj **[!UICONTROL No]** i listrutan **[!UICONTROL Is Active]**.
+1. Välj **[!UICONTROL Is Active]** i listrutan **[!UICONTROL No]**.
 
    ![Inaktivera jobbroll](assets/deactivate-job-role-edit-role-box-nwe.png)
 

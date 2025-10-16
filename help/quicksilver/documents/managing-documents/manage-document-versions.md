@@ -6,9 +6,9 @@ description: Du kan hantera flera versioner av ett dokument i Workfront.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 477153e4-847b-46ec-8107-72a7399c3767
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -23,33 +23,28 @@ Du kan hantera flera versioner av ett dokument i Workfront.
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p> Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licenser</td> 
    <td> 
-   <p>Nytt: Medarbetare eller högre<p>
-   <p>eller</p>
-   <p>Aktuell: Begäran eller senare </p>
-
-
-</td> 
+   <p>Medarbetare eller högre</p>
+   <p>Begäran eller senare </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Visa åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Visa åtkomst till dokument</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa åtkomst till dokumentet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa åtkomst till dokumentet</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,7 +89,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. Klicka på ikonen **Öppna sammanfattning** ![Öppna sammanfattning](assets/qs-summary-in-new-toolbar-small.png) i det övre högra hörnet på sidan. Sidpanelen **Dokumentsammanfattning** öppnas.
 
-1. Klicka på menyn **Mer** ![Mer](assets/more-icon.png) till höger om versionen i avsnittet **Versioner** och klicka sedan på **Hämta** i listrutan som visas.
+1. Klicka på menyn **Mer** **Mer** till höger om versionen i avsnittet ![Versioner](assets/more-icon.png) och klicka sedan på **Hämta** i listrutan som visas.
 
    ![Hämta ett enstaka dokument](assets/more-versions-350x143.png)
 
@@ -135,7 +130,7 @@ Så här tar du bort en dokumentversion:
 1. Klicka på ikonen **Öppna sammanfattning** ![Öppna sammanfattning](assets/qs-summary-in-new-toolbar-small.png) i det övre högra hörnet på sidan. Sidpanelen **Dokumentsammanfattning** öppnas.
 
 1. Bläddra ned till avsnittet **Versioner** om du vill visa alla dokumentversioner.
-1. Klicka på menyn **Mer** ![Mer](assets/more-icon.png) till höger om versionen i avsnittet **Versioner** och klicka sedan på **Ta bort** i listrutan som visas.
+1. Klicka på menyn **Mer** **Mer** till höger om versionen i avsnittet ![Versioner](assets/more-icon.png) och klicka sedan på **Ta bort** i listrutan som visas.
 
    >[!NOTE]
    >

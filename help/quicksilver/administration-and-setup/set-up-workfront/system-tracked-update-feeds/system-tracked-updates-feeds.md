@@ -10,7 +10,7 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: b43b8583-41cb-4a96-8e61-77208eaa219a
-source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Systemspårade uppdateringsflöden: artikelindex
 
-<!--Audited: April, 2024-->
+<!--Audited: 04/2024-->
 
 Adobe Workfront loggar automatiskt aktiviteten som äger rum på vissa objekt i deras [!UICONTROL Updates]-avsnitt som en systemuppdatering. En systemuppdatering innehåller en kort anteckning som beskriver vilken typ av ändring som har hänt med objektet. [!DNL Workfront]-administratörer kan definiera vilken typ av ändringar som systemet ska spåra i avsnittet [!UICONTROL Updates].
 

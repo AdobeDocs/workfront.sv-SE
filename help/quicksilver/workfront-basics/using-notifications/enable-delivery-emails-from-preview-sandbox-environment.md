@@ -5,9 +5,9 @@ description: Om du vill få e-postmeddelanden från förhandsgranskningssandlåd
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e5c7e387-d08d-42f6-a9e6-f44e514ef902
-source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
+source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Du kan göra detta för dig själv eller för alla användare som du har behöri
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,25 +42,32 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>[!UICONTROL Request] eller högre för att ändra din egen inställning</p> <p>[!UICONTROL Plan] för att redigera inställningen för andra användare</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens</strong></td> 
+   <td> 
+   <p>Medarbetare eller senare för att ändra din egen inställning</p> <p>Standard för att redigera inställningen för andra användare</p> 
+   eller
+   <p> Begär eller högre för att ändra din egen inställning</p> <p>Planera att redigera inställningen för andra användare</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
+   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå</strong></td> 
    <td> <p>Du måste ha något av följande:</p> 
     <ul> 
-     <li> <p>Åtkomstnivån [!UICONTROL System Administrator].</p> <p> Mer information om åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>. </p> </li> 
-     <li> <p>I din åtkomstnivå måste [!UICONTROL Edit] väljas för inställningen [!UICONTROL Users]. Och för inställningen [!UICONTROL Users] måste alternativet [!UICONTROL Create] och minst ett av de två alternativen [!UICONTROL User Admin] aktiveras under [!UICONTROL Fine-tune your settings] <img src="assets/gear-icon-in-access-levels.png"> . </p> <p>Om du använder alternativet [!UICONTROL User Admin (Group Users)] måste du vara gruppadministratör för en grupp där användaren är medlem.</p> <p> <img src="assets/access-req-users-350x101.png" style="width: 350;height: 101;"> </p> <p>Mer information om inställningen [!UICONTROL Users] på en åtkomstnivå finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</p> </li> 
-    </ul> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+     <li> <p>Åtkomstnivån [!UICONTROL System Administrator].</p> </li> 
+     <li> <p>I din åtkomstnivå måste [!UICONTROL Edit] väljas för inställningen [!UICONTROL Users]. Och för inställningen [!UICONTROL Users] måste alternativet [!UICONTROL Fine-tune your settings] och minst ett av de två alternativen <img src="assets/gear-icon-in-access-levels.png"> aktiveras under [!UICONTROL Create] [!UICONTROL User Admin] . </li> 
+     <li>Om du använder alternativet [!UICONTROL User Admin (Group Users)] måste du vara gruppadministratör för en grupp där användaren är medlem.</li> 
+    </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Aktivera leverans av e-postmeddelanden från förhandsgranskningssandlådan
 

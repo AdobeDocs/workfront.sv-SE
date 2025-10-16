@@ -7,7 +7,7 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
-source-git-commit: d088b40cd8d46a986998fde2176646aa1660cb6b
+source-git-commit: 7572dd64a7f23d6f8dcae374a327d67f2d6738c5
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -35,11 +35,11 @@ När du har konfigurerat minst ett varumärke i GenStudio Foundation kan du skap
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td> <p>Standard</p> </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 Innan du börjar måste du ange riktlinjer för bildvarumärken i GenStudio Foundation.
 
-Mer information om riktlinjer för bildvarumärken finns i [Kom igång med Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Mer information om riktlinjer för bildvarumärken finns i [Kom igång med Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 ## Lägga till en AI-granskare
 

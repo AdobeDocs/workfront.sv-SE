@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
@@ -28,36 +28,59 @@ Du kan ta bort ett projekt i en projektlista eller på projektnivå.
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>Adobe Workfront package</p> </td> 
+   <td>Alla</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront-licens</p> </td> 
+   <td> <p>Standard</p>
+   <p>Plan</p> 
+   </td> 
+  </tr> 
+    <td>Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till projekt med möjlighet att skapa och ta bort projekt</p> </td> 
+  </tr> 
+    <td> <p>Objektbehörigheter</p> </td> 
+   <td> <p>Redigera åtkomst till projekt, uppgifter, problem med möjlighet att ta bort projekt, uppgifter och problem</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront</p> </td> 
-   <td>Alla</td> 
+   <td> <p>Adobe Workfront plan</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront-licens*</p> </td> 
-   <td> <p>Ny licens: Standard </p>
-   <p>Aktuell licens: Planera </p> 
+   <td> <p>Adobe Workfront license*</p> </td> 
+   <td> <p>New license: Standard </p>
+   <p>Current license: Plan </p> 
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Åtkomstnivåkonfiguration</td> 
-   <td> <p>Redigera åtkomst till projekt med möjlighet att skapa och ta bort projekt</p> </td> 
+   <td>Access level configuration</td> 
+   <td> <p>Edit access to Projects with ability to Create and Delete projects</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>Objektbehörigheter </p> </td> 
-   <td> <p>Redigera åtkomst till projekt, uppgifter, problem med möjlighet att ta bort projekt, uppgifter och problem</p> </td> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>Edit access to Projects, Tasks, Issues with ability to Delete projects, tasks, and issues</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 ## Förstå processen med att ta bort projekt
 

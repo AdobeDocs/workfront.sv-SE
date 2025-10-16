@@ -3,12 +3,12 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Visa och hantera kommentarer på en tidrapport
 description: Du kan kommentera tidrapporter, vilka objekt som ingår i tidrapporterna samt varje timmes post som du loggar.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: ea0ae13abe9373bef7a1d146ca1951c8c383f994
+source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '888'
 ht-degree: 0%
 
 ---
@@ -29,33 +29,31 @@ Du kan visa uppdateringar från en tidrapport eller från enskilda timposter i e
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td>Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Nytt: Ljus eller högre </p>
-   <p>Aktuell: Granska eller senare</p> </td> 
+   <td>Adobe Workfront-licens</td> 
+   <td> <p>Ljus eller högre </p>
+   <p>Granska eller högre</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Åtkomstnivåkonfiguration</td> 
+   <td>Åtkomstnivåkonfiguration</td> 
    <td> <p>Visa eller ge högre åtkomst till uppgifter och ärenden</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
+   <td>Objektbehörigheter</td> 
    <td> <p>Visa eller högre behörigheter för uppgifter och problem</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -88,7 +86,7 @@ Kommentarerna visas under objektet där timinmatningen och kommentaren loggades.
 
 Du kan göra allmänna kommentarer om tidrapporten. Kommentarer i den övergripande tidrapporten liknar kommentarer i andra objekt.
 
-1. Klicka på ikonen **Huvudmeny** ![Huvudmeny &#x200B;](assets/main-menu-icon.png) i det övre högra hörnet eller på ikonen **Huvudmeny** ![Rader på huvudmenyn](assets/lines-main-menu.png) i det övre vänstra hörnet eller Workfront, om den är tillgänglig.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny ](assets/main-menu-icon.png) i det övre högra hörnet eller på ikonen **Huvudmeny** ![Rader på huvudmenyn](assets/lines-main-menu.png) i det övre vänstra hörnet eller Workfront, om den är tillgänglig.
 
 1. Klicka på **Tidrapporter**.
 1. Gå till tidrapporten där du vill göra en kommentar.
@@ -135,7 +133,7 @@ Du kan göra allmänna kommentarer om tidrapporten. Kommentarer i den övergripa
 
    * Skriv en ny kommentar och klicka på **Klar**.
    * Redigera en befintlig kommentar och klicka på **Klar** eller klicka på **Avbryt** för att ignorera ändringarna.
-   * Klicka på ikonen **Ta bort** ![Ta bort &#x200B;](assets/delete.png) om du vill ta bort en sparad kommentar.
+   * Klicka på ikonen **Ta bort** ![Ta bort ](assets/delete.png) om du vill ta bort en sparad kommentar.
 
      En blå markör visas i det övre högra hörnet av timpostrutan för att ange att kommentarer har loggats med tidsangivelsen.
 

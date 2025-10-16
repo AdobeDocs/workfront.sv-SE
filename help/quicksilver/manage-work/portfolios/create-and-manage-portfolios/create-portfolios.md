@@ -1,21 +1,21 @@
 ---
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
-title: Skapa en portfölj
+title: Skapa en Portfolio
 description: En Portfolio är en samling projekt som konkurrerar om samma resurser, budget och tidsplan. Projekten i en Portfolio är tillräckligt lika så att de skulle använda samma resurspool och mätas mot samma styrkort.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
 
 # Skapa en portfölj
 
-<!--Audited: 7/2024-->
+<!--Audited: 08/2025-->
 
 En Portfolio är en samling projekt som konkurrerar om samma resurser, budget och tidsplan. Projekten i en Portfolio är tillräckligt lika så att de skulle använda samma resurspool och mätas mot samma styrkort.
 
@@ -23,20 +23,20 @@ Du kan använda portföljer för att gruppera projekt som tillhör samma produkt
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> <p>Alla</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td> <p>Nytt: [!UICONTROL Standard]</p>
-   <p>Aktuell:[!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -44,7 +44,7 @@ Du kan använda portföljer för att gruppera projekt som tillhör samma produkt
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>När du har skapat en portfölj har du som standard behörighet att hantera den</p>  </td> 
+   <td> <p>När du har skapat en portfölj har du behörigheten Hantera för den</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,6 +52,34 @@ Du kan använda portföljer för att gruppera projekt som tillhör samma produkt
 *Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Any</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>New: [!UICONTROL Standard]</p>
+   <p>Current:[!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to Portfolios</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>After you create a portfolio, you have Manage permissions to it, by default</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 ## Olika sätt att skapa portföljer
 

@@ -5,13 +5,13 @@ product-area: system-administration;setup
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Konfigurera POP i Microsoft Exchange
 description: Ett POP-e-postkonto i [!DNL Microsoft Exchange] har inaktiverats.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4f7b6f40-cfbd-4f02-8c3e-de26b05db13b
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 929502c256011b464d938ad1095c127407e4a795
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -26,39 +26,31 @@ Ett POP-e-postkonto i [!DNL Microsoft Exchange] har inaktiverats.
 
 Innan du lägger tid på att felsöka problemet måste du kontrollera att användarens POP-konto är korrekt konfigurerat. Om du fortfarande får problem när du har bekräftat att POP-kontot är korrekt konfigurerat kontaktar du [!DNL Microsoft] Support eller någon av deras partners för ytterligare hjälp.
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For instructions on integrating a POP account in Adobe Workfront, see .</p>
--->
-
 ## Åtkomstkrav
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Alla</td> 
+   <td>[!DNL Adobe Workfront] package</td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td>
-   <p>Nytt: Standard</p>
-   <p>eller</p>
-   <p>Aktuell: Planera</p></td> 
+   <td>[!DNL Adobe Workfront] licens</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td>Konfigurationer på åtkomstnivå</td> 
    <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -79,7 +71,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
    1. Högerklicka på **[!DNL Microsoft Exchange]POP3** och klicka sedan på **[!UICONTROL Properties]**.
 
-   1. (Villkorligt) Om du vill vara säker på att POP-tjänsten startas automatiskt ställer du in **[!UICONTROL Startup]**-typen på fliken **[!UICONTROL General]** till [!UICONTROL Automatic].
+   1. (Villkorligt) Om du vill vara säker på att POP-tjänsten startas automatiskt ställer du in **[!UICONTROL General]**-typen på fliken **[!UICONTROL Startup]** till [!UICONTROL Automatic].
 
 1. Konfigurera POP3 för servern.
 
@@ -90,7 +82,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
       POP3 finns i listan under flikarna [!UICONTROL POP3] och [!UICONTROL IMAP4].
 
-   1. Markera **[!UICONTROL POP3]** till höger under **[!UICONTROL Actions]** och välj sedan **[!UICONTROL Properties]**.
+   1. Markera **[!UICONTROL Actions]** till höger under **[!UICONTROL POP3]** och välj sedan **[!UICONTROL Properties]**.
 
    1. Klicka på **[!UICONTROL POP3 Properties]** och öppna sedan fliken **[!UICONTROL Binding]**.
 
@@ -110,7 +102,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
       En lista över postlådor eller användare visas.
 
    1. Markera e-postmeddelandet som används inom [!DNL Workfront].
-   1. Välj **[!UICONTROL Properties]** till höger under **[!UICONTROL Actions]** och öppna sedan fliken **[!UICONTROL Mailbox Features]**.
+   1. Välj **[!UICONTROL Actions]** till höger under **[!UICONTROL Properties]** och öppna sedan fliken **[!UICONTROL Mailbox Features]**.
 
    1. (Villkorligt) Om POP3 är inaktiverat klickar du på **[!UICONTROL POP3]** och sedan på **[!UICONTROL Enable]**.
 
@@ -127,7 +119,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
       Där *Client* *EX01* är namnet på Exchange-servern.
 
-   1. Välj *Client EX01* och välj sedan **[!UICONTROL Properties]** till höger under **[!UICONTROL Actions]**.
+   1. Välj *Client EX01* och välj sedan **[!UICONTROL Actions]** till höger under **[!UICONTROL Properties]**.
 
    1. Öppna fliken **[!UICONTROL Authentication]** och kontrollera sedan att **[!UICONTROL Transport Layer Security (TLS)]** är markerad.
 

@@ -5,9 +5,9 @@ description: Du kan enkelt hitta objekt i [!DNL Adobe Workfront] genom att söka
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
 workflow-type: tm+mt
-source-wordcount: '1506'
+source-wordcount: '1507'
 ht-degree: 0%
 
 ---
@@ -33,17 +33,14 @@ Du måste ha behörighet att visa ett objekt innan du kan hitta det i en söknin
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td> <p>Nytt: Medarbetare eller högre<p>
-   <p>eller</p>
-   <p>Aktuell: Begäran eller senare </p>
-
-
-</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Medarbetare eller högre<p>
+   <p>Begäran eller senare </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -250,9 +247,9 @@ Den här typen av sökning är användbar när du inte kommer ihåg ett nyckelor
 
 Så här utför du en avancerad sökning:
 
-1. Klicka på ikonen **[!UICONTROL Search]** ![Sök &#x200B;](assets/search-icon.png) i det övre högra hörnet på en sida i [!DNL Workfront]. Menyn **Sök** visas.
+1. Klicka på ikonen [!DNL Workfront] **[!UICONTROL Search]** Sök ![ i det övre högra hörnet på en sida i ](assets/search-icon.png). Menyn **Sök** visas.
 
-1. Klicka på **[!UICONTROL Advanced Search]** längst ned på menyn **Sök**. Sidan **Sök** öppnas med fliken **Avancerad sökning** markerad som standard.
+1. Klicka på **längst ned på menyn** Sök **[!UICONTROL Advanced Search]**. Sidan **Sök** öppnas med fliken **Avancerad sökning** markerad som standard.
    ![Avancerad sökning](assets/qs-advanced-search-350x224.png)
 
 

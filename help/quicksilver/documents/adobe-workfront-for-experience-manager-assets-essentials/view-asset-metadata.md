@@ -7,9 +7,9 @@ description: Du kan se en realtidsvy över mappade metadata i panelen Dokumentin
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: cfad5855-033c-4a15-b5a2-7ff32ed65fe9
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -22,47 +22,43 @@ Du kan se en realtidsvy över mappade metadata i panelen Dokumentinformation och
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande:
-
 <table>
   <tr>
-   <td><strong>Adobe Workfront-plan*</strong>
+   <td><strong>Adobe Workfront-paket</strong>
    </td>
    <td>Alla
    </td>
   </tr>
   <tr>
-   <td><strong>Adobe Workfront-licenser*</strong>
+   <td><strong>Adobe Workfront-licenser</strong>
    </td>
-   <td>Begäran eller senare
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Produkt</strong>
-   </td>
-   <td>Du måste ha Experience Manager Assets as a Cloud Service eller Assets Essentials, och du måste läggas till som användare i Admin Console.
+   <td>
+   <p>Medarbetare eller högre</p>
+   <p>Begäran eller senare</p>
    </td>
   </tr>
   <tr>
-   <td><strong>Åtkomstnivåkonfigurationer*</strong>
+   <td><strong>Ytterligare produkter</strong>
    </td>
-   <td>Redigera åtkomst till dokument
-<p>
-<strong>Obs! </strong>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <strong>Skapa eller ändra anpassade åtkomstnivåer</strong>.
+   <td>Du måste ha Experience Manager Assets as a Cloud Service eller Assets Essentials, och du måste läggas till i produkten som användare i Admin Console.
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Åtkomstnivåkonfigurationer</strong>
+   </td>
+   <td><p>Redigera åtkomst till dokument</p>
    </td>
   </tr>
   <tr>
    <td><strong>Objektbehörigheter</strong>
    </td>
    <td>Visa åtkomst eller högre
-<p>
-Mer information om hur du begär ytterligare åtkomst finns i <strong>Begär åtkomst till objekt </strong>.
    </td>
   </tr>
 </table>
 
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,7 +66,7 @@ Mer information om hur du begär ytterligare åtkomst finns i <strong>Begär åt
 
 Innan du börjar,
 
-* Din Workfront-administratör måste konfigurera en integrering med Experience Manager. Mer information finns i [Konfigurera Experience Manager Assets as a Cloud Service-integrering](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) eller [Konfigurera Experience Manager Assets Essentials-integrering](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* Din Workfront-administratör måste konfigurera en Experience Manager-integrering. Mer information finns i [Konfigurera integreringen med Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) eller [Konfigurera integreringen med Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 
 ## Dokumentinformation

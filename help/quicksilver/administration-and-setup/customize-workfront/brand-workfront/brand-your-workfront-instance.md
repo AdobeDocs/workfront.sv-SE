@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 17aaf70977aa6ce0276676c6a30fd6c951be956c
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
@@ -59,32 +59,27 @@ Du kan också ändra bakgrundsbilden och färgen på inloggningsskärmen:
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td>Alla</td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td><p>Nytt: Standard</p>
-       <p>eller</p>
-       <p>Aktuell: Planera</p></td>
-  </tr> 
+   <td>Adobe Workfront-licens</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>Konfigurationer på åtkomstnivå</td> 
+   <td>Systemadministratör</td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -114,13 +109,13 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
      </tr> 
      <tr> 
       <td role="rowheader">Lägg till bakgrundsfärgen <span style="font-weight: normal;"> på inloggningsskärmen (visas bakom rutan där användare anger inloggningsuppgifter)</span></td> 
-      <td> <p>Under <strong>Inloggningsskärmen</strong> anger du en <strong>bakgrundsfärg</strong>. </p> <p>Du kan använda färgkoderna RGB eller HEX.</p> <p>Bakgrundsfärgen visas bara om inloggningsskärmens bakgrund är större än inloggningsskärmens bakgrundsbild (se nästa rad i tabellen) eller om det finns någon genomskinlighet i bilden.</p> </td> 
+      <td> <p>Under <strong>Inloggningsskärmen</strong> anger du en <strong>bakgrundsfärg</strong>. </p> <p>Du kan använda RGB- eller HEX-färgkoder.</p> <p>Bakgrundsfärgen visas bara om inloggningsskärmens bakgrund är större än inloggningsskärmens bakgrundsbild (se nästa rad i tabellen) eller om det finns någon genomskinlighet i bilden.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Lägg till bakgrundsbilden <span style="font-weight: normal;"> för inloggningsskärmen (visas bakom rutan där användarna anger sina inloggningsuppgifter)</span></td> 
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
-        <li value="1"> <p> Under <strong>Bakgrundsbild</strong> i området <strong>Inloggningsskärm</strong> klickar du på rutan, letar upp och väljer JPG eller PNG-bilder (upp till 20). </p> <p>Flera bakgrundsbilder visas i slumpmässig ordning och ändras varje gång användarna uppdaterar sin inloggningssida. Vi rekommenderar bilder som inte är större än 2 MB.</p> </li> 
+        <li value="1"> <p> Under <strong>Bakgrundsbild</strong> i området <strong>Inloggningsskärm</strong> klickar du på rutan, letar upp och väljer din JPG- eller PNG-bild eller dina bilder (upp till 20). </p> <p>Flera bakgrundsbilder visas i slumpmässig ordning och ändras varje gång användarna uppdaterar sin inloggningssida. Vi rekommenderar bilder som inte är större än 2 MB.</p> </li> 
         <li value="2"> <p>Håll pekaren över varje bakgrundsbild som du har överfört, klicka på ikonen Inställningar (kugghjulet) och använd något av följande alternativ för att ange var och hur du vill att bilden ska visas i bakgrunden på inloggningsskärmen:</p> 
          <ul> 
           <li> <p><strong>Fyllningsskärm</strong>: Passar bilden mot inloggningsskärmens bakgrund, som kan förstora bilden. Använd en högupplöst bild (upp till 2 MB) för bästa resultat.</p> <p>När du använder det här alternativet skymmer Workfront banderoll, som inte är anpassningsbar, en del av bilden.</p> </li> 

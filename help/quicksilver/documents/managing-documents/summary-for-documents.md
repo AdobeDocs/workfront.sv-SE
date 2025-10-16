@@ -7,9 +7,9 @@ description: Med Sammanfattning kan du interagera med viktig information direkt 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -35,13 +35,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p> Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licenser</td> 
-   <td> <p>Nytt: Medarbetare eller högre</p> 
-   <p>Aktuell: Begäran eller senare</p>
+   <td> <p>Medarbetare eller högre</p> 
+   <p>Begäran eller senare</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -79,7 +79,7 @@ Använd detaljavsnittet för att visa översiktsinformation på hög nivå och i
 * [Översikt](#overview)
 * [Anpassad Forms](#custom-forms)
 
-### Ökning {#overview}
+### Översikt {#overview}
 
 Expandera avsnittet Översikt om du vill visa eller ladda ned en miniatyrbild, öppna ett korrektur, uppdatera den grundläggande beskrivningen, checka ut dokumentet med mera.
 

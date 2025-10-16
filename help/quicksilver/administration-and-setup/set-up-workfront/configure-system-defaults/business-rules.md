@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 1cf16fd93de383aae66ba810ad85dd00806b8237
+source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1323'
 ht-degree: 0%
 
 ---
@@ -35,15 +35,16 @@ Affärsreglerna gäller för att skapa, redigera och ta bort objekt via API:t oc
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
-   <td>Adobe Workfront</td> 
-   <td>Ultimate</td> 
+  <tr>
+   <td>Adobe Workfront package
+   </td>
+   <td> <p>Ultimate</p>
+    <p>Arbetsflöde Ultimate</p>
+   </td>
   </tr> 
   <tr> 
    <td>Adobe Workfront-licens</td> 
@@ -56,7 +57,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

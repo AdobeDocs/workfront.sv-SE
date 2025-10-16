@@ -6,9 +6,9 @@ description: Du kan använda vyn Milstolpe på en projektlista eller rapport. Du
 author: Courtney, Alina
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1623'
 ht-degree: 0%
 
 ---
@@ -41,38 +41,30 @@ Vyn Milstolpe är tillgänglig när du visar en projektlista eller en projektrap
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront</strong></td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licens</strong></td> 
+   <td role="rowheader">Adobe Workfront-licens</strong></td> 
    <td> 
-      <p>Nytt:</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Aktuell:</p>
-         <ul>
-         <li><p>Arbeta eller högre</p></li>
-         </ul>
+    <p>Standard</p>
+    <p>Arbeta eller högre</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>Visa eller öka åtkomst till rapporter, instrumentpaneler och kalendrar</p></td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Visa eller öka åtkomst till rapporter, instrumentpaneler och kalendrar</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
-   <td> <p>Visa behörigheter för en projektrapport om du vill använda milstolpevyn på en rapport</p> </td> 
+   <td role="rowheader">Objektbehörigheter</td> 
+    <td> <p>Visa behörigheter för en projektrapport om du vill använda milstolpevyn på en rapport</p></td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
