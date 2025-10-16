@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: e717e095f1995dbed0232789616d42492156d843
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '3985'
+source-wordcount: '3876'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,12 @@ ht-degree: 0%
 
 <!--remove preview and production references at production-->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -29,7 +32,7 @@ Mer information om postvyer finns i [Hantera postvyer](/help/quicksilver/plannin
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven. 
++++ Expandera om du vill visa åtkomstkraven för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -39,47 +42,23 @@ Mer information om postvyer finns i [Hantera postvyer](/help/quicksilver/plannin
 <tbody> 
     <tr> 
 <tr> 
-<td> 
-   <p> Produkter</p> </td> 
-   <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li></ul></td> 
-  </tr>   
+</tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Något av följande Workfront-planer:</p> 
-<ul><li>Välj</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning är inte tillgängligt för tidigare Workfront-planer</p> 
+<ul> 
+<li><p>Alla Workfront- och Planning-paket</p></li>
+eller
+<li><p>Alla arbetsflöden och alla planeringsdokument</p></li></ul>
+<p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
    </td> 
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning-paket*</p></td> 
-   <td> 
-<p>Alla </p> 
-<p>Kontakta din kontoansvarige på Workfront om du vill ha mer information om vad som ingår i respektive Workfront Planning-plan. </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Adobe Workfront</p></td> 
-   <td> 
-<p>Din organisations instans av Workfront måste vara registrerad på Adobe Unified Experience för att få tillgång till Workfront Planning.</p> 
-<p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
-    <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
    <td><p> Standard för att skapa och ta bort vyer</p>
    <p>Medarbetare eller högre för att uppdatera vyelement</p>
-   <p>Workfront Planning är inte tillgängligt för tidigare Workfront-licenser</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td> 
-   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning</p>   
-</td> 
-  </tr> 
-<tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
    <td>   <p>Hantera behörigheter till en vy</p>  
    <p>Visa behörigheter till en vy om du tillfälligt vill ändra visningsinställningarna eller duplicera den</p> </td> 
@@ -89,13 +68,76 @@ Mer information om postvyer finns i [Hantera postvyer](/help/quicksilver/plannin
    <td> Användare med en Light- eller Contributor-licens måste tilldelas en layoutmall som innehåller Planning.
    <p>Standardanvändare och systemadministratörer har planeringsområdena aktiverade som standard.</p></div></li></ul>
 </td>
-  </tr>
+  </tr> 
 </tbody> 
 </table>
 
-*Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++     
++++ 
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+    <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard to create and delete views</p>
+   <p>Contributor or higher to update view elements</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a view</p>  
+   <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+</td>
+  </tr>
+</tbody> 
+</table> -->
 
 ## Hantera en tidslinjevy {#manage-a-timeline-view}
 
@@ -119,9 +161,9 @@ Tänk på följande:
 Så här hanterar du en tidslinjevy:
 
 1. Gå till den posttypssida som du vill visa tidslinjen för.
-1. <span class="preview">Skapa en tidslinjevy enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md). </span>
+1. Skapa en tidslinjevy enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
 
-   <span class="preview">![Exempel på tidslinjevy](assets/timeline-view-example.png)</span>
+   ![Exempel på tidslinjevy](assets/timeline-view-example.png)
 
    Posterna som är associerade med den posttyp du valde visas som staplar på en tidslinje och sorteras som standard i kronologisk ordning efter startdatum.
 
@@ -175,9 +217,9 @@ Så här hanterar du en tidslinjevy:
 
 1. Gör följande för att snabbt hitta poster som matchar ett nyckelord:
 
-   1. <span class="preview">Klicka på ikonen **Sök** ![Sök &#x200B;](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med ett fält i en post som visas på skärmen. Antalet korrekta matchningar visas bredvid sökobjektet och posten med rätt matchning markeras. </span>
+   1. Klicka på ikonen **Sök** ![Sök ](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med ett fält i en post som visas på skärmen. Antalet korrekta matchningar visas bredvid sökobjektet och posten med rätt matchning markeras.
 
-      <span class="preview">![Sökruta och tidslinjevy för resultat](assets/search-box-and-results-timeline-view.png)</span>
+      ![Sökruta och tidslinjevy för resultat](assets/search-box-and-results-timeline-view.png)
 
       Du kan använda vilket ord eller specialtecken som helst som visas på skärmen.
 
@@ -187,30 +229,30 @@ Så här hanterar du en tidslinjevy:
    1. (Valfritt) Om det finns mer än en matchning klickar du på upp- och nedpilarna till höger om söknyckelordet för att hitta alla matchningar i tabellen.
    1. Klicka på ikonen **x** i sökrutan för att ta bort söknyckelordet.
 
-   1. <span class="preview">(Valfritt) Klicka på ikonen **Helskärm** ![Öppna helskärmsikonen](assets/open-full-screen-icon.png) om du vill öppna vyn i helskärmsläge och sedan på ikonen **Avsluta helskärm** ![Avsluta helskärmsikonen](assets/exit-full-screen-icon.png) eller Esc om du vill avsluta helskärmsläget.  </span>
+   1. (Valfritt) Klicka på ikonen **Helskärm** ![Öppna helskärmsikonen](assets/open-full-screen-icon.png) om du vill öppna vyn i helskärmsläge och sedan på ikonen **Avsluta helskärm** ![Avsluta helskärmsikonen](assets/exit-full-screen-icon.png) eller Esc på tangentbordet om du vill avsluta helskärmsläget.
 
 1. (Valfritt) Klicka på **Uppdelning** om du vill visa anslutna poster på tidslinjen.
 
    Mer information finns i avsnittet [Använd fördelningsfunktionen för att visa anslutna poster i tidslinjevyn](#break-down-connected-records-in-the-timeline-view) i den här artikeln.
-1. <span class="preview">Gör något av följande om du vill skapa poster i tidslinjevyn eller redigera deras datum:</span>
+1. Gör något av följande om du vill skapa poster i tidslinjevyn eller redigera deras datum:
 
-   * <span class="preview">Dubbelklicka var som helst på tidslinjen för att skapa en post. </span>
+   * Dubbelklicka var som helst på tidslinjen för att skapa en post.
 
-     <span class="preview">Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).</span>
-
-   <!--Andrea verifying>[!TIP]
-    >
-    ><span class="preview">Double-clicking to create records in the timeline is not possible inside of a grouping.</span>-->
-
-   * <span class="preview">Klicka på den vänstra eller högra marginalen i ett postfält och dra och släpp det sedan på en ny plats. Om du ändrar storlek på posternas staplar uppdateras deras start- och slutdatum omedelbart. </span>
-
-   * <span class="preview">Dra och släpp poster för att uppdatera deras position och datum på tidslinjen. Om du flyttar posternas fält uppdateras start- och slutdatum omedelbart.</span>
-     <span class="preview">Mer information finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).</span>
+     Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
 
    >[!TIP]
    >
-   ><span class="preview"> Det går inte att ändra storlek på, dra och släppa poster på tidslinjen för Workfront- och AEM Assets-objekttyper som visas i nedbrytningen.</span>
+   >Det går inte att dubbelklicka för att skapa poster på tidslinjen i en gruppering.
 
+   * Klicka på den vänstra eller högra marginalen i ett postfält och dra och släpp det sedan på en ny plats. Om du ändrar storlek på posternas staplar uppdateras deras start- och slutdatum omedelbart.
+
+   * Dra och släpp poster för att uppdatera deras position och datum på tidslinjen. Om du flyttar posternas staplar uppdateras start- och slutdatumen omedelbart.
+
+     Mer information finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).
+
+   >[!TIP]
+   >
+   >Det går inte att ändra storlek på, dra och släppa poster i tidslinjen för Workfront- och AEM Assets-objekttyper som visas i nedbrytningen.
 
 1. Uppdatera följande vyelement enligt beskrivningen i underavsnitten nedan:
    * [Filter](#add-filters)
@@ -362,9 +404,9 @@ Tänk på följande när du arbetar med grupperingar i tidslinjevyn:
 Så här lägger du till en gruppering i tidslinjevyn:
 
 1. Skapa en tidslinjevy för en posttyp enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
-1. <span class="preview">Klicka på **Gruppering** i det övre högra hörnet av tidslinjevyn.</span>
+1. Klicka på **Gruppering** i det övre högra hörnet av tidslinjevyn.
 
-   <span class="preview">![Gruppera vyn för användargränssnittets tidslinje med länkade fält](assets/grouping-ui-timeline-view-with-linked-fields.png)</span>
+   ![Gruppera vyn för användargränssnittets tidslinje med länkade fält](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. Klicka på ett av de föreslagna fälten eller klicka på **Välj ett annat fält**, sök efter ett annat fält och klicka sedan på det när det visas i listan.
 
@@ -372,9 +414,9 @@ Så här lägger du till en gruppering i tidslinjevyn:
 
 1. (Valfritt) Upprepa stegen ovan om du vill lägga till upp till tre grupperingar.
 
-   <span class="preview">Antalet fält som har valts för grupperingen visas bredvid grupperingsikonen.</span>
+   Antalet fält som har valts för grupperingen visas bredvid grupperingsikonen.
 
-   <span class="preview">![Gruppering används i tidslinjevyn](assets/grouping-applied-in-timeline-view.png)</span>
+   ![Gruppering används i tidslinjevyn](assets/grouping-applied-in-timeline-view.png)
 
 1. Dra och släpp grupperingarna i rätt ordning i rutan **Gruppera poster efter**.
 
@@ -537,11 +579,7 @@ Du kan visa anslutna poster i en posts tidslinjevy genom att använda funktionen
 1. Klicka på **Brytning** i det övre högra hörnet av tidslinjevyn i lägena **Standard** eller **Kompakt**.
 1. Expandera rutan **Markera en länkad posttyp** och välj en ansluten posttyp. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
-   <div class="preview">
-
    ![Brytningsväljaren och knappen i tidslinjevyn](assets/breakdown-picker-and-button-on-timeline.png)
-
-   </div>
 
    >[!TIP]
    >

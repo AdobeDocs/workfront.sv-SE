@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 7815fd0f84170cb92eef1bafa8aa90abe5365c04
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Du kan skapa följande med hjälp av automatisering i Workfront Planning:
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.
++++ Expandera om du vill visa åtkomstkraven för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -55,40 +55,20 @@ Du kan skapa följande med hjälp av automatisering i Workfront Planning:
 <tbody> 
     <tr> 
 <tr> 
-<td> 
-   <p> Produkter</p> </td> 
-   <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li></ul></td> 
-  </tr>   
+</tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Något av följande Workfront-planer:</p> 
-<ul><li>Välj</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning är inte tillgängligt för tidigare Workfront-planer</p> 
+<ul> 
+<li><p>Alla Workfront- och Planning-paket</p></li>
+eller
+<li><p>Alla arbetsflöden och alla planeringsdokument</p></li></ul>
+<p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
    </td> 
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning-paket*</p></td> 
-   <td> 
-<p>Alla </p> 
-<p>Kontakta din kontoansvarige på Workfront om du vill ha mer information om vad som ingår i respektive Workfront Planning-plan. </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Adobe Workfront</p></td> 
-   <td> 
-<p>Din organisations instans av Workfront måste vara registrerad på Adobe Unified Experience för att få tillgång till Workfront Planning.</p> 
-<p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
-   <td> Standard
-   <p>Workfront Planning är inte tillgängligt för tidigare Workfront-licenser</p> 
-  </td> 
+   <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
+   <td><p>Standard</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td> 
@@ -102,14 +82,75 @@ Du kan skapa följande med hjälp av automatisering i Workfront Planning:
    <p>Hantera behörigheter för Workfront-objekt (portföljer) för att lägga till underordnade objekt (program eller projekt).</p>
    <p>Systemadministratörer har behörigheten Hantera för alla arbetsytor, inklusive de som de inte skapade</p>
    </td> 
-  </tr>
-
+  </tr> 
 </tbody> 
 </table>
 
-*Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td> Standard
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p> 
+   <p>Edit access with access to Create objects in Workfront for the object types that you want to create (projects, portfolios, programs). </p>  
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td> <p>Contribute or higher permissions to the workspace and to the record type where you want to create objects using existing automations. </p>  
+   <p>Manage permissions to Workfront objects (portfolios) to add children objects (programs or projects).</p>
+   <p>System Administrators have Manage permissions to all workspaces, including the ones they did not create</p>
+   </td> 
+  </tr> 
+
+</tbody> 
+</table> -->
 
 ## Att tänka på när du skapar objekt och poster med hjälp av en automatisering
 

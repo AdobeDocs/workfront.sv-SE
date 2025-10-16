@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 30b99255a2178f972f9a9f3f7eda5f2929a24978
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '13446'
+source-wordcount: '13454'
 ht-degree: 0%
 
 ---
@@ -450,7 +450,7 @@ ht-degree: 0%
          * [Skapa ett schema](administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
       * Organisationsinställningar {#organization-setup}
          * [Organisationsinställningar](administration-and-setup/set-up-workfront/organizational-setup/organizational-setup.md)
-         * [Hantera företag](administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)
+         * [Skapa och redigera företag](administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)
          * [Hantera företagsmedlemskap](administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
          * [Inaktivera eller återaktivera ett företag](administration-and-setup/set-up-workfront/organizational-setup/deactivate-a-company.md)
          * [Jobbroll](administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md)
@@ -1226,7 +1226,7 @@ ht-degree: 0%
          * [Schemalägg resurser för ett projekt](manage-work/projects/manage-projects/schedule-resources-for-projects.md)
          * [Kommunicera med projektgruppsmedlemmar](manage-work/projects/manage-projects/communicate-with-project-team-members.md)
          * [Hantera ett projekt i flexibel vy](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
-         * [Översikt över projektstatistik](manage-work/projects/manage-projects/project-metrics.md)
+         * [Förstå projektstatistik](manage-work/projects/manage-projects/project-metrics.md)
          * [Översikt över projektbegränsningar](manage-work/projects/manage-projects/project-maximums.md)
          * [Sammanfatta uppdateringar med AI Assistant](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
       * Skapa och hantera projektmallar {#create-and-manage-project-templates}
@@ -1375,7 +1375,7 @@ ht-degree: 0%
          * [Uppdatera planerade timmar och varaktighet för en aktivitet med enkel varaktighetstyp](manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md)
          * [Varaktighetstyper i Adobe Workfront och Microsoft Project](manage-work/tasks/taskdurtn/workfront-ms-project-duration-types.md)
       * Använd föregående aktiviteter {#use-task-predecessors}
-         * [Använd föregående aktiviteter](manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
+         * [Använd föregående aktiviteter: artikelindex](manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
          * [Översikt över föregående aktiviteter](manage-work/tasks/use-prdcssrs/predecessors-overview.md)
          * [Skapa en föregående relation i uppgiftslistan](manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md)
          * [Skapa en föregående relation med området Föregående](manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md)
@@ -1390,24 +1390,24 @@ ht-degree: 0%
          * [Vanliga frågor och svar om uppgifter](manage-work/tasks/tips-tricks-and-troubleshooting/tasks-faqs.md)
          * [Den planerade varaktigheten matchar inte den planerade varaktigheten](manage-work/tasks/tips-tricks-and-troubleshooting/projected-and-planned-durations-dont-match.md)
    * Problem {#issues}
-      * [Problem](manage-work/issues/issues-overview.md)
+      * [Problem: artikelindex](manage-work/issues/issues-overview.md)
       * Konvertera problem {#convert-issues}
-         * [Konvertera problem](manage-work/issues/convert-issues/convert-issues-overview.md)
+         * [Konvertera problem: artikelindex](manage-work/issues/convert-issues/convert-issues-overview.md)
          * [Översikt över konverteringsproblem i Adobe Workfront](manage-work/issues/convert-issues/convert-issues.md)
-         * [Konvertera ett problem till ett projekt i Adobe Workfront](manage-work/issues/convert-issues/convert-issue-to-project.md)
-         * [Konvertera ett problem till en uppgift i Adobe Workfront](manage-work/issues/convert-issues/convert-issue-to-task.md)
+         * [Konvertera ett ärende till ett projekt](manage-work/issues/convert-issues/convert-issue-to-project.md)
+         * [Konvertera ett problem till en uppgift](manage-work/issues/convert-issues/convert-issue-to-task.md)
          * [Översikt över objekt som kan lösas och lösas](manage-work/issues/convert-issues/resolving-and-resolvable-objects.md)
          * [Bryt länken till problem från deras lösta objekt](manage-work/issues/convert-issues/unlink-issues-from-resolvable-objects.md)
          * [Koppla lösningen av ett problem manuellt till andra problem, uppgifter eller projekt](manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md)
       * Ärendeinformation {#issue-information}
-         * [Ärendeinformation](manage-work/issues/issue-information/issue-info-overview.md)
+         * [Ärendeinformation: artikelindex](manage-work/issues/issue-information/issue-info-overview.md)
          * [Översikt över problemvaraktighet](manage-work/issues/issue-information/issue-duration.md)
          * [Uppdatera prioritet för utgåva](manage-work/issues/issue-information/update-issue-priority.md)
          * [Uppdatera allvarlighetsgrad för utgåva](manage-work/issues/issue-information/update-issue-severity.md)
          * [Översikt över det planerade slutförandedatumet för problemet](manage-work/issues/issue-information/issue-planned-completion-date.md)
          * [Använd&quot;opTask&quot; och&quot;issue&quot; när du refererar till problem](manage-work/issues/issue-information/use-optask-instead-of-issue.md)
       * Hantera problem {#manage-issues}
-         * [Hantera problem](manage-work/issues/manage-issues/manage-issues-overview.md)
+         * [Hantera problem: artikelindex](manage-work/issues/manage-issues/manage-issues-overview.md)
          * [Skapa problem](manage-work/issues/manage-issues/create-issues.md)
          * [Tilldela ärenden](manage-work/issues/manage-issues/assign-issues.md)
          * [Visa problem](manage-work/issues/manage-issues/view-issues.md)
@@ -1436,9 +1436,9 @@ ht-degree: 0%
          * [Portföljer: artikelindex](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
          * [Navigera i en portfölj](manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
          * [Portfolio Management - översikt](manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
-         * [Portfolio - översikt i Adobe Workfront](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
+         * [Förstå portföljmetodik](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
       * Skapa och hantera portföljer {#create-and-manage-portfolios}
-         * [Skapa och hantera portföljer](manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
+         * [Skapa och hantera portföljer: artikelindex](manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
          * [Skapa en portfölj](manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
          * [Ta bort och inaktivera portföljer](manage-work/portfolios/create-and-manage-portfolios/delete-deactivate-portfolios.md)
          * [Redigera portföljer](manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md)
@@ -1455,7 +1455,7 @@ ht-degree: 0%
          * [Ta bort ett projekt från ett program](manage-work/portfolios/create-and-manage-programs/remove-project-from-program.md)
          * [Ta bort och inaktivera program](manage-work/portfolios/create-and-manage-programs/delete-and-deactivate-programs.md)
       * Hantera projekt i Portfolio Optimizer {#manage-projects-in-portfolio-optimizer}
-         * [Hantera projekt i Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
+         * [Hantera projekt i Portfolio Optimizer: artikelindex](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
          * [Portfolio Optimizer - översikt](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
          * [Hitta Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md)
          * [Översikt över Portfolio Optimizer Score](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)
@@ -1507,7 +1507,7 @@ ht-degree: 0%
       * [Visa organisationsschemat](people-teams-and-groups/work-directly-with-others/view-the-org-chart.md)
    * Arbeta med grupper och team {#work-with-groups-teams}
       * [Arbeta med grupper och team](people-teams-and-groups/work-with-groups-and-teams/work-with-groups-and-teams.md)
-      * [Grupper kontra team i Adobe Workfront](people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)
+      * [Grupper kontra team i Workfront](people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)
    * Arbeta med teamförfrågningar {#work-with-team-requests}
       * [Arbeta med teamförfrågningar](people-teams-and-groups/work-with-team-requests/work-with-team-requests.md)
       * [Översikt över gruppförfrågningar](people-teams-and-groups/work-with-team-requests/team-requests-overview.md)
@@ -1999,7 +1999,7 @@ ht-degree: 0%
       * [Spåra timnoteringar med Adobe Workfront API](timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)
       * [Det går inte att logga tid för framtida datum](timesheets/tips-tricks-and-troubleshooting/unable-to-log-time-future-dates.md)
 * Adobe Workfront Scenario Planner {#scenario-planner}
-   * [Adobe Workfront Scenario Planner](scenario-planner/scenario-planning.md)
+   * [[!DNL Adobe Workfront Scenario Planner]: artikelindex](scenario-planner/scenario-planning.md)
    * [Kom igång med scenarioplanen](scenario-planner/get-started-with-scenario-planning.md)
    * [Översikt över scenarioplanen](scenario-planner/scenario-planner-overview.md)
    * [Åtkomst krävs för att använda scenarioplaneraren](scenario-planner/access-needed-to-use-sp.md)
@@ -2087,6 +2087,7 @@ ht-degree: 0%
       * [Skapa posttyper genom att importera information från en CSV- eller Excel-fil](planning/architecture/import-file-to-create-record-types.md)
       * [Posttyper för flera arbetsytor - översikt](planning/architecture/cross-workspace-record-types-overview.md)
       * [Konfigurera funktioner för olika arbetsytor för posttyper](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+      * [Konfigurera inställningsområdet för en posttyp](planning/architecture/configure-record-type-settings.md)
       * [Lägga till befintliga posttyper från en annan arbetsyta](planning/architecture/add-existing-record-types-from-another-workspace.md)
       * [Översikt över posttyper för anslutning](planning/architecture/connect-record-types-overview.md)
       * [Koppla posttyper](planning/architecture/connect-record-types.md)
@@ -2491,7 +2492,6 @@ ht-degree: 0%
    * API Notes {#api-notes}
       * [API Notes](wf-api/api/api.md)
       * [Överföra filer via API](wf-api/api/uploading-files-api.md)
-      * [Stöd för JSONP upphör](wf-api/api/ending-support-jsonp.md)
       * [Få användarens tillgängliga tid](wf-api/api/api-user-available-time.md)
       * [Uppdatera integreringar som använder API-standardversionshantering](wf-api/api/update-default-api-versioning.md)
       * [Filtrera händelsens prenumerationsmeddelanden](wf-api/api/filter-event-sub-messages.md)

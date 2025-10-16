@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: e717e095f1995dbed0232789616d42492156d843
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1145'
 ht-degree: 0%
 
 ---
@@ -16,12 +16,14 @@ ht-degree: 0%
 
 # Hantera postvyer
 
-<!-- take preview and production references out at production-->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -54,7 +56,7 @@ Mer information om hur du hanterar postvyer i Workfront Planning finns i följan
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven. 
++++ Expandera om du vill visa åtkomstkraven för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -64,48 +66,23 @@ Mer information om hur du hanterar postvyer i Workfront Planning finns i följan
 <tbody> 
     <tr> 
 <tr> 
-<td> 
-   <p> Produkter</p> </td> 
-   <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li></ul></td> 
-  </tr>   
+</tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Något av följande Workfront-planer:</p> 
-<ul><li>Välj</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning är inte tillgängligt för tidigare Workfront-planer</p> 
+<ul> 
+<li><p>Alla Workfront- och Planning-paket</p></li>
+eller
+<li><p>Alla arbetsflöden och alla planeringsdokument</p></li></ul>
+<p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
    </td> 
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning-paket*</p></td> 
-   <td> 
-<p>Alla </p> 
-<p>Kontakta din kontoansvarige på Workfront om du vill ha mer information om vad som ingår i respektive Workfront Planning-plan. </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Adobe Workfront</p></td> 
-   <td> 
-<p>Din organisations instans av Workfront måste vara registrerad på Adobe Unified Experience för att få tillgång till Workfront Planning.</p> 
-<p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
    <td><p> Standard för att skapa och ta bort vyer</p>
    <p>Medarbetare eller högre för att uppdatera vyelement</p>
-   <p>Workfront Planning är inte tillgängligt för tidigare Workfront-licenser</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td> 
-   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning</p>   
-</td> 
-  </tr> 
-<tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
    <td>   <p>Hantera behörigheter till en vy</p>  
    <p>Visa behörigheter till en vy om du tillfälligt vill ändra visningsinställningarna eller duplicera den</p> </td> 
@@ -115,13 +92,78 @@ Mer information om hur du hanterar postvyer i Workfront Planning finns i följan
    <td> Användare med en Light- eller Contributor-licens måste tilldelas en layoutmall som innehåller Planning.
    <p>Standardanvändare och systemadministratörer har planeringsområdena aktiverade som standard.</p></div></li></ul>
 </td>
-  </tr>
+  </tr> 
 </tbody> 
 </table>
 
-*Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++   
++++
+
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard to create and delete views</p>
+   <p>Contributor or higher to update view elements</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a view</p>  
+   <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+</td>
+  </tr>
+</tbody> 
+</table>-->
 
 ## Att tänka på när du arbetar med postvyer
 
@@ -171,8 +213,8 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
 | Visa poster per månad |           | ✓ | ✓ |
 | Visa poster per vecka |           |               | ✓ |
 | Exportera information från en vy | ✓ |               |    |
-| <span class="preview">Visa i helskärmsläge</span> | ✓ | ✓ | ✓ |
-| <span class="preview">Skapa poster i vyn</span> | ✓ | ✓ | ✓ |
+| Visa i helskärmsläge | ✓ | ✓ | ✓ |
+| Skapa poster i vyn | ✓ | ✓ | ✓ |
 
 ## Skapa eller redigera vyer {#create-or-edit-views}
 
@@ -189,10 +231,7 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
 
    Som standard visas alla poster av den valda typen i tabellvyn.
 
-1. Beroende på vilken miljö du använder gör du följande:
-
-   * Klicka på fliken **+Visa** i produktionsmiljön.
-   * <span class="preview">I förhandsvisningsmiljön klickar du på listruteikonen ![listruteikonen &#x200B;](assets/drop-down-icon.png) bredvid det aktuella vynamnet och sedan på **+Ny vy**.</span>
+1. Klicka på listruteikonen ![listruteikonen](assets/drop-down-icon.png) bredvid den aktuella vyns namn och klicka sedan på **+Ny vy**.
 
 1. Välj bland följande typer av vyer:
 
@@ -200,9 +239,7 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
    * Tidslinje
    * Kalender
 
-   I produktionsmiljön skapas en ny flik med den valda vyn.
-
-   Beroende på skärmens bredd kan ytterligare vyer visas på menyn **Mer** ![Mer](assets/more-menu.png).
+1. Välj en visningstyp och klicka sedan på **Skapa**. En ny vy läggs till i listrutan.
 
    >[!TIP]
    >
@@ -211,16 +248,14 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
    >Om du vill skapa en tidslinje eller en kalendervy måste posttypen som du skapar vyn för ha minst två datumfält.
    >
    >I annat fall är tidslinjen och kalenderalternativen nedtonade.
-   >
+   >  
 
-   <span class="preview">Välj en visningstyp i förhandsvisningsmiljön och klicka sedan på **Skapa**. En ny vy läggs till i listrutan. </span>
+   ![Skapa visningsruta](assets/create-view-box.png)
 
-   <span class="preview">![Skapa visningsruta](assets/create-view-box.png)</span>
+1. (Valfritt) Om du vill redigera en befintlig vy klickar du på den nedrullningsbara menyn till höger om den aktuella vyns namn, skriver namnet på en vy i fältet **Sök** och trycker på Retur på tangentbordet.
+1. (Valfritt) Dra och släpp vyer i den ordning du vill ha dem från den nedrullningsbara menyn.
 
-1. <span class="preview">Om du vill redigera en befintlig vy skriver du namnet på en vy i fältet **Sök** och trycker på Retur på tangentbordet.</span>
-1. <span class="preview">Dra och släpp vyer i den ordning du vill.</span>
-
-   <span class="preview">![Listrutan Visa typer från posttypslistan](assets/view-types-drop-down-from-record-type-list.png)</span>
+   ![Listrutan Visa typer från posttypslistan](assets/view-types-drop-down-from-record-type-list.png)
 
 1. (Villkorligt) Klicka på **Nästa** när du skapar en tidslinje eller kalendervy.
 
@@ -248,13 +283,13 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
 1. (Valfritt) Klicka på **Mer**-menyn ![Fler vyer med nedåtriktade ikoner](assets/more-caret-down-icon-views.png) bredvid den senaste vyn om du vill visa alla vyer för den valda posttypen.
 
    Ytterligare vyer visas på menyn **Mer** efter fliken för den senaste vyn. Siffran bredvid menyn **Mer** visar antalet ytterligare vyer.
-1. (Valfritt) Om du vill byta namn på en vy efter att den har skapats klickar du på listrutan Visa och sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) > **Byt namn** för att uppdatera visningsnamnet
+1. (Valfritt) Om du vill byta namn på en vy efter att den har skapats klickar du på listrutan Visa och sedan på menyn **Mer** ![Mer ](assets/more-menu.png) > **Byt namn** för att uppdatera visningsnamnet
 
    eller
 
    Dubbelklicka på vynamnet och börja skriva det nya namnet.  <!--ensure there is not another saving step here?!-->
 
-1. <span class="preview">(Valfritt) Klicka på ikonen **Helskärm** ![Öppna helskärmsikonen](assets/open-full-screen-icon.png) om du vill öppna en vy i helskärmsläge och sedan på ikonen **Avsluta helskärm** ![Avsluta helskärmsikonen](assets/exit-full-screen-icon.png) eller Esc på tangentbordet om du vill avsluta helskärmsläget.  </span>
+1. (Valfritt) Klicka på ikonen **Helskärm** ![Öppna helskärmsikonen](assets/open-full-screen-icon.png) om du vill öppna en vy i helskärmsläge och sedan **Avsluta helskärmsikonen** ![Avsluta helskärmsikonen](assets/exit-full-screen-icon.png) eller Esc på tangentbordet om du vill avsluta helskärmsläget.
 
 1. (Valfritt) Mer information om hur du hanterar en viss typ av vy finns i följande artiklar:
 

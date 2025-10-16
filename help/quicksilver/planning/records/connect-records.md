@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '3397'
+source-wordcount: '3352'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,61 @@ Du kan ansluta följande:
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.
++++ Expandera om du vill visa åtkomstkraven för funktionerna i den här artikeln. 
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<ul> 
+<li><p>Alla Workfront- och Planning-paket</p></li>
+eller
+<li><p>Alla arbetsflöden och alla planeringsdokument</p></li></ul>
+<p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
+   </td> 
+<tr> 
+<td> 
+   <p> Ytterligare produkter</p> </td> 
+   <td> 
+    <p>Förutom Adobe Workfront måste du ha en Adobe Experience Manager Assets-licens och en integrering mellan AEM Assets och Workfront för att kunna koppla AEM-material till Planning Record.</p>
+    <p>Mer information finns i <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront för Experience Manager Assets och Assets Essentials: artikelindex</a>. </p>
+   </td> 
+  </tr>   
+<tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td> 
+   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning</p> 
+   <p>Visa eller ge senare åtkomst för de objekttyper vars objekt du vill ansluta till i Workfront och AEM Assets. </p>  
+</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader"><p>Objektbehörigheter</p></td> 
+   <td>   <p>Contribute eller högre behörighet till en arbetsyta och posttyp för att ansluta poster. </p>  
+   <p>Visa eller högre behörighet till en arbetsyta och posttyp om du vill visa alla anslutningar till objekt och fält från andra program, oavsett vilken åtkomst du har i det andra programmet. </p>
+   <p>Visa eller ange högre behörigheter för de objekt som du vill länka från Workfront eller Experience Manager Assets. </p>
+   <p>Systemadministratörer har behörighet för alla arbetsytor, inklusive de som de inte skapade.</p> </td> 
+  </tr>   
+</tbody> 
+</table>
+
+Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++   
+
+<!--Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -69,64 +123,60 @@ Du kan ansluta följande:
     <tr> 
 <tr> 
 <td> 
-   <p> Produkter</p> </td> 
+   <p> Products</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
    <li><p> Adobe Workfront Planning<p></li>
-   <li><p>Adobe Experience Manager Assets, om du vill koppla AEM-resurser till planeringsposter<p>
-   <p>Du måste ha en Adobe Experience Manager Assets-licens och en integrering mellan AEM Assets och Workfront.
-    Mer information finns i <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront för Experience Manager Assets och Assets Essentials: artikelindex</a>. </p>
+   <li><p>Adobe Experience Manager Assets, if you want to connect AEM assets with Planning records<p>
+   <p>You must have an Adobe Experience Manager Assets license and an integration between AEM Assets and Workfront.
+    For information, see <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials: article index</a>. </p>
    </li>  
    </ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
    <td> 
-<p>Något av följande Workfront-planer:</p> 
-<ul><li>Välj</li> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>Workfront Planning är inte tillgängligt för tidigare Workfront-planer</p> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning-paket*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
-<p>Alla </p> 
-<p>Kontakta din kontoansvarige på Workfront om du vill ha mer information om vad som ingår i respektive Workfront Planning-plan. </p> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
-   <td role="rowheader"><p>Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Din organisations instans av Workfront måste vara registrerad på Adobe Unified Experience för att få tillgång till Workfront Planning.</p> 
-<p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
    <td> Standard
-   <p>Workfront Planning är inte tillgängligt för tidigare Workfront-licenser</p> 
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td> 
-   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning-objekt</p> 
-   <p>Visa eller högre behörigheter för de objekttyper som du vill länka från Workfront.</p>   
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning objects</p> 
+   <p>View or higher permissions to the object types you want to link from Workfront.</p>   
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Objektbehörigheter</p></td> 
-   <td>   <p>Contribute eller högre behörighet till en arbetsyta och posttyp för att ansluta poster </p>  
-   <p>Visa eller högre behörighet till en arbetsyta och posttyp om du vill visa alla anslutningar till objekt och fält från andra program, oavsett vilken åtkomst du har i det andra programmet. </p>
-   <p>Visa eller ange högre behörigheter för de objekt som du vill länka från Workfront eller Experience Manager Assets. </p>
-   <p>Systemadministratörer har behörighet för alla arbetsytor, inklusive de som de inte skapade.</p> </td> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Contribute or higher permissions to a workspace and record type to connect records </p>  
+   <p>View or higher permissions to a workspace and record type to view all connections to objects and fields from other applications, regardless of your access in the other application. </p>
+   <p>View or higher permissions to the objects you want to link from Workfront or Experience Manager Assets. </p>
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p> </td> 
   </tr> 
 </tbody> 
-</table>
-
-*Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table> -->
 
 ## Att tänka på vid anslutning av poster
 
@@ -337,7 +387,7 @@ När du har skapat en anslutning mellan en posttyp och Adobe Experience Manager 
 
 >[!NOTE]
 >
->Planeringsposter och deras fält är tillgängliga från Experience Manager Assets när Workfront-administratören konfigurerar metadatamappningen genom integrationen mellan Workfront och Adobe Experience Manager Assets. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+>Planeringsposter och deras fält är tillgängliga från Experience Manager Assets när Workfront-administratören konfigurerar metadatamappningen genom integrationen mellan Workfront och Adobe Experience Manager Assets. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 Så här ansluter du poster med Experience Manager-resurser:
 
@@ -402,7 +452,7 @@ Så här ansluter du poster med Experience Manager-resurser:
    * Skapad den
    * Ändrat den
 
-1. (Valfritt) Om du vill öppna Experience Manager resurspostsida i Experience Manager går du till posttypssidan för den post du länkar från, klickar på namnet på en resurs i det länkade postfältet för att öppna popup-fönstret och klickar sedan på ikonen **Öppna i AEM** ![Öppna resurs i AEM-ikon &#x200B;](assets/open-asset-icon.png) för att öppna resursen.
+1. (Valfritt) Om du vill öppna Experience Manager resurspostsida i Experience Manager går du till posttypssidan för den post du länkar från, klickar på namnet på en resurs i det länkade postfältet för att öppna popup-fönstret och klickar sedan på ikonen **Öppna i AEM** ![Öppna resurs i AEM-ikon ](assets/open-asset-icon.png) för att öppna resursen.
 
    Då öppnas Experience Manager-resursen i Adobe Experience Manager Assets.
 

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '1971'
+source-wordcount: '1785'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,13 @@ ht-degree: 0%
 
 # Visa
 
-<!--take out preview and production references at production-->
+<!--
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -40,7 +42,7 @@ This article describes how you can share a view with others. For information abo
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven. 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <!--at GA, check that the Workfront plans article linked below has Planning info-->
 
@@ -52,41 +54,16 @@ This article describes how you can share a view with others. For information abo
 <tbody> 
     <tr> 
 <tr> 
-<td> 
-   <p> Produkter</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li></ul></td> 
-  </tr>   
+<p>Alla Workfront- och Planning-paket</p> 
+eller
+<p>Alla arbetsflödes- och planeringspaket</p> 
+ </tr>
+
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
-   <td> 
-<p>Något av följande Workfront-planer:</p> 
-<ul><li>Välj</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning är inte tillgängligt för tidigare Workfront-planer</p> 
-   </td> 
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning-paket*</p></td> 
-   <td> 
-<p>Alla </p> 
-<p>Kontakta din kontoansvarige på Workfront om du vill ha mer information om vad som ingår i respektive Workfront Planning-plan. </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Adobe Workfront</p></td> 
-   <td> 
-<p>Din organisations instans av Workfront måste vara registrerad på Adobe Unified Experience för att få tillgång till Workfront Planning.</p> 
-<p>Din organisation måste vara registrerad på Adobe Unified Experience för att användare ska kunna begära och bevilja behörigheter för en vy från en behörighetsbegäran. </p>
-<p>Användare måste läggas till i Adobe Admin Console för att få behörighet till Workfront Planning-vyer.</p>
-<p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
-   <td><p> Standard</p>
-   <p>Workfront Planning är inte tillgängligt för tidigare Workfront-licenser</p> 
+   <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
+   <td><p>Alla</p> 
   </td> 
   </tr> 
   <tr> 
@@ -96,16 +73,84 @@ This article describes how you can share a view with others. For information abo
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
-   <td>  <p>Hantera behörigheter till en vy</p>  
+   <td>  <p>Hantera behörigheter till en vy</p> 
+   <p><b>VIKTIGT</b></p> 
    <p>Endast användare med behörigheten Hantera på en arbetsyta kan dela en vy offentligt.</p></td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Layoutmall</p></td>
+   <td> Användare med en Light- eller Contributor-licens måste tilldelas en layoutmall som innehåller Planning.
+   <p>Standardanvändare och systemadministratörer har planeringsområdena aktiverade som standard.</p></div></li></ul>
+
+</td>
   </tr>
 
 </tbody> 
 </table>
 
-*Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>Your organization must be onboarded to the Adobe Unified Experience for users to be able to request and grant permissions to a view from a permission request. </p>
+<p>Users must be added to the Adobe Admin Console in order to gain permissions to Workfront Planning views.</p>
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>  <p>Manage permissions to a view</p>  
+   <p>Only users with Manage permissions to a workspace can share a view publicly.</p></td> 
+  </tr> 
+
+</tbody> 
+</table> -->
 
 ## Att tänka på vid vydelning
 
@@ -145,15 +190,11 @@ Du kan dela vyer som du har skapat eller vyer som du har behörigheten Hantera m
 
 1. Gör något av följande på fliken i vyn:
 
-   * Beroende på vilken miljö du öppnar vyn från gör du följande:
-
-      * I produktionsmiljön för du pekaren över fliknamnet för den vy du vill dela och klickar på menyn **Mer** ![Mer](assets/more-menu.png) till höger om vynamnet. Klicka sedan på **Dela**.
-
-      * <span class="preview"> I förhandsvisningsmiljön klickar du på vyns flik, för pekaren över vyn i listrutan, klickar på menyn **Mer** ![Mer](assets/more-menu.png) och sedan på **Dela**.</span>
+   * Klicka på vyfliken, håll pekaren över vyn i listrutan, klicka på menyn **Mer** ![Mer](assets/more-menu.png) och klicka sedan på **Dela**.
 
      ![Mer meny för en vy](assets/more-menu-for-views-expanded-with-share-option.png)
 
-   * Klicka på **Dela** > **Dela den aktuella vyn**
+   * Klicka på **Dela** i skärmens övre högra hörn och sedan på **Dela den aktuella vyn**.
 
      ![Dela-knappen med posttyp och visningsdelningsalternativ](assets/share-button-with-record-type-and-view-sharing-options.png)
 

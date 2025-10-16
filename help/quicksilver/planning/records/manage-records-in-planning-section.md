@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '1878'
+source-wordcount: '1828'
 ht-degree: 0%
 
 ---
@@ -31,54 +31,31 @@ Du kan visa Workfront Planning-poster i Workfront i följande områden av objekt
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven. 
++++ Expandera om du vill visa åtkomstkraven för funktionerna i den här artikeln. 
 
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Produkter</p> </td>
-   <td>
-   <ul><li><p> Adobe Workfront</p></li>
-   <li><p> Adobe Workfront Planning<p></li></ul></td>
-  </tr>  
- <tr>
-   <td role="rowheader"><p>Adobe Workfront-plan*</p></td>
-   <td>
-<p>Något av följande Workfront-planer:</p>
-<ul><li>Välj</li>
-<li>Prime</li>
-<li>Ultimate</li></ul>
-<p>Workfront Planning är inte tillgängligt för tidigare Workfront-planer</p>
-   </td>
-
-<tr>
-   <td role="rowheader"><p>Adobe Workfront Planning-paket*</p></td>
-   <td>
-<p>Alla</p>
-<p>Kontakta din kontoansvarige på Workfront om du vill ha mer information om vad som ingår i respektive Workfront Planning-plan. </p>
-   </td>
-
-<tr>
-   <td role="rowheader"><p>Adobe Workfront</p></td>
-   <td>
-<p>Din organisations instans av Workfront måste vara registrerad på Adobe Unified Experience för att få tillgång till Workfront Planning.</p>
-<p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
-   </td>
-  </tr>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront-licens*</p></td>
-   <td>
-   <p>Standard</p>
-   <p>Workfront Planning är inte tillgängligt för tidigare Workfront-licenser</p>
-  </td>
-  </tr>
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<ul> 
+<li><p>Alla Workfront- och Planning-paket</p></li>
+eller
+<li><p>Alla arbetsflöden och alla planeringsdokument</p></li></ul>
+<p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
   <tr>
    <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td>
    <td> <p>Visa eller öka åtkomsten till projekt, program och portföljer</p>  
@@ -89,20 +66,88 @@ Du kan visa Workfront Planning-poster i Workfront i följande områden av objekt
    <td role="rowheader"><p>Objektbehörigheter</p></td>
    <td>
    <p>I Workfront: Visa eller högre behörigheter för ett projekt, en portfölj eller ett program </a> </p> 
-   <p>I Workfront Planning:
-   <ul><li>
-   Visa behörigheter på en arbetsyta och posttyp för att visa alla anslutna poster </li>
+   <p>I Workfront Planning:</p>
+   <ul><li>Visa behörigheter på en arbetsyta och posttyp för att visa alla anslutna poster </li>
    eller
-   <li> Contribute eller högre behörighet till en arbetsyta och posttyp för att ansluta till eller koppla från poster</a></li></ul> </p>  
+   <li> Contribute eller högre behörighet till en arbetsyta och posttyp för att ansluta till eller koppla från poster</a></li></ul> 
    <p>Systemadministratörer har behörighet till alla Workfront Planning-arbetsytor, inklusive de som de inte skapade</p> 
+  </td>
+  </tr>   
+</tbody> 
+</table>
+
+Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++   
+
+
+<!--Old:
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> Products</p> </td>
+   <td>
+   <ul><li><p> Adobe Workfront</p></li>
+   <li><p> Adobe Workfront Planning<p></li></ul></td>
+  </tr>  
+ <tr>
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td>
+   <td>
+<p>Any of the following Workfront plans:</p>
+<ul><li>Select</li>
+<li>Prime</li>
+<li>Ultimate</li></ul>
+<p>Workfront Planning is not available for legacy Workfront plans</p>
+   </td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td>
+   <td>
+<p>Any</p>
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p>
+   </td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront platform</p></td>
+   <td>
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p>
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
+   </td>
+  </tr>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
+   <td>
+   <p>Standard</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p>
+  </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Access level configuration</p></td>
+   <td> <p>View or higher access to Projects, Programs, and Portfolios</p>  
+   <p>There is no access level configuration for Workfront Planning. </p>
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Object permissions</p></td>
+   <td>
+   <p>In Workfront, View or higher permissions to a project, portfolio, or program</a> </p> 
+   <p>In Workfront Planning:
+   <ul><li>
+   View permissions to a workspace and record type to view any connected records </li>
+   or
+   <li> Contribute or higher permissions to a workspace and record type  to connect or disconnect records</a></li></ul> </p>  
+   <p>System Administrators have permissions to all Workfront Planning workspaces, including the ones they did not create</p> 
   </td>
   </tr>
  </tbody>
-</table>
-
-*Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 
 ## Hantera poster i planeringsavsnittet

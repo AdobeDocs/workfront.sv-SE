@@ -4,9 +4,9 @@ description: Globala posttyper kan läggas till på flera arbetsytor från en ce
 hidefromtoc: true
 hide: true
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 95474ea813f4ea575942eea733caf2952b2daa75
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1453'
 ht-degree: 0%
 
 ---
@@ -79,18 +79,23 @@ Posttypen som konfigurerats som global har följande egenskaper:
    * Redigera den
 
      När du redigerar en global posttyp kan du redigera dess utseende, funktioner för flera arbetsytor och alla fält som har skapats på den ursprungliga arbetsytan.
-   * Skapa förfrågningsformulär
-   * Hantera förfrågningsformulär
+   * Skapa och hantera förfrågningsformulär
+   * Skapa och hantera automatisering
 
 * Du kan bara ta bort en global posttyp om den inte har lagts till på en sekundär arbetsyta. Du måste först ta bort den (genom att ta bort den) från de sekundära arbetsytorna innan du kan ta bort den från den ursprungliga arbetsytan.
+
+  Mer information finns i [Ta bort posttyper](/help/quicksilver/planning/architecture/delete-record-types.md).
 * Posterna som du lägger till i en global posttyp visas bara för användare som har behörigheten Visa på arbetsytan där de lades till.
 * Posterna som du lägger till från en sekundär arbetsyta läggs upp och visas på den ursprungliga arbetsytan. Alla medlemmar på den ursprungliga arbetsytan får behörigheten Visa till dem.
-* Om den ursprungliga globala posttypen läggs till i flera sekundära arbetsytor kan du bara visa poster som lagts till i andra arbetsytor från den ursprungliga arbetsytan eller från arbetsytor där du har minst behörighet att visa.
+* När den ursprungliga globala posttypen läggs till i flera sekundära arbetsytor finns följande scenarier:
+
+   * Medlemmar i den ursprungliga arbetsytan får automatiskt behörigheten Visa för alla poster som läggs till från en arbetsyta, även om de inte är medlemmar i den arbetsytan.
+   * Sekundära arbetsytemedlemmar kan bara visa poster från arbetsytor där de är medlemmar.
 * De anslutna posttyperna av en global posttyp blir tillgängliga för anslutning från de arbetsytor där den här posttypen läggs till.
 
   Om du till exempel har en global posttyp för Campaign som har en anslutning till posttypen Region, och du lägger till posttypen Campaign på en sekundär arbetsyta, kan regioner bli en kopplingsbar arbetsyta mellan olika arbetsytor från den sekundära arbetsytan. Medlemmar i den sekundära arbetsytan kan nu skapa kampanjer och länka dem till regioner.
 
-* Fält som skapats för en global posttyp från den ursprungliga arbetsytan visas från alla arbetsytor där posttypen läggs till. Fältinställningarna från en ursprunglig arbetsyta är skrivskyddade i de sekundära arbetsytorna.
+* Fält som skapats för en global posttyp från den ursprungliga arbetsytan visas från alla arbetsytor där posttypen läggs till. Du kan bara redigera fältinställningar från den ursprungliga arbetsytan. Inställningarna för de fält som skapades i den ursprungliga arbetsytan är skrivskyddade i de sekundära arbetsytorna för alla medlemmar, oavsett deras behörigheter på den sekundära arbetsytan. Sekundära arbetsytehanterare kan inte ändra fältinställningarna för fält som konfigurerats i den ursprungliga arbetsytan. Det är bara arbetsytehanterarna på den ursprungliga arbetsytan som kan ändra fältinställningarna på den ursprungliga arbetsytan.
 
 ### Överväganden om globala posttyper i en sekundär arbetsyta
 
@@ -103,6 +108,8 @@ Posttypen som konfigurerats som global har följande egenskaper:
    * Ta bort den.
 
      Om du tar bort posttypen från en sekundär arbetsyta tas den bara bort från den sekundära arbetsytan. Posterna och fälten som läggs till i den sekundära arbetsytan tas också bort. Detta tar inte bort posttypen från den ursprungliga arbetsytan eller från andra sekundära arbetsytor där den har lagts till.
+
+     Mer information finns i [Ta bort posttyper](/help/quicksilver/planning/architecture/delete-record-types.md).
 
   <!--These two capabilities will come later - and edit some of the bullets below after these capabilities are released:
     * Add new fields
@@ -128,7 +135,7 @@ Posttypen som konfigurerats som global har följande egenskaper:
 * Följande scenarier finns för poster som skapats i sekundära arbetsytor:
 
    * Om du har behörigheten Hantera på den ursprungliga arbetsytan, och inga behörigheter på en sekundär arbetsyta, kan du visa poster som lagts till från den sekundära arbetsytan i den ursprungliga arbetsytan, men du kan inte hantera dem från den ursprungliga arbetsytan.
-   * Om du har behörigheten Hantera på den sekundära arbetsytan kan du hantera posterna på den globala posttypens ursprungliga arbetsyta eller från den arbetsyta där de lades till.
+   * Om du har behörigheten Hantera på den sekundära arbetsytan kan du hantera posterna både från den globala posttypens ursprungliga arbetsyta och från den sekundära arbetsytan där de lades till.
    * Du kan bara visa posterna på ytterligare sekundära arbetsytor där den globala posttypen läggs till om du har behörigheten Visa på dessa arbetsytor.
 
 ### Åtkomst till anslutningar av global posttyp

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '2764'
+source-wordcount: '2645'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,12 @@ ht-degree: 0%
 
 <!--keep the choice values information in yellow till Jan 2026-->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -36,7 +39,7 @@ Mer information om hur du skapar poster finns i [Skapa poster](/help/quicksilver
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.
++++ Expandera om du vill visa åtkomstkraven för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -46,58 +49,87 @@ Mer information om hur du skapar poster finns i [Skapa poster](/help/quicksilver
 <tbody> 
     <tr> 
 <tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<ul> 
+<li><p>Alla Workfront- och Planning-paket</p></li>
+eller
+<li><p>Alla arbetsflöden och alla planeringsdokument</p></li></ul>
+<p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Objektbehörigheter</p></td> 
+   <td>   <p>Contribute eller högre behörighet för en arbetsyta och en posttyp  </p>  
+   <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p> </td> 
+  </tr>   
+</tbody> 
+</table>
+
+Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++   
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
 <td> 
-   <p> Produkter</p> </td> 
+   <p> Products</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
    <li><p> Adobe Workfront Planning<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
    <td> 
-<p>Något av följande Workfront-planer:</p> 
-<ul><li>Välj</li> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>Workfront Planning är inte tillgängligt för tidigare Workfront-planer</p> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning-paket*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
-<p>Alla </p> 
-<p>Kontakta din kontoansvarige på Workfront om du vill ha mer information om vad som ingår i respektive Workfront Planning-plan. </p> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
-   <td role="rowheader"><p>Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Din organisations instans av Workfront måste vara registrerad på Adobe Unified Experience för att få tillgång till Workfront Planning.</p> 
-<p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
    <td> <p>Standard</p> 
-   <p>Workfront Planning är inte tillgängligt för tidigare Workfront-licenser</p> 
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td> 
-   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning</p>   
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Objektbehörigheter</p></td> 
-   <td>  <p>Contribute eller högre behörighet till en arbetsyta och posttyp </a> </p>  
-   <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>  </td> 
-  </tr>
-
-</tbody> 
-</table>
-
-*Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++   
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>  <p>Contribute or higher permissions to a workspace and record type </a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
+  </tr> -->
 
 ## Att tänka på när du redigerar poster
 
@@ -107,7 +139,7 @@ Mer information om hur du skapar poster finns i [Skapa poster](/help/quicksilver
    * Postens förhandsgranskning i en postvy
    * Postens informationssida
    * Textbunden i en tabellvy.
-   * <span class="preview"> Kalender- och tidslinjevyn när storleken på <!--or dragging and dropping-->-posterna ändras. Detta uppdaterar posternas datum.</span>
+   * Kalender- och tidslinjevyn när du ändrar storlek på eller drar och släpper posterna. Detta uppdaterar posternas datum.
 
 * När en användare redigerar en post i en vy visas ändringarna omedelbart i alla vyer och postsidorna för alla andra användare.
 
@@ -233,30 +265,30 @@ Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create
 
 1. Öppna posttypssidan i en tidslinjevy. Mer information finns i [Hantera tidslinjevyn](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
-1. <span class="preview">Håll markören över ändarna på en posts fält, klicka, dra och släpp marginalen till ett annat datum. Detta uppdaterar automatiskt postens start- eller slutdatum.</span>
+1. Håll muspekaren över ändarna av en posts fält, klicka, dra och släpp marginalen till ett annat datum. Detta uppdaterar automatiskt postens start- eller slutdatum.
 
-   <span class="preview">![Vänster fält i tidslinjevyn för att ändra storlek](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
+   ![Vänster fält i tidslinjevyn för att ändra storlek](assets/left-end-bar-handle-to-resize-timeline-view.png)
 
-1. <span class="preview">Klicka och håll ned ett postfält och dra och släpp det sedan på en annan plats för att uppdatera dess tidslinje och datum. Start- och slutdatum för postuppdateringen automatiskt.</span>
+1. Klicka och håll ned ett postfält och dra och släpp det på en annan plats för att uppdatera dess tidslinje och datum. Start- och slutdatum för posten uppdateras automatiskt.
 
 1. Klicka på fältet för en post för att öppna dess informationsområde och redigera alla fält.
 
-   Mer information finns i avsnittet [Redigera en post från postens förhandsgranskning i vyn &#x200B;](#edit-a-record-from-the-records-preview-in-a-view) i den här artikeln.
+   Mer information finns i avsnittet [Redigera en post från postens förhandsgranskning i vyn ](#edit-a-record-from-the-records-preview-in-a-view) i den här artikeln.
 
 ### Redigera en post i kalendervyn för en posttyp
 
 <!--add another step about drag and drop here when that is available-->
 
 1. Öppna posttypssidan i en kalendervy. Mer information finns i [Hantera kalendervyn](/help/quicksilver/planning/views/manage-the-calendar-view.md).
-1. <span class="preview">(Villkorligt) Håll markören över ändarna på en posts fält i kalendervyn och klicka sedan på, dra och släpp marginalerna till ett annat datum. Detta uppdaterar automatiskt postens start- eller slutdatum.</span>
+1. (Villkorligt) Håll markören över ändarna på en posts fält i kalendervyn och klicka sedan på, dra och släpp marginalerna till ett annat datum. Detta uppdaterar automatiskt postens start- eller slutdatum.
 
-   <span class="preview">![Vänster fält i kalendervyn för att ändra storlek](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
+   ![Vänster fält i kalendervyn för att ändra storlek](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)
 
-1. <span class="preview">Klicka och håll ned ett postfält och dra och släpp det sedan på en annan plats för att uppdatera dess tidslinje och datum. Start- och slutdatum för postuppdateringen automatiskt.</span>
+1. Klicka och håll ned ett postfält och dra och släpp det på en annan plats för att uppdatera dess tidslinje och datum. Start- och slutdatum för posten uppdateras automatiskt.
 
 1. Klicka på fältet för en post för att öppna dess informationsområde och redigera alla fält.
 
-   Mer information finns i avsnittet [Redigera en post från postens förhandsgranskning i vyn &#x200B;](#edit-a-record-from-the-records-preview-in-a-view) i den här artikeln.
+   Mer information finns i avsnittet [Redigera en post från postens förhandsgranskning i vyn ](#edit-a-record-from-the-records-preview-in-a-view) i den här artikeln.
 
 ### Redigera en post från postens förhandsgranskning i en vy
 
@@ -351,7 +383,7 @@ Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create
 
    eller
 
-   Håll pekaren över den befintliga omslagsbilden och klicka sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) > **Överför** för att lägga till en ny omslagsbild för posten.
+   Håll pekaren över den befintliga omslagsbilden och klicka sedan på menyn **Mer** ![Mer ](assets/more-menu.png) > **Överför** för att lägga till en ny omslagsbild för posten.
 
    Mer information finns i [Lägga till en omslagsbild till en post](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
@@ -377,8 +409,6 @@ Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create
 När du har kopplat poster till Workfront-objekt kan du redigera Workfront Planning-poster i Workfront från objektets Planning-avsnitt.
 
 Mer information finns i [Hantera postanslutningar från Workfront-objekt](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
-
-<div class="preview">
 
 ## Redigera envals- eller flervalsfältsinställningar när deras värden uppdateras
 
@@ -410,4 +440,3 @@ Så här lägger du till ett nytt val i ett befintligt markeringsfält när du r
 
    <!--<span class="preview">A new choice value is also added to each choice. You can use the choice values in API calls or other integrations. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). </span>-->
 
-</div>

@@ -4,9 +4,9 @@ description: Posttyperna är objekttyperna för Adobe Workfront Planning. I Work
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ En arbetsytehanterare måste först ange en posttyp som global posttyp innan du 
 
 Mer information finns i [Konfigurera funktioner för arbetsytan över arbetsytor för posttyper](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
-I den här artikeln beskrivs hur du kan lägga till en posttyp från en befintlig och hur du kan ta bort den, om den inte längre behövs.
+I den här artikeln beskrivs hur du kan lägga till en posttyp från en befintlig.
 
 Innan du lägger till poster på en arbetsyta från en global posttyp, ska du även läsa artikeln [Översikt över posttyper på arbetsytan](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
@@ -49,32 +49,24 @@ Innan du lägger till poster på en arbetsyta från en global posttyp, ska du ä
 </col> 
 <tbody> 
     <tr> 
-<tr>
-
+<tr> 
 </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<ul><li><p>Alla Workfront-paket</p></li>
-<p>Och</p>
-<li><p>Planeringspaket för att skapa kopplingsbara posttyper</p></li>
-<li><p>Ett Planning Plus-paket för att skapa globala posttyper</p></li>
-</ul>
-Eller:
-<ul><li><p>Ett Prime- eller Ultimate Workflow-paket</p> </li>
-Och
-<li><p>Ett Planning Prime- eller Ultimate-paket</p></li></ul>
-<p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av din kontoansvarige på Workfront. </p> 
-   </td>
-
-<tr> 
+<ul><li><p>Alla Workfront-paket och ett Planning Plus-paket</p></li>
+<p>eller</p>
+<li><p>Workflow and Planning Prime- och Ultimate-paket</p></p></li></ul>
+<p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
+   </td> 
+  <tr> 
    <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
    <td><p>Standard</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
-   <td>   <p>Hantera behörigheter till en arbetsyta och till posttypen </a> </p>  
+   <td>   <p>Hantera behörigheter till en arbetsyta</p>  
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>  </td> 
   </tr>  
 </tbody> 
@@ -83,6 +75,45 @@ Och
 Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<ul><li><p>Any Workfront package</p></li>
+<p>And</p>
+<li><p>Any Planning package to create connectable record types</p></li>
+<li><p>A Planning Plus package to create global record types</p></li>
+</ul>
+Or:
+<ul><li><p>A Prime or Ultimate Workflow package</p> </li>
+And
+<li><p>A Planning Prime or Ultimate package</p></li></ul>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account manager. </p> 
+   </td> 
+
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace and to the record type</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
+  </tr>  
+</tbody> 
+</table>-->
 
 ## Skapa en posttyp genom att lägga till en befintlig från en annan arbetsyta
 
@@ -117,6 +148,9 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
      >Du kan inte redigera den nya posttypens utseende, ytterligare inställningar eller originalfält. Du kan bara redigera posttypen och alla dess ursprungliga fält och inställningar från den ursprungliga arbetsytan.
 
 1. (Valfritt) Klicka och dra och släpp den nya posttypen till valfritt avsnitt på arbetsytan.
+1. (Valfritt) Klicka på menyn **Mer** på den nya posttypens kort eller till höger om posttypens namn på sidan och klicka sedan på **Ta bort**.
+
+   Mer information finns i avsnittet Ta bort globala posttyper i artikeln [Ta bort posttyper](/help/quicksilver/planning/architecture/delete-record-types.md).
 
 <!--This will be released later with another epic: 
 1. In the table view, click the **+** icon in the upper-right corner to add new fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
@@ -125,34 +159,7 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
 &lt;!—check with Lilit if we can add automations or request forms to secondary global RTs??—add step with links to those articles if/ when yes—>
 
-## Ta bort en global posttyp från en sekundär arbetsyta
 
-Du kan ta bort en posttyp som du har lagt till från en annan arbetsyta om den inte längre behövs. Om du tar bort den tas den bara bort från den sekundära arbetsytan.
-
-När du tar bort en global posttyp från en sekundär arbetsyta tas även följande bort:
-
-* Posterna som lagts till från den sekundära arbetsytan.
-* De fält som lagts till från den sekundära arbetsytan.
-
-Det går inte att återställa globala posttyper som har tagits bort från deras sekundära arbetsytor.
-
-Den ursprungliga posttypen finns kvar på den ursprungliga arbetsytan och på andra arbetsytor där den har lagts till.
-
-Ta bort en global posttyp från en sekundär arbetsyta:
-
-1. Gå till den globala posttypen på den sekundära arbetsytan.
-
-1. (Valfritt) Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) på posttypens kort, eller till höger om posttypens namn på sidan, och klicka sedan på **Ta bort**.
-1. (Villkorligt) Skriv **delete** i det angivna fältet och klicka sedan på **Ta bort permanent**.
-
-   ![Ta bort bekräftelseruta för den sekundära globala posttypen](assets/delete-secondary-global-record-type.png)
-
-   Följande saker händer:
-
-   * Posttypen som skapas från en global posttyp tas bort från den valda arbetsytan.
-   * Den ursprungliga posttypen och dess fält finns kvar på den ursprungliga arbetsytan.
-   * Posttypen finns kvar på alla andra arbetsytor där den har lagts till.
-   * Poster och fält som lagts till i posttypen från den aktuella arbetsytan tas bort. Alla andra poster som lagts till från ytterligare arbetsytor där den globala posttypen lades till bevaras. Fält bevaras i arbetsytorna där de lades till.
 
 
 

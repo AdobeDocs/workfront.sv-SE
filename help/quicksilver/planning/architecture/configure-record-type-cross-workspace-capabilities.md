@@ -4,9 +4,9 @@ description: Du kan aktivera en posttyp som antingen ska läggas till på en ann
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1337'
 ht-degree: 0%
 
 ---
@@ -66,22 +66,24 @@ Mer information finns i följande artiklar:
 </col> 
 <tbody> 
     <tr> 
-<tr>
-
+<tr> 
 </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<ul><li><p>Alla Workfront-paket</p></li>
-<p>Och</p>
-<li><p>Planeringspaket för att skapa kopplingsbara posttyper</p></li>
-<li><p>Ett Planning Plus-paket för att skapa globala posttyper</p></li>
-</ul>
-Eller:
-<ul><li><p>Ett Workflow Prime- eller Ultimate-paket</p> </li>
-Och
-<li><p>Ett Planning Prime- eller Ultimate-paket</p></li></ul>
-<p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av din kontoansvarige på Workfront. </p> 
+<p>Så här konfigurerar du kopplingsbara posttyper: </p>
+<ul> 
+<li><p>Alla Workfront-paket och alla Planning-paket</p></li>
+<p>eller</p>
+<li><p>Workflow and Planning Prime- och Ultimate-paket</p></li></ul>
+
+<p>Så här konfigurerar du globala posttyper:</p>
+
+<ul> 
+<li><p>Alla Workfront-paket och ett Planning Plus-paket</p></li>
+<p>eller</p>
+<li><p>Workflow and Planning Prime- och Ultimate-paket</p></li></ul>
+<p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
@@ -90,7 +92,7 @@ Och
   </tr> 
   <tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
-   <td>   <p>Hantera behörigheter till en arbetsyta och till posttypen </a> </p>  
+   <td>   <p>Hantera behörigheter till en arbetsyta</p>  
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>  </td> 
   </tr>  
 </tbody> 
@@ -100,7 +102,46 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
 +++   
 
-## Konfigurera globala posttyper
+<!--Old:
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<ul><li><p>Any Workfront package</p></li>
+<p>And</p>
+<li><p>Any Planning package to create connectable record types</p></li>
+<li><p>A Planning Plus package to create global record types</p></li>
+</ul>
+Or:
+<ul><li><p>A Workflow Prime or Ultimate package</p> </li>
+And
+<li><p>A Planning Prime or Ultimate package</p></li></ul>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account manager. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace and to the record type</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
+  </tr>  
+</tbody> 
+</table> -- >
+
+## Configure global record types
 
 <!--this is a UI term; don't change the title of this section-->
 
@@ -121,11 +162,11 @@ Så här konfigurerar du en posttyp som global:
    Arbetsytans sida öppnas och posttyperna visas.
 1. Gör något av följande:
 
-   * Håll pekaren över kortet för en posttyp och klicka på menyn **Mer** ![Mer](assets/more-menu.png) i det övre högra hörnet av posttypskortet
+   * Håll pekaren över kortet för en posttyp och klicka på menyn **Mer** ![Mer](assets/more-menu.png) i det övre högra hörnet av posttypskortet. <!--add new screen shot without Share for now-->
 
      ![Fler menyalternativ från posttypskort](assets/more-menu-options-from-record-type-card.png)
 
-   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn.
+   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn.
 1. Klicka på **Redigera** eller **Inställningar**.
 
    >[!TIP]
@@ -179,7 +220,7 @@ Så här konfigurerar du en posttyp som global:
 
    Posttypen som läggs till från en global posttyp på den sekundära arbetsytan visar också en **global posttypsikon** ![ikon av global posttyp](assets/global-icon.png).
 1. (Valfritt) Gå tillbaka till den ursprungliga arbetsytan där du skapade den globala posttypen och redigera posttypen genom att följa steg 1-4 ovan <!--ensure this stays accurate-->
-1. (Valfritt) Granska listan över arbetsytor där den globala posten har lagts till i avsnittet **Arbetsytor där den här posttypen används**.
+1. (Valfritt) Granska listan över arbetsytor där den globala posten har lagts till i avsnittet **Arbetsytor där den här posttypen används**. Ägaren av arbetsytan visas också bredvid arbetsytans namn.
 
    ![Arbetsytor där den här posttypen används](assets/workspaces-where-this-record-type-is-used.png)
 
@@ -201,9 +242,9 @@ Så här konfigurerar du en posttyp som anslutningsbar:
 
    * Håll pekaren över kortet för en posttyp och klicka på menyn **Mer** ![Mer](assets/more-menu.png) i det övre högra hörnet av posttypskortet
 
-     ![Fler menyalternativ från posttypskort](assets/more-menu-options-from-record-type-card.png)
+     ![Fler menyalternativ från posttypskort](assets/more-menu-options-from-record-type-card.png) <!--add new screen shot without Share for now-->
 
-   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn.
+   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn.
 1. Klicka på **Redigera** eller **Inställningar**.
 
 1. (Villkorligt) Om du klickade på **Redigera** klickar du på fliken **Inställningar för arbetsytan** i rutan **Redigera posttyp**

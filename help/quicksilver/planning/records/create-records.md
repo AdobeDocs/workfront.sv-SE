@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '3278'
+source-wordcount: '3131'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,12 @@ ht-degree: 0%
 
 # Skapa poster
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -28,14 +31,8 @@ Du kan skapa poster genom att göra något av följande:
 
 * [Använd knappen Ny post eller Begär post från valfri posttypsvy](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
 * [Lägg till dem textbundet från posttypstabellvyn](#create-records-by-adding-them-inline-from-the-record-type-table-view)
-
-<div class="preview">
-
 * [Lägg till dem i tidslinjevyn för posttypen](#create-records-by-adding-them-in-the-record-type-timeline-view)
 * [Lägg till dem i posttypens kalendervy](#create-records-by-adding-them-in-the-record-type-calendar-view)
-
-</div>
-
 * [Kopiera och klistra in en lista med poster från en extern lista](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Duplicera poster från en tabellvy](#create-records-by-duplicating-them)
 * [Koppla dem från andra poster](#create-records-as-you-connect-them)
@@ -50,7 +47,7 @@ Mer information om hur du hanterar poster i tabell- och tidslinjevyer finns i f�
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.  
++++ Expandera om du vill visa åtkomstkraven för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -60,62 +57,97 @@ Mer information om hur du hanterar poster i tabell- och tidslinjevyer finns i f�
 <tbody> 
     <tr> 
 <tr> 
-<td> 
-   <p> Produkter</p> </td> 
-   <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li></ul></td> 
-  </tr>   
+</tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Något av följande Workfront-planer:</p> 
-<ul><li>Välj</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning är inte tillgängligt för tidigare Workfront-planer</p> 
+<ul> 
+<li><p>Alla Workfront- och Planning-paket</p></li>
+eller
+<li><p>Alla arbetsflöden och alla planeringsdokument</p></li></ul>
+<p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
    </td> 
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning-paket*</p></td> 
-   <td> 
-<p>Alla </p> 
-<p>Kontakta din kontoansvarige på Workfront om du vill ha mer information om vad som ingår i respektive Workfront Planning-plan. </p> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
+   <td><p>Standard</p>
    </td> 
- <tr> 
-   <td role="rowheader"><p>Adobe Workfront</p></td> 
-   <td> 
-<p>Din organisations instans av Workfront måste vara registrerad på Adobe Unified Experience för att få tillgång till Workfront Planning.</p> 
-<p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
-   </td> 
-   </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
-   <td> Standard
-   <p>Workfront Planning är inte tillgängligt för tidigare Workfront-licenser</p> 
-  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td> 
-   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning</p> 
-   <p>Redigera åtkomst i Workfront för de objekttyper som du vill skapa (projekt, program och portföljer) när du kopplar posterna till dem. </p>  
-</td> 
-  </tr> 
-<tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
    <td> <p>Contribute eller högre behörigheter på arbetsytan och den posttyp där du vill lägga till poster. </p>
    <p>Visa eller högre behörigheter på arbetsytan och posttypen för att skapa poster med hjälp av knappen Begär post på postsidan</p>
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>
    <p>Hantera behörigheter för Workfront-objekt (portföljer) för att lägga till underordnade objekt (projekt).</p>
    </td> 
-  </tr>
-
+  </tr>  
 </tbody> 
 </table>
 
-*Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td> Standard
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p> 
+   <p>Edit access in Workfront for the object types that you want to create (projects, programs, and portfolios) as you connect the records to them. </p>  
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td> <p>Contribute or higher permissions to the workspace and record type where you want to add records. </p>
+   <p>View or higher permissions to the workspace and record type to create records using the Request record button on the record page</p>
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+   <p>Manage permissions to Workfront objects (portfolios) to add children objects (projects).</p>
+   </td> 
+  </tr> 
+
+</tbody> 
+</table> -->
 
 ## Skapa poster med knappen Ny post eller Begär post från vilken posttyp som helst
 
@@ -154,7 +186,7 @@ Alla poster av den valda typen visas i vyn.
       * **Lägg till manuellt**. Postens förhandsvisningsruta öppnas.\
         Lägg till information om posten, enligt beskrivningen i avsnittet [Skapa poster genom att lägga till dem textbundet från posttyptabellvyn](#create-records-by-adding-them-inline-from-the-record-type-table-view) i den här artikeln, med början från steg 6. <!--insure this stays accurate-->
       * **Överför från fil**
-Lägg till poster enligt beskrivningen i artikeln [Skapa poster genom att importera information från en CSV- eller Excel-fil &#x200B;](/help/quicksilver/planning/records/import-file-to-create-records.md), med början i steg 6. <!--ensure this stays accurate-->
+Lägg till poster enligt beskrivningen i artikeln [Skapa poster genom att importera information från en CSV- eller Excel-fil ](/help/quicksilver/planning/records/import-file-to-create-records.md), med början i steg 6. <!--ensure this stays accurate-->
       * **Skicka en begäran**
 Formuläret med förfrågningar av posttyp öppnas.
 
@@ -275,8 +307,6 @@ Poster av den valda typen visas i vyn.
    * CTRL + Skift + Z (⌘ + Skift + Z för Mac) för att göra om en ändring
 
 
-<div class="preview">
-
 ## Skapa poster genom att lägga till dem i posttypens tidslinjevy
 
 Du kan skapa poster i tidslinjevyn på en posttypsida genom att dubbelklicka på tidslinjen.
@@ -341,9 +371,7 @@ Mer information om hur du skapar en tidslinjevy finns i [Hantera tidslinjevyn](/
    >
    >Miniatyrbilden visas bara i tidslinjevyn när den är aktiverad i vyinställningarna.
 
-</div>
 
-<div class="preview">
 
 ## Skapa poster genom att lägga till dem i posttypens kalendervy
 
@@ -408,9 +436,6 @@ Mer information om hur du skapar en kalendervy finns i [Hantera kalendervyn](/he
    >Miniatyrbilden visas bara i kalendervyn när den är aktiverad i vyinställningarna.
 
    <!--(*********when this is available in both monthly and weekly, add more steps to show resizing the timeline and dragging and dropping the record in the calendar*******)-->
-
-   </div>
-
 
 ## Skapa poster genom att kopiera och klistra in dem från en extern lista
 
@@ -528,7 +553,7 @@ Du kan konfigurera automatisering i Workfront Planning som, när den aktiveras, 
 
 Du kan konfigurera och aktivera automatiseringen på postens sida i Workfront Planning. Den anslutna post som skapas placeras i det anslutna fältet för den posttyp som du kör automatiseringen från.
 
-Mer information finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning &#x200B;](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+Mer information finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
 
 

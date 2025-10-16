@@ -1,11 +1,11 @@
 ---
-title: Konfigurera inställningar för posttyp
+title: Konfigurera inställningsområdet för en posttyp
 description: Du kan redigera posttyper efter att de har sparats på sidan Inställningar.
 hide: true
 hidefromtoc: true
-source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ recommendations: noDisplay, noCatalog
 
 -->
 
-# Konfigurera inställningar för posttyp
+# Konfigurera inställningsområdet för en posttyp
 
 <span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
@@ -66,10 +66,8 @@ Beroende på vilka funktioner du vill definiera för en posttyp kan du konfigure
 <li><p>Planeringspaket för att skapa kopplingsbara posttyper</p></li>
 <li><p>Planning Plus-paket för att skapa centraliserade posttyper</p></li>
 </ul>
-Eller:
-<ul><li><p>Alla arbetsflödespaket</p> </li>
-Och
-<li><p>Planera Prime- eller Ultimate-paket</p></li></ul>
+<p>Eller:</p>
+<ul><li><p>Ett Workflow and Planning Prime- eller Ultimate-paket</p> </li></ul>
 <p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av din kontoansvarige på Workfront. </p> 
    </td>
 
