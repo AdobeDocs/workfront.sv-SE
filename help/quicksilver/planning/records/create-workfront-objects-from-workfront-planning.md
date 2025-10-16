@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1316'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,11 @@ ht-degree: 0%
 
 # Skapa Workfront-objekt från Workfront Planning när du kopplar dem till poster
 
-<!-- update the title (and all the links to this article) at preview, to be this: Create Workfront objects from Workfront Planning as you connect them to records-->
 <!-- remove preview and production at release time-->
 
-<span class="preview">Informationen som är markerad på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -61,7 +60,7 @@ Tänk på följande när du ansluter och skapar Workfront-objekt till Workfront 
 
    * Registervyn för en posttyp
    * Området Detaljer för en post i anslutningsfältet
-   * <span class="preview">Postsidan för den anslutna posten för en post, i området Information</span>
+   * Postsidan för den anslutna posten, i området Detaljer
 
 * Du kan skapa portföljer och program från följande områden i Workfront Planning:
 
@@ -86,10 +85,7 @@ Mer information om hur du ansluter Planning-poster med Workfront-objekt finns i 
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<ul> 
-<li><p>Alla Workfront- och Planning-paket</p></li>
-eller
-<li><p>Alla arbetsflöden och alla planeringsdokument</p></li></ul>
+<p>Alla Workfront- och Planning-paket</p> <p>Alla arbetsflöden och alla planeringsdokument</p>
 <p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
    </td> 
 <tr> 
@@ -203,7 +199,7 @@ Du måste ha följande innan du kan lägga till nya projekt eller portföljer ge
 Du kan skapa projekt när du kopplar dem till poster i Workfront Planning i följande områden i Workfront Planning:
 
 * Registervyn för en posttyp eller området Detaljer för en post i anslutningsfältet
-* <span class="preview">Postsidan för den anslutna posten, i området Detaljer för en post </span>
+* Postsidan för den anslutna posten, i området Detaljer för en post
 
 ### Skapa projekt från området Detaljer för en post eller tabellvyn för en posttyp
 
@@ -228,8 +224,6 @@ Börja skriva namnet på ett projekt och klicka sedan på **Lägg till projekt**
 
 1. (Valfritt) Klicka på namnet på det nya projektet i Workfront Planning för att öppna projektets sida i Workfront och göra ytterligare uppdateringar i projektet.
 
-<div class="preview">
-
 ### Skapa projekt från sidan Anslutna poster i en post
 
 1. Koppla objekttypen till en Workfront Planning-posttyp i tabellvyn.
@@ -250,8 +244,6 @@ Börja skriva namnet på ett projekt och klicka sedan på **Lägg till projekt**
 
    Du kan bara lägga till ett tomt projekt i det här området. Du kan inte lägga till ett projekt med en mall.
 1. (Valfritt) Klicka på projektnamnet i tabellvyn för att öppna projektet i Workfront och lägga till mer information.
-
-</div>
 
 ## Skapa portfolior när du kopplar ihop dem med dokument från Workfront Planning
 

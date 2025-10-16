@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '3131'
+source-wordcount: '3130'
 ht-degree: 0%
 
 ---
@@ -61,10 +61,7 @@ Mer information om hur du hanterar poster i tabell- och tidslinjevyer finns i f�
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<ul> 
-<li><p>Alla Workfront- och Planning-paket</p></li>
-eller
-<li><p>Alla arbetsflöden och alla planeringsdokument</p></li></ul>
+<p>Alla Workfront- och Planning-paket</p> <p>Alla arbetsflöden och alla planeringsdokument</p>
 <p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
    </td> 
   <tr> 
@@ -186,7 +183,7 @@ Alla poster av den valda typen visas i vyn.
       * **Lägg till manuellt**. Postens förhandsvisningsruta öppnas.\
         Lägg till information om posten, enligt beskrivningen i avsnittet [Skapa poster genom att lägga till dem textbundet från posttyptabellvyn](#create-records-by-adding-them-inline-from-the-record-type-table-view) i den här artikeln, med början från steg 6. <!--insure this stays accurate-->
       * **Överför från fil**
-Lägg till poster enligt beskrivningen i artikeln [Skapa poster genom att importera information från en CSV- eller Excel-fil &#x200B;](/help/quicksilver/planning/records/import-file-to-create-records.md), med början i steg 6. <!--ensure this stays accurate-->
+Lägg till poster enligt beskrivningen i artikeln [Skapa poster genom att importera information från en CSV- eller Excel-fil ](/help/quicksilver/planning/records/import-file-to-create-records.md), med början i steg 6. <!--ensure this stays accurate-->
       * **Skicka en begäran**
 Formuläret med förfrågningar av posttyp öppnas.
 
@@ -553,7 +550,7 @@ Du kan konfigurera automatisering i Workfront Planning som, när den aktiveras, 
 
 Du kan konfigurera och aktivera automatiseringen på postens sida i Workfront Planning. Den anslutna post som skapas placeras i det anslutna fältet för den posttyp som du kör automatiseringen från.
 
-Mer information finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning &#x200B;](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+Mer information finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
 
 

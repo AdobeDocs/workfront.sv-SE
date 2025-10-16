@@ -6,18 +6,20 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '3431'
+source-wordcount: '3370'
 ht-degree: 0%
 
 ---
 
 # Hantera tabellvyn
 
-<span class="preview">Informationen som är markerad på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
 
 {{planning-important-intro}}
 
@@ -48,10 +50,8 @@ Mer information om hur du exporterar tabellvyn till en Excel- eller CSV-fil finn
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<ul> 
-<li><p>Alla Workfront- och Planning-paket</p></li>
-eller
-<li><p>Alla arbetsflöden och alla planeringsdokument</p></li></ul>
+<p>Alla Workfront- och Planning-paket</p>
+<p>Alla arbetsflöden och alla planeringsdokument</p>
 <p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
    </td> 
   <tr> 
@@ -153,16 +153,16 @@ När du skapar en tabellvy visas alla poster av den valda typen i en tabell. Var
 
 Så här hanterar du en tabellvy:
 
-1. <span class="preview">Skapa en tabellvy enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).</span>
+1. Skapa en tabellvy enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
 
-   <span class="preview">![Exempel på tabellvy](assets/table-view-example.png)</span>
+   ![Exempel på tabellvy](assets/table-view-example.png)
 
 1. (Valfritt) Klicka på **Radhöjd** och välj sedan bland följande alternativ för att ändra höjden på tabellraderna:
    * Kort
    * Medium
    * Hög
 
-1. <span class="preview">(Valfritt) Klicka på ikonen **Helskärm** ![Öppna helskärmsikonen](assets/open-full-screen-icon.png) om du vill öppna vyn i helskärmsläge och sedan på ikonen **Avsluta helskärm** ![Avsluta helskärmsikonen](assets/exit-full-screen-icon.png) eller Esc om du vill avsluta helskärmsläget.  </span>
+1. (Valfritt) Klicka på ikonen **Helskärm** ![Öppna helskärmsikonen](assets/open-full-screen-icon.png) om du vill öppna vyn i helskärmsläge och sedan på ikonen **Avsluta helskärm** ![Avsluta helskärmsikonen](assets/exit-full-screen-icon.png) eller Esc på tangentbordet om du vill avsluta helskärmsläget.
 
 1. Uppdatera följande vyelement enligt beskrivningen i underavsnitten nedan:
    * [Kolumner (eller fält)](#add-columns-or-fields)
@@ -198,12 +198,7 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
 
    * Klicka på **Fält** i tabellens verktygsfält, dra och släpp fälten i önskad ordning och klicka sedan utanför rutan **Fältens synlighet och ordning** för att stänga den.
 
-     <div class="preview">
-
      ![Fältinställningstabellens verktygsfält utökat](assets/fields-setting-table-view-toolbar-expanded.png)
-
-     </div>
-
 
      >[!TIP]
      >
@@ -246,9 +241,9 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
 
 1. Gör följande för att snabbt hitta poster som matchar ett nyckelord:
 
-   1. <span class="preview">I rutan **Sök** ![Sök-ikon](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med ett fält i en post som visas på skärmen.</span> Antalet korrekta matchningar visas bredvid sökobjektet och fältet med rätt matchning markeras.
+   1. I **sökrutan** ![sökikonen](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med ett fält i en post som visas på skärmen. Antalet korrekta matchningar visas bredvid sökobjektet och fältet med rätt matchning markeras.
 
-      <span class="preview">![Sökruta med resultatblå kontur i tabellvyn](assets/search-box-with-results-blue-outline-table-view.png)</span>
+      ![Sökruta med resultatblå kontur i tabellvyn](assets/search-box-with-results-blue-outline-table-view.png)
 
       Du kan använda vilket ord eller specialtecken som helst som visas på skärmen.
 
@@ -437,7 +432,7 @@ Tänk på följande när du sorterar poster i tabellvyn:
 Så här sorterar du <!--ungrouped (add this when sorting for groupings will be available--> poster:
 
 1. Skapa en tabellvy enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
-1. Klicka på ikonen **Sortera** ![Sortera &#x200B;](assets/sort-icon.png) i tabellens övre högra hörn
+1. Klicka på ikonen **Sortera** ![Sortera ](assets/sort-icon.png) i tabellens övre högra hörn
 
    eller
 
@@ -502,13 +497,11 @@ Så här lägger du till en gruppering:
 
 1. (Valfritt) Klicka på **Lägg till villkor** och upprepa stegen ovan för att lägga till upp till tre grupperingar.
 
-   <div class="preview">
-
    Antalet fält som har valts för grupperingen visas bredvid grupperingsikonen.
 
    ![Gruppering använd i tabellvy](assets/grouping-applied-in-table-view.png)
 
-   </div>
+
 
 1. (Valfritt) I rutan **Gruppera poster efter** klickar du på ikonen **x** till höger om ett fält som är markerat för grupperingen för att ta bort grupperingen
 

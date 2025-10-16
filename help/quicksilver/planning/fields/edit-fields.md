@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -46,10 +46,7 @@ I den här artikeln beskrivs hur du kan redigera inställningarna för Workfront
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<ul> 
-<li><p>Alla Workfront- och Planning-paket</p></li>
-eller
-<li><p>Alla arbetsflöden och alla planeringsdokument</p></li></ul>
+<p>Alla Workfront- och Planning-paket</p> <p>Alla arbetsflöden och alla planeringsdokument</p>
 <p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
    </td> 
   <tr> 
@@ -150,7 +147,7 @@ Du måste tänka på följande innan du gör ändringar i ett fälts konfigurati
   >Det finns inget meddelande till andra användare om att fältkonfigurationen har ändrats.
 
 * Du kan redigera befintliga uppslagsfält från anslutna poster.
-* Förutom att redigera fältet enligt beskrivningen i avsnittet [Redigera fältinställningar](#edit-field-settings-1) i den här artikeln, kan <span class="preview">du redigera ett envalsfält eller flervalsfält när du redigerar en post i tabellvyn när du uppdaterar fältvärdena. Mer information finns i avsnittet [Lägg till nya alternativ i ett befintligt urvalsfält när du redigerar poster i tabellvyn](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view) i den här artikeln.</span>
+* Förutom att redigera fältet enligt beskrivningen i avsnittet [Redigera fältinställningar](#edit-field-settings-1) i den här artikeln kan du redigera ett envalsfält eller flervalsfält när du redigerar en post i tabellvyn när du uppdaterar fältvärdena. Mer information finns i avsnittet [Lägg till nya alternativ i ett befintligt urvalsfält när du redigerar poster i tabellvyn](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view) i den här artikeln.
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 

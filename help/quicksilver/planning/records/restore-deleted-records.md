@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8b6df633-eb05-4d3e-bfe6-76cedabdb76d
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -41,10 +41,7 @@ Mer information om hur du tar bort poster finns i [Ta bort poster](/help/quicksi
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<ul> 
-<li><p>Alla Workfront- och Planning-paket</p></li>
-eller
-<li><p>Alla arbetsflöden och alla planeringsdokument</p></li></ul>
+<p>Alla Workfront- och Planning-paket</p> <p>Alla arbetsflöden och alla planeringsdokument</p>
 <p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
    </td> 
   <tr> 
@@ -136,7 +133,7 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 ## Återställ borttagna poster
 
 1. Gå till posttypssidan där du har tagit bort poster.
-1. Klicka på ikonen **Ångra** ![Ångra &#x200B;](assets/undo-icon.png) i det övre högra hörnet av en sidvy för en posttyp och klicka sedan på **Senast borttagen**.
+1. Klicka på ikonen **Ångra** ![Ångra ](assets/undo-icon.png) i det övre högra hörnet av en sidvy för en posttyp och klicka sedan på **Senast borttagen**.
 
    Rutan **Nyligen borttagen** visas.
 

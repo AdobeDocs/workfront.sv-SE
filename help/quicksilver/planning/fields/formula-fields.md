@@ -6,18 +6,20 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
 
 # Översikt över formelfält
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -27,9 +29,11 @@ Formelfält genererar ett nytt värde med hjälp av befintliga värden från and
 
 Mer information finns i avsnittet Formel i artikeln [Skapa fält](/help/quicksilver/planning/fields/create-fields.md).
 
-## Åtkomstkrav
+<!--do we need these for an overview article?
 
-+++ Expandera om du vill visa åtkomstkraven för funktionerna i den här artikeln. 
+## Access requirements
+
++++ Expand to view the access requirements for the functionality in this article. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -43,28 +47,28 @@ Mer information finns i avsnittet Formel i artikeln [Skapa fält](/help/quicksil
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<ul> 
-<li><p>Alla Workfront- och Planning-paket</p></li>
-eller
-<li><p>Alla arbetsflöden och alla planeringsdokument</p></li></ul>
-<p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
+<p>Any Workfront and any Planning package</p>
+<p>Any Workflow and any Planning package</p>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
    <td><p>Standard</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Objektbehörigheter</p></td> 
-   <td>   <p>Hantera behörigheter till en arbetsyta</p>  
-   <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>  </td> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace</p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
   </tr>  
 </tbody> 
-</table>
+</table> 
 
-Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
+
+-->
 
 <!--Old:
 
@@ -146,19 +150,11 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
   Mer information finns i avsnittet Formel i artikeln [Skapa fält](/help/quicksilver/planning/fields/create-fields.md).
 * Du kan referera till formelfält i nya formler. När värdet uppdateras i ett fält som det refereras till i ett formelfält, uppdateras alla efterföljande fält som refererar till det fältet eller formelfälten som innehåller det fältet automatiskt.
 
-<div class="preview">
-
 * När du uppdaterar ett formelfält eller ett fält som kan påverka det visas ett varningsmeddelande om hur ändringen påverkar dig. Varningen visas i följande fall:
 
    * När du uppdaterar ett formelfält (exklusive ändringar av namn och beskrivning) när det fältet har beroende formelfält eller uppslagsfält. Aviseringen visar de beroende fälten och frågar om du vill fortsätta.
 
    * När du tar bort ett fält som används i ett formeluttryck eller som ett uppslagsfält. Varningen visar de beroende formeln och sökfälten och frågar om du vill fortsätta med borttagningen.
-
-</div>
-
-
-
-<div class="preview">
 
 ## Begränsningar för formelfält
 
@@ -177,7 +173,6 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
      Om jag t.ex. väljer Nummer som format för ett formelfält, och de fält som används i formeln är textfält som bara visar icke-numeriska textvärden, visas formelresultatet som `#ERROR!`, eftersom det inte kan tolka texten till ett tal.
 
-</div>
 
 ## Formler som stöds
 

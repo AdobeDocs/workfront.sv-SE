@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '617'
 ht-degree: 0%
 
 ---
@@ -40,10 +40,7 @@ Du kan ta bort poster som inte längre är relevanta i Adobe Workfront Planning.
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<ul> 
-<li><p>Alla Workfront- och Planning-paket</p></li>
-eller
-<li><p>Alla arbetsflöden och alla planeringsdokument</p></li></ul>
+<p>Alla Workfront- och Planning-paket</p> <p>Alla arbetsflöden och alla planeringsdokument</p>
 <p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
    </td> 
   <tr> 
@@ -156,11 +153,11 @@ Du kan ta bort en post från följande områden:
 
    Postsidan öppnas.
 
-1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om postnamnet, klicka sedan på **Ta bort** och sedan på **Ta bort** igen för att bekräfta.
+1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om postnamnet, klicka sedan på **Ta bort** och sedan på **Ta bort** igen för att bekräfta.
 
    ![Fler menyalternativ från postinformationssidan](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 Posten tas bort.
-1. (Valfritt) Gå till tabellvyn på postsidan och klicka på ikonen **Ångra** ![Ångra &#x200B;](assets/undo-icon.png) i det övre högra hörnet av vyn. Klicka sedan på **Senast borttagen** för att återställa de borttagna posterna.
+1. (Valfritt) Gå till tabellvyn på postsidan och klicka på ikonen **Ångra** ![Ångra ](assets/undo-icon.png) i det övre högra hörnet av vyn. Klicka sedan på **Senast borttagen** för att återställa de borttagna posterna.
 
 Mer information om hur du återställer borttagna poster finns i [Återställa borttagna poster](/help/quicksilver/planning/records/restore-deleted-records.md).
 
@@ -181,7 +178,7 @@ Mer information om hur du återställer borttagna poster finns i [Återställa b
 1. Gör något av följande:
 
    * Högerklicka på en postrad och klicka sedan på **Ta bort**.
-   * Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om postnamnet och klicka sedan på **Ta bort**.
+   * Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om postnamnet och klicka sedan på **Ta bort**.
 
      ![Sammanhangsbaserad meny för postrad](assets/contextual-menu-for-record-row.png)
 
@@ -191,7 +188,7 @@ Mer information om hur du återställer borttagna poster finns i [Återställa b
 
 1. (Valfritt) Gör något av följande om du vill ångra eller göra om borttagning av en post:
 
-   * Klicka på ikonen **Ångra** ![Ångra &#x200B;](assets/undo-icon.png) och sedan på **Senast borttagen** för att återställa de borttagna posterna. Mer information om hur du återställer borttagna poster finns i [Återställa borttagna poster](/help/quicksilver/planning/records/restore-deleted-records.md).
+   * Klicka på ikonen **Ångra** ![Ångra ](assets/undo-icon.png) och sedan på **Senast borttagen** för att återställa de borttagna posterna. Mer information om hur du återställer borttagna poster finns i [Återställa borttagna poster](/help/quicksilver/planning/records/restore-deleted-records.md).
    * Använd följande kortkommandon för att ångra eller göra om borttagning av en post:
 
       * CTRL + Z (⌘ + Z för Mac) för att ångra borttagning av en post

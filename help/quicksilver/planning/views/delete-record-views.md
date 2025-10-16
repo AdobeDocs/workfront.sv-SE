@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
 
 # Ta bort postvyer
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -42,11 +42,10 @@ Vyn tas bort för alla användare som har behörighet att komma åt den. Det gå
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<ul> 
-<li><p>Alla Workfront- och Planning-paket</p></li>
-eller
-<li><p>Alla arbetsflöden och alla planeringsdokument</p></li></ul>
-<p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
+   <p>Alla Workfront- och Planning-paket</p>
+
+<p>Alla arbetsflöden och alla planeringsdokument</p>
+   <p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
@@ -139,20 +138,10 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
    Som standard visas alla poster av den valda typen i tabellvyn.
 
 
-1. Gör något av följande på fliken i vyn:
+1. Klicka på vyns flik, håll muspekaren över vyn i listrutan, klicka på menyn **Mer** ![Mer](assets/more-menu.png) och klicka sedan på **Ta bort**.</span>
 
-   * Beroende på vilken miljö du öppnar vyn från gör du följande:
+   ![Mer meny med alternativ](assets/more-menu-for-views-expanded-with-delete-option.png)
 
-      * I produktionsmiljön håller du pekaren över fliknamnet för den vy du vill dela och klickar på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om vynamnet. Klicka sedan på **Ta bort**.
-
-     >[!TIP]
-     >
-     >Du kan behöva klicka på **Mer** till höger om den sista fliken för att hitta vyn som du vill ta bort.
-
-      * <span class="preview"> I förhandsvisningsmiljön klickar du på vyns flik, för pekaren över vyn i listrutan, klickar på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) och klickar sedan på **Ta bort**.</span>
-
-     ![Mer meny med alternativ](assets/more-menu-for-views-expanded-with-delete-option.png)
-
-1. Bekräfta genom att klicka på **Ta bort**. <!--ensure there is not another saving step here?!-->
+1. Bekräfta genom att klicka på **Ta bort**.
 
    Vyn tas bort för alla användare som har åtkomst till postområdet.

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '2395'
+source-wordcount: '2262'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,10 @@ ht-degree: 0%
 
 # Hantera postsidans layout
 
-<span class="preview">Informationen som är markerad på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -54,10 +55,8 @@ Mer information finns i följande artiklar:
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<ul> 
-<li><p>Alla Workfront- och Planning-paket</p></li>
-eller
-<li><p>Alla arbetsflöden och alla planeringsdokument</p></li></ul>
+<p>Alla Workfront- och Planning-paket</p>
+<p>Alla arbetsflöden och alla planeringsdokument</p>
 <p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
    </td> 
   <tr> 
@@ -276,7 +275,7 @@ Följande saker händer:
 
    ![Informationssida](assets/details-page.png)
 
-1. På fliken **Detaljer** klickar du på ikonen **Ta** ![Ta tag i &#x200B;](assets/grab-icon.png) till vänster om fältnamnet och drar och släpper den på önskad plats.
+1. På fliken **Detaljer** klickar du på ikonen **Ta** ![Ta tag i ](assets/grab-icon.png) till vänster om fältnamnet och drar och släpper den på önskad plats.
 
    >[!TIP]
    >
@@ -290,24 +289,15 @@ Följande saker händer:
 
 ## Lägga till en sida med kopplade poster i en post
 
-Du kan visa information från anslutna poster eller objekt genom att lägga till en flik för en sida med kopplade poster till en post.
-
-Informationen från de anslutna posterna kan redigeras i tabellvyn. Informationen från objekten som är anslutna från ett annat program kan inte redigeras i tabellvyn.
+Du kan visa information från anslutna poster eller objekt genom att lägga till en flik för en sida med kopplade poster till en post. Då läggs de kopplade posterna i en tabellvy till på fliken.
 
 Tänk på följande när du lägger till en sida med kopplade poster till en post:
 
 * Du kan lägga till en sida med kopplade poster till en post efter att du har kopplat post- eller objekttyper till posttypen från tabellvyn för en posttyp.
 
-* I produktionsmiljön kan du inte lägga till en sida med kopplade poster från en posts förhandsgranskning.
+* Du kan lägga till en sida med kopplade poster från en posts förhandsgranskningsområde eller postens sida.
 
-  <span class="preview">Du kan lägga till en sida med kopplade poster från en posts förhandsgranskning i förhandsvisningsmiljön.</span>
-
-* Anslutna postsidor visar endast anslutna objekt eller poster från ett objekt eller en posttyp i en tabellvy. På sidan visas inte alla poster av den typen i tabellvyn.
-
-* Beroende på vilken miljö du använder kan du se följande:
-
-   * När du har lagt till en sida med kopplade poster till en post i produktionsmiljön visas sidfliken från postens förhandsvisningsområde, men den är tom. Du måste gå till den fullständiga sidan för att se tabellvyn för den anslutna posten.
-   * <span class="preview">I förhandsgranskningsmiljön visas sidan Anslutna poster både från postens förhandsgranskningsområde och från webbläsarfliken.</span>
+* Anslutna postsidor visar endast anslutna objekt eller poster från ett objekt eller en posttyp i en tabellvy. På sidan visas inte alla poster av den typen.
 
 * Du kan lägga till sidor med kopplade poster för följande anslutna post- eller objekttyper:
 
@@ -316,14 +306,14 @@ Tänk på följande när du lägger till en sida med kopplade poster till en pos
 
   >[!NOTE]
   >
-  >   Du kan inte lägga till en sida med kopplade poster för anslutna AEM Assets-poster.
+  > Du kan inte lägga till en sida med kopplade poster för anslutna AEM Assets-poster.
 
 Så här lägger du till en sida med anslutna poster:
 
-1. Klicka på namnet på posten för att öppna den.
+1. Klicka på postens namn för att öppna den från en vy av en posttypssida.
 1. Klicka på **Lägg till sida** i något av följande områden:
 
-   * <span class="preview">Postens förhandsgranskningsfönster</span>
+   * Postens förhandsgranskningsfönster
    * Postens informationssida när du har klickat på ikonen **Öppna på ny flik** ![Öppna information på en ny flikikon](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet på förhandsvisningssidan.
 
    Rutan **Skapa sida** öppnas.
@@ -332,86 +322,93 @@ Så här lägger du till en sida med anslutna poster:
 
 1. Lägg till **sidnamnet**, klicka på sidan **Anslutna poster** och klicka sedan på **Skapa**.
 
-   En ny flik läggs till på postens sida.
-1. Sök efter eller klicka på namnet på en ansluten post eller objekttyp i listan.
-Tabellvyn för den posttyp du valde visas på den nya sidan och de kopplade posterna visas i tabellvyn.
-Alla fält i den anslutna posten visas i tabellvyn på den anslutna postens flik.
+   En ny sida med kopplade poster läggs till som en ny flik på postens sida.
 
-   De första fem fälten från den anslutna posttabellen visas som standard. Inga sökfält visas som standard.
+   Posterna som är kopplade till den aktuella posten visas i tabellvyn.
+
+   >[!TIP]
+   >
+   >Du måste lägga till kopplade poster i tabellen eller i området Detaljer för en post innan du kan visa dem på en ansluten postsida.
+
+   <!--All fields of the connected record display in the table view of the connected record's tab.-->
+
+   De första fem fälten i de anslutna posterna visas som standard. <!--No lookup fields display by default.-->
 
    ![Målgruppsansluten tabellvy under kampanjinformation](assets/audience-connected-table-view-under-campaign-details-page.png)
 
-1. (Valfritt) Gör något av följande i tabellvyn för de anslutna posterna:
+1. (Valfritt) Sök efter eller klicka på namnet på en ansluten post eller objekttyp i listan.
+
+1. (Valfritt och villkorligt) Gör något av följande i tabellvyn på den anslutna postsidan när du visar anslutna Planning-poster eller andra Workfront-objekt, förutom för projekt: <!--or AEM Assets--> <!--AEM is not available yet?? see note below-->
 
    * Klicka på namnet på en post. Posten öppnas på en ny flik.
 
-     Då öppnas postens förhandsgranskningssida. Klicka på ikonen **Öppna på en ny flik** ![Öppna på en ny flik](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet för att öppna den anslutna postens sida.
+   * Klicka på **Anslut** längst ned i tabellvyn om du vill ansluta fler poster och klicka sedan utanför anslutningsrutan för att stänga den. De nya posterna läggs automatiskt till i tabellen.
 
-   * Klicka på **Anslut** för att ansluta fler poster och klicka sedan utanför anslutningsrutan för att stänga den. De nya posterna läggs automatiskt till i tabellen.
+     Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
    * Redigera all information från de anslutna posterna i tabellvyn.
 
-   * Håll muspekaren över namnet på en ansluten post, klicka på menyn **Mer** ![Mer](assets/more-menu.png) och klicka sedan på något av följande alternativ:
-      * Visa
-      * Kopiera länk
-      * Redigera miniatyrbild
-      * Duplicera
-      * Infoga post ovanför eller nedanför
-      * Ta bort
-   * Markera en av posterna och klicka sedan på något av följande alternativ i det blå fältet längst ned på skärmen:
-      * Visa
-      * Kopiera länk
-      * Redigera miniatyrbild
-      * Duplicera
-      * Ta bort. Ta bort är det enda tillgängliga alternativet när du markerar mer än en post.
+   * Håll muspekaren över namnet på en ansluten post och klicka sedan på menyn **Mer** ![Mer](assets/more-menu.png)
+
+     eller
+
+     Markera en av posterna och klicka sedan på något av följande alternativ i det blå fältet längst ned i listan:
+
+      * **Visa** om du vill öppna postsidan på en ny flik
+      * **Kopiera länk** för att kopiera en länk till postsidan
+      * **Redigera miniatyrbild** för att öppna rutan **Spela in miniatyrbild** och redigera postens miniatyrbild
+      * **Duplicera** om du vill duplicera den anslutna posten. Den duplicerade posten är även ansluten till den aktuella posten.
+      * **Infoga posten ovanför eller under** om du vill lägga till nya poster till den anslutna posttypen. Nya poster som läggs till här är också kopplade till den aktuella posten. Det här alternativet är inte tillgängligt i det blå fältet när du markerar en post i tabellen.
+      * **Ta bort** om du vill ta bort posten. Om du tar bort en ansluten post tas den bort från sin posttyp och från alla ställen där posten är ansluten.
 
      Mer information om hur du redigerar poster i tabellvyn finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).
 
-   * Redigera alla poster i tabellen på sidan Anslutna poster.
+         >[!TIP]
+         >
+         >Du kan markera flera poster eller objekt som du vill ta bort.
+     
+   * Redigera alla planeringsposter i tabellen på sidan Anslutna poster.
 
-     I produktionsmiljön visas alla Workfront-objekt i en skrivskyddad tabellvy och du kan inte redigera dem.
+     Alla andra Workfront-objekt visas i en skrivskyddad tabellvy och du kan inte redigera dem.
 
-     <span class="preview">I förhandsvisningsmiljön kan du infoga redigeringsprojekt på sidan för anslutna poster.</span>
+1. (Valfritt och villkorligt) Gör något av följande i tabellvyn på den anslutna postsidan när du visar anslutna Workfront-projekt:
 
-1. <span class="preview">(Villkorligt) Gör något av följande när du visar en lista över anslutna projekt:</span>
+   * Klicka på **Anslut poster** i det övre högra hörnet på den anslutna postsidan om du vill ansluta befintliga projekt.
 
-   * <span class="preview">Klicka på **Anslut poster** i det övre högra hörnet på den anslutna postsidan om du vill ansluta befintliga projekt.</span>
-   * <span class="preview">Redigera projektinformation infogat i tabellen.</span>
-   * <span class="preview">Klicka på **Ny rad** om du vill skapa ett projekt utan en mall. Det nya projektet är omedelbart anslutet till den aktuella posten.</span>
+   Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
+   * Inline redigera projektinformation i registret.
+   * Klicka på **Ny rad** om du vill skapa ett projekt utan en mall. Det nya projektet ansluts direkt till den aktuella posten.
 
      Mer information finns i [Skapa Workfront-objekt från Workfront Planning när du ansluter dem till poster](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
-   * <span class="preview">Hovra över ett projekt och klicka på menyn **Mer** [Mer](assets/more-menu.png) och sedan på något av följande:</span>
-      * <span class="preview">**Ta bort** om du vill ta bort projektet. Om du tar bort ett projekt kopplas det från posten och flyttas till Workfront papperskorg. </span>
-      * <span class="preview">**Koppla från** om du vill koppla från projektet från posten. När du kopplar från ett projekt tas det bort och alla värden i sökfälten tas bort från den aktuella posten. </span>
+   * Hovra över ett projekt och klicka på menyn **Mer** [Mer](assets/more-menu.png)
 
-1. (Valfritt) Dubbelklicka på namnet på fliken Anslutna poster
+     eller
+
+     Markera ett eller flera projekt och lägg märke till det blå fältet längst ned i listan. Klicka sedan på något av följande:
+
+      * **Ta bort** om du vill ta bort projektet. Om du tar bort ett projekt kopplas det från posten och flyttas till Workfront papperskorg.
+      * **Koppla från** om du vill koppla från projektet från posten. När du kopplar från ett projekt tas det bort och alla värden i sökfälten tas bort från den aktuella posten.
+
+1. (Valfritt) Dubbelklicka på namnet på fliken **Anslutna poster**
 
    eller
 
    Håll muspekaren över flikens namn, klicka sedan på **Mer** ![Mer-menyn](assets/more-menu.png) och klicka sedan på **Byt namn** för att byta namn till den nya fliken Ansluten vy.
-1. (Valfritt) Använd något av följande vyelement i verktygsfältet för att hantera tabellvyn:
+1. (Valfritt) Använd något av följande vyelement i verktygsfältet på en ansluten postsida för att hantera tabellvyn:
 
    * Filter
    * Sortera
    * Gruppering
    * Fält, för att visa, dölja eller ordna om fält
+   * Radhöjd
+   * Sök
 
    Mer information finns i [Hantera tabellvyn](/help/quicksilver/planning/views/manage-the-table-view.md).
 
    >[!NOTE]
    >
-   >   Du kan inte skapa, redigera eller ta bort fält i tabellvyn på fliken för en ansluten post.
-   >
+   >Du kan inte skapa, redigera eller ta bort fält i tabellvyn på fliken för en ansluten post.
 
-1. (Villkorligt) Gör något av följande om du vill koppla fler poster eller objekt:
-
-   * Klicka på **Anslut** längst ned i tabellen om du vill lägga till eller ta bort poster eller Workfront-objekt <span class="preview">förutom projekt.</span>
-   * <span class="preview">Klicka på **Anslut poster** i det övre högra hörnet på sidan med anslutna poster om du vill ansluta befintliga projekt eller klicka på **Ny rad** längst ned i tabellen om du vill skapa projekt och ansluta dem automatiskt till den aktuella posten.</span>
-
-   Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
 1. (Valfritt) Håll pekaren över namnet på fliken Anslutna poster, klicka på **Mer** ![Mer-menyn](assets/more-menu.png) och klicka sedan på **Ta bort** för att ta bort fliken.
-
-
-
 
 <!--
 ## Add a Brief page to a record's page

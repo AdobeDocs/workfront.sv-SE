@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '3352'
+source-wordcount: '3319'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,13 @@ ht-degree: 0%
 
 # Koppla poster
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -72,10 +76,8 @@ Du kan ansluta följande:
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<ul> 
-<li><p>Alla Workfront- och Planning-paket</p></li>
-eller
-<li><p>Alla arbetsflöden och alla planeringsdokument</p></li></ul>
+<p>Alla Workfront- och Planning-paket</p>
+<p>Alla arbetsflöden och alla planeringsdokument</p>
 <p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
    </td> 
 <tr> 
@@ -387,7 +389,7 @@ När du har skapat en anslutning mellan en posttyp och Adobe Experience Manager 
 
 >[!NOTE]
 >
->Planeringsposter och deras fält är tillgängliga från Experience Manager Assets när Workfront-administratören konfigurerar metadatamappningen genom integrationen mellan Workfront och Adobe Experience Manager Assets. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+>Planeringsposter och deras fält är tillgängliga från Experience Manager Assets när Workfront-administratören konfigurerar metadatamappningen genom integrationen mellan Workfront och Adobe Experience Manager Assets. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 Så här ansluter du poster med Experience Manager-resurser:
 
@@ -452,7 +454,7 @@ Så här ansluter du poster med Experience Manager-resurser:
    * Skapad den
    * Ändrat den
 
-1. (Valfritt) Om du vill öppna Experience Manager resurspostsida i Experience Manager går du till posttypssidan för den post du länkar från, klickar på namnet på en resurs i det länkade postfältet för att öppna popup-fönstret och klickar sedan på ikonen **Öppna i AEM** ![Öppna resurs i AEM-ikon &#x200B;](assets/open-asset-icon.png) för att öppna resursen.
+1. (Valfritt) Om du vill öppna Experience Manager resurspostsida i Experience Manager går du till posttypssidan för den post du länkar från, klickar på namnet på en resurs i det länkade postfältet för att öppna popup-fönstret och klickar sedan på ikonen **Öppna i AEM** ![Öppna resurs i AEM-ikon ](assets/open-asset-icon.png) för att öppna resursen.
 
    Då öppnas Experience Manager-resursen i Adobe Experience Manager Assets.
 
@@ -511,18 +513,23 @@ Posterna och objekten läggs till omedelbart.
 1. Klicka på namnet på en post.
 
    Förhandsgranskningssidan öppnas.
-1. Klicka på ikonen **Öppna på ny flik** ![Öppna information på en ny flikikon](assets/open-details-in-a-new-tab-icon.png) för att öppna postens sida.
-1. Klicka på en befintlig flik på sidan Anslutna poster på postens sida. Du måste först skapa en sida med kopplade poster.
+1. (Valfritt) Klicka på ikonen **Öppna på ny flik** ![Öppna information på en ny flikikon](assets/open-details-in-a-new-tab-icon.png) för att öppna postens sida.
+1. Klicka på en befintlig **flik för kopplade poster** på postens sida. Du måste först skapa sidan **Anslutna poster**.
 
    En sida med kopplad posttyp visas i tabellvyn.
 
    Alla sammankopplade poster av en typ visas i tabellen.
-1. Klicka på **Anslut** eller <span class="preview">**Anslut poster** i en lista med projekt</span> om du vill lägga till eller ta bort befintliga poster.
+
+   >[!TIP]
+   >
+   >Du måste lägga till anslutna poster i den aktuella posten för att kunna visa dem på sidan med anslutna poster.
+
+1. Klicka på **Anslut** i en lista över poster eller **Anslut poster** i en lista över projekt om du vill lägga till eller ta bort befintliga poster eller projekt.
 
    ![Knappen Anslut är markerad på fliken med information om den anslutna posten](assets/connect-button-highlighted-in-connected-record-details-tab.png)
 
    Mer information finns i [Hantera postsidans layout](/help/quicksilver/planning/records/manage-the-record-page.md).
-1. <span class="preview">Klicka på **Ny rad** i en lista med projekt för att skapa ett projekt. De nya projekten ansluts automatiskt till den aktuella posten. </span>
+1. Klicka på **Ny rad** i en lista med projekt om du vill skapa ett projekt utan mall. De nya projekten ansluts automatiskt till den aktuella posten.
 1. (Valfritt) Om du inte kan hitta någon ansluten post klickar du på **+ Lägg till** för att skapa och ansluta den.
 
 ## Koppla ihop poster från Workfront-objekt

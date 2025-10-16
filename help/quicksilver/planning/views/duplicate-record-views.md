@@ -6,20 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 441a53d1-ad39-41b7-93fe-2ae1836476c9
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
 
 # Duplicera postvyer
 
-<!--remove preview and production references-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
-
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -48,10 +46,9 @@ Det är samma sak att duplicera vyer för alla typer av vyer i Workfront Plannin
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<ul> 
-<li><p>Alla Workfront- och Planning-paket</p></li>
-eller
-<li><p>Alla arbetsflöden och alla planeringsdokument</p></li></ul>
+<p>Alla Workfront- och Planning-paket</p>
+
+<p>Alla arbetsflöden och alla planeringsdokument</p>
 <p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
    </td> 
   <tr> 
@@ -141,11 +138,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
    Posttypssidan öppnas.
 Som standard visas alla poster av den valda typen i tabellvyn.
 
-1. Beroende på vilken miljö du använder gör du följande:
+1. Klicka på listruteikonen ![Listruteikonen](assets/drop-down-icon.png) bredvid det aktuella vynamnet, hovra över namnet på en vy, klicka på **Mer** och sedan på **Duplicera**.
 
-   * I produktionsmiljön håller du pekaren över ett av vynamnen på fliken Visa, klickar på **Mer** ![Mer-menyn](assets/more-menu.png) till vänster om vynamnet och klickar sedan på **Duplicera**.
-   * <span class="preview">I förhandsvisningsmiljön klickar du på listruteikonen ![Listruteikonen](assets/drop-down-icon.png) bredvid den aktuella vyns namn, håller markören över namnet på en vy, klickar på **Mer** och sedan på **Duplicera**.</span>
+   ![Mer meny visas med alternativ](assets/more-menu-for-views-expanded-with-delete-option.png)
 
-     ![Mer meny visas med alternativ](assets/more-menu-for-views-expanded-with-delete-option.png)
-
-     Vyn är duplicerad och den nya vyns namn följer följande mönster: `Original view's name (Copy)`. Fliken Ny vy visas i slutet av alla visningsflikar.
+   Vyn är duplicerad och den nya vyns namn följer följande mönster: `Original view's name (Copy)`. Fliken Ny vy visas i slutet av alla visningsflikar.

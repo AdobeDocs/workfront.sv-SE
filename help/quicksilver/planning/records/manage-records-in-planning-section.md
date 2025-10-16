@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: '1767'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 # Hantera postanslutningar från Workfront-objekt
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
 
 {{planning-important-intro}}
 
@@ -45,10 +45,8 @@ Du kan visa Workfront Planning-poster i Workfront i följande områden av objekt
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<ul> 
-<li><p>Alla Workfront- och Planning-paket</p></li>
-eller
-<li><p>Alla arbetsflöden och alla planeringsdokument</p></li></ul>
+<p>Alla Workfront- och Planning-paket</p>
+<p>Alla arbetsflöden och alla planeringsdokument</p>
 <p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
    </td> 
   <tr> 
@@ -172,7 +170,7 @@ Tänk på följande när du visar Workfront Planning-poster från Planning-delen
    * [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [Koppla poster](/help/quicksilver/planning/records/connect-records.md)
 * Du kan visa Planning-avsnittet från ett Workfront-objekt, även när det inte finns några poster kopplade till Workfront-objektet.
-* <span class="preview">En posttyp visas bara i Planning-området för ett Workfront-objekt när du aktiverar Skapa motsvarande fält i den länkade posttypsinställningen när du skapar anslutningen mellan två posttyper.</span>
+* En posttyp visas bara i området Planning för ett Workfront-objekt när du aktiverar fältet Skapa motsvarande i den länkade posttypsinställningen när du skapar anslutningen mellan två posttyper.
 
   Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
 
@@ -262,7 +260,7 @@ Tänk på följande när du visar Workfront Planning-poster från ett Planning-a
 
   Du kan till exempel koppla ett anpassat formulär med ett Planning-anslutningsfält till aktiviteter, men du kan inte koppla Workfront Planning-objekt till aktiviteter.
 * Du kan inte redigera ett planeringsanslutningsfält när du redigerar flera Workfront-objekt samtidigt.
-* <span class="preview">En posttyp visas bara i ett anpassat fält för planeringsanslutning i ett Workfront-objekt när du aktiverar Skapa motsvarande fält i den länkade posttypsinställningen när du skapar anslutningen mellan två posttyper.</span>
+* En posttyp visas bara i ett anpassat fält för en planeringsanslutning i ett Workfront-objekt om du aktiverar fältet Skapa motsvarande i den länkade posttypsinställningen när du skapar anslutningen mellan två posttyper.
 
   Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
 
