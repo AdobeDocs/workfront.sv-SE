@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 479dfb9d-0e47-4790-a33a-336b415fbf6e
-source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
+source-git-commit: 30b61b32add4c6d062b5b524773d309008c9563d
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 ---
 
 # Inaktivera eller återaktivera ett företag
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 Du kan inaktivera ett företag som du inte längre använder samtidigt som alla tillhörande historiska data bevaras. Om du inaktiverar ett företag som redan används någonstans i systemet fortsätter det att fungera precis som vanligt. Den har inte tagits bort eller blockerats.
 
@@ -67,8 +69,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 1. Klicka på ikonen **[!UICONTROL Companies]** ![Företag](assets/companies-icon-left-panel.png) i den vänstra panelen.
 
 1. Välj ett eller flera företag att inaktivera eller återaktivera.
-1. Klicka på **[!UICONTROL Edit]**.
-1. Inaktivera alternativet **[!UICONTROL Is Active]** för ett enskilt företag om du vill inaktivera det, eller aktivera alternativet för att aktivera det.
+1. Klicka på **[!UICONTROL Edit]**.<!--MAKE THIS A SEPARATE NUMBERED LINE<span class="preview">In the Preview environment, disable the **[!UICONTROL Is Active]** option to deactivate it, or enable the option to activate it.</span>-->
+1. <!--In the Production environment, -->Inaktivera alternativet **[!UICONTROL Is Active]** för ett enskilt företag om du vill inaktivera det, eller aktivera alternativet för att aktivera det.
 
    eller
 
