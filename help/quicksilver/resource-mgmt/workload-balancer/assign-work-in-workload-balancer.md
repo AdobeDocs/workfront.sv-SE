@@ -49,7 +49,7 @@ Workfront använder följande information för att beräkna användarens kapacit
 
 * Användaren är ledig. Detta anger vilka dagar som användaren planerar att starta.
 
-  Mer information finns i [Konfigurera personlig tid för ](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+  Mer information finns i [Konfigurera personlig tid för &#x200B;](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
 * Användarens arbetstid. Detta anger hur många procent av heltidstiden som användaren är tillgänglig för att utföra faktiskt projektrelaterat arbete, exklusive extrakostnader. Ange värdet 1 för Arbetstid för att ange att användaren är tillgänglig för projektrelaterat arbete och hela heltidsekvivalenten.
 
