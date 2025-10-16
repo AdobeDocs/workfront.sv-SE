@@ -133,7 +133,7 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 ## Återställ borttagna poster
 
 1. Gå till posttypssidan där du har tagit bort poster.
-1. Klicka på ikonen **Ångra** ![Ångra ](assets/undo-icon.png) i det övre högra hörnet av en sidvy för en posttyp och klicka sedan på **Senast borttagen**.
+1. Klicka på ikonen **Ångra** ![Ångra &#x200B;](assets/undo-icon.png) i det övre högra hörnet av en sidvy för en posttyp och klicka sedan på **Senast borttagen**.
 
    Rutan **Nyligen borttagen** visas.
 

@@ -153,11 +153,11 @@ Du kan ta bort en post från följande områden:
 
    Postsidan öppnas.
 
-1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om postnamnet, klicka sedan på **Ta bort** och sedan på **Ta bort** igen för att bekräfta.
+1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om postnamnet, klicka sedan på **Ta bort** och sedan på **Ta bort** igen för att bekräfta.
 
    ![Fler menyalternativ från postinformationssidan](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 Posten tas bort.
-1. (Valfritt) Gå till tabellvyn på postsidan och klicka på ikonen **Ångra** ![Ångra ](assets/undo-icon.png) i det övre högra hörnet av vyn. Klicka sedan på **Senast borttagen** för att återställa de borttagna posterna.
+1. (Valfritt) Gå till tabellvyn på postsidan och klicka på ikonen **Ångra** ![Ångra &#x200B;](assets/undo-icon.png) i det övre högra hörnet av vyn. Klicka sedan på **Senast borttagen** för att återställa de borttagna posterna.
 
 Mer information om hur du återställer borttagna poster finns i [Återställa borttagna poster](/help/quicksilver/planning/records/restore-deleted-records.md).
 
@@ -178,7 +178,7 @@ Mer information om hur du återställer borttagna poster finns i [Återställa b
 1. Gör något av följande:
 
    * Högerklicka på en postrad och klicka sedan på **Ta bort**.
-   * Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om postnamnet och klicka sedan på **Ta bort**.
+   * Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om postnamnet och klicka sedan på **Ta bort**.
 
      ![Sammanhangsbaserad meny för postrad](assets/contextual-menu-for-record-row.png)
 
@@ -188,7 +188,7 @@ Mer information om hur du återställer borttagna poster finns i [Återställa b
 
 1. (Valfritt) Gör något av följande om du vill ångra eller göra om borttagning av en post:
 
-   * Klicka på ikonen **Ångra** ![Ångra ](assets/undo-icon.png) och sedan på **Senast borttagen** för att återställa de borttagna posterna. Mer information om hur du återställer borttagna poster finns i [Återställa borttagna poster](/help/quicksilver/planning/records/restore-deleted-records.md).
+   * Klicka på ikonen **Ångra** ![Ångra &#x200B;](assets/undo-icon.png) och sedan på **Senast borttagen** för att återställa de borttagna posterna. Mer information om hur du återställer borttagna poster finns i [Återställa borttagna poster](/help/quicksilver/planning/records/restore-deleted-records.md).
    * Använd följande kortkommandon för att ångra eller göra om borttagning av en post:
 
       * CTRL + Z (⌘ + Z för Mac) för att ångra borttagning av en post
