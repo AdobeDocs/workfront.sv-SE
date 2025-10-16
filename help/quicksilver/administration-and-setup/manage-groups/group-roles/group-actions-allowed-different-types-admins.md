@@ -235,7 +235,7 @@ I denna tabell listas de administrationsaktiviteter som är tillgängliga för:
 * Arbetsflöde Prime och senare
 * Workfront Prime och senare
 
-Mer information om paket finns på sidan [Prissättning och paketering för Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
+Mer information om paket finns på sidan [Prissättning och paketering för Adobe Workfront](https://business.adobe.com/se/products/workfront/pricing.html).
 
 Avancerade företagskontroller:
 

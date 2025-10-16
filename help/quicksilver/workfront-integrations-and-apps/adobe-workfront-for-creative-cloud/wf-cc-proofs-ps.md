@@ -19,7 +19,7 @@ Du kan överföra vissa förinställningstyper för Photoshop-dokument som korre
 
 >[!IMPORTANT]
 >
->Filen måste vara en fotodokumentförinställning enligt beskrivningen i [Mallar och förinställningar i Photoshop](https://helpx.adobe.com/photoshop/using/create-documents.html).
+>Filen måste vara en fotodokumentförinställning enligt beskrivningen i [Mallar och förinställningar i Photoshop](https://helpx.adobe.com/se/photoshop/using/create-documents.html).
 
 
 

@@ -82,7 +82,7 @@ Om du vill skapa ett projekt som innehåller Adobe Experience Manager-arbetsflö
 1. Lägg till modulen **Workfront** > **Div åtgärd** i ditt scenario.
 1. I fältet **Anslutning** väljer du den Workfront-anslutning som ansluter till kontot som den här modulen ska använda.
 
-   Instruktioner om hur du skapar en anslutning finns i [Anslut [!DNL Workfront] till [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) i artikeln Workfront-moduler.
+   Instruktioner om hur du skapar en anslutning finns i [Anslut [!DNL Workfront] till [!DNL Workfront Fusion]](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) i artikeln Workfront-moduler.
 
    Instruktioner om hur du skapar klient-ID och klienthemlighet som du måste skapa en anslutning finns i [Skapa ett OAuth-program](#create-an-oauth-application) i den här artikeln.
 
@@ -164,4 +164,4 @@ Du måste konfigurera ett OAuth-program i Workfront för den här modulens anslu
 
 Du använder detta klient-ID och klienthemlighet när du konfigurerar modulens anslutning i Fusion.
 
-Instruktioner om hur du skapar en anslutning finns i [Anslut [!DNL Workfront] till [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) i artikeln Workfront-moduler.
+Instruktioner om hur du skapar en anslutning finns i [Anslut [!DNL Workfront] till [!DNL Workfront Fusion]](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) i artikeln Workfront-moduler.

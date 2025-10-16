@@ -18,11 +18,11 @@ ht-degree: 0%
 
 ## Få åtkomst till dokumentationen för [!DNL Adobe Workfront] på Experience League
 
-1. Gå till [[!DNL Adobe Workfront] dokumentationssidan på [!DNL Experience League]](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+1. Gå till [[!DNL Adobe Workfront] dokumentationssidan på [!DNL Experience League]](https://experienceleague.adobe.com/sv/docs/workfront/using/home).
 
 Förutom att söka efter hjälpdokumentation kan du även komma åt följande [!DNL Workfront]-resurser från Experience League:
 
-* Workfront självstudiekurser: Mer information finns i [[!DNL Workfront] Självstudiekurser](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
+* Workfront självstudiekurser: Mer information finns i [[!DNL Workfront] Självstudiekurser](https://experienceleague.adobe.com/sv/docs/workfront-learn/tutorials-workfront/home).
 
 * [!UICONTROL Innovation Lab]: Mer information finns i [The [!UICONTROL Innovation Lab]](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas).
 * [!UICONTROL [!DNL Workfront] Community]: Mer information finns i [The [!UICONTROL [!DNL Adobe Workfront] Community]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)

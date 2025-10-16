@@ -420,10 +420,10 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i dokumentationen](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i dokumentationen](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
 
 
-Mer information om Adobe Workfront Fusion-licenser finns i [Adobe Workfront Fusion-licenser](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+Mer information om Adobe Workfront Fusion-licenser finns i [Adobe Workfront Fusion-licenser](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 ## Avancerade Enterprise Controls
 
@@ -438,7 +438,7 @@ I en artikel om gruppadministratörer omnämns det paket kunden måste ha för a
 * Arbetsflöde Prime och senare
 * Workfront Prime och senare
 
-Mer information om paket finns på sidan [Prissättning och paketering för Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
+Mer information om paket finns på sidan [Prissättning och paketering för Adobe Workfront](https://business.adobe.com/se/products/workfront/pricing.html).
 
 Avancerade företagskontroller:
 
@@ -483,9 +483,9 @@ Avancerade företagskontroller:
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i dokumentationen](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i dokumentationen](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
 
-Mer information om Adobe Workfront Fusion-licenser finns i [Adobe Workfront Fusion-licenser](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+Mer information om Adobe Workfront Fusion-licenser finns i [Adobe Workfront Fusion-licenser](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
