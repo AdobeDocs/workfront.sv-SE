@@ -7,9 +7,9 @@ description: De timmar du loggar in på dina arbetsuppgifter i Adobe Workfront r
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 055228fd15d670a214039575dc076ab36f6e99eb
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -202,11 +202,13 @@ Med följande version av Workfront API som ska släppas senare under 2025 lagras
 * **Faktiska timmar**: Timmar som loggats för projekt, uppgifter eller problem efter maj 2021. De lagras i Workfront-databasen i timmar och deras värdefält är `actualWorkRequiredDouble`.
 * **Tidigare faktiska timmar**: Timmar som loggats för projekt, uppgifter eller problem när som helst, inklusive före maj 2021. De lagras i Workfront-databasen som minuter och deras värdefält är `actualWorkRequired`.
 
-  >[!IMPORTANT]
-  >
-  >Projektets faktiska kostnad använder äldre faktiska timmar för beräkning.
+Mer information om API-versioner finns i [API-versionshantering och supportschema](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
-  Mer information om hur du använder Faktiska timmar i beräknade kolumner eller fält finns i [Rapportera vanliga frågor och svar](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
+>[!IMPORTANT]
+>
+>Projektets faktiska kostnad använder äldre faktiska timmar för beräkning.
+
+Mer information om hur du använder Faktiska timmar i beräknade kolumner eller fält finns i [Rapportera vanliga frågor och svar](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 
 ## Loggtid
 

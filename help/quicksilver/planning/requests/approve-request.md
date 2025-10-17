@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---
@@ -60,13 +60,10 @@ Vi rekommenderar att du också ser följande artiklar:
 <tr> 
    <td role="rowheader"><p>Adobe Workfront</p></td> 
    <td> 
-<ul><li><p>Alla Workfront-paket</p></li>
-Och
-<li><p>Planeringspaket</p></li></ul>
+<p>Alla Workfront-paket och alla Planning-paket</p>
 eller
-<ul><li><p>Alla arbetsflödespaket</p></li>
-Och
-<li><p>Planeringspaket</p></li></ul>
+<p>Alla arbetsflödespaket och alla planeringsdokument</p>
+<p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront.</p>
    </td> </tr>
 
 </tr> 

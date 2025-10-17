@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -45,13 +45,10 @@ Du kan också ändra de enheter som du delar ett begärandeformulär med, om du 
 <tr> 
    <td role="rowheader"><p>Adobe Workfront</p></td> 
    <td> 
-<ul><li><p>Alla Workfront-paket</p></li>
-Och
-<li><p>Planeringspaket</p></li></ul>
+<p>Alla Workfront-paket och alla Planning-paket</p>
 eller
-<ul><li><p>Alla arbetsflödespaket</p></li>
-Och
-<li><p>Planeringspaket</p></li></ul>
+<p>Alla arbetsflödespaket och alla planeringsdokument</p>
+<p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront.</p>
    </td> </tr>
 
 </tr> 
@@ -88,7 +85,7 @@ Så här ändrar du delningen av ett begärandeformulär:
 
    Posttypssidan öppnas i den vy som du senast använde. Som standard öppnas en posttypssida i tabellvyn.
 
-1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Hantera begärandeformulär**.
+1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Hantera begärandeformulär**.
 
    Alla förfrågningsformulär som är associerade med posttypen visas i en tabellvy.
 1. Håll muspekaren över namnet på ett begärandeformulär, klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om namnet och klicka sedan på **Dela**.
@@ -115,7 +112,7 @@ När ett begärandeformulär blir irrelevant och du inte längre vill att någon
 
    Posttypssidan öppnas i den vy som du senast använde. Som standard öppnas en posttypssida i tabellvyn.
 
-1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Hantera begärandeformulär**.
+1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Hantera begärandeformulär**.
 
    Alla förfrågningsformulär som är associerade med posttypen visas i en tabellvy.
 1. Håll muspekaren över namnet på ett begärandeformulär, klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om namnet och klicka sedan på **Avpublicera**

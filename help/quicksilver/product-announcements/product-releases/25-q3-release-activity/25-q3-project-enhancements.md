@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: d950346c549d22c7a8db82ce032caa24202f9126
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
@@ -54,12 +54,12 @@ Fältet Faktiska timmar som visas i avsnittet Projekt, uppgifter och ärenden re
 >[!IMPORTANT]
 >
 >Beroende på när timmarna loggades kan det finnas en diskrepans mellan faktiska timmar och faktiska timmar för äldre för ett projekt, en uppgift eller en utgåva.<br>
->&#x200B;>Följande scenarier finns:
+>>Följande scenarier finns:
 >
 >* Faktiska timmar representerar timmar som har loggats för projekt, uppgifter och utgåvor sedan maj 2021.
 >* Gamla faktiska timmar representerar timmar som loggats för projekt, uppgifter och utgåvor under projektets, uppgiftens eller problemets livstid. Detta inkluderar timmar som loggats före maj 2021 till aktuell tid.
->  &#x200B;><br>Du kan behöva uppdatera rapporterna så att de återspeglar det nya fältet och dess värden.
->  &#x200B;><br>Workfront använder äldre faktiska timmar för att beräkna de faktiska arbetskostnaderna.
+>  ><br>Du kan behöva uppdatera rapporterna så att de återspeglar det nya fältet och dess värden.
+>  ><br>Workfront använder äldre faktiska timmar för att beräkna de faktiska arbetskostnaderna.
 
 Mer information finns i [Visa faktiska timmar](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
@@ -71,6 +71,8 @@ Mer information finns i [Visa faktiska timmar](/help/quicksilver/manage-work/tas
 >* Förhandsgranska: Med nästa API-version, som planeras släppas senare under 2025
 >* Snabb produktion: Med nästa API-version, som planeras släppas senare under 2025
 >* Produktion för alla kunder: Med nästa API-version, som planeras släppas senare under 2025
+>
+>Mer information om API-versioner finns i [API-versionshantering och supportschema](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 Uppdateringen förändrar det sätt på vilket faktiska timmar för projekt, uppgifter och ärenden lagras i databasen. Från och med den här uppdateringen används ett värdefält på `actualWorkRequiredDouble` (med ett värde i timmar).
 

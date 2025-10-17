@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: c06baa45e52d77463f9f886b6f6eae4ff68e4ccd
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,11 @@ ht-degree: 0%
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -46,13 +48,11 @@ Mer information om hur du skickar en begäran till en posttyp för att skapa en 
 <tr> 
    <td role="rowheader"><p>Adobe Workfront</p></td> 
    <td> 
-<ul><li><p>Alla Workfront-paket</p></li>
-Och
-<li><p>Planeringspaket</p></li></ul>
+<p>Alla Workfront-paket och alla Planning-paket</p>
 eller
-<ul><li><p>Alla arbetsflödespaket</p></li>
-Och
-<li><p>Planeringspaket</p></li></ul>
+<p>Alla arbetsflödespaket och alla planeringsdokument</p>
+
+<p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront.</p>
    </td> </tr>
 
 </tr> 

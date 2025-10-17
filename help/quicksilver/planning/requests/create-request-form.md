@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: c06baa45e52d77463f9f886b6f6eae4ff68e4ccd
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '2686'
+source-wordcount: '2643'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -45,13 +45,10 @@ Mer information om hur du skickar en begäran till en posttyp för att skapa en 
 <tr> 
    <td role="rowheader"><p>Adobe Workfront</p></td> 
    <td> 
-<ul><li><p>Alla Workfront-paket</p></li>
-Och
-<li><p>Planeringspaket</p></li></ul>
+<p>Alla Workfront-paket och alla Planning-paket</p>
 eller
-<ul><li><p>Alla arbetsflödespaket</p></li>
-Och
-<li><p>Planeringspaket</p></li></ul>
+<p>Alla arbetsflödespaket och alla planeringsdokument</p>
+<p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront.</p>
    </td> </tr>
 
 </tr> 
@@ -290,7 +287,7 @@ For information on creating automations in other areas of Workfront Planning, se
 ### Skapa formulär för fullständig begäran
 
 1. Skapa och konfigurera formuläret enligt beskrivningen i [Börja skapa ett begärandeformulär](#begin-creating-a-request-form) och [Konfigurera information för begärandeformuläret](#set-up-details-for-the-request-form).
-1. (Valfritt) Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om formulärets namn i rubriken och klicka sedan på **Redigera** för att uppdatera formulärets namn.
+1. (Valfritt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om formulärets namn i rubriken och klicka sedan på **Redigera** för att uppdatera formulärets namn.
 
 1. Klicka på **Publicera** för att publicera formuläret och få en unik länk för det.
 
@@ -319,7 +316,7 @@ For information on creating automations in other areas of Workfront Planning, se
 
    Posttypssidan öppnas i den vy som du senast använde. Som standard öppnas en posttypssida i tabellvyn.
 
-1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Hantera begärandeformulär**.
+1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Hantera begärandeformulär**.
 
    Alla förfrågningsformulär som är associerade med posttypen visas i en tabellvy.
 
@@ -336,7 +333,7 @@ For information on creating automations in other areas of Workfront Planning, se
 1. Klicka på vänsterpilen till vänster om **Begär formulär** i sidhuvudet för att stänga tabellen med förfrågningsformulär.
 
    Posttypssidan öppnas.
-1. (Valfritt och villkorligt) Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn i rubriken och gör sedan något av följande:
+1. (Valfritt och villkorligt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn i rubriken och gör sedan något av följande:
 
    1. Klicka på **Uppdatera begärandeformuläret** för att göra ändringar i begärandeformuläret och klicka sedan på ett begärandeformulär för att öppna och redigera det.
    1. Klicka på **Kopiera länk för att begära formulär** om du vill dela länken till formuläret med andra.

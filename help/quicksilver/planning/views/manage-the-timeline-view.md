@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '3875'
+source-wordcount: '3874'
 ht-degree: 0%
 
 ---
@@ -215,7 +215,7 @@ Så här hanterar du en tidslinjevy:
 
 1. Gör följande för att snabbt hitta poster som matchar ett nyckelord:
 
-   1. Klicka på ikonen **Sök** ![Sök &#x200B;](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med ett fält i en post som visas på skärmen. Antalet korrekta matchningar visas bredvid sökobjektet och posten med rätt matchning markeras.
+   1. Klicka på ikonen **Sök** ![Sök ](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med ett fält i en post som visas på skärmen. Antalet korrekta matchningar visas bredvid sökobjektet och posten med rätt matchning markeras.
 
       ![Sökruta och tidslinjevy för resultat](assets/search-box-and-results-timeline-view.png)
 
@@ -250,7 +250,7 @@ Så här hanterar du en tidslinjevy:
 
    >[!TIP]
    >
-   >Det går inte att ändra storlek på, dra och släppa poster i tidslinjen för Workfront- och AEM Assets-objekttyper som visas i nedbrytningen.
+   >Det går inte att ändra storlek på, dra och släppa poster i tidslinjen för objekttyperna Workfront och AEM Assets som visas i uppdelningar.
 
 1. Uppdatera följande vyelement enligt beskrivningen i underavsnitten nedan:
    * [Filter](#add-filters)

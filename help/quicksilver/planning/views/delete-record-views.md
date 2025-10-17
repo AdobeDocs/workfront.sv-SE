@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 0%
 Du kan ta bort en postvy som du inte längre använder i Adobe Workfront Planning.
 
 Vyn tas bort för alla användare som har behörighet att komma åt den. Det går inte att återställa borttagna vyer.
+
+Du kan inte ta bort den ursprungliga tabellvyn för en posttyp.
 
 ## Åtkomstkrav
 
