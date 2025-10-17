@@ -4,10 +4,10 @@ navigation-topic: get-started-with-workfront
 title: 'Navigera [!DNL Adobe Workfront]: artikelindex'
 description: Läs de här artiklarna för att få en förståelse för hur du navigerar i Adobe Workfront och lär dig Workfront terminologi.
 feature: Get Started with Workfront
-author: Lisa
+author: Courtney
 recommendations: noDisplay, noCatalog
 exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
-source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%

@@ -4,9 +4,9 @@ navigation-topic: recent-and-favorites
 title: Visa senaste artiklar
 description: Menyn [!UICONTROL Recents] finns i det övre navigeringsfältet. Den här menyn innehåller nyligen visade projekt, rapporter, kontrollpaneler, uppgifter, problem med mera.
 feature: Get Started with Workfront
-author: Lisa
+author: Courtney
 exl-id: 531b6b77-bf54-4ab3-a757-5c59fc0586a6
-source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 0%

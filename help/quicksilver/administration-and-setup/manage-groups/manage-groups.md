@@ -5,12 +5,12 @@ content-type: reference
 product-area: system-administration;user-management
 navigation-topic: administration-and-setup
 description: Grupper liknar, men skiljer sig från, team och företag. Workfront-administratören ger grupper åtkomst till de områden i Workfront där de behöver arbeta och kommunicera.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: bda8d47c-5ec7-4654-b7bd-c6fb854c3084
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 0%

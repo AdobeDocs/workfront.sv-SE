@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Som Adobe Workfront-administratör kan du återställa eller ta bort användarinställningarna för alla användare i Workfront-systemet. Enskilda användare kan även återställa sina egna användarinställningar.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: b0b9b80b4eb718e3e131ee0cd022f54cb906f187
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 1%

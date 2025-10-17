@@ -4,11 +4,11 @@ product-area: agile-and-teams
 navigation-topic: use-scrum-in-an-agile-team
 title: Iterationer
 description: I följande artiklar beskrivs hur du kan använda iterationer när du arbetar i en Scrum-miljö.
-author: Lisa
+author: Jenny
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 474ab807-fd6c-4248-9567-121e5d4b7b5b
-source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '59'
 ht-degree: 0%

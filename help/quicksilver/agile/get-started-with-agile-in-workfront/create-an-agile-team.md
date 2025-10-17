@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-agile-in-workfront
 title: Skapa ett Agile Team
 description: Med Adobe Workfront kan smidiga team slutföra arbetet på ett inkrementellt och organiserat sätt.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '924'
 ht-degree: 0%

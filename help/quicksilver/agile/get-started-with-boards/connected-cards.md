@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Använd anslutna kort på kort
 description: Du kan lägga till ett kort på din anslagstavla som är kopplat till befintliga uppgifter och problem i Workfront.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1309'
 ht-degree: 0%

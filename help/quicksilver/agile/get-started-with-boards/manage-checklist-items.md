@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Hantera checklisteobjekt på kort
 description: Genom att använda en checklista på ett kort kan du dela upp arbetet i mindre steg eller lägga till anteckningar till kortet. Checklisteobjekt är tillgängliga på både ad hoc-kort och anslutna kort.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 60e47a0a-36fb-4a86-8ec7-b135f9725b79
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 0%

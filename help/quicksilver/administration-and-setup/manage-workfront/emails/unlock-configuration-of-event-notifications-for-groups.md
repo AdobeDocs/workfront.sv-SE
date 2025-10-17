@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: Lås upp eller lås konfigurationen av händelsemeddelanden för alla grupper
 description: Om du är Adobe Workfront-administratör kan du låsa upp eller låsa upp möjligheten för gruppadministratörer att konfigurera ett händelsemeddelande för de grupper på den översta nivån som de hanterar. Konfigurationen av ett händelsemeddelande består av att aktivera eller inaktivera det.
-author: Lisa, Nolan
+author: Courtney, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 056d76c1-7e9b-49b9-974a-75765e53b7fd
-source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%

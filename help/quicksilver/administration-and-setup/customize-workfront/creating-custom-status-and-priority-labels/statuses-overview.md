@@ -5,11 +5,11 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: Statusöversikt
 description: Om du vill ta reda på vilket utvecklingsstadium ett projekt, en uppgift eller ett problem har kan användaren visa statusen.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0fa2f445-be8e-405f-864a-dbc4726d096b
-source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Du måste ha följande åtkomst och behörigheter till ett projekt, en uppgift e
 Du måste ha följande åtkomst och behörigheter till ett projekt, en uppgift eller ett ärende för att kunna ändra deras status manuellt:
 
 * Redigera åtkomst på din åtkomstnivå till projekt, uppgifter och problem
-* Contribute eller högre behörighet för uppgiften eller problemet
+* Contribute eller högre behörighet för aktiviteten eller problemet
 * Hantera behörigheter för projektet.
 
 Att ändra status för ett projekt, en uppgift eller ett problem är vanligtvis en manuell process. Det finns dock tillfällen då status för ett problem ändras automatiskt, beroende på andra faktorer som inträffar i systemet.

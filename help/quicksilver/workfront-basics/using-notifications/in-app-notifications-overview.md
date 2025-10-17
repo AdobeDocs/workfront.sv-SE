@@ -3,10 +3,10 @@ content-type: overview
 navigation-topic: notifications
 title: Översikt över meddelanden i appen
 description: 'I den här artikeln visas de meddelanden i appen som du kan ta emot. Meddelanden i appen håller dig informerad om två typer av information: meddelanden och meddelanden om arbetsobjekt. De är tillgängliga både från webbprogrammet och mobilprogrammet.'
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: afc8cfe7-d9a7-458a-b437-bd4c75838cb0
-source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Kommentarer finns på ett av två sätt:
 * [!DNL Workfront] skickar ett meddelande till sidan [!UICONTROL Announcement] för organisationens [!DNL Workfront] administratörer
 * En [!DNL Workfront]-administratör skickar ett meddelande till användare från sidan [!UICONTROL Announcement]
 
-I båda fallen visas ämnesraden med en megafonikon ![Meddelandeikon &#x200B;](assets/announcement.png) och ordet [!UICONTROL Announcement] när administratören eller användaren klickar på den numrerade ikonen ![Notifications](assets/notifications-icon-jewel.jpg) i det övre högra hörnet av [!DNL Workfront] för att öppna sin meddelandelista.
+I båda fallen visas ämnesraden med en megafonikon ![Meddelandeikon ](assets/notifications-icon-jewel.jpg) och ordet [!DNL Workfront] när administratören eller användaren klickar på den numrerade ikonen ![Notifications](assets/announcement.png) i det övre högra hörnet av [!UICONTROL Announcement] för att öppna sin meddelandelista.
 
 ![[!UICONTROL Announcement] meddelande](assets/notification-list-announcement-350x271.png)
 

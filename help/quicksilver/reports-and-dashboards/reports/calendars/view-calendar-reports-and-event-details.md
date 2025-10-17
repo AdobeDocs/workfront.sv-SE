@@ -3,10 +3,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Visa kalenderrapporter och händelseinformation
 description: Du kan visa kalenderrapporter och händelseinformation som du har skapat eller som delats med dig i Adobe Workfront.
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 0%

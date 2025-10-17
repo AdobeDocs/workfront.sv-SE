@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
 title: Kanban-översikt
 description: Läs den här artikeln för att få en bättre förståelse för hur Kanban-tavlan fungerar.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 0%

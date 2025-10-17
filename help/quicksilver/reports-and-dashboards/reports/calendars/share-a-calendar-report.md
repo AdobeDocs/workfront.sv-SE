@@ -3,10 +3,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Dela en kalenderrapport
 description: Du kan dela en kalender med andra användare och göra den tillgänglig för allmänheten, så att någon utan en [!DNL Adobe Workfront] licens kan visa den.
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 0%

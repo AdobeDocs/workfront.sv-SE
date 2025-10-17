@@ -4,11 +4,11 @@ product-area: system-administration;setup
 navigation-topic: configure-system-defaults
 title: Konfigurera frågetyper
 description: När du arbetar med ett projekt kanske du upptäcker att oväntade händelser inträffar. Du kan logga oväntade händelser som problem för ett visst projekt eller en viss uppgift. Du kan också skicka begäranden som spelas in som utleveranser i ett projekt som har angetts som en frågekö. Problem och förfrågningar anses vara utbytbara i Adobe Workfront.
-author: Lisa
+author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 0%

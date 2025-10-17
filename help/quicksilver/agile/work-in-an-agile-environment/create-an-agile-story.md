@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: work-in-an-agile-environment
 title: Skapa en Agile Story
 description: Du kan skapa en flexibel artikel om en iteration på olika sätt. När du har skapat en flexibel artikel kan du lägga till underuppgifter i artikeln.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: d16ee940-3551-44da-8fe6-093f4fcac070
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 0%

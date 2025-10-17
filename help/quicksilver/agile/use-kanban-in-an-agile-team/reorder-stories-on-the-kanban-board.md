@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
 title: Ändra ordning på artiklar på Kanban-styrelsen
 description: Du kanske vill ändra den ordning i vilken artiklar visas i statuskolumnerna på Kanban-panelen.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 7d6142d2-4e6e-4f9f-81a8-bcc666757bad
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%

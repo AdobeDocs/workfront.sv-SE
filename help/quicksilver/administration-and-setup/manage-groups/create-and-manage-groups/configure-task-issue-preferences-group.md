@@ -5,11 +5,11 @@ product-area: system-administration;user-management;setup
 keywords: grupp,inställningar,aktivitet,problem,låsa upp
 navigation-topic: create-and-manage-groups
 description: Om grupper i din organisation måste konfigurera en uppgift eller en utgåva oberoende av hur den är konfigurerad på systemnivå, kan en Adobe Workfront-administratör låsa upp inställningen. Som gruppadministratör kan du sedan konfigurera inställningen för gruppen så att den påverkar alla uppgifter eller problem som är kopplade till gruppen.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '2136'
 ht-degree: 0%

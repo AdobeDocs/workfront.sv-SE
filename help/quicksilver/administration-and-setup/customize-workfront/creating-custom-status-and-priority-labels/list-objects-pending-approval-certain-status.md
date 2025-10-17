@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 title: Lista objekt med en väntande godkännandeprocess med en viss status
 description: Om du försöker ta bort en status kan ett felmeddelande tala om för dig att den inte kan tas bort eftersom den används i väntande godkännandeprocesser för objekt i systemet. Om du vill hitta och granska objekten för att bestämma vad du behöver göra kan du köra en rapport som listar dem.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 52dd8750-9a6f-4ac6-9779-ba4ea9b6f4e0
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%

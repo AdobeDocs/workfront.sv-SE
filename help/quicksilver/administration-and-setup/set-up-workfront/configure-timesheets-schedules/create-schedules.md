@@ -4,11 +4,11 @@ product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Skapa ett schema
 description: Du kan definiera användarnas arbetsveckor med hjälp av scheman. Du kan associera ett schema med en användare eller ett projekt. Detta gör att  [!DNL Workfront]  kan beräkna tidslinjer och användartillgänglighet.
-author: Lisa, Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f7347ba6-68bf-45d8-b5d2-6136f3e696c9
-source-git-commit: e8c89b68a022ae1c0cf5da20257cd8bc36e94d4c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 0%

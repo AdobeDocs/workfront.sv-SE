@@ -3,11 +3,11 @@ product-previous: mobile
 navigation-topic: mobile-apps
 title: Använda  [!DNL Adobe Workfront] mobilappen
 description: Snabba upp engagemanget och effektivisera arbetet för team och enskilda i organisationen via  [!DNL Adobe Workfront's] mobilappen, som finns på alla iOS- och Android-enheter.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: 60ff39c7a8c4736e1a176dd22bd0be5ab804223f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 0%

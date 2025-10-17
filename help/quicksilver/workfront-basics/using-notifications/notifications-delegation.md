@@ -3,10 +3,10 @@ content-type: reference
 navigation-topic: notifications
 title: 'Meddelanden: Delegering'
 description: I följande meddelanden får du information om vilka uppgifter du har gjort och vilka delegeringar du har gjort åt dig i Adobe Workfront.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: bd329c5a-4440-4bb7-96f1-30e83c213851
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Se även [Händelsemeddelanden](event-notifications.md).
 
 | Delegering | Fält som visas i e-postmeddelandet | Typ av e-postmeddelande |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|----------------------------|
-| **Jag delegerar mina uppgifter och ärenden (bekräftelse)**: Den användare som delegerar sina uppgifter och ärenden får en bekräftelse på att de har konfigurerat delegeringen. Ämnet för e-postmeddelandet är: *[!UICONTROL You delegated your tasks and issues to] (namn) från (startdatum till slutdatum)*. | Delegeringsnamnet Start- och slutdatum för delegeringen | **Direkt** |
-| **Jag avbryter delegeringen av mina aktiviteter och ärenden (bekräftelse)**: Den användare som avbryter delegeringen av sina aktiviteter och ärenden får en bekräftelse på att de har stoppat delegeringen. Ämnet för e-postmeddelandet är: *[!UICONTROL You stopped your delegation of tasks and issues to] (namn)*. | Delegatnamn | **Direkt** |
+| **Jag delegerar mina uppgifter och ärenden (bekräftelse)**: Den användare som delegerar sina uppgifter och ärenden får en bekräftelse på att de har konfigurerat delegeringen. Ämnet för e-postmeddelandet är: *[!UICONTROL You delegated your tasks and issues to](namn) från (startdatum till slutdatum)*. | Delegeringsnamnet Start- och slutdatum för delegeringen | **Direkt** |
+| **Jag avbryter delegeringen av mina aktiviteter och ärenden (bekräftelse)**: Den användare som avbryter delegeringen av sina aktiviteter och ärenden får en bekräftelse på att de har stoppat delegeringen. Ämnet för e-postmeddelandet är: *[!UICONTROL You stopped your delegation of tasks and issues to](namn)*. | Delegatnamn | **Direkt** |
 | **Någon delegerar sina uppgifter och utgåvor till mig**: Den användare som har delegerats till någon persons uppgifter och utgåvor får ett e-postmeddelande när delegeringen startas. Ämnet för e-postmeddelandet är: *(Namn) [!UICONTROL delegated tasks and issues to you from] (Startdatum till slutdatum)*. | Den tilldelades namn Start- och slutdatum för delegeringen | **Direkt** |
-| **Någon stoppar delegeringen av sina uppgifter och utgåvor till mig**: Den användare som delegerats till någon annans uppgifter och utgåvor får ett e-postmeddelande när delegeringen avbryts. Ämnet för e-postmeddelandet är: *(Namn) [!UICONTROL stopped task and issue delegation to you.]* | Uppgiftslämnarens namn | **Direkt** |
+| **Någon stoppar delegeringen av sina uppgifter och utgåvor till mig**: Den användare som delegerats till någon annans uppgifter och utgåvor får ett e-postmeddelande när delegeringen avbryts. Ämnet för e-postmeddelandet är: *(Namn)[!UICONTROL stopped task and issue delegation to you.]* | Uppgiftslämnarens namn | **Direkt** |

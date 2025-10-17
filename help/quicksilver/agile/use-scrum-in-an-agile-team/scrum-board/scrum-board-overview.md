@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: scrum-board
 title: Översikt över bankkort
 description: Den flexibla Scrum-artikelpanelen visas tillsammans med slutförandestatus och nedladdningsschemat.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 0%

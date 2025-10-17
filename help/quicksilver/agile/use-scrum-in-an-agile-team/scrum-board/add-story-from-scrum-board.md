@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Lägg till artiklar och ärenden från Scrum Board
 description: Du kan snabbt skapa en ny artikel eller ett nytt problem direkt från Sampboard eller lägga till en befintlig artikel eller ett befintligt problem från styrelsen.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: d4eec3c5-8cea-467f-b1b4-3f9fab57b10f
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%

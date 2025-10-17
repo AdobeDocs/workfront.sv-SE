@@ -1,12 +1,12 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 'Meddelanden: Jag har gjort förfrågningar'
+title: 'Meddelanden: Begäranden jag gjort'
 description: I följande meddelanden får du information om begäranden som du har gjort i Adobe Workfront.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 42771f71-dbf8-4e73-9a0e-8efea612af4a
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 0%
@@ -56,17 +56,17 @@ Se även [Händelsemeddelanden](../../workfront-basics/using-notifications/event
   </tr> 
   <tr> 
    <td> <p><strong>Jag lägger till ett problem i ett projekt</strong> </p> <p>Den primära kontakten i ett problem får ett meddelande när han eller hon lägger till ett problem i ett projekt.</p> <p>Ett meddelande skickas bara om projektstatusen är [!UICONTROL Current] eller [!UICONTROL Planning].</p> <p>Ämnet för e-postmeddelandet är: <em>[!UICONTROL Issue submitted]: &lt;Issue Name&gt; på &lt;Project Name&gt;</em></p> <p>Ämnet för det dagliga sammandragsmeddelandet är:<em> Sammandrag av dina begäranden &lt;Datum för den dagliga sammandraget&gt;</em></p> </td> 
-   <td> Projektnamn<br>Portfolio-namn<br>Ärendereferensnummer<br>Ditt namn<br>Utgåva<br>Angivet datum<br>Utgivningsprioritet<br>Utgåva status<br>Tilldelad till namn<br>Primär kontakt<br>*Projektnamn<br>*Projektreferensnummer<br>*Totalt antal tillagda fel<br>*Utgångsnamn<br>*Datum dagens sammandrag </td> 
+   <td> Projektnamn<br>Portfolio-namn<br>Ärendereferensnummer<br>Ditt namn<br>Utgåva<br>Angivet datum<br>Utgivningsprioritet<br>Utgåva status<br>Tilldelad till namn<br>Primär kontakt<br>*Projektnamn<br>*Projektreferensnummer<br>*Totalt antal tillagda problem<br>*Utgångsnamn<br>*Datum daglig sammandrag </td> 
    <td> <p><strong>Direkt</strong> </p> <p><strong>och Dagligen</strong> </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Jag skickar en begäran (bekräftelse)</strong> </p> <p>Den primära kontakten får ett e-postmeddelande när han eller hon skickar ett problem.</p> <p>Ett meddelande skickas bara om projektstatusen är [!UICONTROL Current] och om projektet har konfigurerats som [!UICONTROL Help Request Queue] (enligt beskrivningen i <a href="../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">[!UICONTROL Create a Request Queue]</a>).</p> <p>Ämnet för e-postmeddelandet är: <em>[!UICONTROL Request Submitted]: &lt;Namn på begäran&gt; på &lt;Namn på projekt (begärandekö)&gt;</em></p> <p>Ämnet för det dagliga sammandragsmeddelandet är:<em> Sammandrag av dina begäranden &lt;Datum för den dagliga sammandraget&gt;</em></p> </td> 
-   <td> <p>Projektnamn (namn på frågekö)<br>Portfolio-namn<br>Ärendereferensnummer<br>Utfärdsnamn<br>Angivet datum<br>Ärendeprioritet<br>Utfärdat till namn<br>Tilldelat till namn<br>Primär kontakt<br>*Projektreferensnummer<br>*Projektnamn<br>*Totalt antal förfrågningar som skickats<br>*Namn på förfrågan<br>*Prioritet <br>*Datum för daglig sammandrag</p> </td> 
+   <td> <p>Projektnamn (namn på frågekö)<br>Portfolio-namn<br>Ärendereferensnummer<br>Utfärdsnamn<br>Angivet datum<br>Ärendeprioritet<br>Utgåva status<br>Tilldelad till namn<br>Primär kontakt<br>*Projektreferensnummer<br>*Projektnamn<br>*Totalt antal förfrågningar som skickats<br>*Namn på förfrågan<br>*Prioritet<br> 13}*Datum för daglig sammandrag</p> </td> 
    <td> <p><strong>Direkt</strong> </p> <p><strong>och Dagligen</strong> </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Min förfrågan är stängd (bekräftelse)</strong> </p> <p>Den primära kontakten får ett e-postmeddelande när begäran stängs.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell och om projektet har konfigurerats som [!UICONTROL Help Request Queue] (enligt beskrivningen i <a href="../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Skapa en begärandekö</a>).</p> <p>Ämnet för e-postmeddelandet är: <em>[!UICONTROL Your request has been closed]: </em> </p> <p>Ämnet för det dagliga sammandragsmeddelandet är:<em> [!UICONTROL Digest of your Requests] &lt;Datum för det dagliga sammandraget&gt;</em></p> </td> 
-   <td> Begäransnamn<br>Projektnamn<br>Referensnummer för begäran<br>Namn på den användare som stängde begäran<br>Utgivningsstatus<br>Datum och tid när begäran stängdes<br>Status för föregående begäran<br><strong>[!UICONTROL See More Details]</strong> knapp<br>*Projektreferensnummer<br>*Projektnamn<br>*Totalt antal stängda begäranden<br>*Namn på begäran<br>*Namn på den användare som stängde begäran<br> 2&rbrace;*Datum för daglig sammandrag </td> 
+   <td> Begäransnamn<br>Projektnamn<br>Referensnummer för begäran<br>Namn på den användare som stängde begäran<br>Utgivningsstatus<br>Datum och tid när begäran stängdes<br>Status för föregående begäran<br><strong>[!UICONTROL See More Details]</strong> knapp<br>*Projektreferensnummer<br>*Projektnamn<br>*Totalt antal stängda begäranden<br>*Namn på begäran<br>*Namn på den användare som stängde begäran<br> 2}*Datum för daglig sammandrag </td> 
    <td><strong>Direkt</strong> </td> 
   </tr> 
   <tr> 
@@ -76,7 +76,7 @@ Se även [Händelsemeddelanden](../../workfront-basics/using-notifications/event
   </tr> 
   <tr> 
    <td> <p><strong>Status ändras för ett projekt som jag har skapat</strong> </p> <p>Användaren som skapade projektet får ett e-postmeddelande när projektstatusen ändras.</p> <p>Ämnet för e-postmeddelandet är: <em>[!UICONTROL Project Status Change]: &lt;Projektnamn&gt;</em></p> <p>Ämnet för det dagliga sammandragsmeddelandet är:<em> [!UICONTROL Digest of your Requests] &lt;Datum för det dagliga sammandraget&gt;</em></p> </td> 
-   <td> <p>Projektnamn<br>Portfolio <br>Projektreferensnummer<br>Namn på den användare som ändrade status<br>Ny status<br>Datum och tid när projektstatus ändrades<br>Föregående projektstatus<br><strong>[!UICONTROL See More Details]</strong>-knapp<br>*Projektnamn<br>*Projektreferensnummer<br>*Ny projektstatus<br>*Namn på den användare som ändrade projektstatus<br>*Datum för daglig sammandrag</p> </td> 
+   <td> <p>Projektnamn<br>Portfolio-namn<br>Projektreferensnummer<br>Namnet på den användare som ändrade status<br>Ny status<br>Datum och tid när projektstatus ändrades<br>Föregående projektstatus<br><strong>[!UICONTROL See More Details]</strong>-knapp<br>*Projektnamn<br>*Projektreferensnummer<br>*Ny projektstatus<br>*Namn på den användare som ändrade projektstatus<br>*Datum för daglig sammandrag</p> </td> 
    <td> <p><strong>Direkt</strong> </p> </td> 
   </tr> 
   <tr> 

@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-teams-admin
 description: Som Adobe Workfront-administratör kan du skapa ett team under Konfigurera.
-author: Lisa
+author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: 29a84e52-0bd3-45c2-a8b8-80bfec894196
-source-git-commit: 6409f8fa5072413444545d2d3a80935dc6e04b4c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 0%

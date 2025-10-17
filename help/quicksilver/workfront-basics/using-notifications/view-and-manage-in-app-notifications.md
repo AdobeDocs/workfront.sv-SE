@@ -2,10 +2,10 @@
 navigation-topic: notifications
 title: Visa och hantera meddelanden i appen
 description: 'Meddelanden i appen håller dig informerad om två typer av information: meddelanden och meddelanden om arbetsobjekt. De är tillgängliga både från webbprogrammet och mobilprogrammet.'
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 4c5da114-33cc-422b-84f4-67bc7fcd67c6
-source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 0%

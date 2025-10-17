@@ -5,9 +5,9 @@ navigation-topic: use-workfront-view
 title: Filtrera projektlistor i  [!DNL Adobe Workfront] vyn
 feature: Get Started with Workfront
 description: Som standard visas  [!DNL Adobe Workfront] Visa [!UICONTROL All Projects]-listan i [!DNL Workfront] så alla projekt som du har åtkomst till visas, oavsett status.
-author: Nolan
+author: Lisa
 exl-id: 78efce1a-f144-4e47-bd7e-c0347e016bea
-source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 0%

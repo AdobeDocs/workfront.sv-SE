@@ -5,11 +5,11 @@ content-type: reference;overview
 product-area: system-administration;user-management
 navigation-topic: group-roles
 description: Adobe Workfront-administratörer i stora organisationer med många avdelningar kanske inte vill hantera alla avdelningar och grupper inom dessa avdelningar. I stället kan de skapa en grupp för varje avdelning och undergrupper inom den gruppen, som alla hanteras av en gruppadministratör.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 589cf9fb-f195-4b69-a240-3f73e6ca623e
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1047'
 ht-degree: 0%
@@ -66,7 +66,7 @@ Vi rekommenderar att gruppadministratörer har behörighet att redigera för anv
 >[!IMPORTANT]
 >
 >Gruppadministratörer måste ha högre åtkomst än de som de hanterar, annars kan de inte visa eller ändra lägre åtkomstnivåer.
->Instruktioner om hur du beviljar den här åtkomsten finns i [Skapa eller ändra anpassade åtkomstnivåer](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>>Instruktioner om hur du beviljar den här åtkomsten finns i [Skapa eller ändra anpassade åtkomstnivåer](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 För en gruppadministratör som behöver tilldela tidrapportprofiler till användare i sina grupper och undergrupper rekommenderar vi även administratörsåtkomst till tidrapporter och timmar. Instruktioner om hur du beviljar åtkomst finns i [Bevilja användare administrativ åtkomst till vissa områden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
@@ -76,7 +76,7 @@ Som gruppadministratör kan du utföra de uppgifter som beskrivs nedan för att 
 
 >[!NOTE]
 >
->I den nya prissättnings- och paketeringsmodellen måste du ha en Prime-plan eller högre för att kunna utföra följande:
+>I den nya prissättnings- och paketeringsmodellen måste du ha en Prime-plan eller senare för att kunna utföra följande:
 >
 > * Skapa grupphändelseaviseringar
 > * Konfigurera inställningar för gruppprojekt

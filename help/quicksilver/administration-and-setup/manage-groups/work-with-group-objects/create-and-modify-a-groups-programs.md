@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: Skapa, ändra och visa en grupps program
 description: När du visar en grupp som du hanterar i området Grupper kan du visa och arbeta med dess program.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51111523-8fb7-4379-995e-1834cac51872
-source-git-commit: 1554c067afcc548c7f7abd03dbc3a49404e3c89c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 0%

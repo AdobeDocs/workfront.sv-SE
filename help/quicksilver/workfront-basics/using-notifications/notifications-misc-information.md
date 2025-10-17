@@ -3,10 +3,10 @@ content-type: reference
 navigation-topic: notifications
 title: 'Meddelanden: Övrig information'
 description: Följande meddelanden informerar dig om aktiviteter som utförs i ett projekt som du sponsrar.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: fd93a48b-ef09-4489-b93d-5328240ffed6
-source-git-commit: 298b74c2d228a76c02d34470fa8298028605cab4
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 0%
@@ -64,11 +64,11 @@ Se även [Händelsemeddelanden](../../workfront-basics/using-notifications/event
   </tr> 
   <tr> 
    <td> <p><strong>En av mina medarbetare läggs till i ett projekt</strong> </p> <p>En projektledare får ett e-postmeddelande när någon av användarna läggs till i ett projekt. Det här meddelandet skickas oavsett projektets status. </p> <p>Användare med en [!UICONTROL Review]-licens får inget meddelande.</p> <p>E-postmeddelandets ämne är: <em>Projekttilldelning: &lt;Användarnamn&gt;[&lt;Project GUID&gt;_ &lt;Användarens GUID&gt;]</em></p> </td> 
-   <td> <p>Projektnamn<br>Portfolio <br>Projektreferensnummer<br>Namn på den användare som lade till personen i projektet<br>Namn på den användare som lades till i projektet<br>Projekt [!UICONTROL Planned Start Date]<br>Projektprocent [!UICONTROL Planned Completion Date]<br>Projektprocent slutfört<br>Namn på andra i projekt<br>Projektstatus<br>Projektägare<br><strong>[!UICONTROL See More Details]</strong><br><br><br></p> </td> 
+   <td> <p>Projektnamn<br>Portfolio-namn<br>Projektreferensnummer<br>Namn på den användare som lade till personen i projektet<br>Namn på den användare som lades till i projektet<br>Projekt [!UICONTROL Planned Start Date]<br>Projektprocent [!UICONTROL Planned Completion Date]<br>Projektprocent slutfört<br>Namn på andra i projekt<br>Projektstatus<br>Projektägare<br><strong>[!UICONTROL See More Details]</strong><br><br><br></p> </td> 
    <td><strong>Direkt</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Någon lägger till ett projekt i en portfölj eller ett program som jag äger</strong> </p> <p>Portföljen och/eller programägaren får ett meddelande när ett nytt projekt läggs till i en portfölj eller ett program.</p> <p>Ämnet för e-postmeddelandet är: <em>[!UICONTROL Project added to] &lt;Portfolio-namn&gt;[Projekt-GUID]</em></p> </td> 
+   <td> <p><strong>Någon lägger till ett projekt i en portfölj eller ett program som jag äger</strong> </p> <p>Portföljen och/eller programägaren får ett meddelande när ett nytt projekt läggs till i en portfölj eller ett program.</p> <p>Ämnet för e-postmeddelandet är: <em>[!UICONTROL Project added to] &lt;Portfolio-namn&gt;[Project GUID]</em></p> </td> 
    <td> Portfolio-namn<br>Projektreferensnummer<br>Namnet på den användare som lade till projektet i portföljen/programmet<br><br></td> 
    <td><strong>Direkt</strong> </td> 
   </tr> 

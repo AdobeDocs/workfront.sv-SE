@@ -5,11 +5,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Åtgärder som ska vidtas efter installation av en skiss
 description: I den här artikeln beskrivs vad du bör göra efter att du har installerat en plan i  [!DNL Adobe Workfront] för att fullständigt distribuera den till dina systemanvändare.
-author: Becky
+author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e5da58f-105a-4edf-8fc1-65e8762d43c6
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 0%

@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Ta bort eller arkivera en styrelse
 description: Du kan ta bort eller arkivera en styrelse i Workfront. Om du tar bort en anslagstavla permanent tas den bort från Workfront, och om du arkiverar en anslagstavla behålls alla kort och kan återställas vid ett senare tillfälle.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%

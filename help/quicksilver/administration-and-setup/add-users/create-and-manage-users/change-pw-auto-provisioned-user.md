@@ -5,11 +5,11 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Ändra lösenordet för en automatiskt tilldelad användare
 description: Vi rekommenderar att du ändrar en ny användares användarnamn till e-postadressen för Workfront och sedan låter användaren ändra sitt lösenord.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 14124911-e5e1-4a4f-9b25-8b4fab0329e1
-source-git-commit: f8d04790caefd12c9811ea3ed94e1f892311d031
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%

@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Du kan importera användare till Adobe Workfront-platsen genom att synkronisera användare från en nätverkskatalogtjänst (till exempel Active Directory eller en annan LDAP-katalog) eller importera användare med hjälp av en kalkylbladsimportfil.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3dd99d01-a32f-4af8-90e3-f8c0e9027651
-source-git-commit: f8d04790caefd12c9811ea3ed94e1f892311d031
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Add users" in the article [Bulk Upload Users](https://helpx.adobe.com/se/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Add users" in the article [Bulk Upload Users](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -116,4 +116,4 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 > 
 >Om en användare inte går ut ur statusen Inaktiverat och Väntande godkännande inom några minuter och en skärmuppdatering inte tar bort märket Väntande godkännande, kan du lägga till gruppen med användare direkt i Adobe Admin Console.
 >
->Instruktioner finns i [Hantera flera användare | Massöverföring av CSV &#x200B;](https://helpx.adobe.com/se/enterprise/using/bulk-upload-users.html) i Adobe-dokumentationen.
+>Instruktioner finns i [Hantera flera användare | Massöverföring av CSV ](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) i Adobe-dokumentationen.

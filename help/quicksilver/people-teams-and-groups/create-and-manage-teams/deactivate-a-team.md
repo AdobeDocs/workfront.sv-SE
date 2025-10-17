@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: Inaktivera eller ta bort ett team
 description: Du kan inaktivera team som du inte längre använder samtidigt som du behåller tillhörande historiska data. Adobe Workfront-administratörer kan återaktivera ett team när som helst från Teams-området i Setup.
-author: Lisa
+author: Jenny
 feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
-source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%

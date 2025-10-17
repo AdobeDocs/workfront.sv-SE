@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: mobile-apps
 title: Adobe Workfront Boards for mobile
 description: I  [!DNL Workfront] mobilappen kan du se alla ritytor som du har skapat eller har lagts till i i skrivbordsversionen av  [!DNL Workfront].
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 34a009f6-6b4f-43ee-9689-2b9d1876db07
-source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1065'
 ht-degree: 0%
@@ -113,7 +113,7 @@ Objektet är markerat som slutfört och räknaren på kortet uppdateras för att
 
 Du kan filtrera en anslagstavla för att visa kort som tilldelats vissa personer, eller söka efter ett visst kort på anslagstavlan.
 
-När filter används visas en indikator på ![ritytan &#x200B;](assets/active-filter-mobile-boards.png). Markera filterikonen och välj [!UICONTROL **Rensa alla**] för att ta bort alla filter från ritytan.
+När filter används visas en indikator på ![ritytan ](assets/active-filter-mobile-boards.png). Markera filterikonen och välj [!UICONTROL **Rensa alla**] för att ta bort alla filter från ritytan.
 
 ### Filtrera en anslagstavla efter tilldelningar
 

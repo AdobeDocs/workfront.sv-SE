@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Godkännanden i  [!DNL Adobe Workfront] mobilappen
 description: Du kan hantera godkännanden som tilldelats eller delegerats till dig från området [!UICONTROL Approvals] i  [!DNL Adobe Workfront] mobilappen.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 92259a17-209b-4bc1-8c14-826969b08a63
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Korrektur följer en separat godkännandeprocess. Du kan inte godkänna ett korr
 
 1. Välj **[!UICONTROL Show all approvals]** i området [!UICONTROL Approvals] i [!UICONTROL My Work].
 
-   Mer information om [!UICONTROL My Work] i mobilappen finns i avsnittet [[!UICONTROL My Work] i mobilappen &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
+   Mer information om [!UICONTROL My Work] i mobilappen finns i avsnittet [[!UICONTROL My Work] i mobilappen ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
 
 1. Välj ett godkännande i listan.
 

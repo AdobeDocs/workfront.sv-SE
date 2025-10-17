@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Granska och fatta beslut om korrektur i  [!DNL Adobe Workfront] mobilappen
 description: När du har tilldelats ett korrektur för godkännande visas det i din lista över godkännanden i mobilappen. Du kan granska korrekturet direkt i appen och fatta ett beslut om det.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 4ab8dfd0-0a1f-425d-9e05-8e8134ce930a
-source-git-commit: 234fc6b7b5acb0914744831066cb88a965e54048
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Du har samma åtkomst till granskning och godkännande av korrektur som i [!DNL 
 
    * Välj **[!UICONTROL Show all Approvals]** i området [!UICONTROL Approvals] i [!UICONTROL My Work]. Välj sedan korrekturgodkännandeuppgiften i listan över alla godkännanden.
 
-     Mer information om [!UICONTROL My Work] i mobilappen finns i avsnittet [[!UICONTROL My Work] i mobilappen &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
+     Mer information om [!UICONTROL My Work] i mobilappen finns i avsnittet [[!UICONTROL My Work] i mobilappen ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
 
 1. Välj **[!UICONTROL Go to Proof]** på informationssidan.
 
@@ -79,7 +79,7 @@ När du har granskat dokumentkorrekturet kan du fatta ett beslut i själva bevis
 ### Fatta ett beslut i beviset
 
 1. Öppna dokumentets korrektur.
-1. Välj beslutsikonen ![[!UICONTROL Decision] &#x200B;](assets/mobile-proofcheckmarkdecisionicon-30x30.png) längst upp till höger i dokumentet.
+1. Välj beslutsikonen ![[!UICONTROL Decision] ](assets/mobile-proofcheckmarkdecisionicon-30x30.png) längst upp till höger i dokumentet.
 1. Välj ett beslut i rutan [!UICONTROL Make a Decision].
 
    Några vanliga beslutsalternativ visas nedan. Administratören [!DNL Adobe Workfront] eller administratören [!UICONTROL Workfront Proof] kan konfigurera listan med beslutsalternativ. Mer information om hur administratörer kan konfigurera beslut finns i [Konfigurera alternativ för godkännandebeslut i Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
@@ -114,7 +114,7 @@ När du har granskat dokumentkorrekturet kan du fatta ett beslut i själva bevis
 ### Ändra ditt beslut i korrekturet
 
 1. Öppna dokumentets korrektur.
-1. Välj beslutsikonen ![[!UICONTROL Decision] &#x200B;](assets/mobile-proofcheckmarkdecisionicon-30x30.png) längst upp till höger i dokumentet.
+1. Välj beslutsikonen ![[!UICONTROL Decision] ](assets/mobile-proofcheckmarkdecisionicon-30x30.png) längst upp till höger i dokumentet.
 
    I rutan [!UICONTROL Make a Decision] visas ditt aktuella beslut.
 

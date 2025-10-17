@@ -4,10 +4,10 @@ product-area: system-administration;workfront-integrations
 navigation-topic: templates-navigation-topic
 title: Bläddra i katalogen med utkast och begär installation av utkast
 description: Med utkast får du grundläggande byggstenar som hjälper dig att skapa ett arbetsstyrningssystem som växer med dig. Alla  [!DNL Adobe Workfront] användare kan bläddra i katalogen med utkast. Du kan även göra en begäran om att din [!DNL Workfront] administratör ska installera en särskild plan åt dig, om administratören har aktiverat en plantrycksbegäran.
-author: Becky, Lisa
+author: Jenny
 feature: System Setup and Administration, Work Management
 exl-id: 932072e4-4d52-4b4b-a045-0cd38cb882d3
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 0%

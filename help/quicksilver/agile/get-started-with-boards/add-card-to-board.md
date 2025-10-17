@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Lägg till ett ad hoc-kort till en anslagstavla
 description: Du kan snabbt lägga till ett ad hoc-kort till en styrelse och tilldela det till en styrelseledamot. Kortet kan representera en uppgift, en utgåva, en person, en grupp eller vilken typ av objekt som helst som du vill ha med i styrelsen.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 0%

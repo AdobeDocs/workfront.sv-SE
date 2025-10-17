@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: scrum-board
 title: Tilldela användare till en artikel på anslagstavlan
 description: Läs den här artikeln om du vill veta mer om hur du tilldelar användare till en artikel på Scrum board.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 57fa28cc-f93d-4938-9d65-3dcf90fdf6a0
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 0%

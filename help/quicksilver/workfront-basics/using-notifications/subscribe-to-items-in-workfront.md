@@ -2,10 +2,10 @@
 navigation-topic: notifications
 title: Prenumerera på objekt i Adobe Workfront
 description: Adobe Workfront skickar meddelanden om objekt som du har tilldelats eller som du äger. Om du vill följa meddelandet om objekt som inte har tilldelats dig men som kan påverka ditt arbete, kan du prenumerera på dem.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
-source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '1496'
 ht-degree: 0%
@@ -106,7 +106,7 @@ Så här säger du upp prenumerationen på ett ärende:
    >
    >Om du vill avbryta prenumerationen på projekt kan du göra något av följande:
    >
-   >* Gå till det projekt du vill avbryta prenumerationen på och klicka på ikonen **[!UICONTROL More]** ![Mer &#x200B;](assets/qs-more-menu.png) till höger om projektnamnet. Klicka sedan på **[!UICONTROL Unsubscribe]**.
+   >* Gå till det projekt du vill avbryta prenumerationen på och klicka på ikonen **[!UICONTROL More]** ![Mer ](assets/qs-more-menu.png) till höger om projektnamnet. Klicka sedan på **[!UICONTROL Unsubscribe]**.
    >* Gå till en projektlista eller rapport och välj ett projekt, klicka på ikonen **[!UICONTROL More]** ![Mer](assets/qs-more-menu.png) högst upp i listan och klicka sedan på **[!UICONTROL Unsubscribe]**. Det här är bara tillgängligt i en lista med projekt.
 
 1. Klicka på **[!UICONTROL More]** ![Mer ikon](assets/more-icon.png) och sedan på **[!UICONTROL Unsubscribe]**.

@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: Hantera vad ditt team arbetar med
 description: Du kan se en kalendervy över uppgifter och problem som ditt team arbetar med just nu. Du kan tilldela ej tilldelade artiklar, justera aktuella tilldelningar, justera aktuella tilldelningar och mycket mer.
-author: Lisa
+author: Jenny
 feature: People Teams and Groups
 exl-id: 4bdec4b9-18b0-4981-a067-f47e259bc708
-source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 0%

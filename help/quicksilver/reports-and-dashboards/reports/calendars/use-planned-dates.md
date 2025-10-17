@@ -3,10 +3,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Använd planerade datum i en kalenderrapport
 description: En kalenderrapport är en dynamisk rapport som ger en visuell representation av ditt arbete. Du kan använda fältet Planerat datum i en kalenderrapport för uppgifter, utgåvor och projekt.
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 27bf6f03-2f6b-4556-a715-75c4a21bfbbb
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%

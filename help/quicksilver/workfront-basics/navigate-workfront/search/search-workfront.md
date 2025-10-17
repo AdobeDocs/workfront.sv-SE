@@ -3,9 +3,9 @@ navigation-topic: search
 title: Sök [!DNL Adobe Workfront]
 description: Du kan enkelt hitta objekt i [!DNL Adobe Workfront] genom att söka efter dem när du inte kommer ihåg deras exakta plats.
 feature: Get Started with Workfront
-author: Lisa
+author: Courtney
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1507'
 ht-degree: 0%
@@ -247,7 +247,7 @@ Den här typen av sökning är användbar när du inte kommer ihåg ett nyckelor
 
 Så här utför du en avancerad sökning:
 
-1. Klicka på ikonen [!DNL Workfront] **[!UICONTROL Search]** Sök ![&#x200B; i det övre högra hörnet på en sida i &#x200B;](assets/search-icon.png). Menyn **Sök** visas.
+1. Klicka på ikonen [!DNL Workfront] **[!UICONTROL Search]** Sök ![ i det övre högra hörnet på en sida i ](assets/search-icon.png). Menyn **Sök** visas.
 
 1. Klicka på **längst ned på menyn** Sök **[!UICONTROL Advanced Search]**. Sidan **Sök** öppnas med fliken **Avancerad sökning** markerad som standard.
    ![Avancerad sökning](assets/qs-advanced-search-350x224.png)

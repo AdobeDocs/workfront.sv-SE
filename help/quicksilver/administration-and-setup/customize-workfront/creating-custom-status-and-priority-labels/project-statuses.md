@@ -5,11 +5,11 @@ content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: Användarna kan ange status för ett projekt så att andra användare kan se projektets aktuella utvecklingsstadium vid en viss tidpunkt.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1fc91438-1ead-40d2-b0aa-863c1125c2fb
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%

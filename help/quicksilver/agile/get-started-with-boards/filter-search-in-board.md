@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Filtrera och söka på en anslagstavla
 description: Du kan filtrera en anslagstavla så att endast vissa kort visas.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 0%
@@ -28,7 +28,7 @@ När du sorterar på anslagstavlan sorteras alla kort i kolumnerna. Det går int
 
 Genom att söka kan du även hitta ett visst kort på kortet.
 
-När filter används visas en indikator på ![ritytan &#x200B;](assets/boards-filterapplied-30x30.png). Klicka på **[!UICONTROL Clear All]** för att ta bort alla filter från ritytan och klicka på komprimeringsikonen för att stänga filterpanelen.
+När filter används visas en indikator på ![ritytan ](assets/boards-filterapplied-30x30.png). Klicka på **[!UICONTROL Clear All]** för att ta bort alla filter från ritytan och klicka på komprimeringsikonen för att stänga filterpanelen.
 
 ![Panelen Filter](assets/boards-all-filters-collapsed-0823.png)
 

@@ -3,11 +3,11 @@ content-type: reference
 navigation-topic: get-started-with-workfront
 title: 'Använd meddelanden: artikelindex'
 description: Läs de här artiklarna för att lära dig hur du använder meddelanden i Adobe Workfront.
-author: Nolan
+author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c609c51d-df67-49bb-8fe3-8962a5270cc9
-source-git-commit: 2768cb277a45493dc8eb9ffeca2c05b14d772382
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%

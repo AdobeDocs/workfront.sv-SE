@@ -5,11 +5,11 @@ product-area: system-administration;user-management
 navigation-topic: groups-overview
 title: Översikt över undergrupper
 description: Du kan skapa upp till 14 nivåer med undergrupper under en grupp. På någon av dessa nivåer kan du skapa ett obegränsat antal parallella undergrupper.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a4280498-6719-4911-a69a-b715a5438eed
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Alla grupper som du lägger till i en befintlig grupp blir automatiskt en underg
 Group Admins of a subgroup can't manage statuses or project preferences of the subgroup YET (Sprint 22/Oct 28, 2020)</p>
 -->
 
-Du kan tilldela undergruppsmedlemmar som gruppadministratörer till undergruppen när du skapar eller redigerar den. Instruktioner finns i [&#128279;](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create) i artikeln [Skapa en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+Du kan tilldela undergruppsmedlemmar som gruppadministratörer till undergruppen när du skapar eller redigerar den. Instruktioner finns i [](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create) i artikeln [Skapa en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 Alternativt kan du lämna administreringen av undergruppen till de gruppadministratörer som är tilldelade till grupperna ovan. När du skapar en undergrupp får gruppadministratörer över grupperna ovan automatisk åtkomst för att hantera undergruppen.
 

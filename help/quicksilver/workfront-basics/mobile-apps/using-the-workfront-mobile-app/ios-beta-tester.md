@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Bli betatestare av iOS
 description: Läs den här artikeln om du vill bli iOS betatestare för  [!DNL Adobe Workfront] mobilappen.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: b02119ab-f4ea-4249-8d2c-b26df47e770d
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Du kan använda [!DNL Apple App Store] för att hitta och hämta appen.
 >
 >När du har installerat appen [!DNL TestFlight] och blivit betatestare på din [!DNL iOS]-enhet måste du hämta uppdaterade versioner av [!DNL Workfront] med appen [!DNL TestFlight] i stället för [!DNL Apple Store]. Om du inte är betatestare för [!DNL iOS] kan du fortsätta att uppdatera din mobilapp från [!DNL Apple Store].
 
-#### 1. Installera appen [!DNL TestFlight].
+#### &#x200B;1. Installera appen [!DNL TestFlight].
 
 Om du vill installera betaversionen av appen [!DNL Workfront] måste du ha appen [!DNL TestFlight] installerad på enheten. När du har installerat [!DNL TestFlight] måste du installera appen [!DNL Workfront].
 
@@ -41,7 +41,7 @@ Om du vill installera betaversionen av appen [!DNL Workfront] måste du ha appen
 1. Tryck på **[!UICONTROL Accept]** för att acceptera villkoren för appen [!DNL TestFlight].\
    Appen [!DNL TestFlight] är installerad på din enhet. Fortsätt till nästa avsnitt.
 
-#### 2. Installera Beta-appen [!DNL Workfront] i [!DNL TestFlight].
+#### &#x200B;2. Installera Beta-appen [!DNL Workfront] i [!DNL TestFlight].
 
 Du måste ha appen [!DNL Workfront] och appen [!DNL TestFlight] installerade på din iOS-enhet innan du kan bli betatestare på en iOS-enhet.
 

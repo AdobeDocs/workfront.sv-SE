@@ -5,11 +5,11 @@ keywords: hantera,gruppera,redigera,
 navigation-topic: create-and-manage-groups
 title: Hantera en grupp
 description: Som gruppadministratör kan du hantera en grupp som du administrerar från området Grupper i Inställningar. Om det finns grupper ovanför gruppen som du hanterar kan deras administratörer även göra detta för gruppen. Detsamma gäller för Workfront-administratörer (för alla grupper).
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1292'
 ht-degree: 0%

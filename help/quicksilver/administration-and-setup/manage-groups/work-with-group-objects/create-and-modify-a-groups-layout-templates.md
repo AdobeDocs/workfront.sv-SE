@@ -5,11 +5,11 @@ keywords: grupp,layout,mallar
 navigation-topic: work-with-a-groups-objects
 title: Skapa och ändra en grupps layoutmallar
 description: När du visar en grupp som du hanterar i området Grupper kan du visa och arbeta med den layoutmall som administratörerna för gruppen, eller en av dess undergrupper, har administratörsbehörighet för.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 2be211a8-df84-49c3-827f-1215c77159e0
-source-git-commit: 1554c067afcc548c7f7abd03dbc3a49404e3c89c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
    I listan som visas kan du se de grupper som du hanterar, tillsammans med eventuella undergrupper som de har. Adobe Workfront-administratörer kan se alla grupper.
 
 1. Klicka på namnet på gruppen som du vill skapa eller ändra layoutmallar för.
-1. Klicka på ikonen **Layoutmallar** ![Layoutmallar &#x200B;](assets/layout-templates-icon.png) i den vänstra panelen.
+1. Klicka på ikonen **Layoutmallar** ![Layoutmallar ](assets/layout-templates-icon.png) i den vänstra panelen.
 
 1. Gör något av följande:
 
@@ -73,9 +73,9 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
      Mer information om hur du kopierar en layoutmall för att skapa en ny finns i [Kopiera en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
 
-   * Om du vill redigera en befintlig grupplayoutmall markerar du den och klickar sedan på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) .
+   * Om du vill redigera en befintlig grupplayoutmall markerar du den och klickar sedan på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) .
 
      Mer information om hur du redigerar en layoutmall finns i [Skapa och hantera layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-   * Om du vill ta bort en eller flera layoutmallar markerar du dem och klickar sedan på ikonen **Ta bort** ![Ta bort &#x200B;](assets/delete.png) .
-   * Om du vill exportera listan med layoutmallar klickar du på ikonen **Exportera** ![Exportera &#x200B;](assets/export-icon.png) .
+   * Om du vill ta bort en eller flera layoutmallar markerar du dem och klickar sedan på ikonen **Ta bort** ![Ta bort ](assets/delete.png) .
+   * Om du vill exportera listan med layoutmallar klickar du på ikonen **Exportera** ![Exportera ](assets/export-icon.png) .

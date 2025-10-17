@@ -5,12 +5,12 @@ product-area: system-administration;user-management
 navigation-topic: manage-groups
 title: Skapa och hantera undergrupper
 description: Som gruppadministratör för en undergrupp kan du skapa, flytta, visa, redigera, kopiera, byta namn på, exportera och ta bort undergruppen. Du kan också göra en undergrupp till en grupp på den översta nivån genom att ta bort den från den överordnade gruppen.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 76bbd4c5-a859-4641-aed5-d55e88a66069
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 0%

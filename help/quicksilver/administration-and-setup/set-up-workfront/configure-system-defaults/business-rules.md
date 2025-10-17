@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: business rules
 title: Skapa och redigera affärsregler
 description: Med en affärsregel kan du validera Workfront-objekt och hindra användare från att skapa, redigera eller ta bort ett objekt när vissa villkor är uppfyllda. Affärsreglerna bidrar till att förbättra datakvaliteten och effektiviteten genom att förhindra åtgärder som kan äventyra dataintegriteten.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1323'
 ht-degree: 0%

@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Ändra ordning på artiklar på styrkortet
 description: Den ordning i vilken artiklarna visas på artikelpanelen anger inte prioritet. Det kan dock påverka den upplevda prioriteten genom att göra artiklarna mer synliga. Som standard visas artiklar i alfabetisk ordning i varje [!UICONTROL status]-kolumn på artikelpanelen.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
-source-git-commit: 4dc2d81cd6dc4249f96925b6339fb837c4f67254
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -59,4 +59,4 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 Till skillnad från rörliga iterationer kan du inte ändra artikelordningen när du visar ett projekt i en flexibel vy. Om du vill ändra artikelordningen för ett projekt måste du visa projektet i en standardvy.
 
-Mer information om hur du ändrar projektvyn finns i [[!UICONTROL Manage a project] i [!UICONTROL Agile]-vyn &#x200B;](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md). Välj en standardvy i stället för att välja en flexibel vy.
+Mer information om hur du ändrar projektvyn finns i [[!UICONTROL Manage a project] i [!UICONTROL Agile]-vyn ](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md). Välj en standardvy i stället för att välja en flexibel vy.

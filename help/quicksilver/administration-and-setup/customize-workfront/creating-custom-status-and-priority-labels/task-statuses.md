@@ -5,11 +5,11 @@ content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: Du kan använda status för en uppgift för att visa användare i vilket utvecklingsstadium en uppgift befinner sig vid en viss tidpunkt.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 2cdedc67-b7b0-4e83-a446-d71e3afe255c
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%

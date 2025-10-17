@@ -4,11 +4,11 @@ product-area: user-management;agile-and-teams
 navigation-topic: people-teams-and-groups
 title: Arbeta med gruppförfrågningar
 description: Läs de här artiklarna och lär dig hur du arbetar med gruppförfrågningar i Workfront.
-author: Lisa
+author: Jenny
 feature: People Teams and Groups
 recommendations: noDisplay, noCatalog
 exl-id: 3d3b786d-217c-414b-b0b9-812f4de9133f
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '35'
 ht-degree: 0%

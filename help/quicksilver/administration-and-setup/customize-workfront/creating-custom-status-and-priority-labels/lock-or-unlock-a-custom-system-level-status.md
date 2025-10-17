@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 title: Låsta och olåsta statusvärden på systemnivå
 description: Genom att låsa anpassade statusvärden kan du se till att alla i organisationen använder samma processer i sitt arbetsflöde. När en status är låst är den tillgänglig för alla användare i systemet. Även om du kan redigera eller ta bort den kan gruppadministratörer inte göra det för sina grupper. Omvänt gör det möjligt för gruppadministratörer att hantera de unika arbetsflöden som används i deras grupper mer flexibelt om man låser upp anpassade statusar. De kan ändra attributen för en olåst status eller ta bort den för sina grupper.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0e58a1d6-5e0c-4445-a5ac-400dfd4c4948
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%

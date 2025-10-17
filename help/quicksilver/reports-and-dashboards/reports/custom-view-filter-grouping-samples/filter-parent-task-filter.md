@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Filter: visa överordnade uppgifter'
 description: Du kan använda uppgiftsfiltren nedan för att visa arbetsuppgifter. Arbetsuppgifter är uppgifter som kan bearbetas oberoende av varandra och inte är överordnade uppgifter till andra uppgifter. I ett exempel identifierar ett filter underordnade uppgifter som kan vara överordnade. I det här fallet fungerar de inte.
-author: Lisa and Nolan
+author: Lisa and Jenny
 feature: Reports and Dashboards
 exl-id: 4c3956e1-59e0-4bf2-8739-8064271d6281
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 0%
@@ -129,7 +129,7 @@ Du kan använda följande filter på en uppgiftsrapport om du vill visa friståe
 1. I **Börja skriva fältnamn ...** rad börja skriva **Överordnat ID** och välj sedan **Aktivitet >> Överordnat ID** i listan.
 1. Välj **Är tom** som modifierare.
 
-   ![Överordnat ID är tomt och inga underordnade &#x200B;](assets/filter-parent-id-blank-and-zero-children-350x121.png)
+   ![Överordnat ID är tomt och inga underordnade ](assets/filter-parent-id-blank-and-zero-children-350x121.png)
 
    eller
 

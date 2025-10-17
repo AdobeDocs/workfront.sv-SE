@@ -5,11 +5,11 @@ keywords: grupp,inställningar,uppgift,grupper,problem,låsa upp
 navigation-topic: create-and-manage-groups
 title: Konfigurera tidrapport- och timinställningar för en grupp
 description: På systemnivå kan en Adobe Workfront-administratör låsa upp tidrapport- och timinställningsavsnitten Allmänna inställningar och Fyll i i förväg med tidrapporter. Detta gör att gruppadministratörer kan konfigurera alternativen i dessa avsnitt separat för sina egna grupper.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1336'
 ht-degree: 0%

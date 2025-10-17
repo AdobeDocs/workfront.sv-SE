@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Låsta och olåsta gruppstatusar
 description: Att låsa en grupps anpassade status är ett sätt att se till att personer i gruppen och dess undergrupper använder samma processer i arbetsflödet. När en gruppstatus är låst är den tillgänglig för alla användare i gruppen och i de nedre grupperna.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 3463e4cb-7336-49b7-b81a-c2acef72f61d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 0%

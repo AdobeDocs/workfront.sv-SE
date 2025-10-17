@@ -5,11 +5,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Installera en utkast
 description: Du kan installera en plan i din produktionsmiljö eller i en sandlådemiljö.
-author: Becky
+author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: 546e19ab-dc50-4d23-b5f6-31bde1c82b6a
-source-git-commit: 5fd855bec596926a4361fd07a1a763c7956e5e61
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -87,7 +87,7 @@ Du kan installera ditt paket i följande miljöer:
 1. (Valfritt) Klicka på **[!UICONTROL Details]** om du vill veta hur ritningen fungerar.
 1. Klicka på **[!UICONTROL Install]**.
 1. Välj om du vill installera i din produktionsmiljö eller i en sandlådemiljö.\
-   Mer information finns i [Var ska jag installera en plan?avsnittet &#x200B;](#where-should-i-install-a-blueprint) i den här artikeln.
+   Mer information finns i [Var ska jag installera en plan?avsnittet ](#where-should-i-install-a-blueprint) i den här artikeln.
 1. På sidan **Konfigurera** kan du göra något av följande:
 
    * Installera ritningen som den är. För ritningstyper som inte kräver någon konfiguration är detta det enda alternativet. För ritningstyper som behöver konfigureras kan du välja att installera ritningen nu och konfigurera den senare. Klicka på **[!UICONTROL Install as is]**.

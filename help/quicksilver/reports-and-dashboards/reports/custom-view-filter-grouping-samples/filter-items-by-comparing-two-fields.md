@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Filter: ta bort objekt i en lista genom att jämföra två fält'
 description: Du kan filtrera objekt från en lista genom att jämföra två av deras fält. Du kan till exempel bara visa uppgifter där aktivitetens verkliga slutförandedatum är större än det planerade slutförandedatumet.
-author: Lisa and Nolan
+author: Lisa and Jenny
 feature: Reports and Dashboards
 exl-id: 6a41db8e-1456-4031-bf2a-ca6d4111ad44
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%

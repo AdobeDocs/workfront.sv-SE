@@ -4,11 +4,11 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Översikt över knappen Arbeta på den och Klar
 description: När du har tilldelats en uppgift eller ett problem kan du använda en sammanhangsberoende knapp som ändrar namn och funktion beroende på hur du är inblandad i arbetsuppgiften.
-author: Lisa and Alina
+author: Becky and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 0%

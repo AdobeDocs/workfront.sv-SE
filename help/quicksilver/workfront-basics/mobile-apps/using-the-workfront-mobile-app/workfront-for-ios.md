@@ -4,10 +4,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Adobe Workfront för iOS
 description: Med appen  [!DNL Adobe Workfront] får du tillgång till ditt arbete på alla iOS-enheter. Du kan installera och använda  [!DNL Workfront] mobilappen på telefoner och surfplattor med iOS 10 eller senare. Det finns en dedikerad  [!DNL Workfront] mobilapp för både iPhone och iPad.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: dcf52fc5-8029-49e0-bf6a-0733df334dc2
-source-git-commit: 52ca3335f6c2dde0442f31fb4bd4ca0180c96b40
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Med appen [!DNL Adobe Workfront] kan du komma åt ditt arbete på alla [!DNL iOS]-enheter. Du kan installera och använda mobilappen [!DNL Workfront] på telefoner och surfplattor med iOS 10 eller senare. Det finns en dedikerad [!DNL Workfront]-mobilapp för både [!DNL iPhone] och [!DNL iPad].
 
-Mer information om hur du loggar in på mobilappen finns i avsnittet [Logga in på [!UICONTROL Workfront] mobilappen &#x200B;](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log) i artikeln [Logga in på  [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
+Mer information om hur du loggar in på mobilappen finns i avsnittet [Logga in på [!UICONTROL Workfront] mobilappen ](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log) i artikeln [Logga in på  [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
 
 ## [!UICONTROL Home]
 
@@ -48,7 +48,7 @@ I området [!UICONTROL Home] kan du arbeta direkt med uppgifter, utgåvor och go
  </tbody> 
 </table>
 
-Mer information finns i avsnittet [[!UICONTROL Home] områdeswidgetar &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md) och [[!UICONTROL My Work] i mobilappen &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
+Mer information finns i avsnittet [[!UICONTROL Home] områdeswidgetar ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md) och [[!UICONTROL My Work] i mobilappen ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
 
 ![Hem](assets/mobile-home-area.png)
 

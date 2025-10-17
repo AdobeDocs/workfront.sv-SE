@@ -4,10 +4,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Översikt över kalenderrapporter
 description: En kalenderrapport är en dynamisk rapport som ger en visuell representation av ditt arbete. Du kan visa datuminformation i en kalenderrapport för uppgifter, utgåvor och projekt.
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
-source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%

@@ -5,11 +5,11 @@ content-type: reference;overview
 product-area: system-administration;user-management
 navigation-topic: groups-overview
 description: En Workfront-administratör kan skapa användargrupper som sammanfaller med avdelningsstrukturen. Grupper liknar, men skiljer sig från, team och företag.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1353ab04-7de7-4d30-a092-27807c950777
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '927'
 ht-degree: 0%

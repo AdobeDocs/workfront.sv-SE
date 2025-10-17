@@ -5,11 +5,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Översikt över utkast
 description: Utkast är uppsättningar av Workfront-objekt som hanterar vanliga användningsområden i Workfront. Du kan hämta och installera en plan och sedan konfigurera objekten för ditt specifika användningsfall.
-author: Becky
+author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 0%
@@ -82,7 +82,7 @@ Varje plan innehåller en informationssida. Från den här sidan kan du:
 * Se beskrivningar av roller, team, företag och grupper
 * Se ett visuellt exempel på en viss plan, t.ex. en projektmall (du kan förhandsvisa hela bilden i webbläsaren eller hämta den)
 
-![[!UICONTROL Blueprint Details] sida &#x200B;](assets/blueprint-details-page-2022.png)
+![[!UICONTROL Blueprint Details] sida ](assets/blueprint-details-page-2022.png)
 
 ## Installera en plan
 

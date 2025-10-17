@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: iterations
 title: Ta bort en iteration
 description: Du kan ta bort en iteration för ditt mobila team om det inte längre behövs.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%

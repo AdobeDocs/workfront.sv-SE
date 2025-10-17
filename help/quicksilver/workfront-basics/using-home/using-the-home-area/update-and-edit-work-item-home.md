@@ -3,10 +3,10 @@ product-area: projects
 navigation-topic: use-the-home-area
 title: Uppdatera eller redigera ett arbetsobjekt i hemområdet
 description: Du kan visa och lägga till uppdateringar för ett arbetsobjekt i området [!UICONTROL Home] i Adobe Workfront. Du kan även redigera andra data som är relaterade till arbetsposten om du har tillgång till dem för att redigera dem.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '824'
 ht-degree: 0%

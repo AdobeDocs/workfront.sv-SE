@@ -5,12 +5,12 @@ product-area: system-administration;user-management
 navigation-topic: manage-groups
 title: Arbeta med en grupps objekt
 description: När nya objekt läggs till på gruppsidan ska du inte glömma att uppdatera artikeln Hantera grupper/grupper overview/groups.html
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: d2f9494a-170d-4600-a282-69ad14a0cf6f
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%

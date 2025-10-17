@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: customize-fields-on-card
 title: Anpassa vilka fält som ska visas på ett kort
 description: Du kan anpassa vilka fält som ska visas på ett kort genom att inaktivera ett fält så att det inte visas i det fullständiga kortet eller den komprimerade vyn, eller genom att dölja ett fält i den komprimerade kortvyn.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
@@ -67,7 +67,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    De flesta fält och avsnitt är aktiverade som standard.
 
 1. Stäng av ett fält eller avsnitt för att inaktivera det i båda kortvyerna.
-1. Klicka på ikonen Dölj ![Dölj &#x200B;](assets/eye-hide-icon.png) bredvid ett fält eller avsnitt om du vill dölja det i den komprimerade vyn.
+1. Klicka på ikonen Dölj ![Dölj ](assets/eye-hide-icon.png) bredvid ett fält eller avsnitt om du vill dölja det i den komprimerade vyn.
 1. Om du vill visa alla fält och avsnitt i båda vyerna klickar du på [!UICONTROL **Återställ alla fält till standard**].
 1. Klicka på [!UICONTROL **Dölj konfigurera**] för att stänga konfigurationspanelen.
 

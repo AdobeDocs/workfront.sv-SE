@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Dela och hämta korrektur i  [!DNL Adobe Workfront] mobilappen
 description: Du kan dela ett korrekturdokument med interna och externa mottagare direkt från mobilappen. Du kan även hämta ett korrekturdokument till din mobila enhet.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: a97ddd1e-1cae-49a8-b3a4-7c9850169179
-source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Det här alternativet skickar ett e-postmeddelande med en unik korrekturlänk ti
 
 1. Upprepa steg 3-5 om du vill lägga till en annan mottagare.
 1. Välj **[!UICONTROL Set deadline for new contacts]** om du vill välja ett förfallodatum för alla mottagare som ska granska korrekturet. Välj sedan ett datum i kalendern.
-1. Välj ikonen **[!UICONTROL Send]** ![Skicka &#x200B;](assets/mobile-send-icon-25x26.png) för att skicka e-postmeddelandet till mottagarna.
+1. Välj ikonen **[!UICONTROL Send]** ![Skicka ](assets/mobile-send-icon-25x26.png) för att skicka e-postmeddelandet till mottagarna.
 
 ## Skicka en länk till korrekturet
 
@@ -73,7 +73,7 @@ Det här alternativet skickar ett e-postmeddelande med en offentlig korrekturlä
 
    ![[!UICONTROL Share with Public URL screen]](assets/mobile-sharepublicurl-proof-350x296.png)
 
-1. Välj ikonen **[!UICONTROL Send]** ![Skicka &#x200B;](assets/mobile-send-icon-25x26.png) för att skicka e-postmeddelandet till mottagarna.
+1. Välj ikonen **[!UICONTROL Send]** ![Skicka ](assets/mobile-send-icon-25x26.png) för att skicka e-postmeddelandet till mottagarna.
 
 ## Ladda ned beviset
 

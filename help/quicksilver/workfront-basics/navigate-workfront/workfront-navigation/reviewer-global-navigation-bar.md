@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: workfront-navigation
 title: Förstå navigeringen för en användare med en granskningslicens
 description: Huvudmenyn ändras med den åtkomstnivå som du har tilldelats av din [!DNL Adobe Workfront] administratör. Som standard får du bara åtkomst till de områden som har funktioner som är tillåtna på din åtkomstnivå.
-author: Lisa
+author: Lisa and Courtney
 feature: Get Started with Workfront
 exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
-source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Förstå navigeringen för en [!UICONTROL Review]-licensanvändare
 
-[!UICONTROL Main Menu] ändras med den åtkomstnivå som du har tilldelats av din [!DNL Adobe Workfront]-administratör. Som standard får du bara åtkomst till de områden som har funktioner som är tillåtna på din åtkomstnivå. Mer information om komponenterna i standardlayouten för varje åtkomstnivå finns i [Om standardlayouten [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
+[!UICONTROL Main Menu] ändras med den åtkomstnivå som du har tilldelats av din [!DNL Adobe Workfront]-administratör. Som standard får du bara åtkomst till de områden som har funktioner som är tillåtna på din åtkomstnivå. Mer information om komponenterna i standardlayouten för varje åtkomstnivå finns i [Om standardlayouten [!DNL Adobe Workfront] ](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
 ## Förstå standardvärdet [!UICONTROL Main Menu] för en [!UICONTROL Reviewer]
 

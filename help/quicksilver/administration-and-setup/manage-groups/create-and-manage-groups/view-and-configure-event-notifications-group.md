@@ -5,11 +5,11 @@ keywords: visa,grupp,händelse,meddelanden,konfigurera,aktivera,inaktivera
 navigation-topic: create-and-manage-groups
 title: Visa och konfigurera händelsemeddelanden för en grupp
 description: Som gruppadministratör kan du visa händelsemeddelanden som aktiveras för en grupp som du hanterar. Om en Adobe Workfront-administratör låser upp ett händelsemeddelande kan du konfigurera det för en toppnivågrupp som du hanterar. Konfigurationen av ett händelsemeddelande består av att aktivera eller inaktivera det.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a815aeb1-3403-4491-a8ad-7e47c519905c
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 0%

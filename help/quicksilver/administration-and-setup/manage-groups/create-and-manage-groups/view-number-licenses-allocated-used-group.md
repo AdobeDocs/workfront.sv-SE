@@ -1,11 +1,11 @@
 ---
 title: Visa antalet licenser som tilldelats och används i en grupp
 description: Som Adobe Workfront-administratör kan du visa antalet av de enskilda licenstyper som för närvarande används i din grupp och dess undergrupper. Detta är användbart när du behöver utvärdera om du ska distribuera licenser.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8d1870ea-3f9e-4358-8e14-3dcfc3805637
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%

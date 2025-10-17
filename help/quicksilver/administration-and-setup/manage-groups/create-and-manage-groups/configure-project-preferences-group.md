@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 description: Om du är gruppadministratör och en Adobe Workfront-administratör låser upp en projektinställning för alla grupper i systemet kan du konfigurera den inställningen så att den påverkar alla efterföljande projekt som gruppen skapar.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '2736'
 ht-degree: 0%

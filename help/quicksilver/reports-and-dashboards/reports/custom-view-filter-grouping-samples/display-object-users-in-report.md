@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Rapporter eller listor: visa användare som är kopplade till ett objekt'
 description: Du kan visa användare, jobbroller och team som är kopplade till objekt i rapporter eller listor samt referera till dem i filter. Du kan inte gruppera efter användare, jobbroller eller team som är kopplade till objekt.
-author: Lisa and Nolan
+author: Lisa and Jenny
 feature: Reports and Dashboards
 exl-id: 9abdaafb-da2c-4b5d-9117-59afa4a1e71f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 0%

@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: group-roles
 title: Översikt över företagsledare
 description: 'I en grupp är företagsledaren den person som fattar beslut för gruppen om mål, strategier, budget, anställning och så vidare. Exempel: i en organisation som har en marknadsföringschef är det den personen som troligen är affärsledare för marknadsföring.'
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4081587f-1ace-4f40-a3a1-57231d5a5d43
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%

@@ -3,10 +3,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Använd planerade datum i en kalenderrapport
 description: En kalenderrapport är en dynamisk rapport som ger en visuell representation av ditt arbete. Du kan använda fälten för projektdatum i en kalenderrapport för uppgifter, utgåvor och projekt.
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 39e16f0b-c10d-429e-9eb5-d4847c7e4ed9
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 0%
@@ -132,7 +132,7 @@ När du har ställt in hur du vill att objekten ska visas måste du lägga till 
 
 
    ![Välj objekt för kalendern](assets/calendar-field-name.png)
-Mer information om hur du ställer in villkor finns i [Filter och villkorsmodifierare &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md) .
+Mer information om hur du ställer in villkor finns i [Filter och villkorsmodifierare ](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md) .
 
 1. (Valfritt) Ange ytterligare objekt för kalendergrupperingen genom att upprepa steg 1-4.
 1. I fältet **[!UICONTROL Set the Tasks/Projects/Issues labels to be the...]** väljer du hur objekten i den här kalendergruppen ska märkas i kalendern.

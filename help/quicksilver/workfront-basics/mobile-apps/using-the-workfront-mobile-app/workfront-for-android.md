@@ -4,10 +4,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Adobe Workfront för Android
 description: Med appen  [!DNL Adobe Workfront] får du tillgång till ditt arbete på alla Android-enheter. Du kan installera och använda  [!DNL Workfront] mobilappen på telefoner och surfplattor med Android 5.0 eller senare.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 4bc209b8-18da-4f6f-97bd-699356269179
-source-git-commit: 52ca3335f6c2dde0442f31fb4bd4ca0180c96b40
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 0%
@@ -48,7 +48,7 @@ I området [!UICONTROL Home] kan du arbeta direkt med uppgifter, utgåvor och go
  </tbody> 
 </table>
 
-Mer information finns i avsnittet [[!UICONTROL Home] områdeswidgetar &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md) och [[!UICONTROL My Work] i mobilappen &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
+Mer information finns i avsnittet [[!UICONTROL Home] områdeswidgetar ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md) och [[!UICONTROL My Work] i mobilappen ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
 
 ![Hem](assets/mobile-home-area.png)
 

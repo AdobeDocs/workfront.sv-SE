@@ -5,12 +5,12 @@ product-area: system-administration;user-management
 navigation-topic: administration-and-setup
 title: 'Användarhantering: Artikelindex'
 description: Du kan lägga till användare i Adobe Workfront genom att skapa enskilda användare från grunden eller genom att kopiera befintliga användare.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 92b02c31-7e77-4b27-9b17-d7803df2ba2d
-source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 0%

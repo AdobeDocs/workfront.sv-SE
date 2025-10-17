@@ -4,11 +4,11 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: Åtgärder tillåts för gruppadministratörer
 description: I den här tabellen jämförs de administrationsaktiviteter som är tillgängliga för en Adobe Workfront-administratör som hanterar Workfront-systemet, en gruppadministratör som hanterar en högnivågrupp och en gruppadministratör som hanterar en undergrupp.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: 416be55e172e2e2f0a1d8b593fdcb27d123e2fcb
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 0%
@@ -235,7 +235,7 @@ I denna tabell listas de administrationsaktiviteter som är tillgängliga för:
 * Arbetsflöde Prime och senare
 * Workfront Prime och senare
 
-Mer information om paket finns på sidan [Prissättning och paketering för Adobe Workfront](https://business.adobe.com/se/products/workfront/pricing.html).
+Mer information om paket finns på sidan [Prissättning och paketering för Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 Avancerade företagskontroller:
 

@@ -4,11 +4,11 @@ product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Konfigurera tidrapport och timinställningar
 description: Som  [!DNL Adobe Workfront] administratör kan du ange inställningar för tidrapporter och timmar i [!DNL Workfront] för att definiera vilka objekt tidrapporterna kan förifyllas med och vilka objekt användarna kan logga tid på.
-author: Alina and Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: e8c89b68a022ae1c0cf5da20257cd8bc36e94d4c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 0%

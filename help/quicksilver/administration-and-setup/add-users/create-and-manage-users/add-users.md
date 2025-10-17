@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Lägg till användare
 description: Som Workfront-administratör eller en användare med fullständig administrativ åtkomst kan du lägga till användare i Workfront.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: f8d04790caefd12c9811ea3ed94e1f892311d031
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1276'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 >   En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns i [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
 >* **Om din organisation använder enkel inloggning (SSO)** rekommenderar vi att du skapar användare och tilldelar dem till Workfront i Adobe Admin Console. Det går att skapa dessa användare i Workfront, men det kan uppstå problem när informationen ska överföras till Adobe Admin Console, baserat på hur organisationens Admin Console är konfigurerad.
->  &#x200B;>   När du har skapat användaren i Adobe Admin Console kan du konfigurera användarens information i Workfront, till exempel tilldela roller, grupper, team och åtkomstnivåer.
+>  >   När du har skapat användaren i Adobe Admin Console kan du konfigurera användarens information i Workfront, till exempel tilldela roller, grupper, team och åtkomstnivåer.
 >* **Om din organisation inte använder enkel inloggning (SSO)** kan du lägga till användare som inte är systemadministratörer direkt i Workfront. Det går att lägga till användare i Adobe Admin Console, men om du lägger till dem i Workfront kan du ange åtkomstnivå när du skapar dem, vilket sparar tid.
 
 

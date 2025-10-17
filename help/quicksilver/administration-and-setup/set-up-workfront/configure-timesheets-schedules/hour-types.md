@@ -5,11 +5,11 @@ product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Hantera timtyper
 description: Du kan associera timtyper med timposterna. Timtyper är etiketter som du använder för att definiera timposterna. Timtyper kan vara för allmän tid eller för projektspecifik tid.
-author: Alina, Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: e8c89b68a022ae1c0cf5da20257cd8bc36e94d4c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 0%
@@ -157,7 +157,7 @@ Som [!DNL Workfront]-administratör kan du redigera timtyper för din organisati
 
 1. Klicka på **Tidrapport och timmar** i den vänstra panelen och klicka sedan på **Timtyper**.
 
-1. Klicka på ett timtypsnamn eller välj timtyp och klicka sedan på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) längst upp i listan.
+1. Klicka på ett timtypsnamn eller välj timtyp och klicka sedan på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) längst upp i listan.
 1. Ange följande information i dialogrutan **Redigera timtyper**:
 
    <table style="table-layout:auto"> 

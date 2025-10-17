@@ -3,10 +3,10 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Skapa personliga uppgifter
 description: Personliga uppgifter är tillfälliga arbetsförfrågningar som du skickar till en användare, till dig själv eller att göra-uppgifter som du skapar själv i hemområdet. Workfront sparar tillfälliga arbetsförfrågningar och gör objekt som personliga uppgifter.
-author: Lisa
+author: Becky
 feature: Get Started with Workfront
 exl-id: b40d6b10-19c7-4e11-a74f-a8af3ebafb65
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 0%

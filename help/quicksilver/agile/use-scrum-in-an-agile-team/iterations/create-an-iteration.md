@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: iterations
 title: Skapa en iteration
 description: Iterationer är en nyckelkomponent för Scrum-team när det gäller att planera arbetskapaciteten.Med  [!DNL Adobe Workfront] kan Scrum-team hantera sitt arbete genom att skapa flera iterationer för att tillgodose teamets behov.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 0%
@@ -152,7 +152,7 @@ Använd funktionen [!UICONTROL Plan Iteration] för att skapa en iteration med u
 
    >[!NOTE]
    >
-   >  När du lägger till uppgifter i en iteration beräknas startdatumet för aktiviteten enligt beskrivningen i [[!UICONTROL Understand] hur startdatum för aktiviteten beräknas när de läggs till i en iteration &#x200B;](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
+   >  När du lägger till uppgifter i en iteration beräknas startdatumet för aktiviteten enligt beskrivningen i [[!UICONTROL Understand] hur startdatum för aktiviteten beräknas när de läggs till i en iteration ](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
 
 
 ## Förstå hur startdatum för aktiviteter beräknas när de läggs till i en iteration {#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration}

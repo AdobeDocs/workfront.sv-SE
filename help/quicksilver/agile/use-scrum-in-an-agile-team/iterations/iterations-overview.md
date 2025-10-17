@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: iterations
 title: Iterations - översikt
 description: Agile iterations består av tre områden - slutförandestatus, nedladdning och artikeltavlan.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: db32d3b9-f573-43e3-b4fb-49b75162057b
-source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '55'
 ht-degree: 0%

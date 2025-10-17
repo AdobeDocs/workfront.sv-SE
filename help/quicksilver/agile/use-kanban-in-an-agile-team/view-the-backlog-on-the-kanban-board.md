@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Lägg till eftersläpningen i Kanban-styrelsen
 description: Du kan visa en [!UICONTROL Backlog]-kolumn direkt på din Kanban-tavla. Kolumnen [!UICONTROL Backlog] på  [!DNL Kanban] anslagstavlan innehåller de första 20 objekten från din eftersläpning på  [!DNL Kanban] anslagstavlan. Aktiviteter och ärenden måste tillhöra ett projekt med en status som motsvarar Aktuell för att visas i eftersläpningen.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 77c7f7c7-66d9-4aec-9a0c-bfdc470a58d7
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%

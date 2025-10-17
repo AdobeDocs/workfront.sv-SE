@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-workfront-view
 title: Uppdatera widgetar i projektinformationsvyn
 description: Du kan visa ytterligare information om [!UICONTROL project] när du har öppnat den från projektlistan genom att lägga till widgetar på [!UICONTROL Project Details]-skärmen. Varje användare kan anpassa sina egna widgetar.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 593dc4a2-20aa-44d3-b819-1d4b160095ed
-source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
