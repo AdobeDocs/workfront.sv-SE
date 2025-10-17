@@ -65,7 +65,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
    ![Välj objekttyp](assets/choose-object-type.jpg)
 
 1. Skriv den anpassade formulärtiteln i området **Lägg till ett formulärnamn**.
-1. (Valfritt) Om du vill lägga till fler objekttyper i formuläret så att det kan kopplas till fler objekt klickar du på ikonen **Lägg till** ![Lägg till objekt ](assets/add-objects-icon.png) bredvid **Objekttyper** och väljer sedan önskad typ på menyn som visas. Du kan upprepa detta om du vill lägga till så många objekttyper som du vill.
+1. (Valfritt) Om du vill lägga till fler objekttyper i formuläret så att det kan kopplas till fler objekt klickar du på ikonen **Lägg till** ![Lägg till objekt &#x200B;](assets/add-objects-icon.png) bredvid **Objekttyper** och väljer sedan önskad typ på menyn som visas. Du kan upprepa detta om du vill lägga till så många objekttyper som du vill.
 
    När du har lagt till mer än ett objekt i formuläret kan du klicka på X för en objekttyp för att ta bort det från formuläret.
 
@@ -129,7 +129,7 @@ Varje anpassat fältnamn måste vara unikt i din organisations Workfront-instans
 >[!NOTE]
 >
 >Även om det går att göra det rekommenderar vi att du inte ändrar det här namnet efter att du eller andra användare har börjat använda det anpassade formuläret i Workfront. Om du gör det kommer systemet inte längre att känna igen det anpassade fältet där det nu kan refereras till i andra områden av Workfront.
->>Om du t.ex. lägger till det anpassade fältet i en rapport och senare ändrar namnet, känner Workfront inte igen det i rapporten och det slutar fungera som det ska om du inte lägger till det i rapporten igen med det nya namnet.
+>&#x200B;>Om du t.ex. lägger till det anpassade fältet i en rapport och senare ändrar namnet, känner Workfront inte igen det i rapporten och det slutar fungera som det ska om du inte lägger till det i rapporten igen med det nya namnet.
 >
 >Vi rekommenderar att du inte skriver in ett namn som redan används för inbyggda Workfront-fält.
 >
@@ -628,12 +628,12 @@ Så här lägger du till en extern sökning:
       <td role="rowheader">JSON-sökväg</td>
       <td><p>Skriv eller klistra in JSON-sökvägen för API:t.</p> <p>Med det här alternativet kan data extraheras från den JSON som returneras av API-URL:en. Det är ett sätt att välja vilka värden från JSON som ska visas i listrutan.</p><p>Om din API-URL till exempel returnerar JSON i följande format kan du använda "$.data[*].name" för att välja USA och Kanada som nedrullningsbara alternativ:</br>
       <pre>
-      {
-       data: {
+      &lbrace;
+       data: &lbrace;
          { name: "USA"},
          { name: "Canada"}
-       }
-      }
+       &rbrace;
+      &rbrace;
       </pre>
       </p>
      <p>Mer information om JSON-sökvägen och hur du ser till att du skriver rätt JSON-sökväg finns på <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
