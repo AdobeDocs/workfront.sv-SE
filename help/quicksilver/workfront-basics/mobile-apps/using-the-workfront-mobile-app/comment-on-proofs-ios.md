@@ -39,7 +39,7 @@ Du kan granska kommentarer som har gjorts i ett korrekturdokument. Kommentarerna
 
 1. Om du vill visa en lista över alla kommentarer ordnade efter sidnummer, markerar du kommentarsikonen ![Kommentarikonen](assets/mobile-comment-icon-30x25.png) längst upp till höger.
 
-   Antalet olästa kommentarer anges på kommentarsikonen. ![Antal olästa kommentarer](assets/mobile-unread-comments-icon-30x27.png) Olästa kommentarer i listan markeras med en blå punkt. Kommentarer med bifogade filer har en pappersklippsikon ![[!UICONTROL Attachment] ](assets/mobile-paper-clip-icon.png).
+   Antalet olästa kommentarer anges på kommentarsikonen. ![Antal olästa kommentarer](assets/mobile-unread-comments-icon-30x27.png) Olästa kommentarer i listan markeras med en blå punkt. Kommentarer med bifogade filer har en pappersklippsikon ![[!UICONTROL Attachment] &#x200B;](assets/mobile-paper-clip-icon.png).
 
 1. I listan markerar du en enskild kommentar för att visa kommentaren och tillhörande teckningar på dokumentsidan.
 1. Välj X för att stänga kommentarlistan och återgå till korrekturet.
@@ -53,7 +53,7 @@ I listan [!UICONTROL comment] kan du utföra olika åtgärder, som att lösa en 
    * Tryck och håll ned en enskild kommentar för att markera den.
    * Välj **[!UICONTROL Select]** längst upp till höger om du vill visa en kryssruta bredvid varje kommentar. Tryck sedan på kommentarkryssrutorna eller välj **[!UICONTROL Select All]** längst upp till vänster.
 
-1. Lös den markerade kommentaren genom att välja ![[!UICONTROL Resolve comment] ikon ](assets/mobile-resolvecomment-icon-30x30.png) i det nedre verktygsfältet.
+1. Lös den markerade kommentaren genom att välja ![[!UICONTROL Resolve comment] ikon &#x200B;](assets/mobile-resolvecomment-icon-30x30.png) i det nedre verktygsfältet.
 
    Du kan bara lösa en kommentar i taget. Kommentaren markeras med en grön ikon som visar att den var löst.
 
@@ -93,8 +93,8 @@ Du kan associera dina korrekturkommentarer med ett visst område i dokumentet. A
 
    Kontakten får ett mejl när kommentaren läggs till i korrekturet.
 
-1. Om du vill lägga till en bifogad fil i kommentaren väljer du ![[!UICONTROL Attachment]-ikonen ](assets/mobile-paper-clip-icon.png). Välj **[!UICONTROL Choose From Library]**, **[!UICONTROL Take a Photo]** eller **[!UICONTROL Select a Document]** och följ anvisningarna för att bifoga filen eller fotot till kommentaren.
+1. Om du vill lägga till en bifogad fil i kommentaren väljer du ![[!UICONTROL Attachment]-ikonen &#x200B;](assets/mobile-paper-clip-icon.png). Välj **[!UICONTROL Choose From Library]**, **[!UICONTROL Take a Photo]** eller **[!UICONTROL Select a Document]** och följ anvisningarna för att bifoga filen eller fotot till kommentaren.
 
    Klicka på X på miniatyrbilden för att ta bort den bifogade filen.
 
-1. Välj ikonen **[!UICONTROL Send]** ![Skicka ](assets/mobile-send-icon-25x26.png) om du vill lägga till kommentaren och ritningen i korrekturet.
+1. Välj ikonen **[!UICONTROL Send]** ![Skicka &#x200B;](assets/mobile-send-icon-25x26.png) om du vill lägga till kommentaren och ritningen i korrekturet.

@@ -157,7 +157,7 @@ Som [!DNL Workfront]-administratör kan du redigera timtyper för din organisati
 
 1. Klicka på **Tidrapport och timmar** i den vänstra panelen och klicka sedan på **Timtyper**.
 
-1. Klicka på ett timtypsnamn eller välj timtyp och klicka sedan på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) längst upp i listan.
+1. Klicka på ett timtypsnamn eller välj timtyp och klicka sedan på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) längst upp i listan.
 1. Ange följande information i dialogrutan **Redigera timtyper**:
 
    <table style="table-layout:auto"> 

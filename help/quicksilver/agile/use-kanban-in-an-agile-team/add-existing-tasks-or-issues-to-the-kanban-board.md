@@ -56,7 +56,7 @@ Så här lägger du till en aktivitet eller ett problem på en [!UICONTROL Kanba
 
 1. Välj det projekt som innehåller uppgiften eller utgåvan som du vill lägga till i Kanban-tavlan.
 1. Klicka på fliken **Åtgärder** eller **Problem** och välj sedan ett eller flera arbetsobjekt som du vill lägga till.
-1. Klicka på ikonen **[!UICONTROL More]** ![Mer ](assets/more-icon.png) och välj sedan **Lägg till i Kanban-styrelsen**. Dialogrutan [!UICONTROL **Lägg till i**] öppnas.
+1. Klicka på ikonen **[!UICONTROL More]** ![Mer &#x200B;](assets/more-icon.png) och välj sedan **Lägg till i Kanban-styrelsen**. Dialogrutan [!UICONTROL **Lägg till i**] öppnas.
 1. I fältet **Kanban Board** skriver du namnet på Kanban-teamet och väljer det i listrutan.
 
    >[!NOTE]
@@ -74,7 +74,7 @@ Så här lägger du till en aktivitet eller ett problem i en [!UICONTROL Kanban]
 
 1. Välj den aktivitets- eller utleveransrapport som innehåller den arbetsuppgift som du vill lägga till i Kanban-tavlan.
 1. Markera ett eller flera arbetsobjekt som ska läggas till.
-1. Klicka på ikonen **[!UICONTROL More]** ![Mer ](assets/more-icon.png) och välj sedan **Lägg till i Kanban-styrelsen**. Dialogrutan [!UICONTROL **Lägg till i**] öppnas.
+1. Klicka på ikonen **[!UICONTROL More]** ![Mer &#x200B;](assets/more-icon.png) och välj sedan **Lägg till i Kanban-styrelsen**. Dialogrutan [!UICONTROL **Lägg till i**] öppnas.
 1. I fältet **Kanban Board** skriver du namnet på Kanban-teamet och väljer det i listrutan.
 
    >[!NOTE]
@@ -93,7 +93,7 @@ Så här lägger du till en aktivitet eller ett problem på en [!UICONTROL Kanba
 
 1. Välj den kontrollpanel som innehåller arbetsobjektet som du vill lägga till i panelen Kanban.
 1. Markera ett eller flera arbetsobjekt som ska läggas till.
-1. Klicka på ikonen **[!UICONTROL More]** ![Mer ](assets/more-icon.png) och välj sedan **Lägg till i Kanban-styrelsen**. Dialogrutan [!UICONTROL **Lägg till i**] öppnas.
+1. Klicka på ikonen **[!UICONTROL More]** ![Mer &#x200B;](assets/more-icon.png) och välj sedan **Lägg till i Kanban-styrelsen**. Dialogrutan [!UICONTROL **Lägg till i**] öppnas.
 1. I fältet **Kanban Board** skriver du namnet på Kanban-teamet och väljer det i listrutan.
 
    >[!NOTE]

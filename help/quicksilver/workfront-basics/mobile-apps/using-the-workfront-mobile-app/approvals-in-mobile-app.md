@@ -43,7 +43,7 @@ Korrektur följer en separat godkännandeprocess. Du kan inte godkänna ett korr
 
 1. Välj **[!UICONTROL Show all approvals]** i området [!UICONTROL Approvals] i [!UICONTROL My Work].
 
-   Mer information om [!UICONTROL My Work] i mobilappen finns i avsnittet [[!UICONTROL My Work] i mobilappen ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
+   Mer information om [!UICONTROL My Work] i mobilappen finns i avsnittet [[!UICONTROL My Work] i mobilappen &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
 
 1. Välj ett godkännande i listan.
 

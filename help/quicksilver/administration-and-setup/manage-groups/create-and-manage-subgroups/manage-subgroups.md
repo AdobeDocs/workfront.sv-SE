@@ -180,12 +180,12 @@ Du kan göra en undergrupp till en grupp på den översta nivån genom att ta bo
 >[!TIP]
 >
 >När du inaktiverar en grupp som innehåller undergrupper blir även dessa undergrupper inaktiva. Om du vill att någon av dem ska vara aktiv kan du använda dessa instruktioner för att ta bort den från den överordnade gruppen och sedan återaktivera den.
->>Instruktioner om hur du inaktiverar och återaktiverar grupper finns i [Inaktivera eller återaktivera en grupp](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
+>&#x200B;>Instruktioner om hur du inaktiverar och återaktiverar grupper finns i [Inaktivera eller återaktivera en grupp](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
 
 {{step-1-to-setup}}
 
 1. Klicka på **Grupper** ![Grupper](assets/groups-icon.png) i den vänstra panelen.
-1. Markera den överordnade gruppen för den undergrupp som du vill skapa en grupp på den översta nivån och klicka sedan på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) .
+1. Markera den överordnade gruppen för den undergrupp som du vill skapa en grupp på den översta nivån och klicka sedan på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) .
 1. I rutan **Redigera grupp** som visas börjar du skriva namnet på den undergrupp som du vill skapa en grupp på den översta nivån i fältet **Sök** (under **Gruppmedlemmar och gruppadministratörer**) och klickar sedan på krysset till höger om namnet när det visas.
 1. Klicka på **Spara**.
 

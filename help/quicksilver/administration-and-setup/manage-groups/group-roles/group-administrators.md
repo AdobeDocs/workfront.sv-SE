@@ -66,7 +66,7 @@ Vi rekommenderar att gruppadministratörer har behörighet att redigera för anv
 >[!IMPORTANT]
 >
 >Gruppadministratörer måste ha högre åtkomst än de som de hanterar, annars kan de inte visa eller ändra lägre åtkomstnivåer.
->>Instruktioner om hur du beviljar den här åtkomsten finns i [Skapa eller ändra anpassade åtkomstnivåer](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>&#x200B;>Instruktioner om hur du beviljar den här åtkomsten finns i [Skapa eller ändra anpassade åtkomstnivåer](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 För en gruppadministratör som behöver tilldela tidrapportprofiler till användare i sina grupper och undergrupper rekommenderar vi även administratörsåtkomst till tidrapporter och timmar. Instruktioner om hur du beviljar åtkomst finns i [Bevilja användare administrativ åtkomst till vissa områden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 

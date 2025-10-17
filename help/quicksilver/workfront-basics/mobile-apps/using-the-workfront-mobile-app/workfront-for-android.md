@@ -48,7 +48,7 @@ I området [!UICONTROL Home] kan du arbeta direkt med uppgifter, utgåvor och go
  </tbody> 
 </table>
 
-Mer information finns i avsnittet [[!UICONTROL Home] områdeswidgetar ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md) och [[!UICONTROL My Work] i mobilappen ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
+Mer information finns i avsnittet [[!UICONTROL Home] områdeswidgetar &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md) och [[!UICONTROL My Work] i mobilappen &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
 
 ![Hem](assets/mobile-home-area.png)
 

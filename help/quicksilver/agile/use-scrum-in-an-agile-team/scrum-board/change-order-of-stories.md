@@ -59,4 +59,4 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 Till skillnad från rörliga iterationer kan du inte ändra artikelordningen när du visar ett projekt i en flexibel vy. Om du vill ändra artikelordningen för ett projekt måste du visa projektet i en standardvy.
 
-Mer information om hur du ändrar projektvyn finns i [[!UICONTROL Manage a project] i [!UICONTROL Agile]-vyn ](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md). Välj en standardvy i stället för att välja en flexibel vy.
+Mer information om hur du ändrar projektvyn finns i [[!UICONTROL Manage a project] i [!UICONTROL Agile]-vyn &#x200B;](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md). Välj en standardvy i stället för att välja en flexibel vy.

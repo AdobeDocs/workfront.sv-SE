@@ -38,7 +38,7 @@ Se även [Händelsemeddelanden](../../workfront-basics/using-notifications/event
   </tr> 
   <tr> 
    <td> <p><strong>En milstolpeaktivitet har slutförts för ett projekt som jag äger</strong> </p> <p>Ett meddelande skickas bara om projektstatusen är [!UICONTROL Current] eller [!UICONTROL Planning].</p> <p>Ämnet för e-postmeddelandet är: <em>[!UICONTROL Complete]: &lt;Aktivitetsnamn&gt; på &lt;Projektnamn&gt;</em></p> <p>Obs! Om aktiviteten ändras till en status som är lika med [!UICONTROL Complete] visas fortfarande [!UICONTROL Complete] som ämne i e-postmeddelandet.</p> <p> Ämnet för det dagliga sammandragsmeddelandet är: <em> [!UICONTROL Digest of Projects You Own] &lt;Datum för det dagliga sammandraget&gt; </em></p> </td> 
-   <td> Aktivitetsnamn<br>Projektnamn<br>Aktivitetsreferensnummer<br>Namnet på användaren som slutförde aktiviteten<br>Ny aktivitetsstatus<br>Datum och tid när aktiviteten slutfördes<br>Tidigare aktivitetsstatus<br><strong>[!UICONTROL See More Details]</strong> knapp<br>*Projektnamn<br>*Projektreferensnummer<br>*Totalt antal slutförda uppgifter<br>*Aktivitetsnamn<br>*Namnet på användaren som slutförde aktiviteten<br> 2}*Datum för daglig sammandrag </td> 
+   <td> Aktivitetsnamn<br>Projektnamn<br>Aktivitetsreferensnummer<br>Namnet på användaren som slutförde aktiviteten<br>Ny aktivitetsstatus<br>Datum och tid när aktiviteten slutfördes<br>Tidigare aktivitetsstatus<br><strong>[!UICONTROL See More Details]</strong> knapp<br>*Projektnamn<br>*Projektreferensnummer<br>*Totalt antal slutförda uppgifter<br>*Aktivitetsnamn<br>*Namnet på användaren som slutförde aktiviteten<br> 2&rbrace;*Datum för daglig sammandrag </td> 
    <td><strong>Dagligen</strong> </td> 
   </tr> 
   <tr> 

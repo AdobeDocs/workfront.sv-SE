@@ -54,7 +54,7 @@ Alla grupper som du lägger till i en befintlig grupp blir automatiskt en underg
 Group Admins of a subgroup can't manage statuses or project preferences of the subgroup YET (Sprint 22/Oct 28, 2020)</p>
 -->
 
-Du kan tilldela undergruppsmedlemmar som gruppadministratörer till undergruppen när du skapar eller redigerar den. Instruktioner finns i [](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create) i artikeln [Skapa en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+Du kan tilldela undergruppsmedlemmar som gruppadministratörer till undergruppen när du skapar eller redigerar den. Instruktioner finns i [&#128279;](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create) i artikeln [Skapa en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 Alternativt kan du lämna administreringen av undergruppen till de gruppadministratörer som är tilldelade till grupperna ovan. När du skapar en undergrupp får gruppadministratörer över grupperna ovan automatisk åtkomst för att hantera undergruppen.
 

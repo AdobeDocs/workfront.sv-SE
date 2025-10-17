@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## Förstå teamförfrågningar
 
-Teamförfrågningar finns i området [!UICONTROL Teams] i [!UICONTROL Main Menu]. Klicka på ikonen [!UICONTROL Team Requests] ![Request ](assets/request-icon.png) i den vänstra panelen för att visa teamförfrågningar.
+Teamförfrågningar finns i området [!UICONTROL Teams] i [!UICONTROL Main Menu]. Klicka på ikonen [!UICONTROL Team Requests] ![Request &#x200B;](assets/request-icon.png) i den vänstra panelen för att visa teamförfrågningar.
 
 >[!NOTE]
 >

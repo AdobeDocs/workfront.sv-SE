@@ -247,7 +247,7 @@ Den här typen av sökning är användbar när du inte kommer ihåg ett nyckelor
 
 Så här utför du en avancerad sökning:
 
-1. Klicka på ikonen [!DNL Workfront] **[!UICONTROL Search]** Sök ![ i det övre högra hörnet på en sida i ](assets/search-icon.png). Menyn **Sök** visas.
+1. Klicka på ikonen [!DNL Workfront] **[!UICONTROL Search]** Sök ![&#x200B; i det övre högra hörnet på en sida i &#x200B;](assets/search-icon.png). Menyn **Sök** visas.
 
 1. Klicka på **längst ned på menyn** Sök **[!UICONTROL Advanced Search]**. Sidan **Sök** öppnas med fliken **Avancerad sökning** markerad som standard.
    ![Avancerad sökning](assets/qs-advanced-search-350x224.png)
