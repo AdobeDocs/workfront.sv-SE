@@ -7,9 +7,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+source-git-commit: e05b15bbb9e9148cc6f2940ae33f7ea9f98b7444
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '125'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,7 @@ Läs de här artiklarna för att lära dig hur du använder hemområdet i Adobe 
 * [Använd området [!UICONTROL My Updates]](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md)
 * [Visa objekt i [!UICONTROL Work List] i området [!UICONTROL Home]](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
 * [Översikt över filter för hemwidget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)
+* [Hantera dina godkännanden med widgeten Mina godkännanden](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-approvals-widget.md)
 * [Hantera arbets- och teamförfrågningar i [!UICONTROL Home]-området](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
 * [Uppdatera eller redigera ett arbetsobjekt i [!UICONTROL Home]-området](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
 * [Skapa arbetsobjekt och projekt från området [!UICONTROL Home]](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)

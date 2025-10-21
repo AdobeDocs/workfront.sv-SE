@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 2c9bf2eabfeaf3b67daca8b7f1bab8f867baec62
+source-git-commit: e05b15bbb9e9148cc6f2940ae33f7ea9f98b7444
 workflow-type: tm+mt
-source-wordcount: '13463'
+source-wordcount: '13471'
 ht-degree: 0%
 
 ---
@@ -873,6 +873,7 @@ ht-degree: 0%
          * [Lägga till, redigera eller ta bort widgetar i Nytt hem](workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
          * [Visa objekt i arbetslista i hemområdet](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
          * [Översikt över filter för hemwidget](workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)
+         * [Hantera dina godkännanden med widgeten Mina godkännanden](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-approvals-widget.md)
          * [Hantera ditt arbete med widgeten Mitt arbete](workfront-basics/using-home/using-the-home-area/my-work-widget.md)
          * [Hantera arbets- och teamförfrågningar på Hem-området](workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
          * [Uppdatera eller redigera en arbetsuppgift i hemområdet](workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
