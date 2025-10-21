@@ -7,7 +7,7 @@ description: Du kan skapa en kopia av alla rapporter som du har tillgång till. 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 0841594c855c39fedf4eab5492994ff4f7acfbdf
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Om du vill skapa en kopia av en anpassad rapport gör du följande:
 
    ![Kopiera rapport](assets/unshimmed-report-actions-copy.png)
 
-   En kopia av den ursprungliga rapporten skapas med standardnamnet _[Namnet på den ursprungliga rapporten] (kopia)_. En kopia av rapporten&quot;Kvarvarande aktiviteter under det fjärde kvartalet&quot; får till exempel namnet&quot;Kvarvarande aktiviteter under det fjärde kvartalet (kopia)&quot;.
+   En kopia av den ursprungliga rapporten skapas med standardnamnet _[Namnet på den ursprungliga rapporten]_ _(kopia)_. En kopia av rapporten&quot;Kvarvarande aktiviteter under det fjärde kvartalet&quot; får till exempel namnet&quot;Kvarvarande aktiviteter under det fjärde kvartalet (kopia)&quot;.
 
 1. (Valfritt) Om du vill byta namn på rapporten klickar du på **Rapportåtgärder** och sedan på **Redigera**. Skriv ett nytt namn i textrutan i det övre vänstra hörnet och klicka sedan på **Spara + stäng** när du är klar.
 
