@@ -6,9 +6,9 @@ description: Risker är tänkbara händelser eller faktorer som förhindrar att 
 author: Becky
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: 2e86369ae4c8e9fe2678773c20c02f6dbf8d5247
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ Så här skapar eller redigerar du en risk i ett affärsärende:
 
 1. Gå till det projekt som du vill skapa risker för.
 1. Klicka på **Affärsfall** i den vänstra panelen.
-1. I avsnittet **Risker** klickar du på **Redigera risker**.
+1. I avsnittet **Risker** klickar du på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) .
 1. Ange eller redigera följande information:
 
    * **Beskrivning:** Beskriv risken.
@@ -96,7 +96,7 @@ Så här skapar eller redigerar du en risk i ett affärsärende:
 
    ![Risker](assets/edit-risk.png)
 
-1. (Valfritt) Klicka på **Lägg till ytterligare risk** om du vill lägga till ytterligare risker.
+1. (Valfritt) Klicka på **Lägg till ytterligare risk** om du vill lägga till fler risker.
 1. Klicka på **Spara**.
 
 ## Skapa och redigera risker i området Risker
@@ -104,8 +104,6 @@ Så här skapar eller redigerar du en risk i ett affärsärende:
 Förutom att skapa och redigera risker i affärsärendet kan du göra det i avsnittet **Risker** i ett projekt.
 
 Du kan skapa och redigera risker i avsnittet Risker i ett projekt eller en mall. Att skapa risker för mallar är detsamma som att skapa risker för projekt.
-
-### Skapa risker i området Risker {#create-risks-in-the-risks-area}
 
 1. Gå till det projekt som du vill skapa risker för.
 1. Klicka på **Risker** i den vänstra panelen.
@@ -146,19 +144,19 @@ Du kan redigera en risk i taget eller redigera flera risker samtidigt.
 
 Så här redigerar du risker:
 
-1. Navigera till ett projekt där du vill redigera befintliga risker.
+1. Gå till ett projekt där du vill redigera befintliga risker.
 1. Klicka på **Risker** i den vänstra panelen.
 1. Börja redigera fälten för de risker du ser i listan för att redigera en risk i taget.
 
    eller
 
-   Markera en eller flera risker och klicka sedan på **Redigera** för att redigera flera risker samtidigt.
+   Markera en eller flera risker och klicka sedan på ikonen **Redigera** ![Redigera](assets/edit-icon-on-white.png) för att redigera flera risker samtidigt.
 
    >[!NOTE]
    >
    >Du använder samma information för alla valda risker när du redigerar flera risker samtidigt. Den information som är associerad med varje risk innan dina ändringar skrivs över i en gruppredigering.
 
-1. Om du har klickat på **Redigera** öppnas rutan **Redigera risk** eller **Redigera risker** .
+1. Om du har klickat på ikonen **Redigera** öppnas rutan **Redigera risk** eller **Redigera risker** .
 
    Uppdatera följande fält:
 

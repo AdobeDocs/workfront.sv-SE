@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
 source-wordcount: '3829'
 ht-degree: 0%
@@ -380,6 +380,10 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
 
    ![](assets/nwe-assignments-section-edit-task-box-350x217.png)
 
+   <!--indent the bullets below one more time at release to show Prod, and then another fresh bullet for Preview:
+   1. (Conditional) Depending on the environment from which you access task, do the following:
+   1. <!--In the Production environment,AND ADD THIS TO THE STEP BELOW-->
+
 1. Klicka på **Sök efter personer, roller och team** och börja skriva namnet på en användare, roll eller team som du vill tilldela uppgiften. Klicka sedan på den eller tryck på Retur när den visas i listan.
 
    >[!NOTE]
@@ -496,35 +500,179 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
 
    Med normal tid räknas helger, helger och ledig tid som undantag från uppgiftens varaktighet. Mer information om aktivitetens varaktighet finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Översikt över aktivitetsvaraktighet och varaktighetstyp</a>. </p>
    </div> 
-   </div> </td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Planerade timmar</td> 
-   <td> <p>Ange antalet planerade timmar för aktiviteten, i timmar. Detta är den faktiska tid det skulle ta för de som tilldelats uppgiften att slutföra den. Du kan bara ange antalet planerade timmar för en aktivitet när varaktighetstypen är inställd på Beräknad tilldelning. Mer information om varaktighetstyper finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Översikt över aktivitetsvaraktighet och varaktighetstyp</a>.</p> 
-   <b>OBS!</b>
-   <p>
-   När du skapar återkommande uppgifter är de planerade timmarna för varje förekomst. De planerade timmarna för de överordnade uppgifterna är det totala antalet planerade timmar från alla förekomster. Mer information om hur du skapar återkommande aktiviteter finns i <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Skapa återkommande aktiviteter</a>.
-   </p>
+      </div> </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader">Planerade timmar</td> 
+      <td> <p>Ange antalet planerade timmar för aktiviteten, i timmar. Detta är den faktiska tid det skulle ta för de som tilldelats uppgiften att slutföra den. Du kan bara ange antalet planerade timmar för en aktivitet när varaktighetstypen är inställd på Beräknad tilldelning. Mer information om varaktighetstyper finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Översikt över aktivitetsvaraktighet och varaktighetstyp</a>.</p> 
+      <b>OBS!</b>
+      <p>
+      När du skapar återkommande uppgifter är de planerade timmarna för varje förekomst. De planerade timmarna för de överordnade uppgifterna är det totala antalet planerade timmar från alla förekomster. Mer information om hur du skapar återkommande aktiviteter finns i <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Skapa återkommande aktiviteter</a>.
+      </p>
 
    </td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Allokering</td> 
-   <td> <p>Om aktivitetsbegränsningen är Beräknad arbets- eller insatsstyrd anger du <strong>Allokering %</strong> (allokeringsprocent) för varje tilldelad. Det här är den tid från schemat för den tilldelande personen som de kan lägga på den här aktiviteten. Om du ändrar allokeringsprocenten för en tilldelad ändrar du planerad tid för en uppgift. </p> <p>När aktivitetsbegränsningen är enkel kan du ange följande:</p> 
-      <ul> 
-      <li> <p>Allokeringstimmar för varje tilldelad.</p> </li> 
-      <li> <p>Planerade timmar för uppgiften</p> </li> 
-      <li> <p>Uppgiftens varaktighet</p> </li> 
-      </ul> </td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader">Uppdragarens roll</td> 
-   <td> <p>Välj en roll i listrutan <strong>Tilldelarens roll</strong> när du har valt en person som tilldelad. Detta är den roll som den som tilldelas kan utföra den här uppgiften. </p> <p><b>TIPS</b>
+      </tr> 
+      <tr> 
+      <td role="rowheader">Allokering</td> 
+      <td> <p>Om aktivitetsbegränsningen är Beräknad arbets- eller insatsstyrd anger du <strong>Allokering %</strong> (allokeringsprocent) för varje tilldelad. Det här är den tid från schemat för den tilldelande personen som de kan lägga på den här aktiviteten. Om du ändrar allokeringsprocenten för en tilldelad ändrar du planerad tid för en uppgift. </p> <p>När aktivitetsbegränsningen är enkel kan du ange följande:</p> 
+         <ul> 
+         <li> <p>Allokeringstimmar för varje tilldelad.</p> </li> 
+         <li> <p>Planerade timmar för uppgiften</p> </li> 
+         <li> <p>Uppgiftens varaktighet</p> </li> 
+         </ul> </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader">Uppdragarens roll</td> 
+      <td> <p>Välj en roll i listrutan <strong>Tilldelarens roll</strong> när du har valt en person som tilldelad. Detta är den roll som den som tilldelas kan utföra den här uppgiften. </p> <p><b>TIPS</b>
 
    Endast de jobbroller som är kopplade till varje tilldelad i deras profil visas i listrutan.</p> </td>
-   </tr> 
-      </tbody> 
-      </table>
+   </tr>
+   </tbody>
+   </table>
+
+   <!--
+      <div class="preview">
+
+      1. In the Preview environment, start typing the name of a user, job role, or team in the **Search people, role or team** field, then select them when they display in the list
+
+         Or
+
+      Click **Assign to me** to assign the task to yourself. 
+      1. Update the following information:
+
+      1. (Conditional and optional) Update the following fields: 
+
+      <table style="table-layout:auto"> 
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
+         <td role="rowheader">Duration Type</td> 
+         <td> <p>This identifies the relationship between the following: </p> 
+         <ul> 
+         <li> <p>The number of resources assigned to a task </p> </li> 
+         <li> <p>The total effort required to complete the task </p> </li> 
+         <li> <p> The total duration of the task. </p> </li> 
+         </ul> <p>Your Workfront administrator or a group administrator selects the default Duration Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configure system-wide task and issue preferences</a>. </p> <p>Duration Types enable you to set consistent resource assignments based on the needs of the task. For more information about the Duration Type of a task, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>. </p> <p>Select from the following options: </p> 
+         <ul> 
+         <li> <p>Calculated Assignment </p> </li> 
+         <li> <p> Calculated Work </p> </li> 
+         <li> <p>Effort Driven </p> </li> 
+         <li> <p>Simple</p> </li> 
+         </ul> </td> 
+      </tr> 
+      <!--<tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+         <td role="rowheader">Duration per Occurrence</td> 
+         <td> <p>This displays only on the parent of recurring tasks. It displays the duration of each recurring task, as defined when the task was created. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>. </p> <p> <b>NOTE</b> 
+         
+         Durations modified in individual recurring tasks do not display the value indicated in this field. </p> </td> 
+      </tr> -->
+   <!--
+      <tr> 
+         <td role="rowheader">Duration</td> 
+         <td> 
+         <div> 
+         <div> 
+         <p>This is the amount of time that you allow a task to remain open before it is completed. </p> 
+         <p><b>IMPORTANT</b>
+         
+         Because the task duration is typically the amount of time between the Planned Start and the Planned Completion Dates, it affects the timeline of the project.</p> 
+         
+         <p>To indicate the Duration of the task and the unit of time do the following:</p> 
+         <ul> 
+         <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Type the length of time and select from the units of time available in the drop-down menu.</p> <p><b>TIP</b></p>
+         When you update the Duration of tasks in a task list, you can use the abbreviation for the unit of time. </p> </li> 
+         </ul> 
+         <p> You can choose from the regular time or elapsed time options in the following table: </p> 
+         <table style="table-layout:auto"> 
+         <col> 
+         <col data-mc-conditions=""> 
+         <tbody> 
+         <tr> 
+         <td>Unit of Time</td> 
+         <td>Abbreviation</td> 
+         </tr> 
+         <tr> 
+         <td>Minutes</td> 
+         <td>M</td> 
+         </tr> 
+         <tr> 
+         <td>Hours</td> 
+         <td>H</td> 
+         </tr> 
+         <tr> 
+         <td>Days. This is the default. </td> 
+         <td>D</td> 
+         </tr> 
+         <tr> 
+         <td>Weeks</td> 
+         <td>W</td> 
+         </tr> 
+         <tr> 
+         <td>Months</td> 
+         <td>T</td> 
+         </tr> 
+         <tr> 
+         <td>Elapsed Minutes</td> 
+         <td>EM</td> 
+         </tr> 
+         <tr> 
+         <td>Elapsed Hours</td> 
+         <td>EH</td> 
+         </tr> 
+         <tr> 
+         <td>Elapsed Days</td> 
+         <td>ED</td> 
+         </tr> 
+         <tr> 
+         <td>Elapsed Weeks</td> 
+         <td>EW</td> 
+         </tr> 
+         <tr> 
+         <td>Elapsed Months</td> 
+         <td>ET</td> 
+         </tr> 
+         </tbody> 
+      </table> 
+
+      <p><b>NOTE</b>
+         
+      <p>Elapsed time is a unit of time for a task's Duration. It is the time between the Planned Start Date and the Planned Completion Date of a task that includes holidays, weekends, and time off. In other words, elapsed time is the passage of calendar days. 
+
+      Regular time takes into account holidays, weekends, and time off and excludes them from the Duration of the task. For more information about task duration, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>. </p>
+      </div> 
+      </div> </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader">Planned Hours</td> 
+      <td> <p>Specify the number of Planned Hours for the task, in hours. This is the amount of actual time that it would take the assignees of the task to complete it. You can only specify the number of Planned Hours for a task when the Duration Type is set to Calculated Assignment. For more information about duration types, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p> 
+      <b>NOTE</b>
+      <p>
+      When creating recurring tasks, the Planned Hours are those of each occurrence. The Planned Hours of the parent tasks are the total of all Planned Hours from all the occurrences. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>.
+      </p>
+      
+      </td> 
+      </tr> 
+      
+      <!--<tr> 
+      <td role="rowheader">Allocation</td> 
+      <td> <p>If your Task Constraint is Calculated Work or Effort Driven, specify the <strong>Allocation %</strong> (allocation percentage) for each assignee. This is the amount of time from the schedule of the assignee that they can spend on this task. Changing the allocation percentage for an assignee will change the Planned Hours of a task. </p> <p>When the Task Constraint is Simple, you can specify the following:</p> 
+         <ul> 
+         <li> <p>Allocation Hours of each assignee.</p> </li> 
+         <li> <p>Planned Hours of the task</p> </li> 
+         <li> <p>Duration of the task</p> </li> 
+         </ul> </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader">Assignee's Role</td> 
+      <td> <p>Select a role from the <strong>Assignee's Role</strong> drop-down menu when you selected a person as an assignee. This is the role that the assignee can fulfill on this task. </p> <p><b>TIP</b>
+      
+      Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
+         </tr> ->
+         </tbody> 
+         </table>
+
+      </div>-->
 
 1. Klicka på **Spara** eller fortsätt med följande avsnitt.
 

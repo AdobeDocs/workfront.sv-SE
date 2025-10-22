@@ -7,7 +7,7 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
 source-wordcount: '1820'
 ht-degree: 0%
@@ -17,6 +17,16 @@ ht-degree: 0%
 # Tilldela uppgifter
 
 <!--Audited: 07/2024-->
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 Du kan tilldela uppgifter till användare, jobbroller eller team för att ange vem som ansvarar för att slutföra uppgifterna. Du kan tilldela en uppgift till mer än en resurs åt gången.
 
@@ -216,6 +226,10 @@ Så här tilldelar du uppgifter i en lista:
 
 ## Tilldela flera uppgifter till en användare
 
+<!--Assigning multiple tasks to a user is different, depending on what environment you use to assign the tasks. 
+
+### Assign multiple tasks to a user in the Production environment-->
+
 1. Gå till en lista med uppgifter som du vill tilldela gruppvis.
 1. (Villkorligt) Se till att alternativet **Spara automatiskt** är markerat om du finns med i en lista över aktiviteter under ett projekt.
 
@@ -256,6 +270,55 @@ Så här tilldelar du uppgifter i en lista:
 
 1. Klicka på **Spara ändringar**.
 1. (Valfritt och villkorligt) När fälten Tilldelad till eller Uppdrag visas i listan med uppgifter klickar du i en av dessa kolumner för en uppgift och sedan på ikonen **X** bredvid namnet på en tilldelad för att ta bort den från uppgiften.
+
+<!--
+<div class="preview">
+
+### Assign multiple tasks to a user in the Preview environment
+
+1. Go to a list of tasks that you want to assign in bulk in the Preview environment. 
+1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.
+
+   >[!IMPORTANT]
+   >
+   >You cannot edit tasks in bulk when saving tasks manually on a project.
+
+1. Select several tasks in the tasks list. 
+1. Click **Edit**.
+
+   The **Edit Tasks** dialog box opens.
+
+1. In the **Assignments** area, start typing the name of users, teams, or roles in the **Search people, roles, or teams** field provided, then click them when they display in the list
+
+   Or 
+
+   Click **Assign to me** to assign it to yourself.
+
+   >[!IMPORTANT]
+   >
+   >If any of the tasks is already assigned, the resources you indicate here are added to the tasks instead of replacing the existing resources on the tasks.
+
+1. Click inside the **Duration Type** field and choose a Duration Type. 
+
+   For information about Duration Type on tasks, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+
+1. (Conditional) Depending on what **Duration Type** you selected, update the following fields: 
+
+   * Duration
+   * Planned Hours
+
+      For more information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md). 
+
+1. (Optional) If you want to remove existing assignees from all tasks, click the **x** next to their name in the **Search people, roles, or teams** field.
+
+1. Click **Save**.
+1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of tasks, click inside one of these columns for a task, then click the **X icon** next to the name of an assignee to remove it from the task.
+
+
+</div>
+-->
+
+
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

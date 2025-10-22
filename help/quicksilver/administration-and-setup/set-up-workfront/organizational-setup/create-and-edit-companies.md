@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 30b61b32add4c6d062b5b524773d309008c9563d
+source-git-commit: 2e86369ae4c8e9fe2678773c20c02f6dbf8d5247
 workflow-type: tm+mt
 source-wordcount: '1356'
 ht-degree: 0%
@@ -105,7 +105,7 @@ Så här lägger du till eller redigerar ett företag:
 
 1. Uppdatera följande information i avsnittet **Grundläggande information**:
 
-   * **Företagsnamn**<!--<span class="preview">or **Name**</span>-->: Ange ett namn för företaget.
+   * **Företagsnamn**<!--<span class="preview"> or **Name**</span>-->: Ange ett namn för företaget.
    * **Är aktiv**: När det här alternativet är aktiverat kan användare hitta företaget och bifoga det till projekt som de skapar och redigerar. Ett inaktivt företag kan inte bifogas till projekt. Det här alternativet är aktiverat som standard.
    * **Det här är det primära företaget**<!--<span class="preview">or **Is Primary**</span>-->: Tilldelar företaget som din organisations primära företag. Det primära företaget representerar vanligtvis ditt Workfront-konto där de flesta av dina användare arbetar.
 

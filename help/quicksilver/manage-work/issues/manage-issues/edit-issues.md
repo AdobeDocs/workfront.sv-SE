@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 460090a1102465c34e92433e52c0beb240d8e9b9
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
-source-wordcount: '2602'
+source-wordcount: '2578'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,16 @@ ht-degree: 0%
 # Redigera problem
 
 <!--Audited: 03/2025-->
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 Du kan redigera information om problem som du har skapat eller som andra användare har skapat om de delat problemen med dig.
 
@@ -128,7 +138,7 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
    1. (Valfritt) Klicka på ikonen **Komprimera alla** i det övre högra hörnet om du vill komprimera alla områden.
    1. (Valfritt och villkorligt) När ett område är komprimerat klickar du på **högerpilen** ![högerpilen](assets/right-pointing-arrow.png) bredvid varje område för att expandera det område som du vill redigera.
    1. (Valfritt) Om du vill bifoga ett anpassat formulär börjar du skriva namnet på ett formulär i fältet **Lägg till anpassat formulär** och markerar det när det visas i listan. Klicka sedan på **Spara ändringar**.
-   1. (Valfritt) Klicka på ikonen **Exportera** ![Exportera &#x200B;](assets/export.png) om du vill exportera översiktsinformation och anpassad formulärinformation till en PDF-fil. Klicka sedan på **Exportera**. Välj bland följande:
+   1. (Valfritt) Klicka på ikonen **Exportera** ![Exportera ](assets/export.png) om du vill exportera översiktsinformation och anpassad formulärinformation till en PDF-fil. Klicka sedan på **Exportera**. Välj bland följande:
 
       * Markera alla (visas bara när det finns minst ett anpassat formulär bifogat)
       * Översikt
@@ -238,8 +248,6 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
    </ul> </td> 
      </tr>
 
-
-
    <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>Skriv en webblänk som relaterar till informationen om problemet.</p> </td> 
@@ -262,7 +270,6 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
 
    <p>När du lägger till en primär kontaktanvändare ska du lägga märke till avataren, användarens primära roll och användarens e-postadress för att skilja mellan användare med identiska namn. Användarna måste vara associerade med minst en jobbroll för att kunna visa den när du lägger till dem.</p>
       <p> Du måste ha inställningen Visa kontaktinformation aktiverad på din åtkomstnivå för att användare ska kunna visa användarnas e-postmeddelanden. Mer information finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">Bevilja åtkomst för användare</a>.</p>
-
 
    </td> 
      </tr> 
@@ -323,7 +330,7 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
 
    ![Utfärda tilldelningsavsnitt](assets/assignments-section-edit-issue-box-nwe-350x230.png)
 
-1. Klicka på **Sök efter personer, roller och team** och börja skriva namnet på en användare, roll eller team som du vill tilldela uppgiften. Klicka sedan på den eller tryck på Retur när den visas i listan.
+1. Klicka på **Sök efter personer, roller och team** och börja skriva namnet på en användare, roll eller team som du vill tilldela problemet. Klicka sedan på det eller tryck på Retur när det visas i listan.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this is still called this; asked Anna to change it to "roles" and add a comma)</p>
@@ -333,9 +340,9 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
    >
    >Om användarens namn innehåller ett specialtecken måste du inkludera specialtecknet i sökfältet.
 
+   Du kan tilldela flera användare, jobbroller eller team. Du kan bara tilldela aktiva användare, jobbroller och team.
+
    >[!TIP]
-   >
-   >Du kan tilldela flera användare, jobbroller eller team. Du kan bara tilldela aktiva användare, jobbroller och team.
    >
    >
    >Om en användare, en jobbroll eller ett team tilldelades innan de inaktiverades, förblir de tilldelade till arbetsuppgiften. I det här fallet rekommenderar vi följande:
@@ -343,7 +350,10 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
    >* Tilldela om arbetsuppgiften till aktiva resurser.
    >* Associera användarna i ett inaktiverat team med ett aktivt team och omfördela arbetsposten till det aktiva teamet.
 
-1. (Valfritt) Ange om en tilldelad är den primära tilldelaren i problemet genom att hålla markören över den tilldelades namn och klicka på **Gör primär**. Ett team kan inte vara den primära tilldelaren för ett problem.
+   <!--1. (Conditional) Depending on what environment you are editing issues in, do one of the following:
+
+   1. In the Production environment, INDENT THE FOLLOWING STEPS FURTHER AT RELEASE: (Optional) Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue. -->
+
 1. Uppdatera följande fält:
 
    <table style="table-layout:auto"> 
@@ -354,7 +364,7 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
     <tbody> 
      <tr> 
       <td role="rowheader">Planerade timmar</td> 
-      <td> <p>Detta är den faktiska tid det skulle ta för de som tilldelats utgåvan att slutföra den. Skriv in antalet planerade timmar för utgåvan.<br></p> <p>Obs! Om du ändrar de planerade timmarna för problemet ändras inte det planerade datumet för slutförandet. </p> </td> 
+      <td> <p>Detta är den faktiska tid det skulle ta för de som tilldelats utgåvan att slutföra den. Skriv in antalet planerade timmar för utgåvan.<br></p> <p><b>ANMÄRKNING</b></p>  <p>Om du ändrar de planerade timmarna för problemet ändras inte det planerade datumet för slutförandet. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Uppdragarens roll</td> 
@@ -364,6 +374,15 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
    </tr> 
     </tbody> 
    </table>
+
+   <!--
+   <div class="preview">
+   1. (Conditional) In the Preview environment, update the **Planned Hours** field
+      Or 
+      Click **Assign to me** to assign the issue to yourself. (********ADD DEFINITION OF PLANNED HOURS FROM THE TABLE AT PROD RELEASE*********)
+   </div> -->
+
+1. Information om hur du tar bort tilldelningar från alla utgåvor finns i [Tilldela utgåvor](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md).
 
 1. Klicka på **Spara** eller fortsätt redigera följande avsnitt.
 

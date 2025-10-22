@@ -7,9 +7,9 @@ description: Du kan redigera information i ett anpassat formulär när formulär
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -143,6 +143,11 @@ Att redigera information i ett anpassat formulär som är kopplat till ett objek
 
 ## Beräkna om alla beräknade anpassade fält för ett objekt  {#recalculate-all-calculated-custom-fields-for-an-object}
 
+>[!IMPORTANT]
+>
+>Du måste ha ett eget formulär med beräknade fält kopplade till objektet innan du kan följa stegen i det här avsnittet.
+
+
 1. Gå till huvudsidan för det objekt vars anpassade fält du vill beräkna om.
 1. Klicka på menyn **Mer** ![](assets/more-icon.png) till höger om objektets namn och klicka sedan på **Beräkna om uttryck**.
 
@@ -154,7 +159,12 @@ Att redigera information i ett anpassat formulär som är kopplat till ett objek
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to be edited when the bulk edit for objects update in NW)</p>
 -->
 
-Du kan manuellt beräkna om anpassade fält för flera objekt genom att redigera dem i grupp från en lista eller rapport.
+Beroende på vilka objekt du vill beräkna om de anpassade uttrycken för kan du göra det i följande områden:
+
+* I en lista med objekt går du till menyn Mer längst upp i listan.
+* När du markerar och redigerar flera objekt samtidigt i rutan Redigera.
+
+Så här beräknar du manuellt om anpassade fält för flera objekt genom att redigera dem i grupp från en lista eller rapport:
 
 1. Gå till en lista med objekt som innehåller anpassade formulär med beräkningsfält.
 1. Markera de objekt vars beräknade anpassade fält du vill uppdatera.
@@ -164,17 +174,17 @@ Du kan manuellt beräkna om anpassade fält för flera objekt genom att redigera
 
    Workfront beräknar alla anpassade fält för alla markerade objekt.
 
->[!TIP]
->
->Du kan också beräkna om anpassade uttryck från en objektlista. Om du till exempel vill beräkna om anpassade uttryck i grupp från en lista med projekt:
->
->1. Gå till en projektlista eller rapport och välj ett eller flera projekt.
->1. Klicka på menyn **Mer** ![](assets/more-icon.png) och sedan på **Beräkna om anpassade uttryck**.
->
->![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
->
->Workfront beräknar alla anpassade fält för alla markerade projekt.
->&#x200B;>Alla listor med objekt har inte den här funktionen.
+Så här beräknar du om anpassade uttryck från en objektlista:
+
+1. Gå till en projektlista eller rapport och välj ett eller flera projekt.
+1. Klicka på menyn **Mer** ![](assets/more-icon.png) och sedan på **Beräkna om anpassade uttryck**.
+
+![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+
+Workfront beräknar omedelbart alla anpassade fält för alla valda projekt.
+Alla listor med objekt har inte den här funktionen.
+
+>[!NOTE]
 >
 >Beroende på hur komplexa dina projekt är rekommenderar vi att du inte väljer ett stort antal projekt när du beräknar om beräknade anpassade fält i grupp för att få optimala prestanda. Vissa saker som kan göra ett projekt för komplext kan vara flera beroenden, tilldelningar eller ett stort antal anpassade fält.
 
