@@ -80,7 +80,7 @@ Så här skapar eller redigerar du en risk i ett affärsärende:
 
 1. Gå till det projekt som du vill skapa risker för.
 1. Klicka på **Affärsfall** i den vänstra panelen.
-1. I avsnittet **Risker** klickar du på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) .
+1. I avsnittet **Risker** klickar du på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) .
 1. Ange eller redigera följande information:
 
    * **Beskrivning:** Beskriv risken.
