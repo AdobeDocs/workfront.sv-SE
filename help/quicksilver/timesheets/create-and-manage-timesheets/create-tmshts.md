@@ -79,7 +79,7 @@ Filtret **Alla** är markerat som standard. Då visas alla tidrapporter som du h
 
      ![Mina filterknappar för tidrapporter på listsidan för tidrapporter](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Klicka på ikonen **Filter** ![Filter ](assets/filter-nwepng.png) om du vill använda ett annat filter eller skapa ett nytt. Mer information om hur du skapar eller uppdaterar filter finns i [Skapa eller redigera filter i Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Klicka på ikonen **Filter** ![Filter &#x200B;](assets/filter-nwepng.png) om du vill använda ett annat filter eller skapa ett nytt. Mer information om hur du skapar eller uppdaterar filter finns i [Skapa eller redigera filter i Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
@@ -88,7 +88,7 @@ Filtret **Alla** är markerat som standard. Då visas alla tidrapporter som du h
    >   * [Anpassa filter, vyer och grupperingar med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
 
 
-1. (Valfritt) Klicka på ikonen **Sök** ![Sök ](assets/search-icon.png) om du vill skriva ett nyckelord och söka efter en viss tidrapport. Du kan t.ex. söka efter en tidsram för tidrapporten med ägarnamnet.
+1. (Valfritt) Klicka på ikonen **Sök** ![Sök &#x200B;](assets/search-icon.png) om du vill skriva ett nyckelord och söka efter en viss tidrapport. Du kan t.ex. söka efter en tidsram för tidrapporten med ägarnamnet.
 
 1. (Valfritt) Klicka på ikonerna **Visa** ![Visa](assets/view-icon.png) eller **Gruppera** ![Gruppera](assets/grouping.png) om du vill använda en annan vy eller gruppering eller skapa en ny.
 

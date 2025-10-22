@@ -22,7 +22,7 @@ Mer information om att skapa mål, resultat och aktiviteter finns i följande ar
 
 * [Skapa mål i Adobe Workfront-mål](../../workfront-goals/goal-management/create-goals.md)
 * [Kom igång med resultat och aktiviteter i Adobe Workfront-mål](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
-* [Lägg till resultat i mål i Adobe Workfront ](../../workfront-goals/results-and-activities/add-results-to-goals.md)
+* [Lägg till resultat i mål i Adobe Workfront &#x200B;](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 * [Lägga till aktiviteter i mål i Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
 
 ## Åtkomstkrav
@@ -234,7 +234,7 @@ Editing activities differs depending on which environment you use.
 1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) och sedan på **Mål**.
 1. Öppna målsidan genom att klicka på namnet på ett mål i mållistan.
 1. Klicka på **Förloppsindikatorer** i den vänstra panelen.
-1. Välj en aktivitet i listan med förloppsindikatorer och klicka på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) .
+1. Välj en aktivitet i listan med förloppsindikatorer och klicka på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) .
 
    Rutan Redigera aktivitet öppnas.
 
