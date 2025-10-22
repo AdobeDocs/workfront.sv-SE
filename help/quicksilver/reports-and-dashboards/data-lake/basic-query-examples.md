@@ -182,10 +182,10 @@ Undersöker frågan inifrån och ut: 
 >[!NOTE]
 >
 >Vi rekommenderar att du använder den här frågan som en egen&quot;vy&quot; i PowerBI eller Tableau.  Om du vill hämta in andra fält från `<object>_event view` ansluter du resultatet från den här frågan till `<object>_event view`.  Kopplingsfälten blir följande: <br>
->>For projects_event: 
->>`From projects_event p`
->>`Join <above query> c on c.projectid = p.projectid  `
->>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
+>&#x200B;>For projects_event: 
+>&#x200B;>`From projects_event p`
+>&#x200B;>`Join <above query> c on c.projectid = p.projectid  `
+>&#x200B;>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
 
 
 
