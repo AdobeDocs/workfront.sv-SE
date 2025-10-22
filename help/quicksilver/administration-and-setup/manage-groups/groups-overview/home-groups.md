@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 89adb9ea-bfde-4c0d-9fec-b1f97e925340
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 0%
@@ -30,10 +30,10 @@ När du skapar hemgrupper bör du tänka på hur din organisation delar upp dina
 
 >[!NOTE]
 >
->Om du behöver ordna om dina hemgrupper i organisationsenheter måste du >
+>Om du behöver omorganisera dina hemgrupper i organisationsenheter måste du
+>
 >1. Skapa den nya gruppen enligt beskrivningen i [Skapa en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 >1. Tilldela om den nya gruppen som användarens hemgrupp enligt beskrivningen i [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
->
 
 ## Hantering av layoutmallar
 

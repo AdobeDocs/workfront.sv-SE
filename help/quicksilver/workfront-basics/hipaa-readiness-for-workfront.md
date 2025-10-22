@@ -6,7 +6,7 @@ description: En Workfront-kund som, enligt definitionen i HIPAA, är en Business
 feature: Get Started with Workfront
 author: Courtney
 exl-id: e3cdaa03-d523-46a4-954b-8456d5f190e4
-source-git-commit: 15a703e2292883427e371603f77a99765ed9d00a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 0%
@@ -23,7 +23,7 @@ En Workfront-kund som, enligt definitionen i HIPAA, är en Business Associate oc
 | **Säkerhetsinställning** | **Vad är det?** | **Krav** |
 |----------------------|------------------|------------------|
 | Minsta lösenordsstyrka för avtal | Vilken är den minsta styrkan för avtalslösenord? | Minst 8 tecken |
-| Minsta lösenordsstyrka för användarlösenord | Vilken minsta styrka har användarens lösenord? | Tecken från tre av följande kategorier:<br>* Versaler (latinskt alfabet)<br>* Gemener (latinskt alfabet)<br>* Bas 10 siffror<br>* Icke-alfanumeriska tecken |
+| Minsta lösenordsstyrka för användarlösenord | Vilken minsta styrka har användarens lösenord? | Tecken från tre av följande kategorier:<br> Versaler (latinskt alfabet)<br> Gemener (latinskt alfabet)<br> Bas 10 siffror<br> Icke-alfanumeriska tecken |
 | Lösenordsvaraktighet | Hur länge ska lösenord tillåtas förbli oförändrade? | Lösenord bör ändras minst var 90:e dag |
 | Lösenordshistorik | Hur många tidigare lösenord ska sparas och inte tillåtas? | Minst 5 |
 

@@ -6,7 +6,7 @@ description: Du kan installera plugin-programmet Adobe Workfront for Photoshop f
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 1%
@@ -36,16 +36,6 @@ Du kan installera plugin-programmet [!DNL Adobe Workfront for Photoshop] från [
  <col> 
  <col> 
  <tbody> 
-  <!--<tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
-   <td>Any</td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td> 
-   <p>Standard</p>
-   <p>Work or higher</p> </td> 
-  </tr> -->
   <tr> 
    <td role="rowheader">Ytterligare produkter</td> 
    <td><p>Du måste ha en [!DNL Adobe Creative Cloud]-licens förutom en [!DNL Workfront]-licens.</p></td> 
@@ -109,7 +99,7 @@ Du kan installera plugin-programmet [!DNL Adobe Workfront for Photoshop] själv 
    >* Om du vill hitta din domän öppnar du en webbläsare, navigerar till din [!DNL Workfront]-instans och kopierar den första delen av URL-adressen:\
    >![Hitta domän](assets/domain-350x50.png)
    >
-   > * Om din Workfront-instans är integrerad med Experience Cloud ber du administratören att ge dig den Workfront-domän som finns under Produkt > Workfront i Admin Console.
+   >* Om din Workfront-instans är integrerad med Experience Cloud ber du administratören att ge dig den Workfront-domän som finns under Produkt > Workfront i Admin Console.
 
 1. Ange dina [!DNL Workfront]-inloggningsuppgifter i webbläsaren och klicka sedan på **[!UICONTROL Log in]**. Om ditt företag använder en enkel inloggning (SSO) dirigeras du till din SSO-leverantörs sida för att logga in.
 

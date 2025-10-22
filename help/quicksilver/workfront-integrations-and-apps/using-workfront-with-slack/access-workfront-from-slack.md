@@ -6,7 +6,7 @@ description: Om du integrerar [!DNL Adobe Workfront] med [!DNL Slack] kan du kom
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5f531217-3bd6-4156-8b9f-eabc95d4df10
-source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1071'
 ht-degree: 0%
@@ -188,7 +188,7 @@ Logga in på [!DNL Workfront] från [!DNL Slack]:
 
      Loggar in dig på [!DNL Workfront] från [!DNL Slack].
 
-   * `/wf log out `
+   * `/wf log out`
 
      Loggar ut dig från [!DNL Workfront] från [!DNL Slack]. Du är fortfarande inloggad på [!DNL Workfront] om du har en separat [!DNL Workfront]-instans öppen på en annan webbläsarflik i ett annat program.
    * `/wf settings`

@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b225ae19-eee7-4329-a42d-2a2bf9adad01
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 0%
@@ -36,9 +36,9 @@ Fältets standardvärde är 1, vilket anger att en användare tillbringar hela s
 Som ett resultat av den här uppdateringen beräknar Workfront användarens tillgänglighet med formlerna nedan, beroende på vad du har valt i området Resurshantering:
 
 * Standardschema:
-* Användarkapacitet = [(schemalagda timmar - schemalagda undantag) * FTE - ledig tid ] * Arbetstid
+* Användarkapacitet = [(schemalagda timmar - schemalagda undantag) `*` FTE - ledig tid ] `*` arbetstid
 * Användarens schema:
-* Användarkapacitet = (schemalagda timmar - schemalagda undantag - ledig tid) * Arbetstid.
+* Användarkapacitet = (schemaläggningstimmar - schemalagda undantag - tid av) `*` arbetstid.
 
 Mer information finns i [Konfigurera [!UICONTROL Resource Management] inställningar](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 

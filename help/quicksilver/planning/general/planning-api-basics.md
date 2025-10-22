@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1009'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -36,7 +36,7 @@ Mer information om externa sökfält finns i [Exempel på ett externt sökfält 
 
 <!--For more details and examples of each operation, see the [Workfront Planning API developer documentation](https://developer.adobe.com/wf-planning/).-->
 
-### Operationer
+### Användning
 
 Objekten ändras genom att en HTTP-begäran skickas till deras unika URI. Den åtgärd som ska utföras anges av HTTP-metoden.
 
@@ -349,7 +349,7 @@ Vi rekommenderar att du använder sidnumrerade svar för stora datauppsättninga
 
 Om du till exempel vill returnera resultatet 2001-4000 kan du använda följande begäran. I det här exemplet returneras 2000 poster som har aktiv status, från och med resultatet 2001:
 
-`POST /v1/records/search `
+`POST /v1/records/search`
 
 
 

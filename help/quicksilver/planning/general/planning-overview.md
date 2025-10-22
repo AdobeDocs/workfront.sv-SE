@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '2004'
 ht-degree: 0%
@@ -390,12 +390,13 @@ En uppdaterad lista över släppta funktioner finns i [Aktivitet för lansering 
 
 * [Adobe Workfront Planning: artikelindex](/help/quicksilver/planning/planning-information.md): Ett index för alla artiklar som innehåller dokumentation om Workfront Planning, grupperade efter intresseområde.
 * [Adobe Workfront Planning AI Assistant - översikt](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Med Workfront AI Assistant för Planning kan du söka efter poster eller skapa, uppdatera och ta bort poster med kommandon och låta assistenten utföra arbetet åt dig.
+
   <!--
     >[!NOTE]
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [Adobe Workfront planeringsmoduler för Workfront Fusion](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Med Adobe Workfront Planning-modulerna kan du utlösa ett scenario när händelser inträffar i Workfront Planning. Du kan också skapa, läsa, uppdatera och ta bort poster eller utföra ett anpassat API-anrop till ditt Adobe Workfront Planning-konto.
+* [Adobe Workfront planeringsmoduler för Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Med Adobe Workfront Planning-modulerna kan du utlösa ett scenario när händelser inträffar i Workfront Planning. Du kan också skapa, läsa, uppdatera och ta bort poster eller utföra ett anpassat API-anrop till ditt Adobe Workfront Planning-konto.
 
 * [Grunderna i Adobe Workfront Planning API](/help/quicksilver/planning/general/planning-api-basics.md): Målet för Adobe Workfront Planning API är att förenkla byggintegreringar med Planning genom att införa en REST-full arkitektur som fungerar över HTTP.
 

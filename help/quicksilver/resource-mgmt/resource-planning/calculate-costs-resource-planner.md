@@ -6,7 +6,7 @@ description: Du kan budgetera dina resurser i Adobe Workfront Resursplanering ge
 author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1392'
 ht-degree: 0%
@@ -150,7 +150,7 @@ Om rollen inte har någon kostnad per timme är den tillgängliga rollkostnaden 
 
 Följande scenarier används vid beräkning av planerad kostnad för användare, roller och projektet:
 
-* När **kostnadstypen** är **Användare per timme &#x200B;** och det inte finns **någon tilldelning** för aktiviteten:
+* När **kostnadstypen** är **Användartimme** och det finns **ingen tilldelning** för aktiviteten:
 
    * **Roll och användarplanerad kostnad**:
 

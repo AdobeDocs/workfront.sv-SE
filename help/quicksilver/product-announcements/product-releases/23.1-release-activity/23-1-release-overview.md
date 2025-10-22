@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 0%
@@ -26,11 +26,8 @@ Webbseminariet 23.1 hölls tisdagen den 10 januari 2023. Du kan [registrera dig 
 ## Adobe Workfront-förbättringar
 
 * [Förbättringar av projekt- och resurshantering](#project-and-resource-management-enhancements)
-
 * [Flexibla förbättringar](#agile-enhancements)
-
 * [Mobilförbättringar](#mobile-enhancements)
-
 * [Andra förbättringar](#other-enhancements)
 
 ### Förbättringar av projekt- och resurshantering
@@ -500,7 +497,7 @@ Webbseminariet 23.1 hölls tisdagen den 10 januari 2023. Du kan [registrera dig 
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production vid en senare tidpunkt än 23.1. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nya funktioner i Workfront Fusion finns i Production vid en senare tidpunkt än 23.1. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Förbättringar av WorkfrontScenarioplanering
 
@@ -522,13 +519,13 @@ Information om nyheter och uppdateringar finns i [Nyheter i API-version 15](/hel
 
 Mer information om API-versioner finns i [API-versionshantering och supportschema](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
-### Workfront Maintenance Updates
+### Underhållsuppdateringar för Workfront
 
-Mer information om underhållsuppdateringar som gjorts under version 2.3 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/sv/docs/workfront-known-issues/releases/current-updates).
+Mer information om underhållsuppdateringar som gjorts under version 2.3 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan &#x200B;](https://experienceleague.adobe.com/sv/docs/workfront-learn/tutorials-workfront/home).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ### Funktioner som snart ska tas bort från Workfront
 
@@ -556,6 +553,7 @@ Viss listkontrollfunktion går till området Inställningar > Gränssnitt > Filt
 Vi ersätter [Workfront-tillägget för Illustrator och InDesign](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md) med uppdaterade Creative Cloud-plugin-program. Från slutet av 2022 är det här tillägget inte längre tillgängligt för installation i Adobe Exchange.
 
 Funktionerna i det här tillägget, tillsammans med flera förbättringar, finns i de uppdaterade plugin-programmen för Adobe Workfront för Creative Cloud:
+
 * [Adobe Workfront för Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * [Adobe Workfront för XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * [Adobe Workfront för design och video](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)

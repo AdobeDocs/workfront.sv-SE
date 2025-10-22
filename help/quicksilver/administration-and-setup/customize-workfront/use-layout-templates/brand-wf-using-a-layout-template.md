@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
@@ -32,9 +32,8 @@ Mer information om layoutmallar för grupper finns i [Skapa och ändra en grupps
 >[!NOTE]
 >
 >En Workfront-administratör kan göra samma anpassningar för hela organisationen på systemnivå, vilket förklaras i [Varumärket din Adobe Workfront-instans](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). Men om du använder varumärke i en layoutmall åsidosätts varumärkningen på systemnivå.
-><!--
->Maybe add a section about deleting these 2 settings to revert to default branding?
->-->
+
+<!-- Maybe add a section about deleting these 2 settings to revert to default branding? -->
 
 ## Åtkomstkrav
 

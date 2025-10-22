@@ -8,7 +8,7 @@ description: Du kan söka efter innehåll på Workfront Proof webbplats.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1596b3d2-d513-4e36-98b7-92e349aca5bc
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 0%
@@ -46,11 +46,14 @@ Så här söker du efter webbplatsen [!DNL Workfront Proof]:
 
 1. (Valfritt) Sortera efter kolumn i sökresultaten genom att klicka på rubriken överst i en kolumn. (Valfritt) Lägg till filtrering i resultatet genom att klicka på ikonen [!UICONTROL search] i slutet av rubrikraden. ![Search_filter_in_Search_results.png](assets/search-filter-in-search-results-350x90.png)
 
-Då läggs menyer till där du kan välja filter för att begränsa sökningen.
-1. ![Search_filter_boxes_appears_in_Search_results.png](assets/search-filter-boxes-appear-in-search-results-350x154.png)
+   Då läggs menyer till där du kan välja filter för att begränsa sökningen.
 
-1. (Valfritt) Begränsa sökningen genom att öppna fliken [!UICONTROL Tags] och klicka på en tagg i navigeringssidlisten till vänster. Objekt som är associerade med den taggen visas i sökresultatet.\
-   ![Searching_by_tag.png](assets/searching-by-tag-350x209.png)\
+   ![Search_filter_boxes_appears_in_Search_results.png](assets/search-filter-boxes-appear-in-search-results-350x154.png)
+
+1. (Valfritt) Begränsa sökningen genom att öppna fliken [!UICONTROL Tags] och klicka på en tagg i navigeringssidlisten till vänster. Objekt som är associerade med den taggen visas i sökresultatet.
+
+   ![Searching_by_tag.png](assets/searching-by-tag-350x209.png)
+
    Taggnamnet visas i sökfältet i det övre högra hörnet av Workfront Proof. Du kan begränsa sökningen genom att markera ytterligare taggar eller genom att skriva ytterligare nyckelord i sökfältet. Du kan ta bort en tagg från sökfältet genom att klicka på x-ikonen bredvid taggnamnet.
 
 Mer information om hur du söker efter text i korrekturinnehåll finns i [Söka efter innehåll i ett korrektur](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md).

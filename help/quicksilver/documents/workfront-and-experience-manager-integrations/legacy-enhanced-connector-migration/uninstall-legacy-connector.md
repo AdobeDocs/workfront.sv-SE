@@ -6,7 +6,7 @@ description: text
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4b3834bf-2e6d-4588-8d77-671e14390115
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -20,9 +20,11 @@ Du måste avinstallera Workfront med Adobe Experience Manager äldre anslutning 
 ## Avbeställ Workfront
 
 1. Öppna Adobe Experience Manager.
-1. Gå till **Verktyg** > **Cloud Service** > **Workfront Integration Configuration** i Experience Manager.
+1. Gå till **Verktyg** > **Molntjänster** > **Workfront integreringskonfiguration** i Experience Manager.
 1. Välj din konfiguration (global-workfront som standard) och klicka på **Egenskaper**.
+
    ![avsluta prenumeration från arbetsytan](assets/unsubscribe-from-workfront.png)
+
 1. Inaktivera synk av dokument, kommentarer och metadata. Etiketten ska vara dag inaktiverad.
 Detta tar bort prenumerationerna i Workfront och gör att användaren kan skapa en ny prenumeration med samma URL som definieras i Day CQ Link Externalizer.
 
@@ -31,6 +33,7 @@ Detta tar bort prenumerationerna i Workfront och gör att användaren kan skapa 
 När du har tagit bort prenumerationen är det nu säkert att ta bort integreringskonfigurationen för Workfront.
 
 1. Öppna konfigurationen och välj **Ta bort**.
+
    ![ta bort konfiguration](assets/delete-wf-configuration.png)
 
 ## Ta bort mappning
@@ -43,7 +46,7 @@ Därefter måste du ta bort Workfront Property Mapping.
 
 ## Användarbehörigheter
 
-Alla användare som har åtkomst AEM Dam från Workfront fick läsbehörighet till `/content/dam`. Om en användare inte längre behöver det kan du ta bort de behörigheter som tilldelats dessa användare.
+Alla användare som använder AEM Dam från Workfront fick läsbehörighet till `/content/dam`. Om en användare inte längre behöver det kan du ta bort de behörigheter som tilldelats dessa användare.
 
 Kopplingen fungerar med systemets Workfront-tjänst för användare. Detta avinstalleras när anslutningen avinstalleras.
 

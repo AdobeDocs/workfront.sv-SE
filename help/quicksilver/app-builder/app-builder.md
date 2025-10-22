@@ -4,7 +4,7 @@ description: Med Workfront UI Extensions, som drivs av Adobe App Builder, kan ku
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: 6355bbbabf233a6e3b577c45084236b4a46144e5
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '2178'
 ht-degree: 0%
@@ -112,12 +112,16 @@ Ytterligare instruktioner finns på GitHub och Adobe Developer webbplats:
 1. Starta terminalen och logga in i AIO med kommandot: `aio login`. Om du har problem med att logga in i rätt IMS-organisation kan du försöka med `aio login -f` att framtvinga en inloggningsfråga. Använd `aio where` för att se vilken organisation du är inloggad i rätt IMS-organisation. Använd `aio config` om du vill ha mer information.
 1. Börja konfigurera din app genom att köra: `aio app init example-app` Se till att ersätta example-app med ditt appnamn. Om du inte är säker på appnamnen kan du se en lista med appnamn med kommandot `aio console project list`.
 1. Välj organisation och projekt bland de tillgängliga alternativen.
+
    ![kommandoresultat](assets/1-command-result.png)
    ![Välj ett projekt](assets/2-select-a-project.png)
 
 1. Bläddra bland alla tillgängliga mallar och välj **@adobe/workfront-ui-ext-tpl** för ditt projekt.
+
    ![Välj en mall](assets/3-choose-template.png)
+
 1. Markera och ange projektnamnet som du skapade i Adobe Developer Console.
+
    ![markera och ange projektnamn](assets/4-select-and-enter-project-name.png)
 
 1. Svara på uppmaningarna för programmet:
@@ -130,7 +134,9 @@ Ytterligare instruktioner finns på GitHub och Adobe Developer webbplats:
    ![välj klart](assets/5-select-done.png)
 
 1. Bekräfta slutförandet genom att markera Jag är klar. Kodgenereringen från mallen pågår.
+
    ![generering pågår](assets/6-generation-in-process.png)
+
 1. Vänta tills du ser ett meddelande om att appinitieringen är klar. Sedan kan du öppna projektet i en IDE (Visual Studio Code rekommenderas) och öppna mappen src.
 
    Mer information om mappar och filer i ditt projekt finns på [Adobe-utvecklarwebbplatsen](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application).
@@ -154,13 +160,13 @@ Så här tillåter du anpassade program på Workfront huvudmeny:
 I funktionen ExtensionRegistration ska du se följande kod. Den här koden skapades för dig av mallen. Den här koden kan läggas till för att skapa ytterligare menyalternativ. Se till att ersätta ID:n och URL:er.
 
     &quot;
-    mainMenu: &lbrace;
+    mainMenu: {
     
-    getItems() &lbrace;
+    getItems() {
     
-    return &lbrack;
+    return [
     
-    &lbrace;
+    {
     
     id: &#39;main-menu-label&#39;,
     
@@ -170,18 +176,20 @@ I funktionen ExtensionRegistration ska du se följande kod. Den här koden skapa
     
     icon: icon1,
     
-    &rbrace;,
+    },
     
-    &rbrack;;
+    ];
     
-    &rbrace;,
+    },
     
-     12&rbrace;&rbrace;
+     12}}
     &quot;
 
 1. Lägg till följande kodfragment:
-   ![kodfragment &#x200B;](assets/7-extension-registration-step1-from-sam.png)
-I det här exemplet visas ett alternativ på huvudmenyn. Du måste uppdatera ID:t, etiketten, ikonen och URL:en till rätt namn för programmet. När du lägger till flera objekt måste du se till att ID:t är unikt.
+
+   ![kodfragment ](assets/7-extension-registration-step1-from-sam.png)
+
+   I det här exemplet visas ett alternativ på huvudmenyn. Du måste uppdatera ID:t, etiketten, ikonen och URL:en till rätt namn för programmet. När du lägger till flera objekt måste du se till att ID:t är unikt.
 
 1. Spara ditt arbete.
 
@@ -193,7 +201,7 @@ Så här tillåter du anpassade program i navigeringen i den vänstra panelen i 
 1. Lägg till följande kodfragment i funktionen ExtensionRegistration:
 
    ```
-   secondaryNav: {  
+   secondaryNav: {
    
    TASK: {  
    
@@ -215,7 +223,6 @@ Så här tillåter du anpassade program i navigeringen i den vänstra panelen i 
    ![tilläggsregistrering](assets/8-extension-registration-file-step2.png)
 
    * I det här exemplet visas ett navigeringsobjekt i den vänstra panelen som kallas Min uppgift. Du måste uppdatera ID:t, etiketten, ikonen och URL:en till rätt namn för programmet.
-
    * I det här exemplet visas ett navigeringsobjekt i den vänstra panelen för objekttypen. Du måste skapa dessa objekt separat för varje objekt där de stöds i Workfront. Följande objekt är tillgängliga: projekt, uppgift, utgåva, portfölj och program.
 
 1. Spara ditt arbete.
@@ -410,7 +417,7 @@ Delad kontext används för att dela data från Workfront till ett UI-tillägg. 
 
 Workfront UI Extensions delar användardata. Användarobjektet som är tillgängligt via delad kontext innehåller ett användar-ID för Workfront och användarens e-postadress.
 
-`user = (conn?.sharedContext?.get("user")); // {ID: '1', email: 'test@aaa.com'} userID = user.ID userEmail = user.email `
+`user = (conn?.sharedContext?.get("user")); // {ID: '1', email: 'test@aaa.com'} userID = user.ID userEmail = user.email`
 
 ### Programkontext
 
@@ -418,7 +425,7 @@ När du lägger till ett anpassat program med hjälp av en sekundär navigerings
 
 Här följer ett exempel på hur du hämtar programkontexten för dokument:
 
-`context = conn?.sharedContext; // Using the connection created above, grab the document details from the host tunnel. // conn?.host?.document?.getDocumentDetails().then(setDocDetails); `
+`context = conn?.sharedContext; // Using the connection created above, grab the document details from the host tunnel. // conn?.host?.document?.getDocumentDetails().then(setDocDetails);`
 
 ## Testa appen i Workfront
 

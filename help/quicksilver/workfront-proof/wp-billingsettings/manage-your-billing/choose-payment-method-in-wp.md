@@ -7,7 +7,7 @@ description: Läs mer om betalningar i Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cc23012f-ea1a-41e6-b101-877b85605775
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Följande betalningsalternativ är tillgängliga:
 | **Månadsprenumerationer** | **Årsprenumerationer** |
 |---|---|
 | kreditkort | kreditkort |
-| girering |
+| girering |  |
 
 {style="table-layout:auto"}
 
@@ -65,7 +65,7 @@ Så här ändrar du nästa betalningsmetod och uppdaterar din kreditkortsinforma
 Om du har satellitkonton måste du uppdatera dina kreditkortsuppgifter och betalningsmetoder separat för varje konto. Mer information om satellitkonton finns i [Satellitkonton.](https://support.workfront.com/hc/en-us/sections/115000921108-Satellite-accounts)
 
 1. Gå till sidan [!UICONTROL Billing] i ditt hubbkonto.\
-   Mer information om faktureringssidan finns på [sidan Korrekturfakturering](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md). [!DNL Workfront] 
+   Mer information om faktureringssidan finns på [sidan Korrekturfakturering [!DNL Workfront] .](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 
 1. Öppna listrutan [!UICONTROL accounts list]. (1)
 1. Välj det satellitkonto (2) som är kopplat till det kreditkort som du vill uppdatera.

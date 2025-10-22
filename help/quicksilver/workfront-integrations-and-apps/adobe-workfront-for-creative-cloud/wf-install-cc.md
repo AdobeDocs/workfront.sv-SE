@@ -6,7 +6,7 @@ description: Du kan installera [!DNL Adobe Workfront for design and video]  frå
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 0%
@@ -122,10 +122,11 @@ Du kan installera [!DNL Adobe Workfront for design and video] själv från [!DNL
 
    >[!TIP]
    >
-   >* Om du vill hitta din domän öppnar du en webbläsare, navigerar till din [!DNL Workfront]-instans och kopierar den första delen av URL-adressen:\
+   >* Om du vill hitta din domän öppnar du en webbläsare, navigerar till din [!DNL Workfront]-instans och kopierar den första delen av URL-adressen:
+   >
    >![Hitta domän](assets/domain-350x50.png)
    >
-   > * Om din Workfront-instans är integrerad med Experience Cloud ber du administratören att ge dig den Workfront-domän som finns under Produkt > Workfront i Admin Console.
+   >* Om din Workfront-instans är integrerad med Experience Cloud ber du administratören att ge dig den Workfront-domän som finns under Produkt > Workfront i Admin Console.
 
 1. Ange dina [!DNL Workfront]-inloggningsuppgifter i webbläsaren och klicka sedan på **[!UICONTROL Log in]**. Om ditt företag använder en enkel inloggning (SSO) dirigeras du till din SSO-leverantörs sida för att logga in.
 

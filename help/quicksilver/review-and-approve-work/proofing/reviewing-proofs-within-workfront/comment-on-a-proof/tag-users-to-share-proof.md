@@ -6,7 +6,7 @@ description: När du kommenterar ett korrektur i korrekturläsaren kan du tagga 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4efbfdeb-3834-48dd-aa5b-515891bac519
-source-git-commit: fe269b088c82e7045ffbb5155d54432e0b413cbe
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 0%
@@ -64,10 +64,10 @@ Användare med rollen Korrekturprofil eller Korrektur som beskrivs i avsnittet [
 
 >[!NOTE]
 >
->Du kan endast tagga en extern medarbetare med deras e-postadress om något av följande är sant:>
+>Du kan bara tagga en extern medarbetare med deras e-postadress om något av följande stämmer:
+>
 >* En användare på din organisations Workfront-konto har lagt till medarbetarens e-postadress i ett tidigare korrektur.
 >* Medarbetaren har använt e-postadressen för att prenumerera på ett bevis i din organisations Workfront-konto tidigare.
->
 
 Så här taggar du någon och delar ett korrektur i en kommentar:
 

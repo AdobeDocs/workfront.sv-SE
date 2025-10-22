@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-source-git-commit: f9a154fa92217810b762ac48169512bc0bca7305
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 0%
@@ -118,11 +118,8 @@ Observera de parametrar som skickas:
   Instruktioner finns i Skapa ett ensidigt OAuth2-webbprogram med PKCE i Skapa OAuth2-program för Workfront-integreringar.
 
 * `response_type` är `code` eftersom programmet använder behörighetstypen Auktoriseringskod.
-
 * `redirect_uri` är återanropsplatsen som användaragenten dirigeras till tillsammans med `code`. Detta måste matcha en av de omdirigerings-URL:er som du angav när du skapade OAuth2-programmet.
-
 * `code_challenge_method` är den hash-metod som används för att generera utmaningen, som alltid är `S256` för Workfront Oauth2-program som använder PKCE.
-
 * `code_challenge` är den kodutmaning som används för PKCE.
 
 

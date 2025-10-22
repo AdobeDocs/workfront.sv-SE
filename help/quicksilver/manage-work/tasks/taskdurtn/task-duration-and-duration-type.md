@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
-source-wordcount: '1649'
+source-wordcount: '1653'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Om aktivitetens faktiska start- och slutförandedatum ligger utanför schemat f�
 >[!BEGINSHADEBOX]
 
 **EXEMPEL**
-Om du har ett schema som börjar kl. 9.00 och slutar kl. 12.00 och en aktivitet som schemaläggs att starta kl. 2:00 och avslutas kl. 17:00, är aktivitetens varaktighet noll.
+Om du har ett schema som börjar kl. 20.00 och slutar kl. 12.00 och en aktivitet som är schemalagd att starta kl. 22.00 och avslutas kl. 22.00 är aktivitetens varaktighet noll.:00:00:00:00
 
 
 >[!ENDSHADEBOX]

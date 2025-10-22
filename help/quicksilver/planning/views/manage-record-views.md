@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1144'
 ht-degree: 0%
@@ -199,11 +199,11 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
 | Visa poster på en tidslinje |            | ✓ |             |
 | Filtrera poster | ✓ | ✓ | ✓ |
 | Visa poster i en kalender |           |              | ✓ |
-| Gruppposter | ✓ | ✓ |
-| Sortera poster | ✓ |              |
+| Gruppposter | ✓ | ✓ |  |
+| Sortera poster | ✓ |              |  |
 | Färgkodsposter | ✓ | ✓ | ✓ |
-| Färgkodsgrupperingar |           | ✓ |
-| Sök efter specifika poster | ✓ | ✓ |
+| Färgkodsgrupperingar |           | ✓ |  |
+| Sök efter specifika poster | ✓ | ✓ |  |
 | Dela vyn med andra | ✓ | ✓ | ✓ |
 | Öppna postens sida från vyn | ✓ | ✓ |    |
 | Visa poster per år och kvartal |           | ✓ |    |
@@ -280,7 +280,7 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
 1. (Valfritt) Klicka på **Mer**-menyn ![Fler vyer med nedåtriktade ikoner](assets/more-caret-down-icon-views.png) bredvid den senaste vyn om du vill visa alla vyer för den valda posttypen.
 
    Ytterligare vyer visas på menyn **Mer** efter fliken för den senaste vyn. Siffran bredvid menyn **Mer** visar antalet ytterligare vyer.
-1. (Valfritt) Om du vill byta namn på en vy efter att den har skapats klickar du på listrutan Visa och sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) > **Byt namn** för att uppdatera visningsnamnet
+1. (Valfritt) Om du vill byta namn på en vy efter att den har skapats klickar du på listrutan Visa och sedan på menyn **Mer** ![Mer ](assets/more-menu.png) > **Byt namn** för att uppdatera visningsnamnet
 
    eller
 

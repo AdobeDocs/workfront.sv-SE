@@ -6,7 +6,7 @@ description: Som användare med administrativ åtkomst till tidrapporter kan du 
 author: Lisa
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 0%
@@ -112,8 +112,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
      <tr> 
       <td role="rowheader"><strong>Slutdatum</strong> </td> 
       <td> Detta är slutdatumet för tidrapporten.</td> 
-     </tr>
-<tr> 
+     </tr> 
+     <tr> 
       <td role="rowheader"><strong>Status</strong> </td> 
       <td> Detta är status för tidrapporten.
       Följande är möjliga alternativ för tidrapportstatus: 
@@ -121,7 +121,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
       <li><b>Skickat</b>: Tidrapporten skickas för godkännande till de angivna godkännarna.</li>
       <li><b>Avvisad</b>: Tidrapporten godkändes inte av godkännarna och är nu tillgänglig igen så att användaren kan redigera tidsposterna.</li>
       <li><b>Stängd</b>: Tidrapporten stängs av användaren eller godkänns av godkännaren och därför är den nu stängd. Du kan inte lägga till tid i en stängd tidrapport.</li>
-   </td> 
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Godkännare</strong> </td> 

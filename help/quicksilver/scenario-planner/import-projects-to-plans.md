@@ -6,7 +6,7 @@ description: Du kan importera befintliga projekt till en plan. De importerade pr
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1594'
 ht-degree: 0%
@@ -180,15 +180,9 @@ När du importerar ett projekt till en plan importeras viss projektinformation o
 >Följande inträffar:
 >
 >* Ändringar i projektet påverkar aldrig initiativet efter att du har importerat projektet till planen. De här ändringarna inkluderar ändringar av rollallokeringarna för jobb.
->
->  <!--
->  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might change if projects will ever affect initiatives automatically) </p>>
->  -->
->
 >* Ändringar i initiativet påverkar bara informationen i projektområdet [!DNL Scenario Planner] när du publicerar initiativet till motsvarande projekt. Annars påverkar de inte [!UICONTROL Planned Hours]-informationen för aktiviteterna och problemen i projektet.
 >
 >  Mer information om hur publiceringsinitiativen påverkar de länkade projekten finns i [Uppdatera eller skapa projekt genom att publicera initiativen i scenarioplanen](../scenario-planner/publish-scenarios-update-projects.md).
->
 
 {{step1-to-scenario-planner}}
 

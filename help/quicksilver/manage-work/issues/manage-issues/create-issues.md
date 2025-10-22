@@ -8,7 +8,7 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1461'
 ht-degree: 0%
@@ -173,8 +173,9 @@ Rutan Nytt problem visas.
    >[!TIP]
    >
    >Begärandetyperna måste vara aktiverade i köinformationen och även när du skapar ett köämne som ska visas som ett val i formuläret Nytt problem. Mer information finns i följande artiklar:
+   >
    >* [Skapa en begärandekö](../../requests/create-and-manage-request-queues/create-request-queue.md)
-   >  * [Skapa köämnen](../../requests/create-and-manage-request-queues/create-queue-topics.md)
+   >* [Skapa köämnen](../../requests/create-and-manage-request-queues/create-queue-topics.md)
 
 1. Fortsätt att ange fälten som är tillgängliga i formuläret **Ny utgåva**. Mer information om de fält som är tillgängliga när du anger ett nytt problem finns i [Redigera problem](../../../manage-work/issues/manage-issues/edit-issues.md).
 

@@ -3,7 +3,7 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: e05b15bbb9e9148cc6f2940ae33f7ea9f98b7444
+source-git-commit: 144d11dfae949e11d86750e59951038ecabc13ab
 workflow-type: tm+mt
 source-wordcount: '13471'
 ht-degree: 0%

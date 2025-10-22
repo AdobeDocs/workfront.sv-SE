@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 0%
@@ -76,13 +76,18 @@ Klicka på **Lägg till filer** om du vill bläddra bland filer eller importera 
 1. Klicka på **Överför** i avsnittet **Snabbåtgärder** och välj sedan **Dokument**.
 1. (Valfritt) Markera en mapp i rutan **Överför filer**.
 1. Dra och släpp filen eller Cmd/Ctrl + V för att klistra in från Urklipp
-eller
-Klicka på **Lägg till filer** om du vill bläddra bland filer eller importera filer från en Document Cloud-leverantör.
+
+   eller
+
+   Klicka på **Lägg till filer** om du vill bläddra bland filer eller importera filer från en Document Cloud-leverantör.
+
    ![Lägg till filer](assets/add-files.png)
+
 1. (Valfritt) Lägg till en kommentar.
 1. (Valfritt) Lägg till fler filer.
 
    >[!NOTE]
    >
    >Ytterligare filer överförs som separata dokument.
+
 1. Klicka på **Överför**.

@@ -6,7 +6,7 @@ description: Du kan skapa en tidrapport för engångsbruk manuellt om du vill ha
 author: Lisa
 feature: Timesheets
 exl-id: b293dd50-a9b8-448b-afc1-8c7c7c79183b
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 0%
@@ -26,13 +26,9 @@ Mer information om hur du manuellt genererar tidrapporter för alla användare i
 >[!NOTE]
 >
 >* Det går inte att skapa engångstidrapporter för grupper.
->  <!--
->  <span>Making sure with Lilit that this is correct</span>>
->  -->
 >* När du skapar en enskild tidrapport kan du inte välja specifika allmänna timtyper att inkludera i tidrapporten. Alla allmänna timtyper som aktiveras i systemet visas i tidrapporter som skapas manuellt.
 >
->  Om du bara vill välja vissa allmänna timtyper att visa i tidrapporterna använder du en tidrapportprofil. Mer information om tidrapportprofiler finns i [Skapa, redigera och tilldela tidrapportprofiler](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
->
+>Om du bara vill välja vissa allmänna timtyper att visa i tidrapporterna använder du en tidrapportprofil. Mer information om tidrapportprofiler finns i [Skapa, redigera och tilldela tidrapportprofiler](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 ## Åtkomstkrav
 
@@ -83,7 +79,7 @@ Filtret **Alla** är markerat som standard. Då visas alla tidrapporter som du h
 
      ![Mina filterknappar för tidrapporter på listsidan för tidrapporter](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Klicka på ikonen **Filter** ![Filter &#x200B;](assets/filter-nwepng.png) om du vill använda ett annat filter eller skapa ett nytt. Mer information om hur du skapar eller uppdaterar filter finns i [Skapa eller redigera filter i Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Klicka på ikonen **Filter** ![Filter ](assets/filter-nwepng.png) om du vill använda ett annat filter eller skapa ett nytt. Mer information om hur du skapar eller uppdaterar filter finns i [Skapa eller redigera filter i Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
@@ -92,7 +88,7 @@ Filtret **Alla** är markerat som standard. Då visas alla tidrapporter som du h
    >   * [Anpassa filter, vyer och grupperingar med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
 
 
-1. (Valfritt) Klicka på ikonen **Sök** ![Sök &#x200B;](assets/search-icon.png) om du vill skriva ett nyckelord och söka efter en viss tidrapport. Du kan t.ex. söka efter en tidsram för tidrapporten med ägarnamnet.
+1. (Valfritt) Klicka på ikonen **Sök** ![Sök ](assets/search-icon.png) om du vill skriva ett nyckelord och söka efter en viss tidrapport. Du kan t.ex. söka efter en tidsram för tidrapporten med ägarnamnet.
 
 1. (Valfritt) Klicka på ikonerna **Visa** ![Visa](assets/view-icon.png) eller **Gruppera** ![Gruppera](assets/grouping.png) om du vill använda en annan vy eller gruppering eller skapa en ny.
 

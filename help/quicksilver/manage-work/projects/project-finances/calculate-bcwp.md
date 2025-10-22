@@ -7,7 +7,7 @@ description: BCWP (Budgeted Cost of Work Performed) kallas även för Earned Val
 author: Lisa
 feature: Work Management
 exl-id: 203709a7-e522-4875-b3eb-40b967a938ec
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Du kan konfigurera om BCWP ska beräknas i timmar eller kostnader genom att konf
 
 1. Klicka på **Spara ändringar**.
 
-BCWP för projektets uppgifter beräknas med hjälp av timmar eller kostnader.
+   BCWP för projektets uppgifter beräknas med hjälp av timmar eller kostnader.
 
 ## Beräkna BCWP
 

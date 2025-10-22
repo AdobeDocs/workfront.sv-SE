@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -157,12 +157,15 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 {{step1-to-planning}}
 
 Arbetsytan som du senast öppnade öppnas.
+
 1. Klicka på ett posttypskort.
 
    Posttypssidan öppnas.
+
 1. (Villkorligt) Välj en tabellvy i listrutan **Visa** i tabellens övre högra hörn. Detta bör vara standardvyn, såvida du inte har visat posttypen i tidslinjevyn när du senast öppnade den.
 
    Posterna som är associerade med den valda posttypen visas i tabellvyn.
+
 1. Högerklicka på en postrad
 
    eller

@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0e58a1d6-5e0c-4445-a5ac-400dfd4c4948
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%
@@ -34,9 +34,7 @@ Du kan använda både låsta och olåsta lägen i en systemgodkännandeprocess. 
 Varningsmeddelanden visas i följande scenarier för att hjälpa dig och dina användare att förstå resultaten av följande scenarier:
 
 * En administratör låser upp en systemnivåstatus som används i en godkännandeprocess. Ett meddelande varnar som kan ta bort den olåsta statusen för sina grupper, vilket skulle förhindra gruppmedlemmar från att använda godkännandeprocessen korrekt för objekt som tilldelats deras grupp.
-
 * En användare börjar redigera en godkännandeprocess som använder en olåst status. Ett meddelande varnar användaren om olåst status så att de kan utvärdera om det skulle vara en bra idé att låsa om eller ersätta den.
-
 * En godkännandeprocess på systemnivå med olåst status bifogas till ett objekt och statusen togs bort för gruppen som tilldelats till objektet. När en gruppmedlem går till avsnittet Godkännanden för objektet, visas ett meddelande om att godkännandeprocessen inte kan initieras för objektet.
 
 Du kan använda både låsta och olåsta lägen i en gruppgodkännandeprocess. Om du skapar en process för gruppgodkännande med olåst gruppstatus kan användarna bifoga godkännandeprocessen till alla projekt, aktiviteter eller utgåvor som är kopplade till gruppen.

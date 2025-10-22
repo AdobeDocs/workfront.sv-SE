@@ -7,7 +7,7 @@ description: Du kan använda datauttryck för att definiera beräknade anpassade
 author: Jenny, Lisa
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '2551'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Exempel:
 * I ett anpassat fält, i ett anpassat formulär för uppgifter, använder du följande för att generera namnet på det överordnade projektet för den uppgift där det anpassade formuläret är kopplat:
 
 
-  ` {project}.{name}`
+  `{project}.{name}`
 
 
 * I en anpassad kolumn i en rapport använder du följande för att lägga till en anpassad kolumn för projektnamn i en aktivitetsrapport:
@@ -83,7 +83,7 @@ Mer information om syntaxen som du måste använda i en beräknad anpassad kolum
 
 I listorna nedan definieras de tillgängliga uttryck som du kan använda när du skapar en av de tre olika typerna av beräknade anpassade fält i Workfront:
 
-* [Anpassade fält för datum och tid &#x200B;](#date-time-calculated-custom-fields)
+* [Anpassade fält för datum och tid ](#date-time-calculated-custom-fields)
 * [Matematiskt beräknade anpassade fält](#mathematical-calculated-custom-fields)
 * [Textberäknade anpassade fält](#text-calculated-custom-fields)
 

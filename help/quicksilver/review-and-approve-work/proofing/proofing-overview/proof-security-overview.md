@@ -7,7 +7,7 @@ description: Du kan lägga till extra säkerhetsåtgärder till korrektur.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2f6737d5-627d-463f-8127-504755bd0380
-source-git-commit: 157ab840d63388b342db624824db9538d43b70b1
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 0%
@@ -32,10 +32,10 @@ När inloggning krävs är granskarna skyldiga att logga in med sina e-postadres
 
 >[!TIP]
 >
->För att effektivisera inloggningsprocessen rekommenderar vi att du konfigurerar enkel inloggning i Workfront och Workfront. Mer information om att aktivera enkel inloggning finns i >
+>För att effektivisera inloggningsprocessen rekommenderar vi att du konfigurerar enkel inloggning i Workfront och Workfront. Mer information om att aktivera enkel inloggning finns i
+>
 >* [Enkel inloggning i Workfront: artikelindex](../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
 >* [Konfigurera enkel inloggning för Workfront Proof-användare](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
->
 
 ## Elektronisk signatur
 
@@ -47,6 +47,6 @@ När inställningen för elektroniska signaturer är aktiverad på ett korrektur
 
 >[!IMPORTANT]
 >
->Om du vill signera ett korrektur elektroniskt med inloggningsuppgifter för enkel inloggning måste du konfigurera enkel inloggning i Workfront Proof. Mer information om att aktivera enkel inloggning finns i >
->* [Konfigurera enkel inloggning för Workfront Proof-användare](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+>Om du vill signera ett korrektur elektroniskt med inloggningsuppgifter för enkel inloggning måste du konfigurera enkel inloggning i Workfront Proof. Mer information om att aktivera enkel inloggning finns i
 >
+>* [Konfigurera enkel inloggning för Workfront Proof-användare](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)

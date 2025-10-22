@@ -6,7 +6,7 @@ description: Du kan lägga till det inbyggda fältet Statusikoner som en kolumn 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1205'
 ht-degree: 0%
@@ -105,7 +105,7 @@ Så här lägger du till fältet Statusikoner i en anpassad vy som du bygger fr�
 
    * *Statusikoner*
    * *Flaggor*
-   * *Visa ikoner *(endast i dokumentvyer).
+   * *Visa ikoner* (endast i dokumentvyer).
 
    De inbyggda ikonerna visas under något av dessa namn.\
    En mallvy innehåller både fälten **Statusikoner** och **Flaggor**. I det här fallet innehåller de två kolumnerna identiska ikoner.\

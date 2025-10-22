@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: 17aaf70977aa6ce0276676c6a30fd6c951be956c
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 0%
@@ -48,10 +48,8 @@ Du kan också ändra bakgrundsbilden och färgen på inloggningsskärmen:
 >[!NOTE]
 >
 >* Det går inte att ändra bakgrundsbild och färg för inloggningen om din organisations Workfront-instans använder en anpassad SSO-portal. Kontakta nätverks- eller IT-administratören om du behöver mer information.
-><!--
->or is enabled with Adobe IMS  >
->  >
->-->
+>
+><!-- or is enabled with Adobe IMS -->
 >
 >* En Workfront-administratör eller gruppadministratör kan även använda en layoutmall för att skapa varumärken för Workfront för vissa grupper och användare. Varumärkning i en layoutmall åsidosätter den profilering på systemnivå som förklaras i den här artikeln. Instruktioner om hur du varumärkar i en layoutmall finns i [Märke-Adobe Workfront med en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md).
 
@@ -134,10 +132,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
    >[!NOTE]
    >
    >Detta är inte tillgängligt om din organisations Workfront-instans använder en anpassad SSO-portal.
-   ><!--   >
-   >or is enabled with Adobe IMS   >
-   >   >
-   >-->
+   >
+   ><!--  or is enabled with Adobe IMS -->
    >
    >Kontakta nätverks- eller IT-administratören om du behöver mer information.
 

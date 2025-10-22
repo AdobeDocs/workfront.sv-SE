@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements, Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: c76c2dba-1497-414a-8979-712f093efd73
-source-git-commit: 517c080ed4e6096ac0a2028125d62d33b2db2359
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 0%
@@ -31,11 +31,11 @@ En lista över alla ändringar som är tillgängliga i version 2.1 finns i [2.1 
 
 >[!NOTE]
 >
->Gäller endast EMEA-kunder med integrerat korrektur som skapats före 6 juli 2021. Den här funktionen kommer att förhandsgranskas i en fasad utrullning från 13 januari till 17 januari för följande kunder: >
+>Gäller endast EMEA-kunder med integrerat korrektur som skapats före 6 juli 2021. Den här funktionen kommer att förhandsgranskas i en fasad utrullning från 13 januari till 17 januari för följande kunder:
+>
 >* EMEA-kunder med både integrerad och fristående korrektur
 >* EMEA-kunder med integrerat korrektur som skapats efter 6 juli 2021
 >* Alla kunder i USA
->
 
 För att skapa en mer integrerad upplevelse mellan Workfront och Korrektur har vi gjort flera förbättringar när det gäller korrekturfunktioner för granskare och beställare:
 

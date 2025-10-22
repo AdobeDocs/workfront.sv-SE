@@ -6,9 +6,9 @@ description: Det här integreringsscenariot delar utgiftsrelaterad information f
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: f9198017-9bbb-4776-86aa-3f78705dbb22
-source-git-commit: d3f234313677d916318c181c91cb951948454006
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '865'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Det här integreringsscenariot delar utgiftsrelaterade detaljer från ett [!DNL 
 
 Mer information om informationen i den här tabellen finns i [Åtkomstkrav i dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Mer information om Adobe Workfront Fusion-licenser finns i [Adobe Workfront Fusion-licenser](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+Mer information om Adobe Workfront Fusion-licenser finns i [Adobe Workfront Fusion-licenser](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 ## Starthändelse
 
@@ -65,7 +65,7 @@ Detta scenario är schemalagt att köras var 15:e minut.
 
 Du måste ha följande i [!DNL Workfront] för att kunna använda det här scenariot:
 
-* En användarprofil i [!DNL Workfront] med namnet *[!UICONTROL *[!DNL Anaplan] Integration]** som har systemadministratörsbehörighet.
+* En användarprofil i [!DNL Workfront] med namnet *Anaplan-integrering* som har systemadministratörsbehörighet.
 
   Mer information om hur du skapar en användare i [!DNL Workfront] finns i [Lägg till användare](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 

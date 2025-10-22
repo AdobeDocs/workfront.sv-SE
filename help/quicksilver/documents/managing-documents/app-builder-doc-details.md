@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: dcdae47ffd4a02ac9a0bbd3cd9bd1418f6c59e1a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1357'
 ht-degree: 0%
@@ -92,41 +92,56 @@ Om AppBuilder är korrekt konfigurerat bör du se&quot;Skapa projekt från mall&
 Adobe tillhandahåller en CLI med öppen källkod som kan användas för att skapa App Builder-program. Dokumentation finns här: [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli) samt Adobe App Builder-instruktioner [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app).
 
 1. Installation
-   1. Om du vill installera verktyget kör du: `npm install -g @adobe/aio-cli ` (kontrollera att du är på nod v18 först).
+
+   1. Om du vill installera verktyget kör du: `npm install -g @adobe/aio-cli` (kontrollera att du är på nod v18 först).
 
 1. Autentisera i Terminal
+
    1. Starta terminalen och logga in i AIO med kommandot: `aio login`.
 
 1. Initiera programmet
+
    1. Börja konfigurera din app genom att köra: `aio app init example-app`.
 
 1. Konfigurationsval
-   1. Fortsätt med att välja organisation och projekt bland de tillgängliga alternativen.\
+
+   1. Fortsätt med att välja organisation och projekt bland de tillgängliga alternativen.
+
       ![Välj organisation](assets/select-org.png)
+
       ![Välj projekt](assets/select-project.png)
 
 1. Välja och konfigurera mallar
+
    1. Bläddra bland alla tillgängliga mallar och välj mallen **@adobe/aem-cf-editor-ui-ext-tpl** för projektet.
+
       ![Sökmall](assets/search-template.png)
+
       ![Välj mall](assets/select-template.png)
 
 1. Definiera tillägget
+
    1. Ge tillägget ett namn.
    1. Ge en beskrivande sammanfattning av tilläggets funktioner.
    1. Välj ett ursprungligt versionsnummer att börja med.
    1. Bekräfta slutförande genom att välja **Jag är klar**.
-      ![Definiera tillägg](assets/define-extension.png)
+
+   ![Definiera tillägg](assets/define-extension.png)
 
 1. Navigera till din projektmapp
+
    1. Åtkomst till src-mappen
+
    1. Byt namn på mappen `aem-cf-editor-1` till `workfront-doc-details-1`.
 
 1. Ändra konfigurationsfiler
+
    1. Öppna app.config.yaml
    1. Uppdatera raden från `aem/cf-editor/1` till `workfront/doc-details/1`.
    1. Justera inkluderingssökvägen från `src/aem-cf-editor-1/ext.config.yaml` till `src/workfront-doc-details-1/ext.config.yaml`.
 
 1. Redigera tilläggsregistreringskomponenten
+
    1. Öppna `src/workfront-doc-details-1/web-src/src/components/ExtensionRegistration.js`.
    1. Lägg till funktionen `secondaryNav` som innehåller den asynkrona funktionen `getButtons` i avsnittet med metoder.
    1. `getButtons` ska ta emot ett objekt med följande struktur:
@@ -317,20 +332,22 @@ Adobe tillhandahåller en CLI med öppen källkod som kan användas för att ska
 För att ett gästprogram ska kunna läsas in i Workfront måste programmet skickas till arbetsytan Produktion och skickas för godkännande.
 
 1. Distribuera programmet till arbetsytan Produktion
-   1. `aio app use -w Production `
-   1. `aio app deploy `
+
+   1. `aio app use -w Production`
+   1. `aio app deploy`
 
 1. Navigera till [https://developer-stage.adobe.com/](https://developer-stage.adobe.com/) eller [https://developer.adobe.com/](https://developer.adobe.com/).
+
    1. Klicka på **Konsol** i det övre högra hörnet.
 
 1. Hitta det projekt som du använde för att skapa AppBuilder-programmet.
-
 1. Välj Production Workspace.
+
    ![Välj arbetsyta för produktion](assets/find-application.png)
 
 1. Skicka in programmet för privat granskning (du får varningar om att vi inte publicerar på marknadsplatsen för apputbyte, vilket är bra).
-
 1. Fyll i formuläret (titel, beskrivning, ikon och anteckning till granskare).
+
    ![Fyll i formulär för privat granskning](assets/submission-details.png)
 
 >[!IMPORTANT]

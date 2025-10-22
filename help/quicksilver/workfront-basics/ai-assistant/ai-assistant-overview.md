@@ -5,7 +5,7 @@ description: Läs om AI-assistenten i Adobe Workfront
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 657c2aa75d088f87f8e05b5089fccae2577842ee
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 1%
@@ -149,7 +149,7 @@ Inkludera frasen `using (keyword)` när du anger din fråga.
 | Nyckelord | Effekt |
 |---|---|
 | `workfront` | Interagera med Workfront. |
-| `planning ` | Interagerar med Workfront Planning. |
+| `planning` | Interagerar med Workfront Planning. |
 | `help` | Returnerar information från Experience League-dokumentation. |
 | `formula` | Kontrollerar och returnerar formler för användning i Planning, Setup eller anpassade formulär. |
 | `health` | Kontrollerar projektets hälsa med Project Health Advisor. |
