@@ -6,7 +6,7 @@ description: Vissa funktioner skiljer sig åt mellan  [!DNL Workfront]  och Adob
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
+source-git-commit: b9547764abd4f1f61d93da6bc66d9e6776954f4d
 workflow-type: tm+mt
 source-wordcount: '1380'
 ht-degree: 0%
@@ -33,7 +33,7 @@ I tabellen beskrivs några funktioner som skiljer sig åt mellan de båda upplev
 | Navigeringen innehåller ett navigeringsområde på den översta nivån för [!DNL Adobe] produkter, [!DNL Adobe] meddelanden, hjälp och din användarprofil, förutom navigeringsfältet [!DNL Workfront] | Navigeringen innehåller endast navigeringsfältet [!DNL Workfront] |
 | Hjälpen är tillgänglig via [!UICONTROL Main Menu] och det övre navigeringsområdet | Hjälpen är tillgänglig via navigeringsfältet [!UICONTROL Main Menu] och [!DNL Workfront] |
 | Språkvisningsprogrammet öppnas på en ny flik | Språkvisningsprogrammet öppnas i Workfront |
-| Den URL som används för att komma åt Workfront är `experience.adobe.com` | Den URL som används för att komma åt Workfront är `(CompanyName).my.workfront.com` |
+| Den URL som används för att komma åt Workfront är `experience.adobe.com` | Den URL som används för att komma åt Workfront är `(CompanyName).my.workfront.adobe.com` |
 | Datumformatet (t.ex. MM/DD/ÅÅÅÅ) baseras på språkinställningarna för enhetlig upplevelse. Om användaren inte har uppdaterat sina språkinställningar används `en-US`-inställningarna. | Datumformatet (t.ex. MM/DD/ÅÅÅ) baseras på webbläsarens inställningar |
 
 {style="table-layout:auto"}
@@ -61,9 +61,9 @@ Mer information om [!DNL Admin Console] finns i följande artiklar:
 
 Befintliga kunder kontaktas för att schemalägga migreringar. De supportteam som arbetar med migrering kommer att hjälpa kunderna genom processen, ge råd om konfigurationen av [!DNL Admin Console] och tillhandahålla länkar till dokumentation som behövs för att göra flytten så enkel och krångelfri som möjligt.
 
-* [[!DNL Adobe Workfront] Supportöversikt](https://experienceleague.adobe.com/sv/docs/customer-one/using/workfront/overview)
-* [[!DNL Workfront Admin Console] information](https://experienceleague.adobe.com/sv/docs/customer-one/using/workfront/landing)
-* [[!DNL Adobe Business Platform] och [!DNL Admin Console] Vanliga frågor](https://experienceleague.adobe.com/sv/docs/customer-one/using/workfront/faq)
+* [[!DNL Adobe Workfront] Supportöversikt](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/overview)
+* [[!DNL Workfront Admin Console] information](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/landing)
+* [[!DNL Adobe Business Platform] och [!DNL Admin Console] Vanliga frågor](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/faq)
 
 ### Hur hanterar du [!DNL Adobe Admin Console] för företag som redan har detta aktiverat för Federated ID:n på ett annat sätt än [!DNL Workfront] enkel inloggning har konfigurerats?
 
