@@ -6,9 +6,9 @@ description: Din Adobe Workfront-administratör ger användarna åtkomst till at
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c8a25bcc8c9b56a649ca7764918c86f9cdd5b3e2
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 Förutom övervägandena nedan finns även [Dela rapporter, instrumentpaneler och kalendrar](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
 * Du kan dela rapporter som du skapar med andra personer, team, grupper, jobbroller eller företag. Du kan också dela rapporter som andra har skapat och som delats med dig.
-* Du kan också dela dem med hela organisationen eller göra dem offentliga. När du gör en rapport offentlig genereras en URL som kan delas med andra.
+* Du kan dela rapporter med hela organisationen eller göra dem offentliga. När du gör en rapport offentlig genereras en URL som kan delas med andra.
 * Du kan dela en enskild rapport eller dela flera rapporter från en lista med rapporter.
 
 ## Olika sätt att dela rapporter
@@ -74,21 +74,21 @@ Förutom övervägandena nedan finns även [Dela rapporter, instrumentpaneler oc
 Du kan dela rapporter i Workfront på följande sätt:
 
 * Manuellt, enligt beskrivningen i avsnittet [Dela en rapport](#share-a-report) nedan.
-* Genom att automatiskt ärva behörigheten Visa från en kontrollpanel som innehåller den delade rapporten. Mer information om hur du visar ärvda behörigheter för objekt finns i [Visa ärvda behörigheter för objekt](../../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+* Automatiskt genom att ärva behörigheten Visa från en kontrollpanel som innehåller den delade rapporten. Mer information om hur du visar ärvda behörigheter för objekt finns i [Visa ärvda behörigheter för objekt](../../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
 
 ## Dela en rapport {#share-a-report}
 
 Att dela en eller flera rapporter från en lista är identiskt.
 
-1. Gå till en lista med rapporter och välj en eller flera rapporter. Klicka sedan på **Dela**.
+1. Gå till en lista med rapporter och välj en eller flera rapporter. Klicka sedan på ikonen **Dela** ![Dela](assets/share-icon.png) .
 
    eller
 
-   Klicka på namnet på en rapport och klicka sedan på **Rapportåtgärder >***Delning**.
+   Klicka på namnet på en rapport och klicka sedan på **Rapportåtgärder** > **Delning**. Rutan **Dela [RAPPORTNAMN]** öppnas.
 
-   ![](assets/unshimmed-report-actions-sharing.png)
+   ![Delningsalternativ](assets/unshimmed-report-actions-sharing.png)
 
-1. I rutan som visas i fältet **Lägg till personer, team, roller, grupper eller företag ...** börjar du skriva namnet på användaren, teamet, jobbrollen, gruppen eller företaget som du vill dela rapporten med och trycker sedan på **Retur** när namnet visas.
+1. I fältet **Bevilja rapportåtkomst till** börjar du skriva namnet på den användare, det team, den jobbroll, den grupp eller det företag som du vill dela rapporten med och väljer det sedan när den visas.
 
 1. Om du vill justera åtkomstnivån för ett namn som du har lagt till klickar du på den nedrullningsbara menyn till höger om namnet och väljer sedan ett av alternativen nedan.
 
@@ -97,12 +97,12 @@ Att dela en eller flera rapporter från en lista är identiskt.
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Se det</td> 
-      <td> <p>Gör att mottagaren kan visa rapporten i området <strong>Rapporter</strong> och köra den.</p> <p>Du kan klicka på <strong>Avancerade inställningar</strong> för att ange om du vill att användaren eller användarna ska kunna <strong>dela</strong> det med någon i systemet.</p> </td> 
+      <td role="rowheader">Visa</td> 
+      <td> <p>Gör att mottagaren kan visa rapporten i området <strong>Rapporter</strong> och köra den.</p> <p>Du kan klicka på ikonen <strong>Avancerade inställningar</strong> till höger för att ange om du vill att användaren eller användarna ska kunna <strong>dela</strong> den med någon i systemet.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Hantera det</td> 
-      <td> <p>Ger mottagaren fullständig redigeringsåtkomst till rapporten.</p> <p>Du kan klicka på <strong>Avancerade inställningar</strong> för att ange om du vill att användaren eller användarna ska kunna <strong>ta bort</strong> rapporten från systemet och <strong>dela</strong> den med någon i systemet.</p> </td> 
+      <td role="rowheader">Hantera</td> 
+      <td> <p>Ger mottagaren fullständig redigeringsåtkomst till rapporten.</p> <p>Du kan klicka på ikonen <strong>Avancerade inställningar</strong> till höger för att ange om du vill att användaren eller användarna ska kunna <strong>ta bort</strong> rapporten från systemet och <strong>dela</strong> den med någon i systemet.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -110,13 +110,13 @@ Att dela en eller flera rapporter från en lista är identiskt.
 1. (Valfritt) Upprepa de två föregående stegen för att lägga till andra namn i listan och konfigurera deras alternativ.
 1. (Valfritt) Klicka på listrutan **Endast inbjudna personer har åtkomst** i delningsrutan och välj sedan mellan följande alternativ:
 
-   * **Endast inbjudna personer kan komma åt** Välj det här alternativet så att endast användare som har beviljats åtkomst till rapporten kan visa den.
+   * **Endast inbjudna personer har åtkomst till**: Välj det här alternativet så att endast användare som har beviljats åtkomst till rapporten kan visa den.
 
-   * **Alla i systemet kan visa** Välj det här alternativet så att alla i Workfront som har åtkomst till rapporter kan visa rapporten.
+   * **Alla i systemet kan visa**: Välj det här alternativet så att alla i Workfront som har åtkomst till rapporter kan visa rapporten.
 
 1. (Valfritt) Klicka på ikonen **Kugghjulet** ![Inställningar för kugghjulsikonen](assets/gear-icon-settings-with-dn-arrow.jpg) i det övre högra hörnet av delningsrutan och välj sedan eventuellt följande alternativ:
 
-   * **Gör detta offentligt för externa användare** Välj det här alternativet om du vill generera en URL som kan delas med andra. Alla som har URL-adressen kan komma åt rapporten utan att ha någon Adobe Workfront-licens.
+   * **Gör detta offentligt för externa användare**: Välj det här alternativet om du vill generera en URL som kan delas med andra. Alla som har URL-adressen kan komma åt rapporten utan att ha någon Adobe Workfront-licens.
 
      >[!CAUTION]
      >
