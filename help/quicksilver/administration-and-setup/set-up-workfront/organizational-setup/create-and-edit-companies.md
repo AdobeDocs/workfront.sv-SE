@@ -141,11 +141,11 @@ Så här lägger du till eller redigerar ett företag:
 
    Mer information om hur du skapar anpassade formulär finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. (Villkorligt) Om du skapar ett företag klickar du på **[!UICONTROL Create Company]**<span class="preview">eller** Spara **.</span>
+1. (Villkorligt) Om du skapar ett företag klickar du på **[!UICONTROL Create Company]**<span class="preview">eller **&#x200B; Spara &#x200B;**.</span>
 
    eller
 
-   Om du redigerar ett befintligt företag klickar du på **[!UICONTROL Save Changes]**<span class="preview">eller** Spara **.</span>
+   Om du redigerar ett befintligt företag klickar du på **[!UICONTROL Save Changes]**<span class="preview">eller **&#x200B; Spara &#x200B;**.</span>
 
 ## Hantera företagsmedlemskap
 
