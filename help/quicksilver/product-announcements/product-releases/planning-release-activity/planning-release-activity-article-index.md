@@ -7,10 +7,10 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: b3f1002b-e3b4-48e5-9a64-467d4f7a15b2
-source-git-commit: 6708a22841bb20bd7bb62c76699276df9315611a
+source-git-commit: e8d0b180e39025e3d6775d1f90dbd5c8fad9025e
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 0%
+source-wordcount: '140'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ Den här artikeln innehåller en lista med artiklar om frisläppningsaktiviteter
 Information om den aktuella lanseringen av Workfront Planning finns i följande artikel:
 
 * [Första utgåvan av kvartal 2026 för Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)
-* [Versionsaktivitet fjärde kvartalet 2025 för Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
+
 
 >[!ENDSHADEBOX]
 
@@ -31,9 +31,13 @@ Information om den aktuella lanseringen av Workfront Planning finns i följande 
 
 Mer information om funktioner som släpptes före produktionsutgåvan den 10 april 2025 finns i följande artiklar:
 
-* [Tredje kvartersversionen 2025 för Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
-* [Andra utgåvan för kvartal 2025 för Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
-* [Första utgåvan av kvartal 2025 för Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
-* [Versionsaktivitet fjärde kvartalet 2024 för Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
-* [Adobe Workfront Planning Release Activity för 2024](/help/quicksilver/planning/general/release-activity.md)
-* [Adobe Workfront Planning Release Activity för 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md)
+* 2025
+   * [Versionsaktivitet fjärde kvartalet 2025 för Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
+   * [Tredje kvartersversionen 2025 för Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
+   * [Andra utgåvan för kvartal 2025 för Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
+   * [Första utgåvan av kvartal 2025 för Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
+* 2024
+   * [Versionsaktivitet fjärde kvartalet 2024 för Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
+   * [Adobe Workfront Planning Release Activity för 2024](/help/quicksilver/planning/general/release-activity.md)
+* 2023
+   * [Adobe Workfront Planning Release Activity för 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md)

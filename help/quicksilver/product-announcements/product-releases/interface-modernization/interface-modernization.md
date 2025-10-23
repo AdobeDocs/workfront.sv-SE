@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 21293cdd7a1c8f76149ee2e224fa8701e25e970e
+source-git-commit: bf4764cc1e20bf87fb1069ca432ee6303096313c
 workflow-type: tm+mt
-source-wordcount: '8497'
+source-wordcount: '8788'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,44 @@ På den här sidan listas de gränssnittsuppdateringar vi gör i hela Adobe Work
 Alla andra ändringar av Adobe Workfront finns i [Produktreleaser](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administratör och installation
+
+### Gränssnittsuppdateringar för dialogrutorna Lägg till och redigera företag
+
+**Förhandsversion: 23 oktober 2025; Produktionsversion: Från 30 oktober 2025**
+
+Vi har uppdaterat dialogrutorna för att lägga till och redigera företag med en modernare design som överensstämmer med andra delar av Workfront.
+
+Mer information finns i [Skapa och redigera företag](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+
+## Projekt
+
+### Gränssnittsuppdateringar för rutan Nytt och Redigera risk i en anpassad kontrollpanel i ett projekt
+
+**Förhandsversion: 16 oktober 2025; Produktionsrelease för alla kunder: Från och med 23 oktober 2025**
+
+Vi har uppdaterat utseendet på rutorna Nytt och Redigera risker när du skapar eller uppdaterar en befintlig risk. Den nya designen matchar nu andra delar av Workfront.  Om du vill få tillgång till den nya designen skapar du en riskrapport och placerar den på en kontrollpanel, lägger sedan till kontrollpanelen i ett projekt och hanterar riskerna från kontrollpanelen.
+
+Mer information finns i [Skapa och redigera risker i projekt](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
+
+## Användare
+
+### Gränssnittsuppdateringar för ledig tid
+
+**Förhandsversion: 23 oktober 2025; Produktionsrelease för alla kunder: Från och med 30 oktober 2025**
+
+<!--This feature was in Preview and Prod starting on Sept 25 and it was removed on Oct 9. -->
+
+Vi har uppdaterat utseendet och känslan av den personliga kalendertiden, inklusive möjligheten att delegera godkännanden, så att den matchar andra delar av programmet.
+
+Om du vill visa de här ändringarna går du till din användarprofil och klickar på **Tid av** i den vänstra panelen.
+
+Mer information finns i [Konfigurera personlig tid för ](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) och [Delegera godkännandebegäran](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+
+## Gränssnittsuppdateringar gjorda under Q4
+
+## Administratör och installation
+
++++Expandera för att visa de uppdateringar av gränssnittet Admin och Setup som gjorts i Q4
 
 ### Gränssnittsuppdateringar i dialogrutan Importera användare på företag
 
@@ -64,7 +102,7 @@ Uppdateringen påverkar:
 
 ### Gränssnittsuppdateringar för området Allvarlighetsgrader i installationsprogrammet
 
-**Förhandsversion: 25 september 2025; Produktionsversion: ska tillkännages**
+**Förhandsversion: 25 september 2025; Produktionsversion: Från och med 23 oktober 2025**
 
 Vi har uppdaterat sidan Allvarlighetsgrader med en modernare design som är i linje med andra delar av Workfront.
 
@@ -76,7 +114,7 @@ Mer information finns i [Skapa eller anpassa utgåvans allvarlighetsgrad](/help/
 
 ### Gränssnittsuppdateringar för området Prioriteter i installationsprogrammet
 
-**Förhandsversion: 25 september 2025; Produktionsversion: ska tillkännages**
+**Förhandsversion: 25 september 2025; Produktionsversion: Från och med 23 oktober 2025**
 
 Vi har uppdaterat sidan Prioriteter med en modernare design som överensstämmer med andra delar av Workfront.
 
@@ -209,7 +247,11 @@ Vi har uppdaterat sidan Uppdatera användare för enkel inloggning med en modern
 
 Om du vill visa ändringen går du till Inställningar > System > Uppdatera användare för enkel inloggning
 
++++
+
 ## Portföljer
+
++++Expandera för att visa Portfolio gränssnittsuppdateringar som gjorts under fjärde kvartalet
 
 ### Gränssnittsuppdateringar för att redigera portföljer
 
@@ -224,7 +266,11 @@ Vi har introducerat gränssnittsuppdateringar när vi redigerar portföljer i ru
 
 Mer information finns i [Redigera portföljer](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md).
 
++++
+
 ## Program
+
++++Visa programgränssnittsuppdateringar som gjorts under fjärde kvartalet
 
 ### Gränssnittsuppdateringar i rutan Redigera program
 
@@ -234,7 +280,11 @@ Vi har uppdaterat utseendet och känslan i rutan Redigera program så att den ma
 
 Mer information finns i [Redigera program](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/edit-programs.md).
 
++++
+
 ## Projekt
+
++++Expandera för att visa projektgränssnittsuppdateringar som gjorts under fjärde kvartalet
 
 ### Gränssnittsuppdateringar för faktureringspriser
 
@@ -436,7 +486,11 @@ Vi har uppdaterat dialogrutan för att lägga till en ny utgift i ett projekt, s
 
 Mer information finns i [Hantera projektutgifter](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
 
++++
+
 ## Mallar
+
++++Expandera för att visa mallgränssnittsuppdateringar som gjorts i Q4
 
 ### Gränssnittsuppdateringar för personlistan i en mall
 
@@ -482,8 +536,12 @@ Mer information finns i
 * [Skapa ämnesgrupper](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 * [Skapa routningsregler](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
++++
+
 
 ## Användare
+
++++Expandera för att visa uppdateringarna i användargränssnittet som gjordes under fjärde kvartalet
 
 ### Gränssnittsuppdateringar för sidan Användarinformation
 
@@ -506,7 +564,7 @@ Vi har uppdaterat utseendet och känslan av den personliga kalendertiden, inklus
 
 Om du vill visa de här ändringarna går du till din användarprofil och klickar på **Tid av** i den vänstra panelen.
 
-Mer information finns i [Konfigurera personlig tid för &#x200B;](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) och [Delegera godkännandebegäran](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+Mer information finns i [Konfigurera personlig tid för ](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) och [Delegera godkännandebegäran](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 ### Gränssnittsuppdateringar för dialogrutan Ny användare
 
@@ -528,6 +586,8 @@ Dialogrutan för import av nya användare via en kalkylbladsfil har uppdaterats 
 Om du vill visa den här ändringen går du till Användare > Ny användare > Importera användare.
 
 Mer information finns i [Importera användare](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/import-users.md).
+
++++
 
 ## Gränssnittsuppdateringar gjorda i tredje kvartalet
 

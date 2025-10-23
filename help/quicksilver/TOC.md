@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 144d11dfae949e11d86750e59951038ecabc13ab
+source-git-commit: f468c1a7a99e057f4bc392bf8197ec8bedfa3e96
 workflow-type: tm+mt
-source-wordcount: '13471'
+source-wordcount: '13485'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
       * [Produktreleaser - översikt](product-announcements/product-releases/product-releases.md)
       * [Adobe Workfront-releaseschema och -process](product-announcements/product-releases/workfront-release-schedule.md)
       * [Förbered dig för en kvartalsvis utgåva av Adobe Workfront](product-announcements/product-releases/release-readiness.md)
+      * 2026 Q1-utgåvan {#release-26-q1}
+         * [Första utgåvan, kvartal 2026, översikt](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)
       * 2025 Q4 {#release-25-q4}
          * [Fjärde kvartersversionen 2025 - översikt](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)
          * [Förbättringar av administratören för fjärde kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md)
@@ -2507,7 +2509,8 @@ ht-degree: 0%
       * [Konfigurera och använda organisationens anpassade OAuth 2-program med JWT-flöde](wf-api/api/oauth-app-jwt-flow.md)
       * [Konfigurera och använda organisationens anpassade OAuth 2-program med PKCE-flöde](wf-api/api/oauth-app-pkce-flow.md)
       * [Borttagning av API-intern](wf-api/api/deprecation-api-internal.md)
-      * [Nyheter i API-version 20](wf-api/api/new-api-version-20.md)
+      * [Nyheter i API-version 21](/help/quicksilver/wf-api/api/new-api-version-21.md)
+      * [Nyheter i API-version 20](/help/quicksilver/wf-api/api/new-api-version-20.md)
       * [Nyheter i API-version 19](wf-api/api/new-api-version-19.md)
       * [Nyheter i API-version 18](wf-api/api/new-api-version-18.md)
       * [Nyheter i API-version 17](wf-api/api/new-api-version-17.md)

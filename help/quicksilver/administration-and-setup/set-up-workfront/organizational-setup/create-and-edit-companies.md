@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
+source-git-commit: 5e81e18ef667af3e4d08f4fc8987f7a3b6617971
 workflow-type: tm+mt
 source-wordcount: '1397'
 ht-degree: 0%
@@ -105,9 +105,9 @@ Så här lägger du till eller redigerar ett företag:
 
 1. Uppdatera följande information i avsnittet **Grundläggande information**:
 
-   * **Företagsnamn**<span class="preview"> eller **Namn**</span>: Ange ett namn för företaget.
+   * **Företagsnamn** <span class="preview"> eller **Namn**</span>: Ange ett namn för företaget.
    * **Är aktiv**: När det här alternativet är aktiverat kan användare hitta företaget och bifoga det till projekt som de skapar och redigerar. Ett inaktivt företag kan inte bifogas till projekt. Det här alternativet är aktiverat som standard.
-   * **Det här är det primära företaget**<span class="preview"> eller **Är primärt**</span>: Tilldelar företaget som din organisations primära företag. Det primära företaget representerar vanligtvis ditt Workfront-konto där de flesta av dina användare arbetar.
+   * **Det här är det primära företaget** <span class="preview"> eller **Är primärt**</span>: Tilldelar företaget som din organisations primära företag. Det primära företaget representerar vanligtvis ditt Workfront-konto där de flesta av dina användare arbetar.
 
      Du kan ha ett företag eller inget företag angivet som primärt företag, men du kan inte ha flera företag angivna som primärföretag. Mer information finns i [Skapa och ändra anpassade åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -141,11 +141,11 @@ Så här lägger du till eller redigerar ett företag:
 
    Mer information om hur du skapar anpassade formulär finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. (Villkorligt) Om du skapar ett företag klickar du på **[!UICONTROL Create Company]**<span class="preview">eller **&#x200B; Spara &#x200B;**.</span>
+1. (Villkorligt) Om du skapar ett företag klickar du på **[!UICONTROL Create Company]**<span class="preview">eller** Spara **.</span>
 
    eller
 
-   Om du redigerar ett befintligt företag klickar du på **[!UICONTROL Save Changes]**<span class="preview">eller **&#x200B; Spara &#x200B;**.</span>
+   Om du redigerar ett befintligt företag klickar du på **[!UICONTROL Save Changes]**<span class="preview">eller** Spara **.</span>
 
 ## Hantera företagsmedlemskap
 
