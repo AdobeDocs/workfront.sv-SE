@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: 3bb51eacc60d3c04885e2fcd23cacef805ff27ba
+source-git-commit: cccef57d9a83fa138282200d85c2851570a4b9b1
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 15%
+source-wordcount: '448'
+ht-degree: 14%
 
 ---
 
@@ -37,6 +37,12 @@ I följande tabell visas releasen och supportplanen för Workfront API.
   </tr> 
  </thead> 
  <tbody> 
+ <tr>
+   <td>21</td> 
+   <td> <p>23 oktober 2025</p> </td> 
+   <td> <p>**under 2028</p> <p>(med version 28.10)</p> </td> 
+   <td></td> 
+  </tr> 
  <tr>
    <td>20</td> 
    <td> <p>4 maj 2025</p> </td> 
