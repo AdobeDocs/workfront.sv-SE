@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '390'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 <!-- Audited: 12/2023 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningens sandlådemiljö och släpps i en fasad utrullning till produktion.</span>
 
 Som Adobe Workfront-administratör kan du återställa eller ta bort användarinställningarna för alla användare i Workfront-systemet.
 
@@ -57,61 +57,67 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 När du återställer användarinställningarna återställs vissa inställningar till systemets standardinställningar och andra tas bort:
 
+<!--
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Inställningar</strong> </th> 
-   <th><strong>Status efter återställningen</strong> </th> 
+   <th><strong>Preference</strong> </th> 
+   <th><strong>Status after the reset</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Vyer</td> 
-   <td> <p> Återställd till systemstandard</p> <p>Befintliga vyer tas inte bort. Du kan markera dem igen.</p> </td> 
+   <td>Views</td> 
+   <td> <p> Reverted to the system default</p> <p>Existing views are not deleted. You can select them again.</p> </td> 
   </tr> 
   <tr> 
-   <td>Filter</td> 
-   <td> <p>Återställd till systemstandard</p> <p>Befintliga filter tas inte bort. Du kan markera dem igen.</p> </td> 
+   <td>Filters</td> 
+   <td> <p>Reverted to the system default</p> <p>Existing filters are not deleted. You can select them again.</p> </td> 
   </tr> 
   <tr> 
-   <td>Grupperingar</td> 
-   <td> <p>Återställd till systemstandard</p> <p>Befintliga grupperingar tas inte bort. Du kan markera dem igen.</p> </td> 
+   <td>Groupings</td> 
+   <td> <p>Reverted to the system default</p> <p>Existing groupings are not deleted. You can select them again.</p> </td> 
   </tr> 
   <tr> 
-   <td>Lista med senaste objekt</td> 
-   <td>Rensad</td> 
+   <td>Recent Items list</td> 
+   <td>Cleared</td> 
   </tr> 
   <tr> 
-   <td>Favoritlista</td> 
-   <td>Opåverkad</td> 
+   <td>Favorites list</td> 
+   <td>Unaffected</td> 
   </tr> 
   <tr> 
-   <td>Användarinställningar</td> 
-   <td> <p>Återställd till systemstandard</p> <p>E-postmeddelanden återställs till systemets standardinställningar. Standardmeddelandena visas i <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">Händelsemeddelanden i Adobe Workfront</a>.</p> </td> 
+   <td>User Preferences</td> 
+   <td> <p>Reverted to the system default</p> <p>Email notifications revert to the system defaults. The default notifications are listed in <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">Event notifications available in Adobe Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>Användardefinierade anpassade flikar</td> 
-   <td>Borttagen</td> 
+   <td>User-Defined Custom Tabs</td> 
+   <td>Removed</td> 
   </tr> 
   <tr> 
-   <td>Användardefinierade alternativ för global navigering</td> 
-   <td>Återgå till layoutmallsdefinition eller till systemstandard om ingen layoutmall har tilldelats.</td> 
+   <td>User-Defined Global Navigation Options</td> 
+   <td>Set back to layout template definition, or system default if no layout template is assigned.</td> 
   </tr> 
  </tbody> 
 </table>
-
-<!-- Display this table and hide the HTML table above, when the unshim is released.
-| Preference | Status after the reset |
-| --- | --- |
-| Views | Reverted to the system default <p>Existing views are not deleted. You can select them again.</p> |
-| Filters | Reverted to the system default <p>Existing filters are not deleted. You can select them again.</p> |
-| Groupings | Reverted to the system default <p>Existing groupings are not deleted. You can select them again.</p> |
-| Recent items list | Cleared |
-| Favorites list | Unaffected |
-| User Preferences | Reverted to the system default <p>Email notifications revert to the system defaults. The default notifications are listed in [Event notifications available in Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).</p> |
 -->
+
+<!--Display this table and hide the HTML table above, when the unshim is released.-->
+
+<div class="preview">
+
+| Inställningar | Status efter återställning |
+| --- | --- |
+| Vyer | Återställd till systemstandard <p>Befintliga vyer tas inte bort. Du kan markera dem igen.</p> |
+| Filter | Återställd till systemstandard <p>Befintliga filter tas inte bort. Du kan markera dem igen.</p> |
+| Grupperingar | Återställd till systemstandard <p>Befintliga grupperingar tas inte bort. Du kan markera dem igen.</p> |
+| Lista med senaste objekt | Rensad |
+| Favoritlista | Opåverkad |
+| Användarinställningar | Återställd till systemstandard <p>E-postmeddelanden återställs till systemets standardinställningar. Standardmeddelandena visas i [Händelsemeddelanden i Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).</p> |
+
+</div>
 
 ## Återställ användarinställningar
 
@@ -141,9 +147,13 @@ När du återställer användarinställningarna återställs vissa inställninga
      >`https://experience.adobe.com/#/@company/so:(domain)-(environment)/workfront/resetUser`
 
 1. Tryck på **Retur**.
-1. Om du vill återställa alla användarinställningar väljer du **Återställ**.
 
-   <!--When this is unshimmed, adjust the comment tags to hide these last two lines, because the Reset Tabs button is going away.-->
-eller
+<div class="preview">
 
-   Om du bara vill återställa anpassade flikar väljer du **Återställ flikar**.
+1. Om du vill återställa alla användarinställningar klickar du på **Återställ**.
+
+   eller
+
+   Om du bara vill återställa anpassade flikar klickar du på **Återställ vänster navigering**.
+
+</div>

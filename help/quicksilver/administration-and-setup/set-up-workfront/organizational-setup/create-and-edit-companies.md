@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 2e86369ae4c8e9fe2678773c20c02f6dbf8d5247
+source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1397'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningens sandlådemiljö och släpps i en fasad utrullning till produktion.</span>
 
 Ett företag är en organisationsenhet i [!DNL Adobe Workfront] som kan representera din organisation, en avdelning inom organisationen eller en klient som du arbetar med. Du kan lägga till företag i [!DNL Workfront] och använda dem för ekonomisk planering, rapportering, för att definiera behörigheter runt objekt och för att hålla information konfidentiell.
 
@@ -105,9 +105,9 @@ Så här lägger du till eller redigerar ett företag:
 
 1. Uppdatera följande information i avsnittet **Grundläggande information**:
 
-   * **Företagsnamn**<!--<span class="preview"> or **Name**</span>-->: Ange ett namn för företaget.
+   * **Företagsnamn**<span class="preview"> eller **Namn**</span>: Ange ett namn för företaget.
    * **Är aktiv**: När det här alternativet är aktiverat kan användare hitta företaget och bifoga det till projekt som de skapar och redigerar. Ett inaktivt företag kan inte bifogas till projekt. Det här alternativet är aktiverat som standard.
-   * **Det här är det primära företaget**<!--<span class="preview">or **Is Primary**</span>-->: Tilldelar företaget som din organisations primära företag. Det primära företaget representerar vanligtvis ditt Workfront-konto där de flesta av dina användare arbetar.
+   * **Det här är det primära företaget**<span class="preview"> eller **Är primärt**</span>: Tilldelar företaget som din organisations primära företag. Det primära företaget representerar vanligtvis ditt Workfront-konto där de flesta av dina användare arbetar.
 
      Du kan ha ett företag eller inget företag angivet som primärt företag, men du kan inte ha flera företag angivna som primärföretag. Mer information finns i [Skapa och ändra anpassade åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -141,11 +141,11 @@ Så här lägger du till eller redigerar ett företag:
 
    Mer information om hur du skapar anpassade formulär finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. (Villkorligt) Om du skapar ett företag klickar du på **[!UICONTROL Create Company]**<!--<span class="preview">or **Save**</span>-->.
+1. (Villkorligt) Om du skapar ett företag klickar du på **[!UICONTROL Create Company]**<span class="preview">eller** Spara **.</span>
 
    eller
 
-   Om du redigerar ett befintligt företag klickar du på **[!UICONTROL Save Changes]**<!--<span class="preview">or **Save**</span>-->.
+   Om du redigerar ett befintligt företag klickar du på **[!UICONTROL Save Changes]**<span class="preview">eller** Spara **.</span>
 
 ## Hantera företagsmedlemskap
 
