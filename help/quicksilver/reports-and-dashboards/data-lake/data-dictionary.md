@@ -7,9 +7,9 @@ description: Den här sidan innehåller information om datastrukturen och inneh�
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 8df633f7f0946f81d6e81578a3d47719f6d8975e
+source-git-commit: e06db80d752d79157c758b3ecf3a8d4e7040e96d
 workflow-type: tm+mt
-source-wordcount: '8733'
+source-wordcount: '8788'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,8 @@ Objekt i Workfront (och därför i Data Connect-datavinen) definieras inte bara 
 
 >[!IMPORTANT]
 >
->Entitetsrelationsdiagrammet är ett pågående arbete. Den är därför avsedd endast som referens och kan komma att ändras.
+>Det angivna entitetsrelationsdiagrammet (ERD) är avsiktligt ofullständigt eftersom en fullständig ERD skulle bli oläslig på grund av det stora antalet relationer i programmet.<br>
+>>I det här diagrammet visas ett exempel på hur de relationer som dokumenteras i projekttabellen i avsnittet [Terminolog](#terminology-table) nedan kan användas för att koppla data från projektdatavyn till närliggande objekt. Du förväntas inte behöva ange en fullständig referensD när mönstret tolkas för objektrelationerna i projektet
 
 ## Datumtyper
 
@@ -66,7 +67,7 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
 >[!NOTE]
 >
 >Nya fält kan läggas till i objektvyerna utan föregående meddelande för att stödja datautvecklingen i Workfront-programmet. Vi varnar för att använda SELECT-frågor där den underordnade datamottagaren inte är beredd att hantera ytterligare kolumner när de läggs till.<br>
->&#x200B;>Om du behöver byta namn på eller ta bort en kolumn visas ett meddelande om dessa ändringar.
+>>Om du behöver byta namn på eller ta bort en kolumn visas ett meddelande om dessa ändringar.
 
 ### Åtkomstnivå
 
