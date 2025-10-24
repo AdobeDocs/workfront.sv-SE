@@ -49,7 +49,7 @@ Objekt i Workfront (och därför i Data Connect-datavinen) definieras inte bara 
 >[!IMPORTANT]
 >
 >Det angivna entitetsrelationsdiagrammet (ERD) är avsiktligt ofullständigt eftersom en fullständig ERD skulle bli oläslig på grund av det stora antalet relationer i programmet.<br>
->>I det här diagrammet visas ett exempel på hur de relationer som dokumenteras i projekttabellen i avsnittet [Terminolog](#terminology-table) nedan kan användas för att koppla data från projektdatavyn till närliggande objekt. Du förväntas inte behöva ange en fullständig referensD när mönstret tolkas för objektrelationerna i projektet
+>&#x200B;>I det här diagrammet visas ett exempel på hur de relationer som dokumenteras i projekttabellen i avsnittet [Terminolog](#terminology-table) nedan kan användas för att koppla data från projektdatavyn till närliggande objekt. Du förväntas inte behöva ange en fullständig referensD när mönstret tolkas för objektrelationerna i projektet
 
 ## Datumtyper
 
@@ -67,7 +67,7 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
 >[!NOTE]
 >
 >Nya fält kan läggas till i objektvyerna utan föregående meddelande för att stödja datautvecklingen i Workfront-programmet. Vi varnar för att använda SELECT-frågor där den underordnade datamottagaren inte är beredd att hantera ytterligare kolumner när de läggs till.<br>
->>Om du behöver byta namn på eller ta bort en kolumn visas ett meddelande om dessa ändringar.
+>&#x200B;>Om du behöver byta namn på eller ta bort en kolumn visas ett meddelande om dessa ändringar.
 
 ### Åtkomstnivå
 
