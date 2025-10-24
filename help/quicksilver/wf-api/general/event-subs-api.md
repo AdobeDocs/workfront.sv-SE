@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: f6f3df61286a360324963c872718be224a7ab413
+source-git-commit: 35fbf2f5792edb844264b15e298411819c0f5081
 workflow-type: tm+mt
 source-wordcount: '3054'
 ht-degree: 0%
@@ -816,7 +816,7 @@ Den här kopplingen gör att filtret tillämpas på det nya eller gamla läget f
 >[!NOTE]
 >
 >Prenumerationen nedan med det angivna filtret returnerar bara meddelanden där aktivitetens namn innehåller `again` på `oldState`, vilket var innan en uppdatering gjordes för aktiviteten.
->&#x200B;>Ett användbart exempel för detta skulle vara att hitta objCode-meddelandena som ändrades från en sak till en annan. Om du till exempel vill ta reda på alla uppgifter som har ändrats från &quot;Research Some name&quot; till &quot;Research TeamName Some name&quot;
+>>Ett användbart exempel för detta skulle vara att hitta objCode-meddelandena som ändrades från en sak till en annan. Om du till exempel vill ta reda på alla uppgifter som har ändrats från &quot;Research Some name&quot; till &quot;Research TeamName Some name&quot;
 
 ```
 {
@@ -961,6 +961,7 @@ Alla filter i en grupp stöder följande:
 Exemplet ovan innehåller följande komponenter:
 
 1. Filtret på den översta nivån (utanför gruppen):
+
    * { &quot;fieldName&quot;: &quot;percentComplete&quot;, &quot;fieldValue&quot;: &quot;100&quot;, &quot;comparison&quot;: &quot;lt&quot; }
    * Det här filtret kontrollerar om fältet percentComplete för den uppdaterade aktiviteten är mindre än 100.
 
