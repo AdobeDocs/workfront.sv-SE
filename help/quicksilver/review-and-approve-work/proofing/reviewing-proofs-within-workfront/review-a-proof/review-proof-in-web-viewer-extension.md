@@ -6,9 +6,9 @@ description: Adobe Workfront granskningsverktyg är ett webbläsartillägg som g
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
-source-git-commit: 7bff0a8c43355472453403fcd404388a3d95d471
+source-git-commit: 78d9e8e47f8f6777f9211d8f85a3dfbc9405d798
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,9 @@ Granskare och godkännare måste installera Adobe Workfront granskningsverktyg. 
 * [Chrome-tillägg](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
 
 * [Edge](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen)
+
+* [Safari-tillägg](https://apps.apple.com/us/app/adobe-workfront-review-tool/id6741517062?mt=12)
+
 
 
 För att interaktiva korrektur ska kunna öppnas automatiskt i Adobe Workfront granskningsverktyg måste en Workfront-administratör uppdatera korrekturinställningarna på arbetsytan enligt beskrivningen i avsnitten nedan.
