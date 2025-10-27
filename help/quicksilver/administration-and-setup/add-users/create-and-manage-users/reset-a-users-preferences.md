@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
+source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '397'
 ht-degree: 1%
 
 ---
@@ -148,12 +148,8 @@ När du återställer användarinställningarna återställs vissa inställninga
 
 1. Tryck på **Retur**.
 
-<div class="preview">
+1. <span class="preview">Om du vill återställa alla användarinställningar klickar du på **Återställ**.</span>
 
-1. Om du vill återställa alla användarinställningar klickar du på **Återställ**.
+   <span class="preview">eller</span>
 
-   eller
-
-   Om du bara vill återställa anpassade flikar klickar du på **Återställ vänster navigering**.
-
-</div>
+   <span class="preview">Om du vill återställa användarens vänstra navigering till den ursprungliga layoutmallskonfigurationen klickar du på **Återställ vänster navigering**.</span>
