@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 987eea4d0ad7f8e30b944418836280728ee63812
+source-git-commit: 8f5cd4125281bb00331c4dc895cc57b138190cfe
 workflow-type: tm+mt
-source-wordcount: '3054'
+source-wordcount: '3031'
 ht-degree: 0%
 
 ---
@@ -816,7 +816,7 @@ Den här kopplingen gör att filtret tillämpas på det nya eller gamla läget f
 >[!NOTE]
 >
 >Prenumerationen nedan med det angivna filtret returnerar bara meddelanden där aktivitetens namn innehåller `again` på `oldState`, vilket var innan en uppdatering gjordes för aktiviteten.
->&#x200B;>Ett användbart exempel för detta skulle vara att hitta objCode-meddelandena som ändrades från en sak till en annan. Om du till exempel vill ta reda på alla uppgifter som har ändrats från &quot;Research Some name&quot; till &quot;Research TeamName Some name&quot;
+>>Ett användbart exempel för detta skulle vara att hitta objCode-meddelandena som ändrades från en sak till en annan. Om du till exempel vill ta reda på alla uppgifter som har ändrats från &quot;Research Some name&quot; till &quot;Research TeamName Some name&quot;
 
 ```
 {
@@ -962,12 +962,14 @@ Exemplet ovan innehåller följande komponenter:
 
 1. Filtret på den översta nivån (utanför gruppen):
 
-   * { &quot;fieldName&quot;: &quot;percentComplete&quot;, &quot;fieldValue&quot;: &quot;100&quot;, &quot;comparison&quot;: &quot;lt&quot; }
+   * `{ "fieldName": "percentComplete", "fieldValue": "100", "comparison": "lt" }`
    * Det här filtret kontrollerar om fältet percentComplete för den uppdaterade aktiviteten är mindre än 100.
 
 1. Filtergrupp (kapslade filter med OR):
-   * { &quot;type&quot;: &quot;group&quot;, &quot;connector&quot;: &quot;OR&quot;, &quot;filters&quot;: [{ &quot;fieldName&quot;: &quot;status&quot;, &quot;fieldValue&quot;: &quot;CUR&quot;, &quot;comparison&quot;: &quot;eq&quot; }, { &quot;fieldName&quot;: &quot;priority&quot;, &quot;fieldValue&quot;: &quot;1&quot;, &quot;comparison&quot;: &quot;eq&quot; }] }
+
+   * `{ "type": "group", "connector": "OR", "filters": [ { "fieldName": "status", "fieldValue": "CUR", "comparison": "eq" }, { "fieldName": "priority", "fieldValue": "1", "comparison": "eq" } ] }`
    * Den här gruppen utvärderar två interna filter:
+
       * Den första kontrollerar om aktivitetsstatusen är &quot;CUR&quot; (aktuell).
       * Den andra kontrollen kontrollerar om prioriteten är lika med &quot;1&quot; (hög prioritet).
    * Eftersom kopplingen är &quot;OR&quot; skickas den här gruppen om något av villkoren är sant.
@@ -981,7 +983,8 @@ Exemplet ovan innehåller följande komponenter:
 
 >[!NOTE]
 >
->Det finns begränsningar för att säkerställa konsekventa systemprestanda när du använder filtergrupper, som omfattar följande:<br>
+>Det finns begränsningar för att säkerställa konsekventa systemprestanda när du använder filtergrupper, som omfattar följande:
+>
 >* Varje prenumeration stöder upp till 10 filtergrupper (där varje grupp innehåller flera filter).
 >* Varje filtergrupp kan innehålla upp till 5 filter för att förhindra eventuell prestandaförsämring under händelsebearbetning.
 >* Det finns stöd för upp till 10 filtergrupper (var och en med 5 filter), men ett stort antal aktiva prenumerationer med komplex filterlogik kan resultera i en fördröjning under händelseutvärderingen.
