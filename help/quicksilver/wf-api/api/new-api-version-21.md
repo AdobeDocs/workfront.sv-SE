@@ -6,9 +6,9 @@ description: Adobe Workfront släppte API-version 21 den 23 oktober 2025. API ve
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 50edbfa342ed7f51d1fe2b9654b55b579bb3f5af
+source-git-commit: f47e0bce61322c971f3a815ec01e7c243b090910
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Adobe Workfront släppte API-version 21 den 23 oktober 2025. API version 21 inne
 
 ## Tillagda resurser
 
-### StaffingPlanTemplate (SPTMPL)
+### OriginalRequest (ORGREQ)
 
 <table>
   <col/>
@@ -29,8 +29,10 @@ Adobe Workfront släppte API-version 21 den 23 oktober 2025. API version 21 inne
       <td role="rowheader">Direktfält</td>
       <td>
         <ul>
+          <li>entryDate</li>
           <li>ID</li>
-          <li>name</li>
+          <li>requestID</li>
+          <li>requestName</li>
         </ul>
       </td>
     </tr>
@@ -39,27 +41,57 @@ Adobe Workfront släppte API-version 21 den 23 oktober 2025. API version 21 inne
       <td>
         <ul>
           <li>ID</li>
+          <li>objCode</li>
+        </ul>
+      </td>
+ </tbody>
+</table>
+
+<!--
+
+### StaffingPlanTemplate (SPTMPL)
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>ID</li>
+          <li>name</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Core fields</td>
+      <td>
+        <ul>
+          <li>ID</li>
           <li>name</li>
           <li>objCode</li>
         </ul>
       </td>
    <tr>
-      <td role="rowheader">Användning</td>
+      <td role="rowheader">Operations</td>
       <td>
         <ul>
-          <li>LÄGG TILL</li>
+          <li>ADD</li>
           <li>COUNT</li>
           <li>DELETE</li>
-          <li>REDIGERA</li>
+          <li>EDIT</li>
           <li>GET</li>
-          <li>RAPPORT</li>
-          <li>SÖK</li>
+          <li>REPORT</li>
+          <li>SEARCH</li>
         </ul>
       </td>
     </tr>
     </tr>
  </tbody>
 </table>
+
+-->
 
 ## Borttagna resurser
 
@@ -710,30 +742,32 @@ Ett ScoreCardQuestion-objekt representerar en fråga som har lagts till i ett st
  </tbody>
 </table>
 
-### Personalplan
+<!--
+
+### StaffingPlan
 
 <table>
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Direktfält</td>
+      <td role="rowheader">Direct fields</td>
       <td>
         <ul>
           <li>
             <p><b>totalEstimatedCost</b>
             </p>
-            <p>Tillagd</p>
+            <p>Added</p>
               </li>
          <li>
             <p><b>totalEstimatedHours</b>
             </p>
-            <p>Tillagd</p>
+            <p>Added</p>
               </li>
          <li>
             <p><b>totalEstimatedRevenue</b>
             </p>
-            <p>Tillagd</p>
+            <p>Added</p>
               </li>
             </ul>
          </li>
@@ -742,30 +776,34 @@ Ett ScoreCardQuestion-objekt representerar en fråga som har lagts till i ett st
   </tbody>
 </table>
 
-### Resurs förAnställningsplan
+-->
+
+<!--
+
+### StaffingPlanResource
 
 <table>
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Direktfält</td>
+      <td role="rowheader">Direct fields</td>
       <td>
         <ul>
           <li>
             <p><b>totalEstimatedCost</b>
             </p>
-            <p>Tillagd</p>
+            <p>Added</p>
               </li>
          <li>
             <p><b>totalEstimatedHours</b>
             </p>
-            <p>Tillagd</p>
+            <p>Added</p>
               </li>
          <li>
             <p><b>totalEstimatedRevenue</b>
             </p>
-            <p>Tillagd</p>
+            <p>Added</p>
               </li>
             </ul>
          </li>
@@ -773,6 +811,8 @@ Ett ScoreCardQuestion-objekt representerar en fråga som har lagts till i ett st
     </tr>
   </tbody>
 </table>
+
+-->
 
 ### Aktivitet (AKTIVITET)
 
