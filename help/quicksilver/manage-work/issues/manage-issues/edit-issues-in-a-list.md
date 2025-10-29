@@ -6,9 +6,9 @@ description: Du kan redigera ett enskilt problem eller redigera problem i en pro
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -124,7 +124,7 @@ Så här infogar du redigering av en utgåva:
 1. Gå till en lista med problem i ett projekt eller en uppgift.
 1. Gör något av följande
 
-   * Markera problemet i listan och klicka sedan på ikonen **Redigera** ![Redigera &#x200B;](assets/qs-edit-icon.png) i verktygsfältet.
+   * Markera problemet i listan och klicka sedan på ikonen **Redigera** ![Redigera ](assets/qs-edit-icon.png) i verktygsfältet.
    * Klicka på namnet på problemet och klicka sedan på **Redigera**.
 
      Alla dessa åtgärder öppnar rutan **Redigera problem**.
@@ -177,8 +177,22 @@ Så här redigerar du flera problem samtidigt:
 
    * Översikt
    * Inställningar
+   * Anpassad Forms
    * Uppdrag
    * Kommentar
+
+   <!--at release for unshim, replace the list above with this:
+
+   <div class="preview">
+
+   * Overview
+   * Assignments
+   * Custom Forms 
+   * Settings
+   * Comment
+
+   </div>
+   -->
 
    Mer information om hur du redigerar ett problem finns i [Redigera problem](../../../manage-work/issues/manage-issues/edit-issues.md).
 

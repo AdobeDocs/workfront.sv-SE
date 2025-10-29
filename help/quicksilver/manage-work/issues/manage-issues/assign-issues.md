@@ -7,16 +7,16 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1465'
 ht-degree: 0%
 
 ---
 
 # Tilldela ärenden
 
-<!--Audited: 07/2024-->
+<!--Audited: 10/2024-->
 
 <!--
 <div class="preview"> 
@@ -116,7 +116,7 @@ Tänk på följande när du tilldelar flera resurser till en arbetsuppgift:
 </div>
 -->
 
-## Tilldela en utgåva
+## Tilldela en utgåva i utgåvans huvud
 
 1. Gå till ett ärende som du vill tilldela.
 1. Klicka på **Tilldela till** i det övre högra hörnet av ärendehuvudet i området **Uppdrag**
@@ -155,7 +155,7 @@ Tänk på följande när du tilldelar flera resurser till en arbetsuppgift:
 1. Klicka på **Spara** för att slutföra tilldelningen av problemet.
 1. (Valfritt) Klicka på ikonen **X** bredvid namnet på tilldelningarna i området Uppdrag i huvudet på utgåvan för att ta bort en tilldelning.
 
-## Tilldela en utgåva i en lista
+## Tilldela ett problem genom att redigera det i en lista
 
 Du kan tilldela utgåvor i en lista eller en rapport när något av uppdragsfälten visas i listvyn. Det här är ett snabbare sätt att tilldela ärenden.
 
@@ -195,6 +195,12 @@ Så här tilldelar du utgåvor i en lista:
    >Du kan inte göra avancerade uppdrag från fälten Tilldelad till eller Tilldelad.
 
 1. När du har lagt till dina tilldelningar till problemet trycker du på Enter eller klickar någonstans på sidan för att spara ändringarna.
+
+## Tilldela ett problem i rutan Redigera problem
+
+Du kan tilldela ett problem när du redigerar det i rutan Redigera problem.
+
+Mer information finns i avsnittet Uppdrag i artikeln [Redigera problem](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
 
 ## Tilldela flera utgåvor samtidigt
 

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
-source-wordcount: '3370'
+source-wordcount: '3401'
 ht-degree: 0%
 
 ---
@@ -192,6 +192,8 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
 
    Kolumnerna som du lägger till är synliga för alla användare som kommer åt posttypen och läggs till som nya fält på postens sida.
 
+1. (Valfritt) Klicka på ikonen **Fält** ![Fält ](assets/fields-icon.png) i verktygsfältet, leta upp fältet i listan <!--or <span class="preview"> search for a field</span>,--> och avmarkera alternativet till höger om fältnamnet för att dölja fältet.
+
 1. Gör något av följande om du vill ändra ordning på kolumnerna i tabellen:
 
    * Ta kolumnrubriken och dra den till önskad plats. Kolumnen som du flyttade snabbt visas med en blå bakgrund tills du gör andra justeringar i tabellen.
@@ -311,6 +313,8 @@ Så här lägger du till ett filter i en tabellvy:
 1. Klicka på **Lägg till villkor** och lägg till följande information:
 
    * **Markera ett fält** som du vill filtrera efter <!-- the tip below might change-->
+
+     <!--replace the bullet above with this at preview release: <span class="preview">Search for a field or </span> click the drop-down menu to display a list of fields and select it from the list-->
 
    * **Välj ett alternativ** (eller en filtermodifierare) för att definiera vilken typ av villkor fältet måste uppfylla
 
@@ -432,7 +436,7 @@ Tänk på följande när du sorterar poster i tabellvyn:
 Så här sorterar du <!--ungrouped (add this when sorting for groupings will be available--> poster:
 
 1. Skapa en tabellvy enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
-1. Klicka på ikonen **Sortera** ![Sortera &#x200B;](assets/sort-icon.png) i tabellens övre högra hörn
+1. Klicka på ikonen **Sortera** ![Sortera ](assets/sort-icon.png) i tabellens övre högra hörn
 
    eller
 
@@ -542,6 +546,8 @@ To sort grouped records:
 1. (Valfritt) Klicka på **Radfärger** om du vill definiera villkor och välja att konfigurera olika färger för tabellrader.
 
 1. Klicka på **Lägg till färg** och sedan **Markera ett fält** vars värde du vill bestämma färgen för en rad.
+
+   <!--replace the text for this step above with this at preview release: Click **Add color**, then <span class="preview">search for a field or </span> click the drop-down menu to display a list of fields and select it from the list. This is the field whose value you want to determine the color of a row.-->
 
    Om du till exempel vill visa kampanjer med statusen Aktiv i grönt väljer du **Status** och sedan en modifierare och ett värde för fältet.
 

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1181'
 ht-degree: 0%
 
 ---
@@ -171,8 +171,13 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 * Vissa vyelement kan användas på flera vyer för samma post, men de är unika för varje postvy:
 
    * Filter
+   * Sortera (för tabellvyn)
+   * Radfärger (för tabellvyn)
+   * Fält (för tabellvyn)
+   * Uppdelning (för tidslinjevyn)
    * Gruppering (för tabellen och tidslinjevyerna)
    * Stolputseende (för tidslinjen och kalendervyer)
+   * Radhöjd (för tabellen och den månatliga kalendervyn)
 
   När du till exempel skapar ett filter i en tabellvy visas filterresultaten bara i den markerade vyn (tabellvyn) och inte i alla vyer som är kopplade till posttypen.
 
@@ -212,6 +217,7 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
 | Exportera information från en vy | ✓ |               |    |
 | Visa i helskärmsläge | ✓ | ✓ | ✓ |
 | Skapa poster i vyn | ✓ | ✓ | ✓ |
+| Dela upp poster efter deras anslutningar |          | ✓ |    |
 
 ## Skapa eller redigera vyer {#create-or-edit-views}
 
@@ -280,7 +286,7 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
 1. (Valfritt) Klicka på **Mer**-menyn ![Fler vyer med nedåtriktade ikoner](assets/more-caret-down-icon-views.png) bredvid den senaste vyn om du vill visa alla vyer för den valda posttypen.
 
    Ytterligare vyer visas på menyn **Mer** efter fliken för den senaste vyn. Siffran bredvid menyn **Mer** visar antalet ytterligare vyer.
-1. (Valfritt) Om du vill byta namn på en vy efter att den har skapats klickar du på listrutan Visa och sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) > **Byt namn** för att uppdatera visningsnamnet
+1. (Valfritt) Om du vill byta namn på en vy efter att den har skapats klickar du på listrutan Visa och sedan på menyn **Mer** ![Mer ](assets/more-menu.png) > **Byt namn** för att uppdatera visningsnamnet
 
    eller
 
