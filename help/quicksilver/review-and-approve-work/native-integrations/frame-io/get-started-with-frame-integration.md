@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: 79851c46848b7897056e9953dc5a5bc004170a02
+source-git-commit: 8233bcad8409b6f293d365fe871338e643a410dc
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
@@ -122,3 +122,9 @@ Projektsamordnarna kan övervaka förloppet för alla pågående godkännanden i
 * **Anpassad kontrollpanel**: Skapa en rapportkontrollpanel i kontrollpanelerna på arbetsytan för att visa både högnivåinformation och detaljerad information om granskningar och godkännanden med funktionen för enhetliga godkännanden. Information om hur du kommer igång finns i [Skapa en rapportinstrumentpanel för granskning och godkännande](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
 * **Hem-widgeten för dokumentgodkännandemått**: Visar 2 diagram med information om genomsnittlig godkännandetid och beslut samt listvyer över väntande och försenade godkännanden.
   ![Alla godkännanden](assets/all-approvals.png)
+
+## Skicka färdigt material till Adobe Experience Manager
+
+Du kan använda &#x200B; [!DNL Experience Manager Assets] för att hantera och lagra dina digitala resurser som har gått igenom gransknings- och godkännandecykeln. Tack vare integreringen kan ni utnyttja funktionerna i Adobe Experience Manager, Frame.io och Workfront för att effektivisera innehållshanteringen och samarbetet.
+
+Mer information finns i [Använda Adobe Experience Manager med Frame.io-integrering](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
