@@ -6,10 +6,10 @@ description: Underhållsfönster är tidsblock som Workfront reserverat för att
 author: Luke
 feature: Product Announcements
 exl-id: d0b811d3-94e7-4062-83ce-080fefb56055
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 31b62fd665040c1ca91c5ab1afbee0b72b0af268
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 0%
+source-wordcount: '199'
+ht-degree: 1%
 
 ---
 
@@ -19,22 +19,11 @@ ht-degree: 0%
 
 Underhållsfönster är tidsblock som Workfront reserverat för att göra uppdateringar av infrastruktur och andra plattformsrelaterade problem. Ibland ingår sandlådemiljöer i underhållet.
 
-Även om tiden tilldelas varje månad för underhållsfönstren har Workfront åtagit sig att så långt som möjligt undvika avbrott. I allmänhet använder Workfront underhållsfönster mindre än en gång i månaden, med en genomsnittlig driftstopp på mellan 30 och 60 minuter.
-
-Om underhåll krävs schemaläggs det och tillkännages på Workfront statuswebbplats på [status.adobe.com](https://status.adobe.com/).
+Workfront strävar efter att så långt som möjligt undvika störningar. Om underhåll krävs schemaläggs det och tillkännages på Workfront statuswebbplats på [status.adobe.com](https://status.adobe.com/).
 
 ## När är Workfront underhållsperiod?
 
-Underhållsperioden för Workfront är beroende av det kluster där din Workfront-instans körs. Klustertilldelningar baseras på geografiska regioner.
-
->[!TIP]
->
->Om din organisation har tilldelats ett kluster som ligger utanför din geografiska region kan du begära att få migreras till ett annat kluster. Migrering till ett annat kluster kräver ett kort avbrott i tjänsten under migreringen. <!--For more information, see [Migrating to another cluster](../../administration-and-setup/administrator-faqs/migrate-to-another-cluster.md).-->
-
-Schemat för underhållsfönstret är följande:
-
-* **Kluster 1, 2, 3, 5 och 6:** Mättsdagar från 08:00 till 12:00 MT
-* **Kluster 4:** lördagar från kl. 8:00 till kl. 12:00 GMT/BST
+Underhållstiderna är vanligtvis schemalagda i förväg under helger mellan kl. 8.00 Mountain Time på fredag och kl. 12.00 Mountain Time på söndagar.
 
 ## Kan jag få ett meddelande före ett planerat underhåll?
 
