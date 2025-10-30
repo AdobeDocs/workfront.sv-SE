@@ -5,16 +5,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
+source-git-commit: 5c80dca8a9f7dd5a693db9bf22738602da8b521b
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
 
 # Skapa och anpassa prioriteringar
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningens sandlådemiljö och släpps i en fasad utrullning till produktion.</span>
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -99,7 +97,7 @@ Förutom standardprioriteringarna i Workfront kan du lägga till egna prioriteri
 1. Klicka på **Projektinställningar** > **Prioriteter** i den vänstra panelen.
 
 1. Klicka på fliken för den objekttyp som du vill skapa en prioritet för (**Projekt**, **Aktivitet** eller **Problem**).
-1. Klicka på <span class="preview">**Ny rad** längst ned i tabellen</span> eller **Lägg till ny prioritet**.
+1. Klicka på **Ny rad** längst ned i tabellen.
 1. Konfigurera följande alternativ för prioriteten:
 
    * **Prioritetsnamn**: Ange ett namn för prioriteten.
@@ -119,8 +117,6 @@ Förutom standardprioriteringarna i Workfront kan du lägga till egna prioriteri
 
      Du kan inte göra en dold prioritet till standard.
 
-     <div class="preview">
-
      Standardprioriteten anges med ikonen ![Standardprioritet](assets/default-icon.png). Gör något av följande om du vill välja en ny standard:
 
       * Markera kryssrutan bredvid prioritetsnamnet och välj **Gör standard** i åtgärdsfältet längst ned på skärmen.
@@ -128,10 +124,8 @@ Förutom standardprioriteringarna i Workfront kan du lägga till egna prioriteri
 
         Den nya standardprioriteten anges med ikonen .
 
-     </div>
-
    * **Beskrivning**: Ange en beskrivning av prioriteten för att förklara dess funktion.
-   * <span class="preview">**Dölj alternativ**</span> eller **Dölj**: <span class="preview">Välj **Ja**</span> eller markera kryssrutan om du vill dölja en prioritet som inte längre behövs.
+   * **Dölj alternativ**: Välj **Ja** om du vill dölja en prioritet som inte längre behövs.
 
      En dold prioritet visas inte någonstans i Workfront, så användarna kan inte välja den för sina projekt, uppgifter eller ärenden.
 

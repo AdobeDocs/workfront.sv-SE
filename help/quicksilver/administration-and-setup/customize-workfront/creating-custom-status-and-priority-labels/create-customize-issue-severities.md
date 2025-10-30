@@ -8,16 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
+source-git-commit: 5c80dca8a9f7dd5a693db9bf22738602da8b521b
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
 
 # Skapa eller anpassa utgåvans allvarlighetsgrad
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningens sandlådemiljö och släpps i en fasad övergång till produktion.
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -97,7 +95,7 @@ Som Workfront-administratör kan du skapa och redigera utgåvor som passar dina 
 
 1. Klicka på **Projektinställningar** > **Allvarlighetsgrader** i den vänstra panelen.
 
-1. Om du skapar en ny allvarlighetsgrad klickar du på <span class="preview">**Ny rad** längst ned i tabellen</span> eller **Lägg till en ny allvarlighetsgrad**.
+1. Om du skapar en ny allvarlighetsgrad klickar du på **Ny rad** längst ned i tabellen.
 1. Konfigurera följande alternativ för den nya allvarlighetsgraden eller redigera dem för en befintlig:
 
    * **Allvarlighetsgrad**: Ange ett namn för allvarlighetsgraden.
@@ -117,8 +115,6 @@ Som Workfront-administratör kan du skapa och redigera utgåvor som passar dina 
 
      Du kan inte göra en dold allvarlighetsgrad till standard.
 
-     <div class="preview">
-
      Standardallvarlighetsgraden anges med ikonen ![Standardallvarlighetsgrad](assets/default-icon.png). Gör något av följande om du vill välja en ny standard:
 
       * Markera kryssrutan bredvid allvarlighetsgraden och välj **Gör standard** i åtgärdsfältet längst ned på skärmen.
@@ -126,10 +122,8 @@ Som Workfront-administratör kan du skapa och redigera utgåvor som passar dina 
 
         Den nya standardallvarlighetsgraden anges med ikonen .
 
-     </div>
-
    * **Beskrivning**: Ange en beskrivning av allvarlighetsgraden för att förklara dess funktion.
-   * <span class="preview">**Dölj alternativ**</span> eller **Dölj**: <span class="preview">Välj **Ja**</span> eller markera kryssrutan för att dölja en allvarlighetsgrad som inte längre behövs.
+   * **Dölj alternativ**: Välj **Ja** om du vill dölja en allvarlighetsgrad som inte längre behövs.
 
      En dold allvarlighetsgrad visas inte någonstans i Workfront, så användarna kan inte välja den för sina utgåvor.
 
