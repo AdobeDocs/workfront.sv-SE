@@ -7,14 +7,16 @@ description: Du kan redigera information i ett anpassat formulär när formulär
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: 53269f4932a752a833df8e41891706934214e062
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
 
 # Redigera information i anpassade formulärfält
+
+{{preview-fast-release-general}}
 
 <!--Audited: 10/2025-->
 
@@ -124,6 +126,10 @@ Att redigera information i ett anpassat formulär som är kopplat till ett objek
    * Du kan välja ett eller flera alternativ i ett flervalsfält, beroende på hur formulärskaparen konfigurerade fältet.
    * Du kan bara formatera textfält (fet, kursiv eller understruken) om användaren som skapade formuläret har ställt in dem som ett textfält med fälttypen Formatering. Det går inte att formatera textfält med en rad och textfält för stycken.
    * Du kan bara uppdatera tiden på dagen i en datumfälttyp om användaren som skapade formuläret har inkluderat den när fältet skapades.
+
+   >[!NOTE]
+   >
+   ><span class="preview">Fält som tillåter flera markeringar kan begränsa hur många alternativ du kan välja. Kryssrutor och flervalslistrutor är begränsade till 5 000 markeringar.</span>
 
    Mer information om alla fälttyper finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
