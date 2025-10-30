@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
 
 # Anpassa användargränssnittsterminologi med hjälp av en layoutmall
+
+{{preview-fast-release-general}}
 
 Som Adobe Workfront-administratör kan du använda en layoutmall för att ändra etiketterna för vissa objekt som visas i hela Workfront så att de matchar de termer som används i organisationen.
 
@@ -137,7 +139,13 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
    >
    >När du har klickat på Klar (och även efter att du har sparat layoutmallen) kan du alltid gå tillbaka till inställningarna för Ange terminologi och klicka på Återställ bredvid eventuella anpassade termer för att återställa dem till standardläget.
 
-1. Fortsätt att anpassa layoutmallen.
+1. <span class="preview">I förhandsvisningsmiljön: Fortsätt anpassa layoutmallen. Du kan klicka på **Använd** när som helst för att spara förloppet.</span>
+
+   <span class="preview">eller</span>
+
+   <span class="preview">Om du är klar med anpassningen klickar du på **Spara och stäng**.</span>
+
+1. I produktionsmiljön: Fortsätt att anpassa layoutmallen.
 
    eller
 

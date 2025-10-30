@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 # Varumärk Adobe Workfront med en layoutmall
 
 <!--Audited: 09/2024-->
+
+{{preview-fast-release-general}}
 
 >[!IMPORTANT]
 >
@@ -86,7 +88,13 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
     </tbody> 
    </table>
 
-1. Fortsätt att anpassa layoutmallen.
+1. <span class="preview">I förhandsvisningsmiljön: Fortsätt anpassa layoutmallen. Du kan klicka på **Använd** när som helst för att spara förloppet.</span>
+
+   <span class="preview">eller</span>
+
+   <span class="preview">Om du är klar med anpassningen klickar du på **Spara och stäng**.</span>
+
+1. I produktionsmiljön: Fortsätt att anpassa layoutmallen.
 
    eller
 
@@ -94,8 +102,6 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
    >[!TIP]
    >
-   >Du kan klicka på Spara när som helst för att spara förloppet och sedan fortsätta att ändra mallen senare.
-
-1. Klicka på **Spara**.
+   >Du kan klicka på **Spara** när som helst för att spara förloppet och sedan fortsätta att ändra mallen senare.
 
 Mer information om layoutmallar finns i [Skapa och hantera layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).

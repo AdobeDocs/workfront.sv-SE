@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
 
 # Anpassa fästa sidor med en layoutmall
+
+{{preview-fast-release-general}}
 
 I en layoutmall kan du fästa de sidor som du vill att användarna alltid ska ha tillgängliga överst i Adobe Workfront. Dessa kan antingen nås via huvudmenyikonen ![Huvudmeny](assets/main-menu-icon.png) eller huvudmenyikonen ![Huvudmeny](assets/main-menu-icon-left-nav.png) om den är tillgänglig, eller via kontrollpaneler.
 
@@ -111,7 +113,13 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 1. (Valfritt) Om du vill ta bort ett häftstift håller du pekaren över stiftet och klickar på ikonen Mer ![Mer](assets/more-icon.png) bredvid nålnamnet. Klicka sedan på **Ta bort häftstift**.
 
-1. Fortsätt att anpassa layoutmallen.
+1. <span class="preview">I förhandsvisningsmiljön: Fortsätt anpassa layoutmallen. Du kan klicka på **Använd** när som helst för att spara förloppet.</span>
+
+   <span class="preview">eller</span>
+
+   <span class="preview">Om du är klar med anpassningen klickar du på **Spara och stäng**.</span>
+
+1. I produktionsmiljön: Fortsätt att anpassa layoutmallen.
 
    eller
 

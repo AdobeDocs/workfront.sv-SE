@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 39b3ecde744625c070a5c4378938e297f50feeaa
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
 
 # Anpassa huvudmenyn med hjälp av en layoutmall
+
+{{preview-fast-release-general}}
 
 <!--Audited: 01/2024-->
 
@@ -125,13 +127,19 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
    * Dölj ![Dölj ikon](assets/remove-icon---x-in-circle.png) **Aktiva objekt** som du inte vill visa
    * Visa ![Visa ikon](assets/add-icon-plus-in-circle.png) **Tillgängliga objekt** som du vill visa på huvudmenyn.
-   * Dra ikonen ![Dra &#x200B;](assets/move-icon---dots.png) **aktiva objekt** om du vill ändra deras visningsordning på huvudmenyn.
+   * Dra ikonen ![Dra ](assets/move-icon---dots.png) **aktiva objekt** om du vill ändra deras visningsordning på huvudmenyn.
 
 1. Klicka på **Klar**.
 
    Du kan när som helst klicka på **Avbryt** om du vill ångra ändringarna.
 
-1. Fortsätt att anpassa layoutmallen.
+1. <span class="preview">I förhandsvisningsmiljön: Fortsätt anpassa layoutmallen. Du kan klicka på **Använd** när som helst för att spara förloppet.</span>
+
+   <span class="preview">eller</span>
+
+   <span class="preview">Om du är klar med anpassningen klickar du på **Spara och stäng**.</span>
+
+1. I produktionsmiljön: Fortsätt att anpassa layoutmallen.
 
    eller
 

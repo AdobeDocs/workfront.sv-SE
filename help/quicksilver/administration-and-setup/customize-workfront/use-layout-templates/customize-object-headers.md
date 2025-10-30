@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
 
 # Anpassa objektrubriker med hjälp av en layoutmall
+
+{{preview-fast-release-general}}
 
 Som Adobe Workfront-administratör eller gruppadministratör kan du använda en layoutmall för att konfigurera de fält som användarna ser i objekthuvudet när de öppnar ett objekts sida.
 
@@ -95,9 +97,15 @@ Om du redan har markerat fem fält måste du ta bort ett fält innan du kan läg
    ![Lägg till fält i rubrik](assets/add-field-to-header-in-lt-list.png)
 
 
-1. (Valfritt) Dra och släpp fält som lagts till i en annan ordning.
+1. (Valfritt) Dra och släpp fälten i en annan ordning.
 
-1. Fortsätt att anpassa layoutmallen.
+1. <span class="preview">I förhandsvisningsmiljön: Fortsätt anpassa layoutmallen. Du kan klicka på **Använd** när som helst för att spara förloppet.</span>
+
+   <span class="preview">eller</span>
+
+   <span class="preview">Om du är klar med anpassningen klickar du på **Spara och stäng**.</span>
+
+1. I produktionsmiljön: Fortsätt att anpassa layoutmallen.
 
    eller
 
@@ -105,4 +113,4 @@ Om du redan har markerat fem fält måste du ta bort ett fält innan du kan läg
 
    >[!TIP]
    >
-   >Du kan klicka på Spara när som helst för att spara förloppet och sedan fortsätta att ändra mallen senare.
+   >Du kan klicka på **Spara** när som helst för att spara förloppet och sedan fortsätta att ändra mallen senare.

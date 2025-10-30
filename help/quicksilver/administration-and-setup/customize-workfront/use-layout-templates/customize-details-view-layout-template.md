@@ -8,16 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
 
 # Anpassa detaljvyn med hjälp av en layoutmall
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
+{{preview-fast-release-general}}
 
 Som Adobe Workfront-administratör kan du använda en layoutmall för att avgöra vilken information som visas när en användare klickar på ikonen ![Detaljer](assets/project-details-icon.png) i den vänstra panelen när han eller hon visar en uppgift, ett problem, ett dokument, ett program eller en portfölj.
 
@@ -114,7 +114,13 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
    ![Vyn Detaljer i layoutmallen](assets/layout-template-details-view.png)
 
-1. Fortsätt att anpassa layoutmallen.
+1. <span class="preview">I förhandsvisningsmiljön: Fortsätt anpassa layoutmallen. Du kan klicka på **Använd** när som helst för att spara förloppet.</span>
+
+   <span class="preview">eller</span>
+
+   <span class="preview">Om du är klar med anpassningen klickar du på **Spara och stäng**.</span>
+
+1. I produktionsmiljön: Fortsätt att anpassa layoutmallen.
 
    eller
 
@@ -122,4 +128,4 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
    >[!TIP]
    >
-   >Du kan klicka på Spara när som helst för att spara förloppet och sedan fortsätta att ändra mallen senare.
+   >Du kan klicka på **Spara** när som helst för att spara förloppet och sedan fortsätta att ändra mallen senare.
