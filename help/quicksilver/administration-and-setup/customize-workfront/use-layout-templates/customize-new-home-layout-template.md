@@ -136,11 +136,11 @@ Så här anpassar du startsidan med en layoutmall:
    >
    >* Alternativen Filter, Kolumner och Grupp är länkade till alternativen för listanpassning i layoutmallen. Ändringar som görs här gäller även för dessa inställningar.
    >* Användarna måste ha minst behörigheten Skapa för vyer för att administratörskolumnen ska kunna användas korrekt på hemsidorna.
-   </p>
-      <li><p>Ange ett standardfilter eller en standardgrupp för widgeten genom att hålla markören över ett alternativ och klicka på <b>Ange som standard</b>. Den aktuella standardinställningen visar ett blått <b>Default</b>-märke till höger om den.</p></li>
-      <li><p>Lägg till ett befintligt filter, en kolumn eller en grupp i listan med tillgängliga alternativ genom att klicka på plustecknet längst ned i varje lista för att lägga till ett alternativ i listan. Observera att endast befintliga filter, fält (för kolumner) eller grupper kan läggas till på det här sättet.</p></li>
-      </ul>
-      <p>
+   ></p>
+   >   <li><p>Ange ett standardfilter eller en standardgrupp för widgeten genom att hålla markören över ett alternativ och klicka på <b>Ange som standard</b>. Den aktuella standardinställningen visar ett blått <b>Default</b>-märke till höger om den.</p></li>
+   >   <li><p>Lägg till ett befintligt filter, en kolumn eller en grupp i listan med tillgängliga alternativ genom att klicka på plustecknet längst ned i varje lista för att lägga till ett alternativ i listan. Observera att endast befintliga filter, fält (för kolumner) eller grupper kan läggas till på det här sättet.</p></li>
+   >   </ul>
+   >   <p>
 
    >[!NOTE]
    >
