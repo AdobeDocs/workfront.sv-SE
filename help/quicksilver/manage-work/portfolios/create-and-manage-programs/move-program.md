@@ -97,7 +97,7 @@ Du kan lägga till befintliga program i en portfölj. Eftersom program inte kan 
 
    Du kan lägga till fler än ett program.
 
-1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort ](assets/delete-icon.png) bredvid namnet på ett program om du bestämmer dig för att inte lägga till det i portföljen.
+1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort &#x200B;](assets/delete-icon.png) bredvid namnet på ett program om du bestämmer dig för att inte lägga till det i portföljen.
 
 1. Klicka på **[!UICONTROL Add programs]**.
 
