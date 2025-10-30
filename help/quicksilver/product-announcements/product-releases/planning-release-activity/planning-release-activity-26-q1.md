@@ -42,8 +42,8 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >[!NOTE]
 >
 >Förhandsgranska: 16 oktober 2025
->>Production fast release: 13 november 2025
->>Produktion för alla: 15 januari 2026
+>&#x200B;>Production fast release: 13 november 2025
+>&#x200B;>Produktion för alla: 15 januari 2026
 
 När du implementerar Workfront Planning för en organisation med flera team och gemensamma arbetsflöden kan du behöva definiera en sammanhängande struktur och metadata för nyckelposttyper (som kampanjer och slutprodukter) som kan läggas till i varje teames arbetsytor för att fånga och hantera deras arbete.
 
@@ -66,8 +66,8 @@ Mer information finns i följande artiklar:
 >[!NOTE]
 >
 >Förhandsgranska: 16 oktober 2025
->>Production fast release: 13 november 2025
->>Produktion för alla: 15 januari 2026
+>&#x200B;>Production fast release: 13 november 2025
+>&#x200B;>Produktion för alla: 15 januari 2026
 
 Vi har infört en gräns på 30 anslutningsfält för varje posttyp.
 
@@ -80,8 +80,8 @@ Mer information finns i [Översikt över anslutna posttyper](/help/quicksilver/p
 >[!NOTE]
 >
 >Förhandsgranska: 16 oktober 2025
->>Production fast release: 13 november 2025
->>Produktion för alla: 15 januari 2026
+>&#x200B;>Production fast release: 13 november 2025
+>&#x200B;>Produktion för alla: 15 januari 2026
 
 När du lägger till fältval till ett envalsfält eller flervalsfält kommer Workfront nu att tilldela unika användarvänliga värden till varje val. Före den här förbättringen genererade Workfront ett alfanumeriskt ID som var svårt att förstå och använda i API-anrop och andra integreringar.
 

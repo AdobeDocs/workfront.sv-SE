@@ -23,7 +23,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 >[!NOTE]
 >
 >Förhandsgranska: 30 oktober 2025
->>Production fast release: 30 oktober 2025\
+>&#x200B;>Production fast release: 30 oktober 2025\
 >Produktion för alla: 30 oktober 2025
 
 Nu kan ni använda Experience Manager Assets &#x200B; för att hantera och lagra era digitala resurser som gått igenom gransknings- och godkännandecykeln. Tack vare integreringen kan ni utnyttja funktionerna i Adobe Experience Manager, Frame.io och Workfront för att effektivisera innehållshanteringen och samarbetet.

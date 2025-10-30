@@ -23,8 +23,8 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 >[!NOTE]
 >
 >Förhandsgranska: 30 oktober 2025
->>Production fast release: 13 november 2025
->>Produktion för alla: 15 januari 2026
+>&#x200B;>Production fast release: 13 november 2025
+>&#x200B;>Produktion för alla: 15 januari 2026
 
 Fält som tillåter flera val, t.ex. kryssrutor och flervalslistrutor, är nu begränsade till 5 000 val när en användare fyller i formuläret.
 

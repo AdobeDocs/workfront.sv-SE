@@ -23,7 +23,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 >[!NOTE]
 >
 >Förhandsgranska: 30 oktober 2025
->>Production fast release: 30 oktober 2025\
+>&#x200B;>Production fast release: 30 oktober 2025\
 >Produktion för alla: 30 oktober 2025
 
 För att hålla oss uppdaterade med de senaste ändringarna av Workfront API har vi skapat en ny Salesforce-integrering. Den nya integreringen har samma funktioner som den tidigare versionen och har uppdaterats för att undvika att förlora funktioner som är inaktuella i API:t.

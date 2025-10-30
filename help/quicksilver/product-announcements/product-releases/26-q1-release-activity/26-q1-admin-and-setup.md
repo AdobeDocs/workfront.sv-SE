@@ -23,8 +23,8 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 >[!NOTE]
 >
 >Förhandsgranska: 30 oktober 2025
->>Production fast release: 13 november 2025
->>Produktion för alla: 15 januari 2026
+>&#x200B;>Production fast release: 13 november 2025
+>&#x200B;>Produktion för alla: 15 januari 2026
 
 För att skapa större enhetlighet med andra områden i installationsprogrammet, t.ex. den anpassade formulärdesignern, har knapparna som visas när du redigerar en layoutmall ändrats till **Använd**, **Spara och stäng** och **Avbryt**. Med det nya alternativet **Använd** kan du spara ändringarna i layoutmallen och fortsätta redigera. Tidigare var de tillgängliga alternativen **Spara** och **Avbryt**.
 
@@ -36,8 +36,8 @@ Mer information finns i [Skapa och hantera layoutmallar](/help/quicksilver/admin
 >[!NOTE]
 >
 >Förhandsgranska: 30 oktober 2025
->>Production fast release: 13 november 2025
->>Produktion för alla: 15 januari 2026
+>&#x200B;>Production fast release: 13 november 2025
+>&#x200B;>Produktion för alla: 15 januari 2026
 
 När du har ett stort antal anpassade fält i systemet kan det vara svårt att hantera dessa fält i anpassade formulär och rapporter. Du kan nu markera anpassade fält som inaktiva med den nya flaggan **Aktiv**. Den här flaggan är tillgänglig när du arbetar med ett fält i ett anpassat formulär eller när du lägger till eller redigerar ett fält från fältlistan.
 
