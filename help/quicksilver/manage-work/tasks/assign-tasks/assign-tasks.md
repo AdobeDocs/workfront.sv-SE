@@ -7,16 +7,16 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
 workflow-type: tm+mt
-source-wordcount: '1820'
+source-wordcount: '1829'
 ht-degree: 0%
 
 ---
 
 # Tilldela uppgifter
 
-<!--Audited: 07/2024-->
+<!--Audited: 10/2025-->
 
 <!--
 <div class="preview"> 
@@ -175,7 +175,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. Klicka på **Spara**.
 1. (Valfritt och villkorligt) Klicka på ikonen **X** bredvid namnet på uppdraget på den högra panelen för uppgiften för att ta bort ett uppdrag, om du klickade på **Avancerat**.
 
-## Tilldela en uppgift i en lista
+## Tilldela en uppgift i en lista när den redigeras infogat
 
 Du kan tilldela uppgifter i en lista eller en rapport när något av tilldelningsfälten visas i listvyn. Det här är ett snabbare sätt att tilldela uppgifter. I den här artikeln beskrivs hur du ändrar tilldelningar för en uppgift i en lista. Mer information om hur du ändrar flera uppdrag för flera uppgifter i en lista finns i [Ändra flera användartilldelningar i en uppgiftslista](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
 
@@ -224,7 +224,7 @@ Så här tilldelar du uppgifter i en lista:
 
 1. När du har lagt till dina tilldelningar till uppgiften trycker du på Enter eller klickar någonstans på sidan för att spara ändringarna om du väljer Spara automatiskt. Annars klickar du på **Spara**.
 
-## Tilldela flera uppgifter till en användare
+## Tilldela flera uppgifter till en användare i grupp från en lista
 
 <!--Assigning multiple tasks to a user is different, depending on what environment you use to assign the tasks. 
 
