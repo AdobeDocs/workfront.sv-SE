@@ -6,14 +6,16 @@ description: Adobe Workfront släppte API-version 21 den 23 oktober 2025. API ve
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: f47e0bce61322c971f3a815ec01e7c243b090910
+source-git-commit: 1c3272c7830bf0a6feddea0281b0e2879b87eacf
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '893'
 ht-degree: 0%
 
 ---
 
 # Nyheter i API-version 21
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Adobe Workfront släppte API-version 21 den 23 oktober 2025. API version 21 innehåller följande ändringar från version 20.
 
@@ -673,6 +675,42 @@ Ett Rate-objekt representerar en faktureringsfrekvens i Workfront.
     </tr>
   </tbody>
 </table>
+
+### Roll (ROLE)
+
+Ett rollobjekt (jobbroll) representerar en funktionskapacitet eller en kompetensuppsättning som en användare kan fylla, till exempel Designer eller Product Manager.
+
+<div class="preview">
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direktfält</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>Åsidosätt valuta</b>
+            </p>
+            <p>Borttagen</p>
+              </li>
+          <li>
+            <p><b>Åsidosätt kostnadstariff</b>
+            </p>
+            <p>Borttagen</p>
+              </li>
+          <li>
+            <p><b>Åsidosätt faktureringshastighet</b>
+            </p>
+            <p>Borttagen</p>
+              </li>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
 
 ### ScheduledReport (SCHREP)
 
