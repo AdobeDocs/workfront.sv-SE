@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: f6e0329ec63038b33006325701007c564c4126cc
 workflow-type: tm+mt
-source-wordcount: '2412'
+source-wordcount: '2446'
 ht-degree: 0%
 
 ---
 
 # Lägga till beräknade fält i ett formulär
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 5/2025 -->
 
@@ -169,6 +171,10 @@ Så här återanvänder du ett befintligt beräknat anpassat fält:
       <p><b>VIKTIGT</b>: Innan du väljer ett format bör du överväga det nya fältets format. Det går inte att redigera formatfältet efter att det anpassade formuläret har sparats. Om du väljer fel format kan framtida beräkningar och aggregerade värden i rapport- och listgrupperingar påverkas.</p>
       <p><strong>Obs!</strong> Beräknade fält med formatet <strong>Valuta</strong> får inte innehålla citattecken. (Använd till exempel 800.00 och inte "800.00.") Användning av citattecken kan få oväntade konsekvenser på grund av nyanser med språkformatering för valutatyper.</p></td>
      </tr> 
+     <tr>
+      <td><span class="preview">Aktiv</span></td>
+      <td><span class="preview"><p>Det här alternativet är aktiverat som standard.<p><p>När du anger ett fält som Inaktivt tas det inte med i rapporter, filter och vyer, och är inte längre tillgängligt i det anpassade formulärfältbiblioteket.</p></span></td>
+     </tr>
     </tbody> 
    </table>
 
@@ -278,7 +284,7 @@ En beräkning börjar oftast med ett uttryck följt av parenteser som innehålle
            >
            ><div>I ett anpassat formulär som bifogas till ett objekt beräknas och sparas datum- och tidssatser i beräknade anpassade fält med UTC (Coordinated Universal Time), inte med de tidszonskonfigurationer som angetts för organisationens instans och din användarprofil. Beräkningar i ett anpassat formulär genereras baserat på varje användares enskilda tidszoner.</div>
 
-      +++
+        +++
 
    1. Klicka i den stora textrutan och klicka sedan på **Uttryck** och **Fält** som är tillgängliga för att lägga till dem i beräkningen.
 
