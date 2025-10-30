@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
+source-git-commit: d342df9949eb1434acbb53c29b7e329dd91c9b28
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1153'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 0%
 <!-- Audited: 1/2024 -->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
+
+>[!IMPORTANT]
+>
+>I version 25.11 kommer åsidosättningsvalutan för jobbroller att bli inaktuell i produktionen. (Borttagningen äger rum den 30 oktober i förhandsvisningsmiljön.) I stället för att ha en basvaluta och åsidosätta valutor, kommer en valuta att vara tillgänglig för jobbroller, och kostnads- och faktureringstarifferna kommer att definieras med den valutan.
 
 Som administratör för [!DNL Adobe Workfront] eller användare med administrativ åtkomst till jobbroller kan du skapa jobbroller som kan tilldelas användare och ta bort standardjobbroller som inte är relevanta för din organisation. Mer information om administrativ åtkomst i [!DNL Workfront] finns i [Bevilja användare administrativ åtkomst till vissa områden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
@@ -59,72 +63,143 @@ Så här skapar du en jobbroll:
 
 1. Klicka på &#x200B; **[!UICONTROL Job Roles]i den vänstra panelen.**
 1. Klicka på **[!UICONTROL New Job Role].**
-1. Konfigurera följande:
+1. Konfigurera följande fält:
 
+   * **Namn**: Ange ett namn för jobbrollen. Det här namnet visas överallt i Workfront där fältet Jobbroll visas.
+
+     >[!TIP]
+     >
+     >Namnet på en jobbroll kan innehålla upp till 255 tecken. Längre namn kan dock förkortas i vissa delar av Workfront.
+
+   * **Beskrivning**: Ange en beskrivning för rollen som anger vad som är unikt med den.
+   * **Är aktiv**: Välj **Ja** om du vill att rollen ska vara aktiv och tillgänglig överallt i Workfront för att associeras med användare, arbetsobjekt osv. Välj **Nej** om du vill att rollen ska inaktiveras och inte vara tillgänglig för tilldelning till användare, arbetsobjekt osv.
+
+     Mer information om hur du inaktiverar jobbroller finns i [Inaktivera jobbroller](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
+
+   * **Basvaluta**: Detta är basvalutan, enligt inställningarna i området Inställningar av Workfront-administratören. Mer information finns i [Konfigurera valutakurser](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+
+     >[!TIP]
+     >
+     >Du kan inte redigera basvalutan på jobbrollnivå. Det här fältet är nedtonat och fungerar som en påminnelse om vad basvalutan är för ditt system.
+
+   * **Kostnadsgrad**: Detta är kostnaden per timma för jobbrollen. Detta värde beräknar de planerade och faktiska kostnaderna för aktiviteter och ärenden som är kopplade till rollen samt slutligen de planerade och faktiska kostnaderna för projekten. Ange kursen med hjälp av basvalutan.
+
+     Klicka på **Lägg till kurs** om du vill se datumfaktiska kostnadstariffer. Ange värdet för kostnad/timme för tidsperioden och tilldela ett startdatum och ett slutdatum efter behov. Den första kostnadstariffen har inget startdatum och den sista kostnadstariffen har inget slutdatum.
+
+     Vissa datum läggs till automatiskt. Om till exempel den första kostnadstariffen inte har ett slutdatum och du lägger till en andra kostnadstariff med startdatumet 1 maj 2025, läggs ett slutdatum som är 30 april 2025 till den första kostnadstariffen så att inga luckor uppstår.
+
+     >[!TIP]
+     >
+     >När du redigerar en befintlig jobbroll kan du välja **Sortera efter startdatum** för att se det senaste startdatumet högst upp i hastighetslistan.
+
+   * **Faktureringsgrad**: Detta är faktureringshastigheten per timme för jobbrollen. Detta värde beräknar de planerade och faktiska intäkterna för uppgifter och ärenden som är kopplade till rollen och slutligen projektens planerade och faktiska intäkter. Ange kursen med hjälp av basvalutan.
+
+     Klicka på **Lägg till ränta** om du vill se gällande faktureringspriser för datum. Ange värdet för fakturering/timme för tidsperioden och tilldela startdatum och slutdatum efter behov. Den första faktureringstakten har inget startdatum och den sista faktureringstakten har inget slutdatum.
+
+     Vissa datum läggs till automatiskt. Om till exempel den första faktureringssatsen inte har ett slutdatum och du lägger till en andra med startdatumet 1 maj 2025, läggs slutdatumet 30 april 2025 till den första faktureringsavgiften så att inga luckor uppstår.
+
+     >[!TIP]
+     >
+     >När du redigerar en befintlig jobbroll kan du välja **Sortera efter startdatum** för att se det senaste startdatumet högst upp i hastighetslistan.
+
+   * **Åsidosätt valuta**: Välj en valuta som är associerad med den här jobbrollen. Det här är den valuta som Workfront använder för att beräkna kostnader och intäkter som är associerade med den här jobbrollen.
+
+     Detta skiljer sig från den basvaluta som har ställts in av Workfront-administratören i inställningsområdet och kan skilja sig från valutan som är associerad med ett projekt.
+
+     >[!TIP]
+     >
+     >I det här fältet är endast valutor tillgängliga i området Valutakurser i ditt system. Om du bara har ställt in en valuta visas inte det här fältet.
+
+     Mer information om hur du ställer in basvalutan i Workfront finns i [Konfigurera valutakurser](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+
+     Mer information om hur du ändrar valuta för ett projekt finns i [Ändra projektvalutan](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md).
+
+   * **Åsidosätt valutakostnadsgrad**: Detta är kostnaden per timme för jobbrollen med den valda åsidosättningsvalutan. Workfront använder det här värdet för att beräkna den planerade och den faktiska kostnaden för uppgifter och ärenden som är kopplade till jobbrollen.
+
+     Ange kursen i den åsidosättningsvaluta som anges ovan. Detta uppdaterar också kostnadstakten för den här jobbrollen när du använder basvalutan.
+
+     Mer information om hur Workfront beräknar kostnader finns i [Spåra kostnader](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
+
+     >[!TIP]
+     >
+     >När du uppdaterar en befintlig jobbroll som redan har en associerad kostnadstariff, beräknar Workfront växelkursen baserat på konverteringsgraden i ditt system. Om du uppdaterar kostnadstariffen för åsidosättning av valuta, uppdateras även kostnadstariffen för jobbrollen automatiskt.
+
+   * **Åsidosätt faktureringsfrekvens för valuta**: Det här är faktureringen per timma för jobbrollen med den valda åsidosättningsvalutan. Workfront använder det här värdet för att beräkna planerad och faktisk intäkt för uppgifter och ärenden som är associerade med jobbrollen.
+
+     Ange kursen i den åsidosättningsvaluta som anges ovan. Detta uppdaterar även faktureringssatsen för den här jobbrollen när du använder basvalutan.
+
+     Mer information om hur Workfront beräknar intäkter finns i [Översikt över fakturering och intäkter](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+     >[!TIP]
+     >
+     >När du uppdaterar en befintlig jobbroll som redan har en associerad faktureringsfrekvens, beräknar Workfront växelkursen för åsidosättning baserat på konverteringsgraden i ditt system. Om du uppdaterar faktureringshastigheten för åsidosättning av valuta, uppdateras även faktureringsfrekvensen för jobbrollen automatiskt.
+
+<!--
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Name]</td> 
-      <td> <p>Ange ett namn för jobbrollen. Det här namnet visas överallt i [!DNL Workfront] där fältet [!UICONTROL Job Role] visas. </p> <p>Tips! Namnet på en jobbroll kan innehålla upp till 255 tecken. Längre namn kan dock trunkeras i vissa områden i [!DNL Workfront]. </p> </td> 
+      <td> <p>Indicate a name for the job role. This is the name that displays everywhere in [!DNL Workfront] where the [!UICONTROL Job Role] field displays. </p> <p>Tip: The name of a job role may contain up to 255 characters. However, longer names might be truncated in certain areas of [!DNL Workfront]. </p> </td> 
      </tr>
      <tr> 
       <td role="rowheader">[!UICONTROL Description]</td> 
-      <td>Ange en beskrivning för rollen som anger vad som är unikt med den. </td> 
+      <td>Enter a description for the role that indicates what is unique about it. </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>[!UICONTROL Is Active]</span> </td> 
       <td> 
        <ul> 
-        <li> <p>Välj <b>[!UICONTROL Yes]</b> om du vill att rollen ska vara aktiv och tillgänglig överallt i [!DNL Workfront] för att associeras med användare, arbetsobjekt osv. </p> </li> 
-        <li> <p>Välj <b>[!UICONTROL No]</b> om du vill att rollen ska inaktiveras och inte vara tillgänglig för tilldelning till användare, arbetsobjekt osv. </p> </li> 
-       </ul> <p><span>Mer information om hur du inaktiverar jobbroller finns i </span> <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md" class="MCXref xref">Inaktivera jobbroller</a>. </p> </td> 
+        <li> <p>Select <b>[!UICONTROL Yes]</b> if you want the role to be active and available everywhere in [!DNL Workfront] to be associated with users, work items, etc. </p> </li> 
+        <li> <p>Select <b>[!UICONTROL No]</b>, if you want the role to be deactivated and not available to assign to users, work items, etc. </p> </li> 
+       </ul> <p><span>For information about deactivating job roles, see</span> <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md" class="MCXref xref">Deactivate job roles</a>. </p> </td> 
      </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>[!UICONTROL Base Currency]</span> </td> 
-      <td> <p><span>Detta är [!UICONTROL Base Currency], enligt inställningen i området [!UICONTROL Setup] av Workfront-administratören. Mer information finns i </span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Konfigurera valutakurser</a> .</p> <p>Tips: <span>Du kan inte redigera [!UICONTROL Base Currency] på jobbrollnivå. Det här fältet är nedtonat och fungerar som en påminnelse om vad basvalutan är för ditt system.</span> </p> </td> 
+      <td> <p><span>This is the [!UICONTROL Base Currency], as set in the [!UICONTROL Setup] area by your Workfront administrator. For information, see</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a> .</p> <p>Tip: <span>You cannot edit the [!UICONTROL Base Currency] at the job role level. This field is dimmed and serves as a reminder for what the base currency is for your system.</span> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Cost Rate]</td> 
-      <td><p>Detta är kostnaden per timme för jobbrollen. Detta värde beräknar de planerade och faktiska kostnaderna för aktiviteter och ärenden som är kopplade till rollen samt slutligen de planerade och faktiska kostnaderna för projekten. Ange frekvensen med hjälp av [!UICONTROL Base Currency].</p> 
-      <p>Klicka på <strong>[!UICONTROL Add Rate]</strong> om du vill veta vilka datumkostnader som gäller. Ange värdet för kostnad/timme för tidsperioden och tilldela [!UICONTROL Start Date] och [!UICONTROL End Date] efter behov. Den första kostnadstariffen har inget startdatum och den sista kostnadstariffen har inget slutdatum.</p> <p>Vissa datum läggs till automatiskt. Om till exempel den första kostnadstariffen inte har ett slutdatum och du lägger till en andra kostnadstariff med startdatumet 1 maj 2023, läggs ett slutdatum, 30 april 2023, till den första kostnadstariffen så att inga luckor finns.</p> <p>Tips! När du redigerar en befintlig jobbroll kan du välja <strong>Sortera efter startdatum</strong> för att se det senaste startdatumet högst upp i hastighetslistan.</p></td> 
+      <td><p>This is the cost per hour rate of the job role. This value calculates the planned and the actual costs of tasks and issues associated with the role, and ultimately the planned and actual costs of the projects. Enter the rate using the [!UICONTROL Base Currency].</p> 
+      <p>For date effective cost rates, click <strong>[!UICONTROL Add Rate]</strong>. Enter the value of the cost/hour for the time period, and assign a [!UICONTROL Start Date] and [!UICONTROL End Date] as needed. The first cost rate will not have a start date and the last cost rate will not have an end date.</p> <p>Some dates are added automatically. For example, if the first cost rate does not have an end date, and you add a second cost rate with a start date of May 1, 2023, an end date of April 30, 2023 is added to the first cost rate so that no gaps exist.</p> <p>Tip: When editing an existing job role, you can select <strong>Sort by start date</strong> to see the most recent start date at the top of the rate list.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Billing Rate] </td> 
-      <td><p>Det här är faktureringen per timma för jobbrollen. Detta värde beräknar de planerade och faktiska intäkterna för uppgifter och ärenden som är kopplade till rollen och slutligen projektens planerade och faktiska intäkter. Ange frekvensen med hjälp av [!UICONTROL Base Currency].</p> <p>Klicka på <strong>[!UICONTROL Add Rate]</strong> om du vill se gällande faktureringstariffer för datum. Ange värdet för fakturering/timme för tidsperioden och tilldela [!UICONTROL Start Date] och [!UICONTROL End Date] efter behov. Den första faktureringstakten har inget startdatum och den sista faktureringstakten har inget slutdatum.</p> <p>Vissa datum läggs till automatiskt. Om till exempel den första faktureringssatsen inte har ett slutdatum och du lägger till en andra med startdatumet 1 maj 2023, läggs slutdatumet 30 april 2023 till den första faktureringsavgiften så att inga luckor uppstår.</p> <p>Tips! När du redigerar en befintlig jobbroll kan du välja <strong>Sortera efter startdatum</strong> för att se det senaste startdatumet högst upp i hastighetslistan.</p> </td> 
+      <td><p>This is the billing per hour rate of the job role. This value calculates the planned and actual revenues of tasks and issues associated with the role, and ultimately the planned and actual revenues of the projects. Enter the rate using the [!UICONTROL Base Currency].</p> <p>For date effective billing rates, click <strong>[!UICONTROL Add Rate]</strong>. Enter the value of the billing/hour for the time period, and assign a [!UICONTROL Start Date] and [!UICONTROL End Date] as needed. The first billing rate will not have a start date and the last billing rate will not have an end date.</p> <p>Some dates are added automatically. For example, if the first billing rate does not have an end date, and you add a second with a start date of May 1, 2023, an end date of April 30, 2023 is added to the first billing rate so that no gaps exist.</p> <p>Tip: When editing an existing job role, you can select <strong>Sort by start date</strong> to see the most recent start date at the top of the rate list.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>[!UICONTROL Override Currency]</span> </td> 
       <td>
-        <p>Välj en valuta som är associerad med den här jobbrollen. Det här är valutan som [!DNL Workfront] använder för att beräkna kostnader och intäkter som är associerade med den här jobbrollen. </p> 
-        <p><span>Detta skiljer sig från [!UICONTROL Base Currency] som har konfigurerats av [!DNL Workfront]-administratören i området [!UICONTROL Setup] och kan skilja sig från valutan som är associerad med ett projekt.</span> </p> 
-        <p>Tips! Endast tillgängliga valutor i området [!UICONTROL Exchange Rates] i systemet är tillgängliga i det här fältet. Om du bara har ställt in en valuta visas inte det här fältet.</p> 
-       <p><span>Mer information om hur du konfigurerar [!UICONTROL Base Currency] i [!DNL Workfront] finns i </span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Konfigurera valutakurser</a>.</p> <p><span>Mer information om hur du ändrar valuta för ett projekt finns i </span> <a href="../../../manage-work/projects/project-finances/change-project-currency.md" class="MCXref xref">Ändra projektvaluta</a>.</p> </td> 
+        <p>Select a currency associated with this job role. This is the currency that [!DNL Workfront] uses for calculating costs and revenue associated with this job role. </p> 
+        <p><span>This is different than the [!UICONTROL Base Currency] set up by your [!DNL Workfront] administrator in the [!UICONTROL Setup] area, and can be different than the currency associated with a project.</span> </p> 
+        <p>Tip: Only currencies available in the [!UICONTROL Exchange Rates] area in your system are available in this field. If you only have one currency set up, this field is does not appear.</p> 
+       <p><span>For information about setting up the [!UICONTROL Base Currency] in [!DNL Workfront], see</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a>.</p> <p><span>For information about changing the currency of a project, see</span> <a href="../../../manage-work/projects/project-finances/change-project-currency.md" class="MCXref xref">Change the project currency</a>.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>[!UICONTROL Override Currency Cost Rate]</span> </td> 
       <td>
-        <p>Detta är kostnaden per timme för jobbrollen som använder den valda [!UICONTROL Override Currency]. [!DNL Workfront] använder det här värdet för att beräkna planerade och faktiska kostnader för aktiviteter och ärenden som är associerade med jobbrollen. </p> 
-        <p><span>Ange hastigheten i [!UICONTROL Override Currency] som anges ovan. Detta uppdaterar också kostnadstakten för den här jobbrollen när [!UICONTROL Base Currency] används.</span> </p> 
-        <p>Mer information om hur [!DNL Workfront] beräknar kostnader finns i <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Spåra kostnader</a>.</p> 
-       <p>Tips! Vid uppdatering av en befintlig jobbroll som redan har en associerad kostnadstariff, beräknar [!DNL Workfront] hastigheten [!UICONTROL Override Currency] baserat på konverteringsgraden i systemet. Om du uppdaterar [!UICONTROL Override Currency Cost Rate] uppdateras även kostnadstakten för jobbrollen automatiskt.</p> </td> 
+        <p>This is the cost per hour rate of the job role using the selected [!UICONTROL Override Currency]. [!DNL Workfront] uses this value to calculate the planned and the actual costs of tasks and issues associated with the job role. </p> 
+        <p><span>Enter the rate in the [!UICONTROL Override Currency] specified above. This also updates the Cost Rate for this job role when using the [!UICONTROL Base Currency].</span> </p> 
+        <p>For information about how [!DNL Workfront] calculates cost, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> 
+       <p>Tip: When updating an existing job role that already has a Cost Rate associated with it, [!DNL Workfront] calculates the [!UICONTROL Override Currency] rate based on the conversion rate in your system. If you update the [!UICONTROL Override Currency Cost Rate], the Cost Rate of the job role also updates automatically.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>[!UICONTROL Override Currency Billing Rate]</span> </td> 
       <td>
-        <p>Det här är faktureringen per timma för jobbrollen som använder den valda [!UICONTROL Override Currency]. [!DNL Workfront] använder det här värdet för att beräkna planerad och faktisk intäkt för aktiviteter och ärenden som är associerade med jobbrollen. </p>
-        <p><span>Ange hastigheten i [!UICONTROL Override Currency] som anges ovan. Detta uppdaterar även faktureringssatsen för den här jobbrollen när [!UICONTROL Base Currency] används.</span> </p>
-        <p>Mer information om hur [!DNL Workfront] beräknar intäkter finns i <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Översikt över fakturering och intäkter</a>.</p>
-        <p>Tips! Vid uppdatering av en befintlig jobbroll som redan har en associerad faktureringshastighet, beräknar [!DNL Workfront] åsidosättandevalutakursen baserat på konverteringsgraden i systemet. Om du uppdaterar faktureringshastigheten för åsidosättning av valuta, uppdateras även faktureringshastigheten för jobbrollen automatiskt. </p>
+        <p>This is the billing per hour rate of the job role using the selected [!UICONTROL Override Currency]. [!DNL Workfront] uses this value to calculate the planned and the actual revenue of tasks and issues associated with the job role. </p>
+        <p><span>Enter the rate in the [!UICONTROL Override Currency] specified above. This also updates the Billing Rateate for this job role when using the [!UICONTROL Base Currency].</span> </p>
+        <p>For information about how [!DNL Workfront] calculates revenue, see <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a>.</p>
+        <p>Tip: When updating an existing job role that already has a Billing Rate associated with it, [!DNL Workfront] calculates the Override Currency rate based on the conversion rate in your system. If you update the Override Currency Billing Rate, the Billing Rate of the job role also updates automatically. </p>
        </td>
      </tr> 
     </tbody> 
    </table>
+-->
 
-   >[!TIP]
-   >
-   >Jobbroller är en viktig del i hanteringen av resurser. Om du vill använda verktygen för resursplanering behöver jobbrollerna en kostnad och faktureringsfrekvens som är kopplad till dem. Mer information finns i [Kom igång med resurshantering](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
+>[!TIP]
+>
+>Jobbroller är en viktig del i hanteringen av resurser. Om du vill använda verktygen för resursplanering behöver jobbrollerna en kostnad och faktureringsfrekvens som är kopplad till dem. Mer information finns i [Kom igång med resurshantering](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
 1. Klicka på **[!UICONTROL Create Job Role]**. Jobbrollen är nu tillgänglig för att tilldelas aktiviteter, utgåvor, godkännanden eller så kan du dela layoutmallar eller andra objekt med den. Mer information om all användning av jobbroller i [!DNL Workfront] finns i [Översikt över jobbroller](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md). Mer information om hur du tar bort en jobbroll finns i [Ta bort jobbroller](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md).
 
