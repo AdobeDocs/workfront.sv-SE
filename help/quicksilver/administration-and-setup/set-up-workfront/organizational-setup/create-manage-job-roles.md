@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: d342df9949eb1434acbb53c29b7e329dd91c9b28
+source-git-commit: e5416fab4f4ad1f2c31edf962554ddd6a4c2f1e5
 workflow-type: tm+mt
 source-wordcount: '1153'
 ht-degree: 0%
@@ -126,7 +126,7 @@ Så här skapar du en jobbroll:
 
    * **Åsidosätt faktureringsfrekvens för valuta**: Det här är faktureringen per timma för jobbrollen med den valda åsidosättningsvalutan. Workfront använder det här värdet för att beräkna planerad och faktisk intäkt för uppgifter och ärenden som är associerade med jobbrollen.
 
-     Ange kursen i den åsidosättningsvaluta som anges ovan. Detta uppdaterar även faktureringssatsen för den här jobbrollen när du använder basvalutan.
+     Ange kursen i den åsidosättningsvaluta som anges ovan. Detta uppdaterar även faktureringshastigheten för den här jobbrollen när du använder basvalutan.
 
      Mer information om hur Workfront beräknar intäkter finns i [Översikt över fakturering och intäkter](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
 

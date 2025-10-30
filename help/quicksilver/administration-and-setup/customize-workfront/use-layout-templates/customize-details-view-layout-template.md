@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: e5416fab4f4ad1f2c31edf962554ddd6a4c2f1e5
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '631'
 ht-degree: 0%
 
 ---
@@ -98,11 +98,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 ## Anpassa det som användarna ser i detaljvyn
 
 1. Börja arbeta med en layoutmall enligt beskrivningen i [Skapa och hantera layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Klicka på nedpilen ![nedpilen](assets/dropdown-arrow-12x12.png) under **Anpassa det som visas för användarna** och klicka sedan på **Projekt**, **Aktivitet**, **Problem**, **Program** eller **Portfolio.**
-<!--
-, or billing record
--->
-
+1. Klicka på nedpilen ![nedpilen](assets/dropdown-arrow-12x12.png) under **Anpassa det som visas för användarna** och klicka sedan på **Projekt**, **Aktivitet**, **Problem**, **Program** eller **Portfolio.**<!--, or billing record-->
 1. I avsnittet **Detaljer** gör du något av följande för att anpassa vad användarna ser i detaljvyn:
 
    * Dra en avsnittsrubrik ![Flytta ikon](assets/move-icon---dots.png) om du vill ändra ordningen.
@@ -112,6 +108,10 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
      Alla fält är aktiverade som standard. Du kan markera eller avmarkera kryssrutan **Markera alla** i ett område om du vill visa eller dölja alla fält i det området.
 
+   <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
+   ![Vyn Detaljer i layoutmallen](assets/layout-template-details-view-updated-save-buttons.png)
+
+   Exempelbild i produktionsmiljön:
    ![Vyn Detaljer i layoutmallen](assets/layout-template-details-view.png)
 
 1. <span class="preview">I förhandsvisningsmiljön: Fortsätt anpassa layoutmallen. Du kan klicka på **Använd** när som helst för att spara förloppet.</span>

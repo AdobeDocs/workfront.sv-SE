@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 7fb12a3fbdad661baf2d0ad472ce8017e178ddef
+source-git-commit: c17a50542553db5b836ff82f3d0c6ed93ae3c3ad
 workflow-type: tm+mt
-source-wordcount: '8978'
+source-wordcount: '8980'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Alla andra ändringar av Adobe Workfront finns i [Produktreleaser](/help/quicksi
 
 ### Gränssnittsuppdateringar för dialogrutorna Lägg till och redigera företag
 
-**Förhandsversion: 23 oktober 2025; Produktionsversion: Från 30 oktober 2025**
+**Förhandsversion: 23 oktober 2025; Produktionsversion: Från 6 november 2025**
 
 Vi har uppdaterat dialogrutorna för att lägga till och redigera företag med en modernare design som överensstämmer med andra delar av Workfront.
 
@@ -102,7 +102,7 @@ Vi har uppdaterat utseendet och känslan av den personliga kalendertiden, inklus
 
 Om du vill visa de här ändringarna går du till din användarprofil och klickar på **Tid av** i den vänstra panelen.
 
-Mer information finns i [Konfigurera personlig tid för &#x200B;](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) och [Delegera godkännandebegäran](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+Mer information finns i [Konfigurera personlig tid för ](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) och [Delegera godkännandebegäran](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 ## Gränssnittsuppdateringar gjorda under Q4
 
@@ -612,7 +612,7 @@ Vi har uppdaterat utseendet och känslan av den personliga kalendertiden, inklus
 
 Om du vill visa de här ändringarna går du till din användarprofil och klickar på **Tid av** i den vänstra panelen.
 
-Mer information finns i [Konfigurera personlig tid för &#x200B;](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) och [Delegera godkännandebegäran](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+Mer information finns i [Konfigurera personlig tid för ](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) och [Delegera godkännandebegäran](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 ### Gränssnittsuppdateringar för dialogrutan Ny användare
 
