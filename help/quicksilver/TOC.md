@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 59c9953fdd38ca7591e17a20303f029dbdd75c67
+source-git-commit: 69d3b6d93ce4ceaf66a7886704023de494cde35d
 workflow-type: tm+mt
-source-wordcount: '13494'
+source-wordcount: '13516'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,10 @@ ht-degree: 0%
       * [Förbered dig för en kvartalsvis utgåva av Adobe Workfront](product-announcements/product-releases/release-readiness.md)
       * 2026 Q1-utgåvan {#release-26-q1}
          * [Första utgåvan, kvartal 2026, översikt](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)
+         * [Förbättringar av första kvartalet 2026 för administratörer](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md)
+         * [Första kvartalet 2026 Förbättringar av dokument och godkännanden](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md)
+         * [Förbättringar av integreringar för första kvartalet 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md)
+         * [Första kvartalet 2026 Andra förbättringar](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md)
       * 2025 Q4 {#release-25-q4}
          * [Fjärde kvartersversionen 2025 - översikt](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)
          * [Förbättringar av administratören för fjärde kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md)

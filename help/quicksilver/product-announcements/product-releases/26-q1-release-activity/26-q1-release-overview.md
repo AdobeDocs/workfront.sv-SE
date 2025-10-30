@@ -4,9 +4,9 @@ description: Den här sidan innehåller information om de funktioner som ingår 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: faaea3fef9be0fb03c2ed4991bad575f23b08559
+source-git-commit: 1c4f81babf6cdc6579fa633c1a776c151219a6bf
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,88 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront-förbättringar
 
+* [Administratörsförbättringar](#administrator-enhancements)
+* [Förbättringar av dokument och godkännanden](#documents-and-approvals-enhancements)
+* [Andra förbättringar](#other-enhancements)
+
+### Administratörsförbättringar
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Funktion</strong>
+        </td>
+        <td><strong>Förhandsgranska</strong></td>
+        <td><strong>Snabb release</strong></td>
+        <td><strong>kvartalsvis</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Uppdateringar av knappnamn vid redigering av en layoutmall</a>
+            <p>För att skapa större enhetlighet med andra delar av installationsprogrammet, t.ex. den anpassade formulärdesignern, har de knappar du ser när du redigerar en layoutmall ändrats till Använd, Spara och stäng samt Avbryt. Med det nya alternativet Använd kan du spara ändringarna i layoutmallen och fortsätta redigera. Tidigare var alternativen Spara och Avbryt. </p>
+        </td>
+        <td>30 oktober 2025</td>
+        <td>13 november 2025</td>
+        <td>15 januari 2026</td>
+    </tr>  
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> Förbättrad fälthantering med aktiv flagga i anpassade fält </a>
+            <p>När du har ett stort antal anpassade fält i systemet kan det vara svårt att hantera dessa fält i anpassade formulär och rapporter. Du kan nu markera anpassade fält som inaktiva med den nya flaggan <b>Aktiv</b>. Den här flaggan är tillgänglig när du arbetar med ett fält i ett anpassat formulär eller när du lägger till eller redigerar ett fält från fältlistan. </p>
+        </td>
+        <td>30 oktober 2025</td>
+        <td>13 november 2025</td>
+        <td>15 januari 2026</td>
+    </tr>   
+  </tbody>
+</table>
+
+### Förbättringar av dokument och godkännanden
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Funktion</strong>
+        </td>
+        <td><strong>Förhandsgranska</strong></td>
+        <td><strong>Snabb release</strong></td>
+        <td><strong>kvartalsvis</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager är nu tillgängligt med Frame.io-integrering <p>[!BADGE Off schema]{type=Neutral}</p> </a>
+            <p>Nu kan ni använda Experience Manager Assets ​ för att hantera och lagra era digitala resurser som gått igenom gransknings- och godkännandecykeln. Tack vare integreringen kan ni utnyttja funktionerna i Adobe Experience Manager, Frame.io och Workfront för att effektivisera innehållshanteringen och samarbetet. </p>
+        </td>
+        <td>30 oktober 2025</td>
+        <td>30 oktober 2025</td>
+        <td>30 oktober 2025</td>
+    </tr>   
+  </tbody>
+</table>
+
+### Integration enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Funktion</strong>
+        </td>
+        <td><strong>Förhandsgranska</strong></td>
+        <td><strong>Snabb release</strong></td>
+        <td><strong>kvartalsvis</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">Ny version av Salesforce-integrering är nu tillgänglig </a>
+            <p>För att hålla oss uppdaterade med de senaste ändringarna av Workfront API har vi skapat en ny Salesforce-integrering. Den nya integreringen har samma funktioner som den tidigare versionen och har uppdaterats för att undvika att förlora funktioner som är inaktuella i API:t.</p>
+        </td>
+        <td>30 oktober 2025</td>
+        <td>30 oktober 2025</td>
+        <td>30 oktober 2025</td>
+    </tr>   
+  </tbody>
+</table>
+
 ### Andra förbättringar
 
 <table>
@@ -52,7 +134,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Uppdateringar av utseende och känsla under den fjärde kvartersutgåvan 2025 </a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md" class="MCXref xref" xrefformat="{para}">Uppdateringar av utseende och känsla under den fjärde kvartersutgåvan 2025 </a>
                         <p>Mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet görs inom tidsramen för den fjärde utgåvan, kvartal 2025. </p>
                     </td>
                     <td><p>Under den fjärde kvartalstidsperioden 2025<br /></p>
@@ -61,14 +143,28 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </ul>
                     </td>
                 </tr>
+                <tr>
+                 <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md" class="MCXref xref" xrefformat="{para}"> Markeringsgränser för flervalsfält </a>
+              <p>Fält som tillåter flera val, t.ex. kryssrutor och flervalslistrutor, är nu begränsade till 5 000 val när en användare fyller i formuläret.</p>
+             </td>
+        <td>30 oktober 2025</td>
+        <td>13 november 2025</td>
+        <td>15 januari 2026</td>
+             </tr>   
             </tbody>
         </table>
 
-<!--
-### Functionality soon to be removed from Workfront
 
-* 
--->
+### Funktioner som snart ska tas bort från Workfront
+
+#### Borttagning av åsidosättningsvalutan i jobbroller med version 25.11
+
+Som en del av förenklingen av den finansiella modellen kommer åsidosättningsvalutan för jobbroller i förhandsversionen den 30 oktober och i produktionen för alla kunder med version 25.11. Den här ändringen påverkar hur valutor och frekvenser konfigureras för jobbroller i inställningsområdet.
+
+* Fälten **Åsidosätt valuta** i en jobbroll är inte längre tillgängliga.
+* Varje jobbroll har en valuta med tillhörande kostnad och faktureringsfrekvens.
+* Alla befintliga åsidosättningsvalutor och deras kursvärden migreras automatiskt till den enda valutan och valutorna för den jobbrollen.
 
 ## Modernisering av gränssnitt
 
@@ -78,7 +174,7 @@ Vi uppdaterar gränssnittet i hela Adobe Workfront för att förbättra använda
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Förbättringar av Workfront Planning
 
@@ -135,13 +231,13 @@ För att kunna leverera mer stabila och skalbara integreringar går vi över til
 * Workfront för Salesforce.
 
 Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Google Workspace.
-En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Underhållsuppdateringar för Workfront
 
-Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=sv-SE).
+Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan &#x200B;](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=sv-SE).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
