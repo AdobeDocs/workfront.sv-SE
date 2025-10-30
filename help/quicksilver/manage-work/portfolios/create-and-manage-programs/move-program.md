@@ -6,16 +6,16 @@ description: Du kan lägga till befintliga program i en portfölj. Eftersom prog
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
 source-wordcount: '220'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # Lägg till ett befintligt program i en portfölj
 
-<!--Audited: 5/2025-->
+<!--Audited: 10/2025-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
@@ -93,12 +93,12 @@ Du kan lägga till befintliga program i en portfölj. Eftersom program inte kan 
    >
    >Om du lägger till ett befintligt program överförs alla projekt som är kopplade till det programmet till portföljen. Var försiktig så att du inte oavsiktligt flyttar projekt på det här sättet.
 
-1. I fältet **[!UICONTROL Add Programs to this Portfolio]** skriver du namnet på ett program och markerar det när det visas i listan. <!--see the name of this field, I suggested changes here-->
+1. I fältet **[!UICONTROL Add programs to this portfolio]** skriver du namnet på ett program och markerar det när det visas i listan. <!--see the name of this field, I suggested changes here-->
 
    Du kan lägga till fler än ett program.
 
-1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort &#x200B;](assets/delete-icon.png) bredvid namnet på ett program om du bestämmer dig för att inte lägga till det i portföljen.
+1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort ](assets/delete-icon.png) bredvid namnet på ett program om du bestämmer dig för att inte lägga till det i portföljen.
 
-1. Klicka på **[!UICONTROL Add Programs]**. <!--check this button in the UI after they implemented the changes??-->
+1. Klicka på **[!UICONTROL Add programs]**.
 
    Programmet visas på fliken **[!UICONTROL Programs]** i den valda portföljen.

@@ -6,28 +6,25 @@ description: Du kan redigera ett enskilt problem eller redigera problem i en pro
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '992'
 ht-degree: 0%
 
 ---
 
 # Redigera problem i en lista
 
-<!--Audited: 08/2025-->
+<!--Audited: 10/2025-->
 
-<!--Audited: 03/2025-->
 
-<!--
-<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Samma funktioner är också tillgängliga i produktionsmiljön för alla kunder från och med en vecka från förhandsversionen.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+Mer information finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
-</div> 
--->
+</div>
 
 Du kan redigera ett enskilt problem eller redigera problem i en problemlista eller rapport. I den här artikeln beskrivs hur du redigerar problem i listor.
 
@@ -124,7 +121,7 @@ Så här infogar du redigering av en utgåva:
 1. Gå till en lista med problem i ett projekt eller en uppgift.
 1. Gör något av följande
 
-   * Markera problemet i listan och klicka sedan på ikonen **Redigera** ![Redigera &#x200B;](assets/qs-edit-icon.png) i verktygsfältet.
+   * Markera problemet i listan och klicka sedan på ikonen **Redigera** ![Redigera ](assets/qs-edit-icon.png) i verktygsfältet.
    * Klicka på namnet på problemet och klicka sedan på **Redigera**.
 
      Alla dessa åtgärder öppnar rutan **Redigera problem**.
@@ -175,24 +172,15 @@ Så här redigerar du flera problem samtidigt:
 
    Att redigera information i alla frågor är identiskt med att redigera information i ett problem när du redigerar följande områden:
 
-   * Översikt
-   * Inställningar
-   * Anpassad Forms
-   * Uppdrag
-   * Kommentar
-
-   <!--at release for unshim, replace the list above with this:
-
    <div class="preview">
 
-   * Overview
-   * Assignments
-   * Custom Forms 
-   * Settings
-   * Comment
+   * Översikt
+   * Uppdrag
+   * Anpassad Forms
+   * Inställningar
+   * Kommentar
 
    </div>
-   -->
 
    Mer information om hur du redigerar ett problem finns i [Redigera problem](../../../manage-work/issues/manage-issues/edit-issues.md).
 
@@ -206,16 +194,11 @@ Så här redigerar du flera problem samtidigt:
 
    Du kan bara redigera fält i formulären som är kopplade till alla markerade problem och som du har behörighet att redigera.
 
-   <!--1. (Optional and conditional) Depending what environment you use to edit the issues, do one of the following to recalculate custom expressions for all issues:
-   1. In the Production environment, ADD THE SENTENCE FROM THE NEXT STEP HERE:-->
+1. (Valfritt och villkorligt) Beroende på vilken miljö du använder för att redigera problemen gör du något av följande för att beräkna om anpassade uttryck för alla utgåvor:
 
-1. (Valfritt) I området **Anpassade Forms** markerar du alternativet **Beräkna om anpassade uttryck** för att se till att alla beräknade anpassade fält i den anpassade Forms som är kopplade till de valda problemen är aktuella.
+   1. I produktionsmiljön markerar du alternativet **Beräkna om anpassade uttryck** i området **Anpassade Forms** för att se till att alla beräknade anpassade fält i den anpassade Forms som är kopplade till de valda problemen är aktuella.
 
-   <!--  
-   <div class="preview">
-
-   1. In the Preview environment, with all the issues selected in the list, click the **More** menu ![More menu](assets/more-icon.png) at the top of the issue list, then click **Recalculate Expressions**.
-   -->
+   1. <span class="preview">I förhandsgranskningsmiljön, med alla problem markerade i listan, klickar du på menyn **Mer** ![Mer](assets/more-icon.png) överst i problemlistan och sedan på **Beräkna om uttryck**. </span>
 
    >[!IMPORTANT]
    >

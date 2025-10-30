@@ -6,7 +6,7 @@ description: Projektbegäranden visas som projekt med statusen [!UICONTROL Reque
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1acfb885-0da3-495d-ba66-e80e339e90de
-source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Granska begärda projekt
+
+<!--Audited: 10/2025-->
 
 När flera projektförfrågningar skickas in för granskning kan projektledningskontoret eller portföljkommittén mötas för att granska inskickade förfrågningar och fastställa godkännanden av projektförfrågningar. Projektbegäranden visas som projekt med statusen [!UICONTROL Requested] i [!DNL Adobe Workfront].
 
@@ -89,19 +91,19 @@ Du kan granska begärda projekt i följande områden i [!DNL Adobe Workfront]:
 
 Du kan skapa en rapport för projekt för att se vilka projekt som har statusen [!UICONTROL Requested].
 
-Mer information om hur du godkänner projektbegäranden genom att skapa en projektrapport finns i avsnittet [[!UICONTROL Approving the Business Case by Building a Project Report]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report) i [Godkänn ett affärsärende](../../../manage-work/projects/define-a-business-case/approve-business-case.md). 
+Mer information om hur du godkänner projektbegäranden genom att skapa en projektrapport finns i avsnittet [[!UICONTROL Approving the Business Case by Building a Project Report]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report) i [Godkänn ett affärsärende](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
 ## Granska begärda projekt i en portfölj
 
 1. Gå till portföljen vars begärda projekt du vill granska.
-1. Klicka på &#x200B;**[!UICONTROL Projects]** i den vänstra panelen
+1. Klicka på **[!UICONTROL Projects]** i den vänstra panelen
 1. Välj **[!UICONTROL Filter]** i listrutan **[!UICONTROL Requested]**.
 
    Endast projekt med statusen **[!UICONTROL Requested]** visas i listan.
 
    >[!TIP]
    >
-   > Förutom statusen **[!UICONTROL Requested]** måste projekt associeras med den valda Portfolio som ska visas i den här listan.
+   > Förutom statusen **[!UICONTROL Requested]** måste projekt associeras med den valda Portfolio som ska visas i den här listan.
 
 1. Klicka på namnet på ett projekt i listan för att öppna det.
 1. Klicka på **[!UICONTROL Project Details]** i den vänstra panelen.
@@ -117,13 +119,13 @@ Mer information om hur du godkänner projektbegäranden genom att skapa en proje
 
      >[!NOTE]
      >
-     >Det finns inga meddelanden som informerar användaren som skickade in godkännandet av affärsärendet om hans/hennes projektförfrågan godkändes eller avvisades. 
+     >Det finns inga meddelanden som informerar användaren som skickade in godkännandet av affärsärendet om hans/hennes projektförfrågan godkändes eller avvisades.
 
      eller
 
    * Ändra status för projektet till någon annan status i listrutan **[!UICONTROL Status]**.
 
      ![Ändra projektstatus i listrutan](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
- 
 
- 
+
+

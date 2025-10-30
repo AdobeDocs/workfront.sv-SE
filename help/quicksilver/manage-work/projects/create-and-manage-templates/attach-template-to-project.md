@@ -6,7 +6,7 @@ description: Du kan bifoga en mall till ett projekt antingen under den inledande
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Bifoga en mall till ett projekt
 
-<!-- Audited: 5/2025 -->
+<!-- Audited: 10/2025 -->
 
 Du kan bifoga en mall till ett projekt antingen under den inledande fasen av projektet eller efter att det har skapats.
 
@@ -115,16 +115,15 @@ Du kan bifoga en mall till ett projekt från projektsidan eller från en projekt
 
 1. På sidan **Projekt** väljer du det projekt som du vill koppla en mall till.
 
-1. Klicka på ikonen **Mer** ![Mer &#x200B;](assets/qs-more-icon-on-an-object.png) till höger om projektnamnet.
+1. Klicka på ikonen **Mer** ![Fler listruta](assets/more-dropdown.png) till höger om projektnamnet.
 
-   ![Fler listrutor](assets/more-dropdown.png)
+   ![Mer ikon](assets/qs-more-icon-on-an-object.png)
 
    eller
 
-   Gå till en projektlista eller rapport och välj ett projekt och klicka sedan på ikonen **Mer** ![Mer](assets/qs-more-icon-on-an-object.png) högst upp i listan.
+   Gå till en projektlista eller rapport och välj ett projekt och klicka sedan på ikonen **Mer** ![Mer ](assets/more-dropdown.png) högst upp i listan.
 
    ![Mer meny utökad](assets/more-menu-expanded.png)
-
 
 1. Klicka på **Bifoga mall**. Rutan **Koppla mall** visas.
 

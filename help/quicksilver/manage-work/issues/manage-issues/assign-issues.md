@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1731'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,13 @@ ht-degree: 0%
 
 <!--Audited: 10/2024-->
 
-<!--
-<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Samma funktioner är också tillgängliga i produktionsmiljön för alla kunder från och med en vecka från förhandsversionen.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+Mer information finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
-</div> 
--->
+</div>
 
 Du kan tilldela utgåvor till användare, roller och team för att ange vem som ansvarar för att slutföra utgåvorna. Allmän information om hur du tilldelar problem finns i [Översikt över hur du ändrar problemtilldelningar](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
@@ -204,10 +202,9 @@ Mer information finns i avsnittet Uppdrag i artikeln [Redigera problem](/help/qu
 
 ## Tilldela flera utgåvor samtidigt
 
-<!--
-Assigning issues in bulk is different depending on what environment you choose to do this. 
+Att tilldela flera olika problem beror på vilken miljö du väljer.
 
-### Assign issues in bulk in the Production environment -->
+### Tilldela flera utgåvor åt gången i produktionsmiljön
 
 1. Gå till en lista över problem som du vill tilldela gruppvis.
 1. Markera flera problem i listan.
@@ -232,33 +229,32 @@ Assigning issues in bulk is different depending on what environment you choose t
 1. Klicka på **Spara ändringar**.
 1. (Valfritt och villkorligt) När fälten Tilldelad till eller Uppdrag visas i listan med utgåvor klickar du i en av dessa kolumner för ett problem och sedan på ikonen **X** bredvid namnet på en tilldelad för att ta bort den från utgåvan.
 
-<!--
 <div class="preview">
 
-### Assign issues in bulk in the Preview environment
+### Tilldela flera utgåvor samtidigt i förhandsvisningsmiljön
 
-1. Go to a list of issues that you want to assign in bulk. 
-1. Select several issues in the list. 
-1. Click the **Edit icon** ![Edit icon](assets/qs-edit-icon.png).
+1. Gå till en lista över problem som du vill tilldela gruppvis.
+1. Markera flera problem i listan.
+1. Klicka på ikonen **Redigera** ![Redigera](assets/qs-edit-icon.png).
 
-   The **Edit Issues** dialog box opens.
+   Dialogrutan **Redigera problem** öppnas.
 
-1. Click **Assignments** in the left panel, and in the **Assignments** area, start typing the name of a user, role, or team in the **Search people, roles, or teams** field, then click it when it displays in the list
+1. Klicka på **Uppdrag** i den vänstra panelen och börja skriva namnet på en användare, roll eller team i fältet **Uppdrag** i fältet **Sök efter personer, roller eller team** och klicka sedan på det när det visas i listan
 
-   Or
+   eller
 
-   Click **Assign to me** to assign the issues to yourself.
+   Klicka på **Tilldela mig** om du vill tilldela utgåvorna till dig själv.
 
    >[!IMPORTANT]
    >
-   >If any of the issues is already assigned, the resources you indicate here are added to the issues instead of replacing the existing resources on the issues. 
-   
-1. (Optional) If you want to remove existing assignees from all issues, click the **x** next to their name.
+   >Om något av problemen redan har tilldelats läggs de resurser du anger här till i problemen i stället för att ersätta de befintliga resurserna i problemen.
 
-1. (Optional) Update the Planned Hours field. For more information, see [Edit issues](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md). 
+1. (Valfritt) Om du vill ta bort befintliga tilldelningar från alla utgåvor klickar du på **x** bredvid deras namn.
 
-1. Click **Save**.
-1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of issues, click inside one of these columns for an issue, then click the **X icon** next to the name of an assignee to remove it from the issue.
+1. (Valfritt) Uppdatera fältet Planerade timmar. Mer information finns i [Redigera problem](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
+
+1. Klicka på **Spara**.
+1. (Valfritt och villkorligt) När fälten Tilldelad till eller Uppdrag visas i listan med utgåvor klickar du i en av dessa kolumner för ett problem och sedan på ikonen **X** bredvid namnet på en tilldelad för att ta bort den från utgåvan.
 
 </div>
--->
+
