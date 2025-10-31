@@ -384,7 +384,7 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
 
    &lt;!-dra in punkterna under en gång till när de släpps för att visa Prod, och sedan en ny ny punkt för Förhandsvisa:
    1. (Villkorligt) Beroende på vilken miljö du använder aktiviteten från gör du följande:
-   1. <!--In the Production environment,AND ADD THIS TO THE STEP BELOW-->
+   1. &#x200B;<!--In the Production environment,AND ADD THIS TO THE STEP BELOW-->
 
 1. Klicka på **Sök efter personer, roller och team** och börja skriva namnet på en användare, roll eller team som du vill tilldela uppgiften. Klicka sedan på den eller tryck på Retur när den visas i listan.
 
