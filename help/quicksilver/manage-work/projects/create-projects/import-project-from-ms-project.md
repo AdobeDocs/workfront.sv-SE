@@ -6,16 +6,16 @@ description: Du kan importera projekt från Microsoft Project till Adobe Workfro
 author: Alina
 feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
 
 # Importera ett projekt från Microsoft Project
 
-<!-- Audited: 4/2025 -->
+<!-- Audited: 10/2025 -->
 
 Du kan importera projekt från Microsoft Project till Adobe Workfront och hantera alla projekt i ett och samma program. Varje gång du importerar ett projekt från Microsoft Project skapas ett nytt projekt i Workfront.
 
@@ -103,14 +103,16 @@ Du kan skapa ett projekt från området **Projekt** i **Huvudmenyn** eller från
 1. Logga in på Workfront.
 1. Gör något av följande:
 
-   * Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Workfront, eller klicka på **Huvudmeny** ![Huvudmenyrader](assets/lines-main-menu.png) i det övre vänstra hörnet, om det är tillgängligt, klicka på **Projekt** och expandera sedan **Nytt projekt**.
+   * Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet eller på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, om det är tillgängligt, klicka sedan på **Projekt** och expandera **Nytt projekt**.
    * Gå till en portfölj och expandera sedan **Nytt projekt**.
    * Gå till ett program och expandera sedan **Nytt projekt**.
    * Om du är gruppadministratör kan du skapa ett projekt i avsnittet **Projekt** i en grupp som du hanterar. Mer information finns i [Skapa och ändra en grupps projekt](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
-1. Klicka på **Importera MS-projekt**. Dialogrutan **Importera MS-fil** visas.
+1. Klicka på **Importera MS-projekt**.
 
    ![Listrutan Nytt projekt](assets/import-ms-project-option.png)
+
+   Rutan **Importera MS-fil** öppnas.
 
 1. Klicka på **Välj fil** och bläddra sedan efter XML-filen på datorn som du exporterade från Microsoft Project.
 1. Importera den markerade filen. Workfront påbörjar importprocessen och skapar ett nytt projekt baserat på den fil som exporteras från Microsoft Project.

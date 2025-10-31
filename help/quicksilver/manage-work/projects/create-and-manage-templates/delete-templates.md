@@ -6,7 +6,7 @@ description: Vi rekommenderar att du inaktiverar mallar som du inte längre anv�
 author: Alina
 feature: Work Management
 exl-id: 41e0979c-f8ef-4a07-8848-e4ee8cc212c5
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
@@ -95,6 +95,6 @@ Då öppnas en lista med mallar
 
    eller
 
-   Klicka på namnet på en mall för att komma åt den, klicka sedan på **Mer**-menyn ![Mer-ikonen](assets/qs-more-icon-on-an-object.png) och sedan på **Ta bort mall > Ja, ta bort den**.
+   Klicka på namnet på en mall för att komma åt den, klicka sedan på **Mer**-menyn ![Mer-ikonen](assets/more-icon.png) och sedan på **Ta bort mall > Ja, ta bort den**.
 
    Mallen är inte längre tillgänglig för att associeras med ett projekt.

@@ -6,16 +6,16 @@ description: Du kan skapa och ta bort mallar under Mallar. När du skapar en ny 
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
 
 # Skapa en projektmall
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 10/2025 -->
 
 Du kan skapa och ta bort mallar under Mallar. När du skapar en ny mall kan du ange informationen för alla uppgifter och för dina framtida projektinställningar. Den här informationen överförs sedan till alla projekt som du skapar från mallen.
 
@@ -94,7 +94,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Skapa en mall
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Mallar**.
+{{step1-to-templates}}
 
 1. Klicka på **Ny mall**.
 
@@ -104,33 +104,69 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. Ange ett namn för den nya mallen i mallhuvudet och tryck sedan på **Retur.**
 1. Klicka på avsnittet **Malluppgifter** i den vänstra panelen.
-1. Klicka på **Börja lägga till malluppgifter**.
+1. Klicka på **Börja lägga till malluppgifter** om du vill lägga till inline-aktiviteter
 
    eller
 
-   Klicka på **Ny mallaktivitet** om du vill lägga till aktiviteter i mallen.
+   Klicka på **Ny mallaktivitet** om du vill lägga till aktiviteter i mallen i rutan **Ny mallaktivitet**.
 
-   Att lägga till malluppgifter i en mall är detsamma som att lägga till uppgifter i ett projekt.
+   ![Ny mallaktivitet](assets/new-template-task-box.png)
 
-   Mer information om hur du lägger till uppgifter i ett projekt finns i [Skapa uppgifter i ett projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+1. Uppdatera information inom följande områden:
+
+   * Översikt
+   * Ekonomi
+   * Inställningar
+   * Uppdrag
+   * Anpassad Forms
+   * Bifoga dokument
+
+     Att uppdatera information för en malluppgift påminner om att redigera uppgifter i ett projekt. Mer information finns i [Redigera uppgifter](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
 
    >[!NOTE]
    >
    >Du kan inte lägga till återkommande uppgifter i en mall.
 
-1. (Valfritt) Klicka på ikonen **Gantt-schema** i det övre högra hörnet av uppgiftslistan för att visa en visuell representation av mallens uppgiftslista.
+1. Klicka på något av följande:
+
+   * **Spara mallaktivitet** om du vill spara den aktuella mallaktiviteten och stänger rutan Ny mallaktivitet.
+   * **Spara mallaktivitet och starta en annan** om du vill spara den aktuella mallaktiviteten och öppna en annan ny malluppgift om du vill lägga till en annan uppgift.
+   * **Avbryt** om du vill stänga rutan utan att spara mallaktiviteten.
+1. (Valfritt) När du har lagt till malluppgifterna kan du klicka på ikonen **Gantt-schema** i det övre högra hörnet i uppgiftslistan för att visa en visuell representation av mallens uppgiftslista.
 
    >[!TIP]
    >
    >Du kan inte redigera aktiviteter direkt från det här Gantt-diagrammet.
 
-1. Om du vill lägga till information i den nya mallen klickar du på ikonen **Mer** ![Mer](assets/more-icon.png) och sedan på **Redigera**.
+1. Om du vill lägga till information i den nya mallen klickar du på **Mer**-menyn ![Mer-ikonen](assets/more-icon.png) till vänster om mallnamnet i sidhuvudet och sedan på **Redigera**.
 
    Mer information om hur du redigerar en mall finns i [Redigera projektmallar](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-1. Klicka på **Spara ändringar**.
-1. (Valfritt) Om du vill lägga till ytterligare objekt i mallen läser du avsnittet [Lägg till ytterligare objekt i en mall](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#add-additional-items-to-a-template) i artikeln [Redigera projektmallar](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+   >[!NOTE]
+   >
+   >   Om en projektmall är associerad med en grupp (eller om det inte finns någon grupp) påverkar det hur inställningar för projekt, uppgift och problem bestämmer vissa inställningar i mallen.
+   >
+   >Mer information finns i avsnittet&quot;Hur inställningar gäller för mallar och malluppgifter&quot; i artikeln [Skapa och ändra en grupps projektmallar](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 
-## Mallinställningar som bestäms av gruppassociationen
+1. Klicka på **Spara**.
+1. (Valfritt) Lägg till följande objekt i mallen
 
-Om en projektmall är associerad med en grupp (eller om det inte finns någon grupp) påverkar det hur inställningar för projekt, uppgift och problem bestämmer vissa inställningar i mallen. Mer information finns i avsnittet [Skapa och ändra en grupps projektmallar](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#create-and-modify-a-groups-project-templates) i artikeln [Skapa och ändra en grupps projektmallar](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+   * Dokument
+   * Risker
+   * Godkännandeprocesser
+   * Faktureringstaxor
+   * Utgifter
+   * Köinformation
+   * Ämnesgrupper och Köämnen
+
+1. (Valfritt) Lägg till följande objekt till uppgifterna i mallen:
+
+   * Dokument
+   * Utgifter
+   * Godkännanden
+
+   Mer information finns i avsnittet Lägg till fler objekt i en mall i artikeln [Redigera projektmallar](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+
+
+
+

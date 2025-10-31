@@ -6,7 +6,7 @@ description: Du kan redigera projektmallar för att återspegla ändringar i pro
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
 source-wordcount: '5672'
 ht-degree: 0%
@@ -113,7 +113,7 @@ Du kan redigera en mall i taget eller redigera flera mallar samtidigt.
 
 1. Gå till mallen som du vill redigera.
 1. (Villkorligt) Om du vill redigera begränsad information om mallen klickar du på **Mallinformation** i den vänstra panelen och går sedan till de områden som visas i den vänstra panelen för att redigera information för varje område.
-1. Om du vill redigera information i detaljavsnittet klickar du på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) , väljer något av områdena nedan eller klickar på **Redigera alla** om du vill redigera information i alla områden:
+1. Om du vill redigera information i detaljavsnittet klickar du på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) , väljer något av områdena nedan eller klickar på **Redigera alla** om du vill redigera information i alla områden:
 
    * Översikt
    * Anpassad Forms
@@ -126,7 +126,7 @@ Du kan redigera en mall i taget eller redigera flera mallar samtidigt.
    >
    >Om du vill ha information om alla fält som visas i området Detaljer kan du fortsätta redigera alla fält med rutan Redigera mall nedan.
 
-1. (Villkorligt) Om du vill redigera all information om mallen klickar du på ikonen **Mer** ![Mer](assets/qs-more-icon-on-an-object.png) bredvid mallens namn och sedan på **Redigera**.
+1. (Villkorligt) Om du vill redigera all information om mallen klickar du på ikonen **Mer** ![Mer](assets/more-icon.png) bredvid mallens namn och sedan på **Redigera**.
 
    Rutan **Redigera mall** öppnas. Avsnitten i den här rutan innehåller fälten som är tillgängliga i avsnittet Mallinformation samt ytterligare fält.
 
@@ -820,12 +820,12 @@ Inaktiverade mallar påverkar inte befintliga projekt som skapats med dem.
 
 Så här inaktiverar du en mall:
 
-1. Gå till en aktiv mall och klicka sedan på menyn **Mer** ![Mer-ikon](assets/qs-more-icon-on-an-object.png) bredvid mallnamnet och klicka sedan på **Inaktivera**.
+1. Gå till en aktiv mall och klicka sedan på menyn **Mer** ![Mer-ikon](assets/more-icon.png) bredvid mallnamnet och klicka sedan på **Inaktivera**.
 
    ![Inaktivera mall](assets/deactivate-template-link-in-more-menu.png)
 
    Mallen är inte längre aktiv och användarna kan inte längre hitta den för att skapa projekt utifrån den.
-1. (Valfritt) Om du vill aktivera mallen klickar du på menyn **Mer** ![Mer ikon](assets/qs-more-icon-on-an-object.png) bredvid mallnamnet och sedan på **Aktivera**.
+1. (Valfritt) Om du vill aktivera mallen klickar du på menyn **Mer** ![Mer ikon](assets/more-icon.png) bredvid mallnamnet och sedan på **Aktivera**.
 
    Mallen är nu aktiv och kan bifogas till projekt eller användas för att skapa projekt.
 
@@ -850,7 +850,7 @@ Editing a template differs depending on what environment you choose.
    >
    >For information about all fields that display in the Details area, continue with editing all fields using the Edit Template box below.
 
-1. (Conditional) To edit all information about the template, click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png) next to the name of the template, then click **Edit**.
+1. (Conditional) To edit all information about the template, click the **More** menu ![More icon](assets/more-icon.png) next to the name of the template, then click **Edit**.
 
    The **Edit Template** box opens. The sections in this box contain the same fields available in  the Template Details section .
 

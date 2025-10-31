@@ -6,7 +6,7 @@ description: Spara ett projekt som en mallSpara som mall på projektnivå, så a
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%
@@ -103,7 +103,7 @@ Saving a project as a template differs in the Production and the Preview environ
 
 
 1. Go to the project that you want to save as a template. 
-1. Click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png), then **Save as Template**. 
+1. Click the **More** menu ![More icon](assets/more-icon.png), then **Save as Template**. 
 1. Specify the following information for the template:
 
    <table style="table-layout:auto"> 

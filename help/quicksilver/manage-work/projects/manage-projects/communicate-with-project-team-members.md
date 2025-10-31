@@ -6,9 +6,9 @@ description: Du kan enkelt kommunicera med medlemmarna i ditt projektteam via Ad
 author: Alina
 feature: Work Management
 exl-id: 2dadc10c-ffa8-4bb5-b2f1-14e2a8f0a7d6
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Du kan enkelt kommunicera med medlemmarna i ditt projektteam via Adobe Workfront.
 
-Alla användare som är kopplade till ett projekt kommer från projektgruppen. Mer information om projektteamet finns i [Översikt över projektteamet](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+Alla användare som är kopplade till ett projekt kommer från projektgruppen. Mer information om projektteamet finns i [Översikt över projektteamet](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Åtkomstkrav
 
@@ -71,7 +71,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to&nbsp;Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -89,33 +89,33 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 
    eller
 
-   Om du vill uppdatera vissa medlemmar i projektteamet väljer du en eller flera användare i listan och klickar sedan på **Skicka uppdatering till användare**&#x200B;**&#x200B;**.\
-   ![Kommentar_1.png](assets/commenting-1-350x352.png)
+   Om du vill uppdatera vissa medlemmar i projektteamet väljer du en eller flera användare i listan och klickar sedan på **Skicka uppdatering till användare**.
 
-1. Skriv din uppdatering i fältet **Publicera en uppdatering för projektet**.
-1. (Valfritt) Om du vill göra uppdateringen privat klickar du på ikonen **Lås** .
+   ![Skicka uppdatering till användarruta i projekt](assets/send-update-to-user-box-on-project.png)
+
+1. Skriv din uppdatering i **Publicera en uppdatering av projektet**.
+1. (Valfritt) Markera alternativet **Privat till mitt företag** om du vill göra uppdateringen privat.
 
    Användare utanför företaget kan inte visa en privat uppdatering.
 
-1. (Valfritt) Klicka på ikonen **Personer** om du vill lägga till fler mottagare som inte är markerade.
+1. (Valfritt) Klicka på **Tagga personer** om du vill lägga till fler mottagare som inte är markerade.
 1. Klicka på **Skicka**.
 
-   Uppdateringen och namnen på de användare som ingår i den visas på fliken Uppdateringar i projektet.
+   Uppdateringen och namnen på de användare som ingår visas i avsnittet **Uppdateringar** i projektet.
 
 ## Skicka uppdateringar till projektgruppsmedlemmar och andra
 
 Du kan skicka projektuppdateringar till teammedlemmar och till andra användare som kanske inte ingår i projektteamet. Alla användare måste ha ett aktivt Workfront-konto. Uppdateringen skickas som ett meddelande i Workfront.
 
 1. Gå till ett projekt från vilket du vill skicka uppdateringar till andra användare.
-1. (Valfritt och villkorligt) Om användarna som du vill skicka uppdateringar till inte är med i projektteamet lägger du till dem i projektteamet.
+1. Klicka på **Personer** i den vänstra panelen.
+1. (Valfritt och villkorligt) Om användarna som du vill skicka uppdateringar till inte finns i projektteamet klickar du på **Lägg till användare** för att lägga till dem i projektteamet.
 
    Mer information om hur du lägger till användare i projektteamet finns i [Hantera projektteamet](../../../manage-work/projects/planning-a-project/manage-project-team.md).
 
-1. Skicka en uppdatering till medlemmarna i projektteamet enligt beskrivningen i
+1. Skicka en uppdatering till medlemmarna i projektteamet, enligt beskrivningen i avsnittet [Skicka ett e-postmeddelande till en projektgruppsmedlem](#send-an-email-to-a-project-team-member) i den här artikeln.
 
-   [Skicka ett e-postmeddelande till en projektgruppsmedlem](#send-an-email-to-a-project-team-member) i den här artikeln.
-
-   Uppdateringen och namnen på de användare som ingår i den visas på fliken Uppdateringar i projektet.
+   Uppdateringen och namnen på de användare som ingår i den visas i avsnittet **Uppdateringar** i projektet.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(NOTE: drafted. No longer valid)</p>
@@ -124,8 +124,8 @@ Du kan skicka projektuppdateringar till teammedlemmar och till andra användare 
 <li value="2"> Click <strong>People</strong> in the left panel.</li>
 <li value="3"> <p>To update all members of the project team, click <strong>Update All</strong> in the upper-left corner of the list of project team members.</p> <p>Or</p> <p>To update certain members of the project team, select one or several users in the list, then click <strong>Update</strong>. </p> </li>
 <li value="4">Type your update in the <strong>Post an update to this project</strong> field.</li>
-<li value="5"> <p>(Optional) To make the update private, click the <strong>Lock</strong> icon.</p> <p>Users outside the company cannot view a private&nbsp;update.</p> </li>
-<li value="6"> <p>(Optional) Add a user who is not&nbsp;part of the Project&nbsp;Team by typing their name in the people field, then selecting the user from the list when it displays. </p> </li>
+<li value="5"> <p>(Optional) To make the update private, click the <strong>Lock</strong> icon.</p> <p>Users outside the company cannot view a private update.</p> </li>
+<li value="6"> <p>(Optional) Add a user who is not part of the Project Team by typing their name in the people field, then selecting the user from the list when it displays. </p> </li>
 <li value="7"> <p>Click <strong>Send.</strong></p> <p>The update and the names of the users included in it display in the Updates tab of the project.</p> </li>
 </ol> </p>
 -->

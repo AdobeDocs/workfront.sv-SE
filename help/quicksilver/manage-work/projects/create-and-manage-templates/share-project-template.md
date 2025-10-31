@@ -6,7 +6,7 @@ description: Du kan dela en mall med användare eller definiera hur projekt som 
 author: Alina
 feature: Work Management
 exl-id: 99c6b241-a2c9-4b6c-b605-177bbbc3f21a
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 0%
@@ -93,7 +93,7 @@ Så här delar du en mall:
 1. Klicka på **Mallar** från ikonen ![Huvudmeny](assets/main-menu-icon.png) **Huvudmeny**.
 
 1. Gör något av följande:\
-   Klicka på namnet på en mall för att öppna den, klicka sedan på **Mer**-menyn ![Mer-ikonen](assets/qs-more-icon-on-an-object.png) och sedan på **Malldelning**.
+   Klicka på namnet på en mall för att öppna den, klicka sedan på **Mer**-menyn ![Mer-ikonen](assets/more-icon.png) och sedan på **Malldelning**.
 
    eller
 
@@ -128,7 +128,7 @@ Med Projektdelning för mallar kan du definiera vem som har behörighet för de 
 Så här delar du framtida projekt som skapats från en mall med användare:
 
 1. Gör något av följande:\
-   Klicka på namnet på en mall för att öppna den, klicka sedan på **Mer**-menyn ![Mer-ikonen](assets/qs-more-icon-on-an-object.png) och sedan på **Malldelning**.
+   Klicka på namnet på en mall för att öppna den, klicka sedan på **Mer**-menyn ![Mer-ikonen](assets/more-icon.png) och sedan på **Malldelning**.
 
    ![Dela projekt från mall](assets/project-sharing-on-template-nwe-2022-350x172.png)
 

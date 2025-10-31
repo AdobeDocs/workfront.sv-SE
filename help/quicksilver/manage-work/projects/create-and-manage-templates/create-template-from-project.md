@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
 
 # Skapa mall från projekt
+
+<!--Audited: 10/2025-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Note: Keep this article in the Creating and Managing Templates area with the detailed information that this contains. Since this is an article about creating TEMPLATES, this needs to be detailed under Templates; there is a similar article with almost the same title in Managing projects that points to this one - since this functionality is in the UI under Projects, this article must have a presence in that areas as well. Keep both, but make this one the only editable one (iterative))</p>
@@ -89,7 +91,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 ## Skapa mall från projekt
 
 1. Gå till det projekt som du vill spara som en mall.
-1. Klicka på **Mer**-menyn ![Mer-ikonen](assets/qs-more-icon-on-an-object.png) och sedan på **Spara som mall**.
+1. Klicka på **Mer**-menyn ![Mer-ikonen](assets/more-icon.png) och sedan på **Spara som mall**.
 1. Ange följande information för mallen:
 
    <table style="table-layout:auto"> 
@@ -97,7 +99,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Namn</td> 
+      <td role="rowheader">Mallnamn</td> 
       <td>Ange ett namn för mallen.</td> 
      </tr> 
      <tr> 
@@ -112,29 +114,32 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
         <li><strong>Nej</strong>: Andra användare kan inte hitta mallen och kan inte bifoga den till projekt.</li> 
        </ul> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">Anpassad Forms</td> 
-      <td>Använd listrutan för att välja anpassade formulär som ska bifogas mallen. Om några anpassade formulär redan har associerats med projektet visas alla datafält från dessa anpassade formulär.<br>Du kan inkludera upp till 10 anpassade formulär i en enda mall.</td> 
-     </tr> 
     </tbody> 
    </table>
 
-1. Klicka på **Hantera Forms** om du vill ta bort eller ordna om formulären. Mer information om hur du tar bort och ändrar ordning på anpassade formulär i mallen finns i [Anpassade formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
+1. Klicka på **Egen Forms** i den vänstra panelen.
+1. Klicka på fältet **Lägg till anpassat formulär** och börja skriva namnet på ett projekt som är anpassat för, eller välj ett från listan.
 
-   ![Spara som mall, första steget](assets/save-as-template-first-step-350x159.png)
+   Om det redan finns anpassade formulär kopplade till projektet visas all information i de befintliga fälten från dessa anpassade formulär i formulären.
 
-1. Klicka på **Nästa steg.**
-1. I avsnittet **Alternativ** markerar du kryssrutan bredvid eventuell information som du vill ta bort från mallen.
+   Du kan inkludera upp till 10 anpassade formulär i en och samma mall.
 
-   ![Alternativ för Spara som mall](assets/save-as-template-options-step-350x109.png)
+1. Håll muspekaren över namnet på ett formulär och klicka sedan för att dra och släppa det på en ny plats.
 
-1. Klicka på **Nästa steg.**
-1. I avsnittet **Uteslut** väljer du de uppgifter du vill utesluta från projektet.
+   ![Spara projektet som mallsida högst upp i rutan](assets/save-project-as-template-top-of-the-form.png)
 
-   ![Spara som mall exkludera](assets/save-as-template-exclude-350x205.png)
+1. Klicka på **Alternativ** i den vänstra panelen och markera sedan de fält eller objekt som du vill överföra till mallen.
+
+   Alla objekt är markerade som standard. Avmarkerade objekt överförs inte till mallen.
+
+   ![Alternativ för Spara som mall](assets/save-project-as-template-options-area.png)
+
+1. Klicka på **Uteslut** i den vänstra panelen och välj sedan de uppgifter som du vill utesluta från projektet.
+
+   ![Spara som mall exkludera](assets/save-project-as-template-exclude-area.png)
 
 1. Klicka på **Slutför och spara mall.**
 
-   Mallen visas nu i listan med tillgängliga mallar och kan antingen bifogas till ett befintligt projekt eller användas för att skapa ett nytt.
+   Mallen visas nu i listan över tillgängliga mallar. Användarna kan antingen bifoga den nya mallen till ett befintligt projekt eller använda den för att skapa ett projekt.
 
- 
+

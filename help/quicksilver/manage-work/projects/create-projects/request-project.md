@@ -6,16 +6,16 @@ description: Du kan begära att ett projekt ska godkännas innan du börjar arbe
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
 
 # Begär ett projekt
 
-<!--Audited: April 2024-->
+<!--Audited: 10/2025-->
 
 Du kan begära att ett projekt ska godkännas innan du börjar arbeta med det.
 
@@ -114,10 +114,12 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
    * Följ samma steg som när du skapar ett projekt när du definierar ett affärsärende. (rekommenderas)
 
-     Mer information om hur du definierar ett affärsärende och begär ett projekt finns i [Skapa ett affärsärende för ett projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+     Mer information finns i [Skapa ett affärsärende för ett projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
    * Skapa ett projekt från grunden eller med en mall och ändra statusen till **Begärd**.
 
-     Mer information om hur du skapar ett projekt finns i [Skapa ett projekt](../../../manage-work/projects/create-projects/create-project.md) eller [Skapa ett projekt med en mall](../../../manage-work/projects/create-projects/create-project-from-template.md).
+     Mer information finns i [Skapa ett projekt](../../../manage-work/projects/create-projects/create-project.md) eller [Skapa ett projekt med en mall](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
-   Det projekt som du begär har statusen **Begärd** och visas på fliken **Begärda projekt** på en Portfolio, om du har associerat det med en Portfolio. En portföljförvaltare kan nu granska den och antingen godkänna den eller avvisa den. I så fall ändras projektets status till antingen **Godkänd** eller **Avvisad**.
+   Det projekt som du begär har statusen **Begärd** och visas på fliken **Begärda projekt** på en Portfolio, om du har associerat det med en Portfolio.
+
+   En portföljförvaltare kan nu granska den och antingen godkänna den eller avvisa den. I så fall ändras projektets status till antingen **Godkänd** eller **Avvisad**.

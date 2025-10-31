@@ -6,9 +6,9 @@ description: Ett projekt är en stor arbetsenhet i Adobe Workfront. Du kan skapa
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1291'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--remove Preview and Production references-->
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 110/2025 -->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -169,7 +169,7 @@ Tänk på följande:
 
 1. Gör något av följande:
 
-   * Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet. Klicka på **Projekt** och expandera sedan **Nytt projekt**.
+   * Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet eller på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, om det är tillgängligt, klicka sedan på **Projekt** och expandera **Nytt projekt**.
    * Gå till en portfölj och expandera sedan **Nytt projekt**.
    * Gå till ett program och expandera sedan **Nytt projekt**.
    * Om du är gruppadministratör kan du även skapa ett projekt i avsnittet Projekt i en grupp som du hanterar. Mer information finns i [Skapa och ändra en grupps projekt](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
@@ -191,13 +191,21 @@ Tänk på följande:
 
    Mer information om hur du lägger till uppgifter i ett projekt finns i [Skapa uppgifter i ett projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-1. Redigera projektinformationen genom att klicka på menyn **Mer** och sedan på **Redigera** ![Redigera-ikonen](assets/qs-edit-icon.png) bredvid namnet på projektet.
+1. Redigera projektinformationen genom att klicka på menyn **Mer** till höger om projektnamnet, i huvudet och sedan på **Redigera** ![Redigera-ikonen](assets/qs-edit-icon.png) bredvid namnet på projektet.
 
-   Dialogrutan **Redigera projekt** öppnas.
+   Rutan **Redigera projekt** öppnas.
+
+1. Lägg till information om projektet.
 
    Mer information om hur du redigerar ett projekt finns i [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. (Valfritt) När du har konfigurerat projektinställningarna och lagt till uppgifterna kan du ändra projektets status till **Aktuell**.
+   >[!TIP]
+   >
+   >Projektets status ska vara Planering eller en annan status som inte är Aktuell. På så sätt kan du göra ändringar i projektet utan att generera meddelanden till projektdeltagarna.
+
+1. Klicka på **Spara** för att spara ändringarna.
+
+1. (Valfritt) När du har konfigurerat projektinställningarna och lagt till aktiviteterna kan du ändra projektets status till **Aktuell** i projekthuvudet.
 
    Detta anger att projektet nu är klart att starta och att användare som är tilldelade till uppgifterna nu kan börja arbeta med dem.
 

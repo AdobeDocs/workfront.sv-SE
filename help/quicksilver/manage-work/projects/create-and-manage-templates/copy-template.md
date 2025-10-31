@@ -6,7 +6,7 @@ description: Förutom att skapa en projektmall från grunden kan du även kopier
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 0%
@@ -102,7 +102,7 @@ Följande objekt kopieras aldrig från en befintlig mall till en ny:
 <!--ensure steps and casing on the fields and buttons is accurate with unshim-->
 
 1. Gå till mallen som du vill kopiera.
-1. Klicka på **Mer**-menyn ![Mer-ikonen](assets/qs-more-icon-on-an-object.png) till höger om mallnamnet i sidhuvudet och klicka sedan på **Kopiera**.
+1. Klicka på **Mer**-menyn ![Mer-ikonen](assets/more-icon.png) till höger om mallnamnet i sidhuvudet och klicka sedan på **Kopiera**.
 
    Rutan **Kopiera mall** öppnas.
 

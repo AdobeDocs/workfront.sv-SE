@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '3829'
+source-wordcount: '3862'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 # Redigera uppgifter
 
 <!--Audited: 10/2025-->
+
+<!--take out prod and preview references at release-->
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -380,8 +382,8 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
 
    ![](assets/nwe-assignments-section-edit-task-box-350x217.png)
 
-   <!--indent the bullets below one more time at release to show Prod, and then another fresh bullet for Preview:
-   1. (Conditional) Depending on the environment from which you access task, do the following:
+   &lt;!-dra in punkterna under en gång till när de släpps för att visa Prod, och sedan en ny ny punkt för Förhandsvisa:
+   1. (Villkorligt) Beroende på vilken miljö du använder aktiviteten från gör du följande:
    1. <!--In the Production environment,AND ADD THIS TO THE STEP BELOW-->
 
 1. Klicka på **Sök efter personer, roller och team** och börja skriva namnet på en användare, roll eller team som du vill tilldela uppgiften. Klicka sedan på den eller tryck på Retur när den visas i listan.
@@ -530,15 +532,16 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
    </tbody>
    </table>
 
-   <!-- Indent this according to what you did above: 
-      <div class="preview">
+   <!--Indent this according to what you did above: 
 
-      1. In the Preview environment, start typing the name of a user, job role, or team in the **Search people, role or team** field, then select them when they display in the list
+      1. <span class="preview">In the Preview environment, start typing the name of a user, job role, or team in the **Search people, role or team** field, then select them when they display in the list</span>
 
-         Or
+      Or
 
-      Click **Assign to me** to assign the task to yourself. 
+      <span class="preview">Click **Assign to me** to assign the task to yourself. </span>
+
       1. Update the following information:
+
 
       1. (Conditional and optional) Update the following fields: 
 
@@ -547,101 +550,97 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
       <col> 
       <tbody> 
       <tr> 
-         <td role="rowheader">Duration Type</td> 
-         <td> <p>This identifies the relationship between the following: </p> 
-         <ul> 
-         <li> <p>The number of resources assigned to a task </p> </li> 
-         <li> <p>The total effort required to complete the task </p> </li> 
-         <li> <p> The total duration of the task. </p> </li> 
-         </ul> <p>Your Workfront administrator or a group administrator selects the default Duration Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configure system-wide task and issue preferences</a>. </p> <p>Duration Types enable you to set consistent resource assignments based on the needs of the task. For more information about the Duration Type of a task, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>. </p> <p>Select from the following options: </p> 
-         <ul> 
-         <li> <p>Calculated Assignment </p> </li> 
-         <li> <p> Calculated Work </p> </li> 
-         <li> <p>Effort Driven </p> </li> 
-         <li> <p>Simple</p> </li> 
-         </ul> </td> 
+      <td role="rowheader">Duration Type</td> 
+      <td> <p>This identifies the relationship between the following: </p> 
+      <ul> 
+      <li> <p>The number of resources assigned to a task </p> </li> 
+      <li> <p>The total effort required to complete the task </p> </li> 
+      <li> <p> The total duration of the task. </p> </li> 
+      </ul> <p>Your Workfront administrator or a group administrator selects the default Duration Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configure system-wide task and issue preferences</a>. </p> <p>Duration Types enable you to set consistent resource assignments based on the needs of the task. For more information about the Duration Type of a task, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>. </p> <p>Select from the following options: </p> 
+      <ul> 
+      <li> <p>Calculated Assignment </p> </li> 
+      <li> <p> Calculated Work </p> </li> 
+      <li> <p>Effort Driven </p> </li> 
+      <li> <p>Simple</p> </li> 
+      </ul> </td> 
       </tr> 
-      <!--<tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-         <td role="rowheader">Duration per Occurrence</td> 
-         <td> <p>This displays only on the parent of recurring tasks. It displays the duration of each recurring task, as defined when the task was created. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>. </p> <p> <b>NOTE</b> 
-         
-         Durations modified in individual recurring tasks do not display the value indicated in this field. </p> </td> 
-      </tr> -->
-   <!--
+      <td role="rowheader">Duration per Occurrence</td> 
+      <td> <p>This displays only on the parent of recurring tasks. It displays the duration of each recurring task, as defined when the task was created. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>. </p> <p> <b>NOTE</b>          
+      Durations modified in individual recurring tasks do not display the value indicated in this field. </p> </td> 
+      </tr>
       <tr> 
-         <td role="rowheader">Duration</td> 
-         <td> 
-         <div> 
-         <div> 
-         <p>This is the amount of time that you allow a task to remain open before it is completed. </p> 
-         <p><b>IMPORTANT</b>
-         
-         Because the task duration is typically the amount of time between the Planned Start and the Planned Completion Dates, it affects the timeline of the project.</p> 
-         
-         <p>To indicate the Duration of the task and the unit of time do the following:</p> 
-         <ul> 
-         <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Type the length of time and select from the units of time available in the drop-down menu.</p> <p><b>TIP</b></p>
-         When you update the Duration of tasks in a task list, you can use the abbreviation for the unit of time. </p> </li> 
-         </ul> 
-         <p> You can choose from the regular time or elapsed time options in the following table: </p> 
-         <table style="table-layout:auto"> 
-         <col> 
-         <col data-mc-conditions=""> 
-         <tbody> 
-         <tr> 
-         <td>Unit of Time</td> 
-         <td>Abbreviation</td> 
-         </tr> 
-         <tr> 
-         <td>Minutes</td> 
-         <td>M</td> 
-         </tr> 
-         <tr> 
-         <td>Hours</td> 
-         <td>H</td> 
-         </tr> 
-         <tr> 
-         <td>Days. This is the default. </td> 
-         <td>D</td> 
-         </tr> 
-         <tr> 
-         <td>Weeks</td> 
-         <td>W</td> 
-         </tr> 
-         <tr> 
-         <td>Months</td> 
-         <td>T</td> 
-         </tr> 
-         <tr> 
-         <td>Elapsed Minutes</td> 
-         <td>EM</td> 
-         </tr> 
-         <tr> 
-         <td>Elapsed Hours</td> 
-         <td>EH</td> 
-         </tr> 
-         <tr> 
-         <td>Elapsed Days</td> 
-         <td>ED</td> 
-         </tr> 
-         <tr> 
-         <td>Elapsed Weeks</td> 
-         <td>EW</td> 
-         </tr> 
-         <tr> 
-         <td>Elapsed Months</td> 
-         <td>ET</td> 
-         </tr> 
-         </tbody> 
+      <td role="rowheader">Duration</td> 
+      <td> 
+      <div> 
+      <div> 
+      <p>This is the amount of time that you allow a task to remain open before it is completed. </p> 
+      <p><b>IMPORTANT</b>
+   
+      Because the task duration is typically the amount of time between the Planned Start and the Planned Completion Dates, it affects the timeline of the project.</p> 
+   
+      <p>To indicate the Duration of the task and the unit of time do the following:</p> 
+      <ul> 
+      <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Type the length of time and select from the units of time available in the drop-down menu.</p> <p><b>TIP</b></p>
+      When you update the Duration of tasks in a task list, you can use the abbreviation for the unit of time. </p> </li> 
+      </ul> 
+      <p> You can choose from the regular time or elapsed time options in the following table: </p> 
+      <table style="table-layout:auto"> 
+      <col> 
+      <col data-mc-conditions=""> 
+      <tbody> 
+      <tr> 
+      <td>Unit of Time</td> 
+      <td>Abbreviation</td> 
+      </tr> 
+      <tr> 
+      <td>Minutes</td> 
+      <td>M</td> 
+      </tr> 
+      <tr> 
+      <td>Hours</td> 
+      <td>H</td> 
+      </tr> 
+      <tr> 
+      <td>Days. This is the default. </td> 
+      <td>D</td> 
+      </tr> 
+      <tr> 
+      <td>Weeks</td> 
+      <td>W</td> 
+      </tr> 
+      <tr> 
+      <td>Months</td> 
+      <td>T</td> 
+      </tr> 
+      <tr> 
+      <td>Elapsed Minutes</td> 
+      <td>EM</td> 
+      </tr> 
+      <tr> 
+      <td>Elapsed Hours</td> 
+      <td>EH</td> 
+      </tr> 
+      <tr> 
+      <td>Elapsed Days</td> 
+      <td>ED</td> 
+      </tr> 
+      <tr> 
+      <td>Elapsed Weeks</td> 
+      <td>EW</td> 
+      </tr> 
+      <tr> 
+      <td>Elapsed Months</td> 
+      <td>ET</td> 
+      </tr> 
+      </tbody> 
       </table> 
 
       <p><b>NOTE</b>
-         
+      
       <p>Elapsed time is a unit of time for a task's Duration. It is the time between the Planned Start Date and the Planned Completion Date of a task that includes holidays, weekends, and time off. In other words, elapsed time is the passage of calendar days. 
 
       Regular time takes into account holidays, weekends, and time off and excludes them from the Duration of the task. For more information about task duration, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>. </p>
-      </div> 
-      </div> </td> 
+      </td> 
       </tr> 
       <tr> 
       <td role="rowheader">Planned Hours</td> 
@@ -653,8 +652,10 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
       
       </td> 
       </tr> 
-      
-      <!--<tr> 
+      </tbody> 
+      </table>
+
+      (**********<tr> 
       <td role="rowheader">Allocation</td> 
       <td> <p>If your Task Constraint is Calculated Work or Effort Driven, specify the <strong>Allocation %</strong> (allocation percentage) for each assignee. This is the amount of time from the schedule of the assignee that they can spend on this task. Changing the allocation percentage for an assignee will change the Planned Hours of a task. </p> <p>When the Task Constraint is Simple, you can specify the following:</p> 
          <ul> 
@@ -666,15 +667,12 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
       <tr> 
       <td role="rowheader">Assignee's Role</td> 
       <td> <p>Select a role from the <strong>Assignee's Role</strong> drop-down menu when you selected a person as an assignee. This is the role that the assignee can fulfill on this task. </p> <p><b>TIP</b>
-      
-      Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
-         </tr> ->
+            Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
+         </tr>
          </tbody> 
-         </table>
+         </table>************)-->
 
-      </div>-->
-
-1. Klicka på **Spara** eller fortsätt med följande avsnitt.
+1. Klicka på **Spara ändringar** <!--<span class="preview"> or **Save** </span> --> eller fortsätt med följande avsnitt.
 
 ### Anpassad Forms
 
