@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: cccef57d9a83fa138282200d85c2851570a4b9b1
+source-git-commit: 62177a9cedcaf3155f95e91fc4ee506d7f6a04aa
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 14%
+source-wordcount: '481'
+ht-degree: 13%
 
 ---
 
@@ -23,6 +23,10 @@ Adobe Workfront släpper regelbundet nya API-versioner, vanligtvis två gånger 
 Mer information om hur du identifierar och använder API-versioner finns i [Ange en API-version i integreringarna](/help/quicksilver/wf-api/api/specify-api-version-integrations.md).
 
 I följande tabell visas releasen och supportplanen för Workfront API.
+
+>[!NOTE]
+>
+>Den äldre Workfront-anslutningen använder Workfront API version 20, som är inaktuell i version 28.4 (april 2028). Modulerna i den äldre kopplingen fortsätter att fungera tills dess.
 
 <table style="table-layout:auto"> 
  <col> 
