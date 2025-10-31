@@ -6,9 +6,9 @@ description: Adobe Workfront släppte API-version 21 den 23 oktober 2025. API ve
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 1c3272c7830bf0a6feddea0281b0e2879b87eacf
+source-git-commit: 155323314712e020a638619d9bf10d678078645e
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
@@ -343,9 +343,6 @@ Ett kategoriobjekt är ett anpassat formulär.
             <p>Följande möjliga värden har lagts till:</p>
              <ul>
               <li>
-                <p><code>SPTMPL</code> (enum.categytypeenum.staffingplantemplate)</p>
-              </li>
-              <li>
                 <p><code>TEAMOB</code> (Team)</p>
               </li>
             </ul>
@@ -355,9 +352,6 @@ Ett kategoriobjekt är ett anpassat formulär.
             </p>
             <p>Följande möjliga värden har lagts till:</p>
              <ul>
-              <li>
-                <p><code>SPTMPL</code> (enum.categytypeenum.staffingplantemplate)</p>
-              </li>
               <li>
                 <p><code>TEAMOB</code> (Team)</p>
               </li>
