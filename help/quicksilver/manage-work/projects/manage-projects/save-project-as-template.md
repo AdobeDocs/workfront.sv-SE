@@ -6,9 +6,9 @@ description: Spara ett projekt som en mallSpara som mall på projektnivå, så a
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ Saving a project as a template differs in the Production and the Preview environ
 -->
 
 1. Gå till det projekt som du vill spara som en mall.
-1. Klicka på **Mer**-menyn ![Mer-ikonen](assets/qs-more-icon-on-an-object.png) och sedan på **Spara som mall**.
+1. Klicka på ikonen **Mer** meny ![Mer](assets/qs-more-icon-on-an-object.png) till höger om projektnamnet i sidhuvudet och sedan på **Spara som mall**.
 1. I avsnittet **Spara som mall** anger du följande information för mallen:
 
    <table style="table-layout:auto"> 

@@ -6,9 +6,9 @@ description: Du kan dela en mall med användare eller definiera hur projekt som 
 author: Alina
 feature: Work Management
 exl-id: 99c6b241-a2c9-4b6c-b605-177bbbc3f21a
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '720'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Du kan dela dina mallar med andra användare genom att använda malldelning. Den
 
 Så här delar du en mall:
 
-1. Klicka på **Mallar** från ikonen ![Huvudmeny](assets/main-menu-icon.png) **Huvudmeny**.
+{{step1-to-templates}}
 
 1. Gör något av följande:\
    Klicka på namnet på en mall för att öppna den, klicka sedan på **Mer**-menyn ![Mer-ikonen](assets/more-icon.png) och sedan på **Malldelning**.
