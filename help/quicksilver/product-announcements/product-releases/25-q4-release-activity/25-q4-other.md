@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 357b5a80-424a-475c-9163-82cffbbd253e
-source-git-commit: 0c8d84cfcc87728e809061c01c56322f3fd1f2f6
+source-git-commit: b78f794ece181da3f4db3a1b9b78e794b16a09ed
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,34 @@ ht-degree: 0%
 Den här sidan beskriver förbättringar som gjorts i den fjärde utgåvan av kvartal 2025 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den fjärde utgåvan av kvartal 2025 finns i [Översikt över utgåvan fjärde kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+## Uppdateringar på fliken Sammanfattning av rapporter
+
+>[!NOTE]
+>
+>* Förhandsgranska: 13 oktober 2025
+>* Production fast release: 13 oktober 2025
+>* Produktion för alla kunder: 13 oktober 2025
+>[!BADGE Frånschemat ]{type=Neutral}
+
+Fliken Sammanfattning i en rapport har uppdaterats med följande förbättringar:
+
+* De grupperingsfältsnamn som är prefix för varje rad har flyttats till den första kolumnrubriken.
+
+* Namnkolumnen är nu snedstrecksavgränsad (avgränsad med ett snedstreck) när flera grupperingsnivåer används i en rapport.
+
+* Aggregeringstypprefixet (&quot;Sum: &quot;, &quot;Max: &quot;, &quot;Min: &quot;, &quot;Avg: &quot;) har tagits bort från varje aggregering.
+
+* Aggregeringstypen för varje kolumn visas nu som en bilaga till kolumnrubrikvärdet.
+
+* Delgrupperingar (2 eller 3 grupperingar) visas som indragna nivåer i den första kolumnen. Grupperingar på den översta nivån visas fortfarande i fet stil.
+
+* Nu kan du justera kolumnbredderna. Kolumnerna återställs till standardbreddfördelningen när sidan uppdateras.
+
+>[!NOTE]
+>
+>De första fyra ändringarna gäller även för export på fliken Sammanfattning där det är tillämpligt. Nivåindrag och fetstil överförs inte till en exporterad tabbavgränsad textfil.
+
 
 ## Adobe Unified Experience finns nu för fler Workfront-organisationer
 
