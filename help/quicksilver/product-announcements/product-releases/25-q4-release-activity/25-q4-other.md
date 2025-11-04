@@ -25,7 +25,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 >* Förhandsgranska: 13 oktober 2025
 >* Production fast release: 13 oktober 2025
 >* Produktion för alla kunder: 13 oktober 2025
->[!BADGE Frånschemat ]{type=Neutral}
+>[!BADGE Frånschemat &#x200B;]{type=Neutral}
 
 Fliken Sammanfattning i en rapport har uppdaterats med följande förbättringar:
 
