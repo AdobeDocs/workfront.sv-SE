@@ -5,9 +5,9 @@ description: Funktionen Project Health utnyttjar funktionerna i AI Assistant fö
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: 8ece3c614febb6f480b352323721bcc9dcc940b6
+source-git-commit: ed5a8725442a0b3de993a4e8f47280bfc7d88160
 workflow-type: tm+mt
-source-wordcount: '1969'
+source-wordcount: '1965'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ AI Assistant ger dig en snabb bedömning av ett projekts övergripande tillstån
 * Risk
 * I problem
 
-Detta tillstånd beräknas med hjälp av projekt- och programkomponenterna, till exempel projektets förlopp, underskattat arbete och mycket annat. En fullständig lista över de komponenter som används för att mäta Project Health finns i avsnittet [Lista över projekt- och programtillstånd](#project-and-program-states-list).
+Det här läget beräknas med projektkomponenter, som projektförlopp, underskattat arbete och mycket annat. En fullständig lista över de komponenter som används för att mäta Project Health finns i avsnittet [Lista över projekt- och programtillstånd](#project-and-program-states-list).
 
 Varje projektkomponent tilldelas en numerisk riskpoäng som sträcker sig från (0-100), som sedan beräknas som ett genomsnitt för att skapa det övergripande Project Health-tillståndet:
 
@@ -110,7 +110,7 @@ I det första exemplet utvärderas fyra projektkomponenter och deras individuell
 * 1 Vid risk (45 riskpoäng)
 * 1 I Problem (20 riskpoäng)
 
-När du räknar ut dessa poäng blir resultatet 61. Med hjälp av de kriterier för projekthälsotillstånd som anges ovan är projektet i riskläge.
+När du räknar ut dessa poäng blir resultatet 61. Med hjälp av de ovan angivna kriterierna för Projekthälsa hamnar projektet i riskläge.
 
 I nästa exempel har en schemaändring på 1 dag inträffat tidigt i projektets tidslinje. I det här scenariot utvärderar AI Assistant både tidpunkten för och effekten av ändringen i förhållande till projektets totala längd:
 
@@ -265,7 +265,7 @@ När en administratör har skapat en projekthälsokonfiguration kan användare m
 
 1. Välj ett projekt på sidan **Projekt**.
 
-1. Klicka på ikonen **Mer** ![Mer &#x200B;](assets/more-icon.png) till höger om projektnamnet och välj sedan **Redigera**. Sidpanelen **Redigera projekt** öppnas.
+1. Klicka på ikonen **Mer** ![Mer ](assets/more-icon.png) till höger om projektnamnet och välj sedan **Redigera**. Sidpanelen **Redigera projekt** öppnas.
 
 1. Välj **Projektinställningar** i den vänstra panelen.
 
@@ -316,7 +316,7 @@ Mer information finns i följande avsnitt i den här artikeln: [Hantera projekth
 
    ![Utökad information](assets/expanded-details.png)
 
-1. När du har granskat projekthälsoinformationen klickar du på ikonen **Stäng** ![Stäng &#x200B;](assets/close-icon.png) i det övre högra hörnet av AI Assistant.
+1. När du har granskat projekthälsoinformationen klickar du på ikonen **Stäng** ![Stäng ](assets/close-icon.png) i det övre högra hörnet av AI Assistant.
 
 ## Generera en Project Health-utvärdering för flera projekt
 
@@ -338,7 +338,7 @@ Ett projekt inkluderas bara i den kombinerade Project Health-bedömningen om pro
 
 1. (Valfritt) Klicka på ett av projektets hälsovillkorsemblem för att expandera projektlistan och välj sedan en länk för ett visst projekt för att gå till informationssidan för det projektet.
 
-1. När du har granskat projektens hälsoinformation klickar du på ikonen **Stäng** ![Stäng &#x200B;](assets/close-icon.png) i det övre högra hörnet av AI Assistant för att stänga den.
+1. När du har granskat projektens hälsoinformation klickar du på ikonen **Stäng** ![Stäng ](assets/close-icon.png) i det övre högra hörnet av AI Assistant för att stänga den.
 
 <!--
 
