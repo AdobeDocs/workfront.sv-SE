@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-source-git-commit: 699ce13472ee70149fba7c8c34dde83c7db5f5de
+source-git-commit: 3a538a15daad5fa0dced8d45bb260d6087be81ff
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 0%
@@ -53,6 +53,4 @@ För att skapa, fråga efter eller ta bort en händelseprenumeration behöver di
 * Åtkomstnivån **Systemadministratör**
 Mer information finns i [Bevilja en användare fullständig administrativ åtkomst](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) eller [Bevilja användare administrativ åtkomst till vissa områden](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md) .
 
-* Ett `sessionID`-huvud krävs för att använda API:t för händelseprenumerationer
-
-  Mer information finns i [Autentisering](api-basics.md#authentication) i [API-grunder](api-basics.md).
+* Om din organisation använder Adobe IMS (Identity Management System) ska du ta med en IMS-användartoken som skickas i huvudet `X-User-Token`.

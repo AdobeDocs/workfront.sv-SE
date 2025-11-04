@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 8f5cd4125281bb00331c4dc895cc57b138190cfe
+source-git-commit: 3a538a15daad5fa0dced8d45bb260d6087be81ff
 workflow-type: tm+mt
-source-wordcount: '3031'
+source-wordcount: '3060'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,7 @@ Följande Workfront-objekt stöds av händelseprenumerationer.
 * Företag
 * Kontrollpanel
 * Dokument
+* Dokumentversion
 * Utgift
 * Fält
 * Timme
@@ -68,9 +69,16 @@ Följande Workfront-objekt stöds av händelseprenumerationer.
 * Portfolio
 * Program
 * Projekt
+* Bevis godkännande
 * Post
 * Posttyp
 * Rapport
+* Personalplan
+* Parametervärde för personalplan
+* Resurs för personalplan
+* Resursattributvärde för bemanningsplan
+* Resursattributvärdeuppsättning för bemanningsplan
+* Resursparametervärde för bemanningsplan
 * Uppgift
 * Mall
 * Tidrapport
@@ -816,7 +824,7 @@ Den här kopplingen gör att filtret tillämpas på det nya eller gamla läget f
 >[!NOTE]
 >
 >Prenumerationen nedan med det angivna filtret returnerar bara meddelanden där aktivitetens namn innehåller `again` på `oldState`, vilket var innan en uppdatering gjordes för aktiviteten.
->&#x200B;>Ett användbart exempel för detta skulle vara att hitta objCode-meddelandena som ändrades från en sak till en annan. Om du till exempel vill ta reda på alla uppgifter som har ändrats från &quot;Research Some name&quot; till &quot;Research TeamName Some name&quot;
+>Ett användbart exempel för detta skulle vara att hitta objCode-meddelandena som ändrades från en sak till en annan. Om du till exempel vill ta reda på alla uppgifter som har ändrats från &quot;Research Some name&quot; till &quot;Research TeamName Some name&quot;
 
 ```
 {
