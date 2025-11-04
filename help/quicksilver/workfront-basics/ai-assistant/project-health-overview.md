@@ -5,9 +5,9 @@ description: Funktionen Project Health utnyttjar funktionerna i AI Assistant fö
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: 5ce0206c8a7e596dac0bfdf836ca51c2cdbd1d0d
+source-git-commit: 8ece3c614febb6f480b352323721bcc9dcc940b6
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1969'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,107 @@ Om du vill aktivera AI Assistant och Projekthälsa för din organisation måste 
 
 Mer information finns i [Översikt över AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md) och [Konfigurera systeminställningar](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
+## Hur Project Health beräknas
+
+AI Assistant ger dig en snabb bedömning av ett projekts övergripande tillstånd genom att tilldela det ett av de tillgängliga Project Health-lägena:
+
+* På mål
+* Risk
+* I problem
+
+Detta tillstånd beräknas med hjälp av projekt- och programkomponenterna, till exempel projektets förlopp, underskattat arbete och mycket annat. En fullständig lista över de komponenter som används för att mäta Project Health finns i avsnittet [Lista över projekt- och programtillstånd](#project-and-program-states-list).
+
+Varje projektkomponent tilldelas en numerisk riskpoäng som sträcker sig från (0-100), som sedan beräknas som ett genomsnitt för att skapa det övergripande Project Health-tillståndet:
+
+* I mål (75 eller senare): Projektets prestanda ligger inom förväntat tröskelvärde.
+* Risk (50-74): Nya fel som kan påverka projektets prestanda upptäcks.
+* I problem (49 eller färre): Projektets prestanda ligger under godtagbara tröskelvärden och kräver omedelbar åtgärd.
+
+>[!NOTE]
+>
+>* AI Assistant utvärderar för närvarande bara det valda projektets data.
+>* Projekt- eller historikanalyser ingår ännu inte i beräkningen av projekthälsotillstånd.
+
+### Exempel på beräkning av projekthälsotillstånd för ett projekt
+
+I det första exemplet utvärderas fyra projektkomponenter och deras individuella riskpoäng beräknas enligt följande:
+
+* 2 På mål (90 riskpoäng)
+* 1 Vid risk (45 riskpoäng)
+* 1 I Problem (20 riskpoäng)
+
+När du räknar ut dessa poäng blir resultatet 61. Med hjälp av de kriterier för projekthälsotillstånd som anges ovan är projektet i riskläge.
+
+I nästa exempel har en schemaändring på 1 dag inträffat tidigt i projektets tidslinje. I det här scenariot utvärderar AI Assistant både tidpunkten för och effekten av ändringen i förhållande till projektets totala längd:
+
+* En 1-dagars schemaläggning tidigt på en 60-dagars projekttidslinje är liten och räknas vanligtvis som På mål.
+* En 1-dagars schemaläggning nära projektets slutförandedatum är mer störande och kan poängteras som Risk eller I Problem.
+
+Eftersom ändringen var mindre och inträffade tidigt på projekttidslinjen placeras projektet i läget Vid mål.
+
+Om flera schemaändringar inträffar inom ett projekts tidslinje, räknas dessa ändringar och beräknas sedan som medelvärden innan de tillämpas på beräkningen av projekthälsan.
+
+## Förstå skillnaden mellan projektvillkor och projekthälsa
+
+Projektvillkor och Projekthälsa är liknande begrepp i Workfront och har samma standardnamn som beskriver projektvillkoret eller projekttillståndet (Vid mål, Vid risk och I problem), men de har olika syften.
+
+Projektvillkor ger en grundläggande ögonblicksbild av hur ett projekt för närvarande fungerar baserat enbart på planerade, planerade och beräknade datum. Den kan ställas in manuellt av projektägaren eller automatiskt av Workfront utifrån projektets uppgifter. Alternativt är Project Health mer omfattande och utvärderar ytterligare faktorer, vilket ger dig en bättre förståelse för hur det fungerar.
+
+Mer information om projektvillkor finns i [Anpassade villkor](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+
+## Lista över projekt- och programtillstånd
+
+Tabellen nedan innehåller en beskrivning av de tillgängliga lägena AI Assistant tilldelar ditt projekt eller program när du genererar en Project Health-utvärdering.
+
+<table>
+    <tr>
+        <td><b>Projekttillstånd</b></td>
+        <td><b>Definition</b></td>
+        <td><b>Faktorer</b></td>
+    </tr>
+    <tr>
+        <td>På mål</td>
+        <td>Detta tilldelas när den genomsnittliga risknivån för följande faktorer ligger inom det friska tröskelvärdet.
+        </td>
+        <td> 
+        <ul><li>Krypning av omfång</li>
+        <li>Saknade fält</li>
+        <li>Schemalägg ändringar</li>
+        <li>Underskattat arbete</li>
+        <li>Projektförlopp</li>
+        <li>Försenade uppgifter</li>
+        <li>Budget</li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>Risk</td>
+        <td>Detta tilldelas när den genomsnittliga risknivån för följande faktorer ligger precis under det friska tröskelvärdet.</td>
+        <td>
+        <ul><li>Krypning av omfång</li>
+        <li>Saknade fält</li>
+        <li>Schemalägg ändringar</li>
+        <li>Underskattat arbete</li>
+        <li>Projektförlopp</li>
+        <li>Försenade uppgifter</li>
+        <li>Budget</li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>I problem</td>
+        <td>Detta tilldelas när den genomsnittliga risknivån för följande faktorer ligger under det friska tröskelvärdet.</td>
+        <td>
+        <ul><li>Krypning av omfång</li>
+        <li>Saknade fält</li>
+        <li>Schemalägg ändringar</li>
+        <li>Underskattat arbete</li>
+        <li>Projektförlopp</li>
+        <li>Försenade uppgifter</li>
+        <li>Budget</li>
+        </ul></td>
+    </tr>
+    </tr>
+   </table>
+
 ## AI Assistant-frågelista
 
 Nedan visas en lista med frågor som du kan använda för att be AI-utvärdering att generera en Project Health-bedömning för ett projekt, ett program eller alla projekt på ditt konto.
@@ -109,60 +210,6 @@ Nedan visas en lista med frågor som du kan använda för att be AI-utvärdering
        <tr>
         <td>Alla sidor i Workfront </td>
         <td><em>Hur är programmets [PROGRAM NAME] hälsa?</em></td>
-    </tr>
-   </table>
-
-
-## Lista över projekt- och programvillkor
-
-Nedan beskrivs de tillgängliga villkoren för att AI Assistant ska tilldela ditt projekt eller program när en Project Health-utvärdering genereras.
-
-<table>
-    <tr>
-        <td><b>Projektvillkor</b></td>
-        <td><b>Status för projektförlopp</b></td>
-        <td><b>Projektvillkorsfaktorer</b></td>
-    </tr>
-    <tr>
-        <td>På mål</td>
-        <td>Denna analys tilldelas när den genomsnittliga risknivån för följande faktorer ligger inom det friska tröskelvärdet.
-        </td>
-        <td> 
-        <ul><li>Krypning av omfång</li>
-        <li>Saknade fält</li>
-        <li>Schemalägg ändringar</li>
-        <li>Underskattat arbete</li>
-        <li>Projektförlopp</li>
-        <li>Försenade uppgifter</li>
-        <li>Budget</li>
-        </ul></td>
-    </tr>
-    <tr>
-        <td>Risk</td>
-        <td>Denna analys tilldelas när den genomsnittliga risknivån för följande faktorer ligger precis under det friska tröskelvärdet.</td>
-        <td>
-        <ul><li>Krypning av omfång</li>
-        <li>Saknade fält</li>
-        <li>Schemalägg ändringar</li>
-        <li>Underskattat arbete</li>
-        <li>Projektförlopp</li>
-        <li>Försenade uppgifter</li>
-        <li>Budget</li>
-        </ul></td>
-    </tr>
-    <tr>
-        <td>I problem</td>
-        <td>Denna analys tilldelas när den genomsnittliga risknivån för följande faktorer ligger under det friska tröskelvärdet.</td>
-        <td>
-        <ul><li>Krypning av omfång</li>
-        <li>Saknade fält</li>
-        <li>Schemalägg ändringar</li>
-        <li>Underskattat arbete</li>
-        <li>Projektförlopp</li>
-        <li>Försenade uppgifter</li>
-        <li>Budget</li>
-        </ul></td>
-    </tr>
     </tr>
    </table>
 
@@ -218,7 +265,7 @@ När en administratör har skapat en projekthälsokonfiguration kan användare m
 
 1. Välj ett projekt på sidan **Projekt**.
 
-1. Klicka på ikonen **Mer** ![Mer &#x200B;](assets/more-icon.png) till höger om projektnamnet och välj sedan **Redigera**. Sidpanelen **Redigera projekt** öppnas.
+1. Klicka på ikonen **Mer** ![Mer ](assets/more-icon.png) till höger om projektnamnet och välj sedan **Redigera**. Sidpanelen **Redigera projekt** öppnas.
 
 1. Välj **Projektinställningar** i den vänstra panelen.
 
@@ -261,7 +308,7 @@ Mer information finns i följande avsnitt i den här artikeln: [Hantera projekth
 
    ![Project Health Assessment](assets/health-assessment.png)
 
-   Om du genererar en utvärdering för en portfölj visas flera märken som visar villkoret för varje projekt i programmet. Mer information om märkordsetiketter finns i följande avsnitt i den här artikeln: [Project and program conditions list](#project-and-program-conditions-list).
+   Om du genererar en utvärdering för en portfölj visas flera märken som visar villkoret för varje projekt i programmet. Mer information om märkordsetiketter finns i följande avsnitt i den här artikeln: [Lista över projekt- och programtillstånd](#project-and-program-states-list).
 
 1. (Valfritt) Klicka på en av utvärderingspunkterna för att utöka detaljerna.
 
@@ -269,7 +316,7 @@ Mer information finns i följande avsnitt i den här artikeln: [Hantera projekth
 
    ![Utökad information](assets/expanded-details.png)
 
-1. När du har granskat projekthälsoinformationen klickar du på ikonen **Stäng** ![Stäng &#x200B;](assets/close-icon.png) i det övre högra hörnet av AI Assistant.
+1. När du har granskat projekthälsoinformationen klickar du på ikonen **Stäng** ![Stäng ](assets/close-icon.png) i det övre högra hörnet av AI Assistant.
 
 ## Generera en Project Health-utvärdering för flera projekt
 
@@ -291,7 +338,7 @@ Ett projekt inkluderas bara i den kombinerade Project Health-bedömningen om pro
 
 1. (Valfritt) Klicka på ett av projektets hälsovillkorsemblem för att expandera projektlistan och välj sedan en länk för ett visst projekt för att gå till informationssidan för det projektet.
 
-1. När du har granskat projektens hälsoinformation klickar du på ikonen **Stäng** ![Stäng &#x200B;](assets/close-icon.png) i det övre högra hörnet av AI Assistant för att stänga den.
+1. När du har granskat projektens hälsoinformation klickar du på ikonen **Stäng** ![Stäng ](assets/close-icon.png) i det övre högra hörnet av AI Assistant för att stänga den.
 
 <!--
 
