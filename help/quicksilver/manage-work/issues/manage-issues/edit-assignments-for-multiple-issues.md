@@ -103,7 +103,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
       Listan över problem filtrerar automatiskt efter filtervillkoren.
    1. (Valfritt) Klicka på **Spara som ny** och sedan på **Spara**.
 
-1. Markera de ärenden som du vill ändra uppdrag för och klicka sedan på ikonen **Redigera** ![Redigera ](assets/qs-edit-icon.png) .
+1. Markera de ärenden som du vill ändra uppdrag för och klicka sedan på ikonen **Redigera** ![Redigera &#x200B;](assets/qs-edit-icon.png) .
 
    **Redigera problem** visas. Antalet markerade objekt visas i det övre vänstra hörnet på sidan.
 
