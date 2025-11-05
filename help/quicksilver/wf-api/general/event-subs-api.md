@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 3a538a15daad5fa0dced8d45bb260d6087be81ff
+source-git-commit: 0fd415767680d877c9dd1de448f7903e6616d155
 workflow-type: tm+mt
-source-wordcount: '3060'
+source-wordcount: '3097'
 ht-degree: 0%
 
 ---
@@ -153,6 +153,10 @@ Prenumerationsresursen innehåller följande fält.
         <td scope="col">DOCU </td> 
        </tr> 
        <tr> 
+        <td scope="col"><p>Dokumentversion</p></td> 
+        <td scope="col">DOCV </td> 
+       </tr> 
+       <tr> 
         <td scope="col"><p>Utgift</p></td> 
         <td scope="col">EXPNS</td> 
        </tr> 
@@ -185,6 +189,10 @@ Prenumerationsresursen innehåller följande fält.
         <td scope="col"><p>PROJ</p></td> 
        </tr> 
        <tr> 
+        <td scope="col"><p>Bevis godkännande</p></td> 
+        <td scope="col"><p>PRFAPL</p></td> 
+       </tr> 
+       <tr> 
         <td scope="col"><p>Post</p></td> 
         <td scope="col"><p>POST</p></td> 
        </tr> 
@@ -195,6 +203,30 @@ Prenumerationsresursen innehåller följande fält.
        <tr> 
         <td scope="col"><p>Rapport</p></td> 
         <td scope="col"><p>PTLSEC</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Personalplan</p></td> 
+        <td scope="col"><p>STAFFP</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Parametervärde för personalplan</p></td> 
+        <td scope="col"><p>SPVAL</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Resurs för personalplan</p></td> 
+        <td scope="col"><p>PERSONAL</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Resursattributvärde för bemanningsplan</p></td> 
+        <td scope="col"><p>SPAVAL</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Resursattributvärdeuppsättning för bemanningsplan</p></td> 
+        <td scope="col"><p>SPARA</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Resursparametervärde för bemanningsplan</p></td> 
+        <td scope="col"><p>SRPVAL</p></td> 
        </tr> 
        <tr> 
         <td scope="col"><p>Uppgift</p></td> 
