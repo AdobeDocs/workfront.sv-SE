@@ -7,9 +7,9 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: 3d12c144552474439b247739b47de9454a2233f2
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1821'
 ht-degree: 0%
 
 ---
@@ -208,7 +208,7 @@ Så här skapar du en godkännandeprocess för en enstaka användning:
    >När du har kopplat godkännandeprocessen för en enstaka användning visas den som `<Custom>` i fältet Godkännandeprocess i rutan Redigera för mallar och malluppgifter. Mer information om hur du redigerar mallar och malluppgifter finns i följande artiklar:
    >
    >* [Redigera projektmallar](../../manage-work/projects/create-and-manage-templates/edit-templates.md)
-   >* [Redigera en malluppgift](../../manage-work/projects/create-and-manage-templates/edit-template-task.md)
+   >* [Redigera malluppgifter](../../manage-work/projects/create-and-manage-templates/edit-template-task.md)
 
    <!--
    ><p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to be removed when they bring the new Edit Template/ Template Task boxes to NWE) </p>   >
@@ -233,7 +233,7 @@ Så här tar du bort eller tar bort en godkännandeprocess från en arbetsuppgif
 1. Klicka på en av följande ikoner i det övre högra hörnet av avsnittet Godkännanden, beroende på vilken typ av godkännande som är associerat med objektet:
 
    * **Ikonen** Ta bort ![ikon](assets/remove-icon---x-in-circle.png) för globala godkännanden eller godkännanden på gruppnivå.
-   * **Ikonen** Ta bort ![ikonen &#x200B;](assets/delete.png) för engångsgodkännanden.
+   * **Ikonen** Ta bort ![ikonen ](assets/delete.png) för engångsgodkännanden.
 
 1. Bekräfta genom att klicka på **Ta bort** eller **Ta bort**.
 

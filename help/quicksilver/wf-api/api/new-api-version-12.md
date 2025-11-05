@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1ffba3b5-ab24-4ca2-a1ef-f7e5b77e776c
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '2422'
+source-wordcount: '2421'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Följande resurser är nya i Workfront API version 12.
 
 ### BreadCrumb {#breadcrumb}
 
-Ett BreadCrumb-objekt representerar ett element i hierarkin för överordnade/underordnade element för ett Adobe Workfront-arbetsobjekt. Brevbeskrivningar visar hur en arbetsuppgift passar in i den större strukturen för Portfolio, projekt, projekt och uppgifter.
+Ett BreadCrumb-objekt representerar ett element i hierarkin för överordnade/underordnade element för ett Adobe Workfront-arbetsobjekt. Brevbeskrivningar visar hur en arbetsuppgift passar in i den större strukturen för portföljer, projekt, projekt och uppgifter.
 
 Mer information om vägbeskrivningar i Workfront finns i [Översikt över vägbeskrivningar i nya Adobe Workfront](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
 
@@ -299,7 +299,7 @@ Ett ActivityLog-objekt är en fullständig lista över alla aktiviteter som har 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td> <p>Operationer</p> </td> 
+   <td> <p>Användning</p> </td> 
    <td> <p>Följande åtgärd togs bort från ActivityLog-objektet:</p> 
     <ul> 
      <li> <p><strong>LÄGG TILL</strong> </p> </li> 
@@ -762,7 +762,7 @@ Ett ScheduledReport-objekt representerar en rapport som har konfigurerats att sc
 
 ### ScoreCardQuestion {#scorecardquestion}
 
-Ett ScoreCardQuestion-objekt representerar en fråga som har lagts till i ett styrkort. Dessa frågor avgörs vanligtvis av Portfolio-förvaltaren och deras svar gör det möjligt för förvaltaren att förstå hur väl ett projekt passar ihop med portföljens mål.
+Ett ScoreCardQuestion-objekt representerar en fråga som har lagts till i ett styrkort. Dessa frågor avgörs vanligtvis av Portfolio-chefen och deras svar gör det möjligt för den som ansvarar för ledningen att förstå hur väl ett projekt passar in i portfolions mål.
 
 Mer information om styrkortsfrågor finns i [Skapa ett styrkort](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
@@ -851,7 +851,7 @@ Ett Team-objekt är en samling användare som kan tilldelas till ett arbetsobjek
 
 Ett TemplateTask-objekt representerar en aktivitet som är en del av en Template. Malluppgifter blir uppgifter i det projekt där mallen används.
 
-Mer information om malluppgifter finns i [Redigera en malluppgift](../../manage-work/projects/create-and-manage-templates/edit-template-task.md).
+Mer information om malluppgifter finns i [Redigera malluppgifter](../../manage-work/projects/create-and-manage-templates/edit-template-task.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -892,7 +892,7 @@ Mer information om tidrapporter finns i [Översikt över tidrapporter](../../tim
  </tbody> 
 </table>
 
-### Uppdatera
+### Uppdatering
 
 <table style="table-layout:auto"> 
  <col> 

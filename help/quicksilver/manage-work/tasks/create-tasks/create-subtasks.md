@@ -6,9 +6,9 @@ description: I Adobe Workfront kan uppgifter ha överordnade och underordnade re
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!-- Audited: 01/2025 -->
 
-I Adobe Workfront kan uppgifter ha överordnade och underordnade relationer. Underordnade uppgifter kallas underaktiviteter. Du kan skapa underuppgifter i uppgiftslistan genom att göra en huvuduppgift till en underuppgift. Du kan också göra en underuppgift till en huvuduppgift.
+I Adobe Workfront kan uppgifter ha överordnade och underordnade relationer. Underordnade uppgifter kallas underaktiviteter. Du kan skapa underuppgifter i uppgiftslistan genom att göra en huvuduppgift till en underuppgift till en annan uppgift. Du kan också göra en underuppgift till en huvuduppgift.
 
 ## Åtkomstkrav
 
@@ -84,6 +84,11 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 
 Du kan skapa underaktiviteter från uppgiftslistan eller underaktivitetsavsnittet.
 
+>[!TIP]
+>
+>Att skapa underaktiviteter för ett projekt påminner om att skapa mallunderuppgifter för malluppgifter i en mall.
+
+
 ### Skapa underaktiviteter från uppgiftslistan {#create-subtasks-from-the-task-list}
 
 1. Gå till det projekt där du vill skapa underaktiviteter.
@@ -113,12 +118,14 @@ Du kan skapa underaktiviteter från uppgiftslistan eller underaktivitetsavsnitte
 1. Gå till det projekt där du vill skapa underaktiviteter.
 1. Klicka på avsnittet **Åtgärder** i den vänstra panelen.
 1. Klicka på namnet på den uppgift där du vill skapa en underuppgift.
-1. Klicka på avsnittet **Underaktiviteter** i den vänstra panelen, om det finns några.
+1. Klicka på avsnittet **Underaktiviteter** i den vänstra panelen, om det är tillgängligt.
 1. Klicka på **Ny aktivitet.**
 
-   Följ stegen i följande artikel för att fortsätta skapa underaktiviteten: [Skapa aktiviteter i ett projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+   Mer information om hur du skapar uppgifter finns i [Skapa uppgifter i ett projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
 1. Klicka på **Skapa uppgift.**
+
+   Den nya aktiviteten skapas som en underaktivitet till den uppgift du valde i steg 3. <!--ensure this is accurate-->
 
 ## Göra en underaktivitet till en huvuduppgift
 

@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 69d3b6d93ce4ceaf66a7886704023de494cde35d
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '13516'
+source-wordcount: '13515'
 ht-degree: 0%
 
 ---
@@ -1247,7 +1247,7 @@ ht-degree: 0%
          * [Bifoga en mall till ett projekt](manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
          * [Kopiera och flytta malluppgifter](manage-work/projects/create-and-manage-templates/copy-and-move-template-tasks.md)
          * [Redigera projektmallar](manage-work/projects/create-and-manage-templates/edit-templates.md)
-         * [Redigera en malluppgift](manage-work/projects/create-and-manage-templates/edit-template-task.md)
+         * [Redigera malluppgifter](manage-work/projects/create-and-manage-templates/edit-template-task.md)
          * [Ta bort en malluppgift](manage-work/projects/create-and-manage-templates/delete-template-tasks.md)
          * [Skapa mall från projekt](manage-work/projects/create-and-manage-templates/create-template-from-project.md)
          * [Dela projektmallar](manage-work/projects/create-and-manage-templates/share-project-template.md)

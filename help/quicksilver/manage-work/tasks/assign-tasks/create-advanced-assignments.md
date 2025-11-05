@@ -7,7 +7,7 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 0%
@@ -16,7 +16,9 @@ ht-degree: 0%
 
 # Skapa avancerade uppdrag
 
-<!-- Audited: 07/2024-->
+<!-- Audited: 11/2025-->
+
+<!--remove the bullet indicated when we get rid of the new/old experience of editing tasks-->
 
 <!--
 <div class="preview"> 
@@ -49,8 +51,7 @@ I den här artikeln beskrivs hur du får åtkomst till avancerade uppdrag i uppg
 Dessutom kan du göra avancerade uppdrag inom följande områden av Workfront:
 
 * I listor och rapporter när fältet Uppdrag visas i vyn.
-* I avsnittet Uppdrag när du redigerar en uppgift. Mer information finns i [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
-  <!--* In the Production environment, in the Assignments section when editing a task. <span class="preview">This has been removed from the Preview environment.</span> For more information, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).-->
+* I avsnittet Uppdrag när du redigerar en uppgift. Mer information finns i [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md). <!--When we remove the old/ new experience: take this bullet out completely; in the new Edit Task experience, this is no longer possible-->
 * I huvud för uppgift eller utgåva, i området Uppdrag.
 * I Arbetsbelastningsutjämnaren. Mer information finns i [Tilldela arbete manuellt med hjälp av arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
 
@@ -95,7 +96,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
    >[!TIP]
    >
    >Du kan göra avancerade uppdrag direkt i uppgifts- eller utleveranslistan. Klicka i fältet **Uppdrag** på samma rad som uppgiften eller utgåvan och klicka sedan på **Avancerat** längst ned i listan eller på ikonen **Personer** i det övre högra hörnet av uppdragsrutan för att öppna fönstret Avancerade uppdrag. Gå till steg 5 om du vill fortsätta skapa avancerade uppdrag.
-   >![Klicka på Avancerat eller på ikonen Personer &#x200B;](assets/access-aa-from-lists.png)
+   >![Klicka på Avancerat eller på ikonen Personer ](assets/access-aa-from-lists.png)
 
 1. Klicka på **Tilldela till** i fältet **Tilldelningar** i huvudet på uppgiften eller problemet
 

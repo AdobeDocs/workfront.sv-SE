@@ -2,15 +2,15 @@
 content-type: reference
 product-area: templates
 navigation-topic: create-and-manage-projects
-title: "Skapa och hantera projektmallar: artikelindex"
+title: 'Skapa och hantera projektmallar: artikelindex'
 description: Läs mer om hur du skapar och hanterar projektmallar i följande artiklar.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 64fbad12-ce16-449f-8991-62af31e595b2
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Du kan använda projektmallar för att hämta in de flesta repeterbara processer
 * [Översikt över att bifoga en mall till ett projekt](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
 * [Koppla en mall till ett projekt](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
 * [Redigera projektmallar](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)
-* [Redigera en malluppgift](../../../manage-work/projects/create-and-manage-templates/edit-template-task.md)
+* [Redigera malluppgifter](../../../manage-work/projects/create-and-manage-templates/edit-template-task.md)
 * [Skapa mall från projekt](../../../manage-work/projects/create-and-manage-templates/create-template-from-project.md)
 * [Dela projektmallar](../../../manage-work/projects/create-and-manage-templates/share-project-template.md)
 * [Ta bort mallinformation från ett projekt](../../../manage-work/projects/create-and-manage-templates/remove-template-from-project.md)

@@ -6,9 +6,9 @@ description: Du kan redigera uppgiftsinformation i en lista med uppgifter genom 
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '2764'
+source-wordcount: '2762'
 ht-degree: 0%
 
 ---
@@ -294,9 +294,9 @@ Så här redigerar du uppgifter i en lista när du väljer alternativet Spara st
 
 1. Tryck på **Enter** (Windows) eller **Return** (Mac) på tangentbordet om du vill spara ändringarna tillfälligt.
 
-1. (Valfritt) Klicka på ikonen **Ångra** ![Ångra &#x200B;](assets/undo-icon-on-task-list.png) om du vill ångra en ändring och återställa ett fält till det ursprungliga läget.
+1. (Valfritt) Klicka på ikonen **Ångra** ![Ångra ](assets/undo-icon-on-task-list.png) om du vill ångra en ändring och återställa ett fält till det ursprungliga läget.
 
-1. (Valfritt och villkorligt) Klicka på ikonen **Gör om** ![Gör om &#x200B;](assets/redo-icon-on-task-list.png) för att återställa den ändring du ångrat.
+1. (Valfritt och villkorligt) Klicka på ikonen **Gör om** ![Gör om ](assets/redo-icon-on-task-list.png) för att återställa den ändring du ångrat.
 
 1. (Valfritt) Högerklicka på en uppgift som du vill ändra.
 
@@ -403,8 +403,8 @@ Så här redigerar du uppgifter i en lista när du använder alternativet Spara 
 1. Redigera fält som du har behörighet att uppdatera manuellt.
 
 1. Tryck på **Enter** (Windows) eller **Return** (Mac) på tangentbordet om du vill spara ändringarna tillfälligt.
-1. (Valfritt) Klicka på ikonen **Ångra** ![Ångra &#x200B;](assets/undo-icon-on-task-list.png) om du vill ångra en ändring och återställa ett fält till det ursprungliga läget.
-1. (Valfritt och villkorligt) Klicka på ikonen **Gör om** ![Gör om &#x200B;](assets/redo-icon-on-task-list.png) för att återskapa den ändring du ångrat.
+1. (Valfritt) Klicka på ikonen **Ångra** ![Ångra ](assets/undo-icon-on-task-list.png) om du vill ångra en ändring och återställa ett fält till det ursprungliga läget.
+1. (Valfritt och villkorligt) Klicka på ikonen **Gör om** ![Gör om ](assets/redo-icon-on-task-list.png) för att återskapa den ändring du ångrat.
 
 1. (Valfritt) Högerklicka på en uppgift som du vill ändra.
 
@@ -509,33 +509,44 @@ Du kan redigera flera åtgärder samtidigt. Se till att du har behörighet att h
    >Du kan inte redigera flera uppgifter samtidigt när du sparar uppgifter manuellt.
 
 1. Markera mer än en uppgift i uppgiftslistan.
-1. Klicka på ikonen **Redigera** ![Redigera](assets/qs-edit-icon.png) . Dialogrutan **Redigera uppgifter** öppnas.
+   <!--1. <span class="preview">(Optional) Click the **More** menu ![More menu](assets/more-icon.png) at the top of the task list, then **Recalculate Expressions** to update all information in calculated custom fields.</span> -->
+1. Klicka på ikonen **Redigera** ![Redigera](assets/qs-edit-icon.png) . Dialogrutan **Redigera uppgifter** öppnas <!--<span class="preview">in the new experience</span>-->.
 
-1. Ange den information som du vill ändra för alla uppgifter som du har markerat.
+   Att redigera information för alla uppgifter är detsamma som att redigera information för en uppgift.
+Mer information om hur du redigerar en uppgift finns i [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-   Att redigera information för alla uppgifter är detsamma som att redigera information för en uppgift. Om du vill redigera aktivitetens varaktighet måste de markerade aktiviteterna ha samma aktivitetsbegränsning, annars fylls inte fältet **Varaktighet** i.
+   <!--<span class="preview">1. In the new experience, do the following:</span> (******keep the below indented******)
+      1. Specify the information you want to change for all the tasks you selected in any of the following areas: 
+      <div class="preview">
+      * Overview
+      * Assignments
+      * Custom Forms
+      * Finance
+      * Settings
+      * Settings
+      * Comment
+      </div>-->
+   <!--<span class="preview">1. Click **Save**.</span>
+   <!--1. <span class="preview">(Optional) Click **Switch back to old experience** at the bottom of the Edit Tasks box.</span>-->
+1. <!--<span class="preview">In the old experience,, do the following:</span> (**********indent the steps below*********)--> Ange den information som du vill ändra för alla uppgifter som du har markerat i något av följande områden:
 
-   Mer information om hur du redigerar en uppgift finns i [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+   * Översikt
+   * Inställningar
+   * Uppdrag
+   * Anpassad Forms
+   * Kommentar
 
-   >[!NOTE]
-   >
-   >Den information som du ändrar för alla markerade uppgifter åsidosätter den befintliga informationen för enskilda uppgifter, förutom fältet **Uppdrag**. Om du lägger till en ny tilldelad i en gruppredigering läggs den tilldelade personen till i alla markerade uppgifter. Om andra tilldelningar har tilldelats de markerade aktiviteterna, förblir de tilldelade utöver den som lagts till via massredigering.
+     <!-- at release, move the below tip under the first set of bullet points, for the new experience-->
 
-1. Klicka på **Anpassad Forms** om du vill redigera anpassade formulär som är kopplade till alla markerade åtgärder. Endast aktiva anpassade formulär visas i listan.
+     >[!NOTE]
+     >
+     >* Den information som du ändrar för alla markerade uppgifter åsidosätter den befintliga informationen för enskilda uppgifter, förutom fältet **Uppdrag**. Om du lägger till en ny tilldelad i en gruppredigering läggs den tilldelade personen till i alla markerade uppgifter. Om andra tilldelningar har tilldelats de markerade aktiviteterna, förblir de tilldelade utöver den som lagts till via massredigering.
+     >* Om du vill redigera aktivitetens varaktighet måste de markerade aktiviteterna ha samma aktivitetsbegränsning. Annars fylls inte fältet **Varaktighet** i.
+     >
+     >* Endast aktiva anpassade formulär visas i listan. Om de markerade uppgifterna inte har några vanliga anpassade formulär visas inga formulär i det här avsnittet.
+     >* Du kan bara redigera fält i formulären som är kopplade till alla markerade uppgifter och som du har behörighet att redigera.  Mer information om gruppredigering av anpassade formulär finns i [Hantera anpassade formulär som är kopplade till objekt](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).
 
-   Om de markerade uppgifterna inte har några vanliga anpassade formulär visas inga formulär i det här avsnittet.
 
-   Du kan bara redigera fält i formulären som är kopplade till alla markerade uppgifter och som du har behörighet att redigera.
-
-   <!--1. (Optional and conditional) Depending what environment you use to edit the tasks, do one of the following to recalculate custom expressions for all tasks:
-   1. In the Production environment, ADD THE SENTENCE FROM THE NEXT STEP HERE:-->
-
-1. (Valfritt) Markera alternativet **Beräkna om anpassade uttryck** i avsnittet Anpassad Forms för att se till att alla beräknade anpassade fält som finns i de anpassade formulär som är kopplade till de valda uppgifterna är aktuella.
-
-   <!--
-   1. <span class="preview">In the Preview environment, with all the tasks selected in the list, click the **More** menu ![More menu](assets/more-icon.png) at the top of the task list, then click **Recalculate Expressions**. This is only available when you automatically save your changes. </span>
-
-   -->
+1. (Valfritt) I avsnittet **Anpassade Forms** markerar du alternativet **Beräkna om anpassade uttryck** för att se till att alla beräknade anpassade fält som finns i de anpassade formulär som är kopplade till de valda uppgifterna är aktuella.
 1. Klicka på **Spara ändringar**. Alla ändringar du har gjort visas nu för alla markerade uppgifter.
 
-Mer information om gruppredigering av anpassade formulär finns i [Hantera anpassade formulär som är kopplade till objekt](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).

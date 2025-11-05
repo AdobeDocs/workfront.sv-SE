@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1826'
 ht-degree: 0%
 
 ---
@@ -224,11 +224,7 @@ Så här tilldelar du uppgifter i en lista:
 
 1. När du har lagt till dina tilldelningar till uppgiften trycker du på Enter eller klickar någonstans på sidan för att spara ändringarna om du väljer Spara automatiskt. Annars klickar du på **Spara**.
 
-## Tilldela flera uppgifter till en användare i grupp från en lista
-
-<!--Assigning multiple tasks to a user is different, depending on what environment you use to assign the tasks. 
-
-### Assign multiple tasks to a user in the Production environment-->
+## Tilldela flera uppgifter samtidigt från en lista
 
 1. Gå till en lista med uppgifter som du vill tilldela gruppvis.
 1. (Villkorligt) Se till att alternativet **Spara automatiskt** är markerat om du finns med i en lista över aktiviteter under ett projekt.
@@ -240,7 +236,11 @@ Så här tilldelar du uppgifter i en lista:
 1. Markera flera uppgifter i uppgiftslistan.
 1. Klicka på **Redigera**.
 
-   Dialogrutan **Redigera uppgifter** öppnas.
+   Dialogrutan **Redigera uppgifter** öppnas <!--<span class="preview">in the new experience</span>-->.
+
+   <!--1. Continue assigning the tasks <span class="preview">using the new experience</span>. <span class="preview">For more information, see the section Assign multiple tasks in bulk from a list in the new experience in this article.</span> (^^^^^^^^^^^^add anchor here at release^^^^^^^^^^^^) -->
+
+   <!--1. <span class="preview">(Optional) Click **Switch back to old experience** at the bottom of the Edit Tasks box.</span> -->
 
 1. I området **Tilldelningar** markerar du rutan **Tilldelad** och börjar sedan skriva namnet på en användare, en jobbroll eller ett team som du vill tilldela alla uppgifter.
 
@@ -274,7 +274,7 @@ Så här tilldelar du uppgifter i en lista:
 <!--
 <div class="preview">
 
-### Assign multiple tasks to a user in the Preview environment
+### Assign multiple tasks in bulk from a list in the new experience
 
 1. Go to a list of tasks that you want to assign in bulk in the Preview environment. 
 1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.
