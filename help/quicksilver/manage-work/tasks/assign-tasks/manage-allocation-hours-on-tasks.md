@@ -6,9 +6,9 @@ description: När du tilldelar användare eller roller till en uppgift, tilldela
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -17,17 +17,20 @@ ht-degree: 0%
 
 <!--Audited: 10/2025-->
 
-<!--
-<div class="preview"> 
+<!--remove new/old experience references when they remove the New/ Old experience toggle from the Edit Tasks box-->
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+<div class="preview">
 
-</div> 
--->
+Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Samma funktioner är också tillgängliga i produktionsmiljön för alla kunder från och med en vecka från förhandsversionen.
+
+Mer information finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+
+</div>
 
 Tilldelningstimmar representerar den totala tiden som en tilldelad resurs är planerad att arbeta med en aktivitet. Timmarna representerar den tid som en användare tilldelas en viss dag eller en viss veckodag, vecka eller månad under hela uppgiftens varaktighet.
+
+Du kan ändra allokeringstimmar när du gör avancerade tilldelningar för en uppgift.
 
 >[!NOTE]
 >
@@ -58,7 +61,7 @@ Tilldelningstimmar representerar den totala tiden som en tilldelad resurs är pl
   <tr> 
    <td>Objektbehörigheter</td>
    <td><p>Contribute eller högre behörigheter för aktiviteten</p>
-   <p>Redigera behörigheter för att uppdatera allokeringstimmar i rutan Redigera uppgift</p></td>
+   <p>Redigera behörigheter för att uppdatera allokeringstimmar i rutan Redigera uppgift när du redigerar aktiviteter <span class="preview"> med den gamla funktionen. Du kan inte längre hantera tilldelningstimmar i aktivitetsrutan Redigera när du redigerar aktiviteter i den nya upplevelsen.</span></p> <p>Mer information finns i <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Redigera uppgifter</a></p>.</td>
   </tr>
  </tbody>
 </table>
@@ -67,12 +70,10 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 +++
 
-<!--
-Change this sentence in the table when unshimmming assignments on Edit task:
-<p>Edit permissions to update allocation hours in the Edit Task box</p>
-To this:
-<p>Edit permissions to update allocation hours in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation hours in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.
--->
+<!--Take this piece out of the table above when we remove the new experience/ after production release in the task box: 
+
+<p>Edit permissions to update allocation hours in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation hours in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.-->
+
 
 ## Överväganden för att ändra allokeringstimmar för en aktivitet
 
@@ -95,14 +96,9 @@ To this:
 ## Ändra användar- eller rollallokeringstimmar för en uppgift
 
 1. Gå till en uppgift vars tilldelningar du vill ändra allokeringstimmar för.
-1. Klicka på **Mer**-menyn ![](assets/qs-more-icon-on-an-object.png) intill aktivitetens namn, klicka sedan på **Redigera** och sedan på **Uppdrag**.
-
-   eller
-
-   Klicka på området **Uppdrag** i uppgiftshuvudet och klicka sedan på **Avancerat**.
-
+1. Klicka på området **Uppdrag** i uppgiftshuvudet och klicka sedan på **Avancerat**.
 1. Kontrollera att aktivitetens **varaktighetstyp** är **enkel**.
-1. Ändra **allokeringarna** för varje tilldelad uppgift. Detta är övergripande allokeringar för varje tilldelning för den här aktiviteten, under hela aktivitetens varaktighet. Detta kan även uppdatera aktivitetens totala planerade timmar.
+1. Ändra fältet **Allokeringar** för varje tilldelad uppgift. Detta är övergripande allokeringar för varje tilldelning för den här aktiviteten, under hela aktivitetens varaktighet. Detta kan även uppdatera aktivitetens övergripande **Planerade timmar**.
 
    ![Ändra allokeringar](assets/advanced-assignments-duration-type-allocations.png)
 

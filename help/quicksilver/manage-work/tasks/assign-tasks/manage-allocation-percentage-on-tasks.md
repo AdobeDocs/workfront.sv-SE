@@ -6,26 +6,29 @@ description: Allokeringsprocenten representerar den tid en tilldelad resurs är 
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
 
 # Hantera användar- eller rollallokeringsprocent för uppgifter
 
-<!--
-<div class="preview"> 
+<!--remove new/old experience references when they remove the New/ Old experience toggle from the Edit Tasks box-->
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+<div class="preview">
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Samma funktioner är också tillgängliga i produktionsmiljön för alla kunder från och med en vecka från förhandsversionen.
 
-</div> 
--->
+Mer information finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+
+</div>
+
 
 Allokeringsprocenten representerar den tid en tilldelad resurs är planerad att arbeta med en aktivitet på en dag. Det är procentandelen av en arbetsdag (enligt användaren eller projektschemat) som en resurs tilldelas under aktivitetens varaktighet.
+
+Du kan ändra allokeringsprocenten när du gör avancerade tilldelningar för en uppgift.
 
 >[!NOTE]
 >
@@ -56,7 +59,7 @@ Allokeringsprocenten representerar den tid en tilldelad resurs är planerad att 
   <tr> 
    <td>Objektbehörigheter</td>
    <td><p>Contribute eller högre behörigheter för aktiviteten</p>
-   <p>Redigera behörigheter för att uppdatera allokeringsprocent i rutan Redigera uppgift</p></td>
+   <p>Redigera behörigheter för att uppdatera allokeringsprocenten i rutan Redigera uppgift när <span class="preview"> redigerar uppgifter med den gamla funktionen. Du kan inte längre hantera allokeringsprocenten i aktivitetsrutan Redigera när du redigerar aktiviteter i den nya upplevelsen.</span></p> <p>Mer information finns i <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Redigera uppgifter</a></p>.</td>
   </tr>
  </tbody>
 </table>
@@ -66,9 +69,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 +++
 
 <!--
-Change this sentence in the table when unshimmming assignments on Edit task:
-<p>Edit permissions to update allocation percentage in the Edit Task box</p>
-To this:
+Take this piece out of the table above when we remove the new experience/ after production release in the task box: 
+
 <p>Edit permissions to update allocation percentage in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation percentage in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.
 -->
 
@@ -85,11 +87,7 @@ To this:
 ## Ändra användar- eller rollprocentallokering för en uppgift
 
 1. Gå till en aktivitet vars resurser du ändrar procentallokeringen för.
-1. Klicka på **Mer**-menyn ![](assets/qs-more-icon-on-an-object.png) bredvid namnet på aktiviteten och klicka sedan på **Redigera**.
-
-   eller
-
-   Klicka på området **Uppdrag** i uppgiftshuvudet och klicka sedan på **Avancerat**.
+1. Klicka på området **Uppdrag** i uppgiftshuvudet och klicka sedan på **Avancerat**.
 
 1. Kontrollera att aktivitetens **varaktighetstyp** är något av följande:
 
@@ -101,7 +99,7 @@ To this:
    >* Workfront använder följande formel för beräkning av tilldelningens varaktighet för varje tilldelad: `Allocation Percentage = (Work Required / Number of days in the Duration) / Number of hours per work day / Number of assignees`.
    >* För den enkla varaktighetstypen kan du beräkna antalet tilldelade timmar för varje resurs, inte allokeringsprocenten.
 
-1. Klicka på **Tilldelningar** och ändra sedan **Allokeringar** för varje uppgiftstilldelad.
+1. Ändra fältet **Allokeringar** för varje tilldelad uppgift.
 
    Du kan bara ändra allokeringsprocenten för användar- och jobbrolltilldelningar.
 

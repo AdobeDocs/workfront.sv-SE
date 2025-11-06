@@ -7,7 +7,7 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 0%
@@ -20,15 +20,14 @@ ht-degree: 0%
 
 <!--remove the bullet indicated when we get rid of the new/old experience of editing tasks-->
 
-<!--
-<div class="preview"> 
+
+<!--<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> 
--->
+</div> -->
 
 Du kan hantera uppgifter och ärenden med hjälp av avancerade uppdrag.
 
@@ -96,7 +95,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
    >[!TIP]
    >
    >Du kan göra avancerade uppdrag direkt i uppgifts- eller utleveranslistan. Klicka i fältet **Uppdrag** på samma rad som uppgiften eller utgåvan och klicka sedan på **Avancerat** längst ned i listan eller på ikonen **Personer** i det övre högra hörnet av uppdragsrutan för att öppna fönstret Avancerade uppdrag. Gå till steg 5 om du vill fortsätta skapa avancerade uppdrag.
-   >![Klicka på Avancerat eller på ikonen Personer &#x200B;](assets/access-aa-from-lists.png)
+   >![Klicka på Avancerat eller på ikonen Personer ](assets/access-aa-from-lists.png)
 
 1. Klicka på **Tilldela till** i fältet **Tilldelningar** i huvudet på uppgiften eller problemet
 
@@ -136,7 +135,6 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
     -->
 
 1. Ange följande information för varje användare i kolumnen **Tilldelad**:
-
 
    * **Ägare**: Håll markören över namnet på den som har tilldelats och klicka på **Gör primär** i fältet Ägare om du vill markera den som tilldelats uppgiften eller utfärdaren. En grön kryssruta anger att den angivna användaren är den primära kontakten för uppgiften eller problemet. Adobe Workfront markerar den första användaren eller jobbrollen som du tilldelar en uppgift eller ett problem som ägare eller primär tilldelning. Ett team kan inte utses till primär ägare av en uppgift eller ett problem.
 

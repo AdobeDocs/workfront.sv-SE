@@ -7,7 +7,7 @@ description: När du har skapat en mall kan du redigera information om malluppgi
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
 source-wordcount: '4716'
 ht-degree: 0%
@@ -118,7 +118,7 @@ Du kan redigera en malluppgift med området Redigera malluppgift eller Malluppgi
    1. (Valfritt) Klicka på **Dokument** i den vänstra panelen för att lägga till dokument i mallåtgärden. Dokumenten överförs till projektuppgifterna när du använder mallen för att skapa projektet.
    1. (Villkorligt) Om du vill redigera begränsad information om en malluppgift klickar du på **Information om malluppgift** i den vänstra panelen. Gå sedan till områdena i detaljavsnittet för att redigera information för varje område.
    1. (Valfritt) Gör något av följande:
-      * Klicka på ikonen **Komprimera alla** ![Komprimera alla &#x200B;](assets/collapse-all-icon.png) om du vill komprimera alla områden.
+      * Klicka på ikonen **Komprimera alla** ![Komprimera alla ](assets/collapse-all-icon.png) om du vill komprimera alla områden.
       * Klicka på ikonen **Redigera** ![Redigera](assets/edit-icon.png) och välj sedan något av områdena nedan. Du kan också klicka på **Redigera alla** om du vill redigera information i alla områden:
 
          * Översikt
@@ -576,35 +576,35 @@ När du har öppnat rutan **Redigera malluppgift** i den nya versionen bör du �
    Klicka på **Tilldela mig** för att tilldela mallaktiviteten till dig själv.
 1. Överväg att uppdatera följande information:
 
-<table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody>
+   <table style="table-layout:auto"> 
+      <col> 
+      <col> 
+      <tbody>
 
-<tr> 
-      <td role="rowheader"><strong>Varaktighetstyp</strong> </td> 
-      <td> <p>Den framtida uppgift som skapas från den här mallen kommer att ha den här varaktighetstypen. <br>Varaktighetstypen identifierar relationen mellan följande:</p> 
-      <ul>
-      <li><p>Antal resurser som tilldelats en aktivitet</p> </li>
-      <li><p>Den totala arbetsinsats som krävs för att slutföra uppgiften</p></li> 
-      <li><p>Aktivitetens totala varaktighet </p></li></ul> <p>Med Varaktighetstyper kan du ange konsekventa resurstilldelningar baserat på uppgiftens behov. Mer information om varaktighetstypen för en aktivitet finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Översikt över aktivitetsvaraktighet och varaktighetstyp</a>.</p> <p>Välj bland följande alternativ:</p> 
-       <ul> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Beräknad tilldelning</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Beräknat arbete</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Ansträngningsstyrd</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Enkel</span> <br> </p> </li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Varaktighet</strong> </td> 
-      <td> <p>Ange varaktigheten för framtida uppgifter i minuter, timmar, dagar, veckor eller månader. Den framtida uppgift som skapas från den här mallen har den varaktighet som anges här.</p> <p>Som standard mäter Workfront Varaktighet i dagar. Det här är den tid som du tillåter att aktiviteten förblir ofullständig innan den måste slutföras. Du kan inte ange varaktigheten för en aktivitet när aktivitetens <strong>Varaktighetstyp</strong> är <strong>Enkel</strong> eller när <strong>Aktivitetsbegränsning</strong> är <strong>Fasta datum</strong>.</p> <p><b>VIKTIGT</b></p> <p>Varaktighet är vanligtvis den tid som förflyter mellan planerad start och planerad slutförandetid för en mallaktivitet, och av den anledningen påverkar den mallens tidslinje. Detta avgör tidslinjen för det framtida projekt som skapas från mallen. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Planerade timmar</strong> </td> 
-      <td> <p>Ange antalet planerade timmar för den framtida aktiviteten i det projekt som skapas med den här mallen. Detta är den faktiska tid det skulle ta för uppgiftens tilldelare att slutföra den. Du kan bara ange antalet planerade timmar för en aktivitet när varaktighetstypen <strong>är inställd på </strong>Beräknat uppdrag<strong>.</strong> </p> </td> 
-     </tr> 
-  </tbody> 
-   </table>
+   <tr> 
+         <td role="rowheader"><strong>Varaktighetstyp</strong> </td> 
+         <td> <p>Den framtida uppgift som skapas från den här mallen kommer att ha den här varaktighetstypen. <br>Varaktighetstypen identifierar relationen mellan följande:</p> 
+         <ul>
+         <li><p>Antal resurser som tilldelats en aktivitet</p> </li>
+         <li><p>Den totala arbetsinsats som krävs för att slutföra uppgiften</p></li> 
+         <li><p>Aktivitetens totala varaktighet </p></li></ul> <p>Med Varaktighetstyper kan du ange konsekventa resurstilldelningar baserat på uppgiftens behov. Mer information om varaktighetstypen för en aktivitet finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Översikt över aktivitetsvaraktighet och varaktighetstyp</a>.</p> <p>Välj bland följande alternativ:</p> 
+         <ul> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Beräknad tilldelning</span> </p> </li> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Beräknat arbete</span> </p> </li> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Ansträngningsstyrd</span> </p> </li> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Enkel</span> <br> </p> </li> 
+         </ul> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Varaktighet</strong> </td> 
+         <td> <p>Ange varaktigheten för framtida uppgifter i minuter, timmar, dagar, veckor eller månader. Den framtida uppgift som skapas från den här mallen har den varaktighet som anges här.</p> <p>Som standard mäter Workfront Varaktighet i dagar. Det här är den tid som du tillåter att aktiviteten förblir ofullständig innan den måste slutföras. Du kan inte ange varaktigheten för en aktivitet när aktivitetens <strong>Varaktighetstyp</strong> är <strong>Enkel</strong> eller när <strong>Aktivitetsbegränsning</strong> är <strong>Fasta datum</strong>.</p> <p><b>VIKTIGT</b></p> <p>Varaktighet är vanligtvis den tid som förflyter mellan planerad start och planerad slutförandetid för en mallaktivitet, och av den anledningen påverkar den mallens tidslinje. Detta avgör tidslinjen för det framtida projekt som skapas från mallen. </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Planerade timmar</strong> </td> 
+         <td> <p>Ange antalet planerade timmar för den framtida aktiviteten i det projekt som skapas med den här mallen. Detta är den faktiska tid det skulle ta för uppgiftens tilldelare att slutföra den. Du kan bara ange antalet planerade timmar för en aktivitet när varaktighetstypen <strong>är inställd på </strong>Beräknat uppdrag<strong>.</strong> </p> </td> 
+      </tr> 
+   </tbody> 
+      </table>
 
 1. (Valfritt) Fortsätt redigera följande avsnitt, beroende på vilken information du vill ändra.
 

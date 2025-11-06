@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
-source-wordcount: '1826'
+source-wordcount: '2212'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,15 @@ ht-degree: 0%
 
 <!--Audited: 10/2025-->
 
-<!--
-<div class="preview"> 
+<!--remove production/ preview and old/ new experience references at prod-->
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+<div class="preview">
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Samma funktioner är också tillgängliga i produktionsmiljön för alla kunder från och med en vecka från förhandsversionen.
 
-</div> 
--->
+Mer information finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+
+</div>
 
 Du kan tilldela uppgifter till användare, jobbroller eller team för att ange vem som ansvarar för att slutföra uppgifterna. Du kan tilldela en uppgift till mer än en resurs åt gången.
 
@@ -236,13 +236,20 @@ Så här tilldelar du uppgifter i en lista:
 1. Markera flera uppgifter i uppgiftslistan.
 1. Klicka på **Redigera**.
 
-   Dialogrutan **Redigera uppgifter** öppnas <!--<span class="preview">in the new experience</span>-->.
+   Dialogrutan **Redigera uppgifter** öppnas <span class="preview"> i den nya versionen.</span>
 
-   <!--1. Continue assigning the tasks <span class="preview">using the new experience</span>. <span class="preview">For more information, see the section Assign multiple tasks in bulk from a list in the new experience in this article.</span> (^^^^^^^^^^^^add anchor here at release^^^^^^^^^^^^) -->
+1. Fortsätt tilldela aktiviteterna <span class="preview">med den nya funktionen.</span>
 
-   <!--1. <span class="preview">(Optional) Click **Switch back to old experience** at the bottom of the Edit Tasks box.</span> -->
+   <span class="preview">Mer information finns i avsnittet [Tilldela flera aktiviteter samtidigt från en lista i den nya upplevelsen](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) i den här artikeln.</span>
 
-1. I området **Tilldelningar** markerar du rutan **Tilldelad** och börjar sedan skriva namnet på en användare, en jobbroll eller ett team som du vill tilldela alla uppgifter.
+1. <span class="preview">(Valfritt) Klicka på **Byt tillbaka till den gamla versionen** längst ned i rutan **Redigera uppgifter** för att öppna den gamla versionen.</span>
+
+   >[!TIP]
+   >
+   >Tilldela uppgifter i produktionsmiljön är bara tillgängligt för den gamla versionen.
+
+
+1. (Villkorligt) Markera rutan **Tilldelad** i området **Tilldelningar** med hjälp av den gamla funktionen och börja sedan skriva namnet på en användare, en jobbroll eller ett team som du vill tilldela till alla uppgifter.
 
    >[!IMPORTANT]
    >
@@ -271,53 +278,51 @@ Så här tilldelar du uppgifter i en lista:
 1. Klicka på **Spara ändringar**.
 1. (Valfritt och villkorligt) När fälten Tilldelad till eller Uppdrag visas i listan med uppgifter klickar du i en av dessa kolumner för en uppgift och sedan på ikonen **X** bredvid namnet på en tilldelad för att ta bort den från uppgiften.
 
-<!--
+
 <div class="preview">
 
-### Assign multiple tasks in bulk from a list in the new experience
+### Tilldela flera uppgifter samtidigt från en lista i den nya upplevelsen
 
-1. Go to a list of tasks that you want to assign in bulk in the Preview environment. 
-1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.
-
-   >[!IMPORTANT]
-   >
-   >You cannot edit tasks in bulk when saving tasks manually on a project.
-
-1. Select several tasks in the tasks list. 
-1. Click **Edit**.
-
-   The **Edit Tasks** dialog box opens.
-
-1. In the **Assignments** area, start typing the name of users, teams, or roles in the **Search people, roles, or teams** field provided, then click them when they display in the list
-
-   Or 
-
-   Click **Assign to me** to assign it to yourself.
+1. Gå till en lista med uppgifter som du vill tilldela gruppvis i förhandsvisningsmiljön.
+1. (Villkorligt) Se till att alternativet **Spara automatiskt** är markerat om du finns med i en lista över aktiviteter under ett projekt.
 
    >[!IMPORTANT]
    >
-   >If any of the tasks is already assigned, the resources you indicate here are added to the tasks instead of replacing the existing resources on the tasks.
+   >Du kan inte redigera flera uppgifter samtidigt när du sparar uppgifter manuellt i ett projekt.
 
-1. Click inside the **Duration Type** field and choose a Duration Type. 
+1. Markera flera uppgifter i uppgiftslistan.
+1. Klicka på **Redigera**.
 
-   For information about Duration Type on tasks, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   Dialogrutan **Redigera uppgifter** öppnas.
 
-1. (Conditional) Depending on what **Duration Type** you selected, update the following fields: 
+1. I området **Uppdrag** börjar du skriva namnet på användare, team eller roller i fältet **Sök efter personer, roller eller team** och klickar sedan på dem när de visas i listan
 
-   * Duration
-   * Planned Hours
+   eller
 
-      For more information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md). 
+   Klicka på **Tilldela mig** för att tilldela den till dig själv.
 
-1. (Optional) If you want to remove existing assignees from all tasks, click the **x** next to their name in the **Search people, roles, or teams** field.
+   >[!IMPORTANT]
+   >
+   >Om någon av uppgifterna redan har tilldelats läggs de resurser som du anger här till i aktiviteterna i stället för att ersätta de befintliga resurserna för aktiviteterna.
 
-1. Click **Save**.
-1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of tasks, click inside one of these columns for a task, then click the **X icon** next to the name of an assignee to remove it from the task.
+1. Klicka i fältet **Varaktighetstyp** och välj en Varaktighetstyp.
+
+   Mer information om varaktighetstyp för uppgifter finns i [Översikt över aktivitetsvaraktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+
+1. (Villkorligt) Beroende på vilken **Varaktighetstyp** du valde kan du uppdatera följande fält:
+
+   * Varaktighet
+   * Planerade timmar
+
+     Mer information finns i [Redigera uppgifter](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+
+1. (Valfritt) Om du vill ta bort befintliga tilldelningar från alla uppgifter klickar du på **x** bredvid deras namn i fältet **Sök efter personer, roller eller team**.
+
+1. Klicka på **Spara**.
+1. (Valfritt och villkorligt) När fälten **Tilldelad till** eller **Tilldelningar** visas i din lista med uppgifter klickar du i en av dessa kolumner för en uppgift och sedan på ikonen **X** bredvid namnet på en tilldelad för att ta bort den från uppgiften.
 
 
 </div>
--->
-
 
 
 <!--

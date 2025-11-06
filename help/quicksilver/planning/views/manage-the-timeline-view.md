@@ -6,22 +6,19 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
-source-wordcount: '3874'
+source-wordcount: '3951'
 ht-degree: 0%
 
 ---
 
 # Hantera tidslinjevyn
 
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
--->
 
 {{planning-important-intro}}
 
@@ -215,7 +212,7 @@ Så här hanterar du en tidslinjevy:
 
 1. Gör följande för att snabbt hitta poster som matchar ett nyckelord:
 
-   1. Klicka på ikonen **Sök** ![Sök &#x200B;](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med ett fält i en post som visas på skärmen. Antalet korrekta matchningar visas bredvid sökobjektet och posten med rätt matchning markeras.
+   1. Klicka på ikonen **Sök** ![Sök ](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med ett fält i en post som visas på skärmen. Antalet korrekta matchningar visas bredvid sökobjektet och posten med rätt matchning markeras.
 
       ![Sökruta och tidslinjevy för resultat](assets/search-box-and-results-timeline-view.png)
 
@@ -285,9 +282,7 @@ Så här lägger du till ett filter i en tidslinjevy:
 1. Markera en tidslinjevy och klicka sedan på **Filter** i tabellens övre högra hörn.
 1. Klicka på **Lägg till villkor** och lägg till följande information:
 
-   * **Markera ett fält** som du vill filtrera efter <!-- the tip below might change-->
-
-     <!--replace the bullet above with this at preview release: <span class="preview">Search for a field or </span> click the drop-down menu to display a list of fields and select it from the list-->
+   * **Välj ett fält** för att <span class="preview">söka efter ett fält eller </span> klicka på den nedrullningsbara menyn för att visa en lista med fält och markera det i listan
 
    * **Välj ett alternativ** (eller en filtermodifierare) för att definiera vilken typ av villkor fältet måste uppfylla
 
@@ -408,7 +403,7 @@ Så här lägger du till en gruppering i tidslinjevyn:
 
    ![Gruppera vyn för användargränssnittets tidslinje med länkade fält](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
-1. Klicka på ett av de föreslagna fälten eller klicka på **Välj ett annat fält**, sök efter ett annat fält och klicka sedan på det när det visas i listan.
+1. Klicka på ett av de föreslagna fälten eller klicka på **Välj ett annat fält** och sök efter ett annat fält. Klicka sedan på det när det visas i listan.
 
    Grupperingen används automatiskt på tidslinjen och posterna visas inuti grupperingsrutan.
 
