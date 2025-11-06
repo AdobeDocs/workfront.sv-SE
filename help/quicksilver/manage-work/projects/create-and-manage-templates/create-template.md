@@ -6,9 +6,9 @@ description: Du kan skapa och ta bort mallar under Mallar. När du skapar en ny 
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 46133f435c665dd82d134f18d0b5de4e70bab7d7
+source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,14 @@ ht-degree: 0%
 # Skapa en projektmall
 
 <!-- Audited: 10/2025 -->
+
+<div class="preview">
+
+Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Samma funktioner är också tillgängliga i produktionsmiljön för alla kunder från och med en vecka från förhandsversionen.
+
+Mer information finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+
+</div>
 
 Du kan skapa och ta bort mallar under Mallar. När du skapar en ny mall kan du ange informationen för alla uppgifter och för dina framtida projektinställningar. Den här informationen överförs sedan till alla projekt som du skapar från mallen.
 
@@ -112,23 +120,32 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
    ![Ny mallaktivitet](assets/new-template-task-box.png)
 
-   <!--<span class="preview">The Create Template Task opens in the new experience.</span>-->
+   <span class="preview">Rutan **Skapa malluppgift** öppnas i den nya versionen.</span>
 
-   <!--
-   1. <span class="preview">(Conditional) Using the new experience, update information in the following areas in the **Create Template Task** box:</span>
+1. <span class="preview">(Villkorligt) Uppdatera informationen i följande områden i rutan **Skapa malluppgift** med den nya funktionen:</span>
+
    <div class="preview">
-   * Template Task Name
-   * Overview
-   * Assignments
-   * Finance
-   * Custom Forms
-   * Documents
-   * Settings 
+
+   * Malluppgiftsnamn
+   * Översikt
+   * Uppdrag
+   * Ekonomi
+   * Anpassad Forms
+   * Dokument
+   * Inställningar
+
    </div>
-   1. Click **Save**
-   Or (*******remove the 1. from the step below and continue with those steps here*********)
-   1. (Optional) Click **Switch back to old experience** at the bottom of the **Create Template Task** box.
-   The **New Template Task** opens. (************add screen shot***********)-->
+
+1. Klicka på **Skapa malluppgift**
+
+   eller
+
+   <span class="preview">Klicka på **Byt tillbaka till den gamla versionen** längst ned i rutan **Skapa malluppgift**.</span>
+   <span class="preview">Den **nya mallaktiviteten** öppnas i den gamla versionen.</span>
+
+   >[!TIP]
+   >
+   >I Production öppnas den gamla versionen som standard.
 
 1. Uppdatera information i följande områden i rutan **Ny mallaktivitet**:
 
@@ -148,7 +165,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 1. Klicka på något av följande:
 
    * **Spara mallaktivitet** om du vill spara den aktuella mallaktiviteten och stänger rutan Ny mallaktivitet.
-   * **Spara mallaktivitet och starta en annan** om du vill spara den aktuella mallaktiviteten och öppna en annan ny malluppgift om du vill lägga till en annan uppgift.
+   * **Spara mallaktivitet och starta en annan** om du vill spara den aktuella mallaktiviteten och öppna en annan **ny malluppgift** om du vill lägga till en annan uppgift.
    * **Avbryt** om du vill stänga rutan utan att spara mallaktiviteten.
 1. (Valfritt) När du har lagt till malluppgifterna kan du klicka på ikonen **Gantt-schema** i det övre högra hörnet i uppgiftslistan för att visa en visuell representation av mallens uppgiftslista.
 

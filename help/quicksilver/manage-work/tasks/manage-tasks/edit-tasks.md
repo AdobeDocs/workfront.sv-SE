@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
 workflow-type: tm+mt
-source-wordcount: '3828'
+source-wordcount: '4464'
 ht-degree: 0%
 
 ---
@@ -28,16 +28,13 @@ ht-degree: 0%
 </div>
 -->
 
-<!--
-<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Samma funktioner är också tillgängliga i produktionsmiljön för alla kunder från och med en vecka från förhandsversionen.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+Mer information finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
-</div> 
--->
-
+</div>
 
 Du kan redigera information om åtgärder som du har skapat eller om du har behörighet att göra det i Contribute eller Hantera.
 
@@ -380,135 +377,133 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
 1. Börja redigera din uppgift enligt beskrivningen ovan.
 1. Klicka på **Uppdrag** i den vänstra panelen.
 
-   <!--<span class="preview">The Assignments area opens in the new experience.</span>-->
+   <span class="preview">Området Uppdrag öppnas i den nya upplevelsen.</span>
 
-   <!--indent the bullets below to show new experience functionality:
-      1. (Conditional) Using the new experience, do the following:-->
+1. (Villkorligt) Gör följande när du använder den nya funktionen:
 
-   <!--Indent this according to what you did above: 
+   1. <span class="preview">Börja skriva namnet på en användare, en jobbroll eller ett team i fältet **Sök efter personer, en roll eller ett team** och markera dem sedan när de visas i listan</span>
 
-      1. <span class="preview">Start typing the name of a user, job role, or team in the **Search people, role or team** field, then select them when they display in the list</span>
+      eller
 
-      Or
+      <span class="preview">Klicka på **Tilldela mig** om du vill tilldela uppgiften till dig själv. </span>
 
-      <span class="preview">Click **Assign to me** to assign the task to yourself. </span>
+   1. <span class="preview">Uppdatera följande information:</span>
 
-      1. Update the following information:
-
-
-      1. (Conditional and optional) Update the following fields: 
+      <div class="preview">
 
       <table style="table-layout:auto"> 
-      <col> 
-      <col> 
-      <tbody> 
-      <tr> 
-      <td role="rowheader">Duration Type</td> 
-      <td> <p>This identifies the relationship between the following: </p> 
-      <ul> 
-      <li> <p>The number of resources assigned to a task </p> </li> 
-      <li> <p>The total effort required to complete the task </p> </li> 
-      <li> <p> The total duration of the task. </p> </li> 
-      </ul> <p>Your Workfront administrator or a group administrator selects the default Duration Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configure system-wide task and issue preferences</a>. </p> <p>Duration Types enable you to set consistent resource assignments based on the needs of the task. For more information about the Duration Type of a task, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>. </p> <p>Select from the following options: </p> 
-      <ul> 
-      <li> <p>Calculated Assignment </p> </li> 
-      <li> <p> Calculated Work </p> </li> 
-      <li> <p>Effort Driven </p> </li> 
-      <li> <p>Simple</p> </li> 
-      </ul> </td> 
-      </tr> 
-      <td role="rowheader">Duration per Occurrence</td> 
-      <td> <p>This displays only on the parent of recurring tasks. It displays the duration of each recurring task, as defined when the task was created. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>. </p> <p> <b>NOTE</b>          
-      Durations modified in individual recurring tasks do not display the value indicated in this field. </p> </td> 
-      </tr>
-      <tr> 
-      <td role="rowheader">Duration</td> 
-      <td> 
-      <div> 
-      <div> 
-      <p>This is the amount of time that you allow a task to remain open before it is completed. </p> 
-      <p><b>IMPORTANT</b>
-   
-      Because the task duration is typically the amount of time between the Planned Start and the Planned Completion Dates, it affects the timeline of the project.</p> 
-   
-      <p>To indicate the Duration of the task and the unit of time do the following:</p> 
-      <ul> 
-      <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Type the length of time and select from the units of time available in the drop-down menu.</p> <p><b>TIP</b></p>
-      When you update the Duration of tasks in a task list, you can use the abbreviation for the unit of time. </p> </li> 
-      </ul> 
-      <p> You can choose from the regular time or elapsed time options in the following table: </p> 
-      <table style="table-layout:auto"> 
-      <col> 
-      <col data-mc-conditions=""> 
-      <tbody> 
-      <tr> 
-      <td>Unit of Time</td> 
-      <td>Abbreviation</td> 
-      </tr> 
-      <tr> 
-      <td>Minutes</td> 
-      <td>M</td> 
-      </tr> 
-      <tr> 
-      <td>Hours</td> 
-      <td>H</td> 
-      </tr> 
-      <tr> 
-      <td>Days. This is the default. </td> 
-      <td>D</td> 
-      </tr> 
-      <tr> 
-      <td>Weeks</td> 
-      <td>W</td> 
-      </tr> 
-      <tr> 
-      <td>Months</td> 
-      <td>T</td> 
-      </tr> 
-      <tr> 
-      <td>Elapsed Minutes</td> 
-      <td>EM</td> 
-      </tr> 
-      <tr> 
-      <td>Elapsed Hours</td> 
-      <td>EH</td> 
-      </tr> 
-      <tr> 
-      <td>Elapsed Days</td> 
-      <td>ED</td> 
-      </tr> 
-      <tr> 
-      <td>Elapsed Weeks</td> 
-      <td>EW</td> 
-      </tr> 
-      <tr> 
-      <td>Elapsed Months</td> 
-      <td>ET</td> 
-      </tr> 
-      </tbody> 
-      </table> 
+         <col> 
+         <col> 
+         <tbody> 
+         <tr> 
+         <td role="rowheader">Varaktighetstyp</td> 
+         <td> <p>Detta identifierar relationen mellan följande: </p> 
+         <ul> 
+         <li> <p>Antalet resurser som tilldelats en aktivitet </p> </li> 
+         <li> <p>Den totala arbetsinsats som krävs för att slutföra uppgiften </p> </li> 
+         <li> <p> Aktivitetens totala varaktighet. </p> </li> 
+         </ul> <p>Workfront-administratören eller en gruppadministratör väljer standardinställningen för varaktighetstyp för uppgifterna i ditt system eller din grupp. Mer information om hur du anger standardinställningar för projekt finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Konfigurera systemomfattande uppgifter och inställningar för problem</a>. </p> <p>Med varaktighetstyper kan du ange konsekventa resurstilldelningar baserat på uppgiftens behov. Mer information om varaktighetstypen för en aktivitet finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Översikt över aktivitetsvaraktighet och varaktighetstyp</a>. </p> <p>Välj bland följande alternativ: </p> 
+         <ul> 
+         <li> <p>Beräknad tilldelning </p> </li> 
+         <li> <p> Beräknat arbete </p> </li> 
+         <li> <p>Ansträngningsstyrd </p> </li> 
+         <li> <p>Enkel</p> </li> 
+         </ul> </td> 
+         </tr> 
+         <td role="rowheader">Varaktighet per förekomst</td> 
+         <td> <p>Detta visas endast på den överordnade för återkommande uppgifter. Den visar varaktigheten för varje återkommande uppgift, enligt definition när uppgiften skapades. Mer information om hur du skapar återkommande aktiviteter finns i <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Skapa återkommande aktiviteter</a>. </p> <p> <b>OBS!</b>          
+         Varaktigheter som ändras i enskilda återkommande aktiviteter visar inte det värde som anges i det här fältet. </p> </td> 
+         </tr>
+         <tr> 
+         <td role="rowheader">Varaktighet</td> 
+         <td> 
+         <div> 
+         <div> 
+         <p>Det här är den tid som du tillåter att en uppgift förblir öppen innan den är slutförd. </p> 
+         <p><b>VIKTIGT</b>
 
-      <p><b>NOTE</b>
-      
-      <p>Elapsed time is a unit of time for a task's Duration. It is the time between the Planned Start Date and the Planned Completion Date of a task that includes holidays, weekends, and time off. In other words, elapsed time is the passage of calendar days. 
+      Eftersom aktivitetens varaktighet vanligtvis är tiden mellan planerad start och planerad slutförandetid, påverkar det tidslinjen för projektet.</p>
 
-      Regular time takes into account holidays, weekends, and time off and excludes them from the Duration of the task. For more information about task duration, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>. </p>
+      <p>Så här anger du aktivitetens varaktighet och tidsenhet:</p> 
+         <ul> 
+         <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Skriv in tidslängden och välj en tidsenhet i listrutan.</p> <p><b>TIPS</b></p>
+         När du uppdaterar varaktigheten för uppgifter i en uppgiftslista kan du använda förkortningen för tidsenheten. </p> </li> 
+         </ul> 
+         <p> Du kan välja mellan alternativen för normal tid eller förfluten tid i följande tabell: </p> 
+         <table style="table-layout:auto"> 
+         <col> 
+         <col data-mc-conditions=""> 
+         <tbody> 
+         <tr> 
+         <td>Tidsenhet</td> 
+         <td>Förkortning</td> 
+         </tr> 
+         <tr> 
+         <td>Minuter</td> 
+         <td>M</td> 
+         </tr> 
+         <tr> 
+         <td>Timmar</td> 
+         <td>H</td> 
+         </tr> 
+         <tr> 
+         <td>Dagar. Det här är standardinställningen. </td> 
+         <td>D</td> 
+         </tr> 
+         <tr> 
+         <td>Veckor</td> 
+         <td>B</td> 
+         </tr> 
+         <tr> 
+         <td>Månader</td> 
+         <td>T</td> 
+         </tr> 
+         <tr> 
+         <td>Förflutna minuter</td> 
+         <td>EM</td> 
+         </tr> 
+         <tr> 
+         <td>Förflutna timmar</td> 
+         <td>EH</td> 
+         </tr> 
+         <tr> 
+         <td>Förflutna dagar</td> 
+         <td>ED</td> 
+         </tr> 
+         <tr> 
+         <td>Förflutna veckor</td> 
+         <td>FV</td> 
+         </tr> 
+         <tr> 
+         <td>Förflutna månader</td> 
+         <td>ET</td> 
+         </tr> 
+         </tbody> 
+         </table>
+
+      <p><b>ANMÄRKNING</b>
+
+      <p>Förfluten tid är en tidsenhet för en uppgifts varaktighet. Det är tiden mellan det planerade startdatumet och det planerade slutförandedatumet för en aktivitet som omfattar helger, helger och ledig tid. Med andra ord är förfluten tid en del av kalenderdagarna.
+
+      Med normal tid räknas helger, helger och ledig tid som undantag från uppgiftens varaktighet. Mer information om aktivitetens varaktighet finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Översikt över aktivitetsvaraktighet och varaktighetstyp</a>. </p>
       </td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader">Planned Hours</td> 
-      <td> <p>Specify the number of Planned Hours for the task, in hours. This is the amount of actual time that it would take the assignees of the task to complete it. You can only specify the number of Planned Hours for a task when the Duration Type is set to Calculated Assignment. For more information about duration types, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p> 
-      <b>NOTE</b>
-      <p>
-      When creating recurring tasks, the Planned Hours are those of each occurrence. The Planned Hours of the parent tasks are the total of all Planned Hours from all the occurrences. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>.
-      </p>
-      
-      </td> 
-      </tr> 
-      </tbody> 
-      </table>
+         </tr> 
+         <tr> 
+         <td role="rowheader">Planerade timmar</td> 
+         <td> <p>Ange antalet planerade timmar för aktiviteten, i timmar. Detta är den faktiska tid det skulle ta för de som tilldelats uppgiften att slutföra den. Du kan bara ange antalet planerade timmar för en aktivitet när varaktighetstypen är inställd på Beräknad tilldelning. Mer information om varaktighetstyper finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Översikt över aktivitetsvaraktighet och varaktighetstyp</a>.</p> 
+         <b>OBS!</b>
+         <p>
+         När du skapar återkommande uppgifter är de planerade timmarna för varje förekomst. De planerade timmarna för de överordnade uppgifterna är det totala antalet planerade timmar från alla förekomster. Mer information om hur du skapar återkommande aktiviteter finns i <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Skapa återkommande aktiviteter</a>.
+         </p>
 
-      (**********<tr> 
+      </td> 
+         </tr> 
+         </tbody> 
+         </table>
+
+      </div>
+
+      <!--<tr> 
       <td role="rowheader">Allocation</td> 
       <td> <p>If your Task Constraint is Calculated Work or Effort Driven, specify the <strong>Allocation %</strong> (allocation percentage) for each assignee. This is the amount of time from the schedule of the assignee that they can spend on this task. Changing the allocation percentage for an assignee will change the Planned Hours of a task. </p> <p>When the Task Constraint is Simple, you can specify the following:</p> 
          <ul> 
@@ -523,10 +518,11 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
          Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
          </tr>
          </tbody> 
-         </table>************)-->
-   <!--1. <span class="preview">(Optional) Click Switch to old experience at the bottom of the **Edit Task** box. </span>
-      <span class="preview">The Assignments area opens in the old experience. </span>
-      ![](assets/nwe-assignments-section-edit-task-box-350x217.png)-->
+         </table>-->
+
+   1. <span class="preview">(Valfritt) Klicka på **Byt till gammal upplevelse** längst ned i rutan **Redigera aktivitet**. </span>
+      <span class="preview">Området Uppdrag öppnas i den gamla versionen. </span>
+      ![](assets/nwe-assignments-section-edit-task-box-350x217.png)
 
 1. Klicka på **Sök efter personer, roller eller team** och börja skriva namnet på en användare, roll eller team som du vill tilldela uppgiften. Klicka sedan på den eller tryck på Retur när den visas i listan.
 
@@ -674,7 +670,7 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
    </tbody>
    </table>
 
-1. Klicka på **Spara ändringar** <!--<span class="preview"> or **Save** </span> --> eller fortsätt med följande avsnitt.
+1. Klicka på **Spara ändringar** <span class="preview"> eller **Spara** </span> eller fortsätt med följande avsnitt.
 
 ### Anpassad Forms
 

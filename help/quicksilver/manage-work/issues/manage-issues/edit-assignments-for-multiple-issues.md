@@ -6,9 +6,9 @@ description: Ändra användartilldelningar för flera utgåvor i en lista
 author: Lisa
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: similar article exists for tasks)</p>
 -->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Samma funktioner är också tillgängliga i produktionsmiljön för alla kunder från och med en vecka från förhandsversionen.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-Mer information finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 Du kan ändra användartilldelningar samtidigt till flera utgåvor. Mer information om hur du redigerar problem eller tilldelar dem en åt gången finns i följande artiklar:
 
@@ -103,80 +103,63 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
       Listan över problem filtrerar automatiskt efter filtervillkoren.
    1. (Valfritt) Klicka på **Spara som ny** och sedan på **Spara**.
 
-1. Markera de ärenden som du vill ändra uppdrag för och klicka sedan på ikonen **Redigera** ![Redigera &#x200B;](assets/qs-edit-icon.png) .
+1. Markera de ärenden som du vill ändra uppdrag för och klicka sedan på ikonen **Redigera** ![Redigera ](assets/qs-edit-icon.png) .
 
    **Redigera problem** visas. Antalet markerade objekt visas i det övre vänstra hörnet på sidan.
 
-1. (Villkorligt) Gör följande i produktionsmiljön:
+1. Klicka på **Uppdrag** i den vänstra panelen och klicka sedan på ikonen **x** bredvid den tilldelade person som du vill ta bort.
 
-   1. Gå till avsnittet **Uppdrag** och välj sedan **Tilldelad**.
+   >[!TIP]
+   >
+   >Endast tilldelningar som har tilldelats alla markerade utgåvor visas i området **Uppdrag**.
 
-      ![Uppdragsområde](assets/classic-assignmens-area-on-edit-box-350x119.png)
+   ![Området uppdrag i gruppredigeringsfrågor](assets/assignments-area-on-bulk-edit-issues.png)
 
-   1. Gör något av följande:
+1. Börja skriva namnet på en användare, roll eller team som ska lägga till tilldelningar till alla valda utgåvor.
 
-      1. Så här lägger du till en ny tilldelad:
+   >[!TIP]
+   >
+   >Du kan tilldela flera användare, jobbroller eller team. Du kan bara tilldela aktiva användare, jobbroller och team.
+   >
+   >Om en användare, jobbroll eller ett team tilldelades innan de inaktiverades, förblir de tilldelade till arbetsuppgiften. I det här fallet rekommenderar vi följande:
+   >
+   >* Tilldela om arbetsuppgiften till aktiva resurser.
+   >* Associera användarna i ett inaktiverat team med ett aktivt team och omfördela arbetsposten till det aktiva teamet.
 
-         1. Börja skriva namnet på en användare, roll eller team och markera det sedan när det visas i listan. Uppdraget läggs till och ersätter inte de aktuella tilldelningarna för de valda utgåvorna.
+   De tillagda tilldelningarna läggs till i de befintliga. De ersätter inte de befintliga för varje vald utgåva.
 
+1. (Valfritt) Klicka på **Tilldela mig** om du vill tilldela dig själv alla utgåvor.
+1. Klicka på **Spara**.
+
+
+   <!--Old functionality for assignments for issues - before November 2025:
+   1. (Conditional) In the Production environment, do the following: 
+   1. Go to the **Assignments** section, then select **Assignee**.
+      ![Assignments area](assets/classic-assignmens-area-on-edit-box-350x119.png)
+   1. Do one of the following:
+      1. To add a new assignee:
+         1. Start typing the name of a user, role, or team, then select it when it displays in the list. The assignment is added and does not replace the current assignments on the selected issues.
          >[!TIP]
          >
-         >Du kan tilldela flera användare, jobbroller eller team. Du kan bara tilldela aktiva användare, jobbroller och team.
+         >You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
          >
-         >Om en användare, jobbroll eller ett team tilldelades innan de inaktiverades, förblir de tilldelade till arbetsuppgiften. I det här fallet rekommenderar vi följande:
+         >If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:
          >
-         >* Tilldela om arbetsuppgiften till aktiva resurser.
-         >* Associera användarna i ett inaktiverat team med ett aktivt team och omfördela arbetsposten till det aktiva teamet.
-
-         Information som är gemensam för alla valda utgåvor visas. Om samma användare till exempel har tilldelats alla utgåvor visas den användaren i kolumnen **Tilldelning**. Om information inte är vanlig i de markerade problemen visas ingen information.
-
-      1. Så här tar du bort enskilda tilldelningar:
-
-         1. Klicka på **X-ikonen** bredvid namnet på den tilldelade personen som du vill ta bort om den tilldelade personen visas i uppdragslistan.
-
-            eller
-
-            Om den tilldelande som du vill ta bort inte visas i uppdragsavsnittet, eftersom den som tilldelas endast är tilldelad vissa av de utgåvor som du har markerat, klickar du på **Ta bort tilldelad** och börjar skriva namnet på den tilldelande som du vill ta bort. Klicka sedan på namnet när det visas i listrutan.
-
-         1. Klicka på **Ta bort tilldelad** igen om du vill lägga till ytterligare en tilldelad som ska tas bort.
-
-      1. Så här tar du bort alla befintliga tilldelningar:
-
-         1. Klicka på **Ta bort alla befintliga tilldelningar** och sedan på **Ja, Ta bort alla tilldelningar**.
-
-            Detta tar inte bara bort vanliga tilldelningar (tilldelningar som visas i redigeringsdialogrutan), utan även alla tilldelningar för alla markerade frågor.
-
-         1. (Valfritt) Ändra något av följande alternativ för de tilldelningar du har valt för att associera med problemen:
-
-            * **Ägare av utgåva:** Markera alternativknappen för att ange vilken tilldelad som är ägare av utgåvor. Om alternativet inte är markerat utser Adobe Workfront den första tilldelade personen till utfärdaren. Detta är inte tillgängligt för grupptilldelningar.
-            * **Tilldelningens roll**: Välj en roll i listrutan. Om alternativet inte är markerat väljs automatiskt användarens primära roll.
-
-      1. Klicka på **Spara ändringar**.
-
-1. <span class="preview">Gör följande i förhandsgranskningsmiljön:</span>
-
-   1. <span class="preview">Klicka på **Uppdrag** i den vänstra panelen och klicka sedan på ikonen **x** bredvid den tilldelade person som du vill ta bort. </span>
-
-      >[!TIP]
-      >
-      ><span class="preview">Endast tilldelningar som har tilldelats alla markerade utgåvor visas i området **Uppdrag**. </span>
-
-      ![Området uppdrag i gruppredigeringsfrågor](assets/assignments-area-on-bulk-edit-issues.png)
-
-   1. <span class="preview">Börja skriva namnet på en användare, roll eller team som ska lägga till tilldelningar till alla markerade problem. </span>
-
-      >[!TIP]
-      >
-      >Du kan tilldela flera användare, jobbroller eller team. Du kan bara tilldela aktiva användare, jobbroller och team.
-      >
-      >Om en användare, jobbroll eller ett team tilldelades innan de inaktiverades, förblir de tilldelade till arbetsuppgiften. I det här fallet rekommenderar vi följande:
-      >
-      >* Tilldela om arbetsuppgiften till aktiva resurser.
-      >* Associera användarna i ett inaktiverat team med ett aktivt team och omfördela arbetsposten till det aktiva teamet.
-
-      <span class="preview">De tillagda tilldelningarna läggs till i de befintliga. De ersätter inte de befintliga för varje vald utgåva. </span>
-   1. <span class="preview">(Valfritt) Klicka på **Tilldela mig** om du vill tilldela dig själv alla utgåvor.</span>
-   1. <span class="preview">Klicka på **Spara**. </span>
+         >* Reassign the work item to active resources.
+         >* Associate the users in a deactivated team with an active team and reassign the work item to the active team.
+          Information that is common across all issues selected displays. For example, if the same user is assigned to all issues, that user displays in the **Assignee**  column. If information is not common across the issues selected, no information displays.
+      1. To remove individual assignees:
+         1. Click the **X icon** next to the name of the assignee that you want to remove if the assignee displays in the Assignments list.
+            Or
+            If the assignee that you want to remove does not display in the Assignments section because the assignee is assigned to only some of the issues that you have selected, click **Remove Assignee** and start typing the name of the assignee that you want to remove, then click the name when it appears in the drop-down list.
+         1. Click  **Remove Assignee** again to add another assignee to remove.
+      1. To remove all existing assignees:
+         1. Click **Remove All Existing Assignees**, then click **Yes, Delete All Assignees**.
+            This removes not only common assignees (assignees that are displayed in the edit  dialog box), but also all assignees on all the selected issues.
+         1. (Optional) Modify any of the following options for the assignees you selected to associate with the issues:
+          * **Issue Owner:**  Select the radio button to indicate which assignee is designated as the Issues Owner. If left unselected, Adobe Workfront designates the first assignee as the Issue Owner. This is not available for team assignments. 
+            * **Assignee's Role**: Select a role from the drop-down list. If left unselected, Workfront automatically selects the Primary Role of the user.
+      1. Click **Save Changes**.-->
 
 
 

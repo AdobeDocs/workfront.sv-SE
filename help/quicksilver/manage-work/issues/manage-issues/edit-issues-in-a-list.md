@@ -6,9 +6,9 @@ description: Du kan redigera ett enskilt problem eller redigera problem i en pro
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
+source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '875'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 <!--Audited: 10/2025-->
 
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Samma funktioner är också tillgängliga i produktionsmiljön för alla kunder från och med en vecka från förhandsversionen.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Mer information finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 Du kan redigera ett enskilt problem eller redigera problem i en problemlista eller rapport. I den här artikeln beskrivs hur du redigerar problem i listor.
 
@@ -121,7 +121,7 @@ Så här infogar du redigering av en utgåva:
 1. Gå till en lista med problem i ett projekt eller en uppgift.
 1. Gör något av följande
 
-   * Markera problemet i listan och klicka sedan på ikonen **Redigera** ![Redigera &#x200B;](assets/qs-edit-icon.png) i verktygsfältet.
+   * Markera problemet i listan och klicka sedan på ikonen **Redigera** ![Redigera ](assets/qs-edit-icon.png) i verktygsfältet.
    * Klicka på namnet på problemet och klicka sedan på **Redigera**.
 
      Alla dessa åtgärder öppnar rutan **Redigera problem**.
@@ -172,15 +172,11 @@ Så här redigerar du flera problem samtidigt:
 
    Att redigera information i alla frågor är identiskt med att redigera information i ett problem när du redigerar följande områden:
 
-   <div class="preview">
-
    * Översikt
    * Uppdrag
    * Anpassad Forms
    * Inställningar
    * Kommentar
-
-   </div>
 
    Mer information om hur du redigerar ett problem finns i [Redigera problem](../../../manage-work/issues/manage-issues/edit-issues.md).
 
@@ -194,16 +190,16 @@ Så här redigerar du flera problem samtidigt:
 
    Du kan bara redigera fält i formulären som är kopplade till alla markerade problem och som du har behörighet att redigera.
 
-1. (Valfritt och villkorligt) Beroende på vilken miljö du använder för att redigera problemen gör du något av följande för att beräkna om anpassade uttryck för alla utgåvor:
+   <!--1. In the Production environment, in the **Custom Forms** area, select the **Recalculate Custom Expressions** option to ensure that all Calculated Custom Fields that are on the Custom Forms attached to the issues selected are up to date.-->
 
-   1. I produktionsmiljön markerar du alternativet **Beräkna om anpassade uttryck** i området **Anpassade Forms** för att se till att alla beräknade anpassade fält i den anpassade Forms som är kopplade till de valda problemen är aktuella.
+1. Klicka på **Spara**.
 
-   1. <span class="preview">I förhandsgranskningsmiljön, med alla problem markerade i listan, klickar du på menyn **Mer** ![Mer](assets/more-icon.png) överst i problemlistan och sedan på **Beräkna om uttryck**. </span>
+   Alla ändringar du har gjort visas nu för alla markerade problem.
+
+1. (Valfritt) Med alla utgåvor markerade i listan klickar du på menyn **Mer** ![Mer](assets/more-icon.png) överst i problemlistan och sedan på **Beräkna om uttryck**.
 
    >[!IMPORTANT]
    >
    >Vi rekommenderar att du inte väljer mer än 500 utgåvor åt gången när du beräknar om anpassade uttryck.
 
-1. Klicka på **Spara ändringar**.
 
-   Alla ändringar du har gjort visas nu för alla markerade problem.

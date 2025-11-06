@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
+source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
 workflow-type: tm+mt
-source-wordcount: '2741'
+source-wordcount: '2532'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 0%
 
 <!--Audited: 10/2025-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Samma funktioner är också tillgängliga i produktionsmiljön för alla kunder från och med en vecka från förhandsversionen.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Mer information finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div>-->
 
 Du kan redigera information om problem som du har skapat eller som andra användare har skapat om de delat problemen med dig.
 
@@ -136,7 +136,7 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
    1. (Valfritt) Klicka på ikonen **Komprimera alla** i det övre högra hörnet om du vill komprimera alla områden.
    1. (Valfritt och villkorligt) När ett område är komprimerat klickar du på **högerpilen** ![högerpilen](assets/right-pointing-arrow.png) bredvid varje område för att expandera det område som du vill redigera.
    1. (Valfritt) Om du vill bifoga ett anpassat formulär börjar du skriva namnet på ett formulär i fältet **Lägg till anpassat formulär** och markerar det när det visas i listan. Klicka sedan på **Spara ändringar**.
-   1. (Valfritt) Klicka på ikonen **Exportera** ![Exportera &#x200B;](assets/export.png) om du vill exportera översiktsinformation och anpassad formulärinformation till en PDF-fil. Klicka sedan på **Exportera**. Välj bland följande:
+   1. (Valfritt) Klicka på ikonen **Exportera** ![Exportera ](assets/export.png) om du vill exportera översiktsinformation och anpassad formulärinformation till en PDF-fil. Klicka sedan på **Exportera**. Välj bland följande:
 
       * Markera alla (visas bara när det finns minst ett anpassat formulär bifogat)
       * Översikt
@@ -348,14 +348,9 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
    >* Tilldela om arbetsuppgiften till aktiva resurser.
    >* Associera användarna i ett inaktiverat team med ett aktivt team och omfördela arbetsposten till det aktiva teamet.
 
-1. (Villkorligt) Beroende på vilken miljö du redigerar problem i gör du något av följande:
-
-   1. I produktionsmiljön:
-
-      1. Ange om en tilldelad är den primära tilldelaren i problemet genom att hålla markören över den tilldelades namn och klicka på **Gör primär**. Ett team kan inte vara den primära tilldelaren för ett problem.
-
-      1. Uppdatera följande fält:
-
+   <!--1. In the Production environment:
+         1. Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue.
+         1. Update the following fields: 
          <table style="table-layout:auto"> 
          <col> 
          </col> 
@@ -363,30 +358,27 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
          </col> 
          <tbody> 
          <tr> 
-            <td role="rowheader">Planerade timmar</td> 
-            <td> <p>Detta är den faktiska tid det skulle ta för de som tilldelats utgåvan att slutföra den. Skriv in antalet planerade timmar för utgåvan.<br></p> <p><b>ANMÄRKNING</b></p>  <p>Om du ändrar de planerade timmarna för problemet ändras inte det planerade datumet för slutförandet. </p> </td> 
+            <td role="rowheader">Planned Hours</td> 
+            <td> <p>This is the amount of actual time it would take the assignees of the issue to complete it. Type the number of Planned Hours for the issue.<br></p> <p><b>NOTE</b></p>  <p>Changing the Planned Hours of the issue will not change the issue Planned Completion Date. </p> </td> 
          </tr> 
          <tr data-mc-conditions=""> 
-            <td role="rowheader">Uppdragarens roll</td> 
-            <td> <p>Välj en roll i listrutan <strong>Tilldelarens roll</strong> när du har valt en person som tilldelad. Detta är den roll som den som tilldelas kan fylla i denna fråga. </p> <p><b>TIPS</b>
-
-         Endast de jobbroller som är kopplade till varje tilldelad i deras profil visas i listrutan.</p> </td>
+            <td role="rowheader">Assignee's Role</td> 
+            <td> <p>Select a role from the <strong>Assignee's Role</strong> drop-down menu when you selected a person as an assignee. This is the role that the assignee can fulfill on this issue. </p> <p><b>TIP</b>
+            
+            Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
          </tr> 
          </tbody> 
-         </table>
+         </table>-->
 
 
+1. (Valfritt) Klicka på **Tilldela mig** för att tilldela utgåvan till dig själv.
+1. (Valfritt) Uppdatera fältet **Planerade timmar**.
 
-   1. <span class="preview">(Villkorligt) Gör något av följande i förhandsvisningsmiljön:</span>
+   **Planerade timmar** är det antal timmar det skulle ta för de som tilldelats utgåvan att slutföra den.
 
-      * <span class="preview">Klicka på **Tilldela mig** för att tilldela problemet till dig själv </span>
-      * <span class="preview">Uppdatera fältet **Planerade timmar**.</span>
-
-        **Planerade timmar** är det antal timmar det skulle ta för de som tilldelats utgåvan att slutföra den.
-
-        >[!NOTE]
-        >
-        >Om du ändrar de planerade timmarna för problemet ändras inte det planerade datumet för slutförandet.
+   >[!NOTE]
+   >
+   >Om du ändrar de planerade timmarna för problemet ändras inte det planerade datumet för slutförandet.
 
 1. Information om hur du tar bort tilldelningar från alla utgåvor finns i [Tilldela utgåvor](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md).
 
