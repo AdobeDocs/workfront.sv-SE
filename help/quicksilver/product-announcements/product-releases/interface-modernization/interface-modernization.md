@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e9b96508d27da15472506aa36bdaa507ca9831ba
+source-git-commit: 829b3d343286b63922614b3855f9227667ad57a4
 workflow-type: tm+mt
-source-wordcount: '8992'
+source-wordcount: '9336'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,61 @@ Mer information finns i [Skapa och redigera företag](/help/quicksilver/administ
 
 ## Projekt
 
+### Ny upplevelse när du arbetar med malluppgifter
+
+**Förhandsversion: 6 november 2025; Produktionsversion: Från och med 13 november 2025**
+
+Vi har uppdaterat upplevelsen när vi arbetar med malluppgifter.
+
+>[!NOTE]
+>
+>Du kan växla mellan den gamla och den nya upplevelsen av att lägga till eller redigera malluppgifter under en begränsad tid.
+
+Följande ändringar ingår i den här uppdateringen:
+
+* Malluppgiftslistan i avsnittet Underuppgifter för en malluppgift matchar nu de flesta listor i Workfront
+
+* Rutorna Ny och Redigera malluppgift har ett nytt utseende och känsla
+
+* Du kan nu uppdatera anpassade fält för extern sökning när du redigerar malluppgifter
+
+* Det finns en ny upplevelse när du tilldelar resurser till malluppgifter. Den nya upplevelsen är nu tillgänglig både när du redigerar en uppgift eller redigerar flera uppgifter samtidigt. Följande fält har tagits bort från rutan Redigera uppgifter:
+
+* Allokeringar
+   * Ägare eller aktivitetsägare
+   * Uppdragarens roll
+
+Du kan fortfarande hitta de borttagna fälten när du gör avancerade uppdrag i malluppgifter.
+
+Mer information finns i [Redigera malluppgifter](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md).
+
+
+### Ny upplevelse vid gruppredigering och enkel- eller grupptilldelning
+
+**Förhandsversion: 6 november 2025; Produktionsversion: Från och med 13 november 2025**
+
+Vi har uppdaterat rutan Redigera uppgifter när du redigerar enstaka uppgifter eller redigerar dem flera gånger.
+
+>[!NOTE]
+>
+>Du har en chans att växla mellan den gamla och den nya upplevelsen under en begränsad tid när du redigerar arbetsmoment.
+
+Följande ändringar ingår i den här uppdateringen:
+
+* Alternativet Beräkna om anpassade uttryck har tagits bort när flera uppgifter uppdateras samtidigt och har lagts till på menyn Mer i en uppgiftslista efter att flera uppgifter har valts.
+
+* Du kan nu uppdatera anpassade fält för extern sökning
+
+* Det finns en ny upplevelse för att tilldela resurser till uppgifter. Det här är nu tillgängligt både när du redigerar en uppgift eller redigerar flera uppgifter samtidigt. Följande fält har tagits bort från rutan Redigera uppgifter:
+
+   * Allokeringar
+   * Ägare eller aktivitetsägare
+   * Uppdragarens roll
+
+Du kan fortfarande hitta de borttagna fälten när du gör avancerade uppgifter.
+
+Mer information finns i [Redigera uppgifter](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+
 ### Gränssnittsuppdatering när en uppgift konverteras till ett projekt med hjälp av en mall
 
 **Förhandsversion: 30 oktober 2025; Produktionsversion: Från 6 november 2025**
@@ -41,26 +96,6 @@ Mer information finns i [Skapa och redigera företag](/help/quicksilver/administ
 Vi har uppdaterat rutan Konvertera till projekt när vi konverterar en uppgift till ett projekt med hjälp av en mall. Utformningen av rutan matchar nu rutan Redigera projekt.
 
 Mer information finns i [Konvertera en aktivitet till ett projekt](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md).
-
-<!--### New experience when bulk editing and single- or bulk-assigning tasks
-
-**Preview release: October 30, 2025; Production release: Starting on November 6, 2025**
-
-We have updated the Edit Tasks box when editing single tasks or editing them in bulk. The following changes are included in this update:
-
-* The Recalculate Custom Expressions option has been removed when updating tasks in bulk and has been added to the More menu in a task list, after selecting multiple tasks.
-
-* There is a new experience for assigning resources to tasks. This is now available both when editing one task or editing several tasks in bulk. The following fields have been removed from the Edit tasks box:
-
-* Allocations
-* Owner or Task Owner
-* Assignee's Role
-
-You can still find the removed fields when making advanced assignments on tasks.
-
-You will have a chance to switch between the old and the new experience for editing tasks for a limited time.
-
-For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).-->
 
 ### Ny upplevelse vid massredigering och enstaka- eller grupptilldelningsproblem
 
@@ -72,11 +107,13 @@ Följande ändringar ingår i den här uppdateringen:
 
 * Alternativet Beräkna om anpassade uttryck har tagits bort när flera problem uppdateras. Alternativet har lagts till på menyn Mer i en problemlista efter att ha valt flera problem.
 
+* Du kan nu uppdatera anpassade fält för extern sökning när du redigerar problem.
+
 * Det finns en ny upplevelse för att tilldela resurser till problem. Det här är nu tillgängligt både när du redigerar ett problem eller redigerar flera problem samtidigt. Följande fält har tagits bort från rutan Redigera problem:
 
-* Allokeringar
-* Ägare eller ägare av utleverans
-* Uppdragarens roll
+   * Allokeringar
+   * Ägare eller ägare av utleverans
+   * Uppdragarens roll
 
 Du kan uppdatera de borttagna fälten när du gör avancerade uppdrag i frågor.
 
@@ -106,7 +143,7 @@ Vi har uppdaterat utseendet och känslan av den personliga kalendertiden, inklus
 
 Om du vill visa de här ändringarna går du till din användarprofil och klickar på **Tid av** i den vänstra panelen.
 
-Mer information finns i [Konfigurera personlig tid för &#x200B;](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) och [Delegera godkännandebegäran](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+Mer information finns i [Konfigurera personlig tid för ](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) och [Delegera godkännandebegäran](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 ## Gränssnittsuppdateringar gjorda under Q4
 
@@ -616,7 +653,7 @@ Vi har uppdaterat utseendet och känslan av den personliga kalendertiden, inklus
 
 Om du vill visa de här ändringarna går du till din användarprofil och klickar på **Tid av** i den vänstra panelen.
 
-Mer information finns i [Konfigurera personlig tid för &#x200B;](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) och [Delegera godkännandebegäran](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+Mer information finns i [Konfigurera personlig tid för ](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) och [Delegera godkännandebegäran](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 ### Gränssnittsuppdateringar för dialogrutan Ny användare
 

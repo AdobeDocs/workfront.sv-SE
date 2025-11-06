@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 7fb12a3fbdad661baf2d0ad472ce8017e178ddef
+source-git-commit: 3ba6468327ca390ddc75ff1c18440283daa6eee4
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '585'
 ht-degree: 0%
 
 ---
@@ -22,19 +22,19 @@ I den här artikeln beskrivs funktionerna som lanseras för Workfront Planning i
 En lista över alla funktioner som släppts för Adobe Workfront Planning finns i [Versionsaktivitet för Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 
-<!--## New field search box in the Filters, Fields, and Row colors icons in Planning views
+## Ny fältsökruta i ikonerna för filter, fält och radfärger i planeringsvyn
 
 >[!NOTE]
 >
->Preview: October 30, 2025 
->Production fast release: November 13, 2025 
->Production for everyone:  January 15, 2026 
+>Förhandsgranska: 6 november 2025
+>Production fast release: 11 december 2025
+>Produktion för alla: 15 januari 2026
 
+Du kan nu söka efter ett specifikt fält när du skapar ett vyelement i en posttypvy. Vi har lagt till sökrutor när du skapar ett filter, sorterar, grupperar eller när du konfigurerar fält eller radfärger. Före den här förbättringen kunde du bläddra igenom listan med tillgängliga fält.
 
-You can now search for a specific field when building a view element in record type view. The new search boxes have been added when you build a filter, sort, grouping, or when you configure your fields or row colors. Prior to this enhancement, you could simply scroll through the list of available fields.
-This improvement is available in all views.
+Den här förbättringen är tillgänglig i alla posttypsvyer.
 
-For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).-->
+Mer information finns i [Hantera tabellvyn](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 
 ## Globala posttyper och möjligheten att lägga till dem som befintliga posttyper på andra arbetsytor
@@ -42,8 +42,8 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >[!NOTE]
 >
 >Förhandsgranska: 16 oktober 2025
->&#x200B;>Production fast release: 13 november 2025
->&#x200B;>Produktion för alla: 15 januari 2026
+>Production fast release: 13 november 2025
+>Produktion för alla: 15 januari 2026
 
 När du implementerar Workfront Planning för en organisation med flera team och gemensamma arbetsflöden kan du behöva definiera en sammanhängande struktur och metadata för nyckelposttyper (som kampanjer och slutprodukter) som kan läggas till i varje teames arbetsytor för att fånga och hantera deras arbete.
 
@@ -66,8 +66,8 @@ Mer information finns i följande artiklar:
 >[!NOTE]
 >
 >Förhandsgranska: 16 oktober 2025
->&#x200B;>Production fast release: 13 november 2025
->&#x200B;>Produktion för alla: 15 januari 2026
+>Production fast release: 13 november 2025
+>Produktion för alla: 15 januari 2026
 
 Vi har infört en gräns på 30 anslutningsfält för varje posttyp.
 
@@ -80,8 +80,8 @@ Mer information finns i [Översikt över anslutna posttyper](/help/quicksilver/p
 >[!NOTE]
 >
 >Förhandsgranska: 16 oktober 2025
->&#x200B;>Production fast release: 13 november 2025
->&#x200B;>Produktion för alla: 15 januari 2026
+>Production fast release: 13 november 2025
+>Produktion för alla: 15 januari 2026
 
 När du lägger till fältval till ett envalsfält eller flervalsfält kommer Workfront nu att tilldela unika användarvänliga värden till varje val. Före den här förbättringen genererade Workfront ett alfanumeriskt ID som var svårt att förstå och använda i API-anrop och andra integreringar.
 
