@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
+source-git-commit: f1fe1a2fe6e123d8a039e8d7e3547c0b0a8141df
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '365'
 ht-degree: 1%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 1%
 # Återställ en användares inställningar
 
 <!-- Audited: 12/2023 -->
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningens sandlådemiljö och släpps i en fasad utrullning till produktion.</span>
 
 Som Adobe Workfront-administratör kan du återställa eller ta bort användarinställningarna för alla användare i Workfront-systemet.
 
@@ -106,8 +104,6 @@ När du återställer användarinställningarna återställs vissa inställninga
 
 <!--Display this table and hide the HTML table above, when the unshim is released.-->
 
-<div class="preview">
-
 | Inställningar | Status efter återställning |
 | --- | --- |
 | Vyer | Återställd till systemstandard <p>Befintliga vyer tas inte bort. Du kan markera dem igen.</p> |
@@ -116,8 +112,6 @@ När du återställer användarinställningarna återställs vissa inställninga
 | Lista med senaste objekt | Rensad |
 | Favoritlista | Opåverkad |
 | Användarinställningar | Återställd till systemstandard <p>E-postmeddelanden återställs till systemets standardinställningar. Standardmeddelandena visas i [Händelsemeddelanden i Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).</p> |
-
-</div>
 
 ## Återställ användarinställningar
 
@@ -148,8 +142,8 @@ När du återställer användarinställningarna återställs vissa inställninga
 
 1. Tryck på **Retur**.
 
-1. <span class="preview">Om du vill återställa alla användarinställningar klickar du på **Återställ**.</span>
+1. Om du vill återställa alla användarinställningar klickar du på **Återställ**.
 
-   <span class="preview">eller</span>
+   eller
 
-   <span class="preview">Om du vill återställa användarens vänstra navigering till den ursprungliga layoutmallskonfigurationen klickar du på **Återställ vänster navigering**.</span>
+   Om du vill återställa användarens vänstra navigering till den ursprungliga layoutmallskonfigurationen klickar du på **Återställ vänster navigering**.
