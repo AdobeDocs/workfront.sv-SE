@@ -5,9 +5,9 @@ description: De förbättrade listorna har ett tabellformat för att visa listob
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: ad9739ac670f723203f1e5e9148c446b6356c126
+source-git-commit: ddae871559a756f00ef96e70254e1019964ce882
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1288'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Nedan visas några typer av Workfront-objektlistor som använder det förbättra
 |--- |--- |
 | Prioriteringar | <ul><li>Hem > välj ikonen Prioriteter i den vänstra menyn</li><li>Huvudmeny > Prioriteter</li></ul> |
 | Lista över begäranden | <ul><li>Begäranden (endast ny upplevelse)</li><li>Widgeten Mina förfrågningar på startsidan</li></ul> |
-| Förteckning över valutakurser | <ul><li>Inställningar > Projektinställningar > Exchange-priser</li></ul> |
+| Statuslistor, prioriteter, allvarlighetsgrader och valutakurser i installationsprogrammet | <ul><li>Inställningar > Projektinställningar > Status</li><li>Inställningar > Projektinställningar > Prioriteter</li><li>Inställningar > Projektinställningar > Allvarlighetsgrader</li><li>Inställningar > Projektinställningar > Exchange-priser</li></ul> |
 
 ## Lägga till och redigera objekt i en förbättrad lista
 
@@ -99,13 +99,13 @@ Klicka på en knapp i åtgärdsfältet för att utföra den åtgärden, till exe
 
 Om det inte finns några tillgängliga åtgärder för det valda objektet anges &quot;Inga tillgängliga åtgärder&quot; i åtgärdsfältet.
 
-![Exempel på åtgärdsfält](assets/glist-action-bar-exchange-rates.png)
+![Exempel på åtgärdsfält](assets/glist-action-bar-statuses.png)
 
 Menyn **Mer** är den trepunktsmeny som visas intill ett primärt fält i ett listobjekt när du hovrar över det. (Det primära fältet är kolumnen längst till vänster i tabellen.)
 
 Klicka på menyn om du vill se ytterligare åtgärder för objektet. Vissa åtgärder kan vara specifika för den listan och visas inte i några andra listor.
 
-![Exempel på fler menyer](assets/glist-more-menu-exchange-rates.png)
+![Exempel på fler menyer](assets/glist-more-menu-priorities.png)
 
 ## Anpassa kolumner i en förbättrad lista
 
@@ -127,6 +127,23 @@ I vissa förbättrade listor kan du dölja och visa kolumner och ändra ordning 
    En indikator visas på knappen **Kolumner** när kolumnerna är dolda. Indikatorn visas inte när du ändrar ordning på kolumnerna.
 
    ![Indikator för dolda kolumner](assets/glist-columns-hidden-indicator.png)
+
+## Använda en vy för en förbättrad lista
+
+En vy är en anpassad uppsättning kolumnupplägg och filter som du kan använda på en lista. Du kan skapa nya vyer och redigera befintliga vyer.
+
+Om du vill använda en vy klickar du på listrutan **Vyer** och väljer den vy som du vill använda i listan.
+
+Så här skapar du en ny vy:
+
+1. Klicka på listrutan **Vyer** och välj **Ny vy**.
+1. Ange ett namn för vyn och klicka på **Skapa**.
+1. (Valfritt) Dölj, visa eller ordna om kolumnerna. Mer information finns i [Anpassa kolumner i en förbättrad lista](#customize-columns-in-an-enhanced-list).
+1. (Valfritt) Filtrera och gruppera listobjekten. Mer information finns i [Filtrera och gruppera objekt i en förbättrad lista](#filter-and-group-items-in-an-enhanced-list).
+
+   Ändringar av vyer sparas automatiskt och ändringarna visas för alla som använder vyn.
+
+   Nästa gång du använder den här vyn behåller du inställningarna för kolumner och filter.
 
 ## Filtrera och gruppera objekt i en förbättrad lista
 
