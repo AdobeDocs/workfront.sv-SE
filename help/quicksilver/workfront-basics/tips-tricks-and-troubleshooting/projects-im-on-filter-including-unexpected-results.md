@@ -4,9 +4,9 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Projekt jag arbetar med filtrerar inklusive oväntade resultat
 description: Läs den här artikeln om du vill felsöka de projekt jag är på, inklusive oväntade resultat.
 feature: Get Started with Workfront
-author: Nolan
+author: Alina
 exl-id: 4701464a-4cf5-4be1-bcc0-0892019986ec
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 1%
@@ -44,6 +44,7 @@ ht-degree: 1%
 
 Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
 
 
 ## Problem

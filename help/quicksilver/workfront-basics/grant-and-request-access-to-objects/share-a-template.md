@@ -3,10 +3,10 @@ title: Dela en mall
 product-area: templates
 navigation-topic: grant-and-request-access-to-objects
 description: Som Adobe Workfront-administratör kan du ge användare åtkomst till att visa eller redigera mallar när du tilldelar deras åtkomstnivå. En användare måste ha en planlicens för att få tillgång till redigeringsmallar.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%

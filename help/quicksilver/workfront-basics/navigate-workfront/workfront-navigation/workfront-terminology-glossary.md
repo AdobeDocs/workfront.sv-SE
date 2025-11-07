@@ -6,9 +6,9 @@ description: I  [!DNL Adobe Workfront] ordlistan visas termer som används ofta 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
-source-wordcount: '17564'
+source-wordcount: '17858'
 ht-degree: 0%
 
 ---
@@ -716,8 +716,26 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
    <td>[!UICONTROL Cost]</td> 
    <td> <p>Det penningbelopp som du måste spendera när du slutför ett projekt, en uppgift eller en utgåva. </p> <p>Du kan spåra olika typer av kostnader för arbete, utgifter och risker som relaterar till projektet. Mer information om att spåra kostnader i [!DNL Workfront] finns i <a href="../../../manage-work/projects/project-finances/track-costs.md">Spåra kostnader</a>.</p> 
    </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Cost Performance Index (CPI)]</td> 
+   <td> <p>[!UICONTROL Cost Performance Index (CPI)] beskriver relationen på projekt- eller aktivitetsnivå mellan den planerade kostnaden och den faktiska kostnaden. Projektledare granskar den här mätningen för att identifiera aktiviteter eller projekt som för närvarande spåras under- eller överkostnadsbaserat vid en viss tidpunkt. Kostnaden kan mätas i timmar eller dollar, beroende på din [!UICONTROL Performance Index Method (PIM)].</p> 
+    <p> Mer information finns i <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-cpi.md">Beräkna kostnadsprestandaindex(CPI)</a>.</p>
+
+</td> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Cost Schedule Performance Index (CSI)]</td> 
+   <td> <p>[!UICONTROL Cost Schedule Performance Index (CSI)] är en automatisk beräkning som kombinerar [!UICONTROL Cost Performance Index (CPI)] och [!UICONTROL Schedule Performance Index (SPI)] till ett allmänt mått som balanserar kostnad och schema. Genom att multiplicera dessa värden tillsammans kan ett enda mätvärde ta hänsyn till ett långsamt schema till en lägre budget eller vice versa. Projektledare kan använda detta för att fastställa den allmänna statusen för projekt eller uppgifter när kostnaden har offrats för att driva schemat efter projektet.</p> 
+    <p> Mer information finns i <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-csi.md">Beräkna prestandaindex för kostnadsschema</a>.</p>
+    </td> 
+  </tr>
+
+
+
+<tr> 
    <td>[!UICONTROL Cost Type]</td> 
    <td>För en uppgift avgör [!UICONTROL Cost Type] hur aktiviteten kommer att öka kostnaderna. Några exempel är [!UICONTROL Fixed Hourly], [!UICONTROL User Hourly] och [!UICONTROL User Hourly plus Fixed]. </td> 
   </tr> 
@@ -894,8 +912,23 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>[!UICONTROL Enterprise Goals]</td> 
    <td>Korsfunktionella mål som bidrar till mätvärdena för företagets mål.</td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Estimate at Completion]</td> 
+   <td><p>Som mått på projektprestanda representerar Estiate at Completion (EAC) den beräknade totala kostnaden för ditt projekt eller din uppgift när den är klar.</p>
+   <p>Som en projektinställning kan du definiera hur EAC-värdet ska beräknas.</p>
+   <p>Mer information finns i <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-eac.md">Beräkna uppskattning vid slutförande (EAC)</a>. </p>
+   </td> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Estimated Due Date]</td> 
+   <td>I projekt-, uppgifts- och utgivningsrapporter är det beräknade förfallodatumet det datum då Workfront uppskattar att artikeln är klar.</td> 
+  </tr>
+
+
+<tr> 
    <td>[!UICONTROL Event]</td> 
    <td>Ändringar i ett projekt eller en uppgift.</td> 
   </tr> 
@@ -1557,7 +1590,14 @@ Timposter kan ha någon av följande statusvärden i Workfront:
    <td>[!UICONTROL Percent Complete]</td> 
    <td> <p>Ett projekt-, uppgifts- eller utleveransfält som visar hur stor procentandel av arbetet som är associerat med uppgiften, projektet eller utgåvan som har slutförts.</p> <p>Du kan uppdatera det här fältet manuellt för problem och arbetsuppgifter. </p> <p>För projekt och överordnade uppgifter är det här fältet en sammanslagning av alla arbetsuppgifter och du kan inte uppdatera det manuellt. </p> <p>Mer information finns i <a href="../../../manage-work/tasks/task-information/project-percent-complete.md" class="MCXref xref">Projekt [!UICONTROL Percent Complete] - översikt</a>.</p> </td> 
   </tr> 
-  <tr> 
+<tr> 
+   <td>[!UICONTROL Performance Index Method (PIM)]</td> 
+   <td> <p>[!UICONTROL Performance Index Method (PIM)] för projektet styr den metod som Adobe Workfront använder för att beräkna projektprestandamått, som CPI (Cost Performance Index), CSI (Cost Schedule Performance Index), SPI (Schedule Performance Index) och EAC (Estimate At Completion).</p> 
+   <p>Workfront beräknar dessa värden med hjälp av timmar eller kostnader.</p>
+   <p>Mer information finns i <a href="/help/quicksilver/manage-work/projects/project-finances/set-pim.md">Ange PIM (Performance Index Method)</a>.</p>
+   </td> 
+  </tr>
+ <tr> 
    <td>[!UICONTROL Permission]</td> 
    <td> <p>Rättigheter som ges till en användare på ett objekt, vanligtvis givna så att de kan slutföra arbetet med objektet eller visa objektet. Du kan ge behörighet till:</p> 
     <ul> 
@@ -1606,11 +1646,8 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   <tr> 
    <td>[!UICONTROL Planned Cost]</td> 
    <td> <p>Totalt för [!UICONTROL Planned Labor Cost] och [!UICONTROL Planned Expense Cost] för projektet. Detta inkluderar inte [!UICONTROL Planned Risk Cost] i projektet.  </p> </td> 
-  </tr>
-
-
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Planned Date Alignment]</td> 
    <td> <p>Det här är en automatisk indikator som Workfront tilldelar projekt, uppgifter och utleveranser för att visa när ett objekt kommer att slutföras i förhållande till det planerade slutförandedatumet. </p>
    <p>Följande är möjliga värden för den planerade datumjusteringsindikatorn: </p>
@@ -2069,7 +2106,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Scenario] (i [!DNL Workfront Fusion]) </td> 
-   <td> <p>Ett scenario består av en serie steg (moduler) som anger hur data ska överföras och transformeras mellan program/tjänster.</p> <p>Mer information om scenarier i [!DNL Workfront Fusion] finns i <a href="https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] scenarioöversikt </a>.</p> </td> 
+   <td> <p>Ett scenario består av en serie steg (moduler) som anger hur data ska överföras och transformeras mellan program/tjänster.</p> <p>Mer information om scenarier i [!DNL Workfront Fusion] finns i <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] scenarioöversikt </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scenario] (i [!DNL Workfront Scenario Planner]) </td> 
@@ -2078,6 +2115,13 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   <tr> 
    <td>[!UICONTROL Schedule]</td> 
    <td>Arbetsschemat för veckan, inklusive arbetstider, kombinerat med lediga dagar (t.ex. helgdagar) och undantagsdagar (t.ex. en arbetsdag på lördag). Du kan associera scheman med projekt och användare.</td> 
+  </tr> 
+<tr> 
+   <td>[!UICONTROL Schedule Performance Index (SPI)]</td> 
+   <td><p>[!UICONTROL Schedule Performance Index (SPI)] beskriver relationen mellan det planerade schemat och det faktiska schemat. Adobe Workfront beräknar SPI på projekt- och uppgiftsnivå. Projektledare granskar den här mätningen för att identifiera om aktiviteter eller projekt håller på att följa upp i förväg eller efter schemat.</p>
+  <p>Mer information finns i <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-spi.md">Beräkna SPI (Schedule Performance Index)</a>
+
+</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Schedule Exemption]</td> 

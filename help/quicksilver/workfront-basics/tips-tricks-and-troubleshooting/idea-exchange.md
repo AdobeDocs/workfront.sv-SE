@@ -4,10 +4,11 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Innovation Lab
 description: Med [!UICONTROL Innovation Lab] kan autentiserade användare skicka in, rösta på och diskutera idéer med andra kunder.
 feature: Get Started with Workfront
+author: Becky
 exl-id: 4775ece1-2841-4acc-b3f0-66cd2783669f
-source-git-commit: 3583368918cf9eb4c64faeda4730e2be08375aed
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---

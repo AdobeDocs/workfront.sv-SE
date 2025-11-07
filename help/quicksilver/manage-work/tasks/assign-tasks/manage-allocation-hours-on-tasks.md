@@ -6,7 +6,7 @@ description: När du tilldelar användare eller roller till en uppgift, tilldela
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 0%
@@ -61,7 +61,7 @@ Du kan ändra allokeringstimmar när du gör avancerade tilldelningar för en up
   <tr> 
    <td>Objektbehörigheter</td>
    <td><p>Contribute eller högre behörigheter för aktiviteten</p>
-   <p>Redigera behörigheter för att uppdatera allokeringstimmar i rutan Redigera uppgift när du redigerar aktiviteter <span class="preview"> med den gamla funktionen. Du kan inte längre hantera tilldelningstimmar i aktivitetsrutan Redigera när du redigerar aktiviteter i den nya upplevelsen.</span></p> <p>Mer information finns i <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Redigera uppgifter</a></p>.</td>
+   <p>Redigera behörigheter för att uppdatera allokeringstimmar i rutan Redigera uppgift när du redigerar aktiviteter <span class="preview"> med den gamla funktionen. Du kan inte längre hantera tilldelningstimmar i aktivitetsrutan Redigera när du redigerar aktiviteter i den nya upplevelsen.</span></p> <p>Mer information finns i <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Redigera uppgifter</a>.</p></td>
   </tr>
  </tbody>
 </table>

@@ -3,10 +3,10 @@ title: Dela ekonomiska behörigheter för ett objekt
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 description: Din Adobe Workfront-administratör kan ge dig åtkomst att visa eller redigera ekonomiska data när du tilldelar åtkomstnivån. Mer information finns i Bevilja åtkomst till finansiella data.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 0%

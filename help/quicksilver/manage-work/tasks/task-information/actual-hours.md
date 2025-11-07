@@ -7,9 +7,9 @@ description: De timmar du loggar in på dina arbetsuppgifter i Adobe Workfront r
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
-source-wordcount: '1231'
+source-wordcount: '1276'
 ht-degree: 0%
 
 ---
@@ -93,8 +93,10 @@ Beroende på vilket område av Workfront du kommer åt de faktiska timmarna frå
 
 * I projekt, uppgifter och utfärda rapporter och listor:
 
-   * **Faktiska timmar**: Timmar som loggats för projekt, uppgifter eller problem efter maj 2021. De lagras i Workfront-databasen i timmar och deras värdefält är `actualWorkRequiredDouble`.
-   * **Tidigare faktiska timmar**: Timmar som loggats för projekt, uppgifter eller problem när som helst, inklusive före maj 2021. De lagras i Workfront-databasen som minuter och deras värdefält är `actualWorkRequired`.
+   * **Faktiska timmar**: Timmar som loggats för projekt, uppgifter eller problem mellan maj 2021 och idag. De lagras i Workfront-databasen i timmar och deras värdefält är `actualWorkRequiredDouble`.
+   * **Tidigare faktiska timmar**: Timmar som loggats för projekt, uppgifter eller utgåvor när som helst, mellan ett datum före maj 2021 och idag. De lagras i Workfront-databasen som minuter och deras värdefält är `actualWorkRequired`.
+
+     Timmar som loggas för närvarande uppdaterar både den faktiska och den gamla faktiska timmen.
 
      >[!IMPORTANT]
      >
@@ -102,12 +104,14 @@ Beroende på vilket område av Workfront du kommer åt de faktiska timmarna frå
 
 * I området med projekt-, uppgifts- eller utleveransinformation kan faktiska timmar visas i följande fält:
 
-   * **Faktiska timmar**: På fliken Detaljer är detta timmar som loggats för projekt, uppgifter eller utgåvor efter maj 2021. De lagras i Workfront-databasen i timmar och deras värdefält är `actualWorkRequiredDouble`.
-   * **Faktiska timmar**: I ett projekt, en aktivitet eller ett utleverans i ett anpassat formulär, när de öppnas med hjälp av ett anpassat fält för intern fältreferens som refererar till fältet för faktiska timmar. Det här är timmar som loggats för projekt, uppgifter eller problem efter maj 2021. De lagras i Workfront-databasen i timmar och deras värdefält är `actualWorkRequiredDouble`.
+   * **Faktiska timmar**: På fliken Detaljer är detta timmar som loggats för projekt, uppgifter eller problem mellan maj 2021 och idag. De lagras i Workfront-databasen i timmar och deras värdefält är `actualWorkRequiredDouble`.
+   * **Faktiska timmar**: I ett projekt, en aktivitet eller ett utleverans i ett anpassat formulär, när de öppnas med hjälp av ett anpassat fält för intern fältreferens som refererar till fältet för faktiska timmar. Detta är timmar som loggats för projekt, uppgifter eller problem mellan ett datum före maj 2021 och idag. De lagras i Workfront-databasen i timmar och deras värdefält är `actualWorkRequiredDouble`.
+
+     Timmar som loggas för närvarande uppdaterar både den faktiska och den gamla faktiska timmen.
 
 >[!NOTE]
 >
->Vi rekommenderar att du använder fältet Faktiska timmar när det är möjligt, eftersom fältet Gammal faktisk tid kan visa felaktiga timmar på grund av det sätt som stegvisa ökningar avrundas.
+>Vi rekommenderar att du använder fältet Faktiska timmar när det är möjligt, eftersom fältet Gammalt antal faktiska timmar kan visa felaktiga timmar på grund av det sätt på vilket ökningar avrundas när timmar lagras i minuter.
 
 ## Faktiska timmar för uppgifter och ärenden jämfört med faktiska timmar för projekt
 

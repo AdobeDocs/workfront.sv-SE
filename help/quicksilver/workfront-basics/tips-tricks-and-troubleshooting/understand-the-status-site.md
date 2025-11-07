@@ -1,13 +1,14 @@
 ---
-title: Statuswebbplatsen  [!DNL Adobe Workfront]
+title: 'Statuswebbplatsen  [!DNL Adobe Workfront] '
 description: Du kan visa hälsa för  [!DNL Workfront] plattformen, inklusive incidenter, schemalagda underhållsfönster och aktuell status för alla [!DNL Workfront] kluster genom att gå till  [!DNL Workfront Status] platsen.
 draft: Probably
 feature: Get Started with Workfront
+author: Becky
 exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
-source-git-commit: 108ebd3b8677124085056cf2812fa86e70a11887
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

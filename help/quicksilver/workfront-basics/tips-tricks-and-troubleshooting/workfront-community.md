@@ -4,8 +4,9 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: The [!DNL Adobe Workfront] Community
 description: Adobe [!DNL Workfront] Community är en onlinegrupp med över 10 000 [!DNL Workfront] användare. Via communityn kan du hålla dig uppdaterad om produktreleaser, lära dig mer om kundhändelser och prata med andra användare om [!DNL Workfront] produkter och tjänster. Du hittar svar på frågor och upprättar anslutningar med andra [!DNL Workfront] kunder.
 feature: Get Started with Workfront
+author: Becky
 exl-id: 1b581917-2e71-4e8a-b38c-775ade578f09
-source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 0%
@@ -46,7 +47,7 @@ Om ditt företag använder enkel inloggning måste du kontakta [!DNL Workfront] 
 
 Om du inte kommer ihåg ditt lösenord för communitywebbplatsen kan du kontakta [!DNL Workfront Customer Support] så kan de hjälpa dig.
 
-## Vanliga frågor
+## Vanliga frågor och svar
 
 * [Vad är min underdomän?](#what-s-my-subdomain)
 * [Jag glömde mitt användarnamn eller lösenord. Hur återställer jag mitt användarnamn eller lösenord?](#i-forgot-my-username-or-password-how-do-i-reset-my-username-or-password)
