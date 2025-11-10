@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 1ed84baeacda2717c4f58058fb754e7a79b48baf
 workflow-type: tm+mt
-source-wordcount: '2262'
+source-wordcount: '2261'
 ht-degree: 0%
 
 ---
@@ -275,7 +275,7 @@ Följande saker händer:
 
    ![Informationssida](assets/details-page.png)
 
-1. På fliken **Detaljer** klickar du på ikonen **Ta** ![Ta tag i &#x200B;](assets/grab-icon.png) till vänster om fältnamnet och drar och släpper den på önskad plats.
+1. På fliken **Detaljer** klickar du på ikonen **Ta** ![Ta tag i ](assets/grab-icon.png) till vänster om fältnamnet och drar och släpper den på önskad plats.
 
    >[!TIP]
    >
@@ -362,10 +362,10 @@ Så här lägger du till en sida med anslutna poster:
 
      Mer information om hur du redigerar poster i tabellvyn finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).
 
-         >[!TIP]
-         >
-         >Du kan markera flera poster eller objekt som du vill ta bort.
-     
+     >[!TIP]
+     >
+     >Du kan markera flera poster eller objekt som du vill ta bort.
+
    * Redigera alla planeringsposter i tabellen på sidan Anslutna poster.
 
      Alla andra Workfront-objekt visas i en skrivskyddad tabellvy och du kan inte redigera dem.
