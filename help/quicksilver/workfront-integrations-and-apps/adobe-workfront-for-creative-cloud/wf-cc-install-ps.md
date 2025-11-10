@@ -6,9 +6,9 @@ description: Du kan installera plugin-programmet Adobe Workfront for Photoshop f
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 61e5b763ec527aeb846e975e06842dc2c4c69918
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '555'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ Du kan installera plugin-programmet [!DNL Adobe Workfront for Photoshop] själv 
 1. Gå till installationssidan för [Adobe Workfront för Photoshop](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&workflow=share) på Adobe Exchange.
 1. Klicka på **Öppna [!DNL Adobe Creative Cloud] skrivbordsapp** i den dialogruta som visas.
 1. När plugin-hanteraren för [!DNL Adobe Photoshop] öppnas klickar du på **[!UICONTROL Install]**.
-1. Läs informationen i dialogrutan och klicka sedan på **[!UICONTROL OK]**.
+1. Läs informationen i dialogrutan, klicka sedan på **[!UICONTROL OK]** och följ eventuella instruktioner på skärmen för att slutföra installationen.
 
 1. Fortsätt till följande avsnitt för information om hur du öppnar plugin-programmet.
 
@@ -99,20 +99,43 @@ Du kan installera plugin-programmet [!DNL Adobe Workfront for Photoshop] själv 
    >* Om du vill hitta din domän öppnar du en webbläsare, navigerar till din [!DNL Workfront]-instans och kopierar den första delen av URL-adressen:\
    >![Hitta domän](assets/domain-350x50.png)
    >
-   >* Om din Workfront-instans är integrerad med Experience Cloud ber du administratören att ge dig den Workfront-domän som finns under Produkt > Workfront i Admin Console.
+   >* Om din Workfront-instans är integrerad med Experience Cloud och domänen börjar med `experience.adobe.com` ber du din administratör att ge dig den Workfront-domän som finns under Produkt > Workfront i Admin Console.
 
-1. Ange dina [!DNL Workfront]-inloggningsuppgifter i webbläsaren och klicka sedan på **[!UICONTROL Log in]**. Om ditt företag använder en enkel inloggning (SSO) dirigeras du till din SSO-leverantörs sida för att logga in.
+1. Ange dina [!DNL Adobe]-inloggningsuppgifter i webbläsaren och klicka sedan på **[!UICONTROL Log in]**. Om ditt företag använder en enkel inloggning (SSO) dirigeras du till din SSO-leverantörs sida för att logga in.
 
    >[!NOTE]
    >
    >Du behöver inte ange dina [!DNL Workfront]-inloggningsuppgifter om du nyligen har loggat in.
 
-   Logga in på [!DNL Workfront] genom att följa anvisningarna.
+1. Logga in på [!DNL Workfront] genom att följa anvisningarna.
 
    >[!NOTE]
    >
    >* [!DNL Workfront] ansluter till [!DNL Adobe Creative Cloud] med OAuth 2.0, en säker standard som används av de flesta webbaserade integreringar för autentisering och auktorisering av användare.
-   >* När du uppmanas att ange [domän eller värd] för ditt [!DNL Workfront]-konto skriver du det i det här formatet: *ditt företags sDomain.my.workfront.com*. Företagets domän är vanligtvis namnet på ditt företag.
+
 
 1. Klicka på **[!UICONTROL Allow Access]** för att slutföra inloggningen.
 1. Gå tillbaka till [!UICONTROL Adobe Photoshop] för att se ditt arbete.
+
+### Felsökning av inloggningsfel
+
+Felet **&quot;Något gick fel&quot; visas när du försöker logga in**
+
+
+Du kan inte använda en URL som börjar med `experience.adobe.com` för att logga in i plugin-programmet.
+
+![inloggningsfel](assets/plugin-log-in-error.png) ![domän](assets/incorrect-domain.png)
+
+
+För att åtgärda problemet
+
+1. Ta bort mappen som lagrar domänen för plugin-programmet.
+
+   >[!TIP]
+   >
+   >Gå till Finder på en Mac och tryck på **Kommando+Skift+.** om du vill visa dolda mappar går du till **/Users//Library/Application Support** och tar sedan bort mappen **Workfront**.
+
+
+1. Gå tillbaka till plugin-programmet och ange din Workfront-domän. Domänen måste vara `company-name.my.workfront.com` och inte `experience.adobe.com`.
+
+   Om du vill [hitta din Workfront-domän](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) om du använder Adobe Unified Experience går du till Konfigurera, Kundinformation.

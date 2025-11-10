@@ -6,9 +6,9 @@ description: Du kan installera [!DNL Adobe Workfront for design and video]  frå
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: c21e1c1d8e45b7c6407e8741b31055bfed9f4717
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
@@ -126,20 +126,19 @@ Du kan installera [!DNL Adobe Workfront for design and video] själv från [!DNL
    >
    >![Hitta domän](assets/domain-350x50.png)
    >
-   >* Om din Workfront-instans är integrerad med Experience Cloud ber du administratören att ge dig den Workfront-domän som finns under Produkt > Workfront i Admin Console.
+   >* Om din Workfront-instans är integrerad med Experience Cloud och domänen börjar med `experience.adobe.com` ber du din administratör att ge dig den Workfront-domän som finns under Produkt > Workfront i Admin Console.
 
 1. Ange dina [!DNL Workfront]-inloggningsuppgifter i webbläsaren och klicka sedan på **[!UICONTROL Log in]**. Om ditt företag använder en enkel inloggning (SSO) dirigeras du till din SSO-leverantörs sida för att logga in.
 
    >[!NOTE]
    >
-   >Du behöver inte ange dina [!DNL Workfront]-inloggningsuppgifter om du nyligen har loggat in.
+   >Du behöver inte ange dina [!DNL Adobe]-inloggningsuppgifter om du nyligen har loggat in.
 
 1. Logga in på [!DNL Workfront] genom att följa anvisningarna.
 
    >[!NOTE]
    >
    >* [!DNL Workfront] ansluter till [!DNL Adobe Creative Cloud] med OAuth 2.0, en säker standard som används av de flesta webbaserade integreringar för autentisering och auktorisering av användare.
-   >* När du uppmanas att ange [domän eller värd] för ditt [!DNL Workfront]-konto skriver du det i det här formatet: *ditt företags sDomain.my.workfront.com*. Företagets domän är vanligtvis namnet på ditt företag.
 
 1. Klicka på **[!UICONTROL Allow Access]** för att slutföra inloggningen.
 1. Gå tillbaka till [!DNL Adobe Photoshop] för att se ditt arbete.
