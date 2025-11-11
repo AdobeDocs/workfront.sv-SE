@@ -217,7 +217,7 @@ Mer information om projektbehörigheter finns i [Dela ett projekt i [!DNL Adobe 
    >
    >Du kan dela en plan genom att klicka på de avatarer för användare som planen delas med i det övre högra hörnet av planhuvudet.
 
-1. (Villkorligt) Om du öppnade en plan klickar du på ikonen **[!UICONTROL More]** ![Mer ](assets/more-icon.png) till höger om namnet på [!UICONTROL Plan] och sedan på **[!UICONTROL Share]**
+1. (Villkorligt) Om du öppnade en plan klickar du på ikonen **[!UICONTROL More]** ![Mer &#x200B;](assets/more-icon.png) till höger om namnet på [!UICONTROL Plan] och sedan på **[!UICONTROL Share]**
 
    eller
 
