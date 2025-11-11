@@ -6,16 +6,16 @@ description: Föregångare är uppgifter som andra åtgärder är beroende av f�
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
 
 # Tvinga föregående
 
-<!-- Audited: 2/2024 -->
+<!-- Audited: 11/2025 -->
 
 Föregångare är uppgifter som andra åtgärder är beroende av för att slutföras. Föregående relationer påverkar start- och slutförandedatum för aktiviteterna och påverkar i slutändan tidslinjen för projektet.
 
@@ -119,4 +119,6 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 1. I kolumnen **Föregående** börjar du ange antalet föregående aktiviteter följt av&quot;e&quot;. Skriv till exempel&quot;1e&quot; om du vill lägga till aktivitetsnummer 1 som en föregångare till den valda aktiviteten.
 1. Klicka på Retur för att spara föregående information för uppgiften.
 
-   ![predecessor_enforcement_in_list.png](assets/predecessor-enforced-in-list-350x308.png)
+   ![Listan över framtvingad föregångare](assets/predecessor-enforced-in-list-350x308.png)
+
+   Informationen om den föregångare som verkställs sparas omedelbart.

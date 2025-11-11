@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: Schemalägg en rapport med ett anpassat fält som har valts flera gånger
 description: Du kan bara skapa ett diagram över en rapport med ett anpassat fält som består av flera val efter att du har skapat ytterligare ett beräkningsfält som fångar de val som har valts i det anpassade fältet som består av flera val.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 0%

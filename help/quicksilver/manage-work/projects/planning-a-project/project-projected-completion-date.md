@@ -7,16 +7,16 @@ description: Det planerade slutförandedatumet är en beräknad realtidsindikato
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
 
 # Översikt över planerat slutförandedatum för projekt, uppgifter och ärenden
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2025 -->
 
 Det planerade slutförandedatumet är en beräknad realtidsindikator för när projektet, aktiviteten eller utgåvan ska slutföras. När projektet, aktiviteten eller utgåvan har markerats som Slutförd ändras det planerade slutförandedatumet till datumet för det faktiska slutförandedatumet.
 
@@ -122,6 +122,9 @@ Så här skapar du en problemrapport som innehåller det planerade slutföranded
 1. Markera den när den visas i listan, under objektet **Utgåva** .
 1. Klicka på **Spara + Stäng**.
 
+   ![Utleverans av planerat slutförandedatum i rapportkolumn](assets/issue-projected-completion-date-in-view-nwe-350x148.png)
+
+
    Kolumnen **Planerat slutförandedatum** i rapporten fylls i.
 
-   ![](assets/issue-projected-completion-date-in-view-nwe-350x148.png)
+

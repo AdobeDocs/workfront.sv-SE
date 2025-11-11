@@ -6,7 +6,7 @@ description: Din synlighet för objekt i Adobe Workfront beror på din åtkomst 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
 source-wordcount: '1327'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Din synlighet för objekt i Adobe Workfront beror på din åtkomst till den type
 >
 >I den här artikeln beskrivs hur du kan begära behörigheter för alla objekt utom följande:
 >
->* Planerarplaner för scenarier i Adobe Workfront Scenario Planner. Mer information finns i [Begär åtkomst till en plan i scenarioplanen](../../scenario-planner/request-access-to-plan.md). Detta kräver ytterligare en licens.
+>* Planerarplaner för scenarier i Adobe Workfront Scenario Planner. Mer information finns i [Begär behörigheter för en plan i scenarioplaneraren](../../scenario-planner/request-access-to-plan.md). Detta kräver ytterligare en licens.
 >
 >* Vyer och arbetsytor i Workfront Planning. Mer information finns i [Översikt över delningsbehörigheter i Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). Detta kräver ytterligare en licens.
 

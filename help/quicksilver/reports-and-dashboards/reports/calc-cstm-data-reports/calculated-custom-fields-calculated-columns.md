@@ -7,9 +7,9 @@ description: Om du vill samla flera fält i Adobe Workfront och visa det sammanl
 author: Jenny
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
@@ -87,8 +87,9 @@ Mer information om syntaxen som du måste använda i en beräknad anpassad kolum
 
 * På ett objekts huvudsida klickar du på ikonen Mer ![Mer](assets/more-icon.png) och sedan på **Beräkna om uttryck**
 
-* Redigera flera objekt gruppvis när **Beräkna om anpassade uttryck** är aktiverat
-* Redigera ett anpassat formulär när **Uppdatera tidigare beräkningar** är aktiverat för det beräknade anpassade fältet
+* Redigera flera objekt gruppvis när **Beräkna om anpassade uttryck** är aktiverat.
+* Redigera flera objekt gruppvis när du klickar på **Beräkna om uttryck** på menyn Mer i en lista med objekt.
+* Redigera ett anpassat formulär när **Uppdatera tidigare beräkningar** är aktiverat för det beräknade anpassade fältet.
 
 ## När beräknade kolumner ska användas i en vy
 

@@ -6,20 +6,22 @@ description: Du kan använda smidiga funktioner i ditt projekt utan de administr
 author: Alina, Courtney
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
 
 # Hantera ett projekt i flexibel vy
 
-<!-- Audited: 2/2024 -->
+<!-- Audited: 11/2025 -->
 
 Du kan använda smidiga funktioner i ditt projekt utan de administrativa utmaningar som vanligtvis följer med flexibla rutiner (som att hantera en eftersläpning i teamet eller skapa iterationer).
 
-Om du vill arbeta i en flexibel miljö som använder en gruppeftersläpning och där du kan skapa iterationer från aktiviteter på eftersläpningen följer du instruktionerna i [Arbeta i en flexibel miljö](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
+Du kan arbeta i en flexibel miljö som använder en eftersläpning i team och där du kan skapa upprepningar av uppgifter i eftersläpningen.
+
+Mer information finns i [Arbeta i en flexibel miljö](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
 
 ## Åtkomstkrav
 
@@ -95,7 +97,9 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Visa ett projekt i Agile-vyn
 
-1. Gå till det projekt som du vill visa i en flexibel vy, antingen i uppgiftslistan eller i problemlistan.
+Du kan visa både uppgifter och problem i ett projekt i en flexibel vy i stället för en lista för att utnyttja den flexibla funktionen för projektutvecklingen.
+
+1. Gå till projektet som du vill visa i en flexibel vy och klicka sedan på **Åtgärder** eller **Problem** i den vänstra panelen.
 1. Klicka på ikonen **Bårdvy** ![Bårdkornikon](assets/board-icon-for-agile-view.png) .
 
    Vyn i projektvyn visas som standard.
@@ -107,4 +111,6 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
    Mer information finns i [Hantera kortkolumner](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) och [Anpassa vilka fält som ska visas på ett kort](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). Observera att du inte kan definiera kolumnprinciper i en projektvy.
 
-1. (Valfritt) Om du vill återgå till listvyn klickar du på ikonen **Lista** .
+1. (Valfritt) Om du vill återgå till listvyn klickar du på ikonen **Lista** ![Lista](assets/list-icon.png) .
+
+   Listan med uppgifter eller problem visas.

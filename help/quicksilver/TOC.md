@@ -3,7 +3,7 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: ddbee8110fbfb76a3a6bfe8bca66e1ba1cc40fb4
+source-git-commit: 52c907abde5c96ad50e4ccb031414baf6475186c
 workflow-type: tm+mt
 source-wordcount: '13522'
 ht-degree: 0%
@@ -2025,7 +2025,7 @@ ht-degree: 0%
    * [Uppdatera initiala prioriteringar i scenarioplanen](scenario-planner/prioritize-initiatives.md)
    * [Uppdatera eller skapa projekt genom att publicera initiativ i Scenarioplanen](scenario-planner/publish-scenarios-update-projects.md)
    * [Översikt över avstämning av resursallokeringar mellan projekt och initiativ](scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)
-   * [Begär åtkomst till en plan i scenarioplanen](scenario-planner/request-access-to-plan.md)
+   * [Begär behörigheter för en plan i scenarioplaneraren](scenario-planner/request-access-to-plan.md)
    * [Lös initialkonflikter i scenarioplanen](scenario-planner/resolve-conflicts-in-sp.md)
    * [Dela en plan i scenarioplanen](scenario-planner/share-a-plan.md)
    * [Visa rolltilldelning för projekt och initiativ i uppgiftslistan](scenario-planner/show-role-allocation-task-list-nwe.md)

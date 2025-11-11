@@ -2,21 +2,23 @@
 product-area: enterprise-scenario-planner-product-area
 keywords: plan,behörigheter,resurs,initiativ,,scenarier,scenario
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Begär åtkomst till en plan i scenarioplaneraren
+title: Begär behörigheter för en plan i scenarioplaneraren
 description: Du kan begära åtkomst till en plan i Adobe Workfront Scenarioplan när länken till planen delas med dig.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: fa47cb8c-a3ca-4748-b67d-2d8ed34b9b4a
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 0%
 
 ---
 
-# Begär åtkomst till en plan i [!DNL Scenario Planner]
+# Begär behörigheter för en plan i [!DNL Scenario Planner]
 
-Du kan begära åtkomst till en plan i [!DNL Adobe Workfront Scenario Planner] när länken till planen delas med dig.
+<!--Audited: 11/2025-->
+
+Du kan begära behörigheter för en plan i [!DNL Adobe Workfront Scenario Planner] när länken till planen delas med dig.
 
 ## Åtkomstkrav
 
@@ -95,7 +97,7 @@ Innan du kan begära åtkomst till en plan i [!DNL Scenario Planner] måste du h
 >
 >Om du inte har åtkomstnivåbehörighet till [!DNL Scenario Planner] och du försöker komma åt en plan från en länk, kan du inte begära åtkomst till planen. I stället visas en skärm som informerar dig om att kontakta administratören för [!DNL Workfront].
 
-## Begär åtkomst för planer i [!DNL Workfront Scenario Planner]
+## Begär behörigheter för planer i [!DNL Workfront Scenario Planner]
 
 Om du inte redan har behörighet för en plan och navigerar till den från en länk som delas med dig, visas en skärm som informerar dig om att du inte har behörighet att visa planen. Du uppmanas att begära behörigheter från den som skapat planen.
 
@@ -107,7 +109,7 @@ Så här begär du behörigheter:
 
 1. Klicka på en länk till en plan.
 
-   ![Begär åtkomst till planen](assets/request-access-to-plan-350x277.png)
+   ![Begär behörigheter att planera](assets/request-access-to-plan-350x277.png)
 
 1. Ange vilken behörighetsnivå du vill bevilja i listrutan **[!UICONTROL Request access to]**. Välj bland följande:
 

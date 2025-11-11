@@ -7,9 +7,9 @@ description: Du kan redigera information i ett anpassat formulär när formulär
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 53269f4932a752a833df8e41891706934214e062
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1207'
 ht-degree: 0%
 
 ---
@@ -97,27 +97,20 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 ## Redigera information i ett anpassat formulär
 
-Att redigera information i ett anpassat formulär som är kopplat till ett objekt är identiskt för alla objekt. Mer information om vilka objekt som kan ha ett anpassat formulär finns i [Översikt över anpassade formulär](../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
+Att redigera information i ett anpassat formulär som är kopplat till ett objekt påminner om det som finns i de flesta objekt.
 
-1. Gå till ett objekt som du vill redigera information om det anpassade formuläret för.
-1. Klicka på **`<Object type>`Information** i den vänstra panelen.
+Mer information om vilka objekt som kan ha ett anpassat formulär finns i [Översikt över anpassade formulär](../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
 
-   Om du till exempel redigerar information i ett anpassat projektformulär klickar du på **Projektinformation**.
+1. Gå till en lista med objekt som du vill redigera information för i det anpassade formuläret, förutom en lista med upprepningar.
+1. Markera ett eller flera objekt i listan och klicka sedan på ikonen **Redigera** ![Redigera](assets/edit-icon.png) längst upp i listan.
+1. Klicka på **Egen Forms** i den vänstra panelen i rutan **Redigera &lt; objekt >**.
 
-1. Bläddra till det anpassade formuläret. När det finns ett anpassat formulär kopplat till objektet visas formulärets namn som ett område i informationsavsnittet.
-1. Klicka vid behov på pilen ![](assets/expand-arrow-right.png) till vänster om namnet på det anpassade formuläret för att expandera det.
-1. Klicka på redigeringsikonen ![](assets/edit-icon.png) i sidans övre högra hörn.
+   När det finns ett anpassat formulär kopplat till objektet visas formulärets namn som ett område i avsnittet **Anpassad Forms** .
 1. Börja ange information i alla fält som du har åtkomst till.
 
-   ![](assets/click-in-field-to-edit-info-350x132.png)
+   ![Redigera ruta med anpassade formulär på faktureringsposten](assets/edit-box-with-custom-forms-on-billing-record.png)
 
-   eller
-
-   Om ingen information har angetts i formuläret ännu klickar du på **Lägg till+** för fält som du har tillgång till och börjar ange information.
-
-   ![](assets/plus-add-to-edit-info-350x180.png)
-
-   Om flera anpassade formulär är kopplade till objektet kan du göra detta för alla formulär.
+   Om flera anpassade formulär är kopplade till objektet gör du detta för alla formulär.
 
    Beroende på vilken typ av fält du arbetar i kan du tänka på följande:
 
@@ -133,7 +126,7 @@ Att redigera information i ett anpassat formulär som är kopplat till ett objek
 
    Mer information om alla fälttyper finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Klicka på **Spara ändringar**.
+1. Klicka på **Spara**.
 
    >[!IMPORTANT]
    >
@@ -147,19 +140,50 @@ Att redigera information i ett anpassat formulär som är kopplat till ett objek
 
    Du kan även uppdatera alla beräknade anpassade fält manuellt för ett objekt när du redigerar objektet gruppvis tillsammans med andra objekt i en lista. Instruktioner finns i [Beräkna om alla beräknade anpassade fält för flera objekt i en lista när du redigerar objekten](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects) i den här artikeln.
 
-## Beräkna om alla beräknade anpassade fält för ett objekt  {#recalculate-all-calculated-custom-fields-for-an-object}
+1. (Villkorligt) Så här uppdaterar du anpassade fält för ett eget upprepningsformulär:
+
+   1. Gå till en iteration.
+   1. Klicka på **Egen Forms** i den vänstra panelen.
+   1. Om du vill lägga till anpassade formulär börjar du skriva namnet på ett formulär i fältet **Lägg till anpassat formulär** i det övre högra hörnet på sidan
+
+      eller
+
+      Klicka på ikonen **Redigera** i samma område för att börja redigera fälten i de bifogade formulären.
+
+      ![Redigera eget upprepningsformulär](assets/edit-iteration-custom-form.png)
+
+   1. Klicka på **Spara ändringar**.
+
+## Beräkna om anpassade fält för objekt
+
+Beroende på ändringar som kan inträffa i anpassade formulär eller ändringar som görs i fält som refereras i anpassade fält, kan värdena för beräknade anpassade fält vara inaktuella. I det här fallet kan du behöva beräkna om anpassade fält eller beräkna om anpassade uttryck för objekt.
+
+I följande avsnitt beskrivs hur du kan beräkna om anpassade uttryck för objekt med anpassade formulär.
+
+>[!NOTE]
+>
+>Du kan inte beräkna om anpassade uttryck för grupper.
+
+### Beräkna om alla beräknade anpassade fält från en objektsida
 
 >[!IMPORTANT]
 >
 >Du måste ha ett eget formulär med beräknade fält kopplade till objektet innan du kan följa stegen i det här avsnittet.
 
+1. Gå till huvudsidan för ett av följande objekt vars anpassade fält du vill beräkna om:
 
-1. Gå till huvudsidan för det objekt vars anpassade fält du vill beräkna om.
+   * Projekt
+   * Uppgift
+   * Problem
+   * Portfolio
+   * Program
+   * Dokument
+
 1. Klicka på menyn **Mer** ![](assets/more-icon.png) till höger om objektets namn och klicka sedan på **Beräkna om uttryck**.
 
    Detta beräknar om alla anpassade fält i objektets formulär.
 
-## Beräkna om alla beräknade anpassade fält för flera objekt i en lista när objekten redigeras {#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects}
+### Beräkna om alla beräknade anpassade fält för flera objekt i en lista när objekten redigeras {#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to be edited when the bulk edit for objects update in NW)</p>
@@ -172,17 +196,29 @@ Beroende på vilka objekt du vill beräkna om de anpassade uttrycken för kan du
 
 Så här beräknar du manuellt om anpassade fält för flera objekt genom att redigera dem i grupp från en lista eller rapport:
 
-1. Gå till en lista med objekt som innehåller anpassade formulär med beräkningsfält.
+1. Gå till en lista med följande objekttyper vars objekt innehåller anpassade formulär med beräkningsfält:
+
+   * Användare
+   * Företag
+   * Faktureringsposter
+
 1. Markera de objekt vars beräknade anpassade fält du vill uppdatera.
 1. Klicka på ikonen **Redigera**.
 1. Klicka på **Anpassad Forms** på den vänstra menyn och välj sedan **Beräkna om anpassade uttryck**.
-1. Klicka på **Spara** **Ändringar**.
+1. Klicka på **Spara** eller **Spara ändringar**.
 
    Workfront beräknar alla anpassade fält för alla markerade objekt.
 
 Så här beräknar du om anpassade uttryck från en objektlista:
 
-1. Gå till en projektlista eller rapport och välj ett eller flera projekt.
+1. Gå till en projektlista eller rapport och välj en eller flera av följande objekttyper:
+
+   * Projekt
+   * Uppgifter
+   * Problem
+   * Portföljer
+   * Program
+   * Utgifter
 1. Klicka på menyn **Mer** ![](assets/more-icon.png) och sedan på **Beräkna om anpassade uttryck**.
 
 ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
@@ -192,5 +228,7 @@ Alla listor med objekt har inte den här funktionen.
 
 >[!NOTE]
 >
->Beroende på hur komplexa dina projekt är rekommenderar vi att du inte väljer ett stort antal projekt när du beräknar om beräknade anpassade fält i grupp för att få optimala prestanda. Vissa saker som kan göra ett projekt för komplext kan vara flera beroenden, tilldelningar eller ett stort antal anpassade fält.
+>När du beräknar om uttryck för flera projekt, beroende på hur komplexa de är, rekommenderar vi att du inte väljer ett för stort antal projekt för att få optimala prestanda.
+>
+>Vissa saker som kan göra ett projekt för komplext kan vara flera beroenden, tilldelningar eller ett stort antal anpassade fält.
 

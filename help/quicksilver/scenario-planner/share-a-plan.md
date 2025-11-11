@@ -7,7 +7,7 @@ description: Du kan dela en plan som du har skapat i Adobe Workfront Scenariopla
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -118,7 +118,7 @@ Mer information om åtkomst till [!DNL Scenario Planner] för olika licenstyper 
 * Du kan inte visa planer som du inte har skapat eller som inte delas med dig.
 * Du kan bara dela en plan med andra användare. Du kan inte dela planer med grupper, team eller företag.
 * Du måste spara en plan innan du kan dela den.
-* Du kan dela en URL till en plan med en annan användare. Om användaren inte har behörighet att åtminstone visa planen kan han/hon begära åtkomst till planen från en annan användare när han/hon får URL:en. Mer information om hur du begär åtkomst till en plan finns i [Begär åtkomst till en plan i  [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
+* Du kan dela en URL till en plan med en annan användare. Om användaren inte har behörighet att åtminstone visa planen kan han/hon begära åtkomst till planen från en annan användare när han/hon får URL:en. Mer information om hur du begär åtkomst till en plan finns i [Begär behörighet till en plan i  [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
 * När du delar flera planer som redan har delats med andra, ersätts inte de användare du delar med utan läggs till de befintliga användarna i varje plan som du har valt.
 
 ## Alternativ för planbehörigheter
@@ -217,7 +217,7 @@ Mer information om projektbehörigheter finns i [Dela ett projekt i [!DNL Adobe 
    >
    >Du kan dela en plan genom att klicka på de avatarer för användare som planen delas med i det övre högra hörnet av planhuvudet.
 
-1. (Villkorligt) Om du öppnade en plan klickar du på ikonen **[!UICONTROL More]** ![Mer &#x200B;](assets/more-icon.png) till höger om namnet på [!UICONTROL Plan] och sedan på **[!UICONTROL Share]**
+1. (Villkorligt) Om du öppnade en plan klickar du på ikonen **[!UICONTROL More]** ![Mer ](assets/more-icon.png) till höger om namnet på [!UICONTROL Plan] och sedan på **[!UICONTROL Share]**
 
    eller
 
