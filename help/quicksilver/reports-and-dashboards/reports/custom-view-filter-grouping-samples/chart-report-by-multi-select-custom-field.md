@@ -7,9 +7,9 @@ description: Du kan bara skapa ett diagram över en rapport med ett anpassat fä
 author: Jenny
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '947'
 ht-degree: 0%
 
 ---
@@ -131,13 +131,15 @@ Så här skapar du det beräknade anpassade fältet som refererar till det anpas
 
 ### Skapa ett diagram som refererar till ett beräknat anpassat fält {#build-a-chart-that-references-a-calculated-custom-field}
 
-1. (Valfritt) Om du vill vara säker på att alla beräknade fält som du vill diagramma efter fylls i med värden, går du till fliken Detaljer i rapporten och markerar alla objekt som innehåller det anpassade formuläret med både det anpassade fältet för flera val och det beräknade anpassade fältet. Klicka sedan på **Redigera**.
-1. (Valfritt och villkorligt) Markera fältet **Beräkna om anpassade uttryck** och klicka sedan på **Spara ändringar**.\
-   ![Beräkna om anpassade uttryck](assets/recalculate-custom-expressions-350x259.png)
+1. (Valfritt) Om du vill vara säker på att alla beräknade fält som du vill rita efter fylls i med värden, måste du beräkna om de anpassade uttrycken för alla objekt i rapporten.
+Mer information om hur du beräknar om uttryck finns i [Redigera information i anpassade fält](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
+   <!--from the Details tab of the report select all the objects that contain the custom form with both the multi-select custom field and the calculated custom field, then click **Edit**. 
+   1. (Optional and conditional) Select the **Recalculate Custom Expressions** field, then click **Save Changes**.  
+   ![Recalculate custom expressions](assets/recalculate-custom-expressions-350x259.png) 
    >[!NOTE]
    >
-   >Det här alternativet har tagits bort från gruppredigering.  Du kan fortfarande beräkna om uttryck för flera projekt samtidigt genom att klicka på ikonen **Mer** ![Mer](assets/more-icon-45x33.png) högst upp i en projektlista och sedan **Beräkna om uttryck**.
+   >This option has been eliminated from editing projects in bulk.  You can still recalculate expressions for projects in bulk by clicking the **More** icon ![More icon](assets/more-icon-45x33.png) at the top of a project list, then **Recalculate Expressions**. -->
 
 1. Gå till rapporten där du vill lägga till diagrammet för det beräknade fältet som refererar till det anpassade fältet för flera val.
 1. Klicka på **Rapportera åtgärder** och sedan på **Redigera**.

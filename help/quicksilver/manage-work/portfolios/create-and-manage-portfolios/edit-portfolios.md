@@ -6,7 +6,7 @@ description: Du kan redigera information om portföljer som du har skapat eller 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
 workflow-type: tm+mt
 source-wordcount: '1008'
 ht-degree: 0%
@@ -109,17 +109,17 @@ Du kan redigera en portfölj på portföljsidan eller redigera portföljer i en 
 
       Så här redigerar du information i avsnittet [!UICONTROL **Detaljer**]:
 
-   1. (Valfritt) Klicka på ikonen **[!UICONTROL Collapse all]** ![Komprimera alla &#x200B;](assets/collapse-all-icon.png) i det övre högra hörnet om du vill komprimera alla områden.
-   1. (Valfritt och villkorligt) När ett område är komprimerat klickar du på ikonen **Expandera** ![Expandera &#x200B;](assets/right-pointing-arrow.png) bredvid varje område för att expandera området som du vill redigera.
+   1. (Valfritt) Klicka på ikonen **[!UICONTROL Collapse all]** ![Komprimera alla ](assets/collapse-all-icon.png) i det övre högra hörnet om du vill komprimera alla områden.
+   1. (Valfritt och villkorligt) När ett område är komprimerat klickar du på ikonen **Expandera** ![Expandera ](assets/right-pointing-arrow.png) bredvid varje område för att expandera området som du vill redigera.
 
       >[!TIP]
       >
-      >Du kan klicka på ikonen **Expandera alla** ![Expandera &#x200B;](assets/right-pointing-arrow.png) i det övre högra hörnet av detaljavsnittet när alla områden är komprimerade.
+      >Du kan klicka på ikonen **Expandera alla** ![Expandera ](assets/right-pointing-arrow.png) i det övre högra hörnet av detaljavsnittet när alla områden är komprimerade.
 
       Om du vill ha information om de fält som visas i avsnittet [!UICONTROL **Portfolio Details**] kan du fortsätta redigera portföljen i rutan [!UICONTROL **Redigera Portfolio**] enligt beskrivningen nedan.
    1. (Valfritt) Om det inte finns några anpassade formulär kopplade till portföljen börjar du med att skriva namnet på ett formulär i fältet **[!UICONTROL Add custom form]** i det övre högra hörnet på sidan **Information** och markerar det sedan när det visas i listan.
    1. Lägg till information i fälten i områdena [!UICONTROL **Översikt**] och [!UICONTROL **Anpassad Forms**] och klicka sedan på [!UICONTROL **Spara ändringar**].
-   1. (Valfritt) Klicka på ikonen **[!UICONTROL Export]** ![&#x200B; Exportera &#x200B;](assets/export.png) om du vill exportera [!UICONTROL Overview] och anpassad formulärinformation till en PDF-fil. Klicka sedan på **[!UICONTROL Export]**. Välj bland följande:
+   1. (Valfritt) Klicka på ikonen **[!UICONTROL Export]** ![ Exportera ](assets/export.png) om du vill exportera [!UICONTROL Overview] och anpassad formulärinformation till en PDF-fil. Klicka sedan på **[!UICONTROL Export]**. Välj bland följande:
 
 
       * Markera alla (visas bara när det finns minst ett anpassat formulär bifogat)
@@ -177,28 +177,28 @@ Du kan redigera en portfölj på portföljsidan eller redigera portföljer i en 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **Name**]</td> 
+      <td role="rowheader">[!UICONTROL Name]</td> 
       <td> <p>Uppdatera namnet på portföljen. </p> <p><b>TIPS</b></p> 
-      <p>Fältet **Name** är inte tillgängligt när du väljer mer än en portfölj. </p> </td> 
+      <p>Fältet Namn är inte tillgängligt när du väljer mer än en portfölj. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **Description**]</td> 
+      <td role="rowheader">[!UICONTROL Description]</td> 
       <td> <p>Skriv en beskrivning av Portfolio för att ange vad som är unikt med det. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **Portfolio Manager**]</td> 
+      <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
       <td> <p>Börja skriva namnet på en användare som du vill ange som portföljförvaltare och markera den sedan när den visas i listan. Detta är samma som [!UICONTROL Portfolio Owner]. Detta är den person som kan övervaka arbetet som definieras i portföljens projekt och godkänna affärsärendet.</p> <p>Viktigt: När du anger någon som Portfolio Manager får de automatiskt [!UICONTROL Manage] behörigheter till portföljen, programmen och projekten i portföljen. </p> <p>Tips! Du kan snabbt uppdatera portföljförvaltaren i portföljrubriken. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **Group**]</td> 
+      <td role="rowheader">[!UICONTROL Group]</td> 
       <td> <p>Lägg till namnet på en enskild grupp om gruppen är associerad med portföljen eller har ansvar för att slutföra den. </p> <p>Tips:  <p>Gör följande när du öppnar fältet [!UICONTROL Group] från sidan [!UICONTROL Portfolio Details]: </p> <p>Du kan se till att du väljer rätt grupp genom att hålla markören över den och klicka på ikonen [!UICONTROL information] <img src="assets/info-icon.png"> som visas bredvid den. Här visas ett verktygstips med information om gruppen, till exempel hierarkin för grupper ovanför och dess administratörer.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> <p>Det här alternativet är inte tillgängligt i rutan [!UICONTROL Edit Portfolio]. </p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p role="rowheader">[!UICONTROL **Alignment Scorecard**]</p> </td> 
+      <td role="rowheader"> <p role="rowheader">[!UICONTROL Alignment Scorecard]</p> </td> 
       <td> <p>Välj det justeringskort som du vill använda i listrutan. Ett styrkort används för att mäta hur väl ett projekt överensstämmer med de fastställda kriterierna för en Portfolio som ofta återspeglar en organisations uppdrag, värderingar och strategiska mål. Mer information finns i <a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">Använda ett styrkort i ett projekt och generera ett justeringsresultat</a> och <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref">Skapa ett styrkort</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **Is Active**]</td> 
+      <td role="rowheader">[!UICONTROL Is Active]</td> 
       <td> <p> Markera den här kryssrutan om du vill att portföljen ska vara aktiv. Andra användare kan hitta aktiva portföljer och bifoga dem till projekt när de skapar eller redigerar projekt. Inaktiva portföljer kan inte kopplas till projekt. Detta är aktiverat som standard.</p> </td> 
      </tr> 
     </tbody> 
