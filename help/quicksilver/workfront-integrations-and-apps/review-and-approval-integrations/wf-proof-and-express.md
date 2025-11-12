@@ -8,9 +8,9 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+source-git-commit: 752c39b90e9206a335435350f8844c746a7127e0
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -64,13 +64,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 ## Integrationskrav
 
-* Workfront och Adobe Express måste distribueras till samma IMS-organisation.
-
-* Integreringen måste aktiveras för dina konton av Adobe produktgrupp.
-
-  >[!IMPORTANT]
-  >
-  >Integreringen av Adobe Express och Workfront Proof kommer att vara tillgänglig för användare i flera versioner, från konton där Workfront och Adobe Express är kopplade till samma organisations-ID i Adobe Admin Console, följt av kunder med användare som arbetar i olika IMS-organ. Om du vill aktivera integreringen kan du kontakta din Customer Success eller Strategic Account Manager.
+* Du måste ha behörighet att använda Adobe Express och minst en Workfront-miljö med en Workfront Standard-licens.
 
 * Användare måste installera [Granska interaktivt innehåll med Adobe Workfront granskningsverktyg](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) innan de kan börja granska utkast i Adobe Express.
 
@@ -89,7 +83,7 @@ När en Express-mall blandas om krävs ett godkännande före publicering, vilke
 
 Användare måste ha en Workfront-licens av standardtyp för att kunna begära godkännande från Adobe Express.
 
-Lär dig hur du [får godkännande av designer](https://helpx.adobe.com/se/express/web/share-and-publish/share-and-collaborate/request-approval.html).
+Lär dig hur du [får godkännande av designer](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).
 
 
 ## Mixa om Express-mallar och skicka för granskning och godkännande

@@ -4,9 +4,9 @@ description: Första kvartalet 2026 Förbättringar av dokument och godkännande
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7fb12a3fbdad661baf2d0ad472ce8017e178ddef
+source-git-commit: 5f05c1a13c6c0d0ed1d69b850a0cb07ce53fc271
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,25 @@ Den här sidan beskriver förbättringar av dokument och godkännande som gjorts
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den första utgåvan av kvartal 2026 finns i [Översikt över utgåvan första kvartalet 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+## Stöd för Adobe Express i flera organisationer med Workfront Proofing
+
+>[!NOTE]
+>
+>Förhandsgranska: 13 november 2025
+>Production fast release: 13 november 2025\
+>Produktion för alla: 13 november 2025
+
+Vi introducerar stöd för flera organisationer för Adobe Express med Workfront Proofing. Förbättringen gör det möjligt för kunder som arbetar i flera IMS-organisationer att smidigt använda och hantera korrekturarbetsflöden.
+
+Mer information finns i [Kom igång med integreringen mellan Adobe Express och Workfront Proof](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md).
+
 
 ## Adobe Experience Manager finns nu med Frame.io-integrering
 
 >[!NOTE]
 >
 >Förhandsgranska: 30 oktober 2025
->&#x200B;>Production fast release: 30 oktober 2025\
+>Production fast release: 30 oktober 2025\
 >Produktion för alla: 30 oktober 2025
 
 Nu kan ni använda Experience Manager Assets &#x200B; för att hantera och lagra era digitala resurser som gått igenom gransknings- och godkännandecykeln. Tack vare integreringen kan ni utnyttja funktionerna i Adobe Experience Manager, Frame.io och Workfront för att effektivisera innehållshanteringen och samarbetet.
