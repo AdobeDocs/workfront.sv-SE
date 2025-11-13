@@ -6,9 +6,9 @@ description: Allokeringsprocenten representerar den tid en tilldelad resurs är 
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 0%
 
 <!--remove new/old experience references when they remove the New/ Old experience toggle from the Edit Tasks box-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Samma funktioner är också tillgängliga i produktionsmiljön för alla kunder från och med en vecka från förhandsversionen.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Mer information finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 
 Allokeringsprocenten representerar den tid en tilldelad resurs är planerad att arbeta med en aktivitet på en dag. Det är procentandelen av en arbetsdag (enligt användaren eller projektschemat) som en resurs tilldelas under aktivitetens varaktighet.
@@ -59,7 +59,7 @@ Du kan ändra allokeringsprocenten när du gör avancerade tilldelningar för en
   <tr> 
    <td>Objektbehörigheter</td>
    <td><p>Contribute eller högre behörigheter för aktiviteten</p>
-   <p>Redigera behörigheter för att uppdatera allokeringsprocenten i rutan Redigera uppgift när <span class="preview"> redigerar uppgifter med den gamla funktionen. Du kan inte längre hantera allokeringsprocenten i aktivitetsrutan Redigera när du redigerar aktiviteter i den nya upplevelsen.</span></p> <p>Mer information finns i <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Redigera uppgifter</a>.</p></td>
+   <p>Redigera behörigheter för att uppdatera allokeringsprocenten i rutan Redigera uppgift när du redigerar uppgifter med den gamla versionen. Du kan inte längre hantera allokeringsprocenten i rutan Redigera när du redigerar uppgifter i den nya upplevelsen.</p> <p>Mer information finns i <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Redigera uppgifter</a>.</p></td>
   </tr>
  </tbody>
 </table>

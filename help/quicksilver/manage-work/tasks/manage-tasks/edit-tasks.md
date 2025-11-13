@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '4464'
+source-wordcount: '4416'
 ht-degree: 0%
 
 ---
@@ -28,13 +28,13 @@ ht-degree: 0%
 </div>
 -->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Samma funktioner är också tillgängliga i produktionsmiljön för alla kunder från och med en vecka från förhandsversionen.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Mer information finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 Du kan redigera information om åtgärder som du har skapat eller om du har behörighet att göra det i Contribute eller Hantera.
 
@@ -377,19 +377,17 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
 1. Börja redigera din uppgift enligt beskrivningen ovan.
 1. Klicka på **Uppdrag** i den vänstra panelen.
 
-   <span class="preview">Området Uppdrag öppnas i den nya upplevelsen.</span>
+   Området Uppdrag öppnas i den nya upplevelsen.
 
 1. (Villkorligt) Gör följande när du använder den nya funktionen:
 
-   1. <span class="preview">Börja skriva namnet på en användare, en jobbroll eller ett team i fältet **Sök efter personer, en roll eller ett team** och markera dem sedan när de visas i listan</span>
+   1. Börja skriva namnet på en användare, jobbroll eller team i fältet **Sök efter personer, roller eller team** och markera dem sedan när de visas i listan
 
       eller
 
-      <span class="preview">Klicka på **Tilldela mig** om du vill tilldela uppgiften till dig själv. </span>
+      Klicka på **Tilldela mig** för att tilldela uppgiften till dig själv.
 
-   1. <span class="preview">Uppdatera följande information:</span>
-
-      <div class="preview">
+   1. Uppdatera följande information:
 
       <table style="table-layout:auto"> 
          <col> 
@@ -501,7 +499,6 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
          </tbody> 
          </table>
 
-      </div>
 
       <!--<tr> 
       <td role="rowheader">Allocation</td> 
@@ -520,9 +517,9 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
          </tbody> 
          </table>-->
 
-   1. <span class="preview">(Valfritt) Klicka på **Byt till gammal upplevelse** längst ned i rutan **Redigera aktivitet**. </span>
-      <span class="preview">Området Uppdrag öppnas i den gamla versionen. </span>
-      ![](assets/nwe-assignments-section-edit-task-box-350x217.png)
+   1. (Valfritt) Klicka på **Byt till gammal upplevelse** längst ned i rutan **Redigera uppgift**.
+Uppdragsområdet öppnas i den gamla versionen.
+      ![Avsnittet Uppdrag i rutan Redigera uppgift](assets/nwe-assignments-section-edit-task-box-350x217.png)
 
 1. Klicka på **Sök efter personer, roller eller team** och börja skriva namnet på en användare, roll eller team som du vill tilldela uppgiften. Klicka sedan på den eller tryck på Retur när den visas i listan.
 
@@ -670,7 +667,7 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
    </tbody>
    </table>
 
-1. Klicka på **Spara ändringar** <span class="preview"> eller **Spara** </span> eller fortsätt med följande avsnitt.
+1. Klicka på **Spara** eller fortsätt med följande avsnitt.
 
 ### Anpassad Forms
 

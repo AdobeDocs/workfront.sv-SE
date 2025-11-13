@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,11 @@ Mer information om hur du kan ansluta poster till varandra eller till ett annat 
 
 Du kan koppla poster till andra poster eller till objekt från andra program i följande områden:
 
-* Du kan koppla poster från Workfront Planning till Workfront-objekt eller Experience Manager Assets-objekt i följande områden i en Planning-post:
+* Du kan koppla poster från Workfront Planning till Workfront-objekt, Experience Manager Assets-objekt eller GenStudio Brands i följande områden i en Planning-post:
 
    * De kopplade postfälten i tabellvyn för en posttyp i Planning.
-   * Postens förhandsgranskning eller sida i de anslutna postfälten på fliken Information.
-   * Postens förhandsgranskning eller sida på fliken Anslutningar.
+   * Postens förhandsgransknings- eller informationssida i de anslutna postfälten på fliken Information.
+   * Postens förhandsgransknings- eller informationssida på fliken Anslutningar.
    * Postens sida på fliken Anslutna poster i en ansluten post.
 
 * Du kan ansluta Workfront-objekt till Workfront Planning-poster i följande områden i Workfront:

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '2050'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Så här gör du:
 
      >[!NOTE]
      >
-     >Alternativet **Anslutningstyp** är inte tillgängligt vid anslutning av poster från olika arbetsytor eller vid anslutning av Experience Manager-resurser. Mer information finns i [Översikt över anslutna posttyper](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+     >Alternativet **Anslutningstyp** är inte tillgängligt när du ansluter poster från olika arbetsytor eller när du ansluter Experience Manager-resurser eller GenStudio Brands. Mer information finns i [Översikt över anslutna posttyper](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
    * **Postutseende**: Välj bland följande alternativ:
       * **Namn och bild**: Visar namnet och miniatyrbilden eller ikonen för de anslutna posterna. Detta är markerat som standard.

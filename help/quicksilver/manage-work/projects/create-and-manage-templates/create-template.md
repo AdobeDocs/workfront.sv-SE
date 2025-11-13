@@ -6,9 +6,9 @@ description: Du kan skapa och ta bort mallar under Mallar. När du skapar en ny 
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '734'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,15 @@ ht-degree: 0%
 
 <!-- Audited: 10/2025 -->
 
-<div class="preview">
+<!--remove all instances of new/ old experience and redo the steps when the toggle is removed-->
 
-Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Samma funktioner är också tillgängliga i produktionsmiljön för alla kunder från och med en vecka från förhandsversionen.
+<!--<div class="preview"> 
 
-Mer information finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-</div>
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> -->
 
 Du kan skapa och ta bort mallar under Mallar. När du skapar en ny mall kan du ange informationen för alla uppgifter och för dina framtida projektinställningar. Den här informationen överförs sedan till alla projekt som du skapar från mallen.
 
@@ -118,13 +120,11 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
    Klicka på **Ny mallaktivitet** om du vill lägga till aktiviteter i mallen i rutan **Ny mallaktivitet**.
 
-   ![Ny mallaktivitet](assets/new-template-task-box.png)
+   Rutan **Skapa malluppgift** öppnas i den nya versionen.
 
-   <span class="preview">Rutan **Skapa malluppgift** öppnas i den nya versionen.</span>
+   ![Ny upplevelse för aktiviteten Ny mall](assets/new-template-task-box-unshimmed.png)
 
-1. <span class="preview">(Villkorligt) Uppdatera informationen i följande områden i rutan **Skapa malluppgift** med den nya funktionen:</span>
-
-   <div class="preview">
+1. (Villkorligt) Uppdatera informationen i följande områden i rutan **Skapa malluppgift** med den nya funktionen:
 
    * Malluppgiftsnamn
    * Översikt
@@ -134,14 +134,15 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    * Dokument
    * Inställningar
 
-   </div>
-
 1. Klicka på **Skapa malluppgift**
 
    eller
 
-   <span class="preview">Klicka på **Byt tillbaka till den gamla versionen** längst ned i rutan **Skapa malluppgift**.</span>
-   <span class="preview">Den **nya mallaktiviteten** öppnas i den gamla versionen.</span>
+   Klicka på **Växla tillbaka till den gamla versionen** längst ned i rutan **Skapa malluppgift**.
+
+   **Ny mallaktivitet** öppnas i den gamla versionen.
+
+   ![Ny mallaktivitet](assets/new-template-task-box.png)
 
    >[!TIP]
    >

@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '2212'
+source-wordcount: '2156'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 <!--remove production/ preview and old/ new experience references at prod-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Samma funktioner är också tillgängliga i produktionsmiljön för alla kunder från och med en vecka från förhandsversionen.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Mer information finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 Du kan tilldela uppgifter till användare, jobbroller eller team för att ange vem som ansvarar för att slutföra uppgifterna. Du kan tilldela en uppgift till mer än en resurs åt gången.
 
@@ -236,13 +236,13 @@ Så här tilldelar du uppgifter i en lista:
 1. Markera flera uppgifter i uppgiftslistan.
 1. Klicka på **Redigera**.
 
-   Dialogrutan **Redigera uppgifter** öppnas <span class="preview"> i den nya versionen.</span>
+   Dialogrutan **Redigera uppgifter** öppnas i den nya versionen.
 
-1. Fortsätt tilldela aktiviteterna <span class="preview">med den nya funktionen.</span>
+1. Fortsätt tilldela uppgifter med den nya funktionen.
 
-   <span class="preview">Mer information finns i avsnittet [Tilldela flera aktiviteter samtidigt från en lista i den nya upplevelsen](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) i den här artikeln.</span>
+   Mer information finns i avsnittet [Tilldela flera uppgifter samtidigt från en lista i den nya upplevelsen](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) i den här artikeln.
 
-1. <span class="preview">(Valfritt) Klicka på **Byt tillbaka till den gamla versionen** längst ned i rutan **Redigera uppgifter** för att öppna den gamla versionen.</span>
+1. (Valfritt) Klicka på **Byt tillbaka till den gamla versionen** längst ned i rutan **Redigera uppgifter** för att öppna den gamla versionen.
 
    >[!TIP]
    >
@@ -279,11 +279,9 @@ Så här tilldelar du uppgifter i en lista:
 1. (Valfritt och villkorligt) När fälten Tilldelad till eller Uppdrag visas i listan med uppgifter klickar du i en av dessa kolumner för en uppgift och sedan på ikonen **X** bredvid namnet på en tilldelad för att ta bort den från uppgiften.
 
 
-<div class="preview">
-
 ### Tilldela flera uppgifter samtidigt från en lista i den nya upplevelsen
 
-1. Gå till en lista med uppgifter som du vill tilldela gruppvis i förhandsvisningsmiljön.
+1. Gå till en lista med uppgifter som du vill tilldela gruppvis.
 1. (Villkorligt) Se till att alternativet **Spara automatiskt** är markerat om du finns med i en lista över aktiviteter under ett projekt.
 
    >[!IMPORTANT]
@@ -319,10 +317,7 @@ Så här tilldelar du uppgifter i en lista:
 1. (Valfritt) Om du vill ta bort befintliga tilldelningar från alla uppgifter klickar du på **x** bredvid deras namn i fältet **Sök efter personer, roller eller team**.
 
 1. Klicka på **Spara**.
-1. (Valfritt och villkorligt) När fälten **Tilldelad till** eller **Tilldelningar** visas i din lista med uppgifter klickar du i en av dessa kolumner för en uppgift och sedan på ikonen **X** bredvid namnet på en tilldelad för att ta bort den från uppgiften.
-
-
-</div>
+1. (Valfritt och villkorligt) När fälten **Tilldelad till** eller **Tilldelningar** visas i din lista med uppgifter klickar du i en av dessa kolumner för en uppgift och sedan på ikonen **X** bredvid namnet på en tilldelad för att ta bort den från uppgiften
 
 
 <!--

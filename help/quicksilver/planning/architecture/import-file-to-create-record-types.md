@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '801'
 ht-degree: 0%
 
 ---
@@ -134,8 +134,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 * Tomma blad stöds inte.
 * Fält av följande typer stöds inte och kan inte mappas till fält på importbladet:
 
-   * Anslutningsfält till objekttyperna Workfront och AEM Assets.
-   * Sök efter fält från anslutna Planning-poster eller Workfront- och AEM Assets-objekt
+   * Kopplingsfält till Workfront, AEM Assets objekttyper eller GenStudio Brands.
+   * Sök efter fält från anslutna Planning-poster, Workfront-, AEM Assets-objekt eller GenStudio-varumärken.
    * Formelfält
    * Skapad den, skapad av
    * Senast ändrat den
@@ -190,7 +190,7 @@ Så här importerar du posttyper med en Excel- eller CSV-fil:
 
    >[!TIP]
    >
-   >Du kan bara mappa till fält från Workfront Planning-anslutna poster. Du kan inte mappa till fält från Workfront- eller AEM Assets-anslutningar. Mer information finns i avsnittet [Att tänka på när du importerar posttyper med hjälp av en Excel- eller CSV-fil](#considerations-about-importing-record-types-using-an-excel-or-csv-file) i den här artikeln.
+   >Du kan bara mappa till fält från Workfront Planning-anslutna poster. Du kan inte mappa till fält från Workfront-, AEM Assets- eller GenStudio-varumärkesanslutningar. Mer information finns i avsnittet [Att tänka på när du importerar posttyper med hjälp av en Excel- eller CSV-fil](#considerations-about-importing-record-types-using-an-excel-or-csv-file) i den här artikeln.
 
 1. (Villkorligt) När du har uppdaterat informationen om fältet klickar du på **Spara**.
 

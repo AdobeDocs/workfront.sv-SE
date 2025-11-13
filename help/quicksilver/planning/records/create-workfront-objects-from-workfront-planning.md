@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1271'
 ht-degree: 0%
 
 ---
@@ -87,15 +87,8 @@ Mer information om hur du ansluter Planning-poster med Workfront-objekt finns i 
    <td> 
 <p>Alla Workfront- och Planning-paket</p> <p>Alla arbetsflöden och alla planeringsdokument</p>
 <p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
-   </td> 
-<tr> 
-<td> 
-   <p> Ytterligare produkter</p> </td> 
-   <td> 
-    <p>Förutom Adobe Workfront måste du ha en Adobe Experience Manager Assets-licens och en integrering mellan AEM Assets och Workfront för att kunna koppla AEM-material till Planning Record.</p>
-    <p>Mer information finns i <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront för Experience Manager Assets och Assets Essentials: artikelindex</a>. </p>
-   </td> 
-  </tr>   
+   </td>
+
 <tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licens</p></td> 

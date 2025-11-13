@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1047'
 ht-degree: 0%
 
 ---
@@ -18,17 +18,19 @@ ht-degree: 0%
 
 <!--Audited: 11/2025-->
 
+<!--remove the old/new experience references when the toggles are removed-->
+
 <!--
 this article is similar and updates on this one might need to be repeated here: help/quicksilver/manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md</p>
 -->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Samma funktioner är också tillgängliga i produktionsmiljön för alla kunder från och med en vecka från förhandsversionen.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-Mer information finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div>-->
 
 När du hanterar uppgiftstilldelningar kan du ändra dem samtidigt för flera uppgifter samtidigt genom att använda gruppredigeringsfunktionen i en lista med uppgifter.
 
@@ -125,25 +127,22 @@ When assigning users to work, their availability according to their schedules af
 
 1. Markera de uppgifter som du vill ändra uppdrag för och klicka sedan på ikonen **Redigera** ![](assets/edit-icon.png) .
 
-   Rutan **Redigera uppgifter** öppnas <span class="preview"> i den nya versionen. Gör något av följande:</span>
-
-   <div class="preview">
+   Rutan **Redigera uppgifter** öppnas i den nya versionen. Gör något av följande:
 
    * Om du vill lägga till tilldelningar börjar du skriva namnet på en tilldelad i fältet **Sök efter personer, roller eller team** och markerar dem sedan när de visas i listan.
    * Klicka på ikonen **x** till höger om namnet om du vill ta bort tilldelningar. Endast tilldelningar som är gemensamma för alla uppgifter visas i listan.
    * Klicka på Tilldela mig om du vill tilldela de markerade uppgifterna till dig själv.
 
-   </div>
+1. (Villkorligt) Klicka på **Spara** när du använder den nya versionen.
 
-1. <span class="preview">(Villkorligt) Klicka på **Spara** när du använder den nya funktionen.</span>
+1. (Valfritt) Klicka på **Byt till gammal upplevelse** längst ned i rutan **Redigera uppgifter**.
 
-1. <span class="preview">(Valfritt) Klicka på **Byt till gammal upplevelse** längst ned i rutan **Redigera uppgifter**.</span>
+   Rutan **Redigera uppgifter** öppnas i den gamla versionen.
 
-   <span class="preview">Rutan **Redigera uppgifter** öppnas i den gamla versionen.</span>
-
+   <!--
    >[!TIP]
    >
-   >Den gamla upplevelsen är som standard tillgänglig i produktionsmiljön.
+   >The old experience is available by default in the Production environment.-->
 
 1. (Villkorligt) Gör följande i den gamla versionen för att ändra tilldelningarna:
 

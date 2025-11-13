@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '2004'
+source-wordcount: '2040'
 ht-degree: 0%
 
 ---
@@ -280,6 +280,12 @@ Följande är de viktigaste Workfront Planning-objekten och -begreppen:
 
      ![Ny anslutningsflik med alternativ för Workfront AEM](assets/new-connection-tab-with-workfront-aem-options.png)
 
+   * En posttyp och ett Adobe GenStudio for Performance Marketing-märke.
+
+     Du måste ha en Adobe GenStudio for Performance Marketing-licens för att kunna koppla posttyper till GenStudio-varumärken.
+
+     ![Ny anslutningsflik med alternativet Adobe GenStudio Brand](assets/new-connection-tab-with-genstudio-option.png)
+
 
   När du har upprättat en anslutning mellan posttyperna kan du koppla enskilda poster eller objekt av dessa typer till varandra. Anslutningen mellan posterna visas som ett anslutet postfält eller en anslutning.
 
@@ -396,7 +402,7 @@ En uppdaterad lista över släppta funktioner finns i [Aktivitet för lansering 
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [Adobe Workfront planeringsmoduler för Workfront Fusion](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Med Adobe Workfront Planning-modulerna kan du utlösa ett scenario när händelser inträffar i Workfront Planning. Du kan också skapa, läsa, uppdatera och ta bort poster eller utföra ett anpassat API-anrop till ditt Adobe Workfront Planning-konto.
+* [Adobe Workfront planeringsmoduler för Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Med Adobe Workfront Planning-modulerna kan du utlösa ett scenario när händelser inträffar i Workfront Planning. Du kan också skapa, läsa, uppdatera och ta bort poster eller utföra ett anpassat API-anrop till ditt Adobe Workfront Planning-konto.
 
 * [Grunderna i Adobe Workfront Planning API](/help/quicksilver/planning/general/planning-api-basics.md): Målet för Adobe Workfront Planning API är att förenkla byggintegreringar med Planning genom att införa en REST-full arkitektur som fungerar över HTTP.
 

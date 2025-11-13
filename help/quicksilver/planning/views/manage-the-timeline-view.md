@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '3951'
+source-wordcount: '3968'
 ht-degree: 0%
 
 ---
@@ -212,7 +212,7 @@ Så här hanterar du en tidslinjevy:
 
 1. Gör följande för att snabbt hitta poster som matchar ett nyckelord:
 
-   1. Klicka på ikonen **Sök** ![Sök &#x200B;](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med ett fält i en post som visas på skärmen. Antalet korrekta matchningar visas bredvid sökobjektet och posten med rätt matchning markeras.
+   1. Klicka på ikonen **Sök** ![Sök ](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med ett fält i en post som visas på skärmen. Antalet korrekta matchningar visas bredvid sökobjektet och posten med rätt matchning markeras.
 
       ![Sökruta och tidslinjevy för resultat](assets/search-box-and-results-timeline-view.png)
 
@@ -563,6 +563,8 @@ Du kan visa anslutna poster i en posts tidslinjevy genom att använda funktionen
   Till exempel är uppgifter kopplade till projekt i Workfront. Med hjälp av fördelningsfunktionen kan du visa projekt som är kopplade till kampanjer i Planning, men inte aktiviteter som är kopplade till projekt i Workfront.
 
   Om du vill visa både portföljer och projekt i tidslinjevyn för en Workfront Planning-posttyp måste både portföljerna och projekten vara kopplade till Planning-posten eller till en post kopplad till Planning-posten vars tidslinjevy du hanterar.
+* Du kan inte visa Adobe GenStudio-varumärken som är kopplade till posttyperna Planning.
+Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Du kan bara visa posttyper som är associerade med minst två datumfält.
 * Datumfälten för de posttyper som du vill visa i tidslinjevyn måste vara synliga i tabellvyn för den valda posttypen, som uppslagsfält.
 * Start- och slutdatumen för de posttyper som du vill visa i tidslinjevyn måste anges i kronologisk ordning. Om en post till exempel har startdatumet 31 januari och slutdatumet 1 januari visas den inte i tidslinjevyn. Mer information finns i avsnittet [Hantera en tidslinjevy](#manage-a-timeline-view) i den här artikeln.

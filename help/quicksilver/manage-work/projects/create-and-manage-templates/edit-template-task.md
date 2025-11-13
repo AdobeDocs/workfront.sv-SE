@@ -7,9 +7,9 @@ description: När du har skapat en mall kan du redigera information om malluppgi
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '4716'
+source-wordcount: '4633'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 <!--take out production and preview references and new/ old experiences at release-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Samma funktioner är också tillgängliga i produktionsmiljön för alla kunder från och med en vecka från förhandsversionen.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-Mer information finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 När du har skapat en mall kan du redigera informationen för malluppgifterna. Den information som du uppdaterar för en malluppgift kopplas till projektuppgifter när du har använt mallen för att skapa ett projekt eller bifogat mallen till ett projekt.
 
@@ -118,7 +118,7 @@ Du kan redigera en malluppgift med området Redigera malluppgift eller Malluppgi
    1. (Valfritt) Klicka på **Dokument** i den vänstra panelen för att lägga till dokument i mallåtgärden. Dokumenten överförs till projektuppgifterna när du använder mallen för att skapa projektet.
    1. (Villkorligt) Om du vill redigera begränsad information om en malluppgift klickar du på **Information om malluppgift** i den vänstra panelen. Gå sedan till områdena i detaljavsnittet för att redigera information för varje område.
    1. (Valfritt) Gör något av följande:
-      * Klicka på ikonen **Komprimera alla** ![Komprimera alla &#x200B;](assets/collapse-all-icon.png) om du vill komprimera alla områden.
+      * Klicka på ikonen **Komprimera alla** ![Komprimera alla ](assets/collapse-all-icon.png) om du vill komprimera alla områden.
       * Klicka på ikonen **Redigera** ![Redigera](assets/edit-icon.png) och välj sedan något av områdena nedan. Du kan också klicka på **Redigera alla** om du vill redigera information i alla områden:
 
          * Översikt
@@ -138,15 +138,21 @@ Namnen på tullformulär visas bara om det finns anpassade formulär kopplade ti
 1. (Valfritt) Om du vill redigera flera malluppgifter samtidigt markerar du flera malluppgifter och klickar sedan på **Redigera** överst i malllistan.
 1. (Villkorligt) Om du vill redigera all information om mallaktiviteten eller om flera åtgärder samtidigt klickar du för att markera dem i en lista och sedan på ikonen **Redigera** ![Redigera](assets/edit-icon.png) längst upp i listan.
 
-   Rutan **Redigera mallaktivitet** visas.
+   Rutan **Redigera mallaktivitet** visas i den nya upplevelsen.
+
+   ![Ny upplevelse för aktiviteten Redigera mall](assets/edit-template-task-box-unshimmed.png)
 
    >[!TIP]
    >
    >Du kan också välja en malluppgift i en lista och sedan klicka på **Redigera** till höger om malluppgiftens namn i sidhuvudet för att öppna rutan **Redigera malluppgift** .
 
+   Fortsätt redigera mallaktiviteten enligt beskrivningen i avsnittet [Redigera en malluppgift med den nya funktionen](#edit-a-template-task-using-the-new-experience) i den här artikeln.
+
+1. (Valfritt) Klicka på **Byt tillbaka till den gamla versionen** längst ned i rutan **Redigera mallaktivitet** för att öppna rutan **Redigera mallaktivitet** i den gamla versionen.
+
    ![Redigera malluppgift](assets/edit-template-tasks-box-classic-350x356.png)
 
-1. (Villkorligt) I produktionsmiljön bör du överväga att ange information i följande avsnitt:
+1. Det kan vara bra att ange information i följande avsnitt:
 
    * [Översikt](#overview)
    * [Ekonomi](#finance)
@@ -156,9 +162,6 @@ Namnen på tullformulär visas bara om det finns anpassade formulär kopplade ti
    * [Kommentar](#comment)
 
 1. Fortsätt redigera mallaktiviteten enligt beskrivningen i avsnittet [Redigera en malluppgift med den gamla funktionen](#edit-a-template-task-using-the-old-experience) i den här artikeln.
-
-1. <span class="preview">(Villkorligt) I förhandsvisningsmiljön öppnas rutan Redigera malluppgift i den nya versionen. Fortsätt redigera mallaktiviteten enligt beskrivningen i avsnittet [Redigera en malluppgift med den nya funktionen](#edit-a-template-task-using-the-new-experience) i den här artikeln.</span>
-1. <span class="preview">(Valfritt) Klicka på **Byt tillbaka till den gamla versionen** längst ned i rutan **Redigera mallaktivitet** för att öppna rutan **Redigera mallaktivitet** i den gamla versionen. Fortsätt redigera mallaktiviteten enligt beskrivningen i avsnittet [Redigera en malluppgift med den gamla funktionen](#edit-a-template-task-using-the-old-experience) i den här artikeln.</span>
 
 ### Redigera en malluppgift med den gamla funktionen
 
@@ -438,8 +441,6 @@ Formulären läggs automatiskt till i de uppgifter som skapas från mallen.
 1. Klicka på **Spara ändringar**.
 
    När du eller någon annan användare skapar ett projekt från den här mallen används alla inställningar som du har tillämpat på malluppgifter som inställningar för projektuppgifterna.
-
-<div class="preview">
 
 ### Redigera en malluppgift med den nya funktionen
 
@@ -767,4 +768,3 @@ Formulären läggs automatiskt till i de uppgifter som skapas från mallen.
 
    När du eller någon annan användare skapar ett projekt från den här mallen används alla inställningar som du har tillämpat på malluppgifter som inställningar för projektuppgifterna.
 
-</div>
