@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 90d472307ffb6b524154696b4c14d725db44b079
 workflow-type: tm+mt
-source-wordcount: '2764'
+source-wordcount: '2838'
 ht-degree: 0%
 
 ---
@@ -85,8 +85,11 @@ Ett exempel på hur du ansluter posttyper och poster finns i [Exempel på att an
 <td> 
    <p> Ytterligare produkter</p> </td> 
    <td> 
-   <p> Förutom Adobe Workfront måste du ha en Adobe Experience Manager Assets-licens och en integrering mellan AEM Assets och Workfront för att kunna koppla AEM-material till posttyperna Planning.<p>
-    Mer information finns i <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront för Experience Manager Assets och Assets Essentials: artikelindex</a>. </p>
+   <p> Förutom Adobe Workfront måste du ha följande om du vill koppla posttyper till objekt från följande program:</p>
+   <ul><li><p>En Adobe Experience Manager Assets-licens och en integrering mellan AEM Assets och Workfront för att koppla AEM-material till posttyperna Planning.</p>
+   <p>Mer information finns i <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront för Experience Manager Assets och Assets Essentials: artikelindex</a>. </p></li>
+   <li><p> En Adobe GenStudio for Performance Marketing-licens för att koppla posttyper till GenStudio Brands</p>
+   <p>Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Kom igång med Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -225,6 +228,10 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
      En ny anslutningsflik öppnas för den valda posten eller objekttypen.
 
+   * Ett **varumärke** från Adobe GenStudio for Performance Marketing i avsnittet **Adobe GenStudio**
+
+     ![Val av GenStudio Brand-anslutning](assets/brand-genstudio-connection-selection.png)
+
 1. Uppdatera fältet **Namn** med namnet på det nya anslutna fältet, så som det kommer att visas i tabellvyn eller postsidan för den ursprungliga posttypen. Då skapas den kopplade postkolumnen (eller fältet) i tabellvyn med den ursprungliga posttypen. Som standard är namnet på fältet namnet på den post eller det objekt som du ansluter till.
 
    >[!TIP]
@@ -232,7 +239,7 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
    >Du kan ha flera anslutningar till samma post eller objekttyp. Om du inte redigerar namnet på det anslutna fältet lägger Workfront till en siffra efter namnet på den anslutna posten för att ange antalet anslutna posttyper med samma namn.
 
 1. Uppdatera fältet **Beskrivning** genom att lägga till information om det anslutna postfältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumn i en tabell.
-1. (Villkorligt) När du ansluter posttyper från två olika arbetsytor eller en post och ett Adobe Experience Manager-resursobjekt väljer du **Tillåt flera poster**. Genom att markera den anger du att du tillåter användare att lägga till flera poster när fältet för kopplad posttyp visas på de ursprungliga posterna. Detta är markerat som standard.
+1. (Villkorligt) När du ansluter posttyper från två olika arbetsytor, en posttyp och ett Adobe Experience Manager-resursobjekt, eller en posttyp och ett GenStudio-märke, väljer du **Tillåt flera poster**. Genom att markera den anger du att du tillåter användare att lägga till flera poster när fältet för kopplad posttyp visas på de ursprungliga posterna. Detta är markerat som standard.
 
    ![Ny anslutning för posttyp från en annan arbetsyta](assets/new-connection-allow-multiple-records-box.png)
 
@@ -271,10 +278,10 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
    >[!NOTE]
    >
-   >Workfront-administratören kan mappa Workfront Planning-fält till Experience Manager Assets-fält via metadatamappningen i Workfront. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >Workfront-administratören kan mappa Workfront Planning-fält till Experience Manager Assets-fält via metadatamappningen i Workfront. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
-1. (Villkorligt) När du väljer att ansluta till Experience Manager Assets eller till en posttyp för Workfront Planning väljer du något av följande alternativ i området **Postutseende**:
+1. (Villkorligt) När du väljer att ansluta till Experience Manager Assets, till en post av typen Workfront Planning eller till ett GenStudio-märke, väljer du något av följande alternativ i området **Postutseende**:
 
    * **Namn och bild**: Både namnet och miniatyrbilden eller ikonen för de anslutna posterna visas i det anslutna postfältet. Det här är standardalternativet.
    * **Namn**: Endast namnet på de anslutna posterna visas i det anslutna postfältet.
@@ -349,7 +356,10 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
    >[!NOTE]
    >
-   > Aggregatorer är inte tillgängliga när du ansluter posttyper till Experience Manager Assets.
+   > Aggregatorer är inte tillgängliga när posttyper ansluts till följande:
+   >* Experience Manager Assets
+   >* GenStudio Brands.
+   >
 
    Välj bland följande:
 
@@ -375,7 +385,7 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
    >* **UNIQUE**: $100 000
    >
 
-1. (Valfritt) Använd ikonen **sök** ![Sök &#x200B;](assets/search-icon.png) för att söka efter ett fält.
+1. (Valfritt) Använd ikonen **sök** ![Sök ](assets/search-icon.png) för att söka efter ett fält.
 
 1. Klicka på **Lägg till fält** för att spara ändringarna.
 

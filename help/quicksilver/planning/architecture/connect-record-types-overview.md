@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 90d472307ffb6b524154696b4c14d725db44b079
 workflow-type: tm+mt
-source-wordcount: '1973'
+source-wordcount: '2020'
 ht-degree: 0%
 
 ---
@@ -64,11 +64,17 @@ Tänk på följande när det gäller att ansluta posttyper:
       * Bilder
       * Mappar
 
+   * Adobe GenStudio for Performance Marketing
+
+      * Varumärken
+
      >[!IMPORTANT]
      >
-     >Du måste ha en Adobe Experience Manager Assets-licens och din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console för att kunna ansluta Workfront Planning-poster till Adobe Experience Manager Assets.
-     >
-     >Om du har frågor om introduktion till Adobe Admin Console kan du läsa [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+     >Du måste ha följande för att kunna kontakta Adobe Experience Manager Assets och GenStudio varumärken:
+     >* En Adobe Experience Manager Assets-licens
+     >* En Adobe GenStudio for Performance Marketing-licens
+     >* Din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console för att kunna ansluta Workfront Planning-poster till Adobe Experience Manager Assets.
+     >Mer information om Adobe Admin Console finns i [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 * När du har skapat poster för posttyper kan du länka dem till varandra via det anslutna postfältet.
 
@@ -93,7 +99,8 @@ Tänk på följande när det gäller att ansluta posttyper:
       * Planeringspostfält är inte tillgängliga från Workfront-objekt.
       * Planeringsposter visas på Workfront-objektets planeringflik. Mer information finns i [Hantera postanslutningar från Workfront-objekt](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
       * Du kan skapa ett anpassat fält för planeringsanslutning och koppla det till ett Workfront-objekts anpassade formulär. Mer information finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-      * Du kan planera postfält från Experience Manager-resurser när Workfront-administratören konfigurerar metadatamappningen genom integrationen mellan Workfront och Adobe Experience Manager Assets. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+      * Du kan planera postfält från Experience Manager-resurser när Workfront-administratören konfigurerar metadatamappningen genom integrationen mellan Workfront och Adobe Experience Manager Assets. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+      * Det går inte att komma åt planeringspostfält från varumärken i GenStudio for Performance Marketing.
 
 
    * **När du lägger till uppslagsfält från posten eller objektet som du ansluter till**: Förutom att skapa ett länkat postfält kan du även ansluta till fält från den anslutna posten eller objekttypen som kallas uppslagsfält. Ett länkat (eller sökfält) med information från den post som du ansluter till visas på den post som du ansluter från.
@@ -127,11 +134,13 @@ När du har upprättat en anslutning mellan två posttyper eller mellan en post 
 
 >[!WARNING]
 >
->Dessa alternativ är inte tillgängliga vid anslutning av följande:
+>Alternativen som beskrivs i det här avsnittet är inte tillgängliga vid anslutning av följande:
 >
 >* Två poster från olika arbetsytor
 >
 >* En posttyp och Experience Manager-resurser
+>
+>* En posttyp och ett Adobe GenStudio-märke
 
 Du kan välja om du vill koppla en post till flera poster åt gången eller en post åt gången till varandra.
 

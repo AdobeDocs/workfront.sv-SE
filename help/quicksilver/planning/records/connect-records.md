@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 90d472307ffb6b524154696b4c14d725db44b079
 workflow-type: tm+mt
-source-wordcount: '3319'
+source-wordcount: '3359'
 ht-degree: 0%
 
 ---
@@ -84,8 +84,11 @@ Du kan ansluta följande:
 <td> 
    <p> Ytterligare produkter</p> </td> 
    <td> 
-    <p>Förutom Adobe Workfront måste du ha en Adobe Experience Manager Assets-licens och en integrering mellan AEM Assets och Workfront för att kunna koppla AEM-material till Planning Record.</p>
-    <p>Mer information finns i <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront för Experience Manager Assets och Assets Essentials: artikelindex</a>. </p>
+   <p> Förutom Adobe Workfront måste du ha följande om du vill koppla poster till objekt från följande program:</p>
+   <ul><li><p>En Adobe Experience Manager Assets-licens och en integrering mellan AEM Assets och Workfront för att koppla ihop AEM-material med Planning-typer.</p>
+   <p>Mer information finns i <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront för Experience Manager Assets och Assets Essentials: artikelindex</a>. </p></li>
+   <li><p> En Adobe GenStudio for Performance Marketing-licens för att koppla posttyper till GenStudio Brands</p>
+   <p>Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Kom igång med Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>   
 <tr> 
@@ -389,7 +392,7 @@ När du har skapat en anslutning mellan en posttyp och Adobe Experience Manager 
 
 >[!NOTE]
 >
->Planeringsposter och deras fält är tillgängliga från Experience Manager Assets när Workfront-administratören konfigurerar metadatamappningen genom integrationen mellan Workfront och Adobe Experience Manager Assets. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+>Planeringsposter och deras fält är tillgängliga från Experience Manager Assets när Workfront-administratören konfigurerar metadatamappningen genom integrationen mellan Workfront och Adobe Experience Manager Assets. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 Så här ansluter du poster med Experience Manager-resurser:
 
@@ -454,7 +457,7 @@ Så här ansluter du poster med Experience Manager-resurser:
    * Skapad den
    * Ändrat den
 
-1. (Valfritt) Om du vill öppna Experience Manager resurspostsida i Experience Manager går du till posttypssidan för den post du länkar från, klickar på namnet på en resurs i det länkade postfältet för att öppna popup-fönstret och klickar sedan på ikonen **Öppna i AEM** ![Öppna resurs i AEM-ikon &#x200B;](assets/open-asset-icon.png) för att öppna resursen.
+1. (Valfritt) Om du vill öppna Experience Manager resurspostsida i Experience Manager går du till posttypssidan för den post du länkar från, klickar på namnet på en resurs i det länkade postfältet för att öppna popup-fönstret och klickar sedan på ikonen **Öppna i AEM** ![Öppna resurs i AEM-ikon ](assets/open-asset-icon.png) för att öppna resursen.
 
    Då öppnas Experience Manager-resursen i Adobe Experience Manager Assets.
 
