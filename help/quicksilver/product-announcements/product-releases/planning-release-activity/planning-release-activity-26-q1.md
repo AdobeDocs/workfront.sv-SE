@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 3ba6468327ca390ddc75ff1c18440283daa6eee4
+source-git-commit: 21cab3964ffd79b4b58835fcb992f59eefee78ee
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,18 @@ I den här artikeln beskrivs funktionerna som lanseras för Workfront Planning i
 <!--keep the sentence below for all future quarterly release pages-->
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning finns i [Versionsaktivitet för Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Koppla samman GenStudio for Performance Marketing-varumärken med posttyperna Workfront Planning
+
+>[!NOTE]
+>
+>Förhandsgranska: 13 november 2025
+>Production fast release: 13 november 2025
+>Produktion för alla: 13 november 2026
+
+Nu kan du koppla posttyper för Workfront Planning till varumärken från Adobe GenStudio for Performance Marketing. Organisationen måste ha både Workfront Planning och Adobe GenStudio for Performance Marketing.
+
+Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 
 ## Ny fältsökruta i ikonerna för filter, fält och radfärger i planeringsvyn

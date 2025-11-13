@@ -4,9 +4,9 @@ description: Förbättringar av första kvartalet 2026 för administratörer
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4ff9f69c3b71b7b9d161684d8f4af13e577106c7
+source-git-commit: f6b46a3c9d3ad792fd55309a5aaf5e23a83e233d
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -17,18 +17,29 @@ Den här sidan beskriver administratörsförbättringar som gjorts i första utg
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den första utgåvan av kvartal 2026 finns i [Översikt över utgåvan första kvartalet 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+## Anmälningsdatum och Anges av ID som lagras på anpassade objekt
+
+>[!NOTE]
+>
+>Förhandsgranska: 13 november 2025
+>Production fast release: 13 november 2025
+>Produktion för alla: 13 november 2025
+
+Anmälningsdatumet och det angivna ID:t lagras nu i anpassade formulär, fält och avsnitt. Du kan använda dessa dataalternativ i rapporter som filter, vyer eller grupperingar. Om du vill visa dem i listan med anpassade formulär, fält eller avsnitt i installationsprogrammet lägger du till anmälningsdatum och anges av: Namnge som kolumner i en ny eller befintlig vy.
+
 
 ## Uppdateringar av knappnamn vid redigering av en layoutmall
 
 >[!NOTE]
 >
 >Förhandsgranska: 30 oktober 2025
->&#x200B;>Production fast release: 13 november 2025
->&#x200B;>Produktion för alla: 15 januari 2026
+>Production fast release: 13 november 2025
+>Produktion för alla: 15 januari 2026
 
 För att skapa större enhetlighet med andra områden i installationsprogrammet, t.ex. den anpassade formulärdesignern, har knapparna som visas när du redigerar en layoutmall ändrats till **Använd**, **Spara och stäng** och **Avbryt**. Med det nya alternativet **Använd** kan du spara ändringarna i layoutmallen och fortsätta redigera. Tidigare var de tillgängliga alternativen **Spara** och **Avbryt**.
 
 Mer information finns i [Skapa och hantera layoutmallar](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+
 
 
 ## Förbättrad fälthantering med aktiv flagga i anpassade fält
@@ -36,8 +47,8 @@ Mer information finns i [Skapa och hantera layoutmallar](/help/quicksilver/admin
 >[!NOTE]
 >
 >Förhandsgranska: 30 oktober 2025
->&#x200B;>Production fast release: 13 november 2025
->&#x200B;>Produktion för alla: 15 januari 2026
+>Production fast release: 13 november 2025
+>Produktion för alla: 15 januari 2026
 
 När du har ett stort antal anpassade fält i systemet kan det vara svårt att hantera dessa fält i anpassade formulär och rapporter. Du kan nu markera anpassade fält som inaktiva med den nya flaggan **Aktiv**. Den här flaggan är tillgänglig när du arbetar med ett fält i ett anpassat formulär eller när du lägger till eller redigerar ett fält från fältlistan.
 

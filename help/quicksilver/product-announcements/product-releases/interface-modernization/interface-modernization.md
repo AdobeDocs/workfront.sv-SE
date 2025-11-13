@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 829b3d343286b63922614b3855f9227667ad57a4
+source-git-commit: f22f00417cd0bfbe53cfee513e8be95a8719f785
 workflow-type: tm+mt
-source-wordcount: '9336'
+source-wordcount: '9416'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,23 @@ På den här sidan listas de gränssnittsuppdateringar vi gör i hela Adobe Work
 Alla andra ändringar av Adobe Workfront finns i [Produktreleaser](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administratör och installation
+
+### Uppdateringar i dialogrutan när ett objekt som används tas bort
+
+**Förhandsversion: 13 november 2025; Produktionsversion: 20 november 2025**
+
+Följande objekt får nu en uppdaterad dialogruta när du tar bort ett objekt som används:
+
+* Åtkomstnivåer
+* Företag
+* Utgiftstyp
+* Grupp-/tidrapportprofiler
+* Timtyp
+* Risktyp
+* Schema
+* Tidrapportprofil
+
+Den nya dialogrutan överensstämmer nu med andra delar av Workfront. Funktionaliteten ändras inte.
 
 ### Gränssnittsuppdateringar för dialogrutorna Lägg till och redigera företag
 
@@ -131,9 +148,8 @@ Mer information finns i [Skapa och redigera risker i projekt](/help/quicksilver/
 
 ### Gränssnittsuppdateringar för ledig tid
 
-**Förhandsversion: 23 oktober 2025; Produktionsrelease för alla kunder: Från och med 30 oktober 2025**
+**Förhandsversion: 23 oktober 2025; Produktionsrelease för alla kunder: Från och med 13 november 2025**
 
-<!--This feature was in Preview and Prod starting on Sept 25 and it was removed on Oct 9. It was released to Preview again on Oct 23 and Prod rollout started Oct 30. Then it was removed from Prod again on Nov 4. -->
 
 >[!NOTE]
 >
@@ -143,7 +159,7 @@ Vi har uppdaterat utseendet och känslan av den personliga kalendertiden, inklus
 
 Om du vill visa de här ändringarna går du till din användarprofil och klickar på **Tid av** i den vänstra panelen.
 
-Mer information finns i [Konfigurera personlig tid för &#x200B;](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) och [Delegera godkännandebegäran](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+Mer information finns i [Konfigurera personlig tid för ](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) och [Delegera godkännandebegäran](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 ## Gränssnittsuppdateringar gjorda under Q4
 
@@ -476,7 +492,7 @@ Mer information finns i [Skapa köämnen](/help/quicksilver/manage-work/requests
 
 >[!NOTE]
 >
->Den här funktionen har tillfälligt tagits bort från förhandsgransknings- och produktionsmiljöerna den 15 oktober 2025.
+>Den här funktionen togs tillfälligt bort från både förhandsgranskning och produktion den 15 oktober. Det finns i Preview och finns i Production i en fasad lansering som börjar den 13 november 2025.
 
 Vi har uppdaterat dialogrutan för att redigera en projektutgift så att den matchar andra delar av programmet. Den uppdaterade dialogrutan är tillgänglig när du redigerar utgifter i projekt eller mallar.
 
@@ -653,7 +669,7 @@ Vi har uppdaterat utseendet och känslan av den personliga kalendertiden, inklus
 
 Om du vill visa de här ändringarna går du till din användarprofil och klickar på **Tid av** i den vänstra panelen.
 
-Mer information finns i [Konfigurera personlig tid för &#x200B;](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) och [Delegera godkännandebegäran](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+Mer information finns i [Konfigurera personlig tid för ](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) och [Delegera godkännandebegäran](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 ### Gränssnittsuppdateringar för dialogrutan Ny användare
 
