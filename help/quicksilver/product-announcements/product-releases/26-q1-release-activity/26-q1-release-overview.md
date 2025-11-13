@@ -4,9 +4,9 @@ description: Den här sidan innehåller information om de funktioner som ingår 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b0fb8f0ca72800c2befe4f1f8194be17c4f75c95
+source-git-commit: 00483638948941c933e5f8bc8cb3edaf8e43fea1
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1680'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 * [Administratörsförbättringar](#administrator-enhancements)
 * [Förbättringar av dokument och godkännanden](#documents-and-approvals-enhancements)
+* [Integration enhancements](#integration-enhancements)
+* [Rapportförbättringar](#reporting-enhancements)
 * [Andra förbättringar](#other-enhancements)
 
 ### Administratörsförbättringar
@@ -137,6 +139,69 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
+### Rapportförbättringar
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Funktion</strong>
+        </td>
+        <td><strong>Förhandsgranska</strong></td>
+        <td><strong>Snabb release</strong></td>
+        <td><strong>kvartalsvis</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplicera en rapport på en arbetsytans kontrollpanel</a><p>![BADGE Off schedule]{type=Neutral}</p>
+            <p>Du kan nu duplicera en KPI-, tabell- eller diagramrapport på en Canvas Dashboard när den har skapats. När du har duplicerat rapporten kan du redigera den efter behov innan du sparar den.</p>
+        </td>
+        <td>23 oktober 2025</td>
+        <td>23 oktober 2025</td>
+        <td>23 oktober 2025</td>
+    </tr>   
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Tar bort fältalternativ från rapportfilter</a>
+            <p>Vi har tagit bort följande fältalternativ som tidigare var tillgängliga när ett filter tillämpades på en rapport:
+            <ul>
+            <li>Andra grupp-ID</li>
+            <li>Andra roller-ID</li>
+            <li>Andra team-ID</li>
+            </ul>
+            </p>
+        </td>
+        <td>6 november 2025</td>
+        <td>13 november 2025</td>
+        <td>15 januari 2026</td>
+    </tr>   
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Förbättrad visning av antalet grupperingar på arbetsytans kontrollpaneler</a>
+            <p>När en tabellrapport har flera resultatsidor och tabellen är konfigurerad med grupperingar, visar nu tabellen både postmängden för den aktuella sidan och det totala antalet poster för alla sidor. Om tabellrapporten till exempel har 7 grupperingar och den första sidan visar 3, visas 3 av 7.</p>
+        </td>
+       <td>6 november 2025</td>
+        <td>13 november 2025</td>
+        <td>15 januari 2026</td>
+    </tr>   
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Nya skyddsytor som förbättrar inläsningstiden på arbetsytans kontrollpaneler</a>
+            <p>För att undvika tidsfördröjningar vid inläsning och förbättra övergripande prestanda på arbetsytans kontrollpaneler har vi tillämpat begränsningar för hur många kontrollpanelskomponenter som kan läggas till på en kontrollpanel:
+            <ul>
+            <li>Rapporter per kontrollpanel: 25 gräns</li>
+            <li>Grupperingar i tabellvyer: 5 gräns</li>
+            <li>Avstånd från rapportens basobjekt: 10-gräns</li>
+            <li>Kolumner i en tabellvy: 25 gräns</li>
+            <li>Filteruppmaningar på kontrollpanelnivå: 10 gräns</li>
+            </ul></p>
+        </td>
+       <td>6 november 2025</td>
+        <td>13 november 2025</td>
+        <td>15 januari 2026</td>
+    </tr>   
+  </tbody>
+</table>
+
 ### Andra förbättringar
 
 <table>
@@ -192,7 +257,7 @@ Vi uppdaterar gränssnittet i hela Adobe Workfront för att förbättra använda
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Förbättringar av Workfront Planning
 
@@ -255,13 +320,13 @@ För att kunna leverera mer stabila och skalbara integreringar går vi över til
 * Workfront för Salesforce.
 
 Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Google Workspace.
-En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Underhållsuppdateringar för Workfront
 
-Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=sv-SE).
+Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan &#x200B;](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=sv-SE).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
