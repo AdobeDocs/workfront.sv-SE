@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 6fb64986260842c419c61fe386e9ccf1a0da8f14
+source-git-commit: 5d7cc28ebb1c7d7401a60ef4fc383fc90ed20631
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1505'
 ht-degree: 0%
 
 ---
@@ -146,6 +146,18 @@ Så här lägger du till eller redigerar ett företag:
    eller
 
    Om du redigerar ett befintligt företag klickar du på **[!UICONTROL Save Changes]** <span class="preview">eller **Spara**.</span>
+
+## Ta bort företag
+
+{{step-1-to-setup}}
+
+1. Klicka på **[!UICONTROL Companies]**.
+
+   En lista över företag visas.
+
+1. Klicka i kryssrutan bredvid det företag du vill ta bort och klicka sedan på ikonen Ta bort ![ikonen Ta bort](assets/delete-icon.png) i den övre delen av sidan.
+1. Om du tar bort ett företag som har angetts som primärt företag eller som används i ett annat objekt, väljer du ett företag som ska ersätta det du håller på att ta bort. Det företag du väljer blir det primära företaget eller ersätter det borttagna företaget på de objekt som företaget är tilldelat.
+1. Klicka på **Ta bort**.
 
 ## Hantera företagsmedlemskap
 

@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 5d7cc28ebb1c7d7401a60ef4fc383fc90ed20631
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -90,6 +90,10 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
    >Om du har administrativ åtkomst till företag på din åtkomstnivå kan du även klicka på Lägg till fler företag längst ned i listan. Då läggs en rad till där du snabbt kan konfigurera det nya företaget.
 
 1. (Valfritt) Om du vill redigera eller ta bort företag markerar du minst ett företag och använder sedan verktygsfältsknapparna för att redigera ![redigeringsikonen](assets/edit-icon.png) eller tar bort ![ikonen Ta bort](assets/delete.png) den.
+
+   >[!NOTE]
+   >
+   >Om du tar bort ett företag och företaget har angetts som primärt företag eller används i ett annat objekt uppmanas du att välja ett annat företag att ersätta det du håller på att ta bort. Det företag du väljer blir det primära företaget eller ersätter det borttagna företaget på de objekt som företaget är tilldelat.
 
    Mer information om hur du redigerar ett företag finns i avsnittet [Skapa eller redigera ett företag i Workfront](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront) i artikeln [Skapa och redigera företag](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
