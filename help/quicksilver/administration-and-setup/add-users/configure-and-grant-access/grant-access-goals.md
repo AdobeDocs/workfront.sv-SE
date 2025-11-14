@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8639da14-d545-4f9a-894b-12c29699b0db
-source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -30,29 +30,49 @@ Du måste ha följande för att ge användare åtkomst till Workfront-mål:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront</td> 
-   <td> <p>Pro eller högre</p> </td> 
+   <td role="rowheader">Workfront package</td> 
+   <td> <p>Workfront eller Workflow Ultimate</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td><p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Produkt</td> 
-   <td>Workfront-mål <p>Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront Goals-licens. </p> <p>Workfront Goals finns endast i den nya Adobe Workfront-upplevelsen.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Åtkomstnivåkonfiguration*</td> 
-   <td> <p>Du måste ha åtkomstnivån Systemadministratör.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Åtkomstnivåkonfiguration</td> 
+   <td> <p>Du måste ha åtkomstnivån Systemadministratör.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomstnivå du har.
-
-Mer information om åtkomst till Workfront-mål finns i [Krav för att använda Workfront-mål](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Workfront plan</td> 
+   <td> <p>Pro or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td>Plan</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>Workfront Goals <p>Contact your Workfront account manager to learn about a Workfront Goals license. </p> <p>Workfront Goals is available only in the new Adobe Workfront experience.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configuration*</td> 
+   <td> <p>You must have the System Administrator access level.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Ge användare åtkomst till Workfront-mål med en anpassad åtkomstnivå
 
@@ -69,4 +89,9 @@ Mer information om åtkomst till Workfront-mål finns i [Krav för att använda 
 
 ## Tillgång till Workfront-mål per licenstyp
 
-En Workfront-administratör kan använda en åtkomstnivå för att bevilja åtkomst till Workfront-mål för användare med en plan-, arbets-, begärande- eller granskningslicens.
+En Workfront-administratör kan använda en åtkomstnivå för att bevilja åtkomst till Workfront-mål för användare med följande licenser:
+
+* Standard, Light, Contributor
+* Planera, Arbeta, Begär eller Granska licens.
+
+Mer information om åtkomst till Workfront-mål finns i [Krav för att använda Workfront-mål](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).

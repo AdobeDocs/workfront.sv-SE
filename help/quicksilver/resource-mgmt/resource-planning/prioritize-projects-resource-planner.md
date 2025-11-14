@@ -6,9 +6,9 @@ description: Projekt listas i prioritetsordning i resursplaneraren med det vikti
 author: Lisa
 feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
@@ -105,9 +105,9 @@ Så här redigerar du projektplaneringsprioriteten:
 
 >[!IMPORTANT]
 >
->Företaget måste ha en Business-plan eller en senare Workfront-plan för att kunna prioritera projekt i Portfolio Optimizer.
+>Företaget måste ha ett Prime-paket eller ett högre Workfront-paket för att kunna prioritera projekt i Portfolio Optimizer.
 >
->Mer information om Workfront-planer finns i [Våra planer](https://business.adobe.com/se/products/workfront/pricing.html).
+>Mer information om Workfront-paket finns i [Adobe Workfront-paket och priser](https://business.adobe.com/products/workfront/pricing.html).
 >
 >Mer information om hur du prioriterar projekt i Portfolio Optimizer finns i [Prioritera projekt i Portfolio Optimizer](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 

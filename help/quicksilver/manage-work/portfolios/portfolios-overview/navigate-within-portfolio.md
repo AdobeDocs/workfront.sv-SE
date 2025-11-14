@@ -6,9 +6,9 @@ description: Navigera i en portfölj
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -141,10 +141,8 @@ Mer information om program finns i avsnittet [Skapa och hantera program](../../.
 
    >[!IMPORTANT]
    >
-   >Ditt företag måste ha följande paket för att få tillgång till [!UICONTROL Portfolio Optimizer]:
+   >Ditt företag måste ha ett [!UICONTROL Prime]-paket eller ett högre [!DNL Workfront]-paket för att få åtkomst till [!UICONTROL Portfolio Optimizer].
    >
-   >[!UICONTROL Prime] eller senare [!DNL Workfront]\
-   >[!UICONTROL Business] eller senare [!DNL Workfront]
 
    Mer information om hur du använder Portfolio Optimizer finns i avsnittet [Hantera projekt i Portfolio Optimizer: artikelindex](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md).
 
@@ -161,4 +159,4 @@ Mer information om program finns i avsnittet [Skapa och hantera program](../../.
 
    * Dela portföljen med andra användare.
 
-1. (Valfritt) Klicka på ikonen **Stjärna** ![Stjärna &#x200B;](assets/qs-star-icon-favorites-39x38.png) till höger om portföljnamnet för att lägga till portföljen i din favoritlista.
+1. (Valfritt) Klicka på ikonen **Stjärna** ![Stjärna ](assets/qs-star-icon-favorites-39x38.png) till höger om portföljnamnet för att lägga till portföljen i din favoritlista.

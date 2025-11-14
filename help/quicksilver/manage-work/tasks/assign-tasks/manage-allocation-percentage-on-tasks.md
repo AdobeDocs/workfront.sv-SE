@@ -6,9 +6,9 @@ description: Allokeringsprocenten representerar den tid en tilldelad resurs är 
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,9 @@ Du kan ändra allokeringsprocenten när du gör avancerade tilldelningar för en
   <tr> 
    <td>Objektbehörigheter</td>
    <td><p>Contribute eller högre behörigheter för aktiviteten</p>
-   <p>Redigera behörigheter för att uppdatera allokeringsprocenten i rutan Redigera uppgift när du redigerar uppgifter med den gamla versionen. Du kan inte längre hantera allokeringsprocenten i rutan Redigera när du redigerar uppgifter i den nya upplevelsen.</p> <p>Mer information finns i <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Redigera uppgifter</a>.</p></td>
+   <p>Redigera behörigheter för att uppdatera allokeringsprocenten i rutan Redigera uppgift när du redigerar uppgifter med den gamla versionen.</p>
+   <p><b>ANMÄRKNING</b></p>
+   <p> Du kan inte längre hantera allokeringsprocenten i rutan Redigera när du redigerar uppgifter i den nya upplevelsen.</p> <p>Mer information finns i <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Redigera uppgifter</a>.</p></td>
   </tr>
  </tbody>
 </table>

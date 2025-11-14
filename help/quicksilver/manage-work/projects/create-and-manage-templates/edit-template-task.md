@@ -7,7 +7,7 @@ description: När du har skapat en mall kan du redigera information om malluppgi
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
 source-wordcount: '4633'
 ht-degree: 0%
@@ -118,7 +118,7 @@ Du kan redigera en malluppgift med området Redigera malluppgift eller Malluppgi
    1. (Valfritt) Klicka på **Dokument** i den vänstra panelen för att lägga till dokument i mallåtgärden. Dokumenten överförs till projektuppgifterna när du använder mallen för att skapa projektet.
    1. (Villkorligt) Om du vill redigera begränsad information om en malluppgift klickar du på **Information om malluppgift** i den vänstra panelen. Gå sedan till områdena i detaljavsnittet för att redigera information för varje område.
    1. (Valfritt) Gör något av följande:
-      * Klicka på ikonen **Komprimera alla** ![Komprimera alla &#x200B;](assets/collapse-all-icon.png) om du vill komprimera alla områden.
+      * Klicka på ikonen **Komprimera alla** ![Komprimera alla ](assets/collapse-all-icon.png) om du vill komprimera alla områden.
       * Klicka på ikonen **Redigera** ![Redigera](assets/edit-icon.png) och välj sedan något av områdena nedan. Du kan också klicka på **Redigera alla** om du vill redigera information i alla områden:
 
          * Översikt
@@ -382,14 +382,14 @@ Namnen på tullformulär visas bara om det finns anpassade formulär kopplade ti
 
 1. Klicka på **Lägg till tilldelad** för att lägga till en ny tilldelad till malluppgiften. Du kan tilldela användare, roller eller team till en uppgift. Du kan ha flera tilldelningar för en uppgift. De framtida aktiviteterna tilldelas samma resurser när de skapas från den här malluppgiften.
 1. (Valfritt) Om du har flera tilldelningar markerar du alternativknappen **Ägare** för att ange vilken användare eller roll som betraktas som aktivitetsägare eller primär tilldelad. Workfront markerar den första användaren eller jobbrollen som du tilldelar en malluppgift som ägare eller primär tilldelad.
-1. (Villkorligt och valfritt) Om aktivitetsbegränsningen är Beräknad arbets- eller insatsstyrd anger du **Allokering %** (allokeringsprocent) för varje tilldelad. Det här är den tid från schemat för den tilldelande personen som de kan lägga på den här aktiviteten. Om du ändrar allokeringsprocenten för en tilldelad ändrar du planerad tid för en uppgift.
-1. (Villkorligt och valfritt) Om uppgiftsbegränsningen är enkel anger du **Timmar** för varje tilldelad
+1. (Villkorligt och valfritt) Om **Varaktighetstypen** är **Beräknat arbete** eller **Ansträngningsstyrt** anger du **Allokering %** (allokeringsprocent) för varje tilldelad. Det här är den tid från schemat för den tilldelande personen som de kan lägga på den här aktiviteten. Om du ändrar allokeringsprocenten för en tilldelad ändrar du planerad tid för en uppgift.
+1. (Villkorligt och valfritt) Om **Varaktighetstypen** är **Enkel** anger du **Timmar** för varje tilldelad
 
    eller
 
    Ange det totala antalet **Planerade timmar** för mallaktiviteten. Detta fördelar de totala timmarna jämnt mellan alla tilldelningar.
 
-1. (Villkorligt och valfritt) Om aktivitetsbegränsningen är enkel anger du **Varaktighet** för mallaktiviteten i dagar. Detta blir varaktigheten för den uppgift som skapas från den här mallen.
+1. (Villkorligt och valfritt) Om **Varaktighetstypen** är Enkel anger du **Varaktighet** för mallaktiviteten i dagar. Detta blir varaktigheten för den uppgift som skapas från den här mallen.
 1. (Valfritt) Välj en roll i listrutan **Tilldelningens roll**. Det är den roll som den som tilldelas kan utföra den här framtida uppgiften. Endast de jobbroller som är kopplade till varje tilldelad i deras profil visas i listrutan.
 1. (Valfritt) Fortsätt redigera följande avsnitt, beroende på vilken information du vill ändra.
 
@@ -570,7 +570,7 @@ När du har öppnat rutan **Redigera malluppgift** i den nya versionen bör du �
 
    ![Redigera tilldelningar för malluppgift](assets/template-task-edit-assignments.png)
 
-1. I fältet Sök efter personer, roller eller team börjar du skriva namnet på en tilldelad och markerar det sedan när det visas i listan
+1. I fältet **Sök efter personer, roller eller team** börjar du skriva namnet på en tilldelad och markerar den när den visas i listan
 
    eller
 

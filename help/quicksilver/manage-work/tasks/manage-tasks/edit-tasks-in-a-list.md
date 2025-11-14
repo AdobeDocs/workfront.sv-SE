@@ -6,7 +6,7 @@ description: Du kan redigera uppgiftsinformation i en lista med uppgifter genom 
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
 source-wordcount: '2851'
 ht-degree: 0%
@@ -124,9 +124,9 @@ Tänk på följande när du redigerar uppgifter i en lista:
 
   Du kan välja mellan att Workfront sparar de ändringar du gör på följande sätt:
 
-      * Efter varje ändring automatiskt 
-     * Endast manuellt efter att du klickat på Spara.
-  
+   * Automatiskt, efter varje ändring
+   * Manuellt, först när du har klickat på Spara.
+
   Mer information om hur du konfigurerar när Workfront sparar ändringar som du gör i uppgifter i en lista finns i avsnittet [Ändra planläge innan du redigerar uppgifter i en lista](#modify-plan-mode-before-editing-tasks-in-a-list) i den här artikeln.
 
 * Andra användare måste uppdatera sina sidor innan de kan visa de uppdateringar du gör för en uppgift.
@@ -294,9 +294,9 @@ Så här redigerar du uppgifter i en lista när du väljer alternativet Spara st
 
 1. Tryck på **Enter** (Windows) eller **Return** (Mac) på tangentbordet om du vill spara ändringarna tillfälligt.
 
-1. (Valfritt) Klicka på ikonen **Ångra** ![Ångra &#x200B;](assets/undo-icon-on-task-list.png) om du vill ångra en ändring och återställa ett fält till det ursprungliga läget.
+1. (Valfritt) Klicka på ikonen **Ångra** ![Ångra ](assets/undo-icon-on-task-list.png) om du vill ångra en ändring och återställa ett fält till det ursprungliga läget.
 
-1. (Valfritt och villkorligt) Klicka på ikonen **Gör om** ![Gör om &#x200B;](assets/redo-icon-on-task-list.png) för att återställa den ändring du ångrat.
+1. (Valfritt och villkorligt) Klicka på ikonen **Gör om** ![Gör om ](assets/redo-icon-on-task-list.png) för att återställa den ändring du ångrat.
 
 1. (Valfritt) Högerklicka på en uppgift som du vill ändra.
 
@@ -403,8 +403,8 @@ Så här redigerar du uppgifter i en lista när du använder alternativet Spara 
 1. Redigera fält som du har behörighet att uppdatera manuellt.
 
 1. Tryck på **Enter** (Windows) eller **Return** (Mac) på tangentbordet om du vill spara ändringarna tillfälligt.
-1. (Valfritt) Klicka på ikonen **Ångra** ![Ångra &#x200B;](assets/undo-icon-on-task-list.png) om du vill ångra en ändring och återställa ett fält till det ursprungliga läget.
-1. (Valfritt och villkorligt) Klicka på ikonen **Gör om** ![Gör om &#x200B;](assets/redo-icon-on-task-list.png) för att återskapa den ändring du ångrat.
+1. (Valfritt) Klicka på ikonen **Ångra** ![Ångra ](assets/undo-icon-on-task-list.png) om du vill ångra en ändring och återställa ett fält till det ursprungliga läget.
+1. (Valfritt och villkorligt) Klicka på ikonen **Gör om** ![Gör om ](assets/redo-icon-on-task-list.png) för att återskapa den ändring du ångrat.
 
 1. (Valfritt) Högerklicka på en uppgift som du vill ändra.
 

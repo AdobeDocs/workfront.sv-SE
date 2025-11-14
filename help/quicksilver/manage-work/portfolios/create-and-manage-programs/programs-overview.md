@@ -7,9 +7,9 @@ description: Ett program är en samling projekt som har enhetliga egenskaper. De
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1c64fe00-12e3-49f6-b864-b8f89ed9140d
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Du måste ha följande åtkomst för att skapa och hantera portföljer:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> <p>Alla</p>
-   <p>[!UICONTROL Business] eller högre</p> </td> 
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licens</td> 

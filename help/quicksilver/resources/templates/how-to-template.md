@@ -2,9 +2,9 @@
 title: [Aktivitetsrubrik]
 description: [Aktivitetsrubrik]
 draft: Probably
-source-git-commit: 32bf4cccee672b84e7c3e5b188a71979c0ac241e
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: 149
+source-wordcount: 144
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>[Alla, Pro, Business, Enterprise] eller senare</p> </td> 
+   <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 

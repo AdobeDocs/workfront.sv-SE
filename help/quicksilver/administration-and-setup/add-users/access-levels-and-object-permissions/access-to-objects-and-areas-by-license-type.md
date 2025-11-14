@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Tabellen nedan visar den högsta åtkomstnivån (Redigera eller Visa) som var oc
 |   | Plan | Arbete | Granska | Begäran | Extern |
 |---|---|---|---|---|---|
 | Projekt | Redigera | Redigera (utan behörighet att skapa) | Visa | Visa (endast detaljsidan) | Ingen åtkomst |
-| Uppgifter | Redigera | Redigera | Visa | Visa | Visa |
+| Uppgifter | Redigera | Redigera | Visa | Visa | Ingen åtkomst |
 | Problem | Redigera | Redigera | Redigera | Redigera | Ingen åtkomst |
 | Portföljer | Redigera | Visa | Visa | Ingen åtkomst | Ingen åtkomst |
 | Program | Redigera | Visa | Visa | Ingen åtkomst | Ingen åtkomst |
