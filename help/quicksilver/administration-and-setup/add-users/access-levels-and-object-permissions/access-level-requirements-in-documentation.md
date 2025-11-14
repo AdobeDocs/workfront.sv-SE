@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
-source-git-commit: 469242118429fa37835766737b88d35d2baefb69
+source-git-commit: c1c30696dc9ef324103467f3bdcb83609cf5d1d8
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ ht-degree: 0%
 I Workfront-dokumentationen finns en tabell med information om vilka behörigheter som krävs för den proceduren. I den här tabellen för åtkomstkrav kan du förstå om du kan utföra en viss åtgärd i Workfront eller varför du inte kan göra det. I den här artikeln förklaras varje element i tabellen för åtkomstkrav och den innehåller felsökningstips och länkar till mer detaljerad information.
 
 Om det inte finns någon rad i tabellen för åtkomstkrav i en viss artikel finns det inga krav av den typen för den åtgärden.
-
-Vissa rader innehåller information med etiketterna&quot;Nytt&quot; och&quot;Aktuellt&quot;. Detta beror på att Workfront går över till en ny prissättnings- och paketeringsmodell, där vissa organisationer arbetar enligt den nya modellen och andra fortfarande använder den nuvarande modellen. Kontakta Workfront-administratören för att ta reda på vilken modell din organisation använder. Information och länkar till information finns i avsnittet [Åtkomstkrav, tabell](#the-access-requirements-table) i den här artikeln.
 
 >[!NOTE]
 >
@@ -37,16 +35,16 @@ Vissa rader innehåller information med etiketterna&quot;Nytt&quot; och&quot;Akt
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
    <td> Adobe Workfront-paket avser den uppsättning funktioner som din organisation har köpt. De flesta Workfront-funktionerna finns i alla paket, med några få undantag, som mest gäller strategisk planering och företagskontroller. <p>Paket som fanns före 2022 listas inte.</p>
-   <p>Workfront-paketen är uppdelade i tre områden. I varje område finns olika paket som Select, Prime och Ultimate.<p>
+   <p>Workfront-paketen är uppdelade i tre områden. I vissa områden finns olika paket som Select, Prime och Ultimate.<p>
    <ul>
-   <li><b>Workfront-arbetsflöde</b>: Innehåller funktioner som är relaterade till åtgärder, som uppgiftshantering, godkännanden och tidrapporter.</li>
-   <li><b>Workfront Planning</b>: Innehåller funktioner som är relaterade till strategisk planering.</li>
+   <li><b>Workfront-arbetsflöde</b>: Innehåller funktioner som är relaterade till åtgärder, som uppgiftshantering, godkännanden och tidrapporter. Det här paketet är ytterligare uppdelat i Ultimate-paket för arbetsflödesval, arbetsflöden och arbetsflöden.</li>
+   <li><b>Workfront Planning</b>: Innehåller funktioner som är relaterade till strategisk planering. Paketet delas upp i Planning Select-, Planning Prime- och Planning Ultimate-paket.</li>
    <li><b>Workfront Automation and Integration</b>: Innehåller funktioner som rör automatisering av processer och integrering med andra program.</li>
    </ul>
   <p>Din organisation kan ha köpt ett Workfront-paket inom ett eller flera av dessa områden.</p>
   <p>Tidigare erbjöd Workfront paket med Workfront Select, Workfront Prime och Workfront Ultimate, utan att göra skillnad mellan arbetsflöde, planering och automatisering och integrering. Din organisation kanske finns i något av dessa äldre paket. 
    <ul><li>Om du vill ta reda på vilket Adobe Workfront-paket din organisation använder, inklusive om din organisation är under den aktuella eller gamla paketeringsmodellen, kontaktar du Workfront-administratören.</li>
-   <li>Instruktioner om hur en Workfront-administratör kan hitta din organisations Workfront-paket finns i <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">Visa din organisations kluster och Workfront-paket</a>.</li><li>Mer information om Workfront-paket finns i <a href="https://business.adobe.com/se/products/workfront/pricing.html">Adobe Workfront priser och paketering</a>.</li></ul> </td> 
+   <li>Instruktioner om hur en Workfront-administratör kan hitta din organisations Workfront-paket finns i <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">Visa din organisations kluster och Workfront-paket</a>.</li><li>Mer information om Workfront-paket finns i <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront priser och paketering</a>.</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
@@ -97,7 +95,7 @@ Vissa rader innehåller information med etiketterna&quot;Nytt&quot; och&quot;Akt
    <ul><li>Den aktuella licensmodellen baseras på antalet utförda åtgärder och har inga begränsningar för vilka åtgärder en organisation kan utföra. </li>
    <li>Äldre licenser baseras på om det går att ansluta till program från tredje part eller om scenarierna bara används för Workfront-automatisering. </li>
    </ul>
-   Mer information om Fusion-licensiering finns i <a href="https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion-licenser</a>.
+   Mer information om Fusion-licensiering finns i <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion-licenser</a>.
    </td> 
   </tr> 
  </tbody> 
