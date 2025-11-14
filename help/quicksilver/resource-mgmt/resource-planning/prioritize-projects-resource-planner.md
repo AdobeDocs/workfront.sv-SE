@@ -107,7 +107,7 @@ Så här redigerar du projektplaneringsprioriteten:
 >
 >Företaget måste ha ett Prime-paket eller ett högre Workfront-paket för att kunna prioritera projekt i Portfolio Optimizer.
 >
->Mer information om Workfront-paket finns i [Adobe Workfront-paket och priser](https://business.adobe.com/products/workfront/pricing.html).
+>Mer information om Workfront-paket finns i [Adobe Workfront-paket och priser](https://business.adobe.com/se/products/workfront/pricing.html).
 >
 >Mer information om hur du prioriterar projekt i Portfolio Optimizer finns i [Prioritera projekt i Portfolio Optimizer](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
