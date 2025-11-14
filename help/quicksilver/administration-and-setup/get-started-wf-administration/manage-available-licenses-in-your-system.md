@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
 title: Hantera tillgängliga licenser i systemet
 description: Som Adobe Workfront-administratör har du tillgång till information om ditt Workfront-konto, inklusive antalet licenser som köpts för din organisation, samt antalet licenser som används för närvarande.
-author: Lisa, Becky
+author: Lisa, Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
+source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -49,15 +49,15 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 >[!NOTE]
 >
->Följande programsatser gäller endast för nya planer.
+>Följande programsatser gäller för paketen Select, Prime och Ultimate.
 >
->För Select-planen:
+>För Select-paketet:
 >
 >1. Systemadministratörer kan inte ange gränser för hemgrupper.
 >2. Systemadministratörer kan endast se det totala antalet licenser som används i alla hemgrupper.
 >3. Gruppadministratörer har inte tillgång till licenssidan alls.
 >
->För Prime och Ultimate:
+>För paket med Prime och Ultimate:
 >
 >1. Systemadministratörer kan lägga till hemgrupper på sidan Licenser för att visa användningen av licenser i dessa grupper, och de kan också ange licensbegränsningar.
 >2. Gruppadministratörer har tillgång till sidan Licenser och kan visa hur licenserna i de grupper de hanterar har utnyttjats och som har lagts till på sidan Licenser av systemadministratörer.
@@ -133,8 +133,6 @@ Mer information om beslutsgränser för korrektur och dokument finns i [Översik
 ![Månadsvis beslutstilldelning](assets/monthly-decision-allotment.png)
 
 ## Lägga till eller ta bort en hemgrupp på sidan Licenser {#add-or-remove-a-home-group-to-the-licenses-page}
-
-<!--A Business or Enterprise Workfront Plan is required to use this feature. For more information about the various plans available, see [Workfront Plans.](https://www.workfront.com/plans)-->
 
 Varje användare kan endast tilldelas en hemgrupp. Workfront tillhandahåller ett grupporienterat licensantal genom att beräkna hur många licenser som tilldelas och används i respektive hemgrupp.
 

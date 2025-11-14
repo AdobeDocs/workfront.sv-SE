@@ -6,9 +6,9 @@ description: Du kan använda faktureringstariffer för att beräkna intäkterna 
 author: Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
 workflow-type: tm+mt
-source-wordcount: '3860'
+source-wordcount: '3859'
 ht-degree: 0%
 
 ---
@@ -18,40 +18,6 @@ ht-degree: 0%
 {{highlighted-preview}}
 
 Du kan använda faktureringstariffer för att beräkna intäkterna från dina projekt när du multiplicerar dem med timmarna som har ägnats åt projektet. Mer information om faktureringstariffer och intäkter finns i artikeln [Översikt över fakturering och intäkter](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
-
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE: drafted because the only procedure here was moved to a different article.&nbsp;This stays as an overview)</p>
-<h2>Access requirements</h2>
-<p>You must have the following access to perform the steps in this article:</p>
-<table style="table-layout:auto">
-<col>
-<col>
-<tbody>
-<tr>
-<td role="rowheader">Adobe Workfront plan*</td>
-<td> <p>Any</p> </td>
-</tr>
-<tr>
-<td role="rowheader">Adobe Workfront license*</td>
-<td> <p>Plan </p> </td>
-</tr>
-<tr>
-<td role="rowheader">Access level configurations*</td>
-<td> <p>Edit access to Projects and Financial&nbsp;Data</p> <note type="note">
-If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see
-<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.
-</note> </td>
-</tr>
-<tr>
-<td role="rowheader">Object permissions</td>
-<td> <p>Manage permissions to the project with permissions to Manage Finance</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td>
-</tr>
-</tbody>
-</table>
-<p>*To find out what plan, license type, or access you have, contact your Workfront administrator.</p>
-</div>
--->
 
 ## Översikt över faktureringstariffer för jobbroller och intäktstyper för roller per timme
 
@@ -120,38 +86,6 @@ Mer information om vilken jobbroll som används för att beräkna intäkter för
 >[!NOTE]
 >
 >När det gäller Faktisk intäkt bör de faktureringstariffer som tillämpas på timmar som läggs till i en faktureringspost som är markerad som Fakturerad inte påverkas av åsidosättningar av faktureringstaxor som inträffar efter att faktureringsposten har fakturerats.
-
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE: drafted and linked above to the stand-alone article for overriding billing rates on projects.)</p>
-<p>You can override the billing rate of a job role on a project in the following ways:</p>
-<ul>
-<li>One time, by selecting a new rate for the job role.<br>The new rate is used for the entire duration of the project, to calculate revenue. </li>
-</ul>
-<ul>
-<li>Several times, by selecting several new rates for specific date ranges. <br>A different rate can be used during each specified date range.</li>
-</ul>
-<p>To override a billing rate for a project:</p>
-<ol>
-<li value="1">Go to the project you want to override billing rates for.</li>
-<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <strong>Billing Rates</strong> in the left panel. </p> </li>
-<li value="3"> <p>Click <strong>Add Billing Rate</strong> > <strong>New Billing Rate</strong>.</p> <p>The New Billing Rate box opens</p> <p> <img src="assets/override-billing-rate-on-project-nwe-350x310.png" style="width: 350;height: 310;"> </p> <p> <br>The <strong>Default Billing Rate</strong> field displays the system-level rate for this job role.</p> </li>
-<li value="4">In the <strong>Job Role</strong> field, select the job role you want to change the billing rate for.<br></li>
-<li value="5">In the <strong>Billing Rates 1</strong> field, enter the one time billing rate override, then click <strong>Save</strong> to override the billing rate one time, <br>Or Click <strong>Add Rate</strong> to add more billing rate overrides.</li>
-<li value="6">(Conditional) If you are adding more than one billing rate override, specify the following information:<br>- <strong>Billing Rates 1</strong>: the value of the Billing Rate from the beginning of the project to the first date of the first override. This is typically the same amount as the <strong>Default Rate</strong>.<br>- <strong>Start Date</strong>: this is the date when the Default Rate ends.<br>- <strong>End Date</strong>: the date when the new billing rate override ends. <br>Workfront applies the override job role rate to the hours that occur during the time frames specified when calculating revenue on the project.<br>There should be no gaps between the time frames of two override rates. The <strong>Start Date</strong> of an override rate should be the day immediately following the <strong>End Date</strong> of the previous override date.<br><note type="note">
-You cannot specify a
-<strong>Start Date</strong> for the first override rate, nor an
-<strong>End Date</strong> for the last override rate. We recommend that you use the Default Rate for the first override rate.
-<br>Workfront assumes that the first override rate is applied for all hours with a date older than the
-<strong>End Date</strong> of the first override, and that the last override rate is applied for all hours with a date newer than the
-<strong>Start Date</strong> of the last override.
-<br>If an hour is logged before the Planned Start Date of the project the very first billing rate is used.
-<br>If an hour is logged after the Planned Completion Date of the project the very last billing rate is used.
-</note><br></li>
-<li value="7">Click <strong>Save</strong>.</li>
-</ol>
-</div>
--->
 
 ## Översikt över avsnittet Faktureringssatser i ett projekt
 
@@ -362,4 +296,4 @@ Om du vill lägga till en ny faktureringsfrekvens för en jobbroll med API:t utf
 Åtgärds- och datumfälten i objektet **Rate** är tillgängliga i API-version 8.0.
 Om du redan har definierat flera faktureringstariffer för en jobbroll i ett projekt och du vill lägga till en ny faktureringstakt för det med ett nytt datumintervall, måste du inkludera både den befintliga avgiften och den avgift som ska läggas till i samma API-anrop. Det liknar hur du uppdaterar samlingar på objekt.
 
-Följande API-anrop är ett exempel där **attachableID** är **Project ID** för projektet där du lägger till hastigheten och **RoleID** är det **Job Role ID** som du lägger till den nya faktureringstakten för.<pre>{</pre><pre>&quot;attachableID&quot;:&quot;593f0150000557d75fdd4fdfcc624f2&quot;,</pre><pre>&quot;attachableObjCode&quot;:&quot;PROJ&quot;,</pre><pre>&quot;roleID&quot;:&quot;544820df000014148cda5136d4b79d09&quot;, </pre><pre>&quot;frekvenser&quot;:[</pre><pre>         {&quot;rateValue&quot;:&quot;0.00&quot;,&quot;startdatum&quot;:null,&quot;slutdatum&quot;:&quot;2017-06-11&quot;},</pre><pre>         {&quot;rateValue&quot;:&quot;45.00&quot;,&quot;startDate&quot;:&quot;2017-06-12&quot;,&quot;endDate&quot;:&quot;2017-06-17&quot;}</pre><pre>         {&quot;rateValue&quot;:&quot;95.00&quot;,&quot;startDate&quot;:&quot;2017-06-21&quot;,&quot;endDate&quot;:null}</pre><pre>]</pre><pre>}</pre>Mer information om hur du använder Workfront API finns i artikeln [API Basics](https://experience.workfront.com/s/article/API-Basics-638808549).
+Följande API-anrop är ett exempel där **attachableID** är **Project ID** för projektet där du lägger till hastigheten och **RoleID** är det **Job Role ID** som du lägger till den nya faktureringstakten för.<pre>{</pre><pre>&quot;attachableID&quot;:&quot;593f0150000557d75fdd4fdfcc624f2&quot;,</pre><pre>&quot;attachableObjCode&quot;:&quot;PROJ&quot;,</pre><pre>&quot;roleID&quot;:&quot;544820df000014148cda5136d4b79d09&quot;, </pre><pre>&quot;frekvenser&quot;:[</pre><pre>         {&quot;rateValue&quot;:&quot;0.00&quot;,&quot;startDate&quot;:null,&quot;endDate&quot;:&quot;2017-06-11&quot;},</pre><pre>         {&quot;rateValue&quot;:&quot;45.00&quot;,&quot;startDate&quot;:&quot;2017-06-12&quot;,&quot;endDate&quot;:&quot;2017-06-17&quot;}</pre><pre>         {&quot;rateValue&quot;:&quot;95.00&quot;,&quot;startDate&quot;:&quot;2017-06-21&quot;,&quot;endDate&quot;:null}</pre><pre>]</pre><pre>}</pre>Mer information om hur du använder Workfront API finns i artikeln [API Basics](https://experience.workfront.com/s/article/API-Basics-638808549).

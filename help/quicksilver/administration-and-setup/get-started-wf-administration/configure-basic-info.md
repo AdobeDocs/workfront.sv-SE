@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
+source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Så här öppnar du sidan Kundinformation:
 
 1. Klicka på **System** > **Kundinformation** i den vänstra panelen.
 
-   Beroende på vilken Workfront-plan du har köpt kan vissa avsnitt saknas på sidan Kundinformation. Kontakta din kontorepresentant om du behöver ta reda på vilken Workfront-plan din organisation använder.
+   Beroende på vilket Workfront-paket du har köpt kan vissa avsnitt saknas på kundinformationssidan. Kontakta din kontorepresentant om du behöver ta reda på vilket Workfront-paket din organisation använder.
 
    De avsnitt som är tillgängliga i området Kundinformation är:
 
