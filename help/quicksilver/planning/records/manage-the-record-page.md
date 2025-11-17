@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 1ed84baeacda2717c4f58058fb754e7a79b48baf
+source-git-commit: 48bfeb3b950ca1149a919aa204d77db6aa501e01
 workflow-type: tm+mt
-source-wordcount: '2261'
+source-wordcount: '1384'
 ht-degree: 0%
 
 ---
@@ -275,7 +275,7 @@ Följande saker händer:
 
    ![Informationssida](assets/details-page.png)
 
-1. På fliken **Detaljer** klickar du på ikonen **Ta** ![Ta tag i &#x200B;](assets/grab-icon.png) till vänster om fältnamnet och drar och släpper den på önskad plats.
+1. På fliken **Detaljer** klickar du på ikonen **Ta** ![Ta tag i ](assets/grab-icon.png) till vänster om fältnamnet och drar och släpper den på önskad plats.
 
    >[!TIP]
    >
@@ -291,127 +291,129 @@ Följande saker händer:
 
 Du kan visa information från anslutna poster eller objekt genom att lägga till en flik för en sida med kopplade poster till en post. Då läggs de kopplade posterna i en tabellvy till på fliken.
 
-Tänk på följande när du lägger till en sida med kopplade poster till en post:
+Mer information finns i [Lägga till en kopplad postsida till en post](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
-* Du kan lägga till en sida med kopplade poster till en post efter att du har kopplat post- eller objekttyper till posttypen från tabellvyn för en posttyp.
+<!--this content has been moved to the page linked above
+Consider the following when adding a Connected records page to a record: 
 
-* Du kan lägga till en sida med kopplade poster från en posts förhandsgranskningsområde eller postens sida.
+* You can add a Connected records page to a record after you connected record or object types to the record type from the table view of a record type.
 
-* Anslutna postsidor visar endast anslutna objekt eller poster från ett objekt eller en posttyp i en tabellvy. På sidan visas inte alla poster av den typen.
+* You can add a Connected records page from a record's preview area or the record's page.
 
-* Du kan lägga till sidor med kopplade poster för följande anslutna post- eller objekttyper:
+* Connected records pages display only the connected objects or records from one object or record type in a table view. The page does not display all records of that type. 
 
-   * Workfront Planning - posttyper
-   * Workfront projekt, program, portfolior, grupper eller företag. Du kan visa de anslutna Workfront-objekten även när du inte har åtkomstbehörighet till dem i Workfront.
+* You can add Connected records pages for the following connected record or object types:
 
-  >[!NOTE]
-  >
-  > Du kan inte lägga till en sida med kopplade poster för anslutna AEM Assets-poster.
+   * Workfront Planning record types
+   * Workfront projects, programs, portfolios, groups, or companies. You can view the connected Workfront objects even when you do not have permissions to access them in Workfront. 
 
-Så här lägger du till en sida med anslutna poster:
+To add a Connected records page:
 
-1. Klicka på postens namn för att öppna den från en vy av en posttypssida.
-1. Klicka på **Lägg till sida** i något av följande områden:
+1. Click the name of the record to open it from any view of a record type page. 
+1. Click **Add page** from one of the following areas: 
 
-   * Postens förhandsgranskningsfönster
-   * Postens informationssida när du har klickat på ikonen **Öppna på ny flik** ![Öppna information på en ny flikikon](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet på förhandsvisningssidan.
+   * The record's preview window
+   * The record's details page, after clicking the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview page.  
 
-   Rutan **Skapa sida** öppnas.
+   The **Create page** box opens.
 
-   ![Sidan Lägg till kopplade poster modal](assets/add-connection-view-page-modal.png)
+   ![Add Connected records page modal](assets/add-connection-view-page-modal.png) 
 
-1. Lägg till **sidnamnet**, klicka på sidan **Anslutna poster** och klicka sedan på **Skapa**.
+1. Add the **Page name**, click **Connected records page**, then click **Create**.
 
-   En ny sida med kopplade poster läggs till som en ny flik på postens sida.
+   A new connected records page is added as a new tab to the record's page.
+   
+   The records that are connected to the current record display in the table view.  
 
-   Posterna som är kopplade till den aktuella posten visas i tabellvyn.
+      >[!TIP]
+      >
+      >You must add connected records in the table or Details area of a record before you can display them in a connected records page.
 
-   >[!TIP]
-   >
-   >Du måste lägga till kopplade poster i tabellen eller i området Detaljer för en post innan du kan visa dem på en ansluten postsida.
+   (^^^^^^All fields of the connected record display in the table view of the connected record's tab.^^^^^^^^)
+   
+   The first five fields of the connected records display by default. (^^^^No lookup fields display by default.^^^^^^^)
 
-   <!--All fields of the connected record display in the table view of the connected record's tab.-->
+   ![Audience connected table view under campaign details](assets/audience-connected-table-view-under-campaign-details-page.png)
 
-   De första fem fälten i de anslutna posterna visas som standard. <!--No lookup fields display by default.-->
+1. (Optional) Search for or click the name of a connected record or object type in the list.
 
-   ![Målgruppsansluten tabellvy under kampanjinformation](assets/audience-connected-table-view-under-campaign-details-page.png)
+1. (Optional and conditional) In the table view of the connected records page, do any of the following when viewing connected Planning records or any Workfront objects except for projects: 
 
-1. (Valfritt) Sök efter eller klicka på namnet på en ansluten post eller objekttyp i listan.
+   * Click the name of a record. This opens the record's page in a new tab. 
 
-1. (Valfritt och villkorligt) Gör något av följande i tabellvyn på den anslutna postsidan när du visar anslutna Planning-poster eller andra Workfront-objekt, förutom för projekt: <!--or AEM Assets--> <!--AEM is not available yet?? see note below-->
+   * Click **Connect** at the bottom of the table view to connect more records, then click outside the connection box to close it. The new records are automatically added to the table. 
 
-   * Klicka på namnet på en post. Posten öppnas på en ny flik.
+      For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+   * Edit any information from the connected records inline in the table view. 
 
-   * Klicka på **Anslut** längst ned i tabellvyn om du vill ansluta fler poster och klicka sedan utanför anslutningsrutan för att stänga den. De nya posterna läggs automatiskt till i tabellen.
+   * Hover over a connected record's name, then click the **More** menu ![More menu](assets/more-menu.png)
+   
+      Or 
+      
+      Select one of the records, then click one of the following options in the blue bar at the bottom of the list: 
 
-     Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
-   * Redigera all information från de anslutna posterna i tabellvyn.
+      * **View** to open the record page in a new tab
+      * **Copy link** to copy a link to the record page
+      * **Edit thumbnail** to open the **Record thumbnail** box and edit the record's thumbnail image
+      * **Duplicate** to duplicate the connected record. The duplicated record is also connected to the current record.
+      * **Insert record above or below** to add new records to the connected record type. New records added here are also connected to the current record. This option is not available in the blue bar when selecting a record in the table.
+      * **Delete** to delete the record. Deleting a connected record deletes it from its record type and from everywhere where the record is connected.
 
-   * Håll muspekaren över namnet på en ansluten post och klicka sedan på menyn **Mer** ![Mer](assets/more-menu.png)
+      For information about editing records in the table view, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
 
-     eller
+      >[!TIP]
+      >
+      >You can select more than one record or object to delete them.
 
-     Markera en av posterna och klicka sedan på något av följande alternativ i det blå fältet längst ned i listan:
+   * Inline edit any of the Planning records in the table on the Connected records page. 
+   
+      All other Workfront objects display in a read-only table view and you cannot edit them. 
+   
+1. (Optional and conditional) In the table view of the connected records page, do any of the following when viewing connected Workfront projects:
 
-      * **Visa** om du vill öppna postsidan på en ny flik
-      * **Kopiera länk** för att kopiera en länk till postsidan
-      * **Redigera miniatyrbild** för att öppna rutan **Spela in miniatyrbild** och redigera postens miniatyrbild
-      * **Duplicera** om du vill duplicera den anslutna posten. Den duplicerade posten är även ansluten till den aktuella posten.
-      * **Infoga posten ovanför eller under** om du vill lägga till nya poster till den anslutna posttypen. Nya poster som läggs till här är också kopplade till den aktuella posten. Det här alternativet är inte tillgängligt i det blå fältet när du markerar en post i tabellen.
-      * **Ta bort** om du vill ta bort posten. Om du tar bort en ansluten post tas den bort från sin posttyp och från alla ställen där posten är ansluten.
+     * Click **Connect records** in the upper-right corner of the connected record page to connect existing projects.
 
-     Mer information om hur du redigerar poster i tabellvyn finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).
+      For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+     * Inline edit project information in the table.
+     * Click **New row** to create a project without a template. The new project is connected to the current record immediately.
 
-     >[!TIP]
-     >
-     >Du kan markera flera poster eller objekt som du vill ta bort.
+         For more information, see [Create Workfront objects from Workfront Planning as you connect them to records](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+     * Hover over a project and click the **More** menu [More menu](assets/more-menu.png)
+     
+         Or
 
-   * Redigera alla planeringsposter i tabellen på sidan Anslutna poster.
+         Select one or more projects, and notice the blue bar at the bottom of the list, then click one of the following:
+         
+         * **Delete** to delete the project. Deleting a project disconnects it from the record and moves it to the Workfront's Recycle Bin. 
+         * **Disconnect** to disconnect the project from the record. Disconnecting a project removes it and all the values of its lookup fields from the current record.
+      
+1. (Optional) Double-click the name of the **Connected records page** tab
 
-     Alla andra Workfront-objekt visas i en skrivskyddad tabellvy och du kan inte redigera dem.
+   Or
 
-1. (Valfritt och villkorligt) Gör något av följande i tabellvyn på den anslutna postsidan när du visar anslutna Workfront-projekt:
+   Hover over the name of the tab, then click **More** ![More menu](assets/more-menu.png), then click **Rename** to rename to new Connected view tab.
+1. (Optional) Use any of the following view elements in the toolbar of a connected record page to manage the table view:
 
-   * Klicka på **Anslut poster** i det övre högra hörnet på den anslutna postsidan om du vill ansluta befintliga projekt.
+   * Filters
+   * Sort
+   * Grouping
+   * Fields, to display, hide, or rearrange fields
+   * Row height
+   * Search
 
-   Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
-   * Inline redigera projektinformation i registret.
-   * Klicka på **Ny rad** om du vill skapa ett projekt utan en mall. Det nya projektet ansluts direkt till den aktuella posten.
-
-     Mer information finns i [Skapa Workfront-objekt från Workfront Planning när du ansluter dem till poster](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
-   * Hovra över ett projekt och klicka på menyn **Mer** [Mer](assets/more-menu.png)
-
-     eller
-
-     Markera ett eller flera projekt och lägg märke till det blå fältet längst ned i listan. Klicka sedan på något av följande:
-
-      * **Ta bort** om du vill ta bort projektet. Om du tar bort ett projekt kopplas det från posten och flyttas till Workfront papperskorg.
-      * **Koppla från** om du vill koppla från projektet från posten. När du kopplar från ett projekt tas det bort och alla värden i sökfälten tas bort från den aktuella posten.
-
-1. (Valfritt) Dubbelklicka på namnet på fliken **Anslutna poster**
-
-   eller
-
-   Håll muspekaren över flikens namn, klicka sedan på **Mer** ![Mer-menyn](assets/more-menu.png) och klicka sedan på **Byt namn** för att byta namn till den nya fliken Ansluten vy.
-1. (Valfritt) Använd något av följande vyelement i verktygsfältet på en ansluten postsida för att hantera tabellvyn:
-
-   * Filter
-   * Sortera
-   * Gruppering
-   * Fält, för att visa, dölja eller ordna om fält
-   * Radhöjd
-   * Sök
-
-   Mer information finns i [Hantera tabellvyn](/help/quicksilver/planning/views/manage-the-table-view.md).
+   For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
 
    >[!NOTE]
    >
-   >Du kan inte skapa, redigera eller ta bort fält i tabellvyn på fliken för en ansluten post.
+   >You cannot create, edit, or delete fields in the table view of a connected record's tab.
+   
+1. (Optional)  Hover over the name of the Connected records page tab, click **More** ![More menu](assets/more-menu.png), then click **Delete** to remove to tab.-->
 
-1. (Valfritt) Håll pekaren över namnet på fliken Anslutna poster, klicka på **Mer** ![Mer-menyn](assets/more-menu.png) och klicka sedan på **Ta bort** för att ta bort fliken.
 
 <!--
-## Add a Brief page to a record's page
+## Add a Brief page to a record
+
+(^^^^^^^^^^move this content to its own article, like you did above - leave the header here with a link^^^^^^^^^^^^)
 
 You can add a Brief page to the record's preview or pages. 
 

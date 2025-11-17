@@ -1,0 +1,185 @@
+---
+title: Lägg till en sida med kopplade poster i en post
+description: Du kan visa information från anslutna poster eller objekt genom att lägga till en flik för en sida med kopplade poster till en post. Då läggs de kopplade posterna i en tabellvy till på fliken.
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
+source-git-commit: 48bfeb3b950ca1149a919aa204d77db6aa501e01
+workflow-type: tm+mt
+source-wordcount: '1139'
+ht-degree: 0%
+
+---
+
+
+# Lägga till en sida med kopplade poster i en post
+
+Du kan visa information från anslutna poster eller objekt genom att lägga till en flik för en sida med kopplade poster till en post. Då läggs de kopplade posterna i en tabellvy till på fliken.
+
+Tänk på följande när du lägger till en sida med kopplade poster till en post:
+
+* Du kan lägga till en sida med kopplade poster till en post efter att du har kopplat post- eller objekttyper till posttypen från tabellvyn för en posttyp.
+
+* Du kan lägga till en sida med kopplade poster från en posts förhandsgranskningsområde eller postens sida.
+
+* Anslutna postsidor visar endast anslutna objekt eller poster från ett objekt eller en posttyp i en tabellvy. På sidan visas inte alla poster av den typen.
+
+* Du kan lägga till sidor med kopplade poster för följande anslutna post- eller objekttyper:
+
+   * Workfront Planning - posttyper
+   * Workfront projekt, program, portfolior, grupper eller företag. Du kan visa de anslutna Workfront-objekten även när du inte har åtkomstbehörighet till dem i Workfront.
+
+## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkraven för funktionerna i den här artikeln. 
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<p>Alla Workfront- och Planning-paket</p>
+<p>Alla arbetsflöden och alla planeringsdokument</p>
+<p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
+   </td> 
+<tr>
+<td> 
+   <p> Ytterligare produkter</p> </td> 
+   <td> 
+   <p> Förutom Adobe Workfront måste du ha följande om du vill lägga till en ansluten postsida för objekt från följande program:</p>
+   <ul><li><p>En Adobe Experience Manager Assets-licens och en integrering mellan AEM Assets och Workfront för att koppla AEM-material till posttyperna Planning.</p>
+   <p>Mer information finns i <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront för Experience Manager Assets och Assets Essentials: artikelindex</a>. </p></li>
+   <li><p> En Adobe GenStudio for Performance Marketing-licens för att koppla posttyper till GenStudio Brands</p>
+   <p>Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Kom igång med Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   </td> 
+  </tr>
+
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr>
+   <td role="rowheader"><p>Objektbehörigheter</p></td>
+   <td>
+   <p>Contribute eller högre behörighet för en arbetsyta och en posttyp </p>  
+   <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p> 
+  </td>
+  </tr>   
+</tbody> 
+</table>
+
+Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++   
+
+
+## Lägga till en sida med kopplade poster i en post
+
+1. Klicka på postens namn för att öppna den från en vy av en posttypssida.
+1. Klicka på **Lägg till sida** i något av följande områden:
+
+   * Postens förhandsgranskningsfönster
+   * Postens informationssida när du har klickat på ikonen **Öppna på ny flik** ![Öppna information på en ny flikikon](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet på förhandsvisningssidan.
+
+   Rutan **Skapa sida** öppnas.
+
+   ![Sidan Lägg till kopplade poster modal](assets/add-connection-view-page-modal.png)
+
+1. Lägg till **sidnamnet**, klicka på sidan **Anslutna poster** och klicka sedan på **Skapa**.
+
+   En ny sida med kopplade poster läggs till som en ny flik på postens sida.
+
+   Posterna som är kopplade till den aktuella posten visas i tabellvyn.
+
+   >[!TIP]
+   >
+   >Du måste lägga till kopplade poster i tabellen eller i området Detaljer för en post innan du kan visa dem på en ansluten postsida.
+
+   <!--All fields of the connected record display in the table view of the connected record's tab.-->
+
+   De första fem fälten i de anslutna posterna visas som standard. <!--No lookup fields display by default.-->
+
+   ![Målgruppsansluten tabellvy under kampanjinformation](assets/audience-connected-table-view-under-campaign-details-page.png)
+
+1. (Valfritt) Sök efter eller klicka på namnet på en ansluten post eller objekttyp i listan.
+
+1. (Valfritt och villkorligt) Gör något av följande i tabellvyn på den anslutna postsidan när du visar anslutna Planning-poster eller andra Workfront-objekt, förutom för projekt: <!--or AEM Assets--> <!--AEM is not available yet?? see note below-->
+
+   * Klicka på namnet på en post. Posten öppnas på en ny flik.
+
+   * Klicka på **Anslut** längst ned i tabellvyn om du vill ansluta fler poster och klicka sedan utanför anslutningsrutan för att stänga den. De nya posterna läggs automatiskt till i tabellen.
+
+     Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
+   * Redigera all information från de anslutna posterna i tabellvyn.
+
+   * Håll muspekaren över namnet på en ansluten post och klicka sedan på menyn **Mer** ![Mer](assets/more-menu.png)
+
+     eller
+
+     Markera en av posterna och klicka sedan på något av följande alternativ i det blå fältet längst ned i listan:
+
+      * **Visa** om du vill öppna postsidan på en ny flik
+      * **Kopiera länk** för att kopiera en länk till postsidan
+      * **Redigera miniatyrbild** för att öppna rutan **Spela in miniatyrbild** och redigera postens miniatyrbild
+      * **Duplicera** om du vill duplicera den anslutna posten. Den duplicerade posten är även ansluten till den aktuella posten.
+      * **Infoga posten ovanför eller under** om du vill lägga till nya poster till den anslutna posttypen. Nya poster som läggs till här är också kopplade till den aktuella posten. Det här alternativet är inte tillgängligt i det blå fältet när du markerar en post i tabellen.
+      * **Ta bort** om du vill ta bort posten. Om du tar bort en ansluten post tas den bort från sin posttyp och från alla ställen där posten är ansluten.
+
+     Mer information om hur du redigerar poster i tabellvyn finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).
+
+     >[!TIP]
+     >
+     >Du kan markera flera poster eller objekt som du vill ta bort.
+
+   * Redigera alla planeringsposter i tabellen på sidan Anslutna poster.
+
+     Alla andra Workfront-objekt visas i en skrivskyddad tabellvy och du kan inte redigera dem.
+
+1. (Valfritt och villkorligt) Gör något av följande i tabellvyn på den anslutna postsidan när du visar anslutna Workfront-projekt:
+
+   * Klicka på **Anslut poster** i det övre högra hörnet på den anslutna postsidan om du vill ansluta befintliga projekt.
+
+   Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
+   * Inline redigera projektinformation i registret.
+   * Klicka på **Ny rad** om du vill skapa ett projekt utan en mall. Det nya projektet ansluts direkt till den aktuella posten.
+
+     Mer information finns i [Skapa Workfront-objekt från Workfront Planning när du ansluter dem till poster](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+   * Hovra över ett projekt och klicka på menyn **Mer** [Mer](assets/more-menu.png)
+
+     eller
+
+     Markera ett eller flera projekt och lägg märke till det blå fältet längst ned i listan. Klicka sedan på något av följande:
+
+      * **Ta bort** om du vill ta bort projektet. Om du tar bort ett projekt kopplas det från posten och flyttas till Workfront papperskorg.
+      * **Koppla från** om du vill koppla från projektet från posten. När du kopplar från ett projekt tas det bort och alla värden i sökfälten tas bort från den aktuella posten.
+
+1. (Valfritt) Dubbelklicka på namnet på fliken **Anslutna poster**
+
+   eller
+
+   Håll muspekaren över flikens namn, klicka sedan på **Mer** ![Mer-menyn](assets/more-menu.png) och klicka sedan på **Byt namn** för att byta namn till den nya fliken Ansluten vy.
+1. (Valfritt) Använd något av följande vyelement i verktygsfältet på en ansluten postsida för att hantera tabellvyn:
+
+   * Filter
+   * Sortera
+   * Gruppering
+   * Fält, för att visa, dölja eller ordna om fält
+   * Radhöjd
+   * Sök
+
+   Mer information finns i [Hantera tabellvyn](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+   >[!NOTE]
+   >
+   >Du kan inte skapa, redigera eller ta bort fält i tabellvyn på fliken för en ansluten post.
+
+1. (Valfritt) Håll pekaren över namnet på fliken Anslutna poster, klicka på **Mer** ![Mer-menyn](assets/more-menu.png) och klicka sedan på **Ta bort** för att ta bort fliken.

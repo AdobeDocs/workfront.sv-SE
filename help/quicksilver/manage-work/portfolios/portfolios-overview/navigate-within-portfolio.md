@@ -6,9 +6,9 @@ description: Navigera i en portfölj
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+source-git-commit: 6948f9462c59bad9e6db67d6169e5f9dec4157fe
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -88,9 +88,8 @@ Mer information om portföljer finns i [Förstå portföljmetod](../../../manage
 
 ## Navigera i en portfölj
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront].
+{{step1-to-portfolios}}
 
-1. Klicka på [!UICONTROL Portfolios].
 1. Välj följande i listrutan **[!UICONTROL Filter]**:
 
    * **[!UICONTROL Portfolios I Own]**: Innehåller en lista över portföljer som du har utsetts till [!UICONTROL Portfolio Manager] för.
@@ -159,4 +158,4 @@ Mer information om program finns i avsnittet [Skapa och hantera program](../../.
 
    * Dela portföljen med andra användare.
 
-1. (Valfritt) Klicka på ikonen **Stjärna** ![Stjärna &#x200B;](assets/qs-star-icon-favorites-39x38.png) till höger om portföljnamnet för att lägga till portföljen i din favoritlista.
+1. (Valfritt) Klicka på ikonen **Stjärna** ![Stjärna ](assets/qs-star-icon-favorites-39x38.png) till höger om portföljnamnet för att lägga till portföljen i din favoritlista.
