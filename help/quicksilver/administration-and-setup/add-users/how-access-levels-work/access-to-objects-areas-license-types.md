@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: b333ea67bb909ca55306f6474832c275ebad590c
+source-git-commit: 29af5a01c1d5fcec35ac0061a478e5721f6770c0
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Tabellen nedan visar den högsta åtkomstnivån (Redigera eller Visa) som var oc
         <td>Redigera</td>
         <td>Visa</td>
         <td>Visa</td>
-        <td>Visa</td>
+        <td>Ingen åtkomst</td>
     </tr>
     <tr>
         <td>Problem</td>
@@ -59,7 +59,7 @@ Tabellen nedan visar den högsta åtkomstnivån (Redigera eller Visa) som var oc
         <td>Ingen åtkomst</td>
     </tr>
     <tr>
-        <td>Portfolio</td>
+        <td>Portföljer</td>
         <td>Redigera</td>
         <td>Visa</td>
         <td>Visa</td>

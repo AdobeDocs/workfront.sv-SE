@@ -6,9 +6,9 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '3201'
+source-wordcount: '3203'
 ht-degree: 0%
 
 ---
@@ -421,7 +421,7 @@ Du kan förbättra dina kommentarer genom att använda RTF eller lägga till oli
    >
    >* Mål
    >* Ad hoc-kort i styrelser
-   >* Poster i Workfront Planning. Mer information finns i [Översikt över Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
+   >* Poster i Workfront Planning. Mer information finns i [Kom igång med Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
    >
 
    Gör något av följande om du vill bifoga en bild till din uppdatering:
@@ -618,7 +618,7 @@ Ingen Workfront-användare (inklusive Workfront-administratören) kan ta bort up
 
    När kommentaren som du tar bort har tillhörande svar, finns det en indikation på att kommentaren togs bort med namnet på den användare som tog bort den.
 
-   ![Kommentarsindikatorn &#x200B;](assets/removed-comment-indicator-new-experience.png) har tagits bort
+   ![Kommentarsindikatorn ](assets/removed-comment-indicator-new-experience.png) har tagits bort
 
    Borttagna kommentarer tas bort direkt från Workfront. En användare som använder uppdateringsavsnittet ser en kommentar som tas bort av en annan användare i realtid.
 

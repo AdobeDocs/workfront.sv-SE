@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '7386'
+source-wordcount: '7392'
 ht-degree: 0%
 
 ---
@@ -615,7 +615,7 @@ En del av informationen på landningssidan innehåller följande:
 
 * Kom igång självstudiekurs om Workfront Planning
 
-Mer information finns i [Översikt över Adobe Workfront-planering](/help/quicksilver/planning/general/planning-overview.md).
+Mer information finns i [Kom igång med Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 ### Ny startupplevelse för Workfront Planning
 
@@ -663,7 +663,7 @@ Produktion: 30 maj 2024
 
 Förhandsgranska: Ska bestämmas
 
-Vi har uppdaterat utseendet på ikonen för planeringsområdet på huvudmenyn. Mer information finns i [Översikt över Adobe Workfront-planering](/help/quicksilver/planning/general/planning-overview.md).
+Vi har uppdaterat utseendet på ikonen för planeringsområdet på huvudmenyn. Mer information finns i [Kom igång med Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 ### Byta namn på Workfront Planning Program
 
@@ -800,7 +800,7 @@ Produktion: 8 maj 2024
 
 Förhandsgranska: För att bestämma
 
-Om du är Adobe Unified Experience-kund och någon lägger till dig i en kommentar på postsidan får du ett meddelande i appen och ett e-postmeddelande om kommentaren. Du kan hantera dina meddelandeinställningar under Inställningar i din Adobe Experience Cloud-profil. Mer information finns i [Kontoinställningar och meddelanden](https://experienceleague.adobe.com/sv/docs/core-services/interface/features/account-preferences).
+Om du är Adobe Unified Experience-kund och någon lägger till dig i en kommentar på postsidan får du ett meddelande i appen och ett e-postmeddelande om kommentaren. Du kan hantera dina meddelandeinställningar under Inställningar i din Adobe Experience Cloud-profil. Mer information finns i [Kontoinställningar och meddelanden](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 Mer information om Workfront planeringsmeddelanden finns i [Adobe Workfront Planning-meddelanden: Artikelindex](/help/quicksilver/planning/notifications/notifications-information.md).
 
@@ -918,7 +918,7 @@ Förhandsgranska: Ska bestämmas
 
 Vi har bytt namn på Maestro-området på Main Menu till Planning.
 
-En översikt över Adobe Workfront Planning finns i [Översikt över Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+En översikt över Adobe Workfront Planning finns i [Kom igång med Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 ### Ny upplevelse när en posttyp tas bort
 
