@@ -1,14 +1,14 @@
 ---
 navigation-topic: notifications
-title: Prenumerera på objekt i Adobe Workfront
+title: Experience Cloud Notifications - översikt
 description: Adobe Workfront har samlat alla produkter för digitala upplevelser (DX) i ett enda enhetligt meddelandesystem som kallas Experience Cloud Notifications.
 author: Courtney
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 49e1bb56c30ec54290a95f0c5eb224d86b9afafc
+source-git-commit: 56f63dad88c9ea7d51297bcad181983dc88acf50
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
