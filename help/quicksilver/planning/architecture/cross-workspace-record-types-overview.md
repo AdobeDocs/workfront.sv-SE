@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: f88b6ec019963ff6256e35b9c94eb4d1b7e99730
 workflow-type: tm+mt
-source-wordcount: '1534'
+source-wordcount: '1539'
 ht-degree: 0%
 
 ---
@@ -111,6 +111,10 @@ Posttypen som konfigurerats som global har följande egenskaper:
      Om du tar bort posttypen från en sekundär arbetsyta tas den bara bort från den sekundära arbetsytan. Posterna och fälten som läggs till i den sekundära arbetsytan tas också bort. Detta tar inte bort posttypen från den ursprungliga arbetsytan eller från andra sekundära arbetsytor där den har lagts till.
 
      Mer information finns i [Ta bort posttyper](/help/quicksilver/planning/architecture/delete-record-types.md).
+   * Dela vyerna för posttyperna.
+
+     <!-- when they will be able to add fields to the secondary space, this bullet will need this extra information: 
+         After adding fields to the global record type in the secondary workspace, shared views might not open for other users in workspaces. The fields exist only in the secondary workspace and they would not be visible in any other workspace. Only fields created in the primary workspace are visible in all secondary workspaces where there the record type is added. -->
 
   <!--These two capabilities will come later - and edit some of the bullets below after these capabilities are released:
     * Add new fields
