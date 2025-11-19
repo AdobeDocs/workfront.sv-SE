@@ -4,9 +4,9 @@ description: Förbättringar av första kvartalet 2026 för administratörer
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f6b46a3c9d3ad792fd55309a5aaf5e23a83e233d
+source-git-commit: eead7c3c22dff242cd2a875381f5a2ac901cc2bd
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,9 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 Anmälningsdatumet och det angivna ID:t lagras nu i anpassade formulär, fält och avsnitt. Du kan använda dessa dataalternativ i rapporter som filter, vyer eller grupperingar. Om du vill visa dem i listan med anpassade formulär, fält eller avsnitt i installationsprogrammet lägger du till anmälningsdatum och anges av: Namnge som kolumner i en ny eller befintlig vy.
 
+>[!NOTE]
+>
+>Anmälningsdatumet och det angivna ID:t är bara tillgängligt för anpassade formulär, fält och avsnitt som skapades den 13 november 2025 eller senare.
 
 ## Uppdateringar av knappnamn vid redigering av en layoutmall
 
