@@ -6,7 +6,7 @@ description: I  [!DNL Adobe Workfront] ordlistan visas termer som används ofta 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: f88b6ec019963ff6256e35b9c94eb4d1b7e99730
 workflow-type: tm+mt
 source-wordcount: '17858'
 ht-degree: 0%
@@ -720,7 +720,7 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
 
 <tr> 
    <td>[!UICONTROL Cost Performance Index (CPI)]</td> 
-   <td> <p>[!UICONTROL Cost Performance Index (CPI)] beskriver relationen på projekt- eller aktivitetsnivå mellan den planerade kostnaden och den faktiska kostnaden. Projektledare granskar den här mätningen för att identifiera aktiviteter eller projekt som för närvarande spåras under- eller överkostnadsbaserat vid en viss tidpunkt. Kostnaden kan mätas i timmar eller dollar, beroende på din [!UICONTROL Performance Index Method (PIM)].</p> 
+   <td> <p>[!UICONTROL Cost Performance Index (CPI)] beskriver relationen på projekt- eller aktivitetsnivå mellan den planerade kostnaden och den faktiska kostnaden. Projektledare granskar den här mätningen för att identifiera aktiviteter eller projekt som för närvarande spåras under- eller överkostnadsbaserat vid en viss tidpunkt. Kostnaden kan mätas i timmar eller valuta, beroende på din [!UICONTROL Performance Index Method (PIM)].</p> 
     <p> Mer information finns i <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-cpi.md">Beräkna kostnadsprestandaindex(CPI)</a>.</p>
 
 </td> 
@@ -2106,7 +2106,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Scenario] (i [!DNL Workfront Fusion]) </td> 
-   <td> <p>Ett scenario består av en serie steg (moduler) som anger hur data ska överföras och transformeras mellan program/tjänster.</p> <p>Mer information om scenarier i [!DNL Workfront Fusion] finns i <a href="https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] scenarioöversikt </a>.</p> </td> 
+   <td> <p>Ett scenario består av en serie steg (moduler) som anger hur data ska överföras och transformeras mellan program/tjänster.</p> <p>Mer information om scenarier i [!DNL Workfront Fusion] finns i <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] scenarioöversikt </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scenario] (i [!DNL Workfront Scenario Planner]) </td> 
