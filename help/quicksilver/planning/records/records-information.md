@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: 48bfeb3b950ca1149a919aa204d77db6aa501e01
+source-git-commit: 15ffe027c281782bcaa4df229badc134d91195a0
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ I följande artiklar beskrivs hur du kan skapa och hantera poster och deras info
 * [Redigera poster](/help/quicksilver/planning/records/edit-records.md)
 * [Ta bort poster](/help/quicksilver/planning/records/delete-records.md)
 * [Återställ borttagna poster](/help/quicksilver/planning/records/restore-deleted-records.md)
-* [Dela poster](/help/quicksilver/planning/records/share-records.md)
+* [Dela poster med en länk](/help/quicksilver/planning/records/share-records.md)
 * [Översikt över anslutna poster](/help/quicksilver/planning/records/connected-records-overview.md)
 * [Koppla poster](/help/quicksilver/planning/records/connect-records.md)
 * [Duplicera poster](/help/quicksilver/planning/records/copy-or-duplicate-records.md)
