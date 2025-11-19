@@ -1,14 +1,14 @@
 ---
-title: Dela poster
+title: Dela poster med en länk
 description: Du kan dela poster med andra för att öka samarbetet.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 1ed84baeacda2717c4f58058fb754e7a79b48baf
+source-git-commit: 15ffe027c281782bcaa4df229badc134d91195a0
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '585'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!--take out preview and production references at release-->
 
-# Dela poster
+# Dela poster med en länk
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
