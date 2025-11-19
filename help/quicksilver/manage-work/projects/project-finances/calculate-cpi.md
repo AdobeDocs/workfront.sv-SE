@@ -7,7 +7,7 @@ description: Kostnadsprestandaindexet (CPI) beskriver förhållandet på projekt
 author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: f88b6ec019963ff6256e35b9c94eb4d1b7e99730
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.)</p>
 -->
 
-Kostnadsprestandaindexet (CPI) beskriver förhållandet på projekt- eller aktivitetsnivå mellan den planerade kostnaden och den faktiska kostnaden. Projektledare granskar den här mätningen för att identifiera aktiviteter eller projekt som för närvarande spåras under- eller överkostnadsbaserat vid en viss tidpunkt. Kostnaden kan mätas i timmar eller dollar, beroende på din PIM-metod (Performance Index Method). Mer information om hur du ställer in prestandaindexmetoden finns i [Ange prestandaindexmetod (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
+Kostnadsprestandaindexet (CPI) beskriver förhållandet på projekt- eller aktivitetsnivå mellan den planerade kostnaden och den faktiska kostnaden. Projektledare granskar den här mätningen för att identifiera aktiviteter eller projekt som för närvarande spåras under- eller överkostnadsbaserat vid en viss tidpunkt. Kostnaden kan mätas i timmar eller i valuta, beroende på din PIM-metod (Performance Index Method). Mer information om hur du ställer in prestandaindexmetoden finns i [Ange prestandaindexmetod (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
 
 Endast organisationer som kräver tidsregistrering kan använda CPI. Dessutom är kostnadsbaserade PIM-värden endast korrekta i organisationer som har definierat kostnadsnivåer för uppgiftstilldelningar (jobbroller eller användare).
 
