@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: e73965653f1923168ff331dfdf05713f1902ba5a
+source-git-commit: 18e1bc979e252b2daddc68ae8e51e0af6265d72a
 workflow-type: tm+mt
-source-wordcount: '13556'
+source-wordcount: '13565'
 ht-degree: 0%
 
 ---
@@ -1756,6 +1756,7 @@ ht-degree: 0%
       * [Exempel på Workfront Data Connect-frågor](reports-and-dashboards/data-lake/basic-query-examples.md)
       * [Visa användningsstatistik för Workfront Data Connect](reports-and-dashboards/data-lake/view-usage-metrics.md)
       * [Använda datavyn Jobbhistorik i Dataanslutning](/help/quicksilver/reports-and-dashboards/data-lake/use-the-job-history-data.md)
+      * [Använda vyn Övervaka datauppdateringar i Dataanslutning](/help/quicksilver/reports-and-dashboards/data-lake/use-the-monitoring-data-refreshes-view.md)
       * Förbättrade analysfrågor{#enhanced-analytics-queries}
          * [Förbättrade analysfrågor](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/enhanced-analytics-queries.md)
          * [KPI-frågor](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
