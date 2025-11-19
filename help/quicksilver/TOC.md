@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: e73965653f1923168ff331dfdf05713f1902ba5a
 workflow-type: tm+mt
-source-wordcount: '13547'
+source-wordcount: '13556'
 ht-degree: 0%
 
 ---
@@ -921,6 +921,7 @@ ht-degree: 0%
       * [Hantera anpassade formulär som är kopplade till objekt](workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
    * Använd meddelanden {#use-notifications}
       * [Använd meddelanden: artikelindex](workfront-basics/using-notifications/use-notifications.md)
+      * [Experience Cloud Notifications Overview](/help/quicksilver/workfront-basics/using-notifications/exp-cloud-notifications-overview.md)
       * [Översikt över meddelanden](workfront-basics/using-notifications/wf-notifications.md)
       * [Ändra dina egna e-postmeddelanden](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
       * [Prenumerera på objekt i Adobe Workfront](workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
@@ -2126,6 +2127,7 @@ ht-degree: 0%
       * [Dela arbetsytor](planning/access/share-workspaces.md)
       * [Dela posttyper](planning/access/share-record-types.md)
       * [Visa](planning/access/share-views.md)
+      * [Dela poster](planning/access/share-records.md)
       * [Begära behörigheter till en vy eller arbetsyta](planning/access/request-permissions.md)
    * Adobe Workfront Planning - poster {#adobe-workfront-planning-records}
       * [Poster: artikelindex](planning/records/records-information.md)
@@ -2136,7 +2138,7 @@ ht-degree: 0%
       * [Redigera poster](planning/records/edit-records.md)
       * [Ta bort poster](planning/records/delete-records.md)
       * [Återställ borttagna poster](planning/records/restore-deleted-records.md)
-      * [Dela poster](planning/records/share-records.md)
+      * [Dela poster med en länk](planning/records/share-records.md)
       * [Duplicera poster](planning/records/copy-or-duplicate-records.md)
       * [Hantera postkommentarer](planning/records/manage-record-comments.md)
       * [Översikt över avsnittet Historik](planning/records/history-section-overview.md)
