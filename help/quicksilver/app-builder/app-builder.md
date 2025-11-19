@@ -4,9 +4,9 @@ description: Med Workfront UI Extensions, som drivs av Adobe App Builder, kan ku
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 1c2422f61e3db6fbe05cd03b9fbc1f17e906ebad
 workflow-type: tm+mt
-source-wordcount: '2178'
+source-wordcount: '2285'
 ht-degree: 0%
 
 ---
@@ -160,13 +160,13 @@ Så här tillåter du anpassade program på Workfront huvudmeny:
 I funktionen ExtensionRegistration ska du se följande kod. Den här koden skapades för dig av mallen. Den här koden kan läggas till för att skapa ytterligare menyalternativ. Se till att ersätta ID:n och URL:er.
 
     &quot;
-    mainMenu: &lbrace;
+    mainMenu: {
     
-    getItems() &lbrace;
+    getItems() {
     
-    return &lbrack;
+    return [
     
-    &lbrace;
+    {
     
     id: &#39;main-menu-label&#39;,
     
@@ -176,18 +176,18 @@ I funktionen ExtensionRegistration ska du se följande kod. Den här koden skapa
     
     icon: icon1,
     
-    &rbrace;,
+    },
     
-    &rbrack;;
+    ];
     
-    &rbrace;,
+    },
     
-     12&rbrace;&rbrace;
+     12}}
     &quot;
 
 1. Lägg till följande kodfragment:
 
-   ![kodfragment &#x200B;](assets/7-extension-registration-step1-from-sam.png)
+   ![kodfragment ](assets/7-extension-registration-step1-from-sam.png)
 
    I det här exemplet visas ett alternativ på huvudmenyn. Du måste uppdatera ID:t, etiketten, ikonen och URL:en till rätt namn för programmet. När du lägger till flera objekt måste du se till att ID:t är unikt.
 
@@ -438,6 +438,19 @@ Navigera sedan till den sida du vill utveckla mot i webbläsaren. Öppna utveckl
 Om konfigurationen slutfördes korrekt visas knapparna från ditt App Builder-program när du läser in layoutmallsidan i Workfront igen. Lägg till appknapparna på huvudmenyn och den vänstra panelen för ett objekt och kontrollera att de visas korrekt i de områdena.
 
 Ytterligare instruktioner finns på Adobe Developer webbplats, med ett exempel från AEM: https://developer.adobe.com/uix/docs/guides/preview-extension-locally/
+
+### Inaktivera flagga för att tillåta lokal testning i Chrome version 142 och senare
+
+I Chrome version 142 introduceras begränsningar för lokal nätverksåtkomst. Dessa begränsningar kan störa lokala testmiljöer.
+
+Du måste inaktivera kontrollen av lokal nätverksåtkomst genom att inaktivera motsvarande flagga i Chrome-inställningarna: `chrome://flags/#local-network-access-check`.
+
+Inaktivera flaggan
+
+1. Öppna Chrome och skriv `chrome://flags` i adressfältet och tryck sedan på **Retur**.
+1. I sökfältet högst upp skriver du **Lokala nätverksåtkomstkontroller**.
+1. Klicka på listrutan bredvid flaggan **Lokala nätverksåtkomstkontroller** och välj Inaktiverad.
+1. Klicka på knappen **Starta om** som visas längst ned på skärmen för att tillämpa ändringarna.
 
 ## Publicera ansökningar och godkänn inlämningen
 
