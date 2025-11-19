@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: e894c1e2134d025420205c6575329a2a9079fadf
 workflow-type: tm+mt
 source-wordcount: '1563'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Det anger också vilka åtgärder Workfront-administratörer kan inaktivera elle
 
 >[!NOTE]
 >
->I den här artikeln beskrivs de funktioner som är tillgängliga för åtkomstnivåer i den aktuella Workfront-planmodellen. Information om vilka funktioner som är tillgängliga i den nya planmodellen finns i [Tillgängliga funktioner för varje objekttyp för nya åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md).
+>I den här artikeln beskrivs de funktioner som är tillgängliga för åtkomstnivåer i den aktuella paketmodellen för Workfront. Information om vilka funktioner som är tillgängliga i den nya paketmodellen finns i [Tillgängliga funktioner för varje objekttyp för nya åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md).
 
 ## Projekt
 
