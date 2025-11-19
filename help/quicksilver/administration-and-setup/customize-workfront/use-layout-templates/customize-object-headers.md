@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: 9507e04be7cdd33658b4958f3030b0d3359a9ef1
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 
-1. I avsnittet [!UICONTROL Header fields] för du musen över de fält som visas och gör något av följande:
+1. Håll markören över de aktuella fälten i avsnittet [!UICONTROL Header fields] och gör något av följande:
    * Klicka på ikonen **x** för att ta bort ett fält
 
      eller
@@ -83,19 +83,15 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 1. Du kan ha upp till fem fält i ett objekts sidhuvud.
 Om du redan har markerat fem fält måste du ta bort ett fält innan du kan lägga till ett nytt.
-1. I rutan **Lägg till fält** börjar du skriva namnet på ett icke-redigerbart Workfront-fält som du vill lägga till och markerar det när det visas i listan. Fältet läggs till i det högra hörnet av rutan Lägg till och visas som det första fältet i det övre vänstra hörnet av objektets rubrik.
+1. I rutan **Lägg till fält** börjar du skriva namnet på ett anpassat fält eller ett inbyggt Workfront-fält som du vill lägga till och markerar det när det visas i listan. Fältet läggs till i det högra hörnet av rutan Lägg till och visas som det första fältet i det övre högra hörnet av objektets rubrik.
 
    >[!TIP]
    >
-   >* Du kan bara lägga till fält som visas i området Översikt i objektets informationsavsnitt och som inte går att redigera. Icke-redigerbara fält är fält som användare inte kan redigera manuellt. De beräknas automatiskt av Workfront.
-   >
-   >* Du kan lägga till redigerbara fält som redan ingår i standardrubrikerna (till exempel Projektägare, Status, Procent färdigt, Uppdrag).
+   >* Du kan lägga till anpassade fält eller andra inbyggda fält som är tillgängliga i området Översikt i avsnittet Detaljer för ett objekt. Endast problem har till exempel fältet Allvarlighetsgrad och det fältet är inte tillgängligt att lägga till i projekt eller uppgifter.
    >
    >* När du lägger till fältet &quot;Löst av&quot; i huvudet på ett problem, ändras fältet till &quot;Lösa problem, Aktivitet eller Projekt&quot;, när det finns ett matchande objekt kopplat till problemet.
 
-
    ![Lägg till fält i rubrik](assets/add-field-to-header-in-lt-list.png)
-
 
 1. (Valfritt) Dra och släpp fälten i en annan ordning.
 
