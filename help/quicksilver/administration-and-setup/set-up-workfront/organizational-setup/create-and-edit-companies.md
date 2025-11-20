@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 5d7cc28ebb1c7d7401a60ef4fc383fc90ed20631
+source-git-commit: 0d79b04c58d6a0a1c8de7f83d7b941e75b1a88f5
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1425'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningens sandlådemiljö och släpps i en fasad utrullning till produktion.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 Ett företag är en organisationsenhet i [!DNL Adobe Workfront] som kan representera din organisation, en avdelning inom organisationen eller en klient som du arbetar med. Du kan lägga till företag i [!DNL Workfront] och använda dem för ekonomisk planering, rapportering, för att definiera behörigheter runt objekt och för att hålla information konfidentiell.
 
@@ -105,9 +105,9 @@ Så här lägger du till eller redigerar ett företag:
 
 1. Uppdatera följande information i avsnittet **Grundläggande information**:
 
-   * **Företagsnamn** <span class="preview"> eller **Namn**</span>: Ange ett namn för företaget.
+   * **Namn**: Ange ett namn för företaget.
    * **Är aktiv**: När det här alternativet är aktiverat kan användare hitta företaget och bifoga det till projekt som de skapar och redigerar. Ett inaktivt företag kan inte bifogas till projekt. Det här alternativet är aktiverat som standard.
-   * **Det här är det primära företaget** <span class="preview"> eller **Är primärt**</span>: Tilldelar företaget som din organisations primära företag. Det primära företaget representerar vanligtvis ditt Workfront-konto där de flesta av dina användare arbetar.
+   * **Är primär**: Tilldelar företaget som din organisations primära företag. Det primära företaget representerar vanligtvis ditt Workfront-konto där de flesta av dina användare arbetar.
 
      Du kan ha ett företag eller inget företag angivet som primärt företag, men du kan inte ha flera företag angivna som primärföretag. Mer information finns i [Skapa och ändra anpassade åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -141,11 +141,7 @@ Så här lägger du till eller redigerar ett företag:
 
    Mer information om hur du skapar anpassade formulär finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. (Villkorligt) Om du skapar ett företag klickar du på **[!UICONTROL Create Company]** <span class="preview">eller **Spara**.</span>
-
-   eller
-
-   Om du redigerar ett befintligt företag klickar du på **[!UICONTROL Save Changes]** <span class="preview">eller **Spara**.</span>
+1. Klicka på **Spara**.
 
 ## Ta bort företag
 
@@ -179,13 +175,9 @@ Mer information om att dela objekt finns i [Översikt över delningsbehörighete
 
 När en [!DNL Workfront]-administratör tilldelar en grupp till ett företag får gruppadministratörerna för gruppen [!UICONTROL Manage] åtkomst till företaget i [!UICONTROL Setup]. Detta inkluderar åtkomst till sidan [!UICONTROL Companies] i [!UICONTROL Setup], där de kan se och hantera det företag som är associerat med deras grupp.
 
-Med den här åtkomsten till sidan [!UICONTROL Companies] kan en gruppadministratör tilldela en grupp till ett företag, men det måste vara ett företag som gruppadministratören har skapat. Om gruppadministratörens åtkomstnivå inte är konfigurerad med administrativ åtkomst till företag, krävs fältet [!UICONTROL Group] när gruppadministratören skapar företaget - dess <span class="preview"> asterisk </span> eller rubrik med fetstil anger detta:
+Med den här åtkomsten till sidan [!UICONTROL Companies] kan en gruppadministratör tilldela en grupp till ett företag, men det måste vara ett företag som gruppadministratören har skapat. Om gruppadministratörens åtkomstnivå inte har konfigurerats med administrativ åtkomst till företag, krävs fältet [!UICONTROL Group] när gruppadministratören skapar företaget. Asterisken anger följande:
 
-<span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
 ![Ny företagsdialog med grupp krävs](assets/group-admin-add-company-group-required.png)
-
-Exempelbild i produktionsmiljön:
-![Grupp krävs för företag](assets/group-admin-add-company.png)
 
 Mer information om hur användare får administrativ åtkomst till företag på åtkomstnivå finns i [Bevilja användare administrativ åtkomst till vissa områden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
