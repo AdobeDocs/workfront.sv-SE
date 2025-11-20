@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 9507e04be7cdd33658b4958f3030b0d3359a9ef1
+source-git-commit: edc83693ef068e50aed06324f006cd8aa70ac019
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,8 @@ Om du redan har markerat fem fält måste du ta bort ett fält innan du kan läg
    >[!TIP]
    >
    >* Du kan lägga till anpassade fält eller andra inbyggda fält som är tillgängliga i området Översikt i avsnittet Detaljer för ett objekt. Endast problem har till exempel fältet Allvarlighetsgrad och det fältet är inte tillgängligt att lägga till i projekt eller uppgifter.
+   >
+   >* När en användare redigerar ett anpassat fält i huvudet och det finns i ett anpassat formulär som inte är kopplat till objektet, läggs det anpassade formuläret automatiskt till objektet.
    >
    >* När du lägger till fältet &quot;Löst av&quot; i huvudet på ett problem, ändras fältet till &quot;Lösa problem, Aktivitet eller Projekt&quot;, när det finns ett matchande objekt kopplat till problemet.
 
