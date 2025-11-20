@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 40722f2b-f8b2-4dc5-805e-2b434a0d46c3
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: f4043daeb7a7dad84b6232b5ac133fd59ca64292
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -51,8 +51,25 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 ## Ta reda på vilka anpassade formulär som använder ett visst anpassat fält eller en viss widget
 
+Så här visar du hur ett fält används i listan över alla anpassade fält:
+
 {{step-1-to-setup}}
 
 1. Klicka på **Anpassad Forms** i den vänstra panelen.
 1. Klicka på **Fält**, leta efter fältet eller widgeten i kolumnen **Namn** och visa sedan kolumnen **Forms** för att se vilka anpassade formulär som använder fältet eller widgeten.
 1. (Valfritt) Klicka på namnet på något av dessa anpassade formulär för att gå till formuläret och fundera på vilka ändringar du behöver göra där om du ändrar fältet eller widgeten.
+
+Så här ser du hur ett fält används i ett anpassat formulär:
+
+{{step-1-to-setup}}
+
+1. Klicka på **Anpassad Forms** i den vänstra panelen.
+1. Öppna ett anpassat formulär och lägg till ett fält från biblioteket eller markera ett befintligt fält i formuläret.
+
+   Användningsindikatorn till höger om formulärdesignern visar hur många andra anpassade formulär som använder det här fältet.
+
+1. Klicka på **Visa relaterade Forms**.
+
+   I formulärlistan kan du klicka på ett formulärnamn för att öppna formuläret och se hur fältet används. En indikator visar om varje formulär är aktivt eller inaktivt.
+
+
