@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: b68b15f7c36b9988a2fd4f34d0e8b8c3c8ce2908
+source-git-commit: 019c3246edf14f8ceafefbd80ca2c3d509b6ca6b
 workflow-type: tm+mt
-source-wordcount: '13570'
+source-wordcount: '13590'
 ht-degree: 0%
 
 ---
@@ -229,6 +229,9 @@ ht-degree: 0%
          * [Andra utgåvan för kvartal 2025 för Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
          * [Första utgåvan av kvartal 2025 för Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
          * [Versionsaktivitet fjärde kvartalet 2024 för Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
+      * Adobe Workfront-byråer släpper aktivitet{#agencies-release-activity}
+         * [Versionsaktivitet för Adobe Workfront](/help/quicksilver/product-announcements/product-releases/agencies-release-activity/agencies-release-activity-article-index.md)
+         * [Första utgåvan, kvartal 2026, för Adobe Workfront myndighetsfunktioner](/help/quicksilver/product-announcements/product-releases/agencies-release-activity/agencies-release-activity-26-q1.md)
       * Versionsaktivitet för Adobe Workfront Scenario Planner {#scenario-planner-release}
          * [Versionsaktivitet för Adobe Workfront Scenario Planner](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
          * [Adobe Workfront Scenario Planner med version 21.3](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
