@@ -6,7 +6,7 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 21cab3964ffd79b4b58835fcb992f59eefee78ee
+source-git-commit: 0964ad24535bf43a23c740cd63abcf8fea705b8d
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 0%
@@ -27,7 +27,7 @@ En lista över alla funktioner som släppts för Adobe Workfront Planning finns 
 >
 >Förhandsgranska: 13 november 2025
 >Production fast release: 13 november 2025
->Produktion för alla: 13 november 2026
+>Produktion för alla: 13 november 2025
 
 Nu kan du koppla posttyper för Workfront Planning till varumärken från Adobe GenStudio for Performance Marketing. Organisationen måste ha både Workfront Planning och Adobe GenStudio for Performance Marketing.
 
