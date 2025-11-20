@@ -4,9 +4,9 @@ description: Förbättringar av integreringar för första kvartalet 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 81e95c6ebab98ad67d0364d0f3b7a63ce4568498
+source-git-commit: 192df9ef08f75b3a6a6e9a50908b6da6e861bdd6
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,16 @@ Den här sidan beskriver integreringsförbättringar som gjorts i den första ut
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den första utgåvan av kvartal 2026 finns i [Översikt över utgåvan första kvartalet 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+## Uppdaterad resursväljare för integrering av Adobe Workfront för Experience Manager Assets
+
+
+>[!NOTE]
+>
+>Förhandsgranska: 20 november 2025
+>Production fast release: 11 december 2025\
+>Produktion för alla: 16 januari 2026
+
+Vi har uppgraderat resursväljaren i Adobe Workfront för Experience Manager Assets-integrering. Med den här uppgraderingen kan du nu välja och hämta AEM Collections direkt till Workfront.
 
 ## Nu finns en ny version av Salesforce-integreringen
 
