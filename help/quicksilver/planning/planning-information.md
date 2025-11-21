@@ -1,14 +1,15 @@
 ---
 title: Allmän information om Adobe Workfront Planning
 description: Som marknadsledare kan ni använda Adobe Workfront Planning för att organisera arbetet under hela marknadsföringscykeln för alla era team. I artiklarna i det här avsnittet beskrivs hur du kan konfigurera planeringsfunktionerna och hur du kan börja använda dem som en del av kampanjhanteringsåtgärderna.
+short-description: Använd dokumenten och extraresurserna för att lära dig att implementera och effektivt använda Adobe Workfront Planning i er organisation.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: ddb72bcf8e1a330e39f1e52a1d89d9478a7afb98
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -87,7 +88,7 @@ Följande avsnitt innehåller artiklar som i detalj beskriver de funktioner som 
 
 * [Grunderna i Adobe Workfront Planning API](/help/quicksilver/planning/general/planning-api-basics.md): Målet för Adobe Workfront Planning API är att förenkla byggintegreringar med Planning genom att införa en REST-full arkitektur som fungerar över HTTP.
 
-* [Adobe Workfront planeringsmoduler för Workfront Fusion](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Med Adobe Workfront Planning-modulerna kan du utlösa ett scenario när händelser inträffar i Workfront Planning. Du kan också skapa, läsa, uppdatera och ta bort poster eller utföra ett anpassat API-anrop till ditt Adobe Workfront Planning-konto.
+* [Adobe Workfront planeringsmoduler för Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Med Adobe Workfront Planning-modulerna kan du utlösa ett scenario när händelser inträffar i Workfront Planning. Du kan också skapa, läsa, uppdatera och ta bort poster eller utföra ett anpassat API-anrop till ditt Adobe Workfront Planning-konto.
 
 * [Adobe Workfront Planning AI Assistant - översikt](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Med Workfront AI Assistant för Planning kan du söka efter poster eller skapa, uppdatera och ta bort poster med kommandon och låta assistenten utföra arbetet åt dig.
 
