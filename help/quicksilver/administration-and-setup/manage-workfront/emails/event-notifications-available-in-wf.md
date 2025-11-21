@@ -171,7 +171,7 @@ Se även [Meddelanden: Åtgärd krävs](../../../workfront-basics/using-notifica
 
 ## Begäranden jag gjort
 
-Se även [Meddelanden: Jag har gjort ](../../../workfront-basics/using-notifications/notifications-requests-i-have-made.md) förfrågningar.
+Se även [Meddelanden: Jag har gjort &#x200B;](../../../workfront-basics/using-notifications/notifications-requests-i-have-made.md) förfrågningar.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -535,7 +535,7 @@ Se även [Meddelanden: Information om arbete som tilldelats mig](../../../workfr
 
 ## Information om projekt som jag är på
 
-Se även [Meddelanden: Information om projekt som jag är på ](../../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md).
+Se även [Meddelanden: Information om projekt som jag är på &#x200B;](../../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md).
 
 <table style="table-layout:auto"> 
  <col> 
