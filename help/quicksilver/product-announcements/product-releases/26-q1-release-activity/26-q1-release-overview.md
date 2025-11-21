@@ -4,9 +4,9 @@ description: Den här sidan innehåller information om de funktioner som ingår 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 203ff7855649c968c52d74ef0ee7581a1439aa47
+source-git-commit: bd2d6fcf9e7a724914e8005cffc455fc6979f611
 workflow-type: tm+mt
-source-wordcount: '1740'
+source-wordcount: '1930'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Administratörsförbättringar](#administrator-enhancements)
 * [Förbättringar av dokument och godkännanden](#documents-and-approvals-enhancements)
 * [Integration enhancements](#integration-enhancements)
-* [Rapporteringsförbättringar](#reporting-enhancements)
-  <!--* [Requests enhancements](#requests-enhancements)-->
+* [Rapportförbättringar](#reporting-enhancements)
+* [Förbättrade begäranden](#requests-enhancements)
 * [Andra förbättringar](#other-enhancements)
 
 ### Administratörsförbättringar
@@ -162,7 +162,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplicera en rapport på en arbetsytans kontrollpanel</a><p>![!BADGE Off schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplicera en rapport på en arbetsytans kontrollpanel</a><p>![BADGE Off schedule]{type=Neutral}</p>
             <p>Du kan nu duplicera en KPI-, tabell- eller diagramrapport på en Canvas Dashboard när den har skapats. När du har duplicerat rapporten kan du redigera den efter behov innan du sparar den.</p>
         </td>
         <td>23 oktober 2025</td>
@@ -212,55 +212,55 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
-<!--### Requests enhancements
+### Förbättrade begäranden
 
 <table style="table-layout:auto">
   <tbody>
    <tr>
-        <td><strong>Feature</strong>
+        <td><strong>Funktion</strong>
         </td>
-        <td><strong>Preview</strong></td>
-        <td><strong>Fast release</strong></td>
-        <td><strong>Quarterly</strong></td>
+        <td><strong>Förhandsgranska</strong></td>
+        <td><strong>Snabb release</strong></td>
+        <td><strong>kvartalsvis</strong></td>
     </tr>
      <tr>
         <td>
-            <a href="help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Save drafts of requests in the new requesting experience</a>
-            <p>To make it easier to create and submit requests, we've added the ability to save drafts to the new requesting experience. Now, when you begin filling out a request and close it, the request is saved in Draft status and can be found in your request list. You can then reopen, update, and submit the draft at your convenience. </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Spara utkast av begäranden i den nya begärande upplevelsen</a>
+            <p>För att göra det enklare att skapa och skicka begäranden har vi lagt till möjligheten att spara utkast till den nya begärandeupplevelsen. När du nu börjar fylla i en begäran och stänger den, sparas den i utkaststatus och finns på det begärandeformulär som användes för att skapa utkastet. Du kan sedan öppna, uppdatera och skicka utkastet när det passar. </p>
         </td>
-        <td>November 20, 2025</td>
-        <td>December 11, 2025</td>
-        <td>January 15, 2026</td>
+        <td>20 november 2025</td>
+        <td>11 december 2025</td>
+        <td>15 januari 2026</td>
     </tr>  
         <tr>
         <td>
-            <a href="help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Delete submitted requests in the new requesting experience</a>
-            <p>To make it easier to keep your requests organized and uncluttered, we've added the ability to delete requests to the new requesting experience. Now, you can delete requests that you have submitted. Workfront Administrators and Workfront Planning Workspace administrators can also delete requests.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Ta bort skickade begäranden i den nya begärandeupplevelsen</a>
+            <p>För att göra det enklare att hålla ordning på och reda på dina förfrågningar har vi lagt till möjligheten att ta bort förfrågningar till den nya begärande upplevelsen. Nu kan du ta bort begäranden som du har skickat in. Workfront-administratörer och Workfront Planning Workspace-administratörer kan även ta bort begäranden.</p>
         </td>
-        <td>November 20, 2025</td>
-        <td>December 11, 2025</td>
-        <td>January 15, 2026</td>
+        <td>20 november 2025</td>
+        <td>11 december 2025</td>
+        <td>15 januari 2026</td>
     </tr>   
-        <tr>
+<!--        <tr>
         <td>
-            <a href="help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Share views in the Requests area and the My Requests widget</a>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Share views in the Requests area and the My Requests widget</a>
             <p>To make it easier to ensure to see the information you need, we've added the ability to share views to the new reporting experience. Now, you can share views with other users, teams, or groups. </p>
         </td>
         <td>November 20, 2025</td>
         <td>December 11, 2025</td>
         <td>January 15, 2026</td>
-    </tr>   
+    </tr>   -->
         <tr>
         <td>
-            <a href="help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Create new requests by copying previously submitted requests in the new requesting experience</a>
-            <p>To make it easier to submit requests, we've added the ability to copy requests to the new requesting experience. Now, you can copy a request, edit any fields, and submit it as a new request. </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Skapa nya begäranden genom att kopiera tidigare skickade begäranden i den nya begärande upplevelsen</a>
+            <p>För att förenkla inlämningen av begäranden har vi lagt till möjligheten att kopiera förfrågningar till den nya begärande upplevelsen. Nu kan du kopiera en förfrågan, redigera fält och skicka in den som en ny begäran. </p>
         </td>
-        <td>November 20, 2025</td>
-        <td>December 11, 2025</td>
-        <td>January 15, 2026</td>
+        <td>20 november 2025</td>
+        <td>11 december 2025</td>
+        <td>15 januari 2026</td>
     </tr>    
   </tbody>
-</table> -->
+</table>
 
 ### Andra förbättringar
 
@@ -317,7 +317,7 @@ Vi uppdaterar gränssnittet i hela Adobe Workfront för att förbättra använda
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Förbättringar av Workfront Planning
 
@@ -380,13 +380,13 @@ För att kunna leverera mer stabila och skalbara integreringar går vi över til
 * Workfront för Salesforce.
 
 Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Google Workspace.
-En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Underhållsuppdateringar för Workfront
 
-Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=sv-SE).
+Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan &#x200B;](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=sv-SE).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).

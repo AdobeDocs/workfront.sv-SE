@@ -6,9 +6,9 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 203ff7855649c968c52d74ef0ee7581a1439aa47
+source-git-commit: f38c10a187367570739f65961f945450b7b9b5de
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 >Production fast release: 11 december 2025\
 >Produktion för alla: 16 januari 2026
 
-För att göra det enklare att skapa och skicka begäranden har vi lagt till möjligheten att spara utkast till den nya begärandeupplevelsen. När du nu börjar fylla i en begäran och stänger den, sparas den i utkaststatus och finns i din begärandelista. Du kan sedan öppna, uppdatera och skicka utkastet när det passar.
+För att göra det enklare att skapa och skicka begäranden har vi lagt till möjligheten att spara utkast till den nya begärandeupplevelsen. När du nu börjar fylla i en begäran och stänger den, sparas den i utkaststatus och finns på det begärandeformulär som användes för att skapa utkastet. Du kan sedan öppna, uppdatera och skicka utkastet när det passar.
 
 Tidigare var den här funktionen inte tillgänglig i den nya upplevelsen för begärande.
 
-Utkast som har skapats i den tidigare begärande upplevelsen är tillgängliga i den nya begärande upplevelsen. Du kan hitta dem i listan över förfrågningar.
+Utkast som har skapats i den tidigare begärande upplevelsen är tillgängliga i den nya begärande upplevelsen.
 
 Mer information om utkast till begäranden finns i [Skapa begäranden från utkast](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md).
 
@@ -49,19 +49,23 @@ Det gick inte att ta bort begäranden tidigare.
 
 Mer information och instruktioner finns i [Ta bort en skickad begäran eller ett utkast av en begäran](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md).
 
-## Dela vyer i området Förfrågningar och i widgeten Mina förfrågningar
+<!--
+
+## Share views in the Requests area and the My Requests widget
 
 >[!NOTE]
 >
->Förhandsgranska: 20 november 2025
->Production fast release: 11 december 2025\
->Produktion för alla: 16 januari 2026
+>Preview: November 20, 2025 
+>Production fast release: December 11, 2025  
+>Production for everyone: January 16, 2026  
 
-För att göra det enklare att se den information du behöver har vi lagt till möjligheten att dela vyer till den nya rapportupplevelsen. Nu kan du dela vyer med andra användare, team eller grupper.
+To make it easier to ensure to see the information you need, we've added the ability to share views to the new reporting experience. Now, you can share views with other users, teams, or groups.
 
-Du kan dela begärandelistvyer både från området Förfrågningar i Workfront och från widgeten Mina förfrågningar i Hem. Delningsfunktionerna är identiska på båda platserna, och visningsinställningarna, inklusive delning, bevaras när du flyttar mellan widgeten Mina förfrågningar och området Förfrågningar.
+You can share request list views from both the Requests area in Workfront and the My Requests widget in Home. Sharing functionality is identical in both places, and view settings, including sharing, are preserved when moving between the My Requests widget and the Requests area.
 
-Mer information om begärandevyer, inklusive delning, finns i [Skapa och hantera vyer i området Förfrågningar](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+For information on request views, including sharing, see [Create and manage views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+
+-->
 
 ## Skapa nya begäranden genom att kopiera tidigare skickade begäranden i den nya begärandeupplevelsen
 
