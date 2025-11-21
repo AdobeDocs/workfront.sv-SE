@@ -6,20 +6,21 @@ description: Du kan skicka begäranden i widgeten Mina förfrågningar. Du kan o
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: 59a53f7355032810a05fce2d3f0dfe30d64bbd40
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
 
 # Använda widgeten Mina förfrågningar
 
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 >[!IMPORTANT]
 >
 >Den här artikeln beskriver den nya widgeten Mina förfrågningar. Du måste ha den nya upplevelsen som begär aktiverad för att kunna se den nya widgeten.
->&#x200B;>Du kan aktivera den nya begärandeupplevelsen i området Förfrågningar.
+>Du kan aktivera den nya begärandeupplevelsen i området Förfrågningar.
 
 Widgeten Mina förfrågningar visar förfrågningar som har skickats till din organisation. Du kan filtrera förfrågningar, söka efter specifika förfrågningar eller justera kolumnordningen och synligheten. Du kan också skapa en ny begäran från widgeten Mina förfrågningar.
 
@@ -63,11 +64,21 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 +++
 
-## Skapa en förfrågan
+## Skapa en ny begäran
 
 Du kan skapa en begäran direkt från widgeten Mina förfrågningar.
 
 Instruktioner finns i [Skapa en begäran](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request) i artikeln Skapa arbetsobjekt och projekt från Hem-området.
+
+<div class="preview">
+
+## Kopiera en begäran
+
+Du kan kopiera en begäran i widgeten Mina förfrågningar, redigera den och skicka den som en ny begäran.
+
+Instruktioner finns i [Kopiera och skicka begäranden i den nya begärandeupplevelsen](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience) i artikeln Kopiera och skicka.
+
+</div>
 
 ## Filterförfrågningar
 
@@ -120,7 +131,7 @@ Så här justerar du kolumnerna på widgeten Mina förfrågningar:
 1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
 1. (Villkorligt) Om du vill lägga till widgeten **Mina förfrågningar** på hemskärmen. Klicka på **Anpassa** och sök efter **Mina förfrågningar**.
 1. Klicka på **Kolumner** i widgeten Mina förfrågningar.
-1. (Valfritt) Om du vill ändra ordning på kolumnerna klickar du på draghandtaget ![drar &#x200B;](assets/drag-handle.png) i den kolumn som du vill flytta och drar den till önskad plats. Kolumnen högst upp i listan visas i widgeten Mina förfrågningar som kolumnen längst till vänster.
+1. (Valfritt) Om du vill ändra ordning på kolumnerna klickar du på draghandtaget ![drar ](assets/drag-handle.png) i den kolumn som du vill flytta och drar den till önskad plats. Kolumnen högst upp i listan visas i widgeten Mina förfrågningar som kolumnen längst till vänster.
 1. (Valfritt) Använd växlingsknappen för att kontrollera om en kolumn visas i widgeten Mina förfrågningar.
 
 Kolumninställningarna sparas automatiskt.

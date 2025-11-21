@@ -6,14 +6,17 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: 59a53f7355032810a05fce2d3f0dfe30d64bbd40
 workflow-type: tm+mt
-source-wordcount: '1338'
+source-wordcount: '1578'
 ht-degree: 0%
 
 ---
 
 # Kopiera och skicka begäranden
+
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 När du skickar in liknande begäranden ofta kan du kopiera en befintlig skickad begäran. I det här fallet kan du kopiera en befintlig begäran, göra minimala ändringar i den och skicka den igen som en ny begäran.
 
@@ -91,7 +94,7 @@ Du måste ha en begäran om att du eller någon i din organisation som tidigare 
   >
   >Den kopierade begäran är inte länkad till ett matchande objekt.
 
-## Kopiera och skicka begäranden
+## Kopiera och skicka begäranden i den äldre begärande upplevelsen
 
 {{step1-to-requests}}
 
@@ -220,3 +223,44 @@ Du måste ha en begäran om att du eller någon i din organisation som tidigare 
 1. Klicka på **Skicka**.
 
    Den kopierade begäran skickas som en ny begäran i den begärandekö som du angav.
+
+<div class="preview">
+
+## Kopiera och skicka begäranden i den nya begärandeupplevelsen
+
+Du kan kopiera och skicka begäranden i området Förfrågningar i Workfront eller från widgeten Mina förfrågningar i Hem.
+
+1. Om du vill få åtkomst till listan över förfrågningar klickar du på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klickar du på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och sedan på **[!UICONTROL Requests]**.
+
+1. Så här öppnar du widgeten Mina förfrågningar i Hem:
+
+   1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Home]**.
+   1. Leta reda på widgeten Mina förfrågningar.
+
+      Mer information om widgeten Mina förfrågningar finns i [Använd widgeten Mina förfrågningar](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. I listan Begäranden eller i widgeten Mina förfrågningar för du muspekaren över den förfrågan som du vill kopiera.
+
+   Menyn Mer med tre punkter visas.
+   ![](assets/more-menu.png)
+
+1. Klicka på menyn **Mer** till höger om namnet på begäran och klicka sedan på **Kopiera**.
+
+   eller
+
+   Högerklicka på den markerade begäran och klicka sedan på **Kopiera**.
+
+   >[!TIP]
+   >
+   >Om du inte har behörighet att skapa problem får du en varning om att administratören har begränsat dig från att skapa förfrågningar.
+
+1. (Valfritt) Uppdatera eventuell information från den kopierade begäran. Vilka fält som är tillgängliga beror på begärandekön eller vilket begärandeformulär som används för begäran.
+
+   <!--When you enter or change any field values in the copied request, it is saved as a draft.-->
+
+1. Klicka på **Skicka**.
+
+   Den kopierade begäran skickas som en ny begäran.
+
+</div>
+
