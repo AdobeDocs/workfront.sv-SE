@@ -6,14 +6,16 @@ description: Förutom att använda tillgängliga utkast som Workfront föreslår
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: 38843e2c093d5af9d74d8b4442fd28e194996e8d
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '840'
 ht-degree: 0%
 
 ---
 
 # Skapa begäranden från utkast
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Förutom att använda tillgängliga utkast som Workfront föreslår när du anger en ny begäran, kan du även få åtkomst till ett utkast från sektionen Utkast och slutföra den därifrån.
 
@@ -52,13 +54,55 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 ## Krav för att skapa begäranden från utkast
 
-Du måste göra följande innan du kan skapa en begäran från ett utkast: 
+Du måste göra följande innan du kan skapa en begäran från ett utkast:
 
 * Börja skapa en begäran. Då sparas begäran som ett utkast automatiskt i avsnittet Utkast.
 
   Mer information om hur du skapar begäranden finns i [Skapa och skicka Adobe Workfront-begäranden](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
 ## Skapa begäranden från utkast
+
+Hur du skapar begäranden från utkast skiljer sig mellan den nya begärande upplevelsen och den äldre upplevelsen.
+
+* <span class="preview">[Skapa begäranden från utkast i den nya begärande upplevelsen](#create-requests-from-drafts-in-the-new-requesting-experience)</span>
+* [Skapa förfrågningar från utkast i den gamla begärande upplevelsen](#create-requests-from-drafts-in-the-legacy-requesting-experience)
+
+<div class="preview">
+
+### Skapa förfrågningar från utkast i den nya begärande upplevelsen
+
+
+
+<!--
+   
+1. Open the draft.
+
+   Drafts can be found in the following locations:
+
+   * In the requests list in the Requests area
+   * In the requests list in the My Requests widget in Home
+   * In the New request dialog (includes only drafts of requests created with the selected form)
+   
+-->
+1. Öppna utkastet.
+
+   Utkast finns i dialogrutan Ny begäran (innehåller endast utkast av begäranden som skapats med det valda formuläret).
+1. Uppdatera informationen för begäran enligt beskrivningen i [Skapa och skicka Adobe Workfront-begäranden](../../../manage-work/requests/create-requests/create-submit-requests.md).
+1. (Valfritt och villkorligt) Klicka på **Ignorera** utkast när du vill ta bort utkastet. Då tas utkastet bort.
+
+   Om du har ignorerat utkastet av misstag kan du omedelbart klicka på **Ångra** i meddelandet längst ned på skärmen. Det här alternativet är bara tillgängligt i några sekunder.
+
+   Mer information om hur du tar bort utkast finns i [Ta bort en skickad begäran eller ett begärandeutkast](../../../manage-work/requests/create-requests/delete-request-draft.md).
+
+1. (Valfritt) Om du vill spara ändringar i utkastet utan att skicka det, lämnar du sidan Ny begäran. Ändringarna sparas automatiskt.
+
+1. När du är klar med informationen för begäran klickar du på **Skicka**.
+
+   När du skickar begäran tas utkastet bort och kan inte återställas.
+
+</div>
+
+### Skapa förfrågningar från utkast i den gamla begärande upplevelsen
 
 {{step1-to-requests}}
 
