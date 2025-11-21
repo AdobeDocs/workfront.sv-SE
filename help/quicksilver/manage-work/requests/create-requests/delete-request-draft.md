@@ -1,28 +1,30 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Ta bort ett begärandeutkast
-description: Du kan ta bort utkast av begäranden medan du skapar dem genom att ta bort dem.
+title: Ta bort en skickad begäran om utkast
+description: Du kan ta bort skickade begäranden eller begära utkast.
 author: Becky
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: 8b08336431d2e4ebfcb078d8329f8748fac66eda
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '609'
 ht-degree: 0%
 
 ---
 
-# Ta bort ett begärandeutkast
+# Ta bort en skickad begäran eller en begäran om utkast
 
-Du kan ta bort utkast av begäranden medan du skapar dem genom att ta bort dem.
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön för alla kunder, eller i produktionsmiljön för kunder som aktiverat snabba versioner.</span>
+
+Du kan ta bort skickade begäranden eller begära utkast som du skapade i den nya begärandeupplevelsen. Workfront-administratörer och administratörer av arbetsytan Planning kan även ta bort begäranden.
+
+I den tidigare begärande upplevelsen kan du ta bort utkast av begäranden. Du kan inte ta bort skickade begäranden.
 
 Mer information finns i:
 
 * [Skapa och skicka Adobe Workfront-förfrågningar](../../../manage-work/requests/create-requests/create-submit-requests.md)
 * [Skapa begäranden från utkast](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)
-
-Du kan ta bort utkast när de har sparats som utkast om du inte längre tycker att de är relevanta. Du kan inte återställa borttagna utkastbegäranden.
 
 ## Åtkomstkrav
 
@@ -44,7 +46,11 @@ Du kan ta bort utkast när de har sparats som utkast om du inte längre tycker a
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Redigera åtkomst till problem</p>  </td> 
+   <td> <p>Du måste vara Workfront-administratör eller administratör för arbetsytan Planering för att kunna ta bort begäranden som du inte har skapat.</p><p>Du måste ha redigeringsbehörighet för ärenden för att kunna ta bort utkast i den tidigare begärande upplevelsen.</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objektbehörigheter</td> 
+   <td> <p>Du måste ha skapat begäran eller utkastet för att kunna ta bort det i den nya begärandeupplevelsen.</p><p>Du måste ha redigeringsbehörighet för ärenden för att kunna ta bort utkast i den tidigare begärande upplevelsen.</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> Produkt</td> 
@@ -57,7 +63,54 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 +++
 
-## Krav för att ta bort utkast för begäranden
+
+<div class="preview">
+
+## Ta bort begäranden <!--or request drafts -->i den nya begärande upplevelsen
+
+Du kan ta bort begäranden under Förfrågningar i Workfront eller i widgeten Mina förfrågningar i Hem.
+
+* Workfront-administratörer kan ta bort begäranden <!-- and drafts--> i sin organisation.
+* Administratörer för arbetsytan för Workfront Planning kan ta bort begäranden <!--and drafts--> på den planeringsyta som de administrerar.
+* Användare kan ta bort begäranden <!--and drafts--> som de har skickat.
+
+Så här tar du bort en begäran eller ett utkast i den nya begärande upplevelsen:
+
+1. Om du vill få åtkomst till listan över förfrågningar klickar du på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klickar du på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och sedan på **[!UICONTROL Requests]**.
+
+1. Så här öppnar du widgeten Mina förfrågningar i Hem:
+
+   1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Home]**.
+   1. Leta reda på widgeten Mina förfrågningar.
+
+      Mer information om widgeten Mina förfrågningar finns i [Använd widgeten Mina förfrågningar](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. I listan över förfrågningar eller i widgeten Mina förfrågningar håller du muspekaren över den förfrågan <!--or draft --> som du vill ta bort.
+
+   Menyn Mer med tre punkter visas.
+   ![](assets/more-menu.png)
+
+1. Klicka på menyn **Mer** till höger om namnet på begäran <!--or draft--> och klicka sedan på **Ta bort**.
+
+   eller
+
+   Högerklicka på den markerade begäran och klicka sedan på **Ta bort**.
+
+   >[!TIP]
+   >
+   >Om du inte har behörighet att skapa problem får du en varning om att administratören har begränsat dig från att skapa förfrågningar.
+
+1. Klicka på **Ta bort** i den dialogruta som öppnas.
+
+   Begäran <!--or draft--> har tagits bort.
+
+</div>
+
+## Ta bort utkast av begäranden i den tidigare begärande upplevelsen
+
+Du kan ta bort utkast när de har sparats som utkast om du inte längre tycker att de är relevanta. Du kan inte återställa borttagna utkastbegäranden.
+
+### Krav för att ta bort utkast för begäranden
 
 Du måste göra följande innan du kan ta bort ett begärandeutkast:
 
@@ -65,7 +118,7 @@ Du måste göra följande innan du kan ta bort ett begärandeutkast:
 
   Mer information om hur du skapar begäranden finns i [Skapa och skicka Adobe Workfront-begäranden](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-## Ta bort ett begärandeutkast
+### Ta bort ett begärandeutkast
 
 {{step1-to-requests}}
 

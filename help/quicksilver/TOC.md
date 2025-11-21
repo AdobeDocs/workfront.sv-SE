@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: bd0c365fcf5431a6b540d302385315d28688e558
+source-git-commit: 0c13d3da9e42085bfa1db5a0fb2227c23b8b40be
 workflow-type: tm+mt
-source-wordcount: '13594'
+source-wordcount: '13597'
 ht-degree: 0%
 
 ---
@@ -1493,7 +1493,7 @@ ht-degree: 0%
          * [Gör det möjligt för användare att skicka ett ärende via e-post till ett begärandeköprojekt](manage-work/requests/create-requests/enable-email-issues-into-projects.md)
          * [Sök efter skickade begäranden](manage-work/requests/create-requests/locate-submitted-requests.md)
          * [Dela en länk till en begärandekö](manage-work/requests/create-requests/share-link-to-request-queue.md)
-         * [Ta bort ett begärandeutkast](manage-work/requests/create-requests/delete-request-draft.md)
+         * [Ta bort en skickad begäran eller en begäran om utkast](manage-work/requests/create-requests/delete-request-draft.md)
          * [Kopiera och skicka begäranden](manage-work/requests/create-requests/copy-and-submit-requests.md)
          * [Fyll i en begäran automatiskt från tidigare data](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
          * [Autofyll en begäran med uppmaningar eller dokument](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
