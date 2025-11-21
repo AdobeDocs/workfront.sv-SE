@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: f3016e77f086d221dc11398ec06cc7435ad82278
 workflow-type: tm+mt
-source-wordcount: '5201'
+source-wordcount: '5237'
 ht-degree: 0%
 
 ---
@@ -171,7 +171,7 @@ Se även [Meddelanden: Åtgärd krävs](../../../workfront-basics/using-notifica
 
 ## Begäranden jag gjort
 
-Se även [Meddelanden: Jag har gjort &#x200B;](../../../workfront-basics/using-notifications/notifications-requests-i-have-made.md) förfrågningar.
+Se även [Meddelanden: Jag har gjort ](../../../workfront-basics/using-notifications/notifications-requests-i-have-made.md) förfrågningar.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -256,7 +256,7 @@ Se även [Meddelanden: Jag har gjort &#x200B;](../../../workfront-basics/using-n
    <td> <p>Dokument</p> </td> 
    <td> <p>Begär dokumenttillägg</p> </td> 
    <td> <p>Utfärda primär kontakt</p> </td> 
-   <td> <p>Ett dokument ändras eller överförs vid ett problem som jag är primär kontakt för.</p> <p>Den primära kontakten får ett e-postmeddelande när ett dokument överförs eller ändras i frågan, såvida inte den användare som överförde eller ändrade dokumentet också är den primära kontakten.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell och om projektet har "Publish som hjälpbegärandekö" aktiverat på fliken Köinställningar.</p> </td> 
+   <td> <p>Ett dokument ändras eller överförs vid ett problem som jag är primär kontakt för.</p> <p>Den primära kontakten får ett e-postmeddelande när ett dokument överförs eller ändras i frågan, såvida inte den användare som överförde eller ändrade dokumentet också är den primära kontakten.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell och om projektet har "Publicera som hjälpbegärandekö" aktiverat på fliken Köinställningar.</p> </td> 
    <td> <p>Aktiv (endast dagligen)</p> </td> 
   </tr> 
   <tr> 
@@ -301,7 +301,7 @@ Se även [Meddelanden: kommunikation](../../../workfront-basics/using-notificati
    <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Anteckning</p> </td> 
+   <td> <p>Obs</p> </td> 
    <td> <p>Lägg till anteckning</p> </td> 
    <td> <p>Utfärda primär kontakt</p> </td> 
    <td> <p>När en kommentar har publicerats på en förfrågan skickar du den primära kontakten via e-post.</p> <p>Den primära kontakten för en utgåva får ett e-postmeddelande när en kommentar publiceras på en förfrågan, såvida inte den användare som publicerade kommentaren också är den primära kontakten för utgåvan.</p> <p>Alla användare som är direkt inkluderade i kommentaren får också ett e-postmeddelande.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell.</p> </td> 
@@ -322,7 +322,7 @@ Se även [Meddelanden: kommunikation](../../../workfront-basics/using-notificati
    <td> <p>Aktiv (endast dagligen)</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Anteckning</p> </td> 
+   <td> <p>Obs</p> </td> 
    <td> <p>Arbetsobjektkommentar</p> </td> 
    <td> <p>Tråddeltagare</p> </td> 
    <td> <p>Någon kommenterar en tråd jag är med i.</p> <p>Deltagare i tråden och användare som är inkluderade i ett direktmeddelande får ett e-postmeddelande när en användare gör en kommentar i tråden.</p> <p>Användarna måste ha åtkomst till Visa för att få ett meddelande.</p> <p>Följande användare får inget meddelande:</p> 
@@ -334,14 +334,14 @@ Se även [Meddelanden: kommunikation](../../../workfront-basics/using-notificati
    <td> <p>Aktiv (endast dagligen)</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Anteckning</p> </td> 
+   <td> <p>Obs</p> </td> 
    <td> <p>Arbetsobjektkommentar</p> </td> 
    <td> <p>Tilldelning av arbetsuppgift</p> </td> 
    <td> <p>Någon kommenterar något av mina arbetsuppgifter.</p> <p>Den som har tilldelats arbetsuppgiften får ett e-postmeddelande när som helst när en användare lägger till en uppdatering av en arbetsuppgift, såvida inte den användare som lägger till uppdateringen också är den som har tilldelats uppgiften.</p> </td> 
    <td> <p>Aktiv (endast dagligen)</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Anteckning</p> </td> 
+   <td> <p>Obs</p> </td> 
    <td> <p>Svar på begäran</p> </td> 
    <td> <p> Arbetssökande</p> </td> 
    <td> <p>Någon besvarar min begäran.</p> <p>När en användare har skickat en begäran och en annan användare har svarat på den, får användaren som skickade begäran ett e-postmeddelande.</p> <p>Ett e-postmeddelande skickas inte om:</p> 
@@ -494,7 +494,7 @@ Se även [Meddelanden: Information om arbete som tilldelats mig](../../../workfr
    <td> <p>Dokument</p> </td> 
    <td> <p>Begär dokumenttillägg</p> </td> 
    <td> <p>Användare som utgåvan är tilldelad</p> </td> 
-   <td> <p>Dokument överförs eller ändras vid förfrågningar som jag har tilldelats.</p> <p>Den som tilldelats utgåvan får ett e-postmeddelande när dokument överförs eller ändras i ett ärende som de lagt till.</p> <p>Ett e-postmeddelande skickas inte om den användare som angav problemet är den som tilldelades problemet.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell och om projektet har "Publish som hjälpbegärandekö" aktiverat på fliken Köinställningar.</p> </td> 
+   <td> <p>Dokument överförs eller ändras vid förfrågningar som jag har tilldelats.</p> <p>Den som tilldelats utgåvan får ett e-postmeddelande när dokument överförs eller ändras i ett ärende som de lagt till.</p> <p>Ett e-postmeddelande skickas inte om den användare som angav problemet är den som tilldelades problemet.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell och om projektet har "Publicera som hjälpbegärandekö" aktiverat på fliken Köinställningar.</p> </td> 
    <td> <p>Aktiv (endast dagligen)</p> </td> 
   </tr> 
   <tr> 
@@ -535,7 +535,7 @@ Se även [Meddelanden: Information om arbete som tilldelats mig](../../../workfr
 
 ## Information om projekt som jag är på
 
-Se även [Meddelanden: Information om projekt som jag är på &#x200B;](../../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md).
+Se även [Meddelanden: Information om projekt som jag är på ](../../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -599,6 +599,13 @@ Se även [Meddelanden: Information om projekt som jag är på &#x200B;](../../..
    <td> <p>Ändra projektstatus</p> </td> 
    <td> <p>Projektteamets medlemmar</p> </td> 
    <td> <p>Status ändras för ett projekt som jag är på.</p> <p>Användare i projektgruppen får ett e-postmeddelande när projektstatus ändras. </p> </td> 
+   <td> <p>Inaktiv</p> </td> 
+  </tr> 
+     <tr> 
+   <td> <p>Projekt</p> </td> 
+   <td> <p>Aktuell projektstatus</p> </td> 
+   <td> <p>Medlemmar i tilldelat team</p> </td> 
+   <td> <p>Ett projekt som mitt team är på blir aktivt.</p> <p>Medlemmar i ett tilldelat Workfront-team får ett e-postmeddelande när det projekt de tilldelats blir aktivt.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
