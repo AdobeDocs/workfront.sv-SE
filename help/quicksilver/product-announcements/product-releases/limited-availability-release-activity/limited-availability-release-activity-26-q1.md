@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: bd0c365fcf5431a6b540d302385315d28688e558
+source-git-commit: a335b035e82ebe3daa6a9687b362a9117f348e0e
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ En lista över alla begränsade tillgänglighetsfunktioner som släppts för Ado
 
 >[!NOTE]
 >
->Produktionsfrisläppningsdatum: xx november 2025
+>Produktionslanseringsdatum: 20 november 2025
 
 Du kan nu tillämpa procentbaserade ändringar av faktureringstaxor för en eller flera jobbroller inom ett betalkort. I stället för att manuellt uppdatera varje frekvens en i taget, kan du tillämpa ändringar på alla valda frekvenser i en enda åtgärd.
 
