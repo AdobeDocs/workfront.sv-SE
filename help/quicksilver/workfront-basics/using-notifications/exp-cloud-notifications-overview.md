@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 0c83d47e21148d2c6234e0c157da3381146a7128
+source-git-commit: 49706e7fd44571742ccf602b7418bb429fddc7f8
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,7 @@ Workfront ingår i Adobe paket med program för digitala upplevelser. Att byta t
 
 ## Vad är det som är likadant?
 
-* Du får meddelanden i appen under den första fasen av övergången och sedan meddelanden i appen och e-postmeddelanden senare.
-
-* Befintliga meddelandeinställningar överförs automatiskt.
+* Du får meddelanden i appen under den första fasen av övergången och e-postmeddelanden senare.
 
 * Workfront kommer att fortsätta utlösa meddelanden baserat på dina arbetsuppgifter.
 
