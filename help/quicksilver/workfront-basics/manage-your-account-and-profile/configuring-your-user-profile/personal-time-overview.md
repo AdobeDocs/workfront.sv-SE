@@ -7,18 +7,18 @@ description: Det är viktigt att ange i Adobe Workfront när en godkänd tid är
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
+source-git-commit: 0e37a5a519770d3d48192f1799491aa53a871508
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
 
 # Konfigurera ledig tid
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 12/2025 -->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningens sandlådemiljö och släpps i en fasad utrullning till produktion.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 [!DNL Adobe Workfront] är inte utformat för att replikera eller ersätta dina befintliga system för hantering, upplupning och spårning av ledig tid.
 
@@ -72,18 +72,17 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 >[!NOTE]
 >
->Om du använder Adobe Unified Experience kan du komma åt din Workfront-profil genom att klicka på Adobe-kontomenyn (din profilbild) i det övre navigeringsområdet och sedan välja Workfront-profil.
+>Om din organisation använder Adobe Unified Experience klickar du på **Adobe**-kontomenyn (din profilbild) i det övre högra hörnet av navigeringsområdet och sedan på **Workfront-profil**.
 >
 >![arbetsprofil](assets/aue-profile.png)
 
 1. Klicka på **[!UICONTROL Time Off]** i den vänstra panelen.
 1. Välj önskat datum för din personliga ledig tid.
 
-   <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
    ![Personlig tid för kalendern](assets/personal-time-off-calendar-0925.png)
 
-   Exempelbild i produktionsmiljön:
-   ![Personlig tid för kalendern](assets/personal-time-off-calendar.png)
+   <!--Sample image in the Production environment:
+   ![Personal time off calendar](assets/personal-time-off-calendar.png)-->
 
 1. Välj **[!UICONTROL All day]** om du vill ta en hel dag ledigt.
 
