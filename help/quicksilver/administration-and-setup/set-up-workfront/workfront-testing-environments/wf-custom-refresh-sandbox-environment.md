@@ -29,7 +29,7 @@ Sandlådan för anpassad uppdatering är en miljö där du kan testa och arbeta 
 >
 >  Det finns också en extra kostnad för att hämta den anpassade uppdateringssandlådan som inte behövs för förhandsvisningssandlådan.
 >
->  Mer information om förhandsvisningssandlådan finns i [Förhandsgranskningssandlådemiljön [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+>  Mer information om förhandsvisningssandlådan finns i [Förhandsgranskningssandlådemiljön [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
 ## Åtkomstkrav
 
@@ -92,7 +92,7 @@ Som [!DNL Workfront]-administratör har du åtkomst till din anpassade uppdateri
 
 Så här kommer du åt din anpassade uppdateringssandlåda:
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny ](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på ikonen **[!UICONTROL Setup]** ![Nätform ](assets/gear-icon-settings.png) .
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny &#x200B;](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på ikonen **[!UICONTROL Setup]** ![Nätform &#x200B;](assets/gear-icon-settings.png) .
 
 1. Klicka på **[!UICONTROL System]** >**[!UICONTROL Preferences]**.
 
