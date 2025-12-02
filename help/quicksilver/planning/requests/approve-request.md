@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: de568156315ff9094d938600c91b55e185d53765
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '885'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Godkännare får följande meddelanden om en begäran som väntar på deras godk
 
 Så här godkänner du en begäran:
 
-1. Gör något av följande:
+1. (Villkorligt) Om du använder den äldre begärande funktionen i Workfront, öppnar du begäran genom att göra något av följande:
 
    * Om du har tillgång till Workfront Planning och kan visa minst en arbetsyta klickar du på **Huvudmeny** ![Huvudmeny för punkter](assets/dots-menu.png) i skärmens övre högra hörn, eller på **Huvudmeny** ![Huvudmenyn för rader](assets/lines-menu.png) i det övre vänstra hörnet, om det är tillgängligt, och klickar sedan på **Förfrågningar** > **Skickade** > **Planera** och klicka på begäran med statusen **Väntande granskning** eller **Under granskning** .
 
@@ -113,7 +113,7 @@ Så här godkänner du en begäran:
    Förfrågningssidan öppnas i skrivskyddat läge.
 
    ![Skrivskyddad begärandesida med granskningsstatus](assets/read-only-reqeust-page-in-review-status.png)
-
+1. Om du använder den nya begärandefunktionen i Workfront klickar du på **Huvudmeny** ![Primär meny](assets/dots-menu.png) i skärmens övre högra hörn eller på **Huvudmeny** ![Rader-huvudmenyn](assets/lines-menu.png) i skärmens övre vänstra hörn, om den är tillgänglig, klickar sedan på **Förfrågningar** och klickar på den begäran som du vill godkänna med statusen **10} Väntande granskning** eller **Under granskning**.
 1. (Valfritt) Klicka på ikonen **Godkännanden** ![Godkännanden](assets/approvals-icon.png) i det övre högra hörnet av begäran för att visa godkännarna.
 1. Klicka på **Granska och godkänn** och välj sedan något av följande:
 

@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 32fc05b24c762fafcb50875fa014c5fe76d584d1
+source-git-commit: 0c21f5a1df8bf1bc54d4ca73ba8d02808432e321
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,11 @@ ht-degree: 0%
 
 # Experience Cloud Notifications - översikt
 
-Adobe Workfront sammanför alla produkter för digitala upplevelser (DX) med ett enda enhetligt meddelandesystem som kallas Experience Cloud Notifications. Från och med februari 2026 kommer dina tidigare Workfront Notification-tjänster att migreras till Adobe centraliserade meddelandesystem, som vårt team informerar dig om innan det inträffar.
+Adobe Workfront-meddelanden övergår till Adobe centraliserade meddelandesystem som kallas Experience Cloud Notifications. Det här meddelandesystemet används av alla produkter för digitala upplevelser.
 
-Efter den här övergången kan du få tillgång till alla meddelanden i Adobe Workfront och andra Adobe DX-program på ett och samma ställe, vilket gör det enklare att hålla dig informerad och hantera dina inställningar.
+Från och med februari 2026 kommer aktuella e-post- och appmeddelanden från Workfront att migreras till Experience Cloud Notifications. Detta arbete kommer att slutföras stegvis. Workfront-teamet informerar organisationen innan migreringen är klar att börja.
+
+Efter den här övergången kan användare få tillgång till alla meddelanden i Adobe Workfront och andra Adobe DX-program på ett och samma ställe, vilket gör det enklare att hålla sig informerad och hantera sina inställningar.
 
 ![Meddelanden](assets/announcements-center.png)
 

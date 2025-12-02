@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: de568156315ff9094d938600c91b55e185d53765
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
@@ -90,11 +90,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
    Området **Konfiguration** visas.
 
    ![Fliken Konfiguration](assets/configuration-tab.png)
-1. Klicka på listruteikonen i fältet **Godkännare** och välj en eller flera användare eller team i listan
-
-   eller
-
-   Börja skriva namnet på en användare eller ett team som du vill ange som godkännare och markera det sedan när det visas i listan.
+1. I fältet **Godkännare** börjar du skriva namnet på en användare eller ett team som du vill ange som godkännare och markerar det sedan när det visas i listan.
+1. (Valfritt och villkorligt) Om du har angett mer än en godkännare och bara behöver en godkännare för att fatta ett beslut, aktiverar du alternativet **Endast ett beslut krävs**.
 
    <!--most of the Note below is duplicated in the Create a request form article-->
 
@@ -103,11 +100,11 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
    >
    >* Du kan lägga till en eller flera godkännare i ett begärandeformulär.
    >
-   >* Om du lägger till fler än en godkännare måste alla godkännare godkänna begäran innan Workfront Planning skapar en post.
+   >* Om du lägger till mer än en godkännare och alternativet Endast ett beslut krävs inte är aktiverat, måste alla godkännare godkänna begäran innan Workfront Planning skapar en post.
    >
    >* Om minst en godkännare avvisar begäran, avvisas begäran och posten skapas inte. Begäran finns kvar på fliken Planering i avsnittet Skickat i området Begäranden i Workfront.
    >
-   >* Alla godkännare måste fatta ett beslut innan en begäran godkänns eller avslås.
+   >* Om du lägger till mer än en godkännare och alternativet Endast ett beslut krävs inte är aktiverat, måste alla godkännare fatta ett beslut innan en begäran godkänns eller avslås.
    >
    >* Om ett team utses till godkännare krävs endast ett beslut från teamet.
 
