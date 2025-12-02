@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
+source-git-commit: 5b5f9083ed4b60fa6642100cfb9b0da46799dffa
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: '1722'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Sandlådan för anpassad uppdatering är en miljö där du kan testa och arbeta 
 >
 >  Det finns också en extra kostnad för att hämta den anpassade uppdateringssandlådan som inte behövs för förhandsvisningssandlådan.
 >
->  Mer information om förhandsvisningssandlådan finns i [Förhandsgranskningssandlådemiljön [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+>  Mer information om förhandsvisningssandlådan finns i [Förhandsgranskningssandlådemiljön [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
 ## Åtkomstkrav
 
@@ -92,7 +92,7 @@ Som [!DNL Workfront]-administratör har du åtkomst till din anpassade uppdateri
 
 Så här kommer du åt din anpassade uppdateringssandlåda:
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny &#x200B;](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på ikonen **[!UICONTROL Setup]** ![Nätform &#x200B;](assets/gear-icon-settings.png) .
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny ](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på ikonen **[!UICONTROL Setup]** ![Nätform ](assets/gear-icon-settings.png) .
 
 1. Klicka på **[!UICONTROL System]** >**[!UICONTROL Preferences]**.
 
@@ -223,3 +223,8 @@ I sandlådemiljön för anpassad uppdatering är nattomberäkningen inaktiverad 
 * [!DNL Workfront] Anpassade sandlådemiljöer för uppdatering är alltid tillgängliga. Alla avbrott i Workfront anpassade uppdateringssandlådemiljö under normal kontorstid är den första prioriteten omedelbart efter att eventuella produktionsproblem har åtgärdats. Alla avbrott i Workfront anpassade uppdateringssandlådemiljö på helger (lördagar och söndagar) åtgärdas så att miljön körs under kontorstid på måndag.
 
 * Korrektur är inte tillgängligt i anpassade sandlådemiljöer för uppdatering.
+
+* Följande meddelanden är inte tillgängliga för användning i anpassade sandlådemiljöer för uppdatering:
+
+   * Påminnelsemeddelanden
+   * Automatiska påminnelsemeddelanden för sent eller tidigt
