@@ -154,7 +154,7 @@ eller
 
 1. I rutan **Redigera posttyp** öppnas fliken **Utseende** som standard. <!--update screen shot below at production-->
 
-   ![Redigera flik för posttypsrutans utseende ](assets/edit-record-type-box-appearance-tab.png)
+   ![Redigera flik för posttypsrutans utseende &#x200B;](assets/edit-record-type-box-appearance-tab.png)
 
    Uppdatera följande information på fliken **Utseende**:
 
@@ -172,9 +172,9 @@ eller
 
 1. Klicka på **Spara**.
 
-   Om du valde att ansluta den här posten från andra arbetsytor visas ikonen **Kopplingsbar post** ![Anslut från andra platser ](assets/connect-from-other-workspaces-icon.png) på postkortet.
+   Om du valde att ansluta den här posten från andra arbetsytor visas ikonen **Kopplingsbar post** ![Anslut från andra platser &#x200B;](assets/connect-from-other-workspaces-icon.png) på postkortet.
 
-   <span class="preview">Om du har valt att tillåta att den här posten läggs till på andra arbetsytor visas ikonen **Global post** ![Typ av global post ](assets/global-icon.png) på postkortet. </span>
+   <span class="preview">Om du har valt att tillåta att den här posten läggs till på andra arbetsytor visas ikonen **Global post** ![Typ av global post &#x200B;](assets/global-icon.png) på postkortet. </span>
 
 1. (Valfritt) Klicka på posttypskortet i arbetsytan för att öppna posttypens sida och byt sedan namn på posttypen i rubriken.
 
