@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '461'
 ht-degree: 1%
 
 ---
@@ -31,12 +31,12 @@ I följande tabell visas gränserna för hur många objekt du kan skapa i Workfr
 
 | Adobe Workfront Planning-objekt | Gräns |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
-| Antal arbetsytor för en Workfront-instans | obegränsat* |
+| Antal arbetsytor för en Workfront-instans | Obegränsad* |
 | Antal avsnitt för en arbetsyta | 50 |
 | Antal posttyper för en arbetsyta | 100 (inkluderar posttyper från alla avsnitt och de som skapas när du använder en arbetsytemall) |
 | Antal poster för en posttyp | 25 000 |
-| Antal poster för en arbetsyta | 25 000 för kunder med Planning <br> 500 000 för kunder med Planning Plus |
-| Antal poster för en instans av Workfront Planning | 500 000 för kunder med Planning <br>2 miljoner för kunder med Planning Plus |
+| Antal poster för en arbetsyta | Planeringsval: 25 000 <br> Planera Prime: 500 000 <br> Planera Ultimate: 1 000 000 |
+| Antal poster för en instans av Workfront Planning | Planering Select: 500 000 <br> Planering Prime: 2 000 000 Planning Ultimate: Obegränsat<br> |
 | Antal fält för en posttyp eller taxonomi | 500 |
 | Antal tecken för ett textfält med en rad | 1 000 tecken |
 | Antal tecken för ett styckefält | 10 000 tecken |
@@ -51,6 +51,7 @@ I följande tabell visas gränserna för hur många objekt du kan skapa i Workfr
 | Antal formelfält för en posttyp | 20 |
 | <span class="preview">Antal anslutningsfält för en posttyp</span> | <span class="preview">30</span> |
 | Antal tecken i ett formelfältuttryck | 50 000 |
+| Antal enheter (användare, roller, team, företag, grupper) som du kan dela ett Planning-objekt med | 100 |
 
 *Vi rekommenderar att du inte har för många arbetsytor eftersom de kan bli svåra att hantera och arbetsflödena kan vara för fragmenterade.
 

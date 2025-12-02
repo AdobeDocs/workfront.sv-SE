@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Innan du lägger till poster på en arbetsyta från en global posttyp, ska du ä
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
 <ul><li><p>Alla Workfront-paket och ett Planning Plus-paket</p></li>
-<p>eller</p>
+eller
 <li><p>Alla arbetsflöden och ett Planning Prime- eller Ultimate-paket</p></p></li></ul>
 <p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
    </td> 
@@ -114,10 +114,11 @@ And
 
 >[!NOTE]
 >
->Se till att det finns minst en posttyp som är global på minst en annan arbetsyta.
+>Se till att det finns minst en posttyp som är global på minst en annan primär arbetsyta.
 >
 >Mer information finns i [Konfigurera funktioner för arbetsytan över arbetsytor för posttyper](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
+1. Gå till en arbetsyta där du vill skapa en posttyp (sekundär arbetsyta).
 1. Börja skapa en posttyp enligt beskrivningen i artikeln [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md) och klicka sedan på **Lägg till befintlig**. <!--check this - the option might have been renamed in the UI-->
 
    ![Modal för att lägga till posttyp med möjlighet att lägga till från en annan arbetsyta](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
@@ -129,7 +130,7 @@ And
 1. Klicka på **Fortsätt**.
 1. I rutan **Välj posttyp** klickar du på kortet för den posttyp som du vill lägga till från en befintlig arbetsyta och sedan på **Lägg till**.
 
-   Posttypen läggs till på den arbetsyta som du har valt och ikonen **global posttyp** ![](assets/global-icon.png) visas på posttypens kort.
+   Posttypen läggs till på den sekundära arbetsytan som du har valt och ikonen **global posttyp** ![](assets/global-icon.png) visas på posttypens kort.
 
    Följande saker händer:
 

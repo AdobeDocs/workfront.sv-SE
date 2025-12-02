@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Posttyperna är objekttyperna för Adobe Workfront Planning. Du kan redigera uts
 <p>Så här konfigurerar du kopplingsbara posttyper: </p>
 <ul> 
 <li><p>Alla Workfront-paket och alla Planning-paket</p></li>
-<p>eller</p>
+eller
 <li><p>Alla arbetsflöden och ett Planning Prime- eller Ultimate-paket</p></li></ul>
 
 <div class="preview">
@@ -54,7 +54,7 @@ Posttyperna är objekttyperna för Adobe Workfront Planning. Du kan redigera uts
 
 <ul> 
 <li><p>Alla Workfront-paket och ett Planning Plus-paket</p></li>
-<p>eller</p>
+eller
 <li><p>Alla arbetsflöden och ett Planning Prime- eller Ultimate-paket</p></li></ul>
 <p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p>
 
@@ -154,7 +154,7 @@ eller
 
 1. I rutan **Redigera posttyp** öppnas fliken **Utseende** som standard. <!--update screen shot below at production-->
 
-   ![Redigera flik för posttypsrutans utseende &#x200B;](assets/edit-record-type-box-appearance-tab.png)
+   ![Redigera flik för posttypsrutans utseende ](assets/edit-record-type-box-appearance-tab.png)
 
    Uppdatera följande information på fliken **Utseende**:
 
@@ -172,9 +172,9 @@ eller
 
 1. Klicka på **Spara**.
 
-   Om du valde att ansluta den här posten från andra arbetsytor visas ikonen **Kopplingsbar post** ![Anslut från andra platser &#x200B;](assets/connect-from-other-workspaces-icon.png) på postkortet.
+   Om du valde att ansluta den här posten från andra arbetsytor visas ikonen **Kopplingsbar post** ![Anslut från andra platser ](assets/connect-from-other-workspaces-icon.png) på postkortet.
 
-   <span class="preview">Om du har valt att tillåta att den här posten läggs till på andra arbetsytor visas ikonen **Global post** ![Typ av global post &#x200B;](assets/global-icon.png) på postkortet. </span>
+   <span class="preview">Om du har valt att tillåta att den här posten läggs till på andra arbetsytor visas ikonen **Global post** ![Typ av global post ](assets/global-icon.png) på postkortet. </span>
 
 1. (Valfritt) Klicka på posttypskortet i arbetsytan för att öppna posttypens sida och byt sedan namn på posttypen i rubriken.
 

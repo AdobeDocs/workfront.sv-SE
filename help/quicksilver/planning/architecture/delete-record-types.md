@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 0%
@@ -50,12 +50,12 @@ Mer information om posttyper finns i [Översikt över posttyper](/help/quicksilv
    <td> 
 <ul> 
 <li><p>Alla Workfront- och Planning-paket</p></li>
-<p>eller</p>
+eller
 <li><p>Alla arbetsflöden och alla planeringsdokument</p></li></ul>
 <div class="preview">
 <p>Så här tar du bort globala posttyper:</p>
 <ul><li><p>Alla Workfront-paket och ett Planning Plus-paket</p></li>
-<p>eller</p>
+eller
 <li><p>Alla arbetsflöden och ett Planning Prime- eller Ultimate-paket</p></li></ul>
 </div>
 <p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
@@ -233,7 +233,7 @@ Ta bort en global posttyp från en sekundär arbetsyta:
 
 1. Gå till den globala posttypen på den sekundära arbetsytan.
 
-1. (Valfritt) Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) på posttypens kort, eller till höger om posttypens namn på sidan, och klicka sedan på **Ta bort**.
+1. (Valfritt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) på posttypens kort, eller till höger om posttypens namn på sidan, och klicka sedan på **Ta bort**.
 1. (Villkorligt) Skriv **delete** i det angivna fältet och klicka sedan på **Ta bort permanent**.
 
    ![Ta bort bekräftelseruta för den sekundära globala posttypen](assets/delete-secondary-global-record-type.png)

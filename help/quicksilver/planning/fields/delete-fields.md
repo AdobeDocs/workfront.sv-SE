@@ -6,7 +6,7 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 author: Alina
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 0%
@@ -64,13 +64,13 @@ Du kan ta bort Workfront Planning-fält som inte längre är relevanta.
    <td> 
 <ul> 
 <li><p>Alla Workfront- och Planning-paket</p></li>
-<p>eller</p>
+eller
 <li><p>Alla arbetsflöden och alla planeringsdokument</p></li></ul>
 
 <!--
 <p><span class="preview">To delete global record types:</span</p>
 <ul><li><p><span class="preview">Any Workfront package and a Planning Plus package</span></p></li>
-<p>Or</p>
+Or
 <li><p><span class="preview">Workflow and Planning Prime and Ultimate packages</span></p></li></ul>
 -->
 

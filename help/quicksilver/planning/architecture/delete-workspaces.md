@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Vi rekommenderar att du återskapar vissa eller alla posttyper, poster, fält oc
    <td> 
 <ul> 
 <li><p>Alla Workfront- och Planning-paket</p></li>
-<p>eller</p>
+eller
 <li><p>Alla arbetsflöden och alla planeringsdokument</p></li></ul>
 <p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
    </td> 
@@ -141,7 +141,7 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 1. Gör något av följande om du vill ta bort en arbetsyta:
 
    * Håll pekaren över arbetsytans kort och klicka sedan på menyn **Mer** ![Mer](assets/more-menu.png) i kortets övre högra hörn
-eller
+Eller <!--Add this to the bullet below: <span class="preview">Search for a workspace by name and </span>-->
    * Klicka på ett arbetsytekort för att öppna arbetsytan och klicka sedan på menyn **Mer** ![Mer](assets/more-menu.png) till höger om arbetsytans namn.
 1. Klicka på **Ta bort**.
 

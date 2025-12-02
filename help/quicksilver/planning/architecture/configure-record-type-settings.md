@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -52,21 +52,17 @@ Beroende på vilka funktioner du vill definiera för en posttyp kan du konfigure
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
 <p>Alla Workfront- och Planning-paket</p>
-<p>Alla Workfront- och Planning-paket</p>
+<p>Alla arbetsflödes- och planeringspaket</p>
+<div class="preview">
 <p><b>ANMÄRKNING</b></p>
-<p>Så här konfigurerar du kopplingsbara posttyper: </p>
-<ul> 
-<li><p>Alla Workfront-paket och alla Planning-paket</p></li>
-<p>eller</p>
-<li><p>Alla arbetsflöden och ett Planning Prime- eller Ultimate-paket</p></li></ul>
-
 <p>Så här konfigurerar du globala posttyper:</p>
 
 <ul> 
 <li><p>Alla Workfront-paket och ett Planning Plus-paket</p></li>
-<p>eller</p>
-<li><p>Alla arbetsflöden och ett Planning Prime- eller Ultimate-paket</p></li></ul>
-<p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p>
+eller
+<li><p>Alla arbetsflödespaket och ett Planning Prime- eller Ultimate-paket</p></li></ul>
+<p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
+</div>
    </td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licens</p></td> 

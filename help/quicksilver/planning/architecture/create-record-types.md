@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1199'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Mer information om posttyper finns i [Översikt över posttyper](/help/quicksilv
 <p>Så här konfigurerar du kopplingsbara posttyper: </p>
 <ul> 
 <li><p>Alla Workfront-paket och alla Planning-paket</p></li>
-<p>eller</p>
+eller
 <li><p>Alla arbetsflöden och ett Planning Prime- eller Ultimate-paket</p></li></ul>
 
 <div class="preview">
@@ -60,7 +60,7 @@ Mer information om posttyper finns i [Översikt över posttyper](/help/quicksilv
 
 <ul> 
 <li><p>Alla Workfront-paket och ett Planning Plus-paket</p></li>
-<p>eller</p>
+eller
 <li><p>Alla arbetsflöden och ett Planning Prime- eller Ultimate-paket</p></li></ul>
 <p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p>
 
@@ -163,9 +163,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
         I den här artikeln beskrivs hur du skapar posttyper från grunden.
 
-     <!--
-        * <span class="preview">By adding them from another workspace</span>
-            <span class="preview">For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). </span>-->
+      * <span class="preview">Genom att lägga till dem från en annan arbetsyta</span>
+        <span class="preview">Mer information finns i [Lägga till befintliga posttyper från en annan arbetsyta](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). </span>
 
 
 * Du kan flytta posttyper inom ett avsnitt och från ett avsnitt på en arbetsyta till ett annat. Du kan inte flytta posttyper från en arbetsyta till en annan.
@@ -197,7 +196,7 @@ Du kan lägga till posttyper manuellt i avsnitten Driftposttyper och Taxonomier.
 1. (Valfritt) Klicka på **Lägg till avsnitt** om du vill lägga till ett nytt avsnitt på arbetsytan.
 1. Klicka på **Lägg till posttyp** och sedan **Lägg till manuellt**.
 
-   Rutan Lägg till posttyp öppnas. <!--update screen shot for preview-->
+   Rutan Lägg till posttyp öppnas.
 
    ![Lägg till posttypsruta med utseendealternativ](assets/add-record-type-box-with-appearance-options.png)
 
@@ -207,13 +206,11 @@ Du kan lägga till posttyper manuellt i avsnitten Driftposttyper och Taxonomier.
    * **Beskrivning**: Lägg till mer information om posttypen.
    * Välj en färg och form för den ikon som är associerad med posttypen. Gör följande:
       * Välj en färg som identifierar den nya posttypen. Det här är färgen på ikonen för posttyp. Grått är markerat som standard.
-      * Välj en ikon i listan eller börja skriva namnet på en ikon för att beskriva vad den representerar och markera den sedan när den visas. Det här är ikonen för posttypen. Som standard är en filikon markerad.
+      * Välj en ikon i listan eller börja skriva namnet på en ikon i sökfältet för att beskriva vad den representerar och markera den sedan när den visas. Det här är ikonen för posttypen. Som standard är en filikon markerad.
 
-1. (Valfritt och villkorligt) Om du är systemadministratör klickar du på fliken **Avancerade inställningar** <span class="preview"> eller **Inställningar för arbetsytan mellan arbetsytor**</span> och uppdaterar informationen om funktionerna för arbetsytan mellan arbetsytorna för posttypen.
+1. (Valfritt och villkorligt) Om du är systemadministratör klickar du på fliken **Avancerade inställningar** <span class="preview"> eller **Inställningar för arbetsytan mellan arbetsytor**</span> och <span class="preview">uppdaterar information om funktionerna för arbetsytan mellan arbetsytorna för posttypen.
 
-   Mer information finns i [Konfigurera funktioner för arbetsytan mellan arbetsytor för posttyper](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). <!--update screen shot at production - Jan 2026-->
-
-   ![Redigera posttypsruta med fliken Avancerade inställningar](assets/edit-record-type-box-advanced-settings-tab.png)
+   ![Redigera posttypsruta med fliken Avancerade inställningar](assets/edit-record-type-box-advanced-settings-tab.png) </span>
 
    Mer information finns i [Konfigurera funktioner för arbetsytan över flera arbetsytor för posttyper](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
@@ -224,17 +221,17 @@ Beskrivning av posttypen visas på kortet.
 
    ![Posttypkort med beskrivning](assets/record-type-card-with-description.png)
 
-   Om du valde att ansluta den här posten från andra arbetsytor visas ikonen **Kopplingsbar post** ![Anslut från andra platser &#x200B;](assets/connect-from-other-workspaces-icon.png) på postkortet.
+   Om du valde att ansluta den här posten från andra arbetsytor visas ikonen **Kopplingsbar post** ![Anslut från andra platser ](assets/connect-from-other-workspaces-icon.png) på postkortet.
 
-   <span class="preview">Om du har valt att tillåta att den här posten läggs till på andra arbetsytor visas ikonen **Global post** ![Typ av global post &#x200B;](assets/global-icon.png) på postkortet. </span>
+   <span class="preview">Om du har valt att tillåta att den här posten läggs till på andra arbetsytor visas ikonen **Global post** ![Typ av global post ](assets/global-icon.png) på postkortet. </span>
 
-1. (Valfritt) Håll markören över posttypskortet, klicka på ikonen **Mer** ![Mer &#x200B;](assets/more-menu.png) i det övre högra hörnet och klicka sedan på **Redigera** eller <span class="preview">**Inställningar**</span> för att ändra information om posttypen.
+1. (Valfritt) Håll markören över posttypskortet, klicka på ikonen **Mer** ![Mer ](assets/more-menu.png) i det övre högra hörnet och klicka sedan på **Redigera** eller <span class="preview">**Inställningar**</span> för att ändra information om posttypen.
 
    Mer information finns i [Redigera posttyper](/help/quicksilver/planning/architecture/edit-record-types.md).
 
 1. (Valfritt) Klicka på posttypskortet för att öppna posttypssidan.
 
-   ![Posttypen för operativt &#x200B;](assets/operational-record-type-blank.png) är tom
+   ![Posttypen för operativt ](assets/operational-record-type-blank.png) är tom
 
    Posttypssidan visas som standard i tabellvyn. Kolumnerna i tabellen är fält som är kopplade till den nya posttypen. Varje rad är en unik post som du måste lägga till.
 
@@ -280,16 +277,12 @@ Du kan importera följande när du importerar information från en CSV- eller Ex
 
 Mer information finns i [Skapa posttyper genom att importera information från en CSV- eller Excel-fil](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md).
 
-<!--
-
 <div class="preview">
 
-## Create record types by adding existing ones from another workspace 
+## Skapa posttyper genom att lägga till befintliga från en annan arbetsyta
 
-You can add record types to a workspace by adding existing ones from another workspace. You can only add record types that have been configured as global record types. 
+Du kan lägga till posttyper på en arbetsyta genom att lägga till befintliga från en annan arbetsyta. Du kan bara lägga till posttyper som har konfigurerats som globala posttyper.
 
-For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
+Mer information finns i [Lägga till befintliga posttyper från en annan arbetsyta](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
 </div>
-
--->

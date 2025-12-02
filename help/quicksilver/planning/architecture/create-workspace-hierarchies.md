@@ -4,7 +4,7 @@ description: Du kan skapa flera arbetsytehierarkier mellan posttyperna på en ar
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Du kan skapa flera arbetsytehierarkier mellan posttyperna på en arbetsyta.
    <td> 
 <ul> 
 <li><p>Alla Workfront- och Planning-paket</p></li>
-<p>eller</p>
+eller
 <li><p>Alla arbetsflöden och alla planeringsdokument</p></li></ul>
 <p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
    </td> 

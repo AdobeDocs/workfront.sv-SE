@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -66,21 +66,6 @@ Du kan dela följande objekt manuellt i Workfront Planning:
 
   Mer information finns i [Dela vyer](/help/quicksilver/planning/access/share-views.md).
 
-Internt kan du dela en arbetsyta, en vy eller en posttyp med följande Workfront-enheter:
-
-* Användare
-* Grupper
-* Team
-* Företag
-* Jobbroller
-
-När du delar arbetsytor och posttyper med andra, ärvs behörighetsnivån från posttypen automatiskt till de poster och fält som är associerade med dem.
-
->[!IMPORTANT]
->
->Om din organisations instans av Workfront har registrerats för Adobe Unified Experience måste de användare som du vill dela Planning-objekt med läggas till i Adobe Admin Console. Du kan inte dela Planning-objekt med Workfront-användare som inte har lagts till i Adobe Admin Console.
-
-
 ## Att tänka på när du delar objekt i Adobe Workfront Planning
 
 * Din Adobe Workfront-licenstyp fungerar tillsammans med dina Workfront Planning-behörigheter så att du kan visa, bidra till eller hantera arbetsytor och deras objekt.
@@ -88,14 +73,30 @@ När du delar arbetsytor och posttyper med andra, ärvs behörighetsnivån från
   Mer information om hur licenstyperna påverkar behörighetsnivåer för Workfront Planning finns i [Översikt över licenstypen när du använder Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 * Systemadministratörer kan hantera alla arbetsytor i systemet, inklusive de som de inte skapade.
 * Andra användare, inklusive systemadministratörer, kan bara komma åt vyer som de har skapat eller som har delats med dem. Systemadministratörer kan endast ges behörighet för att hantera en vy.
-* Du kan dela en länk till en arbetsyta eller till en vy med andra.
 
-  Följande scenarier finns:
-   * Användare som får länken till en arbetsyta måste vara aktiva användare och logga in på Workfront för att kunna komma åt arbetsytan.
-   * Användare som får länken till en vy kan komma åt vyn på följande sätt:
+* När du delar arbetsytor och posttyper med andra, ärvs behörighetsnivån från posttypen automatiskt till de poster och fält som är associerade med dem.
 
-      * Måste vara aktiva användare och logga in på Workfront om länken till vyn delades internt.
-      * Kan vara externa användare till Workfront och få åtkomst till vyn via en offentlig delad länk, utan att logga in på Workfront.
+  >[!IMPORTANT]
+  >
+  >Om din organisations instans av Workfront har registrerats för Adobe Unified Experience måste de användare som du vill dela Planning-objekt med läggas till i Adobe Admin Console. Du kan inte dela Planning-objekt med Workfront-användare som inte har lagts till i Adobe Admin Console.
+
+* Du kan dela planeringsobjekt på följande sätt:
+
+   * Internt kan du dela en arbetsyta, en vy eller en posttyp med följande Workfront-enheter:
+
+      * Användare
+      * Grupper
+      * Team
+      * Företag
+      * Jobbroller
+
+     Du kan dela ett Planning-objekt med upp till 100 enheter per objekt.
+
+   * Internt genom att dela en länk till en arbetsyta eller till en vy med andra planeringsanvändare. Följande scenarier finns:
+
+      * Användare som får länken till en arbetsyta måste vara aktiva användare och logga in på Workfront för att få tillgång till arbetsytan.
+      * Användare som får en intern delningslänk för en vy måste vara aktiva användare och logga in på Workfront för att få åtkomst till vyn.
+   * Externt genom att dela en offentlig delningslänk till en vy med externa användare som inte har något Workfront-konto.
 
 ## Delningsbehörigheter för Adobe Workfront Planning-objekt
 
@@ -169,7 +170,7 @@ Följande scenarier finns:
 
 >[!NOTE]
 >
->*När du tar bort behörigheter från en posttyp behåller användarna fortfarande behörigheterna Visa på arbetsytan och alla posttyper, såvida du inte tar bort deras behörigheter från arbetsytan.
+>När du tar bort behörigheter från en posttyp behåller användarna fortfarande behörigheterna Visa på arbetsytan och alla posttyper, såvida du inte tar bort deras behörigheter från arbetsytan.
 
 ### Behörigheter till poster
 

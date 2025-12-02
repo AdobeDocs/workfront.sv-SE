@@ -2,25 +2,26 @@
 product-area: projects
 navigation-topic: plan-a-project
 title: Planera ett projekt - översikt
-description: Ta reda på vad ett projekt är, hur du skapar omfång och struktur samt viktiga koncept som scheman, tidslinjer samt start- och slutdatum.
+description: Ett projekt är en stor arbetsuppgift i Adobe Workfront. Du kan dela upp ett projekt i uppgifter som är mindre arbetsobjekt. Uppgifter kan tilldelas användare eller team som ansvarar för att de slutförs. När alla användare har slutfört sina uppgifter blir projektet också färdigt.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 3cbcc2dd2efb457f5f0c4213110af54230a23eb0
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1606'
 ht-degree: 0%
 
 ---
 
 # Planera en projektöversikt
 
-<!--Audited: 01/2024-->
+<!--Audited: 12/2025-->
 
 <!--
-< see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
--->
+< see if you need to add something about approval settings, issue for ad-hoc happenings and how to work with documents??-->
+
+<!--this article is linked to the ESM area in the UI; the ESM team on the Adobe side linked to this article for their -->
 
 Ett projekt är en stor arbetsuppgift i Adobe Workfront. Du kan dela upp ett projekt i uppgifter som är mindre arbetsobjekt. Uppgifter kan tilldelas användare eller team som ansvarar för att de slutförs. När alla användare har slutfört sina uppgifter blir projektet också färdigt.
 
@@ -30,9 +31,13 @@ Förutom att planera dina uppgifter i ett projekt, finns det många andra detalj
 
 Projektplanering innebär att exakt fastställa vilka huvudmål du måste uppnå för att slutföra projektet.
 
-I de inledande faserna av ett projekt har du kanske inte bestämt om du ska genomföra projektet än. Det kanske inte är kostnadseffektivt eller så har du inte resurserna. I det här skedet av planeringen kan du skapa ett projekt i Workfront utan att lägga till några uppgifter och ange status till Planering.
+I de inledande faserna av ett projekt har du kanske inte bestämt om du ska genomföra projektet än. Det kanske inte är kostnadseffektivt eller så har du inte resurserna. I det här skedet av planeringen kan du skapa ett projekt i Workfront utan att lägga till några uppgifter och ange planeringens status.
+
+Du kan också skicka in en projektförfrågan och fråga Portfolio Manager om det går att skapa projektet över huvud taget. På så sätt kan du skicka in ett affärsärende för projektet där du kan uppskatta vad som behövs för att slutföra projektet. Detta skapar ett projekt med statusen Begärt.
 
 Mer information om hur du skapar ett projekt finns i artikeln [Skapa ett projekt](../../../manage-work/projects/create-projects/create-project.md).
+
+Mer information om hur du skapar en projektförfrågan finns i [Begär ett projekt](/help/quicksilver/manage-work/projects/create-projects/request-project.md).
 
 Tänk på följande innan du planerar ett projekt:
 
@@ -54,13 +59,19 @@ När du har definierat projektets övergripande omfattning kan du sedan bestämm
 
 ### Definiera start- och slutdatum för projektet {#define-the-start-and-completion-date-of-the-project}
 
-När du planerar ett projekt är det första du måste bestämma tidslinjen: när kan projektet starta och vid vilken tidpunkt det måste slutföras. Bestäm om det finns en fast tidsgräns för när projektet måste vara färdigt eller om du ska ange en startpunkt och arbeta därifrån.
+När du planerar ett projekt är det första du måste bestämma tidslinjen: bestämma när projektet kan starta och efter vilken tid det måste slutföras.
+
+Bestäm om det finns en fast tidsgräns för när projektet måste vara färdigt eller om du ska ange en startpunkt och arbeta därifrån.
 
 Du kan schemalägga ett projekt från ett startdatum, eller så kan du schemalägga det från datumet för slutförandet. Du kan ange det här attributet när du skapar projektet och du kan när som helst ändra det genom att redigera projektet.
+
+Mer information finns i [Redigera projekt](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
 ### Definiera projektschemat {#define-the-project-schedule}
 
 Du måste bestämma ett schema och associera det med projektet samt med de användare som ansvarar för att slutföra uppgifterna i projektet.
+
+Ett schema anger vilken tid användarna har tid att arbeta med projektet.
 
 Överväg att definiera följande i ett schema:
 
@@ -70,7 +81,7 @@ Du måste bestämma ett schema och associera det med projektet samt med de anvä
 
 Det är viktigt att veta när användare är tillgängliga att arbeta när du vill förstå hur dina uppgifter fortskrider i projektet.
 
-Du kan skapa flera projektscheman och använda ett standardschema för projektet. Ytterligare anpassade scheman kan tillämpas på olika individer.
+Du kan skapa flera scheman i din Workfront-instans och använda ett standardschema som ska användas för alla projekt. Du kan också skapa ytterligare anpassade scheman för att associera dem med olika personer.
 
 Mer information om scheman finns i artikeln [Skapa ett schema](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
@@ -80,14 +91,19 @@ När du planerar ett projekt finns det ytterligare information som måste ställ
 
 Du kan ställa följande frågor:
 
-* Finns det någon förordning som föreskriver att ni ska registrera händelser och processer? Om så är fallet, vad behöver du spåra?\
+* Finns det någon förordning som föreskriver att ni ska registrera händelser och processer? Om så är fallet, vad behöver du spåra?
+
   Med Workfront kan du registrera ändringar, omfångsändringar, statusändringar och åtgärder så att du kan följa branschspecifika regler.\
   Mer information om hur du definierar vilka uppdateringar som ska spåras i Workfront finns i artikeln [Systemspårade uppdateringar](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
-* Är det någon information som du måste spåra som inte har något fält i Workfront att lagra det i? Om ja, skapar du Anpassad Forms för projekt eller uppgifter där du kan lagra den här informationen.\
+* Är det någon information som du måste spåra som inte har något fält i Workfront att lagra det i?
+
+  Om ja, skapar du Anpassad Forms för projekt eller uppgifter där du kan lagra den här informationen.
+
   Mer information om hur du skapar anpassade formulär finns i artikeln [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-* Finns det några kontrollpunkter för godkännande som måste beviljas innan arbetet med ett projekt kan fortsätta? Om ja, skapa godkännandeprocesser för projekt eller uppgifter som du kan använda när du skapar projektet.\
+* Finns det några kontrollpunkter för godkännande som måste beviljas innan arbetet med ett projekt kan fortsätta? Om ja, skapa godkännandeprocesser för projekt eller uppgifter som du kan använda när du skapar projektet.
+
   Mer information om godkännandeprocesser finns i artikeln [Skapa en godkännandeprocess för arbetsobjekt](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 ## Bygg projekttidslinjen
@@ -95,11 +111,12 @@ Du kan ställa följande frågor:
 När du har fastställt de viktigaste målen för ett projekt och du har beslutat att projektet är värt att eftersträva, bör du beräkna tidslinjen för varje mål. Varje mål kan bli en av dina uppgifter i projektet.
 
 Detta hjälper dig att prioritera dina mål och planera arbetsfördelningsstrukturen utifrån detta. Arbetsfördelningsstrukturen definierar tidslinjen för projektet.\
-Mer information om hur du skapar aktiviteter i ett projekt finns i avsnittet [Definiera aktiviteter](#define-tasks).
+Mer information om hur du skapar aktiviteter i ett projekt finns i avsnittet [Definiera uppgifter](#define-tasks) i den här artikeln.
 
 Tänk på följande när du skapar tidslinjen för projektet:
 
 * Dela upp större mål i underordnade uppgifter och definiera deras Start- och slutdatum.
+* Tilldela uppgifter till enskilda personer eller team så att ni vet vem som ansvarar för att de slutförs. Du kan tilldela uppgifter till jobbroller, men bara för den inledande planeringsfasen av projektet, när du inte är helt säker på vem som kan tilldelas till aktiviteterna. När du har startat projektet är det bättre att ersätta jobbrollerna med användar- eller teamtilldelningar.
 * Bestäm om dina mål är beroende av andra mål.
 
   Du kan ställa in dessa beroenden som föregångare.
@@ -124,7 +141,7 @@ När du definierar målen för projektet och de uppgifter som är kopplade till 
 
 Du kan skapa uppgifter i ett projekt på följande sätt:
 
-* Lägg till uppgifter i ett projekt i en intern redigering.
+* Lägg till uppgifter i ett projekt manuellt när du infogar en uppgiftslista i projektet.
 * Använd en mall med definierade malluppgifter och lägg till den i projektet.
 
   Malluppgifterna blir projektets uppgifter.
