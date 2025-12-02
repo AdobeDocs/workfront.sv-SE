@@ -7,9 +7,9 @@ description: Den här sidan innehåller information om datastrukturen och inneh�
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: e06db80d752d79157c758b3ecf3a8d4e7040e96d
+source-git-commit: 815bee06ce413005e362d2e38068d591696cad5b
 workflow-type: tm+mt
-source-wordcount: '8788'
+source-wordcount: '8878'
 ht-degree: 1%
 
 ---
@@ -49,7 +49,7 @@ Objekt i Workfront (och därför i Data Connect-datavinen) definieras inte bara 
 >[!IMPORTANT]
 >
 >Det angivna entitetsrelationsdiagrammet (ERD) är avsiktligt ofullständigt eftersom en fullständig ERD skulle bli oläslig på grund av det stora antalet relationer i programmet.<br>
->&#x200B;>I det här diagrammet visas ett exempel på hur de relationer som dokumenteras i projekttabellen i avsnittet [Terminolog](#terminology-table) nedan kan användas för att koppla data från projektdatavyn till närliggande objekt. Du förväntas inte behöva ange en fullständig referensD när mönstret tolkas för objektrelationerna i projektet
+>I det här diagrammet visas ett exempel på hur de relationer som dokumenteras i projekttabellen i avsnittet [Terminolog](#terminology-table) nedan kan användas för att koppla data från projektdatavyn till närliggande objekt. Du förväntas inte behöva ange en fullständig referensD när mönstret tolkas för objektrelationerna i projektet
 
 ## Datumtyper
 
@@ -67,7 +67,7 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
 >[!NOTE]
 >
 >Nya fält kan läggas till i objektvyerna utan föregående meddelande för att stödja datautvecklingen i Workfront-programmet. Vi varnar för att använda SELECT-frågor där den underordnade datamottagaren inte är beredd att hantera ytterligare kolumner när de läggs till.<br>
->&#x200B;>Om du behöver byta namn på eller ta bort en kolumn visas ett meddelande om dessa ändringar.
+>Om du behöver byta namn på eller ta bort en kolumn visas ett meddelande om dessa ändringar.
 
 ### Åtkomstnivå
 
@@ -1660,17 +1660,21 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         </tr>
     </tbody>
 </table>
-<div>* Posttypen identifieras med egenskapen enumClass. Följande typer förväntas:<br>
-<ul><li>CONDITION_OPTASK</li>
-<li>CONDITION_PROJ</li>
-<li>CONDITION_TASK</li>
-<li>PRIORITY_OPTASK</li>
-<li>PRIORITY_PROJ</li>
-<li>PRIORITY_TASK</li>
-<li>SEVERITY_OPTASK</li>
-<li>STATUS_OPTASK</li>
-<li>STATUS_PROJ</li>
-<li>STATUS_TASK</li></ul></div>
+
+>[!NOTE]
+>
+>Posttypen identifieras med egenskapen `enumClass`. Följande typer förväntas:<br>
+><ul><li>CONDITION_OPTASK</li>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>PRIORITY_PROJ</li>
+&gt;<li>PRIORITY_TASK</li>
+&gt;<li>SEVERITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJ</li>
+&gt;<li>STATUS_TASK</li></ul>
+
 
 ### Dokument
 
@@ -6601,6 +6605,11 @@ Begränsad kundtillgänglighet
         </tr>
     </tbody>
 </table>
+
+>[!NOTE]
+>
+>Det finns tre teamtyper som lagras i Team-objekttabellerna: PROJECT, TEMPLATE och ADHOC. <br>
+>Var och en av de här teamtyperna representeras tillsammans i Data Connect-datavinjevyerna. Om du vill isolera den typ av team som du vill returnera måste du filtrera på kolumnen `teamtype`. Om du till exempel bara vill ha de traditionella team som ingår i din organisationsstruktur, som är konfigurerade i programområdet, kan du ha en fråga som ser ut ungefär så här: <code>select * from teams_current där teamtype = &#39;ADHOC&#39;;</code>
 
 ### Teammedlem
 
