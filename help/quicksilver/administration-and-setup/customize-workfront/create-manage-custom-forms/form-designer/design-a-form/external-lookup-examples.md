@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: c6adce09acf993ae00b080ac5177dabd953d69a1
+source-git-commit: f01ce9bcbb795097d39e276a734300f5059e35c4
 workflow-type: tm+mt
-source-wordcount: '1461'
+source-wordcount: '1462'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ I det här exemplet visas hur du anropar Workfront API och fyller i en lista med
 
 ### Använd anpassade fältvärden i extern sökning
 
-I det här exemplet visas hur du anropar Workfront API och hämtar data från ett anpassat fält till det externa sökfältet. Det anpassade exempelfältet heter&quot;Egna färger&quot;.
+I det här exemplet visas hur du anropar Workfront API och överför data från ett anpassat fält till det externa sökfältet. Det anpassade exempelfältet heter&quot;Egna färger&quot;.
 
 1. Öppna det anpassade formuläret.
 1. Leta upp **extern sökning** till vänster på skärmen och dra den till ett avsnitt på arbetsytan.

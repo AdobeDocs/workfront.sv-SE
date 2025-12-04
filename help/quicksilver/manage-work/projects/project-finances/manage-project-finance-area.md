@@ -6,9 +6,9 @@ description: Du kan visa eller redigera den ekonomiska informationen för ett pr
 author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: f01ce9bcbb795097d39e276a734300f5059e35c4
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1275'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 Tänk på följande när du visar eller redigerar information på finansområdet:
 
-* Den finansiella information som du hittar på området Ekonomi i Projektdetaljer representerar värden som går upp till projektnivån från aktiviteter, samt information som anges direkt i projektet. Viss ekonomisk information kan hanteras på både projektnivå och aktivitetsnivå.
+* Den ekonomiska information som du hittar under Ekonomi under Projektinformation representerar värden som går upp till projektnivå från aktiviteter, samt information som anges direkt i projektet. Viss ekonomisk information kan hanteras på både projektnivå och aktivitetsnivå.
 * Du måste ha behörigheten Visa för projektet samt åtkomst till finansiella data från din åtkomstnivå för att kunna visa finansieringsdelen i ett projekt.
 * Du måste ha behörigheten Hantera för projektet samt åtkomst till finansiella data från din åtkomstnivå för att kunna redigera informationen på finanssidan. Vi rekommenderar dock att endast projektägaren ska redigera informationen i det här området.
 
@@ -153,7 +153,7 @@ Så här redigerar du information på underfliken Projektfinansiering:
    >Du måste ha behörigheten Hantera för projektet för att kunna utföra följande steg. Vi rekommenderar också att endast projektägaren ska göra ändringar på projektets finansunderflik.
 
 1. Klicka på **Projektinformation** i den vänstra panelen.
-1. Klicka på ikonen **Redigera** ![Redigera](assets/edit-icon.png) i det övre högra hörnet av detaljavsnittet och klicka sedan på **Ekonomi** . Då öppnas finansdelen för redigering.
+1. Klicka på ikonen **Redigera** ![Redigera](assets/edit-icon.png) i det övre högra hörnet av detaljavsnittet och klicka sedan på **Ekonomi**. Då öppnas finansdelen för redigering.
 1. Redigera alla fält som är tillgängliga för redigering genom att klicka en gång på fältet eller klicka på **+Lägg till** för att lägga till information i ett tomt fält.
 
    >[!TIP]
