@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: dcc4657d4af4edbbe7971acd385a67b2ad50a058
+source-git-commit: 364d1263070c0249d13290700d705e29eb646012
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1691'
 ht-degree: 0%
 
 ---
@@ -263,6 +263,11 @@ Användare med denna inbyggda åtkomstnivå:
 * Kan göra förfrågningar och uppdatera dem
 * Kan överföra och godkänna dokument
 * Kan godkänna projekt, uppgifter och ärenden
+
+  >[!NOTE]
+  >
+  >Medarbetare kan delta i godkännanden, men kan inte öppna fliken Godkännanden för att visa eller hantera godkännandeprocesser.
+
 * Kan granska status för de utgåvor som de har skickat in
 * Kan tilldelas arbetsobjekt men kan inte slutföra dem
 * Kan bara komma åt begäranden från huvudmenyn. Mer information om begärandeköer finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
@@ -333,9 +338,9 @@ Följande är de högsta tillgängliga åtkomstinställningarna för objekt på 
 | Problem | ✓ |   |   |
 | Portföljer | ✓ |   |   |
 | Program | ✓ |   |   |
-| Rapporter (inklusive instrumentpaneler och kalenderrapporter) |   | ✓ (Endast för kalenderrapporter, ingen möjlighet att dela rapporter) |   |
+| Rapporter (inklusive instrumentpaneler och kalenderrapporter) |   | ✓ (Endast för kalenderrapporter, det går inte att dela rapporter) |   |
 | Filter, vyer och grupperingar | ✓ |   |   |
-| Dokument |   | ✓ (ingen möjlighet att dela dokument) |   |
+| Dokument |   | ✓ (Det går inte att dela dokument) |   |
 | Användare |   | ✓ |   |
 | Team | ✓ |   |   |
 | Mall | ✓ |   |   |
