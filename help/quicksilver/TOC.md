@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: ff9371b639e7684a94c08b8cd6293b632fac9edf
+source-git-commit: 3c319ff406ca7705e618f3159edcf87d27d8229e
 workflow-type: tm+mt
-source-wordcount: '13601'
+source-wordcount: '13609'
 ht-degree: 0%
 
 ---
@@ -1496,7 +1496,7 @@ ht-degree: 0%
          * [Ta bort en skickad begäran eller en begäran om utkast](manage-work/requests/create-requests/delete-request-draft.md)
          * [Kopiera och skicka begäranden](manage-work/requests/create-requests/copy-and-submit-requests.md)
          * [Fyll i en begäran automatiskt från tidigare data](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
-         * [Autofyll en begäran med uppmaningar eller dokument](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
+         * [Använd formulärifyllning med AI för att fylla i en förfrågan med hjälp av uppmaningar eller dokument](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
          * [Skapa vyer i området Förfrågningar](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
    * Delegera arbete {#delegate-work}
       * [Delegera arbete](manage-work/delegate-work/delegate-work.md)

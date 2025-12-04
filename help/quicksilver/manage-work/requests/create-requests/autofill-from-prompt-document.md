@@ -1,18 +1,18 @@
 ---
-title: Använd AI-formulärfyllning för att fylla i en begäran med hjälp av uppmaningar eller dokument
+title: Använd formulärifyllning med AI för att fylla i en förfrågan med hjälp av uppmaningar eller dokument
 content-type: reference
 description: Du kan använda AI för att autofylla begärandefält genom att ange en uppmaning eller genom att ange ett dokument.
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
+source-git-commit: 3c319ff406ca7705e618f3159edcf87d27d8229e
 workflow-type: tm+mt
-source-wordcount: '1345'
+source-wordcount: '1370'
 ht-degree: 0%
 
 ---
 
-# Använd AI-formulärfyllning för att fylla i en begäran med hjälp av uppmaningar eller dokument
+# Använd formulärifyllning med AI för att fylla i en förfrågan med hjälp av uppmaningar eller dokument
 
 >[!NOTE]
 >
@@ -169,7 +169,7 @@ Vi planerar en kampanj som liknar de sociala helgannonser vi fick förra året. 
 
 ## Få förslag baserade på ett dokument som du överför
 
-Autofyll kan föreslå fältvärden baserat på ett dokument som du överför.
+Blankettfyllning som drivs av AI kan fylla i en begäran med hjälp av uppmaningar eller dokument som kan föreslå fältvärden baserade på ett dokument som du överför.
 
 Den här typen av förslag kontrollerar även tidigare begäranden om liknande sammanhang. Om uppmaningen t.ex. anger att begäran gäller en viss klient kan Workfront automatiskt hitta och ange faktureringsadressen för den klienten baserat på tidigare begäranden.
 
@@ -234,8 +234,8 @@ Workfront-fälttyper påverkar om ett visst fält kan fyllas i automatiskt.
 
 <table>
 <tr>
-<td><b>Automatisk fyllning som stöds </b><br> kan användas</td>
-<td><b>Autofyll stöds inte</b> <br>Autofyll fylls inte</td>
+<td><b>Formulärfyllning som stöds av </b><br> och som hanteras av AI kan fyllas i</td>
+<td><b>Stöds inte</b> <br>Formulärfyllning som drivs av AI fylls inte</td>
 </tr>
 <tr>
 <td>
