@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 0c890cc535c61c5402a334e43ed45b3ec3f9f748
 workflow-type: tm+mt
-source-wordcount: '1902'
+source-wordcount: '1901'
 ht-degree: 0%
 
 ---
@@ -277,7 +277,7 @@ Så här delar du en vy offentligt i Workfront Planning:
 
    >[!TIP]
    >
-   ><span class="preview">Inställningen **Skapa offentlig länk** är nedtonad för en global posttyp på den sekundära arbetsytan.</span>
+   ><span class="preview">Fliken **Offentlig delning** har tagits bort för en global posttyp på den sekundära arbetsytan.</span>
 
 
 1. Klicka på ikonen **Kopiera länk** ![Kopiera länkvy](assets/copy-link-view.png) för att kopiera länken till Urklipp.

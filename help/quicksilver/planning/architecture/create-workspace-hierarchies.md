@@ -1,12 +1,12 @@
 ---
 title: Skapa Workspace Hierarkier
-description: Du kan skapa flera arbetsytehierarkier mellan posttyperna på en arbetsyta.
+description: Som arbetsytehanterare kan du skapa flera arbetsytehierarkier mellan posttyperna i Adobe Workfront Planning. När du har anslutit posttyper på en arbetsyta och skapat en hierarki, kopplas posttyperna till varandra, med en posttyp som angetts som överordnad och upp till 6 andra posttyper som konfigurerats som underordnade.
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: ff9371b639e7684a94c08b8cd6293b632fac9edf
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,14 @@ hidefromtoc: yes
 
 # Skapa arbetsytehierarkier
 
-Du kan skapa flera arbetsytehierarkier mellan posttyperna på en arbetsyta.
+Som arbetsytehanterare kan du skapa flera arbetsytehierarkier mellan posttyperna i Adobe Workfront Planning.
+
+När du har anslutit posttyper på en arbetsyta och skapat en hierarki, kopplas posttyperna till varandra, med en posttyp som angetts som överordnad och upp till 6 andra posttyper som konfigurerats som underordnade. <!--asking Robert how many we can have in one hierarchy; I think 7 total but not sure-->
+
+Hierarkier genererar vägbeskrivningar för de posttyper och poster <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> som visas i deras rubriker. På så sätt vet användarna var de befinner sig i hierarkin i vilket skede som helst i arbetsflödet.
+
+Allmän information om hierarkier och vägbeskrivningar finns i [Översikt över hierarki och vägbeskrivningar](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
 
 ## Åtkomstkrav
 
@@ -72,3 +79,5 @@ eller
 Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Skapa en arbetsytehierarki
