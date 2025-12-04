@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 0964ad24535bf43a23c740cd63abcf8fea705b8d
+source-git-commit: 34e6f4386c768b94c3835d4a4d7e7deadc3fecda
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,21 @@ I den här artikeln beskrivs funktionerna som lanseras för Workfront Planning i
 <!--keep the sentence below for all future quarterly release pages-->
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning finns i [Versionsaktivitet för Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Offentlig delning av vyer på en global posttyp på en sekundär arbetsyta har tagits bort
+
+
+>[!NOTE]
+>
+>Förhandsgranska: 3 december 2025
+>Production fast release: 4 december 2025
+>Produktion för alla: 15 januari 2026
+
+
+Fliken Offentlig delning har tagits bort vid delning av en vy för en global post på en sekundär arbetsyta. Du kan inte dela en vy offentligt från en global posttyp som lagts till på en annan arbetsyta från en befintlig global posttyp. Du kan dela en global posttypvy offentligt från den ursprungliga arbetsytan.
+
+Mer information finns i [Dela vyer](/help/quicksilver/planning/access/share-views.md).
+
 
 ## Koppla samman GenStudio for Performance Marketing-varumärken med posttyperna Workfront Planning
 

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: f22f00417cd0bfbe53cfee513e8be95a8719f785
+source-git-commit: 1ef57b73a77d0c622b3dbd57057c51d0ccbad7db
 workflow-type: tm+mt
-source-wordcount: '9416'
+source-wordcount: '9457'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ Vi har uppdaterat utseendet och känslan av den personliga kalendertiden, inklus
 
 Om du vill visa de här ändringarna går du till din användarprofil och klickar på **Tid av** i den vänstra panelen.
 
-Mer information finns i [Konfigurera personlig tid för &#x200B;](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) och [Delegera godkännandebegäran](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+Mer information finns i [Konfigurera personlig tid för ](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) och [Delegera godkännandebegäran](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 ## Gränssnittsuppdateringar gjorda under Q4
 
@@ -669,7 +669,7 @@ Vi har uppdaterat utseendet och känslan av den personliga kalendertiden, inklus
 
 Om du vill visa de här ändringarna går du till din användarprofil och klickar på **Tid av** i den vänstra panelen.
 
-Mer information finns i [Konfigurera personlig tid för &#x200B;](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) och [Delegera godkännandebegäran](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+Mer information finns i [Konfigurera personlig tid för ](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) och [Delegera godkännandebegäran](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 ### Gränssnittsuppdateringar för dialogrutan Ny användare
 
@@ -1415,6 +1415,13 @@ När du får åtkomst till milstolpen från en projektlista eller rapport har si
 I den här uppdateringen har vi även lagt till information om färger och färgkoder för varje milstolpe.
 
 Mer information finns i [Skapa en milstolpe-sökväg](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+
+
+#### Nytt utseende och känsla för projektdelen i en portfölj
+
+**Förhandsgranska och produktion: 18 mars 2025**
+
+Vi har förbättrat listan med projekt i avsnittet Projekt i en portfölj. Listan matchar nu de flesta listor i Workfront.
 
 +++
 

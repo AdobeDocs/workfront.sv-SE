@@ -4,7 +4,7 @@ description: Den här sidan innehåller information om de funktioner som ingår 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bd2d6fcf9e7a724914e8005cffc455fc6979f611
+source-git-commit: 34e6f4386c768b94c3835d4a4d7e7deadc3fecda
 workflow-type: tm+mt
 source-wordcount: '1930'
 ht-degree: 0%
@@ -162,7 +162,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplicera en rapport på en arbetsytans kontrollpanel</a><p>![!BADGE Off schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplicera en rapport på en arbetsytans kontrollpanel</a><p>![BADGE Off schedule]{type=Neutral}</p>
             <p>Du kan nu duplicera en KPI-, tabell- eller diagramrapport på en Canvas Dashboard när den har skapats. När du har duplicerat rapporten kan du redigera den efter behov innan du sparar den.</p>
         </td>
         <td>23 oktober 2025</td>
@@ -223,6 +223,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Snabb release</strong></td>
         <td><strong>kvartalsvis</strong></td>
     </tr>
+    <tr>
+        <!--<td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Share views in the Requests area and the My Requests widget</a>
+            <p>To make it easier to ensure to see the information you need, we've added the ability to share views to the new reporting experience. Now, you can share views with other users, teams, or groups. </p>
+        </td>
+        <td>December 4, 2025</td>
+        <td>December 11, 2025</td>
+        <td>January 15, 2026</td>
+    </tr> -->
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Spara utkast av begäranden i den nya begärande upplevelsen</a>
@@ -241,15 +250,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>11 december 2025</td>
         <td>15 januari 2026</td>
     </tr>   
-<!--        <tr>
-        <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Share views in the Requests area and the My Requests widget</a>
-            <p>To make it easier to ensure to see the information you need, we've added the ability to share views to the new reporting experience. Now, you can share views with other users, teams, or groups. </p>
-        </td>
-        <td>November 20, 2025</td>
-        <td>December 11, 2025</td>
-        <td>January 15, 2026</td>
-    </tr>   -->
         <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Skapa nya begäranden genom att kopiera tidigare skickade begäranden i den nya begärande upplevelsen</a>
@@ -317,7 +317,7 @@ Vi uppdaterar gränssnittet i hela Adobe Workfront för att förbättra använda
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Förbättringar av Workfront Planning
 
@@ -380,13 +380,13 @@ För att kunna leverera mer stabila och skalbara integreringar går vi över til
 * Workfront för Salesforce.
 
 Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Google Workspace.
-En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Underhållsuppdateringar för Workfront
 
-Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=sv-SE).
+Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan &#x200B;](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=sv-SE).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
