@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: bc222ec76ac94a44c33ee166036d84c164b1da01
+source-git-commit: fb1b5bb34810652e5098f0dcad70062670d7c137
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -50,13 +50,19 @@ Om du väljer ett alternativ för **Timme/FTE/Procent** i Avancerad sökning fö
 
 KPI:n för planerade timmar på skärmen Avancerade tilldelningar går inte längre att redigera när aktivitetens varaktighet är 0. Tidigare kunde du redigera de planerade timmarna, men ändringarna sparades inte.
 
-<!--### Maintenance Updates week of November 30-December 6, 2025
+### Underhållsuppdateringar vecka 30 november-6 december 2025
+
+**Fältet Datum för valutakurs är dolt när datumeffektiva valutakurser inte används**
+
+Fältet **Valutakursdatum** i området Projektinformation > Ekonomi är nu dolt när kryssrutan **Använd datumeffektiva valutakurser från systemet** inte är markerad. Tidigare visades datumfältet i projektinformationen när ett projekt redigerades, även när datumeffektiva valutakurser inte var aktiverade.
+
+<!--### Maintenance Updates week of December 7-13, 2025
 
 **Title**
 
 text
 
-### Maintenance Updates week of December 7-13, 2025
+### Maintenance Updates week of January 4-10, 2026
 
 **Title**
 
