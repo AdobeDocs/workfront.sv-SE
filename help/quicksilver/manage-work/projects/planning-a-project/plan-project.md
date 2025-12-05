@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: fb57f04a4031eaf38f88c3a1b2542d64ee230a8c
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1673'
 ht-degree: 0%
 
 ---
@@ -85,27 +85,6 @@ Du kan skapa flera scheman i din Workfront-instans och använda ett standardsche
 
 Mer information om scheman finns i artikeln [Skapa ett schema](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-### Hantera ytterligare information som behövs för att planera projektet {#manage-additional-information-needed-for-planning-the-project}
-
-När du planerar ett projekt finns det ytterligare information som måste ställas in innan du kan börja arbeta med projektet.
-
-Du kan ställa följande frågor:
-
-* Finns det någon förordning som föreskriver att ni ska registrera händelser och processer? Om så är fallet, vad behöver du spåra?
-
-  Med Workfront kan du registrera ändringar, omfångsändringar, statusändringar och åtgärder så att du kan följa branschspecifika regler.\
-  Mer information om hur du definierar vilka uppdateringar som ska spåras i Workfront finns i artikeln [Systemspårade uppdateringar](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
-
-* Är det någon information som du måste spåra som inte har något fält i Workfront att lagra det i?
-
-  Om ja, skapar du Anpassad Forms för projekt eller uppgifter där du kan lagra den här informationen.
-
-  Mer information om hur du skapar anpassade formulär finns i artikeln [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-
-* Finns det några kontrollpunkter för godkännande som måste beviljas innan arbetet med ett projekt kan fortsätta? Om ja, skapa godkännandeprocesser för projekt eller uppgifter som du kan använda när du skapar projektet.
-
-  Mer information om godkännandeprocesser finns i artikeln [Skapa en godkännandeprocess för arbetsobjekt](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
-
 ## Bygg projekttidslinjen
 
 När du har fastställt de viktigaste målen för ett projekt och du har beslutat att projektet är värt att eftersträva, bör du beräkna tidslinjen för varje mål. Varje mål kan bli en av dina uppgifter i projektet.
@@ -172,3 +151,32 @@ Tänk på följande när du definierar uppgifter:
    * Tilldela om uppgifterna till användare som inte har några andra begränsningar.\
      Mer information om planering av projektresurser finns i artikeln [Resursplanering: artikelindex](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
      Mer information om hur du schemalägger resurser för att utföra arbetet i ett projekt finns i [Översikt över belastningsutjämning](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+
+## Hantera ytterligare information som behövs för att planera projektet {#manage-additional-information-needed-for-planning-the-project}
+
+När du planerar ett projekt finns det ytterligare information som måste ställas in innan du kan börja arbeta med projektet.
+
+Du kan ställa följande frågor:
+
+* Finns det någon förordning som föreskriver att ni ska registrera händelser och processer? Om så är fallet, vad behöver du spåra?
+
+  Med Workfront kan du registrera ändringar, omfångsändringar, statusändringar och åtgärder så att du kan följa branschspecifika regler.\
+  Mer information om hur du definierar vilka uppdateringar som ska spåras i Workfront finns i artikeln [Systemspårade uppdateringar](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+
+* Är det någon information som du måste spåra som inte har något fält i Workfront att lagra det i?
+
+  Om ja, skapar du Anpassad Forms för projekt eller uppgifter där du kan lagra den här informationen.
+
+  Mer information om hur du skapar anpassade formulär finns i artikeln [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+* Måste du dokumentera processer och arbeta med resurser som antingen är en del av det dagliga arbetet eller avgöra vilken lösning projektet har? Om ja, skapa ett system för lagring av dokument.
+
+  Mer information finns i [Dokument: artikelindex](/help/quicksilver/documents/documents-overview.md).
+
+* Finns det några kontrollpunkter för godkännande som måste beviljas innan arbetet med ett projekt kan fortsätta? Om ja, skapar du godkännandeprocesser för projekt eller uppgifter som du kan använda när du skapar ditt projekt och inventerar vilka dokument eller korrektur som måste godkännas innan arbetet kan fortsätta.
+
+  Mer information om godkännanden finns i följande artiklar:
+
+   * [Skapa en godkännandeprocess för arbetsobjekt](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
+   * [Granska och godkänn arbetet](/help/quicksilver/review-and-approve-work/review-and-approve-work.md)
+   * [Tillgänglig funktionalitet för enhetliga dokumentgodkännanden](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)

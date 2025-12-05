@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 364d1263070c0249d13290700d705e29eb646012
+source-git-commit: 5cea1b349867dbb408af97e6c2402a0d799af87b
 workflow-type: tm+mt
-source-wordcount: '1691'
+source-wordcount: '1698'
 ht-degree: 0%
 
 ---
@@ -102,8 +102,6 @@ Följande är de högsta tillgängliga åtkomstinställningarna för objekt på 
 | Finansiella uppgifter |   |   | ✓ |
 | Resurshantering |   |   | ✓ |
 | Scenarioplan |   |   | ✓ (Standardinställningen är Ingen åtkomst.) |
-| Varumärkena |   |   | ✓ |
-| Startsida |   |   | ✓ |
 | Mål |   |   | ✓ |
 
 {style="table-layout:auto"}
@@ -155,8 +153,8 @@ Följande är de högsta tillgängliga åtkomstinställningarna för objekt på 
   <tr> 
    <td>Uppgifter</td> 
    <td> </td> 
-   <td>✓</td> 
-   <td> </td> 
+   <td></td> 
+   <td>✓ (begränsad)</td> 
   </tr> 
   <tr> 
    <td>Problem</td> 
@@ -215,7 +213,7 @@ Följande är de högsta tillgängliga åtkomstinställningarna för objekt på 
   <tr> 
    <td>Finansiella uppgifter</td> 
    <td></td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓(standardinställningen är Ingen åtkomst)</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -229,23 +227,13 @@ Följande är de högsta tillgängliga åtkomstinställningarna för objekt på 
    <td> </td> 
    <td> </td> 
    <td>✓ (Standardinställningen är Ingen åtkomst.)</td> 
-  </tr> 
-  <tr> 
-   <td>Varumärkena </td> 
-   <td> </td> 
-   <td> </td> 
-   <td>✓</td> 
-     <tr> 
-   <td>Startsida </td> 
-   <td> </td> 
-   <td> </td> 
-   <td>✓</td> 
-  </tr> 
-  <tr>   
+  </tr>
+
+<tr>   
    <td>Mål </td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ (Standardinställningen är Ingen åtkomst)</td> 
  </tbody> 
 </table>
 
@@ -282,8 +270,8 @@ Följande är de högsta tillgängliga åtkomstinställningarna för objekt på 
 
 | Workfront objekttyp | Ingen åtkomst | Visa åtkomst | Redigera åtkomst |
 |---|---|---|---|
-| Projekt |   | ✓ |   |
-| Uppgift |   | ✓ |   |
+| Projekt |   | ✓ (begränsat) |   |
+| Uppgift |   | ✓(begränsad) |   |
 | Problem |   |   | ✓ |
 | Portföljer |   | ✓ |   |
 | Program |   | ✓ |   |
@@ -292,13 +280,11 @@ Följande är de högsta tillgängliga åtkomstinställningarna för objekt på 
 | Dokument |   |   | ✓ |
 | Användare |   | ✓ |   |
 | Team |   | ✓ |   |
-| Mall | ✓ |   |   |
+| Mallar | ✓ |   |   |
 | Finansiella uppgifter | ✓ |   |   |
 | Resurshantering | ✓ |   |   |
 | Scenarioplan | ✓ |   |   |
-| Varumärkena |   |   | ✓ (enkla kort) |
-| Startsida |   | ✓ (Mina uppdateringar) |   |
-| Mål |   |   | ✓ |
+| Mål |   |   | ✓ (Standardinställningen är Ingen åtkomst) |
 
 {style="table-layout:auto"}
 
@@ -343,12 +329,10 @@ Följande är de högsta tillgängliga åtkomstinställningarna för objekt på 
 | Dokument |   | ✓ (Det går inte att dela dokument) |   |
 | Användare |   | ✓ |   |
 | Team | ✓ |   |   |
-| Mall | ✓ |   |   |
+| Mallar | ✓ |   |   |
 | Finansiella uppgifter | ✓ |   |   |
 | Resurshantering | ✓ |   |   |
 | Scenarioplan | ✓ |   |   |
-| Varumärkena | ✓ |   |   |
-| Startsida | ✓ |   |   |
 | Mål | ✓ |   |   |
 
 

@@ -5,9 +5,9 @@ description: Funktionen Project Health utnyttjar funktionerna i AI Assistant fö
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: ed5a8725442a0b3de993a4e8f47280bfc7d88160
+source-git-commit: b95be2e0917b53195ac327880a2ea7399c1485de
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '2060'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,14 @@ Mer information om AI Assistant finns i [Översikt över AI Assistant](/help/qui
    <td><p>Du måste vara systemadministratör för att kunna hantera Project Health-konfigurationer </p>
    <p>Redigera åtkomst till projekt för att använda Project Health-konfigurationer </p>
      <p>Visa åtkomst till projekt för att visa Project Health-konfigurationer </p>
+     <p>Visa åtkomst till Program för att använda vyn Projekthälsa för alla projekt i ett program</p>
   </td> 
+  <tr> 
+   <td role="rowheader"><p>Objektbehörigheter</p></td> 
+   <td><p>Hantera behörigheter för projekt för att tillämpa Project Health-konfigurationer </p>
+     <p>Visa behörigheter till projekt för att visa Project Health-konfigurationer </p>
+  </td> 
+  </tr> 
   </tr>  
     </tr>  
 </tbody> 
@@ -66,16 +73,16 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Delta i betaversionen av Project Health
 
-Om du vill använda Project Health måste AI Assistant vara aktiverat i organisationen.
+Din organisation måste ha AI Assistant aktiverat för att kunna använda Project Health.
 
 Om du vill aktivera AI Assistant och Projekthälsa för din organisation måste du göra något av följande:
 
-* Din organisation måste ha migrerat till Adobe IMS (Identity Management System).
-* Din organisation måste ha en Select-, Prime- eller Ultimate Workfront-plan
+* Din organisation måste ha migrerat till Adobe Identity Management System (IMS).
+* Din organisation måste ha ett Workfront- eller Workflow Select-, Prime- eller Ultimate-paket.
 * Adobe Unified Experience måste aktiveras.
 * Adobe måste ha ett signerat Adobe Gen AI-avtal till hands.
 * Workfront-administratören måste aktivera AI-assistenten för användare i din organisation. AI Assistant aktiveras via åtkomstnivåer.
-* Du måste markera alternativen Aktivera AI och Projekthälsa i AI-inställningarna under Inställningar > System > Inställningar.
+* Du måste markera alternativen Aktivera AI och Projekthälsa under AI-inställningar under Systeminställningar under Konfigurera.
 
   ![Avsnittet AI-inställningar](assets/ai-preferences.png)
 
@@ -127,9 +134,12 @@ Projektvillkor och Projekthälsa är liknande begrepp i Workfront och har samma 
 
 Projektvillkor ger en grundläggande ögonblicksbild av hur ett projekt för närvarande fungerar baserat enbart på planerade, planerade och beräknade datum. Den kan ställas in manuellt av projektägaren eller automatiskt av Workfront utifrån projektets uppgifter. Alternativt är Project Health mer omfattande och utvärderar ytterligare faktorer, vilket ger dig en bättre förståelse för hur det fungerar.
 
-Mer information om projektvillkor finns i [Anpassade villkor](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+Mer information om projektvillkor finns i följande artiklar:
 
-## Lista över projekt- och programtillstånd
+* [Uppdatera villkor för ett projekt](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-on-project.md)
+* [Anpassade villkor](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+
+## Project and program Project Health state list
 
 Tabellen nedan innehåller en beskrivning av de tillgängliga lägena AI Assistant tilldelar ditt projekt eller program när du genererar en Project Health-utvärdering.
 
@@ -184,7 +194,7 @@ Tabellen nedan innehåller en beskrivning av de tillgängliga lägena AI Assista
 
 ## AI Assistant-frågelista
 
-Nedan visas en lista med frågor som du kan använda för att be AI-utvärdering att generera en Project Health-bedömning för ett projekt, ett program eller alla projekt på ditt konto.
+Nedan visas en lista med frågor som du kan använda för att be AI-assistenten att generera en Project Health-bedömning för ett projekt, ett program eller alla projekt som du har tillgång till att visa.
 
 <table>
     <tr>
@@ -215,19 +225,21 @@ Nedan visas en lista med frågor som du kan använda för att be AI-utvärdering
 
 ## Hantera Project Health-konfigurationer
 
-En projekthälsokonfiguration innehåller specifika kriterier som avgör hur projektets hälsotillstånd beräknas. När en konfiguration har skapats kan du sedan använda den i ett projekt.
+Du måste vara systemadministratör för att kunna hantera Project Health-konfigurationer.
 
->[!NOTE]
->
->Du måste vara systemadministratör för att kunna hantera Project Health-konfigurationer.
+En projekthälsokonfiguration innehåller specifika kriterier som avgör hur projektets hälsotillstånd beräknas. När Workfront-administratören har skapat en konfiguration kan du sedan använda den i ett projekt.
+
+Du kan ha flera Project Health-konfigurationer i systemet.
 
 {{step-1-to-setup}}
 
-1. Klicka på **Projektinställningar** i den vänstra panelen och välj sedan **Projekthälsa** i listrutan som visas.
+1. Klicka på **Projektinställningar** i den vänstra panelen och välj sedan **Projekthälsa**.
 
-1. Välj **Ny konfiguration** i det övre högra hörnet på sidan.
+1. Klicka på **Ny konfiguration** i det övre högra hörnet på sidan.
 
-1. (Valfritt) Ersätt *Namnlös konfiguration* med en ny konfiguration **Namn** på sidan med konfigurationsinformation.
+   Sidan **AI-inställningar** öppnas.
+
+1. (Valfritt) Klicka i rubriken **Namnlös konfiguration** för att byta namn på konfigurationen.
 
 1. I avsnittet **Vilka faktorer du vill ta med i projekthälsotillståndet** avmarkerar du de faktorer du inte vill ta med när du fastställer dina projekthälsovillkor:
    * **Omfångskrypning**: Hur mycket projektomfånget har utökats sedan det startades.
@@ -249,45 +261,48 @@ En projekthälsokonfiguration innehåller specifika kriterier som avgör hur pro
 
 1. I **Hur beräknar du omfattningen av arbetet i ett projekt?**-avsnitt, välj vilken projektfaktor som ska öka när projektomfånget ökar.
 
-1. I **Vilka fält vill du kontrollera om de är fullständiga?**-avsnitt, markera ett eller flera fält som ska kontrolleras för att avgöra om projektet är klart.
+1. I **Vilka vill du söka efter obligatoriska fält?**-avsnitt, markera ett eller flera fält som måste innehålla ett värde för projektet.
 
-   ![Fält för projektfullständighet](assets/project-completeness-fields.png)
+   ![Obligatoriska projektfält för projekthälsa](assets/project-completeness-fields.png)
 
+1. Klicka på **Lägg till** i fler inbyggda eller anpassade projekt- eller aktivitetsfält.
 
 1. Klicka på **Spara** längst upp till höger.
 
 ## Använd konfigurationer för projekthälsa
 
-När en administratör har skapat en projekthälsokonfiguration kan användare med behörigheten Redigera använda den på ett projekt.
-
+När Workfront-administratören har skapat en projekthälsokonfiguration kan du använda den i ett projekt om du har behörigheten Hantera i ett projekt.
 
 {{step1-to-projects}}
 
 1. Välj ett projekt på sidan **Projekt**.
 
-1. Klicka på ikonen **Mer** ![Mer &#x200B;](assets/more-icon.png) till höger om projektnamnet och välj sedan **Redigera**. Sidpanelen **Redigera projekt** öppnas.
+1. Klicka på ikonen **Mer** ![Mer ](assets/more-icon.png) till höger om projektnamnet och välj sedan **Redigera**. Rutan **Redigera projekt** öppnas.
 
-1. Välj **Projektinställningar** i den vänstra panelen.
+1. Klicka på **Projektinställningar** i den vänstra panelen.
 
 1. I fältet **Projekthälsokonfiguration** väljer du den konfiguration som du vill använda för det här projektet.
 
    ![Konfigurationsfält för projekthälsa](assets/project-health-configurations.png)
 
-1. Klicka på **Spara** i panelens nedre vänstra hörn.
+1. Klicka på **Spara** längst ned till vänster på sidan.
 
 ## Generera en Project Health-utvärdering för ett projekt eller program
 
-Om du har åtkomst till Visa för ett projekt eller program kan du generera en Project Health-utvärdering med hjälp av AI-assistenten.
+Du kan generera en Project Health-utvärdering från AI-assistenten inom följande områden:
 
-Om du genererar en utvärdering för ett projekt kan du göra det antingen från projektsidan eller genom att referera till projektnamnet när du frågar assistenten hur projektet fungerar.
+* För ett projekt kan du generera utvärderingen antingen från projektsidan eller genom att referera till projektnamnet när du frågar assistenten hur ett visst projekt fungerar.
 
-Om du genererar en utvärdering för ett program kan du göra det från sidan med programinformation.
+* För ett program kan du generera utvärderingen av programmets informationssida.
 
 >[!NOTE]
 >
->Det går inte att generera en Project Health-utvärdering för ett projekt förrän projektet har startats. Du kan konfigurera vilka händelser som utlöser ett projekt så att det börjar i projektinställningarna.
+>* Du behöver behörigheten Visa för projektet eller programmet för att kunna generera en utvärdering.
+>* Det går inte att generera en Project Health-utvärdering för ett projekt förrän projektet har startats. Du kan konfigurera vilka händelser som utlöser ett projekt till att börja med i projektinställningarna
 
-Mer information finns i följande avsnitt i den här artikeln: [Hantera projekthälsokonfigurationer](#manage-project-health-configurations).
+Mer information finns i avsnittet [Hantera projekthälsokonfigurationer](#manage-project-health-configurations) i den här artikeln.
+
+Så här genererar du en Project Health-utvärdering för ett projekt eller program:
 
 1. Navigera till det projekt eller program som du vill generera en Project Health-utvärdering för.
 
@@ -302,27 +317,27 @@ Mer information finns i följande avsnitt i den här artikeln: [Hantera projekth
    >[!NOTE]
    >
    >Om du använder AI Assistant från en annan sida i Workfront kan du skriva *Vad är tillståndet för projektet [PROJEKTNAMN]?* eller *Vad är tillståndet för programmet [PROGRAM NAME]?* <br>
-   >En fullständig lista över de aktuella uppmaningar du kan ange finns i följande avsnitt i den här artikeln: [AI Assistant-frågelistan](#ai-assistant-prompts-list).
+   >En fullständig lista över de aktuella uppmaningar du kan ange finns i avsnittet [AI Assistant-frågelista](#ai-assistant-prompts-list) i den här artikeln.
 
 1. Klicka på ikonen **Skicka** ![Skicka](assets/send-icon.png). Utvärderingen av projektets hälsotillstånd genereras och visas på panelen. Ett emblem visas högst upp i varje Project Health-bedömning, som avspeglar projektets aktuella tillstånd.
 
    ![Project Health Assessment](assets/health-assessment.png)
 
-   Om du genererar en utvärdering för en portfölj visas flera märken som visar villkoret för varje projekt i programmet. Mer information om märkordsetiketter finns i följande avsnitt i den här artikeln: [Lista över projekt- och programtillstånd](#project-and-program-states-list).
+   Om du gör en utvärdering för ett program visas flera märken som visar villkoret för varje projekt i programmet. Mer information om märkordsetiketter finns i avsnittet [Project and program states list](#project-and-program-states-list) i den här artikeln.
 
 1. (Valfritt) Klicka på en av utvärderingspunkterna för att utöka detaljerna.
 
-1. (Valfritt) I det utökade informationsläget klickar du på uppgiftslänken för att öppna uppgiftsinformationen.
+1. (Valfritt) Klicka på projektlänken i det utökade informationsläget för att öppna projektinformationen.
 
    ![Utökad information](assets/expanded-details.png)
 
-1. När du har granskat projekthälsoinformationen klickar du på ikonen **Stäng** ![Stäng &#x200B;](assets/close-icon.png) i det övre högra hörnet av AI Assistant.
+1. När du har granskat projekthälsoinformationen klickar du på ikonen **Stäng** ![Stäng ](assets/close-icon.png) i det övre högra hörnet av AI Assistant.
 
 ## Generera en Project Health-utvärdering för flera projekt
 
-Du kan generera en kombinerad Project Health-utvärdering för alla projekt som du för närvarande har View-åtkomst (eller senare) för.
+Du kan generera en kombinerad Project Health-utvärdering för alla projekt som du har vybehörighet för eller högre.
 
-Ett projekt inkluderas bara i den kombinerade Project Health-bedömningen om projektet har startats. Du kan konfigurera vilka händelser som utlöser ett projekt så att det börjar i projektinställningarna. Mer information finns i följande avsnitt i den här artikeln: [Hantera projekthälsokonfigurationer](#manage-project-health-configurations).
+Ett projekt inkluderas bara i den kombinerade Project Health-bedömningen om projektet har startats. Du kan konfigurera vilka händelser som utlöser ett projekt så att det börjar i projektinställningarna. Mer information finns i avsnittet [Hantera projekthälsokonfigurationer](#manage-project-health-configurations) i den här artikeln.
 
 1. Klicka på ikonen **AI-assistenten** ![AI-assistenten](assets/ai-assistant-icon.png) i skärmens övre högra hörn. AI-assistenten öppnas.
 
@@ -338,7 +353,7 @@ Ett projekt inkluderas bara i den kombinerade Project Health-bedömningen om pro
 
 1. (Valfritt) Klicka på ett av projektets hälsovillkorsemblem för att expandera projektlistan och välj sedan en länk för ett visst projekt för att gå till informationssidan för det projektet.
 
-1. När du har granskat projektens hälsoinformation klickar du på ikonen **Stäng** ![Stäng &#x200B;](assets/close-icon.png) i det övre högra hörnet av AI Assistant för att stänga den.
+1. När du har granskat projektens hälsoinformation klickar du på ikonen **Stäng** ![Stäng ](assets/close-icon.png) i det övre högra hörnet av AI Assistant för att stänga den.
 
 <!--
 
