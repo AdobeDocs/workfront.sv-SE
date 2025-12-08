@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 7960f134874ae2a2587dd2b6cb0ec5740955339d
+source-git-commit: 509b3454344d3775172b899e3bd4559416f54adc
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1049'
 ht-degree: 1%
 
 ---
@@ -3020,6 +3020,11 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
    <td> </td> 
    <td> </td> 
    <td>projekt: portfolioID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>projekt:status</td> 
   </tr> 
   <tr> 
    <td> </td> 
