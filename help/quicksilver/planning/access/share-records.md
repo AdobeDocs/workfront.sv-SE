@@ -177,7 +177,7 @@ Du kan justera behörigheter för enskilda poster om du har behörigheten Hanter
 
    Rutan **Dela** öppnas.
 
-   ![Behörigheter för poster med ärvda behörigheter ](assets/permissions-for-records-with-inherited-permissions-on.png)
+   ![Behörigheter för poster med ärvda behörigheter &#x200B;](assets/permissions-for-records-with-inherited-permissions-on.png)
 
 1. (Valfritt) I området **Vem har åtkomst** är alternativet **Alla på arbetsytan kan visa** markerat som standard.  Alla användare som har behörigheten Visa eller högre till arbetsytan och posttypen kan visa posten.
 
@@ -230,7 +230,7 @@ Du kan justera behörigheter för enskilda poster om du har behörigheten Hanter
 
 1. Dela den kopierade länken med andra. Användare som tar emot länken måste vara aktiva användare och logga in på Workfront för att kunna komma åt posttypssidan och visa den i den valda vyn. De måste ha behörighet till posttypen för att kunna visa den. Mer information finns också i [Dela poster via en länk](/help/quicksilver/planning/records/share-records.md).
 
-## Ta bort behörigheter till en post (************** DETTA KOPIERADES FRÅN POSTTYPER, DET MÅSTE REDIGERAS FÖR POSTER, MEN VÄNTA PÅ LISTANS SLACK-SVAR **********)
+## Ta bort behörigheter till en post (**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B; DETTA KOPIERADES FRÅN POSTTYPER, DET MÅSTE REDIGERAS FÖR POSTER, MEN VÄNTA PÅ LISTANS SLACK-SVAR &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**)
 
 Du kan ta bort användarnas behörigheter från en post. De behåller dock åtminstone behörigheten Visa på postarbetsytan, vilket ger dem åtminstone behörigheten Visa för posttypen. Du måste ta bort deras åtkomst från arbetsytan om du vill att de inte ska ha behörighet till posttyperna på arbetsytan.
 
