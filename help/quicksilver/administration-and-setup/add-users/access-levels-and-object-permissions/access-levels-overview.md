@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,11 @@ ht-degree: 0%
 # Översikt över åtkomstnivåer
 
 <!-- Audited: 12/2023 -->
+
+>[!NOTE]
+>
+>Informationen i den här artikeln avser de äldre åtkomstnivåerna. Mer information om de nya åtkomstnivåerna finns i [Översikt över nya åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+
 
 Som Adobe Workfront-administratör tilldelar du en åtkomstnivå till en användare för två syften:
 
@@ -57,8 +62,18 @@ Mer information om ämnen som rör åtkomstnivåer finns i följande artiklar:
    <td> <p>Instruktioner om hur du tilldelar en åtkomstnivå till en användare finns i <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Redigera en användares profil</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>Åtkomstnivåerna Standard, Light, Contributor</td> 
-   <td> <p>Om du ser dessa åtkomstnivåer i din miljö i stället för i Planera, Arbeta, Granska eller Begär, använder din organisation den nya åtkomstnivåmodellen. Mer information om den nya modellen finns i <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Översikt över nya åtkomstnivåer</a>.</p> </td> 
+   <td><b>Typer av åtkomstnivåer</b></td> 
+   <td><p>Det finns två typer av åtkomstnivåer i Workfront:</p>
+   <ul><li>Äldre åtkomstnivåer</li>
+   <ul><li>Plan</li>
+   <li>Arbete</li>
+   <li>Granska</li>
+   <li>Begäran</li></ul>
+   <li>Nya åtkomstnivåer:</li>
+   <ul><li>Standard</li>
+   <li>Ljus</li>
+   <li>Medarbetare</li></ul></ul> 
+   <p>Mer information om de nya åtkomstnivåerna finns i <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Översikt över nya åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <!--
   <tr> 

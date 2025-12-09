@@ -10,16 +10,21 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 101a0ce2-dfa6-44ea-a197-22bc85ef50f5
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
 
 # Jämför funktioner mellan olika licensmodeller
 
-Tabellen visar vilka funktioner som är tillgängliga för licenser i den gamla och nya licensieringsmodellen.
+Det finns två typer av åtkomstnivåer i Adobe Workfront:
+
+* Nya åtkomstnivåer. Mer information finns i [Översikt över nya åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+* Äldre åtkomstnivåer. Mer information finns i [Översikt över åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+
+Följande tabell visar vilka funktioner som är tillgängliga för licenser i den gamla och nya licensieringsmodellen.
 
 <table style="table-layout:auto"> 
  <col> 

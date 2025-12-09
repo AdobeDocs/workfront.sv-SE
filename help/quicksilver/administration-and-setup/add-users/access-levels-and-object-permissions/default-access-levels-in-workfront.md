@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '1715'
+source-wordcount: '1654'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->I den här artikeln beskrivs de inbyggda åtkomstnivåerna i Adobe Workfront. Mer information om de nya inbyggda åtkomstnivåerna finns i [Översikt över nya åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>Informationen i den här artikeln avser de äldre åtkomstnivåerna. Mer information om de nya åtkomstnivåerna finns i [Översikt över nya åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 
 Var och en av de sex inbyggda åtkomstnivåerna är utformad för en viss typ av användare. Dessa åtkomstnivåer låter dig styra vad användare kan redigera och visa i systemet.
@@ -97,7 +97,7 @@ Följande är de högsta tillgängliga åtkomstinställningarna för objekt på 
 | Projekt |   |   | ✓ |
 | Uppgifter |   |   | ✓ |
 | Problem |   |   | ✓ |
-| Portfolio |   |   | ✓ |
+| Portföljer |   |   | ✓ |
 | Program |   |   | ✓ |
 | Rapporter, instrumentpaneler och kalendrar |   |   | ✓ |
 | Filter, vyer och grupperingar |   |   | ✓ |
@@ -131,10 +131,10 @@ Följande är de högsta tillgängliga åtkomstinställningarna för objekt på 
 
 | Workfront objekttyp | Ingen åtkomst | Visa åtkomst | Redigera åtkomst |
 |---|---|---|---|
-| Projekt |   |   | ✓ (Begränsat: användare kan bara dela projektet, skapa uppgifter och problem i det och redigera data i anpassade formulär som redan är kopplade till det.) |
+| Projekt |   |   | ✓ (Begränsat: användare kan bara dela projektet, skapa aktiviteter och problem i det och redigera data i anpassade formulär som redan är kopplade till det.) |
 | Uppgifter |   |   | ✓ |
 | Problem |   |   | ✓ |
-| Portfolio |   | ✓ (Standardinställningen är Ingen åtkomst.) |   |
+| Portföljer |   | ✓ (Standardinställningen är Ingen åtkomst.) |   |
 | Program |   | ✓ (Standardinställningen är Ingen åtkomst.) |   |
 | Rapporter, instrumentpaneler och kalendrar |   | ✓ |   |
 | Filter, vyer och grupperingar |   |   | ✓ |
@@ -198,7 +198,7 @@ Mer begränsat för projekt och uppgifter än Worker-åtkomstnivån, är följan
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Portfolio</td> 
+   <td>Portföljer</td> 
    <td> </td> 
    <td>✓ (Standardinställningen är Ingen åtkomst.)</td> 
    <td> </td> 
@@ -293,10 +293,10 @@ Följande är de högsta tillgängliga åtkomstinställningarna för objekt på 
 
 | Workfront objekttyp | Ingen åtkomst | Visa åtkomst | Redigera åtkomst |
 |---|---|---|---|
-| Projekt |   | ✓ (endast sidan Projektinformation) |   |
+| Projekt |   | ✓ (Endast sidan Projektinformation) |   |
 | Uppgift |   | ✓(Endast sidan Uppgiftsinformation) |   |
 | Problem |   |   | ✓ |
-| Portfolio | ✓ |   |   |
+| Portföljer | ✓ |   |   |
 | Program | ✓ |   |   |
 | Rapporter, instrumentpaneler och kalendrar |   | ✓ |   |
 | Filter, vyer och grupperingar |   |   | ✓ |
@@ -336,9 +336,9 @@ Du kan inte ändra den här åtkomstnivån.
 | Projekt | ✓ |   |   |
 | Uppgift | ✓ | |   |
 | Problem | ✓ |   |   |
-| Portfolio | ✓ |   |   |
+| Portföljer | ✓ |   |   |
 | Program | ✓ |   |   |
-| Rapporter, instrumentpaneler och kalendrar |   | ✓ (Endast för kalenderrapporter, ingen möjlighet att dela rapporter) |   |
+| Rapporter, instrumentpaneler och kalendrar |   | ✓ (Endast för kalenderrapporter, det går inte att dela rapporter) |   |
 | Filter, vyer och grupperingar | ✓ |   |   |
 | Dokument |   | ✓ (utan möjlighet att dela dokument) |   |
 | Användare |   | ✓ |   |

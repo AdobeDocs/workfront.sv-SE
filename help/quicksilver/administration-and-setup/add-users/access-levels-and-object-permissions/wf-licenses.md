@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 0%
 # Översikt över licenser
 
 <!-- Audited: 12/2023 -->
+
+>[!NOTE]
+>
+>Informationen i den här artikeln avser de äldre åtkomstnivåerna. Mer information om de nya åtkomstnivåerna finns i [Översikt över nya åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 Organisationen köpte ett visst antal licenser när den förvärvade Adobe Workfront. Som Workfront-administratör ger du en av fem typer av Workfront-licenser till varje användare när du tilldelar användaren en åtkomstnivå.
 
