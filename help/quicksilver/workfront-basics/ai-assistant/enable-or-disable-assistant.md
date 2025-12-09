@@ -5,9 +5,9 @@ description: Du kan styra vilka åtkomstnivåer i organisationen som har tillgå
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: 8a0923bbdc8731652e59647409ef9b32e802e895
+source-git-commit: 184636b0d8df85e75502fc3650900244cfbd0e80
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -46,10 +46,6 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 ## Aktivera eller inaktivera AI-assistenten i Workfront
 
->[!NOTE]
->
->AI Assistant är inaktiverat som standard för icke-administratörer.
-
 Så här aktiverar du AI-assistenten för en given åtkomstnivå:
 
 1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Setup]** ![ikonen Konfigurera](/help/_includes/assets/gear-icon-setup.png).
@@ -58,4 +54,11 @@ Så här aktiverar du AI-assistenten för en given åtkomstnivå:
 1. Avmarkera kryssrutan **Inaktivera Workfront AI Assistant** i området **Ange ytterligare begränsningar..** i rutan **Redigera åtkomstnivå**.
 1. Klicka på **Spara**.
 1. Upprepa steg 3-5 för varje åtkomstnivå som du vill aktivera AI Assistant för.
+
+
+
+>[!NOTE]
+>
+>* AI Assistant är inaktiverat som standard för icke-administratörer.
+>* Om en icke-administratör interagerar med AI Assistant-ikonen i Workfront, visas AI Assistant-avtalet som uppmanar den icke-administratörer att acceptera villkoren. Om de godkänner avtalet kan de använda AI Assistant även om det är inaktiverat i deras layoutmall.
 
