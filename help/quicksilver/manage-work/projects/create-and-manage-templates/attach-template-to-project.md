@@ -6,9 +6,9 @@ description: Du kan bifoga en mall till ett projekt antingen under den inledande
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
+source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1126'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ Du kan bifoga en mall till ett projekt från projektsidan eller från en projekt
 
    eller
 
-   Gå till en projektlista eller rapport och välj ett projekt och klicka sedan på ikonen **Mer** ![Mer &#x200B;](assets/more-dropdown.png) högst upp i listan.
+   Gå till en projektlista eller rapport och välj ett projekt och klicka sedan på ikonen **Mer** ![Mer ](assets/more-dropdown.png) högst upp i listan.
 
    ![Mer meny utökad](assets/more-menu-expanded.png)
 
@@ -159,15 +159,23 @@ Du kan bifoga en mall till ett projekt från projektsidan eller från en projekt
      </tr> 
      <tr> 
       <td role="rowheader">De valda malluppgifterna nedan importeras till projektet. Avmarkera de som du vill utesluta. </td> 
-      <td>Avmarkera alla uppgifter som du vill utesluta från mallen innan du bifogar den till projektet.</td> 
+      <td><p>Avmarkera alla uppgifter som du vill utesluta från mallen innan du bifogar den till projektet.</p>
+      <p><b>TIPS</b></p>
+      <p>Du kan bara välja en uppgift.</p>
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Välj den projektuppgift som du vill ha som föregångare för aktiviteterna i den här mallen.</td> 
-      <td> <p>Klicka på fältet för att visa en lista med projektuppgifter och välj sedan vilken uppgift som ska slutföras innan malluppgifterna kan startas. Du kan också hoppa över det här steget och ställa in relationer inom projektet efter att mallen har bifogats. </p> <p> Markera informationen om <strong>beroendetyp</strong>, <strong>fördröjd tid</strong> och om du vill att föregångaren ska framtvingas genom att markera kryssrutan <strong>Framtvinga föregående</strong> . </p> </td> 
+      <td> <p>Klicka i fältrutan för att visa en lista med projektuppgifter och välj sedan vilken uppgift som ska slutföras innan malluppgifterna kan starta. Du kan också hoppa över det här steget och ställa in relationer inom projektet efter att mallen har bifogats. </p> <p> Markera informationen om <strong>beroendetyp</strong>, <strong>fördröjd tid</strong> och om du vill att föregångaren ska framtvingas genom att markera kryssrutan <strong>Framtvinga föregående</strong> . </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Välj den projektuppgift som du vill ska vara överordnad uppgifterna i den här mallen.</td> 
-      <td> Välj vilken projektuppgift som du vill ange som överordnad uppgift för alla malluppgifter. Om du inte gör något val visas alla malluppgifter i slutet av de aktuella projektaktiviteterna. Du kan hoppa över det här steget och flytta runt aktiviteter i projektet när mallen har bifogats.</td> 
+      <td> <p>Välj vilken projektuppgift som du vill ange som överordnad uppgift för alla malluppgifter. Om du inte gör något val visas alla malluppgifter i slutet av de aktuella projektaktiviteterna. Du kan hoppa över det här steget och flytta runt aktiviteter i projektet när mallen har bifogats.</p>
+      <p><b>ANMÄRKNING</b></p>
+      <p>Om du har valt en överordnad malluppgift med ytterligare underordnade, kommer endast den överordnade att visa projektuppgiften som sin föregångare när den har lagts till i projektet. De underordnade malluppgifterna visar inte någon föregångare.</p>
+      <p>Om du bara har valt en underordnad malluppgift visas projektaktiviteten som sin föregångare när den har lagts till i projektet. </p>
+
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader" colspan="2"> <p role="rowheader" colspan="2">Alternativavsnitt</p> <p role="rowheader" colspan="2"> <img src="assets/attach-template-large-box-options-section-nwe-350x78.png" style="width: 350;height: 78;"> </p> </td> 

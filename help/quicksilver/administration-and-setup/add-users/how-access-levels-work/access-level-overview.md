@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
+source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
 workflow-type: tm+mt
 source-wordcount: '1720'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Informationen i den här artikeln hänvisar till de nya åtkomstnivåerna. Mer information om de äldre åtkomstnivåerna finns i [Översikt över åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+>Informationen i den här artikeln hänvisar till de aktuella åtkomstnivåerna. Mer information om de äldre åtkomstnivåerna finns i [Översikt över åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 Som Adobe Workfront-administratör tilldelar du en åtkomstnivå till en användare för två syften:
 

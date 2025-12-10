@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
+source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
 workflow-type: tm+mt
 source-wordcount: '1335'
 ht-degree: 1%
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Informationen i den här artikeln hänvisar till de nya åtkomstnivåerna. Mer information om de äldre åtkomstnivåerna finns i [Översikt över åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+>Informationen i den här artikeln hänvisar till de aktuella åtkomstnivåerna. Mer information om de äldre åtkomstnivåerna finns i [Översikt över åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 I följande tabeller visas de funktioner som är tillgängliga för varje objekttyp på olika åtkomstnivåer.
 
@@ -32,7 +32,7 @@ Det anger också vilka åtgärder Workfront-administratörer kan inaktivera elle
 >[!NOTE]
 >
 >* I den här artikeln beskrivs de funktioner som är tillgängliga för åtkomstnivåer i den nya Workfront-planmodellen. Information om vilka funktioner som är tillgängliga i den aktuella plansmodellen finns i [Tillgängliga funktioner för varje objekttyp för olika åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* En lista över funktioner som är tillgängliga för de olika planerna i den nya avtalsmodellen finns i [Priser och paketering för Adobe Workfront](https://business.adobe.com/se/products/workfront/pricing.html).
+>* En lista över funktioner som är tillgängliga för de olika planerna i den nya avtalsmodellen finns i [Priser och paketering för Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Projekt
 

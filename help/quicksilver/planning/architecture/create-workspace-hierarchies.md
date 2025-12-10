@@ -4,9 +4,9 @@ description: Som arbetsytehanterare kan du skapa flera arbetsytehierarkier mella
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: ff9371b639e7684a94c08b8cd6293b632fac9edf
+source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,6 @@ När du har anslutit posttyper på en arbetsyta och skapat en hierarki, kopplas 
 Hierarkier genererar vägbeskrivningar för de posttyper och poster <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> som visas i deras rubriker. På så sätt vet användarna var de befinner sig i hierarkin i vilket skede som helst i arbetsflödet.
 
 Allmän information om hierarkier och vägbeskrivningar finns i [Översikt över hierarki och vägbeskrivningar](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
-
 
 ## Åtkomstkrav
 
@@ -81,3 +80,58 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 +++
 
 ## Skapa en arbetsytehierarki
+
+{#step1-to-planning}
+
+1. Klicka på ett arbetsytekort.
+1. Klicka på menyn **Mer** ![Mer meny](assets/more-menu.png) till höger om arbetsytans namn och klicka sedan på **Inställningar**.
+Avsnittet **Hierarkier** öppnas som standard.
+1. Klicka på **Ny hierarki** i det övre högra hörnet på sidan **Hierarkier** .
+1. Klicka på **Lägg till objekt** och välj ett objekt i listrutan. Det här blir det överordnade objektet i din hierarki.
+Du kan välja en posttyp på den aktuella arbetsytan eller ett projekt från Workfront.
+1. Klicka på **Lägg till objekt** om du vill lägga till ett andra objekt, som är det första underordnade objektet i hierarkin, och välj sedan ett annat objekt i listrutan.
+   ![Ny hierarkiruta utan markerat fält](assets/new-hierarchy-modal-without-connecte-fielf-selected.png)
+1. Klicka på **Välj anslutet fält** för att ange vilket fält som ska kopplas till de två objekten.
+1. (Villkorligt) Om det finns ett anslutet fält mellan de två objekttyperna väljer du det i listan. Annars klickar du på **Lägg till ny anslutning**.
+
+   >[!WARNING]
+   >
+   >Om **Skapa motsvarande fält för den länkade posttypen** inte markerades när det anslutna fältet skapades måste du redigera fältet innan du kan fortsätta.
+
+1. (Villkorligt) Om du lägger till en ny anslutning gör du följande:
+
+   1. Lägg till ett namn för det anslutna fältet i rutan **Namn**.
+   1. Välj mellan följande anslutningstyper:
+
+      * **Många till många**
+      * **En till många**
+      * **Många till en**
+      * **En till en**
+   1. Välj någon av följande typer av postutseenden:
+
+      * **Namn och bild**
+      * **Namn**
+      * **Bild**
+Mer information finns i [Koppla samman posttyper ](/help/quicksilver/planning/architecture/connect-record-types.md) .
+   1. Klicka på **Spara**.
+1. (Valfritt) Fortsätt lägga till upp till fyra objekttyper i hierarkierna enligt stegen ovan. Du kan lägga till alla objekttyper först och sedan lägga till anslutningsfälten mellan dem.
+1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort ](assets/minus-icon.png) för att ta bort en anslutning.
+1. Klicka på **Spara** för att spara hierarkin.
+
+   >[!TIP]
+   >
+   >Knappen **Spara** är nedtonad om du inte har alla anslutna fält på plats.
+
+   Följande saker händer:
+
+   * Hierarkin läggs till i avsnittet **Hierarkier** på arbetsytan.
+   * Posterna som fyller i anslutningsfälten visar alla anslutningar i sina vägbeskrivningar när du går till en posts sida.
+1. (Valfritt) Hovra över en hierarki, klicka på menyn **Mer** och sedan på något av följande:
+
+   * **Redigera**: Då öppnas rutan **Redigera hierarki** där du kan göra ändringar.
+   * **Ta bort**: Detta tar bort hierarkin permanent. Det går inte att återställa borttagna hierarkier. Anslutningsfält tas inte bort.
+
+
+
+
+
