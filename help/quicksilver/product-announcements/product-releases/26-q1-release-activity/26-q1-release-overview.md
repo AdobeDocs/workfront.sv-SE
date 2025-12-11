@@ -186,7 +186,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplicera en rapport på en arbetsytans kontrollpanel</a><p>![BADGE Off schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplicera en rapport på en arbetsytans kontrollpanel</a><p>![!BADGE Off schedule]{type=Neutral}</p>
             <p>Du kan nu duplicera en KPI-, tabell- eller diagramrapport på en Canvas Dashboard när den har skapats. När du har duplicerat rapporten kan du redigera den efter behov innan du sparar den.</p>
         </td>
         <td>23 oktober 2025</td>
@@ -441,4 +441,4 @@ Mer information om underhållsuppdateringar som gjordes under den första utgåv
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan &#x200B;](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
