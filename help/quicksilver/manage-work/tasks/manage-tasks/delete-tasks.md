@@ -6,9 +6,9 @@ description: Du kan ta bort uppgifter som kan vara dubbletter eller som har skap
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
@@ -98,37 +98,40 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 
 När du tar bort en uppgift påverkas andra objekt som är länkade till uppgiften.
 
-Följande objekt som är kopplade till en uppgift tas också bort när du tar bort en uppgift:
+Tänk på följande:
 
-* Dokument
+* Följande objekt som är kopplade till en uppgift tas också bort när du tar bort en uppgift:
+
+   * Dokument
 
   Du kan inte ta bort en uppgift som har ett dokument som har checkats ut bifogat. Mer information om utcheckning av dokument finns i [Checka ut dokument](../../../documents/managing-documents/check-out-documents.md).
 
-* Problem
-* Underaktiviteter
-* Anteckningar
-* Godkännanden
+   * Problem
+   * Underaktiviteter
+   * Anteckningar
+   * Godkännanden
 
-Beroende på hur din Workfront-administratör konfigurerar inställningarna för projekt, uppgift eller borttagning av problem i tidrapport och timinställningar för din Workfront-instans, hanteras timmar som loggas för uppgifterna på något av följande sätt när du tar bort en uppgift:
+* Beroende på hur din Workfront-administratör konfigurerar inställningarna för projekt, uppgift eller borttagning av problem i tidrapport och timinställningar för din Workfront-instans, hanteras timmar som loggas för uppgifterna på något av följande sätt när du tar bort en uppgift:
 
-* Flytta till projektet och återställ inte aktiviteten om den återställs senare.
-* tas bort och återställs om uppgiften återställs senare.
+   * Flytta till projektet och återställ inte aktiviteten om den återställs senare.
+   * tas bort och återställs om uppgiften återställs senare.
 
   Detta gäller också när du försöker ta bort projekt som har uppgifter som har loggats in i timmar.
 
-  <!--
+  Mer information om hur du konfigurerar raderingsinställningarna för timmar som är inloggade finns i [Konfigurera tidrapport och timinställningar](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+   * Utgifter för aktiviteten flyttas till projektet.
+
+   * De användare som är tilldelade till uppgiften eller aktivitetsgodkännandet blir kvar i projektteamet.
+
+  Mer information om projektteam finns i [Översikt över projektteamet](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+
+* När du tar bort en underordnad uppgift och flyttar den överordnade till ett annat projekt och sedan återställer den borttagna underordnade uppgiften, läggs uppgiften till som huvuduppgift i det ursprungliga projektet.
+
+<!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   (NOTE: this stays NWE; not possible in classic;)
   </MadCap:conditionalText>
   -->
-
-  Mer information om hur du konfigurerar raderingsinställningarna för timmar som är inloggade finns i [Konfigurera tidrapport och timinställningar](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
-
-* Utgifter för aktiviteten flyttas till projektet.
-
-* De användare som är tilldelade till uppgiften eller aktivitetsgodkännandet blir kvar i projektteamet.
-
-  Mer information om projektteam finns i [Översikt över projektteamet](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Ta bort uppgifter
 

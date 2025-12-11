@@ -7,9 +7,9 @@ description: Du kan anpassa den typ av information som du visar i en lista eller
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -43,24 +43,41 @@ Följande typer av vyer kan du använda i listor och rapporter i Workfront:
     </tr>
     <tr>
         <td><strong>Agile-vy</strong></td>
-        <td>Du kan använda den på en lista med uppgifter i aktivitetsavsnittet i ett projekt. Du kan anpassa och dela en flexibel vy med andra. Mer information finns i <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Skapa eller redigera vyer i Adobe Workfront</a>.</td>
+        <td>Du kan använda styrelsen eller Agile-vyn på en lista med uppgifter i aktivitetsavsnittet i ett projekt eller på en lista med problem i projektavsnittet. Mer information finns i <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md">Hantera ett projekt i flexibel vy</a>.</td>
     </tr>
     <tr>
         <td><strong>Gantt-vy</strong></td>
         <td>Du kan använda den på en lista med uppgifter i aktivitetsavsnittet i ett projekt, en lista med projekt eller lägga till den i en aktivitets- eller projektrapport. Du kan anpassa vilken information du vill visa i Gantt-vyn med hjälp av fördefinierade inbyggda alternativ. Alla användare som har åtkomst till att visa uppgifter eller projekt kan visa dem i Gantt-vyn. Mer information finns i <a href="/help/quicksilver/manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md">Kom igång med Gantt-schemat</a>.</td>
        </tr>
+
+<tr>
+        <td><strong>Förbättrad vy</strong></td>
+        <td>Förbättrade vyer baseras på förbättrade listor. De finns i vissa delar av Workfront. I dessa listor används ett tabellformat för att visa listobjekten, och de har ett annat utseende och en annan känsla än standardvyerna eller -listorna. Hanteringen av vyer har också förbättrats, bland annat filtrering, gruppering, hantering av kolumner och sökning. Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md">Använda förbättrade listor</a></td>
+       </tr>    
 </table>
+
+
 
 <!--NOTE FOR MAYBE LATER: consider adding calendar and board views, or Milestone view (not customizable) to this list of views (above)?! -->
 
 ## Dela en vy
 
-Mer information om hur du delar en vy finns i [Dela ett filter, en vy eller en gruppering](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+Du kan dela elementen i en standardvy.
+
+Mer information om hur du delar en standardvy finns i [Dela ett filter, en vy eller en gruppering](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+
+Du kan inte dela Gantt- och Agile-vyer. Alla som har tillgång till de områden där dessa vyer visas kan visa samma information.
+
+<!-- add something about the enhanced views here, when we have a link-->
 
 ## Ta bort en vy
 
 Möjligheten att ta bort en vy fungerar på olika sätt beroende på om du först skapade vyn eller om vyn delades med dig. Du kan inte ta bort en standardvy.
 
-Mer information finns i [Ta bort filter, vyer och grupperingar](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
+Du kan inte ta bort Gantt- eller Agile-vyer.
+
+Mer information om hur du tar bort en standardvy finns i [Ta bort filter, vyer och grupperingar](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
+
+<!-- add something about the enhanced views here, when we have a link-->
 
 

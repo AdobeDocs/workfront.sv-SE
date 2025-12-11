@@ -6,9 +6,9 @@ description: Du kan anpassa vilken typ av information som visas på skärmen med
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '898'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,9 @@ ht-degree: 0%
 
 Du kan anpassa vilken typ av information som visas på skärmen med hjälp av vyer. Du kan använda flera typer av vyer i Adobe Workfront.
 
-I den här artikeln beskrivs hur du skapar och redigerar standardvyer för listor och rapporter, och hur du skapar Agile-vyer. Mer information finns i [Vyöversikt i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+I den här artikeln beskrivs hur du skapar och redigerar standardvyer för listor och rapporter.
+
+Mer information finns i [Vyöversikt i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Åtkomstkrav
 
@@ -58,7 +60,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Skapa eller anpassa en vy
 
-Hur du skapar eller anpassar en vy varierar beroende på om du skapar eller anpassar en standardvy eller en flexibel vy.
+Hur du skapar eller anpassar en vy varierar beroende på om du skapar eller anpassar en standardvy eller en Agile- eller en styrelsvy.
 
 * [Skapa eller anpassa en standardvy](#create-or-customize-a-standard-view)
 * [Skapa eller anpassa en Agile-vy](#create-or-customize-an-agile-view)
@@ -71,7 +73,7 @@ Du kan skapa en ny standardvy eller anpassa en befintlig standardvy som du skapa
 
 1. Klicka på knappen **+ Ny vy** för att skapa en ny vy.
 eller
-Klicka på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) som visas i muspekaren till höger om en befintlig vy som du vill redigera.
+Klicka på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) som visas i muspekaren till höger om en befintlig vy som du vill redigera.
 Dialogrutan **Anpassa vy** visas.
 
 1. Gör något av följande i avsnittet **Förhandsvisa kolumn**:
@@ -161,115 +163,116 @@ Dialogrutan **Anpassa vy** visas.
 
 ### Skapa eller anpassa en Agile-vy {#create-or-customize-an-agile-view}
 
-Du kan skapa en Agile-vy eller anpassa en befintlig Agile-vy som du har skapat tidigare.
+Flexibla vyer, även kallade styrelsevyer, visas bara för listor över uppgifter och frågor i ett projekt.
 
->[!IMPORTANT]
->
->Flexibla vyer är bara tillgängliga när du visar ett projekt.
+De är förkonfigurerade, men du kan ändra vissa inställningar för dem.
 
-Mer information om Agile-vyer finns i artikeln [Hantera ett projekt i Agile-vyn](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Mer information om vyn Agile eller Board finns i artikeln [Hantera ett projekt i Agile-vyn](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+
+<!-- Legacy Agile views were deprecated with 25.3. This is old: 
 
 >[!NOTE]
 >
->Den här proceduren gäller endast för den äldre Agile-vyn, inte för en projektvy.
+>This procedure only applies to the legacy Agile view, not to the board view of a project.
 
-Så här skapar eller anpassar du en Agile-vy:
+To create or customize an Agile view:
 
-1. Gå till listan med uppgifter i ett projekt.
-1. Klicka på ikonen **Kavla** ![Kavla](assets/board-icon-for-agile-view.png) och klicka sedan på **Använd äldre profil** i vyn Byrå.
+1. Go to the list of tasks on a project.
+1. Click the **Board** icon ![Board icon](assets/board-icon-for-agile-view.png), and then click **Use legacy agile** on the board view.
 
-1. (Villkorligt) Så här anpassar du en befintlig Agile-vy:
+1. (Conditional) To customize an existing Agile view:
 
-   1. Klicka på den nedrullningsbara menyn **Visa** och välj sedan den vy du vill anpassa.\
-      Du kan inte anpassa Agile-standardvyn.
+   1. Click the **View** drop-down menu, then select the Agile view you want to customize.  
+      You cannot customize the default Agile view.
+   
+   1. Click the **View** drop-down menu again, then click **Customize View**.  
+      ![Customize view](assets/view-agile-customize.png)
 
-   1. Klicka på listrutan **Visa** igen och klicka sedan på **Anpassa vy**.\
-      ![Anpassa vy](assets/view-agile-customize.png)
+1. (Conditional) To create a new Agile view, click **New View**.  
+   The **Customize Agile View** dialog box displays.  
 
-1. (Villkorligt) Klicka på **Ny vy** om du vill skapa en ny Agilvy.\
-   Dialogrutan **Anpassa flexibel vy** visas.
+1. In the **Customize Agile View** dialog box, specify a name for the Agile view.  
+   We recommend that you include the word "Agile" in your view name, so users know this is an Agile view.  
+   This name is displayed in the **View** drop-down menu when selecting a view.
 
-1. I dialogrutan **Anpassa flexibel vy** anger du ett namn för vyn Agile.\
-   Vi rekommenderar att du tar med ordet&quot;Agile&quot; i visningsnamnet så att användarna vet att det här är en Agile-vy.\
-   Det här namnet visas i listrutan **Visa** när du väljer en vy.
+1. Define the status columns to display on the story board in the agile view. These are the task statuses that are defined by the Workfront administrator, as described in [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-1. Definiera de statuskolumner som ska visas på artikelpanelen i den flexibla vyn. Detta är uppgiftsstatusvärdena som definieras av Workfront-administratören, vilket beskrivs i [Skapa eller redigera en status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+   Only system statuses are available to use on the Agile story board. If a status is available only for an individual group you are a member of, the status is not available on the agile story board. Furthermore, tasks that are in a status that is available only to a custom group are not visible when viewing the project in an Agile view.
 
-   Det går bara att använda systemstatus på Agile-artikelpanelen. Om en status endast är tillgänglig för en enskild grupp som du är medlem i, är statusen inte tillgänglig på den flexibla artikelpanelen. Dessutom visas inte uppgifter som har en status som bara är tillgänglig för en anpassad grupp när du visar projektet i en Agile-vy.
-
-   Användarna kan flytta artiklar mellan dessa statuskolumner på Agile-artikelpanelen.\
-   När du definierar statuskolumner kan du göra följande:
+   Users can move stories among these status columns on the Agile story board.  
+   When defining status columns, you can do the following:
 
    <table style="table-layout:auto"> 
     <col> 
     <col>
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Ändra ordning på statuskolumner:</strong> </td> 
-      <td> Dra en statuskolumn till den ordning där du vill att den ska visas.<br><img src="assets/agile-project-reorderstatuses-350x141.png" alt="" style="width: 350;height: 141;"></td> 
+      <td role="rowheader"><strong>Reorder status columns:</strong> </td> 
+      <td> Drag a status column to the order where you want it to appear.<br><img src="assets/agile-project-reorderstatuses-350x141.png" alt="" style="width: 350;height: 141;"></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Ta bort statuskolumner:</strong> </td> 
-      <td>Klicka på ikonen (x) för den kolumn som du vill ta bort.<br>Du kan inte ta bort statusen"Nytt" om inte en anpassad status har lagts till i vyn och den anpassade statusen är lika med"Nytt".<br>Mer information om hur du skapar en anpassad status finns i <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Skapa eller redigera en status</a>.</td> 
+      <td role="rowheader"><strong>Remove status columns:</strong> </td> 
+      <td>Click the (x) icon on the column that you want to remove.<br>You cannot remove the "New" status unless a custom status has been added to the view and that custom status equates with "New."<br>For information about creating a custom status, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Create or edit a status</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Lägg till statuskolumner:</strong> </td> 
-      <td> <p>Klicka på ikonen <strong>Plus</strong> och välj sedan den status som du vill lägga till.<br>Alla standardstatusvärden för systemet visas, liksom alla anpassade statusvärden som har delats med dig.<br>Du kan konfigurera upp till 10 statusar att visa.</p></td> 
+      <td role="rowheader"><strong>Add status columns:</strong> </td> 
+      <td> <p>Click the <strong>Plus</strong> icon, then select the status you want to add.<br>All default system statuses are displayed, as well as any custom statuses that have been shared with you.<br>You can configure up to 10 statuses to display.</p></td> 
      </tr> 
     </tbody> 
    </table>
 
-   <!--
-        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE FOR ADD STATUS COLUMNS: research this and add: [! What if the status has been shared with me or a group I'm in (so I can see it here), but the status hasn't been shared with another user who also has access to a project where I later apply this view? Can that user still see this status on the project?]) </p>
-       -->
+   *********   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE FOR ADD STATUS COLUMNS: research this and add: [! What if the status has been shared with me or a group I'm in (so I can see it here), but the status hasn't been shared with another user who also has access to a project where I later apply this view? Can that user still see this status on the project?]) </p>
+       *************
 
-1. Välj bland följande alternativ i området **Koppla kortfärg till**:
+1. In the **Associate Card Color to** area, select from the following options:
 
    <table style="table-layout:auto"> 
     <col> 
     <col>
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Artikel:</strong> </td> 
-      <td>Alla underaktiviteter matchar färgen för den överordnade uppgiften, så att färgerna för alla artiklar i en viss simbana är desamma.<br>Färger tilldelas slumpmässigt till aktiviteter när de skapas om aktiviteten inte har några underaktiviteter eller inte har någon överordnad aktivitet.</td> 
+      <td role="rowheader"><strong>Story:</strong> </td> 
+      <td>Any subtasks match the color of the parent task, so that the colors of all stories in any given swimlane are the same.<br>Colors are randomly assigned to tasks when they are created if the task does not have any subtasks or does not have a parent task.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Kostnadsfri form:</strong> </td> 
-      <td> Alla kort visas som standard med blått tills en användare ändrar färgen manuellt, vilket beskrivs i artikeln <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md" class="MCXref xref">Kategorisera artiklar efter färg på Urklipp</a>. </td> 
+      <td role="rowheader"><strong>Free Form:</strong> </td> 
+      <td> All cards are displayed as blue by default until a user changes the color manually, as described in the article <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md" class="MCXref xref">Categorize stories by color on the Scrum board</a>. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Prioritet:</strong> </td> 
-      <td> <p> Färgerna kopplas till artikelprioriteten enligt följande:</p> 
+      <td role="rowheader"><strong>Priority:</strong> </td> 
+      <td> <p> Colors are associated with the story priority, as follows:</p> 
        <ul> 
-        <li>Hög = Röd</li> 
-        <li>Medium = gul</li> 
-        <li>Låg = Grön<br>Om din Workfront-administratör har konfigurerat anpassade prioriteringar för ditt Workfront-system är den högsta prioriteten röd, den näst högsta är gul och den återstående är grön.</li> 
+        <li>High = Red</li> 
+        <li>Medium = Yellow</li> 
+        <li>Low = Green<br>If your Workfront administrator has configured custom priorities for your Workfront system, the highest priority is red, the second-highest is yellow, and the remaining are green.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Aktivitetsägare:</strong> </td> 
-      <td> Alla artiklar med samma primära tilldelade färg har samma färg.<br>Den primära tilldelade användaren är den användare som först tilldelades uppgiften. </td> 
+      <td role="rowheader"><strong>Task Owner:</strong> </td> 
+      <td> All stories with the same primary assignee are the same color.<br>The primary assignee is the user who was first assigned to the task. </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicka på **Lägg till fält** i området **Ytterligare fält** och markera sedan det fält som du vill lägga till i artikelkort. (Detta är samma fält som du kan lägga till när du skapar en anpassad vy eller skapar kolumner för en rapport.)\
-   Upprepa den här processen om du vill lägga till upp till tre ytterligare fält till artikelkorten.\
-   När du lägger till fält i artikelkort är fälten skrivskyddade och visas endast när fältet fylls i.
+1. In the **Additional Fields** area, click **Add Field**, then select the field you want to add to story cards. (These are the same fields you can add when creating customizing a view or creating columns for a report.)  
+   Repeat this process to add up to three additional fields to the story cards.  
+   When you add fields to story cards, fields are view-only and display only when the field is populated.
 
-   Som standard visas följande typer av data på artikelkortet:
+   By default, the following types of data is displayed on the story card:
 
-   * Artikelnamn med en länk direkt till uppgiften
-   * Projektnamnet med en länk direkt till projektet\
-     Den här länken visas bara när du använder den flexibla vyn på en iteration. Den visas inte när du använder en Agile-vy i ett projekt.
-   * Uppgiftsbeskrivningen
-   * Aktuellt åtagande
-   * Visa och redigera procentandelen antingen genom att justera själva procentandelen eller genom att justera antalet punkter eller timmar som är klara
-   * Tilldelade användare
+   * Story name with a link directly to the task
+   * The project name with a link directly to the project  
+     This link is displayed only when using the agile view on an iteration; it is not displayed when using an Agile view on a project.
+   * The task description
+   * Current commitment
+   * View and edit the percent complete either by adjusting the percent complete itself or by adjusting the number of points or hours that are complete
+   * Assigned Users
 
-   Du kan visa ytterligare data (inklusive anpassade data) på artikelkort. Du kan visa ytterligare fält på artikelkort av någon anledning. Du kan till exempel visa Kund-ID om du arbetar med artiklar för flera kunder i projektet eller om du vill visa Startdatum för aktiviteten.
+   You can display additional data (including custom data) on story cards. You might want to display additional fields on story cards for any number of reasons. For example, you might want to display the Customer ID if you are working on stories for multiple customers within the project, or you might want to display the Task Start Date.
 
-1. Klicka på **Spara**.\
-   Åtkomsten styr hur vyn sparas. Om du skapade vyn från början kan du spara ändringarna. Annars uppmanas du att spara en version. Tänk på att de ändringar du gör i vyn påverkar användare som vyn har delats med.
+1. Click **Save**.  
+   Your access dictates how the view is saved. If you created the view originally, you can save the changes; otherwise, you are prompted to save a version. Keep in mind that changes you make to the view impact users with whom the view has been shared.
 
-1. (Valfritt) Klicka på ikonen **Lista** för att gå tillbaka till listan med uppgifter.
+1. (Optional) Click the **List** icon to return to the list of tasks.
+
+-->

@@ -5,16 +5,16 @@ description: Du kan visa listor med objekt i [!DNL Adobe Workfront] för att få
 feature: Get Started with Workfront
 author: Nolan
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: ca16652aa06b4652d0d1b41156ed1ef96225c49a
+source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '1913'
 ht-degree: 0%
 
 ---
 
 # Kom igång med listor i [!DNL Adobe Workfront]
 
-<!--Audited: 11/2024-->
+<!--Audited: 12/2025-->
 
 Du kan visa listor med objekt i [!DNL Adobe Workfront] för att få information om dem, som start- och förfallodatum, användare som är tilldelade dem och andra objekt som är kopplade till dem.
 
@@ -206,7 +206,7 @@ Nedan visas några typer av objektlistor som du kan hitta i [!DNL Workfront] och
    <td>Lista över tidrapporter</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Timesheet] s &gt; [!UICONTROL All Timesheets]*</p> </li> 
+     <li> <p>[!UICONTROL Timesheets]  &gt; [!UICONTROL All Timesheets]*</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -293,7 +293,7 @@ Nedan visas några typer av objektlistor som du kan hitta i [!DNL Workfront] och
  </tbody> 
 </table>
 
-Du kan inte anpassa listan i det angivna området. En [!DNL Workfront]-administratör kan skapa en anpassad lista på systemnivå eller så kan du skapa en rapport för det här objektet om åtkomstnivån tillåter dig åtkomst till redigeringsrapporter.
+*Du kan inte anpassa listan i det angivna området. En [!DNL Workfront]-administratör kan skapa en anpassad lista på systemnivå eller så kan du skapa en rapport för det här objektet om åtkomstnivån tillåter dig åtkomst till redigeringsrapporter.
 
 ## Listelement
 
@@ -649,25 +649,19 @@ I följande tabell visas några av skillnaderna mellan standardlistor och utöka
   </tr> 
   <tr>
   <td> <p>Visa <strong>alla</strong> eller upp till <strong>2000</strong> objekt som standard</p> </td> 
-   <td> Visa upp till 100 objekt som standard och upp till 2 000 efter rullning </td> 
+   <td> Visa alla objekt i listan efter manuell rullning </td> 
   </tr>
 
 <tr> 
-   <td>Ikonerna högst upp i listan är något enhetliga i alla listor, oavsett var du öppnar dem. Vissa listor, uppgifter, utgåvor och dokument har unika ikoner som är relevanta för de här objekttyperna. </td> 
-   <td>Ikonerna högst upp i listan varierar beroende på var du öppnar listan. Dessutom finns det ett blått fält längst ned i listan som visas när du markerar objekt i listan.</td> 
+   <td>Att interagera med objekten i listan är konsekvent för alla objekttyper och det görs genom att använda ikonerna högst upp i listan.  </td> 
+   <td>Hur du interagerar med objekten i listan kan variera beroende på objekttyp, och det görs genom att använda ikonerna högst upp i listan samt det blå verktygsfältet som aktiveras när du har valt listobjekt. </td> 
   </tr>
 
-<tr> 
-   <td> <p>Använd ikonerna i verktygsfältet högst upp i listan för att interagera med objekten i listan</p> </td> 
-   <td> <p>Gör något av följande för att interagera med objekten i listan, beroende på vad du vill uppdatera:</p>
-   <ul><li>Använd ikonerna i verktygsfältet längst upp för vissa åtgärder som att söka, lägga till nya objekt, sortera eller filtrera</li>
-   <li>Markera ett objekt i listan och använd ikonerna i det blå verktygsfältet längst ned i listan för att ta bort eller visa objekt</li></ul> 
-   </tr>   
-   </td> 
+</td> 
   </tr> 
   <tr> 
    <td><p>Du kan använda cellfärgändringar på objekt i en lista</p></td>
-   <td><p>Du kan endast använda cellfärgändringar på objekt i en lista i Workfront Planning. </p></td>
+   <td><p>Du kan inte använda cellfärgsändringar på objekt i en lista. </p></td>
    </td> 
    <td></td> 
   </tr> 
