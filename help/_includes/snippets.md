@@ -1,5 +1,5 @@
 ---
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: b2d495496f61c88e5b454073f77e3836c129513b
 workflow-type: tm+mt
 source-wordcount: '2435'
 ht-degree: 0%
@@ -98,7 +98,7 @@ Du kan kontrollera att du associerar rätt grupp med gruppen genom att hålla ma
 
 ## Steg 1 - Gå till användare {#step-1-to-users}
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Users]** ![Användare &#x200B;](/help/_includes/assets/users-icon-in-main-menu.png) .
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Users]** ![Användare ](/help/_includes/assets/users-icon-in-main-menu.png) .
 
 
 <!-- Agile -->
@@ -371,8 +371,8 @@ Du måste installera rätt plugin-program för det Adobe Creative Cloud-program 
 
 **Senaste versionen**:
 
-* Mac: 2.1.52 per den 31 juli 2025
-* Windows: 2.1.52, 7/31/2025
+* Mac: 2.1.54 2025-12-11
+* Windows: 2.1.54, 12.11.2025
 
 <!-- Release -->
 
