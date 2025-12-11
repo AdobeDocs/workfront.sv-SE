@@ -4,9 +4,9 @@ description: Den här sidan innehåller information om de funktioner som ingår 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 34e6f4386c768b94c3835d4a4d7e7deadc3fecda
+source-git-commit: e08ac842214a9bcff0acba3f34316bb5cfa4c4aa
 workflow-type: tm+mt
-source-wordcount: '1930'
+source-wordcount: '2108'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Administratörsförbättringar](#administrator-enhancements)
 * [Förbättringar av dokument och godkännanden](#documents-and-approvals-enhancements)
 * [Integration enhancements](#integration-enhancements)
+* [Projektförbättringar](#project-enhancements)
 * [Rapportförbättringar](#reporting-enhancements)
 * [Förbättrade begäranden](#requests-enhancements)
 * [Andra förbättringar](#other-enhancements)
@@ -149,6 +150,29 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
+### Projektförbättringar
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Funktion</strong>
+        </td>
+        <td><strong>Förhandsgranska</strong></td>
+        <td><strong>Snabb release</strong></td>
+        <td><strong>kvartalsvis</strong></td>
+    </tr>
+         <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-projects.md" class="MCXref xref" xrefformat="{para}">Ljusanvändare kan logga tid i projekt</a>
+            <p>Ljusanvändare kan nu logga tiden direkt i projekt. Tidigare var det bara användare med Standard-licenser som kunde logga timmar i projekt.</p>
+        </td>
+        <td>11 december 2025</td>
+        <td>15 januari 2026</td>
+        <td>15 januari 2026</td>
+    </tr>   
+  </tbody>
+</table>
+
 ### Rapportförbättringar
 
 <table style="table-layout:auto">
@@ -162,7 +186,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplicera en rapport på en arbetsytans kontrollpanel</a><p>![!BADGE Off schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplicera en rapport på en arbetsytans kontrollpanel</a><p>![BADGE Off schedule]{type=Neutral}</p>
             <p>Du kan nu duplicera en KPI-, tabell- eller diagramrapport på en Canvas Dashboard när den har skapats. När du har duplicerat rapporten kan du redigera den efter behov innan du sparar den.</p>
         </td>
         <td>23 oktober 2025</td>
@@ -223,6 +247,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Snabb release</strong></td>
         <td><strong>kvartalsvis</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Formulärfyllning från AI är nu tillgänglig för begäranden</a>
+            <p>För att förenkla skapandet av förfrågningar har vi skapat Form Fill med AI. Nu kan du klistra in i en dialogruta eller överföra ett dokument till ett begärandeformulär, så tar AI ut relevant information och fyller i formuläret.  </p>
+        </td>
+        <td>11 december 2025</td>
+        <td>11 december 2025</td>
+        <td>11 december 2025</td>
+    </tr> 
     <tr>
         <!--<td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Share views in the Requests area and the My Requests widget</a>
@@ -295,6 +328,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>13 november 2025</td>
         <td>15 januari 2026</td>
              </tr>   
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience finns nu för fler Workfront-organisationer</a><p></p>
+            <p>För att ge företag och organisationer tillgång till fördelarna med Adobe Unified Experience fortsätter vi att göra den tillgänglig för befintliga Workfront-kunder.</p>
+        </td>
+        <td><p>11 december 2025</p></td>
+        <td><p>15 januari 2026</p></td>
+        <td><p>15 januari 2026</p></td>
+    <tr>
             </tbody>
         </table>
 
@@ -317,7 +359,7 @@ Vi uppdaterar gränssnittet i hela Adobe Workfront för att förbättra använda
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Förbättringar av Workfront Planning
 
@@ -330,6 +372,16 @@ Det finns inga uppdateringar för följande i den här versionen:
 * Mål
 
 ## Uppdateringar för korrekturläsare för datorer
+
+### Version 2.1.54
+
+**Produktionsrelease för alla kunder: 11 december 2025**
+
+Desktop Proofing Viewer har uppdaterats till 2.1.52 till 2.1.54. Uppdateringen innehöll interna verktygsuppdateringar och påverkade inte slutanvändarnas funktioner.
+
+Version 2.1.53 innehåller även interna verktygsändringar.
+
+Uppdateringen gäller både Mac och Windows.
 
 ### Version 2.1.52
 
@@ -380,13 +432,13 @@ För att kunna leverera mer stabila och skalbara integreringar går vi över til
 * Workfront för Salesforce.
 
 Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Google Workspace.
-En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Underhållsuppdateringar för Workfront
 
-Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=sv-SE).
+Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan &#x200B;](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=sv-SE).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).

@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 34e6f4386c768b94c3835d4a4d7e7deadc3fecda
+source-git-commit: 1e830ccb4e87c231f57ae39e59988bb261737188
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,37 @@ I den här artikeln beskrivs funktionerna som lanseras för Workfront Planning i
 <!--keep the sentence below for all future quarterly release pages-->
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning finns i [Versionsaktivitet för Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Lägga till fältet för varumärkesanslutning till Produkter och profiler som standard på arbetsytan i GenStudio
+
+>[!NOTE]
+>
+>Förhandsgranska: 11 december 2025
+>Production fast release: 11 december 2025
+>Produktion för alla: 11 december 2025
+
+Anslutningsfältet med GenStudio for Performance Marketing Brand läggs nu till som standard för posttyperna Produkter och Personas på arbetsytan GenStudio i Workfront Planning.
+
+Organisationen måste ha både Workfront Planning och Adobe GenStudio for Performance Marketing.
+
+Före den här förbättringen kunde du bara lägga till anslutningsfältet Varumärke manuellt till valfri posttyp, inklusive Produkter och Personas. Du kan fortfarande manuellt koppla posttypen Brand GenStudio till andra posttyper i Workfront Planning.
+
+Mer information finns i [Kom igång med integreringen mellan Adobe Workfront Planning och Adobe GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
+
+## Begränsa borttagning av GenStudio for Performance Marketing-användares behörigheter från Planning
+
+>[!NOTE]
+>
+>Förhandsgranska: 11 december 2025
+>Production fast release: 11 december 2025
+>Produktion för alla: 11 december 2025
+
+Vi har lagt till ett skyddsutkast som förhindrar dig från att ta bort behörigheter för GenStudio for Performance Marketing-användare från Workfront Planning-objekt. Med den här förbättringen kan du inte längre ta bort GenStudio-användare från GenStudio-arbetsytan i Planning, och du kan inte heller inaktivera ärvda behörigheter för posttyper i GenStudio-arbetsytan om dessa behörigheter omfattar GenStudio-användare. När du tog bort de här användarna från GenStudio-arbetsytan i Planning före den här förbättringen förlorar de även behörigheter för posttyper i GenStudio.
+
+Organisationen måste ha både Workfront Planning och Adobe GenStudio for Performance Marketing.
+
+Mer information finns i [Kom igång med integreringen mellan Adobe Workfront Planning och Adobe GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
+
 
 ## Offentlig delning av vyer på en global posttyp på en sekundär arbetsyta har tagits bort
 
