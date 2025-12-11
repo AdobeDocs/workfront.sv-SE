@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: bedfd278f59f8cd8ba287cca1d68a7ec3371c7fd
+source-git-commit: df508366dd8cd1c237ad1beffcf86bfb6392c8bb
 workflow-type: tm+mt
-source-wordcount: '13621'
+source-wordcount: '13623'
 ht-degree: 0%
 
 ---
@@ -2182,7 +2182,7 @@ ht-degree: 0%
       * [Hantera meddelanden i appen för Adobe Workfront Planning](planning/notifications/manage-planning-in-app-notifications.md)
    * Adobe Workfront Planning and Gen Studio for Performance Marketing Integration {#planning-and-genstudio-integration}
       * [Integrering av Adobe Workfront Planning och Adobe GenStudio for Performance Marketing: artikelindex](planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)
-      * [Kom igång med integreringen mellan Workfront Planning och GenStudio for Performance Marketing](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
+      * [Kom igång med integreringen mellan Adobe Workfront Planning och Adobe GenStudio for Performance Marketing](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
       * [Hantera GenStudio arbetsyta i Adobe Workfront Planning](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
       * [Befordra en Workfront Planning Workspace till GenStudio](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
 * Adobe Workfront Integrations {#adobe-workfront-integrations}

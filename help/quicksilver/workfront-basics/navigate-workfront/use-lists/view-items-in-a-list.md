@@ -5,9 +5,9 @@ description: Du kan visa listor med objekt i [!DNL Adobe Workfront] för att få
 feature: Get Started with Workfront
 author: Nolan
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
+source-git-commit: ca16652aa06b4652d0d1b41156ed1ef96225c49a
 workflow-type: tm+mt
-source-wordcount: '1887'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,13 @@ Nedan följer några egenskaper för listor i [!DNL Workfront]:
 * En [!DNL Workfront]-administratör kan skapa anpassade listor som ska användas i olika områden i [!DNL Workfront].
 
   Mer information om hur du skapar listor på systemnivå finns i artikeln [Skapa, redigera och dela standardfilter, vyer och grupperingar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
+
+* Följande typer av listor i Workfront:
+
+   * Standardlistor
+   * Förbättrade listor
+
+  Mer information finns i avsnittet [Skillnaden mellan standarden och de förbättrade listorna](#the-difference-between-the-standard-and-the-enhanced-lists) i den här artikeln.
 
 ## Åtkomstkrav
 
@@ -99,8 +106,8 @@ Nedan visas några typer av objektlistor som du kan hitta i [!DNL Workfront] och
 
 >[!NOTE]
 >
->* Den här listan är inte heltäckande. Var och en av de här objektlistorna kan också visas i en rapport eller på en kontrollpanel. En projektrapport eller en kontrollpanel som innehåller en projektrapport visar till exempel även en lista med projekt.
->* I den här listan betyder &quot;select&quot; att du måste klicka på objektets namn, inte kryssrutan till vänster om namnet.
+>Den här listan är inte heltäckande. Var och en av de här objektlistorna kan också visas i en rapport eller på en kontrollpanel. En projektrapport eller en kontrollpanel som innehåller en projektrapport visar till exempel även en lista med projekt.
+
 
 
 <table style="table-layout:auto"> 
@@ -124,7 +131,7 @@ Nedan visas några typer av objektlistor som du kan hitta i [!DNL Workfront] och
    <td>Lista över program</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL select a portfolio] &gt;[!UICONTROL Programs]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL click a portfolio] &gt;[!UICONTROL Programs]</p> </li> 
      <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>[!UICONTROL Programs]</p> </li> 
     </ul> </td> 
   </tr> 
@@ -133,26 +140,26 @@ Nedan visas några typer av objektlistor som du kan hitta i [!DNL Workfront] och
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Projects]</p> </li> 
-     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL select a portfolio] &gt;[!UICONTROL Projects]</p> </li> 
-     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL select a portfolio] &gt;[!UICONTROL Programs] &gt;[!UICONTROL select a program] &gt;[!UICONTROL Projects]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL click a portfolio] &gt;[!UICONTROL Projects]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL click a portfolio] &gt;[!UICONTROL Programs] &gt;[!UICONTROL click a program] &gt;[!UICONTROL Projects]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Lista över uppgifter</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt; [!UICONTROL Tasks]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL select a task] &gt;[!UICONTROL Subtasks]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL select a task] &gt; [!UICONTROL Predecessors*]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt; [!UICONTROL Tasks]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL click a task] &gt;[!UICONTROL Subtasks]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL click a task] &gt; [!UICONTROL Predecessors*]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Lista över problem</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select] ett projekt &gt;[!UICONTROL Issues]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL select a task] &gt; [!UICONTROL Issues]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL select a task] &gt;[!UICONTROL Subtasks] &gt;[!UICONTROL select a task] &gt; [!UICONTROL Issues]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL click] ett projekt &gt;[!UICONTROL Issues]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL click a task] &gt; [!UICONTROL Issues]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL click a task] &gt;[!UICONTROL Subtasks] &gt;[!UICONTROL click a task] &gt; [!UICONTROL Issues]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -188,11 +195,11 @@ Nedan visas några typer av objektlistor som du kan hitta i [!DNL Workfront] och
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Documents]</p> </li> 
-     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL select a portfolio] &gt; [!UICONTROL Documents]</p> </li> 
-     <li> <p>[!UICONTROL Portfolios] &gt; [!UICONTROL select a portfolio] &gt;[!UICONTROL Programs] &gt;[!UICONTROL select a program] &gt;[!UICONTROL Documents]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Documents]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL select a task] &gt; [!UICONTROL Documents]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select] ett projekt &gt; [!UICONTROL Issues] &gt;[!UICONTROL select an issue] &gt; [!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL click a portfolio] &gt; [!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] &gt; [!UICONTROL click a portfolio] &gt;[!UICONTROL Programs] &gt;[!UICONTROL click a program] &gt;[!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL click a task] &gt; [!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL click] ett projekt &gt; [!UICONTROL Issues] &gt;[!UICONTROL click an issue] &gt; [!UICONTROL Documents]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -206,38 +213,38 @@ Nedan visas några typer av objektlistor som du kan hitta i [!DNL Workfront] och
    <td>Lista över faktureringstariffer</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Billing Rates*]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Billing Rates*]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Lista över faktureringsposter</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select a project] &gt; [!UICONTROL Billing Records]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL click a project] &gt; [!UICONTROL Billing Records]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Förteckning över risker</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Risks]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Risks]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Lista över utgifter</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select] ett projekt &gt;[!UICONTROL Expenses]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL select a task] &gt;[!UICONTROL Expenses]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click] ett projekt &gt;[!UICONTROL Expenses]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL click a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL click a task] &gt;[!UICONTROL Expenses]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Lista över timposter</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select] ett projekt</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL select a task] &gt;[!UICONTROL Hours]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select] ett projekt &gt;[!UICONTROL Issues] &gt;[!UICONTROL select] ett problem &gt;[!UICONTROL Hours]</p> </li>
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click] ett projekt</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL click a task] &gt;[!UICONTROL Hours]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click] ett projekt &gt;[!UICONTROL Issues] &gt;[!UICONTROL click] ett problem &gt;[!UICONTROL Hours]</p> </li>
     </ul> </td> 
   </tr>
   <tr> 
@@ -252,7 +259,7 @@ Nedan visas några typer av objektlistor som du kan hitta i [!DNL Workfront] och
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Setup] &gt;[!UICONTROL Groups]</p> </li>
-     <li> <p>[!UICONTROL Setup] &gt;[!UICONTROL Groups] &gt;[!UICONTROL select the parent group] &gt;[!UICONTROL Subgroups] </li> 
+     <li> <p>[!UICONTROL Setup] &gt;[!UICONTROL Groups] &gt;[!UICONTROL click the parent group] &gt;[!UICONTROL Subgroups] </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -600,11 +607,11 @@ I följande tabell beskrivs likheterna och skillnaderna mellan listor och rappor
  </tbody> 
 </table>
 
-Du måste ha tillgång till filter, vyer och grupperingar för att kunna skapa dem. Mer information finns i [Bevilja åtkomst till filter, vyer och grupperingar](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+*Du måste ha tillgång till filter, vyer och grupperingar för att kunna skapa dem. Mer information finns i [Bevilja åtkomst till filter, vyer och grupperingar](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
-Du måste ha tillgång till filter, vyer och grupperingar samt rapporter, kontrollpaneler och kalendrar för att kunna skapa dem. Mer information finns i [Bevilja åtkomst till rapporter, instrumentpaneler och kalendrar](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+**Du måste ha tillgång till filter, vyer och grupperingar samt rapporter, kontrollpaneler och kalendrar för att kunna skapa dem. Mer information finns i [Bevilja åtkomst till rapporter, instrumentpaneler och kalendrar](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
-Du kan bara anpassa listor för rapporter som placeras på en kontrollpanel om rapportens skapare har konfigurerat listelementen så att de visas på kontrollpanelen.
+***Du kan bara anpassa listor för rapporter som placeras på en kontrollpanel om rapportens skapare har konfigurerat listelementen så att de visas på kontrollpanelen.
 
 >[!NOTE]
 >
@@ -612,46 +619,88 @@ Du kan bara anpassa listor för rapporter som placeras på en kontrollpanel om r
 
 Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Mer information om hur du skapar anpassade avsnitt finns i [Skapa anpassade flikar eller avsnitt](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
 
-## Skillnaden mellan de uppdaterade och de äldre listorna
+## Skillnaden mellan standarden och de utökade listorna
 
 Det finns två typer av listor i [!DNL Workfront]:
 
-* Äldre listor
+* Standardlistor
 
-  ![Blåa grupperingar](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
+  ![Standardprojektlista](assets/standard-list-screen-shot-gray-groupings.png)
 
-* Uppdaterade listor
+* Förbättrade listor
 
-  ![Grå grupperingar](assets/updated-list-screen-shot-gray-groupings-350x71.png)
+  ![Förbättrade listor](assets/enhanced-status-list.png)
 
-I följande tabell visas några av skillnaderna mellan de äldre och uppdaterade listorna i [!DNL Workfront]:
+Funktionerna i varje förbättrad lista varierar beroende på vilken sida du öppnar den från.
 
-<!--
-<span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> [Legacy does not equal Classic. Legacy lists appear in NWE and Classic. Updated lists appear in NWE and Classic.]</span>
--->
+Mer information om förbättrade listor finns i [Använda förbättrade listor](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+
+
+I följande tabell visas några av skillnaderna mellan standardlistor och utökade listor i [!DNL Workfront]:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td><b>Äldre listor</b></td> 
-   <td><b>Uppdaterade listor</b></td> 
+   <td><b>Standardlistor</b></td> 
+   <td><b>Förbättrade listor</b></td> 
   </tr> 
-  <td> <p>Visa <strong>100</strong> objekt som standard</p> </td> 
-   <td> <p>Visa <strong>alla</strong> eller upp till <strong>2000</strong> objekt som standard</p> </td> 
+  <tr>
+  <td> <p>Visa <strong>alla</strong> eller upp till <strong>2000</strong> objekt som standard</p> </td> 
+   <td> Visa upp till 100 objekt som standard och upp till 2 000 efter rullning </td> 
+  </tr>
+
+<tr> 
+   <td>Ikonerna högst upp i listan är något enhetliga i alla listor, oavsett var du öppnar dem. Vissa listor, uppgifter, utgåvor och dokument har unika ikoner som är relevanta för de här objekttyperna. </td> 
+   <td>Ikonerna högst upp i listan varierar beroende på var du öppnar listan. Dessutom finns det ett blått fält längst ned i listan som visas när du markerar objekt i listan.</td> 
+  </tr>
+
+<tr> 
+   <td> <p>Använd ikonerna i verktygsfältet högst upp i listan för att interagera med objekten i listan</p> </td> 
+   <td> <p>Gör något av följande för att interagera med objekten i listan, beroende på vad du vill uppdatera:</p>
+   <ul><li>Använd ikonerna i verktygsfältet längst upp för vissa åtgärder som att söka, lägga till nya objekt, sortera eller filtrera</li>
+   <li>Markera ett objekt i listan och använd ikonerna i det blå verktygsfältet längst ned i listan för att ta bort eller visa objekt</li></ul> 
+   </tr>   
+   </td> 
   </tr> 
   <tr> 
-   <td> <p>Använd CTRL+F för att hitta objekt i en lista</p> </td> 
-   <td> <p>Använd snabbfilter för att snabbt hitta information i en stor lista</p> <p>Mer information om hur du använder snabbfilter i listor finns i <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Använda snabbfiltret i en lista</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Du kan inte infoga redigering av anpassade fält med formatering av formaterad text.</td> 
-   <td> <p>Text i anpassade fält med formatering kan konfigureras för fet stil, kursiv stil, understrykning, punkter, numrering, hyperlänkar och blockcitattecken.</p> <p>Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Skapa ett anpassat formulär</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Villkorsstyrd formatering kan ändra textfärgen på länkar i en lista</td> 
-   <td>Det går inte att använda textfärgändringar på länkar i en lista</td> 
+   <td><p>Du kan använda cellfärgändringar på objekt i en lista</p></td>
+   <td><p>Du kan endast använda cellfärgändringar på objekt i en lista i Workfront Planning. </p></td>
+   </td> 
+   <td></td> 
   </tr> 
  </tbody> 
 </table>
+
+<!--
+consider adding things like adding fields on the fly in an enhanced list when we will be able to do this-->
+
+<!--old table: 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td><b>Legacy lists</b></td> 
+   <td><b>Updated lists</b></td> 
+  </tr> 
+  <td> <p>Display <strong>100</strong> items by default</p> </td> 
+   <td> <p>Display <strong>All</strong> or up to <strong>2000</strong> items by default</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Use CTRL+F to find items in a list</p> </td> 
+   <td> <p>Use quick filters to quickly find information in a large list</p> <p>For information about using quick filters in lists, see <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Apply the quick filter to a list</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>You can't inline edit custom fields with rich text formatting.</td> 
+   <td> <p>Text in custom fields with formatting can be configured to allow bold, italics, underline, bullets, numbering, hyperlinks, and block quotes.</p> <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Create a custom form</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Conditional formatting can change the text color of links in a list</td> 
+   <td>Cannot apply text color changes to links in a list</td> 
+  </tr> 
+ </tbody> 
+</table>
+-->

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: e6fc6def1553df3faa8e1200f7ec2ca2bb97eb04
+source-git-commit: ca16652aa06b4652d0d1b41156ed1ef96225c49a
 workflow-type: tm+mt
-source-wordcount: '1355'
+source-wordcount: '1381'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Adobe GenStudio for Performance Marketing arbetsyta är tillgänglig i Adobe Wor
 
 Du kan visa arbetsytan i GenStudio från Planning och uppdatera information i båda systemen.
 
-Information om hur du använder och hanterar GenStudio-arbetsytan från GenStudio Performance Marketing finns i [Adobe GenStudio for Performance Marketing User Guide](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/home).
+Information om hur du använder och hanterar GenStudio-arbetsytan från GenStudio Performance Marketing finns i [Adobe GenStudio for Performance Marketing User Guide](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home).
 
 Allmän information om integrationen mellan GenStudio och Workfront Planning finns i [Kom igång med Adobe Workfront Planning och Adobe GenStudio for Performance Marketing-integrering](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
 
@@ -83,7 +83,7 @@ Allmän information om integrationen mellan GenStudio och Workfront Planning fin
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing användarroller</p></td> 
    <td><p><ul><li>Alla GenStudio användarroller för att få tillgång till kampanjer, produkter och uppgifter</li>
    <li>GenSudio System Manager för att komma åt aktiveringar <!--and Events--></li></ul>
-   Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Användarroller och behörigheter</a>. 
+   Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Användarroller och behörigheter</a>. 
    </p>
   </td> 
   </tr>   
@@ -106,7 +106,7 @@ Allmän information om integrationen mellan GenStudio och Workfront Planning fin
 
 Mer information om åtkomst till Adobe Workfront Planning finns i [Åtkomstöversikt för Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
-Mer information om Adobe GenStudio for Performance Marketing finns i [Adobe GenStudio for Performance Marketing användarhandbok](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/home).
+Mer information om Adobe GenStudio for Performance Marketing finns i [Adobe GenStudio for Performance Marketing användarhandbok](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home).
 
 +++   
 
@@ -141,7 +141,7 @@ Mer information om Adobe GenStudio for Performance Marketing finns i [Adobe GenS
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****** and Events*********</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -208,7 +208,7 @@ CAN YOU DO THIS??
 
 >[!NOTE]
 >
->Innan du hanterar arbetsytan i GenStudio bör du läsa artikeln [Kom igång med integreringen Workfront Planning och GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) för mer information.
+>Innan du hanterar arbetsytan i GenStudio bör du läsa artikeln [Kom igång med integreringen Adobe Workfront Planning och Adobe GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) för mer information.
 >
 
 1. Logga in på Workfront som användare som även har tillgång till GenStudio.
@@ -218,7 +218,7 @@ CAN YOU DO THIS??
 
 1. Klicka på **Andra arbetsytor** och hitta en arbetsyta som har en indikation som skapades av **System** och som har **GenStudio** -taggen på kortet.
 
-   ![GenStudio-arbetsytans kort med taggen &#x200B;](assets/genstudio-card-with-tag-highlighted.png)
+   ![GenStudio-arbetsytans kort med taggen ](assets/genstudio-card-with-tag-highlighted.png)
 
 1. Klicka på **arbetsytekortet för GenStudio** för att öppna arbetsytan för GenStudio i Workfront Planning.
 1. Som standard skapas och visas följande posttyper för GenStudio från Workfront Planning:
@@ -234,9 +234,9 @@ CAN YOU DO THIS??
 
    <!--check screen shot-->
 
-   ![GenStudio-posttypkort med taggen &#x200B;](assets/genstudio-record-type-with-tag-and-tooltip-highlighted.png)
+   ![GenStudio-posttypkort med taggen ](assets/genstudio-record-type-with-tag-and-tooltip-highlighted.png)
 
-1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om arbetsytans namn och klicka sedan på något av följande:
+1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om arbetsytans namn och klicka sedan på något av följande:
 
    * **Redigera**
 
@@ -263,12 +263,12 @@ CAN YOU DO THIS??
 
 >[!NOTE]
 >
->Innan du hanterar arbetsytan i GenStudio bör du läsa artikeln [Kom igång med integreringen Workfront Planning och GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) för mer information.
+>Innan du hanterar arbetsytan i GenStudio bör du läsa artikeln [Kom igång med integreringen Adobe Workfront Planning och Adobe GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) för mer information.
 >
 
 1. Gå till arbetsytan för GenStudio i Workfront Planning och öppna en posttypssida, enligt beskrivningen i avsnittet [Hantera arbetsytan för GenStudio från Workfront Planning](#manage-the-genstudio-workspace-from-workfront-planning) i den här artikeln.
 
-1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om ett posttypsnamn och klicka sedan på något av följande:
+1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om ett posttypsnamn och klicka sedan på något av följande:
 
    * **Redigera**
 
@@ -288,11 +288,11 @@ CAN YOU DO THIS??
       * **Dela posttypen**
 Mer information finns i [Dela posttyper](/help/quicksilver/planning/access/share-record-types.md).
       * **Dela den aktuella vyn**
-Mer information finns i [Dela vyer &#x200B;](/help/quicksilver/planning/access/share-views.md) .
+Mer information finns i [Dela vyer ](/help/quicksilver/planning/access/share-views.md) .
       * **Kopiera vylänken**
 En länk till vyn kopieras till Urklipp.
       * **Exportera den aktuella vyn**
-Mer information finns i [Exportera poster från tabellvyn &#x200B;](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
+Mer information finns i [Exportera poster från tabellvyn ](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
 
         <!--
          >[!NOTE]
@@ -367,29 +367,24 @@ Mer information finns i [Exportera poster från tabellvyn &#x200B;](/help/quicks
       * Information om Workfront Planning-post
       * Information om GenStudio-post
 
-     >[!TIP]
+     >[!NOTE]
      >
-     >Fält som skapas i Workfront Planning visas inte i listvyn i GenStudio.
-
-     <!--when this releases, replace the tip above with this: 
-      
-      >[!NOTE]
-      >
-      >* Fields created in Workfront Planning are not visible in the list view in GenStudio.
-      >
-      >* You can connect any GenStudio record type to the Brands GenStudio record type. 
-      >  Products and Personas are connected to Brands by default. -->
+     >* Fält som skapas i Workfront Planning visas inte i listvyn i GenStudio.
+     >
+     >* Du kan koppla valfri posttyp från GenStudio till posttypen för varumärken i GenStudio.
+     >  Produkter och profiler är som standard kopplade till varumärken.
 
 1. Håll pekaren över ett fält i tabellvyn och klicka sedan på listrutan för att göra något av följande:
 
    * Sortera efter
    * Dölj den
    * Redigera dess inställningar
-     <!--* Delete it - not possible now, per Iskuhi; the link is there but it will generate an error-->
 
-     <!--GenStudio-native fields are note removed from GenStudio. -->
+   <!--* Delete it - not possible now, per Iskuhi; the link is there but it will generate an error-->
 
-     >[!NOTE]
-     >
-     >Du kan bara redigera ett fälts konfiguration och lägga till fler fält när du har behörigheten Hantera i GenStudio.
+   <!--GenStudio-native fields are note removed from GenStudio. -->
+
+   >[!NOTE]
+   >
+   >Du kan bara redigera ett fälts konfiguration och lägga till fler fält när du har behörigheten Hantera i GenStudio.
 

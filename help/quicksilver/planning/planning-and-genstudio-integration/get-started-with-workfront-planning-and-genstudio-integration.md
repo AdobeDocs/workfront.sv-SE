@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: ca16652aa06b4652d0d1b41156ed1ef96225c49a
 workflow-type: tm+mt
-source-wordcount: '2118'
+source-wordcount: '2170'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,6 @@ recommendations: noDisplay, noCatalog
 
 
 # Kom igång med integreringen mellan Adobe Workfront Planning och Adobe GenStudio for Performance Marketing
-
-<!--update the text in the title everywhere this article is linked from - it changed a few times-->
 
 <!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -61,7 +59,7 @@ Din organisation måste uppfylla följande krav för att integreringen mellan Wo
 
 * Workfront och GenStudio for Performance Marketing måste aktiveras för samma organisation.
 
-  Mer information om GenStudio finns i [Adobe GenStudio for Performance Marketing användarhandbok](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/home).
+  Mer information om GenStudio finns i [Adobe GenStudio for Performance Marketing användarhandbok](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home).
 
 <!--No longer the case: * Your organization must have only one Workfront instance. GenStudio will not be available in Workfront Planning when your company has multiple Workfront instances. -->
 
@@ -109,7 +107,7 @@ I följande tabell beskrivs behörighets- och behörighetskraven för att använ
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing användarroller</p></td> 
    <td><p><ul><li>Alla GenStudio användarroller för att få tillgång till kampanjer, produkter och uppgifter</li>
    <li>GenSudio System Manager för att komma åt aktiveringar <!--and Events--></li></ul>
-   Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Användarroller och behörigheter</a>. 
+   Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Användarroller och behörigheter</a>. 
    </p>
   </td> 
   </tr>   
@@ -132,7 +130,7 @@ I följande tabell beskrivs behörighets- och behörighetskraven för att använ
 
 Mer information om åtkomst till Adobe Workfront Planning finns i [Åtkomstöversikt för Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
-Mer information om Adobe GenStudio for Performance Marketing finns i [Adobe GenStudio for Performance Marketing användarhandbok](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/home).
+Mer information om Adobe GenStudio for Performance Marketing finns i [Adobe GenStudio for Performance Marketing användarhandbok](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home).
 
 <!--Old:
 <table style="table-layout:auto"> 
@@ -164,7 +162,7 @@ Mer information om Adobe GenStudio for Performance Marketing finns i [Adobe GenS
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****and Events****</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -243,19 +241,18 @@ Avsnitten nedan beskriver följande:
 
   Mer information finns i [Hantera GenStudio-arbetsytan i Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md).
 * GenStudio-arbetsytan delas automatiskt med alla GenStudio-användare som också har tillgång till Workfront när den skapas i Workfront Planning.
-* När du har behörighet att hantera arbetsytan i GenStudio i Planning kan du:
+* Som arbetsytehanterare för GenStudio arbetsyta i Planning kan du:
 
    * Uppdatera GenStudio-arbetsytan i Planning (namn, beskrivning, ikon)
    * Skapa avsnitt
    * Lägg till posttyper
    * Dela det med andra
 
-     Du kan dela arbetsytan i GenStudio med andra som inte har något GenStudio-konto. Du kan bara dela den med användare som är tillgängliga i Identity Management System (IMS) i din organisation.
+     >[!NOTE]
+     >
+     >* Du kan dela arbetsytan i GenStudio med andra som inte har något GenStudio-konto. Du kan bara dela den med användare som är tillgängliga i Identity Management System (IMS) i din organisation.
+     >* Du kan inte ta bort GenStudio-användare från GenStudio arbetsyta eller dela med dess posttyper.
 
-     <!--
-        >[!NOTE]
-        >
-        >You cannot remove GenStudio users from the GenStudio workspace or its record types'sharing. -->
   <!--* Delete the workspace - check to see if this is possible; the link is there, but???-->
 
 * Om du har Contribute-behörighet till arbetsytan i GenStudio under Planning kan du inte ändra arbetsytan i Workfront Planning.
@@ -268,7 +265,7 @@ Avsnitten nedan beskriver följande:
 * Posttyper på arbetsytan i GenStudio delas automatiskt med alla GenStudio-användare som också har tillgång till Workfront när arbetsytan skapas i Planning.
 * När du har behörighet att hantera arbetsytan i GenStudio i Planning kan du göra följande från Workfront Planning:
    * Redigera information om posttyper i GenStudio (deras utseende, avancerade inställningar).
-   * Dela GenStudio-posttyper med andra.
+   * Dela GenStudio-posttyper med andra. Du kan inte ta bort GenStudio-användare från delning av GenStudio posttyper.
    * Skapa posttyper. Dessa posttyper finns bara kvar i Workfront Planning. De visas inte i GenStudio.
    * Aktivera posttyper från GenStudio-arbetsytan för att ansluta från andra arbetsytor.
    * Aktivera att posttyper från GenStudio-arbetsytan läggs till i andra arbetsytor.
@@ -372,6 +369,7 @@ Du kan göra följande anslutningar mellan posttyperna i GenStudio och andra pos
 * En posttyp i GenStudio och en posttyp för planering från en annan arbetsyta, om posttyperna har konfigurerats för att ansluta från en annan arbetsyta.
 * En posttyp i GenStudio och en objekttyp i Workfront (projekt, portföljer, program, företag, grupper)
 * En posttyp för GenStudio och en objekttyp för AEM Assets.
+* GenStudio posttyper och GenStudio Brands. Varumärkesanslutningen läggs till som standard i posttyperna Produkter och Personas.
 
 ### Begär blanketter och automatisering i GenStudio posttyp
 
@@ -386,18 +384,12 @@ Du kan göra följande anslutningar mellan posttyperna i GenStudio och andra pos
 
 När organisationen har en integrering mellan Workfront Planning och Adobe GenStudio kan du koppla posttyperna Planning till GenStudio Brands från vilken posttyp som helst på arbetsytan i Workfront Planning.
 
-Varumärken visas inte som posttypskort på arbetsytan i GenStudio. Varumärken är tillgängliga för att skapa nya anslutningar från valfri posttyp i Workfront Planning, inklusive de på arbetsytan i GenStudio.
+Varumärken är som standard anslutna till följande posttyper för arbetsytan i GenStudio:
 
-<!-- when this releases, replace the paragraph above with these:
+* Produkter
+* Personas
 
-Brands are connected by default to the following GenStudio workspace record types:
-
-    * Products
-    * Personas
-
-Brands are available for manually connecting to all other GenStudio workspace record types, or record types from all other workspaces you have permissions to manage. 
-
--->
+Varumärkena är tillgängliga för manuell anslutning till alla andra posttyper för arbetsytan i GenStudio, eller posttyper från alla andra arbetsytor som du har behörighet att hantera.
 
 ## Förhandsvisningsmiljön
 
