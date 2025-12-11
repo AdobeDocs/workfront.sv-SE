@@ -8,9 +8,9 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: ebdb1803fe57386a84d3d882b02a53ec4344b225
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,44 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 ## Sök efter skickade begäranden
 
-Så här söker du efter begäranden som du eller andra användare har skickat:
+Att hitta skickade begäranden skiljer sig åt beroende på om du använder den nya eller gamla upplevelsen för att begära.
+
+### Hitta skickade begäranden i den nya upplevelsen av begäranden
+
+Så här söker du efter begäranden som du eller andra användare har skickat in i den nya begärande upplevelsen:
+
+{{step1-to-requests}}
+
+1. Kontrollera att växlingsknappen **Använd ny upplevelse** i skärmens övre högra hörn är aktiverad.
+
+   Listan över förfrågningar visas.
+
+1. (Valfritt) Om du vill söka efter en begäran börjar du skriva i sökfältet längst upp till höger i listan. Sökresultaten visas när du skriver.
+1. (Valfritt) Klicka på **Filter** och börja lägga till villkor för de förfrågningar du vill hitta.
+
+   Du kan filtrera efter följande fält:
+
+   * **Workspace**: Den arbetsyta som förfrågningsformuläret är associerat med.
+   * **Posttyp**: Posttyp som begärandeformuläret är associerat med.
+   * **Anmälningsdatum**: Datumet då begäran skickades.
+   * **Formulär för begäran**: Namnet på det begärandeformulär som användes för att skicka begäran.
+   * **Status**: Status för begäran.
+   * **Anges av**: Namnet på den användare som lade till begäran. Om begäran har lagts till av någon utanför Workfront visas **Angivet av**-fältet `N/A`.
+
+   Du kan ha flera filter kopplade av antingen **And** eller **Or**.
+Begärandelistan filtreras automatiskt när du lägger till filtervillkoren.
+1. (Valfritt) Använd vyer för att fokusera på de förfrågningar du vill hitta.
+
+   Instruktioner finns i [Skapa eller redigera vyer i området Förfrågningar](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+
+>[!NOTE]
+>
+>* Om du har Workfront Planning visas dina Workfront- och Planning-begäranden i samma lista. Workfront-begäranden visar värdet `Issue` i kolumnen Objekttyp.
+>* Listan över begäranden visas med 50 begäranden. Om du vill visa fler begäranden bläddrar du längst ned i listan.
+
+### Hitta skickade begäranden i den äldre begärande upplevelsen
+
+Så här söker du efter begäranden som du eller andra användare har skickat in i den tidigare begärande upplevelsen:
 
 {{step1-to-requests}}
 
