@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 527a5de08a89bdd4d27d508113b8b0f4b2d73089
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1334'
 ht-degree: 1%
 
 ---
@@ -31,8 +31,8 @@ Det anger också vilka åtgärder Workfront-administratörer kan inaktivera elle
 
 >[!NOTE]
 >
->* I den här artikeln beskrivs de funktioner som är tillgängliga för åtkomstnivåer i den nya Workfront-planmodellen. Information om vilka funktioner som är tillgängliga i den aktuella plansmodellen finns i [Tillgängliga funktioner för varje objekttyp för olika åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* En lista över funktioner som är tillgängliga för de olika planerna i den nya avtalsmodellen finns i [Priser och paketering för Adobe Workfront](https://business.adobe.com/se/products/workfront/pricing.html).
+>* I den här artikeln beskrivs de funktioner som är tillgängliga för åtkomstnivåer i den nya paketmodellen för Workfront. Information om vilka funktioner som är tillgängliga i den aktuella paketmodellen finns i [Tillgängliga funktioner för varje objekttyp för olika åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+>* En lista över funktioner som är tillgängliga för de olika paketen i den senaste modellen finns i [Adobe Workfront Pricing and Packaging](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Projekt
 
@@ -53,7 +53,7 @@ Det anger också vilka åtgärder Workfront-administratörer kan inaktivera elle
 | Lägga till uppgifter | ✓ |   |   |   |
 | Ge uppdateringar/kommentarer | ✓ | ✓ | ✓ |   |
 | Ändra status | ✓ |   |   |   |
-| Loggtimmar | ✓ |   |   |   |
+| Loggtimmar | ✓ | <span class="preview">✓</span> |   |   |
 | Redigera uppdrag | ✓ |   |   |   |
 | Hantera en baslinje | ✓ |   |   |   |
 | Hantera risker | ✓ |   |   |   |
