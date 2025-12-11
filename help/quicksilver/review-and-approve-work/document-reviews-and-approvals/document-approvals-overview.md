@@ -6,7 +6,7 @@ description: Du kan lägga till ytterligare godkännare eller granskare i ett do
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: c55af795069a05de3eb3d0d8599ab61f00168ddc
+source-git-commit: 72915fc9f3c262d9c90fd205c6be3776ac20e303
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 >Innehållet i den här artikeln hänvisar till den uppdaterade funktionen för dokumentgodkännande som bara är tillgänglig för specifika konton. Mer information om standardgodkännandeprocesser finns i artiklarna i [Arbetsgodkännanden](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
-Enhetliga godkännanden, som tidigare kallats för godkännande av nya dokument, är en helt ny utformning av den befintliga godkännandeprocessen som för närvarande är under utveckling för Adobe Workfront. Den är för närvarande tillgänglig i begränsad version och är utformad för att vara en praktisk och effektiv lösning för företag som kräver omfattande engagemang från intressenter och versionsspecifika dokumentgodkännanden. Dess genomtänkta design och målinriktade nya funktioner underlättar samarbete, tydlighet och versionskontroll i godkännandeprocessen, vilket förbättrar effektiviteten och ansvarsfördelningen.
+Enhetliga godkännanden, som tidigare kallats för godkännande av nya dokument, är en helhetsförändring av den befintliga godkännandeprocessen som för närvarande är under utveckling för Adobe Workfront. Den är för närvarande tillgänglig i begränsad version och är utformad för att vara en praktisk och effektiv lösning för företag som kräver omfattande engagemang från intressenter och versionsspecifika dokumentgodkännanden. Dess genomtänkta design och målinriktade nya funktioner underlättar samarbete, tydlighet och versionskontroll i godkännandeprocessen, vilket förbättrar effektiviteten och ansvarsfördelningen.
 
 ## Viktiga skillnader jämfört med korrektur och godkännande av äldre dokument
 
