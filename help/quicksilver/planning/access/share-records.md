@@ -7,9 +7,9 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: e6fc6def1553df3faa8e1200f7ec2ca2bb97eb04
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1831'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,12 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 <!--checking on the below with Lilit-->
 
 * Du kan dela poster med följande enheter: personer, grupper, team, företag eller jobbroller.
-* När du delar en arbetsyta med användare får de som standard samma behörigheter som posterna på arbetsytan.
+* Du kan tilldela följande behörighetsnivåer till en post:
+
+   * Visa
+   * Hantera
+* När du delar en arbetsyta och en posttyp med användare får de som standard samma behörigheter som posterna på arbetsytan.
+När användare har Contribute-behörighet för en arbetsyta eller posttyp får de behörigheten Hantera för posterna av den posttypen.
 * När du tar bort en enhet från en arbetsyta tas alla delningsbehörigheter bort från posttyperna och alla poster i den.
 * En användares åtkomst till posten bestäms genom en kombination av följande tre inställningar:
 
@@ -126,10 +131,10 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
       * **Alla på arbetsytan kan visa**: Detta gör att posten kan visas av alla på arbetsytan <!-- is this OK to say "workspace? should it be "record"??-->
       * **Endast inbjudna personer kan komma åt**: Detta är markerat som standard och tillåter att åtkomsten till posten begränsas till vissa personer.
 
-* Du kan tilldela följande behörighetsnivåer till en post:
+     >[!NOTE]
+     >
+     >Om du väljer att bevilja **alla på arbetsytan behörighet** till en posttyp eller en post, får alla som visas i delningslistan på arbetsytan samma behörigheter för posttypen och posten, även när ärvda behörigheter är inaktiverade.
 
-   * Visa
-   * Hantera
 
 * När du delar en post med en användare läggs de till som standard med samma behörighet som de har för posttypen.
 
@@ -138,13 +143,15 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
    * Om de har behörigheten Visa för posttypen får de behörigheten Visa för posten
    * Om de har Contribute- eller Hantera-behörighet för posttypen får de behörigheten Hantera för posten
 
-* Som arbetsytehanterare kan du dela en post med en användare som inte är en del av arbetsytan. I det här fallet visas en varning bredvid den tillagda entiteten om att de inte har åtkomst till arbetsytan. Du kan fortsätta lägga till användaren i posten, som också kommer att lägga till honom/henne på arbetsytan, eller sluta lägga till användaren i posten, som inte kommer att lägga till honom/henne på arbetsytan.
+* Som arbetsytehanterare kan du dela en post med en användare som inte har behörighet till posttypen eller arbetsytan. I det här fallet visas en varning bredvid den tillagda entiteten om att de inte har tillgång till arbetsytan eller posttypen. <!--ensure this is this way, because in devtest the warning only shows record type, but logged a bug to add "workspace" to the warning too--> Du kan fortsätta lägga till användaren i posten. Användaren läggs också till i posttypen och på arbetsytan, eller avbryta delningen.
 
-* När du delar en post med användare som har behörigheten Hantera på arbetsytan, får de även behörigheten Hantera till posten som standard. Visningsbehörigheten är nedtonad.
+* När en användare har behörigheterna Hantera eller Contribute på arbetsytan och posttypen och du lägger till dem i postbehörigheterna, är visningsbehörigheterna nedtonade. De behåller samma behörigheter till posten som de har till posttypen, och du kan inte ge dem lägre behörigheter till posten. <!--Lilit is checking on this, it is not working correctly-->
 
-* Om du inte har behörighet att lägga till personer på arbetsytan kan du bara visa och lägga till användare, team, grupper, roller och företag som redan har lagts till på arbetsytan. Du kan inte lägga till andra entiteter som inte redan ingår i arbetsytan.
+  När de har behörigheten Visa på arbetsytan eller posttypen behåller de behörigheterna Visa för posterna. Du kan ge dem behörigheten Hantera för posten genom att inaktivera ärvda behörigheter och välja inställningen Endast inbjudna personer har åtkomst. <!-- I think this is right, but because of the above not working, I can't test-->
 
-* Du kan inaktivera ärvda behörigheter för en enskild post. I så fall kan du ge dem behörighet till enskilda poster, eller så kan de få behörighet om de tillhör alternativet **Alla på arbetsytan kan visa**. <!-- is this OK to say "workspace? should it be "record"??-->
+<!-- not sure what this means, confusing, hiding for now: * If you don't have permissions to add people to the workspace, you will only see and add users, teams, groups, roles, and companies that are already added to the workspace. You cannot add any other entity that is not already part of the workspace.-->
+
+* Du kan inaktivera ärvda behörigheter för en enskild post. I så fall kan du ge dem behörighet till enskilda poster, eller så kan de få behörighet om de tillhör alternativet **Alla på arbetsytan kan visa**.
 
 * Om flera delningsbehörigheter gäller för samma användare får de den högsta behörigheten av dessa behörigheter.
 
@@ -163,7 +170,7 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
 
 ## Dela postbehörigheter
 
-Du kan justera behörigheter för enskilda poster om du har behörigheten Hantera på arbetsytan.
+Som arbetsytehanterare kan du justera behörigheter till enskilda poster.
 
 {{step1-to-planning}}
 
@@ -173,13 +180,14 @@ Du kan justera behörigheter för enskilda poster om du har behörigheten Hanter
 1. Gör något av följande:
 
    * Håll markören över namnet på en post i tabellvyn, klicka på menyn **Mer** ![Mer](assets/more-menu.png) och klicka sedan på **Dela**.
+   * Markera en post i tabellvyn och klicka sedan på **Dela** i det blå verktygsfältet längst ned i listan.
    * Klicka på namnet på en post i valfri vy och klicka sedan på **Dela** i det övre högra hörnet på postens informationssida.
 
    Rutan **Dela** öppnas.
 
-   ![Behörigheter för poster med ärvda behörigheter &#x200B;](assets/permissions-for-records-with-inherited-permissions-on.png)
+   ![Behörigheter för poster med ärvda behörigheter ](assets/permissions-for-records-with-inherited-permissions-on.png)
 
-1. (Valfritt) I området **Vem har åtkomst** är alternativet **Alla på arbetsytan kan visa** markerat som standard.  Alla användare som har behörigheten Visa eller högre till arbetsytan och posttypen kan visa posten.
+1. (Valfritt) I området **Vem har åtkomst** är alternativet **Alla på arbetsytan kan visa** markerat som standard.  Alla användare som har **Visa** eller högre behörighet till arbetsytan och posttypen har samma behörigheter som posten.
 
 1. (Valfritt) Klicka på antalet användare under alternativet **Ärvda behörigheter** för att visa användare, team, grupper, företag eller jobbroller som ärver behörigheter från arbetsytan.
 
@@ -187,7 +195,7 @@ Du kan justera behörigheter för enskilda poster om du har behörigheten Hanter
    >
    >Du kan inte ta bort enskilda entiteter från listan Ärvda behörigheter.
 
-1. (Valfritt och villkorligt) Om du vill dela posttypen med specifika entiteter och ge dem en annan åtkomst till posttypen än de redan har för arbetsytan gör du följande:
+1. (Valfritt och villkorligt) Om du vill dela posten med specifika entiteter och ge dem en annan åtkomst till posttypen än de redan har för arbetsytan gör du följande:
 
    1. Välj **Inaktivera** i listrutan **Ärvda behörigheter**.
 
@@ -208,13 +216,13 @@ Du kan justera behörigheter för enskilda poster om du har behörigheten Hanter
    >[!IMPORTANT]
    >
    >* Förutom team, grupper, företag och jobbroller kan du bara dela med användare som har lagts till i Adobe Admin Console. Du kan inte lägga till användare med endast Workfront. Mer information finns i [Hantera användare i Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
-   >* Om användarna har behörighet att hantera Contribute eller Hantera på arbetsytan och posttypen, behåller de behörigheterna Hantera för posten. Visningsbehörigheten är nedtonad
-   >* Du kan inte ge användarna mindre behörighet till posten om de har Contribute eller senare.
+   >* Om användarna har behörighet att hantera Contribute eller Hantera på arbetsytan och posttypen, behåller de behörigheterna Hantera för posten. Visningsbehörigheten är nedtonad. <!--this is not dimmed at this time, Lilit to check-->
+   >* Du kan inte ge användarna mindre behörighet till posten om de har Contribute eller högre för posttypen.
    > Mer information finns i [Översikt över delningsbehörigheter i Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 1. Om du vill ge användare som inte har behörighet till arbetsytan åtkomst att visa en post går du till fältet **Bevilja åtkomst till den här vyn** och börjar skriva namnet på en användare, en grupp, ett team, ett företag eller en jobbroll. Klicka sedan på den när den visas i listan.
 
-   Enheten som du har valt läggs till i posten och på arbetsytan med **Visa**-behörigheter.
+   Den entitet du har valt läggs till i posten och även i posttypen och på arbetsytan med **Visa**-behörigheter.
 
    Systemadministratörer får alltid behörigheten Hantera för poster som delas med dem, och det finns en indikation på att en användare är systemadministratör.
 
@@ -222,32 +230,37 @@ Du kan justera behörigheter för enskilda poster om du har behörigheten Hanter
 1. Klicka på **Spara**.
 
    Posten delas nu med andra användare.
-   <!--Checking with Lilit on this: The users you shared the record with receive both an in-app and email notification about having given permissions to the following entities:
 
-   * The record
-   * The record type, if they never had permissions before
-   * The workspace, if they had not had permissions to the workspace before the record was shared with them. -->
+   Användarna som du delade posten med får både ett meddelande i appen och ett e-postmeddelande om att de har fått behörigheter till följande enheter:
+
+   * Posten
+   * Posttypen, om de aldrig hade behörigheter tidigare
+   * Arbetsytan, om de inte hade behörighet till arbetsytan innan posten delades med dem.
+
+   Mer information finns i [Adobe Workfront Planning-meddelanden: artikelindex](/help/quicksilver/planning/notifications/notifications-information.md).
 
 1. Dela den kopierade länken med andra. Användare som tar emot länken måste vara aktiva användare och logga in på Workfront för att kunna komma åt posttypssidan och visa den i den valda vyn. De måste ha behörighet till posttypen för att kunna visa den. Mer information finns också i [Dela poster via en länk](/help/quicksilver/planning/records/share-records.md).
 
-## Ta bort behörigheter till en post (**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B; DETTA KOPIERADES FRÅN POSTTYPER, DET MÅSTE REDIGERAS FÖR POSTER, MEN VÄNTA PÅ LISTANS SLACK-SVAR &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**)
+## Ta bort behörigheter till en post
 
-Du kan ta bort användarnas behörigheter från en post. De behåller dock åtminstone behörigheten Visa på postarbetsytan, vilket ger dem åtminstone behörigheten Visa för posttypen. Du måste ta bort deras åtkomst från arbetsytan om du vill att de inte ska ha behörighet till posttyperna på arbetsytan.
+Du kan ta bort användarnas behörigheter från en post. De behåller dock åtminstone behörigheterna Visa på arbetsytan, vilket ger dem åtminstone behörigheten Visa för posttypen. Du måste ta bort deras åtkomst från arbetsytan om du vill att de inte ska ha behörighet till posttyperna eller posterna på arbetsytan.
 
 {{step1-to-planning}}
 
-1. Öppna arbetsytan vars posttyper du vill sluta dela och klicka sedan på ett posttypskort. Då öppnas posttypssidan.
+1. Öppna arbetsytan vars poster du vill sluta dela och klicka sedan på ett posttypskort. Då öppnas posttypssidan.
+1. Gör något av följande:
 
-1. Klicka på **Dela** i det övre högra hörnet av posttypen på fliken i valfri vy.
-1. Klicka på **Dela posttypen**.
+   * Håll markören över namnet på en post i tabellvyn, klicka på menyn **Mer** ![Mer](assets/more-menu.png) och klicka sedan på **Dela**.
+   * Markera en post i tabellvyn och klicka sedan på **Dela** i det blå verktygsfältet längst ned i listan.
+   * Klicka på namnet på en post i valfri vy och klicka sedan på **Dela** i det övre högra hörnet på postens informationssida.
 
    Rutan **Dela** öppnas.
 1. Hitta den användare, grupp, team, företag eller jobbroll vars behörigheter du vill ta bort, utöka den nedrullningsbara menyn Behörigheter till höger om namnet och klicka sedan på **Ta bort**. <!--check the screen shot below - the UI text for View might not be accurate-->
 
-   ![Ta bort alternativ i listrutan för posttypsdelning](assets/remove-option-on-record-type-sharing-drop-down.png)
+   ![Ta bort behörigheter på posten](assets/remove-option-on-record-sharing-drop-down.png)
 
 1. Klicka på **Spara**.
 
-   Personer har inte längre de angivna behörigheterna för posttypen. De har dock fortfarande behörighet till arbetsytan, såvida du inte också tar bort dem från arbetsytebehörigheterna.
+   Personer har inte längre de angivna behörigheterna för posten. De har dock fortfarande behörighet till posttypen och arbetsytan, såvida du inte också tar bort dem från dessa behörigheter.
 
-   Användarna som har tagits bort från vyn får inget meddelande om att de inte längre har åtkomst till den.
+   Användarna som har tagits bort från åtkomsten till posten får inget meddelande om att de inte längre har dessa behörigheter.

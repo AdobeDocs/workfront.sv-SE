@@ -6,7 +6,7 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 0%
@@ -177,6 +177,7 @@ Du kan bevilja behörigheter för följande enheter i Workfront Planning:
 * Arbetsytor
 * Posttyper
 * Vyer
+  <!--move this above Views: * <span class="preview">Records</span>-->
 
 Mer information finns i [Översikt över delningsbehörigheter i Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 

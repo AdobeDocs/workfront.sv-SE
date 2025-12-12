@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: f2fe6ef78b3032f7a89d4c816cb11b525634c067
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -210,3 +210,5 @@ Klicka på **Visa alla meddelanden** i e-postmeddelandet och klicka sedan på me
 1. Klicka på **Spara**.
 
    De borttagna användarna har inte längre åtkomst till arbetsytan eller dess objekt.
+
+   Användarna som har tagits bort från arbetsytan får inget meddelande om att de inte längre har dessa behörigheter.

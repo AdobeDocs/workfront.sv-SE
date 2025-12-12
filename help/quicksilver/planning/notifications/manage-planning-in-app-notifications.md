@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,8 @@ Du kan få meddelanden i appen från Workfront Planning när följande scenarier
 * Någon taggar dig eller ditt team i en registerkommentar
 
   Mer information om hur du taggar andra i en postkommentar finns i [Hantera postkommentarer](/help/quicksilver/planning/records/manage-record-comments.md).
-* Någon ber om din behörighet att komma åt en vy eller arbetsyta
-* Någon bekräftar att din åtkomst har beviljats för en vy eller arbetsyta <!--Isk confirmed there is no notification for denying permissions - did not test-->
+* Någon ber om din behörighet att komma åt en vy eller arbetsyta <!--<span class="preview">or record</span>-->
+* Någon bekräftar att din åtkomst har beviljats för en vy eller arbetsyta <!--<span class="preview">or record</span>--> <!--Isk confirmed there is no notification for denying permissions - did not test-->
 
 ## Åtkomstkrav
 
@@ -155,8 +155,8 @@ OLD:
 
 ## Hantera meddelanden i appen när du begär och beviljar behörigheter
 
-Du får meddelanden i appen när någon begär eller ger dig behörighet till en vy eller arbetsyta.
+Du får meddelanden i appen när någon begär eller ger dig behörighet till en vy eller arbetsyta. <!--<span class="preview">or record</span>-->
 
-Mer information om att begära, bevilja eller neka behörigheter för en vy eller arbetsyta finns i [Begär behörigheter för en vy eller en arbetsyta](/help/quicksilver/planning/access/request-permissions.md).
+Mer information om att begära, bevilja eller neka behörigheter finns i [Begära behörigheter till en vy eller en arbetsyta](/help/quicksilver/planning/access/request-permissions.md).
 
 Information om hur du hanterar dina Workfront Planning-meddelanden finns i [Hantera aviseringsinställningar för Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-notification-preferences.md).

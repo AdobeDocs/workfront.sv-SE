@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1514'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Du kan dela en posttyp med andra för att säkerställa samarbete när du arbeta
 >[!IMPORTANT]
 >
 >Användare med åtkomst till en arbetsyta får automatiskt minst behörigheten Visa för alla posttyper på arbetsytan.
->&#x200B;>Delningsvyer ger inte användarna behörighet att spela in typer. Endast arbetsytor för delning kan ge användare behörighet att spela in typer.
+>Delningsvyer ger inte användarna behörighet att spela in typer. Endast arbetsytor för delning kan ge användare behörighet att spela in typer.
 >
 >* Allmän information om delning av objekt i Workfront Planning finns även i [Översikt över delningsbehörigheter i Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 >* Mer information finns i avsnittet [Att tänka på när du delar posttyper](#considerations-when-sharing-record-types) i den här artikeln.
@@ -209,7 +209,7 @@ Du kan justera behörigheter till enskilda posttyper på en arbetsyta om du har 
 
    Rutan **Dela** öppnas.
 
-   ![Behörigheter för posttyper med ärvda behörigheter &#x200B;](assets/permissions-for-record-types-with-inherited-permissions-on.png)
+   ![Behörigheter för posttyper med ärvda behörigheter ](assets/permissions-for-record-types-with-inherited-permissions-on.png)
 
 1. (Valfritt) I området **Vem har åtkomst** är alternativet **Alla på arbetsytan kan visa** markerat som standard.  Alla användare som har behörighet att visa eller högre på arbetsytan kan visa posttypen.
 
@@ -275,7 +275,7 @@ Du kan ta bort användarnas behörigheter från en posttyp. De behåller dock å
 
    Personer har inte längre de angivna behörigheterna för posttypen. De har dock fortfarande behörighet till arbetsytan, såvida du inte också tar bort dem från arbetsytebehörigheterna.
 
-   Användarna som har tagits bort från vyn får inget meddelande om att de inte längre har åtkomst till den.
+   Användarna som har tagits bort från åtkomsten till posttypen får inget meddelande om att de inte längre har dessa behörigheter.
 
 <!-- This is not working yet: *************************** edit this before publishing, because this was not tested with record types - this section came from sharing views *******************: 
 

@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 Din Adobe Workfront-licenstyp fungerar tillsammans med dina Adobe Workfront Planning-behörigheter för att ge följande åtkomst:
 
 * Visa, bidra till eller hantera arbetsytor eller posttyper
-* Visa eller hantera vyer.
+* Visa eller hantera vyer. <!--<span class="preview">and records</span>-->
 
 Mer information om behörigheter för objekt i Workfront Planning finns i [Översikt över delningsbehörigheter i Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
@@ -48,7 +48,7 @@ Tänk på följande när du arbetar med behörigheter för posttyper:
 
 | Adobe Workfront licenstyp | Högsta tillåtna behörighet i Adobe Workfront Planning |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Standard | <p>Användare kan hantera arbetsytor, posttyper och vyer. De kan skapa, redigera och ta bort arbetsytor, posttyper, poster, fält och vyer.</p> <br> <p>Systemadministratörer har behörigheten Hantera för alla arbetsytor, inklusive de som de inte skapade.</p> |
+| Standard | <p>Användare kan hantera arbetsytor, posttyper, <!--<span class="preview">records</span>--> och vyer. De kan skapa, redigera och ta bort arbetsytor, posttyper, poster, fält och vyer.</p><br><p>Systemadministratörer har behörigheten Hantera för alla arbetsytor, inklusive de som de inte skapade.</p> |
 | Ljus eller Medarbetare | <p>Användarna kan visa de arbetsytor som delas med dem samt posttyper, poster och fält för dessa arbetsytor.</p> <br> <p>Användarna kan visa de vyer som delas med dem, men de kan inte skapa egna. </p><br> <p>Användare kan inte skapa, redigera eller ta bort arbetsytor, posttyper, poster eller fält.</p> |
 
 <!--Old: 

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,8 @@ Du kan få e-postmeddelanden från Workfront Planning när följande scenarier f
 * Någon taggar dig eller ditt team i en registerkommentar
 
   Mer information om hur du taggar andra i en postkommentar finns i [Hantera postkommentarer](/help/quicksilver/planning/records/manage-record-comments.md).
-* Någon ber om din behörighet att komma åt en vy eller arbetsyta
-* Någon bekräftar att din åtkomst har beviljats för en vy eller arbetsyta <!--Isk confirmed that there is nno email for denying access but did not test-->
+* Någon ber om din behörighet att komma åt en vy, en arbetsyta eller posttyp <!--or <span class="preview">or a record</span>-->
+* Någon bekräftar att din åtkomst har beviljats för en vy, arbetsyta eller posttyp <!--<span class="preview">or record</span>--> <!--Isk confirmed that there is nno email for denying access but did not test-->
 * Du skickar en Workfront Planning-förfrågan. Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
 * Någon godkänner eller avvisar en Workfront Planning-begäran som du har skickat in. Mer information finns i [Godkänn en begäran i Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md)
 * Statusen ändras till en Workfront Planning-förfrågan som du har skickat in.
@@ -160,17 +160,17 @@ Sidan **Meddelanden** öppnas i Adobe Experience Cloud. Alla meddelanden från a
 
 ## Hantera e-postmeddelanden när du begär och beviljar behörigheter
 
-1. (Villkorligt och valfritt) När någon har begärt eller gett dig behörighet att komma åt en vy eller en arbetsyta går du till det e-postmeddelande som informerar dig om behörighetsbegäran. E-postmeddelandets avsändare är Adobe Experience Cloud.
+1. (Villkorligt och valfritt) När någon har begärt eller gett dig behörighet att komma åt en Planning-objekttyp går du till det e-postmeddelande som informerar dig om behörighetsbegäran. E-postmeddelandets avsändare är Adobe Experience Cloud.
 
 1. (Valfritt) Klicka på meddelandet i rutan **Workfront** i e-postmeddelandet.
 
-   Sidan med postinformation öppnas i Workfront. Du kan uppdatera posten eller svara på kommentaren.
+   Objektet du bad om behörighet öppnas i Workfront.
 
 1. (Villkorligt) Om det är tillgängligt klickar du på **Visa alla meddelanden**.
 Sidan **Meddelanden** öppnas i Adobe Experience Cloud. Alla meddelanden från alla Adobe Experience Cloud-program visas.
 
 
-Mer information om att begära, bevilja eller neka behörigheter för en vy eller arbetsyta finns i [Begär behörigheter för en vy eller en arbetsyta](/help/quicksilver/planning/access/request-permissions.md).
+Mer information om att begära, bevilja eller neka behörigheter finns i [Begära behörigheter till en vy eller en arbetsyta](/help/quicksilver/planning/access/request-permissions.md).
 
 Information om hur du hanterar dina Workfront Planning-meddelanden finns i [Hantera aviseringsinställningar för Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
 
