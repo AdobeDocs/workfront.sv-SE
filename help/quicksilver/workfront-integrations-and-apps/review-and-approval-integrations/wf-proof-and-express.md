@@ -83,7 +83,7 @@ När en Express-mall blandas om krävs ett godkännande före publicering, vilke
 
 Användare måste ha en Workfront-licens av standardtyp för att kunna begära godkännande från Adobe Express.
 
-Lär dig hur du [får godkännande av designer](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).
+Lär dig hur du [får godkännande av designer](https://helpx.adobe.com/se/express/web/share-and-publish/share-and-collaborate/request-approval.html).
 
 
 ## Mixa om Express-mallar och skicka för granskning och godkännande
@@ -103,7 +103,7 @@ När man begär godkännande av en omblandad Express-mall kan man välja ett Wor
 
 Om inget projekt väljs används korrekturet som standard i ett Express-specifikt projekt.
 
-Mer information finns i [Skicka mallar för granskning och godkännande](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html).
+Mer information finns i [Skicka mallar för granskning och godkännande](https://helpx.adobe.com/se/express/web/invite-collaborate/request-approval.html).
 
 ## Granska och godkänn färdigblandade Express-filer
 
