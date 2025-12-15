@@ -8,9 +8,9 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: 752c39b90e9206a335435350f8844c746a7127e0
+source-git-commit: 53aca72d33236e8680a8fd1c538f86ce14ac05a8
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ När en Express-mall blandas om krävs ett godkännande före publicering, vilke
 
 Användare måste ha en Workfront-licens av standardtyp för att kunna begära godkännande från Adobe Express.
 
-Lär dig hur du [får godkännande av designer](https://helpx.adobe.com/se/express/web/share-and-publish/share-and-collaborate/request-approval.html).
+Lär dig hur du [får godkännande av designer](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).
 
 
 ## Mixa om Express-mallar och skicka för granskning och godkännande
@@ -97,8 +97,13 @@ Under hela innehållsproduktionen, granskningen och godkännandeprocessen kan ma
 * Läs kommentarer
 * med mera
 
-<!--Learn how to get approval on designs.   
-need link to help article-->
+### Välj ett Workfront-projekt när du begär godkännande
+
+När man begär godkännande av en omblandad Express-mall kan man välja ett Workfront-projekt att skicka korrekturet till. Detta hjälper till att hålla alla relaterade resurser och korrektur välorganiserade i samma projekt.
+
+Om inget projekt väljs används korrekturet som standard i ett Express-specifikt projekt.
+
+Mer information finns i [Skicka mallar för granskning och godkännande](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html).
 
 ## Granska och godkänn färdigblandade Express-filer
 

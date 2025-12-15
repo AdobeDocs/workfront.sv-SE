@@ -4,9 +4,9 @@ description: Första kvartalet 2026 Förbättringar av dokument och godkännande
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5f05c1a13c6c0d0ed1d69b850a0cb07ce53fc271
+source-git-commit: 0197be82879cbd2abfd053e4a93002884db252b4
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,20 @@ ht-degree: 0%
 Den här sidan beskriver förbättringar av dokument och godkännande som gjorts i den första utgåvan av kvartal 2026 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den första utgåvan av kvartal 2026 finns i [Översikt över utgåvan första kvartalet 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Välj ett Workfront-projekt när du skickar en granskning i Creative Cloud Express
+
+>[!NOTE]
+>
+>Förhandsgranska: 15 december 2025
+>Production fast release: 15 december 2025\
+>Produktion för alla: 15 december 2025
+
+Du kan välja ett Workfront-projekt att skicka ett korrektur till. Detta hjälper till att hålla alla relaterade resurser och korrektur välorganiserade i samma projekt.
+
+Tidigare lades beviset automatiskt till i ett Express-specifikt projekt.
+
+Mer information finns i [Integrering med Adobe Express och Workfront Proof](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md).
 
 ## Stöd för Adobe Express i flera organisationer med Workfront Proofing
 
