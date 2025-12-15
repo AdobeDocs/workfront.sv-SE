@@ -5,9 +5,9 @@ description: Läs om AI-assistenten i Adobe Workfront
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 44db621643c76ab1f2c1b51d5e81cb0d1f827a58
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '851'
 ht-degree: 1%
 
 ---
@@ -139,6 +139,10 @@ Så här begär du avtalet för Adobe Gen AI:
 1. Ange namn och e-postadress för den person i organisationen som ska signera Adobe Gen AI-avtalet.
 
    Avtalet skickas till den här personen för signering. När avtalet har signerats och returnerats granskas det av Adobe och sedan aktiveras AI Assistant för din organisation.
+
+   >[!NOTE]
+   >
+   >Det kan ta 1-3 arbetsdagar innan Adobe har signerat och skickat tillbaka avtalet att granska och aktivera AI Assistant.
 
 ## Tips för att skapa uppmaningar i AI Assistant
 
