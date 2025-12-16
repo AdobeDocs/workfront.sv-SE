@@ -4,9 +4,9 @@ description: Som arbetsytehanterare kan du skapa flera arbetsytehierarkier mella
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 6aba4316228a320cf33e419249a64b3cf56e8f39
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,10 @@ hidefromtoc: yes
 
 Som arbetsytehanterare kan du skapa flera arbetsytehierarkier mellan posttyperna i Adobe Workfront Planning.
 
-När du har anslutit posttyper på en arbetsyta och skapat en hierarki, kopplas posttyperna till varandra, med en posttyp som angetts som överordnad och upp till 6 andra posttyper som konfigurerats som underordnade. <!--asking Robert how many we can have in one hierarchy; I think 7 total but not sure-->
+
+När posttyperna har anslutits inom en arbetsyta kan du skapa en hierarki som organiserar dessa anslutningar. Hierarkier organiserar posttyper i överordnade och underordnade relationer och kan innehålla upp till fyra nivåer med objekttyper.
+
+Om det inte redan finns en anslutning mellan två posttyper kan den skapas när du skapar hierarkin. När hierarkin har definierats skapar den en strukturerad sökväg över relaterade posttyper på arbetsytan.
 
 Hierarkier genererar vägbeskrivningar för de posttyper och poster <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> som visas i deras rubriker. På så sätt vet användarna var de befinner sig i hierarkin i vilket skede som helst i arbetsflödet.
 
@@ -87,8 +90,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 1. Klicka på menyn **Mer** ![Mer meny](assets/more-menu.png) till höger om arbetsytans namn och klicka sedan på **Inställningar**.
 Avsnittet **Hierarkier** öppnas som standard.
 1. Klicka på **Ny hierarki** i det övre högra hörnet på sidan **Hierarkier** .
-1. Klicka på **Lägg till objekt** och välj ett objekt i listrutan. Det här blir det överordnade objektet i din hierarki.
-Du kan välja en posttyp på den aktuella arbetsytan eller ett projekt från Workfront.
+1. Klicka på **Lägg till objekt** och välj ett objekt i listrutan. Det här blir det första överordnade objektet i hierarkin.
+Den första överordnade posten kan bara vara av typen Planning-post. Workfront-projekt kan inte väljas som överordnade objekt för andra objekttyper i en hierarki.
 1. Klicka på **Lägg till objekt** om du vill lägga till ett andra objekt, som är det första underordnade objektet i hierarkin, och välj sedan ett annat objekt i listrutan.
    ![Ny hierarkiruta utan markerat fält](assets/new-hierarchy-modal-without-connecte-fielf-selected.png)
 1. Klicka på **Välj anslutet fält** för att ange vilket fält som ska kopplas till de två objekten.
@@ -112,10 +115,10 @@ Du kan välja en posttyp på den aktuella arbetsytan eller ett projekt från Wor
       * **Namn och bild**
       * **Namn**
       * **Bild**
-Mer information finns i [Koppla samman posttyper &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md) .
+Mer information finns i [Koppla samman posttyper ](/help/quicksilver/planning/architecture/connect-record-types.md) .
    1. Klicka på **Spara**.
 1. (Valfritt) Fortsätt lägga till upp till fyra objekttyper i hierarkierna enligt stegen ovan. Du kan lägga till alla objekttyper först och sedan lägga till anslutningsfälten mellan dem.
-1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort &#x200B;](assets/minus-icon.png) för att ta bort en anslutning.
+1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort ](assets/minus-icon.png) för att ta bort en anslutning.
 1. Klicka på **Spara** för att spara hierarkin.
 
    >[!TIP]

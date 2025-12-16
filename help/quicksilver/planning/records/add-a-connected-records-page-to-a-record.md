@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
+source-git-commit: 6aba4316228a320cf33e419249a64b3cf56e8f39
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1513'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,18 @@ Tänk på följande när du lägger till en sida med kopplade poster till en pos
 
 * Du kan lägga till en sida med kopplade poster från en posts förhandsgranskningsområde eller postens sida.
 
-* Anslutna postsidor visar endast anslutna objekt eller poster från ett objekt eller en posttyp i en tabellvy. På sidan visas inte alla poster av den typen.
+* Anslutna postsidor visar endast anslutna objekt eller poster från ett objekt eller en posttyp. På sidan visas inte alla poster av den typen.
+
+* Du kan visa objekten på en sida med kopplade poster i tabellvyn.
+
+<!--replace the above bullet with this: 
+
+* You can display the objects in a connected records page in the following types of views:
+
+   * Table
+   * <span class="preview">Timeline</span>
+   * <span class="preview">Calendar</span>
+-->
 
 * Du kan lägga till sidor med kopplade poster för följande anslutna post- eller objekttyper:
 
@@ -62,7 +73,7 @@ Tänk på följande när du lägger till en sida med kopplade poster till en pos
    <ul><li><p>En Adobe Experience Manager Assets-licens och en integrering mellan AEM Assets och Workfront för att koppla AEM-material till posttyperna Planning.</p>
    <p>Mer information finns i <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront för Experience Manager Assets och Assets Essentials: artikelindex</a>. </p></li>
    <li><p> En Adobe GenStudio for Performance Marketing-licens för att koppla posttyper till GenStudio Brands</p>
-   <p>Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/get-started">Kom igång med Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Kom igång med Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>
 
@@ -85,8 +96,9 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
 +++   
 
-
 ## Lägga till en sida med kopplade poster i en post
+
+Du måste först koppla posttyper till andra post- eller objekttyper innan du lägger till en kopplad postsida till en post.
 
 1. Klicka på postens namn för att öppna den från en vy av en posttypssida.
 1. Klicka på **Lägg till sida** i något av följande områden:
@@ -114,15 +126,18 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
    ![Målgruppsansluten tabellvy under kampanjinformation](assets/audience-connected-table-view-under-campaign-details-page.png)
 
-1. (Valfritt) Sök efter eller klicka på namnet på en ansluten post eller objekttyp i listan.
+1. (Valfritt) Klicka på namnet på en ansluten post eller objekttyp i listan eller sök efter det och klicka sedan på det när det visas i listan.
 
-1. (Valfritt och villkorligt) Gör något av följande i tabellvyn på den anslutna postsidan när du visar anslutna Planning-poster eller andra Workfront-objekt, förutom för projekt: <!--or AEM Assets--> <!--AEM is not available yet?? see note below-->
+1. (Valfritt och villkorligt) Om du har fler än ett anslutet fält som visas i tabellvyn eller på postens informationssida, klickar du på det fält vars poster du vill visa på sidan med kopplade poster.
+
+   Tabellvyn för den valda anslutna posttypen läggs till på sidan med anslutna poster.
+
+1. (Valfritt och villkorligt) Gör något av följande när du skapar en ansluten postsida för anslutna planeringsposter: <!--or AEM Assets--> <!--AEM is not available yet?? see note below-->
 
    * Klicka på namnet på en post. Posten öppnas på en ny flik.
+   * Klicka på **Anslut** längst ned i tabellvyn om du vill ansluta befintliga poster, markera dem i anslutningsrutan och klicka sedan utanför rutan för att stänga den. Posterna läggs automatiskt till i tabellen. Posterna måste finnas innan du kan lägga till dem.
 
-   * Klicka på **Anslut** längst ned i tabellvyn om du vill ansluta fler poster och klicka sedan utanför anslutningsrutan för att stänga den. De nya posterna läggs automatiskt till i tabellen.
-
-     Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
+   Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
    * Redigera all information från de anslutna posterna i tabellvyn.
 
    * Håll muspekaren över namnet på en ansluten post och klicka sedan på menyn **Mer** ![Mer](assets/more-menu.png)
@@ -138,17 +153,39 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
       * **Infoga posten ovanför eller under** om du vill lägga till nya poster till den anslutna posttypen. Nya poster som läggs till här är också kopplade till den aktuella posten. Det här alternativet är inte tillgängligt i det blå fältet när du markerar en post i tabellen.
       * **Ta bort** om du vill ta bort posten. Om du tar bort en ansluten post tas den bort från sin posttyp och från alla ställen där posten är ansluten.
 
-     Mer information om hur du redigerar poster i tabellvyn finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).
+        Mer information om hur du redigerar poster i tabellvyn finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).
 
-     >[!TIP]
-     >
-     >Du kan markera flera poster eller objekt som du vill ta bort.
+        >[!TIP]
+        >
+        >Du kan markera flera poster eller objekt som du vill ta bort.
 
    * Redigera alla planeringsposter i tabellen på sidan Anslutna poster.
 
-     Alla andra Workfront-objekt visas i en skrivskyddad tabellvy och du kan inte redigera dem.
+1. (Valfritt och villkorligt) När du skapar en ansluten postsida för följande Workfront-objekttyper:
 
-1. (Valfritt och villkorligt) Gör något av följande i tabellvyn på den anslutna postsidan när du visar anslutna Workfront-projekt:
+   * Portföljer
+   * Program
+   * Grupper
+   * Företag
+
+   Gör något av följande i tabellvyn på sidan med anslutna poster:
+
+   * Klicka på ett objekts namn. Då öppnas objektets sida på en ny flik.
+   * Klicka på **Anslut** längst ned i tabellvyn för att koppla befintliga objekt, markera dem i anslutningsrutan och klicka sedan utanför rutan för att stänga dem. Objekten läggs automatiskt till i tabellen. Objekten måste finnas innan du kan lägga till dem.
+
+   Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
+
+   * Markera ett av objekten i tabellvyn och klicka sedan på något av följande alternativ i det blå fältet längst ned i listan:
+
+   * **Visa** om du vill öppna postsidan på en ny flik
+   * **Kopiera länk** för att kopiera en länk till postsidan
+   * **Koppla från** om du vill koppla från objektet från den post du visar.
+
+   >[!TIP]
+   >
+   >Du kan markera mer än en post eller ett objekt för att koppla från dem.
+
+1. (Valfritt och villkorligt) När du skapar en ansluten postsida för anslutna Workfront-projekt:
 
    * Klicka på **Anslut poster** i det övre högra hörnet på den anslutna postsidan om du vill ansluta befintliga projekt.
 
@@ -166,6 +203,19 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
       * **Ta bort** om du vill ta bort projektet. Om du tar bort ett projekt kopplas det från posten och flyttas till Workfront papperskorg.
       * **Koppla från** om du vill koppla från projektet från posten. När du kopplar från ett projekt tas det bort och alla värden i sökfälten tas bort från den aktuella posten.
 
+     >[!TIP]
+     >
+     >Du kan markera flera projekt som ska kopplas från eller tas bort.
+   * Klicka på ikonen **+** i tabellvyns övre högra hörn för att lägga till befintliga fält i tabellen. Fälten måste finnas innan du kan lägga till dem.
+
+     Rutan **Kolumnhanteraren** öppnas. Gör följande:
+
+      1. Sök efter ett befintligt objektfält i kolumnen **Tillgängligt** och klicka sedan på **+** till höger om fältnamnet för att lägga till det i kolumnen **Markerat**.
+
+         De fält som du väljer läggs till i tabellvyn på sidan för anslutna poster.
+      1. Klicka på **-** till höger om ett fält i kolumnen **Markerad** för att ta bort det från tabellvyn.
+      1. Klicka på **Spara** för att spara den anslutna postsidans tabellvy.
+
 1. (Valfritt) Dubbelklicka på namnet på fliken **Anslutna poster**
 
    eller
@@ -174,10 +224,10 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 1. (Valfritt) Använd något av följande vyelement i verktygsfältet på en ansluten postsida för att hantera tabellvyn:
 
    * Filter
-   * Sortera
-   * Gruppering
-   * Fält, för att visa, dölja eller ordna om fält
-   * Radhöjd
+   * Sortera. Inte tillgängligt för projekt.
+   * Gruppering. Inte tillgängligt för projekt.
+   * Kolumner, visa, dölja eller ordna om fält
+   * Radhöjd. Inte tillgängligt för projekt.
    * Sök
 
    Mer information finns i [Hantera tabellvyn](/help/quicksilver/planning/views/manage-the-table-view.md).
@@ -195,7 +245,11 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
 ## Manage multiple views from the connected records page
 
-You can add and manage views from the connected records page of a record. 
+You can add and manage multiple view types from the connected records page of a record. 
+
+The views you create in the Connected records page of a record type are available everywhere in Workfront Planning where that record type page displays. Views created for the same record type anywhere else in Workfront Planning are also accessible in all connected records pages of that record type. 
+
+To manage multiple views from the connected records page: 
 
 1. From the connected records page of a record, click the dropdown menu to the right of the view name, then click **New view** to add a view, then select from the following options: 
 

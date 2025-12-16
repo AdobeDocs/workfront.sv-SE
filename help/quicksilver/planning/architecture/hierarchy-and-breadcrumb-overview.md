@@ -3,9 +3,9 @@ title: Översikt över hierarki och vägbeskrivningar
 description: Du kan skapa flera arbetsytehierarkier mellan posttyperna på en arbetsyta.
 hide: true
 hidefromtoc: true
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 6aba4316228a320cf33e419249a64b3cf56e8f39
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
@@ -45,19 +45,17 @@ Nedan följer några fördelar med att använda hierarkier i dina arbetsytor:
 * Du kan ha upp till fyra post- och objekttyper anslutna i en hierarki.
 * Du kan bara ansluta följande objekttyper i en arbetsytehierarki:
    * Posttyper som tillhör den arbetsyta som du skapar hierarkierna i.
-   * Workfront-projekt.
+   * Workfront-projekt. Det går inte att lägga till Workfront-projekt som överordnade för andra posttyper. De är alltid den sista underordnade i en hierarki.
 * Du kan inte lägga till följande objekttyper i en hierarki:
-   * Posttyper från andra arbetsytor, även när de är inställda som kopplingsbara eller globala posttyper.
+   * Posttyper från andra arbetsytor, även när de är inställda som kopplingsbara eller globala posttyper. Du kan bara lägga till globala posttyper i hierarkier när de har lagts till på arbetsytan som du skapar hierarkin från.
    * Alla andra Workfront-objekt.
    * AEM Assets
-* Hierarkier kan innehålla både Planning-posttyper och Workfront-objekttyper samtidigt.
+* Hierarkier kan innehålla både Planning-posttyper och Workfront-projekt samtidigt.
 
       Du kan till exempel ha en Campaign-posttyp med Planning Tactics och Workfront Projects som underordnade i samma arbetsytehierarki.
   * Om det redan finns en anslutning mellan de valda posttyperna återanvänds den befintliga anslutningen.
 * Om det inte finns någon anslutning skapar Workfront en sådan i hierarkiinställningarna.
-* Inställningen **Skapa motsvarande fält för den länkade posttypen** måste aktiveras för det anslutna fältet.
-
-  Posttyperna med anslutningar som inte skapar ett motsvarande fält på sina länkade posttyper kan också ingå i hierarkier, men när du skapar en ny anslutning under hierarkikonfigurationen måste du alltid skapa ett motsvarande fält på den länkade posttypen.
+* Inställningen **Skapa motsvarande fält för länkad posttyp** måste aktiveras för det anslutna fältet för poster och objekt som du vill inkludera i en hierarki.
 * Följande är regler för hierarkiinställningar:
    * En posttyp kan bara ha en överordnad posttyp på en angiven arbetsyta.
 
@@ -79,7 +77,7 @@ Taktik A kan till exempel tillhöra både Campaign X och Campaign Y.
 
 När du skapar hierarkier mellan posttyper genereras vägbeskrivningar för poster som tillhör de posttyperna.
 
-Om du till exempel skapar en hierarki och kopplar ihop kampanjer med Tactics, sedan med Program, och sedan med Projekt, när du navigerar till en post med någon av de typer som är kopplade till hierarkin, kan du visa var i hierarkin posten placeras.
+Om du t.ex. skapar en hierarki och kopplar ihop kampanjer med taktik, sedan med Aktiviteter, och sedan med Projekt, när du navigerar till en post av någon av de typer som är kopplade till hierarkin, kan du visa var i hierarkin posten placeras.
 
 Tänk på följande:
 
