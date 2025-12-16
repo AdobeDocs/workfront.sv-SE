@@ -115,10 +115,10 @@ Den första överordnade posten kan bara vara av typen Planning-post. Workfront-
       * **Namn och bild**
       * **Namn**
       * **Bild**
-Mer information finns i [Koppla samman posttyper ](/help/quicksilver/planning/architecture/connect-record-types.md) .
+Mer information finns i [Koppla samman posttyper &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md) .
    1. Klicka på **Spara**.
 1. (Valfritt) Fortsätt lägga till upp till fyra objekttyper i hierarkierna enligt stegen ovan. Du kan lägga till alla objekttyper först och sedan lägga till anslutningsfälten mellan dem.
-1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort ](assets/minus-icon.png) för att ta bort en anslutning.
+1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort &#x200B;](assets/minus-icon.png) för att ta bort en anslutning.
 1. Klicka på **Spara** för att spara hierarkin.
 
    >[!TIP]
