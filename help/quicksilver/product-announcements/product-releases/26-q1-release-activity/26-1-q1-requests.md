@@ -4,7 +4,7 @@ description: Förbättringar av första kvartalet 2026-begäranden
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: cf4c5888f58cb51c26176eae4aa1c8e011bbecf8
+source-git-commit: d77568db7ad1af56302c8460db603d242274a8cf
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
@@ -51,7 +51,7 @@ For information on request views, including sharing, see [Create and manage view
 >[!NOTE]
 >
 >Förhandsgranska: 20 november 2025
->Production fast release: 11 december 2026\
+>Production fast release: 14 januari 2026\
 >Produktion för alla: 15 januari 2026
 
 För att göra det enklare att skapa och skicka begäranden har vi lagt till möjligheten att spara utkast till den nya begärandeupplevelsen. När du nu börjar fylla i en begäran och stänger den, sparas den i utkaststatus och finns på det begärandeformulär som användes för att skapa utkastet. Du kan sedan öppna, uppdatera och skicka utkastet när det passar.
