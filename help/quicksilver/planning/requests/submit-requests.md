@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
 workflow-type: tm+mt
-source-wordcount: '1950'
+source-wordcount: '1945'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ eller
 </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
-   <td><p>Extern licens, Contributor, Light eller Standard</p> 
+   <td><p>Alla</p> 
   </td> 
   </tr> 
   <tr> 
