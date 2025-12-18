@@ -6,20 +6,22 @@ description: En diagramrapport som visualiserar dina data som stapel-, kolumn-, 
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: bb65fa45f6fce762920627ad0fb6fd1d832f23a3
 workflow-type: tm+mt
-source-wordcount: '1381'
+source-wordcount: '1713'
 ht-degree: 0%
 
 ---
 
 # Skapa en diagramrapport på en Canvas Dashboard
 
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön för alla kunder.</span>
+
 >[!IMPORTANT]
 >
 >Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Delar av funktionen kanske inte är fullständiga eller fungerar som de ska i det här skedet. Skicka feedback om din upplevelse genom att följa instruktionerna i avsnittet [Ge feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) i översiktsartikeln i Canvas Dashboards.<br>
->&#x200B;>Om du har synpunkter på ett eventuellt fel eller tekniska problem ber vi dig skicka ett supportärende till Workfront Support. Mer information finns i [Kontakta kundsupport](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Observera att betaversionen inte är tillgänglig för följande molnleverantörer:
+>Om du har synpunkter på ett eventuellt fel eller tekniska problem ber vi dig skicka ett supportärende till Workfront Support. Mer information finns i [Kontakta kundsupport](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Observera att betaversionen inte är tillgänglig för följande molnleverantörer:
 >
 >* Använd din egen nyckel för Amazon Web Services
 >* Azure
@@ -99,48 +101,90 @@ Det finns många konfigurationsalternativ för att skapa en diagramrapport. I de
       >[!NOTE]
       >
       >Det finns maximalt 60 serier som kan visas i ett diagram. När den här rutan är markerad konsolideras alla serier över gränsen till en **annan**-gruppering i diagrammet.
+1. Välj vilken typ av diagram du vill skapa:
+   * [Stolpdiagram, stapeldiagram och linjediagram](#bar-column-or-line-chart)
+   * [Cirkeldiagram](#pie-chart)
 
-1. Följ stegen nedan för att konfigurera avsnittet **Bygg diagram**:
+### Stolpdiagram, stapeldiagram och linjediagram
 
-   1. Klicka på ikonen **Skapa diagram** ![Skapa diagram](assets/build-chart-icon.png) i den vänstra panelen.
+>[!NOTE]
+>
+>Det kan finnas ytterligare fält beroende på vilken fälttyp du väljer. Alternativen som beskrivs nedan är standard för alla fälttyper.
 
-   1. Välj den typ av diagram du vill skapa i listrutan **Diagramtyp**:
 
-      * **Bar**
-      * **Kolumn**
-      * **Rad**
-      * **Cirkel**
+1. Klicka på ikonen **Skapa diagram** ![Skapa diagram](assets/build-chart-icon.png) i den vänstra panelen.
 
-   1. Välj kolumntyp i listrutan **Kolumntyp**:
-      * **Enkel**
-      * **Flera serier**
-      * **Staplad**
+1. I listrutan **Diagramtyp** väljer du **Liggande**, **Kolumn** eller **Rad**.
+1. I den andra listrutan väljer du stapel-, kolumn- eller radtyp:
+   * **Enkel**
+   * **Flera serier**
+   * **Staplad**
 
-   1. Markera knappen **Uppdatera fält** i det första avsnittet, leta reda på och markera det fält som innehåller data som ska summeras i diagrammet.
-   1. I listrutan **Aggregeringstyp** väljer du hur data ska sammanfogas för att skapa diagramutdata.
+1. I avsnittet **Underaxel (X)** markerar du fältet **Uppdatera**, letar upp och markerar det fält som innehåller de data som ska summeras i diagrammet.
+1. I listrutan **Aggregeringstyp** väljer du hur data ska sammanfogas för att skapa diagramutdata.
+1. <span class="preview">(Valfritt) Lägg till en axeletikett i det angivna utrymmet.</span>
+1. <span class="preview"> (Valfritt) Växla **Dölj axel** på. </span>
+1. <span class="preview">(Valfritt) Ange ett **referensradvärde** för att ange ett mål eller tröskelvärde för diagrammet.</span>
+1. Välj en **linjetyp** i listrutan.
+1. Markera knappen **Uppdatera fält** under det andra avsnittet, leta reda på och markera det andra fältet som du vill visa i diagrammet.
 
-   1. Markera knappen **Uppdatera fält** under det andra avsnittet, leta reda på och markera det andra fältet som du vill visa i diagrammet.
 
-1. Följ stegen nedan för att konfigurera avsnittet **Filter**:
+### Cirkeldiagram
 
-   1. Klicka på ikonen **Filter**![&#x200B; Filter](assets/filter-icon.png) i den vänstra panelen.
-   1. Välj **Redigera filter**.
-   1. Klicka på **Lägg till villkor** och ange sedan fältet som du vill filtrera efter och modifieraren som definierar vilken typ av villkor som fältet måste uppfylla.
-   1. (Valfritt) Klicka på **Lägg till filtergrupp** om du vill lägga till ytterligare en uppsättning filtervillkor. Standardoperatorn mellan uppsättningarna är AND. Klicka på operatorn för att ändra den till ELLER.
+>[!NOTE]
+>
+>Det kan finnas ytterligare fält beroende på vilken fälttyp du väljer. Alternativen som beskrivs nedan är standard för alla fälttyper.
 
-1. Följ stegen nedan för att konfigurera avsnittet **Inställningar för nedåtriktad kolumn**:
 
-   1. I den vänstra panelen klickar du på ikonen **Detaljerade kolumner** ![Detaljerade kolumner](assets/drilldown-column.png) . Fälten i diagrammet visas automatiskt som kolumner i förhandsvisningsavsnittet till höger.
+1. Klicka på ikonen **Skapa diagram** ![Skapa diagram](assets/build-chart-icon.png) i den vänstra panelen.
 
-   1. (Valfritt) Om du vill uppdatera någon av de befintliga kolumnkonfigurationerna markerar du den kolumn som du vill uppdatera i avsnittet **Aktuella kolumner** och uppdaterar sedan informationen (t.ex. etikett, länkad status och villkor).
+1. I listrutan **Diagramtyp** väljer du **Liggande**.
+1. I avsnittet **Mått** markerar du fältet **Uppdatera**, letar upp och markerar det fält som innehåller data som ska summeras i diagrammet.
+1. I listrutan **Aggregeringstyp** väljer du hur data ska sammanfogas för att skapa diagramutdata.
+1. I avsnittet **Segment** markerar du fältet **Uppdatera**, letar upp och markerar det fält som innehåller de segment som du vill visa i cirkeldiagrammet.
+1. <span class="preview"> (Valfritt) I avsnittet **Cirkel** växlar du **Visa segmentetiketter** till att visa segmentetiketter.</span>
+1. <span class="preview"> (Valfritt) Växla **Visa totalt** om du vill visa summan mitt i diagrammet. När det här alternativet är aktiverat finns det ytterligare alternativ för att visa en mittetikett och välja värdeformatet.</span>
 
-   1. Klicka på **Lägg till kolumn** och markera sedan det fält som du vill visa som en kolumn i tabellen. Upprepa den här processen för varje kolumn som du vill lägga till.
+>[!NOTE]
+>
+>Aggregeringstyper visas enligt följande:
+>
+>* Antal aggregeringstyper: Centrumvärdet som visas är ett antal av alla segment i diagrammet.
+>* Summeringsaggregeringstyper: Centrumvärdet som visas är den aggregerade summan av det numeriska värdet eller valutavärdet.
+>* Sammansättningstyperna Medel, Max och Min: I mitten visas medelvärdet, maximivärdet eller minimivärdet i enlighet med detta.
 
-1. Följ stegen nedan för att konfigurera avsnittet **Inställningar för grupper med nedladdning**:
+1. <span class="preview">(Valfritt) I delen Förklaring växlar du till **Visa förklaring** för att visa diagramförklaringen.</span>
 
-   1. Klicka på ikonen **Gruppinställningar** ![Gruppinställningar](assets/drilldown-group-icon.png) i den vänstra panelen.
+1. <span class="preview"> (Valfritt) Välj en **förklaringsposition** i listrutan.</span>
 
-   1. Klicka på knappen **Lägg till gruppering** och markera sedan det fält som du vill skapa som en gruppering.
+## Konfigurera ytterligare inställningar för diagramrapporter
+
+### Filter
+
+Följ stegen nedan för att konfigurera avsnittet **Filter**:
+
+1. Klicka på ikonen **Filter**![ Filter](assets/filter-icon.png) i den vänstra panelen.
+1. Välj **Redigera filter**.
+1. Klicka på **Lägg till villkor** och ange sedan fältet som du vill filtrera efter och modifieraren som definierar vilken typ av villkor som fältet måste uppfylla.
+1. (Valfritt) Klicka på **Lägg till filtergrupp** om du vill lägga till ytterligare en uppsättning filtervillkor. Standardoperatorn mellan uppsättningarna är AND. Klicka på operatorn för att ändra den till ELLER.
+
+### Detaljnivåinställningar
+
+Följ stegen nedan för att konfigurera avsnittet **Inställningar för nedåtriktad kolumn**:
+
+1. I den vänstra panelen klickar du på ikonen **Detaljerade kolumner** ![Detaljerade kolumner](assets/drilldown-column.png) . Fälten i diagrammet visas automatiskt som kolumner i förhandsvisningsavsnittet till höger.
+
+1. (Valfritt) Om du vill uppdatera någon av de befintliga kolumnkonfigurationerna markerar du den kolumn som du vill uppdatera i avsnittet **Aktuella kolumner** och uppdaterar sedan informationen (t.ex. etikett, länkad status och villkor).
+
+1. Klicka på **Lägg till kolumn** och markera sedan det fält som du vill visa som en kolumn i tabellen. Upprepa den här processen för varje kolumn som du vill lägga till.
+
+### Detaljerade gruppinställningar
+
+Följ stegen nedan för att konfigurera avsnittet **Inställningar för grupper med nedladdning**:
+
+1. Klicka på ikonen **Gruppinställningar** ![Gruppinställningar](assets/drilldown-group-icon.png) i den vänstra panelen.
+
+1. Klicka på knappen **Lägg till gruppering** och markera sedan det fält som du vill skapa som en gruppering.
 
 1. Klicka på **Spara** för att skapa rapporten och lägga till den på kontrollpanelen.
 
