@@ -209,7 +209,7 @@ Mer information finns i [Översikt över formelfält](/help/quicksilver/planning
 >
 >Förhandsgranska: 11 september 2025
 >Produktion för alla kunder: 11 september 2025
->[!BADGE Frånschemat ]{type=Neutral}
+>[!BADGE Frånschemat &#x200B;]{type=Neutral}
 
 Om er organisation använder både Adobe Workfront Planning och Adobe GenStudio for Performance Marketing kanske ni vill definiera mer detaljerade marknadsföringskoncept som Campaigns, Products och Personas än vad GenStudio stöder som standard.
 
@@ -375,7 +375,7 @@ Mer information finns i [Översikt över formelfält](/help/quicksilver/planning
 >
 >Förhandsgranska: 7 augusti 2025
 >Produktion för alla kunder: augusti 2025
->[!BADGE Frånschemat ]{type=Neutral}
+>[!BADGE Frånschemat &#x200B;]{type=Neutral}
 
 Vi har lagt till nya uttryck med följande användning i formelfält i Workfront Planning och i beräknade anpassade fält i Workfront:
 
@@ -391,7 +391,7 @@ Mer information finns i [Översikt över beräknade datauttryck](/help/quicksilv
 >
 >Förhandsgranska: 31 juli 2025
 >Produktion för alla kunder: 31 juli 2025
->[!BADGE Frånschemat ]{type=Neutral}
+>[!BADGE Frånschemat &#x200B;]{type=Neutral}
 
 Vi har lagt till knappen Maximera för att förstora formelfältet när du skapar eller redigerar fältet i en posttabellvy. Dessutom har vi lagt till en Minimera-knapp i det nya förstorade fönstret för att återgå till rutan för att skapa fält.
 
