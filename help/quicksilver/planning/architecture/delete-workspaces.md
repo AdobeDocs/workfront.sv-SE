@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Ta bort arbetsytor
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -141,8 +141,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 1. Gör något av följande om du vill ta bort en arbetsyta:
 
    * Håll pekaren över arbetsytans kort och klicka sedan på menyn **Mer** ![Mer](assets/more-menu.png) i kortets övre högra hörn
-Eller <!--Add this to the bullet below: <span class="preview">Search for a workspace by name and </span>-->
-   * Klicka på ett arbetsytekort för att öppna arbetsytan och klicka sedan på menyn **Mer** ![Mer](assets/more-menu.png) till höger om arbetsytans namn.
+eller
+   * <span class="preview"> Klicka på ikonen **sök** ![Sök ](assets/search-icon.png) i det övre högra hörnet på sidan Arbetsytor om du vill söka efter en arbetsyta med namnet </span> och klicka på ett arbetsytekort om du vill öppna arbetsytan. Klicka sedan på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om arbetsytans namn.
 1. Klicka på **Ta bort**.
 
    ![Bekräftelse av borttagning av arbetsyta permanent](assets/permanently-delete-workspace-confirmation.png)
@@ -150,3 +150,5 @@ Eller <!--Add this to the bullet below: <span class="preview">Search for a works
 1. Skriv **delete** i det angivna utrymmet och klicka sedan på **Ta bort permanent**. Detta är inte skiftlägeskänsligt.
 
    Arbetsytan tas bort och kan inte återskapas. Alla posttyper, poster, fält och vyer som är kopplade till dem tas också bort. <!--ensure this is right at or before GA-->
+
+

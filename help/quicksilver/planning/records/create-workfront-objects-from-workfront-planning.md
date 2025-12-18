@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1267'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Tänk på följande när du ansluter och skapar Workfront-objekt till Workfront 
 
    * Registervyn för en posttyp
    * Området Detaljer för en post i anslutningsfältet
-   * Postsidan för den anslutna posten, i området Detaljer
+   * Postsidan för den anslutna posten
 
 * Du kan skapa portföljer och program från följande områden i Workfront Planning:
 
