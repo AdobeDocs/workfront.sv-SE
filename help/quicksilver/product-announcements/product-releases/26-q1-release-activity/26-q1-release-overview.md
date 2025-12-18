@@ -4,9 +4,9 @@ description: Den här sidan innehåller information om de funktioner som ingår 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bed931281d7d0b3184914ed7649d9cb889bcf39a
+source-git-commit: db74f7a97174ce0bca30684bc0871cca4b6ae4d9
 workflow-type: tm+mt
-source-wordcount: '2888'
+source-wordcount: '2890'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 * [Administratörsförbättringar](#administrator-enhancements)
 * [Förbättringar av dokument och godkännanden](#documents-and-approvals-enhancements)
+* [Hemförbättringar](#home-enhancements)
 * [Integration enhancements](#integration-enhancements)
 * [Projektförbättringar](#project-enhancements)
 * [Rapportförbättringar](#reporting-enhancements)
@@ -147,7 +148,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 
 
-### Integration enhancements
+### Hemförbättringar
 
 <table style="table-layout:auto">
   <tbody>
@@ -161,7 +162,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
          <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-home.md" class="MCXref xref" xrefformat="{para}">Uppdatera till widgeten Mentions i Home</a>
-            <p>Vi har gjort följande förbättringar av widgeten Mentions i hemmet: <ul><li>Samma upplevelse i uppdateringsområdet för de flesta Workfront-objekt finns nu även i widgeten Mentions i Home. </li><li>Widgeten Mentions innehåller nu de kommentarer som användaren har gjort eller har taggat in de senaste två veckorna</li><ul></p>
+            <p>Vi har gjort följande förbättringar av widgeten Mentions hemma: <ul><li>Samma upplevelse i uppdateringsområdet för de flesta Workfront-objekt finns nu även i widgeten Mentions i Home. </li><li>Widgeten Mentions innehåller nu de kommentarer som användaren har gjort eller har taggat in de senaste två veckorna</li><ul></p>
         </td>
         <td>17 december 2025</td>
         <td>14 januari 2026</td>
@@ -183,7 +184,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
          <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">Välj ett Workfront-projekt när du skickar en granskning i Creative Cloud Express</a><p>![!BADGE Off schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">Välj ett Workfront-projekt när du skickar en granskning i Creative Cloud Express</a><p>[!BADGE Off schema]{type=Neutral}</p>
             <p>Du kan välja ett Workfront-projekt att skicka ett korrektur till. Detta hjälper till att hålla alla relaterade resurser och korrektur välorganiserade i samma projekt. </p>
         </td>
         <td>15 december 2025</td>
@@ -311,7 +312,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>   
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplicera en rapport på en arbetsytans kontrollpanel</a><p>![!BADGE Off schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplicera en rapport på en arbetsytans kontrollpanel</a><p>[!BADGE Off schema]{type=Neutral}</p>
             <p>Du kan nu duplicera en KPI-, tabell- eller diagramrapport på en Canvas Dashboard när den har skapats. När du har duplicerat rapporten kan du redigera den efter behov innan du sparar den.</p>
         </td>
         <td>23 oktober 2025</td>
@@ -520,7 +521,7 @@ Vi uppdaterar gränssnittet i hela Adobe Workfront för att förbättra använda
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Förbättringar av Workfront Planning
 
@@ -593,13 +594,13 @@ För att kunna leverera mer stabila och skalbara integreringar går vi över til
 * Workfront för Salesforce.
 
 Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Google Workspace.
-En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Underhållsuppdateringar för Workfront
 
-Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=sv-SE).
+Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan &#x200B;](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=sv-SE).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
