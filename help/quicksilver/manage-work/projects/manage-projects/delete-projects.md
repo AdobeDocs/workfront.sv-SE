@@ -193,7 +193,7 @@ Du måste ha följande innan du kan komma åt och ta bort projekt från en datap
 
 Så här tar du bort en post från en ansluten postsida:
 
-1. På den anslutna postsidan som visar projekt som är kopplade till en post håller du muspekaren över ett projekts namn och klickar på ikonen **Mer** ![Mer ](assets/more-icon.png)
+1. På den anslutna postsidan som visar projekt som är kopplade till en post håller du muspekaren över ett projekts namn och klickar på ikonen **Mer** ![Mer &#x200B;](assets/more-icon.png)
 
    eller
 

@@ -147,7 +147,7 @@ eller
 
    * Håll pekaren över arbetsytans kort och klicka sedan på menyn **Mer** ![Mer](assets/more-menu.png) i kortets övre högra hörn
 eller
-   * <span class="preview"> Klicka på ikonen **sök** ![Sök ](assets/search-icon.png) i det övre högra hörnet på sidan Arbetsytor om du vill söka efter en arbetsyta med namnet </span> och klicka på ett arbetsytekort om du vill öppna arbetsytan. Klicka sedan på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om arbetsytans namn.
+   * <span class="preview"> Klicka på ikonen **sök** ![Sök &#x200B;](assets/search-icon.png) i det övre högra hörnet på sidan Arbetsytor om du vill söka efter en arbetsyta med namnet </span> och klicka på ett arbetsytekort om du vill öppna arbetsytan. Klicka sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om arbetsytans namn.
 1. Klicka på **Ta bort**.
 
    ![Bekräftelse av borttagning av arbetsyta permanent](assets/permanently-delete-workspace-confirmation.png)
