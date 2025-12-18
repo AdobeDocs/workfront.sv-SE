@@ -4,9 +4,9 @@ description: Förbättringar av första kvartalet 2026 för administratörer
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: eead7c3c22dff242cd2a875381f5a2ac901cc2bd
+source-git-commit: e9e7b76dc8e4b9d1cc91987d0ea63b5e2ee58224
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,36 @@ ht-degree: 0%
 Den här sidan beskriver administratörsförbättringar som gjorts i första utgåvan av kvartalet 2026 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den första utgåvan av kvartal 2026 finns i [Översikt över utgåvan första kvartalet 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Hantera prioriteringar i layoutmallen
+
+>[!NOTE]
+>
+>Förhandsgranska: 2 december 2025
+>Production fast release: 14 januari 2026
+>Produktion för alla: 15 januari 2026
+
+Du kan nu aktivera eller inaktivera prioriteter för specifika användare i layoutmallen. Om du tidigare har inaktiverat prioriteter för din organisation förblir den inaktiverad i layoutmallen med den här ändringen.
+
+Prioriteringarna inkluderas automatiskt för licenstyper som har standardbehörighet för begäranden. En Contributor-licens kommer som standard att visa begäranden, anslagstavlor och prioriteter på huvudmenyn, medan en extern licens endast kommer att visa dokument och anslagstavlor eftersom den inte har tillgång till begäranden om att visa eller skicka.
+
+
+Mer information finns i [Anpassa huvudmenyn med hjälp av en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+
+## Kontrollera om det finns flera formulärkonflikter för beräknade anpassade fält
+
+>[!NOTE]
+>
+>Förhandsgranska: 18 december 2025
+>Production fast release: 14 januari 2026
+>Produktion för alla: 15 januari 2026
+
+Samma beräkningsfält kan ha olika formler när de kopplas till olika anpassade formulär. Om två eller flera formulär som innehåller samma beräkningsfält är kopplade till ett objekt, måste formlerna vara identiska i alla formulären. Det är inte tillåtet att redigera formeln om ändringen kan orsaka en konflikt.
+
+Vi har lagt till ett alternativ för att kontrollera om det finns konflikter, så att du kan se vilka objekt som kan påverkas när du redigerar ett uttryck i anpassade fält. I den här dialogrutan visas alla objekt som kan påverkas av att formeln ändras, grupperade efter objekttyp. Du kan navigera till informationen för varje objekt och granska fälten för att bestämma om fältet ska tas bort från något av formulären eller om uttrycket ska förbli oförändrat.
+
+Mer information finns i [Lägga till beräknade fält i ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+
 
 ## Anmälningsdatum och Anges av ID som lagras på anpassade objekt
 
@@ -61,3 +91,7 @@ Om du markerar ett fält som inaktivt:
 * Det är inte tillgängligt i fältbiblioteket att lägga till i andra anpassade formulär
 
 Mer information finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+
+
+

@@ -4,9 +4,9 @@ description: Den här sidan innehåller information om de funktioner som ingår 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8f126e75845e15ff5d4e0b327abcfafb1dbffd99
+source-git-commit: bed931281d7d0b3184914ed7649d9cb889bcf39a
 workflow-type: tm+mt
-source-wordcount: '2152'
+source-wordcount: '2888'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Snabb release</strong></td>
         <td><strong>kvartalsvis</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Hantera prioriteringar i layoutmallen</a>
+            <p>Du kan nu aktivera eller inaktivera prioriteter för specifika användare i layoutmallen. Om du tidigare har inaktiverat prioriteter för din organisation förblir den inaktiverad i layoutmallen med den här ändringen.</p>
+        </td>
+        <td>18 december 2025</td>
+        <td>14 januari 2025</td>
+        <td>15 januari 2025</td>
+    </tr>  
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Sök efter konflikter för flera formulär för beräknade anpassade fält</a>
+            <p>Vi har lagt till ett alternativ för att kontrollera om det finns konflikter, så att du kan se vilka objekt som kan påverkas när du redigerar ett uttryck i anpassade fält. I den här dialogrutan visas alla objekt som kan påverkas av att formeln ändras, grupperade efter objekttyp. Du kan navigera till informationen för varje objekt och granska fälten för att bestämma om fältet ska tas bort från något av formulären eller om uttrycket ska förbli oförändrat.</p>
+        </td>
+        <td>18 december 2025</td>
+        <td>14 januari 2025</td>
+        <td>15 januari 2025</td>
+    </tr>  
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Anmälningsdatum och Angivet av ID lagras på anpassade objekt</a><p>[!BADGE Off schema]{type=Neutral}</p>
@@ -127,6 +145,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
+
+
 ### Integration enhancements
 
 <table style="table-layout:auto">
@@ -137,6 +157,39 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Förhandsgranska</strong></td>
         <td><strong>Snabb release</strong></td>
         <td><strong>kvartalsvis</strong></td>
+    </tr>
+         <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-home.md" class="MCXref xref" xrefformat="{para}">Uppdatera till widgeten Mentions i Home</a>
+            <p>Vi har gjort följande förbättringar av widgeten Mentions i hemmet: <ul><li>Samma upplevelse i uppdateringsområdet för de flesta Workfront-objekt finns nu även i widgeten Mentions i Home. </li><li>Widgeten Mentions innehåller nu de kommentarer som användaren har gjort eller har taggat in de senaste två veckorna</li><ul></p>
+        </td>
+        <td>17 december 2025</td>
+        <td>14 januari 2026</td>
+        <td>15 januari 2026</td>
+    </tr>   
+  </tbody>
+</table>
+
+### Integration enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Funktion</strong>
+        </td>
+        <td><strong>Förhandsgranska</strong></td>
+        <td><strong>Snabb release</strong></td>
+        <td><strong>kvartalsvis</strong></td>
+    </tr>
+         <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">Välj ett Workfront-projekt när du skickar en granskning i Creative Cloud Express</a><p>![BADGE Off schedule]{type=Neutral}</p>
+            <p>Du kan välja ett Workfront-projekt att skicka ett korrektur till. Detta hjälper till att hålla alla relaterade resurser och korrektur välorganiserade i samma projekt. </p>
+        </td>
+        <td>15 december 2025</td>
+        <td>15 december 2025</td>
+        <td>15 december 2025</td>
+    </tr>   
     </tr>
          <tr>
         <td>
@@ -193,9 +246,72 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Snabb release</strong></td>
         <td><strong>kvartalsvis</strong></td>
     </tr>
+ <!--    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Currency updates in Canvas Dashboards</a>
+            <p>We have made the following updates for currency fields:<ul><li>When multiple currencies are defined in Workfront, you can now choose a default currency for the dashboard during creation. </li><li>When creating a report, you can lock a currency field. This ensures that the dashboard-level currency preference does not affect the display of these values.</li><li>When viewing a dashboard, users can toggle between any defined currencies in Workfront. These changes apply to the entire dashboard with the exception of locked currency fields</li></ul></p>
+        </td>
+        <td>December 18, 2025</td>
+        <td>January 14, 2026</td>
+        <td>January 15, 2026</td>
+    </tr>-->
+ <!--    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}"> Quick search table results in Canvas Dashboards</a>
+            <p>We have added a quick search to Table reports. This search works across all pages, so you can find data even if it's not currently visible.</p>
+        </td>
+        <td>December 18, 2025</td>
+        <td>January 14, 2026</td>
+        <td>January 15, 2026</td>
+    </tr>-->
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplicera en rapport på en arbetsytans kontrollpanel</a><p>![!BADGE Off schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Nytt alternativ för Visa totalt för Cirkeldiagram</a>
+            <p>Vi har introducerat ett nytt alternativ för Visa totalt som konverterar cirkeldiagram till matrisdiagram. Med den här funktionen kan användare visa ett centralt värde som representerar summan av alla segment i diagrammet.</p>
+        </td>
+        <td>18 december 2025</td>
+        <td>14 januari 2026</td>
+        <td>15 januari 2026</td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Nya konfigurationsalternativ för cirkeldiagram på arbetsytans kontrollpaneler</a>
+            <p>Vi har introducerat två nya konfigurationsalternativ för cirkeldiagram: <ul><li>Dölj segmentetiketter: Du kan nu välja att dölja segmentetiketter i ett cirkeldiagram om de är för långa och påverkar diagrammets läsbarhet.</li><li>Dölj och flytta diagramförklaringen: Du kan nu välja att dölja cirkeldiagramförklaringen. Du kan också ange teckenförklaringens placering till höger (standard), vänster, överst eller nederst i diagrammet. </li></ul></p>
+        </td>
+        <td>18 december 2025</td>
+        <td>14 januari 2026</td>
+        <td>15 januari 2026</td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Förbättrat grupperingsantal på arbetsytans kontrollpaneler</a>
+            <p>Vi har uppdaterat grupperingsfältet på arbetsytans kontrollpaneler för att visa antalet poster för den aktuella sidan och det totala antalet poster för grupperingen på alla sidor. </p>
+        </td>
+        <td>18 december 2025</td>
+        <td>14 januari 2026</td>
+        <td>15 januari 2026</td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Ny referensradfunktion i rapporter på arbetsytans kontrollpaneler</a>
+            <p>Nu kan du definiera en referensrad i Bar-, Column- och Line-diagram för att ange ett mål eller tröskelvärde för fyra dina seriebaserade rapporter. </p>
+        </td>
+        <td>18 december 2025</td>
+        <td>14 januari 2026</td>
+        <td>15 januari 2026</td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Anpassa axeletiketter i diagramrapporter på arbetsytans kontrollpaneler</a>
+            <p>Nu kan du anpassa axeletiketterna i diagramrapporter. Med den här nya funktionen kan du ange en ersättningsaxeletikett som ska visas i stället för standardobjektet och fältsökvägen. Dessutom kan du välja att helt dölja axeletiketterna.</p>
+        </td>
+        <td>18 december 2025</td>
+        <td>14 januari 2026</td>
+        <td>15 januari 2026</td>
+    </tr>   
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplicera en rapport på en arbetsytans kontrollpanel</a><p>![BADGE Off schedule]{type=Neutral}</p>
             <p>Du kan nu duplicera en KPI-, tabell- eller diagramrapport på en Canvas Dashboard när den har skapats. När du har duplicerat rapporten kan du redigera den efter behov innan du sparar den.</p>
         </td>
         <td>23 oktober 2025</td>
@@ -258,22 +374,58 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Objektlänkar som skapats är nu tillgängliga i området Begäranden och widgeten Mina förfrågningar</a>
+            <p>För att göra det enklare för dig att gå till objektet som skapats av en viss begäran har vi lagt till länkar i kolumnen Skapat objekt. Nu kan du klicka på länken i den här kolumnen för att gå direkt till det skapade objektets sida./p&gt;
+        </td>
+        <td>18 december 2025</td>
+        <td>14 januari 2026</td>
+        <td>15 januari 2026</td>
+    </tr> 
+    <!--<tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Create groupings in the Requests list and My Requests widget</a>
+            <p>To make it easier for you to find the requests you need, we've added groupings to the Requests list and the My Requests widget. Now, you can group requests by any column on the list. These groupings become part of the view that you are using when you create the grouping.</p>
+        </td>
+        <td>December 18, 2025</td>
+        <td>January 14, 2026</td>
+        <td>January 15, 2026</td>
+    </tr> -->
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Lägg till anpassade fält i listan över förfrågningar och widgeten Mina förfrågningar</a>
+            <p>För att göra det enklare för dig att se den information du behöver har vi lagt till möjligheten att lägga till anpassade fält som kolumner i listan över förfrågningar och widgeten Mina förfrågningar i Hem. Nu kan du lägga till fält från anpassade formulär som en kolumn, och förfrågningar som har information i det fältet visar den informationen i listan eller widgeten.</p><p>Den här funktionen är bara tillgänglig i den nya upplevelsen av begäranden.</p>
+        </td>
+        <td>18 december 2025</td>
+        <td>14 januari 2026</td>
+        <td>15 januari 2026</td>
+    </tr> 
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Aktuellt jokertecken för användare är nu tillgängligt i begärandefiltret</a>
+            <p>För att göra det enklare att filtrera efter förfrågningar som gäller dig har vi skapat ett jokertecken för den aktuella användaren. När du filtrerar kan du nu välja "Jag (inloggad användare)". Filtret gäller sedan den användare som visar listan med förfrågningar.   </p>
+        </td>
+        <td>18 december 2025</td>
+        <td>14 januari 2026</td>
+        <td>15 januari 2026</td>
+    </tr> 
+    <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Formulärfyllning från AI är nu tillgänglig för begäranden</a>
-            <p>För att förenkla skapandet av förfrågningar har vi skapat Form Fill med AI. Nu kan du klistra in i en dialogruta eller överföra ett dokument till ett begärandeformulär, så tar AI ut relevant information och fyller i formuläret.  </p>
+            <p>För att förenkla skapandet av förfrågningar har vi skapat en formulärfyllning som bygger på AI. Nu kan du klistra in i en dialogruta eller överföra ett dokument till ett begärandeformulär, så tar AI ut relevant information och fyller i formuläret.  </p>
         </td>
         <td>11 december 2025</td>
         <td>11 december 2025</td>
         <td>11 december 2025</td>
     </tr> 
     <tr>
-        <!--<td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Share views in the Requests area and the My Requests widget</a>
-            <p>To make it easier to ensure to see the information you need, we've added the ability to share views to the new reporting experience. Now, you can share views with other users, teams, or groups. </p>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Dela vyer i området Förfrågningar och i widgeten Mina förfrågningar</a>
+            <p>För att göra det enklare att se den information du behöver har vi lagt till möjligheten att dela vyer till den nya rapportupplevelsen. Nu kan du dela vyer med andra användare, team eller grupper. </p>
         </td>
-        <td>December 4, 2025</td>
-        <td>December 11, 2025</td>
-        <td>January 15, 2026</td>
-    </tr> -->
+        <td>4 december 2025</td>
+        <td>14 januari 2026</td>
+        <td>15 januari 2026</td>
+    </tr> 
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Spara utkast av begäranden i den nya begärande upplevelsen</a>
@@ -368,7 +520,7 @@ Vi uppdaterar gränssnittet i hela Adobe Workfront för att förbättra använda
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Förbättringar av Workfront Planning
 
@@ -441,13 +593,13 @@ För att kunna leverera mer stabila och skalbara integreringar går vi över til
 * Workfront för Salesforce.
 
 Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Google Workspace.
-En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Underhållsuppdateringar för Workfront
 
-Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=sv-SE).
+Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan &#x200B;](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=sv-SE).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).

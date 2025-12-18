@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e830ccb4e87c231f57ae39e59988bb261737188
+source-git-commit: a58e7da96c43dd308a213c6d7ef74d5085a2e1ba
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,122 @@ I den här artikeln beskrivs funktionerna som lanseras för Workfront Planning i
 <!--keep the sentence below for all future quarterly release pages-->
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning finns i [Versionsaktivitet för Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Dela vyer på sidan Projekt - kopplade poster
+
+>[!NOTE]
+>
+>Förhandsgranska: 18 december 2025
+>Production fast release: 14 januari 2026\
+>Produktion för alla: 15 januari 2026
+
+För att göra det enklare att se den information du behöver har vi lagt till möjligheten att dela vyer på sidan Projects Connected records. Nu kan du dela vyer med andra användare, team eller grupper.
+
+Mer information om begärandevyer, inklusive delning, finns i [Skapa och hantera vyer i området Förfrågningar](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+
+## Aktuellt jokertecken för användare är nu tillgängligt i projektanslutningsvisningsfilter
+
+>[!NOTE]
+>
+>Förhandsgranska: 18 december 2025
+>Production fast release: 14 januari 2026\
+>Produktion för alla: 15 januari 2026
+
+För att göra det enklare att filtrera efter projektanslutningar som gäller dig har vi skapat ett jokertecken för den aktuella användaren. När du filtrerar kan du nu välja &quot;Jag (inloggad användare)&quot;. Filtret gäller sedan den användare som visar listan med förfrågningar.
+
+Det här kan vara praktiskt när du lägger till ett filter i en vy som flera användare kommer att använda. Varje användare ser filterresultat som gäller dem.
+
+Jokertecknet är tillgängligt i fält där värdet är en användare.
+
+Mer information om hur du konfigurerar projektanslutningsvyer, inklusive filter, finns i [Lägga till en ansluten postsida till en post](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
+
+<!--
+
+## Create record type hierarchies in workspaces
+
+>[!NOTE]
+>
+>Preview: December 18, 2025 
+>Production fast: January 14, 2026 
+>Production all: January 15, 2026 
+
+You can now define flexible but structured hierarchies between record or object types.  
+
+Hierarchies are connections between record types. You can have up to 4 record and object types connected in one hierarchy, and you can have multiple hierarchies in one workspace. The first record type in the hierarchy is a parent, and all the other record or object types are its children objects.  
+
+You can use hierarchies to organize work in a way that reflects how your teams actually plan, operate, and deliver and to visualize how strategy flows into execution. 
+
+Consider the following when building hierarchies: 
+
+* You can have multiple hierarchies in a workspace 
+* You can connect only Planning record types from one workspace and Workfront projects in a hierarchy.  
+* A record type or a project can only have one parent in the same workspace. 
+* A record type can be the parent in multiple hierarchies 
+* Connectable record types cannot be used in hierarchies in other workspaces than their own. 
+* Global record types can be used in hierarchies only in the workspaces that they were created in or have been added to.  
+
+When you create hierarchies between record types, they generate breadcrumbs for records that belong to those record types. 
+
+For more information, see [Hierarchy and breadcrumb overview](help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
+-->
+
+<!--
+
+## New unified breadcrumbs added to records' pages
+
+>[!NOTE]
+>
+>Preview: December 18, 2025 
+>Production fast: January 14, 2026 
+>Production for all: January 15, 2026 
+
+We have added breadcrumbs to a record's page to reflect its spot in a hierarchy. After you create hierarchies, you can see a record's breadcrumb at the top of its page, indicating what other parent or children objects are connected to it. Hierarchies are consistent across Workfront and Planning.  
+
+For example, you can view a project's Planning hierarchy when it's connected to Planning record types in its Planning breadcrumb, and its Workfront hierarchy when it's connected to Workfront object types, like Portfolios or Programs, in Workfront.  
+
+For information, see [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
+-->
+
+## Förbättringar av Workspace huvudsida
+
+>[!NOTE]
+>
+>Förhandsgranska: 18 december 2025
+>Snabb produktion: 14 januari 2026
+>Produktion för alla: 15 januari 2026
+
+Följande förbättringar har gjorts på startsidan för Workspaces i Workfront Planning:
+
+* En snabbare och mer dynamisk rullningsupplevelse. Detta syns särskilt om organisationen har ett stort antal arbetsytor och för systemadministratörer.
+
+* Vi har lagt till en sökruta där du nu kan söka efter en specifik arbetsyta efter namn.
+
+* Fliken **Andra arbetsytor** har bytt namn till **Alla arbetsytor** och innehåller alla arbetsytor som du har minst behörighet att visa, inklusive de som du har skapat.
+
+Mer information finns i [Redigera arbetsytor](/help/quicksilver/planning/architecture/edit-workspaces.md).
+
+<!--
+
+## Improvements to connected records pages
+
+>[!NOTE]
+>
+>Preview: December 18, 2025 
+>Production fast: January 14, 2026 
+>Production for all: January 15, 2026 
+
+To give you more flexibility when working with connected records pages, we have enhanced the functionality of views in this area of Workfront Planning. The following are improvements in the connected records pages of a record that are coming with this release:
+
+* You can now add a timeline and a calendar view to a record's connected records page.
+* You can now share views from a connected records page. The views shared from these pages are visible system-wide by all users you share them with in any other area of Workfront Planning. All views shared in any other areas of Planning are also visible in the connected records page for the same users they are shared with.
+* We have added a restriction to only allow one connected records page per each record or object type. Prior to this enhancement, you could add multiple pages for the same record or object type. Now, you can use multiple views for the same record type in one connected records page.
+* We have added a **New row** link at the bottom of a table view and a **Connect records** button in the upper-right area of the connected records page. Prior to this enhancement, the **New row** link and the **Connect records** button existed only on a project connected page. 
+
+For information, see [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
+
+-->
 
 ## Lägga till fältet för varumärkesanslutning till Produkter och profiler som standard på arbetsytan i GenStudio
 
@@ -154,3 +270,9 @@ Tänk på följande med den här förbättringen:
 * Alternativvärden visas med gemener och avgränsas med understreck när du väljer flera ord. Om du använder en etikett som redan används som ett annat alternativnamn för samma fält lägger Workfront till ett sekventiellt nummer till värdet.
 
 Mer information finns i [Skapa fält](/help/quicksilver/planning/fields/create-fields.md).
+
+
+
+
+
+
