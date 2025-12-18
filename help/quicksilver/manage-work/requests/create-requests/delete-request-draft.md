@@ -6,9 +6,9 @@ description: Du kan ta bort skickade begäranden eller begära utkast.
 author: Becky
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: 8b08336431d2e4ebfcb078d8329f8748fac66eda
+source-git-commit: d87df92f548b19901374e982d1759efade644e17
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Du kan ta bort begäranden under Förfrågningar i Workfront eller i widgeten Mi
 * Administratörer för arbetsytan för Workfront Planning kan ta bort begäranden <!--and drafts--> på den planeringsyta som de administrerar.
 * Användare kan ta bort begäranden <!--and drafts--> som de har skickat.
 
-Så här tar du bort en begäran eller ett utkast i den nya begärande upplevelsen:
+### Ta bort en begäran från menyn med tre punkter
 
 1. Om du vill få åtkomst till listan över förfrågningar klickar du på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klickar du på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och sedan på **[!UICONTROL Requests]**.
 
@@ -103,6 +103,24 @@ Så här tar du bort en begäran eller ett utkast i den nya begärande upplevels
 1. Klicka på **Ta bort** i den dialogruta som öppnas.
 
    Begäran <!--or draft--> har tagits bort.
+
+### Begäran om massborttagning
+
+1. Om du vill få åtkomst till listan över förfrågningar klickar du på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klickar du på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och sedan på **[!UICONTROL Requests]**.
+
+1. Så här öppnar du widgeten Mina förfrågningar i Hem:
+
+   1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Home]**.
+   1. Leta reda på widgeten Mina förfrågningar.
+
+      Mer information om widgeten Mina förfrågningar finns i [Använd widgeten Mina förfrågningar](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. Klicka i rutan till vänster om varje begäran som du vill ta bort i listan över förfrågningar eller i widgeten Mina förfrågningar.
+1. Klicka på **Ta bort** i det blå fältet längst ned på sidan.
+
+   >[!NOTE]
+   >
+   >Om alternativet Ta bort inte visas i det blå fältet har du inte behörighet att ta bort en eller flera av de markerade förfrågningarna.
 
 </div>
 
