@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '1067'
 ht-degree: 0%
 
 ---
@@ -174,6 +174,34 @@ Du kan ta bort projekt från en lista med projekt.
 1. Klicka på **Ja, ta bort den**.
 
    Projektet tas bort och lagras i papperskorgen i 30 dagar. Din Workfront-administratör kan återställa den från papperskorgen under den här tiden.
+
+## Ta bort ett projekt från den anslutna postsidan i en Workfront Planning-post
+
+>[!NOTE]
+>
+>Informationen i det här avsnittet gäller Adobe Workfront Planning, en extrafunktion från Adobe Workfront.
+>
+>En lista över krav för åtkomst till Workfront Planning finns i [Åtkomstöversikt för Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+> 
+>Allmän information om Workfront Planning finns i [Kom igång med Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+
+Du måste ha följande innan du kan komma åt och ta bort projekt från en datapostsida som är ansluten till Workfront Planning:
+
+* Planerar posttyper som är kopplade till Workfront-projekt. Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Planeringsposter. Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
+* En ansluten postsida som visar projekt som är kopplade till en Planning-post. Mer information finns i [Lägga till en kopplad postsida i en post](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
+
+Så här tar du bort en post från en ansluten postsida:
+
+1. På den anslutna postsidan som visar projekt som är kopplade till en post håller du muspekaren över ett projekts namn och klickar på ikonen **Mer** ![Mer ](assets/more-icon.png)
+
+   eller
+
+   Markera ett eller flera projekt i listan. Lägg märke till det blå fältet längst ned i projektlistan.
+
+1. Klicka på **Ta bort** och sedan på **Ta bort** för att bekräfta.
+
+   Projekten tas bort och placeras i Workfront papperskorg.
 
 ## Återställer borttagna projekt
 

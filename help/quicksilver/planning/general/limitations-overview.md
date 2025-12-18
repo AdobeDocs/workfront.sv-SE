@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '467'
 ht-degree: 1%
 
 ---
@@ -41,8 +41,8 @@ I följande tabell visas gränserna för hur många objekt du kan skapa i Workfr
 | Antal tecken för ett textfält med en rad | 1 000 tecken |
 | Antal tecken för ett styckefält | 10 000 tecken |
 | Antal styckefält för en posttyp | 20 styckefält |
-| Storlek på fil som du kan klistra in i en posttypstabell | 1 MB |
-| Storlek på fil som du kan importera via API för en posttypstabell | 1,5 MB |
+| Storlek på fil som du kan använda för att importera information i en posttypstabell | 1 MB |
+| Storlek på fil som du kan använda för att importera information i en posttypstabell via API | 1,5 MB |
 | Frekvensen med vilken API-begäranden kan göras | 200 begäranden per minut |
 | Antal vyer som en användare kan skapa för en posttyp | 100 |
 | Storlek på Excel-fil som du kan importera för att skapa posttyper | 5 MB |
