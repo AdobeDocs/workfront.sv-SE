@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: fb1b5bb34810652e5098f0dcad70062670d7c137
+source-git-commit: 2e75f6aaba089a91a2306ad06a0f0d79a7524f75
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,17 @@ Det här avsnittet innehåller versionsinformation om nya funktioner.
 
 Du kan nu tillämpa procentbaserade ändringar av faktureringstaxor för en eller flera jobbroller inom ett betalkort. I stället för att manuellt uppdatera varje frekvens en i taget, kan du tillämpa ändringar på alla valda frekvenser i en enda åtgärd.
 
+### KPI-begränsningar i avancerad sökning
+
+>[!NOTE]
+>
+>Produktionslanseringsdatum: 18 december 2025
+
+För att förbättra användbarheten för den avancerade sökningen i Avancerade uppdrag och personalplaner är listan med nyckeltal som du kan visa i tabellkolumnerna nu begränsad. Genom att endast visa nyckeltal blir det enklare att hitta information snabbare.
+
+* KPI:n **Tillgänglig kapacitet** är tillgänglig i avancerad sökning av avancerade tilldelningar. Detta mått representerar användarnas totala baskapacitet.
+* I den avancerade sökningen i personalplanen är KPI:n **Återstående personalallokeringskapacitet** tillgänglig. Det här måttet visar hur mycket kapacitet som fortfarande är tillgänglig efter allokeringar.
+
 ## Underhållsuppdateringar för begränsad tillgänglighet
 
 I det här avsnittet beskrivs de problem som har åtgärdats i veckouppdateringarna av Workfront för begränsad tillgänglighet.
@@ -56,13 +67,13 @@ KPI:n för planerade timmar på skärmen Avancerade tilldelningar går inte län
 
 Fältet **Valutakursdatum** i området Projektinformation > Ekonomi är nu dolt när kryssrutan **Använd datumeffektiva valutakurser från systemet** inte är markerad. Tidigare visades datumfältet i projektinformationen när ett projekt redigerades, även när datumeffektiva valutakurser inte var aktiverade.
 
-<!--### Maintenance Updates week of December 7-13, 2025
+<!--### Maintenance Updates week of January 4-10, 2026
 
 **Title**
 
 text
 
-### Maintenance Updates week of January 4-10, 2026
+### Maintenance Updates week of January 11-17, 2026
 
 **Title**
 
