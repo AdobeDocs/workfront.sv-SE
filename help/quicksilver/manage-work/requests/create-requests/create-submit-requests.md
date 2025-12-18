@@ -6,9 +6,9 @@ description: Planerat arbete representeras i Adobe Workfront av projekt och uppg
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 8851a67e992152b05c44063e67070c0942a463bc
+source-git-commit: 684f7fc62fe341a59b1b7f7ae6c7118a5e511513
 workflow-type: tm+mt
-source-wordcount: '2607'
+source-wordcount: '2546'
 ht-degree: 0%
 
 ---
@@ -125,14 +125,7 @@ Så här skapar du en begäran i Workfront webbprogram:
 
 {{step1-to-requests}}
 
-1. (Valfritt och villkorligt) Välj inställningen **Byt till ny upplevelse** i skärmens övre högra hörn om följande saker gäller för din organisation och din Workfront-instans:
-
-   * Din organisation har köpt ett Workfront-paket
-   * Din organisation har anslutit sig till Adobe Unified Experience.
-   * Din administratör har gett dig åtkomst till Workfront Planning
-   * Du har minst behörighet att visa en Workfront Planning-arbetsyta
-
-   Mer information finns i [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md)
+1. (Valfritt och villkorligt) Välj inställningen **Växla till ny upplevelse** i skärmens övre högra hörn.
 
 1. Klicka på **Ny begäran** i det övre högra hörnet på sidan.
 

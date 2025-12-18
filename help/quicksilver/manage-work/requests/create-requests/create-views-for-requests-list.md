@@ -1,22 +1,28 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Skapa vyer i området Förfrågningar
+title: Skapa och hantera vyer i området Förfrågningar
 description: Om du använder den nya begärandefunktionen kan du skapa och spara vyer för området Förfrågningar.
 author: Becky
 feature: Work Management
-source-git-commit: d2e938cabc5123a89335a42ed06bccaa77fcad83
+source-git-commit: 684f7fc62fe341a59b1b7f7ae6c7118a5e511513
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '974'
 ht-degree: 0%
 
 ---
 
-# Skapa eller redigera vyer i området Förfrågningar
+# Skapa och hantera vyer i området Förfrågningar
 
 <span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Om du använder den nya begärandefunktionen kan du skapa och spara vyer för området Förfrågningar. De här vyerna innehåller filter och kolumnupplägg.
+
+Vyer kan skapas och hanteras i området Förfrågningar i Workfront och i widgeten Mina förfrågningar i Hem. Visningsinställningarna bevaras mellan området Förfrågningar och widgeten.
+
+>[!IMPORTANT]
+>
+>Den här funktionen är bara tillgänglig i den nya upplevelsen av begärande.
 
 ## Åtkomstkrav
 
@@ -55,18 +61,18 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Skapa en vy i området Förfrågningar
 
-{{step1-to-requests}}
+Du kan skapa en vy i området Förfrågningar i Workfront eller i widgeten Mina förfrågningar i Hem.
 
-1. (Valfritt och villkorligt) Välj inställningen **Byt till ny upplevelse** i skärmens övre högra hörn om följande saker gäller för din organisation och din Workfront-instans:
+1. Om du vill få åtkomst till listan över förfrågningar klickar du på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klickar du på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och sedan på **[!UICONTROL Requests]**.
 
-   * Din organisation har köpt ett Workfront-paket
-   * Din organisation har anslutit sig till Adobe Unified Experience.
-   * Din administratör har gett dig åtkomst till Workfront Planning
-   * Du har minst behörighet att visa en Workfront Planning-arbetsyta
+1. Så här öppnar du widgeten Mina förfrågningar i Hem:
 
-   Mer information finns i [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md)
+   1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Home]**.
+   1. Leta reda på widgeten Mina förfrågningar.
 
-1. Klicka på listrutan **Vyer** ![Vyer](assets/view-icon-requests.png) och välj **Ny vy**.
+      Mer information om widgeten Mina förfrågningar finns i [Använd widgeten Mina förfrågningar](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. Klicka på listrutan **Vyer** ![Vyer](assets/view-icon-requests.png) i listan över förfrågningar eller på widgeten Mina förfrågningar och välj **Ny vy**.
 
    ![Ny vy](assets/create-new-view.png)
 
@@ -77,16 +83,16 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 Du kan redigera befintliga vyer, inklusive vyer som du just har skapat.
 
-{{step1-to-requests}}
+1. Om du vill få åtkomst till listan över förfrågningar klickar du på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klickar du på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och sedan på **[!UICONTROL Requests]**.
 
-1. (Valfritt och villkorligt) Välj inställningen **Byt till ny upplevelse** i skärmens övre högra hörn om följande saker gäller för din organisation och din Workfront-instans:
+1. Så här öppnar du widgeten Mina förfrågningar i Hem:
 
-   * Din organisation har köpt ett Workfront-paket
-   * Din organisation har anslutit sig till Adobe Unified Experience.
-   * Din administratör har gett dig åtkomst till Workfront Planning
-   * Du har minst behörighet att visa en Workfront Planning-arbetsyta
+   1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Home]**.
+   1. Leta reda på widgeten Mina förfrågningar.
 
-   Mer information finns i [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md)1.
+      Mer information om widgeten Mina förfrågningar finns i [Använd widgeten Mina förfrågningar](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. Leta reda på vyn som du vill redigera i listan över förfrågningar eller i widgeten Mina förfrågningar.
 
 1. (Valfritt) Om du vill byta namn på en vy klickar du på listrutan **Vyer** ![Vyer](assets/view-icon-requests.png) och klickar på menyn med tre punkter bredvid vyn. Välj sedan **Byt namn** och skriv in det nya namnet för vyn.
 1. Klicka på listrutan **Vyer** ![Vyer](assets/view-icon-requests.png) och välj den vy som du vill redigera.
@@ -135,3 +141,23 @@ Begärandelistan filtreras automatiskt när du lägger till filtervillkoren.
 En Workfront-administratör kan lägga till den nya vyn i layoutmallar.
 
 Instruktioner finns i [Anpassa filter, vyer och grupperingar med hjälp av en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+
+## Dela en vy
+
+Du kan dela vyer som du skapar med andra användare, team eller grupper.
+
+1. Om du vill få åtkomst till listan över förfrågningar klickar du på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klickar du på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och sedan på **[!UICONTROL Requests]**.
+
+1. Så här öppnar du widgeten Mina förfrågningar i Hem:
+
+   1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Home]**.
+   1. Leta reda på widgeten Mina förfrågningar.
+
+      Mer information om widgeten Mina förfrågningar finns i [Använd widgeten Mina förfrågningar](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. Leta reda på vyn som du vill dela i listan över förfrågningar eller i widgeten Mina förfrågningar.
+1. Håll muspekaren över den vy som du vill dela och klicka sedan på menyn med tre punkter när den visas.
+1. Välj **Dela**.
+1. I den dialogruta som öppnas anger du namnen på de användare, team eller grupper som du vill dela vyn med och markerar dem sedan i listan när de visas.
+1. Klicka på **Spara**.
+
