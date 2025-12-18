@@ -8,15 +8,16 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: ebdb1803fe57386a84d3d882b02a53ec4344b225
+source-git-commit: 9ea9f5741794641409d47ada006e3b9b78025cbd
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1309'
 ht-degree: 0%
 
 ---
 
 # Sök efter skickade begäranden
 
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Du kan hitta följande typer av förfrågningar som du eller någon annan har skickat in, eller förfrågningar som du har börjat skicka men som du aldrig har slutfört. Du hittar dessa förfrågningar i följande områden i Adobe Workfront:
 
@@ -71,11 +72,16 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 +++
 
-## Sök efter skickade begäranden
+## Leta reda på skickade begäranden i området Begäranden
 
 Att hitta skickade begäranden skiljer sig åt beroende på om du använder den nya eller gamla upplevelsen för att begära.
 
-### Hitta skickade begäranden i den nya upplevelsen av begäranden
+* [Hitta skickade begäranden i den nya begärande upplevelsen](#locate-submitted-requests-in-the-new-requesting-experience)
+* [Hitta skickade begäranden i den äldre begärande upplevelsen](#locate-submitted-requests-in-the-legacy-requesting-experience)
+
+### Hitta skickade begäranden i den nya begärande upplevelsen
+
+Du kan hitta skickade begäranden i området Begäranden, <span class="preview">som innehåller länkar till objekt som skapats av dessa begäranden.</span>
 
 Så här söker du efter begäranden som du eller andra användare har skickat in i den nya begärande upplevelsen:
 
