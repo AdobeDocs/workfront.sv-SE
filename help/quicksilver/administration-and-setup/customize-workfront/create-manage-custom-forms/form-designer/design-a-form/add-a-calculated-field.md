@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: f6e0329ec63038b33006325701007c564c4126cc
+source-git-commit: e95701bdce2388f7f2b249b1fbf5b27d0ded08af
 workflow-type: tm+mt
-source-wordcount: '2446'
+source-wordcount: '2506'
 ht-degree: 0%
 
 ---
@@ -107,6 +107,10 @@ Så här återanvänder du ett befintligt beräknat anpassat fält:
    ![Fältbibliotek](assets/field-library.png)
 
 1. Använd sökrutan eller utöka avsnittet **Beräknad** för att hitta det beräknade fält du behöver och dra sedan fältet där du vill att det ska visas i det anpassade formuläret.
+
+1. <span class="preview">(Villkorligt) Klicka på **Kontrollera om det finns konflikter** om du vill granska alla objekt som kan påverkas om du ändrar formeln i det här beräknade fältet.</span>
+
+   <span class="preview">Om två eller flera formulär som innehåller samma beräkningsfält är kopplade till ett objekt, måste formlerna vara identiska i alla formulären. Det är inte tillåtet att redigera formeln om ändringen kan orsaka en konflikt.</span>
 
 1. (Valfritt) Upprepa föregående steg om du vill lägga till andra fält.
 
@@ -284,7 +288,7 @@ En beräkning börjar oftast med ett uttryck följt av parenteser som innehålle
            >
            ><div>I ett anpassat formulär som bifogas till ett objekt beräknas och sparas datum- och tidssatser i beräknade anpassade fält med UTC (Coordinated Universal Time), inte med de tidszonskonfigurationer som angetts för organisationens instans och din användarprofil. Beräkningar i ett anpassat formulär genereras baserat på varje användares enskilda tidszoner.</div>
 
-      +++
+        +++
 
    1. Klicka i den stora textrutan och klicka sedan på **Uttryck** och **Fält** som är tillgängliga för att lägga till dem i beräkningen.
 
