@@ -5,15 +5,16 @@ title: Skapa vyer i området Förfrågningar
 description: Om du använder den nya begärandefunktionen kan du skapa och spara vyer för området Förfrågningar.
 author: Becky
 feature: Work Management
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: d2e938cabc5123a89335a42ed06bccaa77fcad83
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '702'
 ht-degree: 0%
 
 ---
 
 # Skapa eller redigera vyer i området Förfrågningar
 
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Om du använder den nya begärandefunktionen kan du skapa och spara vyer för området Förfrågningar. De här vyerna innehåller filter och kolumnupplägg.
 
@@ -89,6 +90,21 @@ Du kan redigera befintliga vyer, inklusive vyer som du just har skapat.
 
 1. (Valfritt) Om du vill byta namn på en vy klickar du på listrutan **Vyer** ![Vyer](assets/view-icon-requests.png) och klickar på menyn med tre punkter bredvid vyn. Välj sedan **Byt namn** och skriv in det nya namnet för vyn.
 1. Klicka på listrutan **Vyer** ![Vyer](assets/view-icon-requests.png) och välj den vy som du vill redigera.
+1. <span class="preview">Om du vill lägga till ett anpassat fält som en kolumn klickar du på ikonen **Lägg till kolumn** ![Lägg till kolumn](assets/add-column.png) till höger på skärmen och sedan på plusikonen bredvid det anpassade formulärfältet som du vill lägga till som en kolumn i vyn.</span>
+
+   <span class="preview">Anpassade fält i formulär som är kopplade till objektet i listan kan läggas till som kolumner.</span>
+
+   >[!TIP]
+   >
+   >Du kan för närvarande inte lägga till kolumner i produktionsmiljön.
+1. (Valfritt) Klicka på **Kolumner** och dölj, visa eller ordna om kolumnerna i listan med förfrågningar.
+
+   ![Kolumnruta](assets/columns-editing-box-in-requests-planning-tab.png)
+
+   >[!TIP]
+   >
+   >Du kan inte lägga till fler kolumner i produktionsmiljön.
+
 1. (Valfritt) Klicka på **Filter** och börja lägga till villkor för vilka begäranden du vill visa på fliken Planering.
 
    ![Redigeringsfilter på fliken Planeringsbegäranden](assets/filters-editing-box-in-requests-planning-tab.png)
@@ -102,16 +118,12 @@ Du kan redigera befintliga vyer, inklusive vyer som du just har skapat.
    * **Status**: Status för begäran.
    * **Anges av**: Namnet på den användare som lade till begäran. Om begäran har lagts till av någon utanför Workfront visas **Angivet av**-fältet `N/A`.
 
+   <span class="preview">I förhandsvisningsmiljön kan du även filtrera efter anpassade fält som har lagts till i vyn.</span>
+
    Du kan ha flera filter kopplade av antingen **And** eller **Or**.
 Begärandelistan filtreras automatiskt när du lägger till filtervillkoren.
 
-1. (Valfritt) Klicka på **Kolumner** och dölj, visa eller ordna om kolumnerna i listan med förfrågningar.
 
-   ![Kolumnruta](assets/columns-editing-box-in-requests-planning-tab.png)
-
-   >[!TIP]
-   >
-   >Du kan inte lägga till fler kolumner.
 
 >[!IMPORTANT]
 >

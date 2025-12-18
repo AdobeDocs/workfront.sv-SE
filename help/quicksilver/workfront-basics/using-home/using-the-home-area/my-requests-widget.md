@@ -6,9 +6,9 @@ description: Du kan skicka begäranden i widgeten Mina förfrågningar. Du kan o
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 59a53f7355032810a05fce2d3f0dfe30d64bbd40
+source-git-commit: 1acffcc2d3511d70fc7d0b263102335d7234e797
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,8 @@ Så här konfigurerar du filtret i widgeten Mina förfrågningar:
    * Status
    * Anges av
 
+   <span class="preview">I förhandsvisningsmiljön kan du även filtrera efter anpassade fält som har lagts till som en kolumn      till vyn.</span>
+
 1. I nästa fält väljer du den operator som du vill använda för det här filtervillkoret. Vilka operatorer som är tillgängliga beror på det valda fältet.
 1. (Villkorligt) Om ett fält visas till höger om operatorn väljer du det värde som du vill filtrera efter.
 1. (Valfritt) Om du vill lägga till ytterligare ett filtervillkor klickar du på **Lägg till villkor** och upprepar steg 4-6.
@@ -112,7 +114,7 @@ Filtret sparas automatiskt.
 >* Om du bara vill filtrera efter Workfront-begäranden anger du filtret till **Objekttyp** > **Har något av** > **Problem**.
 >* Om du bara vill filtrera efter Workfront Planning-begäranden anger du filtret till **Objekttyp** > **Har inga av** > **Problem**.
 
-## Justera kolumner
+## Justera eller lägga till kolumner
 
 Du kan välja vilken av de tillgängliga kolumnerna som ska visas i widgeten Mina förfrågningar och ange ordningen för dem.
 
@@ -131,8 +133,11 @@ Så här justerar du kolumnerna på widgeten Mina förfrågningar:
 1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
 1. (Villkorligt) Om du vill lägga till widgeten **Mina förfrågningar** på hemskärmen. Klicka på **Anpassa** och sök efter **Mina förfrågningar**.
 1. Klicka på **Kolumner** i widgeten Mina förfrågningar.
-1. (Valfritt) Om du vill ändra ordning på kolumnerna klickar du på draghandtaget ![drar &#x200B;](assets/drag-handle.png) i den kolumn som du vill flytta och drar den till önskad plats. Kolumnen högst upp i listan visas i widgeten Mina förfrågningar som kolumnen längst till vänster.
+1. (Valfritt) Om du vill ändra ordning på kolumnerna klickar du på draghandtaget ![drar ](assets/drag-handle.png) i den kolumn som du vill flytta och drar den till önskad plats. Kolumnen högst upp i listan visas i widgeten Mina förfrågningar som kolumnen längst till vänster.
 1. (Valfritt) Använd växlingsknappen för att kontrollera om en kolumn visas i widgeten Mina förfrågningar.
+1. <span class="preview">Om du vill lägga till ett anpassat fält som en kolumn klickar du på ikonen **Lägg till kolumn** ![Lägg till kolumn](assets/add-column.png) till höger på skärmen och sedan på plusikonen bredvid det anpassade formulärfältet som du vill lägga till som en kolumn i widgeten.</span>
+
+   <span class="preview">Anpassade fält i formulär som är kopplade till objektet i listan kan läggas till som kolumner.</span>
 
 Kolumninställningarna sparas automatiskt.
 
