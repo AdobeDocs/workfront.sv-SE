@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
+source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
 workflow-type: tm+mt
-source-wordcount: '1945'
+source-wordcount: '1871'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,8 @@ Följande måste finnas innan du kan skicka en begäran till ett Workfront Plann
 * Poster som skapas genom att skicka frågeformulär kan inte skiljas från poster som läggs till med någon annan metod i Workfront Planning.
 
   Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
-* Skickade begäranden visas på fliken Planering i avsnittet Skickat i området Begäranden i Workfront.
+* Skickade begäranden visas i området Begäranden i Workfront.
+* Skickade planeringsbegäranden visas bara i den nya begärande upplevelsen. Du kan inte se Planering-begäranden i den äldre upplevelsen av begäranden.
 * Det finns begränsningar i hur vissa fälttyper visas i ett begärandeformulär eller på sidan med information om förfrågan när ett formulär har skickats.
 
   Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
@@ -130,19 +131,10 @@ Om du aktiverar den här inställningen blir Workfront Planning-förfrågningsfo
    >* Du kan visa minst en arbetsyta.
    >
 
-<!--Production-->
+1. Klicka i fältet **Vilken begäran vill du skicka** för att öppna en lista med förfrågningsformulär.
+1. Välj ett begärandeformulär i listan eller skriv in namnet på det begärande formuläret och markera det när det visas i listan.
 
-1. Klicka på **Ny begäran** i produktionsmiljön.
-
-   <!--![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png-->
-
-   Rutan **Ny begäran** öppnas med följande information:
-
-   * De sex senast öppnade begärandeköerna för Workfront och planeringsförfrågningsformulären visas i avsnittet Senaste.
-   * 50 ytterligare begärandeköer för Workfront och planeringsförfrågningsformulär visas i alfabetisk ordning i avsnittet **Alla förfrågningsformulär**. Du kan söka efter en begärandekö som inte visas som standard.
-
-1. Välj ett begärandeformulär eller en kö i området Senast använda begärandeformulär, eller börja skriva in formulärets eller köns namn i listan och markera det när det visas.
-
+   Ett fönster öppnas med det efterfrågade formulärnamnet överst.
 1. Uppdatera fälten som är tillgängliga i begärandeformuläret. Fält med en röd asterisk är obligatoriska.
 1. Klicka på **Skicka**.
 
@@ -150,19 +142,13 @@ Om du aktiverar den här inställningen blir Workfront Planning-förfrågningsfo
 
    Ditt formulär skickas och följande saker händer:
 
-   * Om begärandeformuläret inte var kopplat till ett godkännande läggs begäran till på fliken Planering i avsnittet Skickat i området Workfront-förfrågningar och en ny post läggs till i posttypen som är kopplad till formuläret.
+   * Om begärandeformuläret inte var associerat med ett godkännande läggs begäran till i listan över förfrågningar i området Workfront-förfrågningar och i widgeten Mina förfrågningar, och en ny post läggs till i posttypen som är associerad med formuläret.
 
-   * Om begärandeformuläret associerades med ett godkännande läggs begäran till på fliken Planering i avsnittet Skickat i området Workfront-förfrågningar. En ny post läggs bara till på posttypssidan när alla godkännare har godkänt den.
+   * Om begärandeformuläret associerades med ett godkännande läggs begäran till i listan över förfrågningar i området Workfront-förfrågningar och i widgeten Mina förfrågningar. En ny post läggs bara till på posttypssidan efter att godkännarna har godkänt den.
 
      Mer information finns i [Lägga till ett godkännande i ett begärandeformulär](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-     ![Området med förfrågningar och växlar för den enhetliga fliken för arbetsflödesplanering](assets/requests-area-with-toggle-for-unified-workflow-planning-tab-open.png)
-
-     >[!IMPORTANT]
-     >
-     >Alla användare som har tillgång till minst en arbetsyta kan visa fliken Planering i området Begäranden. Du kan bara visa de förfrågningar som du eller någon annan har skickat till arbetsytorna som du har minst behörighet att visa. Workfront-administratörer kan visa alla begäranden som skickas till valfri arbetsyta i systemet.
-
-   * Begäran är bara synlig för ägaren, godkännaren och de personer som har minst behörigheten Visa på arbetsytan.
+   * Begäran är bara synlig för ägaren, godkännaren och de personer som har minst behörigheten Visa på arbetsytan. Workfront-administratörer kan visa alla begäranden som skickas till valfri arbetsyta i systemet.
 
    * Du får ett meddelande i appen och ett e-postmeddelande om att begäran antingen har skickats eller skickats för granskning.
    * Om begärandeformuläret associerades med ett godkännande får godkännarna ett meddelande i appen och ett e-postmeddelande för att granska och godkänna begäran.
@@ -174,9 +160,6 @@ Om du aktiverar den här inställningen blir Workfront Planning-förfrågningsfo
      >Det finns en länk till begäran i e-postbekräftelsen eller godkännandemeddelandet.
 
 1. (Valfritt) Klicka på **Visa din begäran** i bekräftelsemeddelandet om du vill öppna begäran eller klicka på ikonen **X** om du vill stänga bekräftelsen.
-
-1. (Valfritt) Klicka på fliken **Planering** i området **Förfrågningar** för att visa dina förfrågningar.
-Alla begäranden som du har tillgång till för att visa som har skickats till ett planeringsbegärandeformulär visas i en lista.
 1. (Valfritt) Gör något av följande:
 
    * Klicka på **Filter** och börja lägga till villkor för vilka förfrågningar du vill visa på fliken Planering.
@@ -243,17 +226,15 @@ Begärandelistan filtreras automatiskt när du lägger till filtervillkoren.
 
    Ditt formulär skickas och följande saker händer:
 
-   * Om begärandeformuläret inte var kopplat till ett godkännande läggs begäran till på fliken Planering i avsnittet Skickat i området Workfront-förfrågningar och en ny post läggs till i posttypen som är kopplad till formuläret.
+   * Om begärandeformuläret inte var associerat med ett godkännande läggs begäran till i listan över förfrågningar i området Workfront-förfrågningar och i widgeten Mina förfrågningar, och en ny post läggs till i posttypen som är associerad med formuläret.
 
-   * Om begärandeformuläret associerades med ett godkännande läggs begäran till på fliken Planering i avsnittet Skickat i området Workfront-förfrågningar. En ny post läggs bara till på posttypssidan när alla godkännare har godkänt den.
+   * Om begärandeformuläret associerades med ett godkännande läggs begäran till i listan över förfrågningar i området Workfront-förfrågningar och i widgeten Mina förfrågningar. En ny post läggs bara till på posttypssidan när alla godkännare har godkänt den.
 
      Mer information finns i [Lägga till ett godkännande i ett begärandeformulär](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-     ![Fliken Planering i begäranden](assets/planning-tab-in-requests.png)
-
      >[!IMPORTANT]
      >
-     >Alla användare som har tillgång till minst en arbetsyta kan visa fliken Planering i området Begäranden. Du kan bara visa de förfrågningar som du eller någon annan har skickat till arbetsytorna som du har minst behörighet att visa. Workfront-administratörer kan visa alla begäranden som skickas till valfri arbetsyta i systemet. <!--ensure this is correct; asking team in slack-->
+     >Du kan bara visa de förfrågningar som du eller någon annan har skickat till arbetsytorna som du har minst behörighet att visa. Workfront-administratörer kan visa alla begäranden som skickas till valfri arbetsyta i systemet. <!--ensure this is correct; asking team in slack-->
 
    * Du får ett meddelande i appen och ett e-postmeddelande om att begäran antingen har skickats eller skickats för granskning.
    * Om begärandeformuläret associerades med ett godkännande får godkännarna ett meddelande i appen och ett e-postmeddelande för att granska och godkänna begäran.
@@ -262,7 +243,7 @@ Begärandelistan filtreras automatiskt när du lägger till filtervillkoren.
      >
      >Meddelanden via e-post och appar visas bara när din organisations instans av Workfront är kopplad till Adobe Unified Experience.
 
-   * <span class="preview"> När begäran har godkänts och posten har skapats visar datumfälten Godkänd av och Godkänd information om godkännandet för posten.</span>
+   <!-- <span class="preview"> After the request was approved and the record was created, the Approved by and Approved date fields display information about the approval on the record.</span>-->
 
 1. (Valfritt) Klicka på **Visa din begäran** för att öppna begäran i Workfront.
 
@@ -293,6 +274,24 @@ Begärandelistan filtreras automatiskt när du lägger till filtervillkoren.
 
    Posttypssidan öppnas i Workfront Planning.
 
+<div class="preview">
 
+## Skapa en begäran genom att kopiera en befintlig begäran
+
+Du kan kopiera en begäran i listan över förfrågningar i Workfront, redigera informationen och skicka den som en ny förfrågan.
+
+Detta är endast tillgängligt i den nya upplevelsen av begärande.
+
+Instruktioner finns i [Kopiera och skicka begäranden](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+
+## Skapa utkast och förfrågningar från befintliga utkast
+
+Du kan skapa ett utkast av en begäran, sedan gå tillbaka till utkastet och skicka det som en begäran senare.
+
+Detta är endast tillgängligt i den nya upplevelsen av begärande.
+
+Instruktioner finns i [Skapa begäranden från utkast](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md).
+
+</div>
 
 

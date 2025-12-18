@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a58e7da96c43dd308a213c6d7ef74d5085a2e1ba
+source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1263'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ En lista över alla funktioner som släppts för Adobe Workfront Planning finns 
 
 För att göra det enklare att se den information du behöver har vi lagt till möjligheten att dela vyer på sidan Projects Connected records. Nu kan du dela vyer med andra användare, team eller grupper.
 
-Mer information om begärandevyer, inklusive delning, finns i [Skapa och hantera vyer i området Förfrågningar](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+Mer information finns i [Lägga till en kopplad postsida i en post](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
 ## Aktuellt jokertecken för användare är nu tillgängligt i projektanslutningsvisningsfilter
 
