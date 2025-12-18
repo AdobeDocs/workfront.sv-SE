@@ -6,14 +6,16 @@ description: Godkännandeprocesser ger flexibilitet att skapa godkännanden i fl
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: 2503b6e628e4860a5652c620d8e4d0eea2414443
+source-git-commit: a3ce37193025ff8bb2e0be88ef5556fcadbb542c
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '749'
 ht-degree: 0%
 
 ---
 
 # Visa godkännanden
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Godkännandeprocesser ger flexibilitet att skapa godkännanden i flera steg för projekt, uppgifter och ärenden. Adobe Workfront administratörer definierar godkännandeprocesser för att skapa enhetlighet i hela systemet.
 
@@ -63,7 +65,7 @@ Du kan visa eller hantera godkännanden från följande områden:
 
 * I hemområdet
 
-   * Alla projekt, uppgifter, utgåvor, tidrapporter, dokument och åtkomst som väntar på ditt godkännande visas i widgeten Mina godkännanden i området Hem.
+   * Alla projekt, uppgifter, utgåvor, tidrapporter, dokument, åtkomstbegäranden och <span class="preview">Workfront Planning-begäranden</span> som väntar på ditt godkännande visas i widgeten Mina godkännanden i hemområdet.
    * Godkännanden som du har skickat själv visas också i widgeten Mina godkännanden i hemområdet när du väljer alternativet Godkännanden som jag har skickat. Mer information finns i avsnittet [Granskningsarbete som du skickar in för godkännande i hemområdet](#review-work-you-submit-for-approval-in-the-home-area) i den här artikeln.
    * Godkännanden tas bort från widgeten Mina godkännanden i hemområdet när det associerade projektet, aktiviteten eller utgåvan har markerats som Löst, Spärrat, Stängt eller Avbrutet.
 

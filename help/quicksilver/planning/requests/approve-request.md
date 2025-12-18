@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
+source-git-commit: a3ce37193025ff8bb2e0be88ef5556fcadbb542c
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '1110'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,12 @@ Godkännare får följande meddelanden om en begäran som väntar på deras godk
 >
 >Din organisations instans av Workfront måste vara registrerad på Adobe Unified Experience för att användare ska kunna ta emot e-post och meddelanden i appen.
 
-Så här godkänner du en begäran:
+Du kan godkänna begäranden om att skapa poster från själva begäran, <span class="preview">eller från widgeten Mina godkännanden i Hem.</span>
+
+* [Godkänn en begäran från begäran i Workfront Planning](#approve-a-request-from-the-request-in-workfront-planning)
+* [Godkänn en begäran från widgeten Mina godkännanden i Hem](#approve-a-request-from-the-my-approvals-widget-in-home)
+
+### Godkänn en begäran från begäran i Workfront Planning
 
 1. (Villkorligt) Om du använder den äldre begärande funktionen i Workfront, öppnar du begäran genom att göra något av följande:
 
@@ -113,7 +118,7 @@ Så här godkänner du en begäran:
    Förfrågningssidan öppnas i skrivskyddat läge.
 
    ![Skrivskyddad begärandesida med granskningsstatus](assets/read-only-reqeust-page-in-review-status.png)
-1. Om du använder den nya begärandefunktionen i Workfront klickar du på **Huvudmeny** ![Primär meny](assets/dots-menu.png) i skärmens övre högra hörn eller på **Huvudmeny** ![Rader-huvudmenyn](assets/lines-menu.png) i skärmens övre vänstra hörn, om den är tillgänglig, klickar sedan på **Förfrågningar** och klickar på den begäran som du vill godkänna med statusen **10&rbrace; Väntande granskning** eller **Under granskning**.
+1. Om du använder den nya begärandefunktionen i Workfront klickar du på **Huvudmeny** ![Primär meny](assets/dots-menu.png) i skärmens övre högra hörn eller på **Huvudmeny** ![Rader-huvudmenyn](assets/lines-menu.png) i skärmens övre vänstra hörn, om den är tillgänglig, klickar sedan på **Förfrågningar** och klickar på den begäran som du vill godkänna med statusen **10} Väntande granskning** eller **Under granskning**.
 1. (Valfritt) Klicka på ikonen **Godkännanden** ![Godkännanden](assets/approvals-icon.png) i det övre högra hörnet av begäran för att visa godkännarna.
 1. Klicka på **Granska och godkänn** och välj sedan något av följande:
 
@@ -128,3 +133,31 @@ Så här godkänner du en begäran:
    * **Avvisad**: Begäran nekades.
 
    Begäran finns kvar på fliken Planering i avsnittet Skickat i området Begäranden i Workfront.
+
+<div class="preview">
+
+### Godkänn en begäran från widgeten Mina godkännanden i Hem
+
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Home]**.
+
+   eller
+
+   Klicka på ikonen [!UICONTROL Home] ![Hem](/help/_includes/assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront.
+
+1. Leta reda på objektet som du vill godkänna eller avvisa.
+
+1. (Valfritt) Lägg till en kommentar genom att klicka på listrutepilen bredvid Godkänn eller Avvisa, skriva i anteckningen och klicka på Lägg till.
+
+1. Välj något av följande:
+
+   * **Godkänn**: Detta godkänner begäran. En post skapas omedelbart för den posttyp som är associerad med begärandeformuläret efter att alla godkännare har godkänt begäran.
+   * **Avvisa**: Detta avvisar begäran, även om du är den enda godkännaren som avvisar den. Ingen post skapas för den posttyp som är associerad med begärandeformuläret.
+
+   Användaren som skickade begäran får ett e-postmeddelande och i ett program-meddelanden när deras begäran har godkänts eller avvisats.
+
+   Status för begäran ändras till följande, beroende på beslutet om godkännande:
+
+   * **Slutförd**: Begäran har godkänts.
+   * **Avvisad**: Begäran nekades.
+
+</div>
