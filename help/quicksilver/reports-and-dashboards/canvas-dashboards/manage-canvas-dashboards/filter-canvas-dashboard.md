@@ -6,20 +6,22 @@ description: Du kan använda ett filter på en Canvas-kontrollpanel när den har
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: 39a8d670baa19aa37e29b0312e6c9a296569f44c
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '1013'
 ht-degree: 0%
 
 ---
 
 # Filtrera en arbetsytans kontrollpanel
 
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön för alla kunder.</span>
+
 >[!IMPORTANT]
 >
 >Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Delar av funktionen kanske inte är fullständiga eller fungerar som de ska i det här skedet. Skicka feedback om din upplevelse genom att följa instruktionerna i avsnittet [Ge feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) i översiktsartikeln i Canvas Dashboards.<br>
->&#x200B;>Om du har synpunkter på ett eventuellt fel eller tekniska problem ber vi dig skicka ett supportärende till Workfront Support. Mer information finns i [Kontakta kundsupport](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Observera att betaversionen inte är tillgänglig för följande molnleverantörer:
+>Om du har synpunkter på ett eventuellt fel eller tekniska problem ber vi dig skicka ett supportärende till Workfront Support. Mer information finns i [Kontakta kundsupport](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Observera att betaversionen inte är tillgänglig för följande molnleverantörer:
 >
 >* Använd din egen nyckel för Amazon Web Services
 >* Azure
@@ -176,4 +178,23 @@ Alla användare som har tillgång till en kontrollpanel kan lägga till en kontr
 1. I avsnittet **Visa poster där..** väljer du ett villkor för en eller alla uppmaningar som visas. Uppmaningen tillämpas och en **kontrollpanelsfilter**-tagg visas i hörnet av rapportwidgeten.
    ![Välj villkor](assets/prompts-list.png)
 
-1. Klicka på ikonen **Stäng** ![Stäng &#x200B;](assets/close-icon.png) i det övre högra hörnet om du vill dölja panelen.
+1. Klicka på ikonen **Stäng** ![Stäng ](assets/close-icon.png) i det övre högra hörnet om du vill dölja panelen.
+
+<span class="preview">
+
+## Filtrera en instrumentpanel efter valutatyp
+
+Du kan växla mellan olika valutatyper på instrumentpanelsnivå. Rapporter som innehåller valutafält uppdateras för att återspegla den valda valutatypen.
+
+>[!NOTE]
+>
+>Valutafält kan låsas på rapportnivå. Om ett valutafält är låst ändras inte valutatypen för den rapporten när du ändrar valutatypen för instrumentpanelen.
+
+Om du vill ändra valutatypen för instrumentpanelen
+
+1. Klicka på listrutan för valuta i det övre högra hörnet på sidan med information om instrumentpanelen.
+1. Välj önskad valutatyp i listan.
+
+   ![listrutan Ändra valuta](assets/filter-by-currency.png)
+
+</span>

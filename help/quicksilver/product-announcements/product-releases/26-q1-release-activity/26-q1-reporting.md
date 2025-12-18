@@ -4,9 +4,9 @@ description: Rapportförbättringar för första kvartalet 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bed931281d7d0b3184914ed7649d9cb889bcf39a
+source-git-commit: bb07096ce69e7d52c9332b6f9d230440a03c5f59
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '1009'
 ht-degree: 0%
 
 ---
@@ -17,39 +17,35 @@ Den här sidan beskriver rapportförbättringar som gjorts i första utgåvan av
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den första utgåvan av kvartal 2026 finns i [Översikt över utgåvan första kvartalet 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
-<!--
 
-## Currency updates in Canvas Dashboards
 
->[!NOTE]
->
->Preview: December 18, 2025 
->Production fast release: January 14, 2026 
->Production for everyone: January 15, 2026 
-
-We have made the following updates for currency fields:
-
-* When multiple currencies are defined in Workfront, you can now choose a default currency for the dashboard during creation. 
-
-* When creating a report, you can lock a currency field. This ensures that the dashboard-level currency preference does not affect the display of these values.
-
-* When viewing a dashboard, users can toggle between any defined currencies in Workfront. These changes apply to the entire dashboard with the exception of locked currency fields.
-
--->
-
-<!--
-
-## Quick search table results in Canvas Dashboards
+## Valutauppdateringar på arbetsytans kontrollpaneler
 
 >[!NOTE]
 >
->Preview: December 18, 2025 
->Production fast release: January 14, 2026 
->Production for everyone: January 15, 2026 
+>Förhandsgranska: 18 december 2025
+>Production fast release: 14 januari 2026
+>Produktion för alla: 15 januari 2026
 
-We have added a quick search to Table reports. This search works across all pages, so you can find data even if it's not currently visible.
+Vi har gjort följande uppdateringar för valutafält:
 
--->
+* När flera valutor definieras i Workfront kan du nu välja en standardvaluta för instrumentpanelen när du skapar den.
+
+* När du skapar en rapport kan du låsa ett valutafält. Detta garanterar att valutainställningen på kontrollpanelsnivå inte påverkar visningen av dessa värden.
+
+* När du visar en kontrollpanel kan användare växla mellan olika definierade valutor i Workfront. Dessa ändringar gäller för hela instrumentpanelen med undantag för låsta valutafält.
+
+
+## Snabbsökningstabellresultat i Canvas Dashboards
+
+>[!NOTE]
+>
+>Förhandsgranska: 18 december 2025
+>Production fast release: 14 januari 2026
+>Produktion för alla: 15 januari 2026
+
+Vi har lagt till en snabbsökning i tabellrapporter. Den här sökningen fungerar på alla sidor, så du kan söka efter data även om de inte är synliga just nu.
+
 
 ## Nytt alternativ för Visa summa för cirkeldiagram
 
@@ -130,7 +126,7 @@ Mer information finns i [Skapa en diagramrapport på en arbetsytekontrollpanel](
 >
 >Förhandsversion: 23 oktober 2025
 >Produktion för alla kunder: 23 oktober 2025
->[!BADGE Frånschemat &#x200B;]{type=Neutral}
+>[!BADGE Frånschemat ]{type=Neutral}
 
 Du kan nu duplicera en KPI-, tabell- eller diagramrapport på en Canvas Dashboard när den har skapats. När du har duplicerat rapporten kan du redigera den efter behov innan du sparar den.
 

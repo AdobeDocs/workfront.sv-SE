@@ -6,9 +6,9 @@ description: Du kan skapa kontrollpaneler för att snabbt komma åt information 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 39a8d670baa19aa37e29b0312e6c9a296569f44c
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,9 @@ ht-degree: 0%
 # Skapa en instrumentpanel
 
 <!--Audited: 01/2025-->
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön för alla kunder.</span>
+
 
 Du kan skapa kontrollpaneler för att snabbt komma åt information i Adobe Workfront. Upp till 25 rapporter, kalendrar och externa sidor kan läggas till på kontrollpaneler som du kan dela med andra för optimalt samarbete.
 
@@ -85,6 +88,11 @@ Du kan lägga till befintliga externa sidor på en kontrollpanel eller skapa en 
      <tr>
       <td role="rowheader"><strong>Beskrivning (valfritt)</strong></td>
       <td>Det här är en beskrivning av instrumentpanelen.</td>
+     </tr>
+      <tr>
+      <td role="rowheader"><strong>Valuta</strong></td>
+      <td><span class="preview">Det här är standardvalutatypen för instrumentpanelen. <br>
+      <br> Användare kan växla mellan olika valutatyper när de filtrerar kontrollpanelen. Mer information finns i <a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">Filtrera en instrumentpanel efter valutatyp</a>.</span></td>
      </tr>
     </tbody>
    </table>
