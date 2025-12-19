@@ -6,9 +6,9 @@ description: Du kan lägga till en tabellrapport på en Canvas-kontrollpanel fö
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: d7caaa0871263fb8ef4224a9c298778f3ee2454a
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1199'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Delar av funktionen kanske inte är fullständiga eller fungerar som de ska i det här skedet. Skicka feedback om din upplevelse genom att följa instruktionerna i avsnittet [Ge feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) i översiktsartikeln i Canvas Dashboards.<br>
->&#x200B;>Om du har synpunkter på ett eventuellt fel eller tekniska problem ber vi dig skicka ett supportärende till Workfront Support. Mer information finns i [Kontakta kundsupport](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Observera att betaversionen inte är tillgänglig för följande molnleverantörer:
+>Om du har synpunkter på ett eventuellt fel eller tekniska problem ber vi dig skicka ett supportärende till Workfront Support. Mer information finns i [Kontakta kundsupport](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Observera att betaversionen inte är tillgänglig för följande molnleverantörer:
 >
 >* Använd din egen nyckel för Amazon Web Services
 >* Azure
@@ -203,6 +203,16 @@ Mer information om exempel på tabellrapporter finns i [Skapa en rapportkontroll
 1. Klicka på **Spara** i skärmens övre högra hörn.
 
 ## Att tänka på när du skapar en tabellrapport
+
+### Rapporter med finansiella data
+
+Användare med behörigheten Visa eller Redigera för åtkomst till ekonomiska data på åtkomstnivån kan fortfarande se ekonomiska data i Canvas Dashboard-visualiseringar, även om behörigheten Visa ekonomi har tagits bort på aktivitets- eller projektnivå.
+
+* Användare utan ekonomiska rättigheter på åtkomstnivå kan inte se ekonomiska data i rapporter.
+* Användare som ser ekonomiska data är begränsade till poster som de redan har behörighet att visa (projekt, uppgifter, problem osv.). De kommer inte att se ekonomiska värden för poster som de inte har åtkomst till.
+* Rapportskaparna bör vara försiktiga när de inkluderar ekonomiska data i kontrollpaneler och vara uppmärksamma på vilka de delar kontrollpaneler med för att förhindra obehörig åtkomst.
+
+Detta är en känd gräns, och vi planerar att åtgärda den så snabbt som möjligt.
 
 ### Använda fältväljaren
 

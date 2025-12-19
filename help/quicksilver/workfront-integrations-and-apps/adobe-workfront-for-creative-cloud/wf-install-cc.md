@@ -6,9 +6,9 @@ description: Du kan installera [!DNL Adobe Workfront for design and video]  frå
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: c21e1c1d8e45b7c6407e8741b31055bfed9f4717
+source-git-commit: 58ee0356a68dae35a1c77847f92e9e6a3d706ce6
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ För att åtgärda problemet
 
    >[!TIP]
    >
-   >Gå till Finder på en Mac och tryck på **Kommando+Skift+.** om du vill visa dolda mappar går du till **/Users//Library/Application Support** och tar sedan bort mappen **Workfront**.
+   >Gå till Finder på en Mac och tryck på **Kommando+Skift+.** om du vill visa dolda mappar går du till **/Users/username/Library/Application Support** och tar sedan bort mappen **Workfront**. Du måste ersätta `username` med ditt Mac-användarnamn.
 
 
 1. Gå tillbaka till plugin-programmet och ange din Workfront-domän. Domänen måste vara `company-name.my.workfront.com` och inte `experience.adobe.com`.

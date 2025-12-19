@@ -6,9 +6,9 @@ description: En diagramrapport som visualiserar dina data som stapel-, kolumn-, 
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: bb65fa45f6fce762920627ad0fb6fd1d832f23a3
+source-git-commit: 56af1b6c8e4ae7bb990288d9e6a4326ffd18c2c9
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '1838'
 ht-degree: 0%
 
 ---
@@ -163,7 +163,7 @@ Det finns många konfigurationsalternativ för att skapa en diagramrapport. I de
 
 Följ stegen nedan för att konfigurera avsnittet **Filter**:
 
-1. Klicka på ikonen **Filter**![&#x200B; Filter](assets/filter-icon.png) i den vänstra panelen.
+1. Klicka på ikonen **Filter**![ Filter](assets/filter-icon.png) i den vänstra panelen.
 1. Välj **Redigera filter**.
 1. Klicka på **Lägg till villkor** och ange sedan fältet som du vill filtrera efter och modifieraren som definierar vilken typ av villkor som fältet måste uppfylla.
 1. (Valfritt) Klicka på **Lägg till filtergrupp** om du vill lägga till ytterligare en uppsättning filtervillkor. Standardoperatorn mellan uppsättningarna är AND. Klicka på operatorn för att ändra den till ELLER.
@@ -283,6 +283,16 @@ I det här avsnittet går vi igenom stegen för att skapa ett kolumndiagram som 
 1. Klicka på **Spara** för att skapa rapporten och lägga till den på kontrollpanelen.
 
 ## Att tänka på när du skapar en diagramrapport
+
+### Rapporter med finansiella data
+
+Användare med behörigheten Visa eller Redigera för åtkomst till ekonomiska data på åtkomstnivån kan fortfarande se ekonomiska data i Canvas Dashboard-visualiseringar, även om behörigheten Visa ekonomi har tagits bort på aktivitets- eller projektnivå.
+
+* Användare utan ekonomiska rättigheter på åtkomstnivå kan inte se ekonomiska data i rapporter.
+* Användare som ser ekonomiska data är begränsade till poster som de redan har behörighet att visa (projekt, uppgifter, problem osv.). De kommer inte att se ekonomiska värden för poster som de inte har åtkomst till.
+* Rapportskaparna bör vara försiktiga när de inkluderar ekonomiska data i kontrollpaneler och vara uppmärksamma på vilka de delar kontrollpaneler med för att förhindra obehörig åtkomst.
+
+Detta är en känd gräns, och vi planerar att åtgärda den så snabbt som möjligt.
 
 ### Använda fältväljaren
 
