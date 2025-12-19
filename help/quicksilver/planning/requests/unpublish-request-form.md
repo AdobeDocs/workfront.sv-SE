@@ -85,7 +85,7 @@ Så här ändrar du delningen av ett begärandeformulär:
 
    Posttypssidan öppnas i den vy som du senast använde. Som standard öppnas en posttypssida i tabellvyn.
 
-1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Hantera begärandeformulär**.
+1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Hantera begärandeformulär**.
 
    Alla förfrågningsformulär som är associerade med posttypen visas i en tabellvy.
 1. Håll muspekaren över namnet på ett begärandeformulär, klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om namnet och klicka sedan på **Dela**.
@@ -112,7 +112,7 @@ När ett begärandeformulär blir irrelevant och du inte längre vill att någon
 
    Posttypssidan öppnas i den vy som du senast använde. Som standard öppnas en posttypssida i tabellvyn.
 
-1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Hantera begärandeformulär**.
+1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Hantera begärandeformulär**.
 
    Alla förfrågningsformulär som är associerade med posttypen visas i en tabellvy.
 1. Håll muspekaren över namnet på ett begärandeformulär, klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om namnet och klicka sedan på **Avpublicera**

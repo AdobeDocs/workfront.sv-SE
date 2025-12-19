@@ -28,7 +28,7 @@ Om du är intresserad av att migrera från ett smidigt team [!UICONTROL Kanban] 
 
 [!UICONTROL Kanban]-panelen består av följande element:
 
-**Kolumn för eftersläpning**: Visar alla aktiviteter som för närvarande finns i efterloggen. Den här kolumnen visas inte som standard. Mer information om eftersläpningen, inklusive hur den visas på [!UICONTROL Kanban]-tavlan, finns i [Hantera bakåtloggen ](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+**Kolumn för eftersläpning**: Visar alla aktiviteter som för närvarande finns i efterloggen. Den här kolumnen visas inte som standard. Mer information om eftersläpningen, inklusive hur den visas på [!UICONTROL Kanban]-tavlan, finns i [Hantera bakåtloggen &#x200B;](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 **Artikelstatus**: Anger hur en artikel fortskrider baserat på vilken statuskolumn artikeln finns i.
 
