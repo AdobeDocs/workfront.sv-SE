@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
+source-git-commit: 066f678d4b13371eeca6aced586e1853a973cc03
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '1497'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,23 @@ I den här artikeln beskrivs funktionerna som lanseras för Workfront Planning i
 <!--keep the sentence below for all future quarterly release pages-->
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning finns i [Versionsaktivitet för Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Förbättringar av anslutna postsidor
+
+>[!NOTE]
+>
+>Förhandsgranska: 19 december 2025
+>Snabb produktion: 14 januari 2026
+>Produktion för alla: 15 januari 2026
+
+För att du ska få större flexibilitet när du arbetar med sammankopplade arkivsidor har vi förbättrat vyfunktionerna i det här området av Workfront Planning. Följande är förbättringar på sidorna för kopplade poster i en post:
+
+* Nu kan du lägga till en tidslinje och en kalendervy på postens sida med kopplade poster.
+* Nu kan du dela alla vyer från en ansluten postsida. De vyer som delas från dessa sidor är synliga i hela systemet av alla användare som du delar dem med i andra områden av Workfront Planning. Alla vyer som delas inom andra områden av Planning visas också på sidan för anslutna poster för samma användare som de delas med.
+* Vi har lagt till en begränsning som endast tillåter en ansluten postsida per post eller objekttyp. Före den här förbättringen kan du lägga till flera sidor för samma post eller objekttyp. Nu kan du använda flera vyer för samma posttyp på en och samma postsida.
+* Vi har lagt till en **ny rad**-länk längst ned i en tabellvy och en **Anslut poster**-knapp i den övre högra delen av sidan med anslutna poster. Före den här förbättringen fanns länken **Ny rad** och knappen **Anslut poster** bara på en projektansluten sida.
+
+Mer information finns i [Lägga till en kopplad postsida i en post](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
 ## Dela vyer på sidan Projekt - kopplade poster
 
@@ -116,26 +133,7 @@ Följande förbättringar har gjorts på startsidan för Workspaces i Workfront 
 
 Mer information finns i [Redigera arbetsytor](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
-<!--
 
-## Improvements to connected records pages
-
->[!NOTE]
->
->Preview: December 18, 2025 
->Production fast: January 14, 2026 
->Production for all: January 15, 2026 
-
-To give you more flexibility when working with connected records pages, we have enhanced the functionality of views in this area of Workfront Planning. The following are improvements in the connected records pages of a record that are coming with this release:
-
-* You can now add a timeline and a calendar view to a record's connected records page.
-* You can now share views from a connected records page. The views shared from these pages are visible system-wide by all users you share them with in any other area of Workfront Planning. All views shared in any other areas of Planning are also visible in the connected records page for the same users they are shared with.
-* We have added a restriction to only allow one connected records page per each record or object type. Prior to this enhancement, you could add multiple pages for the same record or object type. Now, you can use multiple views for the same record type in one connected records page.
-* We have added a **New row** link at the bottom of a table view and a **Connect records** button in the upper-right area of the connected records page. Prior to this enhancement, the **New row** link and the **Connect records** button existed only on a project connected page. 
-
-For information, see [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
-
--->
 
 ## Lägga till fältet för varumärkesanslutning till Produkter och profiler som standard på arbetsytan i GenStudio
 
