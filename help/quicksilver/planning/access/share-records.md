@@ -190,7 +190,7 @@ Som arbetsytehanterare kan du justera behörigheter till enskilda poster.
 
    Rutan **Dela** öppnas.
 
-   ![Behörigheter för poster med ärvda behörigheter ](assets/permissions-for-records-with-inherited-permissions-on.png)
+   ![Behörigheter för poster med ärvda behörigheter &#x200B;](assets/permissions-for-records-with-inherited-permissions-on.png)
 
 1. (Valfritt) I området **Vem har åtkomst** är alternativet **Alla på arbetsytan kan visa** markerat som standard.  Alla användare som har **Visa** eller högre behörighet till arbetsytan och posttypen har samma behörigheter som posten.
 

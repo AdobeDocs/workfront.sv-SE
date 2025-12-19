@@ -369,13 +369,13 @@ Mer information finns i [Ta bort postvyer](/help/quicksilver/planning/views/dele
 
         ![](assets/view-more-menu-projects-connected-records-page.png)
 
-   1. Klicka på ikonen **Filter** ![Filter ](assets/filter-icon.png) och använd filtret för att visa specifika projekt.
+   1. Klicka på ikonen **Filter** ![Filter &#x200B;](assets/filter-icon.png) och använd filtret för att visa specifika projekt.
 
       >[!TIP]
       >
       ><span class="preview">För persontypsfält, som **Ägare** eller **Sponsorn**, kan du använda ett jokertecken för att visa projekt där den inloggade användaren har tilldelats rollerna.</span>
       >
-      >![Filtrera med användarens jokertecken för projektanslutna poster ](assets/filter-with-user-wildcard-project-connected-records-page.png)
+      >![Filtrera med användarens jokertecken för projektanslutna poster &#x200B;](assets/filter-with-user-wildcard-project-connected-records-page.png)
       >
 
    1. Klicka på ikonen **Kolumner** ![Kolumner](assets/columns-icon.png) om du vill dölja eller visa kolumner i listan.
@@ -406,7 +406,7 @@ Så här hanterar du flera vyer från sidan med anslutna poster:
    * **Tidslinje**. Mer information finns i [Hantera tidslinjevyn](/help/quicksilver/planning/views/manage-the-timeline-view.md).
    * **Kalender**. Mer information finns i [Hantera kalendervyn](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
-1. (Valfritt) Håll markören över namnet på en vy på sidan Anslutna poster, klicka sedan på menyn **Mer** ![Mer](assets/more-menu.png) och klicka sedan på något av följande: ************* Kontrollera att alla alternativ är möjliga *********
+1. (Valfritt) Håll markören över namnet på en vy på sidan Anslutna poster, klicka sedan på menyn **Mer** ![Mer](assets/more-menu.png) och klicka sedan på något av följande: **&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** Kontrollera att alla alternativ är möjliga **&#x200B;**&#x200B;**&#x200B;***
 
    * **Byt namn**
    * **Dela**. Mer information finns i [Dela vyer](/help/quicksilver/planning/access/share-views.md).
