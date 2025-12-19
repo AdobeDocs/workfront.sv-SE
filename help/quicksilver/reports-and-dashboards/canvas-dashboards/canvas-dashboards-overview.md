@@ -7,9 +7,9 @@ author: Courtney and Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 96be3dbf57e87da19cef79426b1c8cd2290f60df
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,10 @@ Med Canvas Dashboards kan du rapportera om nya Workfront-funktioner, inklusive b
 * Din Workfront-administratör måste ge dig redigeringsåtkomst till instrumentpaneler på din åtkomstnivå för att skapa eller redigera en Canvas Dashboard. Information om hur du beviljar redigeringsåtkomst finns i [Bevilja åtkomst till rapporter, instrumentpaneler och kalendrar](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ## Artiklar på arbetsytans kontrollpanel
+
+* Använda Canvas-paneler
+
+   * [Använda Canvas-paneler](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)
 
 * Betaversion av Canvas Dashboards
 

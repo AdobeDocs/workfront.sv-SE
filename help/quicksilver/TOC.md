@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 7a29fcef1ee9a3010b7efc0713b5bbe9ca48b5cc
 workflow-type: tm+mt
-source-wordcount: '13631'
+source-wordcount: '13634'
 ht-degree: 0%
 
 ---
@@ -1535,6 +1535,7 @@ ht-degree: 0%
    * [Rapporter och kontrollpaneler: artikelindex](reports-and-dashboards/reports-and-dashboards-overview.md)
    * Kontrollpaneler på arbetsytan {#canvas-dashboards}
       * [Översikt över kontrollpaneler på arbetsytan](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
+      * [Använda Canvas-paneler](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)
       * Skapa instrumentpaneler {#create-dashboards}
          * [Skapa Canvas-instrumentpaneler: artikelindex](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards-article-index.md)
          * [Skapa en arbetsytans kontrollpanel](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)
