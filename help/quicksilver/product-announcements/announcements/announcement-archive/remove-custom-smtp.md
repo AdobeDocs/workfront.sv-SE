@@ -29,4 +29,4 @@ Inställningen som är markerad på den här skärmbilden ändras automatiskt ti
 
 Om du har konfigurerat en anpassad SMTP-e-postserver rekommenderar vi **att du kontaktar IT-teamet** för att säkerställa att e-post från notifications@my.workfront.com inte blockeras för inkommande e-post till systemet. Du kan även referera till Konfigurera brandväggen för att få information om vilka IP-adresser som vår trafik och e-post kommer från.
 
-Kontakta [Workfront Support Team](https://experienceleague.adobe.com/?support-tab=home&lang=sv#support) om du har frågor eller funderingar.
+Kontakta [Workfront Support Team](https://experienceleague.adobe.com/sv?support-tab=home&lang=sv#support) om du har frågor eller funderingar.
