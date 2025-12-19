@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '1776'
+source-wordcount: '2745'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,24 @@ Du kan visa information från anslutna poster eller objekt genom att lägga till
 
 Tänk på följande när du lägger till en sida med kopplade poster till en post:
 
-* Du kan lägga till en sida med kopplade poster till en post efter att du har kopplat post- eller objekttyper till posttypen från tabellvyn för en posttyp.
+* Du kan lägga till en sida med kopplade poster till en post efter att du har kopplat post- eller objekttyper till posttypen från dess tabellvy.
 
 * Du kan lägga till en sida med kopplade poster från en posts förhandsgranskningsområde eller postens sida.
 
+* <span class="preview">Du kan bara ha en ansluten postsida för en viss posttyp.</span>
+
+  <span class="preview">Om du till exempel skapar en sida med anslutna poster för en kampanj och vill visa dess anslutna personas, kan du bara ha en sida med anslutna poster för personas.</span>
+
 * Anslutna postsidor visar endast anslutna objekt eller poster från ett objekt eller en posttyp. På sidan visas inte alla poster av den typen.
 
-* Du kan visa objekten på en sida med kopplade poster i tabellvyn.
+* Beroende på vilket objekt eller vilken posttyp du visar på sidan med anslutna poster kan du visa dem i följande vyer:
+
+   * Du kan visa anslutna Planning-poster i följande vyer:
+      * Tabell
+      * <span class="preview">Tidslinje</span>
+      * <span class="preview">Kalender</span>
+   * Du kan visa anslutna Workfront-projekt i listvyn.
+
 
 <!--replace the above bullet with this: 
 
@@ -78,7 +89,7 @@ Tänk på följande när du lägger till en sida med kopplade poster till en pos
    <ul><li><p>En Adobe Experience Manager Assets-licens och en integrering mellan AEM Assets och Workfront för att koppla AEM-material till posttyperna Planning.</p>
    <p>Mer information finns i <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront för Experience Manager Assets och Assets Essentials: artikelindex</a>. </p></li>
    <li><p> En Adobe GenStudio for Performance Marketing-licens för att koppla posttyper till GenStudio Brands</p>
-   <p>Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/get-started">Kom igång med Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Kom igång med Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>
 
@@ -118,6 +129,11 @@ Du måste först koppla posttyper till andra posttyper eller Workfront-projekt i
 1. Lägg till **sidnamnet**, klicka på **Sidan för kopplade poster** för **sidtypen** och klicka sedan på **Skapa**.
 1. (Valfritt) Klicka på namnet på en ansluten post eller objekttyp i listan eller sök efter den och klicka sedan på den när den visas i listan för att skapa sidan för den posten eller objekttypen.
 
+   >[!TIP]
+   >
+   ><span class="preview">Du kan skapa en ansluten postsida per posttyp. Om en ansluten posttyp redan har en sida visas den inte längre som ett alternativ.</span>
+
+
 1. (Valfritt och villkorligt) Om det finns fler än ett anslutet fält av post- eller objekttypen som du skapar sidan för visas klickar du på det fält vars poster eller objekt du vill visa på sidan med kopplade poster i listan **Välj referensfält** .
 
    ![Välj referensfältlista](assets/select-reference-field-list-on-connected-records-page.png)
@@ -139,10 +155,10 @@ Du måste först koppla posttyper till andra posttyper eller Workfront-projekt i
 
 1. (Villkorligt) Beroende på vilken typ av poster du visar på den anslutna postsidan gör du något av följande:
 
-   * Hantera posternas tabellvy
-Mer information finns i avsnittet [Hantera posttabellvyn på sidan med anslutna poster](#manage-the-record-table-view-in-the-connected-records-page) i den här artikeln.
-   * Hantera projektlistvyn
-Mer information finns i avsnittet [Hantera projektlistvyn på sidan med anslutna poster](#manage-the-project-list-view-in-the-connected-records-page) i den här artikeln.
+   * Hantera planeringsposter
+Mer information finns i avsnittet [Hantera de anslutna posterna för planeringsposter](#manage-the-connected-records-page-for-planning-records) i den här artikeln.
+   * Hantera Workfront-projekt
+Mer information finns i avsnittet [Hantera den anslutna postsidan för Workfront-projekt](#manage-the-connected-records-page-for-workfront-projects) i den här artikeln.
 
 1. (Valfritt) Dubbelklicka på namnet på fliken **Anslutna poster**
 
@@ -155,9 +171,13 @@ Mer information finns i avsnittet [Hantera projektlistvyn på sidan med anslutna
 
 1. (Valfritt) Håll pekaren över namnet på sidan med anslutna poster, klicka på **Mer** ![Mer-menyn](assets/more-menu.png) och klicka sedan på **Ta bort** för att ta bort fliken.
 
-### Hantera posttabellvyn på sidan med anslutna poster
+### Hantera den anslutna postsidan för planeringsposter
 
-När du skapar en ansluten postsida för anslutna planeringsposter gör du följande: <!--or AEM Assets--> <!--AEM is not available yet?? see note below-->
+Hur du hanterar den anslutna postsidan för Planering av poster varierar beroende på vilken miljö du använder.
+
+#### Hantera den anslutna postsidan för Planering av poster i produktionsmiljön
+
+Gör följande när du skapar en ansluten postsida för anslutna planeringsposter i produktionsmiljön: <!--or AEM Assets--> <!--AEM is not available yet?? see note below-->
 
 1. Gå till en posttypssida och klicka på postens namn. Då öppnas postens förhandsgranskningssida.
 1. Klicka på fliken för en ansluten postsida som visar Planning-poster.
@@ -201,7 +221,89 @@ Posterna som är kopplade till den post du har markerat visas i tabellvyn.
    >
    >Du kan inte skapa, redigera eller ta bort fält i tabellvyn på fliken för en ansluten post.
 
-   <!--No longer possible: 1. (Optional and conditional) When you create a connected records page for the following Workfront object types:
+<div class="preview">
+
+#### Hantera den anslutna postsidan för Planering av poster i förhandsgranskningsmiljön
+
+När du skapar en ansluten postsida för anslutna planeringsposter i förhandsgranskningsmiljön gör du följande: <!--or AEM Assets--> <!--AEM is not available yet?? see note below-->
+
+1. Gå till en posttypssida och klicka på postens namn. Då öppnas postens förhandsgranskningssida.
+1. Klicka på fliken för en ansluten postsida som visar Planning-poster.
+Posterna som är kopplade till den post du har markerat visas i tabellvyn.
+1. Klicka på **Anslut poster** i det övre högra hörnet på den anslutna postsidan om du vill koppla befintliga poster, markera dem i anslutningsrutan och klicka sedan utanför rutan för att stänga den. Posterna läggs automatiskt till i tabellen och kopplas till den post du har valt. Posterna måste finnas innan du kan lägga till dem.
+
+   Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
+1. Klicka på **Ny rad** längst ned i tabellen om du vill lägga till nya poster. De nya posterna kopplas automatiskt till de poster som du har valt.
+1. Redigera all information från de anslutna posterna i tabellvyn.
+1. Håll muspekaren över namnet på en ansluten post och klicka sedan på menyn **Mer** ![Mer](assets/more-menu.png)
+
+   eller
+
+   Markera en av posterna och klicka sedan på något av följande alternativ i det blå fältet längst ned i listan:
+
+   * **Visa** om du vill öppna postsidan på en ny flik
+   * **Kopiera länk** för att kopiera en länk till postsidan
+   * **Redigera miniatyrbild** för att öppna rutan **Spela in miniatyrbild** och redigera postens miniatyrbild
+   * **Duplicera** om du vill duplicera den anslutna posten. Den duplicerade posten är även ansluten till den aktuella posten.
+   * **Infoga posten ovanför eller under** om du vill lägga till nya poster till den anslutna posttypen. Nya poster som läggs till här är också kopplade till den aktuella posten. Det här alternativet är inte tillgängligt i det blå fältet när du markerar en post i tabellen.
+   * **Ta bort** om du vill ta bort posten. Om du tar bort en ansluten post tas den bort från sin posttyp och från alla ställen där posten är ansluten. De borttagna posterna flyttas till **Nyligen borttagna**-behållaren av sin posttyp.
+
+     Mer information om hur du redigerar poster i tabellvyn finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).
+
+     >[!TIP]
+     >
+     >Du kan markera flera poster eller objekt som du vill ta bort.
+
+1. Redigera alla poster i tabellen på den anslutna postsidan.
+1. Använd något av följande vyelement i verktygsfältet på en ansluten postsida för att hantera tabellvyn:
+
+   * **Filter**
+   * **Sortera**
+   * **Gruppering**
+   * **Fält**, för att visa, dölja eller ordna om fält
+   * **Radhöjd**
+   * **Sök**
+
+   Mer information finns i [Hantera tabellvyn](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+   >[!NOTE]
+   >
+   >Du kan inte skapa, redigera eller ta bort fält i tabellvyn på fliken för en ansluten post.
+1. Klicka på listrutan Vyer och sedan på **Ny vy** för att lägga till en ny vy för sidan. Gör sedan följande:
+   1. Lägg till ett **visningsnamn**.
+   1. Välj någon av följande typer av vyer i området **Vytyp**:
+
+      * Tabell
+Mer information finns i [Hantera tabellvyn](/help/quicksilver/planning/views/manage-the-table-view.md)
+      * Tidslinje
+Mer information finns i [Hantera tidslinjevyn](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+      * Kalender
+Mer information finns i [Hantera kalendervyn](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+
+        Mer information finns i avsnittet [Hantera flera vyer från sidan med anslutna poster](#manage-multiple-views-from-the-connected-records-page) i den här artikeln.
+
+   1. Klicka på **Skapa**.
+En ny vy läggs till i listrutan Vyer.
+   1. (Valfritt) Håll muspekaren över namnet på en vy som du har skapat och klicka på menyn **Mer** ![Mer](assets/more-menu.png). Klicka sedan på något av följande alternativ:
+      * **Byt namn på** om du vill lägga till ett nytt namn för vyn.
+      * **Dela**
+
+
+        Mer information finns i [Dela vyer](/help/quicksilver/planning/access/share-views.md).
+
+        >[!NOTE]
+        >
+        >Du kan inte dela en systemvy som har skapats av Workfront.
+
+      * **Ta bort**
+Mer information finns i [Ta bort postvyer](/help/quicksilver/planning/views/delete-record-views.md).
+
+        ![](assets/view-more-menu-projects-connected-records-page.png)
+
+</div>
+
+
+<!--No longer possible: 1. (Optional and conditional) When you create a connected records page for the following Workfront object types:
          * Portfolios
          * Programs
          * Groups
@@ -214,12 +316,11 @@ Posterna som är kopplade till den post du har markerat visas i tabellvyn.
       * **View** to open the record page in a new tab
       * **Copy link** to copy a link to the record page
       * **Disconnect** to disconnect the object from the record you are viewing. 
-      >[!TIP]
-      >
-      >You can select more than one record or object to disconnect them.
+      TIP      
+      You can select more than one record or object to disconnect them.
       -->
 
-### Hantera projektlistvyn på sidan med anslutna poster
+### Hantera den anslutna postsidan för Workfront-projekt
 
 Gör följande när du skapar en ansluten postsida för anslutna Workfront-projekt:
 
@@ -242,14 +343,17 @@ De projekt som är kopplade till den valda posten visas i listvyn.
    * **Ta bort** om du vill ta bort projektet. Om du tar bort ett projekt kopplas det från posten och flyttas till Workfront papperskorg. Workfront-administratörer kan återställa borttagna projekt upp till 30 dagar efter att de tagits bort.
    * **Koppla från** om du vill koppla från projektet från posten. När du kopplar från ett projekt tas det bort och alla värden i sökfälten tas bort från den aktuella posten.
 
-   >[!TIP]
-   >
-   >Du kan markera flera projekt som ska kopplas från eller tas bort.
+     >[!TIP]
+     >
+     >Du kan markera flera projekt som ska kopplas från eller tas bort.
 1. Klicka på listrutan Vyer och sedan på **Ny vy** för att lägga till en ny vy för sidan. Gör sedan följande:
    1. Lägg till ett **visningsnamn**.
    1. Välj **Lista** i området **Visningstyp**.
    1. Klicka på **Skapa**.
 En ny listvy läggs till i listrutan Vyer.
+
+      Mer information finns i avsnittet [Hantera flera vyer från sidan med anslutna poster](#manage-multiple-views-from-the-connected-records-page) i den här artikeln.
+
    1. (Valfritt) Håll muspekaren över namnet på en vy som du har skapat och klicka på menyn **Mer** ![Mer](assets/more-menu.png). Klicka sedan på något av följande alternativ:
       * **Byt namn på** om du vill lägga till ett nytt namn för vyn.
       * <span class="preview">**Dela**</span>
@@ -258,21 +362,22 @@ En ny listvy läggs till i listrutan Vyer.
 
         >[!NOTE]
         >
-        >Du kan inte dela en standardvy som har skapats av Workfront.
+        >Du kan inte dela en systemvy som har skapats av Workfront.
 
       * **Ta bort**
 Mer information finns i [Ta bort postvyer](/help/quicksilver/planning/views/delete-record-views.md).
 
-
         ![](assets/view-more-menu-projects-connected-records-page.png)
-   1. Klicka på ikonen **Filter** ![Filter &#x200B;](assets/filter-icon.png) och använd filtret för att visa specifika projekt.
+
+   1. Klicka på ikonen **Filter** ![Filter ](assets/filter-icon.png) och använd filtret för att visa specifika projekt.
 
       >[!TIP]
       >
       ><span class="preview">För persontypsfält, som **Ägare** eller **Sponsorn**, kan du använda ett jokertecken för att visa projekt där den inloggade användaren har tilldelats rollerna.</span>
       >
-      >![Filtrera med användarens jokertecken för projektanslutna poster &#x200B;](assets/filter-with-user-wildcard-project-connected-records-page.png)
+      >![Filtrera med användarens jokertecken för projektanslutna poster ](assets/filter-with-user-wildcard-project-connected-records-page.png)
       >
+
    1. Klicka på ikonen **Kolumner** ![Kolumner](assets/columns-icon.png) om du vill dölja eller visa kolumner i listan.
    1. Klicka på ikonen **+** i tabellvyns övre högra hörn för att lägga till befintliga fält i tabellen. Fälten måste finnas innan du kan lägga till dem.
 
@@ -285,38 +390,37 @@ Mer information finns i [Ta bort postvyer](/help/quicksilver/planning/views/dele
       1. Klicka på **Spara** för att spara den anslutna postsidans tabellvy.
 
 
-<!--
 <div class="preview">
 
-## Manage multiple views from the connected records page
+## Hantera flera vyer från sidan med anslutna poster
 
-You can add and manage multiple view types from the connected records page of a record. 
+Du kan lägga till och hantera flera vytyper från den anslutna postsidan.
 
-The views you create in the Connected records page of a record type are available everywhere in Workfront Planning where that record type page displays. Views created for the same record type anywhere else in Workfront Planning are also accessible in all connected records pages of that record type. 
+De vyer du skapar på sidan Anslutna poster av en posttyp är tillgängliga överallt i Workfront Planning där den posttypssidan visas. Vyer som har skapats för samma posttyp var som helst i Workfront Planning är även tillgängliga på alla anslutna postsidor av den posttypen.
 
-To manage multiple views from the connected records page: 
+Så här hanterar du flera vyer från sidan med anslutna poster:
 
-1. From the connected records page of a record, click the dropdown menu to the right of the view name, then click **New view** to add a view, then select from the following options: 
+1. Klicka på den nedrullningsbara menyn till höger om vynamnet på den anslutna postsidan för en post och klicka sedan på **Ny vy** för att lägga till en vy. Välj sedan något av följande alternativ:
 
-   * **Table**. For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
-   * **Timeline**. For more information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
-   * **Calendar**. For more information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md). 
+   * **Tabell**. Mer information finns i [Hantera tabellvyn](/help/quicksilver/planning/views/manage-the-table-view.md).
+   * **Tidslinje**. Mer information finns i [Hantera tidslinjevyn](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+   * **Kalender**. Mer information finns i [Hantera kalendervyn](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
-1. (Optional) Hover over the name of a view in the Connected records page, then click the **More** menu ![More menu](assets/more-menu.png), then click one of the following: *************check to make sure these are all possible*********
+1. (Valfritt) Håll markören över namnet på en vy på sidan Anslutna poster, klicka sedan på menyn **Mer** ![Mer](assets/more-menu.png) och klicka sedan på något av följande: ************* Kontrollera att alla alternativ är möjliga *********
 
-   * **Rename**
-   * **Share**. For more information, see [Share views](/help/quicksilver/planning/access/share-views.md).
+   * **Byt namn**
+   * **Dela**. Mer information finns i [Dela vyer](/help/quicksilver/planning/access/share-views.md).
 
    >[!TIP]
    >
-   >Sharing views from Connected records pages makes them accessible to users in all areas of Workfront Planning where the view displays. 
-   >Also, if a view is shared from any other area of Workfront Planning, it is also available to the same users in Connected records pages. 
+   >Genom att dela vyer från sidor med sammankopplade poster blir de tillgängliga för användare i alla områden av Workfront Planning där vyn visas.
+   >Om en vy delas från något annat område i Workfront Planning är den även tillgänglig för samma användare på sidor med anslutna poster.
 
-   * **Export** 
-   * **Duplicate**. For more information, see [Duplicate record views](/help/quicksilver/planning/views/duplicate-record-views.md).
+   * **Exportera**
+   * **Duplicera**. Mer information finns i [Duplicera postvyer](/help/quicksilver/planning/views/duplicate-record-views.md).
 
-      >[!TIP]
-      >
-      >Duplicating a view from Connected records pages makes it available in all other areas of Workfornt planning, when viewing the same record types. 
+     >[!TIP]
+     >
+     >När du duplicerar en vy från sidor med kopplade poster blir den tillgänglig i alla andra områden i Workfornt-planeringen, när du visar samma posttyper.
 
-</div> -->
+</div>

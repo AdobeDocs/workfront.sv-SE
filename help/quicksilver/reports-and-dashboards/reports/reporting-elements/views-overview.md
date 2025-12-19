@@ -7,9 +7,9 @@ description: Du kan anpassa den typ av information som du visar i en lista eller
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
@@ -42,8 +42,8 @@ Följande typer av vyer kan du använda i listor och rapporter i Workfront:
         <td>Du kan tillämpa dem på alla listor och rapporter med objekt. Standardvyer är mycket anpassningsbara. Du kan anpassa och dela en standardvy med andra. Mer information finns i <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Skapa eller redigera vyer i Adobe Workfront</a>.</td>
     </tr>
     <tr>
-        <td><strong>Agile-vy</strong></td>
-        <td>Du kan använda styrelsen eller Agile-vyn på en lista med uppgifter i aktivitetsavsnittet i ett projekt eller på en lista med problem i projektavsnittet. Mer information finns i <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md">Hantera ett projekt i flexibel vy</a>.</td>
+        <td><strong>Styrelsevy</strong></td>
+        <td>Du kan använda vyn Styrelse på en lista med uppgifter i aktivitetsavsnittet i ett projekt eller en lista med problem i avsnittet Problem i projektet för att hantera dina projekt med hjälp av en Agile-metod. Mer information finns i <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md">Hantera ett Agile-projekt i styrelsvyn</a>.</td>
     </tr>
     <tr>
         <td><strong>Gantt-vy</strong></td>
@@ -66,7 +66,7 @@ Du kan dela elementen i en standardvy.
 
 Mer information om hur du delar en standardvy finns i [Dela ett filter, en vy eller en gruppering](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
-Du kan inte dela Gantt- och Agile-vyer. Alla som har tillgång till de områden där dessa vyer visas kan visa samma information.
+Du kan inte dela Gantt- och Board-vyer. Alla som har tillgång till de områden där dessa vyer visas kan visa samma information.
 
 <!-- add something about the enhanced views here, when we have a link-->
 
@@ -74,7 +74,7 @@ Du kan inte dela Gantt- och Agile-vyer. Alla som har tillgång till de områden 
 
 Möjligheten att ta bort en vy fungerar på olika sätt beroende på om du först skapade vyn eller om vyn delades med dig. Du kan inte ta bort en standardvy.
 
-Du kan inte ta bort Gantt- eller Agile-vyer.
+Du kan inte ta bort vyerna Gantt eller Board.
 
 Mer information om hur du tar bort en standardvy finns i [Ta bort filter, vyer och grupperingar](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
 

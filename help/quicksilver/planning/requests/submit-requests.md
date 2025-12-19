@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '1871'
+source-wordcount: '1869'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Följande måste finnas innan du kan skicka en begäran till ett Workfront Plann
 * Följande måste finnas i Workfront Planning:
 
    * En arbetsyta
-   * En posttyp.
+   * En posttyp
    * Ett begärandeformulär som är associerat med en posttyp.
 
      Mer information finns i [Skapa ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
@@ -162,7 +162,7 @@ Om du aktiverar den här inställningen blir Workfront Planning-förfrågningsfo
 1. (Valfritt) Klicka på **Visa din begäran** i bekräftelsemeddelandet om du vill öppna begäran eller klicka på ikonen **X** om du vill stänga bekräftelsen.
 1. (Valfritt) Gör något av följande:
 
-   * Klicka på **Filter** och börja lägga till villkor för vilka förfrågningar du vill visa på fliken Planering.
+   * Klicka på **Filter** och börja lägga till villkor för vilka begäranden som du vill visa i listan över förfrågningar.
 
      ![Redigeringsfilter på fliken Planeringsbegäranden](assets/filters-editing-box-in-requests-planning-tab.png)
 
@@ -251,16 +251,14 @@ Begärandelistan filtreras automatiskt när du lägger till filtervillkoren.
 
    <!--Click [Submit another request](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) to open the request form and add a new request.-->
 
-1. (Valfritt) Klicka på **Huvudmeny** > **Förfrågningar** > fliken **Planering** för att visa din förfrågan och klicka sedan på namnet på förfrågan.
+1. (Valfritt) Klicka på **Huvudmeny** > **Förfrågningar** för att visa din förfrågan och klicka sedan på namnet på förfrågan.
 
    Sidan med information om förfrågan öppnas.
 
    ![Begär sida med kommentar](assets/new-request-page-with-comment.png)
 
-
-
 1. (Valfritt) Ange en kommentar i kommentarområdet.
-1. (Villkorligt) Om begärandeformuläret inte är kopplat till ett godkännande, eller om begäran har godkänts, klickar du på namnet på begäran och sedan på postens namn i fältet **Post**.
+1. (Villkorligt) Om begärandeformuläret inte är kopplat till ett godkännande, eller om begäran har godkänts, klickar du på namnet på begäran och sedan på namnet på posten i fältet **Skapat objekt**.
 
    Postens sida öppnas i Workfront Planning.
 
@@ -270,7 +268,7 @@ Begärandelistan filtreras automatiskt när du lägger till filtervillkoren.
    >
    >* Om begärandeformuläret är kopplat till ett godkännande måste det godkännas innan du kan få åtkomst till posten från begärandesidan.
 
-1. (Valfritt) Klicka på namnet på **posttypen**.
+1. (Valfritt) Klicka på namnet på **objekttypen**.
 
    Posttypssidan öppnas i Workfront Planning.
 

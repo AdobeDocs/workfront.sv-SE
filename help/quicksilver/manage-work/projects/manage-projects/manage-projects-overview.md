@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: a63ec4e0-ba39-42c1-8061-c29350ef4bbb
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Det här avsnittet innehåller följande artiklar:
 * [Ta bort användare från projekt](../../../manage-work/projects/manage-projects/remove-users-from-projects.md)
 * [Schemalägg resurser för ett projekt](../../../manage-work/projects/manage-projects/schedule-resources-for-projects.md)
 * [Kommunicera med projektgruppsmedlemmar](../../../manage-work/projects/manage-projects/communicate-with-project-team-members.md)
-* [Hantera ett projekt i flexibel vy](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
+* [Hantera ett Agile-projekt i styrelsvyn](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
 * [Översikt över projektbegränsningar](../../../manage-work/projects/manage-projects/project-maximums.md)
 * [Förstå projektstatistik](../../../manage-work/projects/manage-projects/project-metrics.md)
 * [Sammanfatta uppdateringar med AI Assistant](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)

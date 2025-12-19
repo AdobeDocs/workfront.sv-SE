@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 8e5a35f20675e911a5ba7251b39ead7c1770b666
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '13630'
+source-wordcount: '13631'
 ht-degree: 0%
 
 ---
@@ -1241,7 +1241,7 @@ ht-degree: 0%
          * [Ta bort användare från projekt](manage-work/projects/manage-projects/remove-users-from-projects.md)
          * [Schemalägg resurser för ett projekt](manage-work/projects/manage-projects/schedule-resources-for-projects.md)
          * [Kommunicera med projektgruppsmedlemmar](manage-work/projects/manage-projects/communicate-with-project-team-members.md)
-         * [Hantera ett projekt i flexibel vy](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
+         * [Hantera ett Agile-projekt i styrelsens vy](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
          * [Förstå projektstatistik](manage-work/projects/manage-projects/project-metrics.md)
          * [Översikt över projektbegränsningar](manage-work/projects/manage-projects/project-maximums.md)
          * [Sammanfatta uppdateringar med AI Assistant](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)

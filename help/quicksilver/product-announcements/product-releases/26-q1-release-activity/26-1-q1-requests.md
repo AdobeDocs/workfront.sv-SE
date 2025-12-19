@@ -4,9 +4,9 @@ description: Förbättringar av första kvartalet 2026-begäranden
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ac1857f4cf4c6b3823773902ae8be439e2dcd55a
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '918'
 ht-degree: 0%
 
 ---
@@ -140,7 +140,7 @@ Mer information om utkast till begäranden finns i [Skapa begäranden från utka
 
 För att göra det enklare att hålla ordning på och reda på dina förfrågningar har vi lagt till möjligheten att ta bort förfrågningar till den nya begärande upplevelsen. Nu kan du ta bort begäranden som du har skickat in. Workfront-administratörer och Workfront Planning Workspace-administratörer kan även ta bort begäranden.
 
-Det gick inte att ta bort begäranden tidigare.
+Tidigare var den här funktionen inte tillgänglig i den nya upplevelsen för begärande.
 
 Mer information och instruktioner finns i [Ta bort en skickad begäran eller ett utkast av en begäran](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md).
 

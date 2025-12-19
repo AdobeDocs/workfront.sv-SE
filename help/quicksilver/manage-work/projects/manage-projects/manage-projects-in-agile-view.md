@@ -1,25 +1,25 @@
 ---
 product-area: projects;agile-and-teams
 navigation-topic: manage-projects
-title: Hantera ett projekt i den flexibla vyn
-description: Du kan använda smidiga funktioner i ditt projekt utan de administrativa utmaningar som vanligtvis följer med flexibla rutiner (som att hantera en eftersläpning i teamet eller skapa iterationer).
+title: Hantera ett Agile-projekt i styrelsvyn
+description: Du kan utnyttja Agile-funktionaliteten i ditt projekt utan de administrativa problem som vanligtvis följer med Agile-rutiner (som att hantera en teameftersläpning eller skapa iterationer).
 author: Alina, Courtney
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
 
-# Hantera ett projekt i flexibel vy
+# Hantera ett Agile-projekt i styrelsevyn
 
 <!-- Audited: 11/2025 -->
 
-Du kan använda smidiga funktioner i ditt projekt utan de administrativa utmaningar som vanligtvis följer med flexibla rutiner (som att hantera en eftersläpning i teamet eller skapa iterationer).
+Du kan utnyttja Agile-funktionaliteten i ditt projekt utan de administrativa problem som vanligtvis följer med Agile-rutiner (som att hantera en teameftersläpning eller skapa iterationer).
 
-Du kan arbeta i en flexibel miljö som använder en eftersläpning i team och där du kan skapa upprepningar av uppgifter i eftersläpningen.
+Du kan arbeta i en Agile-miljö som använder en eftersläpning i team och där du kan skapa iterationer från aktiviteter som ligger i eftersläpningen.
 
 Mer information finns i [Arbeta i en flexibel miljö](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
 
@@ -95,11 +95,11 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 </table>-->
 
 
-## Visa ett projekt i Agile-vyn
+## Visa ett projekt i styrelsvyn
 
-Du kan visa både uppgifter och problem i ett projekt i en flexibel vy i stället för en lista för att utnyttja den flexibla funktionen för projektutvecklingen.
+Du kan visa både uppgifter och problem i ett projekt i en styrelsvy i stället för en lista, och utnyttja Agile-funktionaliteten för din projektutveckling.
 
-1. Gå till projektet som du vill visa i en flexibel vy och klicka sedan på **Åtgärder** eller **Problem** i den vänstra panelen.
+1. Gå till det projekt som du vill hantera enligt Agile-metoden och klicka sedan på **Åtgärder** eller **Problem** i den vänstra panelen.
 1. Klicka på ikonen **Bårdvy** ![Bårdkornikon](assets/board-icon-for-agile-view.png) .
 
    Vyn i projektvyn visas som standard.

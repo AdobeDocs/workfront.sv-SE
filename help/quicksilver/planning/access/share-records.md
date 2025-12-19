@@ -7,9 +7,9 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '1772'
+source-wordcount: '1838'
 ht-degree: 0%
 
 ---
@@ -117,6 +117,9 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 <!--checking on the below with Lilit-->
 
 * Du kan dela poster med följande enheter: personer, grupper, team, företag eller jobbroller.
+* När du delar en post har användarna samma åtkomst överallt där posten visas i systemet.
+* Om du begränsar behörigheter till en post kan användarna inte längre visa den posten och värdena för dess sökfält någonstans i systemet där posten läggs till.
+* Workfront kontrollerar inspelningsbehörigheter i anslutningar som är upp till fem poster djupa, så att användarna bara ser poster som delas med dem.
 * Du kan tilldela följande behörighetsnivåer till en post:
 
    * Visa
@@ -187,7 +190,7 @@ Som arbetsytehanterare kan du justera behörigheter till enskilda poster.
 
    Rutan **Dela** öppnas.
 
-   ![Behörigheter för poster med ärvda behörigheter &#x200B;](assets/permissions-for-records-with-inherited-permissions-on.png)
+   ![Behörigheter för poster med ärvda behörigheter ](assets/permissions-for-records-with-inherited-permissions-on.png)
 
 1. (Valfritt) I området **Vem har åtkomst** är alternativet **Alla på arbetsytan kan visa** markerat som standard.  Alla användare som har **Visa** eller högre behörighet till arbetsytan och posttypen har samma behörigheter som posten.
 

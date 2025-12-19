@@ -6,9 +6,9 @@ description: Du kan anpassa vilken typ av information som visas på skärmen med
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '893'
 ht-degree: 0%
 
 ---
@@ -60,10 +60,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Skapa eller anpassa en vy
 
-Hur du skapar eller anpassar en vy varierar beroende på om du skapar eller anpassar en standardvy eller en Agile- eller en styrelsvy.
-
-* [Skapa eller anpassa en standardvy](#create-or-customize-a-standard-view)
-* [Skapa eller anpassa en Agile-vy](#create-or-customize-an-agile-view)
+Hur du skapar eller anpassar en vy varierar beroende på om du skapar eller anpassar en standardvy eller en styrelsvy.
 
 ### Skapa eller anpassa en standardvy {#create-or-customize-a-standard-view}
 
@@ -73,7 +70,7 @@ Du kan skapa en ny standardvy eller anpassa en befintlig standardvy som du skapa
 
 1. Klicka på knappen **+ Ny vy** för att skapa en ny vy.
 eller
-Klicka på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) som visas i muspekaren till höger om en befintlig vy som du vill redigera.
+Klicka på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) som visas i muspekaren till höger om en befintlig vy som du vill redigera.
 Dialogrutan **Anpassa vy** visas.
 
 1. Gör något av följande i avsnittet **Förhandsvisa kolumn**:
@@ -161,13 +158,15 @@ Dialogrutan **Anpassa vy** visas.
 
    Åtkomsten styr hur vyn sparas. Om du skapade vyn från början kan du spara ändringarna. Annars uppmanas du att spara en version. Tänk på att de ändringar du gör i vyn påverkar användare som vyn har delats med.
 
-### Skapa eller anpassa en Agile-vy {#create-or-customize-an-agile-view}
+### Skapa eller anpassa en styrelsvy {#create-or-customize-an-agile-view}
 
-Flexibla vyer, även kallade styrelsevyer, visas bara för listor över uppgifter och frågor i ett projekt.
+Du kan hantera projekt enligt en Agile-metod med hjälp av en styrelse.
+
+Styrelsevyer är bara tillgängliga för listor över uppgifter och frågor i ett projekt.
 
 De är förkonfigurerade, men du kan ändra vissa inställningar för dem.
 
-Mer information om vyn Agile eller Board finns i artikeln [Hantera ett projekt i Agile-vyn](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Mer information om Agile- och Board-vyer finns i artikeln [Hantera ett Agile-projekt i styrelsvyn](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 <!-- Legacy Agile views were deprecated with 25.3. This is old: 
 
