@@ -6,9 +6,9 @@ description: Du kan ändra vilket språk som används för att visa Adobe Workfr
 feature: Get Started with Workfront
 author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 5304f25ecb198f45c024b71185747f47fa8307d4
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1168'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ För närvarande stöder Workfront Fusion endast engelska.
 * Workfront Fusion stöder inte användning av icke-engelska texttecken i fält som användaren anger.
 
 Företaget måste köpa en Workfront Fusion-licens för att få tillgång till Workfront Fusion.\
-Mer information om Workfront Fusion finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Mer information om Workfront Fusion finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ## Ändra språk
 
@@ -106,10 +106,10 @@ För att se alla tillgängliga översättningar för ditt valda språk bör båd
 
 Om du vill ta reda på om din organisation har migrerats till Adobe Admin Console kan du kontrollera den URL som du använder för att visa Workfront.
 
-| URL | Adobe Experience |
-|---|---|
-| (CompanyName).my.workfront.com | Inte migrerad till Adobe Admin Console |
-| experience.adobe.com | Migrerad till Adobe Admin Console |
+| URL | Adobe Experience | Språkkontroll |
+|---|---|---|
+| (CompanyName).my.workfront.com | Inte migrerad till Adobe Admin Console | [Ändra webbläsarspråk](#change-the-browser-language) |
+| experience.adobe.com | Migrerad till Adobe Admin Console | [Ändra Adobe Experience Cloud-språk](#change-the-adobe-experience-cloud-language) |
 
 * [Ändra webbläsarspråk](#change-the-browser-language)
 * [Ändra Adobe Experience Cloud-språk](#change-the-adobe-experience-cloud-language)
@@ -160,7 +160,7 @@ När du ändrar ditt språkområde för e-post för användare ändrar du språk
 
 >[!NOTE]
 >
->När din organisation använder Adobe Unified Experience lagras språkinställningarna i din Adobe-profil och e-postspråkinställningen används inte. Se [Ändra Adobe Experience Cloud &#x200B;](#change-the-adobe-experience-cloud-language) i den här artikeln.
+>När din organisation använder Adobe Unified Experience lagras språkinställningarna i din Adobe-profil och e-postspråkinställningen används inte. Se [Ändra Adobe Experience Cloud ](#change-the-adobe-experience-cloud-language) i den här artikeln.
 
 Så här ändrar du din e-postadress för användare:
 

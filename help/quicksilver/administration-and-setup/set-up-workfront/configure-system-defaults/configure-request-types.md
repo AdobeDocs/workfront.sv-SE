@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 31e5f5e039e25fa25f3038c23ee579ba1f830bb7
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Så här anpassar du namnen på begärandetyperna:
 1. Klicka på **[!UICONTROL Project Preferences]** > **[!UICONTROL Statuses]**.
 
 1. Klicka på fliken **[!UICONTROL Issues]**.
-1. Överst på fliken **[!UICONTROL Issues]** håller du muspekaren över namnet på en frågetyp och klickar sedan på ikonen **[!UICONTROL Edit]** som visas.
+1. Klicka på listrutan högst upp på fliken **[!UICONTROL Issues]**, välj en typ av begäran och klicka sedan på ikonen **[!UICONTROL Edit]** som visas.
 
    ![Redigera begärandetypens namn](assets/edit-request-type-name-nwe.png)
 

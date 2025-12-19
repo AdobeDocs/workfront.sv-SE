@@ -8,9 +8,9 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
-source-git-commit: 711812d9fd4bf48bb7612c0339cee2cdbe08ef10
+source-git-commit: 31e5f5e039e25fa25f3038c23ee579ba1f830bb7
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,9 @@ Som [!DNL Adobe Workfront]-administratör kan du visa och hantera OAuth2-program
 >* I OAuth2-kontexten hänvisar Oauth2-programmet till den här typen av åtkomstlänk mellan ett program och en server som [!DNL Workfront]. Mer information finns i [Skapa OAuth2-program för [!DNL Workfront] integreringar](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 >* Du kan ha upp till totalt tio OAuth2-program samtidigt.
 
-* Mer information om hur du skapar anpassade OAuth2-program finns i [Skapa OAuth2-program för [!DNL Workfront] integrationer](../../administration-and-setup/configure-integrations/create-oauth-application.md)
-* Instruktioner om hur du konfigurerar och använder OAuth2-programmet med inloggningsuppgifter (auktoriseringskodflöde) finns i [Konfigurera och använda organisationens anpassade OAuth 2-program med auktoriseringskodflöde](../../wf-api/api/oauth-app-code-token-flow.md).
-* Instruktioner om hur du konfigurerar och använder OAuth2-programmet med serverautentisering (JWT-flöde) finns i [Konfigurera och använda organisationens anpassade OAuth 2-program med JWT-flöde](../../wf-api/api/oauth-app-jwt-flow.md).
+* Mer information, instruktioner och information om hur du skapar anpassade OAuth2-program finns i [Skapa OAuth2-program för [!DNL Workfront] integreringar](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+* Mer information, instruktioner och information om hur du konfigurerar och använder OAuth2-programmet med inloggningsuppgifter (auktoriseringskodflöde) finns i [Konfigurera och använda organisationens anpassade OAuth 2-program med hjälp av auktoriseringskodflöde](../../wf-api/api/oauth-app-code-token-flow.md).
+* Mer information, instruktioner och information om hur du konfigurerar och använder OAuth2-programmet med serverautentisering (JWT-flöde) finns i [Konfigurera och använda organisationens anpassade OAuth 2-program med JWT-flöde](../../wf-api/api/oauth-app-jwt-flow.md).
 * Instruktioner om hur du konfigurerar och använder OAuth2-programmet med PKCE finns i [Konfigurera och använda organisationens anpassade OAuth 2-program med PKCE-flöde](../../wf-api/api/oauth-app-pkce-flow.md).
 
 ## Åtkomstkrav

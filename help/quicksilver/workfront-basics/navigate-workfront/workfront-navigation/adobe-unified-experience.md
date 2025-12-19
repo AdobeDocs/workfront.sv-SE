@@ -6,9 +6,9 @@ description: Om du får åtkomst till [!DNL Workfront] via Adobe Experience Clou
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 29083931a4910c99027edb856ab200c8a4345679
+source-git-commit: 5304f25ecb198f45c024b71185747f47fa8307d4
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ När du har loggat in på [!DNL Adobe Experience Cloud] kan du visa alla [!DNL W
 
 ## Navigera [!DNL Workfront]
 
-Använd ikonen [!UICONTROL Main Menu] ![Huvudmeny &#x200B;](assets/main-menu-icon-left-nav.png) till vänster om navigeringsfältet i [!DNL Workfront] för att navigera till sidor som du har tillgång till. Vilka alternativ som är tillgängliga i [!UICONTROL Main Menu] beror på:
+Använd ikonen [!UICONTROL Main Menu] ![Huvudmeny ](assets/main-menu-icon-left-nav.png) till vänster om navigeringsfältet i [!DNL Workfront] för att navigera till sidor som du har tillgång till. Vilka alternativ som är tillgängliga i [!UICONTROL Main Menu] beror på:
 
 * **Layoutmallskonfigurationer**: Information om hur en [!DNL Workfront] -administratör kan ändra [!UICONTROL Main Menu] från en layoutmall finns i [Anpassa [!UICONTROL Main Menu] med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 * **Licenstyp**: Information om standardkonfigurationerna för olika licenstyper finns i [Förstå navigeringen för en [!UICONTROL Review]-licensanvändare](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) eller [Förstå navigeringen för en [!UICONTROL Work]-licensanvändare](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
@@ -108,6 +108,9 @@ Med den här menyn kan du:
 
 * Välj **[!UICONTROL Dark theme]**-formatering för [!DNL Adobe Experience Cloud].
 * Ange **[!UICONTROL Preferences]** för [!DNL Adobe Experience Cloud], inklusive inställningar för primärt och sekundärt språk.
+  >[!NOTE]
+  >
+  >Datuminställningarna baseras på de primära språkinställningarna. Om du t.ex. väljer **Engelska (USA)** visas datum i formatet MM/DD/ÅÅÅÅ, medan du väljer **Engelska (Storbritannien)** visas datum i formatet DD/MM/ÅÅÅÅ.
 * Få åtkomst till din **[!UICONTROL [!DNL Workfront] Profile]**. När du är med i profilen klickar du på **[!UICONTROL More]**-menyn ![Mer-menyn](assets/more-icon.png) och väljer **[!UICONTROL Edit]**. Mer information om profilen finns i [Konfigurera mina inställningar](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 * **[!UICONTROL Sign out]** av Adobe Experience Cloud.
 
@@ -123,7 +126,7 @@ Om din organisation använder ett separat program för att hantera lösenord än
 
 Om ditt lösenord hanteras av [!DNL Adobe] kan du ändra lösenordet i ditt Adobe-konto.
 
-[Läs den här artikeln om hur du ändrar ditt Adobe-lösenord.](https://helpx.adobe.com/se/manage-account/using/change-or-reset-password.html){target="_blank"}
+[Läs den här artikeln om hur du ändrar ditt Adobe-lösenord.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 Kontakta administratören om du vill ha mer information om hur du ändrar ditt lösenord.
 

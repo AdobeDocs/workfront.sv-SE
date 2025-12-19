@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 6b2d93d2573d72e4390761038d8078f47d96d55e
+source-git-commit: 87d3443c7b08c59d435e852c6a17df297e7023d6
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1356'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,21 @@ ht-degree: 0%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
+
+
+
+>[!IMPORTANT]
+>
+>Workfront rekommenderar inte längre att du använder `/login`-slutpunkten eller API-nycklarna. Använd i stället någon av följande autentiseringsmetoder:
+>
+>* Serverautentisering med JWT
+>* Användarautentisering med OAuth2
+>
+>Instruktioner om hur du konfigurerar dessa autentiseringsmetoder finns i [Skapa OAuth2-program för Workfront-integreringar](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)
+>
+>Instruktioner om hur du använder serverautentisering i Workfront finns i [Konfigurera och använda organisationens anpassade OAuth 2-program med JWT-flöde](/help/quicksilver/wf-api/api/oauth-app-jwt-flow.md)
+>
+>Instruktioner om hur du använder användarautentisering i Workfront finns i [Konfigurera och använda organisationens anpassade OAuth 2-program med hjälp av auktoriseringskodflöde](/help/quicksilver/wf-api/api/oauth-app-code-token-flow.md)
 
 För att minimera säkerhetsluckor i API:t kan Adobe Workfront-administratörer hantera de API-nycklar som används för att ge program åtkomst till Workfront för en användares räkning.
 
@@ -73,10 +88,6 @@ Workfront-administratörer har också en unik API-nyckel. När ett program anvä
 ## Hantera en administratör-API-nyckel
 
 Du kan generera, återställa eller ta bort API-nyckeln för ditt administratörsanvändarkonto.
-
->[!NOTE]
->
->Du kan också generera en API-nyckel via API:t. Mer information finns i avsnittet om [API för händelseprenumeration](../../../wf-api/general/event-subs-api.md) i [API:t för händelseprenumeration](../../../wf-api/general/event-subs-api.md).
 
 {{step-1-to-setup}}
 
