@@ -2,20 +2,20 @@
 product-area: agile-and-teams;projects
 navigation-topic: work-in-an-agile-environment
 title: Flytta en Agile Story
-description: Du kan flytta en flexibel artikel till en annan upprepning (för Scrum-team) eller till eftersläpningen (för Kanban- och Scrum-team).
+description: Du kan flytta en Agile-artikel till en annan upprepning (för Scrum-team) eller till eftersläpningen (för Kanban- och Scrum-team).
 author: Jenny
 feature: Agile
 exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 1%
 
 ---
 
-# Flytta en flexibel artikel
+# Flytta en Agile-artikel
 
-Du kan flytta en flexibel artikel till en annan upprepning (för Scrum-team) eller till eftersläpningen (för Kanban- och Scrum-team).
+Du kan flytta en Agile-artikel till en annan upprepning (för Scrum-team) eller till eftersläpningen (för Kanban- och Scrum-team).
 
 ## Åtkomstkrav
 

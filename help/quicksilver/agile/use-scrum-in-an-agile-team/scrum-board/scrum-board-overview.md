@@ -7,7 +7,7 @@ description: Den flexibla Scrum-artikelpanelen visas tillsammans med slutförand
 author: Jenny
 feature: Agile
 exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 0%
@@ -73,4 +73,4 @@ Anta till exempel att artikel A innehåller underuppgift 1 och underuppgift 2 (o
 
 Samma logik gäller för underaktiviteter på andra nivån (underaktiviteter för underaktiviteter). Om en underuppgift har en eller flera underaktiviteter på andra nivån tilldelade till samma flexibla team och tillhör samma upprepning, visas endast underaktiviteten på andra nivån i efterloggen.
 
-Mer information om eftersläpningen finns i [Hantera den flexibla eftersläpningen](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Mer information om eftersläpningen finns i [Hantera Agile-eftersläpningen](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).

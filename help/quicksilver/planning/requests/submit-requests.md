@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '1869'
+source-wordcount: '1875'
 ht-degree: 0%
 
 ---
@@ -186,7 +186,7 @@ Begärandelistan filtreras automatiskt när du lägger till filtervillkoren.
      >
      >Du kan inte visa fältet **Ämne**.
 
-     ![](assets/columns-editing-box-in-requests-planning-tab.png)
+     ![Redigeringsrutan för kolumner i området Förfrågningar](assets/columns-editing-box-in-requests-planning-tab.png)
 
 
 1. Klicka på namnet på en begäran i listan.

@@ -7,7 +7,7 @@ description: Agile är en arbetsmetod som gör det möjligt för team att slutf�
 author: Jenny
 feature: Agile
 exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 0%
@@ -34,15 +34,15 @@ Så här börjar du använda avancerad flexibilitet i Workfront:
 
 1. Kanban-team: Hantera eftersläpningen och skapa [!UICONTROL Kanban]-styrelsen.
 
-   Mer information finns i [Hantera den flexibla eftersläpningen](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) och [Kanban-översikt](../agile/use-kanban-in-an-agile-team/kanban-overview.md).
+   Mer information finns i [Hantera Agile-eftersläpningen](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) och [Kanban-översikt](../agile/use-kanban-in-an-agile-team/kanban-overview.md).
 
 1. Scrum teams: Hantera eftersläpningen, skapa en iteration och skapa [!UICONTROL Scrum]-tavlan.
 
-   Mer information finns i [Hantera den flexibla eftersläpningen](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md), [Översikt över iterationer](../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md) och [Översikt över kontrollpanelen](../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md).
+   Mer information finns i [Hantera Agile-eftersläpning](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md), [Översikt över iterationer](../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md) och [Översikt över Scrum-kort](../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md).
 
 1. Lägg till uppgifter från projekt i eftersläpningen eller i artikelgruppen.
 
-   Mer information finns i [Hantera den flexibla eftersläpningen](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md), [Lägga till befintliga uppgifter eller ärenden på [!UICONTROL Kanban] anslagstavlan](../agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md) och [Lägga till artiklar i en befintlig upprepning](../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+   Mer information finns i [Hantera Agile-eftersläpningen](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md), [Lägga till befintliga uppgifter eller ärenden på [!UICONTROL Kanban] anslagstavlan](../agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md) och [Lägga till artiklar i en befintlig iteration](../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
 
 ## Använd flexibel i ett projekt
 

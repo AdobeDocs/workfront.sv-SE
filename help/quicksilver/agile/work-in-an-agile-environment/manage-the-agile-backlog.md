@@ -2,23 +2,23 @@
 product-area: agile-and-teams
 navigation-topic: work-in-an-agile-environment
 title: Hantera Agile-eftersläpningen
-description: Uppgifter och ärenden kan tilldelas ett smidigt team och läggas till i teamets eftersläpning som berättelser, beroende på den flexibla metod teamet använder.
+description: Uppgifter och ärenden kan tilldelas ett Agile-team och läggas till i teamets eftersläpning som artiklar, beroende på vilken Agile-metod teamet använder.
 author: Jenny
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '1244'
 ht-degree: 0%
 
 ---
 
-# Hantera den flexibla eftersläpningen
+# Hantera Agile-eftersläpningen
 
-Följande arbetsuppgifter kan tilldelas ett smidigt team och läggas till i teamets eftersläpning som artiklar, beroende på den flexibla metod teamet använder:
+Följande arbetsuppgifter kan tilldelas ett Agile-team och läggas till i teamets eftersläpning som artiklar, beroende på vilken Agile-metod teamet använder:
 
-* **[!UICONTROL Scrum agile teams]:** Uppgifter och utgåvor kan tilldelas det flexibla teamet och läggas till i eftersläpningen.
-* **[!UICONTROL Kanban agile teams]:** Uppgifter kan tilldelas det flexibla teamet och läggas till i eftersläpningen. Användare kan visa eftersläpningen direkt från den flexibla artikelpanelen, enligt beskrivningen i [[!UICONTROL Add the backlog] till Kanban-tavlan &#x200B;](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md). Teamet använder denna eftersläpning för att prioritera och hantera sin arbetskö.
+* **[!UICONTROL Scrum Agile teams]:** Uppgifter och utgåvor kan tilldelas Agile-teamet och läggas till i eftersläpningen.
+* **[!UICONTROL Kanban Agile teams]:** Uppgifter kan tilldelas Agile-teamet och läggas till i eftersläpningen. Användare kan visa eftersläpningen direkt från Agile-artikelpanelen, enligt beskrivningen i [[!UICONTROL Add the backlog] till Kanban-tavlan ](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md). Teamet använder denna eftersläpning för att prioritera och hantera sin arbetskö.
 
 Uppgifter eller problem kan tilldelas teamet (och sedan läggas till i teamets eftersläpning) var som helst i [!DNL Adobe Workfront]. Ett team kan till exempel tilldelas arbetsuppgifter från flera projekt.
 
@@ -66,19 +66,19 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 Du kan ändra ordning på artiklarna i eftersläpningslistan genom att dra och släppa.
 
-1. Gå till den flexibla eftersläpningen där du vill ändra ordning på artiklarna.
+1. Gå till Agile-eftersläpningen där du vill ändra ordning på artiklarna.
 1. I listrutan **[!UICONTROL View]** väljer du **[!UICONTROL Backlog]**-vyn eller en anpassad vy som innehåller kolumnen **[!UICONTROL Order]**.
 
    >[!NOTE]
    >
-   >Om en uppgift eller ett ärende har tilldelats ett rörligt team och projektet inte har en status som motsvarar Aktuell, visas de inte i eftersläpningen. De påverkar dock fortfarande antalet eftersläpningar i kolumnen Ordning.
+   >Om en uppgift eller ett ärende har tilldelats ett Agile-team och projektet inte har en status som motsvarar Aktuell, visas de inte i eftersläpningen. De påverkar dock fortfarande antalet eftersläpningar i kolumnen Ordning.
 
 1. Markera en eller flera artiklar och dra dem sedan till den ordning som du vill att de ska visas i eftersläpningen.
    ![Dra och släpp eftersläpningsobjekt](assets/agile-backlog-drag-and-drop.png)
 
 ### Dela upp artiklar {#break-down-stories}
 
-Eftersom artiklar i en eftersläpning varierar i storlek kan användarna dela upp dem i användbara storlekar för en upprepning. När du delar upp en artikel skapas underuppgifter för den uppgift som artikeln representerar och den ursprungliga uppgiften ersätts i eftersläpningen. Du kan ha en överordnad uppgift eller dess underaktiviteter tilldelade till ett smidigt team, men du kan inte ha båda samtidigt tilldelade till ett team.
+Eftersom artiklar i en eftersläpning varierar i storlek kan användarna dela upp dem i användbara storlekar för en upprepning. När du delar upp en artikel skapas underuppgifter för den uppgift som artikeln representerar och den ursprungliga uppgiften ersätts i eftersläpningen. Du kan ha en överordnad uppgift eller dess underaktiviteter tilldelade till ett Agile-team, men du kan inte ha båda samtidigt tilldelade till ett team.
 
 >[!NOTE]
 >
@@ -105,10 +105,10 @@ Du kan redigera artiklar direkt från flikarna [!UICONTROL Stories] eller [!UICO
 
 ## Skapa nya artiklar i eftersläpningen {#create-new-stories-on-the-backlog}
 
-Du kan skapa nya artiklar i eftersläpningen genom att skapa artikeln direkt från eftersläpningen eller genom att tilldela en befintlig uppgift eller utgåva till ett smidigt team.
+Du kan skapa nya artiklar i eftersläpningen genom att skapa artikeln direkt från eftersläpningen eller genom att tilldela en befintlig uppgift eller utgåva till ett Agile-team.
 
 * [Skapa en artikel från eftersläpningen](#create-a-story-from-the-backlog)
-* [Tilldela en uppgift eller ett problem till ett smidigt team](#assign-a-task-or-issue-to-an-agile-team)
+* [Tilldela en uppgift eller ett ärende till ett Agile-team](#assign-a-task-or-issue-to-an-agile-team)
 
 ### Skapa en artikel från eftersläpningen {#create-a-story-from-the-backlog}
 
@@ -168,11 +168,11 @@ Så här skapar du en artikel från en eftersläpning:
 
 1. Klicka på **[!UICONTROL Save Story]**.
 
-### Tilldela en uppgift eller ett problem till ett smidigt team {#assign-a-task-or-issue-to-an-agile-team}
+### Tilldela en uppgift eller ett ärende till ett Agile-team {#assign-a-task-or-issue-to-an-agile-team}
 
-Du kan tilldela en uppgift eller ett ärende till ett smidigt team. När uppgiften eller utgåvan har tilldelats visas den som en ny artikel i teamets eftersläpning.
+Du kan tilldela en uppgift eller ett ärende till ett Agile-team. När uppgiften eller utgåvan har tilldelats visas den som en ny artikel i teamets eftersläpning.
 
-Så här tilldelar du en uppgift eller en utgåva till ett smidigt team:
+Så här tilldelar du en uppgift eller ett ärende till ett Agile-team:
 
 1. Gå till det projekt som innehåller uppgiften som du vill tilldela.
 1. Markera uppgiften eller utgåvan i listan.
@@ -180,7 +180,7 @@ Så här tilldelar du en uppgift eller en utgåva till ett smidigt team:
 1. Klicka på **[!UICONTROL Assignments]**.
 1. (Valfritt) Ta bort alla befintliga tilldelningar.
 1. Klicka på **[!UICONTROL Add Assignee]**.
-1. Börja skriva namnet på det flexibla team som du vill ska tilldelas uppgiften eller utgåvan och klicka sedan på teamnamnet när det visas i listrutan.
+1. Börja skriva namnet på det Agile-team som du vill ska tilldelas uppgiften eller utgåvan och klicka sedan på teamnamnet när det visas i listrutan.
 1. Klicka på **[!UICONTROL Save Changes]**.
 Uppgiften eller utgåvan är nu tillgänglig i teamets eftersläpning.
 
@@ -192,7 +192,7 @@ Uppgiften eller utgåvan är nu tillgänglig i teamets eftersläpning.
 
 ### Flytta artiklar från eftersläpningen till en iteration eller anslagstavla
 
-1. Gå till eftersläpningen i det flexibla teamet.
+1. Gå till eftersläpningen i Agile-teamet.
 1. Markera de artiklar som du vill flytta till en iteration eller en kanban-panel och klicka sedan på **[!UICONTROL More]** > **[!UICONTROL Move to]**.
 Om artikeln flyttas till en [!UICONTROL Kanban]-anslagstavla visas [!UICONTROL Move Story to the Kanban]-anslagstavlan.
 Om du flyttar artikeln till en upprepning visas dialogrutan [!UICONTROL Move Story to an Iteration].
@@ -210,7 +210,7 @@ Om du flyttar artikeln till en upprepning visas dialogrutan [!UICONTROL Move Sto
 
 Om du bestämmer dig för att ditt team inte är redo att arbeta med en artikel kan du flytta artikeln till eftersläpningen.
 
-Mer information finns i [Flytta en flexibel artikel](../../agile/work-in-an-agile-environment/move-an-agile-story.md).
+Mer information finns i [Flytta en Agile-artikel](../../agile/work-in-an-agile-environment/move-an-agile-story.md).
 
 ### Exportera artiklar från eftersläpningen {#export-stories-from-the-backlog}
 

@@ -7,7 +7,7 @@ description: Du kan anpassa den typ av information som du visar i en lista eller
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 0%
@@ -38,8 +38,8 @@ Följande typer av vyer kan du använda i listor och rapporter i Workfront:
 
 <table style="table-layout:auto">
     <tr>
-        <td><strong>Standardvyer</strong></td>
-        <td>Du kan tillämpa dem på alla listor och rapporter med objekt. Standardvyer är mycket anpassningsbara. Du kan anpassa och dela en standardvy med andra. Mer information finns i <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Skapa eller redigera vyer i Adobe Workfront</a>.</td>
+        <td><strong>Standardvy</strong></td>
+        <td>Du kan använda den på alla listor och rapporter med objekt. Standardvyer är mycket anpassningsbara. Du kan anpassa och dela en standardvy med andra. Mer information finns i <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Skapa eller redigera vyer i Adobe Workfront</a>.</td>
     </tr>
     <tr>
         <td><strong>Styrelsevy</strong></td>

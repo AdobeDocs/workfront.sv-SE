@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '3147'
+source-wordcount: '3143'
 ht-degree: 0%
 
 ---
@@ -183,7 +183,7 @@ Alla poster av den valda typen visas i vyn.
       * **Lägg till manuellt**. Postens förhandsvisningsruta öppnas.\
         Lägg till information om posten, enligt beskrivningen i avsnittet [Skapa poster genom att lägga till dem textbundet från posttyptabellvyn](#create-records-by-adding-them-inline-from-the-record-type-table-view) i den här artikeln, med början från steg 6. <!--insure this stays accurate-->
       * **Överför från fil**
-Lägg till poster enligt beskrivningen i artikeln [Skapa poster genom att importera information från en CSV- eller Excel-fil &#x200B;](/help/quicksilver/planning/records/import-file-to-create-records.md), med början i steg 6. <!--ensure this stays accurate-->
+Lägg till poster enligt beskrivningen i artikeln [Skapa poster genom att importera information från en CSV- eller Excel-fil ](/help/quicksilver/planning/records/import-file-to-create-records.md), med början i steg 6. <!--ensure this stays accurate-->
       * **Skicka en begäran**
 Formuläret med förfrågningar av posttyp öppnas.
 
@@ -208,7 +208,7 @@ Formuläret med förfrågningar av posttyp öppnas.
 
    * En ny post läggs till posttypen, såvida du inte väljer att lägga till den med ett begärandeformulär med en godkännandeprocess. Godkännandet måste beviljas av alla godkännare innan posten skapas.
    * Flera poster läggs till posttypen om du har lagt till poster med hjälp av ett CSV- eller Excel-kalkylblad.
-   * En ny begäran läggs till på fliken Planering i området Workfront-förfrågningar om du lade till den genom att skicka ett begärandeformulär.
+   * En ny begäran läggs till i området för Workfront-förfrågningar om du lade till den genom att skicka ett begärandeformulär.
 
 <!-- this is not possible anymore: 
 
@@ -555,7 +555,7 @@ Du kan konfigurera automatisering i Workfront Planning som, när den aktiveras, 
 
 Du kan konfigurera och aktivera automatiseringen på postens sida i Workfront Planning. Den anslutna post som skapas placeras i det anslutna fältet för den posttyp som du kör automatiseringen från.
 
-Mer information finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning &#x200B;](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+Mer information finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
 
 

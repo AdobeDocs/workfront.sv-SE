@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 880828f4-3908-4ef0-ab1f-774f8dee72b6
-source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '3791'
 ht-degree: 0%
@@ -94,29 +94,29 @@ Mer information finns i&quot;Anpassa startsidan&quot; i&quot;Skapa och hantera l
 
 ## Kanban för Agile  {#kanban-for-agile}
 
-Agile Teams kan nu använda en Kanban-metod inom Workfront, utöver den Scrum-flexibla metod som redan stöds.
+Agile Teams kan nu använda en Kanban-metod inom Workfront, utöver den Scrum Agile-metod som redan stöds.
 
-Metoderna Scrum och Kanban agile i Workfront skiljer sig på följande sätt:
+Metoderna Scrum och Kanban Agile i Workfront skiljer sig på följande sätt:
 
 **Fördelar med att använda Kanban i Workfront**
 
-* Visa eftersläpningen på Kanban agile story board.
+* Visa eftersläpningen på Kanban Agile-artikeltavlan.
 
   Mer information finns i .
 
-* Konfigurera objekt på eftersläpningen så att de automatiskt läggs till i den flexibla artikelpanelen i Kanban när andra objekt flyttas till en status som motsvarar fullständig.
+* Konfigurera objekt i eftersläpningen så att de automatiskt läggs till i artikelpanelen i Kanban Agile när andra objekt flyttas till en status som motsvarar fullständig.
 
   Mer information finns i [Konfigurera artiklar som ska läggas till automatiskt från eftersläpningen](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) i [Konfigurera kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
-* Konfigurera en PIA-gräns (Work In Progress) som ska visas på den flexibla artikeltavlan för Kanban.
+* Konfigurera en PIA-gräns (Work In Progress) som ska visas på artikeltavlan i Kanban Agile.
 
   Mer information finns i [Konfigurera gränsen för pågående arbete (PIA)](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4) i [Konfigurera kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
 **Fördelar med att använda Scrum i Workfront**
 
-* Lägg till en uppsättning artiklar i en smidig iteration och skapa en artikelpanel för den iteration som används.
+* Lägg till en uppsättning artiklar i en Agile-iteration och skapa en artikelpanel för den iteration som används.
 * Inkludera problem på Scrum story board.
-* Ta med problem i eftersläpningen för ett smidigt team.
+* Ta med problem i ett Agile-teams eftersläpning.
 
   Mer information finns i [Konfigurera hur datum tillämpas när arbetsobjekt läggs till i en iteration](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) i [Konfigurera repet](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
@@ -125,7 +125,7 @@ Metoderna Scrum och Kanban agile i Workfront skiljer sig på följande sätt:
 
   Mer information finns i [Översikt över Agile-nedladdningsdiagram](../../../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md).
 
-Mer information om att aktivera och konfigurera Kanban för ett rörligt team finns i [Bestäm en flexibel metod](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding) i [Skapa ett rörligt team](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+Mer information om hur du aktiverar och konfigurerar Kanban för ett Agile-team finns i [Bestäm dig för en Agile-metod](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding) i [Skapa ett Agile-team](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
 ## Inkludera problem i Scrum-eftersläpningen för ett Agile Team {#include-issues-on-the-scrum-backlog-for-an-agile-team}
 
@@ -133,15 +133,15 @@ Mer information om att aktivera och konfigurera Kanban för ett rörligt team fi
 >
 >Den här funktionen togs bort från produktionsmiljön den 14 november 2017. Den kommer att återinföras i förhandsvisningsmiljön i början av 2018 med förbättrad design och ökad stabilitet. Den kommer att vara tillgänglig i produktionsmiljön med version 2018.1.
 
-Nu kan du inkludera problem i eftersläpningen för ditt mobila team när du använder Scrum-metoden (problemen visas inte i eftersläpningen för ett rörligt team när du använder Kanban-metoden). Befintliga Scrum-team måste aktivera den här funktionen för att problemen ska kunna tas med. Problem tas automatiskt med i eftersläpningen för Scrum-team som skapas efter version 2017.3.
+Nu kan du inkludera problem i ditt Agile-teams eftersläpning när du använder Scrum Agile-metoden (problemen visas inte i eftersläpningen hos ett Agile-team när du använder Kanban-metoden). Befintliga Scrum Agile-team måste aktivera den här funktionen för att problemen ska kunna tas med. Problem tas automatiskt med i eftersläpningen för Scrum Agile-team som skapas efter version 2017.3.
 
 Före den här ändringen kunde bara uppgifter läggas till i efterloggen. Om du ville lägga till ett problem var du först tvungen att konvertera problemet till en uppgift innan det kunde läggas till.
 
 Eftersom du nu har tillgång till mer än bara uppgifter i efterloggen kopieras alla anpassade uppgiftsvyer som tidigare fanns i efterloggen och läggs till i eftersläpningen som anpassade arbetsobjektvyer i eftersläpningen.
 
-Mer information om hur du använder problem i eftersläpningen finns i  [Hantera den flexibla eftersläpningen](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Mer information om hur du använder problem i eftersläpningen finns i  [Hantera Agile-eftersläpningen](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
-Information om hur du aktiverar problem som ska vara tillgängliga i eftersläpningen för ett team med flexibla systemkontroller finns i  [Konfigurera hur datum tillämpas när arbetsobjekt läggs till i en iteration](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) i [Konfigurera repet](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+Mer information om hur du aktiverar utgåvor finns i eftersläpningen hos ett Agile Scrum-team.  [Konfigurera hur datum tillämpas när arbetsobjekt läggs till i en iteration](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) i [Konfigurera repet](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Inkludera frågor i Scrum Agile Story Board {#include-issues-on-the-scrum-agile-story-board}
 
@@ -149,9 +149,9 @@ Information om hur du aktiverar problem som ska vara tillgängliga i eftersläpn
 >
 >Den här funktionen togs bort från produktionsmiljön den 14 november 2017. Den kommer att återinföras i förhandsvisningsmiljön i början av 2018 med förbättrad design och ökad stabilitet. Den kommer att vara tillgänglig i produktionsmiljön med version 2018.1.
 
-Nu kan du inkludera problem på artikelpanelen när du använder den flexibla Scrum-metoden.
+Nu kan du inkludera problem på artikelpanelen när du använder Scrum Agile-metoden.
 
-Mer information finns i [Konfigurera statuskolumner på den flexibla artikelpanelen](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur2) i [Konfigurera repet](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+Mer information finns i [Konfigurera statuskolumner på Agile-artikelpanelen](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur2) i [Konfigurera skrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Använda grupperingar och filter i eftersläpningen för ett Agile-team {#apply-groupings-and-filters-to-the-backlog-for-an-agile-team}
 
@@ -159,11 +159,11 @@ Mer information finns i [Konfigurera statuskolumner på den flexibla artikelpane
 >
 >Den här funktionen togs bort från produktionsmiljön den 14 november 2017. Den kommer att återinföras i förhandsvisningsmiljön i början av 2018 med förbättrad design och ökad stabilitet. Den kommer att vara tillgänglig i produktionsmiljön med version 2018.1.
 
-Grupperings- och filteralternativen är nu tillgängliga i den flexibla eftersläpningen, så att du kan ordna din eftersläpning efter grupperingar samt filtrera efter specifika uppgifter och problem.
+Grupperings- och filteralternativen är nu tillgängliga i Agile-eftersläpningen, vilket gör att du kan ordna din eftersläpning efter grupperingar samt filtrera efter specifika uppgifter och problem.
 
-Före den här ändringen kan du tillämpa på vyer på den flexibla eftersläpningen.
+Före den här ändringen kan du tillämpa på vyer på Agile-eftersläpningen.
 
-Mer information finns i  [Hantera den flexibla eftersläpningen](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) i  [Hantera den flexibla eftersläpningen](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Mer information finns i  [Hantera Agile-eftersläpningen](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) i  [Hantera Agile-eftersläpningen](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 ## RTF-formatering för uppdateringar och e-postmeddelanden {#rich-text-formatting-for-updates-and-emails}
 

@@ -6,16 +6,16 @@ description: Du kan skapa en flexibel artikel om en iteration på olika sätt. N
 author: Jenny
 feature: Agile
 exl-id: d16ee940-3551-44da-8fe6-093f4fcac070
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 0%
 
 ---
 
-# Skapa en flexibel artikel
+# Skapa en Agile-artikel
 
-Du kan skapa en flexibel artikel om en iteration på olika sätt. När du har skapat en flexibel artikel kan du lägga till underuppgifter i artikeln.
+Du kan skapa en Agile-artikel på en iteration på olika sätt. När du har skapat en Agile-artikel kan du lägga till underuppgifter i artikeln.
 
 När du lägger till en artikel eller underaktivitet i en iteration anges varaktighetstypen till [!UICONTROL Simple] och aktivitetsbegränsningen anges till fasta datum, med datumen låsta i iteration. Du kan inte ändra varaktighetstypen eller aktivitetsbegränsningen i en iteration. Aktivitetens varaktighet måste också vara längre än 0 minuter.
 
@@ -51,9 +51,9 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 +++
 
-## Skapa en flexibel artikel i en iteration
+## Skapa en Agile-artikel i en iteration
 
-1. Gå till den smidiga upprepningen där du vill skapa artikeln:
+1. Gå till den Agile-iteration där du vill skapa artikeln:
 
    {{step1-to-team}}
 
@@ -85,7 +85,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Estimate] (punkter)</strong></td>
-      <td>Ange uppskattningen för artikeln. Om ditt flexibla team är konfigurerat att uppskatta artiklar i poäng är standardvärdet 1 poäng 8 timmar. Uppskattningar läggs till som [!UICONTROL Planned Hours] i artikeln.<br>Om du till exempel uppskattar en artikel som 3 punkter är standardbeteendet att lägga till 24 [!UICONTROL Planned Hours] i artikeln.<br>Om en artikel innehåller underaktiviteter måste du komma ihåg att de kombinerade uppskattningarna för alla underaktiviteter avgör uppskattningen av den överordnade artikeln. Mer information finns i <a href="../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md" class="MCXref xref">Lägga till artiklar i en befintlig iteration</a>.</td>
+      <td>Ange uppskattningen för artikeln. Om ditt Agile-team är konfigurerat att uppskatta artiklar i poäng är standardvärdet 1 poäng 8 timmar. Uppskattningar läggs till som [!UICONTROL Planned Hours] i artikeln.<br>Om du till exempel uppskattar en artikel som 3 punkter är standardbeteendet att lägga till 24 [!UICONTROL Planned Hours] i artikeln.<br>Om en artikel innehåller underaktiviteter måste du komma ihåg att de kombinerade uppskattningarna för alla underaktiviteter avgör uppskattningen av den överordnade artikeln. Mer information finns i <a href="../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md" class="MCXref xref">Lägga till artiklar i en befintlig iteration</a>.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Parent Project]</strong></td>
@@ -104,17 +104,17 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. Klicka på **[!UICONTROL Save Story]**.
 
-## Skapa en flexibel artikel i eftersläpningen
+## Skapa en Agile-artikel i eftersläpningen
 
-Du kan skapa en flexibel artikel utifrån den flexibla eftersläpningen, vilket beskrivs i avsnittet [Skapa nya artiklar på eftersläpningen](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#creating-new-stories) i artikeln [[!UICONTROL Manage] i den flexibla eftersläpningen](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Du kan skapa en Agile-artikel utifrån Agile-eftersläpningen, vilket beskrivs i avsnittet [Skapa nya artiklar på eftersläpningen](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#creating-new-stories) i artikeln [[!UICONTROL Manage] på Agile-eftersläpningen](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
-## Lägga till en aktivitet eller ett problem som en smidig artikel
+## Lägga till en aktivitet eller ett problem som en Agile-artikel
 
 Du kan lägga till en befintlig uppgift eller ett befintligt problem som en artikel i en iteration. Mer information finns i [Lägga till artiklar i en befintlig iteration](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md) eller [Lägga till artiklar och utgåvor från [!UICONTROL Scrum] board](../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md).
 
-## Skapa underaktiviteter till en smidig artikel
+## Skapa underaktiviteter till en Agile-artikel
 
-Du kan skapa en underuppgift till en flexibel artikel på något av följande sätt:
+Du kan skapa en underuppgift till en Agile-artikel på något av följande sätt:
 
 * Genom att använda fliken **[!UICONTROL Subtasks]**, vilket beskrivs i [Skapa underaktiviteter](../../manage-work/tasks/create-tasks/create-subtasks.md#creating-subtasks) i [Skapa underaktiviteter](../../manage-work/tasks/create-tasks/create-subtasks.md).
 

@@ -6,7 +6,7 @@ description: Du kan visa en [!UICONTROL Backlog]-kolumn direkt på din Kanban-ta
 author: Jenny
 feature: Agile
 exl-id: 77c7f7c7-66d9-4aec-9a0c-bfdc470a58d7
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
@@ -58,4 +58,4 @@ Som standard är kolumnen [!UICONTROL Backlog] dold. Så här visar du efterslä
 >
 >Om du lägger till flera team i ett eftersläpningsobjekt visas uppgiften eller problemet endast i det primära teamets eftersläpning. Det primära teamet är det som först tilldelats.
 
-Mer information om eftersläpningen finns i [Hantera den flexibla eftersläpningen](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Mer information om eftersläpningen finns i [Hantera Agile-eftersläpningen](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).

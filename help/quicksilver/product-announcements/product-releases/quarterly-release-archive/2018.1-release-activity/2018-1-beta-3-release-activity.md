@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 26bbc4a0-e5ed-4b5f-bfc2-f888362c1d22
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '1850'
 ht-degree: 0%
@@ -88,9 +88,9 @@ Mer information om funktionerna för en gruppadministratör finns i avsnittet &q
 
 ### Jämför läge {#compare-mode}
 
-Nu kan du använda jämförelseläget i korrekturläsaren för HTML 5 när du visar statiskt korrektur och videokorrektur. 
+Nu kan du använda jämförelseläget i HTML5-visningsprogrammet för korrektur av statisk bild och video. 
 
-Jämförelseläget i korrekturläsaren för HTML5 skiljer sig från det äldre språkvisningsprogrammet på följande sätt:
+Jämförelseläget i HTML5-korrekturläsaren skiljer sig från det äldre språkvisningsprogrammet på följande sätt:
 
 * När du startar jämförelseläget flyttas den nyare versionen till höger, med den version du jämför till vänster.
 
@@ -176,7 +176,7 @@ Mer information finns i&quot;Skapa och hantera layoutmallar&quot;.
 
 ### Lägg till uppgifter och problem i iterationen direkt från sidan Aktivitets- eller Ärendeinformation {#add-tasks-and-issues-to-the-iteration-directly-from-the-task-or-issue-details-page}
 
-Nu kan du lägga till uppgifter och ärenden som för närvarande är tilldelade ett smidigt team till en iteration direkt från uppgiften eller utgåvan.
+Nu kan du lägga till uppgifter och ärenden som för närvarande är tilldelade ett Agile-team till en iteration direkt från uppgiften eller utgåvan.
 
 Tidigare kunde du bara lägga till uppgifter i en iteration från efterloggen. 
 
@@ -184,19 +184,19 @@ Mer information finns i [Skapa en iteration](../../../../agile/use-scrum-in-an-a
 
 ### Inkludera problem i Scrum Backlog och Story Board för ett Agile Team {#include-issues-on-the-scrum-backlog-and-story-board-for-an-agile-team}
 
-Problem inkluderas nu som standard i eftersläpningen för ditt mobila team när Scrum-metoden används (utgåvor visas inte i eftersläpningen för ett rörligt team när Kanban-metoden används).
+Problem inkluderas nu som standard i eftersläpningen för ditt Agile-team när Scrum Agile-metoden används (utgåvor visas inte i eftersläpningen för ett Agile-team när Kanban-metoden används).
 
 Före den här ändringen kunde bara uppgifter läggas till i efterloggen. Om du ville lägga till ett problem var du först tvungen att konvertera problemet till en uppgift innan det kunde läggas till.
 
-Mer information om hur du använder problem i eftersläpningen finns i  [Hantera den flexibla eftersläpningen](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Mer information om hur du använder problem i eftersläpningen finns i  [Hantera Agile-eftersläpningen](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 ### Använda grupperingar och filter i eftersläpningen för ett Agile-team {#apply-groupings-and-filters-to-the-backlog-for-an-agile-team}
 
-Grupperings- och filteralternativen är nu tillgängliga i den flexibla eftersläpningen, så att du kan ordna din eftersläpning efter grupperingar samt filtrera efter specifika uppgifter och problem.
+Grupperings- och filteralternativen är nu tillgängliga i Agile-eftersläpningen, vilket gör att du kan ordna din eftersläpning efter grupperingar samt filtrera efter specifika uppgifter och problem.
 
-Före den här ändringen kan du tillämpa på vyer på den flexibla eftersläpningen.
+Före den här ändringen kan du tillämpa på vyer på Agile-eftersläpningen.
 
-Mer information finns i  [Hantera den flexibla eftersläpningen](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) i  [Hantera den flexibla eftersläpningen](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Mer information finns i  [Hantera Agile-eftersläpningen](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) i  [Hantera Agile-eftersläpningen](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 ### Skapa en tom iteration och uppdatera den senare {#create-a-blank-iteration-and-update-it-later}
 

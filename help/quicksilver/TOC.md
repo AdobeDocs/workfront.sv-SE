@@ -3,7 +3,7 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '13631'
 ht-degree: 0%
@@ -1111,9 +1111,9 @@ ht-degree: 0%
          * [Visa och redigera artikelinformation på Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/view-and-edit-story-info.md)
    * Arbeta i en flexibel miljö {#work-in-agile-environment}
       * [Arbeta i en flexibel miljö](agile/work-in-an-agile-environment/work-in-an-agile-environment.md)
-      * [Skapa en flexibel artikel](agile/work-in-an-agile-environment/create-an-agile-story.md)
-      * [Hantera den flexibla eftersläpningen](agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
-      * [Flytta en flexibel artikel](agile/work-in-an-agile-environment/move-an-agile-story.md)
+      * [Skapa en Agile-artikel](agile/work-in-an-agile-environment/create-an-agile-story.md)
+      * [Hantera Agile-eftersläpningen](agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
+      * [Flytta en Agile-artikel](agile/work-in-an-agile-environment/move-an-agile-story.md)
    * Tips, tricks och felsökning {#tips-tricks-agile}
       * [Tips, tricks och felsökning](agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
       * [Anpassade statusvärden som inte visas på den mobila artikelpanelen](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
@@ -1241,7 +1241,7 @@ ht-degree: 0%
          * [Ta bort användare från projekt](manage-work/projects/manage-projects/remove-users-from-projects.md)
          * [Schemalägg resurser för ett projekt](manage-work/projects/manage-projects/schedule-resources-for-projects.md)
          * [Kommunicera med projektgruppsmedlemmar](manage-work/projects/manage-projects/communicate-with-project-team-members.md)
-         * [Hantera ett Agile-projekt i styrelsens vy](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
+         * [Hantera ett Agile-projekt i styrelsevyn](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
          * [Förstå projektstatistik](manage-work/projects/manage-projects/project-metrics.md)
          * [Översikt över projektbegränsningar](manage-work/projects/manage-projects/project-maximums.md)
          * [Sammanfatta uppdateringar med AI Assistant](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)

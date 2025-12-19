@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Vi rekommenderar att du också ser följande artiklar:
 
 ## Att tänka på när det gäller att godkänna begäranden
 
-* Skickade begäranden visas på fliken Planering i avsnittet Skickat i området Begäranden i Workfront med en av följande begärandestatusar:
+* Skickade begäranden visas i området Begäranden i Workfront med någon av följande status:
 
    * **Väntande granskning**: Den här statusen visas när ingen av godkännarna har öppnat begäranobjektet.
    * **Under granskning**: Statusen **Väntande granskning** ändras till **Under granskning** när minst en godkännare öppnar begäranobjektet. Status för begäran förblir **Under granskning** tills alla godkännare har godkänt begäran.
@@ -118,7 +118,7 @@ Du kan godkänna begäranden om att skapa poster från själva begäran, <span c
    Förfrågningssidan öppnas i skrivskyddat läge.
 
    ![Skrivskyddad begärandesida med granskningsstatus](assets/read-only-reqeust-page-in-review-status.png)
-1. Om du använder den nya begärandefunktionen i Workfront klickar du på **Huvudmeny** ![Primär meny](assets/dots-menu.png) i skärmens övre högra hörn eller på **Huvudmeny** ![Rader-huvudmenyn](assets/lines-menu.png) i skärmens övre vänstra hörn, om den är tillgänglig, klickar sedan på **Förfrågningar** och klickar på den begäran som du vill godkänna med statusen **10&rbrace; Väntande granskning** eller **Under granskning**.
+1. Om du använder den nya begärandefunktionen i Workfront klickar du på **Huvudmeny** ![Primär meny](assets/dots-menu.png) i skärmens övre högra hörn eller på **Huvudmeny** ![Rader-huvudmenyn](assets/lines-menu.png) i skärmens övre vänstra hörn, om den är tillgänglig, klickar sedan på **Förfrågningar** och klickar på den begäran som du vill godkänna med statusen **10} Väntande granskning**.
 1. (Valfritt) Klicka på ikonen **Godkännanden** ![Godkännanden](assets/approvals-icon.png) i det övre högra hörnet av begäran för att visa godkännarna.
 1. Klicka på **Granska och godkänn** och välj sedan något av följande:
 
@@ -132,7 +132,7 @@ Du kan godkänna begäranden om att skapa poster från själva begäran, <span c
    * **Slutförd**: Begäran har godkänts.
    * **Avvisad**: Begäran nekades.
 
-   Begäran finns kvar på fliken Planering i avsnittet Skickat i området Begäranden i Workfront.
+   Begäran finns kvar under Begäranden i Workfront.
 
 <div class="preview">
 

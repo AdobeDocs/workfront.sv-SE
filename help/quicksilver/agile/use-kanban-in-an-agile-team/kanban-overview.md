@@ -7,7 +7,7 @@ description: Läs den här artikeln för att få en bättre förståelse för hu
 author: Jenny
 feature: Agile
 exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 0%
@@ -20,15 +20,15 @@ ht-degree: 0%
 
 I följande avsnitt kan du bättre förstå hur [!UICONTROL Kanban]-panelen fungerar.
 
-En beskrivning av K[!UICONTROL anban]-metoden finns i [Skapa ett smidigt team](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+En beskrivning av K[!UICONTROL anban]-metoden finns i [Skapa ett Agile-team](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
-Om du är intresserad av att migrera från en [!UICONTROL Kanban]-anslagstavla till [!DNL Workfront] [!UICONTROL Boards] läser du [Migrera [!UICONTROL Kanban]-kort för agile team till  [!DNL Workfront] boards](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
+Om du är intresserad av att migrera från ett smidigt team [!UICONTROL Kanban] till [!DNL Workfront] [!UICONTROL Boards] läser du [Migrera Agile team [!UICONTROL Kanban]-kort till  [!DNL Workfront] kort](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 
 ## [!UICONTROL Kanban] ritytelayout och funktioner
 
 [!UICONTROL Kanban]-panelen består av följande element:
 
-**Kolumn för eftersläpning**: Visar alla aktiviteter som för närvarande finns i efterloggen. Den här kolumnen visas inte som standard. Mer information om eftersläpningen, inklusive hur den visas på [!UICONTROL Kanban]-tavlan, finns i [Hantera den flexibla eftersläpningen](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+**Kolumn för eftersläpning**: Visar alla aktiviteter som för närvarande finns i efterloggen. Den här kolumnen visas inte som standard. Mer information om eftersläpningen, inklusive hur den visas på [!UICONTROL Kanban]-tavlan, finns i [Hantera bakåtloggen ](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 **Artikelstatus**: Anger hur en artikel fortskrider baserat på vilken statuskolumn artikeln finns i.
 
