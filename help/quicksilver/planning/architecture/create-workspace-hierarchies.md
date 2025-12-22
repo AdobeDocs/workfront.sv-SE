@@ -144,7 +144,7 @@ Varje ytterligare objekttyp blir underordnad till föregående objekttyper.
    1. Återgå till arbetsytans **inställningsområde** och klicka på **Ny hierarki** igen. Följ sedan stegen för att skapa en hierarki.
 
 1. (Valfritt) Fortsätt lägga till upp till fyra objekttyper i hierarkierna enligt stegen ovan. Du kan lägga till alla objekttyper först och sedan lägga till anslutningsfälten mellan dem.
-1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort ](assets/minus-icon.png) för att ta bort en anslutning.
+1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort &#x200B;](assets/minus-icon.png) för att ta bort en anslutning.
 1. Klicka på **Spara** för att spara hierarkin.
 
    >[!TIP]

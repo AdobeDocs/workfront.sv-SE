@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Du kan lägga till artiklar i en iteration på något av följande sätt:
 
-* Från en eftersläpning efter att upprepningen har skapats, vilket beskrivs i avsnittet [Flytta artiklar från eftersläpningen till en iteration eller [!UICONTROL Kanban] board ](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board) i [Hantera Agile-eftersläpningen](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
+* Från en eftersläpning efter att upprepningen har skapats, vilket beskrivs i avsnittet [Flytta artiklar från eftersläpningen till en iteration eller [!UICONTROL Kanban] board &#x200B;](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board) i [Hantera Agile-eftersläpningen](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
 
 * Från sidan [!UICONTROL Details] för den enskilda aktiviteten eller problemet
 * Från en uppgift eller en utleveranslista

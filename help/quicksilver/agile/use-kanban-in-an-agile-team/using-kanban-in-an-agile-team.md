@@ -29,6 +29,6 @@ Det här avsnittet innehåller följande artiklar:
 * [Hantera gränsen för pågående arbete (PIA) på [!UICONTROL Kanban] board](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)
 * [Ändra ordning på artiklar på [!UICONTROL Kanban] anslagstavlan](../../agile/use-kanban-in-an-agile-team/reorder-stories-on-the-kanban-board.md)
 * [Uppdatera status för artiklar på [!UICONTROL Kanban] board](../../agile/use-kanban-in-an-agile-team/update-the-status-of-stories.md)
-* [Använd flaggor i artiklar på [!UICONTROL Kanban] board ](../../agile/use-kanban-in-an-agile-team/use-flags-on-stories.md)
+* [Använd flaggor i artiklar på [!UICONTROL Kanban] board &#x200B;](../../agile/use-kanban-in-an-agile-team/use-flags-on-stories.md)
 * [Lägg till eftersläpningen i [!UICONTROL Kanban] board](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)
 * [Ta bort artiklar eller utgåvor från [!UICONTROL Kanban]-panelen](../../agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md)
