@@ -8,7 +8,7 @@ author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: 29a84e52-0bd3-45c2-a8b8-80bfec894196
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 0%
@@ -91,7 +91,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
      </tr> 
      <tr data-mc-conditions="SnippetConditions-wf-groups.system-level"> 
       <td role="rowheader">Det här är ett Agile Team</td> 
-      <td>Välj det här objektet om du vill konfigurera det nya teamet som ett smidigt team. Mer information om flexibla team finns i <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Skapa ett flexibelt team</a>.</td> 
+      <td>Välj det här objektet om du vill konfigurera det nya teamet som ett Agile-team. Mer information om Agile-team finns i <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Skapa ett Agile-team</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Arbeta på den</td> 

@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1321'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Om det finns grupper ovanför gruppen kan deras administratörer även göra det
 
 >[!NOTE]
 >
->Det går inte att visa anpassade gruppstatusar i ett projekt när du visar projektet i en flexibel vy. Endast standardstatus och anpassade låsta statuslägen visas när du visar ett projekt i en flexibel vy. Mer information om hur du anpassar en flexibel vy för ett projekt finns i avsnittet [Skapa eller anpassa en Agile-vy](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) i artikeln [Skapa eller redigera vyer i Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+>Det går inte att visa anpassade gruppstatusar i ett projekt när du visar projektet i en Agile-vy. Endast låsta standardlägen och anpassade lägen visas när du visar ett projekt i en Agile-vy. Mer information om hur du anpassar en Agile-vy för ett projekt finns i avsnittet [Skapa eller anpassa en Agile-vy](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) i artikeln [Skapa eller redigera vyer i Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 Allmän information om status finns i [Statusöversikt](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 

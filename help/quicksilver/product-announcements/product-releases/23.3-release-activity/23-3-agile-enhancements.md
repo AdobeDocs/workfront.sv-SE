@@ -5,7 +5,7 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a47d2592-0f00-4bcd-bc8e-75f8e707a573
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 23.3 Agile-förbättringar
 
-Den här sidan beskriver alla brädor och smidiga förbättringar som gjorts i version 23.3. Dessa förbättringar gjordes tillgängliga i produktionsmiljön med version 23.3 den 20 och 21 juli 2023.
+Den här sidan beskriver alla Boards- och Agile-förbättringar som gjorts i version 23.3. Dessa förbättringar gjordes tillgängliga i produktionsmiljön med version 23.3 den 20 och 21 juli 2023.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i 23.3-versionscykeln finns i [23.3 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
@@ -52,7 +52,7 @@ Nu kan du visa alla dina brädor och arbetsflöden i mörkt läge. Den nya inst�
 
 >[!NOTE]
 >
->Om din organisations instans av Workfront har tagits med i Adobe Unified Experience kan du aktivera mörk temaformatering för alla Adobe Experience Cloud via din inställningsmeny (din profilbild) och du kommer inte att se något separat alternativ för mörkt läge för Workfront Boards.
+>Om din organisations instans av Workfront har överförts till Adobe Unified Experience kan du aktivera mörk temaformatering för alla Adobe Experience Cloud via din inställningsmeny (din profilbild) och du kommer inte att se något separat alternativ för mörkt läge för Workfront Boards.
 
 Mer information finns i [E-postmeddelanden och inställningar för anslagstavlor](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
 
@@ -118,15 +118,15 @@ Mer information finns i [Skapa eller redigera en anslagstavla](/help/quicksilver
 
 [Visa en videodemonstration av den här funktionen](https://video.tv.adobe.com/v/3418600/){target=_blank}
 
-## Migrera smidiga team-kanban-kort till styrelser
+## Migrera Agile team Kanban-kort till styrelser
 
-Med en ny **Lägg till i styrelser**-knapp i flexibla team-kanban-styrelser kan du lägga till alla kort från Kanban-styrelsen till en Workfront-styrelse. Du kan välja att skapa ett nytt Workfront-kort eller lägga till korten på en befintlig anslagstavla.
+Med en ny **Lägg till i styrelser** på Agile team Kanban-tavlor kan du lägga till alla kort från Kanban-tavlan i en Workfront-styrelse. Du kan välja att skapa ett nytt Workfront-kort eller lägga till korten på en befintlig anslagstavla.
 
 Kortens placering på Workfront board baseras på spaltregler. (En princip kan till exempel flytta alla kort med statusen &quot;Pågår&quot; till en viss kolumn.) Om det inte finns några profiler eller om korten inte matchar profilerna placeras korten i kolumnen längst till vänster. För närvarande läggs inga kort i kolumnen Eftersläpning på det äldre kortet till på Workfront-kortet.
 
-Korten tas inte bort från den flexibla teamets Kanban-tavla, och kortstatusändringarna synkroniseras med båda tavlorna. Du kan låta båda styrelserna vara aktiva tills du är redo att byta till Workfront Boards.
+Korten tas inte bort från Agile Team Kanban-tavlan, och ändringar av kortstatus synkroniseras till båda styrelserna. Du kan låta båda styrelserna vara aktiva tills du är redo att byta till Workfront Boards.
 
-Mer information finns i [Migrera smidiga team-kanban-kort till Workfront-kort](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
+Mer information finns i [Migrera Agile Team Kanban-kort till Workfront-kort](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 
 [Visa en videodemonstration av den här funktionen](https://video.tv.adobe.com/v/3420425/){target=_blank}
 

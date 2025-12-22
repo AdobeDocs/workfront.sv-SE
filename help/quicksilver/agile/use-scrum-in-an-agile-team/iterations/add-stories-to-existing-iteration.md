@@ -6,7 +6,7 @@ description: Du kan lägga till artiklar i en iteration på flera olika sätt.
 author: Jenny
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Du kan lägga till artiklar i en iteration på något av följande sätt:
 
-* Från en eftersläpning efter att upprepningen har skapats, vilket beskrivs i avsnittet [Flytta artiklar från eftersläpningen till en iteration eller [!UICONTROL Kanban] board &#x200B;](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board) i [Hantera Agile-eftersläpningen](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
+* Från en eftersläpning efter att upprepningen har skapats, vilket beskrivs i avsnittet [Flytta artiklar från eftersläpningen till en iteration eller [!UICONTROL Kanban] board ](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board) i [Hantera Agile-eftersläpningen](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
 
 * Från sidan [!UICONTROL Details] för den enskilda aktiviteten eller problemet
 * Från en uppgift eller en utleveranslista
@@ -83,7 +83,7 @@ Du kan konfigurera enskilda Scrum-team så att de använder projektdatum som sta
 Du kan lägga till vilken uppgift eller vilket problem som helst i en iteration om du har Hantera-åtkomst till projektet. Tänk på följande när du flyttar en uppgift eller ett problem till en iteration:
 
 * Om du lägger till flera team kan uppgiften eller utgåvan bara visas på en grupps upprepning. Det här är den iteration du väljer i steg 3 nedan.
-* Om uppgiften eller utgåvan tilldelas ett smidigt team och flyttas till ett annat teams iteration ändras inte teamuppdraget.
+* Om uppgiften eller utgåvan har tilldelats ett Agile-team och flyttats till ett annat teams iteration, ändras inte teamuppdraget.
 * Om uppgiften eller utgåvan inte har tilldelats ett team tilldelas uppgiften eller utgåvan till det team som äger den.
 * Du kan inte lägga till överordnade uppgifter i iterationen. Om du lägger till några underordnade uppgifter visas den överordnade aktiviteten på Samlingstavlan som en simbana.
 
@@ -96,7 +96,7 @@ eller
 Gå till det projekt, den rapport eller den kontrollpanel som innehåller uppgiften eller problemet som du vill lägga till i en iteration. Välj sedan en eller flera uppgifter eller problem.
 
 1. Klicka på **[!UICONTROL More]** ![Mer ikon](assets/more-icon.png) > **[!UICONTROL Add to Iteration]**.
-Du kan inte tilldela uppgifter eller ärenden som tilldelats icke-flexibla team.
+Du kan inte tilldela uppgifter eller ärenden som tilldelats icke-Agile-team.
 
 1. I rutan **[!UICONTROL Add To]** börjar du skriva namnet på iterationen och markerar den när den visas i listan.
 

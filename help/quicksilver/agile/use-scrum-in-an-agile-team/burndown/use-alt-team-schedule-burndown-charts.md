@@ -6,7 +6,7 @@ description: Scheman som definieras i  [!DNL Adobe Workfront] påverkar nedladdn
 author: Jenny
 feature: Agile
 exl-id: 72650c19-434d-463a-8924-49219604ff01
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Scheman som definieras i [!DNL Adobe Workfront] påverkar nedladdningsschemat genom att utesluta dagar (helger och helger) från nedladdningen.
 
-Som standard används standardschemat för nedladdningsschemat. Förutom standardschemat kan team även välja att använda ett alternativt schema för att inkludera teamspecifika, icke-arbetsrelaterade dagar. Det alternativa schemat visas sedan i nedladdningsschemat för alla upprepningar som har tilldelats teamet. Det alternativa schemat påverkar bara nedladdningsschemat. (Mer information om standardschemat och hur administratören av [!DNL Workfront] kan skapa ett teamspecifikt schema finns i [Skapa ett schema](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).)
+Som standard används standardschemat för nedladdningsschemat. Förutom standardschemat kan Agile-team även välja att använda ett alternativt schema för att inkludera teamspecifika, lediga dagar. Det alternativa schemat visas sedan i nedladdningsschemat för alla upprepningar som har tilldelats teamet. Det alternativa schemat påverkar bara nedladdningsschemat. (Mer information om standardschemat och hur administratören av [!DNL Workfront] kan skapa ett teamspecifikt schema finns i [Skapa ett schema](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).)
 
 Nedladdningsschemat tar inte hänsyn till vissa dagar. Om ditt team till exempel arbetar fyra timmar varje fredag visas det som en heldag i nedladdningsschemat.
 
@@ -57,7 +57,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. (Valfritt) Klicka på ikonen **[!UICONTROL Switch team]** ![Byt team-ikon](assets/switch-team-icon.png) och välj sedan ett nytt Scrum-team i listrutan eller sök efter ett team i sökfältet.
 
-1. Välj det flexibla team som du vill hantera.
+1. Välj det Agile-team som du vill hantera.
 1. Klicka på menyn **[!UICONTROL More]** och välj sedan **[!UICONTROL Edit]**.
 
 1. I avsnittet **[!UICONTROL Agile]** i området **[!UICONTROL Schedule]** väljer du det nya schemat i listrutan.

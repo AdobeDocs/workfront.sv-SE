@@ -5,7 +5,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-source-git-commit: 5c80dca8a9f7dd5a693db9bf22738602da8b521b
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 0%
@@ -109,7 +109,7 @@ Förutom standardprioriteringarna i Workfront kan du lägga till egna prioriteri
 
    * **Färg**: Välj en färg för prioriteten.
 
-     Färgen på prioriteten används i diagramrapporter och Agile Team Settings. Mer information om diagramrapporter finns i [Lägga till ett diagram i en rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md). Mer information om Agile Team-inställningar finns i [Skapa ett smidigt team](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+     Färgen på prioriteten används i diagramrapporter och Agile Team Settings. Mer information om diagramrapporter finns i [Lägga till ett diagram i en rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md). Mer information om Agile Team-inställningar finns i [Skapa ett Agile-team](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
    * **Standardprioritet**: Välj den prioritet du vill att Workfront ska tillämpa automatiskt på alla nyskapade projekt, aktiviteter eller utgåvor.
 

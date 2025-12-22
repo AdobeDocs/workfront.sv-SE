@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1021'
 ht-degree: 0%
@@ -116,7 +116,7 @@ Så här skapar du uppgifter i ett projekt:
 
 1. Gå till det projekt där du vill skapa en uppgift.
 1. Klicka på **Åtgärder** i den vänstra panelen.
-1. (Villkorligt) Om du visar uppgiftslistan i en flexibel vy klickar du på ikonen **Listvy** ![](assets/list-view-in-agile-view-for-tasks.png) i det övre högra hörnet för att visa uppgiftslistan.
+1. (Villkorligt) Om du för närvarande visar uppgiftslistan i en Agilvy klickar du på ikonen **Listvy** ![](assets/list-view-in-agile-view-for-tasks.png) i det övre högra hörnet för att visa uppgiftslistan.
 1. (Valfritt) Klicka på ikonen **Planeringsläge** ![](assets/nwe-plan-mode-icon-task-list.png) och välj **Manuell sparning**. Välj sedan antingen **Standard** eller **Tidslinjeplanering**. Detta inaktiverar alternativet **Spara automatiskt** som är aktiverat som standard.
 
    ![Välj Spara manuellt](assets/manual-save-option.png)

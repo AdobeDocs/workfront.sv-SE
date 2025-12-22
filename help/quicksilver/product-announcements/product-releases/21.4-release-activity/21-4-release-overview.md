@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0897b269-c6f3-4b63-8956-b7f9fbe0a553
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '4718'
 ht-degree: 0%
@@ -252,7 +252,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
    <td><strong>Tillgängligt på följande datum:</strong> <p>Förhandsversion: 9 september 2021<br></p> <p>Produktionsrelease: Med version 21.4</p> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> <p>Nya Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-agile-enhancements.md#changes" class="MCXref xref" xrefformat="{para}">Ändringar i den flexibla vyn i projekt</a> </p> <p>Som en del av version 21.3 har vi förbättrat det flexibla kortets sidhuvud och artikeltavlor (se <a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile" class="MCXref xref" xrefformat="{para}">Uppdateringar av rubriker och anslagstavla </a>). Uppdateringarna gäller både iterationer och den flexibla vyn i projekt.</p> <p>I version 21.4 återställer vi dessa förbättringar för en flexibel projektvy. Det görs inga ändringar i rörliga iterationer.</p> <p>Följande ändringar återställs när det gäller den flexibla vyn i projekt:</p> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-agile-enhancements.md#changes" class="MCXref xref" xrefformat="{para}">Ändringar i Agile-vyn i projekt</a> </p> <p>Som en del av version 21.3 har vi förbättrat Agile-kortets rubrik och artikeltavlor (se <a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile" class="MCXref xref" xrefformat="{para}">Uppdateringar för Agile-kortets rubrik och artikelanslagstavla</a>). Uppdateringarna gäller både iterationer och Agile-vyn i projekt.</p> <p>I version 21.4 återställer vi dessa förbättringar för Agile-vyn i projekt. Inga ändringar görs i Agile-iterationer.</p> <p>Följande ändringar återställs när det gäller Agile-vyn i projekt:</p> 
     <ul> 
      <li> <p>Artikelkorten och kortspalterna har justerbar bredd.</p> </li> 
      <li> <p>Kolumner har ingen bakgrundsskuggning.</p> </li> 
@@ -413,7 +413,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
 
 ## Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production vid en senare tidpunkt än 21.4. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nya funktioner i Workfront Fusion finns i Production vid en senare tidpunkt än 21.4. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ## Förbättringar av Workfront Scenario Planner
 
@@ -465,7 +465,7 @@ Workfront 21.4 Release Webinar presenterades den 23 september 2021. Du kan visa 
 
 ## Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns på sidan [Uppdateringar om utbildningsversioner](https://experienceleague.adobe.com/sv/docs/workfront-learn/tutorials-workfront/home).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns på sidan [Uppdateringar om utbildningsversioner](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ## Funktionen stöds inte längre
 

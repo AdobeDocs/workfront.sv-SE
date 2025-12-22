@@ -3,9 +3,9 @@ title: Översikt över hierarki och vägbeskrivningar
 description: Du kan skapa flera arbetsytehierarkier mellan posttyperna på en arbetsyta.
 hide: true
 hidefromtoc: true
-source-git-commit: 6aba4316228a320cf33e419249a64b3cf56e8f39
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,10 @@ hidefromtoc: yes
 
 # Översikt över hierarki och vägbeskrivningar
 
+<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 Som arbetsytehanterare kan du definiera flexibla men strukturerade hierarkier mellan posttyper och andra objekttyper i Adobe Workfront Planning.
 
 Hierarkier är anslutningar mellan posttyper eller mellan posttyper och ett Workfront-projekt.
@@ -45,17 +49,17 @@ Nedan följer några fördelar med att använda hierarkier i dina arbetsytor:
 * Du kan ha upp till fyra post- och objekttyper anslutna i en hierarki.
 * Du kan bara ansluta följande objekttyper i en arbetsytehierarki:
    * Posttyper som tillhör den arbetsyta som du skapar hierarkierna i.
-   * Workfront-projekt. Det går inte att lägga till Workfront-projekt som överordnade för andra posttyper. De är alltid den sista underordnade i en hierarki.
+   * Workfront-projekt. Det går inte att lägga till Workfront-projekt som överordnade för andra posttyper. De är alltid den sista objekttypen i en hierarki.
 * Du kan inte lägga till följande objekttyper i en hierarki:
    * Posttyper från andra arbetsytor, även när de är inställda som kopplingsbara eller globala posttyper. Du kan bara lägga till globala posttyper i hierarkier när de har lagts till på arbetsytan som du skapar hierarkin från.
    * Alla andra Workfront-objekt.
-   * AEM Assets
+   * AEM Assets.
 * Hierarkier kan innehålla både Planning-posttyper och Workfront-projekt samtidigt.
 
       Du kan till exempel ha en Campaign-posttyp med Planning Tactics och Workfront Projects som underordnade i samma arbetsytehierarki.
   * Om det redan finns en anslutning mellan de valda posttyperna återanvänds den befintliga anslutningen.
 * Om det inte finns någon anslutning skapar Workfront en sådan i hierarkiinställningarna.
-* Inställningen **Skapa motsvarande fält för länkad posttyp** måste aktiveras för det anslutna fältet för poster och objekt som du vill inkludera i en hierarki.
+* Inställningen **Skapa motsvarande fält för den länkade posttypen** måste aktiveras för det anslutna fältet för poster och objekttyper som du vill ta med i en hierarki.
 * Följande är regler för hierarkiinställningar:
    * En posttyp kan bara ha en överordnad posttyp på en angiven arbetsyta.
 
@@ -64,16 +68,19 @@ Nedan följer några fördelar med att använda hierarkier i dina arbetsytor:
 
      Du kan till exempel ha tre olika hierarkier på en arbetsyta, och var och en av dem kan ha kampanjer som överordnad posttyp.
    * En post kan kopplas till flera överordnade poster av samma typ när du kopplar en till många eller flera posttyper.
-Taktik A kan till exempel tillhöra både Campaign X och Campaign Y.
-   * En posttyp kan ansluta till flera underordnade posttyper.
 
-     En Campaign-posttyp kan till exempel vara överordnad flera andra posttyper, som Tactics, Tests och andra posttyper.
+     Taktik A kan till exempel tillhöra både Campaign X och Campaign Y.
+   * En posttyp kan bara ansluta till en underordnad posttyp åt gången. En underordnad posttyp kan också vara överordnad en annan posttyp.
+
+     En Campaign-posttyp kan till exempel vara överordnad till endast en annan posttyp i samma hierarki (Tactics), och Tactics kan i sin tur vara överordnad Program som kan vara överordnad till Projekt.
+   * En posttyp kan inte vara överordnad i en hierarki och underordnad i en annan hierarki i samma arbetsyta.
    * Globala posttyper kan visas i flera arbetsytor i flera hierarkier efter att de har lagts till på dessa arbetsytor.
 
      Om en Campaign till exempel är en global posttyp och en del av en hierarki i Workspace 1, kan den läggas till som en befintlig posttyp i Workspace 2 och ingå i en hierarki där. Men den kan inte ingå i en hierarki i Workspace 2 endast när den har angetts som en global posttyp i Workspace 1, men inte läggas till i Workspace 2.
 
-
 ## Att tänka på när du visar vägbeskrivningar
+
+<!-- this might be incomplete, because I have no UI for this yet-->
 
 När du skapar hierarkier mellan posttyper genereras vägbeskrivningar för poster som tillhör de posttyperna.
 
@@ -87,5 +94,6 @@ Tänk på följande:
   Om du till exempel tittar på ett projekt som är kopplat till Planering-kampanjer och taktik, och även till Workfront portfolior och program, kan du växla mellan både Planning och Workfront objekttyper från den stora mängden.
 
   Mer information finns i [Skapa arbetsytehierarkier](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
+* När du redigerar en post visas ändringarna från alla arbetsytor och alla hierarkier som posten är en del av.
 
 

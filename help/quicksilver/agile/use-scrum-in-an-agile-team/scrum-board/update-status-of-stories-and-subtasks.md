@@ -2,11 +2,11 @@
 product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Uppdatera status för artiklar och underuppgifter på anslagstavlan
-description: Du kan ändra status för en artikel direkt från den flexibla artikelpanelen för att spegla hur artiklarna fortskrider genom upprepningen eller projektet.
+description: Du kan ändra status för en artikel direkt från Agile-artikelpanelen för att spegla hur artiklarna fortskrider genom iteration eller projekt.
 author: Jenny
 feature: Agile
 exl-id: 3f414901-883c-45ac-b30a-60841e883e35
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Uppdatera status för artiklar och underaktiviteter på [!UICONTROL Scrum]-tavlan
 
-Du kan ändra status för en artikel direkt från den flexibla artikelpanelen för att spegla hur artiklarna fortskrider genom upprepningen eller projektet.
+Du kan ändra status för en artikel direkt från Agile-artikelpanelen för att spegla hur artiklarna fortskrider genom iteration eller projekt.
 
 >[!NOTE]
 >

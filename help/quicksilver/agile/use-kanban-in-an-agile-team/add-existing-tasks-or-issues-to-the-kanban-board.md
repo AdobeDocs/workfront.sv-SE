@@ -6,7 +6,7 @@ description: Du kan lägga till vilken uppgift eller utgåva som helst i en Kanb
 author: Jenny
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Du kan lägga till vilken aktivitet eller vilket problem som helst på en [!UICONTROL Kanban]-anslagstavla om du har Hantera-åtkomst till projektet. Tänk på följande när du flyttar en aktivitet eller ett problem till en [!UICONTROL Kanban]-anslagstavla:
 
-* Om uppgiften eller utgåvan har tilldelats ett smidigt team och flyttats till ett annat teams [!UICONTROL Kanban]-styrelse ändras inte teamtilldelningen.
+* Om aktiviteten eller utgåvan tilldelas till ett Agile-team och flyttas till ett annat teams [!UICONTROL Kanban]-styrelse ändras inte teamtilldelningen.
 * Om uppgiften eller utgåvan inte har tilldelats ett team tilldelas uppgiften eller utgåvan till det team som äger kanban-styrelsen.
 
 ## Åtkomstkrav
@@ -56,7 +56,7 @@ Så här lägger du till en aktivitet eller ett problem på en [!UICONTROL Kanba
 
 1. Välj det projekt som innehåller uppgiften eller utgåvan som du vill lägga till i Kanban-tavlan.
 1. Klicka på fliken **Åtgärder** eller **Problem** och välj sedan ett eller flera arbetsobjekt som du vill lägga till.
-1. Klicka på ikonen **[!UICONTROL More]** ![Mer &#x200B;](assets/more-icon.png) och välj sedan **Lägg till i Kanban-styrelsen**. Dialogrutan [!UICONTROL **Lägg till i**] öppnas.
+1. Klicka på ikonen **[!UICONTROL More]** ![Mer ](assets/more-icon.png) och välj sedan **Lägg till i Kanban-styrelsen**. Dialogrutan [!UICONTROL **Lägg till i**] öppnas.
 1. I fältet **Kanban Board** skriver du namnet på Kanban-teamet och väljer det i listrutan.
 
    >[!NOTE]
@@ -74,7 +74,7 @@ Så här lägger du till en aktivitet eller ett problem i en [!UICONTROL Kanban]
 
 1. Välj den aktivitets- eller utleveransrapport som innehåller den arbetsuppgift som du vill lägga till i Kanban-tavlan.
 1. Markera ett eller flera arbetsobjekt som ska läggas till.
-1. Klicka på ikonen **[!UICONTROL More]** ![Mer &#x200B;](assets/more-icon.png) och välj sedan **Lägg till i Kanban-styrelsen**. Dialogrutan [!UICONTROL **Lägg till i**] öppnas.
+1. Klicka på ikonen **[!UICONTROL More]** ![Mer ](assets/more-icon.png) och välj sedan **Lägg till i Kanban-styrelsen**. Dialogrutan [!UICONTROL **Lägg till i**] öppnas.
 1. I fältet **Kanban Board** skriver du namnet på Kanban-teamet och väljer det i listrutan.
 
    >[!NOTE]
@@ -93,7 +93,7 @@ Så här lägger du till en aktivitet eller ett problem på en [!UICONTROL Kanba
 
 1. Välj den kontrollpanel som innehåller arbetsobjektet som du vill lägga till i panelen Kanban.
 1. Markera ett eller flera arbetsobjekt som ska läggas till.
-1. Klicka på ikonen **[!UICONTROL More]** ![Mer &#x200B;](assets/more-icon.png) och välj sedan **Lägg till i Kanban-styrelsen**. Dialogrutan [!UICONTROL **Lägg till i**] öppnas.
+1. Klicka på ikonen **[!UICONTROL More]** ![Mer ](assets/more-icon.png) och välj sedan **Lägg till i Kanban-styrelsen**. Dialogrutan [!UICONTROL **Lägg till i**] öppnas.
 1. I fältet **Kanban Board** skriver du namnet på Kanban-teamet och väljer det i listrutan.
 
    >[!NOTE]

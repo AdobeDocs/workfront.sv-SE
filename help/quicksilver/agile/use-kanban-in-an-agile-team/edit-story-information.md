@@ -6,7 +6,7 @@ description: När du visar en artikelruta på Kanban-tavlan kan du redigera text
 author: Jenny
 feature: Agile
 exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 0%
@@ -62,7 +62,7 @@ När du visar en artikelruta på [!UICONTROL Kanban]-panelen är informationen i
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Eventuella ytterligare fält (inklusive anpassade fält) som kan ha lagts till i den flexibla vyn genom att ändra den flexibla vyn enligt beskrivningen i"Skapa och anpassa en flexibel vy" i <a href="../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Vyöversikt i [!DNL Adobe Workfront]</a></p> </td> 
+   <td> <p>Eventuella ytterligare fält (inklusive anpassade fält) som kan ha lagts till i vyn Agile genom att ändra vyn Agile, vilket beskrivs i"Skapa och anpassa en Agile-vy" i <a href="../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Vyöversikt i [!DNL Adobe Workfront]</a></p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 

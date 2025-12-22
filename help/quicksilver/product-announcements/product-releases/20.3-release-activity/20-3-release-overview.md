@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d25fda7-8116-42ba-961b-12aed4678614
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '3829'
 ht-degree: 0%
@@ -118,7 +118,7 @@ Version 2020.3 innehåller följande förbättringar för alla användare:
 >
 >Din organisation måste ha följande för att kunna använda de funktioner som beskrivs i den här artikeln:
 >
->* En Pro eller en senare [Adobe Workfront-plan](https://business.adobe.com/se/products/workfront/pricing.html).
+>* En Pro eller en senare [Adobe Workfront-plan](https://business.adobe.com/products/workfront/pricing.html).
 >* En Adobe Workfront Goals-licens förutom en Workfront-licens.
 >
 >  Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront Goals-licens.
@@ -151,32 +151,32 @@ Version 2020.3 innehåller följande förbättringar för alla användare:
 >Du måste ha följande:
 >
 ><table style="table-layout:auto"> 
->&gt; <col> 
->&gt; <col> 
->&gt; <tbody> 
->&gt;  <tr> 
->&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/se/products/workfront/pricing.html" target="_blank">Workfront-plan</a>*</p> </td> 
->&gt;   <td>Företag eller högre</td> 
->&gt;  </tr> 
->&gt;  <tr> 
->&gt;   <td role="rowheader"> <p>Licenstyp*</p> </td> 
->&gt;   <td> <p>Granska eller högre. Mer information finns i <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över Adobe Workfront-licenser</a>.</p> </td> 
->&gt;  </tr> 
->&gt;  <tr> 
->&gt;   <td role="rowheader">Produkt</td> 
->&gt;   <td>Workfront Scenario Planner <p>Mer information om Workfront Scenarioplan finns i <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Översikt över scenarioplanen</a>.</p> </td> 
->&gt;  </tr> 
->&gt;  <tr data-mc-conditions=""> 
->&gt;   <td role="rowheader"><strong>Åtkomstnivå*</strong> </td> 
->&gt;   <td> <p>Visa åtkomst eller senare till scenarioplanen</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
->&gt;  </tr> 
->&gt;  <tr data-mc-conditions=""> 
->&gt;   <td role="rowheader"> <p><strong>Objektbehörigheter</strong> </p> </td> 
->&gt;   <td> <p>Visa behörigheter eller högre för en plan</p> <p>Mer information om hur du begär ytterligare åtkomst till en plan finns i <a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">Begär åtkomst till en plan i scenarioplanen</a>.</p> </td> 
->&gt;  </tr> 
->&gt; </tbody> 
->&gt;</table>
->&gt;*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+&gt; <col> 
+&gt; <col> 
+&gt; <tbody> 
+&gt;  <tr> 
+&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Workfront-plan</a>*</p> </td> 
+&gt;   <td>Företag eller högre</td> 
+&gt;  </tr> 
+&gt;  <tr> 
+&gt;   <td role="rowheader"> <p>Licenstyp*</p> </td> 
+&gt;   <td> <p>Granska eller högre. Mer information finns i <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över Adobe Workfront-licenser</a>.</p> </td> 
+&gt;  </tr> 
+&gt;  <tr> 
+&gt;   <td role="rowheader">Produkt</td> 
+&gt;   <td>Workfront Scenario Planner <p>Mer information om Workfront Scenarioplan finns i <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Översikt över scenarioplanen</a>.</p> </td> 
+&gt;  </tr> 
+&gt;  <tr data-mc-conditions=""> 
+&gt;   <td role="rowheader"><strong>Åtkomstnivå*</strong> </td> 
+&gt;   <td> <p>Visa åtkomst eller senare till scenarioplanen</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+&gt;  </tr> 
+&gt;  <tr data-mc-conditions=""> 
+&gt;   <td role="rowheader"> <p><strong>Objektbehörigheter</strong> </p> </td> 
+&gt;   <td> <p>Visa behörigheter eller högre för en plan</p> <p>Mer information om hur du begär ytterligare åtkomst till en plan finns i <a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">Begär åtkomst till en plan i scenarioplanen</a>.</p> </td> 
+&gt;  </tr> 
+&gt; </tbody> 
+&gt;</table>
+&gt;*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
  
 
@@ -227,7 +227,7 @@ Version 2020.3 innehåller följande förbättringar för alla användare:
    <td> <p>Beta Preview-version: 17 juni 2020</p> <p>Produktionsrelease: 2 juli 2020</p> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> <p>Nya Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-agile-enhancements.md#agile" class="MCXref xref">Agile-tavlor läser in 50 arbetsuppgifter åt gången</a> </p> <p>För att öka hastigheten och prestandan för de flexibla verktygen kan upp till 50 kort nu läsas in på olika platser. Om det finns mer än 50 objekt på en flexibel anslagstavla visas en knapp längst ned på ritytan eller i eftersläpningen, som gör att du kan läsa in ytterligare arbetsobjekt.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-agile-enhancements.md#agile" class="MCXref xref">Agile-tavlor läser in 50 arbetsuppgifter åt gången</a> </p> <p>Upp till 50 kort läses nu in på olika platser för att öka hastigheten och prestandan för Agile-verktygen. Om det finns mer än 50 arbetsobjekt på en Agile-anslagstavla visas en knapp längst ned på ritytan eller i eftersläpningen, så att du kan läsa in ytterligare arbetsobjekt.</p> </td> 
    <td><strong>Tillgängligt på följande datum:</strong> <p>Beta Preview-version: 19 juni 2020</p> <p>Produktionsrelease: Med version 20.3</p> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> <p>Nya Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
@@ -436,7 +436,7 @@ Mer information om underhållsuppdateringar som gjorts under version 20.3 finns 
 
 Från och med den 20 maj 2020 började Workfront att tillgängliggöra funktioner i förhandsvisningsmiljön varje vecka. Före den här ändringen släpptes funktionen vanligtvis till förhandsvisningsmiljön varannan vecka.
 
-Mer information finns i [Förändringar i Workfront förhandsgranskningsversion - frågor och svar](https://experienceleague.adobe.com/sv/docs/workfront/using/home)
+Mer information finns i [Förändringar i Workfront förhandsgranskningsversion - frågor och svar](https://experienceleague.adobe.com/en/docs/workfront/using/home)
 
 ### Tillåtelselista av ytterligare domäner som krävs för åtkomst till Workfront {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
@@ -451,11 +451,11 @@ Mer information finns i [Konfigurera brandväggens tillåtelselista](../../../ad
 
 Med Workfront One hittar du det viktigaste innehållet, resurserna och nyheterna från Workfront - allt på ett och samma ställe, med en enda inloggning. Vi har samlat webbplatserna för upplevelser, community och utbildning, vilket gör det enklare att hitta det du söker.
 
-[Läs mer om Workfront One](https://business.adobe.com/se/products/workfront.html).
+[Läs mer om Workfront One](https://business.adobe.com/products/workfront.html).
 
 ### 20.3 Release Webinar {#20-3-release-webinar}
 
-Visa 20.3 produktversionswebbinariet [här](https://experienceleague.adobe.com/sv/docs/workfront/using/home).
+Visa 20.3 produktversionswebbinariet [här](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

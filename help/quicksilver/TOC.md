@@ -3,7 +3,7 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 7a29fcef1ee9a3010b7efc0713b5bbe9ca48b5cc
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '13634'
 ht-degree: 0%
@@ -1047,26 +1047,26 @@ ht-degree: 0%
       * [Lägg till taggar](agile/get-started-with-boards/add-tags.md)
       * [Hantera administratörsvyn för anslagstavlor](/help/quicksilver/agile/get-started-with-boards/manage-boards-admin-view.md)
       * [E-postmeddelanden och inställningar för anslagstavlor](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)
-   * Använd flexibla planeringsverktyg i ritytor {#agile-planning-boards}
+   * Använd Agile-planeringsverktygen i ritytorna {#agile-planning-boards}
       * [Översikt över Agile-planeringsverktyg: artikelindex](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
       * [Hantera PIA-gränsen (Work In Progress) direkt](agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
       * [Lägga till en inloppskolumn på en anslagstavla](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
       * [Använda grupper på en anslagstavla](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
       * [Konfigurera kortutfall](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-      * [Migrera smidiga team-kanban-kort till Workfront-styrelser](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
+      * [Migrera Agile team Kanban-kort till Workfront-kort](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
       * [Hantera arbetsflöden](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
       * [Använda kortlistan](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
       * [Skapa en iteration i ett arbetsflöde](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
       * [Konfigurera eftersläpningen på en arbetsyta](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md)
       * [Granska iterationsmått](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
    * [Agile - översikt](agile/agile-overview.md)
-   * Kom igång smidigt med Adobe Workfront {#agile-in-workfront}
-      * [Kom igång smidigt med Adobe Workfront](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
-      * [Skapa ett smidigt team](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
+   * Kom igång med Agile i Adobe Workfront {#agile-in-workfront}
+      * [Kom igång med Agile i Adobe Workfront](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
+      * [Skapa ett Agile-team](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
       * [Konfigurera Kanban](agile/get-started-with-agile-in-workfront/configure-kanban.md)
       * [Konfigurera Scrum](agile/get-started-with-agile-in-workfront/configure-scrum.md)
-   * Kanban i ett rörligt team {#kanban}
-      * [Kanban i ett rörligt team](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
+   * Kanban i ett Agile-team {#kanban}
+      * [Kanban i ett Agile-team](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
       * [Kanban - översikt](agile/use-kanban-in-an-agile-team/kanban-overview.md)
       * [Lägg till en underaktivitet i en befintlig artikel på Kanban-tavlan](agile/use-kanban-in-an-agile-team/add-a-subtask-to-an-existing-story.md)
       * [Lägg till befintliga aktiviteter eller utgåvor till Kanban-tavlan](agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md)
@@ -1080,8 +1080,8 @@ ht-degree: 0%
       * [Använd flaggor på artiklar på Kanban-tavlan](agile/use-kanban-in-an-agile-team/use-flags-on-stories.md)
       * [Lägg till eftersläpning till Kanban-tavlan](agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)
       * [Ta bort artikel från Kanban-tavlan](agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md)
-   * Scrum in a agile team {#scrum}
-      * [Scrum in a agile team](agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
+   * Scrum in a Agile team {#scrum}
+      * [Scrum in a Agile team](agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
       * Burndown {#burndown}
          * [Burndown](agile/use-scrum-in-an-agile-team/burndown/burndown.md)
          * [Översikt över Agile-nedladdningsdiagram](agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)
@@ -1093,7 +1093,7 @@ ht-degree: 0%
          * [Iterationer](agile/use-scrum-in-an-agile-team/iterations/iterations.md)
          * [Översikt över iterationer](agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)
          * [Skapa en iteration](agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md)
-         * [Skapa en flexibel artikel i en iteration](agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md)
+         * [Skapa en Agile-artikel i en iteration](agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md)
          * [Lägga till artiklar i en befintlig upprepning](agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)
          * [Visa en upprepning](agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)
          * [Ta bort en iteration](agile/use-scrum-in-an-agile-team/iterations/delete-iteration.md)
@@ -1114,9 +1114,9 @@ ht-degree: 0%
       * [Skapa en Agile-artikel](agile/work-in-an-agile-environment/create-an-agile-story.md)
       * [Hantera Agile-eftersläpningen](agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
       * [Flytta en Agile-artikel](agile/work-in-an-agile-environment/move-an-agile-story.md)
-   * Tips, tricks och felsökning {#tips-tricks-agile}
+   * Tips, tricks och felsökning för Agile {#tips-tricks-agile}
       * [Tips, tricks och felsökning](agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
-      * [Anpassade statusvärden som inte visas på den mobila artikelpanelen](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
+      * [Anpassade statusvärden som inte visas på Agile-artikelpanelen](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
 * Dokument {#documents}
    * [Dokument: artikelindex](documents/documents-overview.md)
    * Lägg till nya dokument i Adobe Workfront {#add-new-documents-to-workfront}

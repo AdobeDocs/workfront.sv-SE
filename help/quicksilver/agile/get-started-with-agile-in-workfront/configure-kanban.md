@@ -2,11 +2,11 @@
 product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: Konfigurera Kanban
-description: Du kan konfigurera följande alternativ för Kanban-team under eller efter det att teamet har skapats.
+description: Du kan konfigurera följande alternativ för Kanban Agile-team under eller efter det att teamet har skapats.
 author: Jenny
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1386'
 ht-degree: 0%
@@ -17,16 +17,16 @@ ht-degree: 0%
 
 <!--Audited: 12/2023-->
 
-Du kan skapa ett smidigt team i [!DNL Adobe Workfront] enligt beskrivningen i [Skapa ett smidigt team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md). När ni skapar ett smidigt team kan ni välja den metod som teamet använder för att slutföra arbetet. Du kan välja mellan följande alternativ:
+Du kan skapa ett Agile-team i [!DNL Adobe Workfront] enligt beskrivningen i [Skapa ett Agile-team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md). När du skapar ett Agile-team kan du välja den metod som teamet använder för att slutföra sitt arbete. Du kan välja mellan följande alternativ:
 
 * Scrum
 * Kanban
 
-I den här artikeln beskrivs hur du konfigurerar inställningarna för ett Kanban-team. När du har skapat ett smidigt team och valt Kanban-metod kan du uppdatera följande inställningar i den här artikeln:
+I den här artikeln beskrivs hur du konfigurerar inställningarna för ett Kanban-team. När du har skapat ett Agile-team och valt Kanban-metod kan du uppdatera följande inställningar i den här artikeln:
 
 * Om artiklarna beräknas i antal poäng eller timmar
-* Statuskolumnerna på den flexibla artikelpanelen
-* Ytterligare fält att visa på artikelkort på den flexibla artikelpanelen
+* Statuskolumnerna på Agile-artikelpanelen
+* Ytterligare fält att visa på artikelkort på Agile-anslagstavlan
 * Gränsen för pågående arbete (PIA)
 * Så här lägger du automatiskt till artiklar från eftersläpningen
 * Hur långa kort stannar på Kanban-tavlan
@@ -70,12 +70,12 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 Du kan konfigurera artiklar att beräknas med hjälp av punkter eller timmar.
 
-Så här konfigurerar du hur berättelser beräknas för ditt team:
+Så här konfigurerar du hur berättelser beräknas för ditt Agile-team:
 
 {{step1-to-team}}
 
 1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökrutan.
-1. Välj det flexibla team som du vill hantera.
+1. Välj det Agile-team som du vill hantera.
 1. Klicka på **[!UICONTROL More]**-menyn ![](assets/more-menu.png) och välj sedan **[!UICONTROL Edit]**.
 
    ![Redigera team](assets/edit-team-settings-350x205.png)
@@ -86,17 +86,17 @@ Så här konfigurerar du hur berättelser beräknas för ditt team:
 
 1. Klicka på **[!UICONTROL Save Changes]**.
 
-## Konfigurera statuskolumner på den flexibla artikelpanelen
+## Konfigurera statuskolumner på Agile-artikelpanelen
 
-Du kan definiera de statusar som finns på artikeltavlan för det flexibla teamet. Det här är de enda statusvärdena som visas på artikelpanelen.
+Du kan definiera de statusar som finns på artikeltavlan för Agile-teamet. Det här är de enda statusvärdena som visas på artikelpanelen.
 
-Så här definierar du de statusvärden som är tillgängliga för den artikelpanel som är kopplad till det flexibla teamet:
+Så här definierar du de statusvärden som är tillgängliga för den artikelpanel som är kopplad till Agile-teamet:
 
 {{step1-to-team}}
 
-1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team &#x200B;](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
+1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team ](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
 
-1. Välj det flexibla team som du vill hantera.
+1. Välj det Agile-team som du vill hantera.
 1. Klicka på menyn **[!UICONTROL More]** och välj sedan **[!UICONTROL Edit]**.
 
    ![Redigera team](assets/edit-team-settings-350x205.png)
@@ -118,7 +118,7 @@ Så här definierar du de statusvärden som är tillgängliga för den artikelpa
 
 1. Klicka på **[!UICONTROL Save Changes]**.
 
-## Konfigurera ytterligare fält som ska visas på artikelkort på den flexibla artikelpanelen
+## Konfigurera ytterligare fält som ska visas på artikelkort på Agile-anslagstavlan
 
 När du lägger till fält i artikelkort är fälten skrivskyddade och visas endast när fältet fylls i.
 
@@ -138,13 +138,13 @@ Du kan visa ytterligare data (inklusive anpassade data) på artikelkort. Du kan 
 >
 >Om du använder ett anpassat fält på ett artikelkort kan det inte innehålla en punkt (eller punkt) i namnet.
 
-Så här konfigurerar du artikelkort som tilldelats det flexibla teamet så att ytterligare fält visas:
+Så här konfigurerar du artikelkort som tilldelats Agile-teamet så att ytterligare fält visas:
 
 {{step1-to-team}}
 
-1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team &#x200B;](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
+1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team ](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
 
-1. Välj det flexibla team som du vill hantera.
+1. Välj det Agile-team som du vill hantera.
 1. Klicka på menyn **[!UICONTROL More]** och välj sedan **[!UICONTROL Edit]**.
 
    ![Redigera team](assets/edit-team-settings-350x205.png)
@@ -161,13 +161,13 @@ Så här konfigurerar du artikelkort som tilldelats det flexibla teamet så att 
 
 När du definierar PIA-gränsen för ett Kanban-team kan du styra antalet objekt som teamet arbetar med genom att begränsa antalet uppgifter som kan visas i [!UICONTROL New]- eller [!UICONTROL In Progress]-kolumnen på [!UICONTROL Kanban]-panelen.
 
-När du har konfigurerat PIA-gränsen för ett Kanban-team kan du visa PIA-gränsen och uppdatera den från den [!UICONTROL Kanban] flexibla artikelpanelen, enligt beskrivningen i [Hantera PIA-gränsen på [!UICONTROL Kanban]-panelen](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
+När du har konfigurerat PIA-gränsen för ett Kanban-team kan du visa PIA-gränsen och uppdatera den från [!UICONTROL Kanban] Agile-artikeltavlan, enligt beskrivningen i [Hantera PIA-gränsen på [!UICONTROL Kanban]-tavlan](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
 
 Så här begränsar du PIA för ditt Kanban-team:
 
 {{step1-to-team}}
 
-1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team &#x200B;](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
+1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team ](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
 
 1. Välj det Kanban-team som du vill hantera.
 1. Klicka på **[!UICONTROL More]**-menyn ![](assets/more-menu.png) och välj sedan **[!UICONTROL Edit]**.
@@ -176,8 +176,8 @@ Så här begränsar du PIA för ditt Kanban-team:
 
 1. Kontrollera att Kanban är markerat i avsnittet **[!UICONTROL Agile]** i avsnittet **[!UICONTROL Methodology]**.
 
-1. I avsnittet **[!UICONTROL Story Board]**, i fältet **[!UICONTROL WIP Limit]**, anger du det maximala antalet objekt som tillåts i varje kolumn på den [!UICONTROL Kanban] flexibla artikelpanelen. Du kan ange olika gränser för varje kolumn. Den maximala gräns du kan ange för varje kolumn är 100.
-När inställningen är angiven visas ett varningsmeddelande på den [!UICONTROL Kanban] flexibla artikelpanelen när gränsen överskrids för en kolumn på artikelpanelen. Det här varningsmeddelandet visas bara första gången som PIA-gränsen överskrids. Det här varningsmeddelandet visas inte i kolumner som har en status som är lika med [!UICONTROL Complete].
+1. I avsnittet **[!UICONTROL Story Board]** i fältet **[!UICONTROL WIP Limit]** anger du det maximala antalet objekt som tillåts i varje kolumn på [!UICONTROL Kanban] Agille-artikelpanelen. Du kan ange olika gränser för varje kolumn. Den maximala gräns du kan ange för varje kolumn är 100.
+När inställningen är angiven visas ett varningsmeddelande på [!UICONTROL Kanban] Agile-artikelpanelen när gränsen överskrids för en kolumn på artikelpanelen. Det här varningsmeddelandet visas bara första gången som PIA-gränsen överskrids. Det här varningsmeddelandet visas inte i kolumner som har en status som är lika med [!UICONTROL Complete].
 Begränsningen för PIA är bara en visuell varning och förhindrar inte teamet från att ha fler objekt i en enda kolumn än den gräns som du anger.
 
    ![Pågående arbete-begränsning](assets/wip-limit-350x193.png)
@@ -192,7 +192,7 @@ Du kan konfigurera artiklar från en eftersläpning så att de automatiskt lägg
 
 {{step1-to-team}}
 
-1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team &#x200B;](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
+1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team ](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
 
 1. Välj det Kanban-team som du vill hantera.
 1. Klicka på **[!UICONTROL More]**-menyn ![](assets/more-menu.png) och välj sedan **[!UICONTROL Edit]**.

@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6ad93735-652f-4a94-bc24-6c22bb2c8826
-source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Mer information finns i [Översikt över dokumentinformation](/help/quicksilver/
 
 Vi har uppdaterat Iteration Details > Custom Forms page till en modernare design som överensstämmer med andra delar av Workfront. Sidan har nu stöd för avancerade anpassade formulärfunktioner som externa uppslagsfält.
 
-Mer information finns i [Skapa en flexibel artikel i en iteration](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md).
+Mer information finns i [Skapa en Agile-artikel i en iteration](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md).
 
 ## Utforska och känna av uppdateringar för gruppområdet
 

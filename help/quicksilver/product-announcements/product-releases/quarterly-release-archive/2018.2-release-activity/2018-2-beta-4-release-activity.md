@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4b54b9e6-d1bf-4802-9d6c-9c3d3b6a6583
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1705'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Mer information finns i  i artikeln.
 
 ## Förbättrat gränssnitt för konfigurering av status för ett Agile-team {#improved-interface-for-configuring-statuses-for-an-agile-team}
 
-Gränssnittet för att konfigurera status för ett team har uppdaterats med följande förbättringar:
+Gränssnittet för konfigurering av status för ett Agile-team har uppdaterats med följande förbättringar:
 
 * Nytt utseende
 * Ändra ordning på statuskolumner via dra och släpp 

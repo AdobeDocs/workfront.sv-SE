@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4e41eed3-1a3b-4247-8c0c-630efc9c1b69
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 0%
@@ -33,11 +33,11 @@ Administratörer kan även [skapa ett paket med plugin-program](https://helpx.ad
 
 Nu uppdateras Workfront portfölj, program, projekt, uppgift, utgåva och dokumentfält automatiskt när fältet ändras i Workfront.
 
-Om du vill tillåta att objektmetadata synkroniseras automatiskt måste du aktivera alternativet Synkronisera objektmetadata för dina integreringar i Inställningar > Experience Manager.
+Om du vill tillåta att objektmetadata synkroniseras automatiskt måste du aktivera alternativet Synkronisera objektmetadata för dina integreringar i Inställningar > Experience Manager-integreringar.
 
 Tidigare uppdaterades bara projektfält automatiskt.
 
-Mer information finns i [Konfigurera Experience Manager Assets as a Cloud Service-integrering](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+Mer information finns i [Konfigurera integreringen med Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 
 ## Metadatapush för överordnade objekt för program och portföljer
 
@@ -45,7 +45,7 @@ När en resurs skickas till Experience Manager Assets eller Assets Essentials sk
 
 Tidigare skickades bara överordnade projektdata.
 
-Mer information finns i [Skicka ett dokument till Experience Manager Assets eller Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md).
+Mer information finns i [Skicka ett dokument till Experience Manager Assets eller Resurser Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md).
 
 ## Utökad teambeskrivning
 
@@ -53,7 +53,7 @@ I Teams-området kan du nu visa hela teambeskrivningen genom att klicka på besk
 
 Tidigare var det enda sättet att se allt innehåll att bläddra igenom beskrivningen på ett smalt område.
 
-Den här förbättringen av beskrivningen gäller både rörliga och icke-rörliga team.
+Den här förbättringen av beskrivningen gäller både Agile-team och icke-Agile-team.
 
 Mer information finns i [Skapa ett team](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 

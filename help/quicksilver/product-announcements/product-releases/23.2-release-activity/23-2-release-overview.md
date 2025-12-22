@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '2770'
 ht-degree: 0%
@@ -149,7 +149,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Iterationsfunktioner som är tillgängliga på Adobe Workfront Boards</a></p>
-                        <p>Flera nya funktioner som finns på Workfront Boards gör det möjligt att använda den flexibla Scrum-funktionen. Bland dessa funktioner finns:
+                        <p>Flera nya funktioner som finns på Workfront Boards gör det möjligt att använda funktionerna i Agile Scrum. Bland dessa funktioner finns:
                         <ul>
                         <li>Arbetsflöden för att gruppera anslagstavlor som hör till samma team och för samarbete i arbetsgrupper</li>
                         <li>En lista med kort, eller en eftersläpning i arbetet, med möjlighet att använda källor för att ansluta kort till Workfront uppgifter och problem</li>
@@ -629,7 +629,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production vid en senare tidpunkt än 23.2. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nya funktioner i Workfront Fusion finns i Production vid en senare tidpunkt än 23.2. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Förbättringar av Workfront Scenario Planner
 
@@ -651,13 +651,13 @@ Information om nyheter och uppdateringar finns i [Nyheter i API-version 16](/hel
 
 Mer information om API-versioner finns i [API-versionshantering och supportschema](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
-### Workfront Maintenance Updates
+### Underhållsuppdateringar för Workfront
 
-Mer information om underhållsuppdateringar som gjorts under version 23.2 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/sv/docs/workfront-known-issues/releases/current-updates).
+Mer information om underhållsuppdateringar som gjorts under version 23.2 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan &#x200B;](https://experienceleague.adobe.com/sv/docs/workfront-learn/tutorials-workfront/home).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ### Funktioner som snart ska tas bort från Workfront
 

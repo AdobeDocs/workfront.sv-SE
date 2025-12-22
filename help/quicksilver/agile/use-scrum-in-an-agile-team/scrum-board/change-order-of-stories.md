@@ -6,7 +6,7 @@ description: Den ordning i vilken artiklarna visas på artikelpanelen anger inte
 author: Jenny
 feature: Agile
 exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -57,6 +57,6 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Ändra artikelordning i ett projekt
 
-Till skillnad från rörliga iterationer kan du inte ändra artikelordningen när du visar ett projekt i en flexibel vy. Om du vill ändra artikelordningen för ett projekt måste du visa projektet i en standardvy.
+Till skillnad från Agile-iterationer kan du inte ändra artikelordningen när du visar ett projekt i en Agile-vy. Om du vill ändra artikelordningen för ett projekt måste du visa projektet i en standardvy.
 
-Mer information om hur du ändrar projektvyn finns i [[!UICONTROL Manage a project] i [!UICONTROL Agile]-vyn &#x200B;](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md). Välj en standardvy i stället för att välja en flexibel vy.
+Mer information om hur du ändrar projektvyn finns i [[!UICONTROL Manage a project] i [!UICONTROL Agile]-vyn ](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md). Välj en standardvy i stället för att välja en Agile-vy.

@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4bd041a5-a6e3-4fe3-ae23-45980701e904
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 0%
@@ -21,7 +21,7 @@ En lista över alla ändringar som är tillgängliga i version 23.1 finns i [23.
 
 ## Scrum planning for Workfront Boards
 
-De nya Scrum-planeringsfunktionerna i Adobe Workfront Boards erbjuder flexibla alternativ för att hantera smidiga processer. Med dessa verktyg kan du
+De nya Scrum-planeringsfunktionerna i Adobe Workfront Boards erbjuder flexibla alternativ för att hantera era Agile-processer. Med dessa verktyg kan du
 
 * Spåra arbeten i iterationer och fjädrar
 * Använd snabbhet för att vägleda teamets åtaganden

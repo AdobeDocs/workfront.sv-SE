@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f86122a2-17c7-4df5-a958-177cc3d14f73
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 0%
@@ -30,4 +30,4 @@ Mer information finns i [Konfigurera kanban](../../../agile/get-started-with-agi
 
 ## Agile boards läser in 50 arbetsuppgifter åt gången
 
-För att öka hastigheten och prestandan för de flexibla verktygen kan upp till 50 kort nu läsas in på olika platser. Om det finns mer än 50 objekt på en flexibel anslagstavla visas en knapp längst ned på ritytan eller i eftersläpningen, som gör att du kan läsa in ytterligare arbetsobjekt.
+Upp till 50 kort läses nu in på olika platser för att öka hastigheten och prestandan för Agile-verktygen. Om det finns mer än 50 arbetsobjekt på en Agile-anslagstavla visas en knapp längst ned på ritytan eller i eftersläpningen, så att du kan läsa in ytterligare arbetsobjekt.

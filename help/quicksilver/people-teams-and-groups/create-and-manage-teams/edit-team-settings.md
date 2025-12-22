@@ -6,7 +6,7 @@ description: Workfront-administratörer och användare med en plan- eller arbets
 author: Jenny
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 0%
@@ -77,9 +77,9 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
      Mer information om hur du använder en anpassad layoutmall för ett team finns i avsnittet Använda en anpassad mall för ett team i Ändra [!UICONTROL My Work]- och [!UICONTROL Work Requests]-områdena med layoutmallar.
 
-   * Bestäm om teamet är ett smidigt team genom att välja alternativet **[!UICONTROL This is an Agile Team]**.
+   * Bestäm om teamet är ett Agile-team genom att välja alternativet **[!UICONTROL This is an Agile Team]**.
 
-     Mer information om flexibla team och hur du hanterar arbete i ett smidigt team finns i [Skapa ett smidigt team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+     Mer information om Agile-team och hur du hanterar arbete i ett Agile-team finns i [Skapa ett Agile-team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
    * Ändra knappen [!UICONTROL Work On It] till en [!UICONTROL Start]-knapp. Mer information om hur du konfigurerar knappen [!UICONTROL Start] finns i [Ersätt knappen Arbeta med med med en [!UICONTROL Start]-knapp](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
    * Anpassa knappen **[!UICONTROL Done]**. Mer information om hur du anpassar knappen [!UICONTROL Done] finns i:

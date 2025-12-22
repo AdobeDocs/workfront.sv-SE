@@ -7,7 +7,7 @@ description: Fyllningsinformationen som beskrivs i den här artikeln visas ovanf
 author: Jenny
 feature: Agile
 exl-id: cc6bebdb-f2aa-4e85-9f9f-15e7753d84cb
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Följande information finns:
 
   Punkter och timmar är kopplade till artiklar. När en artikel har markerats som [!UICONTROL Complete] markeras punkterna eller timmarna som är kopplade till artikeln som Fullständig.
 
-  Som standard används punkter. Du kan ändra detta genom att ändra inställningarna för ditt team enligt beskrivningen i [Skapa ett smidigt team](../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+  Som standard används punkter. Du kan ändra detta genom att ändra inställningarna för ditt team enligt beskrivningen i [Skapa ett team](../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
 * **[!UICONTROL Points / Hours Per Day]:** (Endast tillgängligt i iterationer) Det genomsnittliga antalet punkter eller timmar som markerats som [!UICONTROL Complete] varje dag sedan upprepningens början fram till den aktuella dagen.
 

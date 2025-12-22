@@ -8,7 +8,7 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1653'
 ht-degree: 0%
@@ -153,7 +153,7 @@ Varaktighetstyp hjälper dig att svara på följande frågor:
   <tr> 
    <th scope="col"> <p><strong>Enkel</strong> </p> </th> 
    <td scope="col"> <p>Bestämmer antalet planerade timmar och varaktigheten (som är densamma för den här varaktighetstypen) baserat på det antal timmar som varje tilldelad tilldelas. </p> <p>Workfront beräknar de planerade timmarna genom att addera de tilldelade timmarna för varje tilldelad. </p> <p>Du kan ändra antalet timmar som varje tilldelad har tilldelats manuellt, och antalet planerade timmar och mängden varaktighet ändras i enlighet med detta. Om du väljer ett totalt antal tilldelade timmar för alla tilldelningar, delas det antalet jämnt mellan varje tilldelad.</p> <p>Mer information finns i <a href="../../../manage-work/tasks/taskdurtn/simple-duration-type.md" class="MCXref xref">Översikt över varaktighetstypen: Enkel</a>.</p> </td> 
-   <td scope="col"> <p>Timmar fördelas jämnt mellan tilldelningar om du väljer ett totalt antal tilldelade timmar. Som projektledare kan du dock justera timmarna manuellt för varje tilldelad. </p> <p>Du kan antingen redigera Planerade timmar och Varaktighet för en aktivitet med en enkel varaktighetstyp infogad eller på aktivitetsnivå. </p> <p>Om ett smidigt team tilldelas till en uppgift anges varaktighetstypen automatiskt till Enkel och kan inte ändras. Uppgiftens varaktighet för ett team måste vara längre än 0 minuter.</p> </td> 
+   <td scope="col"> <p>Timmar fördelas jämnt mellan tilldelningar om du väljer ett totalt antal tilldelade timmar. Som projektledare kan du dock justera timmarna manuellt för varje tilldelad. </p> <p>Du kan antingen redigera Planerade timmar och Varaktighet för en aktivitet med en enkel varaktighetstyp infogad eller på aktivitetsnivå. </p> <p>Om ett Agile-team tilldelas till en uppgift anges varaktighetstypen automatiskt till Enkel och kan inte ändras. Uppgiftens varaktighet för ett Agile-team måste vara längre än 0 minuter.</p> </td> 
   </tr> 
  </tbody> 
 </table>

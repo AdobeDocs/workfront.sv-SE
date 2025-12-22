@@ -6,7 +6,7 @@ description: Standardfärgassociationen för Scrum board-artiklar varierar beroe
 author: Jenny
 feature: Agile
 exl-id: 8e351505-73d1-4c8f-b369-53c965b88c95
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 Standardfärgassociationen för artiklar varierar beroende på om artikelpanelen finns på en iteration eller i ett projekt:
 
-* **[!UICONTROL Iteration]**: På en iteration färgkodas artikelpaneler enligt det projekt som artikeln är kopplad till. (Varje projekt tilldelas godtyckligt en färg på artikelpanelen.) Du kan ändra det här standardbeteendet för varje smidigt team. Färger för flexibla artiklar i en iteration kan knytas till projektet (standard), artikelprioritet, ägare eller frihandsfigur. Mer information finns i [Konfigurera hur färgindikatorer används för artiklar på den flexibla artikelpanelen](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur4) i artikeln [Konfigurera surrning](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+* **[!UICONTROL Iteration]**: På en iteration färgkodas artikelpaneler enligt det projekt som artikeln är kopplad till. (Varje projekt tilldelas godtyckligt en färg på artikelpanelen.) Du kan ändra det här standardbeteendet för varje Agile-team. Färger för Agile-artiklar i en iteration kan knytas till projektet (standard), artikelprioritet, ägare eller frihandsfigur. Mer information finns i [Konfigurera hur färgindikatorer används för artiklar på Agile-anslagstavlan](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur4) i artikeln [Konfigurera repet](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
-* **[!UICONTROL Project]**: I ett projekt matchar alla underaktiviteter färgen för den överordnade aktiviteten, så att färgerna för alla artiklar i ett givet simfält är desamma. Färger tilldelas slumpmässigt till aktiviteter när de skapas om aktiviteten inte har några underaktiviteter eller inte har någon överordnad aktivitet. Du kan ändra det här standardbeteendet genom att ändra den flexibla vyn. Färger för flexibla artiklar i ett projekt kan kopplas till den överordnade artikeln (standard), artikelprioritet, ägare eller frihandsfigur. Mer information finns i [Skapa eller anpassa en [!UICONTROL Agile] vy &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) i [Vyöversikt i [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+* **[!UICONTROL Project]**: I ett projekt matchar alla underaktiviteter färgen för den överordnade aktiviteten, så att färgerna för alla artiklar i ett givet simfält är desamma. Färger tilldelas slumpmässigt till aktiviteter när de skapas om aktiviteten inte har några underaktiviteter eller inte har någon överordnad aktivitet. Du kan ändra det här standardbeteendet genom att ändra vyn Agile. Färger för Agile-artiklar i ett projekt kan kopplas till den överordnade artikeln (standard), artikelprioritet, ägare eller frihandsfigur. Mer information finns i [Skapa eller anpassa en [!UICONTROL Agile] vy ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) i [Vyöversikt i [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Åtkomstkrav
 
@@ -50,7 +50,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Ändra färgen på artiklar när du använder frihandsform
 
-Om de flexibla gruppinställningarna har konfigurerats så att alternativet [!UICONTROL Associate Card Color to] är inställt på [!UICONTROL Free Form] kan användare ändra färgen på enskilda artikelrutor manuellt. Detta kan vara användbart för att kommunicera andra typer av information som är viktig för teamet eller organisationen:
+Om Agile-teaminställningarna har konfigurerats så att alternativet [!UICONTROL Associate Card Color to] är inställt på [!UICONTROL Free Form] kan användare ändra färgen på enskilda artikelrutor manuellt. Detta kan vara användbart för att kommunicera andra typer av information som är viktig för teamet eller organisationen:
 
 {{step1-to-team}}
 

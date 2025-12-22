@@ -2,24 +2,24 @@
 content-type: reference
 navigation-topic: boards
 title: Migrera Agile Team Kanban-kort till Workfront Boards
-description: Du kan migrera dina arbetsuppgifter från en smidig team-kanban-styrelse till en ny eller befintlig Workfront-styrelse.
+description: Du kan migrera dina arbetsuppgifter från en Agile Team Kanban-styrelse till en ny eller befintlig Workfront-styrelse.
 author: Jenny
 feature: Agile
 exl-id: 72e3902b-af9a-497c-817f-63630c4fb73b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 0%
 
 ---
 
-# Migrera smidiga team-kanban-kort till Workfront-styrelser
+# Migrera Agile team Kanban-kort till Workfront-kort
 
-Du kan migrera dina arbetsuppgifter från en smidig team-kanban-styrelse till en ny eller befintlig Workfront-styrelse. När du kör migreringen kopieras alla kort på Kanban-tavlan till Workfront styrelse. Du får inte välja specifika kort.
+Du kan migrera dina arbetsuppgifter från en Agile Team Kanban-styrelse till en ny eller befintlig Workfront-styrelse. När du kör migreringen kopieras alla kort på Kanban-tavlan till Workfront styrelse. Du får inte välja specifika kort.
 
 Kortens placering på Workfront board baseras på spaltregler. (En princip kan till exempel flytta alla kort med statusen &quot;Pågår&quot; till en viss kolumn. Mer information om kolumnprinciper finns i [Hantera kortkolumner](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).) Om det inte finns några principer eller om korten inte matchar profilerna placeras korten i kolumnen längst till vänster på anslagstavlan. För närvarande läggs inga kort i kolumnen Eftersläpning på det äldre kortet till på Workfront-kortet.
 
-Korten tas inte bort från den flexibla teamets Kanban-tavla, och kortstatusändringarna synkroniseras med båda tavlorna. Du kan låta båda styrelserna vara aktiva tills du är redo att byta till Workfront Boards.
+Korten tas inte bort från Agile Team Kanban-tavlan, och ändringar av kortstatus synkroniseras till båda styrelserna. Du kan låta båda styrelserna vara aktiva tills du är redo att byta till Workfront Boards.
 
 ## Åtkomstkrav
 

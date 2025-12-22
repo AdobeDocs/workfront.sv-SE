@@ -6,7 +6,7 @@ description: När du skapar ett team blir du som standard teamägare.
 author: Jenny
 feature: People Teams and Groups
 exl-id: 4bef734c-de86-4c58-a0e8-fbb3c5785f4c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%
@@ -65,9 +65,9 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
      >
      >När ett team tilldelas till en grupp eller undergrupp kan alla gruppadministratörer i den gruppen eller undergruppen hantera teamet utan att vara medlem i det. Gruppadministratörer kan gå till Teams-området från huvudmenyn och klicka på pilen Byt team ![Byt ikon](assets/switch-team-icon.png) för att lista alla team som har tilldelats de grupper som de hanterar.
 
-   * **[!UICONTROL This is an Agile Team]:** Välj det här alternativet om du vill konfigurera det nya teamet så att det blir ett smidigt team.
+   * **[!UICONTROL This is an Agile Team]:** Välj det här alternativet om du vill konfigurera det nya teamet till ett Agile-team.
 
-     Mer information om flexibla team finns i [Skapa ett flexibelt team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+     Mer information om Agile-team finns i [Skapa ett Agile-team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
    * **[!UICONTROL Team Members]:** Börja skriva namnet på en användare som ska läggas till i teamet och markera sedan namnet när det visas i listrutan.
 

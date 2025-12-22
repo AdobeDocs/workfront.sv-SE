@@ -8,7 +8,7 @@ description: Workfront Scenario Planner finns endast i version 20.3 till Product
 author: Luke
 feature: Product Announcements, Workfront Scenario Planner
 exl-id: 9f89b6d6-8ca7-4b03-a8fe-fddb4c0c750b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Med Scenarioplanerare kan du:
 
   Skapa och jämför scenarier, underlätta samarbete och samförstånd, genomför och planera sedan om det behövs.
 
-Scenarioplanering gör att du kan planera mer flexibelt. Vare sig du äger den strategiska planen för ditt företag eller du planerar kvartalsvis för en enda affärsenhet, avdelning eller team kan Scenario Planner hjälpa till. Skapa och jämför snabbt olika scenarier baserat på begränsningar, t.ex. budgetar eller teamresurser.
+Scenarioplanering hjälper dig att vara mer flexibel i din planering. Vare sig du äger den strategiska planen för ditt företag eller du planerar kvartalsvis för en enda affärsenhet, avdelning eller team kan Scenario Planner hjälpa till. Skapa och jämför snabbt olika scenarier baserat på begränsningar, t.ex. budgetar eller teamresurser.
 
 Med Scenarioplanering kan du modellera scenarier utifrån mål eller initiativ i Scenarioplaneraren för att få svar på frågor som:
 

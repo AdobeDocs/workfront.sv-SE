@@ -6,7 +6,7 @@ description: Du kan tilldela användare till artiklar direkt på Kanban-tavlan.
 author: Jenny
 feature: Agile
 exl-id: ed727302-68c7-4e00-b05c-a5ed238bcc2d
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. (Valfritt) Klicka på ikonen **[!UICONTROL Switch team]** ![Byt team-ikon](assets/switch-team-icon.png) och välj sedan ett nytt Kanban-team i listrutan eller sök efter ett team i sökfältet.
 
-1. Gå till den flexibla [!UICONTROL Kanban]-brädet där du vill tilldela användare.
+1. Gå till Agile [!UICONTROL Kanban]-tavlan där du vill tilldela användare.
 1. Gå till artikelrutan på [!UICONTROL Kanban]-panelen där du vill lägga till en användare.
 1. Klicka på teamavataren i artikelrutan (eller en avatar om en användare redan har tilldelats), börja skriva namnet på användaren som du vill tilldela artikeln och klicka sedan på namnet när den visas. Du kan också välja en föreslagen användare.
 

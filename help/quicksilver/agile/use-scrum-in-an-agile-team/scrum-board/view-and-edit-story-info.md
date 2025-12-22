@@ -6,7 +6,7 @@ description: När du visar en artikelruta på Kanban-tavlan kan du redigera text
 author: Jenny
 feature: Agile
 exl-id: 88d156ea-0913-425e-b3eb-6ae81d2d2336
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%
@@ -37,7 +37,7 @@ När du visar en artikelruta på artikelpanelen är informationen i följande ta
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Projektnamnet med en länk direkt till projektet<br>Den här länken visas bara på artiklar (överordnade aktiviteter, inte underaktiviteter) när den flexibla vyn används i en iteration. Den visas inte när du använder en flexibel vy i ett projekt.</p> </td> 
+   <td> <p>Projektnamnet med en länk direkt till projektet<br>Den här länken visas bara på artiklar (överordnade aktiviteter, inte underaktiviteter) när du använder Agile-vyn på en iteration. Den visas inte när du använder en Agile-vy i ett projekt.</p> </td> 
    <td>✓ </td> 
    <td> </td> 
   </tr> 
@@ -62,7 +62,7 @@ När du visar en artikelruta på artikelpanelen är informationen i följande ta
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Eventuella ytterligare fält (inklusive anpassade fält) som kan ha lagts till i den flexibla vyn genom att ändra den flexibla vyn, enligt beskrivningen i"Skapa och anpassa en [!UICONTROL Agile]-vy" i <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Vyöversikt i [!UICONTROL Adobe Workfront]</a>.</p> </td> 
+   <td> <p>Eventuella ytterligare fält (inklusive anpassade fält) som kan ha lagts till i vyn Agile genom att ändra vyn Agile, enligt beskrivningen i"Skapa och anpassa en [!UICONTROL Agile]-vy" i <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Vyöversikt i [!UICONTROL Adobe Workfront]</a>.</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -106,7 +106,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. I den vänstra panelen väljer du **[!UICONTROL Iterations]** om du vill välja en viss iteration eller **[!UICONTROL Current Iteration]**.
 
-1. Gå till den flexibla artikelpanelen för [!UICONTROL Scrum].
+1. Gå till [!UICONTROL Scrum] Agile artikelboard.
 1. Expandera rutan [!UICONTROL story] om du vill visa alla fält som är associerade med artikeln.
 
    ![artikelkort](assets/agile-storycard-scrum-2021-350x333.png)

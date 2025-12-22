@@ -3,11 +3,11 @@ content-type: overview
 product-area: agile-and-teams
 navigation-topic: scrum-board
 title: Översikt över bankkort
-description: Den flexibla Scrum-artikelpanelen visas tillsammans med slutförandestatus och nedladdningsschemat.
+description: The Scrum Agile story board displays with the complete status and the burndown chart.
 author: Jenny
 feature: Agile
 exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 0%
@@ -18,10 +18,10 @@ ht-degree: 0%
 
 <!-- Audited: 5/2025 -->
 
-Den [!UICONTROL Scrum] flexibla artikelpanelen visas tillsammans med slutförandestatus och nedladdningsschemat. De här flexibla komponenterna är tillgängliga i följande situationer i [!UICONTROL Adobe Workfront]:
+[!UICONTROL Scrum] Agile-artikelkort visas tillsammans med slutförandestatus och nedladdningsschemat. Dessa Agile-komponenter är tillgängliga i följande situationer i [!UICONTROL Adobe Workfront]:
 
-* På rörliga iterationer. Mer information om hur du använder den flexibla artikelpanelen, nedladdningsschemat och slutförandestatusen i en ren, flexibel miljö (med eftersläpningar och en upprepning) finns i [Arbeta i en flexibel miljö](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
-* När du visar ett projekt i en flexibel vy. Mer information om hur du kan använda den flexibla artikelpanelen, nedladdningsschemat och slutförandestatusen i ett befintligt projekt finns i [Hantera ett projekt i flexibel vy](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+* På Agile-iterationer. Mer information om hur du använder Agile-anslagstavlan, nedladdningsschemat och slutförandestatus i en ren Agile-miljö (med eftersläpningar och en iteration) finns i [Arbeta i en Agile-miljö](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
+* När du visar ett projekt i en Agile-vy. Mer information om hur du kan använda Agile-anslagstavlan, nedladdningsschemat och slutförandestatusen i ett befintligt projekt finns i [Hantera ett projekt i Agile-vyn](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 ![Agile iteration](assets/agile-iteration-with-callouts.png)
 
@@ -35,7 +35,7 @@ Artikelpanelen består av följande element:
 
   I en iteration visas den här kolumnen bara på artikelpanelen när en eller flera artiklar på artikelpanelen innehåller minst en underuppgift som uppfyller följande krav:
 
-   * Tilldelad till samma flexibla team som den överordnade aktiviteten.
+   * Tilldelad till samma Agile-team som den överordnade uppgiften.
    * Tillhör iteration.
 
      I ett projekt visas den här kolumnen när som helst när en uppgift har minst en underaktivitet.
@@ -44,13 +44,13 @@ Artikelpanelen består av följande element:
 
 * **Aktivitetsstatus**: Ange hur en artikel fortskrider genom iteration eller projekt baserat på vilken statuskolumn artikeln finns i.
 
-  Du kan anpassa uppgiftsstatusvärden för projektet genom att ändra den flexibla vyn.
+  Du kan anpassa uppgiftsstatusvärden för projektet genom att ändra Agilvyn.
 
 * **Swim Lane**: När en överordnad artikel och dess underaktiviteter visas på artikelpanelen skapas ett simfält specifikt för artikeln och dess underaktiviteter. Detta ger en visuell distinktion som bättre visar hur en artikels underuppgifter framskrider över hela artikelpanelen.
 
   I en iteration visas simbanor bara på artikelpanelen när en artikel på artikelpanelen innehåller minst en underuppgift som uppfyller följande krav:
 
-   * Tilldelad till samma flexibla team som den överordnade aktiviteten.
+   * Tilldelad till samma Agile-team som den överordnade uppgiften.
    * Tillhör iteration.
 
   I ett projekt visas simbanor när en uppgift har minst en underuppgift eller en överordnad uppgift.
@@ -67,10 +67,10 @@ Samma logik gäller för underaktiviteter på andra nivån (underaktiviteter fö
 
 ## Förhållandet mellan artikelstyrelsen och eftersläpningen
 
-I upprepningens efterlogg visas endast artiklar eller underaktiviteter där du kan ange en uppskattning. Om en överordnad artikel har underaktiviteter som visas på artikelpanelen (eftersom de har tilldelats samma flexibla team och tillhör upprepningen) visas inte den överordnade uppgiften i efterloggen. I det här fallet visas bara underuppgifterna i efterloggen, medan underuppgifterna och den överordnade artikeln visas på artikelpanelen.
+I upprepningens efterlogg visas endast artiklar eller underaktiviteter där du kan ange en uppskattning. Om en överordnad artikel har underaktiviteter som visas på artikelpanelen (eftersom de har tilldelats samma Agile-team och tillhör upprepningen) visas inte den överordnade uppgiften i efterloggen. I det här fallet visas bara underuppgifterna i efterloggen, medan underuppgifterna och den överordnade artikeln visas på artikelpanelen.
 
-Anta till exempel att artikel A innehåller underuppgift 1 och underuppgift 2 (och båda underuppgifterna tilldelas samma flexibla team). I det här fallet visas artikel A på artikelpanelen i ett simfält med Deluppgift 1 och Underuppgift 2. Endast underuppgift 1 och underuppgift 2 visas emellertid i efterloggen.
+Anta till exempel att artikel A innehåller underuppgift 1 och underuppgift 2 (och båda underuppgifterna tilldelas samma Agile-team). I det här fallet visas artikel A på artikelpanelen i ett simfält med Deluppgift 1 och Underuppgift 2. Endast underuppgift 1 och underuppgift 2 visas emellertid i efterloggen.
 
-Samma logik gäller för underaktiviteter på andra nivån (underaktiviteter för underaktiviteter). Om en underuppgift har en eller flera underaktiviteter på andra nivån tilldelade till samma flexibla team och tillhör samma upprepning, visas endast underaktiviteten på andra nivån i efterloggen.
+Samma logik gäller för underaktiviteter på andra nivån (underaktiviteter för underaktiviteter). Om en underuppgift har en eller flera underaktiviteter på andra nivån tilldelade till samma Agile-team och tillhör upprepningen, visas endast underaktiviteten på andra nivån i efterloggen.
 
 Mer information om eftersläpningen finns i [Hantera Agile-eftersläpningen](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).

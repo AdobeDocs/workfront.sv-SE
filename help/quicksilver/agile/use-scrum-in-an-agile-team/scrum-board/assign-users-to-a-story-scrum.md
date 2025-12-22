@@ -6,7 +6,7 @@ description: Läs den här artikeln om du vill veta mer om hur du tilldelar anv�
 author: Jenny
 feature: Agile
 exl-id: 57fa28cc-f93d-4938-9d65-3dcf90fdf6a0
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. (Valfritt) Klicka på ikonen **[!UICONTROL Switch team]** ![Byt ikon för team](assets/switch-team-icon.png) och välj sedan ett nytt [!UICONTROL Scrum]-team i listrutan eller sök efter ett team i sökfältet.
 
-1. Gå till den smidiga upprepningen eller det projekt som innehåller artikelpanelen där du vill tilldela användare. Mer information om hur du navigerar till en iteration finns i [Visa en iteration](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
+1. Gå till den Agile-iteration eller det projekt som innehåller artikelpanelen där du vill tilldela användare. Mer information om hur du navigerar till en iteration finns i [Visa en iteration](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
 1. Gå till artikelrutan på artikelpanelen där du vill lägga till en användare.
 1. Klicka på teamavataren i artikelrutan (eller en avatar om en användare redan har tilldelats), börja skriva namnet på användaren som du vill tilldela artikeln och klicka sedan på namnet när den visas. Du kan också välja en föreslagen användare.
 

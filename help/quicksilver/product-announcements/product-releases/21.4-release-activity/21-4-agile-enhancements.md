@@ -5,7 +5,7 @@ author: Luke
 draft: Probably
 feature: Product Announcements, Agile
 exl-id: 2c59b8b2-7239-4d20-a8c6-5938c2c4db93
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 0%
@@ -35,17 +35,17 @@ Det här alternativet gäller endast för Scrum-team och inte för Kanban-team.
 
 Mer information finns i [Konfigurera surrande](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
-## Ändringar i den flexibla vyn i projekt
+## Ändringar i Agile-vyn i projekt
 
 >[!NOTE]
 >
 >Den här funktionen släpptes till förhandsvisningsmiljön den 16 september 2021.
 
-Som en del av version 21.3 har vi förbättrat det flexibla kortets sidhuvud och artikeltavlor (se [Uppdateringar av rubriker och anslagstavla &#x200B;](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)). Uppdateringarna gäller både iterationer och den flexibla vyn i projekt.
+Som en del av version 21.3 har vi förbättrat Agile-kortets rubrik och artikeltavlor (se [Uppdateringar för Agile-kortets rubrik och artikelanslagstavla](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)). Uppdateringarna gäller både iterationer och Agile-vyn i projekt.
 
-I version 21.4 återställer vi dessa förbättringar för en flexibel projektvy. Det görs inga ändringar i rörliga iterationer.
+I version 21.4 återställer vi dessa förbättringar för Agile-vyn i projekt. Inga ändringar görs i Agile-iterationer.
 
-Följande ändringar återställs när det gäller den flexibla vyn i projekt:
+Följande ändringar återställs när det gäller Agile-vyn i projekt:
 
 * Artikelkorten och kortspalterna har justerbar bredd.
 * Kolumner har ingen bakgrundsskuggning.

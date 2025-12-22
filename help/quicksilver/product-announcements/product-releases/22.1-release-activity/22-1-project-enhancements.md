@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d24f2aae-1c3d-41ed-ad17-6276bef2cf45
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1202'
 ht-degree: 0%
@@ -117,7 +117,7 @@ Före den här förbättringen fanns den här funktionen bara när du konvertera
 
 Mer information finns i [Konvertera ett problem till ett projekt i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
-## Filtrera efter användarlista på flexibla anslagstavlor visar användare med de flesta tilldelningar först
+## Filtrera efter användarlista på Agile-anslagstavlor visar användare med de flesta tilldelningar först
 
 >[!NOTE]
 >

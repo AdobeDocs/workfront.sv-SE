@@ -2,11 +2,11 @@
 product-area: agile-and-teams
 navigation-topic: iterations
 title: Ta bort en iteration
-description: Du kan ta bort en iteration för ditt mobila team om det inte längre behövs.
+description: Du kan ta bort en iteration för ditt Agile-team om det inte längre behövs.
 author: Jenny
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Ta bort en iteration
 
-Du kan ta bort en iteration för ditt mobila team om det inte längre behövs.
+Du kan ta bort en iteration för ditt Agile-team om det inte längre behövs.
 
 När du tar bort en iteration flyttas alla artiklar i iteration till eftersläpningen. Arbetsuppgifterna och problemen finns också kvar i projekten.
 
@@ -40,7 +40,7 @@ När du tar bort en iteration flyttas alla artiklar i iteration till eftersläpn
   </tr>
    <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td>Du måste vara medlem i det rörliga team som iteration är tilldelad</td> 
+   <td>Du måste vara medlem i det Agile-team som iteration är tilldelad till</td> 
   </tr>
  </tbody> 
 </table>

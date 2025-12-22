@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
@@ -227,7 +227,7 @@ Börja skriva namnet på ett projekt och klicka sedan på **Lägg till projekt**
 
 1. Lägg till sidan **Anslutna poster** för projekt.
 
-   Mer information finns i avsnittet&quot;Lägg till en kopplad post till en post&quot; i artikeln [Hantera postsidans layout](/help/quicksilver/planning/records/manage-the-record-page.md).
+   Mer information finns i [Lägga till en kopplad postsida i en post](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
    Sidan Anslutna poster visas i tabellvyn. Kopplade projekt visas i tabellen.
 

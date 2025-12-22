@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: f4c1f2170d826b4b6f1e8189e1fecc1edb6e0d97
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '3231'
+source-wordcount: '3232'
 ht-degree: 0%
 
 ---
@@ -678,7 +678,7 @@ Kampanjer lanserades som betaversion i juli 2022 i version 22.3.</p>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Utökad teambeskrivning</a></p>
                         <p>I Teams-området kan du nu visa hela teambeskrivningen genom att klicka på beskrivningen för att visa den i ett popup-fönster. Alla URL:er i beskrivningen går att klicka på i popup-fönstret, och du kan klicka i beskrivningstexten för att redigera den (om du har tillgång till redigering av gruppinställningarna).</p>
                         <p>Tidigare var det enda sättet att se allt innehåll att bläddra igenom beskrivningen på ett smalt område.</p>
-<p>Den här förbättringen av beskrivningen gäller både rörliga och icke-rörliga team.</p>
+<p>Den här förbättringen av beskrivningen gäller både Agile-team och icke-Agile-team.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -709,7 +709,7 @@ Med denna uppgradering stöder Desktop Proofing Viewer Chrome version 98 för b�
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production vid en senare tidpunkt än 2.4-versionen. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nya funktioner i Workfront Fusion finns i Production vid en senare tidpunkt än 2.4-versionen. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Förbättringar av WorkfrontScenarioplanering
 
@@ -731,17 +731,17 @@ Information om nyheter och uppdateringar finns i [Nyheter i API-version 14](/hel
 
 Mer information om API-versioner finns i [API-versionshantering och supportschema](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
-### Workfront Maintenance Updates
+### Underhållsuppdateringar för Workfront
 
-Mer information om underhållsuppdateringar som gjorts under version 2.3 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/sv/docs/workfront-known-issues/releases/current-updates).
+Mer information om underhållsuppdateringar som gjorts under version 2.3 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### 22.4 Release Webinar
 
-Webbseminariet 22.4 kommer att hållas torsdagen den 22 september 2022 kl. 9.00 PDT. Du kan [registrera dig för webbinariet här](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt).
+Webbseminariet 22.4 kommer att hållas torsdagen den 22 september 2022 kl. 9:00 PDT. :00 Du kan [registrera dig för webbinariet här](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns på sidan [Uppdateringar om utbildningsversioner](https://experienceleague.adobe.com/sv/docs/workfront-learn/tutorials-workfront/home).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns på sidan [Uppdateringar om utbildningsversioner](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ### Funktioner som tas bort med version 22.4
 

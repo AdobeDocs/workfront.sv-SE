@@ -6,7 +6,7 @@ description: Du kan anpassa vilken typ av information som visas på skärmen med
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Du kan skapa en ny standardvy eller anpassa en befintlig standardvy som du skapa
 
 1. Klicka på knappen **+ Ny vy** för att skapa en ny vy.
 eller
-Klicka på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) som visas i muspekaren till höger om en befintlig vy som du vill redigera.
+Klicka på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) som visas i muspekaren till höger om en befintlig vy som du vill redigera.
 Dialogrutan **Anpassa vy** visas.
 
 1. Gör något av följande i avsnittet **Förhandsvisa kolumn**:
@@ -194,9 +194,9 @@ To create or customize an Agile view:
    We recommend that you include the word "Agile" in your view name, so users know this is an Agile view.  
    This name is displayed in the **View** drop-down menu when selecting a view.
 
-1. Define the status columns to display on the story board in the agile view. These are the task statuses that are defined by the Workfront administrator, as described in [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+1. Define the status columns to display on the story board in the Agile view. These are the task statuses that are defined by the Workfront administrator, as described in [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-   Only system statuses are available to use on the Agile story board. If a status is available only for an individual group you are a member of, the status is not available on the agile story board. Furthermore, tasks that are in a status that is available only to a custom group are not visible when viewing the project in an Agile view.
+   Only system statuses are available to use on the Agile story board. If a status is available only for an individual group you are a member of, the status is not available on the Agile story board. Furthermore, tasks that are in a status that is available only to a custom group are not visible when viewing the project in an Agile view.
 
    Users can move stories among these status columns on the Agile story board.  
    When defining status columns, you can do the following:
@@ -261,7 +261,7 @@ To create or customize an Agile view:
 
    * Story name with a link directly to the task
    * The project name with a link directly to the project  
-     This link is displayed only when using the agile view on an iteration; it is not displayed when using an Agile view on a project.
+     This link is displayed only when using the Agile view on an iteration; it is not displayed when using an Agile view on a project.
    * The task description
    * Current commitment
    * View and edit the percent complete either by adjusting the percent complete itself or by adjusting the number of points or hours that are complete

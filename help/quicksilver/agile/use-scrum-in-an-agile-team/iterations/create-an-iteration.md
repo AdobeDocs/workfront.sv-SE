@@ -2,11 +2,11 @@
 product-area: agile-and-teams
 navigation-topic: iterations
 title: Skapa en iteration
-description: Iterationer är en nyckelkomponent för Scrum-team när det gäller att planera arbetskapaciteten.Med  [!DNL Adobe Workfront] kan Scrum-team hantera sitt arbete genom att skapa flera iterationer för att tillgodose teamets behov.
+description: Iterationer är en nyckelkomponent för Scrum Agile-team i planeringen av arbetskapaciteten.Med  [!DNL Adobe Workfront] kan Scrum Agile-team hantera sitt arbete genom att skapa flera iterationer för att passa teambehov.
 author: Jenny
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Skapa en iteration
 
-Iterationer är en nyckelkomponent för Scrum-team när det gäller att planera arbetskapaciteten. Med [!DNL Adobe Workfront] kan Scrum-team hantera sitt arbete genom att skapa flera iterationer för att passa teambehov.
+Iterationer är en nyckelkomponent för Scrum Agile-team i planeringen av arbetskapaciteten. Med [!DNL Adobe Workfront] kan Scrum Agile-team hantera sitt arbete genom att skapa flera iterationer för att passa teambehov.
 
 ## Åtkomstkrav
 
@@ -75,7 +75,7 @@ Du kan lägga till en iteration i listan för att snabbt skapa en iteration och 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL End Date]</strong></td> 
-      <td><p>Ange det datum då iterationen ska sluta. [!DNL Workfront] rekommenderar att du anger ett slutdatum som inte är längre än fyra veckor från startdatumet.</p><p>Tips! Välj en arbetsdag som slutdatum. Nedbrytningsdiagrammet använder bara arbetsdagar i sina beräkningar.<br>Som standard används standardschemat för att definiera arbetsdagar (enligt beskrivningen i <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Skapa ett schema</a>). Om du vill inkludera teamspecifika, icke-arbetsrelaterade dagar kan rörliga team välja att använda ett alternativt schema (enligt beskrivningen i Definiera ett alternativt teamschema för nedladdningsscheman i <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Skapa ett smidigt team</a>).</p></td> 
+      <td><p>Ange det datum då iterationen ska sluta. [!DNL Workfront] rekommenderar att du anger ett slutdatum som inte är längre än fyra veckor från startdatumet.</p><p>Tips! Välj en arbetsdag som slutdatum. Nedbrytningsdiagrammet använder bara arbetsdagar i sina beräkningar.<br>Som standard används standardschemat för att definiera arbetsdagar (enligt beskrivningen i <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Skapa ett schema</a>). Om du vill inkludera teamspecifika, icke-arbetsrelaterade dagar kan Agile-team välja att använda ett alternativt schema (enligt beskrivningen i Definiera ett alternativt teamschema för nedladdningsscheman i <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Skapa ett Agile-team</a>).</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Capacity]</strong></td> 
@@ -123,7 +123,7 @@ Använd funktionen [!UICONTROL Plan Iteration] för att skapa en iteration med u
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL End Date]</strong> </td> 
-      <td><p>Ange det datum då iterationen ska sluta. [!DNL Workfront] rekommenderar att du anger ett slutdatum som inte är längre än fyra veckor från startdatumet.</p><p>Tips! Välj en arbetsdag som slutdatum. Nedbrytningsdiagrammet använder bara arbetsdagar i sina beräkningar.<br>Som standard används standardschemat för att definiera arbetsdagar (enligt beskrivningen i <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Skapa ett schema</a>). Om du vill inkludera teamspecifika, icke-arbetsrelaterade dagar kan rörliga team välja att använda ett alternativt schema (enligt beskrivningen i <a href="../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md" class="MCXref xref">Använd ett alternativt teamschema för nedladdningsscheman</a>).</p></td> 
+      <td><p>Ange det datum då iterationen ska sluta. [!DNL Workfront] rekommenderar att du anger ett slutdatum som inte är längre än fyra veckor från startdatumet.</p><p>Tips! Välj en arbetsdag som slutdatum. Nedbrytningsdiagrammet använder bara arbetsdagar i sina beräkningar.<br>Som standard används standardschemat för att definiera arbetsdagar (enligt beskrivningen i <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Skapa ett schema</a>). Om du vill inkludera teamspecifika, icke-arbetsrelaterade dagar kan Agile-team välja att använda ett alternativt schema (enligt beskrivningen i <a href="../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md" class="MCXref xref">Använd ett alternativt teamschema för nedladdningsscheman</a>).</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Focus]</strong></td> 
@@ -152,7 +152,7 @@ Använd funktionen [!UICONTROL Plan Iteration] för att skapa en iteration med u
 
    >[!NOTE]
    >
-   >  När du lägger till uppgifter i en iteration beräknas startdatumet för aktiviteten enligt beskrivningen i [[!UICONTROL Understand] hur startdatum för aktiviteten beräknas när de läggs till i en iteration &#x200B;](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
+   >  När du lägger till uppgifter i en iteration beräknas startdatumet för aktiviteten enligt beskrivningen i [[!UICONTROL Understand] hur startdatum för aktiviteten beräknas när de läggs till i en iteration ](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
 
 
 ## Förstå hur startdatum för aktiviteter beräknas när de läggs till i en iteration {#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration}

@@ -6,7 +6,7 @@ description: När du skapar underaktiviteter för befintliga artiklar bör du t�
 author: Jenny
 feature: Agile
 exl-id: 264e66e9-94c7-4904-baad-f733d39b4791
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 0%
@@ -62,7 +62,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. (Valfritt) Klicka på ikonen **[!UICONTROL Switch team]** ![Byt team-ikon](assets/switch-team-icon.png) och välj sedan ett nytt Scrum-team i listrutan eller sök efter ett team i sökfältet.
 
-1. Gå till den smidiga upprepningen eller projektet som innehåller artikeln där du vill lägga till en underuppgift. Mer information om hur du navigerar till en iteration finns i [Visa en iteration](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
+1. Gå till den Agile-iteration eller det projekt som innehåller artikeln där du vill lägga till en underuppgift. Mer information om hur du navigerar till en iteration finns i [Visa en iteration](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
 1. Gå till artikelrutan på artikelpanelen där du vill lägga till en underuppgift.
 1. Klicka på **[!UICONTROL Add Subtask]** på artikelns huvudkort för att skapa en underuppgift till artikeln.
 
@@ -72,7 +72,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
    Klicka på **[!UICONTROL Add Subtask]** på en underaktivitetspanel för att skapa en underaktivitet till underaktiviteten.
 
-   [!DNL Workfront] har stöd för oändliga nivåer av underaktiviteter, men bara två nivåer (underaktiviteter för underaktiviteter) visas på den flexibla artikelpanelen.
+   [!DNL Workfront] har stöd för oändliga nivåer med underaktiviteter, men bara två nivåer (underaktiviteter för underaktiviteter) visas på Agile-artikelpanelen.
 
    ![Lägg till underaktivitet](assets/agile-story-addsubtask2-NWE.png)
 

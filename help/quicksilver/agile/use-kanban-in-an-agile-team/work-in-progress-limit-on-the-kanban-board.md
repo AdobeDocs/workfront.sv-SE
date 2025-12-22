@@ -6,7 +6,7 @@ description: Du kan konfigurera en PIA-gräns (Work In Progress) för varje kolu
 author: Jenny
 feature: Agile
 exl-id: 540880ad-46af-416b-8e0b-5df869555424
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Visa gränsen för [!UICONTROL Work In Progress] (PIA) på [!UICONTROL Kanban]-kortet
 
-När en PIA-gräns har konfigurerats för ditt mobila team visas den i det övre högra hörnet i varje kolumn på Kanban-tavlan (med undantag för kolumnen [!UICONTROL Complete]).
+När en PIA-gräns har konfigurerats för ditt Agile-team visas den i det övre högra hörnet i varje kolumn på Kanban-tavlan (med undantag för kolumnen [!UICONTROL Complete]).
 
 Varje gång gränsen överskrids för en kolumn på [!UICONTROL Kanban]-panelen markeras gränsen i rött och ett meddelande visas.
 ![Pågående arbete-begränsning](assets/kanban-wip.png)

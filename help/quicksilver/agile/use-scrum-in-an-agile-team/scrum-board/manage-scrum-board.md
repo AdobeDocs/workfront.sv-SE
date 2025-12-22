@@ -6,7 +6,7 @@ description: Du kan flytta en artikel eller ett problem från Urklipp till en an
 author: Jenny
 feature: Agile
 exl-id: 72990251-0264-4e68-83ef-1a9cde5b685c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Du kan flytta en artikel eller ett problem från [!UICONTROL Scrum]-panelen till en annan iteration eller till eftersläpningen, eller ta bort den från [!UICONTROL Scrum]-panelen. När du tar bort en artikel eller ett problem flyttas den till papperskorgen i 30 dagar och kan endast återställas av systemadministratören.
 
-Om du vill ta bort en uppgift eller ett problem från upprepningen utan att ta bort den eller skicka den till eftersläpningen går du till projektet och tar bort teamet från uppdragskolumnen. Detta tar bort uppgiften eller problemet från kontrollpanelen, men det finns kvar i projektet.
+Om du vill ta bort en uppgift eller ett problem från upprepningen utan att ta bort den eller skicka den till eftersläpningen går du till projektet och tar bort Agile-teamet från uppdragskolumnen. Detta tar bort uppgiften eller problemet från kontrollpanelen, men det finns kvar i projektet.
 
 ## Åtkomstkrav
 

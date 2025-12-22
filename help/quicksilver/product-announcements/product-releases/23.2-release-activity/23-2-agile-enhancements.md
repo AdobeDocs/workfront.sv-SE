@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: dc97f4a2-9c51-4ccd-8121-c00fd1ac6988
-source-git-commit: ba11f324f6ad68f841bf4266e5eb27f59e25ddae
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1198'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 23.2 Agile-förbättringar
 
-Den här sidan beskriver alla smidiga förbättringar som gjorts i version 23.2 till förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön med version 23.2.
+Den här sidan beskriver alla Agile-förbättringar som gjorts i version 23.2 till förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön med version 23.2.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i 23.2-versionscykeln finns i [23.2 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
@@ -27,7 +27,7 @@ Mer information finns i [Lägga till befintliga uppgifter eller ärenden på en 
 
 ## Iterationsfunktioner som finns i Adobe Workfront Boards
 
-Flera nya funktioner som finns på Workfront Boards gör det möjligt att använda den flexibla Scrum-funktionen. Bland dessa funktioner finns:
+Flera nya funktioner som finns på Workfront Boards gör det möjligt att använda funktionerna i Agile Scrum. Bland dessa funktioner finns:
 
 * Arbetsflöden för att gruppera anslagstavlor som hör till samma team och för samarbete i arbetsgrupper
 * En lista med kort, eller en eftersläpning i arbetet, med möjlighet att använda källor för att ansluta kort till Workfront uppgifter och problem

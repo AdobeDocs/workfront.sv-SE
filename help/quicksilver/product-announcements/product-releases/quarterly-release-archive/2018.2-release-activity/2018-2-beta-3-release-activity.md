@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 239a4e7e-e9db-4cf0-a703-8888e00f0d83
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Mer information om att inkludera flaggor i aktivitetsrapporter finns i [Ordlista
 
 ## Redigera fält direkt på ett artikelkort {#edit-fields-directly-on-an-agile-story-card}
 
-När du visar den flexibla anslagstavlan för ett smidigt team kan du nu redigera fälten textbundet, direkt på artikelkortet. Du kan redigera alla fält som du har behörighet att redigera när du visar den ursprungliga uppgiften eller utgåvan.
+När du tittar på Agile-anslagstavlan för ett Agile-team kan du nu redigera fälten textbundet, direkt på artikelkortet. Du kan redigera alla fält som du har behörighet att redigera när du visar den ursprungliga uppgiften eller utgåvan.
 
 Före den här ändringen gick det bara att visa information på artikelkortet, inte redigera den.
 

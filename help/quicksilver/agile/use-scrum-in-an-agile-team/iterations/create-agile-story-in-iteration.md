@@ -2,20 +2,20 @@
 product-area: agile-and-teams;projects
 navigation-topic: iterations
 title: Skapa en Agile-artikel i en Iteration
-description: I den här artikeln beskrivs hur du skapar en ny, flexibel artikel när du redan är i iteration.
+description: I den här artikeln beskrivs hur du skapar en ny Agile-artikel när du redan är i iteration.
 author: Jenny
 feature: Agile
 exl-id: 9712e065-5fbf-4deb-a39f-36e0e918ed12
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
 
 ---
 
-# Skapa en flexibel artikel i en iteration
+# Skapa en Agile-artikel i en iteration
 
-I den här artikeln beskrivs hur du skapar en ny, flexibel artikel när du redan är i iteration. Mer information om hur du skapar en flexibel artikel från en aktivitet, ett problem eller något annat område i [!DNL Adobe Workfront] finns i [Lägga till artiklar i en befintlig iteration](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+I den här artikeln beskrivs hur du skapar en ny Agile-artikel när du redan är i iteration. Mer information om hur du skapar en Agile-artikel från en aktivitet, ett problem eller något annat område i [!DNL Adobe Workfront] finns i [Lägga till artiklar i en befintlig iteration](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
 
 ## Åtkomstkrav
 
@@ -43,9 +43,9 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 +++
 
-## Skapa en flexibel artikel i en iteration
+## Skapa en Agile-artikel i en iteration
 
-1. Gå till den smidiga upprepningen där du vill skapa artikeln:
+1. Gå till den Agile-iteration där du vill skapa artikeln:
 
    {{step1-to-team}}
 

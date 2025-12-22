@@ -2,11 +2,11 @@
 product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: Konfigurera Scrum
-description: Du kan konfigurera följande alternativ för Scrum-team under eller efter det att teamet har skapats.
+description: Du kan konfigurera följande alternativ för Scrum Agile-team under eller efter det att teamet har skapats.
 author: Jenny
 feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1607'
 ht-degree: 0%
@@ -15,17 +15,17 @@ ht-degree: 0%
 
 # Konfigurera [!UICONTROL Scrum]
 
-Du kan skapa ett smidigt team i [!DNL Adobe Workfront] enligt beskrivningen i [Skapa ett smidigt team](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md). När ni skapar ett smidigt team kan ni välja den metod som teamet använder för att slutföra arbetet. Du kan välja mellan följande alternativ:
+Du kan skapa ett Agile-team i [!DNL Adobe Workfront] enligt beskrivningen i [Skapa ett Agile-team](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md). När du skapar ett Agile-team kan du välja den metod som teamet använder för att slutföra sitt arbete. Du kan välja mellan följande alternativ:
 
 * Scrum
 * Kanban
 
-I den här artikeln beskrivs hur du konfigurerar inställningarna för ett Scrum-team. När du har skapat ett smidigt team och valt Scrum-metod kan du uppdatera följande inställningar i den här artikeln:
+I den här artikeln beskrivs hur du konfigurerar inställningarna för ett Scrum-team. När du har skapat ett Agile-team och valt Scrum-metod kan du uppdatera följande inställningar i den här artikeln:
 
 * Om artiklarna beräknas i antal poäng eller timmar
-* Statuskolumnerna på den flexibla artikelpanelen för iterationer och projekt
-* Ytterligare fält att visa på artikelkort på den flexibla artikelpanelen
-* Hur färgindikatorer används för artiklar på den flexibla artikelpanelen
+* Statuskolumnerna på Agile-anslagstavlan för iterationer och projekt
+* Ytterligare fält att visa på artikelkort på Agile-anslagstavlan
+* Hur färgindikatorer används för artiklar på Agile-artikelpanelen
 * Hur datum används när arbetsobjekt läggs till i en iteration
 
 Mer information om hur du konfigurerar ett Kanban-team finns i [Konfigurera Kanban](/help/quicksilver/agile/get-started-with-agile-in-workfront/configure-kanban.md).
@@ -71,12 +71,12 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 Du kan konfigurera artiklar att beräknas med hjälp av punkter eller timmar.
 
-Så här konfigurerar du hur berättelser beräknas för ditt team:
+Så här konfigurerar du hur berättelser beräknas för ditt Agile-team:
 
 {{step1-to-team}}
 
 1. Klicka på ikonen **[!UICONTROL Switch team]** och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
-1. Välj det flexibla team som du vill hantera.
+1. Välj det Agile-team som du vill hantera.
 1. Klicka på menyn **[!UICONTROL More]** och välj sedan **[!UICONTROL Edit]**.
 
    Endast teammedlemmar med en [!UICONTROL Standard]-, [!UICONTROL Plan]- eller [!UICONTROL Work]-licens kan se det här alternativet.
@@ -88,24 +88,24 @@ Så här konfigurerar du hur berättelser beräknas för ditt team:
 
 1. Klicka på **[!UICONTROL Save changes]**.
 
-## Konfigurera statuskolumner på den flexibla artikelpanelen
+## Konfigurera statuskolumner på Agile-artikelpanelen
 
-Du kan konfigurera vilka kolumner som ska visas på den flexibla artikelpanelen för alla iterationer som har tilldelats ditt team eller för ett visst projekt.
+Du kan konfigurera vilka kolumner som ska visas på Agile-artikelpanelen för alla iterationer som har tilldelats ditt team eller för ett visst projekt.
 
 * [Konfigurera statuskolumner för iterationer](#configure-status-columns-for-iterations)
 * [Konfigurera statuskolumner för projekt](#configure-status-columns-for-projects)
 
 ### Konfigurera statuskolumner för iterationer {#configure-status-columns-for-iterations}
 
-Du kan definiera de statusar som finns på artikeltavlan för det flexibla teamet. Det här är de enda statusvärdena som visas på artikelpanelen.
+Du kan definiera de statusar som finns på artikeltavlan för Agile-teamet. Det här är de enda statusvärdena som visas på artikelpanelen.
 
-Så här definierar du de statusvärden som är tillgängliga för den artikelpanel som är kopplad till det flexibla teamet:
+Så här definierar du de statusvärden som är tillgängliga för den artikelpanel som är kopplad till Agile-teamet:
 
 {{step1-to-team}}
 
 1. Klicka på ikonen **[!UICONTROL Switch team]** ![Byt ikon för team](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
 
-1. Välj det flexibla team som du vill hantera.
+1. Välj det Agile-team som du vill hantera.
 1. Klicka på menyn **[!UICONTROL More]** och välj sedan **[!UICONTROL Edit]**.
 
    Endast teammedlemmar med antingen en [!UICONTROL Plan]- eller [!UICONTROL Work]-licens kan se det här alternativet.
@@ -135,9 +135,9 @@ Så här definierar du de statusvärden som är tillgängliga för den artikelpa
 
 ### Konfigurera statuskolumner för projekt {#configure-status-columns-for-projects}
 
-Mer information om hur du konfigurerar statuskolumner för ett projekt finns i avsnittet [Skapa eller anpassa en [!UICONTROL Agile] vy &#x200B;](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view) i artikeln [Skapa eller redigera vyer i  [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+Mer information om hur du konfigurerar statuskolumner för ett projekt finns i avsnittet [Skapa eller anpassa en [!UICONTROL Agile] vy ](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view) i artikeln [Skapa eller redigera vyer i  [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
-## Konfigurera ytterligare fält som ska visas på artikelkort på den flexibla artikelpanelen
+## Konfigurera ytterligare fält som ska visas på artikelkort på Agile-anslagstavlan
 
 När du lägger till fält i artikelkort är fälten skrivskyddade och skrivskyddade när fältet fylls i.
 
@@ -157,13 +157,13 @@ Du kan visa ytterligare data (inklusive anpassade data) på artikelkort. Du kan 
 >
 >Om du använder ett anpassat fält på ett artikelkort kan det inte innehålla punkter i namnet.
 
-Så här konfigurerar du artikelkort som tilldelats det flexibla teamet så att ytterligare fält visas:
+Så här konfigurerar du artikelkort som tilldelats Agile-teamet så att ytterligare fält visas:
 
 {{step1-to-team}}
 
 1. Klicka på ikonen **[!UICONTROL Switch team]** ![Byt ikon för team](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
 
-1. Välj det flexibla team som du vill hantera.
+1. Välj det Agile-team som du vill hantera.
 1. Klicka på menyn **[!UICONTROL More]** och välj sedan **[!UICONTROL Edit]**.
 Endast teammedlemmar med antingen en [!UICONTROL Plan]- eller [!UICONTROL Work]-licens kan se det här alternativet.
 
@@ -177,17 +177,17 @@ Endast teammedlemmar med antingen en [!UICONTROL Plan]- eller [!UICONTROL Work]-
 1. Skriv in **[!UICONTROL Display name]** som fältet ska visas på artikeln eller utgivningskortet.
 1. Klicka på **[!UICONTROL Save changes]**.
 
-## Konfigurera hur färgindikatorer används för artiklar på den flexibla artikelpanelen
+## Konfigurera hur färgindikatorer används för artiklar på Agile-artikelpanelen
 
-Som standard färgkodas plattor i en flexibel iteration enligt det projekt som artikeln är kopplad till. Varje projekt tilldelas godtyckligt en färg på artikelpanelen. Du kan ändra det här standardbeteendet för varje smidigt team. Färger för flexibla artiklar kan knytas till artikelprioritet, ägare och så vidare.
+Som standard färgkodas paneler i en Agile-iteration enligt det projekt som artikeln är kopplad till. Varje projekt tilldelas godtyckligt en färg på artikelpanelen. Du kan ändra det här standardbeteendet för varje Agile-team. Färger för Agile-artiklar kan knytas till artikelprioritet, ägare och så vidare.
 
-Så här ändrar du hur färger tilldelas artiklar för ett smidigt team:
+Så här ändrar du hur färger tilldelas artiklar för ett Agile-team:
 
 {{step1-to-team}}
 
 1. Klicka på ikonen **[!UICONTROL Switch team]** ![Byt ikon för team](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
 
-1. Välj det flexibla team som du vill hantera.
+1. Välj det Agile-team som du vill hantera.
 1. Klicka på menyn **[!UICONTROL More]** och välj sedan **[!UICONTROL Edit]**.
 
    Endast teammedlemmar med antingen en [!UICONTROL Plan]- eller [!UICONTROL Work]-licens kan se det här alternativet.
@@ -197,7 +197,7 @@ Så här ändrar du hur färger tilldelas artiklar för ett smidigt team:
 1. I avsnittet [!UICONTROL Agile] i området [!UICONTROL Associate Card Color to] väljer du bland följande alternativ:
 
    * **[!UICONTROL Project]**: Färger är kopplade till projektet som artikeln är kopplad till. (När en artikel skapas måste den kopplas till ett projekt, vilket beskrivs i [Skapa en artikel](/help/quicksilver/agile/work-in-an-agile-environment/create-an-agile-story.md). Alla uppgifter från samma projekt visas med samma färg.
-   * **[!UICONTROL Free Form]**: Alla kort visas som blått som standard tills en användare ändrar färgen manuellt, enligt beskrivningen i [[!UICONTROL Categorize stories by color] på skärmtangentbordet &#x200B;](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md).
+   * **[!UICONTROL Free Form]**: Alla kort visas som blått som standard tills en användare ändrar färgen manuellt, enligt beskrivningen i [[!UICONTROL Categorize stories by color] på skärmtangentbordet ](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md).
    * **[!UICONTROL Priority]**: Färgerna är kopplade till artikelprioriteten enligt följande:
 
       * Hög = Röd
