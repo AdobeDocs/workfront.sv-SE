@@ -1,30 +1,18 @@
 ---
 title: Skapa Workspace Hierarkier
-description: Som arbetsytehanterare kan du skapa flera arbetsytehierarkier mellan posttyperna i Adobe Workfront Planning. När du har anslutit posttyper på en arbetsyta och skapat en hierarki, kopplas posttyperna till varandra, med en posttyp som angetts som överordnad och upp till 6 andra posttyper som konfigurerats som underordnade.
-hide: true
-hidefromtoc: true
-exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
-workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 0%
-
----
-
-<!--update the metadata with real information when making this available in TOC and in the left nav:
-
----
-title: Create Workspace Hierarchies
-description: You can create multiple workspace hierarchies between the record types in a workspace. 
+description: Som arbetsytehanterare kan du skapa flera arbetsytehierarkier mellan posttyperna i Adobe Workfront Planning. När du har anslutit posttyper på en arbetsyta och skapat en hierarki, kopplas posttyperna till varandra, med en posttyp som angetts som överordnad och upp till tre andra posttyper som konfigurerats som underordnade.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hide: yes 
-hidefromtoc: yes 
+exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
+source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+workflow-type: tm+mt
+source-wordcount: '953'
+ht-degree: 0%
+
 ---
 
--->
 
 # Skapa arbetsytehierarkier
 
@@ -38,13 +26,11 @@ När posttyperna har anslutits inom en arbetsyta kan du skapa en hierarki som or
 
 Om det inte redan finns en anslutning mellan två posttyper kan den skapas när du skapar hierarkin. När hierarkin har definierats skapar den en strukturerad sökväg över relaterade posttyper på arbetsytan.
 
-Hierarkier genererar vägbeskrivningar för posttyperna och deras respektive poster <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> som visas i deras rubriker. På så sätt vet användarna var de befinner sig i hierarkin i vilket skede som helst i arbetsflödet.
+Hierarkier genererar vägbeskrivningar för sina respektive poster som visas i sina rubriker. På så sätt vet användarna var de befinner sig i hierarkin i vilket skede som helst i arbetsflödet.
 
 Allmän information om hierarkier och vägbeskrivningar finns i [Översikt över hierarki och vägbeskrivningar](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 ## Åtkomstkrav
-
-<!--check the access to see if you oversimplified???-->
 
 +++ Expandera om du vill visa åtkomstkraven för att utföra stegen i den här artikeln:  
 
@@ -84,6 +70,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 +++
 
 ## Skapa en arbetsytehierarki
+
+Du kan skapa upp till fem hierarkier på en arbetsyta.
 
 {#step1-to-planning}
 
@@ -144,7 +132,7 @@ Varje ytterligare objekttyp blir underordnad till föregående objekttyper.
    1. Återgå till arbetsytans **inställningsområde** och klicka på **Ny hierarki** igen. Följ sedan stegen för att skapa en hierarki.
 
 1. (Valfritt) Fortsätt lägga till upp till fyra objekttyper i hierarkierna enligt stegen ovan. Du kan lägga till alla objekttyper först och sedan lägga till anslutningsfälten mellan dem.
-1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort &#x200B;](assets/minus-icon.png) för att ta bort en anslutning.
+1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort ](assets/minus-icon.png) för att ta bort en anslutning.
 1. Klicka på **Spara** för att spara hierarkin.
 
    >[!TIP]
@@ -155,6 +143,13 @@ Varje ytterligare objekttyp blir underordnad till föregående objekttyper.
 
    * Hierarkin läggs till i avsnittet **Hierarkier** på arbetsytan.
    * Posterna som fyller i anslutningsfälten visar alla anslutningar i sina vägbeskrivningar när du går till en posts sida.
+
+   >[!NOTE]
+   >
+   >Du kan koppla en post från en underordnad posttyp till upp till 10 poster från en överordnad posttyp.
+   >
+   >Mer information finns i [Översikt över hierarki och vägbeskrivningar](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
 1. (Valfritt) Hovra över en hierarki och klicka sedan på menyn **Mer** .
 
    ![Menyn Mer om hierarki har utökats](assets/hierarchy-more-menu-expanded.png)

@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 46f3be50925d2e830c572ce9bbad0d3b320f6a95
+source-git-commit: d956671b535d5c7a11d0fb17dc003a665a4f0597
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1798'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,47 @@ I den här artikeln beskrivs funktionerna som lanseras för Workfront Planning i
 <!--keep the sentence below for all future quarterly release pages-->
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning finns i [Versionsaktivitet för Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Skapa posttypshierarkier i arbetsytor
+
+>[!NOTE]
+>
+>Förhandsgranska: 23 december 2025
+>Production fast release: 14 januari 2026
+>Produktion för alla: 15 januari 2026
+
+Du kan nu definiera flexibla men strukturerade hierarkier mellan post- och objekttyper.
+
+Hierarkier är anslutningar mellan posttyper. Du kan ha upp till fyra post- och objekttyper anslutna i en hierarki, och du kan ha upp till fem hierarkier i en arbetsyta. Den första posttypen i hierarkin är den första överordnade posten.
+
+Du kan använda hierarkier för att organisera arbetet och för att visualisera hur strategin leder till körning.
+
+Tänk på följande när du skapar hierarkier:
+
+* Du kan bara ansluta Planning-posttyper från en arbetsyta och Workfront-projekt i en hierarki.
+* En posttyp eller ett projekt kan bara ha en överordnad i samma arbetsyta.
+* En posttyp kan vara överordnad i flera hierarkier.
+* Kopplingsbara posttyper kan inte användas i hierarkier i andra arbetsytor än sina egna.
+* Globala posttyper kan bara användas i hierarkier i arbetsytor som de skapades i eller har lagts till i.
+
+Mer information finns i [Översikt över hierarki och vägbeskrivningar](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
+## Nya enhetliga vägbeskrivningar har lagts till på posternas sidor
+
+>[!NOTE]
+>
+>Förhandsgranska: 23 december 2025
+>Production fast release: 14 januari 2026
+>Produktion för alla: 15 januari 2026
+
+När du skapar hierarkier mellan posttyper genereras vägbeskrivningar för poster som tillhör de posttyperna.
+
+Registrera vägbeskrivningar återspeglar deras plats i en hierarki. När du har skapat hierarkier kan du se en posts synliga spreadcrumb högst upp på sidan, vilket anger vilka andra överordnade eller underordnade objekt som är kopplade till den. Hierarkierna är desamma i Workfront och Planning.
+
+Du kan till exempel visa ett projekts planeringshierarki när det är anslutet till posttyperna Planering i dess planeringsspåret och dess Workfront-hierarki när det är anslutet till Workfront-objekttyper, som portföljer eller Program, i Workfront.
+
+Mer information finns i [Översikt över hierarki och vägbeskrivningar](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
 
 ## Förbättringar av anslutna postsidor
 
@@ -66,54 +107,6 @@ Jokertecknet är tillgängligt i fält där värdet är en användare.
 
 Mer information om hur du konfigurerar projektanslutningsvyer, inklusive filter, finns i [Lägga till en ansluten postsida till en post](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
-<!--
-
-## Create record type hierarchies in workspaces
-
->[!NOTE]
->
->Preview: December 18, 2025 
->Production fast: January 14, 2026 
->Production all: January 15, 2026 
-
-You can now define flexible but structured hierarchies between record or object types.  
-
-Hierarchies are connections between record types. You can have up to 4 record and object types connected in one hierarchy, and you can have multiple hierarchies in one workspace. The first record type in the hierarchy is a parent, and all the other record or object types are its children objects.  
-
-You can use hierarchies to organize work in a way that reflects how your teams actually plan, operate, and deliver and to visualize how strategy flows into execution. 
-
-Consider the following when building hierarchies: 
-
-* You can have multiple hierarchies in a workspace 
-* You can connect only Planning record types from one workspace and Workfront projects in a hierarchy.  
-* A record type or a project can only have one parent in the same workspace. 
-* A record type can be the parent in multiple hierarchies 
-* Connectable record types cannot be used in hierarchies in other workspaces than their own. 
-* Global record types can be used in hierarchies only in the workspaces that they were created in or have been added to.  
-
-When you create hierarchies between record types, they generate breadcrumbs for records that belong to those record types. 
-
-For more information, see [Hierarchy and breadcrumb overview](help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
-
--->
-
-<!--
-
-## New unified breadcrumbs added to records' pages
-
->[!NOTE]
->
->Preview: December 18, 2025 
->Production fast: January 14, 2026 
->Production for all: January 15, 2026 
-
-We have added breadcrumbs to a record's page to reflect its spot in a hierarchy. After you create hierarchies, you can see a record's breadcrumb at the top of its page, indicating what other parent or children objects are connected to it. Hierarchies are consistent across Workfront and Planning.  
-
-For example, you can view a project's Planning hierarchy when it's connected to Planning record types in its Planning breadcrumb, and its Workfront hierarchy when it's connected to Workfront object types, like Portfolios or Programs, in Workfront.  
-
-For information, see [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
-
--->
 
 ## Förbättringar av Workspace huvudsida
 
@@ -134,7 +127,6 @@ Följande förbättringar har gjorts på startsidan för Workspaces i Workfront 
 Mer information finns i [Redigera arbetsytor](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
 
-
 ## Lägga till fältet för varumärkesanslutning till Produkter och profiler som standard på arbetsytan i GenStudio
 
 >[!NOTE]
@@ -142,7 +134,7 @@ Mer information finns i [Redigera arbetsytor](/help/quicksilver/planning/archite
 >Förhandsgranska: 11 december 2025
 >Production fast release: 11 december 2025
 >Produktion för alla: 11 december 2025
->[!BADGE Frånschemat &#x200B;]{type=Neutral}
+>[!BADGE Frånschemat ]{type=Neutral}
 
 Anslutningsfältet med GenStudio for Performance Marketing Brand läggs nu till som standard för posttyperna Produkter och Personas på arbetsytan GenStudio i Workfront Planning.
 
@@ -159,7 +151,7 @@ Mer information finns i [Kom igång med integreringen mellan Adobe Workfront Pla
 >Förhandsgranska: 11 december 2025
 >Production fast release: 11 december 2025
 >Produktion för alla: 11 december 2025
->[!BADGE Frånschemat &#x200B;]{type=Neutral}
+>[!BADGE Frånschemat ]{type=Neutral}
 
 Vi har lagt till ett skyddsutkast som förhindrar dig från att ta bort behörigheter för GenStudio for Performance Marketing-användare från Workfront Planning-objekt. Med den här förbättringen kan du inte längre ta bort GenStudio-användare från GenStudio-arbetsytan i Planning, och du kan inte heller inaktivera ärvda behörigheter för posttyper i GenStudio-arbetsytan om dessa behörigheter omfattar GenStudio-användare. När du tog bort de här användarna från GenStudio-arbetsytan i Planning före den här förbättringen förlorar de även behörigheter för posttyper i GenStudio.
 

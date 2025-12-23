@@ -1,28 +1,18 @@
 ---
 title: Översikt över hierarki och vägbeskrivningar
-description: Du kan skapa flera arbetsytehierarkier mellan posttyperna på en arbetsyta.
-hide: true
-hidefromtoc: true
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
-workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 0%
-
----
-
-<!--update the metadata with real information when making this available in TOC and in the left nav:
-
----
-title: Hierarchy and Breadcrumb Overview
-description: You can create multiple workspace hierarchies between the record types in a workspace. 
+description: Du kan skapa flera arbetsytehierarkier mellan posttyperna på en arbetsyta efter att du har anslutit posttyperna.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hide: yes 
-hidefromtoc: yes 
+source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+workflow-type: tm+mt
+source-wordcount: '1042'
+ht-degree: 0%
+
 ---
--->
+
+
 
 # Översikt över hierarki och vägbeskrivningar
 
@@ -30,7 +20,7 @@ hidefromtoc: yes
 
 <span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-Som arbetsytehanterare kan du definiera flexibla men strukturerade hierarkier mellan posttyper och andra objekttyper i Adobe Workfront Planning.
+Som arbetsytehanterare kan du definiera flexibla men strukturerade hierarkier mellan anslutna posttyper och andra objekttyper i Adobe Workfront Planning.
 
 Hierarkier är anslutningar mellan posttyper eller mellan posttyper och ett Workfront-projekt.
 
@@ -45,7 +35,7 @@ Nedan följer några fördelar med att använda hierarkier i dina arbetsytor:
 
 ## Att tänka på när du arbetar med hierarkier
 
-* Du kan skapa flera hierarkier för en arbetsyta.
+* Du kan skapa upp till fem hierarkier för en arbetsyta.
 * Du kan ha upp till fyra post- och objekttyper anslutna i en hierarki.
 * Du kan bara ansluta följande objekttyper i en arbetsytehierarki:
    * Posttyper som tillhör den arbetsyta som du skapar hierarkierna i.
@@ -60,6 +50,9 @@ Nedan följer några fördelar med att använda hierarkier i dina arbetsytor:
   * Om det redan finns en anslutning mellan de valda posttyperna återanvänds den befintliga anslutningen.
 * Om det inte finns någon anslutning skapar Workfront en sådan i hierarkiinställningarna.
 * Inställningen **Skapa motsvarande fält för den länkade posttypen** måste aktiveras för det anslutna fältet för poster och objekttyper som du vill ta med i en hierarki.
+* Du kan inte ta bort en posttyp om den ingår i en hierarki.
+* Du kan inte ta bort ett anslutningsfält om posttypen som refereras i fältet är en del av en hierarki. Du måste först ta bort posttypen från hierarkin eller ta bort hierarkin innan du kan ta bort posttypen.
+* Du kan ta bort ett uppslagsfält från en ansluten posttyp. Det går inte att återställa informationen i fältet.
 * Följande är regler för hierarkiinställningar:
    * En posttyp kan bara ha en överordnad posttyp på en angiven arbetsyta.
 
@@ -77,18 +70,22 @@ Nedan följer några fördelar med att använda hierarkier i dina arbetsytor:
    * Globala posttyper kan visas i flera arbetsytor i flera hierarkier efter att de har lagts till på dessa arbetsytor.
 
      Om en Campaign till exempel är en global posttyp och en del av en hierarki i Workspace 1, kan den läggas till som en befintlig posttyp i Workspace 2 och ingå i en hierarki där. Men den kan inte ingå i en hierarki i Workspace 2 endast när den har angetts som en global posttyp i Workspace 1, men inte läggas till i Workspace 2.
+   * När anslutna posttyper ingår i hierarkier kan du koppla en post från en underordnad posttyp till upp till 10 poster från en överordnad posttyp.
+
+     Om du till exempel skapar en hierarki mellan kampanjer som överordnad och personlig post som underordnad post, kan du koppla samma person till upp till 10 kampanjer.
 
 ## Att tänka på när du visar vägbeskrivningar
-
-<!-- this might be incomplete, because I have no UI for this yet-->
 
 När du skapar hierarkier mellan posttyper genereras vägbeskrivningar för poster som tillhör de posttyperna.
 
 Om du t.ex. skapar en hierarki och kopplar ihop kampanjer med taktik, sedan med Aktiviteter, och sedan med Projekt, när du navigerar till en post av någon av de typer som är kopplade till hierarkin, kan du visa var i hierarkin posten placeras.
 
+![Breadcrumb](assets/breadcrumbs-on-project.png)
+
 Tänk på följande:
 
 * Om en posttyp ingår i flera hierarkier kan du växla mellan hierarkier från postens vägbeskrivningar på postens sida.
+* Om posttypen i en hierarki har flera poster kan du välja poster från den synliga sökvägen.
 * Brödraperier fungerar i Workfront och Planning.
 
   Om du till exempel tittar på ett projekt som är kopplat till Planering-kampanjer och taktik, och även till Workfront portfolior och program, kan du växla mellan både Planning och Workfront objekttyper från den stora mängden.
