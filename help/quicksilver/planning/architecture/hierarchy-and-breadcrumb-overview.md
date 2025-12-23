@@ -5,7 +5,7 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
 workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 0%
@@ -46,8 +46,9 @@ Nedan följer några fördelar med att använda hierarkier i dina arbetsytor:
    * AEM Assets.
 * Hierarkier kan innehålla både Planning-posttyper och Workfront-projekt samtidigt.
 
-      Du kan till exempel ha en Campaign-posttyp med Planning Tactics och Workfront Projects som underordnade i samma arbetsytehierarki.
-  * Om det redan finns en anslutning mellan de valda posttyperna återanvänds den befintliga anslutningen.
+  Du kan till exempel ha en Campaign-posttyp med Planning Tactics och Workfront Projects som underordnade i samma arbetsytehierarki.
+
+* Om det redan finns en anslutning mellan de valda posttyperna återanvänds den befintliga anslutningen.
 * Om det inte finns någon anslutning skapar Workfront en sådan i hierarkiinställningarna.
 * Inställningen **Skapa motsvarande fält för den länkade posttypen** måste aktiveras för det anslutna fältet för poster och objekttyper som du vill ta med i en hierarki.
 * Du kan inte ta bort en posttyp om den ingår i en hierarki.

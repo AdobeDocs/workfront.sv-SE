@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '523'
 ht-degree: 2%
 
 ---
@@ -54,7 +54,7 @@ I följande tabell visas gränserna för hur många objekt du kan skapa i Workfr
 | Antal enheter (användare, roller, team, företag, grupper) som du kan dela ett Planning-objekt med | 100 |
 | <span class="preview">Antal posttyper i en hierarki</span> | 4 |
 | <span class="preview">Antal hierarkier på en arbetsyta</span> | 5 |
-| <span class="preview">Antal överordnade anslutna poster till en underordnad i en hierarki</span> | 10 |
+| <span class="preview">Antal poster från en överordnad posttyp kopplad till en post från en underordnad posttyp, i en hierarki</span> | 10 |
 | Antal poster som är anslutna till en post i en flervalsanslutningstyp, <span class="preview">utan en hierarki konfigurerad mellan posterna</span> | 500 |
 
 *Vi rekommenderar att du inte har för många arbetsytor eftersom de kan bli svåra att hantera och arbetsflödena kan vara för fragmenterade.
