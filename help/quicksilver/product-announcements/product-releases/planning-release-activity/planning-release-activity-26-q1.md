@@ -134,7 +134,7 @@ Mer information finns i [Redigera arbetsytor](/help/quicksilver/planning/archite
 >Förhandsgranska: 11 december 2025
 >Production fast release: 11 december 2025
 >Produktion för alla: 11 december 2025
->[!BADGE Frånschemat ]{type=Neutral}
+>[!BADGE Frånschemat &#x200B;]{type=Neutral}
 
 Anslutningsfältet med GenStudio for Performance Marketing Brand läggs nu till som standard för posttyperna Produkter och Personas på arbetsytan GenStudio i Workfront Planning.
 
@@ -151,7 +151,7 @@ Mer information finns i [Kom igång med integreringen mellan Adobe Workfront Pla
 >Förhandsgranska: 11 december 2025
 >Production fast release: 11 december 2025
 >Produktion för alla: 11 december 2025
->[!BADGE Frånschemat ]{type=Neutral}
+>[!BADGE Frånschemat &#x200B;]{type=Neutral}
 
 Vi har lagt till ett skyddsutkast som förhindrar dig från att ta bort behörigheter för GenStudio for Performance Marketing-användare från Workfront Planning-objekt. Med den här förbättringen kan du inte längre ta bort GenStudio-användare från GenStudio-arbetsytan i Planning, och du kan inte heller inaktivera ärvda behörigheter för posttyper i GenStudio-arbetsytan om dessa behörigheter omfattar GenStudio-användare. När du tog bort de här användarna från GenStudio-arbetsytan i Planning före den här förbättringen förlorar de även behörigheter för posttyper i GenStudio.
 
