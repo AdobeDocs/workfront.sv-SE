@@ -6,9 +6,9 @@ description: Vissa funktioner skiljer sig åt mellan  [!DNL Workfront]  och Adob
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: b9547764abd4f1f61d93da6bc66d9e6776954f4d
+source-git-commit: 4ce69180b8f419ff5634d0dba802f9fb57cd758b
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: '1378'
 ht-degree: 0%
 
 ---
@@ -61,9 +61,8 @@ Mer information om [!DNL Admin Console] finns i följande artiklar:
 
 Befintliga kunder kontaktas för att schemalägga migreringar. De supportteam som arbetar med migrering kommer att hjälpa kunderna genom processen, ge råd om konfigurationen av [!DNL Admin Console] och tillhandahålla länkar till dokumentation som behövs för att göra flytten så enkel och krångelfri som möjligt.
 
-* [[!DNL Adobe Workfront] Supportöversikt](https://experienceleague.adobe.com/sv/docs/customer-one/using/workfront/overview)
-* [[!DNL Workfront Admin Console] information](https://experienceleague.adobe.com/sv/docs/customer-one/using/workfront/landing)
-* [[!DNL Adobe Business Platform] och [!DNL Admin Console] Vanliga frågor](https://experienceleague.adobe.com/sv/docs/customer-one/using/workfront/faq)
+* [[!DNL Adobe Workfront] Supportöversikt](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/workfront/overview)
+* [[!DNL Adobe Business Platform] och [!DNL Admin Console] Vanliga frågor](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/workfront/faq)
 
 ### Hur hanterar du [!DNL Adobe Admin Console] för företag som redan har detta aktiverat för Federated ID:n på ett annat sätt än [!DNL Workfront] enkel inloggning har konfigurerats?
 
