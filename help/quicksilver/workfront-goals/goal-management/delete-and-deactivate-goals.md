@@ -6,9 +6,9 @@ description: När du börjar arbeta med ett mål och det blir irrelevant i din o
 author: Alina
 feature: Workfront Goals
 exl-id: 3089adeb-3e56-492a-82fe-536f57079b73
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '590'
 ht-degree: 0%
 
 ---
@@ -178,12 +178,10 @@ Deactivating goals differs depending on which environment you use.
 1. Click the **X** icon in the upper-right to close Goal Details.
 -->
 
-1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Mål**.
+{{step1-to-goals}}
 
-   Mållistan visas.
+Mållistan visas.
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
 
 1. (Valfritt) Ändra filtren så att endast aktiva mål visas.
 
@@ -235,12 +233,10 @@ Deleting  goals differs depending on which environment you use.
    The goal is removed from the Goal List and cannot be recovered.
 -->
 
-1. Klicka på ikonen Huvudmeny ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Mål**.
+{{step1-to-goals}}
 
-   Mållistan visas.
+Mållistan visas.
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
 1. Klicka på namnet på ett mål. Målsidan öppnas.
 1. Klicka på ikonen **Mer** meny ![Mer](assets/more-icon.png) till höger om målnamnet, klicka på **Ta bort mål** och sedan på **Ta bort**.
 

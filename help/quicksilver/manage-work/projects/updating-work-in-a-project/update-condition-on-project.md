@@ -6,7 +6,7 @@ description: Villkoret för ett projekt är en flagga som placeras på det för 
 author: Alina
 feature: Work Management
 exl-id: 1f46386e-e1ae-4845-8cc4-09dd7d39076f
-source-git-commit: 2d8ad8baa6c470fd82b61202cb42443f568b1968
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%

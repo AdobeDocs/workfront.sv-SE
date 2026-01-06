@@ -6,9 +6,9 @@ description: Du kan ändra vilket språk som används för att visa Adobe Workfr
 feature: Get Started with Workfront
 author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 5304f25ecb198f45c024b71185747f47fa8307d4
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ För närvarande stöder Workfront Fusion endast engelska.
 * Workfront Fusion stöder inte användning av icke-engelska texttecken i fält som användaren anger.
 
 Företaget måste köpa en Workfront Fusion-licens för att få tillgång till Workfront Fusion.\
-Mer information om Workfront Fusion finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Mer information om Workfront Fusion finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ## Ändra språk
 
@@ -146,7 +146,8 @@ När du ändrar Workfront standardspråk för e-post ändrar du det språk, datu
 Så här ändrar du Workfront standardspråk för e-post:
 
 1. Logga in på Workfront som Workfront-administratör.
-1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png).
+
+{{step-1-to-setup}}
 
 1. Klicka på **System** > **Kundinformation.**
 
@@ -160,11 +161,13 @@ När du ändrar ditt språkområde för e-post för användare ändrar du språk
 
 >[!NOTE]
 >
->När din organisation använder Adobe Unified Experience lagras språkinställningarna i din Adobe-profil och e-postspråkinställningen används inte. Se [Ändra Adobe Experience Cloud &#x200B;](#change-the-adobe-experience-cloud-language) i den här artikeln.
+>När din organisation använder Adobe Unified Experience lagras språkinställningarna i din Adobe-profil och e-postspråkinställningen används inte. Se [Ändra Adobe Experience Cloud ](#change-the-adobe-experience-cloud-language) i den här artikeln.
 
 Så här ändrar du din e-postadress för användare:
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på din användarprofilbild.
+{{step1-click-main-menu}}
+
+1. Klicka på din användarprofilbild.
 
 1. Klicka på menyn Mer ![](assets/more-icon.png) och sedan på **Redigera**.
 

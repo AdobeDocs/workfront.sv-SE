@@ -6,9 +6,9 @@ description: När du delar ett mål ger du ett mål behörigheten Hantera till n
 author: Alina
 feature: Workfront Goals
 exl-id: 747449cf-9092-4b9f-9add-db2e7d3fab48
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
@@ -166,12 +166,9 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 
 ## Dela ett mål
 
-1. Klicka på ikonen **Huvudmeny** ![Huvudmeny &#x200B;](assets/main-menu-icon.png) > **Mål** i det övre högra hörnet.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../workfront-goals-settings/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   Mållistan visas.
+Mållistan visas.
 
 1. Klicka på namnet på ett mål i listan. Målsidan öppnas.
 
@@ -248,32 +245,32 @@ I följande tabell visas de behörigheter som du kan ge när du delar ett mål. 
   <tr> 
    <td>Redigera resultat eller aktiviteter</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Lägg till resultat eller aktiviteter för målet</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Associera ett projekt som en aktivitet med målet**</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Ta bort mål</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Radera resultat eller aktiviteter</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td>Koppla bort projekt från målet</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -286,4 +283,4 @@ Mer information om åtkomstnivå för projekt finns i [Bevilja åtkomst till pro
 
 Mer information om projektbehörigheter finns i [Dela ett projekt i Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
- 
+

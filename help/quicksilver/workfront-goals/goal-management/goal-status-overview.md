@@ -7,7 +7,7 @@ description: Målstatus anger om ett mål är aktivt och om det håller på att 
 author: Alina
 feature: Workfront Goals
 exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
   | Stängd | Nej | Ja | Nej | – |
 
 * Om du öppnar ett stängt mål uppdateras även målets förlopp.
-* Vissa åtgärder som du utför på ett mål uppdaterar också dess status. Mer information om hur du kan uppdatera målstatus finns i följande artiklar:
+* Vissa åtgärder som du utför på ett mål uppdaterar också dess status. Mer information om hur du kan uppdatera målstatus finns i följande artiklar:
 
    * [Skapa mål i Adobe Workfront-mål](../../workfront-goals/goal-management/create-goals.md)
    * [Aktivera mål i Adobe Workfront-mål](../../workfront-goals/goal-management/activate-goals.md)

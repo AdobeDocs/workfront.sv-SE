@@ -6,7 +6,7 @@ description: Din Adobe Workfront-administratör kan ge dig åtkomst att visa ell
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Mer information om vad användare på varje åtkomstnivå kan göra med ekonomis
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Projects, Tasks, Issues, and Financial&nbsp;Data</p> <p><b>NOTE</b>
+   <td> <p>View or higher access to Projects, Tasks, Issues, and Financial  Data</p> <p><b>NOTE</b>
    
    If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
@@ -117,7 +117,7 @@ Så här tilldelar du ekonomiska behörigheter till ett objekt:
 
 ## Ekonomisk behörighet för alla delningsnivåer
 
-Följande tabell visar vilka ekonomiska behörigheter användare får när du ger dem behörigheterna Visa, Contribute eller Hantera för objekt: 
+Följande tabell visar vilka ekonomiska behörigheter användare får när du ger dem behörigheterna Visa, Contribute eller Hantera för objekt:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -136,26 +136,26 @@ Följande tabell visar vilka ekonomiska behörigheter användare får när du ge
   <tr> 
    <td>Hantera faktureringsposter</td> 
    <td>✓</td> 
-   <td> <p> </p> </td> 
-   <td> </td> 
+   <td> <p>  </p> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Hantera/visa rollfakturering och kostnadstariffer</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Hantera/visa användarfakturering och kostnadstariffer</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Visa ekonomi</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> ✓</td> 
+   <td>  ✓</td> 
   </tr> 
   <tr> 
    <td>Visa information efter kostnad i Resursplaneringsverktygen</td> 
@@ -166,8 +166,8 @@ Följande tabell visar vilka ekonomiska behörigheter användare får när du ge
   <tr> 
    <td>Budgetresurser i verktygen för resursplanering*</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Visa resurser i verktygen för resursplanering*</td> 

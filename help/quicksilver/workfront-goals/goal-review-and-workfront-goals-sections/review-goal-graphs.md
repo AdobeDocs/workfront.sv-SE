@@ -6,9 +6,9 @@ description: Du kan visa den övergripande statusen för dina mål och deras utv
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Du kan visa den övergripande statusen för dina mål och deras utvecklingstrend
 
 >[!IMPORTANT]
 >
->Du kan se det totala antalet för dina mål i avsnittet Diagram för en vald tidsperiod. Workfront-mål tar dock endast hänsyn till mål med statusen Aktiv och Stängd vid beräkning av det övergripande målets förloppsstatus och procent färdigt.
+>Du kan se det totala antalet för dina mål i avsnittet Diagram för en vald tidsperiod. Workfront-mål tar dock endast hänsyn till mål med statusen Aktiv och Stängd vid beräkning av det övergripande målets förloppsstatus och procent färdigt.
 
 ## Åtkomstkrav
 
@@ -157,12 +157,9 @@ Följande diagram är tillgängliga i diagramavsnittet eller Workfront-mål:
 
 ## Granska målförloppet i diagram
 
-1. Klicka på ikonen **Huvudmeny** ![Huvudmeny &#x200B;](assets/main-menu-icon.png) > **Mål** i det övre högra hörnet.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   Detta öppnar området Workfront-mål.
+Detta öppnar området Workfront-mål.
 
 1. Klicka på **Diagram** på den vänstra panelen.
 
@@ -224,4 +221,4 @@ Följande diagram är tillgängliga i diagramavsnittet eller Workfront-mål:
 
    Klicka på **Baslinje** längst ned i förloppsdiagrammet för att ta bort den förväntade förloppet från diagrammet.
 
- 
+

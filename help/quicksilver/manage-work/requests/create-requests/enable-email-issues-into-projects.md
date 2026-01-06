@@ -6,7 +6,7 @@ description: Du kan konfigurera ett projekt så att användare kan lägga till p
 author: Becky
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 <!-- Audited: 4/2025 -->
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
 -->
 
 Du kan konfigurera ett projekt så att användare kan lägga till problem i projektet via e-post. Du kan bara tillåta att utleveranser e-postas till ett projekt om projektet har angetts som en frågekö. Mer information om hur du skapar ett begärandeköprojekt finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
@@ -76,7 +76,7 @@ Följande villkor krävs för att konfigurera ett projekt så att användare kan
 >* Workfront tillåter en unik e-postkö per begäran för alla kluster. Om du väljer att inaktivera din begärandekö behåller du den e-postadress du skapade så länge som den fortfarande finns i rutan Ange e-postadress. Om du väljer att inte längre använda e-postadressen måste du ta bort den från fältet Intag-e-post så att den kan användas senare.
 >
 >* Om det finns flera köämnen eller ämnesgrupper i kön i begärandekön väljer Workfront slumpmässigt det köämne som förfrågningarna ska gå till, vilket gör det svårt att hantera e-postförfrågningar.
->  &#x200B;>Vi rekommenderar att det projekt som du ställer in för att ta emot begäranden via e-post inte ska ha mer än ett köämne. Om de inskickade förfrågningarna är avsedda för olika resurser eller projekt bör du dirigera eller flytta dem manuellt efter att de har skickats.
+>Vi rekommenderar att det projekt som du ställer in för att ta emot begäranden via e-post inte ska ha mer än ett köämne. Om de inskickade förfrågningarna är avsedda för olika resurser eller projekt bör du dirigera eller flytta dem manuellt efter att de har skickats.
 
 1. Gå till det projekt som du vill aktivera för att ta emot utgåvor via e-post.
 1. Klicka på **Köinformation** i den vänstra panelen.
@@ -94,7 +94,7 @@ Följande villkor krävs för att konfigurera ett projekt så att användare kan
    >
    >* Eftersom e-postadressen måste vara unik kanske den inte är tillgänglig i framtiden om den tas bort.
    <!--
-   >This was the case previously, but it's not working this way anymore, since August 2022: * Emails forwarded to this email address are not added as issues to the project in&nbsp;Workfront. Only emails created from this email address are added as issues.
+   >This was the case previously, but it's not working this way anymore, since August 2022: * Emails forwarded to this email address are not added as issues to the project in Workfront. Only emails created from this email address are added as issues.
    -->
 
 1. (Valfritt) Markera **Vidarebefordra alla problem som inte kan skickas via e-post** och ange sedan en e-postadress för vidarebefordran i rutan nedan.

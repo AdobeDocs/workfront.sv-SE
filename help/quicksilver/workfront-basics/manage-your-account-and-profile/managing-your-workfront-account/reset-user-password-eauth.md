@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
-source-git-commit: 1d7d094a682a02b09651023f94e81ee0b330163c
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
@@ -48,9 +48,7 @@ Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, l
 
 ## Återställ en användares lösenord i en eAuth-aktiverad miljö
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Workfront] och klicka sedan på **[!UICONTROL Users]** ![ikonen Användare](assets/users-icon-in-main-menu.png) .
-
-
+{{step-1-to-users}}
 
 1. Markera **[!UICONTROL User]** som kräver en lösenordsåterställning.
    ![Markera användaren](assets/100520classicnweselectuser-350x105.png)

@@ -7,7 +7,7 @@ description: Så snart som möjligt är en aktivitetsbegränsning som placerar s
 author: Alina
 feature: Work Management
 exl-id: 9cb232fe-bc74-4433-afac-88be69514c88
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Mer information om hur du uppdaterar aktivitetsbegränsningen för en aktivitet 
 ## Skillnaden mellan tidigaste tillgängliga tid och så snart som möjligt
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This section is duplicated in "Earliest Available Time"])&nbsp;</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This section is duplicated in "Earliest Available Time"]) </p>
 -->
 
 Begränsningen Tidigaste tillgängliga tid skiljer sig från villkoret Så snart som möjligt när alla följande villkor är uppfyllda:

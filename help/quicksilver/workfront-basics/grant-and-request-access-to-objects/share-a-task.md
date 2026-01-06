@@ -6,7 +6,7 @@ description: Din Adobe Workfront-administratör kan ge dig åtkomst att visa ell
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1196'
 ht-degree: 0%
@@ -63,18 +63,18 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
 * Du kan dela uppgifter individuellt eller dela flera av dem samtidigt i grupp.\
   Att dela uppgifter är detsamma som att dela andra objekt. Mer information om objektdelning i Workfront finns i [Dela ett objekt](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
-* Du kan ge följande behörigheter till en uppgift: 
+* Du kan ge följande behörigheter till en uppgift:
 
    * Visa
    * Hantera
    * Contribute
 * När du delar en uppgift ärver användarna som standard samma behörigheter för alla underordnade objekt som är kopplade till uppgiften. De ärver till exempel samma behörigheter för de underordnade uppgifterna, utgåvorna och dokumenten som är kopplade till uppgiften.\
-  Mer information om objekthierarkin i Workfront finns i  [Förstå objekt i Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+  Mer information om objekthierarkin i Workfront finns i   [Förstå objekt i Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
   Workfront-administratören kan ange om dokument ska ärva behörigheter från högre objekt på användarens åtkomstnivå. Mer information om att begränsa ärvda behörigheter i dokument finns i [Skapa eller ändra anpassade åtkomstnivåer](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 * Du kan ta bort ärvda behörigheter från en uppgift.\
-  Mer information om hur du tar bort ärvda behörigheter från objekt finns i  [Ta bort behörigheter från objekt](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+  Mer information om hur du tar bort ärvda behörigheter från objekt finns i   [Ta bort behörigheter från objekt](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
 ## Olika sätt att dela en uppgift
 
@@ -87,7 +87,7 @@ Du kan dela en uppgift på följande sätt:
    * Ange behörigheter för något av de överordnade objekten för uppgiften: projekt, program eller portfölj. Aktiviteter ärver behörigheter från sina överordnade objekt. Mer information om hur du visar ärvda behörigheter för objekt finns i [Visa ärvda behörigheter för objekt](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
    * Lägg till entiteter i projektdelning på en mall som används för att skapa det projekt som aktiviteten är i. Mer information om att dela projekt från mallar finns i [Dela en mall](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Ange behörigheter för alla uppgifter i ett projekt när du redigerar projektet. Information om hur du hanterar åtkomsten till aktiviteter i projektet baserat på en användares behörigheter till projektet finns i avsnittet [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) i artikeln [Redigera projekt](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Ange behörigheter för alla uppgifter i ett projekt när du redigerar projektet.  Information om hur du hanterar åtkomsten till aktiviteter i projektet baserat på en användares behörigheter till projektet finns i avsnittet [](../../manage-work/projects/manage-projects/edit-projects.md#access) i artikeln [Redigera projekt](../../manage-work/projects/manage-projects/edit-projects.md).
 
   >[!TIP]
   >
@@ -185,13 +185,13 @@ I följande tabell visas vilka behörigheter du kan ge användare när de får v
    <td scope="row">Lägg till uppgift(er)</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Lägg till föregående aktiviteter</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Lägg till problem</td> 
@@ -202,26 +202,26 @@ I följande tabell visas vilka behörigheter du kan ge användare när de får v
   <tr> 
    <td scope="row">Ta bort uppgift</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row"> <p>Redigera allmän uppgift<br></p> </td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Ändra aktivitetsstatus</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Redigera aktivitetsbegränsning</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Visa uppgift</td> 
@@ -244,50 +244,50 @@ I följande tabell visas vilka behörigheter du kan ge användare när de får v
   <tr> 
    <td scope="row">Flytta aktivitet*</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Loggtimmar</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Ändra planerade datum</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Acceptera tilldelning</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Gör ett uppdrag</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Bifoga eget formulär</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Redigera anpassade fält</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Skapa en godkännandeprocess</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Godkänn en uppgift</td> 
@@ -298,14 +298,14 @@ I följande tabell visas vilka behörigheter du kan ge användare när de får v
   <tr> 
    <td scope="row">Redigera ekonomi*</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Lägg till/redigera utgifter</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Visa ekonomi</td> 
@@ -327,8 +327,8 @@ I följande tabell visas vilka behörigheter du kan ge användare när de får v
   </tr> 
   <tr> 
    <td scope="row">Dela hela systemet</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
    <td>✓</td> 
   </tr> 
  </tbody> 

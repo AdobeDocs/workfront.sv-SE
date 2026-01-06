@@ -6,7 +6,7 @@ description: Du kan ta bort andra användares behörigheter för objekt som du h
 author: Alina
 feature: Get Started with Workfront
 exl-id: 8e191b5e-31df-4291-8b9d-9ca69be27561
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 0%
@@ -115,7 +115,7 @@ You can remove entities (users, job roles, teams, groups, companies) from severa
 1. In the `<User Name>`'s Workfront access will be removed from this drop-down menu, select whether you want their access to be removed just from the objects that you have selected, or from all other children objects associated with it.  
    The following scenarios exist:
 
-   * If you remove the entity only from the object, that entity loses their permissions on the object, and their inherited permissions to the children objects. If they were previously granted permissions to the children items individually, they retain the same permissions on all children objects associated with it when you select this option.&nbsp;
+   * If you remove the entity only from the object, that entity loses their permissions on the object, and their inherited permissions to the children objects. If they were previously granted permissions to the children items individually, they retain the same permissions on all children objects associated with it when you select this option.  
    * If you remove the entity from the object and all the children objects, that entity loses their permissions to the object as well as all children objects, even when they were previously given individual permission on each child object.
 
    **Example:** Select whether to remove permissions to just the tasks you selected in a list, or to the issues and documents attached to the tasks as well.
@@ -150,11 +150,11 @@ Så här tar du bort ärvda behörigheter:
    >
    >Du kan inte ta bort enskilda enheter från listan Ärvda behörigheter. Du kan bara inaktivera ärvda behörigheter för alla enheter i listan.
 
-1. Klicka på **Spara**. 
+1. Klicka på **Spara**.
 
 ## Gör ett objekt privat
 
-Om du har delat ett objekt i hela systemet, eller om du har delat det med externa användare genom att göra det offentligt, kan du göra det privat igen genom att ta bort behörigheten för hela systemet eller för offentliga användare. 
+Om du har delat ett objekt i hela systemet, eller om du har delat det med externa användare genom att göra det offentligt, kan du göra det privat igen genom att ta bort behörigheten för hela systemet eller för offentliga användare.
 
 Mer information om hur du gör ett objekt tillgängligt för hela systemet, eller för allmänheten, finns i [Dela ett objekt](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 

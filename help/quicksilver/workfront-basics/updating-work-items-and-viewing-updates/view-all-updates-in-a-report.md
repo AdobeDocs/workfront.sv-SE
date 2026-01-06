@@ -6,7 +6,7 @@ description: Om du vill se alla uppdateringar som någon av användarna har ange
 author: Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%
@@ -108,9 +108,9 @@ Om du till exempel vill skapa en anteckningsrapport för alla anteckningar i ett
 
 1. Klicka på **Ny rapport** i det övre vänstra hörnet på sidan och välj sedan **Obs!**.
 
-1. (Valfritt) Klicka på **(Kolumner) Visa** och sedan på **Lägg till kolumn** för att lägga till **namnet** för **projektet** i rapportvyn. 
+1. (Valfritt) Klicka på **(Kolumner) Visa** och sedan på **Lägg till kolumn** för att lägga till **namnet** för **projektet** i rapportvyn.
 
-1. (Valfritt) Om du rapporterar flera projekt samtidigt klickar du på **Grupperingar** och sedan på **Lägg till gruppering** för att gruppera efter **namnet** för **projektet**. Detta gör att anteckningarna grupperas efter deras respektive projekt, vilket gör rapporten lättare att läsa. 
+1. (Valfritt) Om du rapporterar flera projekt samtidigt klickar du på **Grupperingar** och sedan på **Lägg till gruppering** för att gruppera efter **namnet** för **projektet**. Detta gör att anteckningarna grupperas efter deras respektive projekt, vilket gör rapporten lättare att läsa.
 
 1. (Valfritt) Klicka på **Filter** och sedan på **Lägg till en filterregel**.
 1. Lägg till ett filter för **Obs!** > **Anteckningstext** > **Är inte tom**.

@@ -7,7 +7,7 @@ description: Uppskattningen vid slutförande (Estiate at Completion, EAC) är en
 author: Lisa
 feature: Work Management
 exl-id: 9061fa56-cff3-4fe2-866e-1fdda9d43efc
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Uppskattningen vid slutförande (Estiate at Completion, EAC) är en prestandamätning som representerar den beräknade totala kostnaden för ditt projekt eller din uppgift när den är klar.
 
-Med den här inställningen kan du definiera hur EAC-värdet ska beräknas. 
+Med den här inställningen kan du definiera hur EAC-värdet ska beräknas.
 
 ## Åtkomstkrav
 
@@ -101,7 +101,7 @@ EAC för ett projekt beräknas med följande formel:
 EAC = EAC Labor + EAC Expense 
 ```
 
-<pre>EAC Labor =  <em>OM</em> CPI-arbete &lt;&gt; 0 THEN EAC-arbete = Planerad arbetskostnad/CPI-arbete</pre><pre><em>ELSE</em> EAC  Arbete = Planerad arbetskostnad + faktisk arbetskostnad</pre><pre>CPI-arbete = OM Faktisk arbetskostnad &lt;&gt; 0 THAN CPI-arbete = TotalBudgetedCostWorkPerformed / Faktisk arbetskostnad</pre><pre>ELSE CPI Labor = 1 </pre>Följande fält beaktas vid beräkning av EAC:
+<pre>EAC-arbete = <em>OM</em> CPI-arbete &lt;&gt; 0 THEN EAC-arbete = Planerad arbetskostnad/CPI-arbete</pre><pre><em>ELSE</em> EAC Labor = Planerad arbetskostnad + faktisk arbetskostnad</pre><pre>CPI-arbete = OM Faktisk arbetskostnad &lt;&gt; 0 THAN CPI-arbete = TotalBudgetedCostWorkPerformed / Faktisk arbetskostnad</pre><pre>ELSE CPI Labor = 1 </pre>Följande fält beaktas vid beräkning av EAC:
 
 * Totalt utfört budgeterat kostnadsarbete (BCWP) = resultatet av multiplicering av den budgeterade kostnaden för det planerade arbetet (budgeterad kostnad) och den procentandel av uppgiften som har slutförts hittills.
 
@@ -117,7 +117,7 @@ EAC = EAC Labor + EAC Expense
 Totalt utfört budgeterat kostnadsarbete = summan av fältet Totalt budgeterat kostnadsarbete utfört för alla direkta underordnade aktiviteter.
 
    * **För ett projekt:**
-Totalt utfört budgeterat kostnadsarbete = summan av fältet Totalt budgeterat kostnadsarbete utfört för alla aktiviteter på den översta nivån (överordnade och fristående aktiviteter). 
+Totalt utfört budgeterat kostnadsarbete = summan av fältet Totalt budgeterat kostnadsarbete utfört för alla aktiviteter på den översta nivån (överordnade och fristående aktiviteter).
 
 * EAC-utgift = resultatet av att addera den faktiska kostnaden för upplupen kostnad till den ej uppkomna planerade kostnaden. Den beräknas med följande formel:
 
@@ -126,14 +126,14 @@ Totalt utfört budgeterat kostnadsarbete = summan av fältet Totalt budgeterat k
   ```
 
    * Faktisk utgiftskostnad = Summan av fältet Planerat belopp för alla utgifter där fältet Faktiskt belopp > 0. Om du t.ex. skapar en utgift för Uppgift 1 och anger $500.00 i fältet Planerat belopp och ett belopp > 0 i fältet Faktiskt belopp (t.ex. $600.00), är den förväntade kostnaden för den här uppgiften $500.00.
-   * Ej upplupen planerad utgift = Summan av fältet Planerat belopp för alla utgifter där fältet Faktiskt belopp = 0. Om du till exempel skapar två utgifter för Uppgift 1 där värdet i fältet Planerat belopp för den första utgiften är 500,00 USD och värdet i fältet Faktiskt belopp är 600,00 USD och för den andra utgiften, är värdet i fältet Planerat belopp 300,00 USD och värdet i fältet Faktiskt belopp är 0,00 USD. Ej fakturerad kostnad för den här aktiviteten är 300,00 USD. 
+   * Ej upplupen planerad utgift = Summan av fältet Planerat belopp för alla utgifter där fältet Faktiskt belopp = 0. Om du till exempel skapar två utgifter för Uppgift 1 där värdet i fältet Planerat belopp för den första utgiften är 500,00 USD och värdet i fältet Faktiskt belopp är 600,00 USD och för den andra utgiften, är värdet i fältet Planerat belopp 300,00 USD och värdet i fältet Faktiskt belopp är 0,00 USD. Ej fakturerad kostnad för den här aktiviteten är 300,00 USD.
 
 ## Hitta EAC i ett projekt eller en uppgift
 
 1. Gå till det projekt eller den uppgift där du vill visa EAC.
 1. Expandera **Projektinformation** eller **Aktivitetsinformation** i den vänstra panelen av projektet eller aktiviteten, beroende på var du visar EAC.
 
-1. Klicka på **Ekonomi**. 
+1. Klicka på **Ekonomi**.
 
    EAC-värdet visas i fältet **Uppskattning vid slutförande**.
 

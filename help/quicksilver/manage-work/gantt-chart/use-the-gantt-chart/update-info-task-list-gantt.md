@@ -6,7 +6,7 @@ description: Gantt-schemat för en Adobe Workfront-uppgiftslista innehåller inf
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 0%
@@ -246,7 +246,7 @@ Mer information om att jämna ut resurser i [!UICONTROL Gantt chart] finns i [Ni
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE:&nbsp;this is drafted because I moved the whole content to the article linked above)</p>
+<p>(NOTE: this is drafted because I moved the whole content to the article linked above)</p>
 <ol>
 <li value="1">Go to the project you want to level.</li>
 <li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> In the <strong>Tasks</strong> area, click the <strong>Gantt chart</strong> icon.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">All changes are saved automatically when the <strong>Autosave</strong> option is enabled. It is enabled by default. </p> </li>

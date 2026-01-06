@@ -6,9 +6,9 @@ description: Du kan redigera befintliga mål när som helst under en viss period
 author: Alina
 feature: Workfront Goals
 exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -191,8 +191,10 @@ Editing goals differs depending on what environment you use.
 
 -->
 
-1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) och klicka sedan på **Mål**.\
-   En lista med mål visas.
+{{step1-to-goals}}
+
+En lista med mål visas.
+
 1. Klicka på ett mål.\
    Målsidan visas.
 
@@ -200,8 +202,8 @@ Editing goals differs depending on what environment you use.
 
 1. Gör något av följande om du vill redigera information för målet:
    * Klicka på fält som visas i målhuvudet för att uppdatera dem. Alla fält i rubriken kan inte redigeras.
-   * Klicka på ikonen **Mer** ![Mer &#x200B;](assets/more-icon.png) till höger om målnamnet och klicka sedan på **Redigera**.
-   * Klicka på **Målinformation** i den vänstra panelen och klicka på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) i det övre högra hörnet. Klicka sedan på **Redigera alla**. Börja uppdatera fält i delen Målinformation.
+   * Klicka på ikonen **Mer** ![Mer ](assets/more-icon.png) till höger om målnamnet och klicka sedan på **Redigera**.
+   * Klicka på **Målinformation** i den vänstra panelen och klicka på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) i det övre högra hörnet. Klicka sedan på **Redigera alla**. Börja uppdatera fält i delen Målinformation.
 
      >[!IMPORTANT]
      >
@@ -231,7 +233,7 @@ Editing goals differs depending on what environment you use.
 1. (Valfritt) Klicka på **Förloppsindikatorer** i den vänstra panelen för att lägga till resultat, aktiviteter eller projekt i målet. Genom att lägga till förloppsindikatorer kan du se till att du kan spåra målets framsteg.
 Mer information finns i följande artiklar:
    * [Lägga till aktiviteter i mål i Adobe Workfront](../results-and-activities/add-activities-to-goals.md)
-   * [Lägg till resultat i mål i Adobe Workfront &#x200B;](../results-and-activities/add-results-to-goals.md).
+   * [Lägg till resultat i mål i Adobe Workfront ](../results-and-activities/add-results-to-goals.md).
    * [Lägg till projekt i mål i Adobe Workfront-mål](../results-and-activities/connect-projects-to-goals-overview.md).
 
 </div>

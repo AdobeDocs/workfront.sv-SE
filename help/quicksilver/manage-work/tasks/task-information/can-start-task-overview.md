@@ -7,7 +7,7 @@ description: När en uppgift är klar att starta lägger Adobe Workfront till en
 author: Alina
 feature: Work Management
 exl-id: 158f8370-9717-4c61-99fa-e3b76a9e61cb
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%

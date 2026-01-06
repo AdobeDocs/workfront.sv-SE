@@ -7,7 +7,7 @@ description: Du måste lägga till resultat, aktiviteter eller anpassade mål ti
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 3%
@@ -145,7 +145,7 @@ I följande tabell visas likheter och skillnader mellan resultat, aktiviteter oc
    <td><b><p>Funktion</p></b></td> 
    <td><b><p>Resultat</p></b></td> 
    <td><b><p>Aktiviteter</p></b></td> 
-   <td> <p><strong>Projekt</strong> </p> <p> </p> </td> 
+   <td> <p><strong>Projekt</strong> </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td><span style="font-weight: normal;">Du kan anpassa objektnamnet i Workfront-gränssnittet</span> </td> 
@@ -167,8 +167,8 @@ I följande tabell visas likheter och skillnader mellan resultat, aktiviteter oc
   </tr> 
   <tr> 
    <td>Du kan koppla en av dem till flera mål.</td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>✔</td> 
   </tr> 
   <tr> 
@@ -181,13 +181,13 @@ I följande tabell visas likheter och skillnader mellan resultat, aktiviteter oc
    <td>De måste uppdateras manuellt i Workfront-mål</td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>De är klara på målets slutdatum</td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>De kan bara tilldelas till en användare, och inte till ett team, en grupp eller företaget. </td> 
@@ -201,7 +201,7 @@ I följande tabell visas likheter och skillnader mellan resultat, aktiviteter oc
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
-  <tr> **&#x200B;**
+  <tr> ****
    <td>De erbjuder ett intervall av värden mellan start- och slutvärdena som visar hur nära du uppnår dem. Närheten till slutvärdet beräknar ett förloppsvärde för ditt mål. </td> 
    <td>✔</td> 
    <td>✔</td> 

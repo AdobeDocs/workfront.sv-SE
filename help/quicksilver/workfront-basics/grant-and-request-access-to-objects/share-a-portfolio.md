@@ -4,7 +4,7 @@ description: Du kan dela en portfölj med andra användare om du har behörighet
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -146,19 +146,19 @@ Tabellen nedan visar vilka behörigheter du kan ge användare när de får visa 
 
 | **Åtgärder** | **Hantera** | **Visa** |
 |---|---|---|
-| Redigera Portfolio-information | ✓ |   |
+| Redigera Portfolio-information | ✓ |   |
 | Se en Portfolio | ✓ | ✓ |
-| Ta bort en Portfolio | ✓ |   |
-| Bifoga ett eget formulär | ✓ |   |
-| Redigera ett anpassat fält | ✓ |   |
-| Lägg till eller ta bort ett program&#42; | ✓ |   |
-| Lägg till eller ta bort ett projekt&#42; | ✓ |   |
-| Godkänn ett projekt | ✓ |   |
-| Portfolio-optimering&#42; | ✓ |   |
+| Ta bort en Portfolio | ✓ |   |
+| Bifoga ett eget formulär | ✓ |   |
+| Redigera ett anpassat fält | ✓ |   |
+| Lägg till eller ta bort ett program&#42; | ✓ |   |
+| Lägg till eller ta bort ett projekt&#42; | ✓ |   |
+| Godkänn ett projekt | ✓ |   |
+| Portfolio-optimering&#42; | ✓ |   |
 | Lägg till en dokumentmapp &#42; | ✓ | ✓ |
 | Lägga till ett dokument | ✓ | ✓ |
 | Uppdateringar/kommentarer | ✓ | ✓ |
 | Dela | ✓ | ✓ |
-| Dela hela systemet |   | ✓ |
+| Dela hela systemet |   | ✓ |
 
 *Behörigheterna styrs av åtkomstnivån och behörigheterna för andra objekt, som projekt, program och dokument.

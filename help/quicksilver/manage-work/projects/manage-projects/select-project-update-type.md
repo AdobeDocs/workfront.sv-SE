@@ -6,7 +6,7 @@ description: Genom att välja en uppdateringstyp för ett projekt kan du styra h
 author: Alina
 feature: Work Management
 exl-id: ffdfffec-d217-4daa-9849-cb0c794992c0
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Genom att välja en uppdateringstyp för ett projekt kan du styra hur ofta de ä
 
 När projekttidslinjen uppdateras beräknas den om baserat på ändringar som gjorts i projektet, dess uppgifter eller ändringar som gjorts i ett annat projekt som tidslinjen är beroende av.
 
-Följande ändringar av aktiviteterna i projektet utlöser till exempel en uppdatering av tidslinjen  av projektet:
+Följande ändringar av aktiviteterna i projektet utlöser till exempel en uppdatering av tidslinjen i projektet:
 
 * Uppdatera datum för uppgifter
 * Ändra föregående relationer för uppgifter
@@ -59,7 +59,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 ## Uppdatera ett projekts uppdateringstyp
 
-När uppgifterna uppdateras uppdateras deras överordnade objekt (överordnade uppgifter eller projektet) vid den tidpunkt som anges av uppdateringstypen.  Så här anger du en uppdateringstyp för projektet:
+När uppgifterna uppdateras uppdateras deras överordnade objekt (överordnade uppgifter eller projektet) vid den tidpunkt som anges av uppdateringstypen.  Så här anger du en uppdateringstyp för projektet:
 
 1. Gå till det projekt vars uppdateringstyp du vill ange.
 1. Klicka på Mer-menyn ![Mer-ikonen](assets/more-icon.png) bredvid namnet på projektet och klicka sedan på **Redigera** .
@@ -70,13 +70,13 @@ När uppgifterna uppdateras uppdateras deras överordnade objekt (överordnade u
 
 1. I fältet **Uppdatera typ** väljer du om du vill att Workfront ska beräkna tidslinjen för projektet automatiskt varje dag, när en ändring görs eller om du vill att projektledaren ska beräkna den manuellt.
 
-   Välj bland alternativen i listan nedan. 
+   Välj bland alternativen i listan nedan.
 
    >[!IMPORTANT]
    >
    >Om tidslinjen för ett projekt är längre än 15 år beräknas tidslinjen inte automatiskt eller vid ändring i Workfront. Uppdateringstypen för ett projekt som är längre än 15 år är alltid Manuell.
 
-   * **Automatisk och vid ändring:** Det här är standardinställningen. Projektets tidslinje uppdateras varje gång en ändring inträffar i projektet eller i ett annat projekt som tidslinjen är beroende av. Projektets tidslinje uppdateras också varje kväll. \
+   * **Automatisk och vid ändring:** Det här är standardinställningen. Projektets tidslinje uppdateras varje gång en ändring inträffar i projektet eller i ett annat projekt som tidslinjen är beroende av. Projektets tidslinje uppdateras också varje kväll.\
      Detta är den rekommenderade inställningen eftersom den ser till att projekttidslinjen alltid är uppdaterad.
 
      När du uppdaterar en uppgift eller ett projekt och utlöser en omberäkning av tidslinjen, visas alla tillgängliga datum omedelbart så att du kan fortsätta arbeta. I projekt med mer än 100 uppgifter är datum som kräver längre beräkningar nedtonade.

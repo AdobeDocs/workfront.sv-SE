@@ -7,7 +7,7 @@ description: Schemalägg prestandaindex (SPI) beskriver förhållandet mellan de
 author: Lisa
 feature: Work Management
 exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%
@@ -62,7 +62,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 ### Vad SPI-värdet visar {#what-the-spi-value-shows}
 
-Projektledare är införstådda med att SPI-värdet 1 innebär att projektet är planerat eller tidsplanerat.  Värden större än 1 visar att ett projekt ligger före schemat och värden mindre än 1 innebär att ett projekt ligger efter schemat.  Ju längre bort från 1, desto större avvikelse från planen.
+Projektledare är införstådda med att SPI-värdet 1 innebär att projektet är planerat eller tidsplanerat.  Värden större än 1 visar att ett projekt ligger före schemat och värden mindre än 1 innebär att ett projekt ligger efter schemat.  Ju längre bort från 1, desto större avvikelse från planen.
 
 | **SPI-värde** | **Indikation på schemat** |
 |---|---|
@@ -82,9 +82,9 @@ SPI = (Total Planned Hours x % Complete) / Planned Hours Scheduled to Date*
 
 *&#42;Om planerade timmar är schemalagda till datum = 0, SPI = 1*.
 
-Planerade timmar Schemalägg till datum beräknas vid den tidpunkt då du utför beräkningarna. Här visas antalet planerade timmar till dagens datum. Den kan beräknas om automatiskt när du ändrar dina finansiella data så att de blir korrekta. Det finns inget fält i Workfront som anger det här värdet.
+Planerade timmar Schemalägg till datum beräknas vid den tidpunkt då du utför beräkningarna. Här visas antalet planerade timmar till dagens datum. Den kan beräknas om automatiskt när du ändrar dina finansiella data så att de blir korrekta. Det finns inget fält i Workfront som anger det här värdet.
 
-Om du till exempel har ett projekt med en aktivitet och aktiviteten har 10 planerade timmar och en 10-dagars varaktighet, är schemat för planerade timmar till datum 5 dag. 
+Om du till exempel har ett projekt med en aktivitet och aktiviteten har 10 planerade timmar och en 10-dagars varaktighet, är schemat för planerade timmar till datum 5 dag.
 
 ## Hitta SPI i ett projekt eller en uppgift
 

@@ -5,9 +5,9 @@ title: Skapa och hantera vyer i området Förfrågningar
 description: Om du använder den nya begärandefunktionen kan du skapa och spara vyer för området Förfrågningar.
 author: Becky
 feature: Work Management
-source-git-commit: 684f7fc62fe341a59b1b7f7ae6c7118a5e511513
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
@@ -63,11 +63,14 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 Du kan skapa en vy i området Förfrågningar i Workfront eller i widgeten Mina förfrågningar i Hem.
 
-1. Om du vill få åtkomst till listan över förfrågningar klickar du på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klickar du på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och sedan på **[!UICONTROL Requests]**.
+1. Så här öppnar du listan över förfrågningar:
+
+   {{step1-to-requests}}
 
 1. Så här öppnar du widgeten Mina förfrågningar i Hem:
 
-   1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Home]**.
+   {{step1-to-home}}
+
    1. Leta reda på widgeten Mina förfrågningar.
 
       Mer information om widgeten Mina förfrågningar finns i [Använd widgeten Mina förfrågningar](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
@@ -83,11 +86,14 @@ Du kan skapa en vy i området Förfrågningar i Workfront eller i widgeten Mina 
 
 Du kan redigera befintliga vyer, inklusive vyer som du just har skapat.
 
-1. Om du vill få åtkomst till listan över förfrågningar klickar du på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klickar du på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och sedan på **[!UICONTROL Requests]**.
+1. Så här öppnar du listan över förfrågningar:
+
+   {{step1-to-requests}}
 
 1. Så här öppnar du widgeten Mina förfrågningar i Hem:
 
-   1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Home]**.
+   {{step1-to-home}}
+
    1. Leta reda på widgeten Mina förfrågningar.
 
       Mer information om widgeten Mina förfrågningar finns i [Använd widgeten Mina förfrågningar](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
@@ -146,11 +152,14 @@ Instruktioner finns i [Anpassa filter, vyer och grupperingar med hjälp av en la
 
 Du kan dela vyer som du skapar med andra användare, team eller grupper.
 
-1. Om du vill få åtkomst till listan över förfrågningar klickar du på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klickar du på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och sedan på **[!UICONTROL Requests]**.
+1. Så här öppnar du listan över förfrågningar:
+
+   {{step1-to-requests}}
 
 1. Så här öppnar du widgeten Mina förfrågningar i Hem:
 
-   1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Home]**.
+   {{step1-to-home}}
+
    1. Leta reda på widgeten Mina förfrågningar.
 
       Mer information om widgeten Mina förfrågningar finns i [Använd widgeten Mina förfrågningar](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).

@@ -7,7 +7,7 @@ description: Nettovärdet för ett projekt är det sammanlagda förväntade vär
 author: Lisa
 feature: Work Management
 exl-id: 44e3f211-c816-4ee1-aafc-c40fc8732f1a
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -34,18 +34,18 @@ Följande fält kan påverka ett projekts nettovärde:
 * **Budgeterad kostnad**: Det här är den totala kostnaden som är associerad med projektet som den beräknas när du startar projektet första gången.
 
   Den **budgeterade kostnaden** använder värdet **Budgeterad arbetskostnad** som beräknas i området Resursbudgetering i affärsärendet och tar hänsyn till antalet timmar som budgeterats för dina jobbroller i resursplaneraren och kostnaden per timme för varje jobbroll.\
-  Budgeterad kostnad påverkar projektets **nettovärde**. Mer information om hur den budgeterade kostnaden beräknas finns i [Beräkna budgeterad kostnad](../../../manage-work/projects/project-finances/budgeted-cost.md).
+  Budgeterad kostnad påverkar projektets **nettovärde**. Mer information om hur den budgeterade kostnaden beräknas finns i [Beräkna budgeterad kostnad](../../../manage-work/projects/project-finances/budgeted-cost.md).
 
 * **Potentiell riskkostnad**: Det här är kostnaden som är associerad med risker i projektet, så som de definieras i Affärsfall eller på fliken Risker i projektet.\
   Mer information om hur du beräknar den potentiella riskkostnaden för ett projekt finns i artikeln [Beräkna potentiella riskkostnader](../../../manage-work/projects/project-finances/potential-risk-cost.md).
 
-   
+
 
 ## Hitta projektets nettovärde
 
 Nettovärdet för ett projekt finns i följande områden i Workfront:
 
-* Under Affärsärendesammanfattning \
+* Under Affärsärendesammanfattning\
   Mer information om området Affärsärendesammanfattning finns i avsnittet &quot;Förstå ärendesammanfattningen&quot; i artikeln [Skapa ett affärsärende för ett projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md) [Skapa ett affärsärende för ett projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
   ![Nettovärde i affärsärende](assets/net-value-on-business-case-summary-highlighted-350x444.png)

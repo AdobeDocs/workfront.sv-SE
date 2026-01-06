@@ -9,7 +9,7 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 9ddb75bf-1c7b-4f4b-b80b-a9512192920d
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
@@ -100,4 +100,4 @@ I följande tabell visas om ändringar som gjorts i den överordnade utlösaren 
 
 &#42;&#42; tilldelningar som görs för den överordnade aktiviteten tillämpas på alla underaktiviteter i upprepningen. Alla ändringar som görs i tilldelningen för den överordnade aktiviteten åsidosätter eventuella enskilda tilldelningar för underaktiviteten. Om aktiviteten visar förlopp ändras inte uppdraget.
 
- 
+

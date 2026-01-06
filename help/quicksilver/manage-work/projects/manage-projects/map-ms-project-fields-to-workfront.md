@@ -6,7 +6,7 @@ description: Projekt i Adobe Workfront och Microsoft Project är oftast kompatib
 author: Alina
 feature: Work Management
 exl-id: 381eb6ad-8084-406b-90f9-44460b58a04c
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%
@@ -18,13 +18,13 @@ ht-degree: 0%
 Projekt i Adobe Workfront och Microsoft Project är oftast kompatibla. Med de två programmen kan du göra följande:
 
 * Exportera projekt från Microsoft Project och importera dem till Workfront
-* Exportera projekt från Workfront och importera dem till Microsoft Project. 
+* Exportera projekt från Workfront och importera dem till Microsoft Project.
 
 Mer information om hur du importerar projekt från Microsoft Project till Workfront finns i [Importera ett projekt från Microsoft Project](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
 
 Mer information om hur du exporterar ett projekt från Workfront för att importera det till Microsoft Project finns i [Exportera ett projekt till Microsoft Project](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md).
 
-När du importerar sådana data är det viktigt att förstå hur informationen översätts från ett program till ett annat. I de flesta fall måste du göra några manuella ändringar i projektet när du har slutfört importen. 
+När du importerar sådana data är det viktigt att förstå hur informationen översätts från ett program till ett annat. I de flesta fall måste du göra några manuella ändringar i projektet när du har slutfört importen.
 
 ## Översikt över fältmappning
 
@@ -64,4 +64,4 @@ Dessa fält innehåller, men är inte begränsade till, följande:
 
   >[!NOTE]
   >
-  >Eftersom begränsningar inte avbildas mellan Microsoft Project och Workfront bör du kontrollera att det finns föregående relationer mellan aktiviteterna. I annat fall är det inte säkert att de planerade start- och slutdatumen för aktiviteterna stämmer korrekt i det importerade projektet. 
+  >Eftersom begränsningar inte avbildas mellan Microsoft Project och Workfront bör du kontrollera att det finns föregående relationer mellan aktiviteterna. I annat fall är det inte säkert att de planerade start- och slutdatumen för aktiviteterna stämmer korrekt i det importerade projektet.

@@ -7,7 +7,7 @@ description: I den potentiella riskkostnaden för ett projekt beaktas de potenti
 author: Lisa
 feature: Work Management
 exl-id: f4dc1950-efd8-4936-83fd-1280ee465923
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -41,9 +41,9 @@ Risker för ett projekt och deras potentiella kostnader finns i följande områd
 * I en projektrapport när du lägger till fältet Planerad riskkostnad i rapportens kolumner.\
   Mer information om hur du skapar rapporter i Workfront finns i artikeln [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-* I Portfolio-optimering, när projektet är kopplat till ett Portfolio, i riskkolumnen.\
+* I Portfolio Optimizer, när projektet är kopplat till en Portfolio, i kolumnen Risk.\
   Summan av alla potentiella riskkostnader för alla projekt i portföljen adderar till risken för Portfolio.\
-  Mer information om optimering av Portfolio finns i artikeln [Översikt över optimering av Portfolio](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+  Mer information om Portfolio Optimizer finns i artikeln [Portfolio Optimizer - översikt](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 Mer information om hur du skapar risker i ett projekt finns i artikeln [Skapa och redigera risker i projekt](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)
 

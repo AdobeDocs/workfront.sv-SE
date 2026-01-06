@@ -6,9 +6,9 @@ description: Du kan dela en mapp och dess innehåll från området Dokument.
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
@@ -94,11 +94,11 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Dela en mapp
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Dokument**.
+{{step1-to-documents}}
 
-   eller
+eller
 
-   Klicka på **Dokument** i den vänstra panelen när ett Workfront-objekt är öppet.
+Klicka på **Dokument** i den vänstra panelen när ett Workfront-objekt är öppet.
 
 1. Markera mappen och klicka sedan på delningsikonen ![](assets/share-icon.png) i verktygsfältet.
 
@@ -139,7 +139,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 ## Hur användare får åtkomst till innehållet i en mapp som delas med dem
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete these 2 paragraphs when the story &nbsp;<a href="https://hub.workfront.com/task/622f8d6f000897c9a4a11bdfd9b2cf34/overview">Handle email notification content when a folder is shared</a> goes to Preview:</p>
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete these 2 paragraphs when the story   <a href="https://hub.workfront.com/task/622f8d6f000897c9a4a11bdfd9b2cf34/overview">Handle email notification content when a folder is shared</a> goes to Preview:</p>
 -->
 
 När du delar en mapp kan mottagarna för närvarande inte se mappen i området Dokument. De kan dock komma åt sina dokument genom att köra en dokumentrapport.

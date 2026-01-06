@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '7642'
 ht-degree: 0%
@@ -148,7 +148,7 @@ Mer information om hur du skapar ett projekt från en mall finns i [Skapa ett pr
 
    Så här redigerar du information i detaljavsnittet:
 
-   1. (Valfritt) Klicka på ikonen **Komprimera alla** ![Komprimera alla &#x200B;](assets/collapse-icon.png) i det övre högra hörnet om du vill komprimera alla områden.
+   1. (Valfritt) Klicka på ikonen **Komprimera alla** ![Komprimera alla ](assets/collapse-icon.png) i det övre högra hörnet om du vill komprimera alla områden.
    1. (Valfritt och villkorligt) När ett område är komprimerat klickar du på **högerpilen** ![högerpilen](assets/right-pointing-arrow.png) bredvid varje område för att expandera det område som du vill redigera.
    1. Mer information om hur du redigerar information på fliken Projektinformation finns i följande artiklar:
 
@@ -156,7 +156,7 @@ Mer information om hur du skapar ett projekt från en mall finns i [Skapa ett pr
       * [Hantera information i projektfinansieringsdelen](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
 
    1. (Valfritt) Om du vill bifoga ett anpassat formulär börjar du skriva namnet på ett formulär i fältet **Lägg till anpassat formulär** och markerar det när det visas i listan. Klicka sedan på **Spara ändringar**.
-   1. (Valfritt) Klicka på ikonen **Exportera** ![Exportera &#x200B;](assets/export.png) om du vill exportera översiktsinformation och anpassad formulärinformation till en PDF-fil. Klicka sedan på **Exportera**. Välj bland följande:
+   1. (Valfritt) Klicka på ikonen **Exportera** ![Exportera ](assets/export.png) om du vill exportera översiktsinformation och anpassad formulärinformation till en PDF-fil. Klicka sedan på **Exportera**. Välj bland följande:
 
       * Markera alla (visas bara när det finns minst ett anpassat formulär bifogat)
       * Översikt
@@ -690,7 +690,7 @@ Mer information om hur de här inställningarna påverkar hur du skapar nya uppg
      </tr> 
      <tr> 
       <td role="rowheader"><strong>När någon får åtkomst till det här projektet: Ange standardåtkomst för ...</strong></td> 
-      <td><p>Välj de åtkomstalternativ som du vill att användarna ska ha i projektet, om projektet delas med dem. Välj de specifika alternativen för deras åtkomst om de är angivna som <strong>visningsprogram</strong>, <strong>Medarbetare</strong> eller <strong>Chefer</strong> när de delar projektet med dem. </p><p>Åtkomsten <strong>Ta bort</strong> i behörighetsnivån <strong>Hantera</strong> avgör om användare kan ta bort själva projektet. Användare med <strong>Hantera</strong>-åtkomst till projektet kan ta bort aktiviteter och problem i projektet, oavsett om det här alternativet är markerat eller inte, om de har <strong>Hantera</strong>-behörighet till aktiviteter och ärenden. </p></td> 
+      <td><p>Välj de åtkomstalternativ som du vill att användarna ska ha i projektet, om projektet delas med dem. Välj de specifika alternativen för deras åtkomst om de är angivna som <strong>visningsprogram</strong>, <strong>Medarbetare</strong> eller <strong>Chefer</strong> när de delar projektet med dem. </p><p>Åtkomsten <strong>Ta bort</strong> i behörighetsnivån <strong>Hantera</strong> avgör om användare kan ta bort själva projektet. Användare med <strong>Hantera</strong>-åtkomst till projektet kan ta bort aktiviteter och problem i projektet, oavsett om det här alternativet är markerat eller inte, om de har <strong>Hantera</strong>-behörighet till aktiviteter och ärenden. </p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -884,7 +884,7 @@ To edit projects in bulk:
      For information, continue with step 7 below.
 
      <!--   
-     <p>(NOTE:&nbsp;make sure this stays accurate)</p>   
+     <p>(NOTE: make sure this stays accurate)</p>   
      
 
    * **Tasks**

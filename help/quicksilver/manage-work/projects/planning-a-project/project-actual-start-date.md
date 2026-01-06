@@ -7,9 +7,9 @@ description: Projekt, uppgifter och ärenden har ett faktiskt startdatum i Adobe
 author: Alina
 feature: Work Management
 exl-id: 4357b072-24f6-4f89-b624-f066f8af0722
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 ## Att tänka på när det gäller faktiska startdatum i Workfront
 
-* Det faktiska startdatumet finns i avsnittet Detaljer för projekt, uppgifter och ärenden. 
+* Det faktiska startdatumet finns i avsnittet Detaljer för projekt, uppgifter och ärenden.
 * Det faktiska startdatumet för ett projekt, en uppgift eller en utgåva fylls inte i när objekten skapas.
 * Det faktiska startdatumet fylls i när arbetet faktiskt börjar med projektet, aktiviteten eller utgåvan.
 * Faktiskt startdatum visas inte på fliken Projektinformation om projektet inte har startats ännu.
@@ -96,7 +96,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
      >[!IMPORTANT]
      >
-     >Projektets faktiska startdatum fylls inte i när projektet har markerats som Aktuellt. Faktiskt arbete måste starta på aktiviteterna i projektet innan projektets faktiska startdatum fylls i.
+     >Projektets faktiska startdatum fylls inte i när projektet har markerats som Aktuellt. Faktiskt arbete måste starta på aktiviteterna i projektet innan projektets faktiska startdatum fylls i.
 
      I dessa fall anges projektets faktiska startdatum till det datum och den tidpunkt då dessa åtgärder utfördes för den tidigaste aktiviteten i projektet. Detta anger att projektet faktiskt startades på detta datum och denna tid.
 
@@ -111,7 +111,8 @@ Du kan hitta det faktiska startdatumet för ett projekt i följande områden:
 
 Så här hittar du det faktiska startdatumet i avsnittet Detaljer i projektet:
 
-1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Workfront och klicka sedan på **Projekt**.
+{{step1-to-projects}}
+
 1. Klicka på det projekt som du vill visa det faktiska startdatumet för.
 1. Klicka på **Projektinformation** i den vänstra panelen och gå sedan till avsnittet **Översikt**.
 

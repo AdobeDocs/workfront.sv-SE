@@ -7,10 +7,10 @@ description: Att hålla koll på projektekonomin är avgörande för att hantera
 author: Lisa
 feature: Work Management
 exl-id: a5e69dea-d0aa-47cd-9b59-6199cec56fe4
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '594'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -68,102 +68,102 @@ I följande tabell visas en del av de finanser som du kan hålla reda på i Work
   <tr> 
    <td>Budget</td> 
    <td> <p>Mer information om budgetering av ett projekt finns i <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">Hantera information i projektfinansieringsdelen</a>.</p> <p>Mer information om budgeteringsresurser för ett projekt finns i <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md" class="MCXref xref">Budgetresurser i affärsärendet</a>.</p> </td> 
-   <td> </td> 
+   <td> </td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Faktureringsposter</td> 
    <td>Mer information om hur du skapar faktureringsposter finns i <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">Skapa faktureringsposter</a>.</td> 
-   <td> </td> 
+   <td> </td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Intäkter</td> 
    <td> Mer information om fakturering och intäkter finns i <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Översikt över fakturering och intäkter</a>. </td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Utgifter</td> 
    <td>Mer information om att hantera utgifter finns i <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Hantera projektutgifter </a>.</td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Faktureringstaxor</td> 
    <td> <p>Du kan ange faktureringspriser för användare eller jobbroller.</p> <p>Mer information om hur du associerar användare med faktureringstariffer finns i <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Redigera en användares profil</a>.</p> <p>Mer information om hur du associerar jobbroller med faktureringstariffer finns i <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Skapa och hantera jobbroller</a>.</p> <p>Faktureringstariffer beräknar intäkterna för dina projekt och uppgifter. Du kan åsidosätta rollfaktureringstariffer för ett projekt eller för ett företag. </p> <p>Mer information om att åsidosätta faktureringstariffer för projekt finns i <a href="../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md" class="MCXref xref">Översikt över åsidosättande av faktureringstariffer för jobbroller och beräkning av intäkter för ett projekt</a>.</p> <p>Mer information om att åsidosätta faktureringstariffer för företag finns i <a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref">Åsidosätt faktureringstariffer på projektnivå med faktureringstariffer på företagsnivå</a>.</p> </td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Avkastning på investering</td> 
    <td> Mer information om hur du beräknar ROI finns i <a href="../../../manage-work/projects/project-finances/calculate-roi.md" class="MCXref xref">Beräkna avkastning på investering (ROI)</a>. </td> 
-   <td> </td> 
+   <td> </td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Risk till netto</td> 
    <td>Mer information om hur du beräknar risk för nettovärde finns i <a href="../../../manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md" class="MCXref xref">Beräkna risk till nettovärde i en portfölj</a>.</td> 
-   <td> </td> 
+   <td> </td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Prestandamått</td> 
    <td> <p>Prestandamätningar visar hur dina projekt eller uppgifter fungerar vid en given tidpunkt. Prestandamått är automatiska beräkningar som utförs av Workfront för uppgifter och projekt. De prestandamått som du kan beräkna i Workfront visas på följande rader. Beräkningarna av prestandamått varierar beroende på vilken typ av Performance Index Method du använder. </p> <p>Mer information om hur du väljer vilken PIM som ska användas för systemet finns i <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Ange PIM (Performance Index Method)</a>.</p> </td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Uppskattning vid slutförande</td> 
    <td> Mer information om hur du beräknar EAC finns i <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">Beräkna beräkning vid slutförande (EAC)</a>. </td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Schemalägg prestandaindex (SPI)</td> 
    <td>Mer information om hur du beräknar SPI finns i <a href="../../../manage-work/projects/project-finances/calculate-spi.md" class="MCXref xref">Beräkna SPI (Schedule Performance Index) </a>.</td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Kostnadsprestandaindex (CPI)</td> 
    <td>Mer information om hur du beräknar CPI finns i <a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref">Beräkna kostnadsprestandaindex (CPI)</a>.</td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Resultatindex för kostnadsschema (CSI)</td> 
    <td>Mer information om hur du beräknar CSI finns i <a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref">Beräkna kostnadsprestandaindex (CPI)</a>.</td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>BCWS (Budgeted Cost of Work Scheduled)</td> 
    <td>Ett prestandamått. Mer information om hur du beräknar BCWS finns i <a href="../../../manage-work/projects/project-finances/calculate-bcws.md" class="MCXref xref">Beräkna budgeterad kostnad för schemalagt arbete (BCWS)</a>. </td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Budgeterad kostnad för utfört arbete (BCWP)</td> 
    <td>Ett prestandamått. Mer information om hur du beräknar BCWP finns i <a href="../../../manage-work/projects/project-finances/calculate-bcwp.md" class="MCXref xref">Beräkna budgeterad kostnad för utfört arbete (BCWP) </a>.</td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
 
- 
+

@@ -5,7 +5,7 @@ description: Anpassade Forms används för att samla in information som inte vis
 author: Becky
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Bifoga ett anpassat formulär till ett affärsärende
 
-Anpassade Forms används för att samla in information som inte visas i befintliga Adobe Workfront-fält. 
+Anpassade Forms används för att samla in information som inte visas i befintliga Adobe Workfront-fält.
 
 Mer information om hur du skapar anpassade Forms finns i artikeln [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
@@ -81,7 +81,7 @@ Så här bifogar du ett anpassat formulär:
 
    ![Expandera formulärinformation](assets/expand-custom-form-details.png)
 
-<!--1. (Optional) Select&nbsp;**Edit Custom Form**.  
+<!--1. (Optional) Select **Edit Custom Form**.  
   ![Edit custom form](assets/acf1-350x122.png)
 
-1. (Optional) Specify information in the fields of the custom form, then click&nbsp;**Save** . -->
+1. (Optional) Specify information in the fields of the custom form, then click **Save** . -->

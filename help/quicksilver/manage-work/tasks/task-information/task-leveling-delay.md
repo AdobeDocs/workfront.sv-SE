@@ -6,7 +6,7 @@ description: Ibland kan det finnas konflikter mellan aktivitetsscheman i ett pro
 author: Alina
 feature: Work Management
 exl-id: 6695448c-76ce-460c-aa59-63a3d5e2e18d
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -93,7 +93,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
    Välj bland följande alternativ för tidsenheter:
 
    * Minuter
-   * Timmar. Det här är standardinställningen.
+   * Timmar. Det här är standardinställningen.
    * Dagar
    * Veckor
    * Månader
@@ -107,6 +107,6 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
    >
    >Förfluten tid är en tidsenhet för en uppgifts varaktighet. Det är tiden mellan det planerade startdatumet och det planerade slutförandedatumet för en aktivitet som omfattar helger, helger och ledig tid. Med andra ord är förfluten tid en del av kalenderdagarna.
 
-1. Klicka på **Spara**. 
+1. Klicka på **Spara**.
 
- 
+

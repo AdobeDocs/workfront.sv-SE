@@ -6,9 +6,9 @@ description: I den här artikeln beskrivs hur du kan hitta och hantera mål i Ad
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -128,19 +128,16 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 
 ## Öppna Workfront-mål
 
-1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Mål**.
+{{step1-to-goals}}
 
-   <!-- drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   Mållistan visas.
+Mållistan visas.
 
 
-   >[!IMPORTANT]
-   >
-   >   När du har rätt åtkomst till Workfront-mål kan du som standard visa mål som du eller någon annan har skapat i mållistan.
+>[!IMPORTANT]
+>
+>   När du har rätt åtkomst till Workfront-mål kan du som standard visa mål som du eller någon annan har skapat i mållistan.
 
-   <!--   
+<!--   
    (NOTE: This might change when sharing is in place; right now, with sharing in place, they can VIEW all goals in the system but they cannot EDIT the ones others created!)
    -->
 
@@ -196,9 +193,12 @@ To access an individual goal in the Production environment:
 
 Så här kommer du åt ett enskilt mål:
 
-1. Klicka på ikonen **Huvudmeny** i det övre högra hörnet av Workfront och klicka sedan på **Mål** .
+{{step1-to-goals}}
+
 Mållistan visas som standard.
-   ![Mållista](assets/goal-list-unshimmed.png)
+
+![Mållista](assets/goal-list-unshimmed.png)
+
 1. Klicka på namnet på ett mål i listan.
 Målets sida visas.
    ![Målsida](assets/goal-page-unshimmed.png)

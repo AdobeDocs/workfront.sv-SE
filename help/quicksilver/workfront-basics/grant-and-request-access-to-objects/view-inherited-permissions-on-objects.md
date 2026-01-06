@@ -6,7 +6,7 @@ description: Din Adobe Workfront-administratör kan ge dig åtkomst till att vis
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 7025f097-ea99-41bf-965e-617b0f532ff7
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 0%
@@ -107,6 +107,6 @@ Så här visar du ärvda behörigheter för ett projekt:
    >
    >Du måste ha behörigheten Hantera för ett objekt för att kunna ta bort de ärvda behörigheterna.
 
- 
 
- 
+
+

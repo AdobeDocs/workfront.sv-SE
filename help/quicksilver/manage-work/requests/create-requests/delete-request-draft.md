@@ -6,9 +6,9 @@ description: Du kan ta bort skickade begäranden eller begära utkast.
 author: Becky
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: d87df92f548b19901374e982d1759efade644e17
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
@@ -76,11 +76,12 @@ Du kan ta bort begäranden under Förfrågningar i Workfront eller i widgeten Mi
 
 ### Ta bort en begäran från menyn med tre punkter
 
-1. Om du vill få åtkomst till listan över förfrågningar klickar du på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klickar du på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och sedan på **[!UICONTROL Requests]**.
+{{step1-to-requests}}
 
 1. Så här öppnar du widgeten Mina förfrågningar i Hem:
 
-   1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Home]**.
+   {{step1-to-home}}
+
    1. Leta reda på widgeten Mina förfrågningar.
 
       Mer information om widgeten Mina förfrågningar finns i [Använd widgeten Mina förfrågningar](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
@@ -106,11 +107,12 @@ Du kan ta bort begäranden under Förfrågningar i Workfront eller i widgeten Mi
 
 ### Begäran om massborttagning
 
-1. Om du vill få åtkomst till listan över förfrågningar klickar du på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klickar du på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och sedan på **[!UICONTROL Requests]**.
+{{step1-to-requests}}
 
 1. Så här öppnar du widgeten Mina förfrågningar i Hem:
 
-   1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Home]**.
+   {{step1-to-home}}
+
    1. Leta reda på widgeten Mina förfrågningar.
 
       Mer information om widgeten Mina förfrågningar finns i [Använd widgeten Mina förfrågningar](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).

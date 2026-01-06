@@ -7,7 +7,7 @@ description: De timmar du loggar in på dina arbetsuppgifter i Adobe Workfront r
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1276'
 ht-degree: 0%
@@ -78,7 +78,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>View or higher access to Tasks,&nbsp;Projects, or Issues</p> </td> 
+   <td> <p>View or higher access to Tasks, Projects, or Issues</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 

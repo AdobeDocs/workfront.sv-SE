@@ -6,9 +6,9 @@ description: Du kan prioritera dina projekt i Portfolio Optimizer för att fasts
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 714e6e09f1429f0382c36d17d3f2aca95edcfbc6
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -94,9 +94,8 @@ Tänk på följande när du använder [!UICONTROL Portfolio Optimizer]:
 
 ## Ändra prioritet för projekten i [!UICONTROL Portfolio Optimizer]
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+{{step1-to-portfolios}}
 
-1. Klicka på **[!UICONTROL Portfolios]**.
 1. (Valfritt) Välj rätt filter i listrutan **[!UICONTROL Filter]** för att visa rätt lista över portföljer.
 1. Klicka på namnet på en portfölj för att öppna den.
 1. Klicka på **[!UICONTROL Portfolio Optimization]** i den vänstra panelen.

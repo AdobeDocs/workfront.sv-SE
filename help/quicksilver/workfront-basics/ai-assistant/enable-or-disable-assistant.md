@@ -5,9 +5,9 @@ description: Du kan styra vilka åtkomstnivåer i organisationen som har tillgå
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: 184636b0d8df85e75502fc3650900244cfbd0e80
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 Så här aktiverar du AI-assistenten för en given åtkomstnivå:
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Setup]** ![ikonen Konfigurera](/help/_includes/assets/gear-icon-setup.png).
+{{step-1-to-setup}}
+
 1. Välj **Åtkomstnivåer** i den vänstra navigeringen.
 1. Välj önskad åtkomstnivå och klicka sedan på ikonen **Redigera** ![Redigera](assets/edit-icon.png) ovanför listan.
 1. Avmarkera kryssrutan **Inaktivera Workfront AI Assistant** i området **Ange ytterligare begränsningar..** i rutan **Redigera åtkomstnivå**.

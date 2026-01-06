@@ -6,7 +6,7 @@ description: Som Adobe Workfront-administratör kan du ge användare åtkomst ti
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%
@@ -42,13 +42,13 @@ Behörigheterna är specifika för ett objekt i Workfront och definierar vilka �
       * Visa
       * Hantera
 
-   * Framtida projekt som skapas med mallen. Du kan ge samma behörighetsnivåer för projekt som skapats från en mall som för ett enskilt projekt. 
+   * Framtida projekt som skapas med mallen. Du kan ge samma behörighetsnivåer för projekt som skapats från en mall som för ett enskilt projekt.
 
      Mer information om hur du delar ett projekt från en mall på mallnivå finns i [Dela projektmallar](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
 * När du delar en mall eller ett projekt som skapas från mallen ärver användarna som standard samma behörigheter till alla underordnade objekt som är kopplade till mallen eller projektet.
 
-  Mer information om objekthierarkin i Workfront finns i  [Förstå objekt i Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+  Mer information om objekthierarkin i Workfront finns i   [Förstå objekt i Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 * När du delar en mall ärver alla malluppgifter och -dokument, liksom problemen med det framtida projekt som skapas från mallen, samma behörigheter, om inget annat anges.
 
@@ -61,7 +61,7 @@ Behörigheterna är specifika för ett objekt i Workfront och definierar vilka �
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Share a template</h2>
-<p>(NOTE: drafted because this is also linked above: Share project templates >> which is an article in the Manage Work section>> Templates)&nbsp;</p>
+<p>(NOTE: drafted because this is also linked above: Share project templates >> which is an article in the Manage Work section>> Templates)  </p>
 <ol>
 <li value="1"> <p>Go to the template you want to share with other entities, click <strong>Template Actions</strong>, then <strong>Template Sharing</strong>.<br>Or</p> <p>Navigate to a list of templates, and select multiple templates from the list, then click <strong>Share Template</strong>.</p> <note type="note">
 If you select multiple templates, you cannot view who already has permissions to the individual templates.
@@ -90,9 +90,9 @@ You can share an object only with active users, teams,
 </note> </li>
 <li value="3">From the drop-down menu, select which level of permissions you want to grant.<br>Select from the following:<br>
 <ul>
-<li><strong>No access</strong>: You can specify which users will not have any access to the template.<br>This option is available only when bulk sharing projects from templates.&nbsp;</li>
+<li><strong>No access</strong>: You can specify which users will not have any access to the template.<br>This option is available only when bulk sharing projects from templates.  </li>
 <li><strong>View</strong>: Users with these permissions can view projects created from the template.</li>
-<li><strong>Contribute</strong>: Users with these permissions can contribute to projects created from the template&nbsp;</li>
+<li><strong>Contribute</strong>: Users with these permissions can contribute to projects created from the template  </li>
 <li><strong>Manage</strong>: Users with these permissions can manage or delete projects created from this template.<br><img src="assets/share-project-from-template-350x268.png" alt="share_project_from_template.png" style="width: 350;height: 268;"></li>
 </ul></li>
 <li value="4">(Optional) Click <strong>Advanced Settings</strong> to fine-tune your settings for each level of permissions. </li>
@@ -120,17 +120,17 @@ Tabellen nedan visar vilka behörigheter du kan ge användarna när de får visa
   <tr> 
    <td>Kopiera</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Ta bort</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Redigera mallinformation</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Visa mall</td> 
@@ -144,12 +144,12 @@ Tabellen nedan visar vilka behörigheter du kan ge användarna när de får visa
   </tr> 
   <tr> 
    <td>Dela hela systemet</td> 
-   <td> </td> 
+   <td>  </td> 
    <td>✓</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Lägg till dokument</p> <p>Tips! Ibland lägger man till dokument i en projektmall som tror att de läggs till i ett projekt. Du kan förhindra detta för mottagarna genom att inaktivera den här inställningen.</p> </td> 
-   <td> </td> 
+   <td>  </td> 
    <td>✓</td> 
   </tr> 
  </tbody> 

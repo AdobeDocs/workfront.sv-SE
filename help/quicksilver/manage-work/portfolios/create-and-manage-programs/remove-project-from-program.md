@@ -6,7 +6,7 @@ description: När det inte längre behövs kan du ta bort ett projekt från ett 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 3dfd10e6-bcd0-48fb-b6aa-6e08cc52b230
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 0%

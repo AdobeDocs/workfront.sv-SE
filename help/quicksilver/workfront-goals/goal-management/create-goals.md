@@ -6,9 +6,9 @@ description: Oavsett om du är VD, chef eller enskild medverkande kan du skapa m
 author: Alina
 feature: Workfront Goals
 exl-id: 14bf48b6-eb0c-4b00-a1a4-0d070ccc1392
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
@@ -219,12 +219,10 @@ Creating goals differs depending on what environment you use.
 
 -->
 
-1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Mål**.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+Mållistan visas.
 
-   Mållistan visas.
 1. Klicka på **Nytt mål**.
 
    Rutan Nytt mål visas.
@@ -254,7 +252,7 @@ Creating goals differs depending on what environment you use.
    Gör minst något av följande för att förbereda ett mål som ska aktiveras:
    * Lägg till ett resultat
 
-     Mer information om hur du lägger till resultat finns i [Lägga till resultat i mål i Adobe Workfront &#x200B;](../results-and-activities/add-results-to-goals.md).
+     Mer information om hur du lägger till resultat finns i [Lägga till resultat i mål i Adobe Workfront ](../results-and-activities/add-results-to-goals.md).
    * Lägg till en aktivitet
 
      Mer information om hur du lägger till aktiviteter finns i [Lägga till aktiviteter i mål i Adobe Workfront-mål](../results-and-activities/add-activities-to-goals.md).

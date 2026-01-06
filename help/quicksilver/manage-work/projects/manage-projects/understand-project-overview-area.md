@@ -8,7 +8,7 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1404'
 ht-degree: 0%
@@ -135,11 +135,11 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
      </tr> 
      <tr> 
       <td role="rowheader">Villkorstyp</td> 
-      <td>Avgör om projektledaren ställer in villkoret för projektet eller om Workfront gör det. Mer information om projektvillkor finns i artikeln <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Översikt över projektvillkor och villkorstyp</a>.</td> 
+      <td>Avgör om projektledaren ställer in villkoret för projektet eller om Workfront gör det. Mer information om projektvillkor finns i artikeln <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Översikt över projektvillkor och villkorstyp</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Schemaläge</td> 
-      <td>Anger hur projektet schemaläggs. Om projektet till exempel är schemalagt från Startdatum eller från Slutförandedatum. </td> 
+      <td>Anger hur projektet schemaläggs. Om projektet till exempel är schemalagt från Startdatum eller från Slutförandedatum. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Planerat startdatum och starttid</td> 
@@ -209,7 +209,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
    | Anges av | Namnet på den användare som skapade projektet. |
    | Senaste uppdateringsdatum | Datum och tid då projektet senast uppdaterades. |
    | Senast uppdaterad av | Namnet på den användare som senast uppdaterade projektet. |
-   | Mall |   |
+   | Mall |  |
 
 
 1. Om ditt företag har köpt ytterligare en licens för Adobe Workfront Scenario Planner och projektet innehåller information som publicerats från ett länkat initiativ kan du läsa följande information i Scenarioplaneringsområdet:
@@ -236,15 +236,15 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
      </tr> 
      <tr> 
       <td role="rowheader"><span>Startdatum</span> </td> 
-      <td><span>Den sista dagen i initialets slutmånad, när projektet är kopplat till ett initiativ. </span> </td> 
+      <td><span>Den sista dagen i initialets slutmånad, när projektet är kopplat till ett initiativ. </span> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><span>Initiera befattningsroller i heltidsanställda och timmar</span> </td> 
-      <td> <p>Information om de associerade jobbrollerna och deras tidsfördelningar för initiativet. Detta omfattar följande:</p> 
+      <td> <p>Information om de associerade jobbrollerna och deras tidsfördelningar för initiativet. Detta inkluderar:</p> 
        <ul> 
         <li>Jobbrollsnamn</li> 
         <li>Antal heltidsanställda</li> 
-        <li> <p>Antal timmar för alla heltidsanställda</p> <p>Du kan beräkna antalet jobbroller som behövs för din plan eller ditt initiativ med hjälp av timmar eller heltidsanställda. </p> <p>Mer information finns i <a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Skapa och redigera planer i scenarioplanen</a>. </p> </li> 
+        <li> <p>Antal timmar för alla heltidsanställda</p> <p>Du kan beräkna antalet jobbroller som behövs för din plan eller ditt initiativ med hjälp av timmar eller heltidsanställda. </p> <p>Mer information finns i <a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Skapa och redigera planer i scenarioplanen</a>. </p> </li> 
        </ul> <p>Tips: <span>Om antalet jobbroller är olika för varje månad i initiativet visas det maximala antalet roller som krävs för initiativet i det här fältet. Om du till exempel behöver en konsult för januari och 2 för februari, visar kolumnen 2 heltidsanställda och motsvarande antal timmar för 2 heltidsanställda för alla månader.</span> </p> </td> 
      </tr> 
     </tbody> 

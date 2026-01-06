@@ -6,9 +6,9 @@ description: Du kan dela en mall med användare eller definiera hur projekt som 
 author: Alina
 feature: Work Management
 exl-id: 99c6b241-a2c9-4b6c-b605-177bbbc3f21a
-source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ Så här delar du en mall:
 
    eller
 
-   Välj en mall från listan, klicka på delningsikonen ![](assets/share-icon.png) och sedan på **Mall.**
+   Välj en mall från listan, klicka på delningsikonen ![Dela mall](assets/share-icon.png) och klicka sedan på **Mall.**
 
    >[!TIP]
    >
@@ -117,7 +117,7 @@ Så här delar du en mall:
 
    * **Hantera**: Användare med de här behörigheterna kan redigera eller ta bort mallen.
 
-     Mer information om de avancerade inställningarna ![](assets/gear-icon-in-access-levels.png) som finns här finns i avsnittet [Avancerade inställningar för malldelning](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md#template-permissions) i artikeln [Dela en mall](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+     Mer information om de avancerade inställningarna ![Kugghjulsikonen](assets/gear-icon-in-access-levels.png) som finns här finns i avsnittet [Avancerade inställningar för malldelning](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md#template-permissions) i artikeln [Dela en mall](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
 1. Klicka på **Spara**.
 
@@ -145,9 +145,9 @@ Så här delar du framtida projekt som skapats från en mall med användare:
 1. Välj något av följande i listrutan för varje enhet:
 
    * **Ingen åtkomst**: Du kan ange vilka användare som inte har åtkomst till mallen.\
-     Det här alternativet är endast tillgängligt när du delar projekt gruppvis från mallar. 
+     Det här alternativet är endast tillgängligt när du delar projekt gruppvis från mallar.
    * **Visa**: Användare med den här behörigheten kan visa projekt som skapats från mallen.
-   * **Contribute**: Användare med dessa behörigheter kan bidra till projekt som skapas från mallen 
+   * **Contribute**: Användare med dessa behörigheter kan bidra till projekt som skapas från mallen
    * **Hantera**: Användare med de här behörigheterna kan hantera eller ta bort projekt som skapats från den här mallen.
 
 1. (Valfritt) Klicka på ikonen **Alternativ** för att göra projekten tillgängliga i hela systemet.

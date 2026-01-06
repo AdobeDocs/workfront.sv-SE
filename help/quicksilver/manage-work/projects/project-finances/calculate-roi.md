@@ -7,7 +7,7 @@ description: Avkastning på investering (ROI, Return On Investment) är ett Adob
 author: Lisa
 feature: Work Management
 exl-id: 1a3d16cb-8cb1-472e-8102-0ea8e0bc0edd
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -40,15 +40,15 @@ Följande fält påverkar avkastningen på ett projekt:
 
 Du kan visa ROI-värdet för ett projekt i följande områden i Workfront:
 
-* I Portfolio-optimering om projektet är kopplat till en portfölj
+* I Portfolio Optimizer om projektet är kopplat till en portfölj
 
   >[!NOTE]
   >
   >Summan av projektets alla avkastningsvärden är portföljens avkastning.
 
-  Mer information om optimering av Portfolio finns i artikeln [Översikt över optimering av Portfolio](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+  Mer information om Portfolio Optimizer finns i artikeln [Portfolio Optimizer - översikt](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
-* I fältet Projektavkastning i följande listor och rapporter: 
+* I fältet Projektavkastning i följande listor och rapporter:
 
    * Projekt
    * Uppgift

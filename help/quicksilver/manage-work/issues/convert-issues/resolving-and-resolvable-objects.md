@@ -7,7 +7,7 @@ description: Ett upplösningsbart objekt är ett problem vars upplösning är kn
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1760'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Mer information om hur du ställer in inställningar för hantering av löstagba
 
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Note: drafted and just pointed the user to the article linked above)&nbsp;</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Note: drafted and just pointed the user to the article linked above) </p>
 <p>To establish the system default for what happens to the issue as it is being converted to a task or a project:</p>
 <ol>
 <li value="1">Log in to Workfront as a Workfront administrator <span>or group administrator.</span></li>
@@ -107,7 +107,7 @@ Mer information om hur du konverterar problem till aktiviteter och projekt finns
 <li><p><strong>Issue</strong></p></li>
 </ul><p>The field for the resolving object displays. </p></li>
 <li value="5">After selecting the object, start typing the name of a specific project, task, or issue in the available field and select it when it appears in the drop-down list. </li>
-<li value="6">Click <strong>Save</strong>&nbsp;<strong>Changes</strong>.<br>The original issue becomes the Resolvable Object for the project, task, or issue you selected in step 4 and 5.<br><note type="note">
+<li value="6">Click <strong>Save</strong> <strong>Changes</strong>.<br>The original issue becomes the Resolvable Object for the project, task, or issue you selected in step 4 and 5.<br><note type="note">
 One project, task, or issue may have multiple issues as Resolvable Objects.
 </note></li>
 </ol>

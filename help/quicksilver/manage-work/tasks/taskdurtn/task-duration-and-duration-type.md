@@ -8,7 +8,7 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1653'
 ht-degree: 0%
@@ -75,7 +75,7 @@ När du uppdaterar varaktigheten för uppgifter i en lista kan du använda följ
 |---|---|
 | Minuter | M |
 | Timmar | H |
-| Dagar. Det här är standardinställningen. | D |
+| Dagar. Det här är standardinställningen. | D |
 | Veckor | B |
 | Månader | T, MO |
 | Förflutna minuter | EM |

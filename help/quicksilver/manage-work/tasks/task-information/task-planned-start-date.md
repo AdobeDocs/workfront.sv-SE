@@ -7,7 +7,7 @@ description: Det planerade startdatumet för en uppgift är det datum då du, so
 author: Alina
 feature: Work Management
 exl-id: 2ac6327f-4a13-4fb8-ad8e-03d032221483
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 0%
@@ -22,18 +22,18 @@ Det planerade startdatumet för en uppgift är det datum då du, som skapare av 
 
 ## Det planerade startdatumet för en uppgift
 
-Du kan antingen ange aktivitetens planerade startdatum eller låta Adobe Workfront beräkna det utifrån vissa kriterier. 
+Du kan antingen ange aktivitetens planerade startdatum eller låta Adobe Workfront beräkna det utifrån vissa kriterier.
 
 * [Ange det planerade startdatumet för en aktivitet manuellt](#manually-set-the-planned-start-date-of-a-task)
 * [Så här beräknas det planerade startdatumet för en aktivitet](#how-the-planned-start-date-is-calculated-for-a-task)
 
 ### Ange manuellt planerat startdatum för en uppgift {#manually-set-the-planned-start-date-of-a-task}
 
-Inställningen av en uppgifts planerade startdatum beror på vilken typ av aktivitetsbegränsning du tilldelar uppgiften. 
+Inställningen av en uppgifts planerade startdatum beror på vilken typ av aktivitetsbegränsning du tilldelar uppgiften.
 
 Du kan ställa in det planerade startdatumet manuellt när du skapar en uppgift. Mer information finns i [Skapa uppgifter i ett projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-Du kan ange det planerade startdatumet manuellt när du väljer något av följande åtgärdsbegränsningar: 
+Du kan ange det planerade startdatumet manuellt när du väljer något av följande åtgärdsbegränsningar:
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -83,7 +83,7 @@ När det beräknas automatiskt av systemet kan följande påverka det planerade 
 
   Mer information om inställningen för Tid av för användaren finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) eller [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-När det anges automatiskt bestäms det planerade startdatumet utifrån följande beräkning: 
+När det anges automatiskt bestäms det planerade startdatumet utifrån följande beräkning:
 
 ```
 Planned Start Date = Planned Completion Date - Task Duration
@@ -93,5 +93,5 @@ Om aktiviteten till exempel har ett slutförandedatum som är 16 september och e
 
 >[!NOTE]
 >
-> Uppdateringstypen för projektet måste också ställas in på Automatisk och Vid ändring eller Automatiskt för att de planerade timmarna och varaktigheten ska kunna justeras automatiskt.\
+> Uppdateringstypen för projektet måste också ställas in på Automatisk och Vid ändring eller Automatiskt för att de planerade timmarna och varaktigheten ska kunna justeras automatiskt.\
 >Mer information om uppdateringstypen finns i [Välj projekttyp](../../../manage-work/projects/manage-projects/select-project-update-type.md).

@@ -7,7 +7,7 @@ description: Uppdateringstypen för ett projekt anger hur Adobe Workfront beräk
 author: Alina
 feature: Work Management
 exl-id: a6394961-2ac8-4b95-aa1b-dba8108c612f
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Mer information om hur du uppdaterar projektets uppdateringstyp finns i [Välj t
 >
 >Om tidslinjen för ett projekt är längre än 15 år beräknas tidslinjen inte automatiskt eller vid ändring i Workfront. Uppdateringstypen för ett projekt som är längre än 15 år är alltid Manuell.
 
-* **Automatisk och vid ändring:** Det här är standardinställningen. Projektets tidslinje uppdateras varje gång en ändring inträffar i projektet eller i ett annat projekt som tidslinjen är beroende av. Projektets tidslinje uppdateras också varje kväll. \
+* **Automatisk och vid ändring:** Det här är standardinställningen. Projektets tidslinje uppdateras varje gång en ändring inträffar i projektet eller i ett annat projekt som tidslinjen är beroende av. Projektets tidslinje uppdateras också varje kväll.\
   Detta är den rekommenderade inställningen eftersom den ser till att projekttidslinjen alltid är uppdaterad.
 
   När du uppdaterar en uppgift eller ett projekt och utlöser en omberäkning av tidslinjen, visas alla tillgängliga datum omedelbart så att du kan fortsätta arbeta. I projekt med mer än 100 uppgifter är datum som kräver längre beräkningar nedtonade.

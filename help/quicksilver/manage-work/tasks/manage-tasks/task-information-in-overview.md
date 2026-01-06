@@ -6,7 +6,7 @@ description: Du kan visa eller redigera information om en uppgift genom att gå 
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '2102'
 ht-degree: 0%
@@ -122,7 +122,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 1. Redigera alla fält som är tillgängliga för redigering genom att klicka en gång på fältet eller klicka på **+Lägg till** för att lägga till information i ett tomt fält.
 1. Visa eller redigera något av följande fält.
 
-   Alla fält kan inte redigeras.  
+   Alla fält kan inte redigeras.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -199,7 +199,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
             <td>H</td> 
            </tr> 
            <tr> 
-            <td>Dagar. Det här är standardinställningen. </td> 
+            <td>Dagar. Det här är standardinställningen. </td> 
             <td>D</td> 
            </tr> 
            <tr> 
@@ -365,7 +365,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
    -->
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Custom Forms</strong> to add or forms or edit information on the existing custom forms.&nbsp;</p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Custom Forms</strong> to add or forms or edit information on the existing custom forms. </p>
    -->
 
    <!--
@@ -385,7 +385,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
      -->
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click&nbsp;<strong>Finance</strong>, then <strong>Edit Finance</strong> to view or edit financial information for the task. </p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Finance</strong>, then <strong>Edit Finance</strong> to view or edit financial information for the task. </p>
    -->
 
    <!--

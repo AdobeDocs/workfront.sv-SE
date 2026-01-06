@@ -6,9 +6,9 @@ description: Du kan lägga till kommentarer till alla mål som du kan visa i Ado
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -138,8 +138,10 @@ Du kan lägga till kommentarer till alla mål som du kan visa i Adobe Workfront-
 
 Du kan lägga till kommentarer till mål i uppdateringsavsnittet på målsidan.
 
-1. Klicka på ikonen **Huvudmeny** ![Huvudmeny &#x200B;](assets/main-menu-icon.png) i det övre högra hörnet eller på ikonen **Huvudmeny** ![Huvudmenyrader](assets/lines-main-menu.png) i det övre vänstra hörnet, om det finns några, och klicka sedan på **Mål** .
+{{step1-to-goals}}
+
 Detta öppnar mållistan.
+
 1. Leta reda på målet som du vill lägga till kommentarer i och klicka sedan på namnet för att öppna målsidan.
 1. Klicka på **Uppdateringar** i den vänstra panelen.
 

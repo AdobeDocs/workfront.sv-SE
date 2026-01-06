@@ -6,9 +6,9 @@ description: Du kan stänga ett mål när du vill ange att du har slutfört det 
 author: Alina
 feature: Workfront Goals
 exl-id: bbb549c1-aea6-4f5e-8a6b-01fc04cf06ef
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
@@ -189,12 +189,9 @@ Closing goals differs depending on what environment you use.
 1. (Optional) Modify your filters again to display only closed goals. The goals you closed display on the screen.
 -->
 
-1. Klicka på ikonen **Huvudmeny** ![Huvudmeny &#x200B;](assets/main-menu-icon.png) > **Mål** i det övre högra hörnet.
+{{step1-to-goals}}
 
-   Mållistan öppnas.
-
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+Mållistan öppnas.
 
 1. (Valfritt) Ändra filtren så att endast aktiva mål visas.
 
@@ -255,12 +252,9 @@ Reopening goals differs depending on what environment you use.
 
 -->
 
-1. Klicka på ikonen **Huvudmeny** ![Huvudmeny &#x200B;](assets/main-menu-icon.png)> **Mål** i det övre högra hörnet.
+{{step1-to-goals}}
 
-   Mållistan öppnas.
-
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+Mållistan öppnas.
 
 1. (Valfritt) Ändra filtren så att endast stängda mål visas.
 

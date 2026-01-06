@@ -7,7 +7,7 @@ description: Som standard visas de senaste 100 aktiva projekten i listan över p
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 76db4ed0-a411-49aa-8acd-f149df1f38a4
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
@@ -80,4 +80,4 @@ Så här visar du information om ett projekt i [!DNL Workfront View]:
 
 1. Svep från höger till vänster för att visa följande projekt i listan.\
    Samma widgetar visas för varje projekt när du bläddrar igenom dem.\
-   ![Bild-1__6__kopia.jpg](assets/image-1--6--copy-350x262.jpg) 
+   ![Bild-1__6__kopia.jpg](assets/image-1--6--copy-350x262.jpg)

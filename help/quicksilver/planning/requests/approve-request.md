@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1071'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ Du kan godkänna begäranden om att skapa poster från själva begäran, <span c
    Förfrågningssidan öppnas i skrivskyddat läge.
 
    ![Skrivskyddad begärandesida med granskningsstatus](assets/read-only-reqeust-page-in-review-status.png)
-1. Om du använder den nya begärandefunktionen i Workfront klickar du på **Huvudmeny** ![Primär meny](assets/dots-menu.png) i skärmens övre högra hörn eller på **Huvudmeny** ![Rader-huvudmenyn](assets/lines-menu.png) i skärmens övre vänstra hörn, om den är tillgänglig, klickar sedan på **Förfrågningar** och klickar på den begäran som du vill godkänna med statusen **10&rbrace; Väntande granskning**.
+1. Om du använder den nya begärandefunktionen i Workfront klickar du på **Huvudmeny** ![Primär meny](assets/dots-menu.png) i skärmens övre högra hörn eller på **Huvudmeny** ![Rader-huvudmenyn](assets/lines-menu.png) i skärmens övre vänstra hörn, om den är tillgänglig, klickar sedan på **Förfrågningar** och klickar på den begäran som du vill godkänna med statusen **10} Väntande granskning**.
 1. (Valfritt) Klicka på ikonen **Godkännanden** ![Godkännanden](assets/approvals-icon.png) i det övre högra hörnet av begäran för att visa godkännarna.
 1. Klicka på **Granska och godkänn** och välj sedan något av följande:
 
@@ -138,11 +138,11 @@ Du kan godkänna begäranden om att skapa poster från själva begäran, <span c
 
 ### Godkänn en begäran från widgeten Mina godkännanden i Hem
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Home]**.
+{{step1-to-home}}
 
-   eller
+eller
 
-   Klicka på ikonen [!UICONTROL Home] ![Hem](/help/_includes/assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront och leta sedan upp widgeten Mina godkännanden.
+Klicka på ikonen [!UICONTROL Home] ![Hem](/help/_includes/assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront och leta sedan upp widgeten Mina godkännanden.
 
 1. Leta reda på objektet som du vill godkänna eller avvisa.
 

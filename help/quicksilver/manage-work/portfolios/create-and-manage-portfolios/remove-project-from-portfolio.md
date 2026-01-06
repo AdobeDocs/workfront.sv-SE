@@ -6,7 +6,7 @@ description: Du kan ta bort ett projekt från en portfölj och associera det med
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 8982097e-76ee-497a-aa7c-74c6fbd3002d
-source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
@@ -86,7 +86,7 @@ Du kan också ta bort projekt från en portfölj som också tar bort dem från [
 ## Ta bort ett projekt från en portfölj
 
 1. Gå till en Portfolio och klicka på **[!UICONTROL Projects]** i den vänstra panelen.
-1. Välj det projekt som ska tas bort. 
+1. Välj det projekt som ska tas bort.
 
    ![Knappen Ta bort projekt](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
 

@@ -7,7 +7,7 @@ description: Adobe Workfront fastställer förloppsstatusen för en aktivitet ge
 author: Alina
 feature: Work Management
 exl-id: 38e5f89e-bdfa-433c-9371-3c3003ada3a3
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Följande kriterier bestämmer förloppsstatusen för en uppgift:
  </thead> 
  <tbody> 
   <tr valign="top"> 
-   <td scope="col"> <p> </p> <p><strong>I tid</strong> </p> </td> 
+   <td scope="col"> <p> </p> <p><strong>I tid</strong> </p> </td> 
    <td scope="col"> <p>En aktivitet anses vara <strong>On Time</strong> när alla planerade datum matchar de planerade datumen. Den här statusen kan även innebära att projektet ligger före schemat och att de planerade datumen kan ligga före de planerade datumen.</p> <p>Mer information om beräknade datum finns i <a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">Översikt över planerat slutförandedatum för projekt, uppgifter och problem</a>.</p> <p>Mer information om schemalagt slutförandedatum för aktiviteten finns i följande artiklar:</p> 
     <ul> 
      <li> <p><a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Översikt över aktivitetens planerade startdatum</a> </p> </li> 

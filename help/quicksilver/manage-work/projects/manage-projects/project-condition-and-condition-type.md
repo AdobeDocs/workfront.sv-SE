@@ -7,7 +7,7 @@ description: Projektvillkoret är en visuell representation av hur projektet for
 author: Alina
 feature: Work Management
 exl-id: 0c847b26-b0cb-49bb-84be-32534c72d5b6
-source-git-commit: e4de185f172b173dcc3ad966afa69ffb3bc479eb
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 0%
@@ -78,25 +78,25 @@ I det här fallet kan värdena för Projektvillkor vara:
    <td><strong>Projektvillkor</strong></td> 
    <td><strong>Status för projektförlopp</strong></td> 
    <td><strong>Workfront villkorsindikator</strong></td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>På mål</td> 
    <td>När statusen för projektet är I tid är villkoret för projektet <strong>På mål</strong>. </td> 
    <td> <img src="assets/on-target-condition-icon.png"> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Risk</td> 
    <td>När projektets förloppsstatus är <strong>Bakom</strong> eller <strong>Vid risk</strong> är villkoret för projektet <strong>Vid risk</strong>.</td> 
    <td> <img src="assets/at-risk-project-condition-icon.png"> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>I problem</td> 
    <td>När projektets förloppsstatus är <strong>SENT</strong> är projektets villkor <strong>I problem</strong>. </td> 
    <td> <img src="assets/in-trouble-project-condition-icon.png"> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>

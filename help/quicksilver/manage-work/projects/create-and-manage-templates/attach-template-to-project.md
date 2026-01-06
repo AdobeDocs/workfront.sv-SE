@@ -6,7 +6,7 @@ description: Du kan bifoga en mall till ett projekt antingen under den inledande
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 0%
@@ -73,7 +73,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>Edit access to Projects </p> <p>For information about project access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>.</p> <p>View access to&nbsp;Templates</p> <p>For information about template permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">Share a template</a>. </p> <p>For information about template access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Grant access to templates</a>.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create and modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects </p> <p>For information about project access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>.</p> <p>View access to Templates</p> <p>For information about template permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">Share a template</a>. </p> <p>For information about template access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Grant access to templates</a>.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create and modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -89,7 +89,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 <p>Consider the following when adding templates to projects:</p>
 <ul>
 <li> <p>You can attach only active templates to projects. </p> </li>
-<li> <p>You can attach a template to a project when the project is in a status of Complete, Dead, or in Pending Approval, only when your Adobe Workfront administrator <span>or a group administrator</span> has enabled this functionality in the Project&nbsp;Preferences area. For information about setting project preferences, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>. </p> </li>
+<li> <p>You can attach a template to a project when the project is in a status of Complete, Dead, or in Pending Approval, only when your Adobe Workfront administrator <span>or a group administrator</span> has enabled this functionality in the Project Preferences area. For information about setting project preferences, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>. </p> </li>
 <li> <p>Unless you exclude specific template tasks from being added in the attachment process, all template tasks are added to the existing project. </p> </li>
 <li> <p>Most template settings are added to the project. </p> </li>
 <li> <p>Some settings from the template automatically transfer to the project, unless you specifically mark them to be excluded. </p>
@@ -97,7 +97,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 <span class="autonumber"><span><b>Example: </b></span></span>
 <p>For example, these settings are added to the project:</p>
 <ul>
-<li>Start&nbsp;From field</li>
+<li>Start From field</li>
 <li>Custom forms and the information on them</li>
 <li>Queue Details </li>
 <li>Financial settings </li>
@@ -121,7 +121,7 @@ Du kan bifoga en mall till ett projekt från projektsidan eller från en projekt
 
    eller
 
-   Gå till en projektlista eller rapport och välj ett projekt och klicka sedan på ikonen **Mer** ![Mer &#x200B;](assets/more-dropdown.png) högst upp i listan.
+   Gå till en projektlista eller rapport och välj ett projekt och klicka sedan på ikonen **Mer** ![Mer ](assets/more-dropdown.png) högst upp i listan.
 
    ![Mer meny utökad](assets/more-menu-expanded.png)
 
@@ -158,7 +158,7 @@ Du kan bifoga en mall till ett projekt från projektsidan eller från en projekt
       <td role="rowheader" colspan="2"> <p role="rowheader" colspan="2">Avsnittet Uppgifter</p> <p role="rowheader" colspan="2"> <img src="assets/attach-template-large-box-tasks-section-nwe-350x289.png" style="width: 350;height: 289;"> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">De valda malluppgifterna nedan importeras till projektet. Avmarkera de som du vill utesluta. </td> 
+      <td role="rowheader">De valda malluppgifterna nedan importeras till projektet. Avmarkera de som du vill utesluta. </td> 
       <td><p>Avmarkera alla uppgifter som du vill utesluta från mallen innan du bifogar den till projektet.</p>
       <p><b>TIPS</b></p>
       <p>Du kan bara välja en uppgift.</p>

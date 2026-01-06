@@ -6,7 +6,7 @@ description: Om du måste göra mer för att slutföra ett problem efter att utg
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions to the issue</p> <p>Contribute permissions to the project</p> <p>You obtain&nbsp;Manage permissions to the task after the issue is converted</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View permissions to the issue</p> <p>Contribute permissions to the project</p> <p>You obtain Manage permissions to the task after the issue is converted</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table> -->

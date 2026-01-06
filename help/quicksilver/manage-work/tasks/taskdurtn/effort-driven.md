@@ -7,7 +7,7 @@ description: Ansträngningsstyrd är en typ av varaktighet som du kan ange för 
 author: Alina
 feature: Work Management
 exl-id: 3c8534f7-02d0-4404-a37b-0ef6360e8efc
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Ansträngningsstyrd är en typ av varaktighet som du kan ange för en uppgift i 
 
 ## Översikt över aktivitetsstyrd varaktighetstyp
 
-Workfront eller en gruppadministratör kan ange systemets eller gruppens standardtyp för varaktighet som aktivitetsstyrd. I det här fallet skapas alla nya uppgifter med den här varaktighetstypen. Mer information om hur du ändrar uppgifter och utgåvor som en del av dina projektinställningar på system- eller gruppnivå finns i [Konfigurera uppgifter och ärenden för hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Workfront eller en gruppadministratör kan ange systemets eller gruppens standardtyp för varaktighet som aktivitetsstyrd. I det här fallet skapas alla nya uppgifter med den här varaktighetstypen. Mer information om hur du ändrar uppgifter och utgåvor som en del av dina projektinställningar på system- eller gruppnivå finns i [Konfigurera uppgifter och ärenden för hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 I det här scenariot finns det en risk för godtycklig förkortning av projektplanen, såvida du inte som projektledare tar dig tid att fundera över om aktiviteten egentligen är en aktivitetsstyrd uppgift.
 

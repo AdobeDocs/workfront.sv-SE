@@ -7,7 +7,7 @@ description: I den här artikeln finns ett exempel på hur man beräknar EAC (Es
 author: Lisa
 feature: Work Management
 exl-id: 68b582c9-f72a-4000-9d28-f7dafa23541f
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1134'
 ht-degree: 0%
@@ -73,13 +73,13 @@ EAC-metod = Samla in uppgifter/underaktiviteter
 1. Beräkna om ekonomi
 1. **CPI för uppgift 1** = 0,04 beräknat enligt följande:\
    **CPI för aktivitet 1** = *IF* Faktiska timmar > 0 *SEDAN* CPI = TotalBudgetedCostWorkPerformed/Faktiska timmar\
-       *ELSE* CPI = 1\
+   *ELSE* CPI = 1\
    **CPI för aktivitet 1** = 1 / 25\
    **CPI för aktivitet 1** = .04
 
 1. **EAC för uppgift 1** = 125 tim beräknat enligt följande:\
    **EAC för aktivitet 1** = *OM* CPI &lt;> 0 *SEDAN* EAC = Planerade timmar/CPI\
-       *ELSE*
+   *ELSE*
 
    ```
    EAC = Planned  Hours + Actual  Hours
@@ -89,7 +89,7 @@ EAC-metod = Samla in uppgifter/underaktiviteter
    **EAC för uppgift 1** = 125 tim
 
 1. CPI/EAC för uppgifter 2 och 3 är:\
-   Uppgift  2 = .12 / 83.33  timmar\
+   Aktivitet 2 = 0,12 / 83,33 tim\
    Aktivitet 3 = 0,24 / 62,5 tim
 
 1. **CPI för projekt** = .13 beräknat enligt följande:\
@@ -99,7 +99,7 @@ EAC-metod = Samla in uppgifter/underaktiviteter
    CPI = TotalBudgetedCostWorkPerformed/Actual Hours
    ```
 
-       *ELSE* CPI = 1\
+       *ELSE* CPI = 1
    **CPI för projekt** = 10/75\
    **CPI för projekt** = .13
 
@@ -116,10 +116,10 @@ EAC-metod = Samla in uppgifter/underaktiviteter
 
 1. Skapa projekt A med sex uppgifter där Aktivitet 3 är överordnad Aktiviteter 4 och 5 och Aktivitet 1 är överordnad Aktiviteter 2 och 3 enligt nedan:\
    Aktivitet 1\
-      Aktivitet 2\
-      Aktivitet 3\
-         Aktivitet 4\
-         Aktivitet 5\
+   Aktivitet 2\
+   Aktivitet 3\
+   Aktivitet 4\
+   Aktivitet 5\
    Aktivitet 6
 
 1. Tilldela uppgifter 2, 4, 5 och 6 till Användare 1 vars kostnad/timme är 100,00 USD.
@@ -145,9 +145,9 @@ EAC-metod = Samla in uppgifter/underaktiviteter
  <tbody> 
   <tr> 
    <td> <p>Aktivitet 1</p> </td> 
-   <td> </td> 
+   <td> </td> 
    <td> <p>10 tim</p> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Aktivitet 2</p> </td> 
@@ -157,9 +157,9 @@ EAC-metod = Samla in uppgifter/underaktiviteter
   </tr> 
   <tr> 
    <td> <p>Aktivitet 3</p> </td> 
-   <td> </td> 
+   <td> </td> 
    <td> <p>10 tim</p> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Aktivitet 4</p> </td> 
@@ -191,7 +191,7 @@ EAC-metod = Samla in uppgifter/underaktiviteter
    CPI = TotalBudgetedCostWorkPerformed/Actual Hours
    ```
 
-       *ELSE* CPI = 1\
+       *ELSE* CPI = 1
    **CPI för aktivitet 2** = 1 / 10\
    **CPI för aktivitet 2** = .1
 
@@ -202,7 +202,7 @@ EAC-metod = Samla in uppgifter/underaktiviteter
    EAC = Planned Hours / CPI
    ```
 
-       *ELSE* EAC = Planerad  Timmar + Faktiskt  Timmar\
+       *ELSE* EAC = Planerade timmar + faktiska timmar
    **EAC för aktivitet 2** = 5 / .1\
    **EAC för aktivitet 2** = 50 timmar
 
@@ -218,7 +218,7 @@ EAC-metod = Samla in uppgifter/underaktiviteter
    CPI = TotalBudgetedCostWorkPerformed/Actual Hours
    ```
 
-       *ELSE* CPI = 1\
+       *ELSE* CPI = 1
    **CPI för aktivitet 3** = 11.5 / 30\
    **CPI för aktivitet 3** = .38
 
@@ -233,7 +233,7 @@ EAC-metod = Samla in uppgifter/underaktiviteter
    CPI = TotalBudgetedCostWorkPerformed/Actual Hours
    ```
 
-       *ELSE* CPI = 1\
+       *ELSE* CPI = 1
    **CPI för aktivitet 1** = 12.5 / 50\
    **CPI för aktivitet 1** = .25
 
@@ -248,7 +248,7 @@ EAC-metod = Samla in uppgifter/underaktiviteter
    CPI = TotalBudgetedCostWorkPerformed/Actual Hours
    ```
 
-       *ELSE* CPI = 1\
+       *ELSE* CPI = 1
    **CPI för projekt** = 24.5 / 110\
    **CPI för projekt** = .2272\
    **CPI för projekt** = .22
@@ -429,64 +429,64 @@ EAC-metod = Samla in uppgifter/underaktiviteter
 </table>
 
 1. Kör Beräkna om finansiering från projektåtgärder
-1. **CPI**&#x200B;**för aktivitet 1** = .14 beräknat enligt följande:\
-   **CPI**&#x200B;**för uppgift 1**  = *IF* Faktisk arbetskostnad + IncurruActualExpenseCost  &lt;> 0 *SEDAN*
+1. **CPI****för aktivitet 1** = .14 beräknat enligt följande:\
+   **CPI****för aktivitet 1** = *IF* Faktisk arbetskostnad + IncisiveExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost)
    ```
 
-   *   ELSE* CPI = CPI_Labor\
-   **CPI**&#x200B;**för uppgift 1**  = (100+300) / (2500+400)\
-   **CPI**&#x200B;**för uppgift 1**  = 400 / 2900\
-   **CPI**&#x200B;**för uppgift 1**  = 0,14
+   * ELSE* CPI = CPI_Labor\
+     **CPI****för aktivitet 1** = (100+300) / (2500+400)\
+     **CPI****för aktivitet 1** = 400 / 2900\
+     **CPI****för aktivitet 1** = .14
 
-1. **EAC**&#x200B;**för aktivitet 1** = $13,400.00\
+1. **EAC****för aktivitet 1** = $13,400.00\
    **CPI-arbetskostnad*** för aktivitet 1** = OM Faktisk arbetskostnad &lt;> 0 SEDAN
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed / Actual Labor Cost
    ```
 
-      ELSE CPI_Labor = 1\
-   **CPI Labor**&#x200B;**för aktivitet 1** = 100/2500\
-   **CPI Labor**&#x200B;**för aktivitet 1** = .04
+   ELSE CPI_Labor = 1\
+   **CPI Labor****för aktivitet 1** = 100/2500\
+   **CPI Labor****för aktivitet 1** = .04
 
-   **EAC Labor**&#x200B;**för aktivitet 1** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **EAC Labor****för aktivitet 1** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost / CPI_Labor
    ```
 
-   *   ELSE* EAC  Arbete = Planerad arbetskostnad + faktisk arbetskostnad\
-   **EAC Labor**&#x200B;**för aktivitet 1** = 500.00/.04\
-   **EAC Labor**&#x200B;**för aktivitet 1** = $12 500.00
+   * ELSE* EAC Labor = Planerad arbetskostnad + faktisk arbetskostnad\
+     **EAC Labor****för aktivitet 1** = 500.00/.04\
+     **EAC Labor****för aktivitet 1** = $12 500.00
 
    **EAC-utgift*** för aktivitet 1** = IncurradFaktiskKostnad + InteIncurradPlaneradUtgift\
-   **EAC-utgift**&#x200B;**för aktivitet 1** = $400.00 + $500.00\
-   **EAC-utgift**&#x200B;**för aktivitet 1** = $900.00
+   **EAC-utgift****för aktivitet 1** = $400.00 + $500.00\
+   **EAC-utgift****för aktivitet 1** = $900.00
 
-   **EAC**&#x200B;**för aktivitet 1** = EAC Labor + EAC-utgift\
-   **EAC**&#x200B;**för uppgift 1**  = $12 500.00 + $900.00\
-   **EAC**&#x200B;**för uppgift 1**  = $13 400.00
+   **EAC****för aktivitet 1** = EAC Labor + EAC-utgift\
+   **EAC****för aktivitet 1** = $12 500.00 + $900.00\
+   **EAC****för aktivitet 1** = $13,400.00
 
 1. Här är CPI-/EAC-värdena för Aktivitet 2 och Aktivitet 3:\
    Aktivitet 2 = 0,19 / $8,433.33\
    Aktivitet 3 = 0,44 / SEK 6 950,00***
 
 1. Projektets CPI = 0,32\
-   **CPI**&#x200B;**för projekt** = *IF* Faktisk arbetskostnad + IncisiveExpenseCost  &lt;> 0 *SEDAN*
+   **CPI****för projekt** = *IF* Faktisk arbetskostnad + IncurradFaktiskKostnad &lt;> 0 *SEDAN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)
    ```
 
-   *   ELSE* CPI = CPI_Labor\
-   **CPI**&#x200B;**för projekt** = (1000 + 2300) / (7500 + 2700)\
-   **CPI**&#x200B;**för projekt** = 300 / 10200\
-   **CPI**&#x200B;**för projekt** = .32
+   * ELSE* CPI = CPI_Labor\
+     **CPI****för projekt** = (1000 + 2300) / (7500 + 2700)\
+     **CPI****för projekt** = 300 / 10200\
+     **CPI****för projekt** = .32
 
 1. EAC för projektet är 28 783,33 USD\
-   **EAC**&#x200B;**för projekt** = EAC-aktivitet 1 + EAC-aktivitet 2 + EAC-aktivitet 3\
-   **EAC**&#x200B;**för projekt** = $13 400.00 + $8 433.33 + $6 950.00\
-   **EAC**&#x200B;**för projekt** = $28,783.33
+   **EAC****för projekt** = EAC-aktivitet 1 + EAC-aktivitet 2 + EAC-aktivitet 3\
+   **EAC****för projekt** = $13 400.00 + $8 433.33 + $6 950.00\
+   **EAC****för projekt** = $28,783.33

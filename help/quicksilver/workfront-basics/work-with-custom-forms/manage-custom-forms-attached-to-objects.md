@@ -6,7 +6,7 @@ description: Du kan uppdatera den ordning i vilken anpassade formulär som är k
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 0%
@@ -104,7 +104,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 
    Gå till exempel till ett projekt och klicka på avsnittet **Projektinformation**.
 
-1. Klicka på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) i det övre högra hörnet på objektets sida och klicka sedan på **Redigera alla**.
+1. Klicka på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) i det övre högra hörnet på objektets sida och klicka sedan på **Redigera alla**.
 1. Klicka på ikonen **Ta bort** ![](assets/delete-icon.png) till höger om ett anpassat formulärnamn och klicka sedan på **Ta bort** för att bekräfta och ta bort formuläret från objektet eller **Avbryt** för att förhindra att det tas bort.
 1. Klicka på **Spara ändringar** .
 
@@ -180,6 +180,6 @@ Så här redigerar du flera anpassade formulär samtidigt när du redigerar obje
 
    eller
 
-   Klicka på **Expandera Forms** om du vill expandera alla formulär samtidigt. 
+   Klicka på **Expandera Forms** om du vill expandera alla formulär samtidigt.
 
 1. Klicka på **Spara ändringar**.

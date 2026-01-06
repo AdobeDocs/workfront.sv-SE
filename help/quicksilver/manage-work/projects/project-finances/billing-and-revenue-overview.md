@@ -7,7 +7,7 @@ description: Som projektledare kan du använda faktureringstariffer för att få
 author: Lisa
 feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '3691'
 ht-degree: 0%
@@ -176,7 +176,7 @@ Du kan använda följande intäktstyper för dina uppgifter eller projekt:
  <tbody> 
   <tr> 
    <td> <p>Fast intäkt</p> </td> 
-   <td> <p>Den här typen kan användas med projekt och uppgifter. </p> <p>När du kopplar en mall till ett projekt läggs den fasta intäkten från mallen till projektets fasta intäkt. Mer information finns i <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">Översikt över hur du bifogar en mall till ett projekt</a>. </p> <p>För uppgifter beräknas alltid aktivitetens intäkt, oavsett aktivitetstilldelningar, med det fasta belopp som har angetts för uppgiften. </p> <p>Fasta intäkter från underordnade uppgifter summeras till intäkten för den överordnade aktiviteten och sedan till intäkterna för projektet. Om ett fast belopp definieras för den överordnade aktiviteten och/eller projektet läggs beloppet till i den planerade intäkten som samlas in från underordnade aktiviteter.</p> <p>Beloppet för fasta intäkter för uppgifter kan inkluderas i en faktureringspost i projektet.</p> </td> 
+   <td> <p>Den här typen kan användas med projekt och uppgifter. </p> <p>När du kopplar en mall till ett projekt läggs den fasta intäkten från mallen till projektets fasta intäkt. Mer information finns i <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">Översikt över hur du bifogar en mall till ett projekt</a>. </p> <p>För uppgifter beräknas alltid aktivitetens intäkt, oavsett aktivitetstilldelningar, med det fasta belopp som har angetts för uppgiften. </p> <p>Fasta intäkter från underordnade uppgifter summeras till intäkten för den överordnade aktiviteten och sedan till intäkterna för projektet. Om ett fast belopp definieras för den överordnade aktiviteten och/eller projektet läggs beloppet till i den planerade intäkten som samlas in från underordnade aktiviteter.</p> <p>Beloppet för fasta intäkter för uppgifter kan inkluderas i en faktureringspost i projektet.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Användare per timme</p> </td> 

@@ -7,7 +7,7 @@ description: Beräknad tilldelning är en varaktighetstyp som du kan ange för e
 author: Alina
 feature: Work Management
 exl-id: 5f1f6109-5d54-4c3f-9aa5-dc6ce165a1cd
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Beräknad tilldelning är en varaktighetstyp som du kan ange för en uppgift i A
 -->
 
 * När du använder en beräknad tilldelningens varaktighetstyp måste du ange både en varaktighet och ett antal planerade timmar för aktiviteten. Workfront dividerar sedan beloppet för Planerade timmar med antalet timmar i Varaktighet, och sedan med antalet resurser som tilldelats aktiviteten för att beräkna allokeringsprocenten (beräknar tilldelningen) för varje resurs. Varje resurs får samma värde för sin allokeringsprocent. I det här fallet kan du inte ändra allokeringsvärdena för varje resurs.
-* Workfront eller en gruppadministratör kan ange systemets eller gruppens standardvaraktighetstyp som beräknad tilldelning. I det här fallet skapas alla nya uppgifter med den här varaktighetstypen. Mer information om hur du ändrar uppgifter och utgåvor som en del av dina projektinställningar på system- eller gruppnivå finns i [Konfigurera uppgifter och ärenden för hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* Workfront eller en gruppadministratör kan ange systemets eller gruppens standardvaraktighetstyp som beräknad tilldelning. I det här fallet skapas alla nya uppgifter med den här varaktighetstypen. Mer information om hur du ändrar uppgifter och utgåvor som en del av dina projektinställningar på system- eller gruppnivå finns i [Konfigurera uppgifter och ärenden för hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
   I det här fallet har aktiviteten standardvärdet en dagslängd och 0 timmars planerade timmar som standard. Såvida inte projektledaren anger en mer korrekt varaktighet och fyller i fältet Planerade timmar med en realistisk uppskattning, verkar resurserna vara underallokerade.
 

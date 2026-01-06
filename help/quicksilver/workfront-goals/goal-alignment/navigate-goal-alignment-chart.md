@@ -6,9 +6,9 @@ description: Använd delen Måljustering för att visa en helhetsbild av måljus
 author: Alina
 feature: Workfront Goals
 exl-id: e79ced31-4680-4af7-b083-3d615c747af8
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -125,9 +125,8 @@ Or
 
 ## Navigera i avsnittet Måljustering
 
-1. Klicka på ikonen **Huvudmeny** ![Huvudmeny &#x200B;](../goal-alignment/assets/dots-main-menu-icon.png) i skärmens övre högra hörn och klicka sedan på **Mål**.
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-alignment/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+{{step1-to-goals}}
+
 1. Klicka på **Måljustering** i den vänstra panelen.
 1. Använd filtren i det övre högra hörnet av justeringsdiagrammet om du bara vill markera de mål som är viktiga för dig. Mer information om hur du använder filter i Workfront-mål finns i [Filtrera information i Adobe Workfront-mål](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
@@ -159,7 +158,7 @@ Or
       <td role="rowheader">Målförloppsindikator <span>och förlopp</span></td> 
       <td> <p>Målförloppet visar hur mycket av målet som för närvarande har uppnåtts. Detta är en automatisk beräkning av medelvärdet av förloppet för alla justerade mål, resultat och aktiviteter för målet baserat på den tid som gått sedan målets tidsperiod startades. Mer information om hur du beräknar förloppet för mål finns i <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Översikt över målförloppet och villkoret i Adobe Workfront-mål</a>. </p> 
        <div> 
-        <p>Målets faktiska förlopp vid dagens datum. Följande förloppsvärden och färger visar hur sannolikt det är att målet uppnås i tid: </p> 
+        <p>Målets faktiska förlopp vid dagens datum. Följande förloppsvärden och färger visar hur sannolikt det är att målet uppnås i tid: </p> 
         <ul> 
          <li><span>På mål</span> (grön indikator): målet är i tid och kommer att uppnås i tid.</li> 
          <li> <span>Vid risk</span> (gul indikator): målet ligger efter och kanske inte uppnås i tid.</li> 

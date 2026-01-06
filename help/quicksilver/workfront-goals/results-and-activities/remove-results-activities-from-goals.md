@@ -7,9 +7,9 @@ description: Du kan ta bort resultat, aktiviteter och projekt från mål i Adobe
 author: Alina
 feature: Workfront Goals
 exl-id: 0e064dbd-6168-47b4-98ab-b5c0481e839e
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Mer information om hur du skapar mål och lägger till resultat och aktiviteter 
 
 * [Skapa mål i Adobe Workfront-mål](../../workfront-goals/goal-management/create-goals.md)
 * [Lägg till aktiviteter i mål i Adobe Workfront-mål](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
-* [Lägg till resultat i mål i Adobe Workfront &#x200B;](../../workfront-goals/results-and-activities/add-results-to-goals.md)
+* [Lägg till resultat i mål i Adobe Workfront ](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 * [Redigera resultat och aktiviteter i Adobe Workfront-mål](../../workfront-goals/results-and-activities/edit-results-and-activities.md)
 
 Mål kan också anpassas till överordnade mål och bli underordnade mål. Underordnade mål är också förloppsindikatorer för de överordnade målen.
@@ -187,11 +187,9 @@ How you delete results and activities differs depending on the environment you u
 
 -->
 
-1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Mål**.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-   Detta öppnar området Workfront-mål och mållistan visas som standard.
+Detta öppnar området Workfront-mål och mållistan visas som standard.
 
 1. Klicka på namnet på ett mål som du vill ta bort resultat och aktiviteter från.
 
@@ -232,12 +230,9 @@ Dsconnecting projects from goals differs depending on the environment you use.
 -->
 
 
-1. Klicka på ikonen **Huvudmeny** i det övre högra hörnet och klicka sedan på **Mål**.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   Detta öppnar området Workfront-mål och mållistan visas som standard.
+Detta öppnar området Workfront-mål och mållistan visas som standard.
 
 1. Klicka på namnet på ett mål som du vill ta bort resultat och aktiviteter från.
 

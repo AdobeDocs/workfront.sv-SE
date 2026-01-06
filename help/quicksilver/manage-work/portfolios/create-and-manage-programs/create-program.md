@@ -6,9 +6,9 @@ description: Ett program representerar en samling projekt som delar en gemensam 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1138'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,7 @@ Du kan skapa ett program i Workfront på något av följande sätt:
 
 ## Skapa ett program
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet.
+{{step1-click-main-menu}}
 
 1. Gör något av följande.
 

@@ -6,7 +6,7 @@ description: Du kan uppdatera status för ett projekt manuellt till en annan sta
 author: Alina
 feature: Work Management
 exl-id: 80098514-fd44-436d-836b-bd9c1b52b3a9
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 0%
@@ -101,6 +101,6 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 
    eller
 
-   Klicka på menyn **Mer** ![Mer &#x200B;](assets/qs-more-menu.png) bredvid namnet på projektet och klicka på **Redigera** och välj en ny status i fältet **Status**. Klicka sedan på **Spara**.
+   Klicka på menyn **Mer** ![Mer ](assets/qs-more-menu.png) bredvid namnet på projektet och klicka på **Redigera** och välj en ny status i fältet **Status**. Klicka sedan på **Spara**.
 
    Projektstatusen uppdateras till den valda statusen.

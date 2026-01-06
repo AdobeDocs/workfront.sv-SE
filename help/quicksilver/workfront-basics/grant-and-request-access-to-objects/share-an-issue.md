@@ -6,7 +6,7 @@ description: Din Adobe Workfront-administratör ger användarna åtkomst att vis
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1237'
 ht-degree: 0%
@@ -65,7 +65,7 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
 
 * Den som skapade ett problem har som standard behörigheten Hantera.
 * Du kan dela problem individuellt eller dela flera i taget. Delningsproblem är identiska med att dela andra objekt i Workfront. Mer information om objektdelning i Workfront finns i [Dela ett objekt](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
-* Du kan ge följande behörigheter till en utgåva: 
+* Du kan ge följande behörigheter till en utgåva:
 
    * Visa
    * Contribute
@@ -85,7 +85,7 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
    * Ange behörigheter för något av de överordnade objekten i utgåvan: projekt, program eller portfölj. Problem ärver behörigheterna från sina överordnade objekt. Mer information om hur du visar ärvda behörigheter för objekt finns i [Visa ärvda behörigheter för objekt](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
    * Lägg till entiteter i projektdelning på en mall som används för att skapa det projekt som utgåvan gäller. Mer information om att dela projekt från mallar finns i [Dela en mall](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Ange behörigheter för alla problem i ett projekt när du redigerar projektet. Information om hur du hanterar åtkomst till problem eller begäranden i projektet baserat på en användares behörigheter till projektet finns i avsnittet [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) i artikeln [Redigera projekt](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Ange behörigheter för alla problem i ett projekt när du redigerar projektet. Information om hur du hanterar åtkomst till problem eller begäranden i projektet baserat på en användares behörigheter till projektet finns i avsnittet [](../../manage-work/projects/manage-projects/edit-projects.md#access) i artikeln [Redigera projekt](../../manage-work/projects/manage-projects/edit-projects.md).
 
      >[!TIP]
      >
@@ -107,7 +107,7 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Automatically share an issue at the project level</h2>
-<p>(NOTE: this info duplicates in Edit projects - linked there instead (above).)&nbsp;</p>
+<p>(NOTE: this info duplicates in Edit projects - linked there instead (above).)  </p>
 <p>As the Project Owner, you can grant permissions automatically to users as the issues are added to a project.</p>
 <ol>
 <li value="1">Go to the project whose issues you want to share automatically.</li>
@@ -117,7 +117,7 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
 <ul>
 <li><strong>View</strong></li>
 <li><strong>Contribute</strong></li>
-<li><strong>Manage</strong><br>Now, when someone is assigned to an issue on the selected project, they are granted the specified permissions to the issue.&nbsp;</li>
+<li><strong>Manage</strong><br>Now, when someone is assigned to an issue on the selected project, they are granted the specified permissions to the issue.  </li>
 </ul></li>
 <li value="5">(Optional) Select the <strong>Also grant ... access to the project</strong> field to also grant View, Contribute, or Manage permissions to the projects to the user assigned to the issue</li>
 <li value="6">In the <strong>When someone submits a REQUEST ...</strong> field, select from the following permissions levels:
@@ -132,7 +132,7 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
 </ul>
 </note></li>
 </ul></li>
-<li value="7"> <p>(Optional) Select the <strong>People from the same company will inherit the same permissions for all requests</strong> field.</p> <p>People from the same company as the user submitting the request are granted the same permissions on the requests as the user.&nbsp;</p> </li>
+<li value="7"> <p>(Optional) Select the <strong>People from the same company will inherit the same permissions for all requests</strong> field.</p> <p>People from the same company as the user submitting the request are granted the same permissions on the requests as the user.  </p> </li>
 <li value="8">Click <strong>Save Changes</strong>.</li>
 </ol>
 </div>
@@ -141,7 +141,7 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Automatically share an issue in request queues</h2>
-<p>(NOTE: drafted because it's duplicated from Create a Request Queue which is linked above)&nbsp;</p>
+<p>(NOTE: drafted because it's duplicated from Create a Request Queue which is linked above)  </p>
 <p>As the Project Owner, you can grant permissions automatically to users as the issues are submitted to a request queue.</p>
 <ol>
 <li value="1">Go to the project whose issues you want to share automatically.</li>
@@ -153,7 +153,7 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
 <li><strong>Contribute Access</strong> </li>
 <li> <p><strong>Manage Access</strong> </p> </li>
 </ul> <p>Now, when someone submits a request to the selected project, they are granted the specified permissions to the request.</p> </li>
-<li value="5"> <p>(Optional) Select the <strong>People from the same company will inherit the same permissions for all requests</strong>.</p> <p>People from the same company as the user submitting the request are granted the same permissions on the requests as the user.&nbsp;</p> </li>
+<li value="5"> <p>(Optional) Select the <strong>People from the same company will inherit the same permissions for all requests</strong>.</p> <p>People from the same company as the user submitting the request are granted the same permissions on the requests as the user.  </p> </li>
 <li value="6">Click <strong>Save</strong>.</li>
 </ol>
 </div>
@@ -245,26 +245,26 @@ Följande tabell visar vilka behörigheter du kan ge användare när de tillåts
   <tr> 
    <td> <p>Lägg till problem</p> </td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
-   <td>Ta bort </td> 
+   <td>Ta bort  </td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Bifoga eget formulär</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Redigera anpassade fält</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Godkänn problem</td> 
@@ -275,8 +275,8 @@ Följande tabell visar vilka behörigheter du kan ge användare när de tillåts
   <tr> 
    <td>Lägg till en godkännandeprocess</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Lägg till dokument</td> 
@@ -293,26 +293,26 @@ Följande tabell visar vilka behörigheter du kan ge användare när de tillåts
   <tr> 
    <td>Flytta problem</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Loggtimmar</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Konvertera till projekt*</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Acceptera tilldelning</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Uppdateringar/kommentarer</td> 
@@ -323,14 +323,14 @@ Följande tabell visar vilka behörigheter du kan ge användare när de tillåts
   <tr> 
    <td>Ändra planerade datum</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Skapa uppdrag</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Dela</td> 
@@ -340,8 +340,8 @@ Följande tabell visar vilka behörigheter du kan ge användare när de tillåts
   </tr> 
   <tr> 
    <td>Dela hela systemet</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
    <td>✓</td> 
   </tr> 
  </tbody> 

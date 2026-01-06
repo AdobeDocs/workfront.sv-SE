@@ -6,7 +6,7 @@ description: Du kan begära att ett projekt ska godkännas innan du börjar arbe
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 0%
@@ -101,7 +101,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 1. Gör något av följande:
 
-   * Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet eller på **Huvudmeny** ![Huvudmenyrader](assets/lines-main-menu.png) i det övre vänstra hörnet, om det är tillgängligt, klicka på **Projekt** och expandera sedan **Nytt projekt**.
+   * Klicka på ikonen **Huvudmeny**![Huvudmenyrader](assets/lines-main-menu.png) i det övre vänstra hörnet eller på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet, klicka på **Projekt** och expandera sedan **Nytt projekt**.
    * Gå till en portfölj och expandera sedan **Nytt projekt**.
    * Gå till ett program och expandera sedan **Nytt projekt**.
    * Om du är gruppadministratör kan du även skapa ett projekt i avsnittet Projekt i en grupp som du hanterar. Mer information finns i [Skapa och ändra en grupps projekt](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).

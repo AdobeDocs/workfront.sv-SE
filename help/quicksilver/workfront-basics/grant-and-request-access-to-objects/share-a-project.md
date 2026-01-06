@@ -6,7 +6,7 @@ description: Din Adobe Workfront-administratör kan ge dig åtkomst till att vis
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
 
 * När du delar ett projekt ärver alla uppgifter, utgåvor och dokument samma behörigheter, om inget annat anges.
 
-  Information om hur du hanterar åtkomst till aktiviteter och problem i projektet baserat på en användares behörigheter till projektet finns i avsnittet [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) i artikeln [Redigera projekt](../../manage-work/projects/manage-projects/edit-projects.md).
+  Information om hur du hanterar åtkomst till aktiviteter och problem i projektet baserat på en användares behörigheter till projektet finns i avsnittet [](../../manage-work/projects/manage-projects/edit-projects.md#access) i artikeln [Redigera projekt](../../manage-work/projects/manage-projects/edit-projects.md).
 
   Workfront-administratören kan ange om dokument ska ärva behörigheter från högre objekt på användarens åtkomstnivå. Mer information om att begränsa ärvda behörigheter i dokument finns i [Skapa eller ändra anpassade åtkomstnivåer](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -111,7 +111,7 @@ Mer information om hur du visar ärvda behörigheter för ett objekt finns i [Vi
      >
      >När du bifogar eller sparar en mall kan du rensa reglerna för Projektdelning av mallar.
 
-   * Redigera ett projekt och definiera inställningen **När någon får åtkomst till det här projektet**. Mer information finns i [Redigera projekt](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Redigera ett projekt och definiera inställningen **När någon får åtkomst till det här projektet**.  Mer information finns i [Redigera projekt](../../manage-work/projects/manage-projects/edit-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -127,7 +127,7 @@ Mer information om hur du visar ärvda behörigheter för ett objekt finns i [Vi
 
 <!--
 <ol data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<li value="1">Go to a project whose sharing permissions you want for all projects you create from scratch. (NOTE: drafted because linked above)&nbsp;</li>
+<li value="1">Go to a project whose sharing permissions you want for all projects you create from scratch. (NOTE: drafted because linked above)  </li>
 <li value="2"> Click the More menu, then click <strong>Sharing</strong>. </li>
 <li value="3"> <p>In the Project Access box that displays, near the upper-right corner, click the gear icon <img src="assets/gear-icon-settings.png">, then click <strong>Set as my project access template</strong>.</p> <p>The entities that are granted permissions on the selected project have the same permissions for all the projects you create from scratch in the future.</p> <p> The project access template overrides the sharing defaults granted to you by the Workfront administrator in your Access Level.<br>For more information about specifying sharing defaults for projects in the Access Level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>.</p> </li>
 <li value="4">Click <strong>Save</strong>.</li>
@@ -220,18 +220,18 @@ Mer information om hur du visar ärvda behörigheter för ett objekt finns i [Vi
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Configure default permissions for a project</h2>
 <p>(NOTE: drafted because I added one more way to automatically share the project above in the bullet list and linked it to Edit Projects) </p>
-<p>As a project owner, you can configure the default permissions for View, Manage, and Contribute access that are used when sharing&nbsp;the project with others. When users share a project, the default permissions are used. Users can then adjust the default permissions when sharing the project, as described in <a title="Project Permissions" href="#ways-to-share-a-project" class="MCXref xref">Ways to share a project</a>. </p>
+<p>As a project owner, you can configure the default permissions for View, Manage, and Contribute access that are used when sharing  the project with others. When users share a project, the default permissions are used. Users can then adjust the default permissions when sharing the project, as described in <a title="Project Permissions" href="#ways-to-share-a-project" class="MCXref xref">Ways to share a project</a>. </p>
 <p>To configure the default permissions that are included with each access level:</p>
 <ol>
 <li value="1">Go to the project where you want to set the default permissions.</li>
 <li value="2"> <p>Click the More menu <img src="assets/more-icon.png">, then click <strong>Edit</strong>. <img src="assets/edit-icon.png"></p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li>
 <li value="3">Click <strong>Access</strong> in the list on the left.</li>
-<li value="4"> <p>In the <strong>When someone is given access to this PROJECT</strong> section, select permissions that you want to be available when users are given access to the project via sharing.</p> <p>Ensure that any permissions that you want to include in the selected access level are selected and deselect any permissions that you do not want to include in the selected permissions level.</p> <p>To view which permissions are available for each level, see&nbsp;<a title="Project Permissions" href="#Understanding_Project_Permissions" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <note type="note">
+<li value="4"> <p>In the <strong>When someone is given access to this PROJECT</strong> section, select permissions that you want to be available when users are given access to the project via sharing.</p> <p>Ensure that any permissions that you want to include in the selected access level are selected and deselect any permissions that you do not want to include in the selected permissions level.</p> <p>To view which permissions are available for each level, see  <a title="Project Permissions" href="#Understanding_Project_Permissions" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <note type="note">
 The
 <strong>Delete</strong> access in the
-<strong>Manage</strong> permission level determines whether users can&nbsp;delete the project itself. Users with
+<strong>Manage</strong> permission level determines whether users can  delete the project itself. Users with
 <strong>Manage</strong> access to the project can delete tasks and issues within the project regardless of whether this option is selected, if they have
-<strong>Manage</strong> permissions to the tasks and issues.&nbsp;
+<strong>Manage</strong> permissions to the tasks and issues.  
 </note> </li>
 <li value="5">Click <strong>Save Changes</strong>.</li>
 </ol>
@@ -259,20 +259,20 @@ I följande tabell visas de behörigheter som användare kan ge när de delar et
   <tr> 
    <td> <p>Lägg till anpassat formulär</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Uppdatera anpassade fält</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Lägg till en godkännandeprocess</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Godkänn ett projekt</p> </td> 
@@ -283,14 +283,14 @@ I följande tabell visas de behörigheter som användare kan ge när de delar et
   <tr> 
    <td> <p>Godkänn timmar</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>✓ </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>✓  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Skapa ett projekt</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Lägg till dokument</p> </td> 
@@ -308,25 +308,25 @@ I följande tabell visas de behörigheter som användare kan ge när de delar et
    <td> <p>Lägg till uppgift(er)</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Kopiera projekt</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Ta bort projekt</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Ändra planerade datum</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Dela projekt</p> </td> 
@@ -336,8 +336,8 @@ I följande tabell visas de behörigheter som användare kan ge när de delar et
   </tr> 
   <tr> 
    <td> <p>Dela hela systemet</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
@@ -355,44 +355,44 @@ I följande tabell visas de behörigheter som användare kan ge när de delar et
   <tr> 
    <td> <p>Ändra status</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Loggtimmar</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Redigera uppdrag</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Hantera baslinje</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Hantera risker*</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Hantera ekonomi*</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Lägg till/redigera utgifter*</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Visa ekonomi*</p> </td> 
@@ -403,8 +403,8 @@ I följande tabell visas de behörigheter som användare kan ge när de delar et
   <tr> 
    <td> <p>Bifoga mall</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Spara som mall</p> </td> 
@@ -415,20 +415,20 @@ I följande tabell visas de behörigheter som användare kan ge när de delar et
   <tr> 
    <td> <p>Lägg till/redigera affärsärende</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Redigera projektinformation</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Redigera personal</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Exportera till MS-projekt</p> </td> 
@@ -439,20 +439,20 @@ I följande tabell visas de behörigheter som användare kan ge när de delar et
   <tr> 
    <td> <p>Beräkna om ekonomi/tidslinje*</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Ange köegenskaper</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>    </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Redigera projekt gruppvis i en lista</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
  </tbody> 
 </table>

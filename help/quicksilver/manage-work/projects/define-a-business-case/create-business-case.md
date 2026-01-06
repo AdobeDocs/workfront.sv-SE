@@ -5,7 +5,7 @@ description: Du kan använda affärsärendet för att begära ett projekt och de
 author: Becky
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Tänk på följande när du begär ett projekt via ett affärsärende:
 
 1. (Villkorligt) Om du valde att koppla en mall fortsätter du att koppla mallen till projektet.
 1. Klicka på **Affärsärende** i den vänstra panelen.
-1. (Valfritt) Om du vill redigera avsnittet **Projektinformation** klickar du på **Redigera projektinformation**. 
+1. (Valfritt) Om du vill redigera avsnittet **Projektinformation** klickar du på **Redigera projektinformation**.
 
    Mer information om hur du redigerar avsnittsfälten **Projektinformation** finns i avsnittet [Projektinformation](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) i artikeln [Översikt över områden i affärsärendet](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
@@ -123,6 +123,6 @@ Tänk på följande när du begär ett projekt via ett affärsärende:
 
 >[!TIP]
 >
-> När du är klar med affärsärendet kan du exportera en kopia av det till en PDF-fil. Mer information om hur du exporterar affärsärendet till en PDF-fil finns i [Exportera affärsärende för ett projekt](/help/quicksilver/manage-work/projects/define-a-business-case/export-business-case.md).
+> När du är klar med affärsärendet kan du exportera en kopia av det till en PDF-fil. Mer information om hur du exporterar affärsärendet till en PDF-fil finns i [Exportera affärsärende för ett projekt](/help/quicksilver/manage-work/projects/define-a-business-case/export-business-case.md).
 
 

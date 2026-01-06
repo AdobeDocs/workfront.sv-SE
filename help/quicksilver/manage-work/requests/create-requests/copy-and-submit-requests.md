@@ -6,9 +6,9 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: bc7312a10f1851b9f85b2c1ceac5b01dba078f32
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1539'
 ht-degree: 0%
 
 ---
@@ -141,7 +141,7 @@ Du måste ha en begäran om att du eller någon i din organisation som tidigare 
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Ämne</strong> </td> 
-      <td>Visar namnet på den ursprungliga begäran. Uppdatera den om det behövs. Annars namnger Workfront den kopierade begäran <b>Kopian av &lt;namnet på den ursprungliga begäran&gt;</b>. Detta är ett obligatoriskt fält.</td> 
+      <td>Visar namnet på den ursprungliga begäran. Uppdatera den om det behövs. Annars namnger Workfront den kopierade begäran <b>Kopian av &lt;namnet på den ursprungliga begäran&gt;</b>. Detta är ett obligatoriskt fält.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Beskrivning</strong> </td> 
@@ -230,11 +230,12 @@ Du måste ha en begäran om att du eller någon i din organisation som tidigare 
 
 Du kan kopiera och skicka begäranden i området Förfrågningar i Workfront eller från widgeten Mina förfrågningar i Hem.
 
-1. Om du vill få åtkomst till listan över förfrågningar klickar du på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klickar du på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och sedan på **[!UICONTROL Requests]**.
+{{step1-to-requests}}
 
 1. Så här öppnar du widgeten Mina förfrågningar i Hem:
 
-   1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Home]**.
+   {{step1-to-home}}
+
    1. Leta reda på widgeten Mina förfrågningar.
 
       Mer information om widgeten Mina förfrågningar finns i [Använd widgeten Mina förfrågningar](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).

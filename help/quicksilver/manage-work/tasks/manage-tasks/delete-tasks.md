@@ -6,9 +6,9 @@ description: Du kan ta bort uppgifter som kan vara dubbletter eller som har skap
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '782'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Du kan ta bort uppgifter som kan vara dubbletter eller som har skapats av fel.
 
-För uppgifter som har historisk information (uppdateringar, schemaändringar, statusändringar eller andra fält) rekommenderar vi att du stänger dem eller markerar dem som döda i stället för att ta bort dem. På så sätt kan du spara den historiska informationen för dina projekt.
+För uppgifter som har historisk information (uppdateringar, schemaändringar, statusändringar eller andra fält) rekommenderar vi att du stänger dem eller markerar dem som döda i stället för att ta bort dem. På så sätt kan du spara den historiska informationen för dina projekt.
 
 ## Åtkomstkrav
 
@@ -68,7 +68,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects with access to&nbsp;Delete</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to tasks, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td> <p>Edit access to Tasks and Projects with access to Delete</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to tasks, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -89,7 +89,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 * Om aktiviteten har loggat timmar måste Workfront- eller gruppadministratören tillåta att dessa uppgifter tas bort genom att konfigurera inställningarna för Aktivitet och problem i din Workfront-instans. Detta gäller också när du försöker ta bort projekt som har uppgifter som har loggats in i timmar.
 
   <!--
-  (NOTE: the last statement is NWE&nbsp;only; not possible in classic)
+  (NOTE: the last statement is NWE only; not possible in classic)
   -->
 
   Mer information om hur du aktiverar borttagning av uppgifter där timmar har loggats finns i avsnittet Borttagning i [Konfigurera systemomfattande aktivitet och inställningar för problem](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
@@ -140,9 +140,8 @@ Tänk på följande:
 
 ### Ta bort flera uppgifter i ett projekt samtidigt  {#delete-multiple-tasks-in-a-project-simultaneously}
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+{{step1-to-projects}}
 
-1. Klicka på **Projekt**.
 1. Klicka på projektnamnet som innehåller de uppgifter du vill ta bort.
 1. Klicka på **Åtgärder** i den vänstra panelen.
 1. Gör något av följande:
@@ -170,9 +169,8 @@ Tänk på följande:
 
 ### Ta bort en enstaka uppgift {#delete-a-single-task}
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+{{step1-to-projects}}
 
-1. Klicka på **Projekt**.
 1. Klicka på projektnamnet som innehåller uppgiften som du vill ta bort.
 1. Klicka på **Åtgärder** i den vänstra panelen.
 1. Klicka på namnet på den uppgift som du vill ta bort.

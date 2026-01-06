@@ -6,9 +6,9 @@ description: Det finns risk för att mål med statusvärdet"Progress of In" inte
 author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '748'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 
 ## Rekommendationer för att förhindra att mål når en utveckling i In-PROBLEM
 
-Innan målen når upp till en utveckling av I Problem kan du övervaka dem ofta och justera deras framsteg när de når en riskutveckling. Mål som riskerar att hamna i trubbel. Mer information om målförloppet finns i [Översikt över målförloppet och målvillkoret i Adobe Workfront-mål](../../workfront-goals/goal-management/calculate-goal-progress.md)
+Innan målen når upp till en utveckling av I Problem kan du övervaka dem ofta och justera deras framsteg när de når en riskutveckling. Mål som riskerar att hamna i trubbel. Mer information om målförloppet finns i [Översikt över målförloppet och målvillkoret i Adobe Workfront-mål](../../workfront-goals/goal-management/calculate-goal-progress.md)
 
 Innan dina mål når en utveckling i Problem rekommenderar vi följande:
 
@@ -139,16 +139,13 @@ Innan dina mål når en utveckling i Problem rekommenderar vi följande:
 
 ## Granska problemmål i mållistan
 
-Du kan se målen i alla delar av Workfront mål. Mer information om avsnitten om Workfront-mål finns i [Översikt över avsnitten om Adobe Workfront-mål](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+Du kan se målen i alla delar av Workfront mål. Mer information om avsnitten om Workfront-mål finns i [Översikt över avsnitten om Adobe Workfront-mål](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
 
 I den här artikeln beskrivs hur du granskar mål i mållistan.
 
-1. Klicka på ikonen **Huvudmeny** ![Huvudmeny &#x200B;](assets/main-menu-icon.png) > **Mål** i det övre högra hörnet.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   Detta öppnar området Workfront-mål och mållisteavsnittet visas som standard.
+Detta öppnar området Workfront-mål och mållisteavsnittet visas som standard.
 
 1. (Rekommenderas) Justera följande filter för mållistan för att granska riskmålen:
 

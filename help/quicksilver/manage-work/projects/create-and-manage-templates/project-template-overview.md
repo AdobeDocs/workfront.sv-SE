@@ -6,7 +6,7 @@ description: Du kan använda projektmallar för att hämta in de flesta repeterb
 author: Alina
 feature: Work Management
 exl-id: cac7662f-f2ae-44f0-a0bb-1569c03d172e
-source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Nedan följer några av fördelarna med att använda mallar för att skapa proje
 
 Tänk på följande när du skapar mallar:
 
-* Tilldela inte användare till malluppgifter. Även om du kan lämna uppgifterna otilldelade rekommenderar vi att du tilldelar jobbroller till uppgifter. Då får du en uppfattning om vilka användare som kan tilldelas till uppgifterna när du skapar projektet med hjälp av mallen.
+* Tilldela inte användare till malluppgifter. Även om du kan lämna uppgifterna otilldelade rekommenderar vi att du tilldelar jobbroller till uppgifter. Då får du en uppfattning om vilka användare som kan tilldelas till uppgifterna när du skapar projektet med hjälp av mallen.
 * Ge alltid malluppgifterna ett värde för Varaktighet och Planerade timmar. Alla uppgifter i projektet ska vara kopplade till en varaktighet för hur länge aktiviteten kan vara öppen och till ett värde för planerad timme för hur lång tid det faktiskt tar för uppgiften att slutföras. Uppgifter utan den här informationen kan inte budgeteras korrekt för resurser när resurshanteringsverktyg används i Workfront.
 
   Mer information om Varaktighet finns i följande artiklar:

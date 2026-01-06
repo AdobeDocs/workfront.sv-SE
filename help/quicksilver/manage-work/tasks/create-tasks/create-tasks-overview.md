@@ -6,7 +6,7 @@ description: Du kan bara skapa uppgifter i ett projekt efter att du har skapat p
 author: Alina
 feature: Work Management
 exl-id: 7bd6578e-9288-4793-ba07-a0c126c479b9
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 0%

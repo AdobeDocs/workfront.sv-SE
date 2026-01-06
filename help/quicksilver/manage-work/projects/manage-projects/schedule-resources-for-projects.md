@@ -6,7 +6,7 @@ description: Du kan schemalägga resurser för ett enskilt projekt för att ange
 author: Alina, Lisa
 feature: Work Management
 exl-id: d59f6083-49d3-4fe6-ac60-656f992363d9
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
@@ -75,7 +75,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to&nbsp;the following:</p> 
+   <td> <p>Edit access to the following:</p> 
     <ul> 
      <li> <p>Resource Management</p> </li> 
      <li> <p>Projects</p> </li> 

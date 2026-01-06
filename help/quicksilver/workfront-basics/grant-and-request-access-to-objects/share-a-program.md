@@ -7,7 +7,7 @@ description: Din Adobe Workfront-administratör kan ge dig åtkomst till att vis
 author: Courtney
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 0%
@@ -77,7 +77,7 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
 
   Mer information om objekthierarkin i Workfront finns i [Förstå objekt i Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-* Du kan ta bort ärvda behörigheter från programmet. Mer information om hur du tar bort behörigheter från objekt finns i  [Ta bort behörigheter från objekt](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+* Du kan ta bort ärvda behörigheter från programmet. Mer information om hur du tar bort behörigheter från objekt finns i   [Ta bort behörigheter från objekt](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
 ## Dela ett program
 
@@ -155,18 +155,18 @@ I följande tabell visas vilka behörigheter du kan ge användarna när de får 
 
 | **Åtgärder** | **Hantera** | **Visa** |
 |---|---|---|
-| Redigera programinformation | ✓ |   |
+| Redigera programinformation | ✓ |   |
 | Visa ett program | ✓ | ✓ |
-| Ta bort ett program | ✓ |   |
-| Bifoga ett eget formulär | ✓ |   |
-| Redigera ett anpassat fält | ✓ |   |
-| Lägg till eller ta bort ett projekt&#42; | ✓ |   |
-| Godkänn ett projekt | ✓ |   |
+| Ta bort ett program | ✓ |   |
+| Bifoga ett eget formulär | ✓ |   |
+| Redigera ett anpassat fält | ✓ |   |
+| Lägg till eller ta bort ett projekt&#42; | ✓ |   |
+| Godkänn ett projekt | ✓ |   |
 | Lägg till en dokumentmapp &#42; | ✓ | ✓ |
 | Lägga till ett dokument | ✓ | ✓ |
 | Lägg till uppdateringar/kommentarer | ✓ | ✓ |
 | Dela | ✓ | ✓ |
-| Dela hela systemet |   | ✓ |
+| Dela hela systemet |   | ✓ |
 
 *Dessa behörigheter styrs av åtkomstnivån och behörigheterna för andra objekt, som projekt.
 

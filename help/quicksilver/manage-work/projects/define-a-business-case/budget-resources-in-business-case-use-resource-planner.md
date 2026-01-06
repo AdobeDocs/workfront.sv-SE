@@ -5,7 +5,7 @@ description: Som en del av resursplaneringen kan du använda resursplaneraren p�
 author: Becky
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 0%
@@ -132,7 +132,7 @@ Så här använder du resurspooler och budgetprojektresurser i affärsärendet f
 
    Resursplaneraren visas för det valda projektet.
 
-   Som standard listas de första 20 jobbrollerna som är associerade med det här projektet i resursbudgetavsnittet i alfabetisk ordning. 
+   Som standard listas de första 20 jobbrollerna som är associerade med det här projektet i resursbudgetavsnittet i alfabetisk ordning.
 
    Mer information om resursplaneraren finns i [Översikt över resursplaneraren](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
@@ -152,7 +152,7 @@ Så här använder du resurspooler och budgetprojektresurser i affärsärendet f
    >   
    >
 
-    
+
 
 1. Klicka på **Idag** för att återgå till dagens tidsram.
 1. (Valfritt) Klicka på **Vecka**, **Månad** eller **Kvartal** om du vill visa information för projektet i olika tidsramar.

@@ -7,7 +7,7 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 0%
@@ -95,7 +95,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
    >[!TIP]
    >
    >Du kan göra avancerade uppdrag direkt i uppgifts- eller utleveranslistan. Klicka i fältet **Uppdrag** på samma rad som uppgiften eller utgåvan och klicka sedan på **Avancerat** längst ned i listan eller på ikonen **Personer** i det övre högra hörnet av uppdragsrutan för att öppna fönstret Avancerade uppdrag. Gå till steg 5 om du vill fortsätta skapa avancerade uppdrag.
-   >![Klicka på Avancerat eller på ikonen Personer &#x200B;](assets/access-aa-from-lists.png)
+   >![Klicka på Avancerat eller på ikonen Personer ](assets/access-aa-from-lists.png)
 
 1. Klicka på **Tilldela till** i fältet **Tilldelningar** i huvudet på uppgiften eller problemet
 
