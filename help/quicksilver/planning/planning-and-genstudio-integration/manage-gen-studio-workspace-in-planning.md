@@ -221,7 +221,7 @@ Huvudsidan för Workfront Planning öppnas.
 
 1. Klicka på **Andra arbetsytor** och hitta en arbetsyta som har en indikation som skapades av **System** och som har **GenStudio** -taggen på kortet.
 
-   ![GenStudio-arbetsytans kort med taggen ](assets/genstudio-card-with-tag-highlighted.png)
+   ![GenStudio-arbetsytans kort med taggen &#x200B;](assets/genstudio-card-with-tag-highlighted.png)
 
 1. Klicka på **arbetsytekortet för GenStudio** för att öppna arbetsytan för GenStudio i Workfront Planning.
 1. Som standard skapas och visas följande posttyper för GenStudio från Workfront Planning:
@@ -237,9 +237,9 @@ Huvudsidan för Workfront Planning öppnas.
 
    <!--check screen shot-->
 
-   ![GenStudio-posttypkort med taggen ](assets/genstudio-record-type-with-tag-and-tooltip-highlighted.png)
+   ![GenStudio-posttypkort med taggen &#x200B;](assets/genstudio-record-type-with-tag-and-tooltip-highlighted.png)
 
-1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om arbetsytans namn och klicka sedan på något av följande:
+1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om arbetsytans namn och klicka sedan på något av följande:
 
    * **Redigera**
 
@@ -274,7 +274,7 @@ Huvudsidan för Workfront Planning öppnas.
 
 1. Gå till arbetsytan för GenStudio i Workfront Planning och öppna en posttypssida, enligt beskrivningen i avsnittet [Hantera arbetsytan för GenStudio från Workfront Planning](#manage-the-genstudio-workspace-from-workfront-planning) i den här artikeln.
 
-1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om ett posttypsnamn och klicka sedan på något av följande:
+1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om ett posttypsnamn och klicka sedan på något av följande:
 
    * **Redigera**
 
@@ -294,11 +294,11 @@ Huvudsidan för Workfront Planning öppnas.
       * **Dela posttypen**
 Mer information finns i [Dela posttyper](/help/quicksilver/planning/access/share-record-types.md).
       * **Dela den aktuella vyn**
-Mer information finns i [Dela vyer ](/help/quicksilver/planning/access/share-views.md) .
+Mer information finns i [Dela vyer &#x200B;](/help/quicksilver/planning/access/share-views.md) .
       * **Kopiera vylänken**
 En länk till vyn kopieras till Urklipp.
       * **Exportera den aktuella vyn**
-Mer information finns i [Exportera poster från tabellvyn ](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
+Mer information finns i [Exportera poster från tabellvyn &#x200B;](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
 
         >[!NOTE]
         >

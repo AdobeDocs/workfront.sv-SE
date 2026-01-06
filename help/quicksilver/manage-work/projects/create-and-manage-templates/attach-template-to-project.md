@@ -121,7 +121,7 @@ Du kan bifoga en mall till ett projekt från projektsidan eller från en projekt
 
    eller
 
-   Gå till en projektlista eller rapport och välj ett projekt och klicka sedan på ikonen **Mer** ![Mer ](assets/more-dropdown.png) högst upp i listan.
+   Gå till en projektlista eller rapport och välj ett projekt och klicka sedan på ikonen **Mer** ![Mer &#x200B;](assets/more-dropdown.png) högst upp i listan.
 
    ![Mer meny utökad](assets/more-menu-expanded.png)
 
