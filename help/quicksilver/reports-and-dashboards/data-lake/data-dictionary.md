@@ -7,9 +7,9 @@ description: Den här sidan innehåller information om datastrukturen och inneh�
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 815bee06ce413005e362d2e38068d591696cad5b
+source-git-commit: c669086f5954f9e2cf850887f4100e53c0c3e716
 workflow-type: tm+mt
-source-wordcount: '8878'
+source-wordcount: '8904'
 ht-degree: 1%
 
 ---
@@ -40,16 +40,59 @@ Det finns ett antal visningstyper som du kan använda i Data Connect för att vi
 
 <!-- Custom view -->
 
-## Enhetsrelationsdiagram
+## Entitetsrelationsdiagram
 
-Objekt i Workfront (och därför i Data Connect-datavinen) definieras inte bara av deras individuella värden, utan av deras relationer med andra objekt. I entitetsrelationsdiagrammet nedan finns en mappning på hög nivå av objektrelationer i Data Connect. Diagrammet kan visas och laddas ned via följande länk:
+Objekt i Workfront (och därför i Data Connect-datavinen) definieras inte bara av deras individuella värden, utan av deras relationer med andra objekt.
 
-[Relationsdiagram för dataanslutning](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
+Enhetsrelationsdiagrammen nedan tillhandahåller en mappning på hög nivå av objektrelationer i Data Connect för viktiga Workfront-objekt.
 
 >[!IMPORTANT]
 >
->Det angivna entitetsrelationsdiagrammet (ERD) är avsiktligt ofullständigt eftersom en fullständig ERD skulle bli oläslig på grund av det stora antalet relationer i programmet.<br>
->I det här diagrammet visas ett exempel på hur de relationer som dokumenteras i projekttabellen i avsnittet [Terminolog](#terminology-table) nedan kan användas för att koppla data från projektdatavyn till närliggande objekt. Du förväntas inte behöva ange en fullständig referensD när mönstret tolkas för objektrelationerna i projektet
+>Diagrammen är centrerade kring enskilda objekt och representerar inte ett fullständigt entitetsrelationsdiagram för hela Workfront-programmet. <br>
+>Dessa diagram är avsedda att innehålla exempel på hur relationerna kan användas för att koppla data till närliggande objekt.
+
+### Exempel på entitetsrelationsdiagram
+
++++ Expandera för att visa exempeldiagrammen
+
+>[!TIP]
+>
+>Om du vill visa ett diagram mer detaljerat högerklickar du på bilden och väljer **Öppna bild på den nya fliken**.
+
+
+### Uppdrag
+
+![Tilldelningarnas entitetsrelationsdiagram](assets/Assignment-centered-ERD.png)
+
+
+### Godkännanden av dokument och dokument
+
+![Enhetsrelationsdiagram för dokument och dokumentgodkännande](assets/Document-and-Document-Approvals-centered-ERD.png)
+
+### Timmar och tidrapporter
+
+![Timmar och tidrapporter, entitetsrelationsdiagram](assets/Hours-and-Timesheet-centered-ERD.png)
+
+
+### Problem
+
+![Utfärdar entitetsrelationsdiagram](assets/Issue-centered-ERD.png)
+
+### Projekt
+
+![Affärsenhetsrelationsdiagram för projekt](assets/Project-centered-ERD.png)
+
+
+### Uppgifter
+
+![Affärsenhetsrelationsdiagram för uppgifter](assets/Task-centered-ERD.png)
+
+
+### Användare
+
+![Relationsdiagram för användarentitet](assets/User-centered-ERD.png)
+
++++
 
 ## Datumtyper
 
@@ -1665,15 +1708,15 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
 >
 >Posttypen identifieras med egenskapen `enumClass`. Följande typer förväntas:<br>
 ><ul><li>CONDITION_OPTASK</li>
->&gt;<li>CONDITION_PROJ</li>
->&gt;<li>CONDITION_TASK</li>
->&gt;<li>PRIORITY_OPTASK</li>
->&gt;<li>PRIORITY_PROJ</li>
->&gt;<li>PRIORITY_TASK</li>
->&gt;<li>SEVERITY_OPTASK</li>
->&gt;<li>STATUS_OPTASK</li>
->&gt;<li>STATUS_PROJ</li>
->&gt;<li>STATUS_TASK</li></ul>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>PRIORITY_PROJ</li>
+&gt;<li>PRIORITY_TASK</li>
+&gt;<li>SEVERITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJ</li>
+&gt;<li>STATUS_TASK</li></ul>
 
 
 ### Dokument
