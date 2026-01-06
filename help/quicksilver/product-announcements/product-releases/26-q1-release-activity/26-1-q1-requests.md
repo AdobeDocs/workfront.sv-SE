@@ -4,9 +4,9 @@ description: Förbättringar av första kvartalet 2026-begäranden
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -125,8 +125,6 @@ Mer information om formulärifyllning som drivs av AI, inklusive vad som krävs 
 För att göra det enklare att skapa och skicka begäranden har vi lagt till möjligheten att spara utkast till den nya begärandeupplevelsen. När du nu börjar fylla i en begäran och stänger den, sparas den i utkaststatus och finns på det begärandeformulär som användes för att skapa utkastet. Du kan sedan öppna, uppdatera och skicka utkastet när det passar.
 
 Tidigare var den här funktionen inte tillgänglig i den nya upplevelsen för begärande.
-
-Utkast som har skapats i den tidigare begärande upplevelsen är tillgängliga i den nya begärande upplevelsen.
 
 Mer information om utkast till begäranden finns i [Skapa begäranden från utkast](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md).
 

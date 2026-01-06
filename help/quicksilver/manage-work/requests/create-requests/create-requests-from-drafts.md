@@ -6,9 +6,9 @@ description: Förutom att använda tillgängliga utkast som Workfront föreslår
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: bc7312a10f1851b9f85b2c1ceac5b01dba078f32
+source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '836'
 ht-degree: 0%
 
 ---
@@ -82,6 +82,10 @@ Hur du skapar begäranden från utkast skiljer sig mellan den nya begärande upp
    * I listan över förfrågningar i widgeten Mina förfrågningar i Hem
    * I dialogrutan Ny begäran (innehåller endast utkast av begäranden som skapats med det valda formuläret)
 
+   >[!NOTE]
+   >
+   >Utkast som har skapats i den tidigare begärande upplevelsen är inte tillgängliga i den nya begärande upplevelsen.
+
 1. Uppdatera informationen för begäran enligt beskrivningen i [Skapa och skicka Adobe Workfront-begäranden](../../../manage-work/requests/create-requests/create-submit-requests.md).
 1. (Valfritt och villkorligt) Klicka på **Ignorera** utkast när du vill ta bort utkastet. Då tas utkastet bort.
 
@@ -112,7 +116,7 @@ Hur du skapar begäranden från utkast skiljer sig mellan den nya begärande upp
 1. Granska informationen om varje utkast i följande kolumner i listan Utkast:
 
    | Ämne | Det här namnet gav du din begäran när du började skapa den. |
-   |---|---|
+   | --- | --- |
    | Sökväg | Namnet på begärandekön, ämnesgrupper och köämnen där du ursprungligen tänkte skicka begäran. |
    | Anmälningsdatum | Det datum då du initierade skapandet av begäran. |
    | Senaste uppdateringsdatum | Den sista uppdateringen. Om du inte har uppdaterat det sedan du först startade begäran ska transaktionsdatumet och det senaste uppdateringsdatumet vara samma. |
@@ -141,9 +145,4 @@ Hur du skapar begäranden från utkast skiljer sig mellan den nya begärande upp
      ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
      När du skickar begäran tas utkastet bort och kan inte återställas.
-
-   >[!NOTE]
-   >
-   >I den nya begärandeupplevelsen finns utkast i samma lista som skickade begäranden.
-   >Mer information om hur du skapar begäranden i den nya upplevelsen finns i [Skapa begäranden och generera utkast i Workfront webbprogram](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app) i artikeln Skapa och skicka-begäranden.
 

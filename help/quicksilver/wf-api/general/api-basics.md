@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 084f19973941b391d3d7e62c4901eee8ec975527
+source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
 workflow-type: tm+mt
 source-wordcount: '4396'
 ht-degree: 0%
@@ -266,7 +266,7 @@ GET /attask/api/v15.0/task/search?percentComplete=100
 I följande tabell visas några modifierare som du kan använda med Workfront API.
 
 | **Modifierare** | **Beskrivning** | **Exempel** |
-|---|---|---|
+| --- | --- | --- |
 | eq | returnerar resultat som har statusen stängd | <pre>...status=cls&amp;status_Mod=eq...</pre> |
 | ne | returnerar resultat som inte har statusen stängd | <pre>...status=cls&amp;status_Mod=ne..</pre> |
 | gte | returnerar resultat som har en procentandel färdig som är större än eller lika med 50 | <pre>...percentComplete=50&amp;percentComplete_Mod=get...</pre> |
@@ -318,7 +318,7 @@ Som standard returneras bara den mest använda delmängden av fält när du häm
 
 Du kan använda fältparametern request för att ange att en kommaavgränsad lista med specifika fält returneras. Till exempel begäran
 <pre>/attask/api/v15.0/task/search?fields=planningStartDate,priority</pre>returnerar ett svar som liknar följande:
-<pre>{<br>}    "priority": 2,<br>    "name": "first task", <br>    "ID": "4c7c08fa000002ff924e298ee148df4",<br>    "planningStartDate": "2010-08-30T09:00:00:000-0600" <br>&rbrace;</pre>
+<pre>{<br>}    "priority": 2,<br>    "name": "first task", <br>    "ID": "4c7c08fa000002ff924e298ee148df4",<br>    "planningStartDate": "2010-08-30T09:00:00:000-0600" <br>}</pre>
 
 >[!NOTE]
 >
@@ -367,8 +367,8 @@ Du kan använda `count` för att returnera antalet resultat som matchar din frå
 
 Du kan utföra en rapportbegäran där bara sammanställningen av vissa fält är önskvärd med en eller flera grupperingar. Som framgår av följande exempel är rapportsyntaxen densamma som syntaxen för SOAP API:
 <pre>GET /attask/api/v15.0/hour/report?project:name_1_GroupBy=true&amp;hours_AggFunc=sum</pre>som returnerar följande resultat
-<pre>{<br>}    "Första projektet": <br>        "sum_hours": 15 <br>    &rbrace;, <br>     "Andra projektet": <br>        "sum_hours": 30 <br>    &rbrace; <br></pre>Om du lägger till parametern $$ROLLUP=true inkluderas en summa på varje grupperingsnivå:
-<pre>{<br>}    "Första projektet": <br>        "sum_hours": 15 <br>    &rbrace;, <br>    "Andra projektet": <br>        "sum_hours": 30 <br>    &rbrace;, <br>    "$$ROLLUP": { <br>        "sum_hours": 45 <br>    } <br></pre>
+<pre>{<br>}    "Första projektet": <br>        "sum_hours": 15 <br>    }, <br>     "Andra projektet": <br>        "sum_hours": 30 <br>    } <br></pre>Om du lägger till parametern $$ROLLUP=true inkluderas en summa på varje grupperingsnivå:
+<pre>{<br>}    "Första projektet": <br>        "sum_hours": 15 <br>    }, <br>    "Andra projektet": <br>        "sum_hours": 30 <br>    }, <br>    "$$ROLLUP": { <br>        "sum_hours": 45 <br>    } <br></pre>
 
 ### Sortering av frågeresultat i API
 
@@ -475,8 +475,8 @@ POST /attask/api/v15.0/project?copySourceID=4c7...&name=Copied Project
 
 Du kan överföra dokument via följande API-URL:
 <pre>POST /attask/api/v15.0/upload</pre>API förväntar sig att innehållstypen ska vara multipart/form-data. Filens parameternamn måste vara uploadedFile. Servern returnerar följande JSON-data:
-<pre>{<br>}    "handle": "4c7c08fa000002ff924e298ee148df4" <br>&rbrace;</pre>Du kan använda handtaget och skicka till följande URL när du skapar ett Workfront-dokument:
-<pre>POST /attask/api/v15.0/document?updates=<br>    name: aFileName, <br>    handle: abc...123, (handle from the file upload) <br>    docObjCode: PROJ, (eller TASK, OPTASK osv.) <br>    objID: abc...123,<br>    currentVersion:{version:v1.0,filnamn:aFilnamn}<br>&rbrace;</pre>
+<pre>{<br>}    "handle": "4c7c08fa000002ff924e298ee148df4" <br>}</pre>Du kan använda handtaget och skicka till följande URL när du skapar ett Workfront-dokument:
+<pre>POST /attask/api/v15.0/document?updates=<br>    name: aFileName, <br>    handle: abc...123, (handle from the file upload) <br>    docObjCode: PROJ, (eller TASK, OPTASK osv.) <br>    objID: abc...123,<br>    currentVersion:{version:v1.0,filnamn:aFilnamn}<br>}</pre>
 
 ## PUT Behavior
 
@@ -497,7 +497,7 @@ Som visas i följande exempel kan du använda parametern för uppdateringsbegär
 ### Skapa kapslade uppdateringar
 
 Vissa objekt har privatägda samlingar som kan uppdateras. I följande exempel visas hur du skriver över befintliga tilldelningar för en viss uppgift:
-<pre>PUT /attask/api/v15.0/task/4c7..?updates= <br>{<br>}    tilldelningar: [ <br>        <br>            assignToID: "2222...54d0, <br>            assignPercent: 50.0 <br>        &rbrace;,{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br></pre>
+<pre>PUT /attask/api/v15.0/task/4c7..?updates= <br>{<br>}    tilldelningar: [ <br>        <br>            assignToID: "2222...54d0, <br>            assignPercent: 50.0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br></pre>
 
 >[!NOTE]
 >
@@ -536,9 +536,9 @@ DELETE tar bort ett objekt. I samtliga fall kan URI:n innehålla parametern forc
 
 En satsvisa uppdateringssats uppdaterar flera objekt samtidigt i ett enda API-anrop. Ett API-anrop för att skapa satsvis byggs på liknande sätt som ett vanligt uppdateringsanrop, vilket visas i följande exempel:
 <pre>PUT /attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>eller <pre>PUSH /attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>vilket ger en avkastning som liknar följande:
-<pre>data: [{<br>}    ID: "53ff8d3d003b438b57a8a784df38f6b3",<br>    namn: "Test_Project_1",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    planningStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioritet: 0,<br>    selectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>&rbrace;,<br>&lbrace;<br>    ID: "53ff8d49003b43a2562aa34eea3b6b10",<br>    namn: "Test_Project_2",<br>    objCode: "PROJ",<br>    percentComplete: 0usi,<br>    planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    planningStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioritet: 0,<br>    selectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>]</pre>Du kan också göra en gruppuppdatering som liknar följande:
+<pre>data: [{<br>}    ID: "53ff8d3d003b438b57a8a784df38f6b3",<br>    namn: "Test_Project_1",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    planningStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioritet: 0,<br>    selectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>},<br>{<br>    ID: "53ff8d49003b43a2562aa34eea3b6b10",<br>    namn: "Test_Project_2",<br>    objCode: "PROJ",<br>    percentComplete: 0usi,<br>    planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    planningStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioritet: 0,<br>    selectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>]</pre>Du kan också göra en gruppuppdatering som liknar följande:
 <pre>PUT /attask/api/v15.0/proj?Umethod=PUT&amp;updates=[{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_1_Edit"},{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxx", "name":"Test_Project_2_Edit"}]&amp;apiKey=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>vilket ger en avkastning som liknar följande:
-<pre>data: [ {<br>}     ID: "53ff8e15003b461d4560f7f65a440078",<br>     name: "Test_Project_1_Edit",<br>     objCode: "PROJ",<br>     percentComplete: 0,<br>     planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>     planningStartDate: "2014-08-28T11:00:00:000-0400",<br>     prioritet: 0,<br>     selectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>     status: "CUR"<br>&rbrace;,<br>&lbrace;<br>    ID: "53ff8e19003b46238a58d303608de502",<br>    namn: "Test_Project_2_Edit",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    planningStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioritet: 0,<br>    selectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>    status: "CUR"<br>]</pre>Om du vill att alla åtgärder ska utföras i samma transaktion lägger du till"atomic=true" i ditt batch-API-anrop som en request-parameter. På så sätt återställs alla åtgärder om någon av åtgärderna misslyckas.
+<pre>data: [ {<br>}     ID: "53ff8e15003b461d4560f7f65a440078",<br>     name: "Test_Project_1_Edit",<br>     objCode: "PROJ",<br>     percentComplete: 0,<br>     planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>     planningStartDate: "2014-08-28T11:00:00:000-0400",<br>     prioritet: 0,<br>     selectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>     status: "CUR"<br>},<br>{<br>    ID: "53ff8e19003b46238a58d303608de502",<br>    namn: "Test_Project_2_Edit",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    planningStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioritet: 0,<br>    selectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>    status: "CUR"<br>]</pre>Om du vill att alla åtgärder ska utföras i samma transaktion lägger du till"atomic=true" i ditt batch-API-anrop som en request-parameter. På så sätt återställs alla åtgärder om någon av åtgärderna misslyckas.
 
 >[!NOTE]
 >
