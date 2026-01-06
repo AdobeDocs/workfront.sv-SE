@@ -4,9 +4,9 @@ description: Rapportförbättringar för första kvartalet 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bb07096ce69e7d52c9332b6f9d230440a03c5f59
+source-git-commit: ad16dfe737f33a7d1025d8cef00605595d0476c2
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ Mer information finns i [Skapa en diagramrapport på en arbetsytekontrollpanel](
 >
 >Förhandsversion: 23 oktober 2025
 >Produktion för alla kunder: 23 oktober 2025
->[!BADGE Frånschemat &#x200B;]{type=Neutral}
+>[!BADGE Frånschemat ]{type=Neutral}
 
 Du kan nu duplicera en KPI-, tabell- eller diagramrapport på en Canvas Dashboard när den har skapats. När du har duplicerat rapporten kan du redigera den efter behov innan du sparar den.
 
@@ -151,16 +151,6 @@ Följande fältalternativ är tillgängliga som alternativ:
 * Andra grupper: ID
 * Andra roller: ID
 * Andra team: ID
-
-## Förbättrad visning av grupperingsantal på arbetsytans kontrollpaneler
-
->[!NOTE]
->
->Förhandsgranska: 6 november 2025
->Production fast release: 13 november 2025
->Produktion för alla: 15 januari 2026
-
-När en tabellrapport har flera resultatsidor och tabellen är konfigurerad med grupperingar, visar nu tabellen både postmängden för den aktuella sidan och det totala antalet poster för alla sidor. Om tabellrapporten till exempel har 7 grupperingar och den första sidan visar 3, visas 3 av 7.
 
 
 ## Nya skyddsritningar för att förbättra inläsningstiden på arbetsytans kontrollpaneler
