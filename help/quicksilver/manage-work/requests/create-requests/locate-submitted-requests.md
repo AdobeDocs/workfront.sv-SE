@@ -1,35 +1,37 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Sök efter skickade begäranden
-description: Läs mer om de områden i Adobe Workfront där du kan hitta förfrågningar som du eller någon annan har skickat eller förfrågningar som du aldrig har skickat in och sparats som utkast.
+title: Visa skickade begäranden
+description: Läs mer om de områden i Adobe Workfront där du kan visa begäranden som du eller någon annan har skickat eller begäranden som du aldrig har skickat in och sparats som utkast.
 author: Becky
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 9ea9f5741794641409d47ada006e3b9b78025cbd
+source-git-commit: b0060470156728a7ad98838378a7d963e2b5fd01
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
 
-# Sök efter skickade begäranden
+# Visa skickade begäranden
 
 <span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
-Du kan hitta följande typer av förfrågningar som du eller någon annan har skickat in, eller förfrågningar som du har börjat skicka men som du aldrig har slutfört. Du hittar dessa förfrågningar i följande områden i Adobe Workfront:
+Du kan visa förfrågningar som du eller någon annan har skickat, eller förfrågningar som du har startat men som du aldrig har slutfört. Du hittar dessa förfrågningar i följande områden i Adobe Workfront:
 
-* Fliken **Workfront** i området Begäranden i Workfront: Leta upp förfrågningar som skickats till Workfront-köer i följande avsnitt:
+* Fliken **Workfront** i området Begäranden i Workfront: Visa förfrågningar som har skickats till Workfront-begärandeköer i följande avsnitt:
    * **Skickat avsnitt**: Alla förfrågningar som du eller någon annan har skickat och du har tillgång till åtminstone Visa.
    * **Utkastavsnitt** : Alla begäranden som du har startat men aldrig slutfört och du har aldrig skickat in. Mer information om utkastbegäranden finns i [Skapa och skicka Adobe Workfront-begäranden](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-  >[!TIP]
+  >[!NOTE]
   >
-  >Du kan bara visa dina egna utkastbegäranden.
+  >* Du kan bara visa dina egna utkastbegäranden.
+  >* <span class="preview">I den nya begärandeupplevelsen finns skickade begäranden och utkast i samma lista. </span>
+  >* <span class="preview">Utkast som har skapats i den äldre upplevelsen visas inte i den nya begärandeupplevelsen.</span>
 
-* Fliken **Planering** i området Begäranden i Workfront: Leta upp begäranden som skickats till formulär för Workfront Planning-begäran. Din organisation måste köpa ett Workfront Planning-paket. Mer information finns i följande artiklar:
+* Fliken **Planering** i området Begäranden i Workfront: Visa förfrågningar som skickats till formulär för Workfront Planning-begäran. Din organisation måste köpa ett Workfront Planning-paket. Mer information finns i följande artiklar:
 
    * [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
    * [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md)
@@ -72,18 +74,18 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 +++
 
-## Leta reda på skickade begäranden i området Begäranden
+## Visa skickade begäranden i området Begäranden
 
-Att hitta skickade begäranden skiljer sig åt beroende på om du använder den nya eller gamla upplevelsen för att begära.
+Hur skickade begäranden visas skiljer sig åt beroende på om du använder den nya eller gamla upplevelsen av att begära.
 
-* [Hitta skickade begäranden i den nya begärande upplevelsen](#locate-submitted-requests-in-the-new-requesting-experience)
-* [Hitta skickade begäranden i den äldre begärande upplevelsen](#locate-submitted-requests-in-the-legacy-requesting-experience)
+* [Visa skickade begäranden i den nya begärande upplevelsen](#view-submitted-requests-in-the-new-requesting-experience)
+* [Visa skickade begäranden i den äldre begärande upplevelsen](#view-submitted-requests-in-the-legacy-requesting-experience)
 
-### Hitta skickade begäranden i den nya begärande upplevelsen
+### Visa skickade begäranden i den nya begärande upplevelsen
 
-Du kan hitta skickade begäranden i området Begäranden, <span class="preview">som innehåller länkar till objekt som skapats av dessa begäranden.</span>
+Du kan visa skickade begäranden i området Förfrågningar, <span class="preview">som innehåller länkar till objekt som skapats av dessa förfrågningar.</span>
 
-Så här söker du efter begäranden som du eller andra användare har skickat in i den nya begärande upplevelsen:
+Så här visar du förfrågningar som du eller andra användare har skickat in i den nya begärandeupplevelsen:
 
 {{step1-to-requests}}
 
@@ -92,7 +94,7 @@ Så här söker du efter begäranden som du eller andra användare har skickat i
    Listan över förfrågningar visas.
 
 1. (Valfritt) Om du vill söka efter en begäran börjar du skriva i sökfältet längst upp till höger i listan. Sökresultaten visas när du skriver.
-1. (Valfritt) Klicka på **Filter** och börja lägga till villkor för de förfrågningar du vill hitta.
+1. (Valfritt) Klicka på **Filter** och börja lägga till villkor för de begäranden som du vill visa.
 
    Du kan filtrera efter följande fält:
 
@@ -105,18 +107,26 @@ Så här söker du efter begäranden som du eller andra användare har skickat i
 
    Du kan ha flera filter kopplade av antingen **And** eller **Or**.
 Begärandelistan filtreras automatiskt när du lägger till filtervillkoren.
-1. (Valfritt) Använd vyer för att fokusera på de förfrågningar du vill hitta.
+1. (Valfritt) Använd vyer för att fokusera på de förfrågningar som du vill visa.
 
    Instruktioner finns i [Skapa eller redigera vyer i området Förfrågningar](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+1. (Valfritt) Kontrollera status för en begäran genom att markera kolumnen Status. Följande statusvärden är tillgängliga i den nya upplevelsen av begärande:
+
+   * Utkast: Denna begäran har ännu inte skickats.
+   * Väntande granskning
+   * Granskas
+   * Avvisad
+   * Pågår
+   * Complete
 
 >[!NOTE]
 >
 >* Om du har Workfront Planning visas dina Workfront- och Planning-begäranden i samma lista. Workfront-begäranden visar värdet `Issue` i kolumnen Objekttyp.
 >* Listan över begäranden visas med 50 begäranden. Om du vill visa fler begäranden bläddrar du längst ned i listan.
 
-### Hitta skickade begäranden i den äldre begärande upplevelsen
+### Visa skickade begäranden i den äldre begärande upplevelsen
 
-Så här söker du efter begäranden som du eller andra användare har skickat in i den tidigare begärande upplevelsen:
+Så här visar du begäranden som du eller andra användare har skickat in i den tidigare begärande upplevelsen:
 
 {{step1-to-requests}}
 
@@ -253,5 +263,12 @@ Så här söker du efter begäranden som du eller andra användare har skickat i
    ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
    Mer information finns i [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md).
+
+
+1. (Valfritt) Kontrollera status för en begäran genom att markera kolumnen Status. Följande statusvärden är tillgängliga i den nya upplevelsen av begärande:
+
+   * Utkast: Denna begäran har ännu inte skickats.
+   * Pågår
+   * Complete
 
 
