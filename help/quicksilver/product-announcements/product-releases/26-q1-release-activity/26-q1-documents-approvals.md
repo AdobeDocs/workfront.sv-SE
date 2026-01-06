@@ -4,9 +4,9 @@ description: Första kvartalet 2026 Förbättringar av dokument och godkännande
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0197be82879cbd2abfd053e4a93002884db252b4
+source-git-commit: 6b6500b0db40a959d87d97c89d85e3564445cca4
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Den här sidan beskriver förbättringar av dokument och godkännande som gjorts
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den första utgåvan av kvartal 2026 finns i [Översikt över utgåvan första kvartalet 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
-## Välj ett Workfront-projekt när du skickar en granskning i Creative Cloud Express
+## Välj ett Workfront-projekt när du skickar en granskning i Adobe Express
 
 >[!NOTE]
 >
