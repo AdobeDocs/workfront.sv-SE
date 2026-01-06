@@ -3,7 +3,7 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 644b27b1cab7b7a4e94a28c82387de056dfe34a0
 workflow-type: tm+mt
 source-wordcount: '13634'
 ht-degree: 0%
@@ -1493,7 +1493,7 @@ ht-degree: 0%
          * [Skapa och skicka begäranden](manage-work/requests/create-requests/create-submit-requests.md)
          * [Skapa begäranden från utkast](manage-work/requests/create-requests/create-requests-from-drafts.md)
          * [Gör det möjligt för användare att skicka ett ärende via e-post till ett begärandeköprojekt](manage-work/requests/create-requests/enable-email-issues-into-projects.md)
-         * [Sök efter skickade begäranden](manage-work/requests/create-requests/locate-submitted-requests.md)
+         * [Visa skickade begäranden](manage-work/requests/create-requests/locate-submitted-requests.md)
          * [Dela en länk till en begärandekö](manage-work/requests/create-requests/share-link-to-request-queue.md)
          * [Ta bort en skickad begäran eller en begäran om utkast](manage-work/requests/create-requests/delete-request-draft.md)
          * [Kopiera och skicka begäranden](manage-work/requests/create-requests/copy-and-submit-requests.md)
