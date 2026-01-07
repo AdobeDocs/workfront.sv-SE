@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 2e75f6aaba089a91a2306ad06a0f0d79a7524f75
+source-git-commit: 387a84c4bf511424a0c15bd65748987c1611cee5
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -67,13 +67,13 @@ KPI:n för planerade timmar på skärmen Avancerade tilldelningar går inte län
 
 Fältet **Valutakursdatum** i området Projektinformation > Ekonomi är nu dolt när kryssrutan **Använd datumeffektiva valutakurser från systemet** inte är markerad. Tidigare visades datumfältet i projektinformationen när ett projekt redigerades, även när datumeffektiva valutakurser inte var aktiverade.
 
-<!--### Maintenance Updates week of January 4-10, 2026
+### Underhållsuppdateringar vecka 4-10 januari 2026
 
-**Title**
+**Jobbrollfrekvenser tillåter nu luckor i giltighetsdatum**
 
-text
+Giltighetsdatumen för jobbrollfrekvenser medger nu luckor, men överlappande datum tillåts inte. Under en lucka används andra områden i faktureringshierarkin för att fastställa faktureringssatsen baserat på en uppgifts intäktstyp.
 
-### Maintenance Updates week of January 11-17, 2026
+<!--### Maintenance Updates week of January 11-17, 2026
 
 **Title**
 
