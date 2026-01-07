@@ -153,7 +153,7 @@ Dessa statusvärden är följande:
   </tr> 
   <tr> 
    <td>ASSEMBLING_FAILED</td> 
-   <td><p>Kampanjpaketet får automatiskt denna status om ASSEMBLING-fasen misslyckas.</p><p>Om du vill returnera paketet till ASSEMBLING-scenen måste du starta monteringsprocessen igen.</p><p>Mer information om hur du sätter ihop ett paket finns i avsnittet <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Redigera eller sätta ihop ett befintligt paket</a> i artikeln Skapa eller redigera ett miljömarknadsföringspaket.</td> 
+   <td><p>Kampanjpaketet får automatiskt denna status om ASSEMBLING-fasen misslyckas.</p><p>Om du vill returnera paketet till ASSEMBLING-scenen måste du starta monteringsprocessen igen.</p><p>Mer information om hur du sätter ihop ett paket finns i avsnittet <a href="https://experienceleague.adobe.com/sv/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Redigera eller sätta ihop ett befintligt paket</a> i artikeln Skapa eller redigera ett miljömarknadsföringspaket.</td> 
   </tr> 
   </tbody> 
 </table>
