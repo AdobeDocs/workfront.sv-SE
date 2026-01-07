@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 8cbaa087be44ffd8142bd864e3fb47ffef992372
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '13645'
+source-wordcount: '13638'
 ht-degree: 0%
 
 ---
@@ -1437,7 +1437,6 @@ ht-degree: 0%
          * [Ändra användartilldelningar för flera utgåvor i en lista](manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
          * [Uppdatera automatiskt utskicksstatus från Väntar på feedback till Pågår](manage-work/issues/manage-issues/turn-issue-status-from-awf-to-inp-automatically.md)
    * Gantt-schemat {#the-gantt-chart}
-      * Gantt-schemat {#the-gantt-chart}
       * [Gantt-schemat](manage-work/gantt-chart/the-gantt-chart.md)
       * Översikt över Gantt-schema {#gantt-chart-overview}
          * [Översikt över Gantt-schema](manage-work/gantt-chart/use-the-gantt-chart/gantt-chart-overview.md)
@@ -2192,7 +2191,6 @@ ht-degree: 0%
    * [Adobe Workfront-integreringar](workfront-integrations-and-apps/workfront-integrations.md)
    * [Adobe Workfront inbyggda integreringsöversikt](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
    * [Integreringsmetoder i Adobe Workfront](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
-   * Granska och godkänna integreringar {#review-approval-integrations}
    * Adobe Workfront för Creative Cloud {#workfront-for-creative-cloud}
       * [Adobe Workfront för Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
       * Installera Adobe Workfront-plugin-programmet för Creative Cloud-program {#install-wf-cc}

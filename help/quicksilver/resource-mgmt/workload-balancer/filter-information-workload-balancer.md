@@ -6,7 +6,7 @@ description: För att effektivt hitta arbetsobjekt och fokusera på de användar
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '2433'
 ht-degree: 0%
@@ -71,8 +71,6 @@ Den här artikeln innehåller information om filter i Utjämning av arbetsbelast
 </table>
 
 Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
 
 ## Översikt över filter i Utjämning av arbetsbelastning
 
@@ -203,7 +201,7 @@ Du kan skapa ett filter från grunden eller redigera något av de fördefinierad
       >
       >![Filtersats för projektstatus](assets/project-status-filter.png)
 
-   1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort &#x200B;](assets/delete.png) om du vill ta bort ett filtervillkor.
+   1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort ](assets/delete.png) om du vill ta bort ett filtervillkor.
 
 1. (Valfritt) Klicka på **Lägg till filter** för att lägga till ytterligare filtervillkor och upprepa sedan åtgärderna från steg 4.
 
@@ -284,7 +282,7 @@ Du kan redigera ett sparat filter i Utjämning av arbetsbelastning.
 
    * Ändra någon av filtersatserna.
    * Klicka på **Lägg till filter** för att lägga till nya filtersatser.
-   * Klicka på ikonen **Ta bort** ![Ta bort &#x200B;](assets/delete.png) om du vill ta bort befintliga filtersatser.
+   * Klicka på ikonen **Ta bort** ![Ta bort ](assets/delete.png) om du vill ta bort befintliga filtersatser.
 
 1. (Valfritt) Klicka på **Använd**. Resultaten uppdateras i Utjämning av arbetsbelastning till vänster för att illustrera de ändringar du har gjort i filtret.
 

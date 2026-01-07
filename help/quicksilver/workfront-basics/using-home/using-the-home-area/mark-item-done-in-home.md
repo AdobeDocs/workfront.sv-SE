@@ -6,9 +6,9 @@ description: Du kan markera en uppgift eller ett problem som Klar om du är den 
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 4c3638aa-5ee3-422a-9fee-41c4749fe48b
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '739'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,6 @@ Du kan markera en uppgift eller ett problem som Klar om du är den som tilldelat
 >[!NOTE]
 >
 >Du kan inte se knappen [!UICONTROL Done] om du inte är en av de resurser som har tilldelats uppgiften eller problemet.
-
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 ## Åtkomstkrav
 

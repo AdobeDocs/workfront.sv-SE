@@ -6,9 +6,9 @@ description: När arbetsuppgifter och ärenden tilldelas till dig visas de i wid
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 0%
 # Hantera arbetsobjekt och teamförfrågningar i [!UICONTROL Home]-området
 
 När arbetsuppgifter och ärenden tilldelas till dig visas de i widgeten Mitt arbete, widgeten Mina uppgifter och widgeten Mina problem.  Du kan visa, arbeta med eller ta bort arbetsposter och förfrågningar.
-
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 ## Åtkomstkrav
 
@@ -61,14 +59,14 @@ Arbetsobjekt som har tilldelats dig visas i widgeten Mitt arbete i [!UICONTROL H
 
 Du kan välja filter som visar objekt som du kan arbeta med, eller objekt som du redan arbetar med.
 
-I den här artikeln beskrivs hur du använder filtren i området [!UICONTROL Home] för att visa objekt som du för närvarande arbetar med eller kan överväga att börja arbeta med. Mer information om hur du använder filter i området [!UICONTROL Home] finns i [Visa objekt i [!UICONTROL worklist] i området [!UICONTROL Home] &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+I den här artikeln beskrivs hur du använder filtren i området [!UICONTROL Home] för att visa objekt som du för närvarande arbetar med eller kan överväga att börja arbeta med. Mer information om hur du använder filter i området [!UICONTROL Home] finns i [Visa objekt i [!UICONTROL worklist] i området [!UICONTROL Home] ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 Så här visar du ett arbetsobjekt i widgeten Mitt arbete:
 
 1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
 1. (Villkorligt) Klicka på **Anpassa** för att lägga till widgeten **Mitt arbete**.
 
-1. Klicka på ikonen **Filter** ![Filtrera &#x200B;](assets/filter-nwepng.png) i det övre vänstra hörnet i widgetens arbetslista.
+1. Klicka på ikonen **Filter** ![Filtrera ](assets/filter-nwepng.png) i det övre vänstra hörnet i widgetens arbetslista.
 
 1. Klicka på något eller båda av följande alternativ för uppgifter:
 

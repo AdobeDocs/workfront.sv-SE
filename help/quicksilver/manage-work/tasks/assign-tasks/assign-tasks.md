@@ -7,7 +7,7 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '2156'
 ht-degree: 0%
@@ -191,7 +191,7 @@ Så här tilldelar du uppgifter i en lista:
 1. (Valfritt) Klicka på listrutan **Spara automatiskt** och välj bland följande alternativ:
 
    | Alternativ | Alternativbeskrivning |
-   |---|---| 
+   |---|---|
    | Spara automatiskt | Ändringar som du gör i uppgifterna sparas automatiskt och du kan inte återställa dem |
    | Spara manuellt | Du måste spara ändringarna manuellt. Du kan återställa ändringarna innan du sparar dem. |
    | Planering av tidslinje | Du måste spara ändringarna manuellt. Du kan återställa ändringarna innan du sparar dem. Det går snabbare att spara ändringarna och alla projektberoenden än när du väljer Spara manuellt. |

@@ -8,7 +8,7 @@ feature: System Setup and Administration, Workfront Integrations and Apps, Digit
 role: Admin
 author: Courtney, Becky
 exl-id: 78281bca-1fa1-4e78-96e5-70be12142bbd
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 1%
@@ -23,7 +23,7 @@ När du inaktiverar anslutningen mellan [!DNL Workfront] och en dokumentleverant
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table>
   <tr>
@@ -49,6 +49,8 @@ När du inaktiverar anslutningen mellan [!DNL Workfront] och en dokumentleverant
 </table>
 
 Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Inaktivera integreringar med molnleverantörer
 

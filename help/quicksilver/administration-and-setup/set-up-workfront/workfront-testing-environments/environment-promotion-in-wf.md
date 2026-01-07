@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 0cc1ab3a7412b7200ddab1a789ef5e9d86c3949f
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '1046'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Eftersom miljöbefordran hanterar objektkonfiguration inkluderas inte transaktio
 
 | Upphöjt objekt | Inkluderade länkade objekt som kan höjas |
 | --- | --- |
-| Projekt (PROJ) | Projekt<br>Aktivitet<br>Tilldelning<br>Föregående<br>Företag<br>Åsidosätt hastighet<br>Grupp<br>Roll<br>Grupp<br>Godkännandeprocess<br>Godkännandesökväg<br>Godkännandesteg<br>Steggodkännare<br>Schema<br>Ej arbetsdag<br>Ködefinition<br>Köteamgrupp<br> 16&rbrace;Köämne <br>Routningsregel<br>Sökväg för milstolpe<br>Milstolpe<br>Timtyp<br>Resurspool<br>Kategori<br>Kategoriparameter<br>Parameter<br>Parametergrupp<br>Parameteralternativ<br>Kategorivisning |
+| Projekt (PROJ) | Projekt<br>Aktivitet<br>Tilldelning<br>Föregående<br>Företag<br>Åsidosätt hastighet<br>Grupp<br>Roll<br>Grupp<br>Godkännandeprocess<br>Godkännandesökväg<br>Godkännandesteg<br>Steggodkännare<br>Schema<br>Ej arbetsdag<br>Ködefinition<br>Köteamgrupp<br> 16}Köämne <br>Routningsregel<br>Sökväg för milstolpe<br>Milstolpe<br>Timtyp<br>Resurspool<br>Kategori<br>Kategoriparameter<br>Parameter<br>Parametergrupp<br>Parameteralternativ<br>Kategorivisning |
 | Mall (TMPL) | Mall<br>Mallaktivitet<br>Mallaktivitetstilldelning<br>Malluppgiftsföregångare<br>Företag<br>Åsidosätt hastighet<br>Grupp<br>Roll<br>Grupp<br>Godkännandeprocess<br>Godkännandesökväg<br>Godkännandesteg<br>Steggodkännande<br>Schema<br>Ej arbetsdag<br>Ködefinition<br>Kö Ämnesgrupp<br>Köämne<br>Routningsregel<br>Sökväg för milstolpe<br>Milstolpe<br>Timtyp<br>Resurspool<br>Kategori<br>Kategoriparameter<br>Parameter<br>Parametgrupp<br>Parameteralternativ<br>Kategorivisningslogik |
 
 ### Rapporteringsobjekt
@@ -153,12 +153,12 @@ Dessa statusvärden är följande:
   </tr> 
   <tr> 
    <td>ASSEMBLING_FAILED</td> 
-   <td><p>Kampanjpaketet får automatiskt denna status om ASSEMBLING-fasen misslyckas.</p><p>Om du vill returnera paketet till ASSEMBLING-scenen måste du starta monteringsprocessen igen.</p><p>Mer information om hur du sätter ihop ett paket finns i avsnittet <a href="https://experienceleague.adobe.com/sv/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Redigera eller sätta ihop ett befintligt paket</a> i artikeln Skapa eller redigera ett miljömarknadsföringspaket.</td> 
+   <td><p>Kampanjpaketet får automatiskt denna status om ASSEMBLING-fasen misslyckas.</p><p>Om du vill returnera paketet till ASSEMBLING-scenen måste du starta monteringsprocessen igen.</p><p>Mer information om hur du sätter ihop ett paket finns i avsnittet <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Redigera eller sätta ihop ett befintligt paket</a> i artikeln Skapa eller redigera ett miljömarknadsföringspaket.</td> 
   </tr> 
   </tbody> 
 </table>
 
-## Resurs
+## Resurser
 
 * Vanliga frågor om miljöbefordran finns i [Vanliga frågor om miljökampanjer](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
 * Felsökningsrekommendationer finns i [Felsökning av miljöerbjudanden](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)

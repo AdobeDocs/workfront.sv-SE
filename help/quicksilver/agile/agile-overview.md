@@ -7,7 +7,7 @@ description: Agile är en arbetsmetod som gör det möjligt för team att slutf�
 author: Jenny
 feature: Agile
 exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Så här börjar du använda Advanced Agile i Workfront:
 
 1. Skapa ett Agile-team.
 
-   Mer information finns i avsnittet [Skapa ett Agile-team](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md/#create-an-agile-team-1) eller [Konvertera ett befintligt team till ett Agile-team](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#converting-an-existing-team-into-an-agaile-team) i artikeln [Skapa ett Agile-team](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+   Mer information finns i avsnittet [Skapa ett Agile-team](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#create-an-agile-team-1) eller [Konvertera ett befintligt team till ett Agile-team](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#converting-an-existing-team-into-an-agaile-team) i artikeln [Skapa ett Agile-team](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
 1. Konfigurera Agile-teamet att använda Kanban eller Scrum.
 

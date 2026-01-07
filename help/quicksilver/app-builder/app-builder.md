@@ -4,9 +4,9 @@ description: Med Workfront UI Extensions, som drivs av Adobe App Builder, kan ku
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: 1c2422f61e3db6fbe05cd03b9fbc1f17e906ebad
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '2285'
+source-wordcount: '2269'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,6 @@ Ytterligare instruktioner finns på [Adobe Developer-webbplatsen](https://develo
 >Se till att du har valt rätt IMS-organisation för alla följande steg. Om du tillhör flera organisationer kan du välja fel. Se till att du agerar under rätt organisation, som vanligtvis visas i det övre högra hörnet.
 
 1. Navigera till produktion: https://adminconsole.adobe.com/
-
 1. I avsnittet **Användare** klickar du på **Utvecklare** > **Lägg till utvecklare**.
 
    ![lägg till användare i Admin Console](assets/manage-users-admin-console.png)
@@ -63,8 +62,8 @@ Ytterligare instruktioner finns på [Adobe Developer-webbplatsen](https://develo
    >Om du inte ser något alternativ för att hantera utvecklare har du ingen produkt som ger utvecklare åtkomst.
 
 1. Lägg till användarens e-postadress. Det bör söka efter befintliga användare som redan har lagts till från Admin Console.
+1. Lägg till nödvändiga produkter i utvecklarprofilen och klicka på **Spara**.
 
-1. Lägg till nödvändiga produkter i utvecklarprofilen och klicka på **Spara**.\
    ![lägg till utvecklare](assets/add-developer.png)
 
 ### Få tillgång till App Builder
@@ -80,9 +79,7 @@ Du måste använda Adobe Developer Console för att skapa UI-tillägget.
 Ytterligare instruktioner finns på [Adobe Developer-webbplatsen](https://developer.adobe.com/uix/docs/guides/creating-project-in-dev-console/).
 
 1. Logga in på Adobe Developer Console med din Adobe ID.
-
 1. Välj ditt konto och din profil eller organisation.
-
 1. Klicka på **Skapa projekt från mall** i snabbstartsområdet eller klicka på **Skapa nytt projekt > Projekt från mall**.
 
    >[!IMPORTANT]
@@ -92,11 +89,8 @@ Ytterligare instruktioner finns på [Adobe Developer-webbplatsen](https://develo
    ![Skapa från mall](assets/create-from-template.png)
 
 1. Välj **App Builder**.
-
 1. Ange en **projekttitel** och **programnamn**. Båda har standardvärden, men det är enklare att identifiera det projekt som du vill ha senare om du anpassar värdet.
-
 1. Låt **Inkludera körningsversion** vara markerat.
-
 1. Klicka på **Spara**.
 
 ## Använd Adobe Developer (aio) CLI
@@ -157,37 +151,37 @@ Så här tillåter du anpassade program på Workfront huvudmeny:
 
 1. Gå till ExtensionRegistration.js.
 
-I funktionen ExtensionRegistration ska du se följande kod. Den här koden skapades för dig av mallen. Den här koden kan läggas till för att skapa ytterligare menyalternativ. Se till att ersätta ID:n och URL:er.
+   I funktionen ExtensionRegistration ska du se följande kod. Den här koden skapades för dig av mallen. Den här koden kan läggas till för att skapa ytterligare menyalternativ. Se till att ersätta ID:n och URL:er.
 
-    &quot;
-    mainMenu: &lbrace;
-    
-    getItems() &lbrace;
-    
-    return &lbrack;
-    
-    &lbrace;
-    
-    id: &#39;main-menu-label&#39;,
-    
-    url: &#39;/index.html#/main-menu-label&#39;,
-    
-    label: &#39;Main menu label&#39;,
-    
-    icon: icon1,
-    
-    &rbrace;,
-    
-    &rbrack;;
-    
-    &rbrace;,
-    
-     12&rbrace;&rbrace;
-    &quot;
+   ```
+   mainMenu: { 
+   
+           getItems() { 
+   
+               return [ 
+   
+               { 
+   
+                   id: 'main-menu-label', 
+   
+                   url: '/index.html#/main-menu-label', 
+   
+                   label: 'Main menu label', 
+   
+                   icon: icon1, 
+   
+               }, 
+   
+               ]; 
+   
+           }, 
+   
+           } 
+   ```
 
 1. Lägg till följande kodfragment:
 
-   ![kodfragment &#x200B;](assets/7-extension-registration-step1-from-sam.png)
+   ![kodfragment ](assets/7-extension-registration-step1-from-sam.png)
 
    I det här exemplet visas ett alternativ på huvudmenyn. Du måste uppdatera ID:t, etiketten, ikonen och URL:en till rätt namn för programmet. När du lägger till flera objekt måste du se till att ID:t är unikt.
 
