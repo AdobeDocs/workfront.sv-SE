@@ -4,9 +4,9 @@ description: Förbättringar av första kvartalet 2026-begäranden
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4061163b8b761bc3922bfb95da6c0110b6ee5871
+source-git-commit: ab0721e11415f4c41b8020a2678c3a483f108cb3
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '900'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 >Produktion för alla: 15 januari 2026
 
 För att göra det enklare för dig att gå till objektet som skapats av en viss begäran har vi lagt till länkar i kolumnen Skapat objekt. Nu kan du klicka på länken i den här kolumnen för att gå direkt till det skapade objektets sida.
+
+Den här länken är bara tillgänglig när själva begäran har skapat ett objekt. Om en begäran konverteras till ett projekt eller annat objekt är ingen länk till det konverterade objektet tillgänglig i listan med begäranden i den nya begärandeupplevelsen.
 
 Tidigare innehöll den här kolumnen bara objektets namn och inte dess länk.
 
