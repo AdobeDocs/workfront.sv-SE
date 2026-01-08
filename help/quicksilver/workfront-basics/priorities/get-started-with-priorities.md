@@ -6,14 +6,16 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: 4e3c2e50bb3dc1c49939a4c2064e6d89d20e4c24
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1017'
 ht-degree: 0%
 
 ---
 
 # Kom igång med [!DNL Priorities]
+
+{{preview-fast-release-general}}
 
 Prioriteringarna är en smidig, intuitiv upplevelse som är skräddarsydd för uppgiftsägare. Prioriteringarna kommer att introduceras i faser, med början i arbetslistan.
 
@@ -24,6 +26,8 @@ Prioriteringar ger
 * Personaliserade funktioner: Dra nytta av unika funktioner som utformats för uppgiftsägare
 
 Prioriteringarna Worklist och Calendar visar arbetsobjekt som du har tilldelats. Du kan inte se arbetsobjekt som tilldelats ditt team.
+
+<span class="preview">En Workfront-administratör kan aktivera prioriteter för din användare i layoutmallen. Mer information finns i [Anpassa huvudmenyn med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).</span>
 
 ## Hitta och ordna ditt material
 
@@ -202,7 +206,8 @@ Mer information finns i [Kom igång med arbetet i Prioriteringar](/help/quicksil
 
 Du kan visa uppdateringar i realtid på informationssidan för en uppgift eller ett problem. Du kan också se om andra tittar på sidan samtidigt som du med visningsindikatorer i realtid.
 
-## Överväganden
 
-* Workfront-administratörer kan för närvarande inte anpassa prioriteringar med hjälp av layoutmallen.
-* Att komma åt uppgifter i prioriteter är tillgängligt på flera flikar. Vi planerar att lägga till fler flikar i framtiden, som dokument, underaktiviteter, godkännanden osv. Meddela oss om att du behöver dessa objekt genom att skicka feedback med knappen **Ge feedback** .
+<!--
+## Considerations
+
+* Accessing tasks in Priorities is across tabs. We plan to add additional tabs, like Documents, Subtasks, Approvals, etc, in the future. Let us know you need these items by submitting feedback using the **Give Feedback** button.-->
