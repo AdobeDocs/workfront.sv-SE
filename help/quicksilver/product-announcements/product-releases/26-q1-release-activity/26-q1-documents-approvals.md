@@ -4,9 +4,9 @@ description: Första kvartalet 2026 Förbättringar av dokument och godkännande
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bde12a27b918fc98c7596d16b78b46d465c9e90a
+source-git-commit: 8d177d1081590f6a6733f29e0d615828394394c7
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -17,17 +17,17 @@ Den här sidan beskriver förbättringar av dokument och godkännande som gjorts
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den första utgåvan av kvartal 2026 finns i [Översikt över utgåvan första kvartalet 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
-## Konfigurera varumärken för AI-granskaren i Workfront
+<!--## Set up brands for the AI reviewer in Workfront
 
 >[!NOTE]
 >
->Förhandsgranska: 8 januari 2026
->Production fast release: 8 januari 2026\
->Produktion för alla: 8 januari 2026
+>Preview: January 8, 2026 
+>Production fast release: January 8, 2026  
+>Production for everyone: January 8, 2026  
 
-Nu kan du ställa in varumärken för AI-granskaren under Konfigurera i Workfront. På så sätt kan ni anpassa AI-granskningsprocessen baserat på organisationens riktlinjer för branding.
+You can now set up brands for the AI reviewer in the Workfront Setup area. This allows you to customize the AI review process based on your organization's branding guidelines.
 
-AI-granskaren är för närvarande i betaversion.
+The AI reviewer is currently in beta.-->
 
 ## Välj ett Workfront-projekt när du skickar en granskning i Adobe Express
 
