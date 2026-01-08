@@ -4,9 +4,9 @@ description: Förbättringar av första kvartalet 2026 för administratörer
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a49c8f2ad345f0ea8cdfd38ad79c6c0a5f636e95
+source-git-commit: 5a1af10b7e3e59eb203c0507aeea15db5689e24b
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,11 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 >[!NOTE]
 >
+>Den här funktionen är inte tillgänglig för tillfället i förhandsvisningsmiljön
 >Förhandsgranska: 2 december 2025
 >Production fast release: 14 januari 2026
 >Produktion för alla: 15 januari 2026
+
 
 Du kan nu aktivera eller inaktivera prioriteter för specifika användare i layoutmallen. Om du tidigare har inaktiverat prioriteter för din organisation förblir den inaktiverad i layoutmallen med den här ändringen.
 

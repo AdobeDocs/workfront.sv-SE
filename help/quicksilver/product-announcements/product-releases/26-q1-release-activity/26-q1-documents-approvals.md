@@ -4,9 +4,9 @@ description: Första kvartalet 2026 Förbättringar av dokument och godkännande
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6b6500b0db40a959d87d97c89d85e3564445cca4
+source-git-commit: bde12a27b918fc98c7596d16b78b46d465c9e90a
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,18 @@ ht-degree: 0%
 Den här sidan beskriver förbättringar av dokument och godkännande som gjorts i den första utgåvan av kvartal 2026 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den första utgåvan av kvartal 2026 finns i [Översikt över utgåvan första kvartalet 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Konfigurera varumärken för AI-granskaren i Workfront
+
+>[!NOTE]
+>
+>Förhandsgranska: 8 januari 2026
+>Production fast release: 8 januari 2026\
+>Produktion för alla: 8 januari 2026
+
+Nu kan du ställa in varumärken för AI-granskaren under Konfigurera i Workfront. På så sätt kan ni anpassa AI-granskningsprocessen baserat på organisationens riktlinjer för branding.
+
+AI-granskaren är för närvarande i betaversion.
 
 ## Välj ett Workfront-projekt när du skickar en granskning i Adobe Express
 

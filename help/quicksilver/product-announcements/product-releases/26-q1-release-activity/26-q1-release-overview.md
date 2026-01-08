@@ -4,9 +4,9 @@ description: Den här sidan innehåller information om de funktioner som ingår 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b9016bc9a5609424b6cd6cdec67ac4d696e7ab45
+source-git-commit: 2ac2e0421bdd59e4de0e3a02ce7c798d09b55c68
 workflow-type: tm+mt
-source-wordcount: '2880'
+source-wordcount: '2940'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Hantera prioriteringar i layoutmallen</a>
+            <p><span class="preview">Tillfälligt otillgänglig i förhandsvisningsmiljön</span></p>
             <p>Du kan nu aktivera eller inaktivera prioriteter för specifika användare i layoutmallen. Om du tidigare har inaktiverat prioriteter för din organisation förblir den inaktiverad i layoutmallen med den här ändringen.</p>
         </td>
         <td>18 december 2025</td>
@@ -115,6 +116,17 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Förhandsgranska</strong></td>
         <td><strong>Snabb release</strong></td>
         <td><strong>kvartalsvis</strong></td>
+        </tr>
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Konfigurera varumärken för AI-granskaren i Workfront<p>[!BADGE Off schema]{type=Neutral}</p> </a>
+            <p>Nu kan du ställa in varumärken för AI-granskaren under Konfigurera i Workfront. På så sätt kan ni anpassa AI-granskningsprocessen baserat på organisationens riktlinjer för branding.</p>
+            <p>AI-granskaren är för närvarande i betaversion.</p>
+        </td>
+        <td>8 januari 2026</td>
+        <td>8 januari 2026</td>
+        <td>8 januari 2026</td>
+    </tr> 
     </tr>
        <tr>
         <td>
@@ -512,7 +524,7 @@ Vi uppdaterar gränssnittet i hela Adobe Workfront för att förbättra använda
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Förbättringar av Workfront Planning
 
@@ -585,13 +597,13 @@ För att kunna leverera mer stabila och skalbara integreringar går vi över til
 * Workfront för Salesforce.
 
 Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Google Workspace.
-En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Underhållsuppdateringar för Workfront
 
-Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=sv-SE).
+Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan &#x200B;](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=sv-SE).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
