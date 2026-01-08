@@ -6,9 +6,9 @@ description: Du kan skicka begäranden i widgeten Mina förfrågningar. Du kan o
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: ef44dcdc88da66d9cf357be53270ec717c06efe7
+source-git-commit: 4061163b8b761bc3922bfb95da6c0110b6ee5871
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 >Den här artikeln beskriver den nya widgeten Mina förfrågningar. Du måste ha den nya upplevelsen som begär aktiverad för att kunna se den nya widgeten.
 >Du kan aktivera den nya begärandeupplevelsen i området Förfrågningar.
 
-Widgeten Mina förfrågningar visar förfrågningar som har skickats till din organisation. Du kan filtrera förfrågningar, söka efter specifika förfrågningar eller justera kolumnordningen och synligheten. Du kan också skapa en ny begäran från widgeten Mina förfrågningar.
+Widgeten Mina förfrågningar visar förfrågningar som du har skickat. Du kan filtrera förfrågningar, söka efter specifika förfrågningar eller justera kolumnordningen och synligheten. Du kan också skapa en ny begäran från widgeten Mina förfrågningar.
 
 >[!NOTE]
 >
@@ -133,7 +133,7 @@ Så här justerar du kolumnerna på widgeten Mina förfrågningar:
 1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
 1. (Villkorligt) Om du vill lägga till widgeten **Mina förfrågningar** på hemskärmen. Klicka på **Anpassa** och sök efter **Mina förfrågningar**.
 1. Klicka på **Kolumner** i widgeten Mina förfrågningar.
-1. (Valfritt) Om du vill ändra ordning på kolumnerna klickar du på draghandtaget ![drar &#x200B;](assets/drag-handle.png) i den kolumn som du vill flytta och drar den till önskad plats. Kolumnen högst upp i listan visas i widgeten Mina förfrågningar som kolumnen längst till vänster.
+1. (Valfritt) Om du vill ändra ordning på kolumnerna klickar du på draghandtaget ![drar ](assets/drag-handle.png) i den kolumn som du vill flytta och drar den till önskad plats. Kolumnen högst upp i listan visas i widgeten Mina förfrågningar som kolumnen längst till vänster.
 1. (Valfritt) Använd växlingsknappen för att kontrollera om en kolumn visas i widgeten Mina förfrågningar.
 1. <span class="preview">Om du vill lägga till ett anpassat fält som en kolumn klickar du på ikonen **Lägg till kolumn** ![Lägg till kolumn](assets/add-column.png) till höger på skärmen och sedan på plusikonen bredvid det anpassade formulärfältet som du vill lägga till som en kolumn i widgeten.</span>
 

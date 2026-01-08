@@ -5,9 +5,9 @@ title: Skapa och hantera vyer i området Förfrågningar
 description: Om du använder den nya begärandefunktionen kan du skapa och spara vyer för området Förfrågningar.
 author: Becky
 feature: Work Management
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 4061163b8b761bc3922bfb95da6c0110b6ee5871
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,12 @@ ht-degree: 0%
 
 Om du använder den nya begärandefunktionen kan du skapa och spara vyer för området Förfrågningar. De här vyerna innehåller filter och kolumnupplägg.
 
-Vyer kan skapas och hanteras i området Förfrågningar i Workfront och i widgeten Mina förfrågningar i Hem. Visningsinställningarna bevaras mellan området Förfrågningar och widgeten.
+Vyer kan skapas och hanteras under Begäranden i Workfront.
 
 >[!IMPORTANT]
 >
->Den här funktionen är bara tillgänglig i den nya upplevelsen av begärande.
+>* Den här funktionen är bara tillgänglig i den nya upplevelsen av begärande.
+>* Visningsinställningar är inte tillgängliga i widgeten Mina förfrågningar i Hem.
 
 ## Åtkomstkrav
 
@@ -61,21 +62,13 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Skapa en vy i området Förfrågningar
 
-Du kan skapa en vy i området Förfrågningar i Workfront eller i widgeten Mina förfrågningar i Hem.
+Du kan skapa en vy under Förfrågningar i Workfront.
 
 1. Så här öppnar du listan över förfrågningar:
 
    {{step1-to-requests}}
 
-1. Så här öppnar du widgeten Mina förfrågningar i Hem:
-
-   {{step1-to-home}}
-
-   1. Leta reda på widgeten Mina förfrågningar.
-
-      Mer information om widgeten Mina förfrågningar finns i [Använd widgeten Mina förfrågningar](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
-
-1. Klicka på listrutan **Vyer** ![Vyer](assets/view-icon-requests.png) i listan över förfrågningar eller på widgeten Mina förfrågningar och välj **Ny vy**.
+1. Klicka på listrutan **Vyer** ![Vyer](assets/view-icon-requests.png) i listan över förfrågningar och välj **Ny vy**.
 
    ![Ny vy](assets/create-new-view.png)
 
@@ -89,16 +82,7 @@ Du kan redigera befintliga vyer, inklusive vyer som du just har skapat.
 1. Så här öppnar du listan över förfrågningar:
 
    {{step1-to-requests}}
-
-1. Så här öppnar du widgeten Mina förfrågningar i Hem:
-
-   {{step1-to-home}}
-
-   1. Leta reda på widgeten Mina förfrågningar.
-
-      Mer information om widgeten Mina förfrågningar finns i [Använd widgeten Mina förfrågningar](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
-
-1. Leta reda på vyn som du vill redigera i listan över förfrågningar eller i widgeten Mina förfrågningar.
+1. Leta reda på vyn som du vill redigera i listan över förfrågningar.
 
 1. (Valfritt) Om du vill byta namn på en vy klickar du på listrutan **Vyer** ![Vyer](assets/view-icon-requests.png) och klickar på menyn med tre punkter bredvid vyn. Välj sedan **Byt namn** och skriv in det nya namnet för vyn.
 1. Klicka på listrutan **Vyer** ![Vyer](assets/view-icon-requests.png) och välj den vy som du vill redigera.
@@ -156,15 +140,7 @@ Du kan dela vyer som du skapar med andra användare, team eller grupper.
 
    {{step1-to-requests}}
 
-1. Så här öppnar du widgeten Mina förfrågningar i Hem:
-
-   {{step1-to-home}}
-
-   1. Leta reda på widgeten Mina förfrågningar.
-
-      Mer information om widgeten Mina förfrågningar finns i [Använd widgeten Mina förfrågningar](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
-
-1. Leta reda på vyn som du vill dela i listan över förfrågningar eller i widgeten Mina förfrågningar.
+1. Leta reda på den vy som du vill dela i listan över förfrågningar.
 1. Håll muspekaren över den vy som du vill dela och klicka sedan på menyn med tre punkter när den visas.
 1. Välj **Dela**.
 1. I den dialogruta som öppnas anger du namnen på de användare, team eller grupper som du vill dela vyn med och markerar dem sedan i listan när de visas.

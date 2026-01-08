@@ -4,9 +4,9 @@ description: Förbättringar av första kvartalet 2026-begäranden
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
+source-git-commit: 4061163b8b761bc3922bfb95da6c0110b6ee5871
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
@@ -59,8 +59,6 @@ For more information on creating views for the Request list and My Requests widg
 >Produktion för alla: 15 januari 2026
 
 För att göra det enklare att se den information du behöver har vi lagt till möjligheten att dela vyer till den nya begärande upplevelsen. Nu kan du dela vyer med andra användare, team eller grupper.
-
-Du kan dela begärandelistvyer både från området Förfrågningar i Workfront och från widgeten Mina förfrågningar i Hem. Delningsfunktionerna är identiska på båda platserna, och visningsinställningarna, inklusive delning, bevaras när du flyttar mellan widgeten Mina förfrågningar och området Förfrågningar.
 
 Mer information om begärandevyer, inklusive delning, finns i [Skapa och hantera vyer i området Förfrågningar](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 
