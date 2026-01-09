@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: f2c3abc4e47e004faf7ce2a5e7a3bf4edfdaa566
+source-git-commit: 2f7b5c9d3a934708f3128ed9e4efa76b12619913
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Du kan också redigera egenskaperna för ett anpassat fält, en avsnittsbrytning
 
 >[!NOTE]
 >
->Uteslutningen från rapporter, filter, vyer och grupperingar sker när fältet har inaktiverats. Befintliga rapportelement som använder fältet ändras eller tas inte bort när fältet har markerats som inaktivt.
+>Om ett befintligt fält markeras som inaktivt kan det inte användas i rapportelement och anpassade formulär från den punkten och framåt. Om det inaktiva fältet för närvarande används i en rapport eller ett formulär, finns fältet och dess historiska data kvar på plats.
 
 Om du tar bort ett anpassat fält från ett anpassat formulär finns det fortfarande i alla andra formulär som det har lagts till i, och du kan redigera det i ett formulär eller i området Fält. Mer information om hur du tar bort ett fält finns i [Ta bort ett eget fält eller en anpassad widget från systemet](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
 

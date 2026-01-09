@@ -4,9 +4,9 @@ description: Förbättringar av första kvartalet 2026 för administratörer
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5a1af10b7e3e59eb203c0507aeea15db5689e24b
+source-git-commit: a524dd5519f450543e486d83bff6134a15f548d7
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -92,9 +92,9 @@ Om du markerar ett fält som inaktivt:
 
 >[!NOTE]
 >
->Uteslutningen från rapporter, filter, vyer och grupperingar sker när fältet har inaktiverats. Befintliga rapportelement som använder fältet ändras eller tas inte bort när fältet har markerats som inaktivt.
+>Om ett befintligt fält markeras som inaktivt kan det inte användas i rapportelement och anpassade formulär från den punkten och framåt. Om det inaktiva fältet för närvarande används i en rapport eller ett formulär, finns fältet och dess historiska data kvar på plats.
 
-Mer information finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Mer information finns i [Lägga till eller redigera ett anpassat fält, avsnittsbrytning eller widget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md).
 
 
 
