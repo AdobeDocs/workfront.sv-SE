@@ -6,15 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
 
 
 # Översikt över posttyper
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -47,6 +51,7 @@ Mer information om hur du skapar posttyper finns i [Skapa posttyper](/help/quick
 * När du skapar en posttyp kan bara du och de du ger behörighet att komma åt arbetsytan visa posttypen.
 * Du måste skapa en arbetsyta innan du kan skapa posttyper för arbetsytan.
 * Information om begränsningar för hur många posttyper du kan ha på en arbetsyta eller i en Workfront-instans finns i [Översikt över begränsningar för Adobe Workfront Planning-objekt](/help/quicksilver/planning/general/limitations-overview.md).
+* <span class="preview">Du kan ange posttyper som globala. Globala posttyper kan läggas till som befintliga posttyper på andra arbetsytor. Mer information finns i [ConfConfigure cross-workspace capabilities for record type](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).</span>
 
 
 <!--

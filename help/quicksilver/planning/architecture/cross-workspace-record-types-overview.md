@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 0c890cc535c61c5402a334e43ed45b3ec3f9f748
+source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1646'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,23 @@ Du kan aktivera funktioner för olika arbetsytor för en posttyp i Adobe Workfro
 
 >[!IMPORTANT]
 >
->Det finns utökade krav för Workfront-paket för att kunna aktivera funktioner för arbetsytan över flera arbetsytor för posttyper i ditt system. Mer information finns i [Åtkomstöversikt för Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+>Din organisation måste köpa följande paket för att kunna aktivera funktioner för olika arbetsytor för olika posttyper:
+>
+>* Så här konfigurerar du kopplingsbara posttyper:
+>
+>   * Alla Workfront-paket och alla Planning-paket
+>
+>     eller
+>
+>   * Alla arbetsflöden och ett Planning Prime- eller Ultimate-paket
+>* <span class="preview">Så här konfigurerar du globala posttyper:</span>
+>  * <span class="preview">Alla Workfront-paket och ett Planning Plus-paket</span>
+>     
+>    eller
+>
+>  * <span class="preview">Alla arbetsflöden och ett Planning Prime- eller Ultimate-paket</span>
+>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront.
+>Mer information finns i [Åtkomstöversikt för Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
 
 Följande är funktioner för olika arbetsytor för posttyper:
@@ -45,7 +61,7 @@ Globala posttyper kan läggas till på flera arbetsytor från en central eller p
 
 När du implementerar Workfront Planning för en organisation med flera team och gemensamma arbetsflöden kan du behöva definiera en sammanhängande struktur och metadata för nyckelposttyper (som kampanjer och slutprodukter) som kan läggas till i varje teames arbetsytor för att fånga och hantera deras arbete.
 
-Ni kan också behöva varje teames arbete för att komma upp på en central nivå.
+Ni kan också behöva varje teames arbete för att komma till en central nivå.
 
 I ett sådant arbetsflöde kan du se till att teamen hämtar sitt arbete på ett enhetligt sätt samtidigt som de låser upp synligheten mellan team, utan att behöva lägga till allt på en arbetsyta, eller så kan alla i organisationen göra det på varje arbetsyta. Du kan använda globala posttyper för att uppnå detta.
 

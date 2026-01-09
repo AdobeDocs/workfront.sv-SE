@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
 workflow-type: tm+mt
-source-wordcount: '1650'
+source-wordcount: '1654'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Mer information finns i följande artiklar:
 <ul> 
 <li><p>Alla Workfront-paket och alla Planning-paket</p></li>
 eller
-<li><p>Alla arbetsflöden och all planering</p></li></ul>
+<li>Alla arbetsflöden och ett Planning Prime- eller Ultimate-paket</p></li></ul>
 
 <div class="preview">
 <p>Så här konfigurerar du globala posttyper:</p>
@@ -158,7 +158,7 @@ Så här konfigurerar du en posttyp som global:
 
      ![Fler menyalternativ från posttypskort](assets/more-menu-options-from-record-type-card.png)
 
-   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn.
+   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn.
 1. Klicka på **Redigera** eller **Inställningar**.
 
    >[!TIP]
@@ -239,7 +239,7 @@ Hur en posttyp konfigureras som anslutningsbar varierar beroende på vilken milj
 
      ![Fler menyalternativ från posttypskort](assets/more-menu-options-from-record-type-card.png)
 
-   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn. Klicka sedan på **Redigera**.
+   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn. Klicka sedan på **Redigera**.
 
 1. Klicka på fliken **Avancerade inställningar**.
 
@@ -281,7 +281,7 @@ Hur en posttyp konfigureras som anslutningsbar varierar beroende på vilken milj
 
      ![Fler menyalternativ från posttypskort med inställningar](assets/more-menu-options-from-record-type-card-with-settings-link.png)
 
-   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn.
+   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn.
 1. Klicka på **Redigera** eller **Inställningar**.
 
 1. (Villkorligt) Om du klickade på **Redigera** klickar du på fliken **Inställningar för arbetsytan** i rutan **Redigera posttyp**
