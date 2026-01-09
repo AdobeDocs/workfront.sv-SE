@@ -4,9 +4,9 @@ description: Den här sidan innehåller information om de funktioner som ingår 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8d177d1081590f6a6733f29e0d615828394394c7
+source-git-commit: d3f58a1d25b353b45e68e4910a4340052a49c4d4
 workflow-type: tm+mt
-source-wordcount: '2886'
+source-wordcount: '2885'
 ht-degree: 0%
 
 ---
@@ -379,7 +379,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Objektlänkar som skapats är nu tillgängliga i området Begäranden och widgeten Mina förfrågningar</a>
-            <p>För att göra det enklare för dig att gå till objektet som skapats av en viss begäran har vi lagt till länkar i kolumnen Skapat objekt. Nu kan du klicka på länken i den här kolumnen för att gå direkt till det skapade objektets sida./p&gt;
+            <p>För att göra det enklare för dig att gå till objektet som skapats av en viss begäran har vi lagt till länkar i kolumnen Skapat objekt. Nu kan du klicka på länken i den här kolumnen för att gå direkt till det skapade objektets sida.</p>
         </td>
         <td>18 december 2025</td>
         <td>14 januari 2026</td>
@@ -424,7 +424,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Dela vyer i området Förfrågningar och i widgeten Mina förfrågningar</a>
-            <p>För att göra det enklare att se den information du behöver har vi lagt till möjligheten att dela vyer till den nya rapportupplevelsen. Nu kan du dela vyer med andra användare, team eller grupper. </p>
+            <p>För att göra det enklare att se den information du behöver har vi lagt till möjligheten att dela vyer till den nya begärande upplevelsen. Nu kan du dela vyer med andra användare, team eller grupper. </p>
         </td>
         <td>4 december 2025</td>
         <td>14 januari 2026</td>
@@ -524,7 +524,7 @@ Vi uppdaterar gränssnittet i hela Adobe Workfront för att förbättra använda
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Förbättringar av Workfront Planning
 
@@ -597,13 +597,13 @@ För att kunna leverera mer stabila och skalbara integreringar går vi över til
 * Workfront för Salesforce.
 
 Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Google Workspace.
-En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Underhållsuppdateringar för Workfront
 
-Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=sv-SE).
+Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan &#x200B;](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=sv-SE).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
