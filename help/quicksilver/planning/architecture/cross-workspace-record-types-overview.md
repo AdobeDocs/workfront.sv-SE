@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
+source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
 workflow-type: tm+mt
-source-wordcount: '1646'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
@@ -28,19 +28,23 @@ Du kan aktivera funktioner för olika arbetsytor för en posttyp i Adobe Workfro
 >
 >Din organisation måste köpa följande paket för att kunna aktivera funktioner för olika arbetsytor för olika posttyper:
 >
->* Så här konfigurerar du kopplingsbara posttyper:
+>Så här konfigurerar du kopplingsbara posttyper:
 >
->   * Alla Workfront-paket och alla Planning-paket
 >
->     eller
+>* Alla Workfront-paket och alla Planning-paket
 >
->   * Alla arbetsflöden och ett Planning Prime- eller Ultimate-paket
->* <span class="preview">Så här konfigurerar du globala posttyper:</span>
->  * <span class="preview">Alla Workfront-paket och ett Planning Plus-paket</span>
+>   eller
+>
+>* Alla arbetsflöden och ett Planning Prime- eller Ultimate-paket
+>
+><span class="preview">Så här konfigurerar du globala posttyper:</span>
+>
+>* <span class="preview">Alla Workfront-paket och ett Planning Plus-paket</span>
 >     
->    eller
+>   eller
 >
->  * <span class="preview">Alla arbetsflöden och ett Planning Prime- eller Ultimate-paket</span>
+>* <span class="preview">Alla arbetsflöden och ett Planning Prime- eller Ultimate-paket</span>
+>
 >Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront.
 >Mer information finns i [Åtkomstöversikt för Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
@@ -96,23 +100,36 @@ Posttypen som konfigurerats som global har följande egenskaper:
    * Redigera den
 
      När du redigerar en global posttyp kan du redigera dess utseende, funktioner för flera arbetsytor och alla fält som har skapats på den ursprungliga arbetsytan.
+   * Dela
+
+     När du delar en posttyp läggs användarna till på arbetsytan och posterna delas med dessa användare.
+   * Ta bort den
+
+     Du kan bara ta bort en global posttyp från den ursprungliga arbetsytan efter att du har tagit bort alla instanser av den från alla de sekundära arbetsytorna där den lades till.
+
+     Mer information finns i [Ta bort posttyper](/help/quicksilver/planning/architecture/delete-record-types.md).
+   * Gör den anslutningsbar från andra arbetsytor
    * Skapa och hantera förfrågningsformulär
    * Skapa och hantera automatisering
 
-* Du kan bara ta bort en global posttyp om den inte har lagts till på en sekundär arbetsyta. Du måste först ta bort den (genom att ta bort den) från de sekundära arbetsytorna innan du kan ta bort den från den ursprungliga arbetsytan.
-
-  Mer information finns i [Ta bort posttyper](/help/quicksilver/planning/architecture/delete-record-types.md).
-* Posterna som du lägger till i en global posttyp visas bara för användare som har behörigheten Visa på arbetsytan där de lades till.
+* Posterna som du lägger till i en global posttyp visas bara för användare som har behörigheten Visa på arbetsytan där de lades till. <!-- this needs to be more specific: what does "o the workspace where they were added" mean? - added in which kind of workspaces? secondary or primary; asking Lilit-->
 * Posterna som du lägger till från en sekundär arbetsyta läggs upp och visas på den ursprungliga arbetsytan. Alla medlemmar på den ursprungliga arbetsytan får behörigheten Visa till dem.
 * När den ursprungliga globala posttypen läggs till i flera sekundära arbetsytor finns följande scenarier:
 
    * Medlemmar i den ursprungliga arbetsytan får automatiskt behörigheten Visa för alla poster som läggs till från en arbetsyta, även om de inte är medlemmar i den arbetsytan.
-   * Sekundära arbetsytemedlemmar kan bara visa poster från arbetsytor där de är medlemmar.
-* De anslutna posttyperna av en global posttyp blir tillgängliga för anslutning från de arbetsytor där den här posttypen läggs till.
+   * Sekundära arbetsytemedlemmar kan bara visa poster från arbetsytor där de är medlemmar. <!--change this to: Secondary workspace members can view only records from the workspace the records were added and where they have at least permissions to view the record workspace and the record type.-->
+
+* Posttyperna som är kopplade till en global posttyp blir tillgängliga för anslutning från arbetsytorna där den här posttypen läggs till.
 
   Om du till exempel har en global posttyp för Campaign som har en anslutning till posttypen Region, och du lägger till posttypen Campaign på en sekundär arbetsyta, kan regioner bli en kopplingsbar arbetsyta mellan olika arbetsytor från den sekundära arbetsytan. Medlemmar i den sekundära arbetsytan kan nu skapa kampanjer och länka dem till regioner.
 
-* Fält som skapats för en global posttyp från den ursprungliga arbetsytan visas från alla arbetsytor där posttypen läggs till. Du kan bara redigera fältinställningar från den ursprungliga arbetsytan. Inställningarna för de fält som skapades i den ursprungliga arbetsytan är skrivskyddade i de sekundära arbetsytorna för alla medlemmar, oavsett deras behörigheter på den sekundära arbetsytan. Sekundära arbetsytehanterare kan inte ändra fältinställningarna för fält som konfigurerats i den ursprungliga arbetsytan. Det är bara arbetsytehanterarna på den ursprungliga arbetsytan som kan ändra fältinställningarna på den ursprungliga arbetsytan.
+* Fält som skapats för en global posttyp från den ursprungliga arbetsytan visas från alla arbetsytor där posttypen läggs till.
+
+  Du kan bara redigera fältinställningar från den ursprungliga arbetsytan.
+
+  Inställningarna för de fält som skapades i den ursprungliga arbetsytan är skrivskyddade i de sekundära arbetsytorna för alla medlemmar, oavsett deras behörigheter på den sekundära arbetsytan.
+
+  Sekundära arbetsytehanterare kan inte ändra fältinställningarna för fält som konfigurerats i den ursprungliga arbetsytan. Det är bara arbetsytehanterarna på den ursprungliga arbetsytan som kan ändra fältinställningarna på den ursprungliga arbetsytan.
 
 ### Överväganden om globala posttyper i en sekundär arbetsyta
 
@@ -133,23 +150,28 @@ Posttypen som konfigurerats som global har följande egenskaper:
 
      Mer information finns i [Dela vyer](/help/quicksilver/planning/access/share-views.md).
 
+<!--Uncomment this at prod on Jan 15: * Share it-->
 
-     <!-- when they will be able to add fields to the secondary space, this bullet will need this extra information: 
-         After adding fields to the global record type in the secondary workspace, shared views might not open for other users in workspaces. The fields exist only in the secondary workspace and they would not be visible in any other workspace. Only fields created in the primary workspace are visible in all secondary workspaces where there the record type is added. -->
+<!--You can share a global record type added to a secondary workspace from the secondary space. By sharing a global record type in a secondary workspace, the following also occur:
 
-  <!--These two capabilities will come later - and edit some of the bullets below after these capabilities are released:
-    * Add new fields
-        Fields added to a global record from a secondary workspace are visible only from the secondary workspace. 
-    * Share it
-    * Add request forms to it
-    * Add automations to it-->
+    * Users are added to the workspace with View permissions.
+    * Users receive the same permissions to all the records of the global record type in the secondary workspace.-->
+
+<!--when they will be able to add fields to the secondary space, this bullet will need this extra information: 
+    After adding fields to the global record type in the secondary workspace, shared views might not open for other users in workspaces. The fields exist only in the secondary workspace and they would not be visible in any other workspace. Only fields created in the primary workspace are visible in all secondary workspaces where there the record type is added.-->
+
+<!--These two capabilities will come later - and edit some of the bullets below after these capabilities are released:
+* Add new fields
+    Fields added to a global record from a secondary workspace are visible only from the secondary workspace. 
+* Add request forms to it
+* Add automations to it-->
 
 * Ingen användare kan utföra följande åtgärder på en global posttyp på en sekundär arbetsyta:
 
    * Redigera den
 
      Du kan inte redigera utseendet, funktionerna för en arbetsyta eller fälten som lagts till från den ursprungliga arbetsytan.
-   * Dela
+   * Dela den <!-- remove this at Prod on Jan 15-->
    * Skapa och hantera förfrågningsformulär
    * Skapa och hantera automatisering
 
@@ -159,11 +181,17 @@ Posttypen som konfigurerats som global har följande egenskaper:
    * Den globala posttypens ursprungliga arbetsyta.
    * Alla andra arbetsytor där den globala arbetsytan läggs till.
 
+  <!--replace he above bullet with this: 
+        * Records added in a secondary workspace are visible from the following workspaces, only if you have View or higher permissions to these workspaces:
+        * The secondary place where they were added
+        * The global record type's original workspace
+    -->
+
 * Följande scenarier finns för poster som skapats i sekundära arbetsytor:
 
    * Om du har behörigheten Hantera på den ursprungliga arbetsytan, och inga behörigheter på en sekundär arbetsyta, kan du visa poster som lagts till från den sekundära arbetsytan i den ursprungliga arbetsytan, men du kan inte hantera dem från den ursprungliga arbetsytan.
    * Om du har behörigheten Hantera på den sekundära arbetsytan kan du hantera posterna både från den globala posttypens ursprungliga arbetsyta och från den sekundära arbetsytan där de lades till.
-   * Du kan bara visa posterna på ytterligare sekundära arbetsytor där den globala posttypen läggs till om du har behörigheten Visa på dessa arbetsytor.
+   * Du kan bara visa posterna på ytterligare sekundära arbetsytor där den globala posttypen läggs till om du har behörigheten Visa på dessa arbetsytor. <!-- take this bullet out when we change this functionality on Jan 15-->
 
 ### Åtkomst till anslutningar av global posttyp
 

@@ -1,5 +1,5 @@
 ---
-title: Översikt över testversionen av Adobe Workfront Planning
+title: Kom igång med den kostnadsfria testversionen av Adobe Workfront Planning
 description: Adobe Workfront erbjuder för närvarande en 60-dagars kostnadsfri testversion av Adobe Workfront Planning. Testversionen är ett tillfälle att se hur Planning kopplar samman en helbildsstrategi med det dagliga arbete som får programmet att fungera. Planering ger centraliserad insyn i era marknadsföringslivscykler, vilket möjliggör bättre samarbete mellan olika team, spårning av kampanjer i realtid och automatiserade arbetsflöden. Du kan skapa anpassade arbetsytor och visualisera arbetet med interaktiva tidslinjer och kalendrar. I den här testversionen får du först se hur Planning hjälper er att anpassa det dagliga arbetet efter strategiska mål, effektivisera genomförandet och få mätbara resultat för organisationen.
 author: Alina
 feature: Workfront Planning
@@ -7,7 +7,7 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 0964ad24535bf43a23c740cd63abcf8fea705b8d
+source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Testversionen finns tillgänglig mellan följande datum: 1 mars-1 maj 2026.
 
 >[!NOTE]
 >
->Testversionen av Workfront Planning är inte tillgänglig för nuvarande Workfront Planning-kunder. Testversionen är ett tillfälle för Workfront-kunder som inte är Planning-kunder att uppleva Workfront Planning, och att se hur den kan koppla ihop en helbildsstrategi med det dagliga arbete som får det att hända.
+>Testversionen av Workfront Planning är inte tillgänglig för nuvarande Workfront Planning-kunder. Testversionen är ett tillfälle för Workfront <!-- is it Workfront or Adobe, or anyone-->-kunder som inte är Planning-kunder att uppleva Workfront Planning och se hur den kan koppla ihop helbildsstrategin med det dagliga arbete som får det att hända.
 
 
 Planering ger centraliserad insyn i era marknadsföringslivscykler, vilket möjliggör bättre samarbete mellan olika team, spårning av kampanjer i realtid och automatiserade arbetsflöden. Du kan skapa anpassade arbetsytor och visualisera arbetet med interaktiva tidslinjer och kalendrar.
