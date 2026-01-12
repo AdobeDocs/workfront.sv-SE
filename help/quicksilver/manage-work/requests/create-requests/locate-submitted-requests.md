@@ -8,9 +8,9 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: b0060470156728a7ad98838378a7d963e2b5fd01
+source-git-commit: 3fe7e6f530e15ebdb4a658de89b77c1bf39671fe
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1512'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Hur skickade begäranden visas skiljer sig åt beroende på om du använder den 
 
 ### Visa skickade begäranden i den nya begärande upplevelsen
 
-Du kan visa skickade begäranden i området Förfrågningar, <span class="preview">som innehåller länkar till objekt som skapats av dessa förfrågningar.</span>
+Du kan visa skickade begäranden i området Begäranden, <span class="preview">som innehåller länkar till objekt som har skapats av planeringsbegäranden.</span>
 
 Så här visar du förfrågningar som du eller andra användare har skickat in i den nya begärandeupplevelsen:
 
@@ -113,11 +113,15 @@ Begärandelistan filtreras automatiskt när du lägger till filtervillkoren.
 1. (Valfritt) Kontrollera status för en begäran genom att markera kolumnen Status. Följande statusvärden är tillgängliga i den nya upplevelsen av begärande:
 
    * Utkast: Denna begäran har ännu inte skickats.
-   * Väntande granskning
-   * Granskas
-   * Avvisad
-   * Pågår
-   * Complete
+   * Väntande granskning: (endast planering) Den här begäran har godkännare och ingen av godkännarna har öppnat begäran.
+   * Granskning: (endast planering) Den här begäran har godkännare och minst en godkännare har öppnat begäran, men inget beslut har fattats.
+   * Avvisad: (Endast planering) Den här begäran har godkännare och har avvisats.
+   * Pågår:
+      * Workfront Workflow: Begäran har konverterats och arbetet pågår.
+      * Workfront Planering: Begäran som slutförs mappas till ett specifikt Planning-fält och fältvärdet matchar ännu inte värdet för slutförande.
+
+        Mer information finns i [Konfigurera information](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details) i artikeln Skapa och hantera ett begärandeformulär i Adobe Workfront Planning.
+   * Slutförd: Begäran har slutförts.
 
 >[!NOTE]
 >

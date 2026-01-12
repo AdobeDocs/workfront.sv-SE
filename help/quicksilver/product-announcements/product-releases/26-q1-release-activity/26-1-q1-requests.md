@@ -4,9 +4,9 @@ description: Förbättringar av första kvartalet 2026-begäranden
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ab0721e11415f4c41b8020a2678c3a483f108cb3
+source-git-commit: 3fe7e6f530e15ebdb4a658de89b77c1bf39671fe
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '906'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 För att göra det enklare för dig att gå till objektet som skapats av en viss begäran har vi lagt till länkar i kolumnen Skapat objekt. Nu kan du klicka på länken i den här kolumnen för att gå direkt till det skapade objektets sida.
 
-Den här länken är bara tillgänglig när själva begäran har skapat ett objekt. Om en begäran konverteras till ett projekt eller annat objekt är ingen länk till det konverterade objektet tillgänglig i listan med begäranden i den nya begärandeupplevelsen.
+Den här länken är bara tillgänglig för planeringsbegäranden, i de fall där själva begäran skapade ett objekt. Om en Workfront-begäran konverteras till ett projekt eller annat objekt är ingen länk till det konverterade objektet tillgänglig i listan över förfrågningar i den nya begärandeupplevelsen.
 
 Tidigare innehöll den här kolumnen bara objektets namn och inte dess länk.
 
