@@ -6,9 +6,9 @@ description: I  [!DNL Adobe Workfront] ordlistan visas termer som används ofta 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 8f7249e08268a8cb784d4c0ecc8c534542fa80cf
 workflow-type: tm+mt
-source-wordcount: '17858'
+source-wordcount: '17893'
 ht-degree: 0%
 
 ---
@@ -1263,7 +1263,11 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   <tr> 
    <td>[!UICONTROL Last Note]</td> 
    <td> <p>I det här fältet visas den senaste uppdateringen som en användare har angett för ett objekt. Detta är den senaste aktiviteten eller interaktionen för ett objekt.</p> <p>Kolumnen [!UICONTROL Last Note] är tom om texten i den sista anteckningen i ett objekt har tagits bort. När en ny anteckning läggs in på objektet blir den sista anteckningen och visas igen i kolumnen.</p>
-   <p>När det här fältet läggs till i en [!UICONTROL Task]-rapport finns det eventuella uppdateringar kvar på underordnade objekt, till exempel problem, underaktiviteter, dokument osv. — av uppgiften visas inte i den här kolumnen.</p> </td> 
+   <p>När det här fältet läggs till i en [!UICONTROL Task]-rapport visas inga uppdateringar kvar på underordnade objekt - till exempel problem, underaktiviteter eller dokument - för uppgiften i den här kolumnen.</p> 
+   <p><b>ANMÄRKNING</p>
+   <p>Den sista anteckningen som läggs till i ett objekt med API visas inte i en rapport i Workfront. Fältet [!DNL Last Note] är tomt om den senaste uppdateringen för ett objekt lades till med API:t. </p>
+
+</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Last Viewed By]</td> 
@@ -2106,7 +2110,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Scenario] (i [!DNL Workfront Fusion]) </td> 
-   <td> <p>Ett scenario består av en serie steg (moduler) som anger hur data ska överföras och transformeras mellan program/tjänster.</p> <p>Mer information om scenarier i [!DNL Workfront Fusion] finns i <a href="https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] scenarioöversikt </a>.</p> </td> 
+   <td> <p>Ett scenario består av en serie steg (moduler) som anger hur data ska överföras och transformeras mellan program/tjänster.</p> <p>Mer information om scenarier i [!DNL Workfront Fusion] finns i <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] scenarioöversikt </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scenario] (i [!DNL Workfront Scenario Planner]) </td> 

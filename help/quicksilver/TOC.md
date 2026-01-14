@@ -3,7 +3,7 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: a4deecdf5d721115762d7f93cb4ff8c5ce5da7da
+source-git-commit: d836ebad6de4eb0d7a8b2b888e084aeb1f7934ee
 workflow-type: tm+mt
 source-wordcount: '13662'
 ht-degree: 0%
@@ -2104,7 +2104,7 @@ ht-degree: 0%
       * [Arkitektur: artikelindex](planning/architecture/architecture-information.md)
       * [Arbetsytor - översikt](planning/architecture/workspaces-overview.md)
       * [Skapa arbetsytor](planning/architecture/create-workspaces.md)
-      * [Översikt över hierarkier och vägbeskrivningar](planning/architecture/hierarchy-and-breadcrumb-overview.md)
+      * [Översikt över hierarki och vägbeskrivningar](planning/architecture/hierarchy-and-breadcrumb-overview.md)
       * [Skapa arbetsytehierarkier](planning/architecture/create-workspace-hierarchies.md)
       * [Översikt över posttyper](planning/architecture/overview-of-record-types.md)
       * [Skapa posttyper](planning/architecture/create-record-types.md)

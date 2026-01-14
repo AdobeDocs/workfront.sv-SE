@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
+source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
 workflow-type: tm+mt
-source-wordcount: '2853'
+source-wordcount: '2877'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ När anslutningsfälten har skapats kan du koppla enskilda poster mellan de två
 
 >[!NOTE]
 >
-><span class="preview">Du kan ha upp till 30 anslutningsfält för en posttyp.</span>
+>Du kan ha upp till 30 anslutningsfält för en posttyp.
 
 I den här artikeln beskrivs hur du kan koppla två typer av Workfront Planning-poster, eller en Workfront Planning-posttyp, till ett objekt från ett annat program.
 
@@ -89,7 +89,7 @@ Ett exempel på hur du ansluter posttyper och poster finns i [Exempel på att an
    <ul><li><p>En Adobe Experience Manager Assets-licens och en integrering mellan AEM Assets och Workfront för att koppla AEM-material till posttyperna Planning.</p>
    <p>Mer information finns i <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront för Experience Manager Assets och Assets Essentials: artikelindex</a>. </p></li>
    <li><p> En Adobe GenStudio for Performance Marketing-licens för att koppla posttyper till GenStudio Brands</p>
-   <p>Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/get-started">Kom igång med Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Kom igång med Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -204,7 +204,7 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
      >[!TIP]
      >
-     >Inställningen **Tillåt anslutning till den här posttypen i andra arbetsytor** måste aktiveras för en posttyp i **Avancerade inställningar** <span class="preview"> eller fliken **Inställningar för arbetsyta**</span> i rutan **Redigera posttyp** för att en posttyp ska kunna nås från andra arbetsytor. Om det inte finns några posttyper som har konfigurerats för att ansluta från andra arbetsytor visas inte arbetsyteavsnittet.
+     >Inställningen **Tillåt anslutning till den här posttypen i andra arbetsytor** måste vara aktiverad för en posttyp i **Avancerade inställningar** eller fliken **Inställningar för arbetsyta** i rutan **Redigera posttyp** för att en posttyp ska kunna nås från andra arbetsytor. Om det inte finns några posttyper som har konfigurerats för att ansluta från andra arbetsytor visas inte arbetsyteavsnittet.
      >
      >Mer information finns i [Konfigurera funktioner för arbetsytan mellan arbetsytor för posttyper](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). <!--update screen shot at production-->
      >
@@ -252,9 +252,9 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
    >[!TIP]
    >
-   >* Förutom <span class="preview">gränsen på 30 anslutningsfält för en posttyp</span> finns det en gräns på 500 fält för en posttyp. Vi rekommenderar att den här inställningen inte används, särskilt för taxonomiska posttyper, för att undvika att den här gränsen uppnås.
+   >* Förutom gränsen på 30 anslutningsfält för en posttyp finns det en gräns på 500 fält för en posttyp. Vi rekommenderar att den här inställningen inte används, särskilt för taxonomiska posttyper, för att undvika att den här gränsen uppnås.
    >
-   >* <span class="preview">En förutsättning för att du ska kunna skapa hierarkier är att du väljer **Skapa motsvarande fält för den länkade posttypen**.</span>
+   >* Om du väljer **Skapa motsvarande fält för den länkade posttypen** måste du skapa hierarkier.
 
 1. (Villkorligt) Om du har aktiverat **Skapa motsvarande fält för den länkade posttypen** kan du välja bland följande alternativ för att ange hur många poster som användare kan ansluta till och från:
 
@@ -279,7 +279,7 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
    >[!NOTE]
    >
-   >Workfront-administratören kan mappa Workfront Planning-fält till Experience Manager Assets-fält via metadatamappningen i Workfront. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >Workfront-administratören kan mappa Workfront Planning-fält till Experience Manager Assets-fält via metadatamappningen i Workfront. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Villkorligt) När du väljer att ansluta till Experience Manager Assets, till en post av typen Workfront Planning eller till ett GenStudio-märke, väljer du något av följande alternativ i området **Postutseende**:
@@ -309,6 +309,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
    >* Information om datumfält i Workfront-objekt visas i 24-timmarsformat i Workfront Planning, oavsett hur den visas i Workfront.
    >
    >   Om till exempel ett projekts planerade startdatum visas som 3:00 PM i Workfront, visas det som 15:00 i Workfront Planning i ett importerat uppslagsfält.
+   >* I produktionsmiljön kan du inte lägga till personfält som sökfält. <span class="preview">Du kan lägga till personfält som sökfält i förhandsvisningsmiljön.</span>
+   >
 
 1. Klicka på **Skapa**.
 
@@ -386,7 +388,7 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
    >* **UNIQUE**: $100 000
    >
 
-1. (Valfritt) Använd ikonen **sök** ![Sök &#x200B;](assets/search-icon.png) för att söka efter ett fält.
+1. (Valfritt) Använd ikonen **sök** ![Sök ](assets/search-icon.png) för att söka efter ett fält.
 
 1. Klicka på **Lägg till fält** för att spara ändringarna.
 
@@ -407,7 +409,7 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
      >[!TIP]
      >
      > Ett länkat postfält skapas inte för objekt från ett annat program i respektive program.
-     >Vi rekommenderar att du inte skapar länkar till taxonomiska posttyper eftersom det finns en gräns på 500 fält, <span class="preview">, utöver gränsen på 30 anslutna fält </span> för varje posttyp.
+     >Vi rekommenderar att du inte skapar länkar till taxonomiska posttyper, eftersom det finns en gräns på 500 fält, utöver gränsen på 30 anslutna fält för varje posttyp.
 
    <!--see the span preview text in the TIP above; it might not show up in green-->
 

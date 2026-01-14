@@ -6,9 +6,9 @@ description: Ändra användartilldelningar för flera utgåvor i en lista
 author: Lisa
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 8f7249e08268a8cb784d4c0ecc8c534542fa80cf
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Allmän information om hur du tilldelar problem finns i [Översikt över hur du 
   </tr> 
   <tr> 
    <td>Adobe Workfront-licens</td> 
-   <td> <p>Standard</p>
+   <td> <p>Medarbetare eller högre</p>
    <p>Begäran eller senare</p> </td> 
   </tr> 
   <tr> 
@@ -103,7 +103,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
       Listan över problem filtrerar automatiskt efter filtervillkoren.
    1. (Valfritt) Klicka på **Spara som ny** och sedan på **Spara**.
 
-1. Markera de ärenden som du vill ändra uppdrag för och klicka sedan på ikonen **Redigera** ![Redigera &#x200B;](assets/qs-edit-icon.png) .
+1. Markera de ärenden som du vill ändra uppdrag för och klicka sedan på ikonen **Redigera** ![Redigera ](assets/qs-edit-icon.png) .
 
    **Redigera problem** visas. Antalet markerade objekt visas i det övre vänstra hörnet på sidan.
 

@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
+source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 2%
+source-wordcount: '464'
+ht-degree: 3%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 2%
 
 # Översikt över begränsningar för Adobe Workfront Planning-objekt
 
-<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna av Production är samma funktioner även tillgängliga i produktionsmiljön för kunder som aktiverat snabba releaser.</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases.</span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -49,13 +49,13 @@ I följande tabell visas gränserna för hur många objekt du kan skapa i Workfr
 | Antal rader som du kan importera i en CSV- eller Excel-fil för att skapa posttyper | 25 000 |
 | Antal kolumner som du kan importera i en CSV- eller Excel-fil för att skapa posttyper | 500 |
 | Antal formelfält för en posttyp | 20 |
-| <span class="preview">Antal anslutningsfält för en posttyp</span> | <span class="preview">30</span> |
+| Antal anslutningsfält för en posttyp | 30 |
 | Antal tecken i ett formelfältuttryck | 50 000 |
 | Antal enheter (användare, roller, team, företag, grupper) som du kan dela ett Planning-objekt med | 100 |
-| <span class="preview">Antal posttyper i en hierarki</span> | 4 |
-| <span class="preview">Antal hierarkier på en arbetsyta</span> | 5 |
-| <span class="preview">Antal poster från en överordnad posttyp kopplad till en post från en underordnad posttyp, i en hierarki</span> | 10 |
-| Antal poster som är anslutna till en post i en flervalsanslutningstyp, <span class="preview">utan en hierarki konfigurerad mellan posterna</span> | 500 |
+| Antal posttyper i en hierarki | 4 |
+| Antal hierarkier på en arbetsyta | 5 |
+| Antal poster från en överordnad posttyp kopplad till en post från en underordnad posttyp, i en hierarki | 10 |
+| Antal poster som är kopplade till en post i en flervalsanslutningstyp, utan en hierarki konfigurerad mellan posterna | 500 |
 
 *Vi rekommenderar att du inte har för många arbetsytor eftersom de kan bli svåra att hantera och arbetsflödena kan vara för fragmenterade.
 

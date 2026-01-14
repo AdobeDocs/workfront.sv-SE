@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
+source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
@@ -39,14 +39,9 @@ I artiklarna i följande avsnitt beskrivs hur du kan konfigurera arbetsytorna i 
 * [Ta bort arbetsytor](/help/quicksilver/planning/architecture/delete-workspaces.md)
 * [Redigera arbetsytor](/help/quicksilver/planning/architecture/edit-workspaces.md)
 * [Ta bort posttyper](/help/quicksilver/planning/architecture/delete-record-types.md)
-
-<div class="preview">
-
 * [Posttyper för flera arbetsytor - översikt](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 * [Konfigurera funktioner för olika arbetsytor för posttyper](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
 * [Lägga till befintliga posttyper från en annan arbetsyta](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
 * [Konfigurera inställningsområdet för en posttyp](/help/quicksilver/planning/architecture/configure-record-type-settings.md)
-* [Hierarkier och vägbeskrivningar](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)
+* [Översikt över hierarki och vägbeskrivningar](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)
 * [Skapa arbetsytehierarkier](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)
-
-</div>
