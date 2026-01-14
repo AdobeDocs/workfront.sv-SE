@@ -2,14 +2,14 @@
 product-area: documents
 navigation-topic: approvals
 title: Skapa AI-granskare
-description: När du har konfigurerat minst ett varumärke i GenStudio Foundation kan du skapa flera AI-granskare, som du sedan kan tilldela till godkännandemallar och individuella gransknings- och godkännandeförfrågningar.
+description: När du har konfigurerat minst ett varumärke i Workfront kan du skapa flera AI-granskare, som du sedan kan tilldela till godkännandemallar och individuella gransknings- och godkännandeförfrågningar.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
-source-git-commit: 7572dd64a7f23d6f8dcae374a327d67f2d6738c5
+source-git-commit: de5f5d709ace99b7794ff2eaeb4ee7849cff8182
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,8 @@ ht-degree: 0%
 >
 >Den här funktionen är för närvarande i betaversion.
 
-När du har konfigurerat minst ett varumärke i GenStudio Foundation kan du skapa flera AI-granskare, som du sedan kan tilldela till godkännandemallar och individuella gransknings- och godkännandeförfrågningar.
+När du har konfigurerat minst ett varumärke i Workfront kan du skapa flera AI-granskare, som du sedan kan tilldela till godkännandemallar och individuella gransknings- och godkännandeförfrågningar.
 
->[!NOTE]
->
->AI Reviewer är inte avsedd som beslutsfattare i arbetsflödet för granskning och godkännande. Det ger bara poäng och rekommendationer för att anpassa resursen efter de angivna varumärkeskraven.
 
 ## Åtkomstkrav
 
@@ -55,11 +52,15 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Förutsättningar
 
-Innan du börjar måste du ange riktlinjer för bildvarumärken i GenStudio Foundation.
-
-Mer information om riktlinjer för bildvarumärken finns i [Kom igång med Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Innan du börjar måste du ange riktlinjer för bildvarumärken i Workfront. Mer information finns i [Konfigurera varumärken för AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
 ## Lägga till en AI-granskare
+
+>[!NOTE]
+>
+>AI Reviewer är inte avsedd som beslutsfattare i arbetsflödet för granskning och godkännande. Det ger bara poäng och rekommendationer för att anpassa resursen efter de angivna varumärkeskraven.
+
+Så här lägger du till en AI Reviewer:
 
 {{step-1-to-setup}}
 

@@ -7,18 +7,19 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: 0a6e94c285cc5aaea97d840d644dc9b3ceea305e
+source-git-commit: cf1d4bfeedb94e8607dad47177d804169254ee85
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
 
 # Kom igång med Workfront AI Reviewer
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Den här funktionen är för närvarande i betaversion.
+
 
 Med Workfront AI Reviewer kan ni öka innehållets hastighet och optimera varumärkesefterlevnaden i gransknings- och godkännandearbetsflödet. Du kan lägga till AI-granskare i godkännandemallar eller enskilda gransknings- och godkännandebegäranden i Workfront.
 
@@ -28,12 +29,11 @@ Om du vill konfigurera AI-granskare i Workfront måste du vara systemadministrat
 
 Alla användare kan lägga till AI Reviewer i en gransknings- och godkännandebegäran.
 
-
 ## Förutsättningar
 
 * Din organisation måste ha migrerat till Adobe IMS (Identity Management System).
 * Enhetliga godkännanden måste vara aktiverat för din Workfront-instans.
-* Din organisation måste ha GenStudio Foundation.
+  <!--* Your organization must have GenStudio Foundation.-->
 * Adobe måste ha ett signerat Adobe Gen AI-avtal till hands.
 Mer information om hur du signerar avtalet finns i [Signera Adobe Gen AI-avtalet](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
@@ -60,12 +60,14 @@ Om du överför en filtyp som inte stöds visas inte alternativet AI Reviewer n�
 
 ## Ställ in varumärkesriktlinjer
 
-Workfront AI Reviewer använder de varumärkesriktlinjer som angetts i Genstudio Foundation när du granskar ditt innehåll. För närvarande kan du bara ange varumärkesriktlinjer för bilder. Mer information finns i [Kom igång med Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Workfront AI Reviewer använder varumärkesriktlinjerna när du granskar ditt innehåll. Workfront-administratörer kan ange riktlinjer för varumärken under Konfigurera i Workfront. &lt;!—Varumärken som skapats i GenStudio Foundation finns också i Workfront.
+
+Mer information finns i [Konfigurera varumärken för AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
 
 ## Skapa AI-granskare
 
-När minst ett varumärke har konfigurerats i GenStudio Foundation kan Workfront-administratörer börja skapa AI-granskare under Konfigurera. Dessa AI-granskare kan sedan tilldelas till godkännandemallar och individuella gransknings- och godkännandebegäranden. Just nu kan AI-granskare bara granska bildernas varumärkesriktlinjer.
+När minst ett varumärke har konfigurerats kan Workfront-administratörer börja skapa AI-granskare under Konfigurera. Dessa AI-granskare kan sedan tilldelas till godkännandemallar och individuella gransknings- och godkännandebegäranden. Just nu kan AI-granskare bara granska bildernas varumärkesriktlinjer.
 
 Mer information finns i [Skapa AI-granskare](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md).
 
@@ -110,6 +112,6 @@ Mer information om hur du visar bakgrundsmusik och feedback finns i [Visa bakgru
 ![AI-granskares feedback](assets/ai-reviewer-feedback.png)
 
 
-## Videogenomgång
+<!--## Video Walkthrough
 
->[!VIDEO](https://video.tv.adobe.com/v/3470847/)
+>[!VIDEO](https://video.tv.adobe.com/v/3470847/)-->

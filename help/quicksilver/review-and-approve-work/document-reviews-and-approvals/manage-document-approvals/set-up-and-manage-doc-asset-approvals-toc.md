@@ -8,9 +8,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 242910b9-f251-49c3-a6ad-de3039bdd2f5
-source-git-commit: 9cdd3f9b46b36728a8825713fe50f3f2fe1ef90b
+source-git-commit: 582c799fe43f0a7e7dbd4fec680d5873e0e193e7
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 
 Det här avsnittet innehåller följande artiklar:
 
+* [Skapa AI-granskare](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
+* [Konfigurera varumärken för AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
 * [Skapa en begäran om dokumentgranskning eller godkännande](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
 * [Lägga till ytterligare granskare eller godkännare till en resurs eller ett dokument](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
 * [Ta bort godkännare eller granskare från en resurs eller ett dokument](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)

@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
+source-git-commit: a4deecdf5d721115762d7f93cb4ff8c5ce5da7da
 workflow-type: tm+mt
-source-wordcount: '13655'
+source-wordcount: '13662'
 ht-degree: 0%
 
 ---
@@ -1851,6 +1851,7 @@ ht-degree: 0%
       * Ställ in och hantera godkännande av tillgångar och dokument {#manage-asset-review-and-approval}
          * [Ställa in och hantera enhetliga godkännanden: artikelindex](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [Skapa AI-granskare](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
+         * [Konfigurera varumärken för AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
          * [Skapa en begäran om dokumentgranskning eller godkännande](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [Lägga till ytterligare granskare eller godkännare till en resurs eller ett dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [Ta bort godkännare eller granskare från en resurs eller ett dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
