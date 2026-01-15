@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: f23414b3c4810e47fa084d303e640a289de1f98d
+source-git-commit: 45bc1820e4f6416e3d47139bbcf1a2156c5900dc
 workflow-type: tm+mt
 source-wordcount: '6941'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 ---
 
 # Skapa ett anpassat formulär
-
-{{preview-fast-release-general}}
 
 <!-- Audited: 6/2025 -->
 
@@ -63,7 +61,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
    ![Välj objekttyper](assets/new-custom-form-select-objects.png)
 
 1. Skriv den anpassade formulärtiteln i området **Lägg till ett formulärnamn**.
-1. (Valfritt) Om du vill lägga till fler objekttyper i formuläret så att det kan kopplas till fler objekt klickar du på ikonen **Lägg till** ![Lägg till objekt &#x200B;](assets/add-objects-icon.png) bredvid **Objekttyper** och väljer sedan önskad typ på menyn som visas. Du kan upprepa detta om du vill lägga till så många objekttyper som du vill.
+1. (Valfritt) Om du vill lägga till fler objekttyper i formuläret så att det kan kopplas till fler objekt klickar du på ikonen **Lägg till** ![Lägg till objekt ](assets/add-objects-icon.png) bredvid **Objekttyper** och väljer sedan önskad typ på menyn som visas. Du kan upprepa detta om du vill lägga till så många objekttyper som du vill.
 
    När du har lagt till mer än ett objekt i formuläret kan du klicka på X för en objekttyp för att ta bort det från formuläret.
 
@@ -263,13 +261,13 @@ Lägga till ett textfält:
     <td><ul><li>Beskrivning</li></ul></td>
     </tr>
     <tr>
-     <td><span class="preview">Aktiv</span></td>
-     <td><span class="preview"><p>Det här alternativet är aktiverat som standard.<p><p>När du anger ett fält som Inaktivt tas det inte med i rapporter, filter och vyer, och är inte längre tillgängligt i det anpassade formulärfältbiblioteket.</p></span></td>
-     <td><ul><span class="preview">
+     <td>Aktiv</td>
+     <td><p>Det här alternativet är aktiverat som standard.<p><p>När du anger ett fält som Inaktivt tas det inte med i rapporter, filter och vyer, och är inte längre tillgängligt i det anpassade formulärfältbiblioteket.</p></td>
+     <td><ul>
      <li>Enkelradig text</li>
      <li>Stycke</li>
      <li>Text med formatering</li>
-     <li>Beskrivning</li></span></ul></td>
+     <li>Beskrivning</li></ul></td>
     </tr>
     <tr> 
       <td role="rowheader">Gör ett obligatoriskt fält</td>
@@ -421,13 +419,13 @@ Så här lägger du till alternativknappar, kryssrutegrupper och listrutor:
     </td>
      </tr>
     <tr>
-     <td><span class="preview">Aktiv</span></td>
-     <td><span class="preview"><p>Det här alternativet är aktiverat som standard.<p><p>När du anger ett fält som Inaktivt tas det inte med i rapporter, filter och vyer, och är inte längre tillgängligt i det anpassade formulärfältbiblioteket.</p></span></td>
-     <td><ul><span class="preview">
+     <td>Aktiv</td>
+     <td><p>Det här alternativet är aktiverat som standard.<p><p>När du anger ett fält som Inaktivt tas det inte med i rapporter, filter och vyer, och är inte längre tillgängligt i det anpassade formulärfältbiblioteket.</p></td>
+     <td><ul>
      <li>Alternativknappar</li>
      <li>Kryssrutegrupp</li>
      <li>Listruta med ett val</li>
-     <li>Listruta för flera val</li></span></ul></td>
+     <li>Listruta för flera val</li></ul></td>
     </tr>
     <tr> 
     <td role="rowheader">Gör ett obligatoriskt fält</td> 
@@ -562,11 +560,11 @@ Så här lägger du till texthuvud- och datumfält:
       </td>
      </tr>
      <tr>
-      <td><span class="preview">Aktiv</span></td>
-      <td><span class="preview"><p>Det här alternativet är aktiverat som standard.<p><p>När du anger ett fält som Inaktivt tas det inte med i rapporter, filter och vyer, och är inte längre tillgängligt i det anpassade formulärfältbiblioteket.</p></span></td>
-      <td><ul><span class="preview">
+      <td>Aktiv</td>
+      <td><p>Det här alternativet är aktiverat som standard.<p><p>När du anger ett fält som Inaktivt tas det inte med i rapporter, filter och vyer, och är inte längre tillgängligt i det anpassade formulärfältbiblioteket.</p></td>
+      <td><ul>
       <li>Typeahead</li>
-      <li>Datum</li></span></ul></td>
+      <li>Datum</li></ul></td>
      </tr>
      <tr> 
       <td role="rowheader">Gör ett obligatoriskt fält</td> 
@@ -655,12 +653,12 @@ Så här lägger du till en extern sökning:
       <td role="rowheader">JSON-sökväg</td>
       <td><p>Skriv eller klistra in JSON-sökvägen för API:t.</p> <p>Med det här alternativet kan data extraheras från den JSON som returneras av API-URL:en. Det är ett sätt att välja vilka värden från JSON som ska visas i listrutan.</p><p>Om din API-URL till exempel returnerar JSON i följande format kan du använda "$.data[*].name" för att välja USA och Kanada som nedrullningsbara alternativ:</br>
       <pre>
-      &lbrace;
-       data: &lbrace;
+      {
+       data: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Mer information om JSON-sökvägen och hur du ser till att du skriver rätt JSON-sökväg finns på <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -674,8 +672,8 @@ Så här lägger du till en extern sökning:
       <td><p>Välj det här alternativet om du vill tillåta användaren att välja mer än ett värde i listrutan.</p></td>
      </tr>
      <tr>
-      <td><span class="preview">Aktiv</span></td>
-      <td><span class="preview"><p>Det här alternativet är aktiverat som standard.<p><p>När du anger ett fält som Inaktivt tas det inte med i rapporter, filter och vyer, och är inte längre tillgängligt i det anpassade formulärfältbiblioteket.</p></span></td>
+      <td>Aktiv</td>
+      <td><p>Det här alternativet är aktiverat som standard.<p><p>När du anger ett fält som Inaktivt tas det inte med i rapporter, filter och vyer, och är inte längre tillgängligt i det anpassade formulärfältbiblioteket.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Gör ett obligatoriskt fält</td>
@@ -767,8 +765,8 @@ Så här lägger du till bilder, PDF-filer eller videofilmer:
       <td> <p>Skriv in ytterligare information om widgeten. När användarna fyller i det anpassade formuläret kan de föra musen över frågeteckenikonen för att visa ett verktygstips som innehåller den information du skriver här.</p> </td> 
      </tr> 
      <tr>
-      <td><span class="preview">Aktiv</span></td>
-      <td><span class="preview"><p>Det här alternativet är aktiverat som standard.<p><p>När du anger ett fält som Inaktivt tas det inte med i rapporter, filter och vyer, och är inte längre tillgängligt i det anpassade formulärfältbiblioteket.</p></span></td>
+      <td>Aktiv</td>
+      <td><p>Det här alternativet är aktiverat som standard.<p><p>När du anger ett fält som Inaktivt tas det inte med i rapporter, filter och vyer, och är inte längre tillgängligt i det anpassade formulärfältbiblioteket.</p></td>
      </tr>
     </tbody> 
    </table>
@@ -904,8 +902,8 @@ I den här tabellen visas de tillgängliga inbyggda fälten för specifika Workf
       <td>
      </tr>
      <tr>
-      <td><span class="preview">Aktiv</span></td>
-      <td><span class="preview"><p>Det här alternativet är aktiverat som standard.<p><p>När du anger ett fält som Inaktivt tas det inte med i rapporter, filter och vyer, och är inte längre tillgängligt i det anpassade formulärfältbiblioteket.</p></span></td>
+      <td>Aktiv</td>
+      <td><p>Det här alternativet är aktiverat som standard.<p><p>När du anger ett fält som Inaktivt tas det inte med i rapporter, filter och vyer, och är inte längre tillgängligt i det anpassade formulärfältbiblioteket.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Gör ett obligatoriskt fält</td>
@@ -961,8 +959,8 @@ Lägga till en Adobe XD-fil:
     <img src="assets/instructions-form-designer.png"></p> </td> 
      </tr>
      <tr>
-      <td><span class="preview">Aktiv</span></td>
-      <td><span class="preview"><p>Det här alternativet är aktiverat som standard.<p><p>När du anger ett fält som Inaktivt tas det inte med i rapporter, filter och vyer, och är inte längre tillgängligt i det anpassade formulärfältbiblioteket.</p></span></td>
+      <td>Aktiv</td>
+      <td><p>Det här alternativet är aktiverat som standard.<p><p>När du anger ett fält som Inaktivt tas det inte med i rapporter, filter och vyer, och är inte längre tillgängligt i det anpassade formulärfältbiblioteket.</p></td>
      </tr>
     </tbody> 
    </table>
@@ -1057,8 +1055,8 @@ Så här lägger du till ett planeringsanslutningsfält:
     <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
      </tr>
      <tr>
-      <td><span class="preview">Aktiv</span></td>
-      <td><span class="preview"><p>Det här alternativet är aktiverat som standard.<p><p>När du anger ett fält som Inaktivt tas det inte med i rapporter, filter och vyer, och är inte längre tillgängligt i det anpassade formulärfältbiblioteket.</p></span></td>
+      <td>Aktiv</td>
+      <td><p>Det här alternativet är aktiverat som standard.<p><p>När du anger ett fält som Inaktivt tas det inte med i rapporter, filter och vyer, och är inte längre tillgängligt i det anpassade formulärfältbiblioteket.</p></td>
      </tr>
       </tbody> 
    </table>

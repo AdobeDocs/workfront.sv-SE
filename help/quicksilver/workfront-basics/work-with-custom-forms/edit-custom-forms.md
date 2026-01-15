@@ -7,7 +7,7 @@ description: Du kan redigera information i ett anpassat formulär när formulär
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: 6dce5e15a41587cd9febf82ffc0a62d3b7e121d1
 workflow-type: tm+mt
 source-wordcount: '1207'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # Redigera information i anpassade formulärfält
-
-{{preview-fast-release-general}}
 
 <!--Audited: 10/2025-->
 
@@ -122,7 +120,7 @@ Mer information om vilka objekt som kan ha ett anpassat formulär finns i [Över
 
    >[!NOTE]
    >
-   ><span class="preview">Fält som tillåter flera markeringar kan begränsa hur många alternativ du kan välja. Kryssrutor och flervalslistrutor är begränsade till 5 000 markeringar.</span>
+   >Fält som tillåter flera markeringar kan begränsa hur många alternativ du kan välja. Kryssrutor och flervalslistrutor är begränsade till 5 000 markeringar.
 
    Mer information om alla fälttyper finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 

@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 2f7b5c9d3a934708f3128ed9e4efa76b12619913
+source-git-commit: 45bc1820e4f6416e3d47139bbcf1a2156c5900dc
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%
@@ -17,13 +17,11 @@ ht-degree: 0%
 
 # Lägga till eller redigera ett anpassat fält, en avsnittsbrytning eller en widget
 
-{{preview-fast-release-general}}
-
 Du kan lägga till ett nytt anpassat fält eller en ny widget direkt från fältområdet i Workfront, utan att öppna ett anpassat formulär för att skapa fältet.
 
 Du kan också redigera egenskaperna för ett anpassat fält, en avsnittsbrytning eller en widget som används i anpassade formulär. Dessa innehåller objektets etikett, namn, instruktioner och så vidare.
 
-<span class="preview">Om du anger ett anpassat fält som Inaktivt utesluts det från rapporter, filter och vyer, och fältet är inte längre tillgängligt i det anpassade formulärfältbiblioteket. Alla nya fält är som standard inställda på Aktiv. </span>
+Om du anger ett anpassat fält som Inaktivt utesluts det från rapporter, filter och vyer, och fältet är inte längre tillgängligt i det anpassade formulärfältbiblioteket. Alla nya fält är som standard inställda på Aktiv.
 
 >[!NOTE]
 >
