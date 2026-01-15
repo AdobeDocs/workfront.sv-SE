@@ -6,16 +6,14 @@ description: Du kan använda ett filter på en Canvas-kontrollpanel när den har
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
-source-git-commit: 39a8d670baa19aa37e29b0312e6c9a296569f44c
+source-git-commit: c6458d777726092d74e8b031f5c14dfd58710e11
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '989'
 ht-degree: 0%
 
 ---
 
 # Filtrera en arbetsytans kontrollpanel
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön för alla kunder.</span>
 
 >[!IMPORTANT]
 >
@@ -178,9 +176,8 @@ Alla användare som har tillgång till en kontrollpanel kan lägga till en kontr
 1. I avsnittet **Visa poster där..** väljer du ett villkor för en eller alla uppmaningar som visas. Uppmaningen tillämpas och en **kontrollpanelsfilter**-tagg visas i hörnet av rapportwidgeten.
    ![Välj villkor](assets/prompts-list.png)
 
-1. Klicka på ikonen **Stäng** ![Stäng &#x200B;](assets/close-icon.png) i det övre högra hörnet om du vill dölja panelen.
+1. Klicka på ikonen **Stäng** ![Stäng ](assets/close-icon.png) i det övre högra hörnet om du vill dölja panelen.
 
-<span class="preview">
 
 ## Filtrera en instrumentpanel efter valutatyp
 
@@ -196,5 +193,3 @@ Om du vill ändra valutatypen för instrumentpanelen
 1. Välj önskad valutatyp i listan.
 
    ![listrutan Ändra valuta](assets/filter-by-currency.png)
-
-</span>

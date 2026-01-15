@@ -6,7 +6,7 @@ description: Använda Canvas-paneler
 author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-source-git-commit: f49197b1d49437cd3b1b981d093ae2a357d13072
+source-git-commit: 41e283ceccd0a95daae005d998a2ed8050a1ab0b
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
@@ -72,7 +72,14 @@ Du kan tillfälligt anpassa tabellrapporter på kontrollpaneler. De här ändrin
    >
    >De här ändringarna gäller endast för den aktuella sessionen och påverkar inte den ursprungliga rapportkonfigurationen. Om du vill göra dessa ändringar permanenta måste du redigera rapporten.
 
-<!--### Use drilldowns
+
+<!--
+
+### Quick Search 
+
+### Filter
+### Use drilldowns
+
 
 You can use drilldowns in Canvas Dashboards to sort and group data within reports.
 

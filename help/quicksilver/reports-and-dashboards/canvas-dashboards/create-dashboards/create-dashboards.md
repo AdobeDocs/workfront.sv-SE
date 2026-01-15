@@ -6,9 +6,9 @@ description: Med Canvas Dashboards kan du skapa och lägga till rapporter på en
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: bd31e426-7c4a-4ff8-9432-c95dc8ee3743
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: 507cb64eb21c2798cdafe184794c0d9ed7ebc0c6
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Delar av funktionen kanske inte är fullständiga eller fungerar som de ska i det här skedet. Skicka feedback om din upplevelse genom att följa instruktionerna i avsnittet [Ge feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) i översiktsartikeln i Canvas Dashboards.<br>
->&#x200B;>Om du har synpunkter på ett eventuellt fel eller tekniska problem ber vi dig skicka ett supportärende till Workfront Support. Mer information finns i [Kontakta kundsupport](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Observera att betaversionen inte är tillgänglig för följande molnleverantörer:
+>Om du har synpunkter på ett eventuellt fel eller tekniska problem ber vi dig skicka ett supportärende till Workfront Support. Mer information finns i [Kontakta kundsupport](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Observera att betaversionen inte är tillgänglig för följande molnleverantörer:
 >
 >* Använd din egen nyckel för Amazon Web Services
 >* Azure
@@ -76,7 +76,29 @@ Kontrollpanelerna på arbetsytan erbjuder en mängd olika alternativ och konfigu
 
 1. Klicka på **Ny instrumentpanel** i det övre högra hörnet.
 
-1. I rutan **Skapa instrumentpanel** anger du instrumentpanelens **namn** och **beskrivning**.
+1. I rutan **Skapa instrumentpanel**
+
+1. Ange följande:
+
+   <table style="table-layout:auto">
+    <col>
+    <col>
+    <tbody>
+     <tr>
+      <td role="rowheader"><strong>Namn</strong></td>
+      <td><p>Ange ett namn för instrumentpanelen. Vi rekommenderar att du endast använder UTF-8-tecken för att undvika kompatibilitetsproblem.</p></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><strong>Beskrivning (valfritt)</strong></td>
+      <td>Ange en beskrivning av instrumentpanelen.</td>
+     </tr>
+      <tr>
+      <td role="rowheader"><strong>Valuta</strong></td>
+      <td>Välj standardvalutatypen för instrumentpanelen. <br>
+      <br> Användare kan växla mellan olika valutatyper när de filtrerar kontrollpanelen. Mer information finns i <a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">Filtrera en instrumentpanel efter valutatyp</a>.</td>
+     </tr>
+    </tbody>
+   </table>
 
 1. Klicka på **Skapa**. Rutan **Lägg till rapport** öppnas. Här kan du skapa en ny rapport eller lägga till en befintlig rapport på kontrollpanelen.
 
