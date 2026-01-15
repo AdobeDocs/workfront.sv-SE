@@ -4,9 +4,9 @@ description: Förbättringar av första kvartalet 2026-begäranden
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 3fe7e6f530e15ebdb4a658de89b77c1bf39671fe
+source-git-commit: d8f563bdbde76ae86b5e130a07d2dc66c8d2e034
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '900'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Den här länken är bara tillgänglig för planeringsbegäranden, i de fall dä
 
 Tidigare innehöll den här kolumnen bara objektets namn och inte dess länk.
 
-Mer information om hur du hittar de här länkarna finns i Instruktioner om hur du lägger till kolumner, se:
+Mer information om hur du hittar de här länkarna finns i:
 
 * [Sök efter skickade begäranden](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)
 * [Använda widgeten Mina förfrågningar](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)

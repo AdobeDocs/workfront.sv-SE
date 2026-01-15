@@ -6,16 +6,14 @@ description: Du kan skicka begäranden i widgeten Mina förfrågningar. Du kan o
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 9e4f67b4f5b03e1fc4f8e1a9ab00cc42b9796325
+source-git-commit: cdb1c365d8fc8f90a8a3488b3c641c97457c8c8d
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '968'
 ht-degree: 0%
 
 ---
 
 # Använda widgeten Mina förfrågningar
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 >[!IMPORTANT]
 >
@@ -70,15 +68,11 @@ Du kan skapa en begäran direkt från widgeten Mina förfrågningar.
 
 Instruktioner finns i [Skapa en begäran](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request) i artikeln Skapa arbetsobjekt och projekt från Hem-området.
 
-<div class="preview">
-
 ## Kopiera en begäran
 
 Du kan kopiera en begäran i widgeten Mina förfrågningar, redigera den och skicka den som en ny begäran.
 
 Instruktioner finns i [Kopiera och skicka begäranden i den nya begärandeupplevelsen](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience) i artikeln Kopiera och skicka.
-
-</div>
 
 ## Filterförfrågningar
 
@@ -98,7 +92,7 @@ Så här konfigurerar du filtret i widgeten Mina förfrågningar:
    * Status
    * Anges av
 
-   <span class="preview">I förhandsvisningsmiljön kan du även filtrera efter anpassade fält som har lagts till som en kolumn      till vyn.</span>
+   Du kan också filtrera efter anpassade fält som har lagts till som en kolumn i vyn.
 
 1. I nästa fält väljer du den operator som du vill använda för det här filtervillkoret. Vilka operatorer som är tillgängliga beror på det valda fältet.
 1. (Villkorligt) Om ett fält visas till höger om operatorn väljer du det värde som du vill filtrera efter.
@@ -133,11 +127,11 @@ Så här justerar du kolumnerna på widgeten Mina förfrågningar:
 1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
 1. (Villkorligt) Om du vill lägga till widgeten **Mina förfrågningar** på hemskärmen. Klicka på **Anpassa** och sök efter **Mina förfrågningar**.
 1. Klicka på **Kolumner** i widgeten Mina förfrågningar.
-1. (Valfritt) Om du vill ändra ordning på kolumnerna klickar du på draghandtaget ![drar &#x200B;](assets/drag-handle.png) i den kolumn som du vill flytta och drar den till önskad plats. Kolumnen högst upp i listan visas i widgeten Mina förfrågningar som kolumnen längst till vänster.
+1. (Valfritt) Om du vill ändra ordning på kolumnerna klickar du på draghandtaget ![drar ](assets/drag-handle.png) i den kolumn som du vill flytta och drar den till önskad plats. Kolumnen högst upp i listan visas i widgeten Mina förfrågningar som kolumnen längst till vänster.
 1. (Valfritt) Använd växlingsknappen för att kontrollera om en kolumn visas i widgeten Mina förfrågningar.
-1. <span class="preview">Om du vill lägga till ett anpassat fält som en kolumn klickar du på ikonen **Lägg till kolumn** ![Lägg till kolumn](assets/add-column.png) till höger på skärmen och sedan på plusikonen bredvid det anpassade formulärfältet som du vill lägga till som en kolumn i widgeten.</span>
+1. Om du vill lägga till ett anpassat fält som en kolumn klickar du på ikonen **Lägg till kolumn** ![Lägg till kolumn](assets/add-column.png) till höger på skärmen och sedan på plusikonen bredvid det anpassade formulärfältet som du vill lägga till som en kolumn i widgeten.
 
-   <span class="preview">Anpassade fält i formulär som är kopplade till objektet i listan kan läggas till som kolumner.</span>
+   Anpassade fält i formulär som är kopplade till objektet i listan kan läggas till som kolumner.
 
 Kolumninställningarna sparas automatiskt.
 
@@ -153,11 +147,13 @@ Så här söker du efter specifika förfrågningar i widgeten Mina förfrågning
 
 1. (Valfritt) Om du vill gå till de markerade förfrågningarna klickar du på upp- eller nedpilarna i sökfältet.
 
-<div class="preview">
-
 ## Gå till ett objekt som skapats av en begäran
 
 Du kan söka efter objekt som har skapats av en begäran i widgeten Mina förfrågningar.
+
+>[!NOTE]
+>
+>Länkar till skapade objekt är bara tillgängliga i den nya begärandefunktionen för planeringsbegäranden, där själva begäran skapade ett objekt. Om en Workfront-begäran konverteras till ett projekt eller annat objekt är ingen länk till det konverterade objektet tillgänglig i listan över förfrågningar i den nya begärandeupplevelsen.
 
 1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
 1. (Villkorligt) Om du vill lägga till widgeten **Mina förfrågningar** på hemskärmen. Klicka på **Anpassa** och sök efter **Mina förfrågningar**.
@@ -166,4 +162,3 @@ Du kan söka efter objekt som har skapats av en begäran i widgeten Mina förfr�
 
    Objektets sida öppnas.
 
-</div>

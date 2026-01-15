@@ -6,17 +6,15 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1517'
 ht-degree: 0%
 
 ---
 
 # Kopiera och skicka begäranden
 
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 När du skickar in liknande begäranden ofta kan du kopiera en befintlig skickad begäran. I det här fallet kan du kopiera en befintlig begäran, göra minimala ändringar i den och skicka den igen som en ny begäran.
 
@@ -224,8 +222,6 @@ Du måste ha en begäran om att du eller någon i din organisation som tidigare 
 
    Den kopierade begäran skickas som en ny begäran i den begärandekö som du angav.
 
-<div class="preview">
-
 ## Kopiera och skicka begäranden i den nya begärandeupplevelsen
 
 Du kan kopiera och skicka begäranden i området Förfrågningar i Workfront eller från widgeten Mina förfrågningar i Hem.
@@ -263,5 +259,4 @@ Du kan kopiera och skicka begäranden i området Förfrågningar i Workfront ell
 
    Den kopierade begäran skickas som en ny begäran.
 
-</div>
 

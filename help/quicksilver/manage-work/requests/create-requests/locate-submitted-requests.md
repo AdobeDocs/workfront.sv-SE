@@ -8,16 +8,14 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 3fe7e6f530e15ebdb4a658de89b77c1bf39671fe
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1544'
 ht-degree: 0%
 
 ---
 
 # Visa skickade begäranden
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Du kan visa förfrågningar som du eller någon annan har skickat, eller förfrågningar som du har startat men som du aldrig har slutfört. Du hittar dessa förfrågningar i följande områden i Adobe Workfront:
 
@@ -28,8 +26,8 @@ Du kan visa förfrågningar som du eller någon annan har skickat, eller förfr�
   >[!NOTE]
   >
   >* Du kan bara visa dina egna utkastbegäranden.
-  >* <span class="preview">I den nya begärandeupplevelsen finns skickade begäranden och utkast i samma lista. </span>
-  >* <span class="preview">Utkast som har skapats i den äldre upplevelsen visas inte i den nya begärandeupplevelsen.</span>
+  >* I den nya begärandeupplevelsen finns inskickade begäranden och utkast i samma lista.
+  >* Utkast som har skapats i den äldre upplevelsen visas inte i den nya begärandeupplevelsen.
 
 * Fliken **Planering** i området Begäranden i Workfront: Visa förfrågningar som skickats till formulär för Workfront Planning-begäran. Din organisation måste köpa ett Workfront Planning-paket. Mer information finns i följande artiklar:
 
@@ -83,7 +81,11 @@ Hur skickade begäranden visas skiljer sig åt beroende på om du använder den 
 
 ### Visa skickade begäranden i den nya begärande upplevelsen
 
-Du kan visa skickade begäranden i området Begäranden, <span class="preview">som innehåller länkar till objekt som har skapats av planeringsbegäranden.</span>
+Du kan visa skickade begäranden i området Begäranden, som innehåller länkar till objekt som skapats av planeringsbegäranden.
+
+>[!NOTE]
+>
+>Länkar till skapade objekt är bara tillgängliga i den nya begärandefunktionen för planeringsbegäranden, där själva begäran skapade ett objekt. Om en Workfront-begäran konverteras till ett projekt eller annat objekt är ingen länk till det konverterade objektet tillgänglig i listan över förfrågningar i den nya begärandeupplevelsen.
 
 Så här visar du förfrågningar som du eller andra användare har skickat in i den nya begärandeupplevelsen:
 

@@ -6,16 +6,14 @@ description: Planerat arbete representeras i Adobe Workfront av projekt och uppg
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 684f7fc62fe341a59b1b7f7ae6c7118a5e511513
+source-git-commit: 2b4c13babecd3675f82699282c3dd42191c73df1
 workflow-type: tm+mt
-source-wordcount: '2546'
+source-wordcount: '2532'
 ht-degree: 0%
 
 ---
 
 # Skapa och skicka begäranden
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 <!--Audited: 12/2023-->
 
@@ -109,7 +107,10 @@ En Workfront-administratör måste skapa följande komponenter i en frågekö:
 
 När du skapar en begäran i Workfront webbprogram sparar Workfront begäran som ett utkast innan du skickar den. Workfront skapar ett utkast så snart du har valt din begärandekö och börjar ange information om det.
 
-Du kan fortsätta skicka begäran eller så kan du fylla i så mycket information du har och navigera bort från den för att slutföra den senare. Workfront sparar den utkast som du har startat i mappen Utkast <span class="preview"> eller i listan över begäranden.</span>
+Du kan fortsätta skicka begäran eller så kan du fylla i så mycket information du har och navigera bort från den för att slutföra den senare. Workfront sparar den ifyllda förfrågan som du har startat. Du kan hitta dem i:
+
+* Ny begärande upplevelse: Listan över förfrågningar
+* Äldre begärande upplevelse: Mappen Utkast
 
 >[!IMPORTANT]
 >
@@ -145,7 +146,7 @@ Så här skapar du en begäran i Workfront webbprogram:
    >Tänk på följande när det gäller den nya upplevelsen som begär:
    >* Listan innehåller både Workfront begärandeköer och Workfront Planning-förfrågningsformulär.
    >* Du kan filtrera listan efter objekttyp.
-   >* <span class="preview">I den nya begärandeupplevelsen finns utkast i samma lista som skickade begäranden</span>.
+   >* I den nya begärandeupplevelsen finns utkast i samma lista som skickade begäranden.
 
 1. (Villkorligt) Om du växlade till den nya versionen väljer du ämnesgrupper och köämnen och fortsätter att uppdatera formuläret.
 

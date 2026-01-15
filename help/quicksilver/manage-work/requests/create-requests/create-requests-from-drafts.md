@@ -6,16 +6,14 @@ description: Förutom att använda tillgängliga utkast som Workfront föreslår
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '814'
 ht-degree: 0%
 
 ---
 
 # Skapa begäranden från utkast
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Förutom att använda tillgängliga utkast som Workfront föreslår när du anger en ny begäran, kan du även få åtkomst till ett utkast från sektionen Utkast och slutföra den därifrån.
 
@@ -64,15 +62,10 @@ Du måste göra följande innan du kan skapa en begäran från ett utkast:
 
 Hur du skapar begäranden från utkast skiljer sig mellan den nya begärande upplevelsen och den äldre upplevelsen.
 
-* <span class="preview">[Skapa begäranden från utkast i den nya begärande upplevelsen](#create-requests-from-drafts-in-the-new-requesting-experience)</span>
+* [Skapa förfrågningar från utkast i den nya begärande upplevelsen](#create-requests-from-drafts-in-the-new-requesting-experience)
 * [Skapa förfrågningar från utkast i den gamla begärande upplevelsen](#create-requests-from-drafts-in-the-legacy-requesting-experience)
 
-<div class="preview">
-
 ### Skapa förfrågningar från utkast i den nya begärande upplevelsen
-
-
-
 
 1. Öppna utkastet.
 
@@ -98,8 +91,6 @@ Hur du skapar begäranden från utkast skiljer sig mellan den nya begärande upp
 1. När du är klar med informationen för begäran klickar du på **Skicka**.
 
    När du skickar begäran tas utkastet bort och kan inte återställas.
-
-</div>
 
 ### Skapa förfrågningar från utkast i den gamla begärande upplevelsen
 

@@ -5,16 +5,14 @@ title: Skapa och hantera vyer i området Förfrågningar
 description: Om du använder den nya begärandefunktionen kan du skapa och spara vyer för området Förfrågningar.
 author: Becky
 feature: Work Management
-source-git-commit: 4061163b8b761bc3922bfb95da6c0110b6ee5871
+source-git-commit: d8e5e6d313eb39c9ac26e7cb60113beac5637890
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
 
 # Skapa och hantera vyer i området Förfrågningar
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Om du använder den nya begärandefunktionen kan du skapa och spara vyer för området Förfrågningar. De här vyerna innehåller filter och kolumnupplägg.
 
@@ -86,9 +84,9 @@ Du kan redigera befintliga vyer, inklusive vyer som du just har skapat.
 
 1. (Valfritt) Om du vill byta namn på en vy klickar du på listrutan **Vyer** ![Vyer](assets/view-icon-requests.png) och klickar på menyn med tre punkter bredvid vyn. Välj sedan **Byt namn** och skriv in det nya namnet för vyn.
 1. Klicka på listrutan **Vyer** ![Vyer](assets/view-icon-requests.png) och välj den vy som du vill redigera.
-1. <span class="preview">Om du vill lägga till ett anpassat fält som en kolumn klickar du på ikonen **Lägg till kolumn** ![Lägg till kolumn](assets/add-column.png) till höger på skärmen och sedan på plusikonen bredvid det anpassade formulärfältet som du vill lägga till som en kolumn i vyn.</span>
+1. Om du vill lägga till ett anpassat fält som en kolumn klickar du på ikonen **Lägg till kolumn** ![Lägg till kolumn](assets/add-column.png) till höger på skärmen och sedan på plusikonen bredvid det anpassade formulärfältet som du vill lägga till som en kolumn i vyn.
 
-   <span class="preview">Anpassade fält i formulär som är kopplade till objektet i listan kan läggas till som kolumner.</span>
+   >Anpassade fält i formulär som är kopplade till objektet i listan kan läggas till som kolumner.
 
    >[!TIP]
    >
@@ -114,7 +112,7 @@ Du kan redigera befintliga vyer, inklusive vyer som du just har skapat.
    * **Status**: Status för begäran.
    * **Anges av**: Namnet på den användare som lade till begäran. Om begäran har lagts till av någon utanför Workfront visas **Angivet av**-fältet `N/A`.
 
-   <span class="preview">I förhandsvisningsmiljön kan du även filtrera efter anpassade fält som har lagts till i vyn.</span>
+   Du kan också filtrera efter anpassade fält som har lagts till i vyn.
 
    Du kan ha flera filter kopplade av antingen **And** eller **Or**.
 Begärandelistan filtreras automatiskt när du lägger till filtervillkoren.
@@ -125,6 +123,7 @@ Begärandelistan filtreras automatiskt när du lägger till filtervillkoren.
 >
 > * Ändringar av vyer sparas automatiskt.
 > * Ändringar av vyer är synliga för alla som använder vyn.
+> * Om du vill vara säker på att vyn gäller för den person som använder vyn, oavsett vem som skapade den, kan du använda jokertecknet&quot;Jag (inloggad användare)&quot; i alla fält där användaren har värdet.
 
 ## Lägg till vyn i en layoutmall.
 
