@@ -4,9 +4,9 @@ description: Den här sidan innehåller information om de funktioner som ingår 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
+source-git-commit: 5e12cf9e34adda0a2fb9e8026f2c94cdfc0b41fd
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -37,10 +37,49 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront-förbättringar
 
-
+* [Administratörsförbättringar](#administrator-enhancements)
 * [Andra förbättringar](#other-enhancements)
 
+### Administratörsförbättringar
 
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 25%;" />
+            <tbody>
+               <tr>
+        <td><strong>Funktion</strong>
+        </td>
+        <td><strong>Förhandsgranska</strong></td>
+        <td><strong>Snabb release</strong></td>
+        <td><strong>kvartalsvis</strong></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Nya IP-adresser för e-postmeddelanden från Workfront</a><p></p>
+            <p>Vi uppdaterar IP-adresserna som används för att skicka e-postmeddelanden från Workfront. Om din organisation upprätthåller ett e-postmeddelande eller en brandvägg tillåtslista <b>måste</b> lägga till de nya IP-adresserna nedan för att säkerställa fortsatt leverans av Workfront-meddelanden.</p><p>Uppdateringarna gäller alla utgående e-postmeddelanden som genereras av Workfront-programmet, inklusive godkännanden, påminnelser, korrekturmeddelanden och andra systemmeddelanden.</p>
+            <ul>
+            <li>USA:
+            <ul>
+            <li>206.55.149.212</li>
+            <li>206.55.149.214</li>
+            <li>206.55.149.215</li>
+            <li>206.55.149.213</li>
+            <li>206.55.149.211</li>
+            </ul>
+            </li>
+            <li>EU: 
+            <ul>
+            <li>24.110.76.224</li>
+            <li>24.110.76.223</li>
+            </ul>
+            </li>
+            </ul> </p>
+        </td>
+        <td><p>15 januari 2026</p></td>
+        <td><p>15 januari 2026</p></td>
+        <td><p>15 januari 2026</p></td>
+    <tr>
+            </tbody>
+        </table>
 
 ### Andra förbättringar
 
@@ -81,7 +120,7 @@ We are updating the interface throughout Adobe Workfront to improve the user exp
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Förbättringar av Workfront Planning
 
@@ -130,13 +169,13 @@ För att kunna leverera mer stabila och skalbara integreringar går vi över til
 * Workfront för Salesforce.
 
 Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Google Workspace.
-En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Underhållsuppdateringar för Workfront
 
-Mer information om underhållsuppdateringar som gjordes under andra kvartersversionen 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=sv-SE).
+Mer information om underhållsuppdateringar som gjordes under andra kvartersversionen 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan &#x200B;](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=sv-SE).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
