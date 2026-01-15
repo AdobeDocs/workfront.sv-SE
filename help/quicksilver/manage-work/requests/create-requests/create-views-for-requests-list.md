@@ -5,9 +5,9 @@ title: Skapa och hantera vyer i området Förfrågningar
 description: Om du använder den nya begärandefunktionen kan du skapa och spara vyer för området Förfrågningar.
 author: Becky
 feature: Work Management
-source-git-commit: d8e5e6d313eb39c9ac26e7cb60113beac5637890
+source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -93,15 +93,7 @@ Du kan redigera befintliga vyer, inklusive vyer som du just har skapat.
    >Du kan för närvarande inte lägga till kolumner i produktionsmiljön.
 1. (Valfritt) Klicka på **Kolumner** och dölj, visa eller ordna om kolumnerna i listan med förfrågningar.
 
-   ![Kolumnruta](assets/columns-editing-box-in-requests-planning-tab.png)
-
-   >[!TIP]
-   >
-   >Du kan inte lägga till fler kolumner i produktionsmiljön.
-
-1. (Valfritt) Klicka på **Filter** och börja lägga till villkor för vilka begäranden du vill visa på fliken Planering.
-
-   ![Redigeringsfilter på fliken Planeringsbegäranden](assets/filters-editing-box-in-requests-planning-tab.png)
+1. (Valfritt) Klicka på **Filter** och börja lägga till villkor för vilka begäranden du vill visa.
 
    Du kan filtrera efter följande fält:
 
