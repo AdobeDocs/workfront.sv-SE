@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 8f7249e08268a8cb784d4c0ecc8c534542fa80cf
+source-git-commit: eec482dceb9a35225cb28cccc13811a91536cc83
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 1%
@@ -32,7 +32,7 @@ Det anger också vilka åtgärder Workfront-administratörer kan inaktivera elle
 >[!NOTE]
 >
 >* I den här artikeln beskrivs de funktioner som är tillgängliga för åtkomstnivåer i den nya paketmodellen för Workfront. Information om vilka funktioner som är tillgängliga i den aktuella paketmodellen finns i [Tillgängliga funktioner för varje objekttyp för olika åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* En lista över funktioner som är tillgängliga för de olika paketen i den senaste modellen finns i [Adobe Workfront Pricing and Packaging](https://business.adobe.com/se/products/workfront/pricing.html).
+>* En lista över funktioner som är tillgängliga för de olika paketen i den senaste modellen finns i [Adobe Workfront Pricing and Packaging](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Projekt
 
@@ -53,7 +53,7 @@ Det anger också vilka åtgärder Workfront-administratörer kan inaktivera elle
 | Lägga till uppgifter | ✓ |   |   |   |
 | Ge uppdateringar/kommentarer | ✓ | ✓ | ✓ |   |
 | Ändra status | ✓ |   |   |   |
-| Loggtimmar | ✓ | <span class="preview">✓</span> |   |   |
+| Loggtimmar | ✓ | ✓ |   |   |
 | Redigera uppdrag | ✓ |   |   |   |
 | Hantera en baslinje | ✓ |   |   |   |
 | Hantera risker | ✓ |   |   |   |

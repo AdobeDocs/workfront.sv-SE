@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 091d343b5c36ab6bca09aecfc8cba248adcd11e3
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1749'
 ht-degree: 0%
 
 ---
@@ -117,7 +117,7 @@ Den här åtkomstnivån är kopplad till Light-licensen och är utformad för an
 * Visa alla artiklar och uppdateringar som är kopplade till arbetet
 * Godkänn projekt, uppgifter och ärenden
 * Visa instrumentpaneler och rapporter
-* Spåra tid för uppgifter och ärenden och godkänn tidrapporter
+* Spåra tid för projekt, uppgifter och ärenden och godkänn tidrapporter
 * Skapa och hantera problem
 
 Användare med åtkomstnivån Light:
@@ -125,6 +125,7 @@ Användare med åtkomstnivån Light:
 * Kan tilldelas arbetsobjekt men kan inte slutföra dem.
 * Kan komma åt förfrågningar och dokument på huvudmenyn.
 * Har begränsad möjlighet att skapa objekt - de kan inte skapa projekt, portfolior, program eller rapporter.
+* Det går bara att logga tiden på projektnivå när Redigera-åtkomst är aktiverat. De kan inte skapa, redigera, ta bort eller dela projekt.
 
 >[!NOTE]
 >
@@ -151,8 +152,8 @@ Följande är de högsta tillgängliga åtkomstinställningarna för objekt på 
   <tr> 
    <td>Projekt</td> 
    <td> </td> 
-   <td>✓</td> 
    <td> </td> 
+   <td>✓ (för loggningstid på projektnivå)</td> 
   </tr> 
   <tr> 
    <td>Uppgifter</td> 
