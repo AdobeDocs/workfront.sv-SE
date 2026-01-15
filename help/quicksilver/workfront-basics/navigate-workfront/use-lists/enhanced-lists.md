@@ -5,9 +5,9 @@ description: De förbättrade listorna har ett tabellformat för att visa listob
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: ddae871559a756f00ef96e70254e1019964ce882
+source-git-commit: b935f3013c1be670dea834c041e02165f0e7047c
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1620'
 ht-degree: 0%
 
 ---
@@ -87,25 +87,29 @@ Om du vill redigera ett objekt i listan dubbelklickar du i cellen som du vill re
 
 ![Exempel på utökad lista](assets/glist-exchange-rates.png)
 
-## Använda åtgärdsfältet och Mer-menyn i en förbättrad lista
+## Använda åtgärdsfältet och menyn Mer i en förbättrad lista
 
-När du markerar kryssrutan bredvid ett objekt i den utökade listan visas åtgärdsfältet längst ned på skärmen och de åtgärder du kan utföra för objektet visas. Vissa åtgärder kan vara specifika för den listan och visas inte i några andra listor.
+Åtgärdsfältet visar åtgärder som du kan utföra på ett listobjekt. Vissa åtgärder kan vara specifika för den listan och visas inte i några andra listor.
 
->[!NOTE]
->
->Olika förbättrade listor kan göra det möjligt att markera ett enstaka objekt, gruppredigera (markera mer än ett objekt) eller inte markera något objekt.
+1. Markera kryssrutan bredvid ett objekt i den förbättrade listan.
 
-Klicka på en knapp i åtgärdsfältet för att utföra den åtgärden, till exempel visa listobjektet, ta bort objektet eller redigera objektet.
+   Åtgärdsfältet visas längst ned på skärmen.
 
-Om det inte finns några tillgängliga åtgärder för det valda objektet anges &quot;Inga tillgängliga åtgärder&quot; i åtgärdsfältet.
+   >[!NOTE]
+   >
+   >Olika förbättrade listor kan göra det möjligt att markera ett enstaka objekt, gruppredigera (markera mer än ett objekt) eller inte markera något objekt.
 
-![Exempel på åtgärdsfält](assets/glist-action-bar-statuses.png)
+1. Klicka på en knapp i åtgärdsfältet för att utföra den åtgärden, till exempel visa listobjektet, ta bort objektet eller redigera objektet.
 
-Menyn **Mer** är den trepunktsmeny som visas intill ett primärt fält i ett listobjekt när du hovrar över det. (Det primära fältet är kolumnen längst till vänster i tabellen.)
+   Om det inte finns några tillgängliga åtgärder för det valda objektet anges &quot;Inga tillgängliga åtgärder&quot; i åtgärdsfältet.
 
-Klicka på menyn om du vill se ytterligare åtgärder för objektet. Vissa åtgärder kan vara specifika för den listan och visas inte i några andra listor.
+   ![Exempel på åtgärdsfält](assets/glist-action-bar-statuses.png)
 
-![Exempel på fler menyer](assets/glist-more-menu-priorities.png)
+1. Håll pekaren över ett primärt fält på ett listobjekt för att visa menyn **Mer**. (Det primära fältet är kolumnen längst till vänster i tabellen.)
+
+1. Klicka på menyn om du vill se ytterligare åtgärder för objektet. Vissa åtgärder kan vara specifika för den listan och visas inte i några andra listor.
+
+   ![Exempel på fler menyer](assets/glist-more-menu-priorities.png)
 
 ## Anpassa kolumner i en förbättrad lista
 
@@ -128,9 +132,31 @@ I vissa förbättrade listor kan du dölja och visa kolumner och ändra ordning 
 
    ![Indikator för dolda kolumner](assets/glist-columns-hidden-indicator.png)
 
-## Använda en vy för en förbättrad lista
+## Lägga till och ta bort kolumner i en lista med kolumnhanteraren
+
+I vissa förbättrade listor finns **Kolumnhanteraren** som gör att du enkelt kan lägga till kolumner i listan och ta bort kolumner. Inbyggda och anpassade fält är båda tillgängliga att välja som kolumner. Anpassade fält måste finnas i systemet innan du kan lägga till dem som listkolumner.
+
+Så här lägger du till och tar bort kolumner:
+
+1. Klicka på ikonen + längst upp till höger i tabellen för att öppna rutan **Kolumnhanteraren**.
+1. Sök efter ett befintligt objektfält i kolumnen **Tillgängligt** och klicka sedan på + till höger om fältnamnet för att lägga till det i kolumnen **Markerat**.
+1. Klicka på - till höger om ett fält i kolumnen **Markerad** för att ta bort det från listan.
+
+   >[!NOTE]
+   >
+   >Vissa fält kan vara åtgärdade och kan inte tas bort.
+
+1. Klicka på **Spara**.
+
+   ![Kolumnhanteraren](assets/glist-column-manager.png)
+
+<!-- Add info about Properties and KPIs when something gets released with those options -->
+
+## Visa data med vyer i en förbättrad lista
 
 En vy är en anpassad uppsättning kolumnupplägg och filter som du kan använda på en lista. Du kan skapa nya vyer och redigera befintliga vyer.
+
+### Använda och skapa vyer
 
 Om du vill använda en vy klickar du på listrutan **Vyer** och väljer den vy som du vill använda i listan.
 
@@ -144,6 +170,27 @@ Så här skapar du en ny vy:
    Ändringar av vyer sparas automatiskt och ändringarna visas för alla som använder vyn.
 
    Nästa gång du använder den här vyn behåller du inställningarna för kolumner och filter.
+
+### Dela en vy
+
+I listrutan **Vyer** kan du se tre vykategorier:
+
+* **Systemvyer**: Vyer som systemadministratören har tilldelat dig.
+* **Delade vyer**: Vyer som har delats med dig av andra användare.
+* **Mina vyer**: Vyer som du har skapat och kan dela med andra. Du kan dela vyer med andra användare, team eller grupper.
+
+Så här delar du en vy:
+
+1. I listrutan **Vyer** för du pekaren över den vy i **Mina vyer** som du vill dela och klickar sedan på menyn med tre punkter när den visas.
+1. Välj **Dela**.
+1. I dialogrutan Dela anger du namnen på de användare, team eller grupper som du vill dela vyn med och markerar dem sedan i listan när de visas.
+
+   Du kan ge följande behörigheter till mottagarna:
+
+   * **Visa**: Användare kan tillämpa vyn på listan men inte dela den.
+   * **Hantera**: Användare kan byta namn på vyn, dela den med andra och ta bort den.
+
+1. Klicka på **Spara**.
 
 ## Filtrera och gruppera objekt i en förbättrad lista
 
@@ -160,6 +207,10 @@ Med filter kan du minska mängden information som visas i listan. Grupperingar s
    ![Filtrera i förbättrade listor](assets/glist-filter-with-options.png)
 
    Filtret tillämpas automatiskt på listan.
+
+   >[!TIP]
+   >
+   >Om du vill använda ett aktuellt användarens jokertecken väljer du **Jag (inloggad användare)** som fältvärde. Filtret gäller sedan den användare som visar listan. Jokertecknet är tillgängligt i fält där värdet är en användare.
 
 1. Klicka på **Lägg till villkor** om du vill lägga till ytterligare ett villkor i filtret som en OR-programsats.
 1. När filtret används kan du öppna alternativen för **Filter** igen och ändra filteralternativen eller ta bort alla filter.
@@ -185,18 +236,26 @@ Med filter kan du minska mängden information som visas i listan. Grupperingar s
 
 ## Sortera och söka i en förbättrad lista
 
-Om du vill sortera enskilda kolumner går du till kolumnen och klickar på nedpilen. En ikon bredvid ett kolumnnamn anger att listan sorteras efter värdena i den kolumnen och sorteringsriktningen.
+Så här sorterar du enskilda kolumner:
 
->[!NOTE]
->
->Vissa kolumner kanske inte kan sorteras.
+1. Gå till kolumnen och klicka på nedpilen.
 
-![Sortera efter kolumn](assets/glist-sort-by-column.png)
+   En ikon bredvid ett kolumnnamn anger att listan sorteras efter värdena i den kolumnen och sorteringsriktningen.
 
-Om du vill sortera ditt arbete i en gruppering öppnar du **Grupp** och väljer om du vill sortera i stigande eller fallande ordning.
+   >[!NOTE]
+   >
+   >Vissa kolumner kanske inte kan sorteras, beroende på listan.
 
-![Sortera i en gruppering](assets/sort-in-groups.png)
+   ![Sortera efter kolumn](assets/glist-sort-by-column.png)
 
-Om du vill söka skriver du söktermen i sökfältet ovanför listan. Resultatet markeras i listan när du skriver.
+Så här sorterar du arbetet i en grupp:
 
-![Söktermen är markerad](assets/glist-search-highlighted.png)
+1. Klicka på **Grupp** och välj om du vill sortera i stigande eller fallande ordning.
+
+   ![Sortera i en gruppering](assets/sort-in-groups.png)
+
+Så här söker du:
+
+1. Skriv söktermen i sökfältet ovanför listan. Resultatet markeras i listan när du skriver.
+
+   ![Söktermen är markerad](assets/glist-search-highlighted.png)
