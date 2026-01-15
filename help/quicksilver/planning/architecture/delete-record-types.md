@@ -235,7 +235,7 @@ Ta bort en global posttyp från en sekundär arbetsyta:
 
 1. Gå till den globala posttypen på den sekundära arbetsytan.
 
-1. (Valfritt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) på posttypens kort och klicka sedan på **Ta bort**.
+1. (Valfritt) Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) på posttypens kort och klicka sedan på **Ta bort**.
 1. (Villkorligt) Skriv **delete** i det angivna fältet och klicka sedan på **Ta bort permanent**.
 
    ![Ta bort bekräftelseruta för den sekundära globala posttypen](assets/delete-secondary-global-record-type.png)

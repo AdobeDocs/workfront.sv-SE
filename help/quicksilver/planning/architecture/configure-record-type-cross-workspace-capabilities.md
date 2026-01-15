@@ -156,7 +156,7 @@ Så här konfigurerar du en posttyp som global:
 
      ![Fler menyalternativ från posttypskort](assets/more-menu-options-from-record-type-card.png)
 
-   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn.
+   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn.
 1. Klicka på **Redigera** eller **Inställningar**.
 
    >[!TIP]
@@ -237,7 +237,7 @@ Så här konfigurerar du en posttyp som global:
 
      ![Fler menyalternativ från posttypskort med inställningar](assets/more-menu-options-from-record-type-card-with-settings-link.png)
 
-   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn.
+   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn.
 1. Klicka på **Redigera** eller **Inställningar**.
 
 1. (Villkorligt) Om du klickade på **Redigera** klickar du på fliken **Inställningar för arbetsytan** i rutan **Redigera posttyp**

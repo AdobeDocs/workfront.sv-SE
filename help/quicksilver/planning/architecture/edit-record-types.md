@@ -152,7 +152,7 @@ eller
 
 1. I rutan **Redigera posttyp** öppnas fliken **Utseende** som standard.
 
-   ![Redigera flik för posttypsrutans utseende ](assets/edit-record-type-box-appearance-tab.png)
+   ![Redigera flik för posttypsrutans utseende &#x200B;](assets/edit-record-type-box-appearance-tab.png)
 
    Uppdatera följande information på fliken **Utseende**:
 
@@ -166,11 +166,11 @@ eller
 
    Mer information finns i [Konfigurera funktioner för arbetsytan över flera arbetsytor för posttyper](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
-   ![Redigera posttypsruta med fliken Inställningar för arbetsyta ](assets/edit-record-type-box-advanced-settings-tab.png)
+   ![Redigera posttypsruta med fliken Inställningar för arbetsyta &#x200B;](assets/edit-record-type-box-advanced-settings-tab.png)
 
 1. Klicka på **Spara**.
 
-   Om du valde att ansluta den här posten från andra arbetsytor visas ikonen **Kopplingsbar post** ![Anslut från andra platser ](assets/connect-from-other-workspaces-icon.png) på postkortet.
+   Om du valde att ansluta den här posten från andra arbetsytor visas ikonen **Kopplingsbar post** ![Anslut från andra platser &#x200B;](assets/connect-from-other-workspaces-icon.png) på postkortet.
 
    Om du har valt att tillåta att den här posten läggs till på andra arbetsytor visas ikonen **Global post** ![Global posttyp](assets/global-icon.png) på postkortet.
 

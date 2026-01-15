@@ -140,7 +140,7 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
    * Håll pekaren över arbetsytans kort och klicka sedan på menyn **Mer** ![Mer](assets/more-menu.png) i kortets övre högra hörn
 eller
-   * Klicka på ikonen **sök** ![Sök ](assets/search-icon.png) i det övre högra hörnet på sidan Arbetsytor om du vill söka efter en arbetsyta efter namn och klicka på ett arbetsytekort för att öppna arbetsytan. Klicka sedan på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om arbetsytans namn.
+   * Klicka på ikonen **sök** ![Sök &#x200B;](assets/search-icon.png) i det övre högra hörnet på sidan Arbetsytor om du vill söka efter en arbetsyta efter namn och klicka på ett arbetsytekort för att öppna arbetsytan. Klicka sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om arbetsytans namn.
 1. Klicka på **Redigera**.
 
    Rutan **Arbetsytan för redigering** visas.
