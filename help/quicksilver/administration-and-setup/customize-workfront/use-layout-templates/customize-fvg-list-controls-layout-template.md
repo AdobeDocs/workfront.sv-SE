@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
 
 # Anpassa filter, vyer och grupperingar med en layoutmall
-
-{{preview-fast-release-general}}
 
 Som Adobe Workfront-administratör kan du använda en layoutmall för att ange vilka listkontroller som ska visas i listrutorna Filter, Visa och Gruppering. De här menyerna visas ovanför listor i hela Workfront, t.ex. en lista med uppgifter för ett projekt:
 
@@ -118,18 +116,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
     </tbody> 
    </table>
 
-1. <span class="preview">I förhandsvisningsmiljön: Fortsätt anpassa layoutmallen. Du kan klicka på **Använd** när som helst för att spara förloppet.</span>
-
-   <span class="preview">eller</span>
-
-   <span class="preview">Om du är klar med anpassningen klickar du på **Spara och stäng**.</span>
-
-1. I produktionsmiljön: Fortsätt att anpassa layoutmallen.
+1. Fortsätt att anpassa layoutmallen. Du kan klicka på **Använd** när som helst för att spara förloppet.
 
    eller
 
-   Klicka på **Spara** om du är klar med anpassningen.
-
-   >[!TIP]
-   >
-   >Du kan klicka på **Spara** när som helst för att spara förloppet och sedan fortsätta att ändra mallen senare.
+   Om du är klar med anpassningen klickar du på **Spara och stäng**.

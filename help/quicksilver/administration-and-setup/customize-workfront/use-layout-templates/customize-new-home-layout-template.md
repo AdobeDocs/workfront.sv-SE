@@ -8,16 +8,14 @@ author: Lisa and Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
 
 # Anpassa startsidan med en layoutmall
-
-{{preview-fast-release-general}}
 
 Du kan använda en layoutmall för att konfigurera vad användarna ser när de först öppnar Home.
 
@@ -136,11 +134,11 @@ Så här anpassar du startsidan med en layoutmall:
    >
    >* Alternativen Filter, Kolumner och Grupp är länkade till alternativen för listanpassning i layoutmallen. Ändringar som görs här gäller även för dessa inställningar.
    >* Användarna måste ha minst behörigheten Skapa för vyer för att administratörskolumnen ska kunna användas korrekt på hemsidorna.
-   ></p>
-   >   <li><p>Ange ett standardfilter eller en standardgrupp för widgeten genom att hålla markören över ett alternativ och klicka på <b>Ange som standard</b>. Den aktuella standardinställningen visar ett blått <b>Default</b>-märke till höger om den.</p></li>
-   >   <li><p>Lägg till ett befintligt filter, en kolumn eller en grupp i listan med tillgängliga alternativ genom att klicka på plustecknet längst ned i varje lista för att lägga till ett alternativ i listan. Observera att endast befintliga filter, fält (för kolumner) eller grupper kan läggas till på det här sättet.</p></li>
-   >   </ul>
-   >   <p>
+   </p>
+      <li><p>Ange ett standardfilter eller en standardgrupp för widgeten genom att hålla markören över ett alternativ och klicka på <b>Ange som standard</b>. Den aktuella standardinställningen visar ett blått <b>Default</b>-märke till höger om den.</p></li>
+      <li><p>Lägg till ett befintligt filter, en kolumn eller en grupp i listan med tillgängliga alternativ genom att klicka på plustecknet längst ned i varje lista för att lägga till ett alternativ i listan. Observera att endast befintliga filter, fält (för kolumner) eller grupper kan läggas till på det här sättet.</p></li>
+      </ul>
+      <p>
 
    >[!NOTE]
    >
@@ -152,18 +150,12 @@ Så här anpassar du startsidan med en layoutmall:
       </tbody> 
       </table>
 
-1. <span class="preview">I förhandsvisningsmiljön: Fortsätt anpassa layoutmallen. Du kan klicka på **Använd** när som helst för att spara förloppet.</span>
-
-   <span class="preview">eller</span>
-
-   <span class="preview">Om du är klar med anpassningen klickar du på **Spara och stäng**.</span>
-
-1. I produktionsmiljön: Fortsätt att anpassa layoutmallen.
+1. Fortsätt att anpassa layoutmallen. Du kan klicka på **Använd** när som helst för att spara förloppet.
 
    eller
 
-   Om du är klar med anpassningen klickar du på **Spara** i det nedre vänstra hörnet.
+   Om du är klar med anpassningen klickar du på **Spara och stäng**.
 
    >[!IMPORTANT]
    >
-   >Användarna måste uppdatera hemsidan för att kunna se anpassningar från layoutmallen.
+   >Användarna måste uppdatera sin hemsida för att kunna se anpassningar från layoutmallen.

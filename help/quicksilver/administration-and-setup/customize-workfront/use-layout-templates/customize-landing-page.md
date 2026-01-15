@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '395'
 ht-degree: 1%
 
 ---
 
 # Anpassa landningssidan med en layoutmall
-
-{{preview-fast-release-general}}
 
 Som Adobe Workfront-administratör kan du använda en layoutmall för att ange det område som du vill att användarna ska se varje gång de loggar in på Workfront.
 
@@ -103,18 +101,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
    >
    >* Mer information om Workfront Planning finns i [Kom igång med Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
-1. <span class="preview">I förhandsvisningsmiljön: Fortsätt anpassa layoutmallen. Du kan klicka på **Använd** när som helst för att spara förloppet.</span>
-
-   <span class="preview">eller</span>
-
-   <span class="preview">Om du är klar med anpassningen klickar du på **Spara och stäng**.</span>
-
-1. I produktionsmiljön: Fortsätt att anpassa layoutmallen.
+1. Fortsätt att anpassa layoutmallen. Du kan klicka på **Använd** när som helst för att spara förloppet.
 
    eller
 
-   Klicka på **Spara** om du är klar med anpassningen.
-
-   >[!TIP]
-   >
-   >Du kan klicka på **Spara** när som helst för att spara förloppet och sedan fortsätta att ändra mallen senare.
+   Om du är klar med anpassningen klickar du på **Spara och stäng**.

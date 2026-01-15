@@ -8,22 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: e5416fab4f4ad1f2c31edf962554ddd6a4c2f1e5
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
 
 # Anpassa detaljvyn med hjälp av en layoutmall
 
-{{preview-fast-release-general}}
-
 Som Adobe Workfront-administratör kan du använda en layoutmall för att avgöra vilken information som visas när en användare klickar på ikonen ![Detaljer](assets/project-details-icon.png) i den vänstra panelen när han eller hon visar en uppgift, ett problem, ett dokument, ett program eller en portfölj.
-
-<!--
-or billing record
--->
 
 Du kan också ändra ordningen på den information som informationen visas i. För alla uppgifter som användarna ser kan du till exempel flytta anpassad Forms-information högst upp i detaljvyn för alla uppgifter som användarna ser.
 
@@ -108,24 +102,11 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
      Alla fält är aktiverade som standard. Du kan markera eller avmarkera kryssrutan **Markera alla** i ett område om du vill visa eller dölja alla fält i det området.
 
-   <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
-   ![Vyn Detaljer i layoutmallen](assets/layout-template-details-view-updated-save-buttons.png)
+     ![Vyn Detaljer i layoutmallen](assets/layout-template-details-view-updated-save-buttons.png)
 
-   Exempelbild i produktionsmiljön:
-   ![Vyn Detaljer i layoutmallen](assets/layout-template-details-view.png)
-
-1. <span class="preview">I förhandsvisningsmiljön: Fortsätt anpassa layoutmallen. Du kan klicka på **Använd** när som helst för att spara förloppet.</span>
-
-   <span class="preview">eller</span>
-
-   <span class="preview">Om du är klar med anpassningen klickar du på **Spara och stäng**.</span>
-
-1. I produktionsmiljön: Fortsätt att anpassa layoutmallen.
+1. Fortsätt att anpassa layoutmallen. Du kan klicka på **Använd** när som helst för att spara förloppet.
 
    eller
 
-   Klicka på **Spara** om du är klar med anpassningen.
+   Om du är klar med anpassningen klickar du på **Spara och stäng**.
 
-   >[!TIP]
-   >
-   >Du kan klicka på **Spara** när som helst för att spara förloppet och sedan fortsätta att ändra mallen senare.

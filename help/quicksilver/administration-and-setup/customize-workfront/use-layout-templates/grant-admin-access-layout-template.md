@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 066a55ef-1904-4678-8866-c59428f78bc1
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
 
 # Bevilja administrativ åtkomst för en layoutmall
-
-{{preview-fast-release-general}}
 
 Som Adobe Workfront-administratör kan du ge administratörsbehörighet för en layoutmall till gruppadministratörerna för en viss grupp så att de kan redigera mallen. Mallen tilldelas inte användarna i gruppen.
 
@@ -71,4 +69,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
    >   
    >* Om du inte ger administratörsbehörighet till gruppadministratörerna i en viss grupp får alla användare som kan redigera användarkonton administratörsbehörighet för layoutmallen. Vissa Workfront-administratörer väljer att inte bevilja administrativ åtkomst för en layoutmall för att göra den till en layoutmall på systemnivå.
 
-1. Du kan klicka på <span class="preview">**Använd**</span> eller **Spara** när som helst för att spara förloppet och sedan fortsätta att ändra mallen senare.
+1. Fortsätt att anpassa layoutmallen. Du kan klicka på **Använd** när som helst för att spara förloppet.
+
+   eller
+
+   Om du är klar med anpassningen klickar du på **Spara och stäng**.

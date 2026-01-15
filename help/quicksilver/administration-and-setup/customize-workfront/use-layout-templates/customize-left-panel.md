@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
 
 # Anpassa den vänstra panelen med en layoutmall
-
-{{preview-fast-release-general}}
 
 <!--Audited: 10/2024-->
 
@@ -207,7 +205,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 1. Gör något av följande i listan **[!UICONTROL Left panel]** för att avgöra vad användare kommer att se i den vänstra panelen för det [!DNL Workfront] -område eller den objekttyp som du har valt:
 
-   * Klicka på ikonerna **Visa** ![Visa &#x200B;](assets/add-secondary-nav-item.png) eller **Dölj** ![Dölj ikon](assets/delete-secondary-nav-item.png) om du vill visa eller dölja avsnitt i den vänstra panelen. Du kan inte dölja objekt som inte har en **Visa**- eller **Dölj**-ikon.
+   * Klicka på ikonerna **Visa** ![Visa ](assets/add-secondary-nav-item.png) eller **Dölj** ![Dölj ikon](assets/delete-secondary-nav-item.png) om du vill visa eller dölja avsnitt i den vänstra panelen. Du kan inte dölja objekt som inte har en **Visa**- eller **Dölj**-ikon.
 
    * Dra objekt ![Flytta ikon](assets/move-icon---dots.png) om du vill ändra deras ordning på den vänstra panelen.
 
@@ -239,18 +237,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
    >
    >Mer information om kontrollpaneler finns i [Kontrollpaneler](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
-1. <span class="preview">I förhandsvisningsmiljön: Fortsätt anpassa layoutmallen. Du kan klicka på **Använd** när som helst för att spara förloppet.</span>
-
-   <span class="preview">eller</span>
-
-   <span class="preview">Om du är klar med anpassningen klickar du på **Spara och stäng**.</span>
-
-1. I produktionsmiljön: Fortsätt att anpassa layoutmallen.
+1. Fortsätt att anpassa layoutmallen. Du kan klicka på **Använd** när som helst för att spara förloppet.
 
    eller
 
-   Klicka på **Spara** om du är klar med anpassningen.
-
-   >[!TIP]
-   >
-   >Du kan klicka på **Spara** när som helst för att spara förloppet och sedan fortsätta att ändra mallen senare.
+   Om du är klar med anpassningen klickar du på **Spara och stäng**.

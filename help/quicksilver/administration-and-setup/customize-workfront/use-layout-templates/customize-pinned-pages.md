@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
 
 # Anpassa fästa sidor med en layoutmall
-
-{{preview-fast-release-general}}
 
 I en layoutmall kan du fästa de sidor som du vill att användarna alltid ska ha tillgängliga överst i Adobe Workfront. Dessa kan antingen nås via huvudmenyikonen ![Huvudmeny](assets/main-menu-icon.png) eller huvudmenyikonen ![Huvudmeny](assets/main-menu-icon-left-nav.png) om den är tillgänglig, eller via kontrollpaneler.
 
@@ -113,18 +111,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 1. (Valfritt) Om du vill ta bort ett häftstift håller du pekaren över stiftet och klickar på ikonen Mer ![Mer](assets/more-icon.png) bredvid nålnamnet. Klicka sedan på **Ta bort häftstift**.
 
-1. <span class="preview">I förhandsvisningsmiljön: Fortsätt anpassa layoutmallen. Du kan klicka på **Använd** när som helst för att spara förloppet.</span>
-
-   <span class="preview">eller</span>
-
-   <span class="preview">Om du är klar med anpassningen klickar du på **Spara och stäng**.</span>
-
-1. I produktionsmiljön: Fortsätt att anpassa layoutmallen.
+1. Fortsätt att anpassa layoutmallen. Du kan klicka på **Använd** när som helst för att spara förloppet.
 
    eller
 
-   Klicka på **Spara** om du är klar med anpassningen.
-
-   >[!TIP]
-   >
-   >Du kan klicka på **Spara** när som helst för att spara förloppet och sedan fortsätta att ändra mallen senare.
+   Om du är klar med anpassningen klickar du på **Spara och stäng**.

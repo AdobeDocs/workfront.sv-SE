@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: edc83693ef068e50aed06324f006cd8aa70ac019
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
 
 # Anpassa objektrubriker med hjälp av en layoutmall
-
-{{preview-fast-release-general}}
 
 Som Adobe Workfront-administratör eller gruppadministratör kan du använda en layoutmall för att konfigurera de fält som användarna ser i objekthuvudet när de öppnar ett objekts sida.
 
@@ -97,18 +95,9 @@ Om du redan har markerat fem fält måste du ta bort ett fält innan du kan läg
 
 1. (Valfritt) Dra och släpp fälten i en annan ordning.
 
-1. <span class="preview">I förhandsvisningsmiljön: Fortsätt anpassa layoutmallen. Du kan klicka på **Använd** när som helst för att spara förloppet.</span>
-
-   <span class="preview">eller</span>
-
-   <span class="preview">Om du är klar med anpassningen klickar du på **Spara och stäng**.</span>
-
-1. I produktionsmiljön: Fortsätt att anpassa layoutmallen.
+1. Fortsätt att anpassa layoutmallen. Du kan klicka på **Använd** när som helst för att spara förloppet.
 
    eller
 
-   Klicka på **Spara** om du är klar med anpassningen.
+   Om du är klar med anpassningen klickar du på **Spara och stäng**.
 
-   >[!TIP]
-   >
-   >Du kan klicka på **Spara** när som helst för att spara förloppet och sedan fortsätta att ändra mallen senare.
