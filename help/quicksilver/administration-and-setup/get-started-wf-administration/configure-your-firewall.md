@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: d890d467dfdade676a5c93f061a5cbeda53556b6
+source-git-commit: 3c680b39685e650dd442adbb49e4091d558d1410
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1603'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >Den procedur som beskrivs på denna sida gäller endast organisationer som ännu inte har anslutit sig till Admin Console. Om du har anslutit dig till Adobe Admin Console måste du utföra den här åtgärden via Adobe Admin Console.
 >
->Mer information om hur du konfigurerar din tillåtelselista om din organisation har anslutit till Adobe Admin Console finns i [Domäner som tillåts för Adobe appar och tjänster](https://helpx.adobe.com/se/enterprise/kb/network-endpoints.html).
+>Mer information om hur du konfigurerar din tillåtelselista om din organisation har anslutit till Adobe Admin Console finns i [Domäner som tillåts för Adobe appar och tjänster](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns i [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -124,13 +124,16 @@ Om produktionsmiljön finns i kluster 1, 2, 3, 5, 7, 8 eller 9 måste du tillåt
      <li>35.161.82.137</li> 
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
-     <li>54.71.252.65</li> 
-    </ul> <p>Mer information om följande IP-adresser finns i <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md" class="MCXref xref">Nya IP-adresser för Adobe Workfront-e-post med version 21.1</a></p> 
-    <ul> 
+     <li>54.71.252.65</li>
      <li>23.251.237.107</li> 
      <li>23.251.237.108</li> 
      <li>23.251.237.109</li> 
      <li>23.251.237.106</li> 
+     <li>206.55.149.212</li>
+     <li>206.55.149.214</li>
+     <li>206.55.149.215</li>
+     <li>206.55.149.213</li>
+     <li>206.55.149.211</li>
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -161,11 +164,10 @@ Om produktionsmiljön finns i kluster 4 lägger du till följande IP-adresser f�
 * 34.242.62.80/32
 * 46.51.194.192/32
 * 54.229.129.66/32
-
-Mer information om följande IP-adresser finns i [Nya IP-adresser för Adobe Workfront-e-post med version 21.1](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
-
 * 23.251.239.98
 * 23.251.239.99
+* 24.110.76.224
+* 24.110.76.223
 
 ### IP-adresser som tillåter kluster 6 {#ip-addresses-to-allow-for-cluster-6}
 
@@ -187,6 +189,11 @@ Om produktionsmiljön finns i kluster 6 lägger du till följande IP-adresser.
      <li>34.66.82.65</li> 
      <li>34.66.82.66</li> 
      <li>34.66.82.67</li> 
+    <li>206.55.149.212</li>
+   <li>206.55.149.214</li>
+   <li>206.55.149.215</li>
+   <li>206.55.149.213</li>
+   <li>206.55.149.211</li>
     </ul> </td> 
   </tr> 
   <tr> 
@@ -220,6 +227,13 @@ Om produktionsmiljön finns i kluster 6 lägger du till följande IP-adresser.
 * 20.36.133.48/28
 * 20.81.156.240/28
 * 172.172.84.48/28
+
+### IP-adresser som tillåter kluster 11
+
+Om du vill få e-post från Workfront-programmet i kluster 11 lägger du till följande IP-adresser:
+
+* 24.110.76.224
+* 24.110.76.223
 
 ### IP-adresser som tillåter en testenhet
 
