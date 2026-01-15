@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: d836ebad6de4eb0d7a8b2b888e084aeb1f7934ee
+source-git-commit: 9d014e7790551f428f3b2f1e729c9ea95f81fe9e
 workflow-type: tm+mt
-source-wordcount: '13662'
+source-wordcount: '13684'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,9 @@ ht-degree: 0%
       * [Produktreleaser - översikt](product-announcements/product-releases/product-releases.md)
       * [Adobe Workfront-releaseschema och -process](product-announcements/product-releases/workfront-release-schedule.md)
       * [Förbered dig för en kvartalsvis utgåva av Adobe Workfront](product-announcements/product-releases/release-readiness.md)
+      * 2026 Q2-utgåvan {#release-26-q2}
+         * [Andra utgåvan, kvartal 2026, översikt](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
+         * [Första kvartalet 2026 Andra förbättringar](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md)
       * 2026 Q1-utgåvan {#release-26-q1}
          * [Första utgåvan, kvartal 2026, översikt](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)
          * [Förbättringar av första kvartalet 2026 för administratörer](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md)
@@ -225,6 +228,7 @@ ht-degree: 0%
          * [21.1 Andra förbättringar](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Planning - lanseringsaktivitet{#planning-release-activity}
          * [Adobe Workfront Planning - lanseringsaktivitet](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+         * [Andra utgåvan för kvartal 2026 för Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
          * [Första utgåvan av kvartal 2026 för Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)
          * [Versionsaktivitet fjärde kvartalet 2025 för Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
          * [Tredje kvartersversionen 2025 för Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
