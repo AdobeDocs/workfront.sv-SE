@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '751'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,11 @@ ht-degree: 0%
 
 # Åtkomstöversikt för Adobe Workfront Planning
 
-<!--leave the global record type reference in yellow till Jan 2026-->
-
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 >[!IMPORTANT]
 >
@@ -65,12 +63,11 @@ Du måste ha följande åtkomst för att kunna använda Workfront Planning:
    <ul><li><p>Alla Workfront-paket och ett Planning-paket</p></li>
    <li><p>Alla arbetsflöden och ett Planning Prime- och Ultimate-paket</p></li></ul>
 
-<div class="preview">
-   <p>För åtkomst till globala posttyper:</p>
+<p>För åtkomst till globala posttyper:</p>
    <ul><li><p>Alla Workfront-paket och ett Planning Plus-paket</p></li>
    <li><p>Alla arbetsflödespaket och ett Planning Prime- och Ultimate-paket</p></li></ul> </td></tr>
-   </div>
-   <tr>
+
+<tr>
    <td role="rowheader"><p>Adobe Workfront</p></td>
    <td>
    <p>Din organisations instans av Workfront måste vara registrerad på Adobe Unified Experience för att få tillgång till Workfront Planning.</p>

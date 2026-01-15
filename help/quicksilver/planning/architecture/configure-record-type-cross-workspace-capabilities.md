@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: '1314'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-<span class="preview">Informationen som är markerad på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Du kan konfigurera posttyper så att de fungerar på flera arbetsytor i Adobe Workfront Planning.
 
 Du kan ange en posttyp på något av följande sätt:
 
-* <span class="preview">**En global posttyp**: användare kan lägga till globala posttyper i andra arbetsytor som de kan hantera.</span>
+* **En global posttyp**: användare kan lägga till globala posttyper i andra arbetsytor som de kan hantera.
 * **En kopplingsbar posttyp**: användare kan ansluta till den här posttypen från andra arbetsytor.
 
 Du måste först definiera funktionerna för en posttyps arbetsyta innan arbetsytehanterare kan lägga till den eller ansluta den från andra arbetsytor.
@@ -64,7 +64,7 @@ Mer information finns i följande artiklar:
 eller
 <li>Alla arbetsflöden och ett Planning Prime- eller Ultimate-paket</p></li></ul>
 
-<div class="preview">
+
 <p>Så här konfigurerar du globala posttyper:</p>
 
 <ul> 
@@ -73,8 +73,7 @@ eller
 <li><p>Alla arbetsflöden och ett Planning Prime- eller Ultimate-paket</p></li></ul>
 <p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p>
 
-</div> 
-   </td> 
+</td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
    <td><p>Standard</p>
@@ -131,7 +130,6 @@ And
 </tbody> 
 </table> -->
 
-<div class="preview">
 
 ## Konfigurera globala posttyper
 
@@ -154,16 +152,16 @@ Så här konfigurerar du en posttyp som global:
    Arbetsytans sida öppnas och posttyperna visas.
 1. Gör något av följande:
 
-   * Håll pekaren över kortet för en posttyp och klicka på menyn **Mer** ![Mer](assets/more-menu.png) i det övre högra hörnet av posttypskortet. <!--add new screen shot without Share for now-->
+   * Håll pekaren över kortet för en posttyp och klicka på menyn **Mer** ![Mer](assets/more-menu.png) i det övre högra hörnet av posttypskortet.
 
      ![Fler menyalternativ från posttypskort](assets/more-menu-options-from-record-type-card.png)
 
-   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn.
+   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn.
 1. Klicka på **Redigera** eller **Inställningar**.
 
    >[!TIP]
    >
-   >När en posttyp läggs till på en annan arbetsyta visas den som en global posttyp på den arbetsytan. I det här fallet är alternativen för Redigera och Inställningar nedtonade.
+   >När en posttyp läggs till på en annan arbetsyta visas den som en global posttyp på den arbetsytan. I det här fallet har alternativen Redigera och Inställningar tagits bort.
 
 1. (Villkorligt) Om du klickade på **Redigera** klickar du på fliken **Inställningar för arbetsytan** i rutan **Redigera posttyp**
 
@@ -190,7 +188,7 @@ Så här konfigurerar du en posttyp som global:
    >
    >Du måste utse minst en enhet (användare, team, grupp, roll eller företag) för att kunna aktivera den här inställningen.
 
-1. (Villkorligt) Klicka på **Spara** i rutan **Redigera posttyp** eller klicka på bakåtpilen till vänster om **Inställningar** i sidhuvudet för att spara ändringarna.
+1. (Villkorligt) Klicka på **Spara** i rutan **Redigera posttyp** eller klicka på bakåtpilen till vänster om avsnittet **Inställningar** i sidhuvudet för att spara ändringarna.
 
    Följande saker händer:
 
@@ -206,7 +204,13 @@ Så här konfigurerar du en posttyp som global:
      I fältet Workspace visas arbetsytan där varje post skapas.
 
      Det här fältet är skrivskyddat och kan inte tas bort.
+
+     >[!TIP]
+     >
+     >Om fältvärdet för fältet **Workspace** är tomt skapades posten från en sekundär arbetsyta där den globala posttypen togs bort efter att posten skapades.
+
 1. (Valfritt) Gå till en annan arbetsyta och skapa en posttyp med en befintlig posttyp. Välj den posttyp som du aktiverade i stegen ovan.
+
 
    Mer information finns i [Lägga till befintliga posttyper från en annan arbetsyta](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
@@ -217,59 +221,10 @@ Så här konfigurerar du en posttyp som global:
    ![Arbetsytor där den här posttypen används](assets/workspaces-where-this-record-type-is-used.png)
 1. (Valfritt) Klicka på namnet på en av arbetsytorna i avsnittet **Arbetsytor där den här posttypen används** för att öppna arbetsytan.
 
-</div>
 
 ## Konfigurera posttyper som kan anslutas
 
 <!--this is a UI term; don't change the title of this section-->
-
-Du kan konfigurera en posttyp som ska anslutas till från andra arbetsytor när du skapar eller redigerar posttypen.
-
-Hur en posttyp konfigureras som anslutningsbar varierar beroende på vilken miljö du väljer för konfigurationen.
-
-### Konfigurera kopplingsbara posttyper i produktionsmiljön
-
-{{step1-to-planning}}
-
-1. Klicka på arbetsytan vars posttyper du vill konfigurera som anslutningsbara.
-
-   Arbetsytans sida öppnas och posttyperna visas.
-1. Gör något av följande:
-
-   * Håll pekaren över kortet för en posttyp och klicka på menyn **Mer** ![Mer](assets/more-menu.png) i det övre högra hörnet av posttypskortet
-
-     ![Fler menyalternativ från posttypskort](assets/more-menu-options-from-record-type-card.png)
-
-   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn. Klicka sedan på **Redigera**.
-
-1. Klicka på fliken **Avancerade inställningar**.
-
-1. Aktivera inställningen **Tillåt anslutning till den här posttypen från andra arbetsytor**.
-
-   ![Redigera fliken för avancerade inställningar för post med anslutning från andra arbetsytor aktiverat](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)
-
-   När det här alternativet är aktiverat kan posttypen anslutas och kan anslutas till från andra arbetsytor.
-
-1. Välj från vilka arbetsytor som posttypen kan nås. Välj bland följande alternativ:
-
-   <!--check names of the setting: System wide?? OR All workspaces??-->
-
-   * **Systemomfattande**: Användare kan ansluta till den här posttypen från alla arbetsytor där de har behörigheten Hantera.
-   * **Specifika arbetsytor**: Lägg till namnen på arbetsytorna där arbetsytehanterare kan ansluta till den här posttypen från den nedrullningsbara menyn.
-1. (Villkorligt) Klicka på **Spara** i rutan **Redigera posttyp** för att spara ändringarna.
-
-   Följande saker händer:
-
-   * Posttypen och dess fält är nu tillgängliga för anslutning från de arbetsytor du har angett.
-   * Posttypskortet visar en ikon av typen ![Anslutningsbar posttyp](assets/connect-from-other-workspaces-icon.png) som anger att posttypen är tillgänglig för anslutning från en arbetsyta som du har angett i konfigurationen.
-
-1. (Valfritt) Gå till en annan arbetsyta och lägg till en anslutning till den posttyp som du har aktiverat för anslutningsbarhet mellan arbetsytor i stegen ovan.
-
-   Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
-
-<div class="preview">
-
-### Konfigurera kopplingsbara posttyper i förhandsgranskningsmiljön
 
 {{step1-to-planning}}
 
@@ -282,7 +237,7 @@ Hur en posttyp konfigureras som anslutningsbar varierar beroende på vilken milj
 
      ![Fler menyalternativ från posttypskort med inställningar](assets/more-menu-options-from-record-type-card-with-settings-link.png)
 
-   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn.
+   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn.
 1. Klicka på **Redigera** eller **Inställningar**.
 
 1. (Villkorligt) Om du klickade på **Redigera** klickar du på fliken **Inställningar för arbetsytan** i rutan **Redigera posttyp**
@@ -314,7 +269,9 @@ Hur en posttyp konfigureras som anslutningsbar varierar beroende på vilken milj
 
    Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-</div>
+
+
+
 
 
 

@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '3968'
+source-wordcount: '3912'
 ht-degree: 0%
 
 ---
 
 # Hantera tidslinjevyn
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -212,7 +212,7 @@ Så här hanterar du en tidslinjevy:
 
 1. Gör följande för att snabbt hitta poster som matchar ett nyckelord:
 
-   1. Klicka på ikonen **Sök** ![Sök &#x200B;](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med ett fält i en post som visas på skärmen. Antalet korrekta matchningar visas bredvid sökobjektet och posten med rätt matchning markeras.
+   1. Klicka på ikonen **Sök** ![Sök ](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med ett fält i en post som visas på skärmen. Antalet korrekta matchningar visas bredvid sökobjektet och posten med rätt matchning markeras.
 
       ![Sökruta och tidslinjevy för resultat](assets/search-box-and-results-timeline-view.png)
 
@@ -282,9 +282,9 @@ Så här lägger du till ett filter i en tidslinjevy:
 1. Markera en tidslinjevy och klicka sedan på **Filter** i tabellens övre högra hörn.
 1. Klicka på **Lägg till villkor** och lägg till följande information:
 
-   * **Välj ett fält** för att <span class="preview">söka efter ett fält eller </span> klicka på den nedrullningsbara menyn för att visa en lista med fält och markera det i listan
+   * **Välj ett fält** som du vill söka efter eller markera i listan.
 
-   * **Välj ett alternativ** (eller en filtermodifierare) för att definiera vilken typ av villkor fältet måste uppfylla
+   * **Välj ett alternativ** (eller en filtermodifierare) för att definiera vilken typ av villkor fältet måste uppfylla.
 
      Tabellen nedan visar tillgängliga modifierare för varje typ av fält.
 
@@ -548,6 +548,8 @@ Uppdatera inställningarna för tidslinjevyn för att ange vad och hur informati
 Du kan visa anslutna poster i en posts tidslinjevy genom att använda funktionen Uppdelning. Genom att dela upp poster efter deras anslutningar kan du visa tidslinjerna för andra anslutna poster och förstå hur de kan påverka posternas prestanda och deadlines.
 
 #### Att tänka på när du använder fördelningsfunktionen
+
+Tänk på följande när du delar upp posternas tidslinje efter de anslutna posttyperna:
 
 * Du kan visa anslutna poster eller objekt under posterna för den valda posttypen i tidslinjevyn.
 * Du kan bara visa anslutna poster i tidslinjevyn när du visar posterna i standardläge. Du kan inte använda alternativet Uppdelning i läget Kompakt i tidslinjevyn.

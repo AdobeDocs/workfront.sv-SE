@@ -6,9 +6,9 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 author: Alina
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Ta bort fält
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -50,10 +50,10 @@ Du kan ta bort Workfront Planning-fält som inte längre är relevanta.
 eller
 <li><p>Alla arbetsflöden och alla planeringsdokument</p></li></ul>
 
-<p><span class="preview">Så här tar du bort fält från globala posttyper:</span></p>
-<ul><li><p><span class="preview">Alla Workfront-paket och ett Planning Plus-paket</span></p></li>
+<p>Så här tar du bort fält från globala posttyper:</p>
+<ul><li><p>Alla Workfront-paket och ett Planning Plus-paket</p></li>
 eller
-<li><p><span class="preview">Alla arbetsflödes- och planeringspaket för Prime och Ultimate</span></p></li></ul>
+<li><p>Alla arbetsflödes- och planeringspaket för Prime och Ultimate</p></li></ul>
 
 <p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
    </td> 
@@ -149,7 +149,7 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
 <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
-* <span class="preview">Du kan inte ta bort fält från globala poster som har lagts till i en sekundär arbetsyta från den sekundära arbetsytan.</span>
+* Du kan inte ta bort fält från globala poster som har lagts till i en sekundär arbetsyta från den sekundära arbetsytan.
 
 ## Ta bort fält
 
@@ -184,4 +184,4 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
    * Om du tar bort ett fält som tillhör den markerade posten, tas fältet bort och kan inte längre kopplas till några poster. Om det här fältet läggs till som ett uppslagsfält på andra poster tas även dessa fält bort.
    * Om du tar bort ett anslutningsfält tas fältet bort från den markerade posten. Dessutom tas motsvarande anslutningsfält från den ursprungliga posten bort.
    * Om du tar bort ett uppslagsfält som har lagts till från en ansluten post, tas fältet bort från den posttyp du valde, men det behåller sin ursprungliga posttyp.
-   * <span class="preview">Om du tar bort ett fält från en global posttyp på den primära arbetsytan tas det bort från alla arbetsytor där den posttypen har lagts till. Du kan inte ta bort fält från globala posttyper från deras sekundära arbetsytor.</span>
+   * Om du tar bort ett fält från en global posttyp på den primära arbetsytan, tas det bort från alla arbetsytor där posttypen har lagts till. Du kan inte ta bort fält från globala posttyper från deras sekundära arbetsytor.

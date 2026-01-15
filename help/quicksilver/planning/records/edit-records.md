@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '2940'
+source-wordcount: '2899'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,9 @@ ht-degree: 0%
 
 # Redigera poster
 
-<!--keep the choice values information in yellow till Jan 2026-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
-
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -141,15 +139,21 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 * Följande typer av fält uppdateras automatiskt och du kan inte redigera deras värden manuellt:
    * Länkade fält från andra poster
    * Formelfält
-   * Systemfält (Skapat av, Skapat den, Senast ändrat den, Senast ändrat den)
+   * Systemfält (Skapat av, Skapat den, Senast ändrat av, Senast ändrat den, Godkänt den, Godkänd av)
 * Om de poster som du visar är länkade till andra poster, återspeglas den nya informationen om de poster som du redigerar på de länkade posterna på alla arbetsytor där posten är länkad.
 * Du kan inte redigera flera poster samtidigt. <!--this will probably change-->
 * URL-adresser känns bara igen som länkar i enradiga textfält när de börjar med följande: http://, https://, ftp:// eller www. .
-* Du kan lägga till en omslagsbild till varje post. Bilden är unik för varje post och gäller inte för alla poster samtidigt.
-* Du kan redigera fältordningen på en postsida och lägga till en omslagsbild för en post. Mer information finns i [Hantera postsidans layout](/help/quicksilver/planning/records/manage-the-record-page.md).
+* Du kan lägga till en omslagsbild till varje post. Bilden är unik för varje post och gäller inte för alla poster samtidigt. Mer information finns i [Lägga till en omslagsbild till en post](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+* Du kan redigera fältordningen på en posts informationssida. Mer information finns i [Hantera postsidans layout](/help/quicksilver/planning/records/manage-the-record-page.md).
 * Du kan redigera postens Start- och slutdatum genom att ändra storlek på eller flytta posterna i tidslinjen och kalendervyn.
 
-  Du kan inte ändra storlek på eller flytta poster när start- och slutdatumet som du valde för posten är skrivskyddade. Om du till exempel använder uppslags- eller formelfält för start- och slutdatumet för en post kan du inte ändra storlek på eller flytta posten i en tidslinje- och kalendervy. <!--this also repeats below, for the timeline and the calendar views; also update there, if this changes-->
+  Du kan inte ändra storlek på eller flytta poster när start- och slutdatumet som du valde för posten är skrivskyddade. Du kan till exempel inte ändra storlek på eller flytta posten i en tidslinje och kalendervy när du använder uppslags- eller formelfält för start- och slutdatumet för en post. <!--this also repeats below, for the timeline and the calendar views; also update there, if this changes-->
+
+  Om du vill redigera posternas datum kan du läsa något av följande avsnitt i den här artikeln:
+
+   * [Redigera en post i kalendervyn för en posttyp](#edit-a-record-in-the-calendar-view-of-a-record-type)
+   * [Redigera en post i tidslinjevyn för en posttyp](#edit-a-record-in-the-timeline-view-of-a-record-type)
+
 
 ## Redigera poster
 
@@ -161,10 +165,6 @@ Du kan redigera en post i följande områden:
 * [Postens förhandsgranskning i en vy](#edit-a-record-from-the-records-preview-in-a-view)
 * [Postens sida](#edit-a-record-from-the-records-page)
 * [Ett Workfront-objekt i Planning-avsnittet](#edit-a-record-from-a-workfront-object-in-the-planning-section)
-
-Så här redigerar du posternas datum:
-
-* [Ändra storlek på posternas fält i tidslinjen och kalendervyn]
 
 ### Redigera en post textbundet i tabellvyn för en posttyp
 
@@ -271,15 +271,13 @@ Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create
 
    >[!IMPORTANT]
    >
-   >Du kan inte dra och släppa ändarna av ett postfält eller dra och släppa posten till ett annat datum när start- och slutdatumet som du valde för posten är skrivskyddade. Om du till exempel använder uppslags- eller formelfält för start- och slutdatumet för en post kan du inte ändra storlek på eller flytta posten i en tidslinjevy. <!--this also repeats in Considerations and in editing in the calendar view; also update there, if this changes-->
+   >Du kan inte dra och släppa ändarna av ett postfält eller dra och släppa posten till ett annat datum när start- och slutdatumet som du valde för posten är skrivskyddade. Du kan till exempel inte ändra storlek på eller flytta posten i en tidslinjevy när du använder uppslags- eller formelfält för start- och slutdatumet för en post. <!--this also repeats in Considerations and in editing in the calendar view; also update there, if this changes-->
 
 1. Klicka på fältet för en post för att öppna dess informationsområde och redigera alla fält.
 
-   Mer information finns i avsnittet [Redigera en post från postens förhandsgranskning i vyn &#x200B;](#edit-a-record-from-the-records-preview-in-a-view) i den här artikeln.
+   Mer information finns i avsnittet [Redigera en post från postens förhandsgranskning i vyn ](#edit-a-record-from-the-records-preview-in-a-view) i den här artikeln.
 
 ### Redigera en post i kalendervyn för en posttyp
-
-<!--add another step about drag and drop here when that is available-->
 
 1. Öppna posttypssidan i en kalendervy. Mer information finns i [Hantera kalendervyn](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 1. (Villkorligt) Håll markören över ändarna på en posts fält i kalendervyn och klicka sedan på, dra och släpp marginalerna till ett annat datum. Detta uppdaterar automatiskt postens start- eller slutdatum.
@@ -290,11 +288,11 @@ Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create
 
    >[!IMPORTANT]
    >
-   >Du kan inte dra och släppa ändarna av ett postfält eller dra och släppa posten till ett annat datum när start- och slutdatumet som du valde för posten är skrivskyddade. Om du till exempel använder uppslags- eller formelfält för start- och slutdatumet för en post kan du inte ändra storlek på eller flytta posten i en kalendervy. <!--this also repeats in Considerations and in editing in the timeline view; also update there, if this changes-->
+   >Du kan inte dra och släppa ändarna av ett postfält eller dra och släppa posten till ett annat datum när start- och slutdatumet som du valde för posten är skrivskyddade. Du kan till exempel inte ändra storlek på eller flytta posten i en kalendervy när du använder uppslags- eller formelfält för start- och slutdatumet för en post. <!--this also repeats in Considerations and in editing in the timeline view; also update there, if this changes-->
 
 1. Klicka på fältet för en post för att öppna dess informationsområde och redigera alla fält.
 
-   Mer information finns i avsnittet [Redigera en post från postens förhandsgranskning i vyn &#x200B;](#edit-a-record-from-the-records-preview-in-a-view) i den här artikeln.
+   Mer information finns i avsnittet [Redigera en post från postens förhandsgranskning i vyn ](#edit-a-record-from-the-records-preview-in-a-view) i den här artikeln.
 
 ### Redigera en post från postens förhandsgranskning i en vy
 
@@ -389,7 +387,7 @@ Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create
 
    eller
 
-   Håll pekaren över den befintliga omslagsbilden och klicka sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) > **Överför** för att lägga till en ny omslagsbild för posten.
+   Håll pekaren över den befintliga omslagsbilden och klicka sedan på menyn **Mer** ![Mer ](assets/more-menu.png) > **Överför** för att lägga till en ny omslagsbild för posten.
 
    Mer information finns i [Lägga till en omslagsbild till en post](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
@@ -444,5 +442,5 @@ Så här lägger du till ett nytt val i ett befintligt markeringsfält när du r
 
    Det nya alternativet läggs omedelbart till i fältet för en markering.
 
-   <span class="preview">Ett nytt alternativvärde läggs också till för varje alternativ. Du kan använda valvärden i API-anrop eller andra integreringar. Mer information finns i [Skapa fält](/help/quicksilver/planning/fields/create-fields.md). </span>
+   Ett nytt urvalsvärde läggs också till för varje val. Du kan använda valvärden i API-anrop eller andra integreringar. Mer information finns i [Skapa fält](/help/quicksilver/planning/fields/create-fields.md).
 

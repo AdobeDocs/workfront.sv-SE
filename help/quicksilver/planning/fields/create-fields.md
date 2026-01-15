@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '5487'
+source-wordcount: '5427'
 ht-degree: 0%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=sv-SE ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -24,9 +24,9 @@ ht-degree: 0%
 
 <!--information about choice values must stay in yellow till Jan 2026-->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -327,20 +327,20 @@ Du kan använda ett flervalsfält för att hämta ytterligare information i valf
 
    Det nya flervalsfältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster.
 
-1. <span class="preview">(Valfritt) Håll markören över fältnamnet i tabellvyn, klicka på listrutan till höger om fältnamnet och klicka sedan på **Redigera fält**.</span>
-1. <span class="preview">Aktivera inställningen **Visa värden** om du vill visa värdena för varje val. Värdena är namnen på de olika alternativen, så som de visas i Workfront-databasen. </span>
+1. (Valfritt) Håll markören över fältnamnet i tabellvyn, klicka på den nedrullningsbara menyn till höger om fältnamnet och klicka sedan på **Redigera fält**.
+1. Aktivera inställningen **Visa värden** om du vill visa värdena för varje val. Värdena är namnen på de olika alternativen, så som de visas i Workfront-databasen.
 
    >[!NOTE]
    >
-   >* <span class="preview">Workfront tilldelar unika värden för varje val. </span>
+   >* Workfront tilldelar unika värden för varje val.
    >
-   >* <span class="preview">Värdena matchar urvalsnamnet i gemener. Flera ord avgränsas med ett understreck. </span>
+   >* Värdena matchar urvalsnamnet i gemener. Flera ord avgränsas med ett understreck.
    >
-   >* <span class="preview">Värden kan upprepas mellan flera fält, men de måste vara unika för ett fält.</span>
+   >* Värden kan upprepas mellan flera fält, men de måste vara unika för ett fält.
    >
-   ><span class="preview"> ![Visa värdeväxlingsknapp](assets/show-values-toggle-and-choices-with-values.png)</span>
+   > ![Visa värdeväxlingsknapp](assets/show-values-toggle-and-choices-with-values.png)
 
-1. <span class="preview">(Valfritt) Använd valvärden i dina API-anrop och andra integreringar. </span>
+1. (Valfritt) Använd valvärden i API-anrop och andra integreringar.
 
 ### Enkelval {#single-select}
 
@@ -375,20 +375,20 @@ Med envalsfält hämtas ytterligare information i valfritt format genom att du v
 
    Det nya envalsfältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster.
 
-1. <span class="preview">(Valfritt) Håll markören över fältnamnet i tabellvyn, klicka på listrutan till höger om fältnamnet och klicka sedan på **Redigera fält**.</span>
-1. <span class="preview">Aktivera inställningen **Visa värden** om du vill visa värdena för varje val. Värdena är namnen på de olika alternativen, så som de visas i Workfront-databasen. </span>
+1. (Valfritt) Håll markören över fältnamnet i tabellvyn, klicka på den nedrullningsbara menyn till höger om fältnamnet och klicka sedan på **Redigera fält**.
+1. Aktivera inställningen **Visa värden** om du vill visa värdena för varje val. Värdena är namnen på de olika alternativen, så som de visas i Workfront-databasen.
 
    >[!NOTE]
    >
-   >* <span class="preview">Workfront tilldelar unika värden för varje val. </span>
+   >* Workfront tilldelar unika värden för varje val.
    >
-   >* <span class="preview">Värdena matchar urvalsnamnet i gemener. Flera ord avgränsas med ett understreck. </span>
+   >* Värdena matchar urvalsnamnet i gemener. Flera ord avgränsas med ett understreck.
    >
-   >* <span class="preview">Värden kan upprepas mellan flera fält, men de måste vara unika för ett fält.</span>
+   >* Värden kan upprepas mellan flera fält, men de måste vara unika för ett fält.
    >
-   ><span class="preview"> ![Visa värdeväxlingsknapp](assets/show-values-toggle-and-choices-with-values.png)</span>
+   > ![Visa värdeväxlingsknapp](assets/show-values-toggle-and-choices-with-values.png)
 
-1. <span class="preview">(Valfritt) Använd valvärden i dina API-anrop och andra integreringar. </span>
+1. (Valfritt) Använd valvärden i API-anrop och andra integreringar.
 
 ### Datum {#date}
 
@@ -575,7 +575,7 @@ Mer information finns i [Översikt över formelfält](/help/quicksilver/planning
    >
    >* Du kan referera till ett fält som är upp till fyra fält (och objekt) utanför den aktuella posttypen. Om du till exempel skapar ett formelfält för en aktivitetsposttyp (1) och aktiviteten är kopplad till kampanjposttypen (2) som är kopplad till ett Workfront-projekt (3), kan du referera till projektets budgetfält (4) i formeln som du skapar för aktivitetsposttypen.
    >
-   >![Formelexempel för projektbudget fyra fält har tagits bort &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Formelexempel för projektbudget fyra fält har tagits bort ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Valfritt) Klicka på **Maximera** för att öppna formelrutan i ett större område.

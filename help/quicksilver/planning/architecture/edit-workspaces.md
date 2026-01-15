@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '673'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Redigera arbetsytor
 
-<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -132,9 +132,7 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 1. (Villkorligt) Om du är Workfront-administratör klickar du på något av följande:
 
    * **Arbetsytor jag är på** för att komma åt arbetsytor du har skapat
-   * **Andra arbetsytor** för att komma åt arbetsytor som andra delar med dig
-eller
-     <span class="preview">**Alla arbetsytor** för att komma åt arbetsytor som delas med dig eller arbetsytor som du har skapat</span>
+   * **Alla arbetsytor** för att komma åt arbetsytor som delas med dig eller arbetsytor som du har skapat
 
 1. (Valfritt) Klicka på **Visa alla** om du vill visa ytterligare arbetsytor. Länken **Visa alla** visas bara när du har fler än två rader med arbetsytekort.
 1. (Valfritt) Klicka på **Visa färre** om du vill begränsa antalet arbetsytor som visas på skärmen.
@@ -142,7 +140,7 @@ eller
 
    * Håll pekaren över arbetsytans kort och klicka sedan på menyn **Mer** ![Mer](assets/more-menu.png) i kortets övre högra hörn
 eller
-   * <span class="preview"> Klicka på ikonen **sök** ![Sök &#x200B;](assets/search-icon.png) i det övre högra hörnet på sidan Arbetsytor om du vill söka efter en arbetsyta med namnet </span> och klicka på ett arbetsytekort om du vill öppna arbetsytan. Klicka sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om arbetsytans namn.
+   * Klicka på ikonen **sök** ![Sök ](assets/search-icon.png) i det övre högra hörnet på sidan Arbetsytor om du vill söka efter en arbetsyta efter namn och klicka på ett arbetsytekort för att öppna arbetsytan. Klicka sedan på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om arbetsytans namn.
 1. Klicka på **Redigera**.
 
    Rutan **Arbetsytan för redigering** visas.

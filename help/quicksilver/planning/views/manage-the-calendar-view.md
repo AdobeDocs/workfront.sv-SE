@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1847'
+source-wordcount: '1776'
 ht-degree: 0%
 
 ---
 
 # Hantera kalendervyn
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -221,7 +221,7 @@ Så här lägger du till ett filter i en kalendervy:
 1. Välj en kalendervy och klicka sedan på **Filter** i kalenderns verktygsfält.
 1. Klicka på **Lägg till villkor** och lägg till följande information:
 
-   * **Välj ett fält** för att <span class="preview">söka efter ett fält eller </span> klicka på listrutan för att visa en lista med fält och markera det i listan
+   * **Välj ett fält** om du vill söka efter ett fält och markera det i listan
 
    * **Välj ett alternativ** (eller en filtermodifierare) för att definiera vilken typ av villkor fältet måste uppfylla
 

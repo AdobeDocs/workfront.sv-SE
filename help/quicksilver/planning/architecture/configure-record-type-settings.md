@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 # Konfigurera inställningsområdet för en posttyp
 
-<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -63,17 +63,15 @@ Beroende på vilka funktioner du vill definiera för en posttyp kan du konfigure
 eller
 <li><p>Alla arbetsflödespaket och ett Planning Prime- eller Ultimate-paket</p></li></ul>
 
-<div class="preview">
-
 <p>Så här konfigurerar du globala posttyper:</p>
 
 <ul> 
 <li><p>Alla Workfront-paket och ett Planning Plus-paket</p></li>
 eller
 <li><p>Alla arbetsflödespaket och ett Planning Prime- eller Ultimate-paket</p></li></ul>
-<p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
-</div>
-   </td> </tr>
+<p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p>
+
+</td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
    <td><p>Standard</p>

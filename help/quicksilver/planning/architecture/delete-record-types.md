@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1075'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 # Ta bort posttyper
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -52,12 +52,12 @@ Mer information om posttyper finns i [Översikt över posttyper](/help/quicksilv
 <li><p>Alla Workfront- och Planning-paket</p></li>
 eller
 <li><p>Alla arbetsflöden och alla planeringsdokument</p></li></ul>
-<div class="preview">
+
 <p>Så här tar du bort globala posttyper:</p>
 <ul><li><p>Alla Workfront-paket och ett Planning Plus-paket</p></li>
 eller
 <li><p>Alla arbetsflöden och ett Planning Prime- eller Ultimate-paket</p></li></ul>
-</div>
+
 <p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
    </td> 
   <tr> 
@@ -150,13 +150,9 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 * Du kan inte återställa borttagna posttyper eller deras information.
 * Vi rekommenderar att du återskapar de fält och poster som är kopplade till den posttyp som du vill ta bort på en annan posttyp innan du tar bort dem.
 
-<div class="preview">
-
 * Du kan inte ta bort en global posttyp som har lagts till i andra arbetsytor.
 
   Mer information finns i avsnittet [Ta bort globala posttyper](#delete-global-record-types) i den här artikeln.
-
-</div>
 
 ## Ta bort posttyper
 
@@ -174,14 +170,16 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
    * Håll markören över posttypkortet, klicka på menyn **Mer** och sedan på **Ta bort**.
    * Klicka på kortet för den posttyp som du vill ta bort och klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om posttypens namn på posttypssidan och klicka sedan på **Ta bort**.
 
-   ![Ta bort posttypsbekräftelse permanent](assets/permanently-delete-record-type-confirmation.png)
+     >[!TIP]
+     >
+     >Du kan inte ta bort en global posttyp från den sekundära arbetsytan där den lades till från posttypssidan. Du kan bara ta bort den från posttypskortet på arbetsytan.
+
+     ![Ta bort posttypsbekräftelse permanent](assets/permanently-delete-record-type-confirmation.png)
 
 
 1. Skriv **delete** i bekräftelserutan och klicka sedan på **Ta bort permanent**. Detta är inte skiftlägeskänsligt.
 
    Den valda posttypen, tillsammans med deras fält, associerade poster och vyer, tas bort och kan inte återställas.
-
-<div class="preview">
 
 ## Ta bort globala posttyper
 
@@ -189,11 +187,13 @@ Följande scenarier gäller när globala posttyper tas bort:
 
 * Om en posttyp som konfigurerats som global ännu inte har lagts till på en annan arbetsyta kan du ta bort den från den ursprungliga arbetsytan.
 
-* Om en posttyp som konfigurerats som en global posttyp har lagts till i minst en annan arbetsyta, kan du inte ta bort den från den ursprungliga arbetsytan. Du måste först ta bort (genom att ta bort) globala posttyper från de sekundära arbetsytorna där de lades till och sedan ta bort den globala posttypen permanent från den ursprungliga arbetsytan.
+* Om en posttyp som konfigurerats som en global posttyp har lagts till i minst en annan arbetsyta, kan du inte ta bort den från den ursprungliga arbetsytan. Du måste först ta bort (genom att ta bort) den globala posttypen från de sekundära arbetsytorna där de lades till och sedan ta bort den globala posttypen permanent från den ursprungliga arbetsytan.
 
 ### Ta bort en global posttyp från den ursprungliga arbetsytan
 
 Du kan ta bort en posttyp från den ursprungliga arbetsytan om den inte längre är relevant.
+
+Alla poster och fält tas också bort och kan inte återställas.
 
 1. Gå till den globala posttypen på den ursprungliga arbetsytan.
 
@@ -209,7 +209,7 @@ Du kan ta bort en posttyp från den ursprungliga arbetsytan om den inte längre 
    Följande saker händer:
 
    * Den globala posttypen tas bort från den ursprungliga arbetsytan och posttypen, dess poster och fält kan inte återställas.
-   * Alla globala posttyper från de sekundära arbetsytorna och deras poster tas också bort.
+   * Alla globala poster från de sekundära arbetsytorna och deras poster tas också bort från den här arbetsytan.
 
 ### Ta bort en global posttyp från en sekundär arbetsyta
 
@@ -217,11 +217,13 @@ Du kan ta bort en posttyp som du har lagt till från en annan arbetsyta om den i
 
 Tänk på följande:
 
-* Om du tar bort en global posttyp från en sekundär arbetsyta tas den bara bort från den sekundära arbetsytan. Posttypen finns kvar på den ursprungliga arbetsytan.
+* När du tar bort en global posttyp från en sekundär arbetsyta finns posttypen kvar på den ursprungliga arbetsytan.
 
 * När du tar bort en global posttyp från en sekundär arbetsyta tas även följande bort:
 
-   * Posterna som lagts till från den sekundära arbetsytan.
+   * Posterna som läggs till från den sekundära arbetsytan tas bort från den sekundära arbetsytan och kan inte återskapas.
+
+     Poster som läggs till på den sekundära arbetsytan finns kvar på den primära arbetsytan för den globala posttypen. Fältet **Workspace** är tomt för de här posterna på den primära arbetsytan för den globala posttypen. <!--checking on this with Lilit-->
 
   <!--Coming later: * The fields added from the secondary workspace.-->
 
@@ -233,16 +235,16 @@ Ta bort en global posttyp från en sekundär arbetsyta:
 
 1. Gå till den globala posttypen på den sekundära arbetsytan.
 
-1. (Valfritt) Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) på posttypens kort, eller till höger om posttypens namn på sidan, och klicka sedan på **Ta bort**.
+1. (Valfritt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) på posttypens kort och klicka sedan på **Ta bort**.
 1. (Villkorligt) Skriv **delete** i det angivna fältet och klicka sedan på **Ta bort permanent**.
 
    ![Ta bort bekräftelseruta för den sekundära globala posttypen](assets/delete-secondary-global-record-type.png)
 
    Följande saker händer:
 
-   * Posttypen som skapas från en global posttyp tas bort från den valda arbetsytan.
+   * Posttypen som skapas från en global posttyp tas bort från den valda sekundära arbetsytan.
    * Den ursprungliga posttypen med dess fält finns kvar på den ursprungliga arbetsytan.
    * Posttypen finns kvar på alla andra arbetsytor där den har lagts till.
-   * Posterna <!--and fields--> som lagts till i posttypen från den aktuella arbetsytan tas bort. Alla andra poster som läggs till från ytterligare arbetsytor där den globala posttypen lades till bevaras på deras respektive arbetsytor och på den ursprungliga arbetsytan. &lt;!—Fält bevaras i de arbetsytor där de lades till.
+   * Posterna <!--and fields--> som lagts till i posttypen från den sekundära arbetsytan tas bort. Alla andra poster som läggs till från ytterligare arbetsytor där den globala posttypen lades till bevaras på deras respektive arbetsytor och på den ursprungliga arbetsytan. &lt;!—Fält bevaras i de arbetsytor där de lades till.
 
-</div>
+

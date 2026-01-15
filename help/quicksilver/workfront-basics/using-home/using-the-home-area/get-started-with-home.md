@@ -6,9 +6,9 @@ description: Home hjälper dig att hantera ditt arbete. Du kan anpassa det här 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '991'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 <!--Audited: 12/2023-->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 >[!IMPORTANT]
 >
@@ -70,13 +70,10 @@ Nedan finns de 11 widgetarna som du kan välja bland, samt en sammanfattning av 
         Visar 2 diagram med information om genomsnittlig tid för godkännande av dokument och beslut samt en lista över väntande och försenade godkännanden. Du måste ha [Enhetliga godkännanden](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) aktiverat för att kunna använda den här widgeten.
 
 * **Meningar**\
-    I produktionsmiljön visas de senaste kommentarstrådarna från hela Workfront, ungefär som på sidan Mina uppdateringar. Du kan använda svarsknappen för att skapa ett svar i widgeten. Den här widgeten visar också kommentarer som gjorts för uppgifter och problem som du har tilldelats, som du har tilldelat en annan användare, som du äger, som du är den primära kontakten för eller som du har skapat, så länge som uppgiften eller utgåvan har uppdaterats de senaste 30 dagarna.
+        Här visas de senaste kommentarer som du har gjort eller kommentarer där andra användare har taggat dig som har lagts till de senaste två veckorna. Du kan använda svarsknappen för att skapa ett svar i widgeten.
 
-  <div class="preview">
+  <!--old: In the Production environment, it displays recent comment threads from across Workfront, similar to the My Updates page. You can use the reply button to compose a reply within the widget. This widget also shows comments made on tasks and issues that you are assigned to, that you assigned to another user, that you own, that you are primary contact on, or that you created—as long as the task or issue has been updated in the last 30 days.-->
 
-  I förhandsvisningsmiljön visas de senaste kommentarerna du gjort eller kommentarer där andra användare taggade dig som du har lagt till de senaste två veckorna. Du kan använda svarsknappen för att skapa ett svar i widgeten.
-
-  </div>
 
 * **Att göra**\
     Med den här unika widgeten kan du lägga till objekt i en personlig checklista som du kan redigera fritt. Att göra-uppgifter spåras som uppgifter i ditt personliga projekt och stannar i upp till två veckor efter att de har slutförts.
@@ -149,7 +146,7 @@ Du kan lägga till lite personlig överstrålning på hemsidan genom att välja 
 
 1. Gå till hemsidan genom att göra något av följande:
 
-   * Om Hem är inställt som landningssida klickar du på ikonen **Adobe Workfront** ![Adobe Workfront &#x200B;](assets/home-icon-30x29.png) i skärmens övre vänstra hörn.
+   * Om Hem är inställt som landningssida klickar du på ikonen **Adobe Workfront** ![Adobe Workfront ](assets/home-icon-30x29.png) i skärmens övre vänstra hörn.
    * Klicka på ikonen **Huvudmeny** i det övre högra hörnet av skärmen eller på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre vänstra hörnet, om den är tillgänglig, och klicka sedan på **Hem** .
 
 1. Klicka på **Anpassa** längst upp till höger på skärmen.

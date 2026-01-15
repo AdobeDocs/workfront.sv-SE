@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1674'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Posttypöversikt för arbetsytan över flera arbetsytor
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span> -->
 
 {{planning-important-intro}}
 
@@ -37,27 +37,24 @@ Du kan aktivera funktioner för olika arbetsytor för en posttyp i Adobe Workfro
 >
 >* Alla arbetsflöden och ett Planning Prime- eller Ultimate-paket
 >
-><span class="preview">Så här konfigurerar du globala posttyper:</span>
+>Så här konfigurerar du globala posttyper:
 >
->* <span class="preview">Alla Workfront-paket och ett Planning Plus-paket</span>
+>* Alla Workfront-paket och ett Planning Plus-paket
 >     
 >   eller
 >
->* <span class="preview">Alla arbetsflöden och ett Planning Prime- eller Ultimate-paket</span>
+>* Alla arbetsflöden och ett Planning Prime- eller Ultimate-paket
 >
 >Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront.
 >Mer information finns i [Åtkomstöversikt för Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
-
 Följande är funktioner för olika arbetsytor för posttyper:
 
-* <span class="preview">**Globala posttyper**: Användare kan lägga till globala posttyper i andra arbetsytor som de hanterar.</span>
+* **Globala posttyper**: Användare kan lägga till globala posttyper i andra arbetsytor som de hanterar.
 
 * **Anslutningsbara posttyper**: Användare kan ansluta till den här posttypen från andra arbetsytor.
 
 I den här artikeln finns en översikt över posttyper för arbetsytor. Mer information om hur du definierar en posttyps funktioner för arbetsytan mellan olika arbetsytor finns i [Konfigurera funktioner för arbetsytor mellan arbetsytor för posttyper](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
-
-<div class="preview">
 
 ## Översikt över globala posttyper
 
@@ -141,21 +138,22 @@ Posttypen som konfigurerats som global har följande egenskaper:
 
    * Ta bort den.
 
-     Om du tar bort posttypen från en sekundär arbetsyta tas den bara bort från den sekundära arbetsytan. Posterna och fälten som läggs till i den sekundära arbetsytan tas också bort. Detta tar inte bort posttypen från den ursprungliga arbetsytan eller från andra sekundära arbetsytor där den har lagts till.
+     Om du tar bort posttypen från en sekundär arbetsyta tas den bara bort från den sekundära arbetsytan. Posterna och fälten som läggs till i den sekundära arbetsytan tas också bort från den sekundära arbetsytan. Posterna som läggs till i den sekundära arbetsytan finns kvar på den primära arbetsytan. Detta tar inte bort posttypen från den ursprungliga arbetsytan eller från andra sekundära arbetsytor där den har lagts till.
 
      Mer information finns i [Ta bort posttyper](/help/quicksilver/planning/architecture/delete-record-types.md).
+
+   * Dela
+
+     Genom att dela en global posttyp på en sekundär arbetsyta händer följande också:
+
+      * Användare läggs till på arbetsytan med behörigheten Visa.
+      * Användarna får samma behörigheter som alla poster av den globala posttypen på den sekundära arbetsytan.
    * Dela vyerna för posttyperna.
 
      Du kan inte dela en vy offentligt från en global posttyp på en sekundär arbetsyta. Du kan bara dela vyer internt från en sekundär arbetsyta. Du kan dela en vy internt och offentligt för en global posttyp på den ursprungliga arbetsytan.
 
      Mer information finns i [Dela vyer](/help/quicksilver/planning/access/share-views.md).
 
-<!--Uncomment this at prod on Jan 15: * Share it-->
-
-<!--You can share a global record type added to a secondary workspace from the secondary space. By sharing a global record type in a secondary workspace, the following also occur:
-
-    * Users are added to the workspace with View permissions.
-    * Users receive the same permissions to all the records of the global record type in the secondary workspace.-->
 
 <!--when they will be able to add fields to the secondary space, this bullet will need this extra information: 
     After adding fields to the global record type in the secondary workspace, shared views might not open for other users in workspaces. The fields exist only in the secondary workspace and they would not be visible in any other workspace. Only fields created in the primary workspace are visible in all secondary workspaces where there the record type is added.-->
@@ -171,7 +169,6 @@ Posttypen som konfigurerats som global har följande egenskaper:
    * Redigera den
 
      Du kan inte redigera utseendet, funktionerna för en arbetsyta eller fälten som lagts till från den ursprungliga arbetsytan.
-   * Dela den <!-- remove this at Prod on Jan 15-->
    * Skapa och hantera förfrågningsformulär
    * Skapa och hantera automatisering
 
@@ -192,6 +189,7 @@ Posttypen som konfigurerats som global har följande egenskaper:
    * Om du har behörigheten Hantera på den ursprungliga arbetsytan, och inga behörigheter på en sekundär arbetsyta, kan du visa poster som lagts till från den sekundära arbetsytan i den ursprungliga arbetsytan, men du kan inte hantera dem från den ursprungliga arbetsytan.
    * Om du har behörigheten Hantera på den sekundära arbetsytan kan du hantera posterna både från den globala posttypens ursprungliga arbetsyta och från den sekundära arbetsytan där de lades till.
    * Du kan bara visa posterna på ytterligare sekundära arbetsytor där den globala posttypen läggs till om du har behörigheten Visa på dessa arbetsytor. <!-- take this bullet out when we change this functionality on Jan 15-->
+* Du kan inte dela vyer offentligt från en global posttyp på en sekundär arbetsyta.
 
 ### Åtkomst till anslutningar av global posttyp
 
@@ -206,8 +204,6 @@ Följande fall finns:
 * Om användaren har åtkomst skapas posten på den globala posttypens ursprungliga arbetsyta.
 
 * Om användaren inte har åtkomst får användaren ett felmeddelande om att han/hon inte har åtkomst till den globala posttypens ursprungliga arbetsyta och måste ange det arbetsyte-ID där han/hon har åtkomst för att skapa poster.
-
-</div>
 
 ## Översikt över kopplingsbara posttyper
 

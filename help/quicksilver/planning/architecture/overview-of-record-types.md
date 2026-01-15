@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Översikt över posttyper
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -45,13 +45,19 @@ Mer information om hur du skapar posttyper finns i [Skapa posttyper](/help/quick
    * **Driftsposttyper**: Posttyper som representerar strategiska planer, initiativ eller planerade arbeten. Exempel: Campaign, Activity, Tactic, Opportunity är operativa posttyper.
    * **Taxonomier**: Posttyper som samlar in attribut om en operativ posttyp. Till exempel är Region, Adress och Audience taxonomier.
 
-  Du kan byta namn på eller ta bort dessa avsnitt eller skapa fler.
+  Du kan byta namn på eller ta bort avsnitten och posttyperna, eller skapa mer.
 
 * När du skapar en posttyp på en arbetsyta som du har skapat från grunden kan du placera posttypen i vilket avsnitt som helst som du skapar på arbetsytan.
-* När du skapar en posttyp kan bara du och de du ger behörighet att komma åt arbetsytan visa posttypen.
+* När du skapar en posttyp kan bara du och de du ger behörighet att komma åt arbetsytan och posttypen komma åt den.
 * Du måste skapa en arbetsyta innan du kan skapa posttyper för arbetsytan.
-* Information om begränsningar för hur många posttyper du kan ha på en arbetsyta eller i en Workfront-instans finns i [Översikt över begränsningar för Adobe Workfront Planning-objekt](/help/quicksilver/planning/general/limitations-overview.md).
-* <span class="preview">Du kan ange posttyper som globala. Globala posttyper kan läggas till som befintliga posttyper på andra arbetsytor. Mer information finns i [ConfConfigure cross-workspace capabilities for record type](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).</span>
+
+  Information om begränsningar för hur många posttyper du kan ha på en arbetsyta eller i en Workfront-instans finns i [Översikt över begränsningar för Adobe Workfront Planning-objekt](/help/quicksilver/planning/general/limitations-overview.md).
+* Om du vill använda posttyper på mer än en arbetsyta kan du ange posttyper som globala eller anslutningsbara.
+
+   * Globala posttyper kan läggas till som befintliga posttyper på andra arbetsytor.
+   * Kopplingsbara posttyper kan anslutas till från andra arbetsytor.
+
+  Mer information finns i [Konfigurera funktioner för arbetsytan över flera arbetsytor för posttyper](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
 
 <!--
