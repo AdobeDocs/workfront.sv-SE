@@ -4,7 +4,7 @@ description: Den här sidan innehåller information om de funktioner som ingår 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d3f58a1d25b353b45e68e4910a4340052a49c4d4
+source-git-commit: d66ff030bbc06436c9212352e53fbd9f8241d8c0
 workflow-type: tm+mt
 source-wordcount: '2885'
 ht-degree: 0%
@@ -499,8 +499,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>För att ge företag och organisationer tillgång till fördelarna med Adobe Unified Experience fortsätter vi att göra den tillgänglig för befintliga Workfront-kunder.</p>
         </td>
         <td><p>11 december 2025</p></td>
-        <td><p>15 januari 2026</p></td>
-        <td><p>15 januari 2026</p></td>
+        <td><p>11 februari 2026</p></td>
+        <td><p>11 februari 2026</p></td>
     <tr>
             </tbody>
         </table>
@@ -524,7 +524,7 @@ Vi uppdaterar gränssnittet i hela Adobe Workfront för att förbättra använda
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Förbättringar av Workfront Planning
 
@@ -597,13 +597,13 @@ För att kunna leverera mer stabila och skalbara integreringar går vi över til
 * Workfront för Salesforce.
 
 Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Google Workspace.
-En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Underhållsuppdateringar för Workfront
 
-Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=sv-SE).
+Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan &#x200B;](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=sv-SE).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
