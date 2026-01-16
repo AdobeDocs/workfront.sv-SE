@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+source-git-commit: 85c6985d27ef0806e9152ecf2cbd90ca63a588c6
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1523'
 ht-degree: 0%
 
 ---
@@ -236,7 +236,7 @@ Systemet genererar en loggpost för gruppgranskning när en användare utför n�
    * Lägger till eller tar bort användare
    * Lägger till eller tar bort undergrupper
 
-### s {#job-role}
+### Jobbroller {#job-role}
 
 Systemet genererar en loggpost för jobbrollsgranskning när en användare utför någon av följande åtgärder:
 
