@@ -3,9 +3,9 @@ title: Dokumentation för [!DNL Adobe Workfront]
 description: Dokumentation för  [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 37ec4097e4f48f8dab108c8f4a18790896306be5
+source-git-commit: 01455d74f1cef626d0838a2d55586e1b4f35a0e7
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '383'
 ht-degree: 1%
 
 ---
@@ -20,9 +20,17 @@ Välkommen till Adobe Workfront hemsida för produkt och teknisk dokumentation. 
 
 >[!TAB Senaste versionen]
 
+* [Andra utgåvan, kvartal 2026, översikt](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
+* [Adobe Workfront Planning - lanseringsaktivitet](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
+* [Versionsaktivitet för Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+
+>[!TAB 2026-utgåvor]
+
+* [Andra utgåvan, kvartal 2026, översikt](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
 * [Första utgåvan, kvartal 2026, översikt](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)
 * [Adobe Workfront Planning - lanseringsaktivitet](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)
-* [Versionsaktivitet för Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+
+
 
 >[!TAB 2025-utgåvor]
 
@@ -33,15 +41,18 @@ Välkommen till Adobe Workfront hemsida för produkt och teknisk dokumentation. 
 * [Adobe Workfront Planning - lanseringsaktivitet](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)
 * [Versionsaktivitet för Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
 
+<!--
 
->[!TAB 2024-utgåvor]
+>[!TAB 2024 releases]
 
-* [Första utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
-* [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
-* [Översikt över utgåvan för tredje kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
-* [Fjärde kvartersversionen 2024 - översikt](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
-* [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
-* [Versionsaktivitet för Adobe Workfront Planning Four Quarter 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
+* [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
+* [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
+* [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
+* [Fourth Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
+* [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+* [Adobe Workfront Planning Fourth Quarter 2025 release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
+
+-->
 
 >[!TAB Betas]
 
@@ -49,8 +60,8 @@ Välkommen till Adobe Workfront hemsida för produkt och teknisk dokumentation. 
 
 >[!TAB Kända fel]
 
-* [Kända fel](https://experienceleague.adobe.com/sv/docs/workfront-known-issues/issues/overview)
-* [Underhållsuppdateringar](https://experienceleague.adobe.com/sv/docs/workfront-known-issues/releases/current-updates)
+* [Kända fel](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/overview)
+* [Underhållsuppdateringar](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)
 
 
 >[!ENDTABS]
@@ -69,7 +80,7 @@ Välkommen till Adobe Workfront hemsida för produkt och teknisk dokumentation. 
     <td>
     <ul>
     <li><a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md">Kom igång med Workfront Administration</a></li>
-    <li><a href="https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">Kom igång med Workfront Fusion</li>
+    <li><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">Kom igång med Workfront Fusion</li>
     <li><a href="/help/quicksilver/app-builder/install-apps-on-exchange.md">Hämta och installera program från Adobe Exchange</a></li>
     </ul>
  </td>
@@ -109,8 +120,8 @@ Att söka i dokumentation kan vara mer effektivt med några strategiska strategi
 
 ### Utforska utbildningsavsnitten
 
-* **Utbildningsmaterial**: Navigera till [Workfront utbildningssida](https://experienceleague.adobe.com/sv/browse/workfront) för ett bibliotek med utbildningsvideor och artiklar som är utformade för att hjälpa dig förstå Workfront funktioner och inställningar bättre. Du kan även få tillgång till betalt utbildningsmaterial på [learning.adobe.com](https://learning.adobe.com/).
-* **Kurser**: Hitta [strukturerade kurser](https://experienceleague.adobe.com/home?lang=sv-SE&Solution=Workfront#courses) som vägleder dig genom att använda olika Workfront-funktioner i en logisk sekvens.
+* **Utbildningsmaterial**: Navigera till [Workfront utbildningssida](https://experienceleague.adobe.com/en/browse/workfront) för ett bibliotek med utbildningsvideor och artiklar som är utformade för att hjälpa dig förstå Workfront funktioner och inställningar bättre. Du kan även få tillgång till betalt utbildningsmaterial på [learning.adobe.com](https://learning.adobe.com/).
+* **Kurser**: Hitta [strukturerade kurser](https://experienceleague.adobe.com/home?Solution=Workfront#courses) som vägleder dig genom att använda olika Workfront-funktioner i en logisk sekvens.
 
 ### Hitta svar i communityforum
 
