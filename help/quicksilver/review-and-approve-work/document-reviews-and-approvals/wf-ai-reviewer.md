@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: cf1d4bfeedb94e8607dad47177d804169254ee85
+source-git-commit: b926138cca96849f8c4490ec9550fecfd17da69a
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Om du överför en filtyp som inte stöds visas inte alternativet AI Reviewer n�
 
 ## Ställ in varumärkesriktlinjer
 
-Workfront AI Reviewer använder varumärkesriktlinjerna när du granskar ditt innehåll. Workfront-administratörer kan ange riktlinjer för varumärken under Konfigurera i Workfront. &lt;!—Varumärken som skapats i GenStudio Foundation finns också i Workfront.
+Workfront AI Reviewer använder varumärkesriktlinjerna när du granskar ditt innehåll. Workfront-administratörer kan ange riktlinjer för varumärken under Konfigurera i Workfront. <!--Brands created in GenStudio Foundation are also available in Workfront.-->
 
 Mer information finns i [Konfigurera varumärken för AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
