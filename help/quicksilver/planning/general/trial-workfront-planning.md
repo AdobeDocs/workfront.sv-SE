@@ -7,9 +7,9 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
+source-git-commit: 1158a49fc0b39ef49f23326935d4635530501687
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Adobe Workfront erbjuder för närvarande en 60-dagars kostnadsfri testversion av Adobe Workfront Planning.
 
-Testversionen finns tillgänglig mellan följande datum: 1 mars-1 maj 2026.
+Testversionen finns tillgänglig mellan följande datum: 2 mars - 1 maj 2026.
 
 >[!NOTE]
 >
@@ -52,13 +52,13 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 En av dina Workfront-administratörer måste granska och underteckna ett juridiskt avtal innan alla i organisationen får tillgång till den kostnadsfria provversionen av Workfront Planning.
 
-Du kan granska och signera avtalet innan testperioden börjar den 1 mars 2026.
+Du kan granska och signera avtalet innan testperioden börjar den 2 mars 2026.
 
 <!--check the steps here at release-->
 
 1. Gör något av följande om du vill granska och godkänna det juridiska avtalet:
 
-   1. Före den 1 mars 2026 ska du göra följande:
+   1. Före den 2 mars 2026 ska du göra följande:
       1. Logga in på Adobe Workfront som systemadministratör.
       1. Följ banderollen i appen som innehåller information om testversionen av **Workfront Planning**
 
@@ -68,7 +68,7 @@ Du kan granska och signera avtalet innan testperioden börjar den 1 mars 2026.
       1. Klicka på **Granska utvärderingsavtal**. <!--not sure if this will be available in the email/ banner, or if they can go to System Preferences to do this - might need to adjust the steps here-->
       1. Klicka på **Acceptera** när du har granskat avtalet.
 
-   1. Efter 1 mars 2026 gör du följande när testversionen startas:
+   1. Efter 2 mars 2026 gör du följande när testversionen startas:
 
       1. Logga in på Adobe Workfront som systemadministratör.
       1. Följ banderollen i appen som innehåller information om testversionen av **Workfront Planning**
@@ -85,11 +85,11 @@ Du kan granska och signera avtalet innan testperioden börjar den 1 mars 2026.
 
          Din organisation deltar nu i testversionen av Workfront Planning fram till 1 maj 2026.
 
-         Efter den 1 mars 2026 beviljas följande behörigheter för de data som är tillgängliga på fliken **Arbetsytor för bästa praxis** i området **Testversion av planering**:
+         Efter 2 mars 2026 beviljas följande behörigheter för de data som är tillgängliga på fliken **Arbetsytor för bästa praxis** i området **Testversion av planering**:
 
          * Alla systemadministratörer har behörigheten Hantera.
          * Alla andra användare har behörigheten Visa.
-      1. (Villkorligt) Efter 1 mars 2026 kan du börja utforska fliken **Arbetsytor för bästa praxis** och dela arbetsytor eller deras objekt med andra.
+      1. (Villkorligt) Efter 2 mars 2026 kan du börja utforska fliken **Arbetsytor för bästa praxis** och dela arbetsytor eller deras objekt med andra.
 
          Mer information om hur du använder Workfront Planning finns i [Kom igång med Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
@@ -101,9 +101,10 @@ Du kan granska och signera avtalet innan testperioden börjar den 1 mars 2026.
 
 Nedan följer några viktiga datum som är kopplade till Adobe Workfront Planning kostnadsfria testversion:
 
-* **1 mars 2026** - Testversionen av Workfront Planning startas.
+* **2 mars 2026** - Testversionen av Workfront Planning startas.
 * **1 maj 2026** - Testversionen av Workfront Planning avslutas och du har inte längre tillgång till Planning. Workfront skyddar dina data när testperioden är slut till och med 30 november 2026. Om du köper Workfront Planning under denna tid får du tillgång till Planning och dina data igen.
-* **30 november 2026** - Workfront gör inte längre dina data tillgängliga efter detta datum. Du kan fortfarande köpa Workfront Planning, men dina data tas bort efter detta datum.
+<!--Lauren wanted this out: 
+* **November 30, 2026** - Workfront no longer makes your data available after this date. You can still purchase Workfront Planning, but your data is removed after this date. -->
 
 <!--## Overview of the access to Workfront Planning -->
 

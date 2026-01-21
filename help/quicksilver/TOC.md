@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 5e12cf9e34adda0a2fb9e8026f2c94cdfc0b41fd
+source-git-commit: 1158a49fc0b39ef49f23326935d4635530501687
 workflow-type: tm+mt
-source-wordcount: '13689'
+source-wordcount: '13716'
 ht-degree: 0%
 
 ---
@@ -2105,6 +2105,10 @@ ht-degree: 0%
       * [Adobe Workfront Planning Release Activity för 2023](planning/general/release-activity-archives-2023.md)
       * [Översikt över begränsningar för Adobe Workfront Planning-objekt](planning/general/limitations-overview.md)
       * [Kom igång med den kostnadsfria testversionen av Adobe Workfront Planning](planning/general/trial-workfront-planning.md)
+   * Adobe Workfront Planning - bästa praxis {#adobe-workfront-planning-best-practices}
+      * [Adobe Workfront bästa praxis: artikelindex](planning/best-practices.md/best-practices-article-index.md)
+      * [30-dagars startplatta: lansera ditt strategiska hem](planning/best-practices.md/30-day-launchpad.md)
+      * [Framgångsramverket: utforma kampanjhierarkin](planning/best-practices.md/model-campaign-hierarchy.md)
    * Adobe Workfront Planning - arkitektur {#adobe-workfront-planning-architecture}
       * [Arkitektur: artikelindex](planning/architecture/architecture-information.md)
       * [Arbetsytor - översikt](planning/architecture/workspaces-overview.md)

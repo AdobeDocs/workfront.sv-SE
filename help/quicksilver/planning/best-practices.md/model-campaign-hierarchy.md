@@ -1,5 +1,5 @@
 ---
-title: 'The Blueprint of Success: Modeling Your Campaign Hierarchy'
+title: 'Framgångsramverket: Modellera er kampanjhierarki'
 description: Lär dig hur ni översätter komplexa affärsprocesser till en skalbar, styrd kampanjhierarki med"Centers of Gravity" och en arkitektur för flera arbetsytor.
 feature: Workfront Planning
 role: User, Admin
@@ -7,15 +7,15 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 77ef50ebd583f0a46324e5cbdc4feea9d21f4280
+source-git-commit: 1158a49fc0b39ef49f23326935d4635530501687
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
 
 
-# The Blueprint of Success: Modeling Your Campaign Hierarchy
+# Framgångsramverket: utforma kampanjhierarkin
 
 
 
@@ -31,7 +31,7 @@ I takt med att era marknadsföringsaktiviteter skalas upp gör även komplexitet
 
 
 
-&quot;Blueprint of Success&quot; är ett ramverk för att utforma kampanjhierarkin i Workfront Planning (WFP). Det går från&quot;kaos i kalkylblad&quot; till en styrd, objektorienterad modell som ser till att alla i teamet talar samma språk och samtidigt behåller den flexibilitet de behöver för att kunna genomföra.
+&quot;Blueprint of Success&quot; är ett ramverk för att utforma kampanjhierarkin i Workfront Planning. Det går från&quot;kaos i kalkylblad&quot; till en styrd, objektorienterad modell som ser till att alla i teamet talar samma språk och samtidigt behåller den flexibilitet de behöver för att kunna genomföra.
 
 
 
@@ -77,7 +77,7 @@ När affärsvägen är etablerad kan man välja att lägga till ytterligare lage
 
 * **Kanalplaner:** Ett lager mellan *Kampanjer* och *Taktik* som grupperar korsfunktionella strategier (t.ex.&quot;Digital strategi&quot;).
 
-* **WFP-aktiviteter:** I miljöer med mindre volymer (vanligen &lt;5 000 slutprodukter/år) föredrar vissa team att spåra enskilda&quot;upplevelser&quot; som WFP-poster innan de blir projekt.
+* **Workfront planeringsaktiviteter:** I miljöer med mindre volymer (vanligen &lt;5 000 slutprodukter/år) föredrar vissa team att spåra enskilda&quot;upplevelser&quot; som Workfront Planning-poster innan de blir projekt.
 
 
 >[!TIP]
@@ -156,9 +156,9 @@ I många organisationer används **Portföljer** för att representera varumärk
 
 * **Rekommendationen:** Ta inte bort dina portföljer och program än. Använd i stället **Fusion Automations** för att skapa en brygga.
 
-* **Så här fungerar det:** När en taktik eller en kampanj skapas i en WFP kan Fusion automatiskt spegla posten till en motsvarande Portfolio eller Program i arbetsflödesmodulen. På så sätt kan du:
+* **Så här fungerar det:** När en aktivitet eller kampanj skapas i Workfront Planning kan Fusion automatiskt spegla posten till en motsvarande Portfolio eller ett program i arbetsflödesmodulen. På så sätt kan du:
 
-   1. Använd WFP:s **strategiska visualisering** (tidslinjer/kalendrar) som är överlägsen.
+   1. Använd Workfront Plannings **överlägsna strategiska visualisering** (tidslinjer/kalendrar).
 
    2. Underhåll din **gamla**-rapportering i arbetsflödesmodulen för intressenter som ännu inte är redo att gå över till arbetsytan.
 
@@ -170,7 +170,7 @@ I många organisationer används **Portföljer** för att representera varumärk
 
 * **Ange primära arbetsytor.** Kontrollera att varje posttyp har en hemarbetsyta (tyngdpunkten) som fungerar som aggregator för rapportering.
 
-* **Prioritera Forms för intag.** Använd postformulär för grupper med mindre finess i WFP för att säkerställa metadataintegriteten. Power Users kan ha nytta av direkt datainmatning i tabellvyer, men detta bör hanteras med försiktighet - större förändringar i en tabell kan enkelt skapa datarubriker för andra intressenter.
+* **Prioritera Forms för intag.** Använd postformulär för grupper med mindre finess i Workfront Planning för att säkerställa metadataintegriteten. Power Users kan ha nytta av direkt datainmatning i tabellvyer, men detta bör hanteras med försiktighet - större förändringar i en tabell kan enkelt skapa datarubriker för andra intressenter.
 
 
 ### Gör inte:

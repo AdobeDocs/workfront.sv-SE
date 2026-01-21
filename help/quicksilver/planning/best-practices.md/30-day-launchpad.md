@@ -1,15 +1,15 @@
 ---
 title: '30-dagars startfönstret: Dra igång det strategiska startfönstret'
-description: Lär dig hur du lanserar Workfront Planning (WFP) med en strategi som prioriterar psykologisk säkerhet, minimerar avbrott och ger snabba vinster.
+description: Se hur man lanserar Workfront Planning med en strategi som prioriterar psykologisk säkerhet, minimerar störningar och ger snabba vinster.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 77ef50ebd583f0a46324e5cbdc4feea9d21f4280
+source-git-commit: 1158a49fc0b39ef49f23326935d4635530501687
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '975'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## Mål
 
-Lär dig hur du lanserar Workfront Planning (WFP) med en strategi som prioriterar psykologisk säkerhet, minimerar avbrott och ger snabba vinster.
+Se hur man lanserar Workfront Planning med en strategi som prioriterar psykologisk säkerhet, minimerar störningar och ger snabba vinster.
 
 
 
@@ -48,9 +48,9 @@ Om du vill aktivera det här utvecklingsskiftet väljer du ett pilotteam som är
 
 
 
-* **Parallell sökväg (dubbel spårning):** Teamet underhåller det aktuella arbetsflödet samtidigt som de modellerar nästa planeringscykel i WFP. Detta skapar &quot;muskelminne&quot; och självförtroende utan risk för en enda felpunkt.
+* **Parallell sökväg (dubbel spårning):** Teamet underhåller det aktuella arbetsflödet samtidigt som nästa planeringscykel modelleras i Workfront Planning. Detta skapar &quot;muskelminne&quot; och självförtroende utan risk för en enda felpunkt.
 
-* **The Clean Break:** Efter en inledande designövning där exempeldata används för att validera modellen, flyttar teamet sin startpunkt för live-planering direkt till WFP för nästa cykel.
+* **The Clean Break:** Efter en inledande designövning där exempeldata används för att validera modellen, flyttar teamet sin&quot;live&quot; planeringsstartpunkt direkt till Workfront Planning för nästa cykel.
 
 
 
@@ -82,7 +82,7 @@ Med den här **Team-First**-arkitekturen kan du:
 
 * **Anslut strategi till arbetsflöde:** Aktivera länken mellan dina planeringsposter och arbetsflödesmodulen.
 
-* **Spegla aktuella data:** Använd teamets befintliga verktyg (Excel/Core) för att fylla i WFP och säkerställa att data känns välkända och relevanta.
+* **Spegla aktuella data:** Använd teamets befintliga verktyg (Excel/Core) för att fylla i Workfront Planning och säkerställa att data känns välkända och relevanta.
 
 * **Skapad för flexibilitet:** Kom ihåg att Workfront Planning är utformat för att utvecklas. Ni kan börja med processer på teamnivå och enkelt lyfta ut eller migrera dem till företagsstyrning när verksamheten är klar.
 
@@ -102,7 +102,7 @@ Sikta efter din första stora vinst senast dag 15: **automatiserad projektframta
 
 ### Dagar 16-30: gradvis övergång till företagsskala
 
-När blixtstunden är över flyttar du teamets startpunkt till WFP. När den här **Team-First**-modellen lyckas börjar du banan mot **företagsskalan** genom att identifiera mönster som fungerar.
+Med&quot;blixtstunden&quot; är det dags att flytta teamets startpunkt till Workfront Planning. När den här **Team-First**-modellen lyckas börjar du banan mot **företagsskalan** genom att identifiera mönster som fungerar.
 
 
 
@@ -110,7 +110,7 @@ När blixtstunden är över flyttar du teamets startpunkt till WFP. När den hä
 
 * **Observera och standardisera:** Använd det primära Workspace-programmet för att observera hur pilotteamet använder verktyget. De här verkliga exemplen kommer att formge er företagsdesign.
 
-* **Avbeställ äldre kalkylblad:** Flytta helt till WFP när processen mognar.
+* **Avbeställ äldre kalkylblad:** Flytta helt till Workfront Planning när processen mognar.
 
 * **Byt ut avancerade användare:** Använd **tabellvyn** för direkt hantering av höghastighetsplaner.
 
@@ -126,7 +126,7 @@ Titta efter dessa tidiga hälsoindikatorer:
 
 * **Effektivitet:** Automatisering minskar tiden från strategisk godkännande till projektstart.
 
-* **Lita på:** Intressenterna använder tidslinjer för WFP i stället för manuella statusdäck för granskningar.
+* **Lita på:** Intressenterna använder Workfront Planning-tidslinjer i stället för manuella statusdäck för granskningar.
 
 
 
