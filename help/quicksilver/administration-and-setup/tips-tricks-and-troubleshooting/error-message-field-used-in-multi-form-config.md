@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 8b93842d7ce61c7c84b07639b6329bedf4254ffd
 workflow-type: tm+mt
-source-wordcount: '1197'
+source-wordcount: '1301'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,15 @@ För att lösa den här konflikten måste du hitta det objekt där flera formul�
 
 I den här artikeln beskrivs hur du hittar objektet och sedan löser problemet på något av dessa tre sätt.
 
+>[!NOTE]
+>
+>Om du ser felet men inte kan hitta mer än ett objekt som innehåller det anpassade fältet, kontrollerar du Papperskorgen. Det är möjligt att ett objekt i Papperskorgen innehåller fältet. Eftersom objekt i papperskorgen kan återställas när som helst, fortsätter felet i flera formulär att inträffa tills konflikten är löst.
+>
+>Om du vill lägga till ett fält med ett annat uttryck måste du lösa konflikten genom att göra något av följande:
+>
+>* Ta bort fältet från det anpassade formuläret som är i konflikt
+>* Återställ det borttagna objektet, koppla loss ett av de anpassade formulären som är i konflikt och ta sedan bort objektet igen om det behövs.
+
 ## Hitta det objekt som de anpassade formulären är kopplade till {#find-the-object-where-the-custom-forms-are-attached}
 
 {{step-1-to-setup}}
@@ -62,7 +71,7 @@ I den här artikeln beskrivs hur du hittar objektet och sedan löser problemet p
 
    **Exempel:** Fält 1 i formulär 1 = Ja, fält 2 i formulär 2 = Ja, fält 3 i formulär 3 = Ja. Det betyder&quot;Det beräknade anpassade fältet finns i formulär 1&quot; eller&quot;Det beräknade anpassade fältet finns i formulär 2&quot; och så vidare.
 
-1. Klicka på **[!UICONTROL Advanced Search]** i **[!UICONTROL Search icon]** ![sökikonen](assets/search-icon.png) i skärmens övre högra hörn.
+1. Klicka på **[!UICONTROL Search icon]** i ![ ](assets/search-icon.png)sökikonen **[!UICONTROL Advanced Search]** i skärmens övre högra hörn.
 1. Klicka på objektet för det anpassade formuläret (till exempel Problem), klicka på **[!UICONTROL Filter your results]** och sedan på **[!UICONTROL Add a filter]**.
 1. Börja skriva namnet på ett kryssrutefält i fältet **[!UICONTROL Start typing field name]** och markera det när det visas i listan. Markera sedan **[!UICONTROL Equal]** och skriv **[!UICONTROL Yes]** (utan citattecken) i följande ruta.
 
