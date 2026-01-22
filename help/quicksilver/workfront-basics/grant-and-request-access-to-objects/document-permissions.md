@@ -75,7 +75,7 @@ Användaren som överför ett dokument till Workfront har som standard behörigh
 
    ![Länk för dokumentinformation](assets/document-details-link.png)
 
-1. Klicka på ikonen **Mer** ![Mer ](assets/more-icon.png) till höger om dokumentnamnet och klicka sedan på **Dela**. Dialogrutan **Dela [dokumentnamn]** öppnas.
+1. Klicka på ikonen **Mer** ![Mer &#x200B;](assets/more-icon.png) till höger om dokumentnamnet och klicka sedan på **Dela**. Dialogrutan **Dela [dokumentnamn]** öppnas.
 
    ![Dela ett dokument](assets/share-a-document-350x160.png)
 
@@ -118,7 +118,7 @@ Användaren som överför ett dokument till Workfront har som standard behörigh
 
 1. Under fliken **Alla dokument** på **sidan Dokument,** håll ner **Command** (Mac) eller **Ctrl** (Windows) på tangentbordet och klicka sedan på varje dokument du vill dela.
 
-1. Högst upp på sidan, klicka på dela-ikonen ****![Dela](assets/share-icon.png). Delningsmodulen öppnas.
+1. Högst upp på sidan, klicka på dela-ikonen **&#x200B;**![Dela](assets/share-icon.png). Delningsmodulen öppnas.
 
    ![Ikonen Dela](assets/share-documents-in-bulk.png)
 
