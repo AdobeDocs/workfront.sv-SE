@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1071'
 ht-degree: 0%
 
 ---
@@ -221,9 +221,7 @@ Tänk på följande:
 
 * När du tar bort en global posttyp från en sekundär arbetsyta tas även följande bort:
 
-   * Posterna som läggs till från den sekundära arbetsytan tas bort från den sekundära arbetsytan och kan inte återskapas.
-
-     Poster som läggs till på den sekundära arbetsytan finns kvar på den primära arbetsytan för den globala posttypen. Fältet **Workspace** är tomt för de här posterna på den primära arbetsytan för den globala posttypen. <!--checking on this with Lilit-->
+   * Posterna som läggs till från den sekundära arbetsytan tas bort från den sekundära arbetsytan och från den ursprungliga arbetsytan, och kan inte återskapas.
 
   <!--Coming later: * The fields added from the secondary workspace.-->
 
@@ -231,11 +229,13 @@ Tänk på följande:
 
 * Den ursprungliga posttypen finns kvar på den ursprungliga arbetsytan och på andra arbetsytor där den har lagts till.
 
+* Vyer som har lagts till i posttypen på den sekundära arbetsytan bevaras och visas i andra arbetsytor, om de delas med dig.
+
 Ta bort en global posttyp från en sekundär arbetsyta:
 
 1. Gå till den globala posttypen på den sekundära arbetsytan.
 
-1. (Valfritt) Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) på posttypens kort och klicka sedan på **Ta bort**.
+1. (Valfritt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) på posttypens kort och klicka sedan på **Ta bort**.
 1. (Villkorligt) Skriv **delete** i det angivna fältet och klicka sedan på **Ta bort permanent**.
 
    ![Ta bort bekräftelseruta för den sekundära globala posttypen](assets/delete-secondary-global-record-type.png)

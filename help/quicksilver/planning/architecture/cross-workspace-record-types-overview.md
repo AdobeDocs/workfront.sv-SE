@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1640'
 ht-degree: 0%
 
 ---
@@ -109,12 +109,12 @@ Posttypen som konfigurerats som global har följande egenskaper:
    * Skapa och hantera förfrågningsformulär
    * Skapa och hantera automatisering
 
-* Posterna som du lägger till i en global posttyp visas bara för användare som har behörigheten Visa på arbetsytan där de lades till. <!-- this needs to be more specific: what does "o the workspace where they were added" mean? - added in which kind of workspaces? secondary or primary; asking Lilit-->
+* Posterna som du lägger till i en global posttyp visas bara för användare som har behörigheten Visa på arbetsytan där de lades till.
 * Posterna som du lägger till från en sekundär arbetsyta läggs upp och visas på den ursprungliga arbetsytan. Alla medlemmar på den ursprungliga arbetsytan får behörigheten Visa till dem.
 * När den ursprungliga globala posttypen läggs till i flera sekundära arbetsytor finns följande scenarier:
 
    * Medlemmar i den ursprungliga arbetsytan får automatiskt behörigheten Visa för alla poster som läggs till från en arbetsyta, även om de inte är medlemmar i den arbetsytan.
-   * Sekundära arbetsytemedlemmar kan bara visa poster från arbetsytor där de är medlemmar. <!--change this to: Secondary workspace members can view only records from the workspace the records were added and where they have at least permissions to view the record workspace and the record type.-->
+   * Sekundära arbetsytemedlemmar kan bara visa poster från arbetsytor där de är medlemmar.
 
 * Posttyperna som är kopplade till en global posttyp blir tillgängliga för anslutning från arbetsytorna där den här posttypen läggs till.
 
@@ -172,23 +172,16 @@ Posttypen som konfigurerats som global har följande egenskaper:
    * Skapa och hantera förfrågningsformulär
    * Skapa och hantera automatisering
 
-* Poster som läggs till i en sekundär arbetsyta visas bara från följande arbetsytor om du har behörighet att visa eller högre på dessa arbetsytor:
+* Poster som läggs till i en sekundär arbetsyta visas från följande arbetsytor om du har behörigheten Visa eller högre för dessa arbetsytor:
 
-   * Den sekundära arbetsytan där de läggs till.
-   * Den globala posttypens ursprungliga arbetsyta.
-   * Alla andra arbetsytor där den globala arbetsytan läggs till.
-
-  <!--replace he above bullet with this: 
-        * Records added in a secondary workspace are visible from the following workspaces, only if you have View or higher permissions to these workspaces:
-        * The secondary place where they were added
-        * The global record type's original workspace
-    -->
+   * Den sekundära platsen där de lades till
+   * Den globala posttypens ursprungliga arbetsyta
 
 * Följande scenarier finns för poster som skapats i sekundära arbetsytor:
 
    * Om du har behörigheten Hantera på den ursprungliga arbetsytan, och inga behörigheter på en sekundär arbetsyta, kan du visa poster som lagts till från den sekundära arbetsytan i den ursprungliga arbetsytan, men du kan inte hantera dem från den ursprungliga arbetsytan.
    * Om du har behörigheten Hantera på den sekundära arbetsytan kan du hantera posterna både från den globala posttypens ursprungliga arbetsyta och från den sekundära arbetsytan där de lades till.
-   * Du kan bara visa posterna på ytterligare sekundära arbetsytor där den globala posttypen läggs till om du har behörigheten Visa på dessa arbetsytor. <!-- take this bullet out when we change this functionality on Jan 15-->
+     <!--not anymore: * You can view the records in additional secondary workspaces where the global record type is added only if you have View permissions to those workspaces-->
 * Du kan inte dela vyer offentligt från en global posttyp på en sekundär arbetsyta.
 
 ### Åtkomst till anslutningar av global posttyp

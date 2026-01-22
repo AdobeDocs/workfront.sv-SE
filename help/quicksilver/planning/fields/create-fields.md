@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: bf34bfa2059d227eca3faa3d719adcf4d711e457
 workflow-type: tm+mt
-source-wordcount: '5427'
+source-wordcount: '5510'
 ht-degree: 0%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=sv-SE ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -24,9 +24,9 @@ ht-degree: 0%
 
 <!--information about choice values must stay in yellow till Jan 2026-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -575,7 +575,7 @@ Mer information finns i [Översikt över formelfält](/help/quicksilver/planning
    >
    >* Du kan referera till ett fält som är upp till fyra fält (och objekt) utanför den aktuella posttypen. Om du till exempel skapar ett formelfält för en aktivitetsposttyp (1) och aktiviteten är kopplad till kampanjposttypen (2) som är kopplad till ett Workfront-projekt (3), kan du referera till projektets budgetfält (4) i formeln som du skapar för aktivitetsposttypen.
    >
-   >![Formelexempel för projektbudget fyra fält har tagits bort &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Formelexempel för projektbudget fyra fält har tagits bort ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Valfritt) Klicka på **Maximera** för att öppna formelrutan i ett större område.
@@ -615,7 +615,7 @@ Du kan använda fälttypen Personer för att lägga till en användare <!--, job
 
 >[!TIP]
 >
->* När du lägger till namnet på en användare i ett personfält visas namnet på användaren och den primära jobbrollen i fältet.
+>* När du lägger till namnet på en användare i ett personfält visas även den primära jobbrollen <span class="preview"> och användarens e-postadress</span> i fältet. Du måste ha inställningen Visa kontaktinformation aktiverad för objektet Användare på din åtkomstnivå för att kunna se användarens e-post.
 >
 >* Personfält visas som en referens (eller anslutningstyp) i en formulärbyggare för begäran.
 >

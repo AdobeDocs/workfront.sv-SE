@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1547'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 # Dela posttyper
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -186,7 +186,6 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
   Mer information finns i [Posttypöversikt för arbetsytan över flera arbetsytor](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 
-
 ## Dela behörigheter till en posttyp
 
 Du kan justera behörigheter till enskilda posttyper på en arbetsyta om du har behörigheten Hantera på arbetsytan.
@@ -202,14 +201,9 @@ Du kan justera behörigheter till enskilda posttyper på en arbetsyta om du har 
 
    Rutan **Dela** öppnas.
 
-   ![Behörigheter för posttyper med ärvda behörigheter &#x200B;](assets/permissions-for-record-types-with-inherited-permissions-on.png)
+   ![Behörigheter för posttyper med ärvda behörigheter ](assets/permissions-for-record-types-with-inherited-permissions-on.png)
 
 1. (Valfritt) I området **Vem har åtkomst** är alternativet **Alla på arbetsytan kan visa** markerat som standard.  Alla användare som har behörighet att visa eller högre på arbetsytan kan visa posttypen.
-
-   >[!WARNING]
-   >
-   >Du kan inte dela posttyper med enskilda användare. Om du lägger till enskilda användare till posttypen läggs de också till på arbetsytan.
-
 
 1. (Valfritt) Klicka på antalet användare under alternativet **Ärvda behörigheter** för att visa användare, team, grupper, företag eller jobbroller som ärver behörigheter från arbetsytan.
 
@@ -235,6 +229,7 @@ Du kan justera behörigheter till enskilda posttyper på en arbetsyta om du har 
    >* Du kan inte ge användare mindre behörighet än Hantera till en posttyp, om de har Hantera-behörighet till arbetsytan.
    >* Du kan ge användarna mindre behörighet till posttypen om de har Contribute-behörighet till arbetsytan.
    > Mer information finns i [Översikt över delningsbehörigheter i Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+   >* När du delar en posttyp med en användare visas även deras primära jobbroll <span class="preview"> och deras e-postadress</span> i fältet. Du måste ha inställningen Visa kontaktinformation aktiverad för objektet Användare på din åtkomstnivå för att kunna se användarens e-post.
 
 1. Om du vill ge användare som inte har behörighet till arbetsytan åtkomst för att visa en posttyp, kan du börja skriva namnet på en användare, en grupp, ett team, ett företag eller en jobbroll i fältet **Bevilja åtkomst till den här vyn** och sedan klicka på den när den visas i listan.
 

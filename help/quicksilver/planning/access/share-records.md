@@ -7,9 +7,9 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
 workflow-type: tm+mt
-source-wordcount: '1838'
+source-wordcount: '1883'
 ht-degree: 0%
 
 ---
@@ -190,7 +190,7 @@ Som arbetsytehanterare kan du justera behörigheter till enskilda poster.
 
    Rutan **Dela** öppnas.
 
-   ![Behörigheter för poster med ärvda behörigheter &#x200B;](assets/permissions-for-records-with-inherited-permissions-on.png)
+   ![Behörigheter för poster med ärvda behörigheter ](assets/permissions-for-records-with-inherited-permissions-on.png)
 
 1. (Valfritt) I området **Vem har åtkomst** är alternativet **Alla på arbetsytan kan visa** markerat som standard.  Alla användare som har **Visa** eller högre behörighet till arbetsytan och posttypen har samma behörigheter som posten.
 
@@ -198,7 +198,7 @@ Som arbetsytehanterare kan du justera behörigheter till enskilda poster.
 
    >[!TIP]
    >
-   >Du kan inte ta bort enskilda entiteter från listan Ärvda behörigheter.
+   >Du kan inte ta bort enskilda entiteter från listan Ärvda behörigheter. <!--test this!-->
 
 1. (Valfritt och villkorligt) Om du vill dela posten med specifika entiteter och ge dem en annan åtkomst till posttypen än de redan har för arbetsytan gör du följande:
 
@@ -224,6 +224,7 @@ Som arbetsytehanterare kan du justera behörigheter till enskilda poster.
    >* Om användarna har behörighet att hantera Contribute eller Hantera på arbetsytan och posttypen, behåller de behörigheterna Hantera för posten. Visningsbehörigheten är nedtonad. <!--this is not dimmed at this time, Lilit to check-->
    >* Du kan inte ge användarna mindre behörighet till posten om de har Contribute eller högre för posttypen.
    > Mer information finns i [Översikt över delningsbehörigheter i Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+   >* När du delar en post med en användare visas även deras primära jobbroll <span class="preview"> och deras e-postadress</span> i fältet. Du måste ha inställningen Visa kontaktinformation aktiverad för objektet Användare på din åtkomstnivå för att kunna se användarens e-post.
 
 1. Om du vill ge användare som inte har behörighet till arbetsytan åtkomst att visa en post går du till fältet **Bevilja åtkomst till den här vyn** och börjar skriva namnet på en användare, en grupp, ett team, ett företag eller en jobbroll. Klicka sedan på den när den visas i listan.
 

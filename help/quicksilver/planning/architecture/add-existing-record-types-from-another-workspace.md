@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -138,7 +138,8 @@ And
 
       * Alla originalfält
       * Alla postanslutningar
-   * Du kan bara visa poster som lagts till från andra arbetsytor som använder samma globala posttyp om du har minst behörigheten Visa på dessa arbetsytor. <!--replace this bullet by this with Jan 15 release: You can view records added from the original workspace of the global record type only when you have at least View permissions to that workspace.-->
+   * Du kan inte visa poster som lagts till från den ursprungliga arbetsytan för posttypen från den sekundära arbetsytan.
+   * Du kan bara visa poster som lagts till från den ursprungliga arbetsytan för den posttypen på den arbetsytan, om du har minst behörigheten Visa på den arbetsytan.
    * Det skrivskyddade fältet **Workspace** läggs till i den nya posttypstabellvyn. I fältet visas arbetsytan där varje post skapades.
 
      >[!NOTE]
@@ -147,7 +148,12 @@ And
      >
 
 1. (Valfritt) Klicka och dra och släpp den nya posttypen till valfritt avsnitt på arbetsytan.
-1. (Valfritt) Klicka på menyn **Mer** på den nya posttypens kort eller till höger om posttypens namn på sidan och klicka sedan på **Ta bort**.
+1. (Valfritt) Klicka på menyn **Mer** på den nya posttypens kort eller till höger om posttypens namn på sidan och klicka sedan på något av följande:
+
+   * **Dela** om du vill dela posttypen från den sekundära arbetsytan.
+   * **Ta bort** om du vill ta bort posttypen från den sekundära arbetsytan. När du tar bort posttyper från den sekundära arbetsytan tas även poster som lagts till från den sekundära arbetsytan bort.
+
+     Vyer som lagts till från den sekundära arbetsytan tas inte bort. <!--checking with Lilit - not sure if this is by design??-->
 
    Mer information finns i avsnittet Ta bort globala posttyper i artikeln [Ta bort posttyper](/help/quicksilver/planning/architecture/delete-record-types.md).
 
