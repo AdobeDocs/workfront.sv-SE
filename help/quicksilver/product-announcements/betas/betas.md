@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-source-git-commit: 167037c90b2da8164db62fe6304ce935104bdf05
+source-git-commit: d84264110fe6abe2a260cc46483c78b9b0034b9b
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -34,8 +34,6 @@ Följande funktioner är för närvarande tillgängliga i betaversionen:
 * Workfront AI Reviewer
 Mer information finns i [Kom igång med Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
-* AI-formulärfyllning
-Mer information finns i [Använd AI-formulärfyllning för att fylla i en begäran med hjälp av uppmaningar eller dokument](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 
 
 <!--
