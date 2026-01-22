@@ -201,7 +201,7 @@ Du kan justera behörigheter till enskilda posttyper på en arbetsyta om du har 
 
    Rutan **Dela** öppnas.
 
-   ![Behörigheter för posttyper med ärvda behörigheter ](assets/permissions-for-record-types-with-inherited-permissions-on.png)
+   ![Behörigheter för posttyper med ärvda behörigheter &#x200B;](assets/permissions-for-record-types-with-inherited-permissions-on.png)
 
 1. (Valfritt) I området **Vem har åtkomst** är alternativet **Alla på arbetsytan kan visa** markerat som standard.  Alla användare som har behörighet att visa eller högre på arbetsytan kan visa posttypen.
 
