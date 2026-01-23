@@ -6,9 +6,9 @@ description: Konfigurera varumärken för AI Reviewer
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: cf1d4bfeedb94e8607dad47177d804169254ee85
+source-git-commit: cd2a5560fdf446e8e971afcb640af38b4d301d40
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 * Din organisation måste ha migrerat till Adobe IMS (Identity Management System).
 * Enhetliga godkännanden måste vara aktiverat för din Workfront-instans.
-  <!--* Your organization must have GenStudio Foundation.-->
+* Din organisation måste ha GenStudio Foundation.
 * Adobe måste ha ett signerat Adobe Gen AI-avtal till hands.
 Mer information om hur du signerar avtalet finns i [Signera Adobe Gen AI-avtalet](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 

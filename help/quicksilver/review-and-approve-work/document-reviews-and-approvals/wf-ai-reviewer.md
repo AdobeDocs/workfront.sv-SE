@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: b926138cca96849f8c4490ec9550fecfd17da69a
+source-git-commit: cd2a5560fdf446e8e971afcb640af38b4d301d40
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Alla användare kan lägga till AI Reviewer i en gransknings- och godkännandebe
 
 * Din organisation måste ha migrerat till Adobe IMS (Identity Management System).
 * Enhetliga godkännanden måste vara aktiverat för din Workfront-instans.
-  <!--* Your organization must have GenStudio Foundation.-->
+* Din organisation måste ha GenStudio Foundation.
 * Adobe måste ha ett signerat Adobe Gen AI-avtal till hands.
 Mer information om hur du signerar avtalet finns i [Signera Adobe Gen AI-avtalet](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
@@ -60,7 +60,7 @@ Om du överför en filtyp som inte stöds visas inte alternativet AI Reviewer n�
 
 ## Ställ in varumärkesriktlinjer
 
-Workfront AI Reviewer använder varumärkesriktlinjerna när du granskar ditt innehåll. Workfront-administratörer kan ange riktlinjer för varumärken under Konfigurera i Workfront. <!--Brands created in GenStudio Foundation are also available in Workfront.-->
+Workfront AI Reviewer använder varumärkesriktlinjerna när du granskar ditt innehåll. Workfront-administratörer kan ange riktlinjer för varumärken under Konfigurera i Workfront. Varumärken som skapats i GenStudio Foundation finns också i Workfront.
 
 Mer information finns i [Konfigurera varumärken för AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
