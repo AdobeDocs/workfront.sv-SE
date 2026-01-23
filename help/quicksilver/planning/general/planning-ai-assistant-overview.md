@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 179a20f1ae6ab723963cc78e9573560968500ac5
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
 * Ändringar som AI-assistenten gör för användarens räkning spåras i postens historikpanel.
 
-* Du kan använda kommandon för att ångra åtgärder. Du kan t.ex. skriva &quot;Ångra den senaste ändringen&quot; för att ångra ändringen.
+* AI-assistentens åtgärder är permanenta och kan vara irreversibla. Om du t.ex. tar bort ett fält kan det inte ångras. Granska alla åtgärder som föreslås av AI-assistenten innan du godkänner dem.
 
 * När du skapar, uppdaterar eller tar bort ett objekt med hjälp av AI Assistant, visas de tänkta åtgärderna och AI Assistant ombeds bekräfta. Du kan sedan bekräfta eller avbryta åtgärderna.
 

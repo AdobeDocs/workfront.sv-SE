@@ -4,9 +4,9 @@ description: Med Adobe Planning Designer kan du skapa en ny arbetsyta, med postt
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 866b237db5d109b0a435145119a6412e41d960ab
+source-git-commit: bd3dde54d986416af847b2f3b2a1e8570d5ce3f2
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1278'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Mer information om Workfront Planning finns i följande artiklar:
 * [Åtkomstöversikt för Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md)
 
 
-## Åtkomstkrav
+## Åtkomstkrav <!--edit theses??-->
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
@@ -72,20 +72,29 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
 ## Anmäl dig till det stängda Beta-programmet för Planning Designer
 
-<!--edit this Or create a new article under Beta programs?? -->
+För närvarande kan du begära att få delta i programmet Closed Beta för Planning Designer genom att skicka ett e-postmeddelande till sargism@adobe.com.
 
-För närvarande kan du begära att få delta i det stängda Beta-programmet för Planning Designer.
+När vi har fått e-postmeddelandet aktiverar vårt konstruktörsteam Planning Designer i din Workfront-instans.
+
+>[!IMPORTANT]
+>
+>Ditt företag måste först godkänna AI Assistant-avtalet innan Planning Designer är tillgängligt i ditt system.
 
 ## Att tänka på när det gäller Planning Designer
 
-* För att du ska kunna använda Planning Designer måste din organisation uppfylla kraven för att kunna använda Workfront AI Assistant.
+* För att kunna använda Planning Designer måste du först aktivera AI-assistenten för din organisation. Följande måste finnas för att AI-assistenten ska vara tillgänglig för alla i organisationen:
 
-  Mer information finns i [Förutsättningar för AI-assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
+   * Workfront måste göra AI-assistenten tillgänglig för din organisation.
 
-* För att du ska kunna använda Planning Designer måste systemadministratören aktivera det under Systeminställningar i installationsprogrammet.
+     Mer information finns i [Förutsättningar för AI-assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
+   * När Workfront har gjort AI-assistenten tillgänglig för din organisation har den huvudsakliga Workfront-administratören åtkomst till den.
 
-* Du kan använda uppmaningar för att skapa Planning-objekt antingen med Workfront AI Assistant från Planning-området eller med Planning Designer.
+     Mer information finns i [Konfigurera grundläggande information för systemet](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+   * Workfront-administratören måste godkänna AI Assistant-avtalet och sedan aktivera AI Assistant för alla andra användare.
 
+     Mer information finns i [Aktivera eller inaktivera AI-assistenten](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+* När systemadministratören har aktiverat AI-assistenten för din organisation är planeringsassistenten som standard tillgänglig för alla användare, om den har gjorts tillgänglig för din organisation.
+* Åtgärder som utförs av Planning Designer kan också utföras av AI-assistenten när du använder den i Planning.
 * De åtgärder som AI-assistenten utför i Planning-området eller de som utförs av Planning Designer står i samband med dina Workfront Planning-behörigheter och din åtkomstnivå i Workfront.
 
   Mer information finns i följande artiklar:
@@ -93,11 +102,13 @@ För närvarande kan du begära att få delta i det stängda Beta-programmet fö
    * [Översikt över delningsbehörigheter i Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md)
    * [Översikt över licenstyper vid användning av Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md)
 
-* Ändringar som görs av Planning Designer för användarens räkning spåras i postens historikpanel.
+* Ändringar som görs av AI-assistenten eller Planning Designer för användarens räkning spåras i postens historikpanel.
 
-* Du kan använda kommandon för att ångra åtgärder. Du kan t.ex. skriva &quot;Ångra den senaste ändringen&quot; för att ångra ändringen.
+* Åtgärder som vidtas av Planning Designer är permanenta och kan vara oåterkalleliga. Om du t.ex. tar bort ett fält kan det inte ångras. Granska alla åtgärder som Designer föreslår innan du godkänner dem.
 
-* När du skapar, uppdaterar eller tar bort ett objekt via Planning Designer visas de tänkta åtgärderna och en uppmaning om att bekräfta åtgärden. Du kan sedan bekräfta eller avbryta åtgärderna.
+  >[!IMPORTANT]
+  >
+  >När du skapar, uppdaterar eller tar bort ett objekt via Planning Designer uppmanas du att bekräfta endast för de åtgärder som är oåterkalleliga. Att ta bort en posttyp eller en arbetsyta går till exempel inte att ångra. Det går inte att ta bort en post. Planering-Designer ber bara om bekräftelse när du försöker ta bort en posttyp eller arbetsyta.
 
 * När du skapar arbetsytor och posttyper med Planning Designer skapas även vyer och fält automatiskt.
 
@@ -107,7 +118,7 @@ Du kan använda Planning Designer eller AI Assistant för att utföra följande 
 
 * Skapa och konfigurera arbetsytor
 
-* Skapa posttyper
+* Skapa posttyper, inklusive definiera och lägga till globala posttyper på arbetsytor
 
 * Designfält eller formelfält
 
@@ -121,44 +132,32 @@ Du kan använda Planning Designer eller AI Assistant för att utföra följande 
 
 * Skapa anpassade vyer
 
-* Skapa poster genom att importera ett dokument.
+* Skapa poster genom att importera ett dokument
 
-  Det går bara att skapa poster från ett importerat dokument i Planning Designer, inte i AI-assistenten.
+  Du kan till exempel överföra en bild av ett organisationsschema till ditt företag och du kan skapa en arbetsyta baserad på den i Planning Designer.
 
-  Information om godkända filtyper och storlekar finns i avsnittet Dokumentskyddsutkast i artikeln [Använd formulärfyllning från AI för att fylla i en begäran med hjälp av uppmaningar eller dokument](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+  Det går bara att skapa objekt från ett importerat dokument i Planning Designer, inte i AI-assistenten.
+
+  >[!IMPORTANT]
+  >
+  >Även om vi stöder filtyperna .XLSX och .CSV kan de inte användas för storskalig postimport via Planning Designer.
+  >Om du behöver importera ett stort antal poster rekommenderar vi att du gör det med de manuella funktionerna i Planning.
+  >
+  >Mer information finns i [Skapa poster genom att importera information från en CSV- eller Excel-fil](/help/quicksilver/planning/records/import-file-to-create-records.md).
+  >Mer information om filtypsbegränsningar finns i avsnittet&quot;Hämta förslag baserat på ett dokument som du överför&quot; i [Använd formulärfyllning från AI för att fylla i en begäran med hjälp av uppmaningar eller dokument](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+
 
   <!--* Generate thumbnail and over image for a record (not available yet, maybe Q2) -->
-
-## Aktivera Designer för planering för din organisation
-
-Som Workfront-administratör måste du först aktivera Planning Designer för din organisation.
-
-<!--add steps here-->
-
-1. Logga in på Workfront som systemadministratör.
-1. Klicka på **Huvudmeny** ![Huvudmenyikon](assets/main-menu-shell.png) i skärmens övre vänstra hörn och klicka sedan på **Konfigurera**.
-1. Klicka på **System** > i den vänstra panelen och gå sedan till området **AI-inställningar**.
-1. Aktivera följande inställningar:
-   * **Aktivera AI**
-   * **Anmäl dig till AI Betas**
-   * **Planerar Designer**
-
-   ![Planerar Designer-inställningar i Systeminställningar](assets/planning-designer-toggle-in-system-preferences.png)
-1. Klicka på **Spara**.
-
-   Alla användare i systemet som har en standardlicens kan nu se knappen **Design med AI** på arbetsytans huvudsida i Planering-området. <!--check screen shot-->
-
-   ![Designa med AI-knapp på sidan Arbetsytor](assets/design-with-ai-button-on-workspaces-page.png)
-
-   Alla användare kan nu starta och använda Planning Designer för att skapa och uppdatera Workfront Planning-objekt.
 
 ## Skapa eller uppdatera objekt med Planning Designer
 
 Du kan skapa eller uppdatera objekt i Workfront Planning antingen med Planning Designer eller AI Assistant, om inget annat anges.
 
-1. Logga in på Workfront och klicka sedan på ikonen **Huvudmeny** ![Rader på huvudmenyn](assets/lines-main-menu.png) i det övre vänstra hörnet.
+1. Logga in på Workfront, klicka på ikonen **Huvudmeny** ![Rader-huvudmenyn](assets/lines-main-menu.png) i det övre vänstra hörnet och klicka sedan på **Planering**.
 
-1. Klicka på **Planering**. Planeringsområdet öppnas.
+   Området **Planering** öppnas.
+
+   ![Designa med AI-knapp på sidan Arbetsytor](assets/design-with-ai-button-on-workspaces-page.png)
 
 1. Klicka på **Design med AI**.
 
@@ -166,11 +165,11 @@ Du kan skapa eller uppdatera objekt i Workfront Planning antingen med Planning D
 
    ![Planerar Designer-fönstret](assets/planning-designer-window.png)
 
-1. Börja skriva kommandon för AI-assistenten och klicka sedan på Enter när du är klar.
+1. I det tillgängliga utrymmet börjar du skriva meddelanden för AI-assistenten och klickar sedan på Enter när du är klar.
 
    <!--add screen shot-->
 
-   Du kan t.ex. skriva en begäran som liknar den nedan:
+   Du kan t.ex. skriva frågor som liknar dem nedan:
 
    * Skapa och konfigurera en arbetsyta med fem posttyper för att hantera kampanjer
 
@@ -196,12 +195,35 @@ Du kan skapa eller uppdatera objekt i Workfront Planning antingen med Planning D
 
    När du går med på att skapa dina objekt visas ändringarna till höger om promptområdet.
 
-   Du kan granska arbetsytor, posttyper, fält, vyer och poster i förhandsgranskningsområdet till höger om uppmaningen.
+   Du kan visa arbetsytor, posttyper, fält, vyer och poster i förhandsgranskningsområdet till höger om uppmaningen.
+
+   >[!TIP]
+   >
+   >Vissa objekt skapas omedelbart utan att någon bekräftelse behövs.
+
 1. (Valfritt) Ange ytterligare uppmaningar för att redigera dina objekt ytterligare.
-1. (Valfritt) Klicka på **Växla förhandsvisningsskärmen för AI-arbetsytan** ![Dölj eller visa förhandsvisningsskärmsikonen](assets/hide-show-preview-screen-in-planning-designer.png) för att öppna eller stänga förhandsvisningsskärmen till höger.
+1. (Valfritt) Klicka på ikonen **Visa eller dölj förhandsvisningsskärmen** ![Dölj eller visa förhandsvisningsskärmsikonen](assets/hide-show-preview-screen-in-planning-designer.png) för att öppna eller stänga förhandsvisningsskärmen till höger.
 1. Klicka på arbetsytan **Öppna i ny flikikon** ![Öppna arbetsytan i en ny flikikon](assets/open-workspace-on-new-tab-icon.png) för att öppna arbetsytan som du uppdaterar på en ny flik.
 1. Klicka på ikonen **Stäng** **X** för att stänga Planering Designer och öppna arbetsytan.
 1. Öppna arbetsytan som du redigerade med Planning Designer och gör ytterligare ändringar i objekten.
+
+## Inaktivera Planering av Designer för din organisation
+
+När Workfront-administratören har godkänt AI Assistant-avtalet aktiveras Planning Designer som standard för alla i organisationen.
+
+Så här stänger du av den:
+
+1. Logga in på Workfront som systemadministratör.
+1. Klicka på **Huvudmeny** ![Huvudmenyikon](assets/main-menu-shell.png) i skärmens övre vänstra hörn och klicka sedan på **Konfigurera**.
+1. Klicka på **System** > i den vänstra panelen och gå sedan till området **AI-inställningar**.
+1. Inaktivera inställningen **Planera Designer**. <!--add new screen shot with info icon-->
+
+   ![Planerar Designer-inställningar i Systeminställningar](assets/planning-designer-toggle-in-system-preferences.png)
+1. Klicka på **Spara**.
+
+   Detta tar bort Planning Designer för alla användare i systemet.
+
+
 
 
 
