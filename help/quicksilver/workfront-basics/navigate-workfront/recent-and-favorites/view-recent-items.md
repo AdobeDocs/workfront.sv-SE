@@ -6,9 +6,9 @@ description: Menyn [!UICONTROL Recents] finns i det övre navigeringsfältet. De
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 531b6b77-bf54-4ab3-a757-5c59fc0586a6
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 5a92066372efe8bd5391632556550e6063301114
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -44,16 +44,14 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 +++
 
-
 ## Visa senaste artiklar
 
 1. Klicka på ikonen **[!UICONTROL Recents]** ![[!UICONTROL Recents]](assets/recents-icon-40x43.png) i det övre högra hörnet på en sida.
 
-   ![Listan Senaste](assets/recents-list-2022-350x319.png)
+   ![Listan Senaste](assets/recents-list.png)
 
    Under varje objekttyp kan du se upp till 5 av de senast visade objekten.
 
 1. (Valfritt) Om du vill expandera listan över senaste objekt klickar du på **[!UICONTROL View More]** precis nedanför det sista objektet under en objekttyp för att visa de 10 föregående objekten. Du kan expandera listan så att upp till 20 objekt visas per objekttyp.
-1. Klicka på X överst till höger för att stänga listan.
 
 Mer information om hur du markerar de senaste objekten som favoriter finns i [Visa och hantera favoriter](../../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md).
