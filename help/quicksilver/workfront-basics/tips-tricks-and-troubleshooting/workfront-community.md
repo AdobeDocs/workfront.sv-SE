@@ -54,7 +54,7 @@ Om du inte kommer ihåg ditt lösenord för communitywebbplatsen kan du kontakta
 
 ### Vad är URL:en för communityn [!DNL Workfront]?
 
-Webbgruppen [!DNL Workfront] finns på webbplatsen [!DNL Adobe Experience League] på följande URL: [[!DNL Workfront] Community](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
+Webbgruppen [!DNL Workfront] finns på webbplatsen [!DNL Adobe Experience League] på följande URL: [[!DNL Workfront] Community](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=sv).
 
 ### Vad är min underdomän? {#what-s-my-subdomain}
 

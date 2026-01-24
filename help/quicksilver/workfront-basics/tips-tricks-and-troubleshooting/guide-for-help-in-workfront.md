@@ -90,7 +90,7 @@ Följande resurser kan hjälpa dig att avgöra hur du kan använda [!DNL Workfro
    <td>Läs igenom en växande samling av över 60 fallstudier, som belyser kundernas utmaningar och [!DNL Workfront] lösningar och fördelar.</td> 
   </tr> 
   <tr> 
-   <td><a href="https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront">[!DNL Workfront] Community</a> </td> 
+   <td><a href="https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=sv">[!DNL Workfront] Community</a> </td> 
    <td>I communityn [!DNL Workfront] kan du ha konversationer med [!DNL Workfront] användare och experter över hela världen. De finns alltid till hands för att besvara dina frågor eller för att peka dig i rätt riktning.</td> 
   </tr> 
  </tbody> 
@@ -162,8 +162,8 @@ Mer information om vad som har korrigerats i en veckovis underhållsuppdatering 
 
 The following dashboards can help you as a [!DNL Workfront] administrator maintain Workfront:
 
-| [[!DNL Workfront] Usage Dashboard](https://experienceleaguecommunities.adobe.com/t5/workfront-archived-groups/workfront-usage-dashboard/m-p/461045#M2624) | Understanding how your users are leveraging [!DNL Workfront] can help you gauge the overall adoption of your system as well as dive into any problem areas that may need some attention. |
+| [[!DNL Workfront] Usage Dashboard](https://experienceleaguecommunities.adobe.com/t5/workfront-archived-groups/workfront-usage-dashboard/m-p/461045?profile.language=sv#M2624) | Understanding how your users are leveraging [!DNL Workfront] can help you gauge the overall adoption of your system as well as dive into any problem areas that may need some attention. |
 |---|---|
-| [[!DNL Workfront] Cleanup Dashboard: Deactivate Unused Objects](https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-workfront-cleaned-up-its-own-unbridled-instance-of-workfront/ba-p/518299) | Keeping [!DNL Workfront] clean from unused objects is a long-standing best practice but one that can seem daunting without the right tools. This dashboard is designed for System Administrators or Process Owners to easily find [!DNL Workfront] data that may need to be cleaned up to help improve the user experience. We recommend reviewing this dashboard every quarter to help keep [!DNL Workfront] clean. |
+| [[!DNL Workfront] Cleanup Dashboard: Deactivate Unused Objects](https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-workfront-cleaned-up-its-own-unbridled-instance-of-workfront/ba-p/518299?profile.language=sv) | Keeping [!DNL Workfront] clean from unused objects is a long-standing best practice but one that can seem daunting without the right tools. This dashboard is designed for System Administrators or Process Owners to easily find [!DNL Workfront] data that may need to be cleaned up to help improve the user experience. We recommend reviewing this dashboard every quarter to help keep [!DNL Workfront] clean. |
 
 -->

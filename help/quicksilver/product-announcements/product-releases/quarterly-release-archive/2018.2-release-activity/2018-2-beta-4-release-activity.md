@@ -145,7 +145,7 @@ Vi hade tillfälligt inaktiverat export av data från resursplaneraren när de v
 
 Mer information om hur du exporterar resursplaneringsdata till Excel finns i avsnittet Exportalternativ i [Navigeringsöversikt för resursplanering](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-Om du vill delta i vårt aktuella betaprogram för resursplaneraren läser du [Resursplaneringsprestanda för Beta.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)
+Om du vill delta i vårt aktuella betaprogram för resursplaneraren läser du [Resursplaneringsprestanda för Beta.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=sv)
 
 ## Systeminställning: Sessionsinformation på externa sidor {#system-setting-session-information-in-external-pages}
 

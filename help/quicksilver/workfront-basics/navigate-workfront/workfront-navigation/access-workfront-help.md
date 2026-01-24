@@ -24,8 +24,8 @@ Förutom att söka efter hjälpdokumentation kan du även komma åt följande [!
 
 * Workfront självstudiekurser: Mer information finns i [[!DNL Workfront] Självstudiekurser](https://experienceleague.adobe.com/sv/docs/workfront-learn/tutorials-workfront/home).
 
-* [!UICONTROL Innovation Lab]: Mer information finns i [The [!UICONTROL Innovation Lab]](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas).
-* [!UICONTROL [!DNL Workfront] Community]: Mer information finns i [The [!UICONTROL [!DNL Adobe Workfront] Community]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)
+* [!UICONTROL Innovation Lab]: Mer information finns i [The [!UICONTROL Innovation Lab]](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas?profile.language=sv).
+* [!UICONTROL [!DNL Workfront] Community]: Mer information finns i [The [!UICONTROL [!DNL Adobe Workfront] Community]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=sv)
 
 ## Få hjälp inifrån [!DNL Workfront]
 

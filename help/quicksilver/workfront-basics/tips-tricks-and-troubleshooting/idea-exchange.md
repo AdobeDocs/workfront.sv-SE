@@ -25,7 +25,7 @@ Som autentiserad användare kan du:
 
 Så här röstar du på en idé:
 
-1. Logga in på [!DNL Adobe Workfront] Community på webbplatsen [!DNL Adobe Experience League] på följande URL: [[!DNL Adobe Workfront] Community](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
+1. Logga in på [!DNL Adobe Workfront] Community på webbplatsen [!DNL Adobe Experience League] på följande URL: [[!DNL Adobe Workfront] Community](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=sv).
 
 1. Klicka på fliken **[!UICONTROL Ideas]**.
 
@@ -48,4 +48,4 @@ När det kritiska tröskelvärdet på 450 punkter har nåtts får idén en av f�
 * **[!UICONTROL Delivered]:** En lösning har skapats och levererats. Inga ytterligare uppdateringar kommer att göras och kommentarerna kommer att inaktiveras.
 * **[!UICONTROL Archived]**: Idéer som når 18-månadersgränsen (från inskickningsdatumet) och som har färre än 300 poäng arkiveras.
 
-Logga in på [Innovation Lab](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront) om du vill komma igång eller lära dig mer.
+Logga in på [Innovation Lab](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=sv) om du vill komma igång eller lära dig mer.

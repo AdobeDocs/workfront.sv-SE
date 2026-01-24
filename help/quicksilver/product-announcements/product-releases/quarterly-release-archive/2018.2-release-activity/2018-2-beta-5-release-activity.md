@@ -155,7 +155,7 @@ Före den här förbättringen ändras storleken på den intilliggande kolumnen 
 
 Mer information om hur du ändrar ordning på kolumnerna i listor finns i [Ändra kolumnbredd och ordning](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
-Om du vill delta i vårt betatestningsprogram och se de aktuella förbättringarna i listan kan du läsa [New Lists Study.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront) (Inloggning krävs)
+Om du vill delta i vårt betatestningsprogram och se de aktuella förbättringarna i listan kan du läsa [New Lists Study.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=sv) (Inloggning krävs)
 
 ## Ikonstöd för nya projektlistor {#icon-support-for-the-new-project-lists}
 

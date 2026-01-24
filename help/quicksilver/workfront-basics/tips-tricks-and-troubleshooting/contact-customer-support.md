@@ -137,7 +137,7 @@ Om du har några frågor eller problem med att skicka in en förfrågan kan du r
 1. (Valfritt) Om du vill stänga ärendet klickar du på knappen **[!UICONTROL Close case]**.
 
 
-<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
+<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737?profile.language=sv)
 
 - this is the information that was there before - pointing to WorkfrontOne: 
 

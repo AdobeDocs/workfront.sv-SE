@@ -125,4 +125,4 @@ Att söka i dokumentation kan vara mer effektivt med några strategiska strategi
 
 ### Hitta svar i communityforum
 
-* **Ställ frågor**: Om dokumentationen inte svarar på din fråga kan du prova att publicera i [Workfront Community-forumen](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en) där andra användare och experter kan erbjuda hjälp.
+* **Ställ frågor**: Om dokumentationen inte svarar på din fråga kan du prova att publicera i [Workfront Community-forumen](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=sv) där andra användare och experter kan erbjuda hjälp.
