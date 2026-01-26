@@ -1,32 +1,33 @@
 ---
 title: Kom igång med Adobe Workfront Planning Designer
-description: Med Adobe Planning Designer kan du skapa en ny arbetsyta, med posttyper och fält i Workfront Planning, lägga till objekt på en arbetsyta eller visa ändringshistorik för poster.
+description: Med Adobe Planning Designer från AI kan du enkelt konfigurera arbetsytor och datastrukturer. Planning Designer har stöd för allt från att skapa och konfigurera arbetsytor till att definiera fält och formler, hantera poster, granska ändringshistorik och skapa anpassade vyer. Vare sig det används direkt eller via AI Assistant är Planning Designer en flexibel och kraftfull miljö för att bygga upp och underhålla strukturerad, ansluten information.
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
-hide: true
-source-git-commit: bd3dde54d986416af847b2f3b2a1e8570d5ce3f2
+author: Alina, Becky
+feature: Workfront Planning
+role: User, Admin
+source-git-commit: b52c188d767ee37699ead71ed90642458d9889fa
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1480'
 ht-degree: 0%
 
 ---
 
 
-<!--add these at release to the metadata:
-
-author: Alina, Becky
-feature: Workfront Planning
-role: User, Admin -->
-
 # Kom igång med Adobe Workfront Planning Designer
-
-{{planning-important-intro}}
-
-Du kan använda Adobe Planning Designer som drivs av AI för att skapa en ny arbetsyta, lägga till objekt på en arbetsyta (posttyper, poster, vyer eller fält) eller visa ändringshistorik för poster.
 
 >[!IMPORTANT]
 >
 >Planning Designer är för närvarande endast tillgängligt för användare som deltar i det stängda Beta-programmet.
+>
+>Informationen i den här artikeln handlar om Adobe Workfront Planning, en extrafunktion från Adobe Workfront.
+>
+>En lista över krav för åtkomst till Workfront Planning finns i [Åtkomstöversikt för Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+> 
+>Allmän information om Workfront Planning finns i [Kom igång med Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+
+Med Adobe Planning Designer från AI kan du enkelt konfigurera arbetsytor och datastrukturer. Planning Designer har stöd för allt från att skapa och konfigurera arbetsytor till att definiera fält och formler, hantera poster, granska ändringshistorik och skapa anpassade vyer.
+
+Vare sig det används direkt eller via AI Assistant är Planning Designer en flexibel och kraftfull miljö för att bygga upp och underhålla strukturerad, ansluten information.
 
 Mer information om Workfront Planning finns i följande artiklar:
 
@@ -70,7 +71,7 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
 +++
 
-## Anmäl dig till det stängda Beta-programmet för Planning Designer
+## Gå med i det stängda Beta-programmet för Planning Designer
 
 För närvarande kan du begära att få delta i programmet Closed Beta för Planning Designer genom att skicka ett e-postmeddelande till sargism@adobe.com.
 
@@ -80,9 +81,25 @@ När vi har fått e-postmeddelandet aktiverar vårt konstruktörsteam Planning D
 >
 >Ditt företag måste först godkänna AI Assistant-avtalet innan Planning Designer är tillgängligt i ditt system.
 
+## Skicka feedback om Planning Designer
+
+Du kan lämna feedback om Planning Designer under betaprogrammet.
+
+1. Logga in på Workfront, klicka på ikonen **Huvudmeny** ![Rader-huvudmenyn](assets/lines-main-menu.png) i det övre vänstra hörnet och klicka sedan på **Planering**.
+
+   Området **Planering** öppnas.
+
+1. Klicka på **Skapa med AI**. <!--update this tag name when they change it-->
+
+   Området **Workspace-inställningar** i fönstret **Planering av Designer** öppnas. <!--replace shot below when they rename the area to Planning Designer-->
+
+1. Klicka **Skicka feedback här** längst ned på sidan.
+1. Lägg till din feedback i det tillgängliga utrymmet och klicka sedan på **Skicka**.
+Dina synpunkter skickas till konstruktörerna och produktteamen.
+
 ## Att tänka på när det gäller Planning Designer
 
-* För att kunna använda Planning Designer måste du först aktivera AI-assistenten för din organisation. Följande måste finnas för att AI-assistenten ska vara tillgänglig för alla i organisationen:
+* Om du vill använda Planning Designer måste du först aktivera AI-assistenten för din organisation. Följande måste finnas för att AI-assistenten ska vara tillgänglig för alla i organisationen:
 
    * Workfront måste göra AI-assistenten tillgänglig för din organisation.
 
@@ -93,7 +110,7 @@ När vi har fått e-postmeddelandet aktiverar vårt konstruktörsteam Planning D
    * Workfront-administratören måste godkänna AI Assistant-avtalet och sedan aktivera AI Assistant för alla andra användare.
 
      Mer information finns i [Aktivera eller inaktivera AI-assistenten](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
-* När systemadministratören har aktiverat AI-assistenten för din organisation är planeringsassistenten som standard tillgänglig för alla användare, om den har gjorts tillgänglig för din organisation.
+* När systemadministratören har aktiverat AI-assistenten för din organisation är Planning Designer som standard tillgängligt för alla användare, om det har gjorts tillgängligt för din organisation.
 * Åtgärder som utförs av Planning Designer kan också utföras av AI-assistenten när du använder den i Planning.
 * De åtgärder som AI-assistenten utför i Planning-området eller de som utförs av Planning Designer står i samband med dina Workfront Planning-behörigheter och din åtkomstnivå i Workfront.
 
@@ -155,13 +172,13 @@ Du kan skapa eller uppdatera objekt i Workfront Planning antingen med Planning D
 
 1. Logga in på Workfront, klicka på ikonen **Huvudmeny** ![Rader-huvudmenyn](assets/lines-main-menu.png) i det övre vänstra hörnet och klicka sedan på **Planering**.
 
-   Området **Planering** öppnas.
+   Området **Planering** öppnas. <!--update screen shot when they change the name of the button-->
 
    ![Designa med AI-knapp på sidan Arbetsytor](assets/design-with-ai-button-on-workspaces-page.png)
 
-1. Klicka på **Design med AI**.
+1. Klicka på **Skapa med AI**. <!--update this when they change it-->
 
-   Fönstret **Planerar Designer** öppnas.
+   Området **Workspace-inställningar** i fönstret **Planering av Designer** öppnas. <!--replace shot below when they rename the area to Planning Designer-->
 
    ![Planerar Designer-fönstret](assets/planning-designer-window.png)
 
@@ -216,7 +233,7 @@ Så här stänger du av den:
 1. Logga in på Workfront som systemadministratör.
 1. Klicka på **Huvudmeny** ![Huvudmenyikon](assets/main-menu-shell.png) i skärmens övre vänstra hörn och klicka sedan på **Konfigurera**.
 1. Klicka på **System** > i den vänstra panelen och gå sedan till området **AI-inställningar**.
-1. Inaktivera inställningen **Planera Designer**. <!--add new screen shot with info icon-->
+1. Inaktivera inställningen **Planering av introduktion**. <!--add new screen shot with info icon and new name of the toggle; ensure you don't show the AI Reviewer if it is not in Prod yet-->
 
    ![Planerar Designer-inställningar i Systeminställningar](assets/planning-designer-toggle-in-system-preferences.png)
 1. Klicka på **Spara**.
