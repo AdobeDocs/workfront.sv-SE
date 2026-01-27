@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
-source-git-commit: 17aaf70977aa6ce0276676c6a30fd6c951be956c
+source-git-commit: 5fac387d598e2959566547df5d2d11078ec25154
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Om du skapar en anpassad intern hjälpwebbplats som innehåller information om hur din organisation använder Workfront kan du konfigurera hjälpikonen för huvudmenyn för att gå till den webbplatsen.
 
-![Anpassad hjälpknapp](assets/custom-help-button.png)
+![Anpassad hjälpknapp](assets/custom-help-with-left-menu.png)
 
 Detta påverkar inte de sammanhangsberoende hjälplänkarna i Workfront, som tar användarna till Workfront hjälpwebbplats.
 
@@ -64,4 +64,4 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 1. Klicka på **Spara**.
 
-   När du har sparat en anpassad hjälp-URL kan du gå tillbaka till Workfront standardhjälpwebbplats genom att ta bort den anpassade URL:en och klicka på **Spara**.
+   När du har sparat en anpassad hjälp-URL kan du återgå till att använda Workfront standardhjälpwebbplats genom att ta bort den anpassade URL:en och klicka på **Spara**.
