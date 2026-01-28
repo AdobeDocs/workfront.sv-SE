@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: bf34bfa2059d227eca3faa3d719adcf4d711e457
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '13724'
+source-wordcount: '13721'
 ht-degree: 0%
 
 ---
@@ -516,25 +516,25 @@ ht-degree: 0%
          * [Visa och exportera granskningsloggar](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
          * [Visa inloggningsinformation för användare](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
          * [Hantera användare i Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
-      * Så här fungerar nya åtkomstnivåer {#access-levels}
-         * [Så här fungerar nya åtkomstnivåer](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
-         * [Översikt över nya åtkomstnivåer](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-         * [Översikt över nya licenser](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
-         * [Tillgång till objekt och områden med nya licenser](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
-         * [Tillgängliga funktioner för varje objekttyp för nya åtkomstnivåer](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
-         * [Inaktivera alternativet för automatisk uppgradering för obetalda användare i den nya licensplanen](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
+      * Hur åtkomstnivåer fungerar {#access-levels}
+         * [Hur åtkomstnivåer fungerar](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
+         * [Översikt över åtkomstnivåer](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+         * [Översikt över licenser](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
+         * [Tillgång till objekt och områden med hjälp av licenser](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+         * [Tillgängliga funktioner för varje objekttyp](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+         * [Inaktivera alternativet för automatisk uppgradering för icke-betalda användare](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
          * [Jämför funktioner mellan olika licensmodeller](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/comparing-old-and-new-license-models.md)
          * [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
-      * Hur åtkomstnivåer fungerar {#legacy-access-levels}
-         * [Hur åtkomstnivåer fungerar](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
-         * [Åtkomstöversikt](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
-         * [Översikt över licenser](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
-         * [Åtkomstnivåer och behörigheter](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
-         * [Åtkomst till objekt och områden per licenstyp](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
-         * [Funktioner för varje objekttyp](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
-         * [Konfigurerbar åtkomst för varje objekttyp](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
-         * [Inbyggda åtkomstnivåer](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
-         * [Visa användarnas åtkomstnivåer och licenser](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
+      * Hur äldre åtkomstnivåer fungerar {#legacy-access-levels}
+         * [Hur äldre åtkomstnivåer fungerar](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
+         * [Översikt över äldre åtkomstnivå](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
+         * [Översikt över äldre licenser](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
+         * [Äldre åtkomstnivåer och behörigheter](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
+         * [Åtkomst till objekt och områden per licenstyp (äldre)](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+         * [Funktionalitet för varje objekttyp (äldre)](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
+         * [Konfigurerbar åtkomst för varje objekttyp (äldre)](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
+         * [Inbyggda åtkomstnivåer (äldre)](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
+         * [Visa användarnas åtkomstnivåer och licenser (äldre)](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
       * Konfigurera åtkomst till Workfront {#configure-access}
          * [Konfigurera åtkomst](administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
          * [Skapa eller ändra anpassade åtkomstnivåer](administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)

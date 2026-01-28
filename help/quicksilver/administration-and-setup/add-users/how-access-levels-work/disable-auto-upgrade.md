@@ -1,5 +1,5 @@
 ---
-title: Inaktivera alternativet för automatisk uppgradering för icke-betalda användare i den nya licensplanen
+title: Inaktivera alternativet för automatisk uppgradering för icke-betalande användare
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,14 +10,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
 
-# Inaktivera alternativet för automatisk uppgradering för obetalda användare i den nya licensplanen
+# Inaktivera alternativet för automatisk uppgradering för icke-betalda användare
 
 Handläggningsbeslut och dokumentbeslut är begränsade för alla obetalda Workfront-licenser för nya planer. När användare når sitt tilldelade antal beslut uppgraderas de som standard till en Light-licens.
 
