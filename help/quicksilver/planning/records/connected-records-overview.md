@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
+source-git-commit: 11d856aeee3bd9edcdc1dbca3964f37bdf83bd00
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '748'
 ht-degree: 0%
 
 ---
@@ -23,14 +23,23 @@ ht-degree: 0%
 
 Du kan ansluta Adobe Workfront Planning-poster till varandra eller till objekt från andra program.
 
-I den här artikeln beskrivs överväganden som du måste ta hänsyn till när du ansluter poster i Adobe Workfront Planning.
+I den här artikeln beskrivs överväganden som du måste ta hänsyn till när du ansluter poster i Workfront Planning.
 
 Mer information om hur du kan ansluta poster till varandra eller till ett annat objekt finns i [Koppla poster](/help/quicksilver/planning/records/connect-records.md).
+
+## Förutsättningar
+
+Du måste ansluta följande innan du kan ansluta poster i Workfront Planning:
+
+* Två posttyper
+* En posttyp med ett objekt från ett annat program
+
+Mer information finns i [Översikt över anslutna posttyper](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 
 ## Att tänka på när det gäller att ansluta poster
 
-* När du har anslutit posttyper visas de kopplade posttyperna som länkade postfält i tabellen med de posttyper som de är länkade från och på posternas sidor.
+* När du har anslutit posttyper visas de anslutna posttyperna som anslutningsfält i tabellen med de posttyper som de är länkade från och på posternas sidor.
 * Du kan bläddra bland och lägga till poster och objekt för den länkade posten och objekttyperna från de länkade postfälten.
 * Du kan lägga till fält (sökfält) för de länkade posttyperna i tabellen med den posttyp som du länkar från.
 
@@ -49,14 +58,17 @@ Mer information om hur du kan ansluta poster till varandra eller till ett annat 
 
 ## Områden där du kan koppla poster
 
-Du kan koppla poster till andra poster eller till objekt från andra program i följande områden:
+Du kan koppla poster manuellt eller automatiskt i Workfront.
+
+### Koppla poster manuellt
+
+Du kan koppla poster till andra poster eller till objekt från andra program manuellt i följande områden:
 
 * Du kan koppla poster från Workfront Planning till Workfront-objekt, Experience Manager Assets-objekt eller GenStudio Brands i följande områden i en Planning-post:
 
    * De kopplade postfälten i tabellvyn för en posttyp i Planning.
-   * Postens förhandsgransknings- eller informationssida i de anslutna postfälten på fliken Information.
-   * Postens förhandsgransknings- eller informationssida på fliken Anslutningar.
-   * Postens sida på fliken Anslutna poster i en ansluten post.
+   * De kopplade postfälten på en posts förhandsgransknings- eller informationssida.
+   * Postens förhandsgransknings- eller informationssida på sidan Anslutna poster i en post.
 
 * Du kan ansluta Workfront-objekt till Workfront Planning-poster i följande områden i Workfront:
 
@@ -64,3 +76,25 @@ Du kan koppla poster till andra poster eller till objekt från andra program i f
    * Ett Planning-anslutningsfält i ett Workfront-objekts anpassade formulär.
 
   Mer information finns i [Hantera postanslutningar från Workfront-objekt](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+
+### Koppla ihop poster automatiskt
+
+När du har kopplat posttyper till varandra eller en posttyp till en objekttyp från ett annat program kan du automatiskt koppla poster och objekt på följande sätt:
+
+* Använda automatisering
+
+  Du kan skapa poster eller Workfront-objekt från en planeringspost där du konfigurerar automatisering.
+
+  När ett villkor som du definierar uppfylls skapas en post eller ett objekt och den ansluts automatiskt till den post som du utlöser automatiseringen från.
+
+  Mer information finns i [Konfigurera Adobe Workfront Planning Automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+
+* Skapa poster med hjälp av frågeformulär
+
+  Du kan skapa poster när du skickar en planeringsförfrågan. Begäran och posten kopplas automatiskt samman.
+
+  >[!NOTE]
+  >
+  >Du kan inte koppla bort en post från den ursprungliga begäran.
+
+  Mer information finns i [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md).

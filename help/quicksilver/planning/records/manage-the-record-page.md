@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 665e753880be59cf07062d75c66a7be5f2056aa1
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1545'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,9 @@ ht-degree: 0%
 
 # Hantera postsidans layout
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Informationen som är markerad på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -172,7 +171,7 @@ Tänk på följande när du lägger till avsnitt på en postsida:
 
 * Det finns ingen gräns för hur många avsnitt du kan ha på en sida.
 * Du kan inte ha ett tomt avsnitt. Du måste ha minst ett fält i ett avsnitt.
-* Du kan dra och släppa fält från ett avsnitt till ett annat. Mer information finns i avsnittet [Ordna om fält på sidan för postförhandsgranskning eller information](#rearrange-fields-in-the-record-preview-or-details-page) i den här artikeln.
+* Du kan dra och släppa fält från ett avsnitt till ett annat. Mer information finns i avsnittet [Hantera fält på sidan för postförhandsgranskning eller information](#manage-fields-in-the-records-details-tab) i den här artikeln.
 * När du tar bort alla fält från ett avsnitt tas avsnittet automatiskt bort och kan inte återställas.
 
 Så här lägger du till ett avsnitt i en postförhandsgranskning eller sida:
@@ -205,7 +204,7 @@ Så här lägger du till ett avsnitt i en postförhandsgranskning eller sida:
 
 1. På fliken **Detaljer** i postförhandsgranskningen eller på sidan för du pekaren över det tomma utrymmet till vänster om fälten och klickar sedan på ikonen **Lägg till avsnitt** ![Lägg till avsnitt](assets/add-section-icon.png) för att lägga till ett avsnitt.
 1. Klicka i avsnittets namn och ersätt **Namnlöst avsnitt** med ett namn. Klicka sedan på Retur. Fälten som visas under avsnittet är automatiskt en del av det nya avsnittet.
-1. Börja dra och släppa fält till det nya avsnittet, så som beskrivs i avsnittet [Ordna om fält i postförhandsgranskningen eller informationssidan](#rearrange-fields-in-the-record-preview-or-details-page) i den här artikeln.
+1. Börja dra och släppa fält till det nya avsnittet, vilket beskrivs i avsnittet [Hantera fält i postförhandsgranskningen eller informationssidan](#manage-fields-in-the-records-details-tab) i den här artikeln.
 
 1. (Valfritt) Håll pekaren över namnet på ett avsnitt och klicka på menyn **Mer** ![Mer](assets/more-menu.png).
 
@@ -254,7 +253,7 @@ Följande saker händer:
    * Workfront-objektet tas också bort från postens anslutna fält från Workfront Planning.
    * Värdena för Workfront sökfält som är kopplade till Planning-posten tas också bort.
 
-## Ordna om fält på postens flik Detaljer
+## Hantera fält på fliken Detaljer för posten
 
 {{step1-to-planning}}
 
@@ -282,7 +281,21 @@ Följande saker händer:
 
    ![Informationssida](assets/details-page.png)
 
-1. På fliken **Detaljer** klickar du på ikonen **Ta** ![Ta tag i &#x200B;](assets/grab-icon.png) till vänster om fältnamnet och drar och släpper den på önskad plats.
+1. <span class="preview">(Valfritt och villkorligt) Beroende på vilka fält du vill visa på detaljsidan gör du något av följande:</span>
+
+   <div class="preview">
+
+   * Välj inställningen **Visa tabellfält** om du bara vill visa fält som inte är dolda i postens tabellvy. Det här är standardinställningen
+   * Avmarkera inställningen **Visa tabellfält** om du vill visa fält från postens tabellvy, inklusive dolda fält.
+
+   <!--replace with this when they fix the UI text:
+   * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
+   * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
+   -->
+
+   </div>
+
+1. På fliken **Detaljer** klickar du på ikonen **Ta** ![Ta tag i ](assets/grab-icon.png) till vänster om fältnamnet och drar och släpper den på önskad plats.
 
    >[!TIP]
    >

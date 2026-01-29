@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 29579097cd3aa75ab0478743b84dcb9bc3217489
 workflow-type: tm+mt
-source-wordcount: '2006'
+source-wordcount: '2129'
 ht-degree: 0%
 
 ---
@@ -30,57 +30,77 @@ Mer information om hur du ansluter posttyper finns i [Koppla posttyper](/help/qu
 
 ## Att tänka på när du ansluter posttyper
 
-Det finns två anslutningssteg i Workfront Planning:
+* För att enskilda poster eller objekt ska kunna kopplas till varandra måste posttyperna först kopplas till objekttyper.
 
-1. Upprätta en anslutning mellan två posttyper eller en posttyp och en objekttyp från ett annat program.
+  Du kan koppla posttyper och objekttyper till varandra på följande sätt:
 
-   Mer information om hur du kan ansluta posttyper finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
+   * Manuellt
+   * Automatiskt
 
-1. Koppla samman en enskild post av en typ med poster av en annan typ efter att de två posttyperna är kopplade. Mer information om att ansluta poster finns i [Koppla poster](/help/quicksilver/planning/records/connect-records.md).
+  >[!NOTE]
+  >
+  >Du kan ha upp till 30 anslutna fält för en posttyp i Workfront Planning.
 
-Tänk på följande när det gäller att ansluta posttyper:
 
-* Du kan ha upp till 30 anslutna fält för en posttyp i Workfront Planning.
+* Tänk på följande när du ansluter post- och objekttyper:
 
-* Du kan ansluta följande enheter i Adobe Workfront Planning:
+   * Du kan lägga till ett nytt anslutningsfält från en posttyp manuellt för att ansluta följande enheter i Workfront Planning:
 
-   * Två posttyper.
+      * Två posttyper
 
-     Som standard kan du koppla två posttyper från samma arbetsyta. Du kan också ställa in posttyper för att ansluta till posttyper från andra arbetsytor om din organisation har köpt ett högre Workfront- eller Planning-paket. Mer information finns i [Redigera posttyper](/help/quicksilver/planning/architecture/edit-record-types.md).
-   * En posttyp och en objekttyp från ett annat program.
+        Som standard kan du koppla två posttyper från samma arbetsyta. Du kan också ställa in posttyper för att ansluta till posttyper från andra arbetsytor om din organisation har köpt ett högre Workfront- eller Planning-paket. Mer information finns i [Redigera posttyper](/help/quicksilver/planning/architecture/edit-record-types.md).
+      * En posttyp och en objekttyp från ett annat program.
 
-* Du kan koppla posttyper för Workfront Planning till följande objekttyper från följande program:
+     Mer information om hur du kan ansluta post- och objekttyper finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-   * Adobe Workfront:
+     När du har kopplat posttyper till andra post- eller objekttyper manuellt kan du koppla enskilda poster och objekt.
 
-      * Projekt
-      * Portföljer
-      * Program
-      * Företag
-      * Grupper
+     Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
 
-   * Adobe Experience Manager Assets:
+   * En anslutning mellan enheter upprättas automatiskt i följande scenarier:
 
-      * Bilder
-      * Mappar
+      * När du använder en automatisering för att skapa poster från en posttyps sida.
 
-   * Adobe GenStudio for Performance Marketing
+        Anslutningen mellan posttyperna eller posttypen och objekttypen från ett annat program skapas automatiskt när den anslutna posten eller objektet skapas i automatiseringen.
 
-      * Varumärken
+        Mer information finns i [Konfigurera Adobe Workfront Planning Automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
 
-     >[!IMPORTANT]
-     >
-     >Du måste ha följande för att kunna kontakta Adobe Experience Manager Assets och GenStudio varumärken:
-     >* En Adobe Experience Manager Assets-licens
-     >* En Adobe GenStudio for Performance Marketing-licens
-     >* Din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console för att kunna ansluta Workfront Planning-poster till Adobe Experience Manager Assets.
-     >Mer information om Adobe Admin Console finns i [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+      * När du konfigurerar förfrågningsformulär för en posttyp för att skapa en post eller ett objekt.
 
-* När du har skapat poster för posttyper kan du länka dem till varandra via det anslutna postfältet.
+        Anslutningen mellan posttypen och objekttypen för begäran skapas automatiskt när du skickar och godkänner en planeringsbegäran som skapar en post.
 
-  Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
+        Mer information finns i [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md).
 
-* När du har kopplat en posttyp till en annan posttyp eller till en objekttyp från ett annat program finns följande scenarier:
+        Du kan visa den ursprungliga begäran under Begäranden i Workfront<!--, <span class="preview">or in the Original Request connection field in Workfront Planning.</span>-->.
+
+   * Du kan koppla posttyper för Workfront Planning till följande objekttyper från följande program:
+
+      * Adobe Workfront:
+
+         * Projekt
+         * Portföljer
+         * Program
+         * Företag
+         * Grupp
+
+      * Adobe Experience Manager Assets:
+
+         * Bilder
+         * Mappar
+
+      * Adobe GenStudio for Performance Marketing
+
+         * Varumärken
+
+        >[!IMPORTANT]
+        >
+        >Du måste ha följande för att kunna kontakta Adobe Experience Manager Assets och GenStudio varumärken:
+        >* En Adobe Experience Manager Assets-licens
+        >* En Adobe GenStudio for Performance Marketing-licens
+        >* Din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console för att kunna ansluta Workfront Planning-poster till Adobe Experience Manager Assets.
+        >Mer information om Adobe Admin Console finns i [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+
+* När två posttyper eller en posttyp och en objekttyp från ett annat program är sammankopplade finns följande scenarier:
 
    * **När du ansluter två typer av planeringspost** skapas ett länkat postfält för den posttyp som du ansluter från. Ett liknande länkat postfält skapas bara för den posttyp du ansluter till när du aktiverar inställningen Skapa motsvarande fält för länkad posttyp på fliken Ny anslutning.
 
@@ -99,7 +119,7 @@ Tänk på följande när det gäller att ansluta posttyper:
       * Planeringspostfält är inte tillgängliga från Workfront-objekt.
       * Planeringsposter visas från Workfront-objektets Planning-avsnitt. Mer information finns i [Hantera postanslutningar från Workfront-objekt](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
       * Du kan skapa ett anpassat fält för planeringsanslutning och koppla det till ett Workfront-objekts anpassade formulär. Mer information finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-      * Du kan planera postfält från Experience Manager-resurser när Workfront-administratören konfigurerar metadatamappningen genom integrationen mellan Workfront och Adobe Experience Manager Assets. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+      * Du kan planera postfält från Experience Manager-resurser när Workfront-administratören konfigurerar metadatamappningen genom integrationen mellan Workfront och Adobe Experience Manager Assets. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
       * Det går inte att komma åt planeringspostfält från varumärken i GenStudio for Performance Marketing.
 
    * **När du lägger till uppslagsfält från posten eller objektet som du ansluter till**: Förutom att skapa ett länkat postfält kan du även ansluta till fält från den anslutna posten eller objekttypen som kallas uppslagsfält. Ett länkat (eller sökfält) med information från den post som du ansluter till visas på den post som du ansluter från.

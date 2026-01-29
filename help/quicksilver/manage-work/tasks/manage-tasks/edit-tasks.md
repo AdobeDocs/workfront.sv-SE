@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 665e753880be59cf07062d75c66a7be5f2056aa1
 workflow-type: tm+mt
-source-wordcount: '4416'
+source-wordcount: '5366'
 ht-degree: 0%
 
 ---
@@ -28,13 +28,13 @@ ht-degree: 0%
 </div>
 -->
 
-<!--<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Samma funktioner är också tillgängliga i produktionsmiljön för alla kunder från och med en vecka från förhandsversionen.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+Mer information finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
-</div> -->
+</div>
 
 Du kan redigera information om åtgärder som du har skapat eller om du har behörighet att göra det i Contribute eller Hantera.
 
@@ -374,6 +374,10 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
 
 ### Uppdrag {#assignments}
 
+Det är olika att redigera uppdrag i rutan Redigera uppgift beroende på vilken miljö du väljer.
+
+#### Redigera uppdragsområdet i produktionsmiljön
+
 1. Börja redigera din uppgift enligt beskrivningen ovan.
 1. Klicka på **Uppdrag** i den vänstra panelen.
 
@@ -519,24 +523,185 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
 
    1. (Valfritt) Klicka på **Byt till gammal upplevelse** längst ned i rutan **Redigera uppgift**.
 Uppdragsområdet öppnas i den gamla versionen.
+
       ![Avsnittet Uppdrag i rutan Redigera uppgift](assets/nwe-assignments-section-edit-task-box-350x217.png)
+
+1. (Villkorligt) Gör följande när du använder den gamla funktionen:
+
+   1. Klicka på **Sök efter personer, roller eller team** och börja skriva namnet på en användare, roll eller team som du vill tilldela uppgiften. Klicka sedan på den eller tryck på Retur när den visas i listan.
+
+      >[!TIP]
+      >
+      >* Om användarens namn innehåller ett specialtecken måste du inkludera specialtecknet i sökfältet.
+      >* Du kan tilldela flera användare, jobbroller eller team. Du kan bara tilldela aktiva användare, jobbroller och team.
+      >
+      >* Om en användare, jobbroll eller ett team tilldelades innan de inaktiverades, förblir de tilldelade till arbetsuppgiften. I det här fallet rekommenderar vi följande:
+      >
+      >* Tilldela om arbetsuppgiften till aktiva resurser.
+      >* Associera användarna i ett inaktiverat team med ett aktivt team och omfördela arbetsposten till det aktiva teamet.
+
+   1. (Valfritt) Hovra över en tilldelad persons namn och klicka sedan på **Gör primär** för att ange om en tilldelad är den primära tilldelaren eller ägaren av uppgiften. Ett team kan inte vara den primära tilldelaren för en uppgift.
+   1. (Valfritt) Uppdatera följande fält:
+
+      <table style="table-layout:auto"> 
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
+         <td role="rowheader">Varaktighetstyp</td> 
+         <td> <p>Detta identifierar relationen mellan följande: </p> 
+         <ul> 
+         <li> <p>Antalet resurser som tilldelats en aktivitet </p> </li> 
+         <li> <p>Den totala arbetsinsats som krävs för att slutföra uppgiften </p> </li> 
+         <li> <p> Aktivitetens totala varaktighet. </p> </li> 
+         </ul> <p>Workfront-administratören eller en gruppadministratör väljer standardinställningen för varaktighetstyp för uppgifterna i ditt system eller din grupp. Mer information om hur du anger standardinställningar för projekt finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Konfigurera systemomfattande uppgifter och inställningar för problem</a>. </p> <p>Med varaktighetstyper kan du ange konsekventa resurstilldelningar baserat på uppgiftens behov. Mer information om varaktighetstypen för en aktivitet finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Översikt över aktivitetsvaraktighet och varaktighetstyp</a>. </p> <p>Välj bland följande alternativ: </p> 
+         <ul> 
+         <li> <p>Beräknad tilldelning </p> </li> 
+         <li> <p> Beräknat arbete </p> </li> 
+         <li> <p>Ansträngningsstyrd </p> </li> 
+         <li> <p>Enkel</p> </li> 
+         </ul> </td> 
+      </tr> 
+      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+         <td role="rowheader">Varaktighet per förekomst</td> 
+         <td> <p>Detta visas endast på den överordnade för återkommande uppgifter. Den visar varaktigheten för varje återkommande uppgift, enligt definition när uppgiften skapades. Mer information om hur du skapar återkommande aktiviteter finns i <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Skapa återkommande aktiviteter</a>. </p> <p> <b>OBS!</b>
+
+      Varaktigheter som ändras i enskilda återkommande aktiviteter visar inte det värde som anges i det här fältet. </p> </td>
+      </tr> 
+      <tr> 
+         <td role="rowheader">Varaktighet</td> 
+         <td> 
+         <div> 
+         <div> 
+         <p>Det här är den tid som du tillåter att en uppgift förblir öppen innan den är slutförd. </p> 
+         <p><b>VIKTIGT</b>
+
+      Eftersom aktivitetens varaktighet vanligtvis är tiden mellan planerad start och planerad slutförandetid, påverkar det tidslinjen för projektet.</p>
+
+      <p>Så här anger du aktivitetens varaktighet och tidsenhet:</p> 
+         <ul> 
+         <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Skriv in tidslängden och välj en tidsenhet i listrutan.</p> <p><b>TIPS</b></p>
+         När du uppdaterar varaktigheten för uppgifter i en uppgiftslista kan du använda förkortningen för tidsenheten. </p> </li> 
+         </ul> 
+         <p> Du kan välja mellan alternativen för normal tid eller förfluten tid i följande tabell: </p> 
+         <table style="table-layout:auto"> 
+         <col> 
+         <col data-mc-conditions=""> 
+         <tbody> 
+         <tr> 
+         <td>Tidsenhet</td> 
+         <td>Förkortning</td> 
+         </tr> 
+         <tr> 
+         <td>Minuter</td> 
+         <td>M</td> 
+         </tr> 
+         <tr> 
+         <td>Timmar</td> 
+         <td>H</td> 
+         </tr> 
+         <tr> 
+         <td>Dagar. Det här är standardinställningen. </td> 
+         <td>D</td> 
+         </tr> 
+         <tr> 
+         <td>Veckor</td> 
+         <td>B</td> 
+         </tr> 
+         <tr> 
+         <td>Månader</td> 
+         <td>T</td> 
+         </tr> 
+         <tr> 
+         <td>Förflutna minuter</td> 
+         <td>EM</td> 
+         </tr> 
+         <tr> 
+         <td>Förflutna timmar</td> 
+         <td>EH</td> 
+         </tr> 
+         <tr> 
+         <td>Förflutna dagar</td> 
+         <td>ED</td> 
+         </tr> 
+         <tr> 
+         <td>Förflutna veckor</td> 
+         <td>FV</td> 
+         </tr> 
+         <tr> 
+         <td>Förflutna månader</td> 
+         <td>ET</td> 
+         </tr> 
+         </tbody> 
+      </table>
+
+      <p><b>ANMÄRKNING</b>
+
+      <p>Förfluten tid är en tidsenhet för en uppgifts varaktighet. Det är tiden mellan det planerade startdatumet och det planerade slutförandedatumet för en aktivitet som omfattar helger, helger och ledig tid. Med andra ord är förfluten tid en del av kalenderdagarna.
+
+      Med normal tid räknas helger, helger och ledig tid som undantag från uppgiftens varaktighet. Mer information om aktivitetens varaktighet finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Översikt över aktivitetsvaraktighet och varaktighetstyp</a>. </p>
+      </div> 
+         </div> </td> 
+         </tr> 
+         <tr> 
+         <td role="rowheader">Planerade timmar</td> 
+         <td> <p>Ange antalet planerade timmar för aktiviteten, i timmar. Detta är den faktiska tid det skulle ta för de som tilldelats uppgiften att slutföra den. Du kan bara ange antalet planerade timmar för en aktivitet när varaktighetstypen är inställd på Beräknad tilldelning. Mer information om varaktighetstyper finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Översikt över aktivitetsvaraktighet och varaktighetstyp</a>.</p> 
+         <b>OBS!</b>
+         <p>
+         När du skapar återkommande uppgifter är de planerade timmarna för varje förekomst. De planerade timmarna för de överordnade uppgifterna är det totala antalet planerade timmar från alla förekomster. Mer information om hur du skapar återkommande aktiviteter finns i <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Skapa återkommande aktiviteter</a>.
+         </p>
+
+      </td> 
+         </tr> 
+         <tr> 
+         <td role="rowheader">Allokering</td> 
+         <td> <p>Om aktivitetsbegränsningen är Beräknad arbets- eller insatsstyrd anger du <strong>Allokering %</strong> (allokeringsprocent) för varje tilldelad. Det här är den tid från schemat för den tilldelande personen som de kan lägga på den här aktiviteten. Om du ändrar allokeringsprocenten för en tilldelad ändrar du planerad tid för en uppgift. </p> <p>När aktivitetsbegränsningen är enkel kan du ange följande:</p> 
+            <ul> 
+            <li> <p>Allokeringstimmar för varje tilldelad.</p> </li> 
+            <li> <p>Planerade timmar för uppgiften</p> </li> 
+            <li> <p>Uppgiftens varaktighet</p> </li> 
+            </ul> </td> 
+         </tr> 
+         <tr> 
+         <td role="rowheader">Uppdragarens roll</td> 
+         <td> <p>Välj en roll i listrutan <strong>Tilldelarens roll</strong> när du har valt en person som tilldelad. Detta är den roll som den som tilldelas kan utföra den här uppgiften. </p> <p><b>TIPS</b>
+
+      Endast de jobbroller som är kopplade till varje tilldelad i deras profil visas i listrutan.</p> </td>
+      </tr>
+      </tbody>
+      </table>
+
+1. Klicka på **Spara** eller fortsätt med följande avsnitt.
+
+<div class="preview">
+
+#### Redigera uppdragsområdet i förhandsvisningsmiljön
+
+>[!TIP]
+>
+>När du redigerar grupptilldelningar visas en indikator med flera värden för de fält vars värden skiljer sig åt mellan de markerade aktiviteterna.
+>
+>Du kan inte se de enskilda tilldelningarna för varje vald uppgift.
+
+
+1. Börja redigera din uppgift enligt beskrivningen ovan.
+1. Klicka på **Uppdrag** i den vänstra panelen.
+
+   ![Avsnittet Uppdrag i rutan Redigera uppgift](assets/nwe-assignments-section-edit-task-box-350x217.png)
 
 1. Klicka på **Sök efter personer, roller eller team** och börja skriva namnet på en användare, roll eller team som du vill tilldela uppgiften. Klicka sedan på den eller tryck på Retur när den visas i listan.
 
-   >[!NOTE]
-   >
-   >Om användarens namn innehåller ett specialtecken måste du inkludera specialtecknet i sökfältet.
-
    >[!TIP]
    >
-   >Du kan tilldela flera användare, jobbroller eller team. Du kan bara tilldela aktiva användare, jobbroller och team.
+   >* Om användarens namn innehåller ett specialtecken måste du inkludera specialtecknet i sökfältet.
+   >* Du kan tilldela flera användare, jobbroller eller team. Du kan bara tilldela aktiva användare, jobbroller och team.
    >
-   >Om en användare, jobbroll eller ett team tilldelades innan de inaktiverades, förblir de tilldelade till arbetsuppgiften. I det här fallet rekommenderar vi följande:
+   >* Om en användare, jobbroll eller ett team tilldelades innan de inaktiverades, förblir de tilldelade till arbetsuppgiften. I det här fallet rekommenderar vi följande:
    >
    >* Tilldela om arbetsuppgiften till aktiva resurser.
    >* Associera användarna i ett inaktiverat team med ett aktivt team och omfördela arbetsposten till det aktiva teamet.
 
-1. (Valfritt) Ange om en tilldelad är den primära tilldelaren för aktiviteten genom att markera alternativknappen **Ägare** bredvid namnet. Ett team kan inte vara den primära tilldelaren för en uppgift.
+1. (Valfritt) Hovra över en tilldelad persons namn och klicka sedan på **Gör primär** för att ange om en tilldelad är den primära tilldelaren eller ägaren av uppgiften. Ett team kan inte vara den primära tilldelaren för en uppgift.
 1. (Valfritt) Uppdatera följande fält:
 
    <table style="table-layout:auto"> 
@@ -668,6 +833,8 @@ Uppdragsområdet öppnas i den gamla versionen.
    </table>
 
 1. Klicka på **Spara** eller fortsätt med följande avsnitt.
+
+</div>
 
 ### Anpassad Forms
 

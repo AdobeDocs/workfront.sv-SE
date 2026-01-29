@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+source-git-commit: 4167910f36921e04351190f722ea1e7fac9641c7
 workflow-type: tm+mt
-source-wordcount: '2156'
+source-wordcount: '2424'
 ht-degree: 0%
 
 ---
@@ -224,6 +224,10 @@ Så här tilldelar du uppgifter i en lista:
 
 ## Tilldela flera uppgifter samtidigt från en lista
 
+Om du tilldelar flera uppgifter samtidigt från en lista varierar beroende på vilken miljö du väljer.
+
+### Tilldela flera uppgifter samtidigt från en lista i produktionsmiljön
+
 1. Gå till en lista med uppgifter som du vill tilldela gruppvis.
 1. (Villkorligt) Se till att alternativet **Spara automatiskt** är markerat om du finns med i en lista över aktiviteter under ett projekt.
 
@@ -241,11 +245,6 @@ Så här tilldelar du uppgifter i en lista:
    Mer information finns i avsnittet [Tilldela flera uppgifter samtidigt från en lista i den nya upplevelsen](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) i den här artikeln.
 
 1. (Valfritt) Klicka på **Byt tillbaka till den gamla versionen** längst ned i rutan **Redigera uppgifter** för att öppna den gamla versionen.
-
-   >[!TIP]
-   >
-   >Tilldela uppgifter i produktionsmiljön är bara tillgängligt för den gamla versionen.
-
 
 1. (Villkorligt) Markera rutan **Tilldelad** i området **Tilldelningar** med hjälp av den gamla funktionen och börja sedan skriva namnet på en användare, en jobbroll eller ett team som du vill tilldela till alla uppgifter.
 
@@ -315,8 +314,48 @@ Så här tilldelar du uppgifter i en lista:
 1. (Valfritt) Om du vill ta bort befintliga tilldelningar från alla uppgifter klickar du på **x** bredvid deras namn i fältet **Sök efter personer, roller eller team**.
 
 1. Klicka på **Spara**.
-1. (Valfritt och villkorligt) När fälten **Tilldelad till** eller **Tilldelningar** visas i din lista med uppgifter klickar du i en av dessa kolumner för en uppgift och sedan på ikonen **X** bredvid namnet på en tilldelad för att ta bort den från uppgiften
+1. (Valfritt och villkorligt) När fälten **Tilldelad till** eller **Tilldelningar** visas i din lista med uppgifter klickar du i en av dessa kolumner för en uppgift och sedan på ikonen **X** bredvid namnet på en tilldelad för att ta bort den från uppgiften.
 
+<div class="preview">
+
+### Tilldela flera uppgifter samtidigt från en lista i förhandsvisningsmiljön
+
+1. Gå till en lista med uppgifter som du vill tilldela gruppvis.
+1. (Villkorligt) Se till att alternativet **Spara automatiskt** är markerat om du finns med i en lista över aktiviteter under ett projekt.
+
+   >[!IMPORTANT]
+   >
+   >Du kan inte redigera flera uppgifter samtidigt när du sparar uppgifter manuellt i ett projekt.
+
+1. Markera flera uppgifter i uppgiftslistan.
+1. Klicka på **Redigera**.
+
+   Rutan **Redigera uppgifter** öppnas.
+
+1. I området **Uppdrag** börjar du skriva namnet på användare, team eller roller i fältet **Sök efter personer, roller eller team** och klickar sedan på dem när de visas i listan
+
+   >[!IMPORTANT]
+   >
+   >Om någon av uppgifterna redan har tilldelats läggs de resurser som du anger här till i aktiviteterna i stället för att ersätta de befintliga resurserna för aktiviteterna.
+
+1. Ange följande fält för de valda uppgifterna:
+
+   * Håll muspekaren över uppdragsnamnet och klicka sedan på **Gör primär** för att ange vilken som har tilldelats uppgiften.
+   * **Varaktighetstyp**
+
+     Mer information om varaktighetstyp för uppgifter finns i [Översikt över aktivitetsvaraktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+
+   * **Varaktighet**
+   * **Planerade timmar**
+
+     Mer information finns i [Redigera uppgifter](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+
+1. (Valfritt) Om du vill ta bort befintliga tilldelningar från alla uppgifter klickar du på **x** bredvid deras namn i fältet **Sök efter personer, roller eller team**.
+
+1. Klicka på **Spara**.
+1. (Valfritt och villkorligt) När fälten **Tilldelad till** eller **Tilldelningar** visas i din lista med uppgifter klickar du i en av dessa kolumner för en uppgift och sedan på ikonen **X** bredvid namnet på en tilldelad för att ta bort den från uppgiften.
+
+</div>
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

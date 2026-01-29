@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 4167910f36921e04351190f722ea1e7fac9641c7
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1496'
 ht-degree: 0%
 
 ---
@@ -127,85 +127,144 @@ When assigning users to work, their availability according to their schedules af
 
 1. Markera de uppgifter som du vill ändra uppdrag för och klicka sedan på ikonen **Redigera** ![](assets/edit-icon.png) .
 
-   Rutan **Redigera uppgifter** öppnas i den nya versionen. Gör något av följande:
+   Redigering av uppdrag i uppgifter varierar beroende på vilken miljö du väljer.
 
-   * Om du vill lägga till tilldelningar börjar du skriva namnet på en tilldelad i fältet **Sök efter personer, roller eller team** och markerar dem sedan när de visas i listan.
-   * Klicka på ikonen **x** till höger om namnet om du vill ta bort tilldelningar. Endast tilldelningar som är gemensamma för alla uppgifter visas i listan.
-   * Klicka på Tilldela mig om du vill tilldela de markerade uppgifterna till dig själv.
+1. (Villkorligt) Om du använder produktionsmiljön för att tilldela uppgifter öppnas rutan **Redigera uppgifter** i den nya versionen. Gör följande i produktionsmiljön:
 
-1. (Villkorligt) Klicka på **Spara** när du använder den nya versionen.
+   1. Gör något av följande om du vill lägga till eller ta bort tilldelningar:
 
-1. (Valfritt) Klicka på **Byt till gammal upplevelse** längst ned i rutan **Redigera uppgifter**.
+      * Om du vill lägga till tilldelningar börjar du skriva namnet på en tilldelad i fältet **Sök efter personer, roller eller team** och markerar dem sedan när de visas i listan.
+      * Klicka på ikonen **x** till höger om namnet om du vill ta bort tilldelningar. Endast tilldelningar som är gemensamma för alla uppgifter visas i listan.
+      * Klicka på Tilldela mig om du vill tilldela de markerade uppgifterna till dig själv.
 
-   Rutan **Redigera uppgifter** öppnas i den gamla versionen.
+   1. (Villkorligt) Klicka på **Spara** när du använder den nya versionen.
 
-   <!--
-   >[!TIP]
-   >
-   >The old experience is available by default in the Production environment.-->
+   1. (Valfritt) Klicka på **Byt till gammal upplevelse** längst ned i rutan **Redigera uppgifter**.
 
-1. (Villkorligt) Gör följande i den gamla versionen för att ändra tilldelningarna:
+      Rutan **Redigera uppgifter** öppnas i den gamla versionen.
 
-   1. Gå till avsnittet **Uppdrag**.
+   1. (Villkorligt) Gör följande i den gamla versionen för att ändra tilldelningarna:
 
-      >[!IMPORTANT]
-      >
-      >Om du tar bort tilldelningar kan detta påverka aktivitetstimmar och allokeringsprocenttal. Mer information finns i avsnittet [Hur borttagning av tilldelningar påverkar aktivitetstimmar och procentsatser för allokering](#how-removing-assignees-affects-task-hours-and-allocation-percentages) i den här artikeln.
+      1. Gå till avsnittet **Uppdrag**.
 
-   1. Gör något av följande för att lägga till eller ta bort tilldelningar:
+         >[!IMPORTANT]
+         >
+         >Om du tar bort tilldelningar kan detta påverka aktivitetstimmar och allokeringsprocenttal. Mer information finns i avsnittet [Hur borttagning av tilldelningar påverkar aktivitetstimmar och procentsatser för allokering](#how-removing-assignees-affects-task-hours-and-allocation-percentages) i den här artikeln.
 
-      * Så här lägger du till en ny tilldelad:
+      1. Gör något av följande för att lägga till eller ta bort tilldelningar:
 
-         1. Välj **Tilldelad** i avsnittet **Uppdrag**.
+         * Så här lägger du till en ny tilldelad:
 
-            Information som är vanlig för alla markerade uppgifter visas. Om samma användare till exempel har tilldelats alla uppgifter visas den användaren i kolumnen **Tilldelning**. Om information inte är vanlig för de markerade aktiviteterna visas ingen information.
+            1. Välj **Tilldelad** i avsnittet **Uppdrag**.
 
-         1. Börja skriva namnet på en användare, roll eller team och markera det sedan när det visas i listan. Uppdraget läggs till och ersätter inte de aktuella tilldelningarna för de markerade aktiviteterna.
+               Information som är vanlig för alla markerade uppgifter visas. Om samma användare till exempel har tilldelats alla uppgifter visas den användaren i kolumnen **Tilldelning**. Om information inte är vanlig för de markerade aktiviteterna visas ingen information.
 
+            1. Börja skriva namnet på en användare, roll eller team och markera det sedan när det visas i listan. Uppdraget läggs till och ersätter inte de aktuella tilldelningarna för de markerade aktiviteterna.
 
-        >[!TIP]
-        >
-        > * Du kan tilldela flera användare, jobbroller eller team. Du kan bara tilldela aktiva användare, jobbroller och team.
-        >   
-        > * När du lägger till en användartilldelning bör du lägga märke till avataren, användarens primära roll eller användarens e-postadress för att skilja mellan användare med identiska namn. Användarna måste vara associerade med minst en jobbroll för att kunna visa den när du lägger till dem. Du måste ha inställningen Visa kontaktinformation aktiverad på din åtkomstnivå för att användare ska kunna visa användarnas e-postmeddelanden. Mer information finns i [Bevilja åtkomst för användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
-        > 
-        >   Om en användare, jobbroll eller ett team tilldelades innan de inaktiverades, förblir de tilldelade till arbetsuppgiften. I det här fallet rekommenderar vi följande:
-        >   
-        >     * Tilldela om arbetsuppgiften till aktiva resurser.
-        >     * Associera användarna i ett inaktiverat team med ett aktivt team och omfördela arbetsposten till det aktiva teamet.
+           >[!TIP]
+           >
+           > * Du kan tilldela flera användare, jobbroller eller team. Du kan bara tilldela aktiva användare, jobbroller och team.
+           >   
+           > * När du lägger till en användartilldelning bör du lägga märke till avataren, användarens primära roll eller användarens e-postadress för att skilja mellan användare med identiska namn. Användarna måste vara associerade med minst en jobbroll för att kunna visa den när du lägger till dem. Du måste ha inställningen Visa kontaktinformation aktiverad på din åtkomstnivå för att användare ska kunna visa användarnas e-postmeddelanden. Mer information finns i [Bevilja åtkomst för användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+           > 
+           >   Om en användare, jobbroll eller ett team tilldelades innan de inaktiverades, förblir de tilldelade till arbetsuppgiften. I det här fallet rekommenderar vi följande:
+           >   
+           >     * Tilldela om arbetsuppgiften till aktiva resurser.
+           >     * Associera användarna i ett inaktiverat team med ett aktivt team och omfördela arbetsposten till det aktiva teamet.
 
 
-      * Så här tar du bort enskilda tilldelningar:
+         * Så här tar du bort enskilda tilldelningar:
 
-         1. Klicka på **X-ikonen** bredvid namnet på den tilldelade personen som du vill ta bort om den tilldelade personen visas i uppdragslistan.
+            1. Klicka på **X-ikonen** bredvid namnet på den tilldelade personen som du vill ta bort om den tilldelade personen visas i uppdragslistan.
 
-            eller
+               eller
 
-            (Villkorligt) Om den tilldelade personen som du vill ta bort inte visas i avsnittet Uppdrag eftersom den tilldelade personen endast är tilldelad till vissa av de uppgifter som du har markerat, klickar du på **Ta bort tilldelad** och börjar skriva namnet på den tilldelade personen som du vill ta bort. Klicka sedan på namnet när det visas i listrutan.
+               (Villkorligt) Om den tilldelade personen som du vill ta bort inte visas i avsnittet Uppdrag eftersom den tilldelade personen endast är tilldelad till vissa av de uppgifter som du har markerat, klickar du på **Ta bort tilldelad** och börjar skriva namnet på den tilldelade personen som du vill ta bort. Klicka sedan på namnet när det visas i listrutan.
 
-      * Så här tar du bort alla befintliga tilldelningar:
+         * Så här tar du bort alla befintliga tilldelningar:
 
-         1. Klicka på **Ta bort alla befintliga tilldelningar** och sedan på **Ja, Ta bort alla tilldelningar**.
+            1. Klicka på **Ta bort alla befintliga tilldelningar** och sedan på **Ja, Ta bort alla tilldelningar**.
 
-            Detta tar inte bara bort vanliga tilldelningar (tilldelningar som visas i redigeringsdialogrutan), utan även alla tilldelningar för alla markerade uppgifter.
+               Detta tar inte bara bort vanliga tilldelningar (tilldelningar som visas i redigeringsdialogrutan), utan även alla tilldelningar för alla markerade uppgifter.
 
-        Om du tar bort användare från uppgifter kan detta påverka aktivitetstimmar och allokeringsprocentsatser.
+           Om du tar bort användare från uppgifter kan detta påverka aktivitetstimmar och allokeringsprocentsatser.
 
-        Mer information finns i [Översikt över att ändra aktivitetstilldelningar](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+           Mer information finns i [Översikt över att ändra aktivitetstilldelningar](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
-   1. (Valfritt) Ändra något av följande alternativ för tilldelningar:
+      1. (Valfritt) Ändra något av följande alternativ för tilldelningar:
 
-      * (Villkorligt) **Allokering % eller Timmar**: Ange en ny allokeringsprocent eller timmar.
+         * (Villkorligt) **Allokering % eller Timmar**: Ange en ny allokeringsprocent eller timmar.
 
-      >[!NOTE]
-      >
-      >Det här alternativet kan bara ändras om varaktighetstypen är densamma för alla åtgärder som redigeras. När varaktighetstypen är Beräknad arbets- eller insatsstyrd kan du uppdatera allokeringen %. När varaktighetstypen är Enkel kan du uppdatera timarna. Mer information om varaktighetstyp finns i [Översikt över aktivitetsvaraktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
-      >
-      >
-      >Om fältet är tomt innebär det att värdet är olika för olika åtgärder, men du kan fortfarande ändra det.
+         >[!NOTE]
+         >
+         >Det här alternativet kan bara ändras om varaktighetstypen är densamma för alla åtgärder som redigeras. När varaktighetstypen är Beräknad arbets- eller insatsstyrd kan du uppdatera allokeringen %. När varaktighetstypen är Enkel kan du uppdatera timarna. Mer information om varaktighetstyp finns i [Översikt över aktivitetsvaraktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+         >
+         >
+         >Om fältet är tomt innebär det att värdet är olika för olika åtgärder, men du kan fortfarande ändra det.
 
-      * **Aktivitetsägare**: Välj det här alternativet om du vill att den som tilldelats ska vara ägare av uppgiften för alla åtgärder som redigeras.
-      * **Tilldelningens roll**: Välj en roll i listrutan. Om alternativet inte är markerat väljs automatiskt användarens primära roll.
+         * **Aktivitetsägare**: Välj det här alternativet om du vill att den som tilldelats ska vara ägare av uppgiften för alla åtgärder som redigeras.
+         * **Tilldelningens roll**: Välj en roll i listrutan. Om alternativet inte är markerat väljs automatiskt användarens primära roll.
 
-   1. Klicka på **Spara ändringar.**
+      1. Klicka på **Spara ändringar.**
+
+
+
+   1. <span class="preview">(Villkorligt) Om du använder förhandsvisningsmiljön för att tilldela uppgifter öppnas rutan **Redigera uppgifter** . Gör följande i förhandsvisningsmiljön: </span>
+
+      <div class="preview">
+
+      1. Gör något av följande om du vill lägga till eller ta bort tilldelningar:
+
+         * Om du vill lägga till tilldelningar börjar du skriva namnet på en tilldelad i fältet **Sök efter personer, roller eller team** och markerar dem sedan när de visas i listan.
+
+           Den nya tilldelaren läggs till i de befintliga för de valda uppgifterna.
+         * Om du vill ta bort tilldelningar klickar du på namnet på en tilldelad i rutan **Ta bort tilldelad**
+
+           eller
+
+           Klicka på **Ta bort alla befintliga tilldelningar**.
+
+           Tilldelningar tas bort från alla markerade uppgifter.
+
+           Om du tar bort användare från uppgifter kan detta påverka aktivitetstimmar och allokeringsprocentsatser.
+
+           Mer information finns i [Översikt över att ändra aktivitetstilldelningar](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+
+
+           >[!TIP]
+           >
+           >* Du kan tilldela flera användare, jobbroller eller team. Du kan bara tilldela aktiva användare, jobbroller och team.
+           >   
+           >* När du lägger till en användartilldelning bör du lägga märke till avataren, användarens primära roll eller användarens e-postadress för att skilja mellan användare med identiska namn. Användarna måste vara associerade med minst en jobbroll för att kunna visa den när du lägger till dem. Du måste ha inställningen Visa kontaktinformation aktiverad på din åtkomstnivå för att användare ska kunna visa användarnas e-postmeddelanden. Mer information finns i [Bevilja åtkomst för användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+           > 
+           >   Om en användare, jobbroll eller ett team tilldelades innan de inaktiverades, förblir de tilldelade till arbetsuppgiften. I det här fallet rekommenderar vi följande:
+           >   
+           >* Tilldela om arbetsuppgiften till aktiva resurser.
+           >* Associera användarna i ett inaktiverat team med ett aktivt team och omfördela arbetsposten till det aktiva teamet.
+
+
+      1. (Valfritt) Ändra något av följande alternativ för tilldelningar:
+
+         * (Villkorligt) **Allokering % eller Timmar**: Ange en ny allokeringsprocent eller timmar.
+
+         >[!NOTE]
+         >
+         >Det här alternativet kan bara ändras om varaktighetstypen är densamma för alla åtgärder som redigeras. När varaktighetstypen är Beräknad arbets- eller insatsstyrd kan du uppdatera allokeringen %. När varaktighetstypen är Enkel kan du uppdatera timarna. Mer information om varaktighetstyp finns i [Översikt över aktivitetsvaraktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+         >
+         >
+         >Om fältet är tomt innebär det att värdet är olika för olika åtgärder, men du kan fortfarande ändra det.
+
+         * **Gör primär**: Håll markören över de markerade aktiviteterna och välj det här alternativet om du vill att den som tilldelats ska vara ägare till uppgiften för alla aktiviteter som redigeras.
+         * **Tilldelningens roll**: Välj en roll i listrutan. Om alternativet inte är markerat väljs automatiskt användarens primära roll.
+         * **Varaktighetstyp**
+         * **Varaktighet**
+         * **Planerade timmar**
+
+      1. Klicka på **Spara**.
+
+         </div>
+
+
+
+
 
