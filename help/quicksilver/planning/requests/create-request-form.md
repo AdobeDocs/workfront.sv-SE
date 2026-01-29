@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 2ffd06f2f50d14b6d33bc79c92616ebed1d58fed
 workflow-type: tm+mt
-source-wordcount: '2670'
+source-wordcount: '3518'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -131,7 +131,7 @@ Du kan skapa ett begärandeformulär från den posttyp som är associerad med fo
 1. Klicka på **Skapa**.
 
    Formuläret för begäran om den valda posttypen öppnas på fliken Formulär.
-1. Fortsätt till [Konfigurera formuläret](#configure-the-form).
+1. Fortsätt till [Konfigurera information för begärandeformuläret](#set-up-details-for-the-request-form).
 
 <!--
 
@@ -166,7 +166,11 @@ Du kan skapa ett begärandeformulär från den posttyp som är associerad med fo
 Formulärinformationen är uppdelad i flikar.
 
 * På fliken **Formulär** kan du lägga till fält och innehållselement i formuläret
-* På fliken **Konfiguration** kan du ange en godkännandeprocess för formuläret och ange alternativ för slutförande av begäran&lt;.
+* På fliken **Konfiguration** kan du ange en godkännandeprocess för formuläret och ange alternativ för slutförande av begäran.
+
+  >[!NOTE]
+  >
+  ><span class="preview">I förhandsvisningsmiljön ersätter fliken Inställningar fliken Konfiguration.</span>
   <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
 
 #### Ställ in formulärinformation
@@ -226,9 +230,17 @@ Formulärinformationen är uppdelad i flikar.
    Mer information om hur du skapar ett anpassat formulär finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. (Valfritt) Klicka på **Förhandsgranska** om du vill visa hur formuläret kommer att visas för andra användare när de kommer att använda det för att skicka en ny post.
-1. Fortsätt till [Konfigurera information](#set-up-configuration-details) om du vill konfigurera mer information för formuläret, eller gå till [Skapa formulär för begäran](#complete-request-form-creation).
+1. Fortsätt till något av följande:
+
+   * [Konfigurera konfigurationsinformation](#set-up-configuration-details) om du vill konfigurera mer information för formuläret i produktionsmiljön
+   * <span class="preview">[Konfigurera inställningar](#configure-settings) om du vill konfigurera mer information för formuläret i produktionsmiljön</span>
+   * [Slutför skapandet av begärandeformuläret](#complete-request-form-creation) om du inte vill konfigurera fler inställningar.
 
 #### Ställ in konfigurationsinformation
+
+>[!NOTE]
+>
+>Fliken är bara tillgänglig i produktionsmiljön.
 
 På fliken Konfiguration kan du ange godkännandeprocessen och konfigurera när en begäran som skapats från det här formuläret ska markeras som Slutförd.
 
@@ -255,6 +267,82 @@ På fliken Konfiguration kan du ange godkännandeprocessen och konfigurera när 
 1. Välj om du vill att en begäran som skapats från det här formuläret ska markeras som fullständig när det begärda objektet skapas, eller när det begärda objektet slutförs.
 1. (Villkorligt) Om du har valt att begäran ska markeras som slutförd när det begärda objektet slutförs, markerar du det fält och det värde som anger när objektet är klart. Du kan till exempel välja fältstatus och värdet Fullständig för att slutföra begäran när det skapade objektets status är Fullständig.
 1. Fortsätt till <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[Slutför formulärskapandet för begäran](#complete-request-form-creation).
+
+<div class="preview">
+
+### Konfigurera inställningar
+
+>[!NOTE]
+>
+>Den här fliken är bara tillgänglig i förhandsvisningsmiljön.
+
+På fliken Inställningar kan du ange godkännanderegler och konfigurera när en begäran som skapats från det här formuläret ska markeras som Slutförd.
+
+#### Konfigurera godkännanderegler
+
+Godkännanderegler definierar godkännandeprocessen baserat på fältvärden som används i de skickade förfrågningarna.
+
+Om ett begärandeformulär till exempel har fältet&quot;Kampanjtyp&quot; kan en regel skapas som skickar begäran till en person när fältet har värdet&quot;Digital&quot;, och en annan person när det har värdet&quot;Skriv ut&quot;.
+
+Tänk på följande när du lägger till godkännanderegler:
+
+* Reglerna prioriteras efter order. Om villkoren för den första regeln är uppfyllda tillämpas den regeln, även om villkoren för reglerna längre ned i listan också är uppfyllda.
+* Om inga villkor uppfylls används standardregeln.
+* Du kan lägga till en eller flera godkännare till en godkännanderegel.
+* Om minst en godkännare avvisar begäran, avvisas begäran och posten skapas inte. Begäran finns kvar under Begäranden i Workfront.
+* Om du lägger till mer än en godkännare och alternativet Endast ett beslut krävs inte är aktiverat, måste alla godkännare fatta ett beslut innan en begäran godkänns eller avslås.
+* Om ett team utses till godkännare krävs endast ett beslut från teamet.
+
+Mer information om hur du lägger till godkännanden finns i [Lägga till godkännande i ett begärandeformulär](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+
+Så här anger du godkännanderegler för ett begärandeformulär:
+
+1. Börja skapa eller redigera ett begärandeformulär, enligt beskrivningen i avsnittet [Börja skapa ett begärandeformulär](#begin-creating-a-request-form).
+
+   Formuläret för begäran om den valda posttypen öppnas på fliken Formulär.
+1. (Valfritt) Konfigurera formulärinformation enligt beskrivningen i [Konfigurera formulärinformation](#set-up-form-details).
+
+1. Om du vill börja konfigurera godkännanderegler klickar du på ikonen för godkännande ![](assets/approvals-icon-on-form.png) i den vänstra navigeringen.
+
+1. (Valfritt) Om du vill ange en standardprocess för godkännande lägger du till minst en användare eller grupp i fältet **Godkännare** i området Standardregel för godkännande. Klicka sedan på kryssrutan **Endast ett beslut krävs** om du vill att posten ska skapas när någon av standardgodkännarna har godkänt den.
+
+   ![Standardområde för godkännanderegel](assets/default-approvers.png)
+
+   <!--below bullet list is duplicated in the Add approval to a request form article-->
+
+1. (Valfritt) Gör följande för varje ytterligare regel för godkännande:
+
+   1. Klicka på **Lägg till godkännanderegel**
+   1. Klicka på platshållartiteln &quot;Namnlös godkännanderegel&quot; och ange ett namn för godkännanderegeln.
+   1. Klicka på **Markera ett fält** och markera fältet som aktiverar regeln.
+   1. Välj operatorn för regeln. Operatorer varierar beroende på fälttyp.
+   1. Om den markerade operatorn kräver ett värde klickar du på plusikonen och lägger till ett eller flera värden.
+   1. (Valfritt) Lägg till fler villkor med AND eller OR genom att klicka på Lägg till villkor och konfigurera det ytterligare villkoret.
+   1. I området Åtgärder i godkännanderegeln i fältet **Godkännare** lägger du till minst en användare eller grupp som ska anges som godkännare när villkoret är uppfyllt.
+   1. (Villkorligt) Om du vill att posten ska skapas efter att någon av godkännarna har godkänt den, markerar du kryssrutan **Endast ett beslut krävs**.
+
+1. (Valfritt) Om du vill ändra ordningen på regler för routning klickar du på draghandtaget på regelns vänstra sida och drar linjen till önskad plats.
+
+   Det går inte att ändra ordningen på standardregeln.
+
+1. (Valfritt) Om du vill ta bort en routningsregel klickar du på **X** till höger om regeln.
+1. Klicka på **Spara** för att spara godkännandereglerna.
+1. Fortsätt till [Ange alternativ för slutförande av begäran](#set-request-completion-options)
+
+#### Ange alternativ för slutförande av begäran
+
+Med alternativen för slutförande kan du ange om en begäran ska markeras som slutförd när det begärda objektet skapas eller när det skapade objektet slutförs. Du definierar när objektet är färdigt baserat på ett angivet villkor.
+
+1. Börja skapa eller redigera ett begärandeformulär, enligt beskrivningen i avsnittet [Börja skapa ett begärandeformulär](#begin-creating-a-request-form).
+
+   Formuläret för begäran om den valda posttypen öppnas på fliken Formulär.
+1. (Valfritt) Konfigurera formulärinformation enligt beskrivningen i [Konfigurera formulärinformation](#set-up-form-details).
+
+1. Välj om du vill att en begäran som skapats från det här formuläret ska markeras som fullständig när det begärda objektet skapas, eller när det begärda objektet slutförs.
+1. (Villkorligt) Om du har valt att begäran ska markeras som slutförd när det begärda objektet slutförs, markerar du det fält och det värde som anger när objektet är klart. Du kan till exempel välja fältstatus och värdet Fullständig för att slutföra begäran när det skapade objektets status är Fullständig.
+1. Fortsätt till <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[Slutför formulärskapandet för begäran](#complete-request-form-creation).
+
+</div>
 
 <!--
  
@@ -288,7 +376,7 @@ For information on creating automations in other areas of Workfront Planning, se
 ### Skapa formulär för fullständig begäran
 
 1. Skapa och konfigurera formuläret enligt beskrivningen i [Börja skapa ett begärandeformulär](#begin-creating-a-request-form) och [Konfigurera information för begärandeformuläret](#set-up-details-for-the-request-form).
-1. (Valfritt) Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om formulärets namn i rubriken och klicka sedan på **Redigera** för att uppdatera formulärets namn.
+1. (Valfritt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om formulärets namn i rubriken och klicka sedan på **Redigera** för att uppdatera formulärets namn.
 
 1. Klicka på **Publicera** för att publicera formuläret och få en unik länk för det.
 
@@ -317,7 +405,7 @@ For information on creating automations in other areas of Workfront Planning, se
 
    Posttypssidan öppnas i den vy som du senast använde. Som standard öppnas en posttypssida i tabellvyn.
 
-1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Hantera begärandeformulär**.
+1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Hantera begärandeformulär**.
 
    Alla förfrågningsformulär som är associerade med posttypen visas i en tabellvy.
 
@@ -334,7 +422,7 @@ For information on creating automations in other areas of Workfront Planning, se
 1. Klicka på vänsterpilen till vänster om **Begär formulär** i sidhuvudet för att stänga tabellen med förfrågningsformulär.
 
    Posttypssidan öppnas.
-1. (Valfritt och villkorligt) Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn i rubriken och gör sedan något av följande:
+1. (Valfritt och villkorligt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn i rubriken och gör sedan något av följande:
 
    1. Klicka på **Uppdatera begärandeformuläret** för att göra ändringar i begärandeformuläret och klicka sedan på ett begärandeformulär för att öppna och redigera det.
    1. Klicka på **Kopiera länk för att begära formulär** om du vill dela länken till formuläret med andra.
