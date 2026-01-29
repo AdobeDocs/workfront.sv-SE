@@ -4,9 +4,9 @@ description: Andra kvartalet 2026 - förbättringar av administratörer
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e12cf9e34adda0a2fb9e8026f2c94cdfc0b41fd
+source-git-commit: 7cde2f693336649d3d965100e33b71795ddc65a2
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,22 @@ ht-degree: 0%
 Den här sidan beskriver administratörsförbättringar som gjorts i den andra utgåvan av kvartalet 2026 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den andra utgåvan av kvartal 2026 finns i [Översikt över den andra utgåvan av kvartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+
+
+## RTF-fälttyp finns nu i anpassade formulär
+
+>[!NOTE]
+>
+>Förhandsgranska: 29 januari 2026
+>Production fast release: 12 februari 2026\
+>Produktion för alla: 16 april 2026
+
+Den nya fälttypen **RTF** i anpassade formulär är en robust textredigerare med formateringsalternativ som upphöjd och nedsänkt text, rubriker och tabeller, utöver de traditionella alternativen fet, kursiv, understrykning, punkter, numrering, hyperlänkar och blockcitattecken. Teckengränsen är fortfarande 15 000.
+
+RTF-fältstypen ersätter texten med formateringsfältstypen. Du kan snabbt konvertera befintlig text med formateringsfält till RTF-format genom att klicka på knappen i fältalternativen till höger.
+
+Mer information finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Nya IP-adresser för e-postmeddelanden från Workfront
 

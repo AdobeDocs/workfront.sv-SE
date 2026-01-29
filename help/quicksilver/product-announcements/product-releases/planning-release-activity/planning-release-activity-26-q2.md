@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: e14f0e19dfda3ebaf7d5452b51aa56b5924400a3
+source-git-commit: 03142ce47e7b123eea63b409749346469f5feb14
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,50 @@ I den här artikeln beskrivs funktionerna som lanseras för Workfront Planning i
 <!--keep the sentence below for all future quarterly release pages-->
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning finns i [Versionsaktivitet för Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Konfigurera fält som visas på en posts informationssida
+
+>[!NOTE]
+>
+>Förhandsgranska: 29 januari 2026
+>Production fast release: 12 februari 2026
+>Produktion för alla: 16 april 2026
+
+Vi har infört en inställning som gör att du kan visa eller dölja postfält i förhandsgranskningen av detaljer och sidområden, baserat på de fält som visas i tabellvyn.
+
+Du kan välja om du vill ta med eller exkludera fält som är dolda i tabellvyn från området Detaljer för en post. När den här inställningen är inaktiverad visas inte dolda fält i området Detaljer.
+
+Mer information finns i [Hantera postsidans layout](/help/quicksilver/planning/records/manage-the-record-page.md).
+
+## Nytt planeringsanslutningsfält för ursprunglig begäran
+
+>[!NOTE]
+>
+>Förhandsgranska: 29 januari 2026
+>Production fast release: 12 februari 2026
+>Produktion för alla: 16 april 2026
+
+Nu kan du lägga till anslutningsfältet Originalbegäran till en posttyp. När en post skapas genom att ett planeringsbegärandeformulär skickas fylls namnet på den ursprungliga begäran i det ursprungliga begärananslutna fältet.
+
+Före den här förbättringen kunde du bara visa och få åtkomst till den ursprungliga begäran som skapade posten från området Begäranden.
+
+Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+## Skapa godkännanderegler för begäranden i Workfront Planning
+
+>[!NOTE]
+>
+>Förhandsgranska: 29 januari 2026
+>Production fast release: 12 februari 2026
+>Produktion för alla: 16 april 2026
+
+Vi har lagt till möjligheten att skapa godkännanderegler för att göra förfrågningsgodkännanden mer dynamiska och flexibla. Dessa regler tillåter att begäranden dirigeras till olika godkännare baserat på fältvärden i begäran.
+
+Om ett begärandeformulär till exempel har fältet&quot;Kampanjtyp&quot; kan en regel skapas som skickar begäran till en person när fältet har värdet&quot;Digital&quot;, och en annan person när det har värdet&quot;Skriv ut&quot;.
+
+Godkännanderegler skapas i begärandeformuläret.
+
+Mer information och instruktioner finns i [Lägga till godkännanderegler i ett begärandeformulär](/help/quicksilver/planning/requests/add-approval-to-request-form.md#add-approval-rules-to-a-request-form) i artikeln Lägga till ett godkännande i ett begärandeformulär i Adobe Workfront Planning.
 
 ## Visa e-postmeddelanden i användarfält i Workfront Planning
 
