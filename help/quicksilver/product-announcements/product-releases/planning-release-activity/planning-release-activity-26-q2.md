@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 03142ce47e7b123eea63b409749346469f5feb14
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ I den här artikeln beskrivs funktionerna som lanseras för Workfront Planning i
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning finns i [Versionsaktivitet för Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-## Konfigurera fält som visas på en posts informationssida
+## Konfigurera fält som visas i förhandsgranskningen av en posts detaljer
 
 >[!NOTE]
 >
@@ -29,9 +29,9 @@ En lista över alla funktioner som släppts för Adobe Workfront Planning finns 
 >Production fast release: 12 februari 2026
 >Produktion för alla: 16 april 2026
 
-Vi har infört en inställning som gör att du kan visa eller dölja postfält i förhandsgranskningen av detaljer och sidområden, baserat på de fält som visas i tabellvyn.
+Vi har infört en inställning som gör att du kan visa eller dölja postfält i en posts förhandsvisningsruta Detaljer, baserat på de fält som visas i tabellvyn. 
 
-Du kan välja om du vill ta med eller exkludera fält som är dolda i tabellvyn från området Detaljer för en post. När den här inställningen är inaktiverad visas inte dolda fält i området Detaljer.
+Med den här nya inställningen kan du välja om du vill ta med eller utesluta fält som är dolda i tabellvyn från postens förhandsvisningsområde Detaljer.
 
 Mer information finns i [Hantera postsidans layout](/help/quicksilver/planning/records/manage-the-record-page.md).
 

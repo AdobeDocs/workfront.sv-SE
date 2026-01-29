@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 4167910f36921e04351190f722ea1e7fac9641c7
+source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
 workflow-type: tm+mt
-source-wordcount: '1496'
+source-wordcount: '1551'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,13 @@ ht-degree: 0%
 this article is similar and updates on this one might need to be repeated here: help/quicksilver/manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md</p>
 -->
 
-<!--<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
+Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Samma funktioner är också tillgängliga i produktionsmiljön för alla kunder från och med en vecka från förhandsversionen.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+Mer information finns i [Översikt över den andra utgåvan av kvartal 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
 
-</div>-->
+</div>
 
 När du hanterar uppgiftstilldelningar kan du ändra dem samtidigt för flera uppgifter samtidigt genom att använda gruppredigeringsfunktionen i en lista med uppgifter.
 
@@ -208,61 +208,60 @@ When assigning users to work, their availability according to their schedules af
       1. Klicka på **Spara ändringar.**
 
 
+1. <span class="preview">(Villkorligt) Om du använder förhandsvisningsmiljön för att tilldela uppgifter öppnas rutan **Redigera uppgifter** . Gör följande i förhandsvisningsmiljön: </span>
 
-   1. <span class="preview">(Villkorligt) Om du använder förhandsvisningsmiljön för att tilldela uppgifter öppnas rutan **Redigera uppgifter** . Gör följande i förhandsvisningsmiljön: </span>
+   <div class="preview">
 
-      <div class="preview">
+   1. Gör något av följande om du vill lägga till eller ta bort tilldelningar:
 
-      1. Gör något av följande om du vill lägga till eller ta bort tilldelningar:
+      * Om du vill lägga till tilldelningar börjar du skriva namnet på en tilldelad i fältet **Sök efter personer, roller eller team** och markerar dem sedan när de visas i listan.
 
-         * Om du vill lägga till tilldelningar börjar du skriva namnet på en tilldelad i fältet **Sök efter personer, roller eller team** och markerar dem sedan när de visas i listan.
+        Den nya tilldelaren läggs till i de befintliga för de valda uppgifterna.
+      * Om du vill ta bort tilldelningar klickar du på namnet på en tilldelad i rutan **Ta bort tilldelad**
 
-           Den nya tilldelaren läggs till i de befintliga för de valda uppgifterna.
-         * Om du vill ta bort tilldelningar klickar du på namnet på en tilldelad i rutan **Ta bort tilldelad**
+        eller
 
-           eller
+        Klicka på **Ta bort alla befintliga tilldelningar**.
 
-           Klicka på **Ta bort alla befintliga tilldelningar**.
+        Tilldelningar tas bort från alla markerade uppgifter.
 
-           Tilldelningar tas bort från alla markerade uppgifter.
+        Om du tar bort användare från uppgifter kan detta påverka aktivitetstimmar och allokeringsprocentsatser.
 
-           Om du tar bort användare från uppgifter kan detta påverka aktivitetstimmar och allokeringsprocentsatser.
-
-           Mer information finns i [Översikt över att ändra aktivitetstilldelningar](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
-
-
-           >[!TIP]
-           >
-           >* Du kan tilldela flera användare, jobbroller eller team. Du kan bara tilldela aktiva användare, jobbroller och team.
-           >   
-           >* När du lägger till en användartilldelning bör du lägga märke till avataren, användarens primära roll eller användarens e-postadress för att skilja mellan användare med identiska namn. Användarna måste vara associerade med minst en jobbroll för att kunna visa den när du lägger till dem. Du måste ha inställningen Visa kontaktinformation aktiverad på din åtkomstnivå för att användare ska kunna visa användarnas e-postmeddelanden. Mer information finns i [Bevilja åtkomst för användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
-           > 
-           >   Om en användare, jobbroll eller ett team tilldelades innan de inaktiverades, förblir de tilldelade till arbetsuppgiften. I det här fallet rekommenderar vi följande:
-           >   
-           >* Tilldela om arbetsuppgiften till aktiva resurser.
-           >* Associera användarna i ett inaktiverat team med ett aktivt team och omfördela arbetsposten till det aktiva teamet.
+        Mer information finns i [Översikt över att ändra aktivitetstilldelningar](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
 
-      1. (Valfritt) Ändra något av följande alternativ för tilldelningar:
+        >[!TIP]
+        >
+        >* Du kan tilldela flera användare, jobbroller eller team. Du kan bara tilldela aktiva användare, jobbroller och team.
+        >   
+        >* När du lägger till en användartilldelning bör du lägga märke till avataren, användarens primära roll eller användarens e-postadress för att skilja mellan användare med identiska namn. Användarna måste vara associerade med minst en jobbroll för att kunna visa den när du lägger till dem. Du måste ha inställningen Visa kontaktinformation aktiverad på din åtkomstnivå för att användare ska kunna visa användarnas e-postmeddelanden. Mer information finns i [Bevilja åtkomst för användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+        > 
+        >   Om en användare, jobbroll eller ett team tilldelades innan de inaktiverades, förblir de tilldelade till arbetsuppgiften. I det här fallet rekommenderar vi följande:
+        >   
+        >* Tilldela om arbetsuppgiften till aktiva resurser.
+        >* Associera användarna i ett inaktiverat team med ett aktivt team och omfördela arbetsposten till det aktiva teamet.
 
-         * (Villkorligt) **Allokering % eller Timmar**: Ange en ny allokeringsprocent eller timmar.
 
-         >[!NOTE]
-         >
-         >Det här alternativet kan bara ändras om varaktighetstypen är densamma för alla åtgärder som redigeras. När varaktighetstypen är Beräknad arbets- eller insatsstyrd kan du uppdatera allokeringen %. När varaktighetstypen är Enkel kan du uppdatera timarna. Mer information om varaktighetstyp finns i [Översikt över aktivitetsvaraktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
-         >
-         >
-         >Om fältet är tomt innebär det att värdet är olika för olika åtgärder, men du kan fortfarande ändra det.
+   1. (Valfritt) Ändra något av följande alternativ för tilldelningar:
 
-         * **Gör primär**: Håll markören över de markerade aktiviteterna och välj det här alternativet om du vill att den som tilldelats ska vara ägare till uppgiften för alla aktiviteter som redigeras.
-         * **Tilldelningens roll**: Välj en roll i listrutan. Om alternativet inte är markerat väljs automatiskt användarens primära roll.
-         * **Varaktighetstyp**
-         * **Varaktighet**
-         * **Planerade timmar**
+      * (Villkorligt) **Allokering % eller Timmar**: Ange en ny allokeringsprocent eller timmar.
 
-      1. Klicka på **Spara**.
+      >[!NOTE]
+      >
+      >Det här alternativet kan bara ändras om varaktighetstypen är densamma för alla åtgärder som redigeras. När varaktighetstypen är Beräknad arbets- eller insatsstyrd kan du uppdatera allokeringen %. När varaktighetstypen är Enkel kan du uppdatera timarna. Mer information om varaktighetstyp finns i [Översikt över aktivitetsvaraktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+      >
+      >
+      >Om fältet är tomt innebär det att värdet är olika för olika åtgärder, men du kan fortfarande ändra det.
 
-         </div>
+      * **Gör primär**: Håll markören över de markerade aktiviteterna och välj det här alternativet om du vill att den som tilldelats ska vara ägare till uppgiften för alla aktiviteter som redigeras.
+      * **Tilldelningens roll**: Välj en roll i listrutan. Om alternativet inte är markerat väljs automatiskt användarens primära roll.
+      * **Varaktighetstyp**
+      * **Varaktighet**
+      * **Planerade timmar**
+
+   1. Klicka på **Spara**.
+
+      </div>
 
 
 

@@ -3,9 +3,9 @@ title: Kom igång med den kostnadsfria testversionen av Adobe Workfront Planning
 description: Adobe Workfront erbjuder en 60-dagars kostnadsfri testversion av Adobe Workfront Planning. Testversionen är ett tillfälle att se hur Planning kopplar samman en helbildsstrategi med det dagliga arbete som får programmet att fungera. Planering ger centraliserad insyn i era marknadsföringslivscykler, vilket möjliggör bättre samarbete mellan olika team, spårning av kampanjer i realtid och automatiserade arbetsflöden. Du kan skapa anpassade arbetsytor och visualisera arbetet med interaktiva tidslinjer och kalendrar. I den här testversionen får du först se hur Planning hjälper er att anpassa det dagliga arbetet till strategiska mål, effektivisera genomförandet och få mätbara resultat för organisationen.
 hidefromtoc: true
 hide: true
-source-git-commit: b52c188d767ee37699ead71ed90642458d9889fa
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1148'
 ht-degree: 0%
 
 ---
@@ -144,10 +144,11 @@ Gör något av följande om du vill granska och godkänna det juridiska avtalet:
 
 * **Mellan 2 mars och 1 maj 2026**:
 
-  Du får följande behörigheter för de data som är tillgängliga på fliken **Arbetsytor för bästa praxis** i området **Testversion av planering**:
+  Du får följande behörigheter för arbetsytorna i Planning-området under den kostnadsfria provperioden:
 
-   * Alla systemadministratörer har behörigheten Hantera på fliken Arbetsytor för bästa praxis i Planering-området.
-   * Alla andra användare har behörigheten Visa på fliken Arbetsytor för bästa praxis i planeringsområdet.
+   * Alla systemadministratörer har behörigheten Hantera på fliken Arbetsytor.
+   * Alla andra användare har behörigheten Visa på fliken Arbetsytor, men systemadministratören kan ge dem behörigheten Hantera för arbetsytor.
+   * Alla användare, inklusive systemadministratören, har behörigheten Visa på fliken Arbetsytor för bästa praxis i Planering-området.
 
 * **Efter 1 maj 2026:**
 

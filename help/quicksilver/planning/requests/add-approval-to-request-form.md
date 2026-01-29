@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: 2ffd06f2f50d14b6d33bc79c92616ebed1d58fed
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1192'
 ht-degree: 0%
 
 ---
@@ -138,9 +138,7 @@ Tänk på följande när du lägger till godkännanderegler:
 * Du kan lägga till en eller flera godkännare till en godkännanderegel.
 * Om minst en godkännare avvisar begäran, avvisas begäran och posten skapas inte. Begäran finns kvar under Begäranden i Workfront.
 * Om du lägger till mer än en godkännare och alternativet Endast ett beslut krävs inte är aktiverat, måste alla godkännare fatta ett beslut innan en begäran godkänns eller avslås.
-* Om ett team utses till godkännare krävs endast ett beslut från teamet.
-
-Mer information om hur du lägger till godkännanden finns i [Lägga till godkännande i ett begärandeformulär](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+* Om ett team utses till godkännare krävs endast ett beslut från en medlem i teamet.
 
 Så här anger du godkännanderegler för ett begärandeformulär:
 
@@ -149,25 +147,24 @@ Så här anger du godkännanderegler för ett begärandeformulär:
 
    Fliken Inställningar visas.
 
-1. Om du vill börja konfigurera godkännanderegler klickar du på ikonen för godkännande ![](assets/approvals-icon-on-form.png) i den vänstra navigeringen.
+1. Om du vill börja konfigurera godkännanderegler klickar du på ikonen **Godkännanden** ![Godkännanden](assets/approvals-icon-on-form.png) på den vänstra panelen.
 
-1. (Valfritt) Om du vill ange en standardprocess för godkännande lägger du till minst en användare eller grupp i fältet **Godkännare** i området Standardregel för godkännande. Klicka sedan på kryssrutan **Endast ett beslut krävs** om du vill att posten ska skapas när någon av standardgodkännarna har godkänt den.
+1. (Valfritt) Om du vill ange en standardprocess för godkännande lägger du till minst en användare eller grupp i fältet **Godkännare** i området **Standardregel för godkännande** och klickar sedan på kryssrutan **Endast ett beslut krävs** om du vill att posten ska skapas när någon av standardgodkännarna har godkänt den.
 
    ![Standardområde för godkännanderegel](assets/default-approvers.png)
 
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
-1. (Valfritt) Gör följande för varje ytterligare regel för godkännande:
+1. (Valfritt) Börja lägga till godkännanderegler. Gör följande för varje regel för godkännande:
 
    1. Klicka på **Lägg till godkännanderegel**
-   1. Klicka på platshållartiteln &quot;Namnlös godkännanderegel&quot; och ange ett namn för godkännanderegeln.
+   1. Klicka på platshållartiteln **Namnlös godkännanderegel** och ange ett namn för godkännanderegeln.
    1. Klicka på **Markera ett fält** och markera fältet som aktiverar regeln.
    1. Välj operatorn för regeln. Operatorer varierar beroende på fälttyp.
    1. Om den markerade operatorn kräver ett värde klickar du på plusikonen och lägger till ett eller flera värden.
-   1. (Valfritt) Lägg till fler villkor med AND eller OR genom att klicka på Lägg till villkor och konfigurera det ytterligare villkoret som i steg C-E.
-   1. I området Åtgärder i godkännanderegeln i fältet **Godkännare** lägger du till minst en användare eller grupp som ska anges som godkännare när villkoret är uppfyllt.
-   1. &#x200B;
-      1. (Villkorligt) Om du vill att posten ska skapas efter att någon av godkännarna har godkänt den, markerar du kryssrutan **Endast ett beslut krävs**.
+   1. (Valfritt) Klicka på **Lägg till villkor** om du vill lägga till fler villkor och koppla dem med programsatserna **And** eller **Or** genom att konfigurera ytterligare villkor som i steg C-E.
+   1. I området **Åtgärder** i godkännanderegeln, i fältet **Godkännare**, lägger du till minst en användare eller grupp som ska anges som godkännare när villkoret är uppfyllt.
+   1. (Villkorligt) Om du vill att posten ska skapas efter att någon av godkännarna har godkänt den, markerar du kryssrutan **Endast ett beslut krävs**.
 
 1. Klicka på **Spara** för att spara godkännandereglerna.
 1. (Valfritt) Klicka på **Publicera** om du aldrig har delat begärandeformuläret tidigare.

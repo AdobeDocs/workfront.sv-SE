@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 665e753880be59cf07062d75c66a7be5f2056aa1
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1568'
 ht-degree: 0%
 
 ---
@@ -275,18 +275,17 @@ Följande saker händer:
 
    ![Informationsruta](assets/details-box.png)
 
-1. (Valfritt) Klicka på ikonen **Öppna på ny flik** ![Öppna informationsrutan i en ny flikikon](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av postens förhandsgranskning för att öppna postens sida på en ny flik.
-
-   Fliken **Detaljer** i posten öppnas som standard.
-
-   ![Informationssida](assets/details-page.png)
-
 1. <span class="preview">(Valfritt och villkorligt) Beroende på vilka fält du vill visa på detaljsidan gör du något av följande:</span>
 
    <div class="preview">
 
    * Välj inställningen **Visa tabellfält** om du bara vill visa fält som inte är dolda i postens tabellvy. Det här är standardinställningen
    * Avmarkera inställningen **Visa tabellfält** om du vill visa fält från postens tabellvy, inklusive dolda fält.
+
+   >[!TIP]
+   >
+   >Inställningen **Visa tabellfält** är bara tillgänglig i postens förhandsvisningsruta Detaljer. Den är inte tillgänglig på postens informationssida.
+
 
    <!--replace with this when they fix the UI text:
    * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
@@ -295,7 +294,13 @@ Följande saker händer:
 
    </div>
 
-1. På fliken **Detaljer** klickar du på ikonen **Ta** ![Ta tag i &#x200B;](assets/grab-icon.png) till vänster om fältnamnet och drar och släpper den på önskad plats.
+1. (Valfritt) Klicka på ikonen **Öppna på ny flik** ![Öppna informationsrutan i en ny flikikon](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av postens förhandsgranskning för att öppna postens sida på en ny flik.
+
+   Fliken **Detaljer** i posten öppnas som standard.
+
+   ![Informationssida](assets/details-page.png)
+
+1. På fliken **Detaljer** klickar du på ikonen **Ta** ![Ta tag i ](assets/grab-icon.png) till vänster om fältnamnet och drar och släpper den på önskad plats.
 
    >[!TIP]
    >
