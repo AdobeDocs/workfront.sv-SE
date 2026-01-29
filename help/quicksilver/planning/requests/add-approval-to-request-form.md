@@ -166,7 +166,7 @@ Så här anger du godkännanderegler för ett begärandeformulär:
    1. Om den markerade operatorn kräver ett värde klickar du på plusikonen och lägger till ett eller flera värden.
    1. (Valfritt) Lägg till fler villkor med AND eller OR genom att klicka på Lägg till villkor och konfigurera det ytterligare villkoret som i steg C-E.
    1. I området Åtgärder i godkännanderegeln i fältet **Godkännare** lägger du till minst en användare eller grupp som ska anges som godkännare när villkoret är uppfyllt.
-   1. 
+   1. &#x200B;
       1. (Villkorligt) Om du vill att posten ska skapas efter att någon av godkännarna har godkänt den, markerar du kryssrutan **Endast ett beslut krävs**.
 
 1. Klicka på **Spara** för att spara godkännandereglerna.
