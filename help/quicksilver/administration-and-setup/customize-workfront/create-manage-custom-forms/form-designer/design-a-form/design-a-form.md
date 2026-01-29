@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 45bc1820e4f6416e3d47139bbcf1a2156c5900dc
+source-git-commit: 9fcfea189bfc8827e41098823402f5e392b36d1b
 workflow-type: tm+mt
-source-wordcount: '6941'
+source-wordcount: '7040'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 # Skapa ett anpassat formulär
 
 <!-- Audited: 6/2025 -->
+
+{{preview-fast-release-general}}
 
 Du kan utforma ett anpassat formulär med formulärdesignern i Adobe Workfront. Du kan koppla anpassade formulär till olika Workfront-objekt för att samla in data om dessa objekt.
 
@@ -61,7 +63,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
    ![Välj objekttyper](assets/new-custom-form-select-objects.png)
 
 1. Skriv den anpassade formulärtiteln i området **Lägg till ett formulärnamn**.
-1. (Valfritt) Om du vill lägga till fler objekttyper i formuläret så att det kan kopplas till fler objekt klickar du på ikonen **Lägg till** ![Lägg till objekt &#x200B;](assets/add-objects-icon.png) bredvid **Objekttyper** och väljer sedan önskad typ på menyn som visas. Du kan upprepa detta om du vill lägga till så många objekttyper som du vill.
+1. (Valfritt) Om du vill lägga till fler objekttyper i formuläret så att det kan kopplas till fler objekt klickar du på ikonen **Lägg till** ![Lägg till objekt ](assets/add-objects-icon.png) bredvid **Objekttyper** och väljer sedan önskad typ på menyn som visas. Du kan upprepa detta om du vill lägga till så många objekttyper som du vill.
 
    När du har lagt till mer än ett objekt i formuläret kan du klicka på X för en objekttyp för att ta bort det från formuläret.
 
@@ -157,6 +159,10 @@ Du kan lägga till flera olika textfält i ett anpassat formulär.
 
 * **Textfält med en rad**: Tillåter användare att skriva en enda textrad i fältet.
 * **Styckefält**: Tillåter användare att skriva flera rader med text i fältet.
+* <span class="preview">**RTF**: Används för att skriva flera rader text i fältet och formatera texten med fet stil, kursiv stil, understrykning, punkter, numrering, nedsänkt och upphöjd text, hyperlänkar, blockcitattecken, rubriker och tabeller. En teckengräns på 15 000 ger ett stort utrymme för text och formatering.</span>
+
+  <span class="preview">RTF-fältstypen ersätter texten med formateringsfältstypen. Du kan snabbt konvertera befintlig text med formateringsfält till RTF-text genom att klicka på knappen **Konvertera till RTF** i fältalternativen till höger.</span>
+
 * **Textfält med formatering**: Används för att skriva flera textrader i fältet och formatera texten med fet, kursiv, understrykning, punkter, numrering, hyperlänkar och blockcitattecken. En teckengräns på 15 000 tillåter mycket text och formatering.
 
   Den här anpassade fälttypen stöds inte i filter för listor och rapporter.
@@ -177,6 +183,7 @@ Lägga till ett textfält:
 
    * Enkelradig text
    * Stycke
+   * <span class="preview">RTF</span>
    * Text med formatering
    * Beskrivning
 
@@ -197,6 +204,7 @@ Lägga till ett textfält:
     <td><ul>
     <li>Enkelradig text</li>
     <li>Stycke</li>
+    <li><span class="preview">RTF</span></li>
     <li>Text med formatering</li>
     <li>Beskrivning</li>
     </ul></td>
@@ -208,6 +216,7 @@ Lägga till ett textfält:
     <td><ul>
     <li>Enkelradig text</li>
     <li>Stycke</li>
+    <li><span class="preview">RTF</span></li>
     <li>Text med formatering</li>
     </ul></td>
     </tr>
@@ -219,6 +228,7 @@ Lägga till ett textfält:
     <td><ul>
     <li>Enkelradig text</li>
     <li>Stycke</li>
+    <li><span class="preview">RTF</span></li>
     <li>Text med formatering</li>
     <li>Beskrivning</li>
     </ul></td>
@@ -231,6 +241,7 @@ Lägga till ett textfält:
     <td><ul>
     <li>Enkelradig text</li>
     <li>Stycke</li>
+    <li><span class="preview">RTF</span></li>
     <li>Text med formatering</li>
     </ul></td>
     </tr>
@@ -266,15 +277,17 @@ Lägga till ett textfält:
      <td><ul>
      <li>Enkelradig text</li>
      <li>Stycke</li>
+     <li><span class="preview">RTF</span></li>
      <li>Text med formatering</li>
      <li>Beskrivning</li></ul></td>
     </tr>
     <tr> 
-      <td role="rowheader">Gör ett obligatoriskt fält</td>
+      <td>Gör ett obligatoriskt fält</td>
       <td><p>Välj det här alternativet om du vill att fältet ska vara obligatoriskt för att användaren ska kunna fylla i det anpassade formuläret.</p></td>
     <td><ul>
     <li>Enkelradig text</li>
     <li>Stycke</li>
+    <li><span class="preview">RTF</span></li>
     <li>Text med formatering</li>
     </ul></td> 
     </tr> 
@@ -653,12 +666,12 @@ Så här lägger du till en extern sökning:
       <td role="rowheader">JSON-sökväg</td>
       <td><p>Skriv eller klistra in JSON-sökvägen för API:t.</p> <p>Med det här alternativet kan data extraheras från den JSON som returneras av API-URL:en. Det är ett sätt att välja vilka värden från JSON som ska visas i listrutan.</p><p>Om din API-URL till exempel returnerar JSON i följande format kan du använda "$.data[*].name" för att välja USA och Kanada som nedrullningsbara alternativ:</br>
       <pre>
-      &lbrace;
-       data: &lbrace;
+      {
+       data: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Mer information om JSON-sökvägen och hur du ser till att du skriver rätt JSON-sökväg finns på <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
