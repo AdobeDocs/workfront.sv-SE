@@ -7,9 +7,9 @@ description: Uppdateringstypen för ett projekt anger hur Adobe Workfront beräk
 author: Alina
 feature: Work Management
 exl-id: a6394961-2ac8-4b95-aa1b-dba8108c612f
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Mer information om hur du uppdaterar projektets uppdateringstyp finns i [Välj t
 
   När du uppdaterar en uppgift eller ett projekt och utlöser en omberäkning av tidslinjen, visas alla tillgängliga datum omedelbart så att du kan fortsätta arbeta. I projekt med mer än 100 uppgifter är datum som kräver längre beräkningar nedtonade.
 
-  ![](assets/dates-dimmed-when-insline-editing-350x146.png)
+  ![Datum nedtonade vid redigering inline](assets/dates-dimmed-when-insline-editing-350x146.png)
 
   Detta anger att omberäkningen ännu inte är klar och att datumen kan ändras.
 

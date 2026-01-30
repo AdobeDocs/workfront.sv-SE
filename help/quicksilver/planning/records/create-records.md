@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '3240'
+source-wordcount: '3265'
 ht-degree: 0%
 
 ---
@@ -152,7 +152,7 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
    * Poster som läggs till på den ursprungliga arbetsytan för en global posttyp visas från den ursprungliga arbetsytan.
    * Poster som läggs till på en sekundär arbetsyta av en global posttyp visas bara från den arbetsyta som de skapades på och den ursprungliga arbetsytan för den globala posttypen.
-Mer information finns i [Posttypöversikt för arbetsytan över &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+Mer information finns i [Posttypöversikt för arbetsytan över ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 * Beroende på deras behörigheter för arbetsytan och posttyperna kan användarna skapa poster på följande sätt:
 
@@ -192,7 +192,7 @@ Alla poster av den valda typen visas i vyn.
       * **Lägg till manuellt**. Postens förhandsvisningsruta öppnas.\
         Lägg till information om posten, enligt beskrivningen i avsnittet [Skapa poster genom att lägga till dem textbundet från posttyptabellvyn](#create-records-by-adding-them-inline-from-the-record-type-table-view) i den här artikeln, med början från steg 6. <!--insure this stays accurate-->
       * **Överför från fil**
-Lägg till poster enligt beskrivningen i artikeln [Skapa poster genom att importera information från en CSV- eller Excel-fil &#x200B;](/help/quicksilver/planning/records/import-file-to-create-records.md), med början i steg 6. <!--ensure this stays accurate-->
+Lägg till poster enligt beskrivningen i artikeln [Skapa poster genom att importera information från en CSV- eller Excel-fil ](/help/quicksilver/planning/records/import-file-to-create-records.md), med början i steg 6. <!--ensure this stays accurate-->
       * **Skicka en begäran**
 Formuläret med förfrågningar av posttyp öppnas.
 
@@ -538,11 +538,13 @@ Klicka på namnet för att öppna informationssidan och lägga till information 
 
 ## Skapa poster genom att skicka ett begärandeformulär till en posttyp
 
-När någon skapar ett begärandeformulär för en posttyp och delar en länk till den med dig, kan du skicka en begäran som skapar en post för den posttypen.
+När någon skapar ett begärandeformulär för en posttyp och antingen publicerar det i området Begäranden eller delar en länk till formuläret med dig, kan du skicka en begäran som skapar en post för den posttypen.
 
 Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 Både Workfront-användare och användare utanför din organisation kan skicka begäranden till posttyperna Planning och skapa poster, om de har en länk till förfrågningsformuläret.
+
+Endast Workfront-användare kan lägga till begäranden som skapar poster från området Begäranden i Workfront.
 
 Mer information finns i [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md).
 
@@ -564,7 +566,7 @@ Du kan konfigurera automatisering i Workfront Planning som, när den aktiveras, 
 
 Du kan konfigurera och aktivera automatiseringen på postens sida i Workfront Planning. Den anslutna post som skapas placeras i det anslutna fältet för den posttyp som du kör automatiseringen från.
 
-Mer information finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning &#x200B;](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+Mer information finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
 
 

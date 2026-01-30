@@ -6,9 +6,9 @@ description: Som projektledare kan du bestämma hur ett projekts villkor ska ber
 author: Alina
 feature: Work Management
 exl-id: e6b99c48-5ccc-4956-8465-6f22f14468ef
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
    * Klicka på menyn **Mer** ![Mer meny](assets/qs-more-menu.png) till höger om projektnamnet och klicka sedan på **Redigera**.
    * Klicka på **Projektinformation** i den vänstra panelen.
 
-   ![](assets/update-condition-type-nwe-350x108.png)
+   ![Uppdatera villkorstyp](assets/update-condition-type-nwe-350x108.png)
 
 1. Välj något av följande i fältet **Villkorstyp**:
 

@@ -6,9 +6,9 @@ description: Genom att beräkna om tidslinjer kan cheferna se hur olika faktorer
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1077'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ Som standard räknas projekttidslinjer om automatiskt varje dag när projektomf�
 > Ett exempel på ett komplext projekt kan vara ett projekt med flera beroenden, ett stort antal uppgifter, flera föregångare mellan projekt eller flera indrag för uppgifter.
 > Workfront skickar en varning till höger om projektnamnet på projektsidan som talar om för användarna att projekttidslinjen måste beräknas om manuellt. Endast användare med behörigheten Hantera för projektet kan beräkna om tidslinjen manuellt.
 >
->   ![](assets/project-warning-to-manually-recalculate-timeline.png)
+>   ![Projektvarning för att beräkna om tidslinjen](assets/project-warning-to-manually-recalculate-timeline.png)
 >
 
 * [Automatisk omberäkning av projekttidslinjer](#automatic-recalculation-of-project-timelines)
@@ -183,7 +183,7 @@ Du kan beräkna om tidslinjen för ett projekt i Workfront från projektsidan el
 
    Gå till en projektlista eller rapport och välj ett eller flera projekt och klicka sedan på ikonen **Mer** ![Mer-menyn](assets/qs-more-menu.png) överst i listan.
 
-   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Omberäkna uttryckets tidslinje med listrutan Ekonomi](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >

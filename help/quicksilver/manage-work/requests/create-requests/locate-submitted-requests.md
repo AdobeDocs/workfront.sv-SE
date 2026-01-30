@@ -8,19 +8,26 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1483'
 ht-degree: 0%
 
 ---
 
 # Visa skickade begäranden
 
-Du kan visa förfrågningar som du eller någon annan har skickat, eller förfrågningar som du har startat men som du aldrig har slutfört. Du hittar dessa förfrågningar i följande områden i Adobe Workfront:
+Du kan visa förfrågningar som du eller någon annan har skickat, eller förfrågningar som du har startat men som du aldrig har slutfört. De oavslutade förfrågningarna sparas som utkast.
+
+Du kan hitta skickade begäranden i följande områden i Adobe Workfront:
 
 * Området med förfrågningar i Workfront
-* widgeten Mina förfrågningar i Hem
+* Widgeten Mina förfrågningar i Hem
+
+I området Förfrågningar visas följande förfrågningar, beroende på hur du väljer att visa dem:
+
+* Workfront begär när du använder äldre upplevelse
+* Både Workfront och Planning begär när du använder den nya upplevelsen.
 
   >[!NOTE]
   >
@@ -107,16 +114,16 @@ Begärandelistan filtreras automatiskt när du lägger till filtervillkoren.
    Instruktioner finns i [Skapa eller redigera vyer i området Förfrågningar](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 1. (Valfritt) Kontrollera status för en begäran genom att markera kolumnen Status. Följande statusvärden är tillgängliga i den nya upplevelsen av begärande:
 
-   * Utkast: Denna begäran har ännu inte skickats.
-   * Väntande granskning: (endast planering) Den här begäran har godkännare och ingen av godkännarna har öppnat begäran.
-   * Granskning: (endast planering) Den här begäran har godkännare och minst en godkännare har öppnat begäran, men inget beslut har fattats.
-   * Avvisad: (Endast planering) Den här begäran har godkännare och har avvisats.
-   * Pågår:
-      * Workfront Workflow: Begäran har konverterats och arbetet pågår.
-      * Workfront Planering: Begäran som slutförs mappas till ett specifikt Planning-fält och fältvärdet matchar ännu inte värdet för slutförande.
+   * **Utkast**: Den här begäran har inte skickats ännu.
+   * **Väntande granskning**: (Endast planering) Den här begäran har godkännare och ingen av godkännarna har öppnat begäran.
+   * **I granskning**: (endast planering) Den här begäran har godkännare och minst en godkännare har öppnat begäran, men inget beslut har fattats.
+   * **Avvisad**: (Endast planering) Den här begäran har godkännare och har avvisats.
+   * **Pågår**:
+      * Workfront-begäranden: Begäran har konverterats och arbetet pågår.
+      * Workfront Planning-begäranden: Begärandeslutförandet mappas till ett specifikt Planning-fält och fältvärdet matchar ännu inte slutförandevärdet.
 
         Mer information finns i [Konfigurera information](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details) i artikeln Skapa och hantera ett begärandeformulär i Adobe Workfront Planning.
-   * Slutförd: Begäran har slutförts.
+   * **Fullständigt**: Begäran har slutförts.
 
 >[!NOTE]
 >

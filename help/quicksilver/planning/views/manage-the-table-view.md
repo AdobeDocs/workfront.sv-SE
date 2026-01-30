@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '3499'
+source-wordcount: '3507'
 ht-degree: 0%
 
 ---
@@ -191,7 +191,7 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
 
    Kolumnerna som du lägger till är synliga för alla användare som kommer åt posttypen och läggs till som nya fält på postens sida.
 
-1. (Valfritt) Klicka på ikonen **Fält** ![Fält &#x200B;](assets/fields-icon.png) i verktygsfältet, sök efter ett fält och avmarkera sedan alternativet till höger om fältnamnet för att dölja fältet.
+1. (Valfritt) Klicka på ikonen **Fält** ![Fält ](assets/fields-icon.png) i verktygsfältet, sök efter ett fält och avmarkera sedan alternativet till höger om fältnamnet för att dölja fältet.
 
 1. Gör något av följande om du vill ändra ordning på kolumnerna i tabellen:
 
@@ -237,7 +237,7 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
    >
    >Antalet dolda fält visas till vänster om ikonen Fält i verktygsfältet.
    >
-   ><span class="preview">Som standard visas inte dolda fält i postens förhandsvisningsruta **Detaljer**. Mer information finns i [Hantera postsidans layout](/help/quicksilver/planning/records/manage-the-record-page.md)</span>
+   ><span class="preview">Som standard visas inte dolda fält i postens förhandsvisningsruta **Detaljer**. Alla fält visas på postens informationssida. Mer information finns i [Hantera postsidans layout](/help/quicksilver/planning/records/manage-the-record-page.md)</span>
 
 
 1. Klicka på ikonen **Fält** och aktivera växlingen som är kopplad till de fält som du vill visa i tabellens kolumner. Alla fält visas som standard.
@@ -435,7 +435,7 @@ Tänk på följande när du sorterar poster i tabellvyn:
 Så här sorterar du <!--ungrouped (add this when sorting for groupings will be available--> poster:
 
 1. Skapa en tabellvy enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
-1. Klicka på ikonen **Sortera** ![Sortera &#x200B;](assets/sort-icon.png) i tabellens övre högra hörn
+1. Klicka på ikonen **Sortera** ![Sortera ](assets/sort-icon.png) i tabellens övre högra hörn
 
    eller
 

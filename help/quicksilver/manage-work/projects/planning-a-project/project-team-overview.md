@@ -7,9 +7,9 @@ description: Användare som är associerade med ett projekt i viss kapacitet utg
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Om en användare visas i området Personer i ett projekt visas det projektet nä
 
 Du kan se om filtret Projekt jag arbetar med är markerat i rubriken Projekt. Du kan använda den antingen från panelen Filter eller från sidhuvudet.
 
-![](assets/nwe-project-list-buttons-350x187.png)
+![Projektfilterknappar](assets/nwe-project-list-buttons-350x187.png)
 
 >[!NOTE]
 >

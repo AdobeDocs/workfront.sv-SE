@@ -6,9 +6,9 @@ description: Genom att välja en uppdateringstyp för ett projekt kan du styra h
 author: Alina
 feature: Work Management
 exl-id: ffdfffec-d217-4daa-9849-cb0c794992c0
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '664'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ När uppgifterna uppdateras uppdateras deras överordnade objekt (överordnade u
 
 1. Klicka på **Projekt** **Inställningar**.
 
-   ![](assets/update-type-field-on-project-edit-box-nwe-350x378.png)
+   ![Uppdatera typfält i redigeringsrutan för projekt](assets/update-type-field-on-project-edit-box-nwe-350x378.png)
 
 1. I fältet **Uppdatera typ** väljer du om du vill att Workfront ska beräkna tidslinjen för projektet automatiskt varje dag, när en ändring görs eller om du vill att projektledaren ska beräkna den manuellt.
 
@@ -81,7 +81,7 @@ När uppgifterna uppdateras uppdateras deras överordnade objekt (överordnade u
 
      När du uppdaterar en uppgift eller ett projekt och utlöser en omberäkning av tidslinjen, visas alla tillgängliga datum omedelbart så att du kan fortsätta arbeta. I projekt med mer än 100 uppgifter är datum som kräver längre beräkningar nedtonade.
 
-     ![](assets/dates-dimmed-when-insline-editing-350x146.png)
+     ![Datum nedtonade vid redigering inline](assets/dates-dimmed-when-insline-editing-350x146.png)
 
      Detta anger att omberäkningen ännu inte är klar och att datumen kan ändras.
 

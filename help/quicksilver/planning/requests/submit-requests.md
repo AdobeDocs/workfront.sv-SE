@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '2176'
+source-wordcount: '2200'
 ht-degree: 0%
 
 ---
@@ -106,15 +106,22 @@ Följande måste finnas innan du kan skicka en begäran till ett Workfront Plann
 
   Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
 * Poster som skapas när förfrågningsformulär skickas är kopplade till den ursprungliga begäran. Det går inte att ta bort den här anslutningen.
-* Du kan visa både poster som skapats och förfrågningar i följande områden:
+* Du kan visa både poster som skapats och förfrågningar som använts för att skapa dem i följande områden:
    * Området med förfrågningar i Workfront
 
   <div class="preview">
 
-   * Poster på valfri posttypsida i anslutningsfältet för originalbegäran
-   * Postens förhandsgranskningsruta Detaljer i anslutningsfältet för den ursprungliga begäran
+   * Spela in typsidor i Workfront Planning
+   * Området Detaljer i Workfront Planning
 
   </div>
+
+  >[!TIP]
+  >
+  ><span class="preview">Du kan visa namnet på begäran i fältet Ämne i området Begäranden i Workfront eller i fältet Original request connection i Workfront Planning. </span>
+
+
+
 * Skickade begäranden visas i området Begäranden i Workfront.
 * Skickade planeringsbegäranden visas bara i den nya begärande upplevelsen. Du kan inte se Planering-begäranden i den äldre upplevelsen av begäranden.
 Mer information finns i [Skapa och skicka begäranden](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
@@ -167,7 +174,7 @@ Om du aktiverar den här inställningen blir Workfront Planning-förfrågningsfo
 
      Mer information finns i [Lägga till ett godkännande i ett begärandeformulär](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-   * <span class="preview">Du kan lägga till anslutningsfältet Original request i en posttyp i Planning som visar namnet på den ursprungliga begäran. Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md). </span>
+   * <span class="preview">Du kan lägga till anslutningsfältet Originalbegäran till en posttyp i Planning för att visa namnet på den ursprungliga begäran som skapade en post. Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md). </span>
    * Begäran är bara synlig för ägaren, godkännaren och de personer som har minst behörigheten Visa på arbetsytan. Workfront-administratörer kan visa alla begäranden som skickas till valfri arbetsyta i systemet.
 
    * Du får ett meddelande i appen och ett e-postmeddelande om att begäran antingen har skickats eller skickats för granskning.

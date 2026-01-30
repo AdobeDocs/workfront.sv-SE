@@ -6,9 +6,9 @@ description: Du kan uppdatera implementeringsdatumet för en uppgift eller ett �
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -143,13 +143,13 @@ Uppdateringen av implementeringsdatumet är identisk för uppgifter och utgåvor
 
 1. (Villkorligt och valfritt) Om Workfront- eller gruppadministratören har lagt till implementeringsdatumet i huvud för aktiviteten eller utgåvan klickar du på fältet **Bekräftelsedatum** i huvudet och väljer sedan ett datum i kalendern. Om implementeringsdatumet inte finns i huvudet fortsätter du med följande steg.
 
-   ![](assets/commit-date-task-header.png)
+   ![Bekräftelsedatum i uppgiftshuvudet](assets/commit-date-task-header.png)
 
 1. Klicka på **Uppgiftsinformation** eller **Ärendeinformation** i den vänstra panelen.
 1. Klicka på **Översikt** för att expandera den.
 1. Uppdatera fältet **Verkställ datum**.
 
-   ![](assets/task-commit-date-edit-highlighted-details-page.png)
+   ![Redigering av datum för aktivitetens genomförande har markerats på informationssidan](assets/task-commit-date-edit-highlighted-details-page.png)
 
 1. Klicka på **Spara ändringar**.
 
@@ -159,15 +159,15 @@ Uppdateringen av implementeringsdatumet är identisk för uppgifter och utgåvor
 
      Istället ändras datumet för implementering och det beräknade slutförandedatumet för aktiviteten eller utgåvan.
 
-     ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
+     ![Aktivitetens beräknade slutförandedatum i markerade detaljer](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
    * Projektägaren meddelas i ett meddelande från Workfront i appen om att du har föreslagit ett nytt implementeringsdatum för uppgiften eller utgåvan.
    * Projektägaren meddelas i uppdateringsavsnittet att du har föreslagit ett nytt implementeringsdatum och de kan för närvarande uppdatera det planerade slutförandedatumet för aktiviteten eller utgåvan så att det matchar det implementeringsdatum du föreslog.
 
-     ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
+     ![Meddelande från projektägare i uppdateringsdataström som bekräftar datum påverkar projekttidslinjen](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 
 
-     <!--![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
+     <!--![Project owner notification in update stream that commit date affects the project timeline](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
 
      Mer information om de meddelanden och uppdateringar som utlöses av den här ändringen finns i avsnittet&quot;Meddelanden och uppdateringar som utlöses av ändring av implementeringsdatumet&quot; i artikeln [Bekräfta datumöversikt](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 

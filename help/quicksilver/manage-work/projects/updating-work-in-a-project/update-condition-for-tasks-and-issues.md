@@ -6,9 +6,9 @@ description: Villkoret för en aktivitet eller ett problem är en flagga som ang
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 2d8ad8baa6c470fd82b61202cb42443f568b1968
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1070'
 ht-degree: 0%
 
 ---
@@ -167,7 +167,7 @@ Du kan uppdatera villkoret för uppgifter och problem manuellt i olika områden 
    * Vissa bekymmer
    * Större vägspärrar
 
-   ![](assets/condition-in-task-header-0925.png)
+   ![Villkor i uppgiftshuvudet](assets/condition-in-task-header-0925.png)
 
 <!--1. Click Enter to save the Condition.-->
 
@@ -185,7 +185,7 @@ Du kan uppdatera villkoret för uppgifter och problem manuellt i olika områden 
 
 1. Uppdatera **villkoret** för problemet eller aktiviteten genom att dubbelklicka på det befintliga villkoret och välja ett nytt värde i listrutan.
 
-   ![](assets/condition-values-in-task-list-0925.png)
+   ![Villkorsvärden i uppgiftslistan](assets/condition-values-in-task-list-0925.png)
 
    >[!NOTE]
    >

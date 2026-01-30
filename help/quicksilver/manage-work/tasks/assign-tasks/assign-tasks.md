@@ -7,7 +7,7 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
 source-wordcount: '2479'
 ht-degree: 0%
@@ -276,7 +276,7 @@ Om du tilldelar flera uppgifter samtidigt från en lista varierar beroende på v
 1. (Valfritt och villkorligt) När fälten Tilldelad till eller Uppdrag visas i listan med uppgifter klickar du i en av dessa kolumner för en uppgift och sedan på ikonen **X** bredvid namnet på en tilldelad för att ta bort den från uppgiften.
 
 
-### Tilldela flera uppgifter samtidigt från en lista i den nya upplevelsen
+#### Tilldela flera uppgifter samtidigt från en lista i den nya upplevelsen
 
 1. Gå till en lista med uppgifter som du vill tilldela gruppvis.
 1. (Villkorligt) Se till att alternativet **Spara automatiskt** är markerat om du finns med i en lista över aktiviteter under ett projekt.

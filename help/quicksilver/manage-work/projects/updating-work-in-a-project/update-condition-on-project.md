@@ -6,9 +6,9 @@ description: Villkoret för ett projekt är en flagga som placeras på det för 
 author: Alina
 feature: Work Management
 exl-id: 1f46386e-e1ae-4845-8cc4-09dd7d39076f
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,7 @@ Om du ställer in projektets villkorstyp på Manuell i stället för Status kan 
 
 1. Kontrollera att fältet **Villkorstyp** är inställt på **Manuell**.
 
-   ![](assets/project-details-overview-select-condition.png)
+   ![Översikt över projektinformation, välj villkor](assets/project-details-overview-select-condition.png)
 
 1. I fältet **Villkor** väljer du bland följande alternativ det som matchar din förståelse för om arbetet som är kopplat till det går smidigt eller om det finns några förseningar:
 

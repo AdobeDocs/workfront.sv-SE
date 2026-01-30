@@ -6,9 +6,9 @@ description: Du kan uppdatera status för ett problem för att informera andra o
 author: Alina
 feature: Work Management
 exl-id: 6e09dfcf-dceb-4f33-9592-0769283369c7
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -122,13 +122,13 @@ Så här uppdaterar du utgivningsstatusen manuellt i utgivningsrubriken:
 
    Klicka i bubblan i huvudet på utgåvan för att ange en procentsats.
 
-   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+   ![Uppdatera aktivitetsprocent slutfört i huvudet](assets/nwe-updatetaskpercentinheader-350x54.png)
 
 1. (Valfritt) Gör något av följande för att ange ytterligare information om uppdateringen:
 
    * Om du vill lägga till en anteckning om uppdateringen går du till avsnittet **Uppdateringar** och klickar på **Ny kommentar**. Skriv sedan en anteckning.
 
-     ![](assets/nwe-issue-update-stream-message-box-350x125.png)
+     ![Utfärda meddelanderuta för uppdateringsström](assets/nwe-issue-update-stream-message-box-350x125.png)
 
    * Om du vill meddela vissa användare om uppdateringen skriver du deras namn i fältet **Tagga personer eller team** som visas när du skriver en kommentar. Mer information finns i [Tagga andra om uppdateringar](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
    * Om du vill uppdatera datumet för implementeringen av felet klickar du på **Utfärdandeinformation** och redigerar sedan fältet **Bekräfta datum**. Mer information finns i [Redigera problem](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
@@ -147,7 +147,7 @@ When you are updating an issue status, you can also add an explanation about the
 1. Go to an issue that you are assigned to for which you want to update the status.
 1. Click the **Status** field in the issue header and select a new status.
 
-   ![](assets/nwe-issue-status-expanded-in-header-350x370.png)
+   ![Issue status expanded in header](assets/nwe-issue-status-expanded-in-header-350x370.png)
 
 1. To provide a visual indication of issue completion, drag or double-click the bubble under **Percent Complete** in the header of the issue.
 
@@ -155,7 +155,7 @@ When you are updating an issue status, you can also add an explanation about the
 
    Click inside the bubble in the header of the issue to enter a percentage.
 
-   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+   ![Update task percent in header](assets/nwe-updatetaskpercentinheader-350x54.png)
 
 -->
 

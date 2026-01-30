@@ -6,9 +6,9 @@ description: Du kan konfigurera projektet så att det kräver att de timmar som 
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '790'
 ht-degree: 0%
 
 ---
@@ -129,7 +129,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 Så här kräver du projektledarens godkännande för timmar i projektet:
 
 1. Gå till projektet där du vill ha godkännande i timmar.
-1. Klicka på ikonen **Mer** ![Mer &#x200B;](assets/more-icon.png) till höger om projektnamnet och klicka sedan på **Redigera**.\
+1. Klicka på ikonen **Mer** ![Mer ](assets/more-icon.png) till höger om projektnamnet och klicka sedan på **Redigera**.\
    Dialogrutan Redigera projekt visas.
 
 1. I avsnittet **Projektinställningar** väljer du **Kräv tid för att godkännas för det här projektet**.
@@ -152,12 +152,12 @@ Så här godkänner eller avvisar du timmar i ett projekt:
 1. Timmar som loggats för problem, uppgifter och projektvisning och som ska ha statusen **Skickat**.\
    Klicka i rutan till vänster om timuppgifterna för att välja de timmar som du vill godkänna.
 
-1. Klicka på ikonen **Godkänn** ![](assets/approve-hours-icon.png) längst upp i timlistan.\
+1. Klicka på ikonen **Godkänn** ![Godkänn](assets/approve-hours-icon.png) längst upp i timlistan.\
    Status för timmarna ändras till **Godkänd**.\
    Om du senare avvisar de godkända timmarna ändras statusen för timmarna till **Inte godkänt**.\
    När du inkluderar de godkända timmarna i en faktureringspost ändras statusen för timmarna till **Fakturerad och godkänd**. Timmar som lagts till i en faktureringspost kan inte tas bort. Mer information om hur du skapar faktureringsposter finns i artikeln [Skapa faktureringsposter](../../../manage-work/projects/project-finances/create-billing-records.md)
 
-1. (Valfritt) Klicka på ikonen **Avvisa** ![](assets/reject-hours-icon.png) om du vill avvisa tidsposterna i projektet.\
+1. (Valfritt) Klicka på ikonen **Avvisa** ![Ikonen Avvisa timmar](assets/reject-hours-icon.png) om du vill avvisa tidsposterna i projektet.\
    Status för timmarna ändras till **Avvisad**.
 
    >[!NOTE]

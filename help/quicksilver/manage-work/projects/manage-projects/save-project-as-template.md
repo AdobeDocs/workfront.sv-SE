@@ -6,7 +6,7 @@ description: Spara ett projekt som en mallSpara som mall på projektnivå, så a
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 0%
@@ -135,17 +135,17 @@ Saving a project as a template differs in the Production and the Preview environ
 
 1. Click **Manage Forms** to remove or reorder the forms. For information about how to remove and reorder custom forms on the template, see [Custom forms](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
-   ![](assets/save-as-template-first-step-350x159.png)
+   ![Save as template first step](assets/save-as-template-first-step-350x159.png)
 
 1. Click **Next Step.**
 1. In the **Options** section, select the checkbox beside any information you want to clear from the template.
 
-   ![](assets/save-as-template-options-step-350x109.png)
+   ![Save as template options step](assets/save-as-template-options-step-350x109.png)
 
 1. Click **Next Step.**
 1. In the **Exclude** section, select any tasks that you want to exclude from the project.
 
-   ![](assets/save-as-template-exclude-350x205.png)
+   ![Save as template exclude](assets/save-as-template-exclude-350x205.png)
 
 1. Click **Finish and Save Template.**
 
