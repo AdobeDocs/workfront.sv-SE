@@ -129,7 +129,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 Så här kräver du projektledarens godkännande för timmar i projektet:
 
 1. Gå till projektet där du vill ha godkännande i timmar.
-1. Klicka på ikonen **Mer** ![Mer ](assets/more-icon.png) till höger om projektnamnet och klicka sedan på **Redigera**.\
+1. Klicka på ikonen **Mer** ![Mer &#x200B;](assets/more-icon.png) till höger om projektnamnet och klicka sedan på **Redigera**.\
    Dialogrutan Redigera projekt visas.
 
 1. I avsnittet **Projektinställningar** väljer du **Kräv tid för att godkännas för det här projektet**.
