@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: dca61a5d1f89d1524b64280e6e0542984f3686a1
 workflow-type: tm+mt
-source-wordcount: '13750'
+source-wordcount: '13755'
 ht-degree: 0%
 
 ---
@@ -1853,7 +1853,7 @@ ht-degree: 0%
       * [Översikt över dokumentets beslutsstatus](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
       * [Kom igång med Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
       * [Adobe Enterprise Storage - översikt](/help/quicksilver/review-and-approve-work/esm-overview.md)
-      * [Adobe Enterprise-lagringsbehörigheter och åtkomstöversikt](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
+      * [Översikt över objektbehörigheter och åtkomstnivå för Adobe Enterprise-lagringsmodell](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
       * Ställ in och hantera godkännande av tillgångar och dokument {#manage-asset-review-and-approval}
          * [Ställa in och hantera enhetliga godkännanden: artikelindex](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [Skapa AI-granskare](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
