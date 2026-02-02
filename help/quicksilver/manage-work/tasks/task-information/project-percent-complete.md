@@ -77,7 +77,7 @@ Beroende på vad din Workfront- eller gruppadministratör har valt i Projektinst
 
   Projektets totala planerade timmar är summan av de planerade timmarna för alla huvuduppgifter i projektet.
 
-  ![Projekt med aktiviteter i procent slutförda och planerade timmar ](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
+  ![Projekt med aktiviteter i procent slutförda och planerade timmar &#x200B;](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
 
   >[!NOTE]
   >

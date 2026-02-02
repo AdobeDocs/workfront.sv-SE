@@ -132,7 +132,7 @@ Du kan skapa underaktiviteter från uppgiftslistan eller underaktivitetsavsnitte
 1. Gå till det projekt där du vill göra en underaktivitet till en huvuduppgift.
 1. Klicka på avsnittet **Åtgärder** i den vänstra panelen.
 1. Markera den underaktivitet som du vill göra till huvuduppgift.
-1. Klicka på ikonen **Minska indrag** ![Dra ut ](assets/outdent-icon-nwe-31x29.png) för att göra underaktiviteten till en huvudåtgärd.
+1. Klicka på ikonen **Minska indrag** ![Dra ut &#x200B;](assets/outdent-icon-nwe-31x29.png) för att göra underaktiviteten till en huvudåtgärd.
 
    eller
 

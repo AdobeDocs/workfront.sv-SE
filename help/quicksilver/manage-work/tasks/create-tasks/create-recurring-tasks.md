@@ -109,7 +109,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 1. Klicka på **Översikt** i den vänstra panelen.
 1. Bläddra ned till avsnittet **Återkommande schema** och välj sedan alternativet **Gör detta till en återkommande uppgift**.
 
-   ![Val av återkommande aktiviteter ](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
+   ![Val av återkommande aktiviteter &#x200B;](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
 
 1. I listrutan **Täthet** väljer du antalet tidsenheter när du vill att uppgiften ska utföras och typen av tidsenheter. Välj bland följande alternativ:
 
