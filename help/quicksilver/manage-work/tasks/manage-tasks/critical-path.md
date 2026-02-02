@@ -7,9 +7,9 @@ description: Att fastställa den kritiska vägen för ett projekt är ett automa
 author: Alina
 feature: Work Management
 exl-id: 9cbc84bf-d02b-4bb7-8d5d-922554d1262e
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Följande funktioner kan påverka projektets kritiska väg:
      >När en uppgifts efterföljande datum inte direkt påverkar datumet för de beroende aktiviteterna eller projektets datum, ligger efterföljande aktivitet inte på den kritiska sökvägen.
      >
      >
-     >![](assets/successor-not-on-critical-path-350x150.png)     >
+     >![Efterföljande inte på kritisk sökväg](assets/successor-not-on-critical-path-350x150.png)     >
      >
 
    * När en underaktivitet identifieras som en kritisk sökvägsuppgift identifieras även den överordnade aktiviteten som en kritisk sökvägsuppgift om det planerade startdatumet och den överordnade aktivitetens tid är samma som underaktivitetens.
@@ -131,7 +131,7 @@ Så här visar du uppgifter på den kritiska sökvägen i Gantt-schemat:
 
    ![gantt_chart_icon__1_.png](assets/gantt-icon.png)
 
-1. Klicka på ikonen **Alternativ** ![Alternativ &#x200B;](assets/options-icon.png) i det övre högra hörnet av Gantt-diagramavsnittet och välj sedan alternativet **Kritisk bana** i listrutan som visas. De uppgifter som finns på den kritiska banan har nu en röd linje ovanför tidslinjen.
+1. Klicka på ikonen **Alternativ** ![Alternativ ](assets/options-icon.png) i det övre högra hörnet av Gantt-diagramavsnittet och välj sedan alternativet **Kritisk bana** i listrutan som visas. De uppgifter som finns på den kritiska banan har nu en röd linje ovanför tidslinjen.
 
    ![crtitical_path_on_gantt__1_.png](assets/crtitical-path-on-gantt--1--350x137.png)
 
@@ -145,11 +145,11 @@ Så här visar du vilka uppgifter som finns på den kritiska sökvägen i en lis
 
 1. Klicka på **Åtgärder** i den vänstra panelen. Fliken **Uppgifter** öppnas.
 
-1. Klicka på ikonen **Visa** ![Visa &#x200B;](assets/view-icon.png) och välj sedan **Status** . De åtgärder som finns på den kritiska sökvägen visar en **Kritisk sökväg** -flagga i kolumnen **Flaggor** i listan.
+1. Klicka på ikonen **Visa** ![Visa ](assets/view-icon.png) och välj sedan **Status** . De åtgärder som finns på den kritiska sökvägen visar en **Kritisk sökväg** -flagga i kolumnen **Flaggor** i listan.
 
    eller
 
-   Klicka på ikonen **Filter** ![Filter &#x200B;](assets/filters-icon.png) och välj sedan **+ Nytt filter**.
+   Klicka på ikonen **Filter** ![Filter ](assets/filters-icon.png) och välj sedan **+ Nytt filter**.
 1. I det första fältet skriver du *Är kritisk* och markerar den när den visas under avsnittet **Åtgärder** i listan.
 
    ![Aktiviteten är ett kritiskt filter](assets/task-is-critical.png)

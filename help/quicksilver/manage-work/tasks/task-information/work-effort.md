@@ -7,9 +7,9 @@ description: Översikt över arbetsinsats
 author: Alina
 feature: Work Management
 exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1488'
 ht-degree: 0%
 
 ---
@@ -130,15 +130,15 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 
 ## Aktivera användning av Arbetskraft i stället för Planerade timmar
 
-1. Gå till ett projekt och klicka på menyn **Mer** ![](assets/more-icon.png) och klicka sedan på **Redigera**.
+1. Gå till ett projekt och klicka på **Mer**-menyn ![Mer-ikonen](assets/more-icon.png) och klicka sedan på **Redigera**.
 1. Klicka på **Aktivitetsinställningar** och välj sedan alternativet **Använd arbetsinsats för att automatiskt beräkna planerade timmar för aktiviteter**. Detta är som standard avmarkerat.
 
-   ![](assets/nwe-work-effort-on-projects-350x182.png)
+   ![Arbetsinsats i projekt](assets/nwe-work-effort-on-projects-350x182.png)
 
    Mer information om hur du aktiverar användningen av Arbetsinställningar för ett projekt finns i avsnittet Aktivitetsinställningar i artikeln [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md) .
 
 1. Klicka på **Åtgärder** på den vänstra panelen och klicka sedan på namnet på en uppgift för att komma åt den.
-1. Klicka på menyn **Mer** ![](assets/more-icon.png) och sedan på **Redigera**. Kontrollera att aktiviteten har en enkel varaktighetstyp.
+1. Klicka på ikonen **Mer** ![Mer](assets/more-icon.png) och klicka sedan på **Redigera**. Kontrollera att aktiviteten har en enkel varaktighetstyp.
 
    >[!TIP]
    >
@@ -146,7 +146,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 
 1. Klicka på listrutan Arbetskraft i området **Översikt** för att korrigera mängden arbete som krävs för att slutföra uppgiften.
 
-   ![](assets/work-effort-on-edit-task-page-350x239.png)
+   ![Arbetsinsats på sidan Redigera uppgift](assets/work-effort-on-edit-task-page-350x239.png)
 
    Mer information om hur du uppdaterar fältet Arbetskraft för en uppgift finns i följande artiklar:
 

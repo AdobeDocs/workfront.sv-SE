@@ -7,9 +7,9 @@ description: Beräknat arbete är en varaktighetstyp som du kan ange för en upp
 author: Alina
 feature: Work Management
 exl-id: f521c2f5-8d58-44c0-af18-6940ad0950ea
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ I följande exempel är Normal Timme per arbetsdag inställd på 8 i Projektinst
 
 I det här fallet tilldelas varje tilldelad 100 % till aktiviteten Beräknat arbete.
 
-![](assets/calcwork-350x71.png)
+![Beräknat varaktighetstyp](assets/calcwork-350x71.png)
 
 ## Ändra varaktighetstypen för en aktivitet till Beräknat arbete
 

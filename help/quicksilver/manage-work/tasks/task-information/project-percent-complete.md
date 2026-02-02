@@ -7,9 +7,9 @@ description: Värdet för Procent färdigt för ett projekt beräknas baserat p�
 author: Alina
 feature: Work Management
 exl-id: d2395569-9fe5-42e7-a392-cff49eb519d9
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -54,13 +54,13 @@ Tänk på följande scenarier:
 
   De totala planerade timmarna för den överordnade representerar summan av alla planerade timmar för var och en av de underordnade.
 
-  ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
+  ![Projekt med aktiviteter i procent slutförda och planerade timmar](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
 
 * Om systemet beräknar procentandelen slutförd baserat på Varaktighet beräknas den överordnade aktivitetens procent slutfört med följande formel:
 
   `Parent Task Percent Complete = (((Task 1 Duration * Task 1 Percent Complete) + (Task 2 Duration * Task 2 Percent Complete))/ Total Duration of Parent)*100`
 
-  ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
+  ![Projekt med aktiviteter i procent klart och tidsberäkning](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
   >[!IMPORTANT]
   >
@@ -77,7 +77,7 @@ Beroende på vad din Workfront- eller gruppadministratör har valt i Projektinst
 
   Projektets totala planerade timmar är summan av de planerade timmarna för alla huvuduppgifter i projektet.
 
-  ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
+  ![Projekt med aktiviteter i procent slutförda och planerade timmar ](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
 
   >[!NOTE]
   >
@@ -91,7 +91,7 @@ Beroende på vad din Workfront- eller gruppadministratör har valt i Projektinst
   >
   >Projektets längd är den totala längden av alla varaktigheter för de huvudsakliga aktiviteterna som visar ett procenttal färdigt. Ett projekt med en fristående aktivitet med en varaktighet på 2 dagar och en överordnad aktivitet med en varaktighet på 5 dagar som har haft arbetet slutfört på dem får till exempel en total varaktighet på 7 dagar, även om de två aktiviteterna kan starta på samma dag.
 
-  ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
+  ![Projekt med aktiviteter i procent klart och tidsberäkning](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
   >[!NOTE]
   >
@@ -101,7 +101,7 @@ Beroende på vad din Workfront- eller gruppadministratör har valt i Projektinst
 
 När du använder varaktigheten för aktiviteterna för att beräkna procentandelen färdigt i ett projekt ska du tänka på följande exempel:
 
-![](assets/project-with-tasks-percent-complete-duration-calculation.png)
+![Projekt med aktiviteter i procent klart och tidsberäkning](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
 Följande information används för att beräkna hur stor del av projektet som har slutförts
 

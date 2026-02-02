@@ -7,9 +7,9 @@ description: Du kan ange en prioritet för en uppgift för att ange hur viktig u
 author: Alina
 feature: Work Management
 exl-id: 653b62fe-6195-4288-ac05-f89e4a6113fd
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '277'
 ht-degree: 2%
 
 ---
@@ -102,5 +102,5 @@ Tänk på följande när du använder uppgiftsprioriteter:
 
 1. Gå till den uppgift vars prioritet du vill ändra.
 1. Klicka på **Uppgiftsinformation** i den vänstra panelen.
-1. Klicka på ikonen **Redigera** ![](assets/qs-edit-icon.png) och välj sedan ett värde för fältet **Prioritet** i området **Översikt**.
+1. Klicka på ikonen **Redigera** ![Redigera](assets/qs-edit-icon.png) och välj sedan ett värde för fältet **Prioritet** i området **Översikt**.
 1. Klicka på **Spara** **Ändringar**.

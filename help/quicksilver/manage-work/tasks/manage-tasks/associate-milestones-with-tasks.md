@@ -6,9 +6,9 @@ description: Du kan associera milstolpar med uppgifter för att ange när du nå
 author: Alina
 feature: Work Management
 exl-id: 56410640-fde4-417f-8ea0-f089315476f7
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ Innan du kan associera en milstolpe med en uppgift måste följande finnas:
 
 När en milstolpe-sökväg har associerats med ett projekt kan uppgifter tilldelas en milstolpe.
 
-1. Gå till en aktivitet, klicka på ikonen **Mer** ![](assets/more-icon.png) till höger om aktivitetsnamnet och sedan på **Redigera**.
+1. Gå till en aktivitet och klicka sedan på ikonen **Mer** ![Mer](assets/more-icon.png) till höger om aktivitetsnamnet och sedan på **Redigera** .
 
    Aktiviteter och milstolpar har en :1-relation. Du kan inte koppla samma milstolpe till flera uppgifter. Varje aktivitet kan länkas till en enskild milstolpe, eller varje milstolpe kan mappas till en aktivitet.
 
@@ -111,8 +111,8 @@ När en milstolpe-sökväg har associerats med ett projekt kan uppgifter tilldel
 
    Mer information finns i [Skapa eller redigera vyer i Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
-   ![](assets/amwt3.png)
+   ![Statusikoner](assets/amwt3.png)
 
 1. (Valfritt) Gå till en lista med projekt och markera vyn **Milstolpe** för att identifiera förloppet för dina milstolpeuppgifter.
 
-   ![](assets/milestone-view-project-list.png)
+   ![Vyprojektlista för milstolpe](assets/milestone-view-project-list.png)

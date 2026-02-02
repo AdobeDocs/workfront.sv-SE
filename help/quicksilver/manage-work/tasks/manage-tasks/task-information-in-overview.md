@@ -6,9 +6,9 @@ description: Du kan visa eller redigera information om en uppgift genom att gå 
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '2102'
+source-wordcount: '2104'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
    >
    >Beroende på hur din Workfront-administratör eller gruppadministratör konfigurerar vår layoutmall kan fälten i avsnittet Uppgiftsinformation ordnas om eller inte visas. Mer information finns i [Anpassa detaljvyn med hjälp av en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. Klicka på ikonen **Redigera** ![](assets/edit-icon.png) i det övre högra hörnet av detaljavsnittet och klicka sedan på **Översikt**.
+1. Klicka på ikonen **Redigera** ![Redigera](assets/edit-icon.png) i det övre högra hörnet av detaljavsnittet och klicka sedan på **Översikt**.
 
    >[!TIP]
    >

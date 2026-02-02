@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1061'
 ht-degree: 0%
 
 ---
@@ -116,8 +116,8 @@ Så här skapar du uppgifter i ett projekt:
 
 1. Gå till det projekt där du vill skapa en uppgift.
 1. Klicka på **Åtgärder** i den vänstra panelen.
-1. (Villkorligt) Om du för närvarande visar uppgiftslistan i en Agilvy klickar du på ikonen **Listvy** ![](assets/list-view-in-agile-view-for-tasks.png) i det övre högra hörnet för att visa uppgiftslistan.
-1. (Valfritt) Klicka på ikonen **Planeringsläge** ![](assets/nwe-plan-mode-icon-task-list.png) och välj **Manuell sparning**. Välj sedan antingen **Standard** eller **Tidslinjeplanering**. Detta inaktiverar alternativet **Spara automatiskt** som är aktiverat som standard.
+1. (Villkorligt) Om du för närvarande visar uppgiftslistan i en Agilvy klickar du på ikonen **Listvy** ![Listvy i Agilvyn för uppgifter](assets/list-view-in-agile-view-for-tasks.png) i det övre högra hörnet för att visa uppgiftslistan.
+1. (Valfritt) Klicka på ikonen **Planeringsläge** ![Planeringsläge för uppgiftslistan](assets/nwe-plan-mode-icon-task-list.png) och välj **Manuell sparning**. Välj sedan antingen **Standard** eller **Tidslinjeplanering**. Detta inaktiverar alternativet **Spara automatiskt** som är aktiverat som standard.
 
    ![Välj Spara manuellt](assets/manual-save-option.png)
 
@@ -130,7 +130,7 @@ Så här skapar du uppgifter i ett projekt:
    * Klicka på **Ny aktivitet** överst i uppgiftslistan.
    * Klicka på **Lägg till fler aktiviteter** längst ned i uppgiftslistan.
 
-   ![](assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png)
+   ![Ny aktivitet eller Lägg till aktivitetsknapp i en lista markerad](assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png)
 
 1. (Villkorligt) Om du klickade på **Ny aktivitet** gör du följande:
 
@@ -140,11 +140,11 @@ Så här skapar du uppgifter i ett projekt:
 
       Om du vill uppdatera alla fält för uppgiften klickar du på **Fler alternativ** för att öppna rutan **Skapa uppgift** .
 
-      ![](assets/nwe-create-task-small-screen-350x272.png)
+      ![Skapa liten ruta för uppgift](assets/nwe-create-task-small-screen-350x272.png)
 
       Rutan **Skapa uppgift** öppnas.
 
-      ![](assets/create-task-larger-box-nwe-350x244.png)
+      ![Skapa stor ruta för uppgift](assets/create-task-larger-box-nwe-350x244.png)
 
 
       >[!NOTE]
@@ -173,7 +173,7 @@ Så här skapar du uppgifter i ett projekt:
 
    Vi rekommenderar att du använder det här alternativet särskilt när du lägger till flera uppgifter i listan.
 
-   ![](assets/add-more-tasks-inline.png)
+   ![Lägg till fler aktiviteter inline](assets/add-more-tasks-inline.png)
 
 1. (Villkorligt) Gör något av följande:
 
@@ -213,11 +213,11 @@ Så här skapar du uppgifter i ett projekt:
 
    Mer information finns i [Filtrera: personliga uppgifter](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
 
-   ![](assets/personal-tasks-report.png)
+   ![Rapport om personliga uppgifter](assets/personal-tasks-report.png)
 1. Klicka på ett aktivitetsnamn i den personliga aktivitetsrapporten för att öppna den.
 
    Workfront sparar personliga uppgifter i ett personligt projekt som inte finns med i listan och som alltid namnges enligt följande mönster: &quot;&lt; Användarens fullständiga namn > Uppgifter. Ett personligt projekt kan till exempel heta &quot;Rick&#39;s Tasks&quot;.
 
-1. Klicka på **Mer-menyn** ![](assets/more-icon.png) på uppgiftssidan och klicka sedan på **Flytta**. Mer information om att flytta uppgifter finns i [Flytta uppgifter](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md).
+1. Klicka på ikonen **Mer** ![Mer](assets/more-icon.png) på uppgiftssidan och klicka sedan på **Flytta**. Mer information om att flytta uppgifter finns i [Flytta uppgifter](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md).
 
    När du är klar med att flytta uppgiften visas den i det markerade projektet. Projektets tidslinje kan påverkas av tidslinjen för den nya aktiviteten.

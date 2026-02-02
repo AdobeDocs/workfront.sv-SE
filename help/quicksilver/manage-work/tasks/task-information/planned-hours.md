@@ -7,7 +7,7 @@ description: Planerade timmar som är associerade med en aktivitet, utgåva elle
 author: Alina
 feature: Work Management
 exl-id: 0b86c760-691a-436e-9beb-31e9ac36440a
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
 source-wordcount: '2815'
 ht-degree: 0%
@@ -130,7 +130,7 @@ Mer information om hur du skapar rapporter finns i [Skapa en anpassad rapport](.
 <!--
 ### The Scheduling areas  {#the-scheduling-areas}
 
-![](assets/task-detail-expanded-in-scheduler-with-planned-hours-and-adjusted-daily-allocations-nwe-350x323.png)
+![Task detail expanded in scheduler with Planned Hours and Adjusted Daily allocations](assets/task-detail-expanded-in-scheduler-with-planned-hours-and-adjusted-daily-allocations-nwe-350x323.png)
 
 The Planned Hours for tasks and issues display in the Scheduling areas in the Planned Hours field.
 

@@ -7,9 +7,9 @@ description: ALAP (Late As Possible) är en Adobe Workfront-aktivitetsbegränsni
 author: Alina
 feature: Work Management
 exl-id: 475427d0-020b-4851-a614-c9931659e07d
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -61,13 +61,13 @@ I den här situationen:
 
   **Exempel:** Till exempel är Aktivitet A en föregångare till Aktivitet B. Aktivitet A har den senaste tillgängliga tidsbegränsningen och aktivitet B har begränsningen Per så snart som möjligt. I så fall är uppgift A schemalagd så nära projektets början som möjligt.
 
-  ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
+  ![Senaste tillgängliga tidsaktivitetsbegränsning](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
 
 * **Så här sent som möjligt:** I det här scenariot prioriterar föregående aktivitet med begränsningen Så sent som möjligt för föregående aktivitet.
 
   **Exempel:** Till exempel är Aktivitet A en föregångare till Aktivitet B. Aktivitet A har begränsningen Så sent som möjligt och aktivitet B har begränsningen Så snart som möjligt. I så fall är uppgift A schemalagd så nära projektets slut som möjligt.
 
-  ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
+  ![Så sent som möjligt för uppgiftsbegränsningen i en uppgiftslista](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
 
 
 

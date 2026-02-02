@@ -6,9 +6,9 @@ description: Du kan ta bort skickade begäranden eller begära utkast.
 author: Becky
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
@@ -81,12 +81,9 @@ Du kan ta bort begäranden under Förfrågningar i Workfront eller i widgeten Mi
 
       Mer information om widgeten Mina förfrågningar finns i [Använd widgeten Mina förfrågningar](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
-1. I listan Begäranden eller i widgeten Mina förfrågningar för du muspekaren över den förfrågan eller det utkast som du vill ta bort.
+1. I listan **Förfrågningar** eller widgeten **Mina förfrågningar** i Hem håller du muspekaren över den förfrågan eller det utkast som du vill ta bort och klickar sedan på menyn **Mer** ![Mer](assets/more-menu.png) .
 
-   Menyn Mer med tre punkter visas.
-   ![](assets/more-menu.png)
-
-1. Klicka på menyn **Mer** till höger om namnet på begäran eller utkastet och klicka sedan på **Ta bort**.
+1. Klicka på **Ta bort**
 
    eller
 

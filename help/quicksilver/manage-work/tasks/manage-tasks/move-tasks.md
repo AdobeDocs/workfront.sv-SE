@@ -6,9 +6,9 @@ description: Du kan flytta uppgifter till olika projekt eller till olika överor
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1377'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,7 @@ Tänk på följande när du flyttar en uppgift:
 
    * Klicka på **Mer**-menyn ![Mer-ikonen](assets/main-more-icon.png) högst upp i uppgiftslistan och klicka sedan på **Flytta till**.
    * Högerklicka på de markerade aktiviteterna och klicka sedan på **Flytta till**.
-   * När du väljer en åtgärd klickar du på menyn **Mer** ![](assets/more-icon-task-list.png) bredvid aktivitetsnamnet i listan och sedan på **Flytta till**.
+   * När du markerar en aktivitet klickar du på ikonen **Mer** ![Mer i uppgiftslistan](assets/more-icon-task-list.png) bredvid aktivitetsnamnet i listan och sedan på **Flytta till**.
 
    Rutan **Flytta aktivitet** visas.
 
@@ -265,7 +265,7 @@ Förutom att flytta uppgifter från en lista med uppgifter kan du flytta en uppg
 
    Uppgiften visas i listan.
 
-   ![Välj överordnad aktivitet när du flyttar en aktivitet med sökfunktioner &#x200B;](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![Välj överordnad aktivitet när du flyttar en aktivitet med sökfunktioner ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
    >[!NOTE]
    >

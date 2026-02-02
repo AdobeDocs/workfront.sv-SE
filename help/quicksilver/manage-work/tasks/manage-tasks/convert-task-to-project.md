@@ -6,9 +6,9 @@ description: När en uppgift i ett projekt kräver mer arbete än du ursprunglig
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1152'
 ht-degree: 0%
 
 ---
@@ -199,13 +199,13 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 ## Konvertera en uppgift till ett projekt
 
 1. Gå till den uppgift som du vill konvertera till ett projekt.
-1. Klicka på ikonen **Mer** ![](assets/more-icon.png) och sedan på **Konvertera till projekt**.
+1. Klicka på ikonen **Mer** ![Mer](assets/more-icon.png) och sedan på **Konvertera till projekt**.
 1. Välj något av följande alternativ:
 
    * **Nytt projekt**, om du vill skapa ett projekt utan att använda en mall
    * En mall i avsnittet **Välj från mallar**
 
-     ![](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
+     ![Listruta för alternativet Konvertera aktivitet till projektmall](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
 
 1. Klicka på **Fortsätt** på meddelandet som visas.
 1. Ange följande i rutan **Konvertera till projekt**:

@@ -8,7 +8,7 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 0%
@@ -80,7 +80,7 @@ Så här skapar du en ämnesgrupp:
 1. Klicka på **Ämnesgrupper** i den vänstra panelen.
 1. Klicka på **Ny ämnesgrupp**.
 
-   <!--   ![](assets/new-topic-group-box-nwe-350x306.png) -->
+   <!--   ![New topic group box](assets/new-topic-group-box-nwe-350x306.png) -->
 
 1. Ange följande information:
 

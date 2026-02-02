@@ -6,9 +6,9 @@ description: Du kan skapa underordnade relationer på flera sätt i Adobe Workfr
 author: Alina
 feature: Work Management
 exl-id: 38ea13a5-ab95-4617-a47f-9dde5f752fb4
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 1. Klicka på **Åtgärder** i den vänstra panelen.
 1. (Villkorligt) Välj **Spara automatiskt** i det övre högra hörnet av uppgiftslistan och välj sedan de uppgifter som du vill kedja.
 
-   ![](assets/nwe-autosave-icon-on-highlighted-350x295.png)
+   ![Ikonen Spara automatiskt på markerad](assets/nwe-autosave-icon-on-highlighted-350x295.png)
 
    >[!IMPORTANT]
    >

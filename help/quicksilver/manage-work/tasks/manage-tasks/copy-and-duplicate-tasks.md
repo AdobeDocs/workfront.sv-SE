@@ -6,9 +6,9 @@ description: Du kan kopiera en uppgift från ett projekt till ett annat projekt,
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: '1744'
 ht-degree: 0%
 
 ---
@@ -108,9 +108,9 @@ Tänk på följande när du kopierar en uppgift:
    Gå till en uppgiftsrapport.
 
 1. (Villkorligt) Klicka på **Åtgärder** i den vänstra panelen om du öppnade projektet som innehåller aktiviteterna.
-1. Klicka på ikonen **Planeringsläge** ![](assets/qs-list-mode-or-save-mode-icon-small.png) och kontrollera att alternativet **Spara automatiskt** är aktiverat.
+1. Klicka på ikonen **Planeringsläge** ![Listläge eller ikonen för att spara ](assets/qs-list-mode-or-save-mode-icon-small.png) och kontrollera att alternativet **Spara automatiskt** är aktiverat.
 
-   ![](assets/autosave-icon-on-highlighted-350x202.png)
+   ![Ikonen Spara automatiskt aktiverad och markerad](assets/autosave-icon-on-highlighted-350x202.png)
 
    >[!IMPORTANT]
    >
@@ -120,9 +120,9 @@ Tänk på följande när du kopierar en uppgift:
 
    * Klicka på menyn **Mer** överst i uppgiftslistan och klicka sedan på **Kopiera till**.
    * Högerklicka på de markerade uppgifterna och klicka sedan på **Kopiera till**.
-   * När du markerar en åtgärd klickar du på menyn **Mer** ![](assets/more-icon-task-list.png) bredvid aktivitetsnamnet i listan och sedan på **Kopiera till**.
+   * När du markerar en aktivitet klickar du på ikonen **Mer** ![Mer i uppgiftslistan](assets/more-icon-task-list.png) bredvid aktivitetsnamnet i listan och sedan på **Kopiera till**.
 
-   ![](assets/copy-task-in-list-nwe-350x131.png)
+   ![Kopiera uppgift i lista](assets/copy-task-in-list-nwe-350x131.png)
 
 1. Fortsätt med kopieringen av uppgiften enligt beskrivningen i avsnittet [Kopiera en uppgift på aktivitetsnivå](#copy-a-task-at-the-task-level) med början från steg 4.
 
@@ -136,9 +136,9 @@ Förutom att kopiera uppgifter i en lista med uppgifter kan du även kopiera en 
 
 1. Hitta en uppgift i ditt Workfront-system genom att söka efter den.
 1. Klicka på namnet på uppgiften för att öppna den.
-1. Klicka på listrutan **Mer** ![](assets/qs-more-menu.png) bredvid namnet på uppgiften och klicka sedan på **Kopiera till**.
+1. Klicka på listrutan **Mer** ![Mer meny](assets/qs-more-menu.png) bredvid namnet på uppgiften och klicka sedan på **Kopiera till**.
 
-   ![](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
+   ![Uppgiftskopia till alternativ på aktivitetsnivå](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
 
    I rutan Kopiera uppgift visas.
 
@@ -148,7 +148,7 @@ Förutom att kopiera uppgifter i en lista med uppgifter kan du även kopiera en 
    >
    >Det här fältet är nedtonat och går inte att redigera när du väljer att kopiera flera uppgifter i en lista. Du kan hålla muspekaren över fältet Uppgiftsnamn så visas en lista med alla markerade uppgifter.
    >
-   >![](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
+   >![Kopiera uppgift i en ruta med flera uppgifter](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
 
 1. Skriv namnet på **målprojektet** där du vill kopiera uppgiften i fältet **Välj målprojekt**.
 
@@ -163,7 +163,7 @@ Förutom att kopiera uppgifter i en lista med uppgifter kan du även kopiera en 
 1. (Villkorligt) Klicka på **begär åtkomst** för att begära åtkomst till projektet, om du inte har åtkomst till det valda projektet.
 1. (Villkorligt) Fortsätt att kopiera uppgiften till det valda målprojektet utan att begära åtkomst om du har åtkomst till att lägga till uppgifter i någon av uppgifterna i målprojektet.
 
-   ![](assets/copy-task-request-access-from-project-nwe-350x125.png)
+   ![Kopiera åtkomst för uppgiftsbegäran från projekt](assets/copy-task-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >
@@ -241,7 +241,7 @@ Förutom att kopiera uppgifter i en lista med uppgifter kan du även kopiera en 
 
    Uppgiften visas i listan.
 
-   ![Välj överordnad aktivitet när du flyttar en aktivitet med sökfunktioner &#x200B;](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![Välj överordnad aktivitet när du flyttar en aktivitet med sökfunktioner ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. Markera alternativknappen för den överordnade när du har hittat den.
 
@@ -290,11 +290,11 @@ Du kan snabbt duplicera en uppgift i en uppgiftslista om du behöver en identisk
 1. Klicka på **Åtgärder** i den vänstra panelen.
 1. Gör något av följande:
 
-   * (Villkorligt) Klicka på ikonen **Planeringsläge** ![](assets/qs-list-mode-or-save-mode-icon-small.png) och kontrollera att alternativet **Spara automatiskt** är aktiverat, markera de uppgifter du vill duplicera och klicka sedan på menyn **Mer** ![](assets/qs-more-menu-29x11.png) > **Duplicera** .
+   * (Villkorligt) Klicka på ikonen **Planera läge** ![Listläge eller det lilla sparläget](assets/qs-list-mode-or-save-mode-icon-small.png) och kontrollera att alternativet **Spara automatiskt** är aktiverat, markera de uppgifter du vill duplicera och klicka sedan på menyn **Mer** ![Mer](assets/qs-more-menu-29x11.png) > **Duplicera** .
 
-     ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
+     ![Duplicera uppgifter i listmenyobjektet](assets/duplicate-tasks-in-list-nwe-350x196.png)
 
-   * (Villkorligt) Klicka på ikonen **Planeringsläge** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Manuell sparning** > **Standard** eller **Planering av tidslinje** och gör sedan följande:
+   * (Villkorligt) Klicka på ikonen **Planera läge** ![Listläge eller det lilla sparläget ](assets/qs-list-mode-or-save-mode-icon-small.png) > **Spara manuellt** > **Standard** eller **Planera tidslinje** och gör sedan följande:
 
       1. Markera den eller de uppgifter du vill duplicera och klicka på **Duplicera**.
       1. (Valfritt) Klicka på **Ångra** om du vill ångra ändringarna och inte duplicera uppgifterna.

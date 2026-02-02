@@ -6,9 +6,9 @@ description: En uppgifts varaktighetstyp identifierar relationen mellan antalet 
 author: Alina
 feature: Work Management
 exl-id: 2f01566c-c3e0-4f59-bf53-2a67806a205c
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Så här uppdaterar du varaktighetstypen för en aktivitet:
 1. Klicka på avsnittet **Åtgärder** i den vänstra panelen.
 1. Klicka på **Aktivitetsinformation** i den vänstra panelen och klicka sedan på **Varaktighetstyp** i området Översikt.
 
-   ![](assets/duration-type-all-options-on-overview-350x155.png)
+   ![Varaktighet Skriv alla alternativ i Översikt](assets/duration-type-all-options-on-overview-350x155.png)
 
 1. Välj bland följande alternativ
 

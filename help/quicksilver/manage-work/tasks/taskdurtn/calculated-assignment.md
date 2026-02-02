@@ -7,9 +7,9 @@ description: Beräknad tilldelning är en varaktighetstyp som du kan ange för e
 author: Alina
 feature: Work Management
 exl-id: 5f1f6109-5d54-4c3f-9aa5-dc6ce165a1cd
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Planned Hours / Duration / Number of Resources = Allocation Percentage for each 
 
 I scenariot nedan har till exempel varje uppgift en varaktighet på 3 dagar. Projektledaren anger manuellt både tidslängd (3 dagar eller 24 timmar) och Planerade timmar, och som resultat beräknas allokeringsprocenten (eller tilldelningsprocenten):
 
-![](assets/calcassign-350x80.png)
+![Beräknat varaktighetstyp för tilldelning](assets/calcassign-350x80.png)
 
 ## Ändra varaktighetstypen för en aktivitet till Beräknat uppdrag
 

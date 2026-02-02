@@ -6,9 +6,9 @@ description: Den planerade och faktiska kostnaden för aktiviteterna och deras a
 author: Alina
 feature: Work Management
 exl-id: bc30ecab-7347-4dff-8e06-e8ea3f50d5b3
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 1. Klicka på **Uppgiftsinformation** i den vänstra panelen och utöka området **Ekonomi**.
 1. Dubbelklicka på **Kostnadstyp** och välj den kostnadstyp som du vill använda för uppgiften.
 
-   ![](assets/task-cost-type-options-in-tasks-details-nwe-350x233.png)
+   ![Alternativ för uppgiftskostnadstyp i Uppgiftsinformation](assets/task-cost-type-options-in-tasks-details-nwe-350x233.png)
 
    Välj bland följande alternativ:
 

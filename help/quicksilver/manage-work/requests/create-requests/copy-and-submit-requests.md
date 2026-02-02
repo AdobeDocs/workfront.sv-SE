@@ -6,9 +6,9 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1517'
+source-wordcount: '1520'
 ht-degree: 0%
 
 ---
@@ -104,19 +104,19 @@ Du måste ha en begäran om att du eller någon i din organisation som tidigare 
 
 1. Leta reda på den begäran som du vill kopiera och skicka som ny, och gör något av följande:
 
-   * Markera den och klicka sedan på **Kopiera** ![](assets/copy-and-submit-as-new-requests-area-nwe.png) i det övre vänstra hörnet i listan Skickade begäranden.
+   * Markera den och klicka sedan på ikonen **Kopiera** ![Kopiera och skicka](assets/copy-and-submit-as-new-requests-area-nwe.png) i det övre vänstra hörnet i listan Skickade begäranden.
 
    >[!TIP]
    >
    > Om du inte valde någon begäran först är ikonen Kopiera nedtonad.
 
-   * Klicka på menyn **Mer** ![](assets/more-icon.png) till höger om namnet på begäran, klicka sedan på **Kopiera och skicka som nytt**
+   * Klicka på **Mer**-menyn ![Mer-ikonen](assets/more-icon.png) till höger om namnet på begäran, klicka sedan på **Kopiera och skicka som nytt**
 
      eller
 
      Högerklicka på den valda begäran, klicka sedan på **Kopiera och skicka som ny**.
 
-     ![](assets/request-selected-more-menu-options-nwe-350x191.png)
+     ![Begäran markerade fler menyalternativ](assets/request-selected-more-menu-options-nwe-350x191.png)
 
      >[!TIP]
      >
@@ -236,12 +236,9 @@ Du kan kopiera och skicka begäranden i området Förfrågningar i Workfront ell
 
       Mer information om widgeten Mina förfrågningar finns i [Använd widgeten Mina förfrågningar](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
-1. I listan Begäranden eller i widgeten Mina förfrågningar för du muspekaren över den förfrågan som du vill kopiera.
+1. I listan **Begäranden** eller widgeten **Mina förfrågningar** i Hem håller du muspekaren över den förfrågan du vill kopiera och klickar sedan på menyn **Mer** ![Mer](assets/more-menu.png) .
 
-   Menyn Mer med tre punkter visas.
-   ![](assets/more-menu.png)
-
-1. Klicka på menyn **Mer** till höger om namnet på begäran och klicka sedan på **Kopiera**.
+1. Klicka på **Kopiera**
 
    eller
 

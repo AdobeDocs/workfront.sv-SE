@@ -6,9 +6,9 @@ description: Ibland kan det finnas konflikter mellan aktivitetsscheman i ett pro
 author: Alina
 feature: Work Management
 exl-id: 6695448c-76ce-460c-aa59-63a3d5e2e18d
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 
 1. Klicka på **Inställningar**.
 
-   ![](assets/leveling-delay-edit-task-nwe-350x345.png)
+   ![Utjämningsfördröjning vid redigering av uppgift](assets/leveling-delay-edit-task-nwe-350x345.png)
 
 1. Ange **Leveling Delay** i timmar och välj sedan en tidsenhet.\
    Det här är den tidpunkt då resursen kommer att fördröjas när aktiviteten startas på grund av resurskonflikter.

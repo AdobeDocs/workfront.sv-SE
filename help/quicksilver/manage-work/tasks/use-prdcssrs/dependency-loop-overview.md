@@ -7,9 +7,9 @@ description: När du lägger till föregående relationer till uppgifter kan du 
 author: Alina
 feature: Work Management
 exl-id: 142e9637-841c-43d1-b297-e42c28a9e010
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ Beroendeslingor inträffar när du har två eller flera uppgifter som är beroen
 
 Om du försöker göra Task 1 till en föregångare till Task 2 får du ett fel med en beroendeloop eftersom du inte kan starta Task 1 förrän Task 2 har slutförts, men uppgift 2 kan inte startas förrän Task 1 har slutförts.
 
-![](assets/dependency-loop-error-message-350x209.png)
+![Felmeddelande för beroendeloop](assets/dependency-loop-error-message-350x209.png)
 
-![](assets/dependency-loop-in-task-list-nwe-350x97.png)
+![Beroendeloop i uppgiftslistan](assets/dependency-loop-in-task-list-nwe-350x97.png)
 
 ## Överväganden om beroendeloopar
 

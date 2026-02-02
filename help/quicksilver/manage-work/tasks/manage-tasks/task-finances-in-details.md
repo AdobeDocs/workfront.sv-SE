@@ -6,9 +6,9 @@ description: Du kan visa eller redigera den ekonomiska informationen för en upp
 author: Alina
 feature: Work Management
 exl-id: 54ae48e5-bc8c-4e90-8fa1-0015523df4e6
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '838'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 1. Klicka på **Aktivitetsinformation**.
 1. (Valfritt) Klicka på ikonen **Komprimera alla** längst upp till höger på sidan Uppgiftsinformation.
 
-   ![](assets/collapse-all-icon-on-details-page.png)
+   ![Komprimera alla ikoner på informationssidan](assets/collapse-all-icon-on-details-page.png)
 
    >[!NOTE]
    >
@@ -100,7 +100,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 
 1. Klicka på **Ekonomi** om du vill expandera och visa den ekonomiska informationen för aktiviteten.
 
-   Klicka på ikonen **Redigera** ![](assets/edit-icon.png) i det övre högra hörnet av informationsavsnittet och klicka sedan på **Ekonomi**.
+   Klicka på ikonen **Redigera** ![Redigera](assets/edit-icon.png) i det övre högra hörnet av detaljavsnittet och klicka sedan på **Ekonomi**.
 
 1. Redigera alla fält som är tillgängliga för redigering genom att klicka en gång på fältet eller klicka på **+Lägg till** för att lägga till information i ett tomt fält.
 1. Granska eller redigera följande information i området **Ekonomi** :

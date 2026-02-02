@@ -6,9 +6,9 @@ description: Planerat arbete representeras i Adobe Workfront av projekt och uppg
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 2b4c13babecd3675f82699282c3dd42191c73df1
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '2532'
+source-wordcount: '2575'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,7 @@ Så här skapar du en begäran i Workfront webbprogram:
      >
      >Workfront sparar bara en sökväg när du har skickat in en förfrågan. Det skapar inte vägar för utkast.
 
-     ![](assets/list-of-recent-paths-and-request-queues-when-entering-new-request-nwe-350x295.png)
+     ![Lista över senaste sökvägar och frågeköer när en ny begäran anges](assets/list-of-recent-paths-and-request-queues-when-entering-new-request-nwe-350x295.png)
 
    * Välj en begärandekö i avsnittet **Begärandeköer**.
    * Ange ett nyckelord som tillhör en tidigare använd sökväg för att söka efter en begärandekö.
@@ -169,7 +169,7 @@ Så här skapar du en begäran i Workfront webbprogram:
      >
      >När du skriver ett namn som innehåller ett specialtecken visas begärandekön, köämnet eller ämnesgruppen även om du utelämnar att skriva tecknet.
 
-     ![](assets/request-queue-search-findings-with-highlighted-results-350x210.png)
+     ![Begär sökresultat i kön med markerade resultat](assets/request-queue-search-findings-with-highlighted-results-350x210.png)
 
      Listan över tillgängliga begärandeköer och de senaste sökvägarna uppdateras dynamiskt så att endast sökvägar som innehåller nyckelordet som är markerat i resultaten inkluderas.
 
@@ -206,7 +206,7 @@ Så här skapar du en begäran i Workfront webbprogram:
 
      De tre senaste utkasten från tre olika köämnen visas som standard.
 
-     ![](assets/new-drafts-after-new-request-area-was-removed-350x162.png)
+     ![Nya utkast efter att det nya begärandeområdet har tagits bort](assets/new-drafts-after-new-request-area-was-removed-350x162.png)
 
    * Börja ange en ny begäran i den valda kön.
 
@@ -219,7 +219,7 @@ Så här skapar du en begäran i Workfront webbprogram:
    >När du hovrar över en ämnesgrupp eller ett köämne visas fältet Beskrivning till höger. Detta innehåller ytterligare information om ämnesgruppen eller köämnet.
    >
    >
-   >![](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)
+   >![Visa beskrivning av köämne när begäran skickas](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)
    >
 
    Du kan ha upp till 10 nivåer av ämnesgrupper inbyggda i din frågekö.\
@@ -327,7 +327,7 @@ Så här skapar du en begäran i Workfront webbprogram:
 
      Klicka på **Stäng** om du inte är redo att skicka det och du kanske kommer tillbaka och slutför det senare. Din begäran sparas i avsnittet Utkast och blir tillgänglig nästa gång du skickar en begäran för den här kön.
 
-     ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
+     ![Skicka, stäng, ignorera utkastknapp på ny begäran](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
    När du skickar begäran tas utkastet automatiskt bort och kan inte återställas.
 

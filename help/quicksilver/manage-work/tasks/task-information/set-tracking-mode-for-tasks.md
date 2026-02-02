@@ -6,9 +6,9 @@ description: Spårningsläget för en aktivitet avgör hur aktivitetens förlopp
 author: Alina
 feature: Work Management
 exl-id: 751071b4-3716-4153-97fe-4fe0ebc7cbb0
-source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -87,13 +87,13 @@ Mer information om spårningsläge för uppgifter finns i [Översikt över spår
 ## Ange spårningsläge för uppgifter
 
 1. Gå till den uppgift som du vill ställa in spårningsläget för.
-1. Klicka på ikonen **Mer** ![](assets/qs-more-icon-on-an-object.png)bredvid namnet på aktiviteten och klicka sedan på **Redigera**.
+1. Klicka på ikonen **Mer** ![Mer om ett objekt](assets/qs-more-icon-on-an-object.png)bredvid namnet på aktiviteten och klicka sedan på **Redigera**.
 
    Dialogrutan Redigera uppgift öppnas.
 
 1. I avsnittet **Inställningar** använder du listrutan **Spårningsläge** för att välja spårningsläget för uppgiften.
 
-   ![](assets/tracking-mode-field-in-edit-task-settings-nwe-350x233.png)
+   ![Fältet Spårningsläge i avsnittet Redigera aktivitetsinställningar](assets/tracking-mode-field-in-edit-task-settings-nwe-350x233.png)
 
 1. Välj bland följande alternativ:
 

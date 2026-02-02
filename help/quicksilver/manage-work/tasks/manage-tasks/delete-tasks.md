@@ -6,9 +6,9 @@ description: Du kan ta bort uppgifter som kan vara dubbletter eller som har skap
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '790'
 ht-degree: 0%
 
 ---
@@ -174,9 +174,9 @@ Tänk på följande:
 1. Klicka på projektnamnet som innehåller uppgiften som du vill ta bort.
 1. Klicka på **Åtgärder** i den vänstra panelen.
 1. Klicka på namnet på den uppgift som du vill ta bort.
-1. Klicka på ikonen **Mer** ![](assets/qs-more-menu.png) i det övre högra hörnet.
+1. Klicka på ikonen **Mer** ![Mer meny](assets/qs-more-menu.png) i det övre högra hörnet.
 
-   ![](assets/delete-tasks-task-level-nwe-350x225.png)
+   ![Ta bort aktiviteter på aktivitetsnivå](assets/delete-tasks-task-level-nwe-350x225.png)
 
 1. Klicka på **Ta bort uppgift**.
 1. Om borttagningen tillåts klickar du på **Ta bort**.

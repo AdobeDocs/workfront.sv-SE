@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1553'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ When assigning users to work, their availability according to their schedules af
    >
    >Använd inte fältet **Tilldelad till**. Detta söker bara efter den primära ägaren för uppgiften i stället för de användare som kan tilldelas till dem.
 
-1. Markera de uppgifter som du vill ändra uppdrag för och klicka sedan på ikonen **Redigera** ![](assets/edit-icon.png) .
+1. Markera de uppgifter som du vill ändra uppdrag för och klicka sedan på ikonen **Redigera** ![Redigera](assets/edit-icon.png) .
 
    Redigering av uppdrag i uppgifter varierar beroende på vilken miljö du väljer.
 

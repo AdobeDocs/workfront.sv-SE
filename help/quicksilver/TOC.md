@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 8164cce259c48ccd92d3cb73a9fcc0ca1907b612
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '13726'
+source-wordcount: '13750'
 ht-degree: 0%
 
 ---
@@ -2110,7 +2110,10 @@ ht-degree: 0%
    * Adobe Workfront Planning - bästa praxis {#adobe-workfront-planning-best-practices}
       * [Adobe Workfront bästa praxis: artikelindex](planning/best-practices.md/best-practices-article-index.md)
       * [30-dagars startplatta: lansera ditt strategiska hem](planning/best-practices.md/30-day-launchpad.md)
-      * [Framgångsramverket: utforma kampanjhierarkin](planning/best-practices.md/model-campaign-hierarchy.md)
+      * [Framgångsarkitekturen: modellera kampanjhierarkin](planning/best-practices.md/model-campaign-hierarchy.md)
+      * [Marknadsföringskalendern som du har missat: inga däck, bara klarhet](planning/best-practices.md/marketing-calendar.md)
+      * [Playbook: hanterad skalning, efter första win](planning/best-practices.md/playbook-how-to-scale.md)
+      * [Bron: koppla ihop strategisk avsikt med projekt](planning/best-practices.md/the-bridge-connect-strategy-with-projects.md)
    * Adobe Workfront Planning - arkitektur {#adobe-workfront-planning-architecture}
       * [Arkitektur: artikelindex](planning/architecture/architecture-information.md)
       * [Arbetsytor - översikt](planning/architecture/workspaces-overview.md)

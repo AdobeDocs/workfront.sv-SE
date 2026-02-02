@@ -8,9 +8,9 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1506'
 ht-degree: 0%
 
 ---
@@ -145,7 +145,7 @@ Så här visar du begäranden som du eller andra användare har skickat in i den
    >
    >Du kan inte anpassa kolumnerna i listan Skickade begäranden.
 
-   ![](assets/nwe-submitted-requests-new-list-350x57.png)
+   ![Skickade begäranden i en ny lista](assets/nwe-submitted-requests-new-list-350x57.png)
 
 
 1. Följande kolumner visas som standard:
@@ -189,17 +189,17 @@ Så här visar du begäranden som du eller andra användare har skickat in i den
    >
    >När du navigerar bort från listan Skickade begäranden bevaras det valda sorteringsalternativet.
 
-1. (Valfritt) Markera en begäran i listan och klicka sedan på ikonen **Öppna sammanfattning** ![](assets/open-summary-with-text-nwe.png) för att öppna panelen Sammanfattning och visa ytterligare information om begäran, lägga till kommentarer, dokument eller tilldela den. Mer information om panelen Sammanfattning finns i [Översikt över sammanfattning](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+1. (Valfritt) Markera en begäran i listan och klicka sedan på ikonen **Öppna sammanfattning** ![Öppna sammanfattning med text](assets/open-summary-with-text-nwe.png) för att öppna panelen Sammanfattning och visa ytterligare information om begäran, lägga till kommentarer, dokument eller tilldela den. Mer information om panelen Sammanfattning finns i [Översikt över sammanfattning](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
    >[!TIP]
    >
    >Om panelen Sammanfattning redan är öppen ändras ikonen Öppna sammanfattning till Stäng sammanfattning.
 
-1. (Valfritt och villkorligt) Klicka på ikonen **X** i det övre högra hörnet eller på ikonen **Stäng sammanfattning** ![](assets/close-summary-with-text-nwe.png) för att stänga sammanfattningspanelen.
+1. (Valfritt och villkorligt) Klicka på ikonen **X** i det övre högra hörnet eller på ikonen **Stäng sammanfattning** ![Stäng sammanfattning med text](assets/close-summary-with-text-nwe.png) för att stänga sammanfattningspanelen.
 
    Om en utgåva konverterades till en uppgift eller ett projekt och utgåvan togs bort i konverteringsprocessen är panelen Sammanfattning tom. Mer information om hur du konverterar problem finns i [Översikt över hur du konverterar problem i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-1. Välj något av filtren i tabellen nedan från **Filterikonen** ![](assets/filter-nwepng.png) i det övre högra hörnet av listan.
+1. Välj något av filtren i tabellen nedan från **Filterikonen** ![Filtrera-ikonen](assets/filter-nwepng.png) i det övre högra hörnet av listan.
 
    >[!TIP]
    >
@@ -232,7 +232,7 @@ Så här visar du begäranden som du eller andra användare har skickat in i den
     </tbody> 
    </table>
 
-1. (Valfritt) Klicka på ikonen **Filtersida** ![](assets/search-icon.png) högst upp i listan om du vill söka efter en begäran efter namn. Listan uppdateras med resultat som matchar dina sökvillkor.
+1. (Valfritt) Klicka på ikonen **Filtrera sida** ![Sök ](assets/search-icon.png) högst upp i listan om du vill söka efter en begäran per namn. Listan uppdateras med resultat som matchar dina sökvillkor.
 
 1. (Villkorligt) Om du bara vill visa Workfront Request-köer söker du efter eller filtrerar efter `Issue` objekttyper.</span>
 
@@ -266,7 +266,7 @@ Så här visar du begäranden som du eller andra användare har skickat in i den
 
    Använd **Filter** och **Kolumner** för att uppdatera informationen i listan Planeringsbegäran.
 
-   ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+   ![Planeringsfliken skickade avsnitt i området Förfrågningar](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
    Mer information finns i [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md).
 

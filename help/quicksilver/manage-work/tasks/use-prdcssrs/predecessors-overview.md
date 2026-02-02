@@ -7,9 +7,9 @@ description: En föregångare är den uppgift som en annan aktivitet (kallas eft
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1184'
 ht-degree: 0%
 
 ---
@@ -140,4 +140,4 @@ Du kan visa föregående information i följande områden i Workfront. Här finn
 
 * I uppgiftshuvudet vid åtkomst av uppgiften.
 
-  ![](assets/qs-predecessor-info-in-task-header-350x141.png)
+  ![Föregående information i uppgiftshuvudet](assets/qs-predecessor-info-in-task-header-350x141.png)

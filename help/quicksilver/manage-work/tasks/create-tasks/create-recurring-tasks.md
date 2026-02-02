@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 
    Dialogrutan Ny uppgift visas.
 
-   ![](assets/nwe-create-task-small-screen-350x272.png)
+   ![Skapa aktivitet på liten skärm](assets/nwe-create-task-small-screen-350x272.png)
 
 1. Klicka på **Fler alternativ** och ange ett namn för aktiviteten i fältet **Uppgiftsnamn**.
 1. Fortsätt uppdatera aktiviteten på samma sätt som om du lade till en ny uppgift. Mer information om hur du lägger till en ny uppgift finns i [Skapa uppgifter i ett projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
@@ -109,7 +109,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 1. Klicka på **Översikt** i den vänstra panelen.
 1. Bläddra ned till avsnittet **Återkommande schema** och välj sedan alternativet **Gör detta till en återkommande uppgift**.
 
-   ![](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
+   ![Val av återkommande aktiviteter ](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
 
 1. I listrutan **Täthet** väljer du antalet tidsenheter när du vill att uppgiften ska utföras och typen av tidsenheter. Välj bland följande alternativ:
 
@@ -163,7 +163,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 
    Mer information om vilka fält som fylls i automatiskt från den överordnade återkommande aktiviteten finns i [Översikt över återkommande aktiviteter](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
 
-   ![](assets/recurring-tasks-in-task-list-nwe-350x87.png)
+   ![Gör om aktiviteter i uppgiftslistan](assets/recurring-tasks-in-task-list-nwe-350x87.png)
 
 1. (Valfritt) Ändra varje återkommande uppgift på samma sätt som andra uppgifter i projektet.
 

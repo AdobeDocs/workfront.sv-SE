@@ -6,9 +6,9 @@ description: I Adobe Workfront kan uppgifter ha överordnade och underordnade re
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -96,12 +96,12 @@ Du kan skapa underaktiviteter från uppgiftslistan eller underaktivitetsavsnitte
 1. (Villkorligt) Om den uppgift som du vill göra till den underordnade uppgiften inte redan finns direkt under den uppgift som du vill göra till överordnad, drar och släpper du den till rätt plats i uppgiftslistan.
 1. Markera den uppgift som du vill göra en underuppgift och gör något av följande:
 
-   * Klicka på ikonen **Indrag** ![](assets/indent-icon-nwe-33x29.png) för att göra den markerade aktiviteten till en underaktivitet för aktiviteten direkt ovanför den.
+   * Klicka på ikonen **Indrag** ![Indrag](assets/indent-icon-nwe-33x29.png) om du vill göra den markerade aktiviteten till en underaktivitet för aktiviteten direkt ovanför den.
    * När du använder ett vanligt engelskt QWERTY-tangentbord trycker du på Alt + > (Mac) eller Alt + > (Windows) på tangentbordet. Andra språk kan använda kommandona Alt + , (Mac) eller Alt + , (Windows) för att dra in.
 
      >[!TIP]
      >
-     >Kortkommandon fungerar inte när du redigerar uppgifter i en infogad redigering. I det här fallet använder du ikonen Indrag ![](assets/indent-icon-nwe-33x29.png) för att skapa underaktiviteter.
+     >Kortkommandon fungerar inte när du redigerar uppgifter i en infogad redigering. I det här fallet använder du ikonen Indrag ![Ikonen Indrag](assets/indent-icon-nwe-33x29.png) för att skapa underaktiviteter.
 
    * Dra och släpp uppgiften över den uppgift som du vill ange som överordnad uppgift.
 
@@ -132,7 +132,7 @@ Du kan skapa underaktiviteter från uppgiftslistan eller underaktivitetsavsnitte
 1. Gå till det projekt där du vill göra en underaktivitet till en huvuduppgift.
 1. Klicka på avsnittet **Åtgärder** i den vänstra panelen.
 1. Markera den underaktivitet som du vill göra till huvuduppgift.
-1. Klicka på ikonen **Minska indrag** ![](assets/outdent-icon-nwe-31x29.png) för att göra underaktiviteten till en huvuduppgift.
+1. Klicka på ikonen **Minska indrag** ![Dra ut ](assets/outdent-icon-nwe-31x29.png) för att göra underaktiviteten till en huvudåtgärd.
 
    eller
 

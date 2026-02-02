@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1658'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Om du vill ange att varaktigheten för en uppgift är 3 Förfluten dag skriver d
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: stays QS only forever; for the pictures below: make the first one classic at preview time and the second one stays QS always. The second one is yellow >> take out at 21.2 production!!)</p>
 -->
 
-![](assets/duration-elapsed-days-tasks-nwe-350x282.png)
+![Varaktighet som förflutit i dagar för aktiviteter](assets/duration-elapsed-days-tasks-nwe-350x282.png)
 
 Tänk på följande när du anger varaktigheten för en uppgift:
 

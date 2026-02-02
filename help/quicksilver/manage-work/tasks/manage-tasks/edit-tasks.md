@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '5369'
+source-wordcount: '5428'
 ht-degree: 0%
 
 ---
@@ -162,7 +162,7 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
 1. Klicka på den uppgift som du vill redigera.
 1. (Villkorligt) Om du vill redigera begränsad information om en aktivitet klickar du på **Uppgiftsinformation** i den vänstra panelen.
 
-   ![](assets/nwe-task-details-expanded-350x273.png)
+   ![Utökad aktivitetsinformation](assets/nwe-task-details-expanded-350x273.png)
 
    Överväg att redigera information i följande områden i avsnittet Uppgiftsinformation:
 
@@ -184,15 +184,15 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
 
    Så här redigerar du information i detaljavsnittet:
 
-   1. (Valfritt) Klicka på ikonen **Komprimera alla** ![](assets/collapse-all-icon.png) i det övre högra hörnet om du vill komprimera alla områden.
-   1. (Valfritt och villkorligt) När ett område är komprimerat klickar du på den **högerriktade pilen** ![](assets/right-pointing-arrow.png) bredvid varje område för att expandera det område som du vill redigera.
+   1. (Valfritt) Klicka på ikonen **Komprimera alla** ![Komprimera alla ](assets/collapse-all-icon.png) i det övre högra hörnet om du vill komprimera alla områden.
+   1. (Valfritt och villkorligt) När ett område är komprimerat klickar du på **högerpilen** ![högerpilen](assets/right-pointing-arrow.png) bredvid varje område för att expandera det område som du vill redigera.
    1. Mer information om hur du redigerar information på fliken Uppgiftsinformation finns i följande artiklar:
 
       * [Hantera aktivitetsinformation i området Översikt över aktivitetsinformation](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
       * [Hantera aktivitetsfinanser i avsnittet Uppgiftsinformation](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 
    1. (Valfritt) Om det inte finns några anpassade formulär kopplade till aktiviteten börjar du skriva namnet på ett formulär i fältet **Lägg till anpassat formulär**, markerar det när det visas i listan och klickar sedan på **Spara ändringar**.
-   1. (Valfritt) Klicka på ikonen **Exportera** ![](assets/export.png) om du vill exportera översiktsinformation och anpassad formulärinformation till en PDF-fil. Klicka sedan på **Exportera**. Välj bland följande:
+   1. (Valfritt) Klicka på ikonen **Exportera** ![Exportera ](assets/export.png) om du vill exportera översiktsinformation och anpassad formulärinformation till en PDF-fil. Klicka sedan på **Exportera**. Välj bland följande:
 
       * Markera alla (visas bara när det finns minst ett anpassat formulär bifogat)
       * Översikt
@@ -200,15 +200,15 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
 
       PDF-filen hämtas till din dator.
 
-      ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![Markera rutan Exportera information om problem med knappen Exportera](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       Mer information finns i [Exportera anpassade formulär och objektinformation](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
-1. (Villkorligt) Om du vill redigera all information om aktiviteten, som en användare med behörigheten Hantera, klickar du på **Mer** ![](assets/more-icon.png) bredvid namnet på aktiviteten och sedan på **Redigera**.
+1. (Villkorligt) Om du vill redigera all information om aktiviteten, som en användare med behörigheten Hantera, klickar du på **Mer**-menyn ![Mer-ikonen](assets/more-icon.png) bredvid namnet på aktiviteten och sedan på **Redigera**.
 
    eller
 
-   Välj en åtgärd i en lista med uppgifter och klicka sedan på ikonen **Redigera** ![](assets/edit-icon.png) högst upp i listan.
+   Välj en åtgärd i en lista med uppgifter och klicka sedan på ikonen **Redigera** ![Redigera](assets/edit-icon.png) överst i listan.
 
    Rutan Redigera uppgift öppnas.
 
@@ -241,7 +241,7 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
 1. Börja redigera din uppgift enligt beskrivningen ovan.
 1. Klicka på **Uppgiftsnamn** i den vänstra panelen.
 
-   ![](assets/nwe-task-name-section-edit-task-box-350x122.png)
+   ![Avsnittet Uppgiftsnamn i rutan Redigera uppgift](assets/nwe-task-name-section-edit-task-box-350x122.png)
 
 1. Uppdatera aktivitetens namn.
 
@@ -252,7 +252,7 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
 1. Börja redigera din uppgift enligt beskrivningen ovan.
 1. Klicka på **Översikt** i den vänstra panelen.
 
-   ![](assets/nwe-overview-section-edit-task-box-350x257.png)
+   ![Redigeringsaktivitetsruta för översiktsavsnittet](assets/nwe-overview-section-edit-task-box-350x257.png)
 
 1. Uppdatera följande information om uppgiften:
 
@@ -843,7 +843,7 @@ Du kan definiera anpassade standardformulär som automatiskt ska kopplas till up
 1. Börja redigera uppgiften enligt beskrivningen ovan.
 1. Klicka på **Egen Forms** i den vänstra panelen eller klicka på namnet på ett anpassat formulär om det redan är kopplat.
 
-   ![](assets/nwe-custom-forms-section-edit-task-box-350x127.png)
+   ![Åtgärdsrutan Redigera anpassade formulär i avsnittet ](assets/nwe-custom-forms-section-edit-task-box-350x127.png)
 
 1. Klicka på **Lägg till anpassat formulär** och markera det eller de anpassade formulär som du vill associera med uppgiften. Du måste skapa anpassade formulär innan de kan väljas i det här fältet. Endast aktiva anpassade formulär visas i listan.
 
@@ -862,7 +862,7 @@ Du kan definiera anpassade standardformulär som automatiskt ska kopplas till up
 1. Börja redigera din uppgift enligt beskrivningen i avsnittet [Redigera uppgifter](#Edit2) i den här artikeln.
 1. Klicka på **Ekonomi** i den vänstra panelen.
 
-   ![](assets/nwe-finance-section-edit-task-box-350x298.png)
+   ![Åtgärdsruta för redigering av finansieringsavsnitt](assets/nwe-finance-section-edit-task-box-350x298.png)
 
 1. Uppdatera följande fält:
 
@@ -905,7 +905,7 @@ Du kan definiera anpassade standardformulär som automatiskt ska kopplas till up
 1. Börja redigera din uppgift enligt beskrivningen i avsnittet [Redigera uppgifter](#Edit2) i den här artikeln.
 1. Klicka på **Inställningar** i den vänstra panelen.
 
-   ![](assets/nwe-settings-section-edit-task-box-350x304.png)
+   ![Avsnittet Inställningar i åtgärdsrutan Redigera](assets/nwe-settings-section-edit-task-box-350x304.png)
 
 1. Uppdatera följande fält:
 
@@ -992,7 +992,7 @@ Du kan redigera en begränsad mängd information i uppgiftshuvudet.
 Systemadministratören eller gruppadministratören kan anpassa fälten som visas i uppgiftshuvudet. Mer information finns i [Anpassa objektrubriker med hjälp av en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 
-![](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
+![Aktivitetshuvud utan godkännanden och med beroenden](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
 
 Följande fält inkluderas som standard i uppgiftshuvudet:
 

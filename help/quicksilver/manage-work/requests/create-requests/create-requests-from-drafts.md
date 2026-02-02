@@ -6,9 +6,9 @@ description: Förutom att använda tillgängliga utkast som Workfront föreslår
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ Hur du skapar begäranden från utkast skiljer sig mellan den nya begärande upp
 
    Ett utkast för varje köämne i varje begärandekö visas i den här listan.
 
-   ![](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
+   ![Avsnittet Utkast med listan över utkast](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
 
 1. (Valfritt) Klicka på en kolumnrubrik om du vill sortera listan efter den kolumnen.
 
@@ -133,7 +133,7 @@ Hur du skapar begäranden från utkast skiljer sig mellan den nya begärande upp
 
      Klicka på **Stäng** om du inte är redo att skicka det och du kanske kommer tillbaka och slutför det senare. Din begäran sparas i avsnittet Utkast och blir tillgänglig nästa gång du skickar en begäran för den här kön.
 
-     ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
+     ![Skicka, stäng och ignorera knappar på ny begäran](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
      När du skickar begäran tas utkastet bort och kan inte återställas.
 

@@ -1,5 +1,5 @@
 ---
-title: 'Framgångsramverket: Modellera er kampanjhierarki'
+title: 'Arkitekturen för framgång: Modellera er kampanjhierarki'
 description: Lär dig hur ni översätter komplexa affärsprocesser till en skalbar, styrd kampanjhierarki med"Centers of Gravity" och en arkitektur för flera arbetsytor.
 feature: Workfront Planning
 role: User, Admin
@@ -7,7 +7,7 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Framgångsramverket: utforma kampanjhierarkin
+# Framgångsarkitekturen: skapa en modell för kampanjhierarkin
 
 <!--see the file again for additional comments from Seth and others-->
 
