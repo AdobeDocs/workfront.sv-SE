@@ -173,7 +173,7 @@ Du kan också ta bort användare som är taggade av misstag när du redigerar el
 
    Mer information om de ytterligare funktioner som är tillgängliga när du uppdaterar en arbetsuppgift finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Valfritt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) i det övre högra hörnet av kommentaren och klicka sedan på **Redigera**. Ta bort någon av de taggade användarna och klicka sedan på **Skicka**.
+1. (Valfritt) Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) i det övre högra hörnet av kommentaren och klicka sedan på **Redigera**. Ta bort någon av de taggade användarna och klicka sedan på **Skicka**.
 
    >[!IMPORTANT]
    >

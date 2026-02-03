@@ -177,7 +177,7 @@ I följande avsnitt beskrivs hur du kan beräkna om anpassade uttryck för objek
    * Program
    * Dokument
 
-1. Klicka på menyn **Mer** ![Mer ](assets/more-icon.png) till höger om objektets namn och klicka sedan på **Beräkna om uttryck**.
+1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-icon.png) till höger om objektets namn och klicka sedan på **Beräkna om uttryck**.
 
    Detta beräknar om alla anpassade fält i objektets formulär.
 

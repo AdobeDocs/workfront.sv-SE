@@ -104,8 +104,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 
    Gå till exempel till ett projekt och klicka på avsnittet **Projektinformation**.
 
-1. Klicka på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) i det övre högra hörnet på objektets sida och klicka sedan på **Redigera alla**.
-1. Klicka på ikonen **Ta bort** ![Ta bort ](assets/delete-icon.png) till höger om ett anpassat formulärnamn, klicka sedan på **Ta bort** för att bekräfta och ta bort formuläret från objektet eller på **Avbryt** för att förhindra att det tas bort.
+1. Klicka på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) i det övre högra hörnet på objektets sida och klicka sedan på **Redigera alla**.
+1. Klicka på ikonen **Ta bort** ![Ta bort &#x200B;](assets/delete-icon.png) till höger om ett anpassat formulärnamn, klicka sedan på **Ta bort** för att bekräfta och ta bort formuläret från objektet eller på **Avbryt** för att förhindra att det tas bort.
 1. Klicka på **Spara ändringar** .
 
 ## Hantera flera anpassade formulär som innehåller samma anpassade fält
@@ -135,7 +135,7 @@ Endast de anpassade formulär som är kopplade till alla markerade objekt kan re
 
 Så här redigerar du flera anpassade formulär samtidigt när du redigerar objekt:
 
-1. Markera de objekt som de anpassade formulären är kopplade till i ett listobjekt och klicka sedan på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) .
+1. Markera de objekt som de anpassade formulären är kopplade till i ett listobjekt och klicka sedan på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) .
 1. Klicka på **Anpassad Forms**.
 
    Du kan bara redigera anpassade formulär som är kopplade till alla markerade objekt.

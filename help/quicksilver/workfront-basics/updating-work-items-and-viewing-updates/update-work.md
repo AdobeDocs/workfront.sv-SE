@@ -618,7 +618,7 @@ Ingen Workfront-användare (inklusive Workfront-administratören) kan ta bort up
 
    När kommentaren som du tar bort har tillhörande svar, finns det en indikation på att kommentaren togs bort med namnet på den användare som tog bort den.
 
-   ![Kommentarsindikatorn ](assets/removed-comment-indicator-new-experience.png) har tagits bort
+   ![Kommentarsindikatorn &#x200B;](assets/removed-comment-indicator-new-experience.png) har tagits bort
 
    Borttagna kommentarer tas bort direkt från Workfront. En användare som använder uppdateringsavsnittet ser en kommentar som tas bort av en annan användare i realtid.
 
