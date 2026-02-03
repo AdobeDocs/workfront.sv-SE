@@ -6,9 +6,9 @@ description: Du kan lägga till ett kort på din anslagstavla som är kopplat ti
 author: Jenny
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 6e136bed16c2b20f05267ac181dcc462b1a2aed4
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1412'
 ht-degree: 0%
 
 ---
@@ -187,13 +187,21 @@ Det anslutna objektet, tilldelningar, taggar, förfallodatum, räknare för chec
 
 Du kan koppla loss ett anslutet kort från Workfront-objektet och kortet finns kvar på kortet som ett särskilt kort som du kan redigera.
 
-Så här kopplar du från på styrelsenivå:
+>[!NOTE]
+>
+>Om du kopplar från ett anslutet kort på ett dynamiskt kort visas det igen när du uppdaterar kortet, eftersom den här typen av kort hämtar alla uppgifter och problem från ett visst projekt.
+>
+>Om du kopplar från ett anslutet kort från någon annan typ av kort som har en inloppskolonn, kommer kortet att visas igen i inmatningskolumnen när du uppdaterar kortet om den anslutna aktiviteten eller utdraget ännu inte har markerats som slutfört.
+>
+>I båda dessa scenarier kommer du efter en uppdatering att ha två kort för samma uppgift eller utgåva: ett ad hoc-kort och ett anslutet kort.
+
+Så här kopplar du från ett kort på styrelsenivå:
 
 1. Gå till styrelsen.
 1. Klicka på menyn **[!UICONTROL More]** ![Mer meny](assets/more-icon-spectrum.png) på det anslutna kortet och välj **[!UICONTROL Disconnect]**.
 1. Klicka på **[!UICONTROL Disconnect]** i bekräftelsemeddelandet.
 
-Så här kopplar du från på kortnivå:
+Så här kopplar du från ett kort på kortnivå:
 
 1. Gå till kortet och öppna det anslutna kortet.
 1. Klicka på menyn **[!UICONTROL More]** ![Mer meny](assets/more-icon-spectrum.png) i området Anslutning för kortinformationen och välj **[!UICONTROL Disconnect]**.
