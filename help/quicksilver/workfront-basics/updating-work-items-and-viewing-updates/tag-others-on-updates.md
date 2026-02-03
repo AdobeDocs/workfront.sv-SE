@@ -6,9 +6,9 @@ description: När du ger uppdateringskommentarer för ett Adobe Workfront-objekt
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '960'
 ht-degree: 0%
 
 ---
@@ -167,13 +167,13 @@ Du kan också ta bort användare som är taggade av misstag när du redigerar el
 
    Namnen på de taggade enheterna visas bredvid deras avatarer, upp till två enheter. Om fler än två enheter har taggats visas namnet på den första, förutom ett antal ytterligare enheter med taggar.
 
-   ![](assets/members-icons-expanded-unshimmed.png)
+   ![Medlemsikoner utökade](assets/members-icons-expanded-unshimmed.png)
 
    När du är taggad i kommentarstexten markeras ditt namn i kommentarerna.
 
    Mer information om de ytterligare funktioner som är tillgängliga när du uppdaterar en arbetsuppgift finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Valfritt) Klicka på menyn **Mer** ![](assets/more-menu.png) i det övre högra hörnet av kommentaren och klicka sedan på **Redigera**. Ta bort någon av de taggade användarna och klicka sedan på **Skicka**.
+1. (Valfritt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) i det övre högra hörnet av kommentaren och klicka sedan på **Redigera**. Ta bort någon av de taggade användarna och klicka sedan på **Skicka**.
 
    >[!IMPORTANT]
    >
@@ -206,7 +206,7 @@ You can manually tag users in the legacy Updates section.
    >
    >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-   ![](assets/tag-users-in-update.png)
+   ![Tag users in update](assets/tag-users-in-update.png)
 
 1. (Optional) To make the update private, enable **Private to my company** in the lower-right corner of the update box. This makes the update visible just to users in your company. The **Private to my company** option is available only when a Company is specified in your Workfront profile. 
 
@@ -225,7 +225,7 @@ You can manually tag users in the legacy Updates section.
 
    You can see who has been tagged in each reply at the top of the update thread. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object.
 
-   ![](assets/tagging-transparency-350x192.png)
+   ![Tagging transparency](assets/tagging-transparency-350x192.png)
 -->
 
 Mer information om de ytterligare funktioner som är tillgängliga när du uppdaterar en arbetsuppgift finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

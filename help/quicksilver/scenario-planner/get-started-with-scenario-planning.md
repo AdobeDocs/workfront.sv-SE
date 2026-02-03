@@ -2,10 +2,9 @@
 title: Kom igång med scenarioplanen
 description: Du kan använda Adobe Workfront Scenario Planner för att skapa företagsplaner som skisserar företagets övergripande strategiska resultat. Du kan definiera flera initiativ för en plan och placera dem i olika scenarier för att hitta den optimala lösningen för att genomföra planen.
 author: Alina
-draft: Probably
 feature: Workfront Scenario Planner
 exl-id: a6afe39f-1663-493d-a582-0a396ce138c2
-source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 0%

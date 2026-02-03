@@ -6,9 +6,9 @@ description: Du kan uppdatera den ordning i vilken anpassade formulär som är k
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1064'
 ht-degree: 0%
 
 ---
@@ -86,10 +86,10 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 
 1. Gå till objektet där du vill ändra ordningen på de tillagda anpassade formulären och börja sedan redigera objektet.
 
-   **Exempel:** Om du till exempel vill hantera de anpassade formulären för ett projekt går du till projektet, klickar på menyn **Mer** ![](assets/more-icon.png) och sedan på **Redigera** .
+   **Exempel:** Om du till exempel vill hantera de anpassade formulären för ett projekt går du till projektet, klickar på menyn **Mer** ![Mer](assets/more-icon.png) och sedan på **Redigera** .
 
-1. Klicka på ikonen **bredvid namnet på ett anpassat formulär i avsnittet** Anpassad Forms![](assets/move-icon---dots.png) för projekt, uppgifter och utgåvor. För alla andra objekt klickar du på **Hantera Forms**. Det här alternativet visas bara om minst ett anpassat formulär är kopplat till objektet.
-1. Dra ett formulär ![](assets/move-icon---dots.png) till en ny plats i listan.
+1. Klicka på ikonen **Flytta** bredvid namnet på ett anpassat formulär i avsnittet ![Anpassad Forms](assets/move-icon---dots.png) för projekt, uppgifter och utgåvor. För alla andra objekt klickar du på **Hantera Forms**. Det här alternativet visas bara om minst ett anpassat formulär är kopplat till objektet.
+1. Dra ett formulär ![Flytta ikon](assets/move-icon---dots.png) till en ny plats i listan.
 1. Klicka på **Spara** för projekt, uppgifter och utgåvor av anpassade formulär.
 
    För alla andra objekt klickar du på **Jag har slutat hantera** > **Spara ändringar**.
@@ -104,8 +104,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 
    Gå till exempel till ett projekt och klicka på avsnittet **Projektinformation**.
 
-1. Klicka på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) i det övre högra hörnet på objektets sida och klicka sedan på **Redigera alla**.
-1. Klicka på ikonen **Ta bort** ![](assets/delete-icon.png) till höger om ett anpassat formulärnamn och klicka sedan på **Ta bort** för att bekräfta och ta bort formuläret från objektet eller **Avbryt** för att förhindra att det tas bort.
+1. Klicka på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) i det övre högra hörnet på objektets sida och klicka sedan på **Redigera alla**.
+1. Klicka på ikonen **Ta bort** ![Ta bort ](assets/delete-icon.png) till höger om ett anpassat formulärnamn, klicka sedan på **Ta bort** för att bekräfta och ta bort formuläret från objektet eller på **Avbryt** för att förhindra att det tas bort.
 1. Klicka på **Spara ändringar** .
 
 ## Hantera flera anpassade formulär som innehåller samma anpassade fält
@@ -135,7 +135,7 @@ Endast de anpassade formulär som är kopplade till alla markerade objekt kan re
 
 Så här redigerar du flera anpassade formulär samtidigt när du redigerar objekt:
 
-1. Markera de objekt som de anpassade formulären är kopplade till i ett listobjekt och klicka sedan på ikonen **Redigera** ![](assets/edit-icon.png) .
+1. Markera de objekt som de anpassade formulären är kopplade till i ett listobjekt och klicka sedan på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) .
 1. Klicka på **Anpassad Forms**.
 
    Du kan bara redigera anpassade formulär som är kopplade till alla markerade objekt.

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ And
 1. Klicka på **Fortsätt**.
 1. I rutan **Välj posttyp** klickar du på kortet för den posttyp som du vill lägga till från en befintlig arbetsyta och sedan på **Lägg till**.
 
-   Posttypen läggs till på den sekundära arbetsytan som du har valt och ikonen **global posttyp** ![](assets/global-icon.png) visas på posttypens kort.
+   Posttypen läggs till på den sekundära arbetsytan som du har valt och den **globala posttypen** ikonen ![den primära arbetsytan för den globala posten](assets/global-icon.png) visas på posttypens kort.
 
    Följande saker händer:
 

@@ -7,9 +7,9 @@ description: Du kan redigera information i ett anpassat formulär när formulär
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 6dce5e15a41587cd9febf82ffc0a62d3b7e121d1
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1222'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ Mer information om vilka objekt som kan ha ett anpassat formulär finns i [Över
    >
    >Du måste fylla i alla obligatoriska fält i formuläret innan du kan spara formuläret. Namnet på ett obligatoriskt fält följs av en asterisk.
    >
-   >![](assets/nwe-required-custom-field.png)
+   >![Obligatoriskt anpassat fält](assets/nwe-required-custom-field.png)
 
    När någon ändrar data i ett annat objekt som refereras av beräknade anpassade fält i objektet, återspeglas inte ändringarna automatiskt i objektet. Mer information om hur du uppdaterar alla beräknade anpassade fält i objektet manuellt finns i [Beräkna om alla beräknade anpassade fält för ett objekt](#recalculate-all-calculated-custom-fields-for-an-object) i den här artikeln.
 
@@ -177,7 +177,7 @@ I följande avsnitt beskrivs hur du kan beräkna om anpassade uttryck för objek
    * Program
    * Dokument
 
-1. Klicka på menyn **Mer** ![](assets/more-icon.png) till höger om objektets namn och klicka sedan på **Beräkna om uttryck**.
+1. Klicka på menyn **Mer** ![Mer ](assets/more-icon.png) till höger om objektets namn och klicka sedan på **Beräkna om uttryck**.
 
    Detta beräknar om alla anpassade fält i objektets formulär.
 
@@ -217,9 +217,9 @@ Så här beräknar du om anpassade uttryck från en objektlista:
    * Portföljer
    * Program
    * Utgifter
-1. Klicka på menyn **Mer** ![](assets/more-icon.png) och sedan på **Beräkna om anpassade uttryck**.
+1. Klicka på menyn **Mer** ![Mer](assets/more-icon.png) och klicka sedan på **Beräkna om anpassade uttryck**.
 
-![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+![Omberäkna uttryckets tidslinjeekonomi-listruta i projektlistor](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
 Workfront beräknar omedelbart alla anpassade fält för alla valda projekt.
 Alla listor med objekt har inte den här funktionen.

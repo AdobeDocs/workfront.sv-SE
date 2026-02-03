@@ -6,9 +6,9 @@ description: Du kan dela en mapp och dess innehåll från området Dokument.
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ eller
 
 Klicka på **Dokument** i den vänstra panelen när ett Workfront-objekt är öppet.
 
-1. Markera mappen och klicka sedan på delningsikonen ![](assets/share-icon.png) i verktygsfältet.
+1. Markera mappen och klicka sedan på delningsikonen ![Dela-ikonen](assets/share-icon.png) i verktygsfältet.
 
    Mappen måste finnas på de fem översta nivåerna i en mapphierarki på ett objekt och kan inte vara en smart mapp.
 
@@ -132,7 +132,7 @@ Klicka på **Dokument** i den vänstra panelen när ett Workfront-objekt är öp
    </table>
 
 1. (Valfritt) Upprepa steg 3-4 om du vill lägga till andra namn i listan och konfigurera deras alternativ.
-1. (Valfritt) Om du vill att alla i systemet ska kunna visa mappen och dess innehåll klickar du på kugghjulsikonen ![](assets/gear-icon-settings-with-dn-arrow.jpg) i det övre högra hörnet av delningsrutan och sedan på **Gör den synlig i hela systemet.**
+1. (Valfritt) Om du vill att alla i systemet ska kunna visa mappen och dess innehåll klickar du på kugghjulsikoninställningarna ![Kugghjulsikoner med nedpilen](assets/gear-icon-settings-with-dn-arrow.jpg) i det övre högra hörnet av delningsrutan och klickar sedan på **Gör den här synliga systemomfattande.**
 
    Om du ändrar dig kan du klicka på **Ta bort systemomfattande åtkomst** (standardalternativet).
 

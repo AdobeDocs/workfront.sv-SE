@@ -7,9 +7,9 @@ description: Du kan lägga till ett befintligt anpassat formulär till något av
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '740'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,7 @@ Du kan lägga till ett anpassat formulär till ett objekt på två sätt:
 ### Lägga till ett anpassat formulär till ett objekt genom att redigera objektet {#add-a-custom-form-to-an-object-by-editing-the-object}
 
 1. Gå till objektet där du vill lägga till det anpassade formuläret.
-1. Klicka på menyn **Mer** ![](assets/more-icon.png) och sedan på **Redigera** ![](assets/edit-icon.png).
+1. Klicka på **Mer**-menyn ![Mer-menyn](assets/more-icon.png) och klicka sedan på **Redigera** ![ikonen Redigera](assets/edit-icon.png) .
 1. Klicka på **Anpassad Forms** > **Lägg till Forms** och välj upp till 10 formulär i listrutan.
 
 1. (Valfritt) Uppdatera informationen i de redigerbara fälten i det anpassade formuläret.
@@ -158,11 +158,11 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 1. Navigera till en lista med objekt.
 1. Markera flera objekt i listan.
 
-1. Klicka på menyn **Mer** ![](assets/more-icon.png) och sedan på ikonen **Redigera** ![](assets/edit-icon.png) .
+1. Klicka på menyn **Mer** ![Mer](assets/more-icon.png) och klicka sedan på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) .
 
    eller
 
-   Klicka på ikonen **Redigera** ![](assets/edit-icon.png) högst upp i listan.
+   Klicka på ikonen **Redigera** ![Redigera](assets/edit-icon.png) högst upp i listan.
 1. Klicka på **Egen Forms** i den vänstra panelen.
 1. i listrutan **Gör en markering** markerar du det formulär som du vill associera med alla markerade objekt.
 

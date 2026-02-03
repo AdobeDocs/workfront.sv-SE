@@ -1,13 +1,12 @@
 ---
-title: Exportera anpassade formulär och objektinformation
-description: Exportera anpassade formulär och objektinformation
+title: Exportera anpassad Forms och objektinformation
+description: Du kan exportera översikten och den anpassade formulärinformationen från avsnittet Detaljer för ett objekt till en PDF-fil. Du kan sedan skriva ut eller dela PDF med andra användare.
 author: Alina
-draft: Probably
 feature: Get Started with Workfront
 exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -125,7 +124,7 @@ Att exportera information från detaljavsnittet för ett objekt är identiskt f�
 
    Du kan också välja **Markera alla** om du vill exportera översiktsområdet och alla anpassade formulär.
 
-   ![](assets/export-custom-form-button-menu.png)
+   ![Knappen Exportera anpassat formulär](assets/export-custom-form-button-menu.png)
 
    >[!TIP]
    >

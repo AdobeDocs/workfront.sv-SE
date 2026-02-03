@@ -8,9 +8,9 @@ author: Becky and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Beroende på vilket område av Workfront du kommer åt uppgiften eller utgåvan 
 
 * När uppgiften eller utgåvan först tilldelas dig och statusen är Ny visas knappen Arbeta på den.
 
-  ![](assets/nwe-work-on-it-button.png)
+  ![Knappen Arbeta på den](assets/nwe-work-on-it-button.png)
 
   >[!TIP]
   >
@@ -44,12 +44,12 @@ Beroende på vilket område av Workfront du kommer åt uppgiften eller utgåvan 
 
 * När du har klickat på Work On It accept ändras knappen till Mark as done. Mer information om var du kan komma åt knappen Arbeta på den finns i avsnittet [Hitta knappen Arbeta på det och Klar](#locate-the-work-on-it-and-done-button) i den här artikeln.
 
-  ![](assets/nwe-mark-as-done-button-350x122.png)
+  ![Knappen Markera som färdig](assets/nwe-mark-as-done-button-350x122.png)
 
 
 <!--If you are not the only one assigned to the task or issue and you are accessing your work item from the My Work widget in the Home area, the button changes to Done with my part.
 
-  ![](assets/home-left-done-with-my-part-button-350x184.png)-->
+  ![Home left Done with my part button](assets/home-left-done-with-my-part-button-350x184.png)-->
 
 ## Leta reda på knappen Arbeta på och Klart {#locate-the-work-on-it-and-done-button}
 

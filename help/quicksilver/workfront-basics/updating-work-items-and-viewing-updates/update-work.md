@@ -6,9 +6,9 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '3203'
+source-wordcount: '3154'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 <!-- Audited: 4/2025 -->
 
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span> -->
 
 <!--info for April 11: hide the "Important" box below-->
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 >
 >For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
-><Span class="preview"> The legacy commenting experience has been removed from projects, tasks, issues, and documents in the Preview environment. </span>
+>The legacy commenting experience has been removed from projects, tasks, issues, and documents in the Preview environment. 
 >
 >The new commenting experience is available only for the Updates section of Workfront objects, and it is not available when you access updates from the following areas:
 >
@@ -45,7 +45,7 @@ ht-degree: 0%
 > * Summary panel in timesheets 
 > * Summary panel in the Workload Balancer
 >
-><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span>
+>The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. 
 -->
 
 Du kan lägga till en uppdatering till ett Adobe Workfront-objekt genom att lägga till en kommentar för att informera andra om objektets status eller förlopp, eller be om mer information eller ytterligare resurser.
@@ -275,9 +275,9 @@ I den här artikeln beskrivs hur du kan uppdatera projekt, uppgifter eller probl
 1. Klicka på **Uppdateringar** i den vänstra panelen.
 Fliken **Kommentarer** är markerad som standard.
 
-1. <span class="preview">Börja skriva en kommentar i rutan **Ny kommentar**.</span>
+1. Börja skriva en kommentar i rutan **Ny kommentar**.
 
-   <span class="preview">![Ny kommentarruta](assets/comment-box-all-tabs.png)</span>
+   ![Ny kommentarruta](assets/comment-box-all-tabs.png)
 
    >[!TIP]
    >
@@ -287,7 +287,7 @@ Fliken **Kommentarer** är markerad som standard.
    * CTRL + Z (⌘ + z för Mac) för att ångra en ändring
    * CTRL + Y (⌘+y för Mac) för att göra om en ändring
 
-1. <span class="preview">(Valfritt) I området **Tagga personer eller team** börjar du skriva namnet eller e-postadressen för en användare, eller ett team som du vill inkludera i kommentaren, eller markerar den när den visas i listan. </span>
+1. (Valfritt) I området **Tagga personer eller team** kan du börja skriva namnet eller e-postadressen för en användare, eller ett team som du vill inkludera i kommentaren, eller markera den när den visas i listan.
 1. (Valfritt) Använd alternativen i verktygsfältet RTF för att formatera texten, lägga till känslolägesikoner, länkar eller bilder till uppdateringen för att förbättra innehållet. Mer information finns i avsnittet [Använd RTF i en Workfront-uppdatering](#use-rich-text-in-a-workfront-update) i den här artikeln.
 
    >[!TIP]
@@ -370,7 +370,7 @@ Du kan förbättra dina kommentarer genom att använda RTF eller lägga till oli
    | Punktlista | ![Ikon för punktlista](assets/mceclip6.png) | ⌘+Skift+8 | Ctrl+Skift+8 |
    | Numrerad lista | ![Ikon för numrerad lista](assets/mceclip5.png) | ⌘+Skift+7 | Ctrl+Skift+7 |
 
-   <!--| Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |<br>Ctrl+Shift+9</br> <br>This is not available in the new commenting experience. </br> |-->
+   <!--| Block Quote | ![Block quote icon](assets/block-quote-icon-large.png)|⌘+Shift+9 |<br>Ctrl+Shift+9</br> <br>This is not available in the new commenting experience. </br> |-->
 
    <!--remove the last row when we remove legacy from the system-->
 
@@ -386,11 +386,11 @@ Du kan förbättra dina kommentarer genom att använda RTF eller lägga till oli
    >* Om din organisation använder Workfront med Internet Explorer förlorar all formaterad text som klistras in i en uppdatering sin RTF-formatering och visas som oformaterad text. Du kan formatera om texten med attributen i verktygsfältet RTF.
    >* RTF-formatering är inte tillgängligt för uppdateringar som gjorts i tidrapporteraren eller för antecknings- och senaste villkorsobjekt som visas i en rapport.
 
-   <!--1. (Optional and conditional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![](assets/block-quote-small.png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting. This is not available in the new commenting experience.-->
+   <!--1. (Optional and conditional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![Block quote icon](assets/block-quote-small.png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting. This is not available in the new commenting experience.-->
 
    <!--remove this picture below and the bullet above when we remove legacy-->
 
-   <!--![](assets/block-quote-marked-350x144.png)-->
+   <!--![Block quote](assets/block-quote-marked-350x144.png)-->
 
 1. (Valfritt) Klicka på ikonen **emoji** ![Emoji](assets/emoji-icon.png) för att lägga till känslolägesikoner i uppdateringen.
 
@@ -434,7 +434,7 @@ Du kan förbättra dina kommentarer genom att använda RTF eller lägga till oli
    >[!IMPORTANT]
    >
    >
-   ><!--<span class="preview">You cannot add images to goals or ad-hoc cards on boards.</span> -->
+   >* Du kan inte lägga till bilder till mål eller ad hoc-kort i ritytor.
    >
    >* Din Workfront-administratör måste aktivera tillägg av bilder i avsnittet Inställningar för uppdatering av feeds i Workfront-gränssnittsområdet innan du kan se ikonerna för bilden eller Lägg till bilaga. Mer information finns i [Konfigurera inställningar för användaruppdateringar](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* Största bildfilsstorlek är 7 MB. Bildfiltyper som stöds är .jpg, .gif och .png.
@@ -560,7 +560,7 @@ This option copies the text from a specific update to the clipboard.
 1. Go to the update or reply you want to copy.
 1. Click the **More** menu, then click **Copy body text**.
 
-   ![](assets/update-stream-comment-menu-marked-350x152.png)
+   ![Update stream comment menu](assets/update-stream-comment-menu-marked-350x152.png)
 
 #### Copy the thread link {#copy-the-thread-link}
 
@@ -570,7 +570,7 @@ This option copies the full thread link to the clipboard so you can share the th
 
 1. Click the **More** menu, then click **Copy thread link**.
 
-   ![](assets/update-stream-comment-menu-marked-350x152.png) 
+   ![Stream comment menu marked](assets/update-stream-comment-menu-marked-350x152.png) 
 
 1. Paste the link you copied in the previous step in an email or another application to share it with others. The shared link opens the comment you shared the link from. 
 
@@ -581,7 +581,7 @@ This option copies a specific update link to the clipboard. When you share the u
 1. Go to the update or reply you want to copy.
 1. Click the **More** menu next to the individual update, then click **Copy update link**.
 
-   ![](assets/copy-update-link-old-ui.png)
+   ![Copy update link](assets/copy-update-link-old-ui.png)
 
 1. Paste the link you copied in the previous step in an email or another application to share it with others. The shared link opens the comment you shared the link from. 
 
@@ -618,7 +618,7 @@ Ingen Workfront-användare (inklusive Workfront-administratören) kan ta bort up
 
    När kommentaren som du tar bort har tillhörande svar, finns det en indikation på att kommentaren togs bort med namnet på den användare som tog bort den.
 
-   ![Kommentarsindikatorn &#x200B;](assets/removed-comment-indicator-new-experience.png) har tagits bort
+   ![Kommentarsindikatorn ](assets/removed-comment-indicator-new-experience.png) har tagits bort
 
    Borttagna kommentarer tas bort direkt från Workfront. En användare som använder uppdateringsavsnittet ser en kommentar som tas bort av en annan användare i realtid.
 

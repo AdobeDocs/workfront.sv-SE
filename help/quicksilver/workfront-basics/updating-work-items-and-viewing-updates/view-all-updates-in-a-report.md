@@ -6,9 +6,9 @@ description: Om du vill se alla uppdateringar som någon av användarna har ange
 author: Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ Om du till exempel vill skapa en anteckningsrapport för alla anteckningar i ett
 1. (Valfritt) Klicka på **Filter** och sedan på **Lägg till en filterregel**.
 1. Lägg till ett filter för **Obs!** > **Anteckningstext** > **Är inte tom**.
 
-   ![](assets/note-note-text-not-blank-filter.png)
+   ![Anteckningstextfältet är inte ett tomt filter](assets/note-note-text-not-blank-filter.png)
 
    >[!TIP]
    >

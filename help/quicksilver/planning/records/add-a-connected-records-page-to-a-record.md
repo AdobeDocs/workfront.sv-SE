@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '2004'
+source-wordcount: '2020'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Tänk på följande när du lägger till en sida med kopplade poster till en pos
    <ul><li><p>En Adobe Experience Manager Assets-licens och en integrering mellan AEM Assets och Workfront för att koppla AEM-material till posttyperna Planning.</p>
    <p>Mer information finns i <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront för Experience Manager Assets och Assets Essentials: artikelindex</a>. </p></li>
    <li><p> En Adobe GenStudio for Performance Marketing-licens för att koppla posttyper till GenStudio Brands</p>
-   <p>Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/get-started">Kom igång med Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Kom igång med Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>
 
@@ -287,7 +287,7 @@ En ny vy läggs till i listrutan Vyer.
       * **Ta bort**
 Mer information finns i [Ta bort postvyer](/help/quicksilver/planning/views/delete-record-views.md).
 
-        ![](assets/view-more-menu-projects-connected-records-page.png)
+        ![Visa fler meny på sidan Projekt - kopplade poster](assets/view-more-menu-projects-connected-records-page.png)
 
         >[!NOTE]
         >
@@ -340,19 +340,19 @@ En ny listvy läggs till i listrutan Vyer i området **Mina vyer** .
       * **Ta bort**
 Mer information finns i [Ta bort postvyer](/help/quicksilver/planning/views/delete-record-views.md).
 
-        ![](assets/view-more-menu-projects-connected-records-page.png)
+        ![Visa fler meny på sidan Projekt - kopplade poster](assets/view-more-menu-projects-connected-records-page.png)
 
         >[!NOTE]
         >
         >Du kan inte byta namn på, dela eller ta bort en systemvy som har skapats av Workfront.
 
-   1. Klicka på ikonen **Filter** ![Filter &#x200B;](assets/filter-icon.png) och använd filtret för att visa specifika projekt.
+   1. Klicka på ikonen **Filter** ![Filter ](assets/filter-icon.png) och använd filtret för att visa specifika projekt.
 
       >[!TIP]
       >
       >För fält av persontyp, som **Ägare** eller **Sponsorn**, kan du använda ett jokertecken för att visa projekt där den inloggade användaren är tilldelad till de här rollerna.
       >
-      >![Filtrera med användarens jokertecken för projektanslutna poster &#x200B;](assets/filter-with-user-wildcard-project-connected-records-page.png)
+      >![Filtrera med användarens jokertecken för projektanslutna poster ](assets/filter-with-user-wildcard-project-connected-records-page.png)
       >
 
    1. Klicka på ikonen **Kolumner** ![Kolumner](assets/columns-icon.png) om du vill dölja eller visa kolumner i listan.
