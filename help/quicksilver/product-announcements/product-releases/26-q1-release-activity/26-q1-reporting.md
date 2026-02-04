@@ -127,7 +127,7 @@ Mer information finns i [Skapa en diagramrapport på en arbetsytekontrollpanel](
 >
 >Förhandsversion: 23 oktober 2025
 >Produktion för alla kunder: 23 oktober 2025
->[!BADGE Frånschemat ]{type=Neutral}
+>[!BADGE Frånschemat &#x200B;]{type=Neutral}
 
 Du kan nu duplicera en KPI-, tabell- eller diagramrapport på en Canvas Dashboard när den har skapats. När du har duplicerat rapporten kan du redigera den efter behov innan du sparar den.
 
