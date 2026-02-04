@@ -5,9 +5,9 @@ title: Använda valutafält på arbetsytans kontrollpaneler
 description: Du kan använda valutafälten på en Canvas-kontrollpanel.
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
+source-git-commit: 3e4ab2dfc66efd262c0c2ad30a9c62758084f8ce
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
    >[!IMPORTANT]
    >
-   >Funktionen som beskrivs i den här artikeln gäller endast för fält med inbyggd valuta. Om du har ställt in valutakurser Stöd för anpassade valutafält kommer snart.
+   >Funktionen som beskrivs i den här artikeln gäller endast för fält med inbyggd valuta. Stöd för anpassade valutafält kommer snart.
 
 
 ## Ange standardvaluta för en Canvas-instrumentpanel
