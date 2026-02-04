@@ -4,9 +4,9 @@ description: Rapportförbättringar för första kvartalet 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ad16dfe737f33a7d1025d8cef00605595d0476c2
+source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,14 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 >Production fast release: 14 januari 2026
 >Produktion för alla: 15 januari 2026
 
-Vi har gjort följande uppdateringar för valutafält:
+Vi har gjort följande uppdateringar för fält för inbyggd valuta:
 
 * När flera valutor definieras i Workfront kan du nu välja en standardvaluta för instrumentpanelen när du skapar den.
 
 * När du skapar en rapport kan du låsa ett valutafält. Detta garanterar att valutainställningen på kontrollpanelsnivå inte påverkar visningen av dessa värden.
 
 * När du visar en kontrollpanel kan användare växla mellan olika definierade valutor i Workfront. Dessa ändringar gäller för hela instrumentpanelen med undantag för låsta valutafält.
+
 
 
 ## Snabbsökningstabellresultat i Canvas Dashboards
@@ -126,7 +127,7 @@ Mer information finns i [Skapa en diagramrapport på en arbetsytekontrollpanel](
 >
 >Förhandsversion: 23 oktober 2025
 >Produktion för alla kunder: 23 oktober 2025
->[!BADGE Frånschemat &#x200B;]{type=Neutral}
+>[!BADGE Frånschemat ]{type=Neutral}
 
 Du kan nu duplicera en KPI-, tabell- eller diagramrapport på en Canvas Dashboard när den har skapats. När du har duplicerat rapporten kan du redigera den efter behov innan du sparar den.
 
