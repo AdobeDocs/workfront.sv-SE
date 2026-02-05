@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: f722940bd7222ebec85aad143378f8f849357e5a
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,22 @@ I den här artikeln beskrivs funktionerna som lanseras för Workfront Planning i
 <!--keep the sentence below for all future quarterly release pages-->
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning finns i [Versionsaktivitet för Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Förbättringar av globala posttyper på sekundära arbetsytor
+
+>[!NOTE]
+>
+>Förhandsgranska: 5 februari 2026
+>Production fast release: 12 mars 2026
+>Produktion för alla: 16 april 2026
+
+Vi har förbättrat synligheten för globala posttyper som läggs till på en sekundär arbetsyta från en primär arbetsyta. Bland förbättringarna finns följande:
+
+* En något ändrad global ikon som anger att posttypen har lagts till från en annan arbetsyta.
+
+* Ett förbättrat verktygstips på den nya ikonen som tydligt identifierar arbetsytan där posttypen skapades.
+
+Mer information finns i [Lägga till befintliga posttyper från en annan arbetsyta](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
 ## Konfigurera fält som visas i förhandsgranskningen av en posts detaljer
 
