@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
+source-git-commit: c9fa6d97607990710e6c2a74f3b373d06201d721
 workflow-type: tm+mt
 source-wordcount: '784'
 ht-degree: 0%
@@ -147,6 +147,7 @@ And
      >
      >Du kan inte redigera den nya posttypens utseende, ytterligare inställningar eller originalfält. Du kan bara redigera posttypen och alla dess ursprungliga fält och inställningar från den ursprungliga arbetsytan.
      >
+
 1. <span class="preview">(Valfritt) Håll pekaren över den globala posttypsikonen ![Global postikon på den sekundära arbetsytan](assets/global-icon-secondary-workspace.png) om du vill visa namnet på den ursprungliga arbetsytan från vilken posttypen lades till. </span>
 1. (Valfritt) Klicka och dra och släpp den nya posttypen till valfritt avsnitt på arbetsytan.
 1. (Valfritt) Klicka på menyn **Mer** på den nya posttypens kort eller till höger om posttypens namn på sidan och klicka sedan på något av följande:
