@@ -1,18 +1,18 @@
 ---
-title: AI Assistant ger tips om god praxis
+title: AI Assistant-frågor och bästa praxis
 content-type: reference
 description: Lär dig mer om de bästa sätten att använda AI Assistant och visa en lista med exempel på uppmaningar.
 author: Jenny
 feature: Get Started with Workfront
 exl-id: 34a60482-e060-49f9-bbaf-8aed85845e26
-source-git-commit: 4bab0129d694d7134a5dae90474678226368ca78
+source-git-commit: dc472e93541641ee1c960ec7246365200f522a17
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
 
-# AI Assistant ger tips om god praxis
+# AI Assistant-frågor och bästa praxis
 
 Workfront AI Assistant är ett kraftfullt verktyg som hjälper dig att uppnå ditt arbete effektivare genom att erbjuda användbar information om dina kontouppgifter och specifika objekttyper.
 
