@@ -129,7 +129,7 @@ Du kan redigera en malluppgift med området Redigera malluppgift eller Malluppgi
    1. (Valfritt) Klicka på **Dokument** i den vänstra panelen för att lägga till dokument i mallåtgärden. Dokumenten överförs till projektuppgifterna när du använder mallen för att skapa projektet.
    1. (Villkorligt) Om du vill redigera begränsad information om en malluppgift klickar du på **Information om malluppgift** i den vänstra panelen. Gå sedan till områdena i detaljavsnittet för att redigera information för varje område.
    1. (Valfritt) Gör något av följande:
-      * Klicka på ikonen **Komprimera alla** ![Komprimera alla ](assets/collapse-all-icon.png) om du vill komprimera alla områden.
+      * Klicka på ikonen **Komprimera alla** ![Komprimera alla &#x200B;](assets/collapse-all-icon.png) om du vill komprimera alla områden.
       * Klicka på ikonen **Redigera** ![Redigera](assets/edit-icon.png) och välj sedan något av områdena nedan. Du kan också klicka på **Redigera alla** om du vill redigera information i alla områden:
 
          * Översikt
@@ -796,7 +796,7 @@ Du kan redigera en malluppgift med området Redigera malluppgift eller Malluppgi
    1. (Valfritt) Klicka på **Dokument** i den vänstra panelen för att lägga till dokument i mallåtgärden. Dokumenten överförs till projektuppgifterna när du använder mallen för att skapa projektet.
    1. (Villkorligt) Om du vill redigera begränsad information om en malluppgift klickar du på **Information om malluppgift** i den vänstra panelen. Gå sedan till områdena i detaljavsnittet för att redigera information för varje område.
    1. (Valfritt) Gör något av följande:
-      * Klicka på ikonen **Komprimera alla** ![Komprimera alla ](assets/collapse-all-icon.png) om du vill komprimera alla områden.
+      * Klicka på ikonen **Komprimera alla** ![Komprimera alla &#x200B;](assets/collapse-all-icon.png) om du vill komprimera alla områden.
       * Klicka på ikonen **Redigera** ![Redigera](assets/edit-icon.png) och välj sedan något av områdena nedan. Du kan också klicka på **Redigera alla** om du vill redigera information i alla områden:
 
          * Översikt
