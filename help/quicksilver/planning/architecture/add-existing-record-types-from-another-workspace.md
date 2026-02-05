@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Som arbetsytehanterare kan du lägga till en posttyp som finns i en annan arbetsyta i en arbetsyta som du hanterar i Adobe Workfront Planning.
 
@@ -130,7 +130,8 @@ And
 1. Klicka på **Fortsätt**.
 1. I rutan **Välj posttyp** klickar du på kortet för den posttyp som du vill lägga till från en befintlig arbetsyta och sedan på **Lägg till**.
 
-   Posttypen läggs till på den sekundära arbetsytan som du har valt och den **globala posttypen** ikonen ![den primära arbetsytan för den globala posten](assets/global-icon.png) visas på posttypens kort.
+   <span class="preview">Posttypen läggs till på den sekundära arbetsytan som du har valt och ikonen **Global posttyp** ![Global postikon på den sekundära arbetsytan](assets/global-icon-secondary-workspace.png) visas på posttypens kort. </span>
+   <span class="preview">Ikonen för global posttyp innehåller en pil när den visas på en posttyp på den sekundära arbetsytan, vilket anger att posttypen lades till från en befintlig posttyp.</span>
 
    Följande saker händer:
 
@@ -146,7 +147,7 @@ And
      >
      >Du kan inte redigera den nya posttypens utseende, ytterligare inställningar eller originalfält. Du kan bara redigera posttypen och alla dess ursprungliga fält och inställningar från den ursprungliga arbetsytan.
      >
-
+1. <span class="preview">(Valfritt) Håll pekaren över den globala posttypsikonen ![Global postikon på den sekundära arbetsytan](assets/global-icon-secondary-workspace.png) om du vill visa namnet på den ursprungliga arbetsytan från vilken posttypen lades till. </span>
 1. (Valfritt) Klicka och dra och släpp den nya posttypen till valfritt avsnitt på arbetsytan.
 1. (Valfritt) Klicka på menyn **Mer** på den nya posttypens kort eller till höger om posttypens namn på sidan och klicka sedan på något av följande:
 

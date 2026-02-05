@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1411'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Informationen som är markerad på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Du kan konfigurera posttyper så att de fungerar på flera arbetsytor i Adobe Workfront Planning.
 
@@ -156,7 +156,7 @@ Så här konfigurerar du en posttyp som global:
 
      ![Fler menyalternativ från posttypskort](assets/more-menu-options-from-record-type-card.png)
 
-   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn.
+   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn.
 1. Klicka på **Redigera** eller **Inställningar**.
 
    >[!TIP]
@@ -198,7 +198,7 @@ Så här konfigurerar du en posttyp som global:
    >
    >Du kan bara redigera posttypens utseende och inställningar och dess ursprungliga fält från den ursprungliga arbetsytan.
 
-   * På posttypskortet visas en ikon av typen **global posttyp** ![Global posttyp](assets/global-icon.png) som anger att posttypen är tillgänglig för tillägg till andra arbetsytor.
+   * På posttypskortet visas en **global posttyp** ikon ![Den primära arbetsytan för global posttyp](assets/global-icon.png) som anger att posttypen är tillgänglig för tillägg till andra arbetsytor.
    * Ett systemgenererat **Workspace**-fält läggs till i registervyn för posttypen och dess posterdetaljer.
 
      I fältet Workspace visas arbetsytan där varje post skapas.
@@ -214,7 +214,7 @@ Så här konfigurerar du en posttyp som global:
 
    Mer information finns i [Lägga till befintliga posttyper från en annan arbetsyta](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
-   Posttypen som läggs till från en global posttyp på den sekundära arbetsytan visar också en **global posttypsikon** ![ikon av global posttyp](assets/global-icon.png).
+   Posttypen som läggs till från en global posttyp på den sekundära arbetsytan visar <span class="preview">en liknande **global posttyp** -ikon ![Global posttypsikon på den sekundära arbetsytan](assets/global-icon-secondary-workspace.png) som innehåller en pil, vilket anger att posttypen importerades från en annan arbetsyta. När du hovrar över den globala ikonen för den sekundära arbetsytan kan du lära dig namnet på den ursprungliga arbetsytan.</span>
 1. (Valfritt) Gå tillbaka till den ursprungliga arbetsytan där du skapade den globala posttypen och redigera posttypen genom att följa steg 1-4 ovan <!--ensure this stays accurate-->
 1. (Valfritt) Granska listan över arbetsytor där den globala posten har lagts till i avsnittet **Arbetsytor där den här posttypen används**. Ägaren av arbetsytan visas också bredvid arbetsytans namn.
 
@@ -237,7 +237,7 @@ Så här konfigurerar du en posttyp som global:
 
      ![Fler menyalternativ från posttypskort med inställningar](assets/more-menu-options-from-record-type-card-with-settings-link.png)
 
-   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn.
+   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn.
 1. Klicka på **Redigera** eller **Inställningar**.
 
 1. (Villkorligt) Om du klickade på **Redigera** klickar du på fliken **Inställningar för arbetsytan** i rutan **Redigera posttyp**

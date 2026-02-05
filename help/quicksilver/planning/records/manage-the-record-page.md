@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
 workflow-type: tm+mt
 source-wordcount: '1568'
 ht-degree: 0%
@@ -192,7 +192,7 @@ Så här lägger du till ett avsnitt i en postförhandsgranskning eller sida:
 
    I tabelltabellvyn klickar du på ikonen **Öppna detaljer** ![Öppna detaljikonen i tabellnamnsfältet](assets/open-details-icon-in-table-name-field.png) i den första kolumnen.
 
-   Postens förhandsgranskning öppnas i vyn.
+   <span class="preview">Postens förhandsgranskning öppnas i vyn.</span>
 
    ![Informationsruta](assets/details-box.png)
 
@@ -271,7 +271,7 @@ Följande saker händer:
 
    I tabelltabellvyn klickar du på ikonen **Öppna detaljer** ![Öppna detaljikonen i tabellnamnsfältet](assets/open-details-icon-in-table-name-field.png) i den första kolumnen.
 
-   Postens förhandsgranskning öppnas i vyn.
+   <span class="preview">Postens förhandsgranskning öppnas i vyn.</span>
 
    ![Informationsruta](assets/details-box.png)
 
@@ -302,7 +302,7 @@ Följande saker händer:
 
    ![Informationssida](assets/details-page.png)
 
-1. På fliken **Detaljer** klickar du på ikonen **Ta** ![Ta tag i &#x200B;](assets/grab-icon.png) till vänster om fältnamnet och drar och släpper den på önskad plats.
+1. På fliken **Detaljer** klickar du på ikonen **Ta** ![Ta tag i ](assets/grab-icon.png) till vänster om fältnamnet och drar och släpper den på önskad plats.
 
    >[!TIP]
    >

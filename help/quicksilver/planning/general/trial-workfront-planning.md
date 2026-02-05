@@ -3,9 +3,9 @@ title: Kom igång med den kostnadsfria testversionen av Adobe Workfront Planning
 description: Adobe Workfront erbjuder en 60-dagars kostnadsfri testversion av Adobe Workfront Planning. Testversionen är ett tillfälle att se hur Planning kopplar samman en helbildsstrategi med det dagliga arbete som får programmet att fungera. Planering ger centraliserad insyn i era marknadsföringslivscykler, vilket möjliggör bättre samarbete mellan olika team, spårning av kampanjer i realtid och automatiserade arbetsflöden. Du kan skapa anpassade arbetsytor och visualisera arbetet med interaktiva tidslinjer och kalendrar. I den här testversionen får du först se hur Planning hjälper er att anpassa det dagliga arbetet till strategiska mål, effektivisera genomförandet och få mätbara resultat för organisationen.
 hidefromtoc: true
 hide: true
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1255'
 ht-degree: 0%
 
 ---
@@ -71,15 +71,29 @@ Följande är viktiga datum som är associerade med Adobe Workfront Planning kos
    * Godkännandefönstret för testversionen. Endast en Workfront-administratör kan acceptera avtalet. Du kan godkänna utvärderingsavtalet när som helst från och med detta datum.
 * **2 mars 2026**: Testversionen av Workfront Planning startas.
 
+  Följande objekt läggs till i din Workfront-instans:
+
+   * Workfront Planning Banners fortsätter att visas för alla användare.
+   * Inställningen **Granska utvärderingsavtal** har lagts till i området **Inställningar**.
+
   Följande scenarier finns:
 
    * Om din Workfront-administratör har godkänt avtalet före detta datum kan du hitta planeringsområdet på huvudmenyn och börja använda Workfront Planning.
    * Om Workfront-administratören inte har godkänt avtalet före detta datum måste han/hon godkänna det innan du kan få åtkomst till Workfront Planning.
+* **1 april 2026**: Du kan inte längre registrera dig för testversionen.
+
+  Följande objekt har tagits bort från din Workfront-instans:
+
+   * Testversionerna av Workfront Planning.
+   * Inställningen **Granska utvärderingsavtal** har tagits bort från området **Inställningar**.
+
 * **1 maj 2026**: Testversionen av Workfront Planning avslutas och du har inte längre tillgång till Planning.
 
-  Workfront skyddar dina data när testperioden är slut, men du har inte längre tillgång till dem.
+  Om du deltar i testperioden kan Workfront skydda dina data när testperioden är slut. Du har dock inte längre åtkomst till den efter detta datum.
 
   Oavsett när du godkänner avtalet upphör din åtkomst till Planering den här dagen.
+
+  Alla testversioner av Workfront Planning
 * **30 november 2026**: Workfront skyddar inte längre dina data efter detta datum. Om du har köpt Workfront Planning före detta datum får du tillgång till Planning och dina data igen.
 
 <!--Lauren wanted this out: 
@@ -144,7 +158,9 @@ Gör något av följande om du vill granska och godkänna det juridiska avtalet:
 
 * **Mellan 2 mars och 1 maj 2026**:
 
-  Du får följande behörigheter för arbetsytorna i Planning-området under den kostnadsfria provperioden:
+  Oavsett licensnivå för Workfront eller Workflow får du en Workfront Planning Prime-licens när du godkänner testversionen av Workfront Planning.
+
+  Användarna i ditt system får följande behörigheter till arbetsytorna i Planning-området under den kostnadsfria provperioden:
 
    * Alla systemadministratörer har behörigheten Hantera på fliken Arbetsytor.
    * Alla andra användare har behörigheten Visa på fliken Arbetsytor, men systemadministratören kan ge dem behörigheten Hantera för arbetsytor.
