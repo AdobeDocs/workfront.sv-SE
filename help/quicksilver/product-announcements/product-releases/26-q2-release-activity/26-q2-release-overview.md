@@ -4,9 +4,9 @@ description: Den här sidan innehåller information om de funktioner som ingår 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 03142ce47e7b123eea63b409749346469f5feb14
+source-git-commit: c4ec10bde03404befd75464841f8d3c90421dde8
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
@@ -104,6 +104,14 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>kvartalsvis</strong></td>
     <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">Uppdaterad upplevelse vid och enkel- eller grupptilldelning av malluppgifter </a><p>[!BADGE Off schema]{type=Neutral}</p><p> Vi har uppdaterat avsnittet Uppdrag i rutan Redigera malluppgifter när du redigerar enstaka malluppgifter eller redigerar dem flera gånger.  </p>
+        </td>
+        <td><p>5 februari 2026</p></td>
+        <td><p>Från 5 februari 2026</p></td>
+        <td><p>Från 5 februari 2026</p></td>
+    </tr>
+    <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">Uppdaterad upplevelse vid enkel- eller grupptilldelning av uppgifter </a><p>[!BADGE Off schema]{type=Neutral}</p><p> Vi har uppdaterat avsnittet Uppdrag i rutan Redigera uppgifter när du redigerar enstaka uppgifter eller redigerar dem samtidigt. </p>
         </td>
         <td><p>26 januari 2026</p></td>
@@ -152,7 +160,7 @@ We are updating the interface throughout Adobe Workfront to improve the user exp
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Förbättringar av Workfront Planning
 
@@ -201,13 +209,13 @@ För att kunna leverera mer stabila och skalbara integreringar går vi över til
 * Workfront för Salesforce.
 
 Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Google Workspace.
-En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Underhållsuppdateringar för Workfront
 
-Mer information om underhållsuppdateringar som gjordes under andra kvartersversionen 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=sv-SE).
+Mer information om underhållsuppdateringar som gjordes under andra kvartersversionen 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan &#x200B;](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=sv-SE).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
