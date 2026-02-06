@@ -7,7 +7,7 @@ description: Det här rapportfiltret visar alla rapporter som schemalagts att le
 author: Lisa and Jenny
 feature: Reports and Dashboards
 exl-id: 7b937384-80c9-4bc7-94be-5573cf86b35b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: be102fd5f490b12837a231774253c030973c1c4f
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%
@@ -66,8 +66,7 @@ Så här använder du det här filtret:
 1. Kopiera och klistra in följande kod i området **Ange filterregler för rapporten**:
 
    ```
-   scheduledReportID=0
-   scheduledReportID_Mod=notnull
+    scheduledReportsOM:ID_Mod=notblank
    ```
 
 1. Klicka på **Spara filter**.
