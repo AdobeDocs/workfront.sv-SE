@@ -309,7 +309,7 @@ De projekt som är kopplade till den valda posten visas i listvyn.
    * Klicka på **Ny rad** om du vill skapa ett projekt utan en mall. Det nya projektet ansluts automatiskt till den aktuella posten.
 
      Mer information finns i [Skapa Workfront-objekt från Workfront Planning när du ansluter dem till poster](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
-   * Klicka på **Skapa poster **i det övre högra hörnet av vyn om du vill lägga till befintliga projekt. Projekt är omedelbart kopplade till den valda posten.
+   * Klicka på **Skapa poster &#x200B;** i det övre högra hörnet av vyn om du vill lägga till befintliga projekt. Projekt är omedelbart kopplade till den valda posten.
 
    * Håll muspekaren över ett projektnamn i listan och klicka på menyn **Mer** [Mer](assets/more-menu.png) och klicka på **Visa** för att öppna projektet på en annan flik
 
