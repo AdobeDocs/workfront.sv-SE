@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1343'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,11 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-När du har valt en posttyp i Adobe Workfront Planning kan du visa alla poster av den typen i följande vyer:
+När du har valt en posttyp i Adobe Workfront Planning kan du visa alla poster av den typen på olika sätt.
+
+Du kan visa poster i vyer med flera format som ger dig flexibilitet att utforska och förstå information på det sätt som passar dig bäst. Vare sig du vill ha en strukturerad översikt, en kronologisk artikel, en datumbaserad layout eller en enkel rullningsbar lista ger varje vy ett unikt perspektiv.
+
+Du kan visa poster i följande vyer:
 
 * Tabell
 
@@ -39,6 +43,19 @@ När du har valt en posttyp i Adobe Workfront Planning kan du visa alla poster a
 * Kalender
 
   Mer information finns i [Hantera kalendervyn](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+
+* Lista
+
+  Du kan visa poster på en postsida med en anslutning i en listvy.
+
+  >[!IMPORTANT]
+  >
+  >Du kan inte använda en listvy för en lista med poster på en posttypssida. Du kan bara använda en listvy på en postsida med en kopplad post i en lista med anslutna projekt. <!--this will change-->
+
+  Mer information finns i följande artiklar:
+
+   * [Lägga till en sida med kopplade poster i en post](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)
+   * [Hantera listvyn](/help/quicksilver/planning/views/manage-the-list-view.md)
 
 I den här artikeln beskrivs följande information om postvyer:
 
@@ -192,34 +209,42 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
 
 <!--some of these are NOT available right now; if you make this public, comment out the ones not there-->
 
-| Funktion | Tabellvy | Tidslinjevy | Kalendervy |
-|-----------------------------------------------------------------------|------------|---------------|--------------|
-| Visa poster i en lista eller tabell | ✓ |              | |
-| Visa alla fält som kolumner i tabellen som standard | ✓ |              |    |
-| Dölj eller visa fält (eller kolumner) | ✓ |               |    |
-| Redigera fältvärden för varje post | ✓ |               |             |
-| Lägga till poster som nya rader i vyn | ✓ |               |        |
-| Lägga till fält som nya kolumner i vyn | ✓ |               |         |
-| Kopiera rader från en extern lista och klistra in dem i en tabell | ✓ |               |          |
-| Visa poster på en tidslinje |            | ✓ |             |
-| Filtrera poster | ✓ | ✓ | ✓ |
-| Visa poster i en kalender |           |              | ✓ |
-| Gruppposter | ✓ | ✓ |  |
-| Sortera poster | ✓ |              |  |
-| Färgkodsposter | ✓ | ✓ | ✓ |
-| Färgkodsgrupperingar |           | ✓ |  |
-| Sök efter specifika poster | ✓ | ✓ |  |
-| Dela vyn med andra | ✓ | ✓ | ✓ |
-| Öppna postens sida från vyn | ✓ | ✓ |    |
-| Visa poster per år och kvartal |           | ✓ |    |
-| Visa poster per månad |           | ✓ | ✓ |
-| Visa poster per vecka |           |               | ✓ |
-| Exportera information från en vy | ✓ |               |    |
-| Visa i helskärmsläge | ✓ | ✓ | ✓ |
-| Skapa poster i vyn | ✓ | ✓ | ✓ |
-| Dela upp poster efter deras anslutningar |          | ✓ |    |
+| Funktion | Tabellvy | Tidslinjevy | Kalendervy | Listvy |
+|-----------------------------------------------------------------------|------------|---------------|--------------|---------|
+| Visa poster i ett tabellformat | ✓ |              | | ✓ |
+| Visa alla fält som kolumner i en tabell eller lista | ✓ |              |    | ✓ |
+| Dölj eller visa fält (eller kolumner) | ✓ |               |    | ✓ |
+| Redigera fältvärden för varje post | ✓ |               |             | ✓ |
+| Lägga till poster som nya rader i vyn | ✓ |               |        | ✓ |
+| Lägga till fält som nya kolumner i vyn | ✓ |               |         | ✓ |
+| Kopiera rader från en extern lista och klistra in dem i en tabell | ✓ |               |          | ✓ |
+| Visa poster på en tidslinje |            | ✓ |             |  |
+| Filtrera poster | ✓ | ✓ | ✓ | ✓ |
+| Visa poster i en kalender |           |              | ✓ |  |
+| Gruppposter | ✓ | ✓ |  |  |
+| Sortera poster | ✓ |              |  | ✓ |
+| Färgkodsposter | ✓ | ✓ | ✓ |  |
+| Färgkodsgrupperingar |           | ✓ |  |  |
+| Sök efter specifika poster | ✓ | ✓ |  | ✓ |
+| Dela vyn med andra | ✓ | ✓ | ✓ | ✓ |
+| Öppna postens sida från vyn | ✓ | ✓ |    | ✓ |
+| Visa poster per år och kvartal |           | ✓ |    |  |
+| Visa poster per månad |           | ✓ | ✓ |  |
+| Visa poster per vecka |           |               | ✓ |  |
+| Exportera information från en vy | ✓ |               |    |  |
+| Visa i helskärmsläge | ✓ | ✓ | ✓ |  |
+| Skapa poster i vyn | ✓ | ✓ | ✓ | ✓ |
+| Dela upp poster efter deras anslutningar |          | ✓ |    |  |
 
 ## Skapa eller redigera vyer {#create-or-edit-views}
+
+Informationen i det här avsnittet gäller följande vytyper:
+
+* Tabell
+* Tidslinje
+* Kalender
+
+Mer information om listvyer finns i [Hantera listvyn](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 {{step1-to-planning}}
 
@@ -286,7 +311,7 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
 1. (Valfritt) Klicka på **Mer**-menyn ![Fler vyer med nedåtriktade ikoner](assets/more-caret-down-icon-views.png) bredvid den senaste vyn om du vill visa alla vyer för den valda posttypen.
 
    Ytterligare vyer visas på menyn **Mer** efter fliken för den senaste vyn. Siffran bredvid menyn **Mer** visar antalet ytterligare vyer.
-1. (Valfritt) Om du vill byta namn på en vy efter att den har skapats klickar du på listrutan Visa och sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) > **Byt namn** för att uppdatera visningsnamnet
+1. (Valfritt) Om du vill byta namn på en vy efter att den har skapats klickar du på listrutan Visa och sedan på menyn **Mer** ![Mer ](assets/more-menu.png) > **Byt namn** för att uppdatera visningsnamnet
 
    eller
 
@@ -303,6 +328,10 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
 ## Aktivera närvaroindikatorn i realtid i en vy
 
 Du kan se om andra användare redigerar poster samtidigt som du genom att följa visningsindikatorerna i realtid i vyn.
+
+>[!NOTE]
+>
+>Du kan inte visa visningsindikatorer i realtid i en listvy.
 
 Avatarerna för andra användare som redigerar postinformation samtidigt som du visar i det övre högra hörnet av alla postvyer, som standard.
 

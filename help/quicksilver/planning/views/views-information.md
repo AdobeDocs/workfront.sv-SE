@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
@@ -26,5 +26,6 @@ I följande artiklar beskrivs hur du kan skapa och hantera postvyer i Adobe Work
 * [Hantera tabellvyn](/help/quicksilver/planning/views/manage-the-table-view.md)
 * [Hantera tidslinjevyn](/help/quicksilver/planning/views/manage-the-timeline-view.md)
 * [Hantera kalendervyn](/help/quicksilver/planning/views/manage-the-calendar-view.md)
+* [Hantera listvyn](/help/quicksilver/planning/views/manage-the-list-view.md)
 * [Ta bort postvyer](/help/quicksilver/planning/views/delete-record-views.md)
 * [Duplicera postvyer](/help/quicksilver/planning/views/duplicate-record-views.md)

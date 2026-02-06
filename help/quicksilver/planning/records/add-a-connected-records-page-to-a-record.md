@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+exl-id: 5e0be9d9-efa5-4b16-bd56-f9c85bc57ced
+source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
 workflow-type: tm+mt
-source-wordcount: '2020'
+source-wordcount: '1843'
 ht-degree: 0%
 
 ---
-
 
 # Lägga till en sida med kopplade poster i en post
 
@@ -76,7 +76,7 @@ Tänk på följande när du lägger till en sida med kopplade poster till en pos
    <ul><li><p>En Adobe Experience Manager Assets-licens och en integrering mellan AEM Assets och Workfront för att koppla AEM-material till posttyperna Planning.</p>
    <p>Mer information finns i <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront för Experience Manager Assets och Assets Essentials: artikelindex</a>. </p></li>
    <li><p> En Adobe GenStudio for Performance Marketing-licens för att koppla posttyper till GenStudio Brands</p>
-   <p>Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/get-started">Kom igång med Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Kom igång med Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>
 
@@ -295,7 +295,7 @@ Mer information finns i [Ta bort postvyer](/help/quicksilver/planning/views/dele
 
 ### Hantera den anslutna postsidan för Workfront-projekt
 
-Gör följande när du skapar en ansluten postsida för anslutna Workfront-projekt:
+När du skapar en ansluten postsida för anslutna Workfront-projekt gör du följande för att hantera sidan:
 
 1. Gå till en posttypssida och klicka på postens namn. Då öppnas postens förhandsgranskningssida.
 1. Klicka på fliken för en sida med anslutna poster som visar Workfront-projekt.
@@ -303,68 +303,34 @@ De projekt som är kopplade till den valda posten visas i listvyn.
 1. Klicka på **Anslut poster** i det övre högra hörnet på den anslutna postsidan om du vill ansluta befintliga projekt.
 
    Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
-1. Inline redigera projektinformation i registret.
-1. Klicka på **Ny rad** om du vill skapa ett projekt utan en mall. Det nya projektet ansluts automatiskt till den aktuella posten.
+1. Dubbelklicka i en cell i listvyn om du vill redigera ett projekts fält. Vissa fält är skrivskyddade.
+1. Redigera listvyn genom att göra något av följande:
 
-   Mer information finns i [Skapa Workfront-objekt från Workfront Planning när du ansluter dem till poster](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
+   * Klicka på **Ny rad** om du vill skapa ett projekt utan en mall. Det nya projektet ansluts automatiskt till den aktuella posten.
 
-1. Håll muspekaren över ett projektnamn i listan och klicka på menyn **Mer** [Mer](assets/more-menu.png)
+     Mer information finns i [Skapa Workfront-objekt från Workfront Planning när du ansluter dem till poster](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
+   * Klicka på **Skapa poster **i det övre högra hörnet av vyn om du vill lägga till befintliga projekt. Projekt är omedelbart kopplade till den valda posten.
 
-   eller
+   * Håll muspekaren över ett projektnamn i listan och klicka på menyn **Mer** [Mer](assets/more-menu.png) och klicka på **Visa** för att öppna projektet på en annan flik
 
-   Markera ett eller flera projekt och lägg märke till det blå fältet längst ned i listan. Klicka sedan på något av följande:
+     eller
 
-   * **Ta bort** om du vill ta bort projektet. Om du tar bort ett projekt kopplas det från posten och flyttas till Workfront papperskorg. Workfront-administratörer kan återställa borttagna projekt upp till 30 dagar efter att de tagits bort.
-   * **Koppla från** om du vill koppla från projektet från posten. När du kopplar från ett projekt tas det bort och alla värden i sökfälten tas bort från den aktuella posten.
+     Markera ett eller flera projekt och klicka på **Ta bort** eller **Koppla från** i åtgärdsfältet längst ned i listan för att ta bort objektet från listan.
 
-     >[!TIP]
-     >
-     >Du kan markera flera projekt som ska kopplas från eller tas bort.
-     >
 
-1. Klicka på listrutan Vyer och sedan på **Ny vy** för att lägga till en ny vy för sidan. Gör sedan följande:
+   * Klicka på listrutemenyn för vyer och klicka på **Ny vy** för att lägga till en ny vy för sidan. Gör sedan följande, eller klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om ett nytt namn, och sedan **Byt namn**, **Dela** eller **Ta bort** vyn.
 
-   1. Lägg till ett **visningsnamn**.
-   1. Välj **Lista** i området **Visningstyp**.
-   1. Klicka på **Skapa**.
-En ny listvy läggs till i listrutan Vyer i området **Mina vyer** .
+     Du kan inte byta namn på, dela eller ta bort systemvyer eller vyer som du inte har behörighet att hantera.
 
-      Mer information finns i avsnittet [Hantera flera vyer från sidan med anslutna poster](#manage-multiple-views-from-the-connected-records-page) i den här artikeln.
+     ![Visa fler meny på sidan Projekt - kopplade poster](assets/view-more-menu-projects-connected-records-page.png)
 
-   1. (Valfritt) Håll muspekaren över namnet på en vy som du har skapat och klicka på menyn **Mer** ![Mer](assets/more-menu.png). Klicka sedan på något av följande alternativ:
-      * **Byt namn på** om du vill lägga till ett nytt namn för vyn.
-      * **Dela**
+   * Klicka på något av följande för att uppdatera vyns element:
 
-        Mer information finns i [Dela vyer](/help/quicksilver/planning/access/share-views.md).
+      * **Filter** om du vill begränsa mängden information i listan
+      * **Kolumner** om du vill dölja kolumner eller ändra deras ordning
+      * Ikonen **+** i tabellvyns övre högra hörn om du vill lägga till befintliga fält i listan. Fälten måste finnas innan du kan lägga till dem.
 
-      * **Ta bort**
-Mer information finns i [Ta bort postvyer](/help/quicksilver/planning/views/delete-record-views.md).
-
-        ![Visa fler meny på sidan Projekt - kopplade poster](assets/view-more-menu-projects-connected-records-page.png)
-
-        >[!NOTE]
-        >
-        >Du kan inte byta namn på, dela eller ta bort en systemvy som har skapats av Workfront.
-
-   1. Klicka på ikonen **Filter** ![Filter &#x200B;](assets/filter-icon.png) och använd filtret för att visa specifika projekt.
-
-      >[!TIP]
-      >
-      >För fält av persontyp, som **Ägare** eller **Sponsorn**, kan du använda ett jokertecken för att visa projekt där den inloggade användaren är tilldelad till de här rollerna.
-      >
-      >![Filtrera med användarens jokertecken för projektanslutna poster &#x200B;](assets/filter-with-user-wildcard-project-connected-records-page.png)
-      >
-
-   1. Klicka på ikonen **Kolumner** ![Kolumner](assets/columns-icon.png) om du vill dölja eller visa kolumner i listan.
-   1. Klicka på ikonen **+** i tabellvyns övre högra hörn för att lägga till befintliga fält i tabellen. Fälten måste finnas innan du kan lägga till dem.
-
-      Rutan **Kolumnhanteraren** öppnas. Gör följande:
-
-      1. Sök efter ett befintligt objektfält i kolumnen **Tillgängligt** och klicka sedan på **+** till höger om fältnamnet för att lägga till det i kolumnen **Markerat**.
-
-         De fält som du väljer läggs till i tabellvyn på sidan för anslutna poster.
-      1. Klicka på **-** till höger om ett fält i kolumnen **Markerad** för att ta bort det från tabellvyn.
-      1. Klicka på **Spara** för att spara den anslutna postsidans tabellvy.
+   Mer information om hur du hanterar objekt i en listvy finns i [Hantera listvyn](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 <!-- this is repetitive from an earlier section above: 
 
