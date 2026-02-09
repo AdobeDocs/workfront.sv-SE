@@ -4,9 +4,10 @@ description: Andra kvartalet 2026 - förbättringar av administratörer
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7cde2f693336649d3d965100e33b71795ddc65a2
+exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
+source-git-commit: f55ab45a7c11a4f0e4cdbe65ea890ba452b9bbba
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -29,7 +30,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 Den nya fälttypen **RTF** i anpassade formulär är en robust textredigerare med formateringsalternativ som upphöjd och nedsänkt text, rubriker och tabeller, utöver de traditionella alternativen fet, kursiv, understrykning, punkter, numrering, hyperlänkar och blockcitattecken. Teckengränsen är fortfarande 15 000.
 
-RTF-fältstypen ersätter texten med formateringsfältstypen. Du kan snabbt konvertera befintlig text med formateringsfält till RTF-format genom att klicka på knappen i fältalternativen till höger.
+RTF-fältstypen ersätter texten med formateringsfältstypen. Du kan snabbt konvertera befintlig text med formateringsfält till RTF-format genom att klicka på knappen i fältalternativen till höger. När du konverterar lagras historiska data i fältet och används på samma sätt i rapporter.
 
 Mer information finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
@@ -53,6 +54,3 @@ EU:
 * 24.110.76.223
 
 Mer information finns i [Konfigurera brandväggens tillåtelselista](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
-
-
-
