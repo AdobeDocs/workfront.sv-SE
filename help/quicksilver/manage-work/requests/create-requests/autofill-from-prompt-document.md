@@ -5,9 +5,9 @@ description: Du kan använda AI för att autofylla begärandefält genom att ang
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: b34d7f48a51acf4bd6ddfa203c9e0024b2e8c280
+source-git-commit: 8e04117c08985f3ad5de86e4a08cb4aa53ac7706
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1416'
 ht-degree: 0%
 
 ---
@@ -19,10 +19,6 @@ ht-degree: 0%
 >Om du vill använda den här funktionen måste din organisation uppfylla kraven för att kunna använda Workfront AI Assistant. Mer information finns i [Förutsättningar för AI-assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
 AI-formulärfyllning kan hjälpa dig att fylla i begärandefält automatiskt baserat på en uppmaning du anger. Det kan även fylla i fält som är baserade på text som e-post är överförda dokument. Du kan godkänna eller avvisa dessa förslag innan du skickar in begäran.
-
-AI-formulärfyllning skriver inte över fält som du redan har fyllt i.
-
-Användarna får inga förslag på data som de annars inte har tillgång till.
 
 ## Åtkomstkrav
 
@@ -59,7 +55,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 ## Förutsättningar
 
-Om du vill använda AI-formulärfyllning för att fylla i begäranden med hjälp av en prompt eller ett dokument måste **alla** av följande gälla:
+Om du vill använda formulärifyllning från AI för att fylla i en begäran med hjälp av en prompt eller ett dokument måste **alla** av följande gälla:
 
 * Din organisation måste ha migrerat till Adobe IMS (Identity Management System)
 * Adobe Unified Experience måste aktiveras
@@ -70,6 +66,15 @@ Om du vill använda AI-formulärfyllning för att fylla i begäranden med hjälp
 * AI Assistant måste aktiveras i organisationens systeminställningar. Detta hanteras av din Workfront-administratör.
 
   Mer information om hur du aktiverar AI Assistant i systeminställningarna finns i [Aktivera eller inaktivera AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+
+## Att tänka på vid användning av formulärfyllning som drivs av AI
+
+Tänk på följande när du använder formulärfyllning som drivs av AI
+
+* AI-formulärfyllning skriver inte över fält som du redan har fyllt i.
+* Användarna får inga förslag på data som de annars inte har tillgång till.
+* Filer som du använder i formulärfyllning som drivs av AI överförs till Azure-lagringen i 24 timmar. Detta är nödvändigt för dokumentbearbetning.
+* Alla filer som överförs till Azure lagras för närvarande i US Azure-kluster under 24-timmarslagringsfönstret.
 
 ## Få förslag från en textfråga
 
