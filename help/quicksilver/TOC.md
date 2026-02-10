@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
+source-git-commit: 23f651b55b45db73baa67900ce868d9b692c958c
 workflow-type: tm+mt
-source-wordcount: '13765'
+source-wordcount: '13769'
 ht-degree: 0%
 
 ---
@@ -1719,6 +1719,7 @@ ht-degree: 0%
       * Översikt över rapportanvändning {#report-usage-overview}
          * [Översikt över rapportanvändning](reports-and-dashboards/reports/report-usage/report-usage-overview.md)
          * [Få åtkomst till och ordna rapporter](reports-and-dashboards/reports/report-usage/access-organize-reports.md)
+         * [Använd delade rapportmappar](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md)
          * [Skapa en rapport om rapporteringsaktiviteter](reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)
          * [Förstå hur du organiserar rapporter på en kontrollpanel](reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)
          * [Visa rapportanvändning](reports-and-dashboards/reports/report-usage/view-report-usage.md)
