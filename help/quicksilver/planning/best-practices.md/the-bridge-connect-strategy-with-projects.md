@@ -97,7 +97,7 @@ För organisationer med stora volymer eller avancerade automatiseringsbehov kan 
 
 Du behöver en licens för Adobe Workfront Fusion för den här metoden.
 
-Mer information finns i [Konfigurera och hantera Workfront Fusion: artikelindex](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
+Mer information finns i [Konfigurera och hantera Workfront Fusion: artikelindex](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
 
 * **Använd utlösare för överföring:** Eftersom formulär erbjuder en enda, ren inskickningshändelse kan de användas som utlösare för Fusion-automatisering. Ett Fusion-scenario kan identifiera en formulärskickning och omedelbart generera ett länkat projekt i Workfront.
 
