@@ -3,7 +3,7 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 23f651b55b45db73baa67900ce868d9b692c958c
+source-git-commit: aa3645e2ed8c36a3b07caad72083a43467889fce
 workflow-type: tm+mt
 source-wordcount: '13769'
 ht-degree: 0%
@@ -1850,7 +1850,7 @@ ht-degree: 0%
       * [Återkalla inskickade godkännanden](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
    * Enhetliga godkännanden {#document-reviews-and-approvals}
       * [Enhetliga dokumentgodkännanden: artikelindex](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
-      * [Tillgänglig funktionalitet för enhetliga godkännanden](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
+      * [Tillgänglig funktionalitet för dokumentgodkännanden](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
       * [Översikt över enhetliga godkännanden](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [Översikt över dokumentets beslutsstatus](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
       * [Kom igång med Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)

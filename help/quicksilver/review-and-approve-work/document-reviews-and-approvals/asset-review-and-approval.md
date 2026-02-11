@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Tillgängliga funktioner för enhetliga dokumentgodkännanden
+title: Tillgängliga funktioner för dokumentgodkännanden
 description: Översikt över de system som finns för granskning och godkännande i Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: f4dc0d28f7565b9dbc3c9ff4ee388eb8cf748b7f
+source-git-commit: aa3645e2ed8c36a3b07caad72083a43467889fce
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
 
-# Tillgänglig funktionalitet för enhetliga dokumentgodkännanden
+# Tillgänglig funktionalitet för dokumentgodkännanden
 
-Det finns för närvarande tre olika system i Workfront för enhetliga dokumentgodkännanden:
+Det finns för närvarande tre olika system i Workfront för dokumentgodkännanden:
 
 * [Godkännanden av äldre dokument](#legacy-document-approvals)
 
@@ -25,7 +25,7 @@ Det finns för närvarande tre olika system i Workfront för enhetliga dokumentg
 
 ## Godkännanden av äldre dokument
 
-Äldre dokumentgodkännanden kommer att tas bort från Workfront 2025. Det enhetliga godkännandesystemet har utformats för att ersätta godkännanden av äldre dokument.
+Äldre dokumentgodkännanden kommer att tas bort från Workfront vid ett senare datum. Det enhetliga godkännandesystemet har utformats för att ersätta godkännanden av äldre dokument.
 
 Viktiga funktioner för godkännande av äldre dokument:
 

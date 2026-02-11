@@ -6,9 +6,9 @@ description: Du kan få meddelanden från  [!DNL Adobe Workfront] om objekt som 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
+source-git-commit: 7720d51864428e6d7cf493f88bbee13b5203774b
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1404'
 ht-degree: 0%
 
 ---
@@ -221,7 +221,7 @@ Du får godkännandemeddelanden när du ombeds godkänna ett objekt, som en uppg
    <td> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">En begäran om dokumentgodkännande som du har begärt har godkänts</td> 
+   <td role="rowheader">En begäran om dokumentgodkännande som du har begärt godkänns*</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -229,7 +229,7 @@ Du får godkännandemeddelanden när du ombeds godkänna ett objekt, som en uppg
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">En begäran om dokumentgodkännande som du har begärt godkänns med ändringar</td> 
+   <td role="rowheader">En begäran om dokumentgodkännande som du har begärt godkänns med ändringar*</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -237,7 +237,7 @@ Du får godkännandemeddelanden när du ombeds godkänna ett objekt, som en uppg
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">En begäran om dokumentgodkännande som du har begärt avvisas</td> 
+   <td role="rowheader">En begäran om dokumentgodkännande som du har begärt avvisas*</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -254,6 +254,8 @@ Du får godkännandemeddelanden när du ombeds godkänna ett objekt, som en uppg
   </tr> 
  </tbody> 
 </table>
+
+*Dessa meddelanden avser godkännanden av äldre dokument. Meddelanden om enhetliga dokumentgodkännanden stöds för närvarande inte i [!DNL Microsoft Teams]. Mer information om de olika godkännandesystemen i Workfront finns i [Tillgänglig funktion för dokumentgodkännanden](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md).
 
 ### Uppdragsmeddelanden {#assignment-notifications}
 
