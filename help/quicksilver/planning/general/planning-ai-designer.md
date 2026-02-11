@@ -5,15 +5,17 @@ recommendations: noDisplay, noCatalog
 author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
-source-git-commit: b52c188d767ee37699ead71ed90642458d9889fa
+exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
+source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
 workflow-type: tm+mt
-source-wordcount: '1480'
+source-wordcount: '1470'
 ht-degree: 0%
 
 ---
 
-
 # Kom igång med Adobe Workfront Planning Designer
+
+<!--remove the Beta tags in the screen shots on this page when this is released to GA - maybe March 2, 2026-->
 
 >[!IMPORTANT]
 >
@@ -91,7 +93,7 @@ Du kan lämna feedback om Planning Designer under betaprogrammet.
 
 1. Klicka på **Skapa med AI**. <!--update this tag name when they change it-->
 
-   Området **Workspace-inställningar** i fönstret **Planering av Designer** öppnas. <!--replace shot below when they rename the area to Planning Designer-->
+   Fönstret **Planerar Designer** öppnas.
 
 1. Klicka **Skicka feedback här** längst ned på sidan.
 1. Lägg till din feedback i det tillgängliga utrymmet och klicka sedan på **Skicka**.
@@ -178,7 +180,7 @@ Du kan skapa eller uppdatera objekt i Workfront Planning antingen med Planning D
 
 1. Klicka på **Skapa med AI**. <!--update this when they change it-->
 
-   Området **Workspace-inställningar** i fönstret **Planering av Designer** öppnas. <!--replace shot below when they rename the area to Planning Designer-->
+   Fönstret **Planerar Designer** öppnas. <!--remove the Beta tag here when this removes from Beta-->
 
    ![Planerar Designer-fönstret](assets/planning-designer-window.png)
 
@@ -239,9 +241,3 @@ Så här stänger du av den:
 1. Klicka på **Spara**.
 
    Detta tar bort Planning Designer för alla användare i systemet.
-
-
-
-
-
-

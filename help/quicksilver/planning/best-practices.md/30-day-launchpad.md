@@ -1,25 +1,27 @@
 ---
-title: '30-dagars startfönstret: Dra igång det strategiska startfönstret'
+title: 'Ta fram ditt strategiska startsida: En 30-dagars startplatta'
 description: Se hur man lanserar Workfront Planning med en strategi som prioriterar psykologisk säkerhet, minimerar störningar och ger snabba vinster.
 feature: Workfront Planning
-role: User, Admin
+role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
 exl-id: 90b0e019-1b42-4ab2-8b4c-69f85e4c4d78
-source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
+source-git-commit: 52bf41e146a11a4af4fbebfe5bb20a9765f2bc7b
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1236'
 ht-degree: 0%
 
 ---
 
-# 30-dagars startplatta: lansera ditt strategiska hem
+# Utnyttja ditt strategiska hem: en 30-dagars startplatta
 
 {{planning-important-intro}}
 
 Använd den här vägledningen när du vill lära dig att lansera Adobe Workfront Planning för att utforma en strategi som prioriterar psykologisk säkerhet, minimerar avbrott och ger snabba vinster.
+
+Den här guiden är avsedd för Workfront-administratörer som implementerar Workfront Planning.
 
 ## Översikt över hur man snabbt börjar och skalar smart
 
@@ -27,13 +29,15 @@ Det vanligaste hindret för en framgångsrik utrullning är inte teknik. Det är
 
 Den 30-dagars startplattan bygger på den modell som&quot;team-first&quot; använder. I stället för att försöka genomföra en företagsövergripande utrullning som normalt kräver flera månaders samordning fokuserar vi på en decentraliserad, gruppledd strategi som ger omedelbar avkastning inom en specifik funktionell enhet.
 
-## Den stegvisa övergången till styrd självständighet
+## Använda guidad självstyre för att uppnå en övergång i flera faser
 
-En lyckad utrullning av en produkt använder guidad självbestämmande. Detta innebär att administratören definierar hur team ska arbeta i ett strukturerat system med styrda standardinställningar och mallar. De definierar&quot;lanerna på resande fot&quot; (styrda standardinställningar och mallar), samtidigt som teamen kan välja sitt eget äventyr i dem.
+För att lansera en produkt är det smart att använda guidad självbestämmande. Det innebär att som administratör definierar du hur team ska arbeta i ett strukturerat system med styrda standardinställningar och mallar.
 
-Viktigast av allt är guidad självbestämmande evolutionär. I stället för att genomdriva en fullständig företagstaxonomi första dagen börjar administratören med minimala globala definitioner som baseras på det första pilotteamets behov.
+Du kan definiera körplanen på resande fot (eller styrda standardinställningar och mallar), samtidigt som du ger teamen flexibilitet att välja sin egen arbetsväg inom dem.
 
-I takt med att fler team anlitas observerar administratören vanliga mönster och itererar utifrån de globala standarderna.
+Viktigast av allt är att guidad självständighet måste vara evolutionär. Istället för att genomdriva en fullständig företagstaxonomi första dagen kan ni börja med minimala globala definitioner baserade på det första pilotteamets behov.
+
+Efterhand som fler team deltar kan ni observera gemensamma mönster och iterera utifrån de globala standarderna.
 
 Som administratör ger du inte upp kontrollen, utan du skalar den på ett intelligent sätt baserat på vad som faktiskt fungerar.
 
@@ -50,71 +54,79 @@ Så här aktiverar du den här utvecklingsändringen:
 
    I båda banorna är målet att gå steget längre än teori och in i verkliga tillämpningar så snabbt som möjligt och se till att verktyget används för verkligt strategiskt arbete i stället för att bara vara en sandlådeövning.
 
-<!--left here-->
 
-## 30-dagars tidslinje: Ditt&quot;blixtögonblick&quot;
+## Översikt över en 30-dagars väg till ditt banbrytande ögonblick
 
 En framgångsrik utrullning drivs av drivkraft. Det här 30-dagarsschemat flyttar dig från konfiguration till första automatiska vinst.
 
-
-
 ### Dagar 1-10: Teambasen
 
-Bygg en strategisk grund genom att skapa en **lättviktig nav-och-spetskarkitektur** från dag 1. Även om en komplex företagsomfattande taxonomi inte behövs än bör du omedelbart skapa två miljöer: en **Global Classification Workspace** (hubben) och din första **Team Workspace** (The Spoke).
+Bygg en strategisk grund genom att skapa en centraliserad struktur från början.
 
+Även om en komplex företagsomfattande taxonomi ännu inte behövs bör du omedelbart skapa två miljöer. Om du till exempel använder en arkitekturbaserad metod kan du skapa följande:
 
+* En **Global klassificeringarbetsyta** (navet): Detta bör vara systemets allmänna struktur och nomenklatur.
+* En första **Teamarbetsyta** (eker): Detta ska matcha ett enskilt teams arbetssätt.
 
-Med den här **Team-First**-arkitekturen kan du:
+Mer information finns i [Skapa arbetsytor](/help/quicksilver/planning/architecture/create-workspaces.md).
 
+Med den här arkitekturen som sätter teamet först kan du:
 
+* **Utforma navet för stöd av talaren:** Du kan fokusera den globala arbetsytan för klassificering specifikt på de objekt som är viktiga för ditt pilotteam (deras specifika varumärken eller produkter). Det här ger en god samarbetsförståelse mellan företagsstyrning och teamets självstyre samtidigt som designarbetet förblir hanterbart.
 
-* **Designa hubben för att stödja Spoke:** Fokusera den globala arbetsytan för klassificering specifikt på de objekt som är viktiga för ditt pilotteam (t.ex. deras specifika varumärken eller produkter). Detta bekräftar **samverkansbaserad handskakning mellan företagsstyrning och teamets självstyre** samtidigt som designarbetet förblir hanterbart.
-
-* **Agera som aktiverare, inte som skyddare:** Byt din roll från regelinställning till kapacitetsuppbyggnad. Samarbeta med teamet för att strukturera sin planeringsmiljö.
+* **Agera som aktiverare, inte skyddare:** Byt din roll från regelinställning till kapacitetsuppbyggnad. Samarbeta med teamet för att strukturera sin planeringsmiljö.
 
 * **Samarbeta i design:** Samarbeta direkt med pilotteamet för att definiera de posttyper och fält som motsvarar deras verkliga behov, inte ett abstrakt företags idealiskt.
 
-* **Anslut strategi till arbetsflöde:** Aktivera länken mellan dina planeringsposter och arbetsflödesmodulen.
+* **Ansluta strategi till att fungera:** Aktivera länken mellan dina planeringsdokument och Workfront-objekten.
 
-* **Spegla aktuella data:** Använd teamets befintliga verktyg (Excel/Core) för att fylla i Workfront Planning och säkerställa att data känns välkända och relevanta.
+  Mer information finns i [Översikt över anslutna posttyper](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+
+* **Spegla aktuella data:** Använd teamets befintliga verktyg (t.ex. Excel eller andra centrala program) för att fylla i Workfront Planning och säkerställa att data känns välkända och relevanta.
 
 * **Skapad för flexibilitet:** Kom ihåg att Workfront Planning är utformat för att utvecklas. Ni kan börja med processer på teamnivå och enkelt lyfta ut eller migrera dem till företagsstyrning när verksamheten är klar.
 
+### Dag 15: Det första genombrott
 
+Vi rekommenderar att du siktar på din första stora vinst senast dag 15. Detta bör vara det automatiska projektet.
 
-### Dag 15: Det första&quot;blixttillfället&quot;
+För att uppnå detta måste du implementera följande:
 
-Sikta efter din första stora vinst senast dag 15: **automatiserad projektframtagning**.
+1. Konfigurera en inbyggd automatisering som identifierar statusen&quot;Körklar&quot;.
 
-* Konfigurera en inbyggd automatisering som känner av statusen&quot;Klar att köras&quot;.
+2. Skapa ett länkat projekt i Workfront.
 
-* Starta skapandet av ett länkat projekt i arbetsflödesmodulen.
+Mer information finns i [Konfigurera Adobe Workfront Planning Automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
 
-* **Värdet:** Ditt team ser sin strategiska avsikt att automatiskt starta körningsarbetet. Det här&quot;blixtögonblicket&quot; bevisar brons värde och bygger en köpprocess.
+Detta säkerställer att ditt team ser sin strategiska avsikt att automatiskt starta ett körningsarbete. Det här banbrytande ögonblicket bevisar värdet av bryggan mellan strategi och arbete och bygger en köpprocess.
 
+### Dagar 16-30: gradvis övergång till företagsnivå
 
+Med blixten klar kan du flytta teamets startpunkt till Workfront Planning.
 
-### Dagar 16-30: gradvis övergång till företagsskala
+När den här teammodellen lyckas börjar du vägen mot företagsskalning genom att identifiera arbetsmönster.
 
-Med&quot;blixtstunden&quot; är det dags att flytta teamets startpunkt till Workfront Planning. När den här **Team-First**-modellen lyckas börjar du banan mot **företagsskalan** genom att identifiera mönster som fungerar.
+Om du vill gå från team till storföretag bör du tänka på följande:
 
+* **Introducera inmatningsformuläret:** Använd ett begärandeformulär som ny gateway för strategiska begäranden för att säkerställa dataintegriteten.
 
+  Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-* **Introducera inmatningsformuläret:** Använd formuläret som ny gateway för strategiska begäranden för att säkerställa dataintegriteten.
-
-* **Observera och standardisera:** Använd det primära Workspace-programmet för att observera hur pilotteamet använder verktyget. De här verkliga exemplen kommer att formge er företagsdesign.
+* **Observera och standardisera:** Använd arbetsytan för global klassificering för att observera hur pilotgruppen använder verktyget. De här verkliga exemplen kommer att formge er företagsdesign.
 
 * **Avbeställ äldre kalkylblad:** Flytta helt till Workfront Planning när processen mognar.
 
-* **Byt ut avancerade användare:** Använd **tabellvyn** för direkt hantering av höghastighetsplaner.
+* **Byt ut avancerade användare:** Använd posttabellvyn för direkt hantering av höghastighetsplaner.
 
+  Mer information finns i [Hantera tabellvyn](/help/quicksilver/planning/views/manage-the-table-view.md).
 
+## Översikt över framgångsmått för startplattan
 
-## Framgångsmått för startplattan
+Vi rekommenderar att du hela tiden letar efter framgångsmarkörer och justerar dem utifrån dina resultat.
 
 Titta efter dessa tidiga hälsoindikatorer:
 
-* **Antagande:** De första 5-10 strategiska posterna har länkar till körningsprojekt.
+* **Antagande:** De första 5-10 strategiska posterna har länkar till körningsprojekt och processen att skapa poster och automatisera skapandet av länkade projekt är smidig och enkelt upprepningsbar.
 
 * **Lobbying:** Pilotgruppen börjar utforska verktyget för intilliggande team.
 
@@ -122,33 +134,31 @@ Titta efter dessa tidiga hälsoindikatorer:
 
 * **Lita på:** Intressenterna använder Workfront Planning-tidslinjer i stället för manuella statusdäck för granskningar.
 
-
-
 ## God praxis och tips
 
+Framgången för er implementering beror på hur ni arbetar och på de förväntningar ni ställer från början.
 
+Nedan följer några rekommendationer om hur du kan leda till en lyckad implementering.
 
-### Gör:
+### Dos:
 
-* **Börja med ett spännande pilotteam.** Bekräfta att en global utrullning är en betydande ökning. Fokusera på en POC med ett team som är angeläget att förnya och som kan ta fram en plan för andra.
+* **Börja med ett spännande pilotteam:** Bekräfta att en global utrullning är en avsevärd förbättring. Fokusera på koncepttestet med ett team som är angeläget att förnya och som kan ta fram en plan för andra.
 
-* **Definiera köer, inte väggar.** Använd Guidad autonomi för att tillhandahålla struktur utan att döda prospektering.
+* **Definiera köer, inte väggar:** Använd guidad självbestämmande för att skapa struktur utan att döda utforskandet.
 
-* **Prioritera psykologisk säkerhet.** Informera teamen om att äldre verktyg stannar tills de känner sig bekväma med det nya flödet.
+* **Prioritera psykologisk säkerhet:** Informera team om att äldre verktyg finns kvar tills de känner sig säkra på det nya arbetsflödet.
 
-* **Fira de snabba vinsterna.** Markera det första automatiserade projektet för hela teamet.
+* **Fira snabbt vinnande:** Markera det första automatiserade projektet som skapats för hela teamet.
 
-* **Upprätta en segrare.** Identifiera en kraftfull användare i varje team som ska leda övergången.
-
-
+* **Upprätta en mästare:** Identifiera en kraftfull användare i varje team som ska leda övergången.
 
 ### Gör inte:
 
-* **Meddela inte ändringar av &quot;big bang&quot;.** Tvinga alla att aktivera dag 1 orsakar teknikfel.
+* **Meddela inte storskaliga ändringar:** Tvinga alla att växla den första dagen orsakar teknikfel.
 
-* **Ignorera inte&quot;varför&quot;.** Se till att alla teammedlemmar förstår hur den strategiska tråden gör deras arbete mer synligt.
+* **Ignorera inte varför:** Se till att alla teammedlemmar förstår hur den strategiska tråden gör deras arbete mer synligt.
 
-* **Vänta inte på perfektion.** Din taxonomi kommer att utvecklas. Börja med din bästa gissning och förfina allt eftersom du går.
+* **Vänta inte på perfektion:** Din taxonomi utvecklas. Börja med din bästa gissning och förfina allt eftersom du går.
 
 <!--
 

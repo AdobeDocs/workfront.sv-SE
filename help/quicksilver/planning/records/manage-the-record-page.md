@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
+source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1567'
 ht-degree: 0%
 
 ---
@@ -279,14 +279,14 @@ Följande saker händer:
 
    <div class="preview">
 
-   * Välj inställningen **Visa tabellfält** om du bara vill visa fält som inte är dolda i postens tabellvy. Det här är standardinställningen
-   * Avmarkera inställningen **Visa tabellfält** om du vill visa fält från postens tabellvy, inklusive dolda fält.
+   * Välj inställningen **Visa alla fält** om du vill visa alla fält från postens tabellvy, inklusive dolda fält.
+   * Avmarkera inställningen **Visa alla fält** om du bara vill visa fält som inte är dolda i postens tabellvy. Det här är standardinställningen
 
    </div>
 
    >[!TIP]
    >
-   ><span class="preview">Inställningen **Visa tabellfält** är bara tillgänglig i postens förhandsvisningsruta Detaljer. Den är inte tillgänglig på postens informationssida.</span>
+   ><span class="preview">Inställningen **Visa alla fält** är bara tillgänglig i postens förhandsvisningsruta Detaljer. Den är inte tillgänglig på postens informationssida.</span>
 
 
    <!--replace with this when they fix the UI text:
@@ -302,7 +302,7 @@ Följande saker händer:
 
    ![Informationssida](assets/details-page.png)
 
-1. På fliken **Detaljer** klickar du på ikonen **Ta** ![Ta tag i &#x200B;](assets/grab-icon.png) till vänster om fältnamnet och drar och släpper den på önskad plats.
+1. På fliken **Detaljer** klickar du på ikonen **Ta** ![Ta tag i ](assets/grab-icon.png) till vänster om fältnamnet och drar och släpper den på önskad plats.
 
    >[!TIP]
    >
