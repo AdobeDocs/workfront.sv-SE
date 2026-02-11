@@ -88,7 +88,7 @@ Detta kan göras på följande sätt:
 
   Detta gör att man kan lägga in tillsyn eller platshållare, vilket säkerställer att projekten bara genereras i arbetsflödesmiljön när de verkligen behövs.
 
-  Mer information finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
+  Mer information finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning &#x200B;](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
 
 
 ### Skapa automatiska aktiveringar

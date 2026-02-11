@@ -166,7 +166,7 @@ Vi rekommenderar följande:
 
   När en aktivitet eller kampanj skapas i Workfront Planning kan den posten generera en motsvarande Portfolio eller Program i Workfront.
 
-  Mer information finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+  Mer information finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning &#x200B;](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
 På så sätt kan du:
 
