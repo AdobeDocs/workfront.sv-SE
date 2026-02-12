@@ -8,13 +8,13 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 7dca87a4f73fed9597f2a623b969569aa03cf5b3
+exl-id: 32c616b2-5bba-434e-9918-c27f6518693d
+source-git-commit: 56e5af94e0e98cf680db182f10143f5503e4260b
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
-
 
 # Aktivitet för andra utgåvan, kvartal 2026, för Adobe Workfront med begränsade tillgänglighetsfunktioner
 
@@ -27,6 +27,22 @@ En lista över alla begränsade tillgänglighetsfunktioner som släppts för Ado
 ## Versionsinformation om funktionerna för begränsad tillgänglighet
 
 Det här avsnittet innehåller versionsinformation om nya funktioner.
+
+### Uppdaterad upplevelse vid enkel- eller grupptilldelning
+
+>[!NOTE]
+>
+>Produktionsdatum: 12 februari 2026
+
+Vi har uppdaterat avsnittet Uppdrag i rutan Redigera uppgifter när du redigerar enstaka uppgifter eller redigerar dem samtidigt.
+
+Det finns en ny upplevelse för att tilldela resurser till uppgifter. Det här är nu tillgängligt både när du redigerar en uppgift eller redigerar flera uppgifter samtidigt. Vi har lagt till följande fält i uppdragsavsnittet:
+
+* Allokeringar
+* Ägare eller aktivitetsägare
+* Uppdragarens roll
+
+Mer information finns i [Redigera uppgifter](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
 
 <!--### Title
 
@@ -41,19 +57,19 @@ text
 
 I det här avsnittet beskrivs de problem som har åtgärdats i veckouppdateringarna av Workfront för begränsad tillgänglighet.
 
-<!--### Maintenance Updates week of January 18-24, 2026
+<!--### Maintenance Updates week of February 8-14, 2026
 
 **Title**
 
 text
 
-### Maintenance Updates week of January 25-31, 2026
+### Maintenance Updates week of February 15-21, 2026
 
 **Title**
 
 text
 
-### Maintenance Updates week of February 1-7, 2026
+### Maintenance Updates week of February 22-28, 2026
 
 **Title**
 
