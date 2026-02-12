@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '823'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 Tänk på följande när du ger användare tillgång till ekonomiska data i Workfront:
 
+* En användare vars åtkomstnivå inte tillåter åtkomst till ekonomiska data kan inte ge åtkomst som skulle göra det möjligt för andra att visa ekonomiska data. Detta innefattar att ge åtkomst till projekt som skulle visa ekonomiska data, eller ändra en åtkomstnivå för att tillåta visning av ekonomiska data.
 * En användare vars åtkomstnivå inte tillåter åtkomst till ekonomiska data kan inte skapa en risk för ett projekt. Mer information finns i [Skapa och redigera risker i projekt](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
 * Du kan också använda en åtkomstnivå för att avgöra vilka resurshanteringsaktiviteter en användare kan använda för att budgetera eller visa resursallokering. Mer information finns i [Bevilja åtkomst till resurshantering](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 

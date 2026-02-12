@@ -6,9 +6,9 @@ description: Du kan dela eller ta bort behörigheter till ett objekt som du har 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1332'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,9 @@ Du kan dela följande objekt i Workfront med andra användare:
 
 ## Delningsbegränsningar
 
-Du kan dela ett objekt med upp till 100 enheter (användare, team, grupper, jobbroller, företag). Vi rekommenderar att du delar objekt med grupper, team eller företag i stället för med enskilda användare för att undvika den här begränsningen.
+* Du kan dela ett objekt med upp till 100 enheter (användare, team, grupper, jobbroller, företag). Vi rekommenderar att du delar objekt med grupper, team eller företag i stället för med enskilda användare för att undvika den här begränsningen.
+* En användare vars åtkomstnivå inte tillåter åtkomst till ekonomiska data kan inte ge åtkomst som skulle göra det möjligt för andra att visa ekonomiska data. Detta innefattar att ge åtkomst till projekt som skulle visa ekonomiska data, eller ändra en åtkomstnivå för att tillåta visning av ekonomiska data.
+
 
 ## Dela behörigheter för objekt
 
