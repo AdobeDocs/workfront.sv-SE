@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
+source-git-commit: 5a725e747e8776a867cb0dc4129544f6a28ce8e0
 workflow-type: tm+mt
-source-wordcount: '1640'
+source-wordcount: '1709'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Så här använder du globala posttyper:
 
    I följande avsnitt beskrivs överväganden om globala posttyper och hur de fungerar på antingen den ursprungliga eller den sekundära arbetsytan.
 
-### Att tänka på när det gäller globala posttyper på deras ursprungliga arbetsyta
+### Överväganden om de globala posttyperna i deras ursprungliga primära arbetsyta
 
 Posttypen som konfigurerats som global har följande egenskaper:
 
@@ -109,12 +109,24 @@ Posttypen som konfigurerats som global har följande egenskaper:
    * Skapa och hantera förfrågningsformulär
    * Skapa och hantera automatisering
 
-* Posterna som du lägger till i en global posttyp visas bara för användare som har behörigheten Visa på arbetsytan där de lades till.
-* Posterna som du lägger till från en sekundär arbetsyta läggs upp och visas på den ursprungliga arbetsytan. Alla medlemmar på den ursprungliga arbetsytan får behörigheten Visa till dem.
-* När den ursprungliga globala posttypen läggs till i flera sekundära arbetsytor finns följande scenarier:
+* Följande poster visas på den primära arbetsytan för en global posttyp:
 
-   * Medlemmar i den ursprungliga arbetsytan får automatiskt behörigheten Visa för alla poster som läggs till från en arbetsyta, även om de inte är medlemmar i den arbetsytan.
-   * Sekundära arbetsytemedlemmar kan bara visa poster från arbetsytor där de är medlemmar.
+   * Poster som lagts till från den globala posttypen på den primära arbetsytan
+   * Poster som lagts till från globala posttyper på den sekundära arbetsytan där de lades till
+
+     Posterna som du lägger till från en sekundär arbetsyta läggs upp och visas på den primära arbetsytan. Alla medlemmar på den ursprungliga primära arbetsytan får behörigheten Visa och posterna visas bara från den primära arbetsytan, även om de inte har behörighet till den sekundära arbetsytan.
+* Det finns följande scenarier för vilken typ av behörigheter du har för posterna som visas på den primära arbetsytan, beroende på var de lades till:
+
+   * Du har samma behörigheter som de poster som skapas i den primära arbetsytan som du har till arbetsytan och till den ursprungliga globala posttypen.
+   * Du har samma behörigheter till posterna som skapas i en sekundär arbetsyta som du har till den sekundära arbetsytan och till den globala posttypen i den arbetsytan.
+
+<!--Removed this as this was too confusing: 
+
+* When the original global record type is added to multiple secondary workspaces, users gain the following visibility to the records added to the global record types: 
+
+    * Members of the original workspace automatically gain View permissions to all records added from any workspace, even if they are  not members of those workspaces. They can view these records in the following workspaces, only if they are a member of these following workspaces: 
+        * The primary workspace
+        * The secondary workspace where the records were added. Secondary workspace members can view only records from workspaces where they are a member.-->
 
 * Posttyperna som är kopplade till en global posttyp blir tillgängliga för anslutning från arbetsytorna där den här posttypen läggs till.
 
@@ -172,15 +184,15 @@ Posttypen som konfigurerats som global har följande egenskaper:
    * Skapa och hantera förfrågningsformulär
    * Skapa och hantera automatisering
 
-* Poster som läggs till i en sekundär arbetsyta visas från följande arbetsytor om du har behörigheten Visa eller högre för dessa arbetsytor:
+* Poster som läggs till i en sekundär arbetsyta visas från följande arbetsytor när du har behörigheten Visa eller högre för dessa arbetsytor:
 
    * Den sekundära platsen där de lades till
-   * Den globala posttypens ursprungliga arbetsyta
+   * Den globala posttypens ursprungliga primära arbetsyta
 
-* Följande scenarier finns för poster som skapats i sekundära arbetsytor:
+* Följande scenarier används för att komma åt poster som har skapats i sekundära arbetsytor:
 
    * Om du har behörigheten Hantera på den ursprungliga arbetsytan, och inga behörigheter på en sekundär arbetsyta, kan du visa poster som lagts till från den sekundära arbetsytan i den ursprungliga arbetsytan, men du kan inte hantera dem från den ursprungliga arbetsytan.
-   * Om du har behörigheten Hantera på den sekundära arbetsytan kan du hantera posterna både från den globala posttypens ursprungliga arbetsyta och från den sekundära arbetsytan där de lades till.
+   * Om du har behörigheten Hantera på den ursprungliga och den sekundära arbetsytan kan du hantera posterna både från den globala posttypens ursprungliga arbetsyta och från den sekundära arbetsytan där de lades till.
      <!--not anymore: * You can view the records in additional secondary workspaces where the global record type is added only if you have View permissions to those workspaces-->
 * Du kan inte dela vyer offentligt från en global posttyp på en sekundär arbetsyta.
 
