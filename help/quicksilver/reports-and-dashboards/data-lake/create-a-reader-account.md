@@ -7,9 +7,9 @@ description: För att få åtkomst till Data Connect-data måste du först skapa
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
+source-git-commit: 9cf221bda04614856a6a3670100742340fb73aee
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Så här skapar du ett läsarkonto:
 
 1. Klicka på **System** > **Dataanslutning** i den vänstra panelen.
 
-1. Klicka på knappen **Skapa Reader-konto** för att börja skapa din organisations läsarkonto. Processen är automatisk, men kan ta några minuter att slutföra.
+1. Klicka på knappen **Skapa Reader-konto** för att börja skapa din organisations läsarkonto. Processen är automatisk, men kan ta upp till 24 timmar att slutföra.
 
 1. När det är klart visas ett dialogrutefönster där det förklaras att ditt läsarkonto nu är aktivt. Uppdatera webbläsarsidan för att få åtkomst till knappen **Skapa ny anslutning**.
 
