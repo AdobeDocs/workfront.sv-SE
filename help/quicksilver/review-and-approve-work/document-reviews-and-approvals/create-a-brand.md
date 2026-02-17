@@ -6,9 +6,10 @@ description: Konfigurera varumärken för AI Reviewer
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: cd2a5560fdf446e8e971afcb640af38b4d301d40
+exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
+source-git-commit: 07b401c70dfd209d13c34cf62844f334f3260af1
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
@@ -42,11 +43,17 @@ I AI Reviewer används varumärkesriktlinjer för att utvärdera innehåll under
    <td> <p>Du måste vara systemadministratör.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Admin Console-behörigheter</td> 
-   <td> <p>Du måste ha GenStudio Brand Manager.</p></td> 
+   <td role="rowheader">Admin Console permissions*</td> 
+   <td> <p>Du måste ha GenStudio Brand Manager.</p>
+    <p>Obs! För att kunna välja GenStudio Brand Manager måste du följa de steg som beskrivs i <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/configure-brand-permissions">Tilldela varumärkesbehörigheter</a>.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
+
+
+
+
 
 Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
@@ -60,6 +67,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 * Din organisation måste ha GenStudio Foundation.
 * Adobe måste ha ett signerat Adobe Gen AI-avtal till hands.
 Mer information om hur du signerar avtalet finns i [Signera Adobe Gen AI-avtalet](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
+
 
 ## Skapa ett varumärke med en PDF
 
