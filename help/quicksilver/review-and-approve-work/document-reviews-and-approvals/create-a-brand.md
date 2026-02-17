@@ -45,7 +45,7 @@ I AI Reviewer används varumärkesriktlinjer för att utvärdera innehåll under
   <tr> 
    <td role="rowheader">Admin Console permissions*</td> 
    <td> <p>Du måste ha GenStudio Brand Manager.</p>
-    <p>Obs! För att kunna välja GenStudio Brand Manager måste du följa de steg som beskrivs i <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/configure-brand-permissions">Tilldela varumärkesbehörigheter</a>.</p>
+    <p>Obs! För att kunna välja GenStudio Brand Manager måste du följa de steg som beskrivs i <a href="https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/intro/configure-brand-permissions">Tilldela varumärkesbehörigheter</a>.</p>
    </td> 
   </tr> 
  </tbody> 
