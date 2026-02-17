@@ -5,10 +5,8 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
-hide: true
 exl-id: 567ab223-b282-4b98-9655-7b9766fba869
-source-git-commit: 52bf41e146a11a4af4fbebfe5bb20a9765f2bc7b
+source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
 workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 0%
@@ -88,7 +86,7 @@ Detta kan göras på följande sätt:
 
   Detta gör att man kan lägga in tillsyn eller platshållare, vilket säkerställer att projekten bara genereras i arbetsflödesmiljön när de verkligen behövs.
 
-  Mer information finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning &#x200B;](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
+  Mer information finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
 
 
 ### Skapa automatiska aktiveringar
@@ -97,7 +95,7 @@ För organisationer med stora volymer eller avancerade automatiseringsbehov kan 
 
 Du behöver en licens för Adobe Workfront Fusion för den här metoden.
 
-Mer information finns i [Konfigurera och hantera Workfront Fusion: artikelindex](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
+Mer information finns i [Konfigurera och hantera Workfront Fusion: artikelindex](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
 
 * **Använd utlösare för överföring:** Eftersom formulär erbjuder en enda, ren inskickningshändelse kan de användas som utlösare för Fusion-automatisering. Ett Fusion-scenario kan identifiera en formulärskickning och omedelbart generera ett länkat projekt i Workfront.
 

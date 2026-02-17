@@ -3,13 +3,13 @@ title: Kom igång med den kostnadsfria testversionen av Adobe Workfront Planning
 description: Adobe Workfront erbjuder en 60-dagars kostnadsfri testversion av Adobe Workfront Planning. Testversionen är ett tillfälle att se hur Planning kopplar samman en helbildsstrategi med det dagliga arbete som får programmet att fungera. Planering ger centraliserad insyn i era marknadsföringslivscykler, vilket möjliggör bättre samarbete mellan olika team, spårning av kampanjer i realtid och automatiserade arbetsflöden. Du kan skapa anpassade arbetsytor och visualisera arbetet med interaktiva tidslinjer och kalendrar. I den här testversionen får du först se hur Planning hjälper er att anpassa det dagliga arbetet till strategiska mål, effektivisera genomförandet och få mätbara resultat för organisationen.
 hidefromtoc: true
 hide: true
-source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
+exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
+source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1290'
 ht-degree: 0%
 
 ---
-
 
 <!--add at release to the metadata:
 author: Alina
@@ -154,6 +154,12 @@ Gör något av följande om du vill granska och godkänna det juridiska avtalet:
 
       Mer information om hur du använder Workfront Planning finns i [Bästa praxis för Adobe Workfront Planning](/help/quicksilver/planning/general/planning-best-practices.md).
 
+## Mer information om Workfront Planning
+
+Allmän information om Workfront Planning finns i [Kom igång med Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+
+Mer information om hur du implementerar Workfront Planning finns i [Bästa praxis för Adobe Workfront Planning: artikelindex](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
+
 ## Tillstånd till Workfront Planning-data under den kostnadsfria provperioden
 
 * **Mellan 2 mars och 1 maj 2026**:
@@ -169,7 +175,3 @@ Gör något av följande om du vill granska och godkänna det juridiska avtalet:
 * **Efter 1 maj 2026:**
 
   Alla användare i systemet har åtkomst till Workfront Planning borttagen och Workfront skyddar dina data.
-
-
-
-

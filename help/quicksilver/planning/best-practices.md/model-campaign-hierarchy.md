@@ -5,10 +5,8 @@ feature: Workfront Planning
 role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
-hide: true
 exl-id: 02e3b55f-9188-42bf-8d0b-c9fed86c63c4
-source-git-commit: 52bf41e146a11a4af4fbebfe5bb20a9765f2bc7b
+source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 0%
@@ -166,7 +164,7 @@ Vi rekommenderar följande:
 
   När en aktivitet eller kampanj skapas i Workfront Planning kan den posten generera en motsvarande Portfolio eller Program i Workfront.
 
-  Mer information finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning &#x200B;](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+  Mer information finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
 På så sätt kan du:
 

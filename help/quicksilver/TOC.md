@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: aa3645e2ed8c36a3b07caad72083a43467889fce
+source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
 workflow-type: tm+mt
-source-wordcount: '13769'
+source-wordcount: '13772'
 ht-degree: 0%
 
 ---
@@ -2111,11 +2111,11 @@ ht-degree: 0%
       * [Kom igång med den kostnadsfria testversionen av Adobe Workfront Planning](planning/general/trial-workfront-planning.md)
    * Adobe Workfront Planning - bästa praxis {#adobe-workfront-planning-best-practices}
       * [Adobe Workfront bästa praxis: artikelindex](planning/best-practices.md/best-practices-article-index.md)
-      * [30-dagars startplatta: lansera ditt strategiska hem](planning/best-practices.md/30-day-launchpad.md)
-      * [Framgångsarkitekturen: modellera kampanjhierarkin](planning/best-practices.md/model-campaign-hierarchy.md)
-      * [Marknadsföringskalendern som du har missat: inga däck, bara klarhet](planning/best-practices.md/marketing-calendar.md)
-      * [Playbook: hanterad skalning, efter första win](planning/best-practices.md/playbook-how-to-scale.md)
-      * [Bron: koppla ihop strategisk avsikt med projekt](planning/best-practices.md/the-bridge-connect-strategy-with-projects.md)
+      * [Utnyttja ditt strategiska hem: en 30-dagars startplatta](planning/best-practices.md/30-day-launchpad.md)
+      * [Skapa en lyckad arkitektur: modellera kampanjhierarkin](planning/best-practices.md/model-campaign-hierarchy.md)
+      * [Bygg en marknadsföringskalender: inga deckare, bara skärpa](planning/best-practices.md/marketing-calendar.md)
+      * [Förvandla din första vinst till ett hållbart intryck: en spelbok för hanterad skalning](planning/best-practices.md/playbook-how-to-scale.md)
+      * [Bygg en bro: koppla ihop strategisk avsikt med projekt](planning/best-practices.md/the-bridge-connect-strategy-with-projects.md)
    * Adobe Workfront Planning - arkitektur {#adobe-workfront-planning-architecture}
       * [Arkitektur: artikelindex](planning/architecture/architecture-information.md)
       * [Arbetsytor - översikt](planning/architecture/workspaces-overview.md)
