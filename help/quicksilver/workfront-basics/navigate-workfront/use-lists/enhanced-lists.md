@@ -5,9 +5,9 @@ description: De förbättrade listorna har ett tabellformat för att visa listob
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: b935f3013c1be670dea834c041e02165f0e7047c
+source-git-commit: ee5bb3cbf6a69b85c3d6b87500164f85a1ba114a
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1617'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Nedan visas några typer av Workfront-objektlistor som använder det förbättra
 
 >[!NOTE]
 >
->Den här listan är inte heltäckande. Var och en av de här objektlistorna kan också visas i en rapport eller på en kontrollpanel. En projektrapport eller en kontrollpanel som innehåller en projektrapport visar till exempel även en lista med projekt.
+>Den här listan är inte heltäckande. Var och en av de här objektlistorna kan också visas i en rapport eller på en kontrollpanel. En Request-rapport eller en kontrollpanel som innehåller en Request-rapport visar till exempel även en lista med begäranden.
 
 | Workfront-lista | Objektlistans plats |
 |--- |--- |
@@ -61,14 +61,17 @@ Nedan visas några typer av Workfront-objektlistor som använder det förbättra
 | Lista över begäranden | <ul><li>Begäranden (endast ny upplevelse)</li><li>Widgeten Mina förfrågningar på startsidan</li></ul> |
 | Statuslistor, prioriteter, allvarlighetsgrader och valutakurser i installationsprogrammet | <ul><li>Inställningar > Projektinställningar > Status</li><li>Inställningar > Projektinställningar > Prioriteter</li><li>Inställningar > Projektinställningar > Allvarlighetsgrader</li><li>Inställningar > Projektinställningar > Exchange-priser</li></ul> |
 
-## Lägga till och redigera objekt i en förbättrad lista
+## Lägga till objekt i en förbättrad lista
 
-Beroende på hur den förbättrade listan är konfigurerad kan det finnas två sätt att lägga till ett objekt i listan:
+Beroende på vilken förbättrad lista du visar gör du något av följande:
 
-* Klicka på en knapp ovanför listan. Med det här alternativet öppnas en dialogruta där du kan ange information och spara den.
-* Klicka på **Ny rad** längst ned i listan. Med det här alternativet läggs en ny rad till i tabellen och du anger information i varje cell.
+1. Klicka på den blå knappen uppe till höger i listan. Med det här alternativet öppnas en dialogruta där du kan ange information. Data sparas som en ny rad i tabellen.
 
-  Förbättrade listor har stöd för följande fälttyper:
+   ELLER
+
+1. Klicka på **Ny rad** längst ned i listan. Med det här alternativet läggs en ny rad till i tabellen. Dubbelklicka i en cell för att ange information. Varje cell representerar ett fält för listobjektet. Fälten måste finnas innan du kan se dem i listan.
+
+   Förbättrade listor har stöd för följande fälttyper:
 
    * Text
    * Nummer
@@ -81,50 +84,56 @@ Beroende på hur den förbättrade listan är konfigurerad kan det finnas två s
    * Uppdragare (en eller flera)
    * Färgväljaren
 
-  När du redigerar en cell har varje fälttyp sina egna redigeringsalternativ.
-
-Om du vill redigera ett objekt i listan dubbelklickar du i cellen som du vill redigera och skriver informationen. Vissa celler kan vara skrivskyddade.
+   >[!NOTE]
+   >
+   >Varje fälttyp har sina egna redigeringsalternativ. Vissa fält kan vara skrivskyddade.
 
 ![Exempel på utökad lista](assets/glist-exchange-rates.png)
 
-## Använda åtgärdsfältet och menyn Mer i en förbättrad lista
+## Redigera objekt med åtgärdsfältet
 
-Åtgärdsfältet visar åtgärder som du kan utföra på ett listobjekt. Vissa åtgärder kan vara specifika för den listan och visas inte i några andra listor.
+Du kan använda åtgärdsfältet i en förbättrad lista för att redigera objekt i listan. Alla åtgärdsfält innehåller inte samma alternativ. Vissa listor kanske inte tillåter dig att markera objekt och åtgärdsfältet är inte tillgängligt.
 
-1. Markera kryssrutan bredvid ett objekt i den förbättrade listan.
+1. Markera kryssrutan bredvid ett objekt i en förbättrad lista.
 
    Åtgärdsfältet visas längst ned på skärmen.
 
    >[!NOTE]
    >
-   >Olika förbättrade listor kan göra det möjligt att markera ett enstaka objekt, gruppredigera (markera mer än ett objekt) eller inte markera något objekt.
+   >Beroende på vilken lista du redigerar kan du markera ett eller flera objekt som ska användas i åtgärdsfältet.
 
-1. Klicka på en knapp i åtgärdsfältet för att utföra den åtgärden, till exempel visa listobjektet, ta bort objektet eller redigera objektet.
+1. Klicka på en åtgärd i fältet för att redigera objekt. Exempel på åtgärder du kan välja är:
 
-   Om det inte finns några tillgängliga åtgärder för det valda objektet anges &quot;Inga tillgängliga åtgärder&quot; i åtgärdsfältet.
+   * Visa
+   * Redigera
+   * Ta bort
+
+   Om det inte finns några tillgängliga åtgärder för det valda objektet visas&quot;Inga tillgängliga åtgärder&quot; i åtgärdsfältet.
 
    ![Exempel på åtgärdsfält](assets/glist-action-bar-statuses.png)
 
-1. Håll pekaren över ett primärt fält på ett listobjekt för att visa menyn **Mer**. (Det primära fältet är kolumnen längst till vänster i tabellen.)
+1. Håll markören över det primära fältet för ett listobjekt och klicka sedan på **Mer** meny ![Mer menyikon](assets/more-icon.png) för att se ytterligare åtgärder. Vissa åtgärder kan vara specifika för den listan.
 
-1. Klicka på menyn om du vill se ytterligare åtgärder för objektet. Vissa åtgärder kan vara specifika för den listan och visas inte i några andra listor.
+   >[!TIP]
+   >
+   >Det primära fältet visas i den första kolumnen i listan.
 
    ![Exempel på fler menyer](assets/glist-more-menu-priorities.png)
 
-## Anpassa kolumner i en förbättrad lista
+## Anpassa kolumner
 
-I vissa förbättrade listor kan du dölja och visa kolumner och ändra ordning på kolumnerna.
+Beroende på vilka objekt du visar i en förbättrad lista kan du dölja, visa och ändra ordning på kolumner i listan.
 
 1. Klicka på **Kolumner** ovanför listan.
 
    ![Exempel på visning av kolumner](assets/glist-display-move-columns.png)
 
 1. Använd reglagen för att visa eller dölja kolumner i listan.
-1. Om du vill ändra ordning på kolumnerna klickar du på ikonen **Dra** och flyttar en kolumn till önskad plats. När du flyttar kolumner ändras listan automatiskt.
+1. Om du vill ändra ordning på kolumnerna klickar du på ikonen **Dra** ![Dra ikonen](assets/drag-icon.png) och flyttar en kolumn till önskad plats. När du flyttar kolumner ändras listan automatiskt.
 
    >[!NOTE]
    >
-   >Det primära fältet är kolumnen längst till vänster i tabellen. Den är fast på den första positionen och du kan inte ändra dess kolumn. Om antalet kolumner är stort, fryses det primära fältet till vänster och när du rullar vågrätt visas det alltid.
+   >Det primära fältet är den första kolumnen i listan. Den är fast på den första positionen och du kan inte ändra dess kolumn. Om antalet kolumner är stort, fryses det primära fältet till vänster och när du rullar vågrätt visas det alltid.
    >
    >Ikonen bredvid ett fältnamn visar fälttypen, till exempel text eller datumfält.
 
@@ -132,13 +141,13 @@ I vissa förbättrade listor kan du dölja och visa kolumner och ändra ordning 
 
    ![Indikator för dolda kolumner](assets/glist-columns-hidden-indicator.png)
 
-## Lägga till och ta bort kolumner i en lista med kolumnhanteraren
+## Lägga till och ta bort kolumner med kolumnhanteraren
 
-I vissa förbättrade listor finns **Kolumnhanteraren** som gör att du enkelt kan lägga till kolumner i listan och ta bort kolumner. Inbyggda och anpassade fält är båda tillgängliga att välja som kolumner. Anpassade fält måste finnas i systemet innan du kan lägga till dem som listkolumner.
+Du kan använda **kolumnhanteraren** i vissa förbättrade listor för att enkelt lägga till och ta bort kolumner i listan. Du kan lägga till eller ta bort både systemfält och anpassade fält som redan finns i Workfront som kolumner i en förbättrad lista.
 
 Så här lägger du till och tar bort kolumner:
 
-1. Klicka på ikonen + längst upp till höger i tabellen för att öppna rutan **Kolumnhanteraren**.
+1. Klicka på ikonen + i tabellens övre högra hörn för att öppna rutan **Kolumnhanteraren**.
 1. Sök efter ett befintligt objektfält i kolumnen **Tillgängligt** och klicka sedan på + till höger om fältnamnet för att lägga till det i kolumnen **Markerat**.
 1. Klicka på - till höger om ett fält i kolumnen **Markerad** för att ta bort det från listan.
 
@@ -146,11 +155,13 @@ Så här lägger du till och tar bort kolumner:
    >
    >Vissa fält kan vara åtgärdade och kan inte tas bort.
 
+   <!-- Add info about Properties and KPIs when something gets released with those options -->
+
 1. Klicka på **Spara**.
 
    ![Kolumnhanteraren](assets/glist-column-manager.png)
 
-<!-- Add info about Properties and KPIs when something gets released with those options -->
+   Listan uppdaterar kolumnerna enligt de val du har gjort.
 
 ## Visa data med vyer i en förbättrad lista
 
@@ -192,7 +203,7 @@ Så här delar du en vy:
 
 1. Klicka på **Spara**.
 
-## Filtrera och gruppera objekt i en förbättrad lista
+## Filtrera och gruppera objekt
 
 Med filter kan du minska mängden information som visas i listan. Grupperingar separerar objekten i listan i områden baserat på specifika kriterier.
 
