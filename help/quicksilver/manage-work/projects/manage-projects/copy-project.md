@@ -7,9 +7,9 @@ author: Alina
 feature: Projects, Work Management
 role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 93db334537b5ec12dc0c77d51f8b2d83d8348f3d
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '751'
 ht-degree: 0%
 
 ---
@@ -111,6 +111,10 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
   </tr> 
  </tbody> 
 </table>-->
+
+## Överväganden
+
+* Bearbetningsgränsen är fem minuter vid kopiering av ett projekt. Om projektet har ett stort antal bifogade dokument och inte kan kopieras, kan du behöva ta bort en del av dokumenten och försöka igen.
 
 ## Kopiera ett enstaka projekt
 
