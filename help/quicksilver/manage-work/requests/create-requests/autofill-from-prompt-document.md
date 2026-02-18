@@ -5,9 +5,9 @@ description: Du kan använda AI för att autofylla begärandefält genom att ang
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 8e04117c08985f3ad5de86e4a08cb4aa53ac7706
+source-git-commit: 8dc094718999af291443bd1a703cdc742d13f57e
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1374'
 ht-degree: 0%
 
 ---
@@ -73,8 +73,11 @@ Tänk på följande när du använder formulärfyllning som drivs av AI
 
 * AI-formulärfyllning skriver inte över fält som du redan har fyllt i.
 * Användarna får inga förslag på data som de annars inte har tillgång till.
-* Filer som du använder i formulärfyllning som drivs av AI överförs till Azure-lagringen i 24 timmar. Detta är nödvändigt för dokumentbearbetning.
-* Alla filer som överförs till Azure lagras för närvarande i US Azure-kluster under 24-timmarslagringsfönstret.
+
+<!--
+* Files that you use in Form Fill powered by AI are uploaded to Azure storage for 24 hours. This is necessary for document processing. 
+* All files uploaded to Azure are currently stored in US Azure clusters for the 24 hour storage window. 
+-->
 
 ## Få förslag från en textfråga
 
