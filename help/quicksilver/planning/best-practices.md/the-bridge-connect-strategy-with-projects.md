@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 567ab223-b282-4b98-9655-7b9766fba869
-source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
+source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1156'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,15 @@ ht-degree: 0%
 
 # Bygg en bro: koppla ihop strategisk avsikt med projekt
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>Informationen i den här artikeln handlar om Adobe Workfront Planning, en extrafunktion från Adobe Workfront.
+>
+>Din organisation måste ha ett Workfront Planning Prime-paket eller ett högre paket för att kunna stödja de funktioner som rekommenderas i den här artikeln.
+>
+>En lista över krav för åtkomst till Workfront Planning finns i [Åtkomstöversikt för Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+> 
+>Allmän information om Workfront Planning finns i [Kom igång med Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 Lär dig hur du skapar en strategisk koppling mellan dina högnivåplaner i Adobe Workfront Planning och ditt dagliga utförande i Workfront. Du kan bygga en bro mellan strategi och körning med hjälp av anslutningar.
 
@@ -86,7 +94,7 @@ Detta kan göras på följande sätt:
 
   Detta gör att man kan lägga in tillsyn eller platshållare, vilket säkerställer att projekten bara genereras i arbetsflödesmiljön när de verkligen behövs.
 
-  Mer information finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning &#x200B;](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
+  Mer information finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
 
 
 ### Skapa automatiska aktiveringar
@@ -95,7 +103,7 @@ För organisationer med stora volymer eller avancerade automatiseringsbehov kan 
 
 Du behöver en licens för Adobe Workfront Fusion för den här metoden.
 
-Mer information finns i [Konfigurera och hantera Workfront Fusion: artikelindex](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
+Mer information finns i [Konfigurera och hantera Workfront Fusion: artikelindex](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
 
 * **Använd utlösare för överföring:** Eftersom formulär erbjuder en enda, ren inskickningshändelse kan de användas som utlösare för Fusion-automatisering. Ett Fusion-scenario kan identifiera en formulärskickning och omedelbart generera ett länkat projekt i Workfront.
 

@@ -6,9 +6,9 @@ role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 02e3b55f-9188-42bf-8d0b-c9fed86c63c4
-source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
+source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1537'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,15 @@ ht-degree: 0%
 
 <!--see the file again for additional comments from Seth and others-->
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>Informationen i den här artikeln handlar om Adobe Workfront Planning, en extrafunktion från Adobe Workfront.
+>
+>Din organisation måste ha ett Workfront Planning Prime-paket eller ett högre paket för att kunna stödja de funktioner som rekommenderas i den här artikeln.
+>
+>En lista över krav för åtkomst till Workfront Planning finns i [Åtkomstöversikt för Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+> 
+>Allmän information om Workfront Planning finns i [Kom igång med Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 Lär dig hur du översätter komplexa affärsprocesser till en skalbar, styrd kampanjhierarki med tyngdpunktsarkitektur och en flerarbetsytearkitektur i Adobe Workfront Planning.
 
@@ -164,7 +172,7 @@ Vi rekommenderar följande:
 
   När en aktivitet eller kampanj skapas i Workfront Planning kan den posten generera en motsvarande Portfolio eller Program i Workfront.
 
-  Mer information finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning &#x200B;](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+  Mer information finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
 På så sätt kan du:
 

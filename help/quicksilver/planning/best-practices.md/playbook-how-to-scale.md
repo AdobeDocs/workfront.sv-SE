@@ -6,16 +6,24 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 54df36b3-01a3-4fd3-b2d3-64ffb2fe5918
-source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
+source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
 workflow-type: tm+mt
-source-wordcount: '2483'
+source-wordcount: '2549'
 ht-degree: 0%
 
 ---
 
 # Förvandla din första vinst till ett hållbart intryck: en spelbok för hanterad skalning
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>Informationen i den här artikeln handlar om Adobe Workfront Planning, en extrafunktion från Adobe Workfront.
+>
+>Din organisation måste ha ett Workfront Planning Prime-paket eller ett högre paket för att kunna stödja de funktioner som rekommenderas i den här artikeln.
+>
+>En lista över krav för åtkomst till Workfront Planning finns i [Åtkomstöversikt för Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+> 
+>Allmän information om Workfront Planning finns i [Kom igång med Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 
 Det första framgångsrika användningsexemplet för Adobe Workfront Planning är ett banbrytande ögonblick: efterfrågan ökar, nya team vill ha tillgång och ledningen ser potentialen för företagsövergripande synlighet.

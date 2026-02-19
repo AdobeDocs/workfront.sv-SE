@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
+source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
 workflow-type: tm+mt
-source-wordcount: '13772'
+source-wordcount: '13773'
 ht-degree: 0%
 
 ---
@@ -2101,7 +2101,7 @@ ht-degree: 0%
    * Adobe Workfront Planning - allmän information {#adobe-workfront-planning-general-information}
       * [Adobe Workfront Planning - allmän information: artikelindex](planning/general/planning-general-article-index.md)
       * [Kom igång med Adobe Workfront Planning](planning/general/planning-overview.md)
-      * [Adobe Workfront Planning - bästa praxis](planning/general/planning-best-practices.md)
+      * [Adobe Workfront planeringsrekommendationer för implementering](planning/general/planning-best-practices.md)
       * [Grunderna i Adobe Workfront Planning API](planning/general/planning-api-basics.md)
       * [Adobe Workfront Planning AI Assistant - översikt](planning/general/planning-ai-assistant-overview.md)
       * [Kom igång med Adobe Workfront Planning Designer](planning/general/planning-ai-designer.md)
