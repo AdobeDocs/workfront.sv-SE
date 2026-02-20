@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 54df36b3-01a3-4fd3-b2d3-64ffb2fe5918
-source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
-source-wordcount: '2549'
+source-wordcount: '2574'
 ht-degree: 0%
 
 ---
@@ -91,6 +91,8 @@ De globala körfälten har följande egenskaper:
 
 * **Regel**: Dessa fält är delade och obligatoriska.
 
+Mer information finns i [Posttypöversikt för arbetsytan över flera arbetsytor](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+
 ### Lokala spelgrunder (eller&quot;spokes&quot;)
 
 Följande är egenskaper för lokala spelningsmiljöer
@@ -171,6 +173,8 @@ Använd i stället följande fältmognadsväg för att låta verkliga användnin
 * **Nivå 2: Mönsterigenkänning**: Administratören meddelar att Team B och C använder eller ber om ett liknande fält.
 
 * **Nivå 3: Företagets standardisering**: Administratören skapar en enda standardiserad version av det fältet som en posttyp i Global Taxonomy Workspace och syndikerar det till teamen.
+
+  Mer information finns i [Posttypöversikt för arbetsytan över flera arbetsytor](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 ### Så här pensionerar du fält
 
@@ -334,6 +338,8 @@ Följande är exempel på vad en checklista ska innehålla:
 * [ ] **Bevilja global synlighet**: Ge dem skrivskyddad åtkomst till de relevanta primära arbetsytorna och den globala taxonomiarbetsytan dag 1.
 
 * [ ] **Upprätta överlämningen**: Hur matar deras arbete de relevanta primära arbetsytorna? Deras arbete kan till exempel matas in i relevanta primära arbetsytor via en global posttyp eller ett specifikt sökfält.
+
+  Mer information om globala posttyper finns i [Posttypöversikt för arbetsytan](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 <!--original content: 
 

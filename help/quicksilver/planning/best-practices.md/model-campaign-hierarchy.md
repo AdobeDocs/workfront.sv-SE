@@ -6,9 +6,9 @@ role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 02e3b55f-9188-42bf-8d0b-c9fed86c63c4
-source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1541'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,11 @@ Om du vill skapa en arkitektur med hjälp av navet och skräddarsydda lösningar
 
 Du måste först skapa en central arbetsyta för dina globala klassificeringar för att definiera de huvudbegrepp som alla i organisationen måste förstå. Du kan till exempel skapa följande posttyper på en central arbetsyta: Varumärken, Områden, Produkter, Personas.
 
-Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md).
+Mer information finns i:
+
+* [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md)
+
+* [Posttypöversikt för arbetsytan över flera arbetsytor](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 
 Ange följande när du skapar klassificeringar:
 
@@ -172,7 +176,7 @@ Vi rekommenderar följande:
 
   När en aktivitet eller kampanj skapas i Workfront Planning kan den posten generera en motsvarande Portfolio eller Program i Workfront.
 
-  Mer information finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning &#x200B;](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+  Mer information finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
 På så sätt kan du:
 

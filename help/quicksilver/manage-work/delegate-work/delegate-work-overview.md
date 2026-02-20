@@ -7,9 +7,9 @@ description: När du planerar att vara borta från kontoret under en kort period
 author: Becky
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '888'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Tänk på följande när du delegerar uppgifter och ärenden:
 | En tilldelad eller delegerad användare visas i arbetsobjektets rubrik | Ja | Ja |
 | De tilldelade eller delegerade uppgifterna eller frågorna visas i den tilldelades eller delegatens hemområde | Ja, tills artikeln är slutförd | Ja, endast under delegeringens tidsram |
 | Du kan tilldela eller delegera arbete till användare från Hem-området | Ja | Ja |
-| Du kan tilldela eller delegera arbete till användare med | Ja | Nej |
+| Du kan tilldela eller delegera arbete till användare med hjälp av Utjämning av arbetsbelastning | Ja | Nej |
 | Du kan tilldela eller delegera arbete till användare i en lista eller från en arbetsuppgifts rubrik | Ja | Nej |
 | Alla användare kan tilldela eller delegera andra användare med arbetsobjekt som de inte är kopplade till | Baserat på behörigheter och åtkomstnivå | Nej. Endast den som tilldelats kan delegera sina egna artiklar. |
 | Planerade, faktiska eller budgeterade timmar för arbete som tilldelats eller delegerats till en användarvy för den användaren i resurshanteringsverktyg | Ja | Nej |

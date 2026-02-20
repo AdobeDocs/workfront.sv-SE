@@ -6,9 +6,9 @@ role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 90b0e019-1b42-4ab2-8b4c-69f85e4c4d78
-source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1310'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,8 @@ Mer information finns i [Skapa arbetsytor](/help/quicksilver/planning/architectu
 Med den här arkitekturen som sätter teamet först kan du:
 
 * **Utforma navet för stöd av talaren:** Du kan fokusera den globala arbetsytan för klassificering specifikt på de objekt som är viktiga för ditt pilotteam (deras specifika varumärken eller produkter). Det här ger en god samarbetsförståelse mellan företagsstyrning och teamets självstyre samtidigt som designarbetet förblir hanterbart.
+
+  Mer information finns i [Posttypöversikt för arbetsytan över flera arbetsytor](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 * **Agera som aktiverare, inte skyddare:** Byt din roll från regelinställning till kapacitetsuppbyggnad. Samarbeta med teamet för att strukturera sin planeringsmiljö.
 

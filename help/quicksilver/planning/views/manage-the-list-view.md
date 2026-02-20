@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
-source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -93,6 +93,8 @@ Mer information om hur du hanterar listvyer i Workfront finns i [Använda förb�
 
    På sidan Anslutna poster visas projekt som är kopplade till posten i listvyn.
 
+   <!--add new screen shot when they release Row colors/ special formatting for rows-->
+
    ![Projekt på sidan med anslutna poster i listvyn](assets/projects-on-connected-records-page-list-view.png)
 
 1. (Valfritt) Gör något av följande om du vill ändra listvyn:
@@ -108,11 +110,13 @@ Mer information om hur du hanterar listvyer i Workfront finns i [Använda förb�
 
       >[!NOTE]
       >
-      >Du måste ha behörigheten Hantera för en vy för att kunna redigera, dela eller ta bort den.
+      >* Du måste ha behörigheten Hantera för en vy för att kunna redigera, dela eller ta bort den.
       >
-      >Du kan inte ändra systemvyer.
+      >* Du kan inte ändra systemvyer.
       >
-   1. Klicka på ikonen **Filter** ![Filter &#x200B;](assets/filter-icon.png) för att lägga till ett filter i vyn. Resultaten filtreras omedelbart i listan. Du kan inte spara och namnge filter. Filter sparas när du öppnar sidan i framtiden och de är en del av delade vyer.
+      <!--* <span class="preview">You can reset a view that was shared with you after you modified it to restore its original preferences, or you can copy it with your changes and share the copy. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+        -->
+   1. Klicka på ikonen **Filter** ![Filter ](assets/filter-icon.png) för att lägga till ett filter i vyn. Resultaten filtreras omedelbart i listan. Du kan inte spara och namnge filter. Filter sparas när du öppnar sidan i framtiden och de är en del av delade vyer.
    1. Klicka på ikonen **Kolumner** ![Kolumner](assets/columns-icon.png) för att välja vilka kolumner som ska visas eller döljas i vyn.
    1. Håll pekaren över namnet på en kolumn, klicka sedan på nedåtpilen till vänster om kolumnnamnet och klicka sedan på något av följande:
       * **Byt namn** om du vill lägga till en **anpassad etikett** för kolumnen. Namnet på det ursprungliga fältet i Workfront ändras inte.
@@ -123,7 +127,30 @@ Mer information om hur du hanterar listvyer i Workfront finns i [Använda förb�
 
       Du kan bara lägga till befintliga fält i listvyn.
 Du kan inte ta bort det primära fältet i listvyn som visas i den första kolumnen.
+
+
+   <!--
+    1. <span class="preview">Click **Row colors** <!-insert icon and edit the name of the icon if they changed it->. The **Format** box opens. <!-change the name of the box when they update it-></span>
+        <span class="preview">Do the following: </span>
+        <div class="preview">
+        1. Define the formatting conditions in the **If** area by clicking **Add condition**, then select a field you want to format by and choose a field value. 
+            >[!TIP]
+            >
+            >Only field visible in the list view are available for conditional formatting.
+        1. (Optional) Click **Add condition** in the If area to add more conditions. 
+        1. Click the **Or** connector between conditions to change to **And**. **Or** is the default connector.  
+        1. In the **Format** area, select a field to indicate which column will be formatted. <!-edit this area, if it changes names???->
+        1. Click on the color circle to expand and choose another color.
+        1. Turn on the **Apply to row** setting to apply the formatting to the entire row that meets the conditions. 
+        1. (Optional) Click **Clear all** to remove all formatting.
+            The formatting is applies immediately.
+        1. Click outside the **Format** box to close it. 
+            This returns you to the list view. There is a blue dot next to the **Row colors** icon to indicate that the view has special formatting applied. <!-might need to edit the icon name and get a screen shot of the icon with the dot and insert it here->
+        </div>
+    -->
+
 1. (Valfritt) Lägg till ett nyckelord i sökrutan i det övre högra hörnet av listan för att söka efter ett objekt.
+
 
    Objekt som matchar söktermen markeras i listan.
 1. (Valfritt) Gör något av följande om du vill lägga till fler objekt i listan och automatiskt koppla dem till den valda posten:
