@@ -161,7 +161,7 @@ När du ändrar ditt språkområde för e-post för användare ändrar du språk
 
 >[!NOTE]
 >
->När din organisation använder Adobe Unified Experience lagras språkinställningarna i din Adobe-profil och e-postspråkinställningen används inte. Se [Ändra Adobe Experience Cloud ](#change-the-adobe-experience-cloud-language) i den här artikeln.
+>När din organisation använder Adobe Unified Experience lagras språkinställningarna i din Adobe-profil och e-postspråkinställningen används inte. Se [Ändra Adobe Experience Cloud &#x200B;](#change-the-adobe-experience-cloud-language) i den här artikeln.
 
 Så här ändrar du din e-postadress för användare:
 
