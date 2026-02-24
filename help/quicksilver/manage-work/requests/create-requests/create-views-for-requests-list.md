@@ -5,16 +5,24 @@ title: Skapa och hantera vyer i området Förfrågningar
 description: Om du använder den nya begärandefunktionen kan du skapa och spara vyer för området Förfrågningar.
 author: Becky
 feature: Work Management
-source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
+exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
+source-git-commit: 8db8382d63d06c23f93a74a326ddb0e1227f44c8
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
 
+
 # Skapa och hantera vyer i området Förfrågningar
 
-Om du använder den nya begärandefunktionen kan du skapa och spara vyer för området Förfrågningar. De här vyerna innehåller filter och kolumnupplägg.
+<!--
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
+-->
+
+Om du använder den nya begärandefunktionen kan du skapa och spara vyer för området Förfrågningar. De här vyerna innehåller filter och kolumnupplägg. <!--<span class="preview"> and groupings.</span> -->
 
 Vyer kan skapas och hanteras under Begäranden i Workfront.
 
@@ -58,7 +66,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 +++
 
-## Skapa en vy i området Förfrågningar
+## Skapa en vy för begäranden
 
 Du kan skapa en vy under Förfrågningar i Workfront.
 
@@ -73,7 +81,7 @@ Du kan skapa en vy under Förfrågningar i Workfront.
 1. Ange ett namn för den nya vyn och klicka på **Skapa**.
 1. Fortsätt till [Redigera en vy i området Förfrågningar](#edit-a-view-in-the-requests-area).
 
-## Redigera en vy i området Förfrågningar
+## Redigera en vy för begäranden
 
 Du kan redigera befintliga vyer, inklusive vyer som du just har skapat.
 
@@ -110,6 +118,10 @@ Du kan redigera befintliga vyer, inklusive vyer som du just har skapat.
 Begärandelistan filtreras automatiskt när du lägger till filtervillkoren.
 
 
+<!--
+1. <Span class="preview">(Optional) Click **Group** and select the column that you want to group by.</span>
+
+-->
 
 >[!IMPORTANT]
 >
@@ -136,4 +148,3 @@ Du kan dela vyer som du skapar med andra användare, team eller grupper.
 1. Välj **Dela**.
 1. I den dialogruta som öppnas anger du namnen på de användare, team eller grupper som du vill dela vyn med och markerar dem sedan i listan när de visas.
 1. Klicka på **Spara**.
-
