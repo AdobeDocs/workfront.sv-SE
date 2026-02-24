@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: 0f2923851230e830eb647d422f2862a0c5d5472b
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1468'
 ht-degree: 0%
 
 ---
@@ -63,21 +63,11 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 {{step-1-to-setup}}
 
 1. Klicka på **Åtkomstnivåer** i den vänstra panelen.
-1. &#x200B;
-   * I produktionsmiljön:
-Välj den åtkomstnivå som du vill kopiera och anpassa och klicka sedan på **Kopiera**.
+1. Välj den åtkomstnivå som du vill kopiera och anpassa och klicka sedan på ikonen **Kopiera** ![Kopiera](assets/copy-icon.png) .
 
-     eller
+   eller
 
-     Om du redigerar en befintlig åtkomstnivå (som du kopierat tidigare) klickar du på dess namn.
-
-   * <span class="preview">I förhandsvisningsmiljön:</span>
-
-     <span class="preview">Välj den åtkomstnivå som du vill kopiera och anpassa och klicka sedan på ikonen **Kopiera** ![Kopiera &#x200B;](assets/copy-icon.png) . </span>
-
-     <span class="preview">eller </span>
-
-     <span class="preview">Om du redigerar en befintlig åtkomstnivå väljer du åtkomstnivå genom att klicka i rutan till vänster om åtkomstnivån och klickar sedan på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) . </span>
+   Om du redigerar en befintlig åtkomstnivå markerar du åtkomstnivån genom att klicka i rutan till vänster om åtkomstnivån och klickar sedan på ikonen **Redigera** ![Redigera](assets/edit-icon.png) .
 
 1. I rutan som visas gör du något av följande för att börja konfigurera den anpassade åtkomstnivån:
 
