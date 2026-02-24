@@ -413,7 +413,7 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
    >* **UNIQUE**: $100 000
    >
 
-1. (Valfritt) Använd ikonen **sök** ![Sök ](assets/search-icon.png) för att söka efter ett fält.
+1. (Valfritt) Använd ikonen **sök** ![Sök &#x200B;](assets/search-icon.png) för att söka efter ett fält.
 
 1. Klicka på **Lägg till fält** för att spara ändringarna.
 
