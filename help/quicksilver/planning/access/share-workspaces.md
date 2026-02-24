@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
+source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '898'
 ht-degree: 0%
 
 ---
@@ -147,11 +147,32 @@ Så här delar du en arbetsyta med andra:
 
 {{step1-to-planning}}
 
-1. Öppna arbetsytan som du vill dela och klicka sedan på **Dela** i skärmens övre högra hörn.
+1. Öppna arbetsytan som du vill dela och klicka sedan på **Dela** i skärmens övre högra hörn. Rutan Delning öppnas.
 
    ![Knappen Dela på arbetsytan längst upp till höger](assets/share-button-on-workspace-top-right.png)
 
-1. I fältet **Bevilja åtkomst till den här arbetsytan** börjar du skriva namnet på en användare, grupp, team, företag eller jobbroll och klickar sedan på den när den visas i listan.
+
+   <!--For Feb 26:1. <span class="preview">(Conditional) Depending on your access level, the following scenarios exist: </span>
+
+      * <span class="preview">If you are a System Administrator, select from the following options:</span>
+
+         <div class="preview">
+
+         * **Only invited people can access**: You must select entities in the sharing box and choose their access to the workspace. This is the default selection. 
+         * **Everyone in the system can view**: Everyone in the system with access to Planning can view the workspace in their **Workspaces** area in Planning.
+         
+         </div> 
+         
+      * <span class="preview">If you are a workspace manager with a Standard license, you can see one of the following selections but you cannot change them:</span>
+
+         <div class="preview">
+         
+         * **Only invited people can access**
+         * **Everyone in the system can view**
+         
+         </div>-->
+
+1. I fältet **Bevilja åtkomst till den här arbetsytan** börjar du skriva namnet på en användare, grupp, team, företag eller jobbroll och klickar sedan på den när den visas i listan. <!--update screen shot at the release of system-wide permissions for workspaces-->
 
    ![Dela användargränssnitt med grupper](assets/sharing-ui-with-groups.png)
 
@@ -160,7 +181,6 @@ Så här delar du en arbetsyta med andra:
    >* Förutom team, grupper, företag och jobbroller kan du bara dela med användare som har lagts till i Adobe Admin Console. Du kan inte lägga till användare med endast Workfront. Mer information finns i [Hantera användare i Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
    >
    >* När du delar en arbetsyta med en användare visas även deras primära jobbroll <span class="preview"> och deras e-postadress</span> i fältet. Du måste ha inställningen Visa kontaktinformation aktiverad för objektet Användare på din åtkomstnivå för att kunna se användarens e-post.
-
 
 1. Välj någon av följande behörighetsnivåer i listrutan:
    * Visa

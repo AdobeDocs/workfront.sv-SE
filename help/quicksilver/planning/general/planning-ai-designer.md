@@ -6,7 +6,7 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
-source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
+source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 0%
@@ -137,6 +137,8 @@ Du kan använda Planning Designer eller AI Assistant för att utföra följande 
 
 * Skapa och konfigurera arbetsytor
 
+<!--On March 2: * Edit workspaces-->
+
 * Skapa posttyper, inklusive definiera och lägga till globala posttyper på arbetsytor
 
 * Designfält eller formelfält
@@ -178,7 +180,7 @@ Du kan skapa eller uppdatera objekt i Workfront Planning antingen med Planning D
 
    ![Designa med AI-knapp på sidan Arbetsytor](assets/design-with-ai-button-on-workspaces-page.png)
 
-1. Klicka på **Skapa med AI**. <!--update this when they change it-->
+1. Klicka på **Skapa med AI**. <!--update this when they change it to Generate with AI-->
 
    Fönstret **Planerar Designer** öppnas. <!--remove the Beta tag here when this removes from Beta-->
 
@@ -225,6 +227,12 @@ Du kan skapa eller uppdatera objekt i Workfront Planning antingen med Planning D
 1. Klicka på arbetsytan **Öppna i ny flikikon** ![Öppna arbetsytan i en ny flikikon](assets/open-workspace-on-new-tab-icon.png) för att öppna arbetsytan som du uppdaterar på en ny flik.
 1. Klicka på ikonen **Stäng** **X** för att stänga Planering Designer och öppna arbetsytan.
 1. Öppna arbetsytan som du redigerade med Planning Designer och gör ytterligare ändringar i objekten.
+
+<!-- for March 2 -- replace the last step with this: 
+1. (Optional) To edit a workspace, do one of the following:
+
+    * Open the workspace and manually make changes to it. For information, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md). 
+    * Click **Edit with AI**. This opens the Planning Designer. Repeat the steps above to use AI and make further changes to the workspace.-->
 
 ## Inaktivera Planering av Designer för din organisation
 

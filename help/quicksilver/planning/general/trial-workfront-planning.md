@@ -4,7 +4,7 @@ description: Adobe Workfront erbjuder en 60-dagars kostnadsfri testversion av Ad
 hidefromtoc: true
 hide: true
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
-source-git-commit: 6863bc640eb401042797cfd47872fb658a2fbbae
+source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
 workflow-type: tm+mt
 source-wordcount: '1490'
 ht-degree: 0%
@@ -247,7 +247,7 @@ You can review sample Planning workspaces and their objects as well as create yo
     >
     >Standard license users can create workspaces that will display in the **Workspaces** area.
 
-1. Click **Generate with AI** to let the AI Assistant build a workspace for you, based on your specifications.
+1. Click **Generate with AI** to let the AI Assistant build a workspace for you, based on your specifications. (**********have they changed the button to Generate or is it Create???*********)
 
     For information, see [Get started with the Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
 
@@ -288,7 +288,14 @@ You can review sample Planning workspaces and their objects as well as create yo
         For information, see [Share views](/help/quicksilver/planning/access/share-views.md). 
 
     For additional information about how to implement Workfront Planning and how to create a center of governance for it, see the section [Additional information about Workfront Planning](#additional-information-about-workfront-planning) in this article.
+1. (Optional) To edit the workspace you created, do one of the following: 
 
+    * Open the workspace and manually make changes to it. 
+    
+        For information, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md). 
+    * Click **Edit with AI** next to the workspace name to open the **Planning Designer** and use AI to make further changes to the workspace. 
+
+        For information, see [Get started with the Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
 1. (Optional) To remove the Planning area from the Main Menu for users, customize the the Layout Templates assigned to the users and remove it from the **Set Main Menu** area of the Layout Template. 
 
     For information, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
