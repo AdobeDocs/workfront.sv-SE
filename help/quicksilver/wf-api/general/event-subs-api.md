@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 0fd415767680d877c9dd1de448f7903e6616d155
+source-git-commit: 159c3b4a3627e29123afd96115e965d3bba8329c
 workflow-type: tm+mt
-source-wordcount: '3097'
+source-wordcount: '3387'
 ht-degree: 0%
 
 ---
@@ -877,7 +877,7 @@ Den här kopplingen gör att filtret tillämpas på det nya eller gamla läget f
 
 ### Använda kapslade filter
 
-Händelseabonnemang stöder filtrering i kapslade fält med händelser genom att använda kapslade fältnamn. Om du till exempel vill filtrera ett meddelande där `newState.data.customField1 = 'myCustomeFieldValue'` kan du skapa följande prenumeration med filter:
+Händelseabonnemang stöder filtrering i kapslade fält med händelser genom att använda kapslade fältnamn. Om du till exempel vill filtrera ett meddelande där `newState.data.customField1 = 'myCustomFieldValue'` kan du skapa följande prenumeration med filter:
 
 ```
 {
@@ -918,6 +918,103 @@ Dubbelt kapslade filter kan också åtgärdas.
 ],
 "filterConnector": 'AND'
 ```
+
+### Använda filtergrupper (kombinationsfilter)
+
+Evenemangsprenumerationer har stöd för filtergrupper tillsammans med standardfilter för kapslade logiska förhållanden.
+
+Med filtergrupper kan du skapa kapslade logiska villkor (AND/OR) i händelseprenumerationsfiltren.
+
+Varje filtergrupp kan ha:
+
+* Dess egen koppling: `AND` eller `OR`
+* Flera filter, där vart och ett följer samma syntax och beteende som fristående filter
+
+Alla filter i en grupp stöds:
+
+* Jämförelseoperatorer: `eq`, `ne`, `gt`, `gte`, `lt`, `lte`, `contains`, `notContains`, `containsOnly`, `changed`
+* Lägesalternativ: `newState`, `oldState`
+* Fältriktad marknadsföring: ett giltigt objektfältnamn
+
+En grupp måste innehålla minst 2 filter
+
+```
+{
+  "objCode": "TASK",
+  "eventType": "UPDATE",
+  "authToken": "token",
+  "url": "https://domain-for-subscription.com/API/endpoint/UpdatedTasks",
+  "filters": [
+    {
+      "fieldName": "percentComplete",
+      "fieldValue": "100",
+      "comparison": "lt"
+    },
+    {
+      "type": "group",
+      "connector": "OR",
+      "filters": [
+        {
+          "fieldName": "status",
+          "fieldValue": "CUR",
+          "comparison": "eq"
+        },
+        {
+          "fieldName": "priority",
+          "fieldValue": "1",
+          "comparison": "eq"
+        }
+      ]
+    }
+  ],
+  "filterConnector": "AND"
+}
+```
+
+I det här exemplet visas:
+
+
+* Filter på översta nivån (utanför gruppen):
+
+  { `fieldName`: `percentComplete`, `fieldValue`: `100`, `comparison`: `lt` }
+
+  Det här filtret kontrollerar om fältet percentComplete för den uppdaterade aktiviteten är mindre än 100.
+
+* Filtergrupp (kapslade filter med `OR`):
+
+  { &quot;`type`&quot;: &quot;`group`&quot;, &quot;`connector`&quot;: &quot;`OR`&quot;, &quot;`filters`&quot;: [{ &quot;`fieldName`&quot;: &quot;`status`&quot;, &quot;`fieldValue`&quot;: &quot;`CUR`&quot;, &quot;`comparison`&quot;: &quot;`eq`&quot; }, { &quot;`fieldName`&quot;: &quot;`priority`&quot;, &quot;`fieldValue`&quot;: `1`, `comparison`: `eq` }] }
+
+  Den här gruppen utvärderar två interna filter:
+
+   * Den första kontrollerar om aktivitetsstatusen är &quot;CUR&quot; (aktuell).
+
+   * Den andra kontrollen kontrollerar om prioriteten är lika med &quot;1&quot; (hög prioritet).
+
+  Eftersom kopplingen är &quot;OR&quot; skickas den här gruppen om något av villkoren är sant.
+
+* Koppling på översta nivån (filterConnector: `AND`):
+
+  Den yttersta kopplingen mellan toppnivåfiltren är `AND`.
+
+  Det innebär att både det översta filtret och gruppen måste skickas för att händelsen ska matcha.
+
+* Prenumerationen utlöses när:
+
+  percentComplete är mindre än 100
+
+  OCH
+
+  Antingen är statusen &quot;CUR&quot; ELLER så är prioriteten &quot;1&quot;.
+
+#### Prestanda och begränsningar
+
+För att säkerställa konsekventa prestanda och underhåll:
+
+* Varje prenumeration stöder upp till 10 filtergrupper (där varje grupp innehåller flera filter).
+* Varje filtergrupp kan innehålla upp till 5 filter för att förhindra eventuell prestandaförsämring under händelsebearbetning.
+* Det finns stöd för upp till 10 filtergrupper (var och en med 5 filter), men observera att ett stort antal aktiva prenumerationer med komplex filterlogik kan resultera i en fördröjning under händelseutvärderingen.
+
+Om du anser att du överskrider dessa gränser bör du förenkla din logik eller dela upp prenumerationen i flera mindre.
 
 ### Använda kopplingsfält
 

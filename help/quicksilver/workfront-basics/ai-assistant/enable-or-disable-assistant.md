@@ -5,9 +5,9 @@ description: Du kan styra vilka åtkomstnivåer i organisationen som har tillgå
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e8e10f02f77f6c1df9f0af380eb16cc6bbc3b5d1
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 # Aktivera eller inaktivera AI Assistant
 
 Som Workfront-administratör kan du styra vilka användare i organisationen som har AI Assistant aktiverat. Detta hanteras via åtkomstnivåer.
+
+Du måste aktivera AI-assistenten för din organisation innan du kan aktivera den för en åtkomstnivå.
 
 ## Åtkomstkrav
 
@@ -44,7 +46,22 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 +++
 
-## Aktivera eller inaktivera AI-assistenten i Workfront
+## Aktivera eller inaktivera AI-assistenten för din organisation
+
+Så här aktiverar du AI-assistenten för din organisation:
+
+{{step-1-to-setup}}
+
+1. Välj **System** i den vänstra navigeringen och välj sedan **Inställningar**.
+1. Bläddra ned till avsnittet **AI-inställningar**.
+1. Aktivera alternativet **Aktivera AI**.
+
+>[!IMPORTANT]
+>
+>Du måste ha ett signerat Gen AI-avtal med Adobe innan du kan använda AI Assistant.
+>Mer information om Gen AI-avtalet finns i [Signera Adobe Gen AI-avtalet](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) i artikeln AI Assistant i Workfront.
+
+## Aktivera eller inaktivera AI-assistenten för en åtkomstnivå
 
 Så här aktiverar du AI-assistenten för en given åtkomstnivå:
 
