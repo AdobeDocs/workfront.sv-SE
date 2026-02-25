@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
+source-git-commit: bddf24f667f0538786caf0b19af75d0adf99da91
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 0%
@@ -151,18 +151,20 @@ Så här delar du en arbetsyta med andra:
 
    ![Knappen Dela på arbetsytan längst upp till höger](assets/share-button-on-workspace-top-right.png)
 
+   <!--only for March 4: * <span class="preview">(Conditional) Depending on your access level, the following scenarios exist: </span>-->
 
-   <!--For Feb 26:1. <span class="preview">(Conditional) Depending on your access level, the following scenarios exist: </span>
-
-      * <span class="preview">If you are a System Administrator, select from the following options:</span>
+   <!--For Feb 26:
+   1. <span class="preview">(Conditional) If you are a System Administrator, select from the following options:</span>
 
          <div class="preview">
 
          * **Only invited people can access**: You must select entities in the sharing box and choose their access to the workspace. This is the default selection. 
          * **Everyone in the system can view**: Everyone in the system with access to Planning can view the workspace in their **Workspaces** area in Planning.
          
-         </div> 
-         
+         </div> -->
+
+   <!--only  for March 4:
+
       * <span class="preview">If you are a workspace manager with a Standard license, you can see one of the following selections but you cannot change them:</span>
 
          <div class="preview">
