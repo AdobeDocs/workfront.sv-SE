@@ -4,9 +4,10 @@ description: Andra förbättringar under tidsramen för den första utgåvan i k
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d3db97d2b36bdba955d8cbf6a9bd784dff5a440c
+exl-id: 42fe3f53-6f83-4769-aaa6-953875cdfb7d
+source-git-commit: 58a04a3c2eb9d0db195f89391e607c3061f2d784
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,12 @@ ht-degree: 0%
 Den här sidan beskriver förbättringar som gjorts i den första utgåvan av kvartal 2026 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den första utgåvan av kvartal 2026 finns i [Översikt över utgåvan första kvartalet 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Evenemangsprenumerationer har nu stöd för filterblockeringar
+
+Evenemangsprenumerationer har nu stöd för filtergrupper tillsammans med fristående filter för kapslade logiska förhållanden. De offentliga dokumenten måste uppdateras för att återspegla de nya ändringarna.
+
+Mer information finns i [Använda filtergrupper](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups) i artikeln Event subscriptions API.
 
 
 ## Urvalsgränser för flervalsfält
