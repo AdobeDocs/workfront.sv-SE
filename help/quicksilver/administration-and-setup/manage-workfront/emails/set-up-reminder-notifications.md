@@ -5,9 +5,9 @@ author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
+source-git-commit: bb9ccfa61fa1a8ef41b0e873d5aa6313803c636d
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,8 @@ Mer information om hur du skapar en e-postmall finns i [Konfigurera e-postmallar
         <ul> 
          <li> <p>Påminnelsemeddelanden börjar 24 timmar efter det angivna datumet och när alla villkor är uppfyllda.</p> </li> 
          <li> <p>Påminnelsemeddelanden för projekt, uppgifter och utgåvor som utlöses varje kväll vid midnatt i USA Mountain Time. Alla objekt som är berättigade till ett påminnelsemeddelande från den dagen utlöser ett meddelande till de avsedda användarna kort efter den tidpunkten.</p> </li> 
-         <li> <p>Påminnelsemeddelanden för tidrapporter skickas vid den angivna tidpunkten baserat på din tidszon och tidrapportens slutdatum, startdatum eller senaste uppdateringsdatum.</p> </li> 
+         <li> <p>Påminnelser om tidrapporter baseras på organisationens tidszon och tidrapportets slutdatum, startdatum eller senaste uppdateringsdatum. Tidszoner för enskilda användare påverkar inte tidpunkten för påminnelsemeddelanden.</p> 
+      </li> 
         </ul> </p> </td> 
      </tr> 
      <tr> 
