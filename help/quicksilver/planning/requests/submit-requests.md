@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: b55cb2df33ebba0d61d4254f17a49f92b7d6553e
 workflow-type: tm+mt
-source-wordcount: '2200'
+source-wordcount: '2252'
 ht-degree: 0%
 
 ---
@@ -154,6 +154,9 @@ Om du aktiverar den här inställningen blir Workfront Planning-förfrågningsfo
 
    Ett fönster öppnas med det efterfrågade formulärnamnet överst.
 1. Uppdatera fälten som är tillgängliga i begärandeformuläret. Fält med en röd asterisk är obligatoriska.
+1. (Villkorligt) Om din organisation tillåter formulärifyllning som drivs av AI kan du överföra dokument när du uppmanas till det. AI använder dessa dokument för att fylla i formuläret, och du kan acceptera eller avvisa AI-förslagen.
+
+   Instruktioner finns i [Använd formulärfyllning från AI för att fylla i en begäran med hjälp av uppmaningar eller dokument](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 1. Klicka på **Skicka**.
 
    Begärandeformuläret stängs och du återgår till området **Begäranden**.

@@ -5,9 +5,9 @@ description: Du kan använda AI för att autofylla begärandefält genom att ang
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 8dc094718999af291443bd1a703cdc742d13f57e
+source-git-commit: b55cb2df33ebba0d61d4254f17a49f92b7d6553e
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1391'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 >Om du vill använda den här funktionen måste din organisation uppfylla kraven för att kunna använda Workfront AI Assistant. Mer information finns i [Förutsättningar för AI-assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
 AI-formulärfyllning kan hjälpa dig att fylla i begärandefält automatiskt baserat på en uppmaning du anger. Det kan även fylla i fält som är baserade på text som e-post är överförda dokument. Du kan godkänna eller avvisa dessa förslag innan du skickar in begäran.
+
+Den här funktionen är tillgänglig när du skapar en begäran i området Workfront Requests och i Workfront Planning.
 
 ## Åtkomstkrav
 
