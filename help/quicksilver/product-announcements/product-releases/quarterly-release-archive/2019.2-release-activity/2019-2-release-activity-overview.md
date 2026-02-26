@@ -2,21 +2,21 @@
 content-type: release-notes
 navigation-topic: 2019-2-release-activity
 title: Aktivitetsöversikt för 2019.2-utgåvan
-description: Den här sidan innehåller information om de funktioner som ingår i version 2019.2. Om du vill hämta det här innehållet i PDF-format går du hit.
+description: Den här sidan innehåller information om de funktioner som ingår i version 2019.2. Om du vill ladda ned det här innehållet i PDF-format går du hit.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: baa50860-e23a-4be8-8192-f0400099294f
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 255b4b83b6d1d37bb6ffff975f1b1f44130170bc
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
 
 # Aktivitetsöversikt för 2019.2-utgåvan
 
-Den här sidan innehåller information om de funktioner som ingår i version 2019.2. Om du vill hämta det här innehållet i PDF-format går du [här](https://documentation.my.workfront.com/library/a/6626eb71-16b2-4460-bd81-9adcd4953eb5).
+Den här sidan innehåller information om de funktioner som ingår i version 2019.2.<!-- To download this content in PDF format, go [here](https://documentation.my.workfront.com/library/a/6626eb71-16b2-4460-bd81-9adcd4953eb5).-->
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ Version 2019.2 innehåller förbättringar för både systemadministratörer och
   Nu finns det en ny åtkomstnivå för Resurshantering, som tillåter användare med en planlicens att redigera åtkomst.
 
 
-* [Beställa projekt efter Portfolio i resursplaneraren](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-resource-management-enhancements.md#order)
+* [Beställa projekt efter Portfolio-prioritet i resursplaneraren](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-resource-management-enhancements.md#order)
 
   Nu kan du beställa projekt efter deras portföljprioritet i resursplaneraren.
 
@@ -55,7 +55,7 @@ Version 2019.2 innehåller förbättringar för både systemadministratörer och
 
   Filtreringsfunktionen i resursplaneraren är nu enklare när du lägger till ett nytt fält (Grupp) i de inbyggda filtervillkoren.
 
-* [Visa Portfolio-prioritet i resursplaneringen](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-resource-management-enhancements.md#resource)
+* [Visa Portfolio-prioritet i resursplaneraren](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-resource-management-enhancements.md#resource)
 
   Du kan nu aktivera en inställning i Resursplanering som gör att du kan visa prioriteten för projektet enligt den portfölj som det är tilldelat till.
 
@@ -136,7 +136,7 @@ Version 2019.2 innehåller förbättringar för både systemadministratörer och
 * [Workfront Library är nu tillgängligt](#workfront-library-now-available)
 * [API-version 3 stöds inte längre](#api-version-3-no-longer-supported)
 * [TLS-stödet upphör](#tls-support-is-ending)
-* [Borttagning av Flash-program](#flash-application-removal)
+* [Ta bort Flash-program](#flash-application-removal)
 * [Olika alternativ för enkel inloggning som ska tas bort](#various-single-sign-on-options-to-be-removed)
 
 ### Workfront Library är nu tillgängligt {#workfront-library-now-available}
@@ -153,11 +153,11 @@ För att garantera optimal säkerhet kräver Workfront att alla integreringar oc
 
 Mer information finns i [TLS 1.2 krävs i Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md).
 
-### Borttagning av Flash {#flash-application-removal}
+### Borttagning av Flash-program {#flash-application-removal}
 
-Alla funktioner som bygger på Flash har tagits bort från Workfront sedan version 2018.3 och ersatts med en ny lösning.
+Alla funktioner som bygger på Flash-teknik har tagits bort från Workfront sedan version 2018.3 och ersatts med en ny lösning.
 
-Mer information om de äldre verktygen för Flash och deras ersättningar finns i [Ersättning av verktyg baserade på Flash i Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Mer information om de äldre Flash-verktygen och deras ersättningar finns i [Ersättning av Flash-baserade verktyg i Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 
 ### Olika alternativ för enkel inloggning som ska tas bort {#various-single-sign-on-options-to-be-removed}
 

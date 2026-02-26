@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: e716869407ff88b090b223708c688c7ed0da3e8e
+source-git-commit: 860bd4bef75a90f4e1c5a21f38de95962804c00c
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,12 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 ## Komprimera eget formuläravsnitt som standard
 
+>[!NOTE]
+>
+>Förhandsgranska: 26 februari 2026
+>Production fast release: 12 mars 2026
+>Produktion för alla: 16 april 2026
+
 Som standard expanderas alla avsnitt i ett anpassat formulär när själva formuläret expanderas. Med ett nytt alternativ i den anpassade formulärdesignern kan du markera ett avsnitt som ska komprimeras som standard när en användare öppnar formuläret. Det här alternativet används på avsnittsnivå, inte på fält.
 
 Mer information finns i [Ordna och förhandsgranska ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
@@ -29,7 +35,7 @@ Mer information finns i [Ordna och förhandsgranska ett formulär](/help/quicksi
 >[!NOTE]
 >
 >Förhandsgranska: 29 januari 2026
->Snabb produktion: TBD
+>Production fast release: 12 februari 2026
 >Produktion för alla: TBD
 >
 >Den här funktionen har tillfälligt tagits bort från produktionsmiljön den 13 februari 2026.

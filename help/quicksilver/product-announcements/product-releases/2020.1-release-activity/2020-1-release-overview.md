@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4162cfb7-d5e1-4152-857a-fc4a6eb09cd7
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 255b4b83b6d1d37bb6ffff975f1b1f44130170bc
 workflow-type: tm+mt
-source-wordcount: '2566'
+source-wordcount: '2556'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Den här sidan innehåller information om de funktioner som ingår i version 202
 
 Dessa förbättringar är för närvarande tillgängliga i förhandsvisningsmiljön och kommer att vara tillgängliga i produktionsmiljön den 30 mars 2020.
 
-Gå [här](https://documentation.my.workfront.com/library/a/9f5c9e44-c9a9-4f33-beec-9e5dc2e0fdc2) om du vill hämta den här sidan i PDF-format.
+<!--To download this page in PDF format, go [here](https://documentation.my.workfront.com/library/a/9f5c9e44-c9a9-4f33-beec-9e5dc2e0fdc2).-->
 
 Vissa funktioner släpptes före version 2020.1. Om du vill se vad som släpptes före version 2020.1 ska du läsa [Andra Workfront Classic-funktioner som släpptes i Production före version 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/prior-to-2020-1.md).
 
@@ -331,7 +331,7 @@ Resursplaneringsverktygen har samma funktioner som den gamla funktionen Arbeta m
 >Resursplaneringen har tagits bort och ersatts från Workfront.
 
 
-## Workfront Maintenance Updates
+## Underhållsuppdateringar för Workfront
 
 Mer information om underhållsuppdateringar som gjordes i version 2020.1 finns i [Workfront Maintenance Updates](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 
@@ -358,7 +358,7 @@ Mer information finns i [Konfigurera brandväggens tillåtelselista](../../../ad
 
 Med Workfront One hittar du det viktigaste innehållet, resurserna och nyheterna från Workfront - allt på ett och samma ställe, med en enda inloggning. Vi har samlat webbplatserna för upplevelser, community och utbildning, vilket gör det enklare att hitta det du söker.
 
-[Läs mer om Workfront One](https://business.adobe.com/se/products/workfront.html).
+[Läs mer om Workfront One](https://business.adobe.com/products/workfront.html).
 
 ### 2020.1 Release Webinar {#2020-1-release-webinar}
 
@@ -366,7 +366,7 @@ Se inspelningen av webbinariet 2020.1 här.
 
 ### Q1 Product Roadmap Webinar {#q1-product-roadmap-webinar}
 
-Läs mer om vad som kommer att hända under [Q1 Roadmap-webbinariet](https://webinars.on24.com/workfront/product_roadmap032620?partnerref=announcementcenter). Det här webbinariet kommer att hållas den 26 mars 2020 kl. 9.00. MT. Klicka på länken för att registrera
+Läs mer om vad som kommer att hända under [Q1 Roadmap-webbinariet](https://webinars.on24.com/workfront/product_roadmap032620?partnerref=announcementcenter). Det här webbinariet kommer att hållas den 26 mars 2020 kl. 9:00a. MT. Klicka på länken för att registrera
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
