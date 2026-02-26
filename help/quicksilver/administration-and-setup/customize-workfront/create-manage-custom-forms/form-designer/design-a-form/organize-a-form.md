@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: 796c7e0a15a7a26c5cd3f0115d72946f0f28bcf2
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1353'
 ht-degree: 0%
 
 ---
 
 # Ordna och förhandsgranska ett formulär
+
+{{preview-fast-release-general}}
 
 Du kan ordna ett anpassat formulär med formulärdesignern och förhandsgranska det för att kontrollera att det är korrekt konfigurerat.
 
@@ -81,6 +83,10 @@ Mer information om anpassade fält och widgetar i anpassade formulär finns i [S
       <td role="rowheader">Beskrivning</td> 
       <td>Skriv text om du vill förklara för användarna vad avsnittet är till för. Detta visas under avsnittets etikett i det anpassade formuläret.</td> 
      </tr> 
+      <td><span class="preview">Komprimerad som standard</span></td>
+      <td><span class="preview">Som standard expanderas alla avsnitt i ett anpassat formulär när själva formuläret expanderas. Välj det här alternativet om du vill att avsnittet ska komprimeras som standard när en användare öppnar formuläret.</span></td>
+     <tr>
+     </tr>
      <tr> 
       <td role="rowheader"> <p>Ge åtkomst</p> </td> 
       <td> <p> Markera de behörigheter som användare behöver för ett objekt där det anpassade formuläret är kopplat för att visa det här avsnittet och redigera fältvärdena. 
