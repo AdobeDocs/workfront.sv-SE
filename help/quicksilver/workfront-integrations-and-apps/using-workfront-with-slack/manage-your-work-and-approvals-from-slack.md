@@ -6,9 +6,9 @@ description: Du kan öppna din hemarbetslista, granska och godkänna att arbeta 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 802a2f16-d827-455e-9e49-f58f4c5fc482
-source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
+source-git-commit: e6f61cdde9e8ad14a9226de4cc61fbcdcb6f839b
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '894'
 ht-degree: 0%
 
 ---
@@ -157,6 +157,8 @@ Innan du kan hantera ditt arbete och dina godkännanden från [!DNL Slack] måst
    Knappen [!UICONTROL Work on it] försvinner.
 
 ## Hantera dina godkännanden från [!DNL Slack] {#manage-your-approvals-from-slack}
+
+Godkännanden avser godkännanden av äldre dokument. Enhetliga dokumentgodkännanden stöds för närvarande inte i [!DNL Microsoft Teams]. Mer information om de olika godkännandesystemen i Workfront finns i [Tillgänglig funktion för dokumentgodkännanden](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md).
 
 1. Logga in på din [!DNL Slack]-instans och logga in på [!DNL Workfront] från [!DNL Slack].\
    Mer information om hur du loggar in på [!DNL Workfront] från [!DNL Slack] finns i avsnittet Logga in på [!DNL Workfront] från [!DNL Slack] i [Åtkomst [!DNL Adobe Workfront] från [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).

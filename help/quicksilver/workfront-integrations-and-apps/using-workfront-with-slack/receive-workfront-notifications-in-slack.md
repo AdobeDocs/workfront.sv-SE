@@ -6,9 +6,9 @@ description: Ta emot [!DNL Adobe Workfront] meddelanden i [!DNL Slack]
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: bc1ce4ea-58be-4cd7-ab59-7dddb82949b9
-source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
+source-git-commit: e6f61cdde9e8ad14a9226de4cc61fbcdcb6f839b
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
@@ -76,6 +76,12 @@ Innan du kan ta emot [!DNL Workfront] meddelanden i [!DNL Slack] måste du
    * [!UICONTROL I'm assigned to a new task or issue]
    * [!UICONTROL My team is assigned to a new task or issue]
    * [!UICONTROL I receive a new approval or access request]
+
+     >[!NOTE]
+     >
+     >Godkännanden avser godkännanden av äldre dokument. Enhetliga dokumentgodkännanden stöds för närvarande inte i [!DNL Slack]. Mer information om de olika godkännandesystemen i Workfront finns i [Tillgänglig funktion för dokumentgodkännanden](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md).
+
+
    * [!UICONTROL Someone includes me on a directed update]
    * [!UICONTROL Someone comments on a thread I'm in]
    * [!UICONTROL An update is made to a task, issue or project I am subscribed to]
