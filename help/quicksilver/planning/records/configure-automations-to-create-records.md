@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
-source-git-commit: bddf24f667f0538786caf0b19af75d0adf99da91
+source-git-commit: f28d2eef57f63cede3a08b06053e8dc6431f21d4
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1777'
 ht-degree: 0%
 
 ---
 
 # Konfigurera automatisering av Adobe Workfront Planning
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 <!--add screen shots when UI is finalized AND redo all the steps - some things got changed and moved around-->
 
@@ -142,7 +142,7 @@ Du måste konfigurera en automatisering för en posttyp i Workfront Planning inn
 1. Klicka på ett posttypskort och klicka sedan på namnet på en post.
 
    Posttypssidan öppnas.
-1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn och klicka sedan på **Hantera automatisering**.
+1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn och klicka sedan på **Hantera automatisering**.
 
    En lista över tillgängliga automatiseringar för den valda posttypen öppnas.
 
@@ -159,42 +159,37 @@ Sidan med information om automatisering öppnas.
    * **Utlösare**: Välj en åtgärd som ska utlösa automatiseringen:
 
       * Knappklicka
-        <!--For Feb 26 and add Preview disclaimer at the top: * <span class="preview">Field value change</span>-->
+      * <span class="preview">Fältvärdeändring</span>
 
-   <!-- For Feb 26:
-   1. (Conditional) If you selected **Button click**, go to the step below that describes the **Actions** area. 
+   1. (Villkorligt) Om du valde **Knappklicka** går du till steget nedan som beskriver **åtgärdsområdet**.
 
-   1. <span class="preview">(Conditional) If you selected **Field value change**, do the following in the **Settings** section: </span>
+   1. <span class="preview">(Villkorligt) Om du valde **Ändra fältvärde** gör du följande i avsnittet **Inställningar**: </span>
 
-      1. <span class="preview">Choose a field from the drop-down menu. These are fields associated with the record type you selected.</span> 
-      1. <span class="preview">Continue defining conditions for the selected field.</span>
-      1. <span class="preview">Click **Add condition** to add up to 5 fields and define their condition.</span>
+      1. <span class="preview">Välj ett fält i listrutan. Detta är fält som är associerade med den posttyp du valde.</span>
+      1. <span class="preview">Fortsätt att definiera villkor för det markerade fältet.</span>
+      1. <span class="preview">Klicka på **Lägg till villkor** om du vill lägga till upp till 5 fält och definiera deras villkor.</span>
 
-         <span class="preview">You can add any of the following types of fields:</span> 
+         <span class="preview">Du kan lägga till följande typer av fält:</span>
 
          <div class="preview">
 
-         * Single-select
-         * Multi-select
-         * Single-line text
-         * Paragraph
-         * Number
-         * Checkbox
-         * Date
-         
+         * Enkelval
+         * Flera val
+         * Enkelradig text
+         * Stycke
+         * Nummer
+         * Kryssruta
+         * Datum
+
          </div>
 
-         <span class="preview">Workfront Planning will create objects automatically when the conditions are met. </span>
+         <span class="preview">Workfront Planning skapar objekt automatiskt när villkoren uppfylls. </span>
 
-         ![Field value change trigger selected](assets/field-value-change-trigger-selected.png)
+         ![Utlösaren för ändring av fältvärde har valts](assets/field-value-change-trigger-selected.png)
 
          >[!TIP]
          >
-         ><span class="preview">The modifier in each condition changes with the type of fields you select.</span>
-         >
-         
-   
-   -->
+         ><span class="preview">Modifieraren i varje villkor ändras med den typ av fält som du väljer.</span>
 
 1. Uppdatera följande fält i avsnittet **Åtgärder**: <!--submitted bugs for these fields - see if they need changing here-->
    * **Åtgärder**: Välj den åtgärd som du vill att Workfront ska utföra när automatiseringen aktiveras. Detta är ett obligatoriskt fält.
@@ -297,7 +292,7 @@ Uppdatera följande information i området **Kartfält**:
 1. Klicka på ett posttypskort och klicka sedan på namnet på en post.
 
    Posttypssidan öppnas.
-1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn och klicka sedan på **Hantera automatisering**.
+1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn och klicka sedan på **Hantera automatisering**.
 
    En lista över tillgängliga automatiseringar för den valda posttypen öppnas.
 
@@ -307,7 +302,7 @@ Uppdatera följande information i området **Kartfält**:
 
    1. Klicka på **Redigera** för att uppdatera följande information:
 
-      * Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om automatiseringsnamnet och klicka sedan på **Redigera** för att ändra namnet på automatiseringen.
+      * Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om automatiseringsnamnet och klicka sedan på **Redigera** för att ändra namnet på automatiseringen.
       * Alla fält i automatiseringen, förutom fältet **Åtgärder**.
 
         >[!TIP]

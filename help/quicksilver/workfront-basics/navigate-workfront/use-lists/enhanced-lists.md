@@ -5,9 +5,9 @@ description: De förbättrade listorna har ett tabellformat för att visa listob
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: 2b01a9b4c697ae814ff894120fcc61df1a461e4e
+source-git-commit: 8e2f41f18b57aca77fd6af905ff8e04486879e39
 workflow-type: tm+mt
-source-wordcount: '2342'
+source-wordcount: '2315'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,8 @@ Nedan visas några typer av Workfront-objektlistor som använder det förbättra
 | Prioriteringar | <ul><li>Hem > välj ikonen Prioriteter i den vänstra menyn</li><li>Huvudmeny > Prioriteter</li></ul> |
 | Lista över begäranden | <ul><li>Begäranden (endast ny upplevelse)</li><li>Widgeten Mina förfrågningar på startsidan</li></ul> |
 | Statuslistor, prioriteter, allvarlighetsgrader och valutakurser i installationsprogrammet | <ul><li>Inställningar > Projektinställningar > Status</li><li>Inställningar > Projektinställningar > Prioriteter</li><li>Inställningar > Projektinställningar > Allvarlighetsgrader</li><li>Inställningar > Projektinställningar > Exchange-priser</li></ul> |
-| <span class="preview">Lista över rapporter</span> | <span class="preview">Huvudmeny > Rapporter</span> <p><span class="preview">Det utökade listformatet används bara när **Använd delningsbara mappar** är aktiverat. Mer information finns i [Använd delningsbara rapportmappar](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md).</span> |
+
+<!--|<span class="preview">List of reports</span> | <span class="preview">Main Menu &gt; Reports</span> <p><span class="preview">The enhanced list format is only applied when **Use shareable folders** is turned on. For information, see [Use shareable report folders](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md).</span> |-->
 
 ## Lägga till objekt i en förbättrad lista
 

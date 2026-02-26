@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 973a095e8ff08e382010247d9ed38e48d4b2c564
+source-git-commit: f28d2eef57f63cede3a08b06053e8dc6431f21d4
 workflow-type: tm+mt
 source-wordcount: '3588'
 ht-degree: 0%
@@ -191,7 +191,7 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
 
    Kolumnerna som du lägger till är synliga för alla användare som kommer åt posttypen och läggs till som nya fält på postens sida.
 
-1. (Valfritt) Klicka på ikonen **Fält** ![Fält &#x200B;](assets/fields-icon.png) i verktygsfältet, sök efter ett fält och avmarkera sedan alternativet till höger om fältnamnet för att dölja fältet.
+1. (Valfritt) Klicka på ikonen **Fält** ![Fält ](assets/fields-icon.png) i verktygsfältet, sök efter ett fält och avmarkera sedan alternativet till höger om fältnamnet för att dölja fältet.
 
 1. Gör något av följande om du vill ändra ordning på kolumnerna i tabellen:
 
@@ -435,7 +435,7 @@ Tänk på följande när du sorterar poster i tabellvyn:
 Så här sorterar du <!--ungrouped (add this when sorting for groupings will be available--> poster:
 
 1. Skapa en tabellvy enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
-1. Klicka på ikonen **Sortera** ![Sortera &#x200B;](assets/sort-icon.png) i tabellens övre högra hörn
+1. Klicka på ikonen **Sortera** ![Sortera ](assets/sort-icon.png) i tabellens övre högra hörn
 
    eller
 
@@ -597,7 +597,6 @@ När du visar tabellvyn kan du även visa vilket fält en annan användare redig
    ![Tabellfält för realtidsindikator och avataranslutning](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
 <!--maybe include a screen shot after release if they update the UI text in this list of users-->
-
 
 1. <span class="preview">(Valfritt) Klicka på triangeln i det övre högra hörnet i cellen som innehåller det fält som har redigerats av andra. En lista över användare som redigerar fältet visas.</span>
 
