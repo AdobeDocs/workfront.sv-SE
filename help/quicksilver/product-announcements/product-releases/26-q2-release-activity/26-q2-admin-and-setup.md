@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: 9160a68653999c35de32dd417b18ea8197ef446f
+source-git-commit: e716869407ff88b090b223708c688c7ed0da3e8e
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,19 @@ Den här sidan beskriver administratörsförbättringar som gjorts i den andra u
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den andra utgåvan av kvartal 2026 finns i [Översikt över den andra utgåvan av kvartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+## Komprimera eget formuläravsnitt som standard
 
+Som standard expanderas alla avsnitt i ett anpassat formulär när själva formuläret expanderas. Med ett nytt alternativ i den anpassade formulärdesignern kan du markera ett avsnitt som ska komprimeras som standard när en användare öppnar formuläret. Det här alternativet används på avsnittsnivå, inte på fält.
+
+Mer information finns i [Ordna och förhandsgranska ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 
 ## RTF-fälttyp finns nu i anpassade formulär
 
 >[!NOTE]
 >
 >Förhandsgranska: 29 januari 2026
->Production fast release: 12 februari 2026
->Produktion för alla: 16 april 2026
+>Snabb produktion: TBD
+>Produktion för alla: TBD
 >
 >Den här funktionen har tillfälligt tagits bort från produktionsmiljön den 13 februari 2026.
 

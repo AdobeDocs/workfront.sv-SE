@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
+source-git-commit: 0c894bad0108519da770dece5673f1bb21b54591
 workflow-type: tm+mt
-source-wordcount: '13772'
+source-wordcount: '13782'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 0%
          * [Andra utgåvan, kvartal 2026, översikt](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
          * [Andra kvartalet 2026 - förbättringar av administratörer](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md)
          * [Andra kvartalet 2026 - projektförbättringar](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md)
+         * [Andra kvartalet 2026 - rapportförbättringar](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md)
+         * [Andra kvartalet 2026 Begära förbättringar](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md)
          * [Andra kvartalet 2026, andra förbättringar](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md)
       * 2026 Q1-utgåvan {#release-26-q1}
          * [Första utgåvan, kvartal 2026, översikt](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)

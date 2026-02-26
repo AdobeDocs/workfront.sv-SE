@@ -6,9 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f722940bd7222ebec85aad143378f8f849357e5a
+exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
+source-git-commit: f0ded5d6b71ea99b7fad5b7c199838ef175b18cc
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '1095'
 ht-degree: 0%
 
 ---
@@ -20,6 +21,105 @@ I den här artikeln beskrivs funktionerna som lanseras för Workfront Planning i
 <!--keep the sentence below for all future quarterly release pages-->
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning finns i [Versionsaktivitet för Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Utlösarbaserad automatisering
+
+>[!NOTE]
+>
+>Förhandsgranska: 26 februari 2026
+>Production fast release: 12 mars 2026
+>Produktion för alla: 16 april 2026
+
+Du kan nu automatiskt skapa Planning-poster eller Workfront-objekt baserat på en ändring av ett postfält med hjälp av Planning Automations.
+
+Före den här förbättringen kan du automatiskt skapa Planning-poster eller Workfront-objekt när du klickar på en förkonfigurerad knapp.
+
+Mer information finns i [Konfigurera Adobe Workfront Planning Automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+
+## Endast systemadministratörer kan dela arbetsytor i hela systemet
+
+>[!NOTE]
+>
+>Förhandsgranska: 26 februari 2026
+>Production fast release: 12 mars 2026
+>Produktion för alla: 16 april 2026
+
+Vi tillåter nu endast systemadministratörer att välja mellan följande alternativ när en arbetsyta delas:
+
+* Alla i systemet kan visa
+* Endast inbjudna personer har åtkomst
+
+Som standard är arbetsytor inställda på behörigheten&quot;Endast inbjudna personer kan komma åt&quot;.
+
+Före den här ändringen gick det inte att välja dessa behörigheter för delning av arbetsytan.
+
+Mer information finns i Dela arbetsytor (help/quicksilver/planning/access/share-workspaces.md).
+
+## Sortera grupperingar i tidslinjevyn
+
+>[!NOTE]
+>
+>Förhandsgranska: 26 februari 2026
+>Production fast release: 12 mars 2026
+>Produktion för alla: 16 april 2026
+
+Nu kan du sortera grupperingar i tidslinjevyn. Mer information finns i [Hantera tidslinjevyn](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+
+## Stöd för användarreferenser för anslutna fält
+
+>[!NOTE]
+>
+>Förhandsgranska: 26 februari 2026
+>Production fast release: 12 mars 2026
+>Produktion för alla: 16 april 2026
+
+Nu kan du ansluta Workfront-användarfält till posttyperna Workfront Planning genom att lägga till en ny anslutning mellan ett Workfront-objekt och en Workfront Planning-posttyp.
+
+Nu kan du till exempel lägga till Project Sponsorn eller Portfolio Owner som sökfält i Workfront Planning när du lägger till en anslutning till projekt eller portföljer.
+
+Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+
+## Visningsindikatorer i realtid visar nu användare i tabellvyn
+
+>[!NOTE]
+>
+>Förhandsgranska: 26 februari 2026
+>Production fast release: 12 mars 2026
+>Produktion för alla: 16 april 2026
+
+Nu kan du visa användare som uppdaterar postfält samtidigt som du klickar på indikatorn för närvaro i realtid i det övre högra hörnet i en cell i tabellvyn. De användare som visas i det övre högra hörnet av posttabellvyn är de som har samma vy öppen.
+
+Du måste aktivera inställningen Visa medarbetare i tabellvyhuvudet. Andra användare kan uppdatera fält antingen i tabellvyn eller i området Detaljer för en post.
+
+Mer information finns i [Hantera tabellvyn](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+
+## Uppdaterad delning av listvyer
+
+>[!NOTE]
+>
+>Förhandsgranska: 26 februari 2026
+>Production fast release: 12 mars 2026
+>Produktion för alla: 16 april 2026
+
+När du delar listvyn på sidan med kopplade poster för en post med behörigheten Visa, kan användaren som delar vyn med ändra vyelementen och dessa ändringar sparas i användarens personliga inställningar. De kan nu spara en kopia av vyn som innehåller ändringarna eller återställa den delade vyn till sina ursprungliga inställningar. De kan dela den kopierade vyn med andra.
+
+Den här uppdateringen är bara tillgänglig i listvyn för den anslutna postsidan när projekt visas.
+
+Mer information finns i [Hantera listvyn](/help/quicksilver/planning/views/manage-the-list-view.md).
+
+## Använda villkorsstyrd formatering i listvyn
+
+>[!NOTE]
+>
+>Förhandsgranska: 26 februari 2026
+>Production fast release: 12 mars 2026
+>Produktion för alla: 16 april 2026
+
+Du kan nu använda villkorsstyrd formatering på projekt i en listvy på postens sida Anslutna poster. Den här funktionen fanns inte i listvyn före den här förbättringen.
+
+Mer information finns i [Hantera listvy](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 ## Förbättringar av globala posttyper på sekundära arbetsytor
 
@@ -111,5 +211,3 @@ Mer information finns i följande artiklar:
 Du kan nu lägga till fält för personer i sökfält när du ansluter två typer av planeringsposter.
 
 Mer information finns i [Anslut posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
-
-

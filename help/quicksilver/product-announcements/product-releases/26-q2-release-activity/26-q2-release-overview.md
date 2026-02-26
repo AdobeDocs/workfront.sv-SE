@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
-source-git-commit: 9160a68653999c35de32dd417b18ea8197ef446f
+source-git-commit: 4c12d32523bcca10962b56d9abd5854e8400ce3f
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '1074'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfront-förbättringar
 
 * [Administratörsförbättringar](#administrator-enhancements)
+* [Förbättrade dokument](#document-enhancements)
 * [Projektförbättringar](#project-enhancements)
+* [Rapportförbättringar](#reporting-enhancements)
+* [Begära förbättringar](#requesting-enhancements)
 * [Andra förbättringar](#other-enhancements)
 
 ### Administratörsförbättringar
@@ -51,9 +54,17 @@ The <add release> release webinar will be held on <date>. You can [register for 
                <tr>
         <td><strong>Funktion</strong>
         </td>
-        <td><strong>Förhandsgranska</strong></td>
+        <td><strong>Förhandsgranskning</strong></td>
         <td><strong>Snabb release</strong></td>
         <td><strong>kvartalsvis</strong></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Komprimera eget formuläravsnitt som standard</a><p>Som standard expanderas alla avsnitt i ett anpassat formulär när själva formuläret expanderas. Med ett nytt alternativ i den anpassade formulärdesignern kan du markera ett avsnitt som ska komprimeras som standard när en användare öppnar formuläret. Det här alternativet används på avsnittsnivå, inte på fält.</p>
+        </td>
+        <td><p>26 februari 2025</p></td>
+        <td><p>12 mars 2026</p></td>
+        <td><p>16 april 2026</p></td>
+    </tr>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Omfattande textfältstyp är nu tillgänglig i anpassade formulär</a><p>Den nya fälttypen <b>RTF</b> i anpassade formulär är en robust textredigerare med formateringsalternativ som upphöjd och nedsänkt text, rubriker och tabeller, utöver de traditionella alternativen fet, kursiv, understrykning, punkter, numrering, hyperlänkar och blockcitattecken. Teckengränsen är fortfarande 15 000.</p>
@@ -92,6 +103,43 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </tbody>
         </table>
 
+<!--
+
+### Document enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 25%;" />
+            <tbody>
+               <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Multi‑stage approval workflows available for unified approvals</a><p></p>
+            <p>Multi‑stage approval workflows are now available in unified approvals, helping organizations enforce structured, repeatable approval processes that reflect how work is reviewed in the real world. </p>
+        </td>
+        <td><p>February 26, 2025</p></td>
+        <td><p>March 12, 2026</p></td>
+        <td><p>April 16, 2026</p></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Set up and use multi-stage approval workflow templates</a><p></p>
+            <p>You can now configure and reuse multi-stage approval workflow templates, making it easier to apply consistent governance across repeatable approval workflows. </p>
+        </td>
+        <td><p>February 26, 2025</p></td>
+        <td><p>March 12, 2026</p></td>
+        <td><p>April 16, 2026</p></td>
+    </tr>
+             </tbody>
+        </table>   
+
+-->
+
 ### Projektförbättringar
 
 <table>
@@ -101,7 +149,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                <tr>
         <td><strong>Funktion</strong>
         </td>
-        <td><strong>Förhandsgranska</strong></td>
+        <td><strong>Förhandsgranskning</strong></td>
         <td><strong>Snabb release</strong></td>
         <td><strong>kvartalsvis</strong></td>
     <tr>
@@ -114,12 +162,78 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">Uppdaterad upplevelse vid enkel- eller grupptilldelning av uppgifter </a><p>[!BADGE Off schema]{type=Neutral}</p><p> Vi har uppdaterat avsnittet Uppdrag i rutan Redigera uppgifter när du redigerar enstaka uppgifter eller redigerar dem samtidigt. </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Uppdaterad upplevelse vid enkel- eller grupptilldelning av uppgifter </a><p>[!BADGE Off schema]{type=Neutral}</p><p> Vi har uppdaterat avsnittet Uppdrag i rutan Redigera uppgifter när du redigerar enstaka uppgifter eller redigerar dem samtidigt. </p>
         </td>
         <td><p>26 januari 2026</p></td>
         <td><p>Från 5 februari 2026</p></td>
         <td><p>Från 5 februari 2026</p></td>
     </tr>
+            </tbody>
+        </table>
+
+### Rapportförbättringar
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 25%;" />
+            <tbody>
+               <tr>
+        <td><strong>Funktion</strong>
+        </td>
+        <td><strong>Förhandsgranskning</strong></td>
+        <td><strong>Snabb release</strong></td>
+        <td><strong>kvartalsvis</strong></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Anpassade fältetiketter visas när rapporter skapas</a><p></p>
+            <p>Etiketten för det anpassade fältet visas nu före fältnamnet och objektet i rapportbyggverktygen, vilket gör det enklare att hitta fälten. Fältetiketter visas också när du definierar filter, vyer och grupperingar i listor.</p>
+        </td>
+        <td><p>26 februari 2025</p></td>
+        <td><p>12 mars 2026</p></td>
+        <td><p>16 april 2026</p></td>
+    </tr>
+<!--    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Shareable Report Folders</a><p></p>
+            <p>You can now organize and share reports using shareable report folders. This new feature helps teams that manage large volumes of reports maintain scalable and consistent access control.</p>
+        </td>
+        <td><p>February 26, 2025</p></td>
+        <td><p>March 12, 2026</p></td>
+        <td><p>April 16, 2026</p></td>
+    </tr>-->
+    <!--<tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Improved Date Labels for Chart Groupings in Canvas Dashboards</a><p></p>
+            <p>Charts that group data by date now display clearer, more readable date labels. With this update, date labels dynamically adjust based on the selected Group by option—such as day, week, month, or year—making charts easier to read and interpret at a glance.</p>
+        </td>
+        <td><p>February 26, 2025</p></td>
+        <td><p>March 12, 2026</p></td>
+        <td><p>April 16, 2026</p></td>
+    </tr>-->
+             </tbody>
+        </table>
+
+### Begära förbättringar
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 25%;" />
+            <tbody>
+               <tr>
+        <td><strong>Funktion</strong>
+        </td>
+        <td><strong>Förhandsgranskning</strong></td>
+        <td><strong>Snabb release</strong></td>
+        <td><strong>kvartalsvis</strong></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md" class="MCXref xref" xrefformat="{para}">Uppdaterad delning för förbättrade vyer</a><p></p>
+            <p>När du delar en förbättrad vy med en användare och ger dem behörigheten Visa i området Ny begäran kan användaren ändra vyelementen och dessa ändringar sparas i användarens personliga inställningar. De kan nu spara en kopia av vyn som innehåller ändringarna eller återställa den delade vyn till sina ursprungliga inställningar. De kan dela den kopierade vyn med andra. </p>
+        </td>
+           <td><p>26 februari 2025</p></td>
+        <td><p>12 mars 2026</p></td>
+        <td><p>16 april 2026</p></td>
+ </tr>
             </tbody>
         </table>
 
@@ -132,7 +246,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                <tr>
         <td><strong>Funktion</strong>
         </td>
-        <td><strong>Förhandsgranska</strong></td>
+        <td><strong>Förhandsgranskning</strong></td>
         <td><strong>Snabb release</strong></td>
         <td><strong>kvartalsvis</strong></td>
     <tr>
@@ -162,7 +276,7 @@ We are updating the interface throughout Adobe Workfront to improve the user exp
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Förbättringar av Workfront Planning
 
@@ -211,13 +325,13 @@ För att kunna leverera mer stabila och skalbara integreringar går vi över til
 * Workfront för Salesforce.
 
 Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Google Workspace.
-En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Underhållsuppdateringar för Workfront
 
-Mer information om underhållsuppdateringar som gjordes under andra kvartersversionen 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=sv-SE).
+Mer information om underhållsuppdateringar som gjordes under andra kvartersversionen 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan &#x200B;](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=sv-SE).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
