@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
+source-git-commit: 973a095e8ff08e382010247d9ed38e48d4b2c564
 workflow-type: tm+mt
-source-wordcount: '3508'
+source-wordcount: '3588'
 ht-degree: 0%
 
 ---
@@ -191,7 +191,7 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
 
    Kolumnerna som du lägger till är synliga för alla användare som kommer åt posttypen och läggs till som nya fält på postens sida.
 
-1. (Valfritt) Klicka på ikonen **Fält** ![Fält &#x200B;](assets/fields-icon.png) i verktygsfältet, sök efter ett fält och avmarkera sedan alternativet till höger om fältnamnet för att dölja fältet.
+1. (Valfritt) Klicka på ikonen **Fält** ![Fält ](assets/fields-icon.png) i verktygsfältet, sök efter ett fält och avmarkera sedan alternativet till höger om fältnamnet för att dölja fältet.
 
 1. Gör något av följande om du vill ändra ordning på kolumnerna i tabellen:
 
@@ -435,7 +435,7 @@ Tänk på följande när du sorterar poster i tabellvyn:
 Så här sorterar du <!--ungrouped (add this when sorting for groupings will be available--> poster:
 
 1. Skapa en tabellvy enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
-1. Klicka på ikonen **Sortera** ![Sortera &#x200B;](assets/sort-icon.png) i tabellens övre högra hörn
+1. Klicka på ikonen **Sortera** ![Sortera ](assets/sort-icon.png) i tabellens övre högra hörn
 
    eller
 
@@ -504,9 +504,7 @@ Så här lägger du till en gruppering:
 
    ![Gruppering använd i tabellvy](assets/grouping-applied-in-table-view.png)
 
-   <!--For Feb 26, and change indent to the left:
-    1. <span class="preview">(Optional) Choose A-Z or Z-A from the sorting drop-down menu to the right of a selected field. This sorts the groupings in the timeline, accordingly.</span>
-    -->
+1. <span class="preview"> (Valfritt) Välj A-Z eller Z-A i listrutan Sortering till höger om ett markerat fält. Detta sorterar grupperingarna i tidslinjen efter detta.</span>
 
 1. (Valfritt) I rutan **Gruppera poster efter** klickar du på ikonen **x** till höger om ett fält som är markerat för grupperingen för att ta bort grupperingen
 
@@ -600,15 +598,13 @@ När du visar tabellvyn kan du även visa vilket fält en annan användare redig
 
 <!--maybe include a screen shot after release if they update the UI text in this list of users-->
 
-<!--For Feb 26: 
 
-1. <span class="preview">(Optional) Click the triangle in the upper-right corner of the cell that contains the field edited by others. A list of users currently editing the field displays.</span> 
+1. <span class="preview">(Valfritt) Klicka på triangeln i det övre högra hörnet i cellen som innehåller det fält som har redigerats av andra. En lista över användare som redigerar fältet visas.</span>
 
 >[!TIP]
 >
-><span class="preview">Real-time presence indicators display users that are currently editing a field anywhere in Workfront Planning. This includes either the table view or the Details area of the record.</span>
+><span class="preview">Visningsindikatorer i realtid visar användare som redigerar ett fält var som helst i Workfront Planning. Detta inkluderar antingen tabellvyn eller datapostens detaljområde.</span>
 
--->
 
 
 

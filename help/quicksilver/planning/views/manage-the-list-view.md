@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
-source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
+source-git-commit: 973a095e8ff08e382010247d9ed38e48d4b2c564
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1342'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Hantera listvyn i Adobe Workfront Planning
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Informationen som är markerad på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -114,9 +114,9 @@ Mer information om hur du hanterar listvyer i Workfront finns i [Använda förb�
       >
       >* Du kan inte ändra systemvyer.
       >
-      <!--For Feb 26 and add the Preview disclaimer at the top: * <span class="preview">You can reset a view that was shared with you after you modified it to restore its original preferences, or you can copy it with your changes and share the copy. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
-        -->
-   1. Klicka på ikonen **Filter** ![Filter &#x200B;](assets/filter-icon.png) för att lägga till ett filter i vyn. Resultaten filtreras omedelbart i listan. Du kan inte spara och namnge filter. Filter sparas när du öppnar sidan i framtiden och de är en del av delade vyer.
+      >* <span class="preview">Du kan återställa en vy som delades med dig efter att du har ändrat den för att återställa de ursprungliga inställningarna, eller så kan du kopiera den med dina ändringar och dela kopian. Mer information finns i [Använd förbättrade listor](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+
+   1. Klicka på ikonen **Filter** ![Filter ](assets/filter-icon.png) för att lägga till ett filter i vyn. Resultaten filtreras omedelbart i listan. Du kan inte spara och namnge filter. Filter sparas när du öppnar sidan i framtiden och de är en del av delade vyer.
    1. Klicka på ikonen **Kolumner** ![Kolumner](assets/columns-icon.png) för att välja vilka kolumner som ska visas eller döljas i vyn.
    1. Håll pekaren över namnet på en kolumn, klicka sedan på nedåtpilen till vänster om kolumnnamnet och klicka sedan på något av följande:
       * **Byt namn** om du vill lägga till en **anpassad etikett** för kolumnen. Namnet på det ursprungliga fältet i Workfront ändras inte.
@@ -129,35 +129,41 @@ Mer information om hur du hanterar listvyer i Workfront finns i [Använda förb�
 Du kan inte ta bort det primära fältet i listvyn som visas i den första kolumnen.
 
 
-   <!--For Feb 26: make available at release and fix the formatting - this will be broken, if not: 
-    1. <span class="preview">Click the **Format cells** icon ![Format cells icon](assets/format-cells-icon.png). The **Format** box opens. (*********change the name of the box when they update it***********)</span>
-        <span class="preview">Do the following: </span>
-        <div class="preview">
-        1. In the **If** line, click **Add condition**, then select a field you want to format by and choose a field value. 
-            >[!TIP]
-            >
-            >Only fields visible in the list view are available for conditional formatting.
-        1. (Optional) Click **Add condition** in the **If** line to add more conditions to same rule. 
-            >[!TIP]
-            >
-            >You can add up to 10 conditions in a conditioning rule and you can have up to 20 rules for a field.
-        1. Click the **Or** connector between conditions to change to **And** and to indicate that multiple conditions must be met at the same time. **Or** is the default connector.  
-        1. In the **Format** line, select a field to indicate which column will be formatted. (*******edit this area, if it changes names??***********)
-        1. (Optional) Click the **color circle** icon ![Color circle icon](assets/color-circle.png) next to the field selected, to expand it and choose another color.
-        1. Turn on the **Apply to row** setting to apply the formatting to the entire row of the field that meets the conditions. 
-        1. (Optional) Click **Add condition** in the **Format** box to add another rule for another field and the repeat the steps above. 
-        1. (Optional) Click **Clear all** to remove all formatting.
-        1. Click outside the **Format** box to close it. 
-            This returns you to the list view. 
-            The formatting is applied immediately to the list view.
-            There is a blue dot next to the **Format cells** icon to indicate that the view has special formatting applied.
-        </div>
-    -->
+   1. <span class="preview">Klicka på ikonen **Formatera celler** ![Formatera celler](assets/format-cells-icon.png) . Rutan **Format** öppnas.</span> <!--change the name of the box when they update it-->
+      <span class="preview">Gör följande: </span>
+
+      <div class="preview">
+
+      1. Klicka på **Lägg till villkor** på raden **Om**, markera sedan ett fält som du vill formatera med och välj ett fältvärde.
+
+         >[!TIP]
+         >
+         >Endast fält som är synliga i listvyn är tillgängliga för villkorsstyrd formatering.
+
+      1. (Valfritt) Klicka på **Lägg till villkor** på raden **Om** om du vill lägga till fler villkor i samma regel.
+
+         >[!TIP]
+         >
+         >Du kan lägga till upp till 10 villkor i en villkorsregel och du kan ha upp till 20 regler för ett fält.
+
+      1. Klicka på **Eller**-kopplingen mellan villkor om du vill ändra till **och** och ange att flera villkor måste uppfyllas samtidigt. **Eller** är standardkoppling.
+      1. På raden **Format** markerar du ett fält som anger vilken kolumn som ska formateras. <!--edit this area, if it changes names??-->
+      1. (Valfritt) Klicka på ikonen **färgcirkel** ![Färgcirkel](assets/color-circle.png) bredvid det markerade fältet för att expandera det och välja en annan färg.
+      1. Aktivera inställningen **Använd på rad** om du vill använda formateringen på hela raden i fältet som uppfyller villkoren.
+      1. (Valfritt) Klicka på **Lägg till villkor** i rutan **Format** om du vill lägga till en annan regel för ett annat fält och upprepa stegen ovan.
+      1. (Valfritt) Klicka på **Rensa alla** om du vill ta bort all formatering.
+      1. Klicka utanför rutan **Format** för att stänga den.
+
+         Du kommer nu tillbaka till listvyn.
+Formateringen används omedelbart i listvyn.
+Det finns en blå punkt bredvid ikonen **Formatera celler** som anger att specialformatering används i vyn.
+
+      </div>
 
 1. (Valfritt) Lägg till ett nyckelord i sökrutan i det övre högra hörnet av listan för att söka efter ett objekt.
 
-
    Objekt som matchar söktermen markeras i listan.
+
 1. (Valfritt) Gör något av följande om du vill lägga till fler objekt i listan och automatiskt koppla dem till den valda posten:
 
    * Klicka på **Anslut poster** i det övre högra hörnet av listan om du vill lägga till befintliga objekt.
