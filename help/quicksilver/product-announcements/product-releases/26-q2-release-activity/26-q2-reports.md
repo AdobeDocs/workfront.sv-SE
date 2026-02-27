@@ -4,9 +4,10 @@ description: Andra kvartalet 2026 - rapportförbättringar
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8bcea5cec9f68deacc5f89ca7703303a1b00769f
+exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
+source-git-commit: aceb9f7bd6c62036838b15d74ee2a9b7843e5c11
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -31,29 +32,25 @@ Etiketten för det anpassade fältet är avsedd för systemgränssnittet, medan 
 
 Mer information finns i [Skapa en anpassad rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-<!--
-
-## Shareable Report Folders
+## Delningsbara rapportmappar
 
 >[!NOTE]
 >
->Preview: February 26, 2026
->Production fast release: March 12, 2026
->Production for everyone: April 16, 2026
+>Förhandsgranska: 26 februari 2026
+>Production fast release: 12 mars 2026
+>Produktion för alla: 16 april 2026
 
-You can now organize and share reports using shareable report folders. This new feature helps teams that manage large volumes of reports maintain scalable and consistent access control:
+Nu kan du ordna och dela rapporter med delningsbara rapportmappar. Den här nya funktionen hjälper team som hanterar stora mängder rapporter att upprätthålla en skalbar och konsekvent åtkomstkontroll:
 
-* **Create organized folder structures**: System administrators can create top-level folders, and users with manage access can create subfolders up to 4 levels deep.
-* **Granular permission controls**: Share folders with two permission levels:
-   * View: Users can open reports and share folders
-   * Manage: Users can edit folder details, add/remove items, and automatically receive manage access to all reports within the folder
-* **Inherited permissions**: Permissions cascade from parent folders to all subfolders and reports within the folder tree
-* **Enhanced list experience**: When you enable sharable folders, you will have access to the enhanced list experience. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+* **Skapa ordnade mappstrukturer**: Systemadministratörer kan skapa mappar på den översta nivån, och användare med hanterad åtkomst kan skapa undermappar på upp till 4 nivåer.
+* **Detaljerade behörighetskontroller**: Dela mappar med två behörighetsnivåer:
+   * Visa: Användare kan öppna rapporter och dela mappar
+   * Hantera: Användare kan redigera mappinformation, lägga till/ta bort objekt och automatiskt få åtkomst till alla rapporter i mappen
+* **Ärvda behörigheter**: Behörigheter överlappar från överordnade mappar till alla undermappar och rapporter i mappträdet
+* **Förbättrad listupplevelse**: När du aktiverar delningsbara mappar får du tillgång till den förbättrade listupplevelsen. Mer information finns i [Använd förbättrade listor](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 
-For more information, see [Use shareable report folders](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md).
-
--->
+Mer information finns i [Använd delningsbara rapportmappar](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md).
 
 ## Förbättrade datumetiketter för diagramgrupperingar på arbetsytans kontrollpaneler
 
@@ -63,10 +60,12 @@ For more information, see [Use shareable report folders](/help/quicksilver/repor
 >Production fast release: 12 mars 2026
 >Produktion för alla: 16 april 2026
 
+>[!NOTE]
+>
+>Kontrollpaneler för arbetsytan är för närvarande i betaversion.
+
 Diagram som grupperar data efter datum visar nu tydligare och mer läsbara datumetiketter. Med den här uppdateringen justeras datumetiketter dynamiskt baserat på den valda gruppen efter alternativ - som dag, vecka, månad eller år - vilket gör det enklare att läsa och tolka diagram:
 
 <table> <tbody> <tr> <td>Dag</td> <td>Visar det fullständiga datumet. Exempel: 3/12/2026</td> </tr> <tr> <td>Vecka</td> <td>Visar ett formaterat veckonas startdatum. Exempel: 8 mars 2026</td> </tr> <tr> <td>Månad</td> <td>Visar månad och år. Exempel mars 2026</td> </tr> <tr> <td>År</td> <td>Visar endast året. Exempel: 2026</td> </tr> </tbody> </table>
 
 Tidigare visade diagramgrupperingar alltid startdatumet för den markerade perioden i numeriskt format.
-
-
