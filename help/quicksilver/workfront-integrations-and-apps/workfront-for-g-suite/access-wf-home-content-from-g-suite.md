@@ -7,9 +7,9 @@ description: Du kan komma åt ditt [!DNL Adobe Workfront] Home-innehåll, inklus
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
+source-git-commit: 228fd22f1894689c0d256270350cc82954901641
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->För att kunna leverera mer stabila och skalbara integreringar går vi över till en modern, flexibel integrationsstrategi med hjälp av Workfront Automation and Integration (Fusion). Under den här övergångsprocessen kommer följande Workfront för Google Workspace-funktioner inte att vara tillgängliga efter **28 februari 2026**:
+>För att kunna leverera mer stabila och skalbara integreringar har vi gått över till en modern, flexibel integrationsmetod med Workfront Automation and Integration (Fusion). Som en del av den här övergångsprocessen är följande Workfront för Google Workspace-funktioner **inte längre tillgängliga**:
 >
 >* Åtkomst till Google Workspace-funktioner inifrån Workfront
 >
@@ -26,15 +26,17 @@ ht-degree: 0%
 >
 >Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Google Workspace.
 >
->En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Mer information om de specifika funktionerna i Workfront Automation and Integration-modulerna för Google Workspace finns i [Gmail-moduler](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) och [Google Calendar-moduler](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
+>Mer information om de specifika funktionerna i Workfront Automation and Integration-modulerna för Google Workspace finns i [Gmail-moduler](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) och [Google Calendar-moduler](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
-Du kan komma åt ditt [!DNL Adobe Workfront] [!UICONTROL Home]-innehåll, inklusive alla uppgifter, ärenden, godkännanden och åtkomstbegäranden som tilldelats dig, utan att lämna Google Workspace.
+<!--
 
-## Åtkomstkrav
+You can access your [!DNL Adobe Workfront] [!UICONTROL Home] content, including all tasks, issues, approvals, and access requests assigned to you, without leaving Google Workspace.
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,49 +44,51 @@ Du kan komma åt ditt [!DNL Adobe Workfront] [!UICONTROL Home]-innehåll, inklus
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Alla</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Standard</p><p>Arbeta eller högre</p>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p><p>Work or higher</p>
   </tr> 
  </tbody> 
 </table>
 
-Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## Förutsättningar
+## Prerequisites
 
-Innan du kan komma åt [!UICONTROL Home]-innehåll från [!DNL Google Workspace] måste du
+Before you can access [!UICONTROL Home] content from [!DNL Google Workspace], you must
 
-* Installera [!DNL Workfront for Google Workspace]\
-   Instruktioner finns i [Installera [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+* Install [!DNL Workfront for Google Workspace]\
+   For instructions, see [Install [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## Åtkomst till [!DNL Workfront] [!UICONTROL Home] från [!DNL Google Workspace]
+## Access [!DNL Workfront] [!UICONTROL Home] from [!DNL Google Workspace]
 
-1. Kontrollera att du är inloggad på [!DNL Workfront].
-1. Om panelen [!UICONTROL Workfront for Google Workspace] inte visas klickar du på ikonen [!DNL Workfront] ![Workfront &#x200B;](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace]-tillägg längst till höger på sidan.
-1. Om du ser en vänsterpil högst upp i [!DNL Workfront] för [!DNL Google Workspace] klickar du på pilen för att gå till området [!UICONTROL Home].
+1. Make sure you are logged in to [!DNL Workfront].
+1. If the [!UICONTROL Workfront for Google Workspace] panel is not displayed, click the [!DNL Workfront] icon ![Workfront icon](assets/wf-lion-icon.png) in the [!DNL Google Workspace] add-ons sidebar at the far-right of the page.
+1. If you see a left arrow at the top of [!DNL Workfront] for [!DNL Google Workspace], click the arrow to go to the [!UICONTROL Home] area.
 
-1. Klicka på den expanderade pilen **[!UICONTROL Sort by]** Expandera pil![&#x200B; i området &#x200B;](assets/dropdown-arrow.png) och klicka sedan på ett alternativ för att ange hur du vill gruppera dina arbetsobjekt så att du kan hitta det du söker.
+1. In the **[!UICONTROL Sort by]** area, click the expand arrow ![Expand arrow](assets/dropdown-arrow.png), then click an option to specify how you want to group your work items so you can find the one you want.
 
-   När du sorterar efter **[!UICONTROL Commit date]** eller **[!UICONTROL Planned completion]** datum är de äldsta arbetsobjekten högst upp.
+   When you sort by **[!UICONTROL Commit date]** or **[!UICONTROL Planned completion]** date, the oldest work items are at the top.
 
-   När du sorterar efter **[!UICONTROL Project]** visas arbetsobjekt i ordningen för deras överordnade projekt, i bokstavsordning från A till Z. Arbetsobjekt utan ett överordnat projekt visas under **[!UICONTROL No Project]**.
+   When you sort by **[!UICONTROL Project]**, work items appear in the order of their parent projects, listed alphabetically from A to Z. Work items without a parent project display under **[!UICONTROL No Project]**.
 
-1. Klicka på den expanderade pilen ![Expandera pil](assets/dropdown-arrow.png) för den gruppering som du vill visa.
+1. Click the expand arrow ![Expand arrow](assets/dropdown-arrow.png) for the grouping you want to view.
 
-   Antalet objekt i varje grupp visas inom parentes. När du klickar på pilen [!UICONTROL expand] visas alla arbetsobjekt i gruppen.
+   The number of items contained within each group displays in parenthesis. When you click the [!UICONTROL expand] arrow, all the work items in the group display.
 
-   Arbetsobjekt visas enligt följande:
+   Work items appear as follows:
 
-   * ![Aktivitetsikonen](assets/task-icon.png) **Aktiviteter** visar det överordnade projektnamnet, aktivitetsnamnet och planerat slutförandedatum.
+   * ![Task icon](assets/task-icon.png) **Tasks** display the parent project name, task name, and planned completion date.
 
-   * ![Utfärdningsikonen](assets/issue-icon.png) **Problem** visar det överordnade projektnamnet, namnet på utgåvan och datumet för det planerade slutförandet.
+   * ![Issue icon](assets/issue-icon.png) **Issues** display the parent project name, issue name, and planned completion date.
 
-   * ![Dokumentikonen](assets/document-icon.png) **Godkännanden** visar den sökandes namn, dokumentnamn och överföringsdatum.
-   * **Åtkomstbegäranden** visar den begärandes namn, objektnamn och överföringsdatum. Ikonen för objekttypen visas till vänster.
+   * ![Document icon](assets/document-icon.png)  **Approvals** display the requester's name, document name, and submission date.
+   * **Access requests** display the requester's name, object name, and submission date. The icon for the object type displays on the left.
 
-1. Klicka var som helst på en arbetsuppgift för att se information, uppdateringar och dokument.
+1. Click anywhere on a work item to see its details, updates, and documents.
+
+-->

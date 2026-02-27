@@ -6,10 +6,10 @@ description: När du har installerat [!DNL Adobe Workfront] för Salesforce som 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 6af620284ed9c710196d8976a9f6cac1b3b36cf1
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 1%
+source-wordcount: '125'
+ht-degree: 0%
 
 ---
 
@@ -17,26 +17,28 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->För att kunna leverera mer stabila och skalbara integreringar går vi över till en modern, flexibel integrationsstrategi med hjälp av Workfront Automation and Integration (Fusion). Integreringen av Workfront för Salesforce kommer inte att vara tillgänglig efter den **28 februari 2026**.
+>För att kunna leverera mer stabila och skalbara integreringar har vi gått över till en modern, flexibel integrationsmetod med Workfront Automation and Integration (Fusion). Integreringen **för Workfront för Salesforce är inte längre tillgänglig** som en del av den här övergångsprocessen.
 >
 >Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Salesforce.
 >
->En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Mer information om de specifika funktionerna i Workfront Automation and Integration-modulerna för Salesforce finns i [Salesforce-moduler](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
+>Mer information om de specifika funktionerna i Workfront Automation and Integration-modulerna för Salesforce finns i [Salesforce-moduler](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
-När du har installerat [!DNL Adobe Workfront] för [!DNL Salesforce] som [!DNL Workfront]-administratör kan du göra den tillgänglig för dina användare genom att lägga till den i ett nytt avsnitt i deras [!UICONTROL Opportunity] och [!UICONTROL Account]
-sidlayouter i [!UICONTROL Salesforce] .
+<!--
 
-Information om hur du installerar [!DNL Workfront for Salesforce] finns i [Installera [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
+After you install [!DNL Adobe Workfront] for [!DNL Salesforce] as a [!DNL Workfront] administrator, you can make it available to your users by adding it in a new section to their [!UICONTROL Opportunity] and [!UICONTROL Account]
+ page layouts in [!UICONTROL Salesforce]. 
 
-För att användare ska ha [!DNL Workfront] tillgängligt i både ramverket [!DNL Classic] och ramverket [!DNL Lightning Experience] måste du lägga till sidorna [!DNL WorkfrontOpportunities] och [!DNL WorkfrontAccounts] [!UICONTROL Visualforce] i sidlayouterna [!UICONTROL Opportunity] respektive [!UICONTROL Accounts].
+For information about installing [!DNL Workfront for Salesforce], see [Install [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
+
+For users to have [!DNL Workfront] available in both the [!DNL Classic] and [!DNL Lightning Experience] frameworks, you must add the [!DNL WorkfrontOpportunities] and the [!DNL WorkfrontAccounts] [!UICONTROL Visualforce] pages to the [!UICONTROL Opportunity] and [!UICONTROL Accounts] page layouts, respectively.
 
 
 
-## Åtkomstkrav
+## Access requirements
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,127 +46,129 @@ För att användare ska ha [!DNL Workfront] tillgängligt i både ramverket [!DN
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Alla</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> <p>Standard</p>
    <p>Plan</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## Förutsättningar
+## Prerequisites
 
-* Du måste ha en [!DNL Salesforce]-instans med åtkomst till ett systemadministratörskonto.
-* Du måste ha en [!DNL Workfront]-instans med åtkomst till ett systemadministratörskonto.
+* You must have a [!DNL Salesforce] instance with access to a system administrator account.
+* You must have a [!DNL Workfront] instance with access to a system administrator account.
 
-## Konfigurera avsnittet [!DNL Workfront] i ramverket [!DNL Salesforce Classic]
+## Configure the [!DNL Workfront] section in the [!DNL Salesforce Classic] framework
 
-1. Logga in på [!DNL Salesforce] som Workfront-administratör.
-1. Klicka på **[!UICONTROL Setup].**
-1. Expandera **[!UICONTROL Build]** i avsnittet **[!UICONTROL Customize].**
+1. Log in to [!DNL Salesforce] as a Workfront administrator.
+1. Click **[!UICONTROL Setup].**
+1. In the **[!UICONTROL Build]** section, expand **[!UICONTROL Customize].**
 
-1. Expandera **[!UICONTROL Opportunities]** och klicka sedan på **[!UICONTROL Page Layouts]** för att lägga till avsnittet [!DNL Workfront] i ett säljprojekt.
+1. Expand **[!UICONTROL Opportunities]**, then click **[!UICONTROL Page Layouts]** to add the [!DNL Workfront] section to an Opportunity.
 
-   eller
+   Or
 
-   Expandera **[!UICONTROL Accounts]** och klicka sedan på **[!UICONTROL Page Layouts]** för att lägga till avsnittet [!DNL Workfront] i ett konto
+   Expand **[!UICONTROL Accounts]**, then click **[!UICONTROL Page Layouts]** to add the [!DNL Workfront] section to an Account
 .
 
-1. Klicka på **[!UICONTROL Edit]** i en befintlig layout.
+1. Click **[!UICONTROL Edit]** on an existing layout.
 
-   eller
+   Or
 
-   Klicka på **[!UICONTROL New]** om du vill lägga till en ny layout.
+   Click **[!UICONTROL New]** to add a new layout. 
 
-1. (Valfritt) Dra komponenten **[!UICONTROL Section]** till layouten och släpp den på önskad plats.\
+1. (Optional) Drag the **[!UICONTROL Section]** component to the layout and drop it in the desired position.\
 
-1. (Valfritt) Ange ett namn för det nya avsnittet.
+1. (Optional) Specify a name for the new section.
 
-   Vi rekommenderar att du namnger avsnittet **[!DNL Workfront]**.
+   We recommend that you name this section **[!DNL Workfront]**.
 
-1. (Valfritt) Ange önskat **[!UICONTROL Layout]** och **[!UICONTROL Tab-key Order]** för det nya avsnittet.
+1. (Optional) Specify the desired **[!UICONTROL Layout]** and **[!UICONTROL Tab-key Order]** for the new section.
 
-   Vi rekommenderar att du väljer layouten **[!UICONTROL 1-Column]** för avsnittet [!DNL Workfront].
+   We recommend that you select **[!UICONTROL 1-Column]** layout for the [!DNL Workfront] section. 
 
-1. Klicka på **[!UICONTROL OK]**.
-1. Klicka på **[!UICONTROL Layout]** i området **[!UICONTROL Visualforce Pages].**
+1. Click **[!UICONTROL OK]**.
+1. In the **[!UICONTROL Layout]** area, click **[!UICONTROL Visualforce Pages].**
 
-1. Dra och släpp komponenten **[!UICONTROL WorkfrontOpportunities]** till det nya avsnittet i layouten **[!UICONTROL Opportunities]**.
+1. Drag and drop the **[!UICONTROL WorkfrontOpportunities]** component to the new section in the **[!UICONTROL Opportunities]** Layout.
 
-   eller
+   Or
 
-   Dra och släpp **[!UICONTROL WorkfrontAccounts]**-komponenten till det nya avsnittet i **[!UICONTROL Account]**-layouten.\
+   Drag and drop the **[!UICONTROL WorkfrontAccounts]** component to the new section in the  **[!UICONTROL Account]** Layout.\
 
-1. Klicka på ikonen **[!UICONTROL Properties]** i det övre högra hörnet i den nya komponenten.\
+1. Click the **[!UICONTROL Properties]** icon in the upper right of the newly added component.\
 
-1. För att få en optimal visning anger du följande egenskaper för sidan [!DNL Workfront Visualforce]:
+1. To achieve an optimal display, specify the following properties for the [!DNL Workfront Visualforce] page:
 
-   * **[!UICONTROL Width (in pixels or %)]**: 100 %
+   * **[!UICONTROL Width (in pixels or %)]**: 100%
    * **[!UICONTROL Height (in pixels)]**: 600
-   * Välj **[!UICONTROL Show scrollbars]**.
+   * Select **[!UICONTROL Show scrollbars]**.
 
-1. Klicka på **[!UICONTROL OK]**.
-1. Klicka på **[!UICONTROL Save]** om du vill spara layouten.
+1. Click **[!UICONTROL OK]**. 
+1. Click **[!UICONTROL Save]** to save your layout.
 
-   Alla användare som har den här layouten tilldelad kan nu se avsnittet [!DNL Workfront] på sina [!UICONTROL Opportunities] - eller [!UICONTROL Accounts]-objekt.
+   All users who have this layout assigned to them are now able to see the [!DNL Workfront] section on their [!UICONTROL Opportunities] or [!UICONTROL Accounts] objects.
 
-   Användarna ser inloggningsskärmen [!DNL Workfront] i avsnittet [!DNL Workfront]. Om de inte har något [!DNL Workfront]-konto kan de komprimera avsnittet, men inte ta bort det från layouten.
+   Users see a [!DNL Workfront] login screen on the [!DNL Workfront] section. If they do not have a [!DNL Workfront] account, they can collapse the section, but not remove it from their layout. 
 
-## Konfigurera avsnittet [!DNL Workfront] i ramverket [!DNL Salesforce Lightning Experience]
+## Configure the [!DNL Workfront] section in the [!DNL Salesforce Lightning Experience] framework
 
-Du kan lägga till avsnittet [!DNL Workfront] i layouten för ett [!DNL Salesforce] [!UICONTROL Opportunity] eller konto
-i [!DNL Salesforce Lightning Experience] -ramverket antingen genom att gå till [!UICONTROL Setup] -området eller från ett konto
-eller [!UICONTROL Opportunity] -objekt.
+You can add the [!DNL Workfront] section to the layout of a [!DNL Salesforce] [!UICONTROL Opportunity] or Account
+ in the [!DNL Salesforce Lightning Experience] framework either by accessing the [!UICONTROL Setup] area, or from an Account
+ or [!UICONTROL Opportunity] object. 
 
-* [Konfigurera avsnittet  [!DNL Workfront] på nivån [!UICONTROL Setup]](#configure-the-workfront-section-at-the-setup-level-configure-the-workfront-section-at-the-setup-level)
-* [Konfigurera avsnittet  [!DNL Workfront] på affärsmöjlighets- eller kontonivå](#configure-the-workfront-section-at-the-opportunity-or-account-level-configure-the-workfront-section-at-the-opportunity-or-account-level)
+* [Configure the [!DNL Workfront] section at the [!UICONTROL Setup] level](#configure-the-workfront-section-at-the-setup-level-configure-the-workfront-section-at-the-setup-level)
+* [Configure the [!DNL Workfront] Section at the Opportunity or Account level](#configure-the-workfront-section-at-the-opportunity-or-account-level-configure-the-workfront-section-at-the-opportunity-or-account-level)
 
-### Konfigurera avsnittet [!DNL Workfront] på nivån [!UICONTROL Setup] {#configure-the-workfront-section-at-the-setup-level}
+### Configure the [!DNL Workfront] section at the [!UICONTROL Setup] level {#configure-the-workfront-section-at-the-setup-level}
 
-1. Logga in på [!DNL Salesforce] som systemadministratör.
-1. Klicka på ikonen **[!UICONTROL Setup]** och sedan på **[!UICONTROL Setup]**.
+1. Log into [!DNL Salesforce] as a system administrator. 
+1. Click the **[!UICONTROL Setup]** icon, then click **[!UICONTROL Setup]**.
 
-1. Expandera **[!UICONTROL Object and Fields]** och klicka sedan på **[!UICONTROL Object Manager]**.
+1. Expand **[!UICONTROL Object and Fields]**, then click **[!UICONTROL Object Manager]**.
 
-1. Klicka på **[!UICONTROL Opportunity]** om du vill anpassa layouten för ett säljprojekt.
+1. Click **[!UICONTROL Opportunity]** to customize the layout of an Opportunity.
 
-   eller
+   Or
 
-   Klicka på **[!UICONTROL Account]** om du vill anpassa layouten för ett konto.
+   Click **[!UICONTROL Account]** to customize the layout of an Account.
 
-1. Klicka på **[!UICONTROL Page Layouts]**.
-1. Klicka på namnet på en befintlig sidlayout för att redigera den.
+1. Click **[!UICONTROL Page Layouts]**.
+1. Click the name of an existing page layout to edit it.
 
-   eller
+   Or
 
-   Klicka på **[!UICONTROL New]** om du vill skapa en ny sidlayout.
+   Click **[!UICONTROL New]** to create a new page layout.
 
-1. Fortsätt med [Konfigurera  [!DNL Workfront] avsnittet på säljprojekts- eller kontonivå](#configure-the-workfront-section-at-the-opportunity-or-account-level-configure-the-workfront-section-at-the-opportunity-or-account-level) nedan.
+1. Continue with [Configure the [!DNL Workfront] Section at the Opportunity or Account level](#configure-the-workfront-section-at-the-opportunity-or-account-level-configure-the-workfront-section-at-the-opportunity-or-account-level) below.
 
-### Konfigurera avsnittet [!DNL Workfront] på affärsmöjlighets- eller kontonivå {#configure-the-workfront-section-at-the-opportunity-or-account-level}
+### Configure the [!DNL Workfront] Section at the Opportunity or Account level {#configure-the-workfront-section-at-the-opportunity-or-account-level}
 
-1. Logga in på [!DNL Salesforce] som systemadministratör.
-1. Gå till en **[!UICONTROL Opportunity]** eller **[!UICONTROL Account]**.
+1. Log in to [!DNL Salesforce] as a system administrator. 
+1. Go to an **[!UICONTROL Opportunity]** or **[!UICONTROL Account]**.
 
-1. Klicka på ikonen **[!UICONTROL Setup]** och sedan på **[!UICONTROL Edit Page]**.
+1. Click the **[!UICONTROL Setup]** icon, then click **[!UICONTROL Edit Page]**.
 
-1. Expandera avsnittet **[!UICONTROL Custom-Managed]**.
-1. Dra och släpp komponenten **[!DNL Workfront]** på ditt [!UICONTROL Opportunity] eller konto
-sida.
+1. Expand the **[!UICONTROL Custom-Managed]** section.
+1. Drag and drop the **[!DNL Workfront]** component on your [!UICONTROL Opportunity] or Account
+ page.
 
-   Vi rekommenderar att du använder sidans fulla bredd för avsnittet [!DNL Workfront] i stället för en av layoutens kolumner.
+   We recommend using the full width of the page for the [!DNL Workfront] section instead of one of the columns of the layout.
 
-1. Klicka på **[!UICONTROL Save]**.
+1. Click **[!UICONTROL Save]**.
 
-   Alla användare som har den här layouten tilldelad kan nu se avsnittet [!DNL Workfront] på sina [!UICONTROL Opportunities] - eller [!UICONTROL Accounts]-objekt.
+   All users who have this layout assigned to them are now able to see the [!DNL Workfront] section on their [!UICONTROL Opportunities] or [!UICONTROL Accounts] objects.
 
    >[!NOTE]
    >
-   >Användarna ser inloggningsskärmen [!DNL Workfront] i avsnittet [!DNL Workfront]. Om de inte har något [!DNL Workfront]-konto kan de komprimera avsnittet, men inte ta bort det från layouten. Användare kan logga in med den autentiseringsmetod som du har aktiverat: Förbättrad autentisering eller din SAML-URL (Security Assertion Markup Language).
+   >Users see a [!DNL Workfront] login screen on the [!DNL Workfront] section. If they do not have a [!DNL Workfront] account, they can collapse the section, but not remove it from their layout. Users can log in using the authentication method you have enabled: Enhanced Authentication or your Security Assertion Markup Language (SAML) URL.
+
+   -->
 

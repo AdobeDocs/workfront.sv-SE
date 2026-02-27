@@ -6,9 +6,9 @@ description: När du har installerat [!DNL Adobe Workfront] för Salesforce kan 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b38c91ae-342b-4002-a947-7a0ab1aaca93
-source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
+source-git-commit: 6af620284ed9c710196d8976a9f6cac1b3b36cf1
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---
@@ -17,19 +17,21 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->För att kunna leverera mer stabila och skalbara integreringar går vi över till en modern, flexibel integrationsstrategi med hjälp av Workfront Automation and Integration (Fusion). Integreringen av Workfront för Salesforce kommer inte att vara tillgänglig efter den **28 februari 2026**.
+>För att kunna leverera mer stabila och skalbara integreringar har vi gått över till en modern, flexibel integrationsmetod med Workfront Automation and Integration (Fusion). Integreringen **för Workfront för Salesforce är inte längre tillgänglig** som en del av den här övergångsprocessen.
 >
 >Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Salesforce.
 >
->En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Mer information om de specifika funktionerna i Workfront Automation and Integration-modulerna för Salesforce finns i [Salesforce-moduler](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
+>Mer information om de specifika funktionerna i Workfront Automation and Integration-modulerna för Salesforce finns i [Salesforce-moduler](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
-När du har installerat [!DNL Adobe Workfront] för Salesforce kan du definiera utlösare som skapar [!DNL Workfront]-projekt när vissa villkor uppfylls för [!DNL Salesforce] [!UICONTROL Opportunities] och [!UICONTROL Accounts].
+<!--
 
-## Åtkomstkrav
+After installing [!DNL Adobe Workfront] for Salesforce, you can define triggers that create [!DNL Workfront] projects when certain criteria are met on [!DNL Salesforce] [!UICONTROL Opportunities] and [!UICONTROL Accounts].
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,211 +39,213 @@ När du har installerat [!DNL Adobe Workfront] för Salesforce kan du definiera 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Alla</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> <p>Standard</p>
    <p>Plan</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## Förutsättningar
+## Prerequisites
 
-Skicka en [!DNL Workfront]-begäran från ett [!DNL Salesforce] [!UICONTROL Opportunity] eller konto
-Kontrollera att du har följande i din miljö:
+To submit a [!DNL Workfront] request from a [!DNL Salesforce] [!UICONTROL Opportunity] or Account
+ ensure that you have the following in your environment:
 
-* [!DNL Workfront]-administratören har installerat [!DNL Workfront for Salesforce].\
-   Mer information om att installera [!DNL Workfront for Salesforce] finns i [Installera [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
+* Your [!DNL Workfront] administrator has installed [!DNL Workfront for Salesforce].\
+   For more information about installing [!DNL Workfront for Salesforce], see [Install [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
 
-* Din [!DNL Workfront]-administratör har lagt till avsnittet [!DNL Workfront] i din [!UICONTROL Opportunity] och ditt konto
-sidlayouter.\
-   Mer information om hur du lägger till avsnittet [!DNL Workfront] i en sidlayout finns i [Konfigurera avsnittet  [!DNL Adobe Workfront] för [!DNL Salesforce] användare](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
+* Your [!DNL Workfront] administrator has added the [!DNL Workfront] section to your [!UICONTROL Opportunity] and Account
+ page layouts.\
+   For more information about adding the [!DNL Workfront] section to a page layout, see [Configure the [!DNL Adobe Workfront] section for [!DNL Salesforce] users](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
-* Du har ett [!DNL Workfront]-konto och du kan logga in på det från avsnittet [!DNL Workfront] i ditt [!UICONTROL Opportunity]- eller konto
+* You have a [!DNL Workfront] account and you can log in to it from the [!DNL Workfront] section inside your [!UICONTROL Opportunity] or Account
 .
 
-## Konfigurerar skapande av [!DNL Workfront] projekt från [!DNL Salesforce]
+## Configuring the Creation of [!DNL Workfront] Projects from [!DNL Salesforce]
 
-* [Så här skapar du projekt automatiskt](#understanding-the-automatic-creation-of-projects-understanding-the-automatic-creation-of-projects)
-* [Konfigurera utlösare](#configuring-triggers-configuring-triggers)
-* [Förstå projektnamn](#understanding-project-names-understanding-project-names)
+* [Understanding the Automatic Creation of Projects](#understanding-the-automatic-creation-of-projects-understanding-the-automatic-creation-of-projects)
+* [Configuring Triggers](#configuring-triggers-configuring-triggers)
+* [Understanding Project Names](#understanding-project-names-understanding-project-names)
 
-### Så här skapar du projekt automatiskt {#understanding-the-automatic-creation-of-projects}
+### Understanding the Automatic Creation of Projects {#understanding-the-automatic-creation-of-projects}
 
-Som [!DNL Salesforce]-systemadministratör kan du definiera utlösare som automatiskt kan skapa projekt i [!DNL Workfront] när följande saker händer i [!DNL Salesforce]:
+As the [!DNL Salesforce] system administrator, you can define triggers that can automatically create projects in [!DNL Workfront] when the following things happen in [!DNL Salesforce]:
 
-* [!UICONTROL Stage] för en [!UICONTROL Opportunity] har uppdaterats.
-* [!UICONTROL Type] för ett konto
-uppdateras.
+* The [!UICONTROL Stage] of an [!UICONTROL Opportunity] is updated.
+* The [!UICONTROL Type] of an Account
+ is updated.  
 
-Utlösare kan bara konfigureras efter att du har installerat [!DNL Workfront for Salesforce].  \
-Information om hur du installerar [!DNL Workfront for Salesforce] finns i [Installera [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
+Triggers can be configured only after you have installed [!DNL Workfront for Salesforce].  \
+For information about installing [!DNL Workfront for Salesforce], see [Install [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
 
-Tänk på följande när du konfigurerar utlösare för att automatiskt skapa [!DNL Workfront] projekt när [!DNL Salesforce] objekt skapas eller uppdateras:
+Consider the following when configuring triggers to automatically create [!DNL Workfront] projects when [!DNL Salesforce] items are created or updated:
 
-* Du måste vara [!DNL Salesforce] och [!DNL Workfront]-systemadministratör för att kunna konfigurera utlösare.
-* När du har konfigurerat utlösarna kan alla som uppdaterar [!UICONTROL Stage] för ett [!UICONTROL Opportunity] eller [!UICONTROL Type] för ett konto
-kan utlösa att ett [!DNL Workfront] -projekt skapas. Detta inkluderar [!DNL Salesforce] användare som inte har något [!DNL Workfront]-konto.
-* Det finns ingen gräns för hur många utlösare du kan ha.
-* Du kan inte skapa flera utlösare baserat på samma villkor. Utlösare är unika som standard.
-* När projektet har skapats länkas det automatiskt till affärsmöjligheten eller kontot där det skapades. Länken kan inte brytas när den väl har upprättats.
-* En affärsmöjlighet eller ett konto kan länkas till flera projekt i [!DNL Workfront] när ett utlöst villkor har uppfyllts flera gånger under affärsmöjlighetens eller kontots livstid.
+* You must be a [!DNL Salesforce] and a [!DNL Workfront] system administrator to configure triggers. 
+* After you configure the triggers, anyone who updates the [!UICONTROL Stage] of an [!UICONTROL Opportunity] or the [!UICONTROL Type] of an Account
+ can trigger the creation of a [!DNL Workfront] project. This includes [!DNL Salesforce] users who do not have a [!DNL Workfront] account. 
+* There is no limit to how many triggers you can have.
+* You cannot create multiple triggers based on the same conditions. Triggers are unique by default.
+* Once the project is created it is automatically linked to the opportunity or the account where it was generated. Once established, this link cannot be broken.
+* One opportunity or account can be linked to multiple projects in [!DNL Workfront] when a triggered condition has been met multiple times in the life of the opportunity or the account.
 
-  Om du till exempel definierar mer än en [!UICONTROL Stage] för en [!UICONTROL Opportunity] som ska utlösa ett projekt, skapas ett projekt för varje definierad fas som affärsmöjligheten når under affärsmöjlighetens livstid. Om du uppdaterar [!UICONTROL Stage] för en [!UICONTROL Opportunity] från en definierad fas till en annan och sedan uppdaterar den tillbaka till den definierade scenen skapas ett andra projekt för andra gången du uppdaterar fältet [!UICONTROL Stage] till samma definierade fas.
+   For example, if you define more then one [!UICONTROL Stage] for an [!UICONTROL Opportunity] to trigger a Project, a project is created for every defined stage that the opportunity reaches, for the life of that opportunity. Also, if you update the [!UICONTROL Stage] of an [!UICONTROL Opportunity] from one defined stage to another, and then update it back to the defined stage, a second project is created for the second time you update the [!UICONTROL Stage] field to the same defined stage. 
 
-* Ett projekt i [!DNL Workfront] kan bara länkas till en affärsmöjlighet eller ett konto i [!DNL Salesforce] vid en given tidpunkt, men inte till båda samtidigt.
+* One project in [!DNL Workfront] can be linked only to one opportunity or one account in [!DNL Salesforce] at any given time, but not to both at the same time. 
 
-### Konfigurera utlösare {#configuring-triggers}
+### Configuring Triggers {#configuring-triggers}
 
-När du har konfigurerat utlösarna aktiveras processen för att skapa [!DNL Workfront]-projekt för både [!UICONTROL Salesforce Classic]- och [!DNL Lightning Experience]-ramverk.
+Once you configure the triggers, the process of creating [!DNL Workfront] projects is enabled for both [!UICONTROL Salesforce Classic] or [!DNL Lightning Experience] frameworks.
 
-Konfigurera utlösare i [!UICONTROL Salesforce]:
+To configure triggers in [!UICONTROL Salesforce]:
 
-1. Logga in på [!DNL Salesforce] som systemadministratör.
-1. (Villkorligt) Klicka på [!DNL Salesforce Classic] i **[!UICONTROL Setup]** och expandera **[!UICONTROL Build]** under avsnittet **[!UICONTROL Lightning Bolt]**.
+1. Log in to [!DNL Salesforce] as the system administrator. 
+1. (Conditional) In [!DNL Salesforce Classic], click **[!UICONTROL Setup]**, and under the **[!UICONTROL Build]** section, expand **[!UICONTROL Lightning Bolt]**.
 
-   eller
+   Or
 
-   I [!DNL Salesforce] Lightning Experience klickar du på ikonen **[!UICONTROL Setup]**, sedan på **[!UICONTROL Setup]** och under **[!UICONTROL PLATFORM TOOLS]** expandera **[!UICONTROL Apps]**.
+   In [!DNL Salesforce] Lightning Experience, click the **[!UICONTROL Setup] icon**, then **[!UICONTROL Setup]**, and under **[!UICONTROL PLATFORM TOOLS]** expand **[!UICONTROL Apps]**.
 
-1. Klicka på **[!UICONTROL Installed Packages]**.
+1. Click **[!UICONTROL Installed Packages]**.
 
-   Observera att paketet **[!DNL Workfront]** har installerats.
+   Notice that the **[!DNL Workfront]** package has been installed.
 
-1. Klicka på **[!UICONTROL Configure]** bredvid **[!DNL Workfront]**.
+1. Click **[!UICONTROL Configure]** next to **[!DNL Workfront]**.
 
-1. Logga in på [!DNL Workfront] som systemadministratör.
+1. Log in to [!DNL Workfront] as a system administrator.
 
-   Sidan **[!UICONTROL Triggers]** visas.
+   The **[!UICONTROL Triggers]** page displays.
 
    ![salesforce_triggers_page_empty.png](assets/salesforce-triggers-page-empty-350x134.png)
 
-1. Klicka på **[!UICONTROL New Trigger]**.
-1. Välj **[!UICONTROL [!DNL Salesforce] Object]** i listrutan **[!UICONTROL Opportunity]**.
+1. Click **[!UICONTROL New Trigger]**. 
+1. From the **[!UICONTROL [!DNL Salesforce] Object]** drop-down menu, select **[!UICONTROL Opportunity]**.
 
-   Detta är ett obligatoriskt fält.
+   This is a required field.
 
-1. (Villkorligt) Ange följande:
+1. (Conditional) Specify the following:
 
-   1. Välj en **[!UICONTROL Stage]** i listrutan **[!UICONTROL Stage]**.\
+   1. From the **[!UICONTROL Stage]** drop-down menu, select a **[!UICONTROL Stage]**.\
 
-      När en affärsmöjlighet når den [!UICONTROL Stage] som anges här skapas ett projekt i [!DNL Workfront]. Detta är ett obligatoriskt fält.
+      When an opportunity reaches the [!UICONTROL Stage] specified here, a project is created in [!DNL Workfront]. This is a required field.
 
-   1. I fältet **[!UICONTROL Portfolio or Program]** börjar du skriva namnet på en Portfolio eller ett program där du vill att projektet ska placeras i [!DNL Workfront] och markerar det sedan när det visas i listan.\
+   1. In the **[!UICONTROL Portfolio or Program]** field, start typing the name of a Portfolio or Program where you want the project to be placed in [!DNL Workfront], then select it when it appears in the list.\
 
-      Om du inte anger en Portfolio eller ett program skapas det nya projektet och läggs till i listan [!UICONTROL Projects I Own] för användaren som är inloggad på [!DNL Workfront] när utlösarna konfigureras. Användaren är också projektägare för det nya projektet.
+      If you do not specify a Portfolio or a Program, the new project is created and added to the [!UICONTROL Projects I Own] list of the user logged in to [!DNL Workfront] when configuring the triggers. That user is also the Project Owner for the new project.
 
-   1. Börja skriva namnet på en mall som du vill associera med det nya [!DNL Workfront]-projektet och markera det sedan när det visas i listan.\
+   1. Start typing the name of a Template that you want to associate with the new [!DNL Workfront] project, then select it when it appears in the list.\
 
-      Detta är ett obligatoriskt fält.
+      This is a required field. 
 
 
       >[!NOTE]
       >
-      >Om du har angett en mallägare i mallen som du tänker använda för den här integreringen blir det projektägaren för det nya projektet. De nya projekten visas i listan [!UICONTROL Projects I Own] för den användare som är ägare av det nya projektet, enligt mallen.
+      >If you have specified a Template Owner on the template that you are planning to use for this integration, that becomes the Project Owner of the new project. The new projects appear under the [!UICONTROL Projects I Own] list of the user who is the owner of the new project, according to the template.
 
-   1. (Valfritt) Välj fältet **[!UICONTROL Create a new project for each sold product type]** om du vill skapa ett nytt projekt för varje typ av produkt som säljs inom ett affärstillfälle.
-   1. (Villkorligt) Välj en **[!UICONTROL Product]** i listrutan **[!UICONTROL Product]**.
+   1. (Optional) Select the **[!UICONTROL Create a new project for each sold product type] field**, if you want to create a new project for every type of product that is sold under any one opportunity. 
+   1. (Conditional) Select a **[!UICONTROL Product]** in the **[!UICONTROL Product]** drop-down menu.
 
-      Detta är ett obligatoriskt fält.
+      This is a required field.
 
-   1. (Villkorligt) Börja skriva namnet på **[!UICONTROL Template]** som du vill associera med det nya [!DNL Workfront]-projektet om den angivna produkten finns i [!UICONTROL Opportunity]. Markera den när den visas i listan.
+   1. (Conditional) Start typing the name of a **[!UICONTROL Template]** that you want to associate with the new [!DNL Workfront] project if the specified Product is on the [!UICONTROL Opportunity]. Select it when it appears in the list.
 
-      Detta är ett obligatoriskt fält.
+      This is a required field.
 
-      Det projekt som skapas när en ny produkt läggs till i affärsmöjligheten [!DNL Salesforce] placeras i samma Portfolio eller Program som valts för affärsmöjligheten.
+      The project created when a new product is added to the [!DNL Salesforce] opportunity is placed in the same Portfolio or Program selected for the opportunity.
 
       >[!IMPORTANT]
       >
-      >Projektet skapas endast när scenen uppdateras på [!UICONTROL Opportunity]. Ett unikt projekt skapas för varje produkt som anges när scenfältet uppdateras, och inte när produkterna läggs till i [!UICONTROL Opportunities].
+      >The project is created only when the Stage is updated on the [!UICONTROL Opportunity]. A unique project is created for each product specified when the Stage field is updated, and not as the products are added to [!UICONTROL Opportunities].
 
-1. (Valfritt) Klicka på **[!UICONTROL New Trigger]**.
-1. (Valfritt) Välj **Konto i listrutan &#x200B;** [!UICONTROL [!DNL Salesforce] Object]**
+1. (Optional) Click **[!UICONTROL New Trigger]**. 
+1. (Optional) From the **[!UICONTROL [!DNL Salesforce] Object]** drop-down menu, select **Account
 **.
 
-   Detta är ett obligatoriskt fält.
-1. (Villkorligt) Ange följande:
+   This is a required field. 
+1. (Conditional) Specify the following: 
 
-   1. Välj en **[!UICONTROL Type]** i listrutan **[!UICONTROL Type]**.
+   1. Select a **[!UICONTROL Type]** from the **[!UICONTROL Type]** drop-down menu.
 
-      Vid ett **konto
-**&#x200B; anges som &#x200B;** [!UICONTROL Type] **&#x200B; som anges här i [!DNL Salesforce], en &#x200B;** [!UICONTROL Project]** skapas i [!DNL Workfront].
+      When any **Account
+** is designated as the **[!UICONTROL Type]** specified here in [!DNL Salesforce], a **[!UICONTROL Project]** is created in [!DNL Workfront].
 
-      Detta är ett obligatoriskt fält.
+      This is a required field. 
 
-   1. (Valfritt) Börja skriva namnet på **[!UICONTROL Portfolio]** eller **[!UICONTROL Program]** där du vill att projektet ska placeras i [!DNL Workfront] i fältet **[!UICONTROL Portfolio or Program]** och markera det sedan när det visas i listan.
+   1. (Optional) Start typing the name of a **[!UICONTROL Portfolio]** or **[!UICONTROL Program]** where you want the project to be placed in [!DNL Workfront] in the **[!UICONTROL Portfolio or Program]** field, then select it when it appears in the list.
 
-      Om du inte anger en Portfolio eller ett program skapas det nya projektet och läggs till i listan **[!UICONTROL Projects I Own]** för användaren som är inloggad på [!DNL Workfront] från [!DNL Salesforce]. Användaren är också projektägare för det nya projektet.
+      If you do not specify a Portfolio or a Program, the new project is created and added to the **[!UICONTROL Projects I Own]** list of the user logged in to [!DNL Workfront] from [!DNL Salesforce]. The user is also the Project Owner for the new project. 
 
-   1. Börja skriva namnet på **[!UICONTROL Template]** som du vill associera med det nya [!DNL Workfront]-projektet och markera det sedan när det visas i listan.
+   1. Start typing the name of a **[!UICONTROL Template]** that you want to associate with the new [!DNL Workfront] project, then select it when it appears in the list.
 
-      Detta är ett obligatoriskt fält.
+      This is a required field. 
 
       >[!NOTE]
       >
-      >Om du har angett en mallägare i mallen som du tänker använda för den här integreringen blir det projektägaren för det nya projektet. De nya projekten visas i listan **[!UICONTROL Projects I Own]** för den användare som är ägare av det nya projektet, enligt mallen.
+      >If you have specified a Template Owner on the template that you are planning to use for this integration, that becomes the Project Owner of the new project. The new projects appear under the **[!UICONTROL Projects I Own]** list of the user who is the owner of the new project, according to the template.
 
-   ![salesforce_triggers_page_with_clean_up_template_names.png](assets/salesforce-triggers-page-with-cleaned-up-template-names-350x157.png)
+   ![salesforce_triggers_page_with_cleaned_up_template_names.png](assets/salesforce-triggers-page-with-cleaned-up-template-names-350x157.png)
 
-1. Klicka på **[!UICONTROL Save]**.
+1. Click **[!UICONTROL Save]**.
 
-   [!DNL Workfront] projekt genereras nu varje gång någon av utlösarna uppfylls.
+   [!DNL Workfront] projects are now generated every time any of the triggers are met.
 
-### Förstå projektnamn {#understanding-project-names}
+### Understanding Project Names {#understanding-project-names}
 
-Beroende på vilken utlösare som genererade projekten kan projektnamnen i [!DNL Workfront] följa något av följande mönster:
+Depending on which trigger generated the projects, the names of the projects in [!DNL Workfront] could follow either one of these patterns:
 
-* Om projektet skapas baserat på en affärsmöjlighet eller kontoutlösare är projektets namn: *`<Salesforce object name>`: `<Project template name>` (via [!DNL Salesforce])*.
-* Om projektet skapas baserat på en affärsmöjlighetsutlösare som även innehåller en ny produkt, är projektets namn: *`<Salesforce object name>`: `<Salesforce product name>` (via [!DNL Salesforce])*.
+* If the project is created based on an opportunity or account trigger, the name of the project is: *`<Salesforce object name>`: `<Project template name>` (via [!DNL Salesforce])*.
+* If the project is created based on an opportunity trigger that also includes the addition of a new Product, the name of the project is: *`<Salesforce object name>`: `<Salesforce product name>` (via [!DNL Salesforce])*.
 
-## Visa [!DNL Workfront] projekt
+## View [!DNL Workfront] projects
 
-Om [!DNL Workfront]-administratören har lagt till avsnittet [!DNL Workfront] i din [!UICONTROL Opportunity] eller ditt konto
-sidlayout kan du se de projekt som skapas automatiskt på fliken [!UICONTROL Projects] i det här avsnittet.\
-Mer information om hur du lägger till avsnittet [!DNL Workfront] i sidlayouten för ett [!UICONTROL Opportunity] eller konto
-, se [Konfigurera  [!DNL Adobe Workfront] avsnittet för [!DNL Salesforce] användare](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md) .
+If your [!DNL Workfront] administrator added the [!DNL Workfront] section to your [!UICONTROL Opportunity] or Account
+ page layout, you can see the projects automatically created in the [!UICONTROL Projects] tab of this section.\
+For more information about adding the [!DNL Workfront] section to the page layout of an [!UICONTROL Opportunity] or Account
+, see [Configure the [!DNL Adobe Workfront] section for [!DNL Salesforce] users](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
-Du måste ha ett [!DNL Workfront]-konto och vara inloggad på [!DNL Workfront] för att kunna visa fliken [!UICONTROL Projects].
+You must have a [!DNL Workfront] account and be logged in to [!DNL Workfront] to view the [!UICONTROL Projects] tab.
 
-Så här visar du projekt som skapats från ett [!UICONTROL Opportunity] eller konto
-:
+To view projects created from an [!UICONTROL Opportunity] or Account
+: 
 
-1. Gå till ett [!UICONTROL Opportunity] eller konto
+1. Go to an [!UICONTROL Opportunity] or Account
 .
-1. Gå till avsnittet **[!DNL Workfront]**.
+1. Go to the **[!DNL Workfront]** section.
 
    >[!NOTE]
    >
-   >Beroende på hur administratören för [!DNL Workfront] konfigurerade det här avsnittet kan det ha ett annat namn.
+   >Depending on how your [!DNL Workfront] administrator configured this section, it might have a different name.
 
-1. Klicka på fliken **[!UICONTROL Projects]**.  
+1. Select the **[!UICONTROL Projects]** tab.
 
-   Alla projekt som skapas av definierade utlösare visas på den här fliken. Alla användare i [!DNL Salesforce] som också har ett [!DNL Workfront]-konto och som kan ha behörighet att se de här projekten i [!DNL Workfront] kan också se dem i [!DNL Salesforce] för [!UICONTROL Opportunity] eller kontot
-som genererade dem.
+   All projects created by defined triggers are listed in this tab. Any user in [!DNL Salesforce] who also has a [!DNL Workfront] account and who might have permissions to see these projects in [!DNL Workfront] can also see them in [!DNL Salesforce] for the [!UICONTROL Opportunity] or the Account
+ that generated them.
 
-   Du kan visa följande information om de projekt som har skapats av integreringen:
+   You can view the following information about the projects created by the integration:
 
-   * Projektnamn
-   * Referensnummer
-   * Anmälningsdatum
-   * Ägarens namn
+   * Project Name 
+   * Reference Number
+   * Entry Date
+   * Name of the Owner
    * Status
-   * Villkor
-   * Planerat slutförandedatum
-   * Procent färdigt
+   * Condition
+   * Planned Completion Date
+   * Percent Complete
 
-     När den här informationen uppdateras i [!DNL Workfront] kan du se fälten uppdaterade i den här listan.
+      When this information is updated in [!DNL Workfront], you can see the fields updated in this list. 
 
-1. (Valfritt) Klicka på namnet på ett projekt för att öppna det i Workfront.
-1. (Valfritt) Klicka på [!UICONTROL **[!UICONTROL Go to Salesforce]**] i området [!UICONTROL Project Details] eller projekthuvudet för att komma åt [!UICONTROL Opportunity] eller kontot
-där projektet har sitt ursprung. Systemet eller gruppadministratören måste lägga till fältet [!UICONTROL Integrations] i layoutmallen för att kunna hitta det i projekthuvudet.
+1. (Optional) Click the name of a project to open it in Workfront.
+1. (Optional) Click [!UICONTROL **[!UICONTROL Go to Salesforce]**] in the [!UICONTROL Project Details] area or the project header to access the [!UICONTROL Opportunity] or the Account
+ where the project originated. Your system or group administrator must add the [!UICONTROL Integrations] field to your layout template to find it in the project header.
 
    >[!NOTE]
    >
-   >Länken [!UICONTROL Go to Salesforce] är synlig för alla [!DNL Workfront]-användare som kan visa projektet. Du måste ha ett [!DNL Salesforce]-konto för att kunna gå till [!DNL Salesforce]-säljprojektet eller kontot som projektet skapades från.
+   >The [!UICONTROL Go to Salesforce] link is visible to all [!DNL Workfront] users who can view the project. You must have a [!DNL Salesforce] account to be able to go to the [!DNL Salesforce] Opportunity or Account from where the project was generated.
+
+   -->

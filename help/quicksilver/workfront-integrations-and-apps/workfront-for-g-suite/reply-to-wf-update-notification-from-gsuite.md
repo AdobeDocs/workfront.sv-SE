@@ -7,9 +7,9 @@ description: När du får ett meddelande om en uppdatering i  [!DNL Adobe] [!DNL
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b39c53b5-02b6-4c13-9f25-83cb3e3096d8
-source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
+source-git-commit: 228fd22f1894689c0d256270350cc82954901641
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->För att kunna leverera mer stabila och skalbara integreringar går vi över till en modern, flexibel integrationsstrategi med hjälp av Workfront Automation and Integration (Fusion). Under den här övergångsprocessen kommer följande Workfront för Google Workspace-funktioner inte att vara tillgängliga efter **28 februari 2026**:
+>För att kunna leverera mer stabila och skalbara integreringar har vi gått över till en modern, flexibel integrationsmetod med Workfront Automation and Integration (Fusion). Som en del av den här övergångsprocessen är följande Workfront för Google Workspace-funktioner **inte längre tillgängliga**:
 >
 >* Åtkomst till Google Workspace-funktioner inifrån Workfront
 >
@@ -26,15 +26,17 @@ ht-degree: 0%
 >
 >Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Google Workspace.
 >
->En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Mer information om de specifika funktionerna i Workfront Automation and Integration-modulerna för Google Workspace finns i [Gmail-moduler](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) och [Google Calendar-moduler](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
+>Mer information om de specifika funktionerna i Workfront Automation and Integration-modulerna för Google Workspace finns i [Gmail-moduler](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) och [Google Calendar-moduler](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
-När du får ett meddelande om en uppdatering i [!DNL Adobe Workfront] kan du snabbt skicka ett svar från [!DNL Workfront for Google Workspace].
+<!--
 
-## Åtkomstkrav
+When you receive a notification about an update in [!DNL Adobe Workfront], you can quickly post a reply from [!DNL Workfront for Google Workspace].
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,33 +44,35 @@ När du får ett meddelande om en uppdatering i [!DNL Adobe Workfront] kan du sn
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Alla</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Standard</p><p>Arbeta eller högre</p>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p><p>Work or higher</p>
   </tr> 
  </tbody> 
 </table>
 
-Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## Förutsättningar
+## Prerequisites
 
-Innan du kan skapa en [!DNL Workfront]-uppgift i [!DNL Google Workspace] måste du
+Before you can create a [!DNL Workfront] task in [!DNL Google Workspace], you must
 
-* Installera [!DNL Workfront for Google Workspace]\
-   Instruktioner finns i [Installera [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+* Install [!DNL Workfront for Google Workspace]\
+   For instructions, see [Install [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## Svara på ett uppdateringsmeddelande från [!DNL Google Workspace]
+## Reply to an update notification from [!DNL Google Workspace]
 
-1. Om panelen [!UICONTROL Workfront for Google Workspace] inte visas klickar du på ikonen [!DNL Workfront] ![Workfront &#x200B;](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace]-tillägg längst till höger på sidan.
-1. Öppna e-postmeddelandet [!DNL Workfront] som innehåller uppdateringen.
-1. Långt ned på panelen [!UICONTROL Workfront for Google Workspace] klickar du på **[!UICONTROL Post a comment]** och skriver in ditt svar.
-1. (Valfritt) Om du vill meddela vissa användare om ditt svar klickar du på **[!DNL Notify people and teams]**, börjar skriva ett namn och klickar sedan på namnet när det visas i listrutan.
+1. If the [!UICONTROL Workfront for Google Workspace] panel is not displayed, click the [!DNL Workfront] icon ![Workfront icon](assets/wf-lion-icon.png) in the [!DNL Google Workspace] add-ons sidebar at the far-right of the page.
+1. Open the [!DNL Workfront] email notification that contains the update. 
+1. Near the bottom of the [!UICONTROL Workfront for Google Workspace] panel, click **[!UICONTROL Post a comment]**, then type your reply.
+1. (Optional) To notify particular users about your reply, click **[!DNL Notify people and teams]**, begin typing a name, then click the name when it appears in the drop-down list.
 
-   Du kan upprepa det här steget för andra namn som du vill lägga till.
+   You can repeat this step for any other names you want to add.
 
-1. Klicka på **[!DNL Post]**.
+1. Click **[!DNL Post]**.
+
+-->

@@ -7,9 +7,9 @@ description: När du öppnar ett e-postmeddelande som har skickats från Adobe [
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
+source-git-commit: 228fd22f1894689c0d256270350cc82954901641
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->För att kunna leverera mer stabila och skalbara integreringar går vi över till en modern, flexibel integrationsstrategi med hjälp av Workfront Automation and Integration (Fusion). Under den här övergångsprocessen kommer följande Workfront för Google Workspace-funktioner inte att vara tillgängliga efter **28 februari 2026**:
+>För att kunna leverera mer stabila och skalbara integreringar har vi gått över till en modern, flexibel integrationsmetod med Workfront Automation and Integration (Fusion). Som en del av den här övergångsprocessen är följande Workfront för Google Workspace-funktioner **inte längre tillgängliga**:
 >
 >* Åtkomst till Google Workspace-funktioner inifrån Workfront
 >
@@ -26,19 +26,21 @@ ht-degree: 0%
 >
 >Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Google Workspace.
 >
->En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Mer information om de specifika funktionerna i Workfront Automation and Integration-modulerna för Google Workspace finns i [Gmail-moduler](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) och [Google Calendar-moduler](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
+>Mer information om de specifika funktionerna i Workfront Automation and Integration-modulerna för Google Workspace finns i [Gmail-moduler](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) och [Google Calendar-moduler](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
-När du öppnar ett e-postmeddelande som [!DNL Google Workspace] har skickat i [!DNL Adobe Workfront] kan du visa den associerade arbetsuppgiftens information och svara utan att lämna din [!UICONTROL Inbox]. Om det finns tillgängliga åtgärder, till exempel godkännande av en begäran, kan du utföra dessa åtgärder direkt från [!DNL Workfront for Google Workspace].
+<!--
+
+In [!DNL Google Workspace], when you open a notification email [!DNL Adobe Workfront] has sent, you can view the associated work item details and respond without leaving your [!UICONTROL Inbox]. If actions are available, such as approving a request, you can perform those actions directly from [!DNL Workfront for Google Workspace].
 
 >[!NOTE]
 >
-> [!DNL Workfront for Google Workspace] stöder nästan alla typer av e-postmeddelanden som du kan ta emot från [!DNL Workfront] (ungefär 120 olika typer). [!UICONTROL Daily digest] e-postmeddelanden som skickas från [!DNL Workfront] visas inte i [!DNL Workfront for Google Workspace]. Mer information om meddelandetyperna [!DNL Workfront] finns i [Ändra dina egna e-postmeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+> [!DNL Workfront for Google Workspace] supports almost every type of email notification you can receive from [!DNL Workfront] (about 120 different types). [!UICONTROL Daily digest] emails sent from [!DNL Workfront] do not appear in [!DNL Workfront for Google Workspace]. For information about the [!DNL Workfront] email notification types, see [Modify your own email notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-## Åtkomstkrav
+## Access requirements
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,69 +48,71 @@ När du öppnar ett e-postmeddelande som [!DNL Google Workspace] har skickat i [
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Alla</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Standard</p><p>Arbeta eller högre</p>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p><p>Work or higher</p>
   </tr> 
  </tbody> 
 </table>
 
-Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## Förutsättningar
+## Prerequisites
 
-Innan du kan hantera meddelandeinformation från [!DNL Google Workspace] måste du
+Before you can manage notification details from [!DNL Google Workspace], you must
 
-* Installera [!DNL Workfront for Google Workspace]\
-   Instruktioner finns i [Installera [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+* Install [!DNL Workfront for Google Workspace]\
+   For instructions, see [Install [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## Hantera meddelandeinformation för [!DNL Adobe Workfront] från [!DNL Google Workspace]
+## Manage [!DNL Adobe Workfront] notification details from [!DNL Google Workspace]
 
-1. Om panelen [!DNL Workfront for Google Workspace] inte visas klickar du på ikonen [!DNL Workfront] ![Workfront &#x200B;](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace]-tillägg längst till höger på sidan.
-1. Öppna ett [!DNL Google Workspace]-meddelande i [!DNL Workfront].
-1. Klicka på **[!UICONTROL View all updates]** om den visas nära panelens övre del.
-1. Klicka på **[!UICONTROL Details]**.
-1. Klicka på eventuella tillgängliga alternativ.
+1. If the [!DNL Workfront for Google Workspace] panel is not displayed, click the [!DNL Workfront] icon ![Workfront icon](assets/wf-lion-icon.png) in the [!DNL Google Workspace] add-ons sidebar at the far-right of the page.
+1. In [!DNL Google Workspace], open a [!DNL Workfront] notification email.
+1. Click **[!UICONTROL View all updates]** if it is displayed near the top of the panel.
+1. Click **[!UICONTROL Details]**.
+1. Click any available options.
 
-   De alternativ som kan visas gäller den typ av e-postmeddelanden som du har öppnat. Om det till exempel är ett e-postmeddelande där du ombeds godkänna en uppgift, visas **[!UICONTROL Approve]** och **[!UICONTROL Reject]** i stället för alternativ som **[!UICONTROL Work on It]** eller **[!UICONTROL Done]**:
+   The options that might display relate to the type of email notification you have opened. For example, if it's an email notification asking you to approve a task, you see **[!UICONTROL Approve]** and **[!UICONTROL Reject]** instead of options such as **[!UICONTROL Work on It]** or **[!UICONTROL Done]**:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <thead> 
      <tr> 
-      <th>Typ av e-postmeddelande</th> 
-      <th>Åtgärd</th> 
+      <th>Type of email notification</th> 
+      <th>Action</th> 
      </tr> 
     </thead> 
     <tbody> 
      <tr> 
-      <td>Aktivitet eller problem</td> 
-      <td><strong>[!UICONTROL Approve]</strong> den, <strong>[!UICONTROL Reject]</strong> den, <strong>[!UICONTROL Grant]</strong> åtkomst till den, <strong>[!UICONTROL Ignore]</strong> en begäran om åtkomst till den, <strong>[!UICONTROL Work on it]</strong> eller klicka på ett alternativ som anger att du är <strong>[!UICONTROL Done]</strong> med den</td> 
+      <td>Task or issue</td> 
+      <td><strong>[!UICONTROL Approve]</strong> it, <strong>[!UICONTROL Reject]</strong> it, <strong>[!UICONTROL Grant]</strong> access to it, <strong>[!UICONTROL Ignore]</strong> a request for access to it, <strong>[!UICONTROL Work on it]</strong>, or click an option to indicate that you are <strong>[!UICONTROL Done]</strong> with it</td> 
      </tr> 
      <tr> 
-      <td>Projekt</td> 
-      <td><strong>[!UICONTROL Approve]</strong> den, <strong>[!UICONTROL Reject]</strong> den, <strong>[!UICONTROL Grant]</strong> åtkomst till den eller <strong>[!UICONTROL Ignore]</strong> en begäran om åtkomst till den</td> 
+      <td>Project</td> 
+      <td><strong>[!UICONTROL Approve]</strong> it, <strong>[!UICONTROL Reject]</strong> it, <strong>[!UICONTROL Grant]</strong> access to it, or <strong>[!UICONTROL Ignore]</strong> a request for access to it</td> 
      </tr> 
      <tr> 
-      <td>Dokument</td> 
-      <td><strong>[!UICONTROL Approve]</strong> den, <strong>[!UICONTROL Reject]</strong> den, <strong>[!UICONTROL Grant]</strong> åtkomst till den eller <strong>[!UICONTROL Ignore]</strong> en begäran om åtkomst till den</td> 
+      <td>Document</td> 
+      <td><strong>[!UICONTROL Approve]</strong> it, <strong>[!UICONTROL Reject]</strong> it, <strong>[!UICONTROL Grant]</strong> access to it, or <strong>[!UICONTROL Ignore]</strong> a request for access to it</td> 
      </tr> 
      <tr> 
-      <td>Uppdatering </td> 
-      <td> <p>Visa en del av hela listan med uppdateringar för objektet så att du har den kontext du behöver för att <strong>[!UICONTROL Post]</strong> en ny uppdatering eller en <strong>[!UICONTROL Reply]</strong>. Du kan klicka på <strong>[!UICONTROL Notify]</strong> om du vill varna vissa användare om ditt svar. </p> <p>Mer information finns i <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md" class="MCXref xref">Svara på ett [!DNL Adobe Workfront] uppdateringsmeddelande från [!DNL Google Workspace]</a>.</p> </td> 
+      <td>Update </td> 
+      <td> <p>View any part of the entire list of updates for the item so that you have the context you need to <strong>[!UICONTROL Post]</strong> a new update or a <strong>[!UICONTROL Reply]</strong>. You can click <strong>[!UICONTROL Notify]</strong> to alert particular users about your reply. </p> <p>For more information, see <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md" class="MCXref xref">Reply to a [!DNL Adobe Workfront] update notification from [!DNL Google Workspace]</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td>Godkännandebegäran</td> 
-      <td><strong>[!UICONTROL Approve]</strong> eller <strong>[!UICONTROL Reject]</strong> det (du kan ändra dig genom att klicka på det andra alternativet), hämta det, visa dess ägare eller visa dess referensnummer</td> 
+      <td>Approval request</td> 
+      <td><strong>[!UICONTROL Approve]</strong> or <strong>[!UICONTROL Reject]</strong> it (you can change your mind by clicking the other option), download it, view its owner, or view its reference number</td> 
      </tr> 
      <tr> 
-      <td>En ändring av ett projekts status</td> 
-      <td> Visa all aktuell information om projektet, inklusive eventuella anpassade formulär. </td> 
+      <td>A change in a project's status</td> 
+      <td> View all the current information about the project, including any custom forms. </td> 
      </tr> 
     </tbody> 
    </table>
+
+   -->

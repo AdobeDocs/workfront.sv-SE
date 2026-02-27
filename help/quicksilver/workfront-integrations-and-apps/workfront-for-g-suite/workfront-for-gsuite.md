@@ -9,9 +9,9 @@ author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: dfced3e9-0338-446e-bf70-fa5d07f3ac1f
-source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
+source-git-commit: 228fd22f1894689c0d256270350cc82954901641
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->För att kunna leverera mer stabila och skalbara integreringar går vi över till en modern, flexibel integrationsstrategi med hjälp av Workfront Automation and Integration (Fusion). Under den här övergångsprocessen kommer följande Workfront för Google Workspace-funktioner inte att vara tillgängliga efter **28 februari 2026**:
+>För att kunna leverera mer stabila och skalbara integreringar har vi gått över till en modern, flexibel integrationsmetod med Workfront Automation and Integration (Fusion). Som en del av den här övergångsprocessen är följande Workfront för Google Workspace-funktioner **inte längre tillgängliga**:
 >
 >* Åtkomst till Google Workspace-funktioner inifrån Workfront
 >
@@ -28,34 +28,38 @@ ht-degree: 0%
 >
 >Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Google Workspace.
 >
->En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Mer information om de specifika funktionerna i Workfront Automation and Integration-modulerna för Google Workspace finns i [Gmail-moduler](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) och [Google Calendar-moduler](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
+>Mer information om de specifika funktionerna i Workfront Automation and Integration-modulerna för Google Workspace finns i [Gmail-moduler](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) och [Google Calendar-moduler](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
-[!DNL Adobe Workfront for Google Workspace] ansluter dig till ditt viktigaste arbete och gör att du kan samarbeta med andra medan du stannar inom [!DNL Gmail], [!DNL Google Calendar] och [!DNL Google Drive]. Utan att lämna dessa program kan du hämta e-postbegäranden eller arbetsuppdateringar och lägga till dem i [!DNL Workfront]. Du kan kontrollera vad som händer i [!DNL Workfront], inklusive förfallodatum, prioritet, dokument, uppdateringar och ytterligare kontext, utan att lämna din inkorg. Du kan fatta beslut om godkännande, besvara kommentarer eller godkänna nya arbetsförfrågningar. Och ni kan konvertera era e-postmeddelanden till antingen personliga projektuppgifter eller tilldela arbete och prioritet till andra.
+<!--
 
-De här hjälpartiklarna kan hjälpa dig att komma igång med [!DNL Workfront for Google Workspace]:
+[!DNL Adobe Workfront for Google Workspace] connects you to your most important work and allows you to collaborate with others while staying within [!DNL Gmail], [!DNL Google Calendar], and [!DNL Google Drive]. Without leaving these applications, you can capture emailed requests or work updates and add them to [!DNL Workfront]. You can check what's happening in [!DNL Workfront], including due dates, priority, documents, updates and additional context, without leaving your inbox. You can make approval decisions, reply to comments, or accept new work requests. And you can convert your emails to either personal project tasks or assign work and priority to others.
 
-* [Installera [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
-* [Sekretess och behörigheter i Workfront för Google Workspace](../../workfront-integrations-and-apps/workfront-for-g-suite/privacy-and-permissions-in-g-suite.md)
-* [Logga in och ut från  [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)
+These Help articles can help you get started using [!DNL Workfront for Google Workspace]:
 
-I dessa beskrivs hur du hanterar [!DNL Workfront] objekt utan att lämna [!DNL Google Workspace]:
+* [Install [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
+* [Privacy and permissions in Workfront for Google Workspace](../../workfront-integrations-and-apps/workfront-for-g-suite/privacy-and-permissions-in-g-suite.md)
+* [Log in and out of [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)
 
-* [Åtkomst till [!DNL Adobe Workfront] heminnehåll från [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)
-* [Uppdatera ett [!DNL Adobe Workfront] objekt från [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)
-* [Visa och hantera dokument från  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)
-* [Visa och hantera  [!DNL Adobe Workfront] objektinformation från [!UICONTROL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)
-* [Visa  [!DNL Adobe Workfront] objektuppdateringar från [!UICONTROL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-object-updates-in-gsuite.md)
+These explain how to manage [!DNL Workfront] objects without leaving [!DNL Google Workspace]:
 
-De förklarar hur du visar och svarar på information om en arbetsuppgift när du får ett [!DNL Workfront]-meddelande via e-post.
+* [Access [!DNL Adobe Workfront] Home content from [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)
+* [Update an [!DNL Adobe Workfront] object from [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)
+* [View and manage documents from [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)
+* [View and manage [!DNL Adobe Workfront] object details from [!UICONTROL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)
+* [View [!DNL Adobe Workfront] object updates from [!UICONTROL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-object-updates-in-gsuite.md)
 
-* [Hantera [!DNL Adobe Workfront] meddelandeinformation från [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md)
-* [Svara på ett  [!DNL Adobe Workfront] uppdateringsmeddelande från [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md)
+These explain how to view and respond to details about a work item when you receive a [!DNL Workfront] notification email.
 
-Här beskrivs hur du kan skapa [!DNL Workfront] objekt och uppdateringar med innehåll från e-postmeddelanden som inte är [!DNL Workfront]:
+* [Manage [!DNL Adobe Workfront] notification details from [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md)
+* [Reply to a [!DNL Adobe Workfront] update notification from [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md)
 
-* [Omvandla  [!DNL Google Workspace] e-postmeddelanden till [!DNL Adobe Workfront] objekt och uppdateringar](../../workfront-integrations-and-apps/workfront-for-g-suite/turn-gsuite-emails-into-wf-objects-and-updates.md)
-* [Skapa en [!DNL Adobe Workfront] aktivitet i [!DNL Google Workspace] med e-postinnehåll](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-task-in-gsuite-using-email-content.md)
-* [Skapa ett [!DNL Adobe Workfront] problem i [!DNL Google Workspace] med e-postinnehåll](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
-* [Uppdatera ett [!DNL Adobe Workfront] objekt från [!DNL Google Workspace] med e-postinnehåll](../../workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
+These explain how you can create [!DNL Workfront] objects and updates using content from non-[!DNL Workfront] emails:
+
+* [Turn [!DNL Google Workspace] emails into [!DNL Adobe Workfront] objects and updates](../../workfront-integrations-and-apps/workfront-for-g-suite/turn-gsuite-emails-into-wf-objects-and-updates.md)
+* [Create an [!DNL Adobe Workfront] task in [!DNL Google Workspace] using email content](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-task-in-gsuite-using-email-content.md)
+* [Create an [!DNL Adobe Workfront] issue in [!DNL Google Workspace] using email content](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
+* [Update an [!DNL Adobe Workfront] item from [!DNL Google Workspace] using email content](../../workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
+
+-->
