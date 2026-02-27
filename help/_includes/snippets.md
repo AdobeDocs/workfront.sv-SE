@@ -1,7 +1,7 @@
 ---
-source-git-commit: 8fe1b2dc00c7b64b47717a17a51c0124da26d238
+source-git-commit: 703d2bb511109a68d2917fd83fd1b7f7a562f5a9
 workflow-type: tm+mt
-source-wordcount: '2470'
+source-wordcount: '2496'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,8 @@ ht-degree: 0%
 
 1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på ditt användarnamn bredvid din profilbild. Eller (om det är tillgängligt) klicka på din profilbild i det övre navigeringsområdet och klicka sedan på **[!UICONTROL Workfront Profile]**.
 
+<!-- Notes for Workflow packaging -->
+
 ## Note for Workflow Ultimate {#ultimate-package}
 
 >[!IMPORTANT]
@@ -80,6 +82,12 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >Du måste ha Workflow Prime eller Workflow Ultimate-paketet för att kunna använda den här funktionen.
+
+## Anteckning för arbetsflödespaket för kostnads-/faktureringsdelning {#workflow-package-for-cost-billing}
+
+>[!IMPORTANT]
+>
+>Du måste ha paketet Workflow Select, Prime eller Ultimate för att kunna se separata behörigheter för fakturering och kostnad.
 
 <!-- Admin and Setup -->
 
@@ -110,7 +118,7 @@ Du kan kontrollera att du associerar rätt grupp med gruppen genom att hålla ma
 
 ## Steg 1 - Gå till användare {#step-1-to-users}
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Users]** ![Användare &#x200B;](/help/_includes/assets/users-icon-in-main-menu.png) .
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Users]** ![Användare ](/help/_includes/assets/users-icon-in-main-menu.png) .
 
 
 <!-- Agile -->
