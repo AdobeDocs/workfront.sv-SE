@@ -10,16 +10,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+source-git-commit: 57632f1949e849aca3f26874382f1101b9b0cf89
 workflow-type: tm+mt
-source-wordcount: '1588'
-ht-degree: 0%
+source-wordcount: '1585'
+ht-degree: 1%
 
 ---
 
 # Tillgängliga funktioner för varje objekttyp för olika åtkomstnivåer (äldre)
-
-{{highlighted-preview}}
 
 >[!NOTE]
 >
@@ -306,7 +304,7 @@ Användare med en planlicens har fullständig åtkomst till rapporter. Alla andr
 | Lägga till uppdateringar och kommentarer | ✓ | ✓ | ✓ | ✓ |  |
 | Ladda upp ny version | ✓ | ✓ | ✓ | ✓ |  |
 | Ta bort en version | ✓ | ✓ | ✓ | ✓ |  |
-| Förhandsgranska | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Förhandsgranskning | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Korrektur | ✓ | ✓ | ✓ | ✓ |  |
 | Generera korrektur | ✓ | ✓ |  |  |  |
 | Ta bort korrektur | ✓ | ✓ | ✓ | ✓ |  |
@@ -506,7 +504,6 @@ Licenstyperna Begär och Extern användare inkluderas inte här eftersom de inte
 | Hantera faktureringsposter | ✓ |  |  |
 | Hantera utgifter | ✓ | ✓ |  |
 | Visa ekonomiska data | ✓&#42; | ✓&#42; | ✓&#42; |
-| <span class="preview">Hantera tariffkort</span> | ✓ |  |  |
 | Visa information efter kostnad i Resursplaneringsverktygen | ✓ |  |  |
 | Budgetresurser i resursplaneringsverktygen &#42;&#42; | ✓ |  |  |
 | Visa resursallokering i resursplaneringsverktygen &#42; | ✓ | ✓ | ✓ |
@@ -563,7 +560,7 @@ Endast användare med en planlicens kan ha fullständig åtkomst till [utvalda o
 
 ## Workfront målområde
 
-| Åtgärder | Visa | Redigera |
+| Instruktioner | Visa | Redigera |
 |---|---|---|
 | Skapa |  | ✓ |
 | Redigera/ta bort alla mål |  | ✓ |
