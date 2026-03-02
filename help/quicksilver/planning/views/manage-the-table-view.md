@@ -191,7 +191,7 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
 
    Kolumnerna som du lägger till är synliga för alla användare som kommer åt posttypen och läggs till som nya fält på postens sida.
 
-1. (Valfritt) Klicka på ikonen **Fält** ![Fält ](assets/fields-icon.png) i verktygsfältet, sök efter ett fält och avmarkera sedan alternativet till höger om fältnamnet för att dölja fältet.
+1. (Valfritt) Klicka på ikonen **Fält** ![Fält &#x200B;](assets/fields-icon.png) i verktygsfältet, sök efter ett fält och avmarkera sedan alternativet till höger om fältnamnet för att dölja fältet.
 
 1. Gör något av följande om du vill ändra ordning på kolumnerna i tabellen:
 
@@ -435,7 +435,7 @@ Tänk på följande när du sorterar poster i tabellvyn:
 Så här sorterar du <!--ungrouped (add this when sorting for groupings will be available--> poster:
 
 1. Skapa en tabellvy enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
-1. Klicka på ikonen **Sortera** ![Sortera ](assets/sort-icon.png) i tabellens övre högra hörn
+1. Klicka på ikonen **Sortera** ![Sortera &#x200B;](assets/sort-icon.png) i tabellens övre högra hörn
 
    eller
 
