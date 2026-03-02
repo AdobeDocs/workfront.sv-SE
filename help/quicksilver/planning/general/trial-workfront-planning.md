@@ -1,28 +1,23 @@
 ---
 title: Kom igång med den kostnadsfria testversionen av Adobe Workfront Planning
 description: Adobe Workfront erbjuder en 60-dagars kostnadsfri testversion av Adobe Workfront Planning. Testversionen är ett tillfälle att se hur Planning kopplar samman en helbildsstrategi med det dagliga arbete som får programmet att fungera. Planering ger centraliserad insyn i era marknadsföringslivscykler, vilket möjliggör bättre samarbete mellan olika team, spårning av kampanjer i realtid och automatiserade arbetsflöden. Du kan skapa anpassade arbetsytor och visualisera arbetet med interaktiva tidslinjer och kalendrar. I den här testversionen får du först se hur Planning hjälper er att anpassa det dagliga arbetet till strategiska mål, effektivisera genomförandet och få mätbara resultat för organisationen.
-hidefromtoc: true
-hide: true
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
-source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
+source-git-commit: 61c6bc0770416e02390f4e3de869d9e2565897d4
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: '2122'
 ht-degree: 0%
 
 ---
 
-<!--add at release to the metadata:
-author: Alina
-feature: Workfront Planning
-role: User, Admin
-recommendations: noDisplay, noCatalog-->
 
 # Kom igång med den kostnadsfria testversionen av Adobe Workfront Planning
 
 <!-- are we still calling the tab "Best practice workspaces"? If not, reword below-->
 
 <!--add screen shots-->
-<!--remove the best practice link below and replace it with the folder for best practice instead-->
 <!--check the names of areas, buttons, and links: Learn more, Open Planning, Review trial agreement, etc-->
 
 Adobe Workfront Planning ger centraliserad insyn i era marknadsföringslivscykler, vilket ger bättre samarbete mellan team, realtidsspårning av kampanjer och automatiserade arbetsflöden. Du kan skapa anpassade arbetsytor och visualisera arbetet med interaktiva tidslinjer och kalendrar.
@@ -34,6 +29,7 @@ Adobe Workfront Planning ger centraliserad insyn i era marknadsföringslivscykle
 >* Testversionen finns tillgänglig mellan följande datum: 2 mars - 1 maj 2026.
 >
 >* Observera att testversionen är tillgänglig i 60 dagar efter att den startats och inte i 60 dagar efter att du gått med i den.
+>* Anmälningsperioden upphör den 1 april 2026.
 
 I den här testversionen får du först se hur Planning hjälper er att anpassa det dagliga arbetet till strategiska mål, effektivisera genomförandet och ger mätbara resultat för organisationen.
 
@@ -67,18 +63,18 @@ Ditt företag måste uppfylla följande krav för att kunna gå med i den kostna
 Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 * Har tillgång till Adobe Admin Console
 * Ingår i Identity Management System (IMS)
-* Godkänn testversionen som finns i Workfront-instansen från och med 26 januari 2026. Du måste vara Workfront-administratör för att kunna godkänna utvärderingsavtalet.
+* Godkänn testversionen som finns i Workfront mellan 26 januari och 1 april 2026. Du måste vara Workfront-administratör för att kunna godkänna utvärderingsavtalet.
 
 ## Översikt över viktiga datum
 
 Följande är viktiga datum som är associerade med Adobe Workfront Planning kostnadsfria testversion:
 
-* **26 januari 2026**: Prova-banners för Workfront Planning som släpps för Workfront-kunder. Banderollerna innehåller följande:
+* **26 januari 2026**: Den kostnadsfria provversionen av Workfront Planning har släppts till Workfront-kunder. Banderollerna innehåller följande:
    * En länk till det här dokumentet.
    * Godkännandefönstret för testversionen. Endast en Workfront-administratör kan acceptera avtalet. Du kan godkänna utvärderingsavtalet när som helst från och med detta datum.
-* **2 mars 2026**: Testversionen av Workfront Planning startas.
+* **2 mars 2026**: Testversionen av Workfront Planning startades.
 
-  Följande objekt läggs till i din Workfront-instans:
+  När du startar testversionen läggs följande objekt till i din Workfront-instans:
 
    * Workfront Planning Banners fortsätter att visas för alla användare.
    * Inställningen **Granska utvärderingsavtal** har lagts till i området **Inställningar**.
@@ -94,7 +90,6 @@ Följande är viktiga datum som är associerade med Adobe Workfront Planning kos
    * Om Workfront-administratören inte har godkänt avtalet före detta datum måste han/hon godkänna det innan du kan få åtkomst till Workfront Planning.
 * **1 april 2026**: Du kan inte längre registrera dig för testversionen.
 
-
   Följande objekt har tagits bort från din Workfront-instans:
 
    * Testversionerna av Workfront Planning.
@@ -106,7 +101,6 @@ Följande är viktiga datum som är associerade med Adobe Workfront Planning kos
 
   Oavsett när du godkänner avtalet upphör din åtkomst till Planering den här dagen.
 
-  Alla testversioner av Workfront Planning
 * **30 november 2026**: Workfront skyddar inte längre dina data efter detta datum. Om du har köpt Workfront Planning före detta datum får du tillgång till Planning och dina data igen.
 
 <!--Lauren wanted this out: 
@@ -138,25 +132,25 @@ Mer information om hur du implementerar Workfront Planning finns i [Bästa praxi
 
 <!--
 
-this information will be live on March 2 - the How to sign up below will be a ### instead of a ## section and the Navigate the trial section will be visible; also adjust ALL the ##s when you make this live: 
+this information will be live on March 2 - the How to sign up below will be a ### instead of a ## section and the Navigate the trial section will be visible; also adjust ALL the ##s when you make this live: -->
 
-## Get started with the Adobe Workfront Planning free trial-->
-
-## Registrera dig i den kostnadsfria provversionen av Workfront Planning
+## Registrera dig i den kostnadsfria provversionen av Adobe Workfront Planning
 
 En av dina Workfront-administratörer måste granska och signera testavtalet innan alla i organisationen får tillgång till den kostnadsfria provversionen av Workfront Planning.
 
-Du kan granska och signera avtalet från och med 26 januari 2026, innan testperioden börjar den 2 mars 2026. Din organisation får dock tillgång till Workfront Planning den 2 mars 2026.
+Registrering för testversionen av Planning har varit tillgänglig sedan 26 januari 2026.
+
+Testversionen startade och din organisation fick tillgång till testversionen av Planning den 2 mars 2026.
 
 >[!NOTE]
 >
 >Endast en systemadministratör får acceptera avtalet. Det är inte nödvändigt för alla systemadministratörer att acceptera det.
 
-<!--check the steps here at release and take out the "before March 2" info-->
-
-Om du vill granska och godkänna det juridiska avtalet och samtycka till att påbörja testperioden den 2 mars gör du något av följande:
-
 ### Delta i testversionen av Planning mellan 26 januari och 2 mars 2026
+
+>[!WARNING]
+>
+>Den här perioden är nu stängd. Mer information finns i avsnittet [Registrera dig i testversionen av Planering mellan 2 mars och 1 april 2026](#enroll-in-the-planning-trial-between-march-2-and-april-1-2026) i den här artikeln.
 
 1. (Villkorligt) Logga in på Adobe Workfront som systemadministratör.
 1. Gör något av följande:
@@ -174,7 +168,7 @@ Om du vill granska och godkänna det juridiska avtalet och samtycka till att på
 
 >[!WARNING]
 >
->Anmälningsperioden upphör den 1 april 2026.
+>Anmälningsperioden upphör den 1 april 2026. Testversionen av Planning är dock tillgänglig till 1 maj 2026.
 
 1. (Villkorligt) Logga in på Adobe Workfront som systemadministratör.
 
@@ -203,101 +197,104 @@ Om du vill granska och godkänna det juridiska avtalet och samtycka till att på
 
    Börja utforska fliken **Exempelarbetsytor** och granska, använda eller dela arbetsytor som delas med dig.
 
-   Mer information om hur du använder Workfront Planning finns i [Kom igång med Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+Mer information om hur du använder Workfront Planning finns i [Kom igång med Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
-   Mer information om hur du implementerar Workfront Planning finns i [Bästa praxis för Adobe Workfront Planning: artikelindex](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
+Mer information om hur du implementerar Workfront Planning finns i [Bästa praxis för Adobe Workfront Planning: artikelindex](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
 
-<!--uncomment this on March 2: 
 
-### Experience Workfront Planning through the free trial
+## Upplev Workfront Planning genom den kostnadsfria testversionen
 
-You can review sample Planning workspaces and their objects as well as create your own when you enroll in the Workfront Planning trial. 
+Du kan granska exempel på planeringarbetsytor och deras objekt och skapa egna när du registrerar dig i testversionen av Workfront Planning.
 
-1. (Conditional and required) As a Workfront administrator, sign the free trial agreement. 
+1. (Villkorligt och obligatoriskt) Som Workfront-administratör signerar du det kostnadsfria provavtalet.
 
-    For information, see the section [Enroll in the Workfront Planning free trial](#enroll-in-the-workfront-planning-free-trial)
-1. Click the **Main Menu** icon ![](assets/main-menu-shell.png), then click **Planning**. The icon displays a **Trial** label next to it. 
-    
-    The **Planning** area opens in the **Sample workspaces** tab. 
-1. Review the following workspaces available in the **Sample workspaces** tab: 
+   Mer information finns i avsnittet [Registrera dig i den kostnadsfria provversionen av Adobe Workfront Planning](#enroll-in-the-adobe-workfront-planning-free-trial) i den här artikeln.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-shell.png) och sedan på **Planering**. Ikonen visar en **Trial** -etikett bredvid den.
 
-    * **Global Classifications & Taxonomies**: Contains sample Planning object types that are the foundation of a Marketing System of Record. 
-    
-        All record types in this workspace can constitute de building blocks of your Workfront Planning structure. All record types are global and can be added or connected from all other workspaces. For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
-        
-        For our recommendation on how to use the Global Taxonomies workspace, see [Turn your first win into sustainable momentum: a playbook for managed scaling](/help/quicksilver/planning/best-practices.md/playbook-how-to-scale.md). 
-    * Additional sample workspaces: The following workspaces serve as examples of what a sample company (Fréscopa) might need as specific workspaces, record types, fields, and views to architecture their organization and work structure: 
+   Området **Planering** öppnas på fliken **Exempelarbetsytor** .
+1. Granska följande arbetsytor som finns på fliken **Exempelarbetsytor** :
 
-        * **Fréscopa Global Marketing**
-        * **Fréscopa Social Marketing**
-        * **Fréscopa Media & PR**
-        * **Fréscopa Executive Company Leadership**
+   * **Globala klassificeringar och taxonomier**: Innehåller exempel på Planning-objekttyper som utgör grunden för ett Marketing System of Record.
 
-    >[!NOTE]
-    >
-    >As a System Administrator, you might be able to edit the sample workspaces. However, we recommend you keep them as they are to use them for guidance and instead build your own workspaces mirroring those we offer as samples. 
+     Alla posttyper på den här arbetsytan kan utgöra byggstenar i din Workfront Planning-struktur. Alla posttyper är globala och kan läggas till eller anslutas från alla andra arbetsytor. Mer information finns i [Posttypöversikt för arbetsytan över ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
-1. Click **Create workspace** to create your own workspace.
-    
-    For information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md). 
+     Mer information om hur du använder arbetsytan Globala taxonomier finns i [Förvandla din första vinst till hållbar utveckling: en spelbok för hanterad skalning](/help/quicksilver/planning/best-practices.md/playbook-how-to-scale.md).
+   * Ytterligare exempelarbetsytor: Följande arbetsytor fungerar som exempel på vad ett exempelföretag (Fréscopa) kan behöva som specifika arbetsytor, posttyper, fält och vyer för att arkitekturera sin organisation och arbetsstruktur:
 
-    As a System Administrator, your new workspaces display on the **All workspaces** and the **Workspaces I'm on** tabs.
+      * **Fréscopa Global Marketing**
+      * **Fréscopa Social Marketing**
+      * **Fréscopa Media och PR**
+      * **Fréscopa Executive Company Leadership**
 
-    >[!TIP]
-    >
-    >Standard license users can create workspaces that will display in the **Workspaces** area.
+   >[!NOTE]
+   >
+   >Som systemadministratör kanske du kan redigera exempelarbetsytorna. Vi rekommenderar dock att du behåller dem eftersom de är till för att använda dem som vägledning och i stället bygga egna arbetsytor som motsvarar de vi erbjuder som exempel.
 
-1. Click **Generate with AI** to let the AI Assistant build a workspace for you, based on your specifications. (**********have they changed the button to Generate or is it Create???*********)
+1. Klicka på **Skapa arbetsyta** för att skapa en egen arbetsyta.
 
-    For information, see [Get started with the Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
+   Mer information finns i [Skapa arbetsytor](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-    >[!NOTE]
-    >
-    >We do not require that you sign the Adobe Gen AI agreement to be able to use the Planning Designer in Workfront Planning during the trial.
+   Som systemadministratör visas dina nya arbetsytor på flikarna **Alla arbetsytor** och **Arbetsytor som jag är på**.
 
-1. In the workspaces you created, create any of the following: 
+   >[!TIP]
+   >
+   >Standardlicensanvändare kan skapa arbetsytor som visas i området **Arbetsytor**.
 
-    * Record types
+1. Klicka på **Skapa med AI** om du vill att AI-assistenten ska kunna skapa en arbetsyta utifrån dina specifikationer. <!--(**********have they changed the button to Generate or is it Create???*********)-->
 
-        For information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
-    * Records
+   Mer information finns i [Kom igång med Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
 
-        For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
-    * Views
+   >[!IMPORTANT]
+   >
+   >Vi kräver inte att du skriver under Adobe Gen AI-avtalet för att kunna använda Planning Designer i Workfront Planning under testperioden.
 
-        For information, see [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
-    * Fields
+1. Skapa något av följande i arbetsytorna som du skapade:
 
-        You can create custom fields for each record type, import them from Workfront, or create connections to other record types, Workfront object types, or object types from other applications. 
+   * Posttyper
 
-        For information, see the following articles: 
+     Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md).
+   * Poster
 
-        * [Create fields](/help/quicksilver/planning/fields/create-fields.md)
-        * [Connect record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md)
+     Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
+   * Vyer
 
-1. From the workspaces you created, share any of the following entities:
+     Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
+   * Fält
 
-    * Workspaces
+     Du kan skapa anpassade fält för varje posttyp, importera dem från Workfront eller skapa anslutningar till andra posttyper, Workfront objekttyper eller objekttyper från andra program.
 
-        For information, see [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md).
-    * Record types
+     Mer information finns i följande artiklar:
 
-        For information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md).
-    * Views
+      * [Skapa fält](/help/quicksilver/planning/fields/create-fields.md)
+      * [Översikt över posttyper för anslutning](/help/quicksilver/planning/architecture/connect-record-types-overview.md)
 
-        For information, see [Share views](/help/quicksilver/planning/access/share-views.md). 
+1. Dela någon av följande enheter från de arbetsytor du har skapat:
 
-    For additional information about how to implement Workfront Planning and how to create a center of governance for it, see the section [Additional information about Workfront Planning](#additional-information-about-workfront-planning) in this article.
-1. (Optional) To edit the workspace you created, do one of the following: 
+   * Arbetsytor
 
-    * Open the workspace and manually make changes to it. 
-    
-        For information, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md). 
-    * Click **Edit with AI** next to the workspace name to open the **Planning Designer** and use AI to make further changes to the workspace. 
+     Mer information finns i [Dela arbetsytor](/help/quicksilver/planning/access/share-workspaces.md).
+   * Posttyper
 
-        For information, see [Get started with the Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
-1. (Optional) To remove the Planning area from the Main Menu for users, customize the the Layout Templates assigned to the users and remove it from the **Set Main Menu** area of the Layout Template. 
+     Mer information finns i [Dela posttyper](/help/quicksilver/planning/access/share-record-types.md).
+   * Vyer
 
-    For information, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+     Mer information finns i [Dela vyer](/help/quicksilver/planning/access/share-views.md).
 
--->
+   Mer information om hur du implementerar Workfront Planning och hur du skapar ett center för styrning för den finns i avsnittet [Mer information om Workfront Planning](#additional-information-about-workfront-planning) i den här artikeln.
+1. (Valfritt) Om du vill redigera arbetsytan som du skapade gör du något av följande:
+
+   * Öppna arbetsytan och ändra den manuellt.
+
+     Mer information finns i [Redigera arbetsytor](/help/quicksilver/planning/architecture/edit-workspaces.md).
+   * Klicka på **Redigera med AI** bredvid arbetsytans namn för att öppna **Planera Designer** och använd AI för att göra ytterligare ändringar i arbetsytan.
+
+     Mer information finns i [Kom igång med Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
+1. (Valfritt) Om du vill ta bort Planning-området från **huvudmenyn** för användare anpassar du **Layoutmallarna** som tilldelats användarna och tar bort det från **Ange huvudmeny** i layoutmallen.
+
+   Mer information finns i [Anpassa huvudmenyn med hjälp av en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+
+   >[!TIP]
+   >
+   >Du kan inte ta bort banners för Planning Promo från din instans av Workfront med hjälp av Layoutmallar.
+
+

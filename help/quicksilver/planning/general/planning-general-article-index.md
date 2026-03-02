@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8c4e4fbb-2f21-43a1-bfb0-d23ac1a33705
-source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
+source-git-commit: 61c6bc0770416e02390f4e3de869d9e2565897d4
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,6 @@ Granska följande artiklar:
 * [Översikt över begränsningar för Adobe Workfront Planning-objekt](/help/quicksilver/planning/general/limitations-overview.md)
 * [Implementeringsrekommendationer för Adobe Workfront Planning](/help/quicksilver/planning/general/planning-best-practices.md)
 * [Kom igång med Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md)
-  <!--* [Get started with the Adobe Workfront Planning free trial](/help/quicksilver/planning/general/trial-workfront-planning.md)-->
+* [Kom igång med den kostnadsfria testversionen av Adobe Workfront Planning](/help/quicksilver/planning/general/trial-workfront-planning.md)
 
 
