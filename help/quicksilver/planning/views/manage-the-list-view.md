@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
-source-git-commit: 973a095e8ff08e382010247d9ed38e48d4b2c564
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-Du kan visa objekt och deras fält i en listvy när du öppnar dem på postens sida Anslutna poster i Adobe Workfront Planning.
+Du kan visa projekt och deras fält i en listvy när du öppnar dem på postens sida Anslutna poster i Adobe Workfront Planning. <!--change 'projects' to other objects when they become available and the location of the list view-->
 
-I den här artikeln beskrivs hur du kan skapa eller redigera en listvy på sidan Anslutna poster i en post och hur du kan redigera objekten i vyn.
+I den här artikeln beskrivs hur du kan skapa eller redigera en listvy som visar projekt på postens sida Anslutna poster och hur du kan redigera projekten i vyn. <!--change 'projects' to other objects when they become available and the location of the list view-->
 
 ## Åtkomstkrav
 
@@ -72,18 +72,19 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
 ## Överväganden om listvyer
 
-* Du kan inte visa poster på posttypsidorna i en listvy. Du kan bara visa följande objekt i en listvy när du visar dem på postens sida Anslutna poster:
+* Du kan inte visa alla objekttyper på posttypsidorna i en listvy.
+
+  Du kan bara visa följande objekt i en listvy när du visar dem på postens sida Anslutna poster:
 
    * Workfront-projekt
 
   Mer information om hur du skapar en ansluten postsida finns i [Lägga till en kopplad postsida till en post](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 * Innan du kan visa en listvy på en postsida med anslutna poster måste du koppla Workfront-projekt till posttyperna Planering. Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
-* Listvyer liknar Förbättrade listor. Mer information finns i [Använd förbättrade listor](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 
 ## Hantera en listvy {#manage-a-list-view}
 
-Mer information om hur du hanterar listvyer i Workfront finns i [Använda förbättrade listor](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+Listvyer liknar förbättrade listor. Mer information finns i [Använd förbättrade listor](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 {{step1-to-planning}}
 
@@ -114,9 +115,9 @@ Mer information om hur du hanterar listvyer i Workfront finns i [Använda förb�
       >
       >* Du kan inte ändra systemvyer.
       >
-      >* <span class="preview">Du kan återställa en vy som delades med dig efter att du har ändrat den för att återställa de ursprungliga inställningarna, eller så kan du kopiera den med dina ändringar och dela kopian. Mer information finns i [Använd förbättrade listor](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+      >* <span class="preview">Du kan återställa en vy som har delats med dig och som du bara har behörighet att visa, efter att du har ändrat den för att återställa de ursprungliga inställningarna, eller så kan du kopiera den med dina ändringar och dela kopian. Mer information finns i [Använd förbättrade listor](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
 
-   1. Klicka på ikonen **Filter** ![Filter &#x200B;](assets/filter-icon.png) för att lägga till ett filter i vyn. Resultaten filtreras omedelbart i listan. Du kan inte spara och namnge filter. Filter sparas när du öppnar sidan i framtiden och de är en del av delade vyer.
+   1. Klicka på ikonen **Filter** ![Filter ](assets/filter-icon.png) för att lägga till ett filter i vyn. Resultaten filtreras omedelbart i listan. Du kan inte spara och namnge filter. Filter sparas när du öppnar sidan i framtiden och de är en del av delade vyer.
    1. Klicka på ikonen **Kolumner** ![Kolumner](assets/columns-icon.png) för att välja vilka kolumner som ska visas eller döljas i vyn.
    1. Håll pekaren över namnet på en kolumn, klicka sedan på nedåtpilen till vänster om kolumnnamnet och klicka sedan på något av följande:
       * **Byt namn** om du vill lägga till en **anpassad etikett** för kolumnen. Namnet på det ursprungliga fältet i Workfront ändras inte.
@@ -128,23 +129,23 @@ Mer information om hur du hanterar listvyer i Workfront finns i [Använda förb�
       Du kan bara lägga till befintliga fält i listvyn.
 Du kan inte ta bort det primära fältet i listvyn som visas i den första kolumnen.
 
-
    1. <span class="preview">Klicka på ikonen **Formatera celler** ![Formatera celler](assets/format-cells-icon.png) . Rutan **Format** öppnas.</span> <!--change the name of the box when they update it-->
       <span class="preview">Gör följande: </span>
 
+      1. Klicka på **Lägg till villkor**.
+      1. <span class="preview">Markera ett fält på raden **If** och välj ett fältvärde. Klicka sedan på **Lägg till villkor**. </span>
+
+         >[!TIP]
+         >
+         ><span class="preview">Endast synliga fält i listvyn är tillgängliga för villkorsstyrd formatering.</span>
+
+      1. <span class="preview">(Valfritt) Klicka på **Lägg till villkor** på raden **Om** om du vill lägga till fler villkor i samma regel.</span>
+
+         >[!TIP]
+         >
+         ><span class="preview">Du kan lägga till upp till 10 villkor i en villkorsregel och du kan ha upp till 20 regler för ett fält.</span>
+
       <div class="preview">
-
-      1. Klicka på **Lägg till villkor** på raden **Om**, markera sedan ett fält som du vill formatera med och välj ett fältvärde.
-
-         >[!TIP]
-         >
-         >Endast fält som är synliga i listvyn är tillgängliga för villkorsstyrd formatering.
-
-      1. (Valfritt) Klicka på **Lägg till villkor** på raden **Om** om du vill lägga till fler villkor i samma regel.
-
-         >[!TIP]
-         >
-         >Du kan lägga till upp till 10 villkor i en villkorsregel och du kan ha upp till 20 regler för ett fält.
 
       1. Klicka på **Eller**-kopplingen mellan villkor om du vill ändra till **och** och ange att flera villkor måste uppfyllas samtidigt. **Eller** är standardkoppling.
       1. På raden **Format** markerar du ett fält som anger vilken kolumn som ska formateras. <!--edit this area, if it changes names??-->

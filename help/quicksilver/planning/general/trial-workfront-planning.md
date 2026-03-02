@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
-source-git-commit: 61c6bc0770416e02390f4e3de869d9e2565897d4
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '2122'
+source-wordcount: '2168'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Adobe Workfront Planning ger centraliserad insyn i era marknadsföringslivscykle
 
 >[!IMPORTANT]
 >
->* Adobe Workfront erbjuder en 60-dagars kostnadsfri testversion av Adobe Workfront Planning.
+>* Adobe Workfront erbjuder en 60-dagars kostnadsfri testversion av Adobe Workfront Planning för alla Adobe Workfront-kunder som inte också är Workfront Planning-kunder.
 >
 >* Testversionen finns tillgänglig mellan följande datum: 2 mars - 1 maj 2026.
 >
@@ -76,7 +76,7 @@ Följande är viktiga datum som är associerade med Adobe Workfront Planning kos
 
   När du startar testversionen läggs följande objekt till i din Workfront-instans:
 
-   * Workfront Planning Banners fortsätter att visas för alla användare.
+   * Workfront Planning Banners fortsätter att visas för alla användare. En länk till det här dokumentet finns i banners.
    * Inställningen **Granska utvärderingsavtal** har lagts till i området **Inställningar**.
 
   Följande scenarier finns:
@@ -87,7 +87,8 @@ Följande är viktiga datum som är associerade med Adobe Workfront Planning kos
   >
   >Planeringsområdet visas på huvudmenyn för alla användare i systemet, oavsett licenstyp för Workfront.
 
-   * Om Workfront-administratören inte har godkänt avtalet före detta datum måste han/hon godkänna det innan du kan få åtkomst till Workfront Planning.
+   * Om Workfront-administratören inte har godkänt avtalet före detta datum visas banners som presenterar testversionerna av Planning för alla användare, men Planning är ännu inte tillgängligt på Huvudmenyn. Systemadministratören måste godkänna avtalet innan du kan komma åt Workfront Planning.
+
 * **1 april 2026**: Du kan inte längre registrera dig för testversionen.
 
   Följande objekt har tagits bort från din Workfront-instans:
@@ -216,7 +217,7 @@ Du kan granska exempel på planeringarbetsytor och deras objekt och skapa egna n
 
    * **Globala klassificeringar och taxonomier**: Innehåller exempel på Planning-objekttyper som utgör grunden för ett Marketing System of Record.
 
-     Alla posttyper på den här arbetsytan kan utgöra byggstenar i din Workfront Planning-struktur. Alla posttyper är globala och kan läggas till eller anslutas från alla andra arbetsytor. Mer information finns i [Posttypöversikt för arbetsytan över &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+     Alla posttyper på den här arbetsytan kan utgöra byggstenar i din Workfront Planning-struktur. Alla posttyper är globala och kan läggas till eller anslutas från alla andra arbetsytor. Mer information finns i [Posttypöversikt för arbetsytan över ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
      Mer information om hur du använder arbetsytan Globala taxonomier finns i [Förvandla din första vinst till hållbar utveckling: en spelbok för hanterad skalning](/help/quicksilver/planning/best-practices.md/playbook-how-to-scale.md).
    * Ytterligare exempelarbetsytor: Följande arbetsytor fungerar som exempel på vad ett exempelföretag (Fréscopa) kan behöva som specifika arbetsytor, posttyper, fält och vyer för att arkitekturera sin organisation och arbetsstruktur:

@@ -6,9 +6,9 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
-source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1501'
 ht-degree: 0%
 
 ---
@@ -226,13 +226,10 @@ Du kan skapa eller uppdatera objekt i Workfront Planning antingen med Planning D
 1. (Valfritt) Klicka på ikonen **Visa eller dölj förhandsvisningsskärmen** ![Dölj eller visa förhandsvisningsskärmsikonen](assets/hide-show-preview-screen-in-planning-designer.png) för att öppna eller stänga förhandsvisningsskärmen till höger.
 1. Klicka på arbetsytan **Öppna i ny flikikon** ![Öppna arbetsytan i en ny flikikon](assets/open-workspace-on-new-tab-icon.png) för att öppna arbetsytan som du uppdaterar på en ny flik.
 1. Klicka på ikonen **Stäng** **X** för att stänga Planering Designer och öppna arbetsytan.
-1. Öppna arbetsytan som du redigerade med Planning Designer och gör ytterligare ändringar i objekten.
+1. (Valfritt) Gör något av följande om du vill redigera en arbetsyta:
 
-<!-- for March 2 -- replace the last step with this: 
-1. (Optional) To edit a workspace, do one of the following:
-
-    * Open the workspace and manually make changes to it. For information, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md). 
-    * Click **Edit with AI**. This opens the Planning Designer. Repeat the steps above to use AI and make further changes to the workspace.-->
+   * Öppna arbetsytan och ändra den manuellt. Mer information finns i [Redigera arbetsytor](/help/quicksilver/planning/architecture/edit-workspaces.md).
+   * Klicka på **Redigera med AI**. Planning Designer öppnas. Upprepa stegen ovan om du vill använda AI och göra ytterligare ändringar på arbetsytan.
 
 ## Inaktivera Planering av Designer för din organisation
 

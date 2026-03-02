@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
-source-git-commit: f28d2eef57f63cede3a08b06053e8dc6431f21d4
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
 source-wordcount: '1777'
 ht-degree: 0%
@@ -142,7 +142,7 @@ Du måste konfigurera en automatisering för en posttyp i Workfront Planning inn
 1. Klicka på ett posttypskort och klicka sedan på namnet på en post.
 
    Posttypssidan öppnas.
-1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn och klicka sedan på **Hantera automatisering**.
+1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn och klicka sedan på **Hantera automatisering**.
 
    En lista över tillgängliga automatiseringar för den valda posttypen öppnas.
 
@@ -161,7 +161,7 @@ Sidan med information om automatisering öppnas.
       * Knappklicka
       * <span class="preview">Fältvärdeändring</span>
 
-   1. (Villkorligt) Om du valde **Knappklicka** går du till steget nedan som beskriver **åtgärdsområdet**.
+   1. (Villkorligt) Om du valde **Knappklicka** går du till steg 9 nedan som beskriver området **Åtgärder**. <!--ensure this number stays accurate-->
 
    1. <span class="preview">(Villkorligt) Om du valde **Ändra fältvärde** gör du följande i avsnittet **Inställningar**: </span>
 
@@ -292,7 +292,7 @@ Uppdatera följande information i området **Kartfält**:
 1. Klicka på ett posttypskort och klicka sedan på namnet på en post.
 
    Posttypssidan öppnas.
-1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn och klicka sedan på **Hantera automatisering**.
+1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn och klicka sedan på **Hantera automatisering**.
 
    En lista över tillgängliga automatiseringar för den valda posttypen öppnas.
 
@@ -302,7 +302,7 @@ Uppdatera följande information i området **Kartfält**:
 
    1. Klicka på **Redigera** för att uppdatera följande information:
 
-      * Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om automatiseringsnamnet och klicka sedan på **Redigera** för att ändra namnet på automatiseringen.
+      * Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om automatiseringsnamnet och klicka sedan på **Redigera** för att ändra namnet på automatiseringen.
       * Alla fält i automatiseringen, förutom fältet **Åtgärder**.
 
         >[!TIP]

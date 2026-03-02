@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 973a095e8ff08e382010247d9ed38e48d4b2c564
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -151,31 +151,23 @@ Så här delar du en arbetsyta med andra:
 
    ![Knappen Dela på arbetsytan längst upp till höger](assets/share-button-on-workspace-top-right.png)
 
-   <!--only for March 4: * <span class="preview">(Conditional) Depending on your access level, the following scenarios exist: </span>-->
+1. <span class="preview">(Villkorligt) Beroende på vilken åtkomstnivå du har gör du något av följande:
 
-1. <span class="preview">(Villkorligt) Om du är systemadministratör väljer du bland följande alternativ:</span>
+   * Om du är systemadministratör väljer du bland följande alternativ:</span>
 
-   <div class="preview">
+      * <span class="preview">**Endast inbjudna personer har åtkomst till**: Du måste markera entiteter i delningsrutan och välja deras åtkomst till arbetsytan. Det här är standardvalet. </span>
+      * <span class="preview">**Alla i systemet kan visa**: Alla i systemet som har tillgång till Planering kan visa arbetsytan i sina **Arbetsytor** i Planering.</span>
 
-   * **Endast inbjudna personer har åtkomst till**: Du måste markera entiteter i delningsrutan och välja deras åtkomst till arbetsytan. Det här är standardvalet.
-   * **Alla i systemet kan visa**: Alla i systemet som har tillgång till Planering kan visa arbetsytan i sina **Arbetsytor** i Planering.
+   * <span class="preview">(Villkorligt) Om du är arbetsytehanterare med en standardlicens kan du se något av följande alternativ, men du kan inte ändra dem:</span>
 
-   </div>
+      * <span class="preview">**Endast inbjudna personer har åtkomst till**. Det här är standardinställningen.</span>
+      * <span class="preview">**Alla i systemet kan visa**</span>
 
-   <!--only  for March 4:
+     <span class="preview">Du måste be en systemadministratör att ändra en global behörighet för en arbetsyta.</span>
 
-      * <span class="preview">If you are a workspace manager with a Standard license, you can see one of the following selections but you cannot change them:</span>
+1. I fältet **Bevilja åtkomst till den här arbetsytan** börjar du skriva namnet på en användare, grupp, team, företag eller jobbroll och klickar sedan på den när den visas i listan.
 
-         <div class="preview">
-         
-         * **Only invited people can access**
-         * **Everyone in the system can view**
-         
-         </div>-->
-
-1. I fältet **Bevilja åtkomst till den här arbetsytan** börjar du skriva namnet på en användare, grupp, team, företag eller jobbroll och klickar sedan på den när den visas i listan. <!--update screen shot at the release of system-wide permissions for workspaces-->
-
-   ![Dela användargränssnitt med grupper](assets/sharing-ui-with-groups.png)
+   <span class="preview">![Dela användargränssnitt med grupper](assets/sharing-ui-with-groups.png)</span>
 
    >[!NOTE]
    >

@@ -5,9 +5,9 @@ description: De förbättrade listorna har ett tabellformat för att visa listob
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: c9015f5486721e3977efc00a297dd1618bc681d9
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '2326'
+source-wordcount: '2337'
 ht-degree: 0%
 
 ---
@@ -344,13 +344,13 @@ Så här delar du en vy:
 >
 >Alla förbättrade listor har inte alla element som beskrivs i det här avsnittet.
 
-När en vy delas med dig som du inte har behörighet att redigera, kan du kopiera vyn och spara den med ett nytt namn. Du måste ändra vyn innan du kan kopiera den.
+När en vy delas med dig som du inte har behörighet att redigera kan du kopiera vyn och spara den med ett nytt namn. Du måste ändra vyn innan du kan kopiera den.
 
-1. I listrutan Vyer håller du pekaren över vyn i **Delade vyer** som du vill kopiera, klickar på menyn **Mer** ![Mer](assets/more-icon.png) och klickar på **Kopiera med inställningar**.
+1. I listrutan Vyer håller du pekaren över vyn i **Delade vyer** som du har ändrat inställningarna för och som du vill kopiera, klickar på menyn **Mer** ![Mer](assets/more-icon.png) och sedan på **Kopiera med inställningar** .
 
-   En ny vy skapas automatiskt. Det använder det ursprungliga vynamnet med (kopia) i slutet, och det visas i avsnittet **Mina vyer** för vyer.
+   En ny vy skapas automatiskt. Namnet på den kopierade vyn följer följande mönster: `Original view name (copy)` och visas i avsnittet **Mina vyer**.
 
-   Du är ägare av den här vyn och du kan byta namn på, redigera, dela eller ta bort den. Om ägaren av den ursprungliga vyn tar bort din delade åtkomst till den vyn har du fortfarande åtkomst till den här vyn som du har skapat.
+   Du är ägare av den här vyn och du kan byta namn på, redigera, dela eller ta bort den. Om ägaren av originalvyn tar bort din delade åtkomst till den vyn har du fortfarande tillgång till den vy som du skapade genom att kopiera det delade originalet.
 
    >[!NOTE]
    >
