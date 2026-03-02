@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
-source-git-commit: 35f9c4012d8d47e6cd5402029ceaf487b1942ce9
+source-git-commit: 8fdc6d1b72967b2a52295c31cb83d43594817d6f
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1323'
 ht-degree: 0%
 
 ---
@@ -276,7 +276,7 @@ We are updating the interface throughout Adobe Workfront to improve the user exp
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Förbättringar av Workfront Planning
 
@@ -302,6 +302,30 @@ Uppdateringen gäller både Mac och Windows.
 
 ## Meddelanden
 
+### Testversionen av Workfront Planning är nu tillgänglig
+
+[!BADGE Frånschema]{type=Neutral}
+
+>[!NOTE]
+>
+>* Förhandsgranska och produktion för alla: 2 mars 2026
+>* Du måste godkänna utvärderingsavtalet som finns i din miljö innan du kan komma åt testmiljön för planering.
+>* Du behöver inte signera Adobe AI Agent-avtalet för att använda Planning Designer under testperioden.
+
+Testversionen av Workfront Planning är nu tillgänglig för alla Workfront-kunder.
+
+Den kostnadsfria provversionen ger Workfront-kunder 60 dagars Prime-licens till Workfront Planning från och med 2 mars 2026. Testperioden upphör 1 maj 2026.
+
+Den kostnadsfria testversionen av Workfront Planning innehåller följande:
+
+* Planeringsmiljö för flera arbetsytor
+* Exempeldata som ger dig en idé om var du ska börja
+* Utbildning och vägledning inifrån produkten
+* Tydliga indikationer på milstolpar under konfigurationen som är anpassade för specifika roller.
+* Planning Designer - en AI-baserad assistent som kan hjälpa dig att skapa den miljö du vill ha
+
+Mer information finns i [Kom igång med den kostnadsfria provversionen av Adobe Workfront Planning](/help/quicksilver/planning/general/trial-workfront-planning.md).
+
 ### API version 21
 
 Workfront API version 21 släpptes 23 oktober 2025. För API-version 21 har vi ändrat vissa resurser och slutpunkter. Vissa av ändringarna har stöd för nya funktioner och andra gör det enklare för dig att använda informationen som är tillgänglig via API:t.
@@ -325,13 +349,13 @@ För att kunna leverera mer stabila och skalbara integreringar går vi över til
 * Workfront för Salesforce.
 
 Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Google Workspace.
-En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Underhållsuppdateringar för Workfront
 
-Mer information om underhållsuppdateringar som gjordes under andra kvartersversionen 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=sv-SE).
+Mer information om underhållsuppdateringar som gjordes under andra kvartersversionen 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan &#x200B;](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=sv-SE).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
