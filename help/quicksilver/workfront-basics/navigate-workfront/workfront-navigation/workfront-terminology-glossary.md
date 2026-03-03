@@ -6,9 +6,9 @@ description: I  [!DNL Adobe Workfront] ordlistan visas termer som används ofta 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 8f7249e08268a8cb784d4c0ecc8c534542fa80cf
+source-git-commit: 087589f3d7a3fbb1611045b921e804aec3db9a74
 workflow-type: tm+mt
-source-wordcount: '17893'
+source-wordcount: '17947'
 ht-degree: 0%
 
 ---
@@ -1446,13 +1446,26 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   <tr> 
    <td>[!UICONTROL Note Text]</td> 
    <td> <p>Här visas texten för en uppdatering som har angetts av en användare för ett objekt. </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Number of Linked Goals]</td> 
+  </tr>
+
+<tr data-mc-conditions="">
+
+<td>[!UICONTROL Number of Linked Goals]</td> 
    <td> <p>I en [!UICONTROL Project]-rapport är detta antalet strategiska mål som är associerade med projektet. Mer information om hur du associerar projekt med strategiska mål finns i <a href="../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md">Lägg till projekt i mål i [!DNL Adobe Workfront Goals]</a>.</p> 
    <p>Mer information om strategiska mål finns i [!UICONTROL Goal] i den här artikeln.</p> 
    <p>Det här fältet visas bara om din organisation har köpt [!DNL Workfront Goals]. Mer information om hur du hanterar strategiska mål med [!DNL Workfront Goals] finns i <a href="../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md">Lägg till projekt i mål i [!UICONTROL Adobe Workfront Goals]</a>. </p> </td> 
-  </tr> 
+  </tr>
+
+<tr>
+
+<td>[!UICONTROL Number of Children]</td> 
+   <td> <p>I en [!UICONTROL Project]-rapport är detta antalet underordnade eller underaktiviteter som en aktivitet har. 
+   <p><b>TIPS</b></p>
+   Du kan lägga till beräkningen <code>{numberOfChildren}</code> i ett beräknat anpassat fält i det anpassade aktivitetsformuläret för att visa antalet underordnade för uppgiften i ett anpassat fält. Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md">Lägga till ett beräknat fält i ett formulär</a>. 
+    </td>
+
+
+</tr> 
   <tr> 
    <td>[!UICONTROL Object]</td> 
    <td> <p>Den information du visar i [!DNL Adobe Workfront] representeras av objekt som lagras i databasen [!DNL Workfront]. Objekten är vad som driver informationen i Workfront. Några exempel på objekt är:</p> 
@@ -2110,7 +2123,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Scenario] (i [!DNL Workfront Fusion]) </td> 
-   <td> <p>Ett scenario består av en serie steg (moduler) som anger hur data ska överföras och transformeras mellan program/tjänster.</p> <p>Mer information om scenarier i [!DNL Workfront Fusion] finns i <a href="https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] scenarioöversikt </a>.</p> </td> 
+   <td> <p>Ett scenario består av en serie steg (moduler) som anger hur data ska överföras och transformeras mellan program/tjänster.</p> <p>Mer information om scenarier i [!DNL Workfront Fusion] finns i <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] scenarioöversikt </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scenario] (i [!DNL Workfront Scenario Planner]) </td> 

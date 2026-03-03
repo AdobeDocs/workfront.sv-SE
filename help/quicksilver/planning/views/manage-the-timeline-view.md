@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+source-git-commit: 892a86f053fb170872b0b4b6126b67974129d372
 workflow-type: tm+mt
-source-wordcount: '4014'
+source-wordcount: '4067'
 ht-degree: 0%
 
 ---
@@ -212,7 +212,7 @@ Så här hanterar du en tidslinjevy:
 
 1. Gör följande för att snabbt hitta poster som matchar ett nyckelord:
 
-   1. Klicka på ikonen **Sök** ![Sök &#x200B;](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med ett fält i en post som visas på skärmen. Antalet korrekta matchningar visas bredvid sökobjektet och posten med rätt matchning markeras.
+   1. Klicka på ikonen **Sök** ![Sök ](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med ett fält i en post som visas på skärmen. Antalet korrekta matchningar visas bredvid sökobjektet och posten med rätt matchning markeras.
 
       ![Sökruta och tidslinjevy för resultat](assets/search-box-and-results-timeline-view.png)
 
@@ -401,12 +401,23 @@ Så här lägger du till en gruppering i tidslinjevyn:
 1. Skapa en tidslinjevy för en posttyp enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
 1. Klicka på **Gruppering** i det övre högra hörnet av tidslinjevyn.
 
-   ![Gruppera vyn för användargränssnittets tidslinje med länkade fält](assets/grouping-ui-timeline-view-with-linked-fields.png)
+   <span class="preview">![Gruppera vyn för användargränssnittets tidslinje med länkade fält](assets/grouping-ui-timeline-view-with-linked-fields.png)</span>
 
 1. Klicka på ett av de föreslagna fälten eller klicka på **Välj ett annat fält** och sök efter ett annat fält. Klicka sedan på det när det visas i listan.
 
    Grupperingen används automatiskt på tidslinjen och posterna visas inuti grupperingsrutan.
-1. <span class="preview">(Valfritt) Klicka på listrutan **A -> Z** eller **Z -> A** bredvid namnet på det markerade fältet för att välja en stigande eller fallande sorteringsordning för grupperingen. Grupperingarna visas i den alfabetiska ordning som du valde i tidslinjevyn. </span>
+1. <span class="preview"> (Valfritt och villkorligt) Beroende på vilken fälttyp du har valt att gruppera efter väljer du något av följande sorteringsalternativ för att sortera grupperingarna i stigande eller fallande ordning: </span>
+
+   <div class="preview">
+
+   * **A -> Z** eller **Z -> A** för urvalsfält, textfält, styckefält, kopplade poster eller objekt, personfält
+   * **0 -> 9** eller **9 -> 0** för fälten Nummer, Valuta eller Procent.
+   * **tidigaste -> senaste** eller **senaste -> tidigaste** för datumfält
+
+   </div>
+
+   <span class="preview"> Grupperingarna i tidslinjevyn sorteras därefter. Posterna i grupperingarna sorteras i den ordning som de har **Startdatum**, som är standardsortering. </span>
+
 1. (Valfritt) Upprepa stegen ovan om du vill lägga till upp till tre grupperingar.
 
    Antalet fält som har valts för grupperingen visas bredvid grupperingsikonen.
