@@ -6,9 +6,9 @@ description: Använd delningsbara rapportmappar för att ordna de rapporter som 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 65831f2e-9092-4e99-a86b-40df42c713bf
-source-git-commit: 650d24c36c3ccee810b8918ccdf456f607b055e9
+source-git-commit: 6a56485ef5a36aac92fbed73bd6749ed63796a58
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '771'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Du kan skapa upp till tre nivåer med undermappar i en delbar rapportmapp. Under
 
 ## Dela en rapportmapp med andra användare
 
-När du delar en mapp med användare ärver de åtkomst till alla undermappar i det mappträdet. Användarna måste också ha tillgång till varje rapport, antingen via mappbehörigheter eller direkt rapportdelning.
+När du delar en mapp med användare ärver de åtkomst till alla undermappar i det mappträdet.
 
 {{step1-to-reports}}
 
@@ -135,3 +135,7 @@ Rapportbehörigheter som beviljats via mappbehörigheter tas bort när mappen ta
 ## Ny listupplevelse för delningsbara mappar
 
 När du får åtkomst till delningsbara mappar i området Rapporter visas en ny listupplevelse som gör att du enkelt kan visa och hantera dina mappar och rapporter. Mer information om den nya listupplevelsen finns i [Använda förbättrade listor](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+>[!NOTE]
+>
+>Avancerade fält stöds inte i den förbättrade listan. Om du vill arbeta med de här fälten kan du skapa en rapport.
