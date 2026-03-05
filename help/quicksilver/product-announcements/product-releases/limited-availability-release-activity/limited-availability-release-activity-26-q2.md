@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 32c616b2-5bba-434e-9918-c27f6518693d
-source-git-commit: 56e5af94e0e98cf680db182f10143f5503e4260b
+source-git-commit: caad1c709da790e28df39a4a6092ef1ebfa42357
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,26 @@ Det finns en ny upplevelse för att tilldela resurser till uppgifter. Det här �
 
 Mer information finns i [Redigera uppgifter](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
 
+### Bevara faktureringssatser för personalplaner
+
+>[!NOTE]
+>
+>Produktionslanseringsdatum: 5 mars 2026
+
+Vi har lagt till fältet **Bevara fakturering** i avsnittet Ekonomi på sidan Information om personalplan.
+
+Om flaggan är inställd på Falskt (av) bevaras inte faktureringshastigheten och tariffhierarkin används för faktureringsberäkningar.
+
+När den här flaggan är inställd på Sant (på):
+
+* De aktuella faktureringssatserna för de tilldelade resurserna i personalplanen bevaras och eventuella ändringar av satserna i hierarkin återspeglas inte i personalplanens resursområde.
+* Om du lägger till en ny rad i resurstabellen bevaras den ursprungliga faktureringstakten som kommer från faktureringshierarkin.
+* Om en användare har åsidosatt faktureringsvärdet manuellt innan flaggan var aktiverad, bevaras åsidosättningsfrekvensen. När flaggan är aktiverad tillåts inte manuella åsidosättningar av faktureringsfrekvens.
+
+När arkiveringen är aktiverad kan den inte stängas av.
+
+När du kopierar en personalplan som har flaggan aktiverad, inaktiveras flaggan automatiskt på kopian. Resurshanteraren måste sätta på flaggan om det behövs för den nya personalplanen.
+
 <!--### Title
 
 >[!NOTE]
@@ -53,23 +73,27 @@ Mer information finns i [Redigera uppgifter](/help/quicksilver/manage-work/tasks
 text
 -->
 
-## Underhållsuppdateringar för begränsad tillgänglighet
+<!--
 
-I det här avsnittet beskrivs de problem som har åtgärdats i veckouppdateringarna av Workfront för begränsad tillgänglighet.
+## Maintenance Updates for limited availability features
 
-<!--### Maintenance Updates week of February 8-14, 2026
+This section describes the issues fixed in the weekly Workfront updates for limited availability features.
 
-**Title**
 
-text
 
-### Maintenance Updates week of February 15-21, 2026
+### Maintenance Updates week of March 1-7, 2026
 
 **Title**
 
 text
 
-### Maintenance Updates week of February 22-28, 2026
+### Maintenance Updates week of March 8-14, 2026
+
+**Title**
+
+text
+
+### Maintenance Updates week of March 15-21, 2026
 
 **Title**
 
