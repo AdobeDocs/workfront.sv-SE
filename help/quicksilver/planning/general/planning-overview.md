@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+source-git-commit: 550a4e94ce340083937ad89f5dad9e151abe9075
 workflow-type: tm+mt
-source-wordcount: '2086'
+source-wordcount: '2348'
 ht-degree: 0%
 
 ---
@@ -179,154 +179,211 @@ Det finns begränsningar för hur många Workfront Planning-objekt du kan skapa.
 
 Följande är de viktigaste Workfront Planning-objekten och -begreppen:
 
-* **Workspace**: En samling posttyper som definierar den operativa livscykeln för en viss organisation. En arbetsyta är en arbetsyta i en organisationsenhet.
+* [Arbetsytor](#workspaces)
+* [Posttyper](#record-types)
+* [Poster](#records)
+* [Workspace-mallar](#workspace-templates)
+* [Fält](#fields)
+* [Kopplade posttyper, poster och fält](#connected-record-types-records-and-fields)
+* [Sökfält](#lookup-fields)
+* [Hierarkier](#hierarchies)
+* [Vyer](#views)
+* [Automatisering](#automations)
+* [Begär formulär](#request-forms)
 
-  ![Marknadsföringsarbetsyta med startsida för posttyptaxonomier](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
+### Arbetsytor
 
-  Mer information finns i [Skapa arbetsytor](/help/quicksilver/planning/architecture/create-workspaces.md).
+Arbetsytor är ramverket för en organisationsenhet. De är samlingar av posttyper som definierar den operativa livscykeln för en viss organisation.
 
-* **Posttyp**: Namnet på objekttyperna i Workfront Planning.
+![Marknadsföringsarbetsyta med startsida för posttyptaxonomier](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
-  Posttyper fyller i arbetsytor.
+Mer information finns i [Skapa arbetsytor](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-  Till skillnad från Workfront, där objekttyperna är fördefinierade, kan du skapa egna objekttyper i Workfront Planning.
+### Posttyper
 
-  I Workfront har till exempel objekttyperna Program, Portfolio, Projekt, Uppgift eller Utgåva redan skapats.
+Posttyperna är objekttyperna i Workfront Planning.
 
-  I Workfront Planning kan du skapa alla posttyper som passar organisationens arbetsflöden. Senare kan du definiera hur posttyperna relaterar till varandra eller formulärberoenden.
+Posttyper fyller i arbetsytor.
 
-  Mer information finns i [Översikt över posttyper](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+Till skillnad från Workfront, där objekttyperna är fördefinierade, kan du skapa egna objekttyper i Workfront Planning.
 
-* **Post**: En instans av en posttyp.
+I Workfront har till exempel objekttyperna Program, Portfolio, Projekt, Uppgift eller Utgåva redan skapats.
 
-  ![Poster markerade i listan över kampanjposttyper](assets/records-highlighted-in-campaign-record-type-list.png)
+I Workfront Planning kan du skapa alla posttyper som passar organisationens arbetsflöden. Senare kan du definiera hur posttyperna relaterar till varandra eller formulärberoenden.
 
-  När du har lagt till en posttyp på en arbetsyta kan du börja lägga till poster av den typen på posttypens sida.
+Mer information finns i [Översikt över posttyper](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 
-  Till exempel kan&quot;Campaign&quot; vara en posttyp och&quot;Sommarkampanj för EMEA&quot; är ett register över posttypen Campaign.
+### Poster
 
-  Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
+En post är en instans av en posttyp.
 
-* **Workspace-mall**: Du kan skapa en arbetsyta med fördefinierade mallar. Du kan använda de fördefinierade posttyperna och fälten som finns i en mall eller lägga till egna.
+![Poster markerade i listan över kampanjposttyper](assets/records-highlighted-in-campaign-record-type-list.png)
 
-  ![Sidan Arbetsytor med mallminiatyrer](assets/workspaces-page-with-templates-thumbnails.png)
+När du har lagt till en posttyp på en arbetsyta kan du börja lägga till poster av den typen på posttypens sida.
 
-  Adobe Workfront Planning innehåller följande mallar:
+Till exempel kan&quot;Campaign&quot; vara en posttyp och&quot;Sommarkampanj för EMEA&quot; är ett register över posttypen Campaign.
 
-   * Grundläggande: Marknadsföringshantering
-   * Avancerat: Marknadsföringshantering
-   * Enterprise: Marketing Management
-   * Försäljningshantering
-   * Produkthantering
+Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
 
-  Mer information finns i [Lista över arbetsytemallar](/help/quicksilver/planning/architecture/workspace-templates.md).
+### Workspace-mallar
 
-* **Fält**: Fält är attribut som du kan lägga till i posttyper. Fält innehåller information om posttypen. <!--check the shot below, "Connection" needs to be in lowercase-->
+Du kan skapa en arbetsyta med fördefinierade mallar. Du kan använda de fördefinierade posttyperna och fälten som finns i en mall eller lägga till egna.
 
-  ![Listruta med postfält](assets/drop-down-list-of-record-fields.png)
+![Sidan Arbetsytor med mallminiatyrer](assets/workspaces-page-with-templates-thumbnails.png)
 
-  Att tänka på när det gäller postfält:
+Adobe Workfront Planning innehåller följande mallar:
 
-   * De fält som du lägger till för en posttyp kopplas automatiskt till alla poster av den typen och kan användas för att samla in data om dessa poster.
+* Grundläggande: Marknadsföringshantering
+* Avancerat: Marknadsföringshantering
+* Enterprise: Marketing Management
+* Försäljningshantering
+* Produkthantering
 
-   * Fält visas som kolumner i tabellvyn som används på en posttypssida. De visas också på postens sida.
+Mer information finns i [Lista över arbetsytemallar](/help/quicksilver/planning/architecture/workspace-templates.md).
 
-   * Fält är unika för en posttyp och överförs inte från en posttyp till en annan.
+### Fält
 
-   * Fälten är helt anpassningsbara och går bara att komma åt i Workfront Planning. Du har inte åtkomst till Workfront Planning-fält från Workfront.
+Fält är attribut som du kan lägga till i posttyper. Fält innehåller information om posttypen.
 
-  Mer information finns i [Skapa fält](/help/quicksilver/planning/fields/create-fields.md).
+![Listruta med postfält](assets/drop-down-list-of-record-fields.png)
 
-  En ny posttyp är som standard associerad med följande fördefinierade fält:
+Att tänka på när det gäller postfält:
 
-   * Namn
-   * Beskrivning
-   * Startdatum
-   * Slutdatum
-   * Status
+* De fält som du lägger till för en posttyp kopplas automatiskt till alla poster av den typen och kan användas för att samla in data om dessa poster.
 
-  Du kan skapa anpassade fält av följande typer:
+* Fält visas som kolumner i tabellvyn som används på en posttypssida. De visas också på postens sida.
 
-   * Enkelradig text
-   * Stycke
-   * Flera val
-   * Enkelval
-   * Datum
-   * Nummer
-   * Procent
-   * Valuta
-   * Kryssruta
-   * Formel
-   * Folk
-   * Skapad av
-   * Skapad den
-   * Senast ändrad av
-   * Senast ändrat den
+* Fält är unika för en posttyp och överförs inte från en posttyp till en annan.
 
-* **Anslutna posttyper**, **Anslutna poster** och **Anslutna fält**: Du kan skapa en anslutning mellan följande entiteter i Workfront Planning:
+* Fälten är helt anpassningsbara och går bara att komma åt i Workfront Planning. Du har inte åtkomst till Workfront Planning-fält från Workfront.
 
-   * Två posttyper för Workfront Planning.
-   * En posttyp och en Workfront-objekttyp, program-, portfölj-, företag- eller gruppobjekttyp.
-   * En posttyp och en Adobe Experience Manager-resurs eller mapp.
+Mer information finns i [Skapa fält](/help/quicksilver/planning/fields/create-fields.md).
 
-     Du måste ha en Adobe Experience Manager-licens för att kunna koppla posttyper till Experience Manager-objekt.
+En ny posttyp är som standard associerad med följande fördefinierade fält:
 
-     ![Ny anslutningsflik med alternativ för Workfront AEM](assets/new-connection-tab-with-workfront-aem-options.png)
+* Namn
+* Beskrivning
+* Startdatum
+* Slutdatum
+* Status
 
-   * En posttyp och ett Adobe GenStudio for Performance Marketing-märke.
+Du kan skapa anpassade fält av följande typer:
 
-     Du måste ha en Adobe GenStudio for Performance Marketing-licens för att kunna koppla posttyper till GenStudio-varumärken.
-
-     ![Ny anslutningsflik med alternativet Adobe GenStudio Brand](assets/new-connection-tab-with-genstudio-option.png)
+* Enkelradig text
+* Stycke
+* Flera val
+* Enkelval
+* Datum
+* Nummer
+* Procent
+* Valuta
+* Kryssruta
+* Formel
+* Folk
+* Skapad av
+* Skapad den
+* Senast ändrad av
+* Senast ändrat den
 
 
-  När du har upprättat en anslutning mellan posttyperna kan du koppla enskilda poster eller objekt av dessa typer till varandra. Anslutningen mellan posterna visas som ett anslutet postfält eller en anslutning.
+### Kopplade posttyper, poster och fält
 
-  Det är praktiskt att koppla posttyper när du har flera typer av arbetsobjekt som påverkar varandra. Du kan till exempel arbeta med kampanjer och varje kampanj kan tillgodose flera varumärken. För att indikera relationen kan ni koppla kampanjer till varumärken. Dessutom kan arbetet för varje kampanj planeras i flera projekt i Workfront. För att ange detta kan ni koppla kampanjerna till relevanta projekt. När du ansluter posttyper och sedan ansluter enskilda poster skapas den här relationen i Workfront Planning.
+Du kan skapa en anslutning mellan följande enheter i Workfront Planning:
 
-* **Sök efter fält** (eller länkade fält): När du har upprättat anslutningen mellan två posttyper och kopplar ihop enskilda poster kan du referera till fälten från de anslutna posterna från den post du ansluter från.
+* Två posttyper för Workfront Planning.
+* En posttyp och en Workfront-objekttyp, program-, portfölj-, företag- eller gruppobjekttyp.
+* En posttyp och en Adobe Experience Manager-resurs eller mapp.
 
-  Om du till exempel kopplar en Campaign-posttyp till en Workfront Project-objekttyp kan du visa budgetfältet för anslutna projekt på kampanjposterna.
+  Du måste ha en Adobe Experience Manager-licens för att kunna koppla posttyper till Experience Manager-objekt.
 
-  ![Lägg till uppslagsfältruta](assets/add-lookup-fields-modal.png)
+  ![Ny anslutningsflik med alternativ för Workfront AEM](assets/new-connection-tab-with-workfront-aem-options.png)
 
-  >[!TIP]
-  >
-  >* Du kan inte lägga till följande fälttyper som sökfält från den anslutna posten eller objekttyperna:
-  >   * Skapad av
-  >   * Senast ändrad av
-  >   * Workfront typsnittsfält (inklusive fält som Projektägare eller Projektsponsor)
-  >* Du kan inte lägga till följande fälttyper som sökfält från den anslutna posten eller objekttypen i Production, <span class="preview">men du kan lägga till dem i förhandsvisningsmiljön:</span>
-  >   * Folk
+* En posttyp och ett Adobe GenStudio for Performance Marketing-märke.
 
-  Mer information om hur du ansluter posttyper, poster och skapar länkade fält finns i följande artiklar:
+  Du måste ha en Adobe GenStudio for Performance Marketing-licens för att kunna koppla posttyper till GenStudio-varumärken.
 
-   * [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md)
-   * [Koppla poster](/help/quicksilver/planning/records/connect-records.md)
+  ![Ny anslutningsflik med alternativet Adobe GenStudio Brand](assets/new-connection-tab-with-genstudio-option.png)
+
+När du har upprättat en anslutning mellan posttyperna eller post- och objekttyperna kan du koppla enskilda poster eller objekt av dessa typer till varandra. Anslutningen mellan posterna visas som ett anslutet postfält eller en anslutning.
+
+Det är praktiskt att koppla posttyper när du har flera typer av arbetsobjekt som påverkar varandra. Du kan till exempel arbeta med kampanjer och varje kampanj kan tillgodose flera varumärken. För att indikera relationen kan ni koppla kampanjer till varumärken. Dessutom kan arbetet för varje kampanj planeras i flera projekt i Workfront. För att ange detta kan ni koppla kampanjerna till relevanta projekt. När du ansluter posttyper och sedan ansluter enskilda poster skapas den här relationen i Workfront Planning.
+
+### Sökfält
+
+När du har upprättat anslutningen mellan två posttyper och kopplar ihop enskilda poster, kan du referera till fälten från de anslutna posterna från den post du ansluter från.
+
+Om du till exempel kopplar en Campaign-posttyp till en Workfront Project-objekttyp kan du visa budgetfältet för anslutna projekt på kampanjposterna.
+
+![Lägg till uppslagsfältruta](assets/add-lookup-fields-modal.png)
+
+>[!TIP]
+>
+>* Du kan inte lägga till följande fälttyper som sökfält från den anslutna posten eller objekttyperna:
+>   * Skapad av
+>   * Senast ändrad av
+>   * Workfront typsnittsfält (inklusive fält som Projektägare eller Projektsponsor)
+>* Du kan inte lägga till följande fälttyper som sökfält från den anslutna posten eller objekttypen i Production, <span class="preview">men du kan lägga till dem i förhandsvisningsmiljön:</span>
+>   * Folk
+
+Mer information om hur du ansluter posttyper, poster och skapar länkade fält finns i följande artiklar:
+
+* [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md)
+* [Koppla poster](/help/quicksilver/planning/records/connect-records.md)
 
 <!--not yet:* Fields are reusable across Record Types.  -->
 
-* **Vyer**: Poster visas under respektive posttypssida i olika typer av vyer.
+### Hierarkier
 
-  ![Listrutan Visa typer från posttypslistan](assets/view-types-drop-down-from-record-type-list.png)
+När posttyperna har anslutits inom en arbetsyta kan du skapa en hierarki som organiserar dessa anslutningar. Hierarkier organiserar post- och objekttyper i överordnade och underordnade relationer och kan innehålla upp till fyra nivåer med objekttyper.
 
-  Vyer innehåller anpassade inställningar för en viss vytyp, till exempel listan med fält (kolumner), en lista med poster (rader), deras ordning (sortering), ett tillämpat eller tillämpligt filter och en gruppering.
+![Hierarkier i inställningsområdet för arbetsytan](assets/hierarchies-in-workspace-settings-area.png)
 
-  Här följer några vytyper som du kan använda på posttypssidan:
+Om det inte redan finns en anslutning mellan två posttyper kan den skapas när du skapar hierarkin. När hierarkin har definierats skapar den en strukturerad sökväg över relaterade posttyper på arbetsytan.
 
-   * **Tabellvy**: Visar poster och deras fält, inklusive anslutna fält och uppslagsfält, i ett tabellformat. Raderna i tabellen är de enskilda posterna och kolumnerna är postfälten. Tabellvyn är standardvy.
+Hierarkier genererar vägbeskrivningar för sina respektive poster som visas i sina rubriker. På så sätt vet användarna var de befinner sig i hierarkin i vilket skede som helst i arbetsflödet.
 
-     ![Exempel på tabellvy](assets/table-view-example.png)
+Allmän information om hierarkier och vägbeskrivningar finns i [Översikt över hierarki och vägbeskrivningar](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
-   * **Tidslinjevy**: Visar poster som har minst två datumtypsfält på en kronologisk tidslinje. Du kan visa upp till 5 anslutna posttyper och deras poster i tidslinjevyn.
+### Vyer
 
-     ![Gruppering används i tidslinjevyn](assets/grouping-applied-in-timeline-view.png)
+Poster visas i sina respektive posttypssidor i olika typer av vyer.
 
-   * **Kalendervy**: Visar poster som har minst två datumtypsfält i ett kalenderformat.
-     ![Exempel på kalendervy](assets/calendar-view-example.png)
+![Listrutan Visa typer från posttypslistan](assets/view-types-drop-down-from-record-type-list.png)
 
+Vyer innehåller anpassade inställningar för en viss vytyp, till exempel listan med fält (kolumner), en lista med poster (rader), deras ordning (sortering), ett tillämpat eller tillämpligt filter och en gruppering.
+
+Här följer några vytyper som du kan använda på posttypssidan:
+
+* **Tabellvy**: Visar poster och deras fält, inklusive anslutna fält och uppslagsfält, i ett tabellformat. Raderna i tabellen är de enskilda posterna och kolumnerna är postfälten. Tabellvyn är standardvy.
+
+  ![Exempel på tabellvy](assets/table-view-example.png)
+
+* **Tidslinjevy**: Visar poster som har minst två datumtypsfält på en kronologisk tidslinje. Du kan visa upp till 5 anslutna posttyper och deras poster i tidslinjevyn.
+
+  ![Gruppering används i tidslinjevyn](assets/grouping-applied-in-timeline-view.png)
+
+* **Kalendervy**: Visar poster som har minst två datumtypsfält i ett kalenderformat.
+  ![Exempel på kalendervy](assets/calendar-view-example.png)
+
+<!-- add List view here when it's possible to display Planning RTs in it??-->
 
 Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
+
+### Automatisering
+
+Du kan konfigurera automatisering i Adobe Workfront Planning som, när den aktiveras, skapar poster i Workfront Planning när de aktiveras från en Planning-post. De skapade posterna kopplas automatiskt till de poster som du aktiverar automatiseringen från.
+
+Du kan konfigurera och aktivera automatiseringen på posttypens sida i Workfront Planning.
+
+Du kan till exempel skapa en automatisering som tar en Workfront Planning-kampanj och skapar ett varumärke som ska kopplas till kampanjen.
+
+Mer information om hur du skapar objekt med en befintlig automatisering finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+
+### Begär formulär
+
+Du kan skapa ett begärandeformulär och associera det med en posttyp i Adobe Workfront Planning. Du kan sedan dela formuläret med andra och de kan skicka in begäranden för att skapa poster av den typen.
+
+Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Hitta Adobe Workfront Planning
 
@@ -336,7 +393,7 @@ Så här hittar du Workfront Planning:
 
 1. Logga in på Workfront.
 
-{{step1-click-main-menu}}
+{{step1-click-main-menu-shell-only}}
 
 1. Klicka på **Planering** ![Planeringsikonen](assets/planning-icon.png).
 
@@ -377,14 +434,6 @@ Så här hittar du Workfront Planning:
       * [Skapa poster](/help/quicksilver/planning/records/create-records.md)
       * [Skapa fält](/help/quicksilver/planning/fields/create-fields.md).
 
-## Workfront Planning - lanseringsaktivitet
-
-<!--update this with the new release activity page - the article index for all Planning releases-->
-
-Vi lanserar regelbundet nya funktioner i Workfront Planning.
-
-En uppdaterad lista över släppta funktioner finns i [Aktivitet för lansering av Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
-
 ## Ytterligare resurser för Workfront Planning
 
 * [Allmän information om Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md): Ett index för alla artiklar som innehåller dokumentation om Workfront Planning, grupperade efter intresseområde.
@@ -395,7 +444,7 @@ En uppdaterad lista över släppta funktioner finns i [Aktivitet för lansering 
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [Adobe Workfront planeringsmoduler för Workfront Fusion](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Med Adobe Workfront Planning-modulerna kan du utlösa ett scenario när händelser inträffar i Workfront Planning. Du kan också skapa, läsa, uppdatera och ta bort poster eller utföra ett anpassat API-anrop till ditt Adobe Workfront Planning-konto.
+* [Adobe Workfront planeringsmoduler för Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Med Adobe Workfront Planning-modulerna kan du utlösa ett scenario när händelser inträffar i Workfront Planning. Du kan också skapa, läsa, uppdatera och ta bort poster eller utföra ett anpassat API-anrop till ditt Adobe Workfront Planning-konto.
 
 * [Grunderna i Adobe Workfront Planning API](/help/quicksilver/planning/general/planning-api-basics.md): Målet för Adobe Workfront Planning API är att förenkla byggintegreringar med Planning genom att införa en REST-full arkitektur som fungerar över HTTP.
 

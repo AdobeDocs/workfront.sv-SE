@@ -1,7 +1,7 @@
 ---
-source-git-commit: 703d2bb511109a68d2917fd83fd1b7f7a562f5a9
+source-git-commit: 550a4e94ce340083937ad89f5dad9e151abe9075
 workflow-type: tm+mt
-source-wordcount: '2496'
+source-wordcount: '2512'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,10 @@ ht-degree: 0%
 
 1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet.
 
+## Steg 1 - Klicka bara på Huvudmenyskal {#step1-click-main-menu-shell-only}
+
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet.
+
 ## Steg 1 - Klicka på huvudmenyn och sedan på - {#step1-click-mm-then-click}
 
 1. Klicka på **[!UICONTROL Main Menu]**-ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på
@@ -118,7 +122,7 @@ Du kan kontrollera att du associerar rätt grupp med gruppen genom att hålla ma
 
 ## Steg 1 - Gå till användare {#step-1-to-users}
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Users]** ![Användare &#x200B;](/help/_includes/assets/users-icon-in-main-menu.png) .
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Users]** ![Användare ](/help/_includes/assets/users-icon-in-main-menu.png) .
 
 
 <!-- Agile -->
