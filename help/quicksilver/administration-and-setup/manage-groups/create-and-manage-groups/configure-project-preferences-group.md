@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
 workflow-type: tm+mt
-source-wordcount: '2736'
+source-wordcount: '2833'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 # Konfigurera projektinställningar för en grupp
 
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Om du är gruppadministratör och en Adobe Workfront-administratör låser upp en projektinställning för alla grupper i systemet kan du konfigurera den inställningen så att den påverkar alla efterföljande projekt som gruppen skapar.
 
@@ -166,7 +166,7 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt som 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Schemalägg från</td> 
+   <td role="rowheader"><b>Schemalägg från</b></td> 
    <td> <p>Ange om nya projekt ska schemaläggas från Startdatum eller från Slutförandedatum när de skapas.</p> 
     <ul> 
      <li><strong>Startdatum</strong>: Nya aktiviteter som standard är som standard aktivitetsbegränsning så snart som möjligt och projektledare uppmanas att ange ett planerat startdatum för projektet.</li> 
@@ -174,7 +174,7 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt som 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Användningstid av</td> 
+   <td role="rowheader"><b>Användningstid av</b></td> 
    <td> <p>Avgör om tiden för den primära tilldelaren för en uppgift justerar de planerade datumen för den uppgiften i ett projekt.</p> 
     <ul> 
      <li> <p><strong>Överväg användarens inaktivitet i varaktigheter</strong>: Alla tidsperioder som är schemalagda för en uppgifts primära tilldelningsdatum justerar aktivitetens planerade datum om tiden för inaktivitet inträffar under aktivitetens varaktighet. Det här är standardinställningen. </p> <p>Om en uppgift med ett villkor som är lika med så snart som möjligt är schemalagd att påbörjas den 1 juni och slutföras den 3 juni, och den primära uppdragen har markerat till 2 juni som"Time-off", justeras aktivitetens planerade datum till 1 juni till 4 juni.</p> <p><b>VIKTIGT</b>: Aktivitetens varaktighet ändras inte när du väljer den här inställningen. Endast planerade datum ändras beroende på aktivitetsbegränsning.</p> </li> 
@@ -222,7 +222,7 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt som 
     </ul> <p>Mer information om scheman finns i <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Skapa ett schema</a>.</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Beräkningar av tidslinje </p> </td> 
+   <td role="rowheader"> <p><b>Beräkningar av tidslinje</b></p> </td> 
    <td> 
     <ul> 
      <li><strong>Vanliga timmar per arbetsdag</strong>: Ange antalet timmar på en vanlig arbetsdag för användare som ska arbeta med projekt. Standardvärdet är 8 timmar.</li> 
@@ -233,7 +233,12 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt som 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p><strong>Egna kvartal</strong> </p> </td> 
-   <td> <p>Konfigurera anpassade årliga kvartal för användare som ska arbeta med projekt. Kvartal är vanligtvis kvartal som inte motsvarar den traditionella fördelningen av kvartal under ett kalenderår. Du kan lägga till flera anpassade kvartal. Mer information finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Aktivera anpassade kvartal</a>.</p> <p><b>Obs!</b> Workfront-administratörer kan inte låsa upp anpassade kvartal.</p> </td> 
+   <td> 
+   <span class="preview">Området Egna kvartal har tagits bort från gruppens projektinställningar i förhandsvisningsmiljön.</span>
+   <p>Kvartal är vanligtvis kvartal som inte motsvarar den traditionella fördelningen av kvartal under ett kalenderår. En Workfront-administratör kan lägga till flera anpassade kvartal under <b>Inställningar</b>. Mer information finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Aktivera anpassade kvartal</a>.</p>  
+   <p><b>VIKTIGT<b></p>
+   <p>Du kan inte ändra konfigurationen för anpassat kvartal som gruppadministratör. <p>Workfront-administratörer kan inte låsa upp anpassade kvartal så att gruppadministratörer kan hantera det.</p> <p>Området Anpassade kvartal är skrivskyddat för gruppadministratörer.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>

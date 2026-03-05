@@ -6,7 +6,7 @@ description: Du kan filtrera en rapport efter tidsramen för ett datum som finns
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 0%
@@ -148,11 +148,11 @@ Om du till exempel skapar en timrapport och vill visa timmar som angetts under e
   </tr> 
   <tr> 
    <td role="rowheader">Nästa vecka</td> 
-   <td>Visar timmar där anmälningsdatumet är ett datum i veckan efter den aktuella veckan, där veckan börjar på en söndag och slutar på en lördag. </td> 
+   <td>Visar timmar där anmälningsdatumet är ett datum i veckan efter den aktuella veckan, där veckan börjar på en söndag och slutar på en lördag. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Förra veckan</td> 
-   <td>Visar timmar där anmälningsdatumet är ett datum i veckan före den aktuella veckan, där veckan börjar på en söndag och slutar på en lördag. </td> 
+   <td>Visar timmar där anmälningsdatumet är ett datum i veckan före den aktuella veckan, där veckan börjar på en söndag och slutar på en lördag. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Den här månaden</td> 
@@ -182,7 +182,7 @@ Om du till exempel skapar en timrapport och vill visa timmar som angetts under e
   </tr> 
   <tr> 
    <td role="rowheader">Sista kvartalet</td> 
-   <td> <p>Visar timmar där anmälningsdatumet är ett datum under det kvartal som föregår det aktuella kvartalet, där kvartal definieras ovan.</p> <p>Obs! Om din Workfront-administratör har aktiverat och definierat anpassade kvartal för ditt system, ersätts de inbyggda filtren för kvartal med din anpassade kvartalsinformation. Mer information om att aktivera anpassade kvartal finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Aktivera anpassade kvartal</a>.</p> </td> 
+   <td> <p>Visar timmar där anmälningsdatumet är ett datum under det kvartal som föregår det aktuella kvartalet, där kvartal definieras ovan.</p> <p><b>ANMÄRKNING</b></p>  Om Workfront-administratören har aktiverat och definierat anpassade kvartal för ditt system ersätts de inbyggda filtren för kvartal med din anpassade kvartalsinformation. Mer information om att aktivera anpassade kvartal finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Aktivera anpassade kvartal</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Detta år</td> 
@@ -194,7 +194,7 @@ Om du till exempel skapar en timrapport och vill visa timmar som angetts under e
   </tr> 
   <tr> 
    <td role="rowheader">Förra året</td> 
-   <td> <p>Visar timmar där anmälningsdatumet är ett datum i det sista året, där det sista året börjar den 1 januari och slutar den 31 december året före det aktuella året.</p> <p>Obs! Det finns ingen inbyggd tidsperiod för räkenskapsåret. Du kan skapa en rapport och filtrera informationen efter datum med en anpassad modifierare för räkenskapsårets datumintervall, så som det definieras i din organisation. Om du vill välja en tidsram för ett räkenskapsår på plats bör du använda en uppmaning i stället för ett filter. </p> </td> 
+   <td> <p>Visar timmar där anmälningsdatumet är ett datum i det sista året, där det sista året börjar den 1 januari och slutar den 31 december året före det aktuella året.</p> <p>Obs! Det finns ingen inbyggd tidsperiod för räkenskapsåret. Du kan skapa en rapport och filtrera informationen efter datum med en anpassad modifierare för räkenskapsårets datumintervall, så som det definieras i din organisation. Om du vill välja en tidsram för ett räkenskapsår på plats bör du använda en uppmaning i stället för ett filter. </p> </td> 
   </tr> 
  </tbody> 
 </table>

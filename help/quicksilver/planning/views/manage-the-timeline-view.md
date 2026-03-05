@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 892a86f053fb170872b0b4b6126b67974129d372
+source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
 workflow-type: tm+mt
-source-wordcount: '4067'
+source-wordcount: '4066'
 ht-degree: 0%
 
 ---
@@ -176,7 +176,7 @@ Så här hanterar du en tidslinjevy:
 
      >[!TIP]
      >
-     >Det här meddelandet ska visas endast omedelbart efter att din organisation har aktiverat Planning och anpassade kvartal före köpet. Överlappningar och luckor mellan kvartalen är inte tillåtna när du har aktiverat Workfront Planning för din organisation.
+     >Det här meddelandet ska visas omedelbart efter att din organisation har köpt Planning och anpassade kvartal aktiverats före köpet. Överlappningar och luckor mellan kvartalen är inte tillåtna när du har aktiverat Workfront Planning för din organisation.
 
    * Om kvartal delvis har ställts in och några månader under samma år saknas, kan du få ett meddelande när du rullar för att visa kvartal som saknas om att resten av året behöver ställas in med kvartal som saknas.
 
@@ -212,7 +212,7 @@ Så här hanterar du en tidslinjevy:
 
 1. Gör följande för att snabbt hitta poster som matchar ett nyckelord:
 
-   1. Klicka på ikonen **Sök** ![Sök &#x200B;](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med ett fält i en post som visas på skärmen. Antalet korrekta matchningar visas bredvid sökobjektet och posten med rätt matchning markeras.
+   1. Klicka på ikonen **Sök** ![Sök ](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med ett fält i en post som visas på skärmen. Antalet korrekta matchningar visas bredvid sökobjektet och posten med rätt matchning markeras.
 
       ![Sökruta och tidslinjevy för resultat](assets/search-box-and-results-timeline-view.png)
 

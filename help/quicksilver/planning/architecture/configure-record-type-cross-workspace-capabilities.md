@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 5a725e747e8776a867cb0dc4129544f6a28ce8e0
+source-git-commit: 4713864c21d23b507f4d19d7a7955128768e077d
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1434'
 ht-degree: 0%
 
 ---
@@ -76,8 +76,26 @@ eller
 </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
-   <td><p>Standard</p>
-   </td> 
+   <td>
+   <p>Så här gör du en post global:</p>
+   <ul><li>Standard eller högre</li></ul>
+   <p>Så här gör du en post anslutningsbar:</p>
+   <ul><li>Systemadministratör</li></ul>
+
+<!--replace the above with this at release:
+   <p>To make a record global:</p>
+   <ul><li>Standard or higher</li></ul>
+   <p>To make a record connectable:</p>
+   <ul><li>In the Production environment:</li>
+   <ul><li>System Administrator</li></ul></ul>
+
+   <div class="preview">
+   <ul><li>In the Preview environment:</li>
+   <ul><li>Standard to make a record connectable from specific workspaces</li>
+   <li>System Administrator to make a record connectable from all workspaces</li></ul></ul>
+   </div>-->
+
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
@@ -156,7 +174,7 @@ Så här konfigurerar du en posttyp som global:
 
      ![Fler menyalternativ från posttypskort](assets/more-menu-options-from-record-type-card.png)
 
-   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn.
+   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn.
 1. Klicka på **Redigera** eller **Inställningar**.
 
    >[!TIP]
@@ -237,7 +255,7 @@ Så här konfigurerar du en posttyp som global:
 
      ![Fler menyalternativ från posttypskort med inställningar](assets/more-menu-options-from-record-type-card-with-settings-link.png)
 
-   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn.
+   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn.
 1. Klicka på **Redigera** eller **Inställningar**.
 
 1. (Villkorligt) Om du klickade på **Redigera** klickar du på fliken **Inställningar för arbetsytan** i rutan **Redigera posttyp**
@@ -252,12 +270,13 @@ Så här konfigurerar du en posttyp som global:
 
    När det här alternativet är aktiverat är posttypen tillgänglig och kan anslutas till från andra arbetsytor.
 
-1. Välj från vilka arbetsytor som posttypen kan nås. Välj bland följande alternativ:
+1. <!--<span class="preview">(Conditional) Depending on which license you have,</span>--> Välj från vilka arbetsytor som posttypen kan nås. Välj bland följande alternativ:
 
    <!--check names of the setting: System wide?? OR All workspaces??-->
 
-   * **Alla arbetsytor**: Användare kan ansluta till den här posttypen från alla arbetsytor där de har behörigheten Hantera.
+   * **Alla arbetsytor**: Användare kan ansluta till den här posttypen från alla arbetsytor där de har behörigheten Hantera. <!--<span class="preview">This option is dimmed for workspace managers with a Standard license. Only System Administrators can turn on connecting record types from all workspaces.</span>-->
    * **Specifika arbetsytor**: Lägg till namnen på arbetsytorna där arbetsytehanterare kan ansluta till den här posttypen från den nedrullningsbara menyn.
+
 1. (Villkorligt) Klicka på **Spara** i rutan **Redigera posttyp** eller klicka på bakåtpilen till vänster om **Inställningar** i sidhuvudet för att spara ändringarna.
 
    Följande saker händer:

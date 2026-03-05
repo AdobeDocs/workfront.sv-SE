@@ -8,16 +8,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f643d36-6235-4fd3-b6d3-54fbd03c9b33
-source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
+source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
 
 # Aktivera anpassade kvartal
 
-<!--Audited: 11/2024-->
+<!--Audited: 03/2026-->
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 I rapporteringssyfte kan du skapa anpassade kvartal om organisationens kvartal baseras på andra specifika villkor än kalenderdatum (t.ex. arbetsdagar eller kunddagar).
 
@@ -58,9 +62,12 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 {{step-1-to-setup}}
 
-1. Klicka på **[!UICONTROL Project Preferences]** > **[!UICONTROL Projects].**
+1. (Villkorligt) Beroende på vilken miljö du använder anpassade kvartal från gör du något av följande:
 
-1. Välj **[!UICONTROL Timelines]** i avsnittet **[!UICONTROL Enable Custom Quarters]**.
+   * I produktionsmiljön klickar du på **[!UICONTROL Project Preferences]** > **[!UICONTROL Projects].**
+   * <span class="preview">Klicka på **[!UICONTROL Custom Quarters]** i förhandsgranskningsmiljön.</span>
+
+1. Välj **[!UICONTROL Enable Custom Quarters]**.
 
 1. Ange ett namn för det anpassade kvartalet, till exempel&quot;Räkenskapskvot 1 2021&quot;.
 1. Välj start- och slutdatum för det anpassade kvartalet.
@@ -77,7 +84,6 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 1. (Valfritt och villkorligt) Om ditt företag bara har köpt [!DNL Workfront], utan [!DNL Workfront Planning], skapar du ett rapportelement som refererar till räkenskapskvartalen.
 
-
    **Exempel:** Skapa ett filter för en [!UICONTROL project]-lista och inkludera planerat slutförandedatum för ett projekt som refererar till anpassade kvartal.
 
    ![Projektfilter med anpassade kvartal](assets/example-of-project-filter-with-custom-quarters.png)
@@ -87,5 +93,5 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
    Mer information om rapportelement finns i [Rapportera element: filter, vyer och grupperingar](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
    Mer information om hur du skapar filter finns i [Skapa eller redigera filter i [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
-1. (Valfritt och villkorligt) Om du har tillgång till [!DNL Workfront Planning] går du till en posttypssida och öppnar en tidslinjevy. I vyn visas de nya anpassade kvartalen.
+1. (Valfritt och villkorligt) Om ditt företag har köpt Workfront Planning och du har tillgång till [!DNL Workfront Planning] går du till en posttypssida och öppnar en tidslinjevy. I vyn visas de nya anpassade kvartalen.
 Mer information finns i [Hantera tidslinjevyn](/help/quicksilver/planning/views/manage-the-timeline-view.md).
