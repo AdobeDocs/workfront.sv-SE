@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: 860bd4bef75a90f4e1c5a21f38de95962804c00c
+source-git-commit: d3a7c3c03b6be87f3adf2fd67b9136bc2be9c24b
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,23 @@ ht-degree: 0%
 Den här sidan beskriver administratörsförbättringar som gjorts i den andra utgåvan av kvartalet 2026 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den andra utgåvan av kvartal 2026 finns i [Översikt över den andra utgåvan av kvartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Anpassade kvartal är nu tillgängliga som en separat sida i Inställningar
+
+>[!NOTE]
+>
+>Förhandsgranska: 5 mars 2026
+>Production fast release: 15 april 2026
+>Produktion för alla: 16 april 2026
+
+Vi har flyttat området Anpassat kvartal från avsnittet Projektinställningar. Det är nu ett fristående avsnitt i installationsprogrammet. 
+Uppdateringen innehåller följande:
+
+* Området Egna kvartal tas bort från avsnittet Projektinställningar i installationsprogrammet
+* Avsnittet Egna kvartal läggs till i den vänstra panelen i Konfigurera. Funktionen är densamma. 
+* Avsnittet Egna kvartal har tagits bort från avsnittet Projektinställningar i en grupp. Gruppadministratörer har inte längre någon synlighet för konfigurationen av anpassade kvartal. 
+
+Mer information finns i [Aktivera anpassade kvartal](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
 ## Komprimera eget formuläravsnitt som standard
 
