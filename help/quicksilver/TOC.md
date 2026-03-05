@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 35f9c4012d8d47e6cd5402029ceaf487b1942ce9
+source-git-commit: 14794bc7c65cd1863412ea278a1a199b6452c4e0
 workflow-type: tm+mt
-source-wordcount: '13782'
+source-wordcount: '13790'
 ht-degree: 0%
 
 ---
@@ -519,6 +519,8 @@ ht-degree: 0%
          * [Visa och exportera granskningsloggar](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
          * [Visa inloggningsinformation för användare](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
          * [Hantera användare i Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
+         * [Översikt över affärsprofiler](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)
+         * [Visa och hantera affärsprofiler](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-business-profiles.md)
       * Hur åtkomstnivåer fungerar {#access-levels}
          * [Hur åtkomstnivåer fungerar](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
          * [Översikt över åtkomstnivåer](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
