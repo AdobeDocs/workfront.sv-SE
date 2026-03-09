@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4fb6eefd-74dd-4941-91d4-0e5f637febf3
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: c13d893ba3f8748666c8c2d36d66367a6ec4e855
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -58,7 +58,8 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
    Som standard har användare med en plan-, Work-, Reviewer- eller Request-licens fullständig visning och redigeringsfunktioner. Användare med en extern användarlicens har inte åtkomst till filter, vyer och grupperingar.
 
-   <!--If this changes, undraft section with table below
+   <!--
+   If this changes, undraft section with table below
    -->
 
 1. (Valfritt) Om du vill konfigurera åtkomstinställningar för andra objekt och områden på den åtkomstnivå du arbetar med ska du fortsätta med en av artiklarna i [Konfigurera åtkomst till Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), till exempel [Bevilja åtkomst till aktiviteter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) och [Bevilja åtkomst till ekonomiska data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
@@ -66,9 +67,11 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
    När åtkomstnivån har skapats kan du tilldela den till en användare. Mer information finns i [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-<!--## Access to filters, views, and groupings by license type
+<!--
+## Access to filters, views, and groupings by license type
 
-Drafting out this section for now because the table is redundant since all four license types can do everything.</span>-->
+Drafting out this section for now because the table is redundant since all four license types can do everything.</span>
+-->
 
 I den här tabellen visas vad en Workfront-administratör kan tillåta användare med varje licenstyp att göra med filter, vyer och grupperingar. Mer information om Workfront licenstyper finns i [Översikt över Adobe Workfront-licenser](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 

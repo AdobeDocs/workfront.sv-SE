@@ -1,5 +1,5 @@
 ---
-source-git-commit: 550a4e94ce340083937ad89f5dad9e151abe9075
+source-git-commit: c13d893ba3f8748666c8c2d36d66367a6ec4e855
 workflow-type: tm+mt
 source-wordcount: '2512'
 ht-degree: 0%
@@ -7,7 +7,8 @@ ht-degree: 0%
 ---
 # Fragment
 
-<!-- Add snippets within the section that the snippet is used. Snippets that are used throughout the Workfront documentation set should be added to the "General" section. -->
+<!-- 
+Add snippets within the section that the snippet is used. Snippets that are used throughout the Workfront documentation set should be added to the "General" section. -->
 
 <!-- General -->
 
@@ -122,7 +123,7 @@ Du kan kontrollera att du associerar rätt grupp med gruppen genom att hålla ma
 
 ## Steg 1 - Gå till användare {#step-1-to-users}
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Users]** ![Användare &#x200B;](/help/_includes/assets/users-icon-in-main-menu.png) .
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Users]** ![Användare ](/help/_includes/assets/users-icon-in-main-menu.png) .
 
 
 <!-- Agile -->
@@ -220,78 +221,66 @@ Du måste installera rätt plugin-program för det Adobe Creative Cloud-program 
 1. (Valfritt) Justera inställningar för automatiserat korrekturarbetsflöde
 
    <table>
-      <tr>
-         <td colspan="2" ><strong>Korrekturfaser</strong>
-         </td>
-      </tr>
-      <tr>
-         <td>Inaktivera faser
-         </td>
-         <td>
+   <tr>
+      <td colspan="2" ><strong>Korrekturfaser</strong>
+      </td>
+   </tr>
+   <tr>
+      <td>Inaktivera faser
+      </td>
+      <td>
       <ol>
-
-   <li>Växla Markera alla om du vill inaktivera alla faser. 
+      <li>Växla Markera alla om du vill inaktivera alla faser. 
       <p>eller</p></li>
       <li>Växla enskilda faser.</li>
-
-   </ol>
-         </td>
-      </tr>
-      <tr>
-         <td>Lägg till mottagare
-         </td>
-         <td>
+      </ol>
+      </td>
+   </tr>
+   <tr>
+      <td>Lägg till mottagare
+      </td>
+      <td>
       <ol>
-
-   <li>I rutan Lägg till ny mottagare börjar du skriva användarens namn.
-
-   <li>Ange korrekturrollen.
-
-   <li>Välj typ av e-postaviseringar för mottagaren. 
+      <li>I rutan Lägg till ny mottagare börjar du skriva användarens namn.</li>
+      <li>Ange korrekturrollen.</li>
+      <li>Välj typ av e-postaviseringar för mottagaren.</li>
+      </ol>
+      </td>
+   </tr>
+   <tr>
+      <td>Ange en deadline
+      </td>
+      <td>
+      <ol>
+      <li>Välj en deadline.</li>
+      </ol>
+      </td>
+   </tr>
+   <tr>
+      <td colspan="2" ><strong>E-postmeddelanden</strong>
+      </td>
+   </tr>
+   <tr>
+      <td>Meddela mottagarna om korrekturet
+      </td>
+      <td>
+      <ol>
+      <li>Aktivera kryssrutan för att meddela användare när korrekturet skapas.</li>
+      </ol>
+      </td>
+   </tr>
+   <tr>
+      <td>Lägg till ett anpassat meddelande
+      </td>
+      <td>
+      <ol>
+      <li>Skriv ett ämne.
+      <li>Skriv det anpassade meddelandet.
       </li>
       </ol>
-         </td>
+      </td>
       </tr>
-      <tr>
-         <td>Ange en deadline
-         </td>
-         <td>
-      <ol>
-
-   <li>Välj en deadline.
-      </li>
-      </ol>
-         </td>
-      </tr>
-      <tr>
-         <td colspan="2" ><strong>E-postmeddelanden</strong>
-         </td>
-      </tr>
-      <tr>
-         <td>Meddela mottagarna om korrekturet
-         </td>
-         <td>
-      <ol>
-
-   <li>Aktivera kryssrutan för att meddela användare när korrekturet skapas.
-      </li>
-      </ol>
-         </td>
-      </tr>
-      <tr>
-         <td>Lägg till ett anpassat meddelande
-         </td>
-         <td>
-      <ol>
-
-   <li>Skriv ett ämne.
-
-   <li>Skriv det anpassade meddelandet.
-      </li>
-      </ol>
-         </td>
-      </tr>
-      </table>
+   </table>
 
 <!-- Workfront Planning -->
 
@@ -318,7 +307,8 @@ Du måste installera rätt plugin-program för det Adobe Creative Cloud-program 
 > 
 >Allmän information om Workfront Planning finns i [Kom igång med Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
-<!--Old - before Oct. 15, 2025:
+<!--
+Old - before Oct. 15, 2025:
 >[!IMPORTANT]
 >
 >The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
@@ -331,9 +321,11 @@ Du måste installera rätt plugin-program för det Adobe Creative Cloud-program 
 >
 > For a complete list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
 > 
->For more information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).-->
+>For more information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+-->
 
-<!--OLD: 
+<!--
+OLD: 
 >[!IMPORTANT]
 >
 >The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
@@ -464,11 +456,11 @@ Du kan ändra vilken status som ska användas för arbetsposten med knappen Klar
    >* Problemtyperna är anpassningsbara och kan ha andra namn än de som visas nedan i din miljö.\
    >  Följande är standardåtgärder och problemtyper:
    >     
-   >   * Uppgifter
-   >   * Problem
-   >   * Begäran
-   >   * Ändra ordning
-   >   * Felrapport
+   >  * Uppgifter
+   >  * Problem
+   >  * Begäran
+   >  * Ändra ordning
+   >  * Felrapport
 
    Om uppgiften eller utgåvan har tilldelats flera användare visas alternativet &quot;Klar med min del&quot; i listrutan, utöver de statusvärden som har valts för ditt team.
 
@@ -530,5 +522,4 @@ For each snippets, create a head 2 section and add an anchor, such as
 In any .md file, add {{classic-note}} where you want that shared snippet content to appear.
 
 -->
-
 
