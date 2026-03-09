@@ -24,7 +24,7 @@ ht-degree: 0%
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
-Utan rätt åtkomst eller behörigheter kanske du inte kan visa [!UICONTROL Scenarios]-området för [!DNL  Adobe Workfront] eller hantera planer eller initiativ för din organisation. I hanteringen av planer och initiativ ingår att skapa, redigera och ta bort dem.
+Utan rätt åtkomst eller behörigheter kanske du inte kan visa [!UICONTROL Scenarios]-området för [!DNL &#x200B; Adobe Workfront] eller hantera planer eller initiativ för din organisation. I hanteringen av planer och initiativ ingår att skapa, redigera och ta bort dem.
 
 ## Åtkomst krävs för att visa och använda [!DNL Adobe Workfront Scenario Planner]
 

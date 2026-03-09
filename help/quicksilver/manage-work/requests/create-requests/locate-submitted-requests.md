@@ -225,7 +225,7 @@ Så här visar du begäranden som du eller andra användare har skickat in i den
     </tbody> 
    </table>
 
-1. (Valfritt) Klicka på ikonen **Filtrera sida** ![Sök ](assets/search-icon.png) högst upp i listan om du vill söka efter en begäran per namn. Listan uppdateras med resultat som matchar dina sökvillkor.
+1. (Valfritt) Klicka på ikonen **Filtrera sida** ![Sök &#x200B;](assets/search-icon.png) högst upp i listan om du vill söka efter en begäran per namn. Listan uppdateras med resultat som matchar dina sökvillkor.
 
    <!--
 

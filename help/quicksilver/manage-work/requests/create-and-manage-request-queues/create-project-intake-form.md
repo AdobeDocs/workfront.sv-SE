@@ -180,7 +180,7 @@ Projektinmatningsformulär har inte stöd för offentlig delning. Delningsaltern
 
      Mer information om hur du lägger till godkännanden i begärandeformulär finns i [Lägga till godkännande i ett begärandeformulär](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-1. (Valfritt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om formulärets namn i rubriken och klicka sedan på **Redigera** för att uppdatera formulärets namn.
+1. (Valfritt) Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om formulärets namn i rubriken och klicka sedan på **Redigera** för att uppdatera formulärets namn.
 
 1. Klicka på **Publicera** för att publicera formuläret och få en unik länk för det.
 
