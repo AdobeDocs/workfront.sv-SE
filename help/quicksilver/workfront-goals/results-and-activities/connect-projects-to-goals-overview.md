@@ -8,9 +8,9 @@ description: Du kan koppla projekt till mål för att ange hur målet fortskride
 author: Alina
 feature: Workfront Goals
 exl-id: 683c9cd9-6c7b-4d50-b326-b4000c9863e8
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,8 @@ Genom att koppla projekt till mål kan du koppla organisationens strategiska pla
  <tr>
   <td> <p>Adobe Workfront package</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>ANMÄRKNING</b></p>
+<p>Kontakta Workfront om du har ett annat Workfront-paket.</p>
    </td> 
   </tr>
  <tr>

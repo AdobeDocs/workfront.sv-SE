@@ -3,14 +3,14 @@ product-area: requests
 navigation-topic: create-requests
 title: Visa skickade begäranden
 description: Läs mer om de områden i Adobe Workfront där du kan visa begäranden som du eller någon annan har skickat eller begäranden som du aldrig har skickat in och sparats som utkast.
-author: Becky
+author: Alina
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '1506'
+source-wordcount: '1363'
 ht-degree: 0%
 
 ---
@@ -85,39 +85,32 @@ Du kan visa skickade begäranden i området Begäranden, som innehåller länkar
 
 >[!NOTE]
 >
->Länkar till skapade objekt är bara tillgängliga i den nya begärandefunktionen för planeringsbegäranden, där själva begäran skapade ett objekt. Om en Workfront-begäran konverteras till ett projekt eller annat objekt är ingen länk till det konverterade objektet tillgänglig i listan över förfrågningar i den nya begärandeupplevelsen.
+>Länkar till skapade objekt är bara tillgängliga i den nya begärandefunktionen för planeringsbegäranden, där själva begäran skapade en post.
+>
+>Om en Workfront-begäran konverteras till ett projekt eller annat objekt är ingen länk till det konverterade objektet tillgänglig i listan över förfrågningar i den nya begärandeupplevelsen.
 
 Så här visar du förfrågningar som du eller andra användare har skickat in i den nya begärandeupplevelsen:
 
 {{step1-to-requests}}
 
-1. Kontrollera att växlingsknappen **Använd ny upplevelse** i skärmens övre högra hörn är aktiverad.
+1. Kontrollera att inställningen **Använd ny upplevelse** i skärmens övre högra hörn är aktiverad.
 
    Listan över förfrågningar visas.
 
-1. (Valfritt) Om du vill söka efter en begäran börjar du skriva i sökfältet längst upp till höger i listan. Sökresultaten visas när du skriver.
+1. (Valfritt) Om du vill söka efter en begäran börjar du skriva i sökfältet i det övre högra hörnet av listan. Sökresultaten visas när du skriver.
 1. (Valfritt) Klicka på **Filter** och börja lägga till villkor för de begäranden som du vill visa.
 
-   Du kan filtrera efter följande fält:
+   Mer information om filter finns i [Skapa och hantera vyer i området Förfrågningar](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 
-   * **Workspace**: Den arbetsyta som förfrågningsformuläret är associerat med.
-   * **Posttyp**: Posttyp som begärandeformuläret är associerat med.
-   * **Anmälningsdatum**: Datumet då begäran skickades.
-   * **Formulär för begäran**: Namnet på det begärandeformulär som användes för att skicka begäran.
-   * **Status**: Status för begäran.
-   * **Anges av**: Namnet på den användare som lade till begäran. Om begäran har lagts till av någon utanför Workfront visas **Angivet av**-fältet `N/A`.
+1. (Valfritt) Klicka på listrutan **Vyer** om du vill uppdatera vyn eller dela den med andra.
 
-   Du kan ha flera filter kopplade av antingen **And** eller **Or**.
-Begärandelistan filtreras automatiskt när du lägger till filtervillkoren.
-1. (Valfritt) Använd vyer för att fokusera på de förfrågningar som du vill visa.
-
-   Instruktioner finns i [Skapa eller redigera vyer i området Förfrågningar](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
-1. (Valfritt) Kontrollera status för en begäran genom att markera kolumnen Status. Följande statusvärden är tillgängliga i den nya upplevelsen av begärande:
+   Mer information finns i [Skapa eller redigera vyer i området Förfrågningar](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+1. (Valfritt) Kontrollera status för en begäran genom att kontrollera kolumnen **Status**. Följande statusvärden är tillgängliga i den nya upplevelsen av begärande:
 
    * **Utkast**: Den här begäran har inte skickats ännu.
    * **Väntande granskning**: (Endast planering) Den här begäran har godkännare och ingen av godkännarna har öppnat begäran.
    * **I granskning**: (endast planering) Den här begäran har godkännare och minst en godkännare har öppnat begäran, men inget beslut har fattats.
-   * **Avvisad**: (Endast planering) Den här begäran har godkännare och har avvisats.
+   * **Avvisad**: (Endast planering) Den här begäran har godkännare och har avvisats. Denna begäran kommer inte att skapa någon post.
    * **Pågår**:
       * Workfront-begäranden: Begäran har konverterats och arbetet pågår.
       * Workfront Planning-begäranden: Begärandeslutförandet mappas till ett specifikt Planning-fält och fältvärdet matchar ännu inte slutförandevärdet.
@@ -127,8 +120,8 @@ Begärandelistan filtreras automatiskt när du lägger till filtervillkoren.
 
 >[!NOTE]
 >
->* Om du har Workfront Planning visas dina Workfront- och Planning-begäranden i samma lista. Workfront-begäranden visar värdet `Issue` i kolumnen Objekttyp.
->* Listan över begäranden visas med 50 begäranden. Om du vill visa fler begäranden bläddrar du längst ned i listan.
+>* Om du har Workfront Planning visas dina Workfront- och Planning-begäranden i samma lista. Workfront-begäranden visar värdet `Issue` i kolumnen **Objekttyp**.
+>* Upp till 50 begäranden visas som standard i listan i området Begäranden. Om du vill visa fler begäranden bläddrar du längst ned i listan.
 
 ### Visa skickade begäranden i den äldre begärande upplevelsen
 
@@ -232,17 +225,19 @@ Så här visar du begäranden som du eller andra användare har skickat in i den
     </tbody> 
    </table>
 
-1. (Valfritt) Klicka på ikonen **Filtrera sida** ![Sök &#x200B;](assets/search-icon.png) högst upp i listan om du vill söka efter en begäran per namn. Listan uppdateras med resultat som matchar dina sökvillkor.
-
-1. (Villkorligt) Om du bara vill visa Workfront Request-köer söker du efter eller filtrerar efter `Issue` objekttyper.</span>
-
+1. (Valfritt) Klicka på ikonen **Filtrera sida** ![Sök ](assets/search-icon.png) högst upp i listan om du vill söka efter en begäran per namn. Listan uppdateras med resultat som matchar dina sökvillkor.
 
    <!--
-   <li value="9" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the <strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
+
+   1. (Conditional) To display only Workfront Request queues, search or filter for `Issue` object types.</span>
    -->
 
    <!--
-   <li value="10" data-mc-conditions="QuicksilverOrClassic.Draft mode">(Optional) Select an option from the <strong>Sort by</strong> drop-down menu to sort the requests by the following criteria:   (NOTE: this step will stay drafted even after release. We can't see Completed at this time!)  
+   <li> <p>Click the <strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
+   -->
+
+   <!--
+   <li>(Optional) Select an option from the <strong>Sort by</strong> drop-down menu to sort the requests by the following criteria:   (NOTE: this step will stay drafted even after release. We can't see Completed at this time!)  
    <ul>
    <li><strong>Assigned To</strong>: Requests are sorted alphabetically by the name of the assignee using the following criteria: 
    <ul>
@@ -262,19 +257,18 @@ Så här visar du begäranden som du eller andra användare har skickat in i den
 
 1. Klicka på **Utkast** för att visa alla utkast. Workfront sparar ett obegränsat antal utkast för varje begärandekö i den här mappen. När du anger en ny begäran för ett köämne som redan har ett utkast, uppmanas du att använda ett befintligt utkast. Mer information finns i [Skapa begäranden från utkast](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
 
-1. (Valfritt och villkorligt) Om din organisation har köpt ett Workfront Planning-paket klickar du på fliken **Planning** och sedan på **Skickat** i den vänstra panelen för att visa Workfront Planning-begäranden.
+   <!--Planning tab has been removed and no longer visible in legacy Requests area: 
+   (Optional and conditional) If your organization purchased a Workfront Planning package, click the **Planning** tab, then click **Submitted** in the left panel to view Workfront Planning requests. 
+      Use **Filters** and **Columns** to update the information in the Planning request list. 
+      ![Planning tab submitted section in Requests area](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+      For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
+   -->
 
-   Använd **Filter** och **Kolumner** för att uppdatera informationen i listan Planeringsbegäran.
 
-   ![Planeringsfliken skickade avsnitt i området Förfrågningar](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+1. (Valfritt) Kontrollera status för en begäran genom att kontrollera kolumnen **Status**. Följande statusvärden är tillgängliga i den nya upplevelsen av begärande:
 
-   Mer information finns i [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md).
-
-
-1. (Valfritt) Kontrollera status för en begäran genom att markera kolumnen Status. Följande statusvärden är tillgängliga i den nya upplevelsen av begärande:
-
-   * Utkast: Denna begäran har ännu inte skickats.
-   * Pågår
-   * Complete
+   * **Utkast**: Den här begäran har inte skickats ännu.
+   * **Pågår**
+   * **Fullständigt**
 
 

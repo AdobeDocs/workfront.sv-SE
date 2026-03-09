@@ -6,9 +6,9 @@ description: Du kan kopiera mål i Adobe Workfront-mål för att skapa ett mål.
 author: Alina
 feature: Workfront Goals
 exl-id: 690a6030-ee29-4e50-869f-cd014050b364
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,8 @@ Du kan kopiera mål i Adobe Workfront-mål för att skapa ett mål. En del av de
  <tr>
   <td> <p>Adobe Workfront package</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>ANMÄRKNING</b></p>
+<p>Kontakta Workfront om du har ett annat Workfront-paket.</p>
    </td> 
   </tr> 
  <tr>
@@ -258,7 +259,7 @@ To copy goals in the Production environment:
    >
    >Om du inte har kopierat resultaten från det ursprungliga målet måste du först koppla det nya målet till en förloppsindikator innan du kan aktivera det och börja arbeta mot att uppnå det.
    >Mer information om hur du associerar mål med förloppsindikatorer finns i följande artiklar:
-   >* [Lägg till resultat i mål i Adobe Workfront &#x200B;](../results-and-activities/add-results-to-goals.md)
+   >* [Lägg till resultat i mål i Adobe Workfront ](../results-and-activities/add-results-to-goals.md)
    >* [Lägg till aktiviteter i mål i Adobe Workfront-mål](../results-and-activities/add-activities-to-goals.md)
    >* [Justera mål genom att ansluta dem i Adobe Workfront-mål](../goal-alignment/align-goals-by-connecting-them.md)
    >

@@ -7,9 +7,9 @@ description: Adobe Workfront-administratören måste se till att vissa villkor u
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: dacfd8ef7475b197ac6ce5dd598c99df97037479
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,13 @@ ht-degree: 0%
 
 Adobe Workfront-administratören måste se till att alla följande villkor uppfylls innan du kan komma åt Adobe Workfront mål:
 
-* Din organisation har tidigare köpt ett Adobe Workfront Goals-paket. Adobe Workfront-mål går inte längre att köpa.
+* Organisationen måste ha ett Workfront Ultimate-paket.
+
+  Workfront-mål är inte tillgängligt för Workfront Workflow-paket.
+
+  Tala med din Workfront-kontorepresentant om du förnyar Workfront och du vill behålla Workfront mål.
+
+  Om du är ny kund är Workfront-målen inte längre tillgängliga att köpa.
 
   Mer information finns i avsnittet [Få åtkomst till Workfront-målorganisation](#obtain-workfront-goals-organization-access) i den här artikeln.
 
@@ -52,7 +58,9 @@ Adobe Workfront-administratören måste se till att alla följande villkor uppfy
 ## Få åtkomst till Workfront Goals Organization {#obtain-workfront-goals-organization-access}
 
 Det senaste Adobe Workfront-paketet som innehöll Workfront Goals var Adobe Workfront Ultimate.
+
 Workfront-mål kan inte längre köpas för nyare paket.
+
 Tala med din kontorepresentant om du vill veta mer om Workfront mål.
 
 <!--Old: >

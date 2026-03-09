@@ -3,10 +3,10 @@ title: Avpublicera ett begärandeformulär i Adobe Workfront Planning
 description: Du kan avpublicera ett begärandeformulär om det inte längre behövs eller är relevant. Genom att avpublicera tar du bort allas behörigheter för att komma åt formuläret.
 feature: Workfront Planning
 role: User, Admin
-author: Alina, Becky
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Så här ändrar du delningen av ett begärandeformulär:
 
    Posttypssidan öppnas i den vy som du senast använde. Som standard öppnas en posttypssida i tabellvyn.
 
-1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Hantera begärandeformulär**.
+1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Hantera begärandeformulär**.
 
    Alla förfrågningsformulär som är associerade med posttypen visas i en tabellvy.
 1. Håll muspekaren över namnet på ett begärandeformulär, klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om namnet och klicka sedan på **Dela**.
@@ -112,7 +112,7 @@ När ett begärandeformulär blir irrelevant och du inte längre vill att någon
 
    Posttypssidan öppnas i den vy som du senast använde. Som standard öppnas en posttypssida i tabellvyn.
 
-1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Hantera begärandeformulär**.
+1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Hantera begärandeformulär**.
 
    Alla förfrågningsformulär som är associerade med posttypen visas i en tabellvy.
 1. Håll muspekaren över namnet på ett begärandeformulär, klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om namnet och klicka sedan på **Avpublicera**

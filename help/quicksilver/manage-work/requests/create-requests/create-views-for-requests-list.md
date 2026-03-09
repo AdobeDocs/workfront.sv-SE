@@ -3,12 +3,12 @@ product-area: requests
 navigation-topic: create-requests
 title: Skapa och hantera vyer i området Förfrågningar
 description: Om du använder den nya begärandefunktionen kan du skapa och spara vyer för området Förfrågningar.
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
-source-git-commit: 8db8382d63d06c23f93a74a326ddb0e1227f44c8
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '963'
 ht-degree: 0%
 
 ---
@@ -16,20 +16,24 @@ ht-degree: 0%
 
 # Skapa och hantera vyer i området Förfrågningar
 
-<!--
+<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
--->
 
-Om du använder den nya begärandefunktionen kan du skapa och spara vyer för området Förfrågningar. De här vyerna innehåller filter och kolumnupplägg. <!--<span class="preview"> and groupings.</span> -->
 
-Vyer kan skapas och hanteras under Begäranden i Workfront.
+
+
+Om du använder den nya begärandeupplevelsen i Adobe Workfront kan du skapa och spara vyer för området Förfrågningar. De här vyerna innehåller filter och kolumnupplägg.
+
+<!--<span class="preview"> and groupings.</span>-->
+
 
 >[!IMPORTANT]
 >
->* Den här funktionen är bara tillgänglig i den nya upplevelsen av begärande.
->* Visningsinställningar är inte tillgängliga i widgeten Mina förfrågningar i Hem.
+>* Den här funktionen är bara tillgänglig i den nya begärandeupplevelsen i området Begäranden.
+>* Visningsinställningarna är också tillgängliga i widgeten Mina förfrågningar i Hem. Vyerna från området Begäranden är dock olika de som finns i widgeten Mina förfrågningar.
+>* Listan över förfrågningar i området Begäranden använder den utökade listan i Workfront. Mer information finns i [Använd förbättrade listor](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 ## Åtkomstkrav
 
@@ -68,13 +72,15 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Skapa en vy för begäranden
 
-Du kan skapa en vy under Förfrågningar i Workfront.
+Du kan skapa en vy under Förfrågningar i Workfront när du använder den nya upplevelsen av förfrågningar.
 
 1. Så här öppnar du listan över förfrågningar:
 
    {{step1-to-requests}}
 
-1. Klicka på listrutan **Vyer** ![Vyer](assets/view-icon-requests.png) i listan över förfrågningar och välj **Ny vy**.
+1. Kontrollera att inställningen **Använd ny upplevelse** är aktiverad.
+
+1. I listan **Förfrågningar** klickar du på listrutan **Vyer** ![Vyer](assets/view-icon-requests.png) och sedan på **Ny vy**.
 
    ![Ny vy](assets/create-new-view.png)
 
@@ -83,36 +89,53 @@ Du kan skapa en vy under Förfrågningar i Workfront.
 
 ## Redigera en vy för begäranden
 
-Du kan redigera befintliga vyer, inklusive vyer som du just har skapat.
+Du kan redigera befintliga vyer, inklusive vyer som du just har skapat under Förfrågningar i Workfront.
 
-1. Så här öppnar du listan över förfrågningar:
+Genom att redigera en vy i området Förfrågningar kan du ändra följande element i vyn:
+
+* Namn
+* Filter
+* Kolumner
+
+De ändringar du gör i en vy är synliga för alla som du delar vyn med.
+
+1. Så här får du åtkomst till en lista med begäranden i listan över förfrågningar:
 
    {{step1-to-requests}}
-1. Leta reda på vyn som du vill redigera i listan över förfrågningar.
 
-1. (Valfritt) Om du vill byta namn på en vy klickar du på listrutan **Vyer** ![Vyer](assets/view-icon-requests.png) och klickar på menyn med tre punkter bredvid vyn. Välj sedan **Byt namn** och skriv in det nya namnet för vyn.
+1. Kontrollera att inställningen **Använd ny upplevelse** är aktiverad.
+1. I listan **Förfrågningar** letar du reda på den vy du vill redigera i listrutan **Vyer** ![Vyer](assets/view-icon-requests.png).
+
+1. Klicka på listrutan **Vyer** ![Vyer](assets/view-icon-requests.png) och klicka på menyn med tre punkter bredvid vyn, välj **Byt namn** och skriv in det nya namnet för vyn.
+1. Tryck på Retur för att spara det nya namnet.
 1. Klicka på listrutan **Vyer** ![Vyer](assets/view-icon-requests.png) och välj den vy som du vill redigera.
-1. Om du vill lägga till ett anpassat fält som en kolumn klickar du på ikonen **Lägg till kolumn** ![Lägg till kolumn](assets/add-column.png) till höger på skärmen och sedan på plusikonen bredvid det anpassade formulärfältet som du vill lägga till som en kolumn i vyn.
+1. Om du vill lägga till ett fält som en kolumn klickar du på ikonen **Lägg till kolumn** ![Lägg till kolumn](assets/add-column.png) i listans övre högra hörn.
 
-   >Anpassade fält i formulär som är kopplade till objektet i listan kan läggas till som kolumner.
+   **Kolumnhanteraren** öppnas.
+1. Klicka på plusikonen bredvid fältet som du vill lägga till som en kolumn i vyn och klicka sedan på **Spara**.
+
+   Fält som är kopplade till objekten i listan är tillgängliga att lägga till som kolumner. <!--keeping this general, and not referring to custom fields because there are some native fields that are supported and there will be more in the future-->
 
    >[!TIP]
    >
-   >Du kan för närvarande inte lägga till kolumner i produktionsmiljön.
-1. (Valfritt) Klicka på **Kolumner** och dölj, visa eller ordna om kolumnerna i listan med förfrågningar.
+   >Fält som du lägger till i kolumnerna måste finnas innan de är tillgängliga i **kolumnhanteraren**.
+
+
+1. (Valfritt) Klicka på **Kolumner** för att öppna rutan F **fälts synlighet och ordning**.
+1. Aktivera inställningen för varje fält som du vill visa i listan, inaktivera den för att dölja den eller dra och släpp fälten i en annan ordning.
 
 1. (Valfritt) Klicka på **Filter** och börja lägga till villkor för vilka begäranden du vill visa.
 
-   Du kan filtrera efter följande fält:
+   Du kan filtrera efter följande begärandefält:
 
    * **Workspace**: Den arbetsyta som förfrågningsformuläret är associerat med.
-   * **Posttyp**: Posttyp som begärandeformuläret är associerat med.
+   * **Objekttyp**: Posttypen som begärandeformuläret är associerat med.
    * **Anmälningsdatum**: Datumet då begäran skickades.
    * **Formulär för begäran**: Namnet på det begärandeformulär som användes för att skicka begäran.
    * **Status**: Status för begäran.
    * **Anges av**: Namnet på den användare som lade till begäran. Om begäran har lagts till av någon utanför Workfront visas **Angivet av**-fältet `N/A`.
 
-   Du kan också filtrera efter anpassade fält som har lagts till i vyn.
+   Du kan också filtrera efter fält som har lagts till i vyn efter objekt som visas i vyn.
 
    Du kan ha flera filter kopplade av antingen **And** eller **Or**.
 Begärandelistan filtreras automatiskt när du lägger till filtervillkoren.
@@ -127,9 +150,9 @@ Begärandelistan filtreras automatiskt när du lägger till filtervillkoren.
 >
 > * Ändringar av vyer sparas automatiskt.
 > * Ändringar av vyer är synliga för alla som använder vyn.
-> * Om du vill vara säker på att vyn gäller för den person som använder vyn, oavsett vem som skapade den, kan du använda jokertecknet&quot;Jag (inloggad användare)&quot; i alla fält där användaren har värdet.
+> * Använd jokertecknet **Jag (inloggad användare)** i alla fält där användare har värdet.
 
-## Lägg till vyn i en layoutmall.
+## Lägg till vyn med förfrågningar i en layoutmall.
 
 En Workfront-administratör kan lägga till den nya vyn i layoutmallar.
 
@@ -139,12 +162,14 @@ Instruktioner finns i [Anpassa filter, vyer och grupperingar med hjälp av en la
 
 Du kan dela vyer som du skapar med andra användare, team eller grupper.
 
-1. Så här öppnar du listan över förfrågningar:
+1. Så här får du åtkomst till en lista med begäranden i listan över förfrågningar:
 
    {{step1-to-requests}}
 
-1. Leta reda på den vy som du vill dela i listan över förfrågningar.
-1. Håll muspekaren över den vy som du vill dela och klicka sedan på menyn med tre punkter när den visas.
-1. Välj **Dela**.
-1. I den dialogruta som öppnas anger du namnen på de användare, team eller grupper som du vill dela vyn med och markerar dem sedan i listan när de visas.
+1. Kontrollera att inställningen **Använd ny upplevelse** är aktiverad.
+1. Leta reda på den vy du vill dela i listan **Förfrågningar**.
+1. Håll muspekaren över den vy du vill dela, klicka på menyn med tre punkter till höger om vynamnet och klicka sedan på **Dela**.
+1. I rutan **Dela** anger du personer, team, roller, grupper eller företag som du vill dela vyn med och markerar dem sedan i listan när de visas.
 1. Klicka på **Spara**.
+
+   Vyn delas med de enheter som du anger. De kan visa de uppdaterade vyelementen som du har redigerat för vyn innan de delar den. <span class="preview">Om de uppdaterar vyn visas inte ändringarna för andra, såvida de inte kopierar samma vy och behåller ändringarna innan de delar kopian. Mer information finns i [Använd förbättrade listor](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>

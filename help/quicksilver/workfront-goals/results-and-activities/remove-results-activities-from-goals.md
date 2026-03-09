@@ -7,9 +7,9 @@ description: Du kan ta bort resultat, aktiviteter och projekt från mål i Adobe
 author: Alina
 feature: Workfront Goals
 exl-id: 0e064dbd-6168-47b4-98ab-b5c0481e839e
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Mer information om hur du skapar mål och lägger till resultat och aktiviteter 
 
 * [Skapa mål i Adobe Workfront-mål](../../workfront-goals/goal-management/create-goals.md)
 * [Lägg till aktiviteter i mål i Adobe Workfront-mål](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
-* [Lägg till resultat i mål i Adobe Workfront &#x200B;](../../workfront-goals/results-and-activities/add-results-to-goals.md)
+* [Lägg till resultat i mål i Adobe Workfront ](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 * [Redigera resultat och aktiviteter i Adobe Workfront-mål](../../workfront-goals/results-and-activities/edit-results-and-activities.md)
 
 Mål kan också anpassas till överordnade mål och bli underordnade mål. Underordnade mål är också förloppsindikatorer för de överordnade målen.
@@ -51,7 +51,8 @@ Du kan ta bort justeringen mellan mål genom att ta bort kopplingen mellan dem. 
  <tr>
   <td> <p>Adobe Workfront package</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>ANMÄRKNING</b></p>
+<p>Kontakta Workfront om du har ett annat Workfront-paket.</p>
    </td> 
   </tr>
  <tr>

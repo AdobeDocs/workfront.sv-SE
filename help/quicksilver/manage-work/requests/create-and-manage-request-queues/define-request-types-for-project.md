@@ -3,10 +3,10 @@ product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
 title: Definiera frågetyper för ett projekt
 description: Du kan ordna den typ av problem eller förfrågningar som är loggade i Adobe Workfront med hjälp av frågetyper.
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: 627749bb-a8d7-4cc2-9d11-237811f82eb8
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%

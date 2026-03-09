@@ -3,11 +3,11 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Skapa köämnen
 description: Köämnen fungerar tillsammans med routningsregler för att automatiskt tilldela inkommande arbete till en användare, en jobbroll, ett team eller för att placera det i ett projekt. Köämnen definierar villkoren som måste finnas för att routningsregeln ska implementeras.
-author: Becky
+author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 0%

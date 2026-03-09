@@ -1,5 +1,5 @@
 ---
-title: Allmän information om Adobe Workfront Planning
+title: Allmänt informations- och artikelindex för Adobe Workfront Planning
 description: Som marknadsledare kan ni använda Adobe Workfront Planning för att organisera arbetet under hela marknadsföringscykeln för alla era team. I artiklarna i det här avsnittet beskrivs hur du kan konfigurera planeringsfunktionerna och hur du kan börja använda dem som en del av kampanjhanteringsåtgärderna.
 short-description: Använd dokumenten och extraresurserna för att lära dig att implementera och effektivt använda Adobe Workfront Planning i er organisation.
 author: Alina
@@ -7,14 +7,14 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: 550a4e94ce340083937ad89f5dad9e151abe9075
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
 
-# Allmän information om Adobe Workfront Planning
+# Allmän information och artikelindex för Adobe Workfront Planning
 
 <!--DO NOT CHANGE LINK OR CONTENT:  this is linked to an Experience League article that is hard coded by Adobe: https://experienceleague.adobe.com/en/docs/workfront-->
 <!--this articles used to be called "Adobe Workfront Planning: article index"-->
@@ -88,15 +88,17 @@ Följande avsnitt innehåller artiklar som i detalj beskriver de funktioner som 
 
 * [Grunderna i Adobe Workfront Planning API](/help/quicksilver/planning/general/planning-api-basics.md): Målet för Adobe Workfront Planning API är att förenkla byggintegreringar med Planning genom att införa en REST-full arkitektur som fungerar över HTTP.
 
-* [Adobe Workfront planeringsmoduler för Workfront Fusion](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Med Adobe Workfront Planning-modulerna kan du utlösa ett scenario när händelser inträffar i Workfront Planning. Du kan också skapa, läsa, uppdatera och ta bort poster eller utföra ett anpassat API-anrop till ditt Adobe Workfront Planning-konto.
+* [Adobe Workfront planeringsmoduler för Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Med Adobe Workfront Planning-modulerna kan du utlösa ett scenario när händelser inträffar i Workfront Planning. Du kan också skapa, läsa, uppdatera och ta bort poster eller utföra ett anpassat API-anrop till ditt Adobe Workfront Planning-konto.
 
 * [Adobe Workfront Planning AI Assistant - översikt](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Med Workfront AI Assistant för Planning kan du söka efter poster eller skapa, uppdatera och ta bort poster med kommandon och låta assistenten utföra arbetet åt dig.
 
 * [Konfigurera Adobe Workfront Planning Automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md): Du kan konfigurera automatisering i Adobe Workfront Planning som, när den aktiveras, skapar objekt i Workfront eller poster i Workfront Planning när de aktiveras från en Planning-post.
 
-* [Kom igång med integreringen mellan Adobe Workfront Planning och Adobe GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md): Du kan hantera poster från GenStudio for Performance Marketing på arbetsytan i GenStudio i Workfront Planning.
+* [Integrering av Adobe Workfront Planning och Adobe GenStudio for Performance Marketing: artikelindex](/help/quicksilver/planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md): Du kan hantera poster från GenStudio for Performance Marketing i GenStudio arbetsyta i Workfront Planning.
 
-* **Rapporteringsfunktioner för Workfront Planning**: Nu kan du visa Workfront Planning-information i en rapport med hjälp av Workfront Canvas Dashboard. Mer information finns i [Översikt över kontrollpaneler för arbetsytan](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+* **Rapporteringsfunktioner för Workfront Planning**: Du kan visa Workfront Planning-information i en rapport med hjälp av Workfront Canvas Dashboard. Mer information finns i [Översikt över kontrollpaneler för arbetsytan](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+
+* [Adobe Workfront Planning best practices: artikelindex](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md): Lär dig tips om hur du kan lansera Adobe Workfront Planning i din organisation med en strategi som prioriterar säkerhet, minimerar avbrott och ger snabba vinster.
 
 ## Workfront Planning - lanseringsaktivitet
 

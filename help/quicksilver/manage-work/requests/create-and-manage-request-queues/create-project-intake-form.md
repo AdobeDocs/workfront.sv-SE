@@ -3,12 +3,12 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Skapa Project Input Forms
 description: Du kan använda formulär för projektinmatning för att förenkla processen att skapa projekt i Workfront
-author: Becky
+author: Alina
 feature: Work Management, Requests
 role: User, Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 5ff71313c550d949079e7426b657a0a4e19a656c
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 0%
@@ -180,7 +180,7 @@ Projektinmatningsformulär har inte stöd för offentlig delning. Delningsaltern
 
      Mer information om hur du lägger till godkännanden i begärandeformulär finns i [Lägga till godkännande i ett begärandeformulär](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-1. (Valfritt) Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om formulärets namn i rubriken och klicka sedan på **Redigera** för att uppdatera formulärets namn.
+1. (Valfritt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om formulärets namn i rubriken och klicka sedan på **Redigera** för att uppdatera formulärets namn.
 
 1. Klicka på **Publicera** för att publicera formuläret och få en unik länk för det.
 

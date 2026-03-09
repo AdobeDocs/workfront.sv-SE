@@ -6,9 +6,9 @@ description: Ni måste regelbundet se över era mål och uppdatera deras framste
 author: Alina
 feature: Workfront Goals
 exl-id: 5092f508-e52c-4934-a8c1-d0be04ecce13
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,8 @@ Ni måste regelbundet se över era mål och uppdatera deras framsteg för att se
  <tr>
   <td> <p>Adobe Workfront package</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>ANMÄRKNING</b></p>
+<p>Kontakta Workfront om du har ett annat Workfront-paket.</p>
    </td> 
   </tr>
  <tr>
@@ -291,7 +292,7 @@ When you check in on a goal in the Check-in section, you can update the progress
 
 Så här uppdaterar du förloppet för mål:
 
-1. Klicka på ikonen **Huvudmeny** ![Huvudmeny &#x200B;](assets/main-menu-icon.png) > **Mål** i det övre högra hörnet.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny ](assets/main-menu-icon.png) > **Mål** i det övre högra hörnet.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->

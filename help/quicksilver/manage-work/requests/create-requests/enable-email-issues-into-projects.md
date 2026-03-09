@@ -3,10 +3,10 @@ product-area: requests
 navigation-topic: create-requests
 title: Gör det möjligt för användare att skicka ett ärende via e-post till ett begärandeköprojekt
 description: Du kan konfigurera ett projekt så att användare kan lägga till problem i projektet via e-post.
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%

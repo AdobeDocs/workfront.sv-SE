@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 550a4e94ce340083937ad89f5dad9e151abe9075
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '2348'
+source-wordcount: '2354'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller allmän information om Workfront Planning.
 
-En fullständig lista över artiklar som innehåller dokumentation för Workfront Planning finns i [Allmän information om Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md).
+En fullständig lista över artiklar som innehåller dokumentation för Workfront Planning finns i [Allmän information och artikelindex för Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md).
 
 ## Introduktion till Adobe Workfront Planning
 
@@ -319,10 +319,13 @@ Om du till exempel kopplar en Campaign-posttyp till en Workfront Project-objektt
 >[!TIP]
 >
 >* Du kan inte lägga till följande fälttyper som sökfält från den anslutna posten eller objekttyperna:
+>
 >   * Skapad av
 >   * Senast ändrad av
 >   * Workfront typsnittsfält (inklusive fält som Projektägare eller Projektsponsor)
+>
 >* Du kan inte lägga till följande fälttyper som sökfält från den anslutna posten eller objekttypen i Production, <span class="preview">men du kan lägga till dem i förhandsvisningsmiljön:</span>
+>
 >   * Folk
 
 Mer information om hur du ansluter posttyper, poster och skapar länkade fält finns i följande artiklar:
@@ -377,7 +380,7 @@ Du kan konfigurera och aktivera automatiseringen på posttypens sida i Workfront
 
 Du kan till exempel skapa en automatisering som tar en Workfront Planning-kampanj och skapar ett varumärke som ska kopplas till kampanjen.
 
-Mer information om hur du skapar objekt med en befintlig automatisering finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning &#x200B;](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+Mer information om hur du skapar objekt med en befintlig automatisering finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
 ### Begär formulär
 
@@ -436,7 +439,7 @@ Så här hittar du Workfront Planning:
 
 ## Ytterligare resurser för Workfront Planning
 
-* [Allmän information om Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md): Ett index för alla artiklar som innehåller dokumentation om Workfront Planning, grupperade efter intresseområde.
+* [Allmän information och artikelindex för Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md): Ett index för alla artiklar som innehåller dokumentation om Workfront Planning, grupperade efter intresseområde.
 * [Adobe Workfront Planning AI Assistant - översikt](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Med Workfront AI Assistant för Planning kan du söka efter poster eller skapa, uppdatera och ta bort poster med kommandon och låta assistenten utföra arbetet åt dig.
 
   <!--
@@ -444,7 +447,7 @@ Så här hittar du Workfront Planning:
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [Adobe Workfront planeringsmoduler för Workfront Fusion](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Med Adobe Workfront Planning-modulerna kan du utlösa ett scenario när händelser inträffar i Workfront Planning. Du kan också skapa, läsa, uppdatera och ta bort poster eller utföra ett anpassat API-anrop till ditt Adobe Workfront Planning-konto.
+* [Adobe Workfront planeringsmoduler för Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Med Adobe Workfront Planning-modulerna kan du utlösa ett scenario när händelser inträffar i Workfront Planning. Du kan också skapa, läsa, uppdatera och ta bort poster eller utföra ett anpassat API-anrop till ditt Adobe Workfront Planning-konto.
 
 * [Grunderna i Adobe Workfront Planning API](/help/quicksilver/planning/general/planning-api-basics.md): Målet för Adobe Workfront Planning API är att förenkla byggintegreringar med Planning genom att införa en REST-full arkitektur som fungerar över HTTP.
 

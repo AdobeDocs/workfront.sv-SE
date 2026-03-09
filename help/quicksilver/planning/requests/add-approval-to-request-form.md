@@ -3,12 +3,12 @@ title: Lägga till ett godkännande i ett begärandeformulär i Adobe Workfront 
 description: Du kan lägga till en godkännandeprocess i ett Adobe Workfront Planning-begärandeformulär, för att initiera ett godkännande för varje skickad begäran, innan den skapar en post.
 feature: Workfront Planning
 role: User, Admin
-author: Alina, Becky
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1210'
 ht-degree: 0%
 
 ---
@@ -123,17 +123,15 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
 <div class="preview">
 
-## Lägga till godkännanderegler i ett begärandeformulär
+## Lägga till godkännanderegler i ett begärandeformulär i förhandsgranskningsmiljön
 
->[!NOTE]
->
->Den här funktionen är bara tillgänglig i förhandsvisningsmiljön.
-
-Godkännanderegler definierar godkännandeprocessen baserat på fältvärden som används i de skickade förfrågningarna.
+Godkännanderegler definierar godkännandeprocessen baserat på fältvärden i de skickade begäranden.
 
 Om ett begärandeformulär till exempel har fältet&quot;Kampanjtyp&quot; kan en regel skapas som skickar begäran till en person när fältet har värdet&quot;Digital&quot;, och en annan person när det har värdet&quot;Skriv ut&quot;.
 
 Tänk på följande när du lägger till godkännanderegler:
+
+<!--below bullet list is duplicated in the Add approval to a request form in the Production environment section above-->
 
 * Du kan lägga till en eller flera godkännare till en godkännanderegel.
 * Om minst en godkännare avvisar begäran, avvisas begäran och posten skapas inte. Begäran finns kvar under Begäranden i Workfront.
@@ -142,18 +140,16 @@ Tänk på följande när du lägger till godkännanderegler:
 
 Så här anger du godkännanderegler för ett begärandeformulär:
 
-1. Börja skapa ett begärandeformulär för en posttyp enligt beskrivningen i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
-1. Klicka på **Inställningar**.
+1. Börja skapa ett begärandeformulär för en posttyp, vilket beskrivs i artikeln [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+1. När formuläret öppnas klickar du på **Inställningar**.
 
-   Fliken Inställningar visas.
+   Fliken **Inställningar** öppnas.
 
 1. Om du vill börja konfigurera godkännanderegler klickar du på ikonen **Godkännanden** ![Godkännanden](assets/approvals-icon-on-form.png) på den vänstra panelen.
 
 1. (Valfritt) Om du vill ange en standardprocess för godkännande lägger du till minst en användare eller grupp i fältet **Godkännare** i området **Standardregel för godkännande** och klickar sedan på kryssrutan **Endast ett beslut krävs** om du vill att posten ska skapas när någon av standardgodkännarna har godkänt den.
 
    ![Standardområde för godkännanderegel](assets/default-approvers.png)
-
-   <!--below bullet list is duplicated in the Add approval to a request form article-->
 
 1. (Valfritt) Börja lägga till godkännanderegler. Gör följande för varje regel för godkännande:
 
@@ -163,8 +159,8 @@ Så här anger du godkännanderegler för ett begärandeformulär:
    1. Välj operatorn för regeln. Operatorer varierar beroende på fälttyp.
    1. Om den markerade operatorn kräver ett värde klickar du på plusikonen och lägger till ett eller flera värden.
    1. (Valfritt) Klicka på **Lägg till villkor** om du vill lägga till fler villkor och koppla dem med programsatserna **And** eller **Or** genom att konfigurera ytterligare villkor som i steg C-E.
-   1. I området **Åtgärder** i godkännanderegeln, i fältet **Godkännare**, lägger du till minst en användare eller grupp som ska anges som godkännare när villkoret är uppfyllt.
-   1. (Villkorligt) Om du vill att posten ska skapas efter att någon av godkännarna har godkänt den, markerar du kryssrutan **Endast ett beslut krävs**.
+   1. I området **Åtgärder** i godkännanderegeln lägger du till minst en användare eller grupp som ska anges som godkännare i fältet **Godkännare** när villkoret är uppfyllt.
+   1. (Villkorligt och valfritt) Om du vill att posten ska skapas efter att någon av godkännarna har godkänt den, markerar du kryssrutan **Endast ett beslut krävs**. Annars måste alla godkännare fatta beslut om godkännandet innan begäran godkänns eller avslås.
 
 1. Klicka på **Spara** för att spara godkännandereglerna.
 1. (Valfritt) Klicka på **Publicera** om du aldrig har delat begärandeformuläret tidigare.

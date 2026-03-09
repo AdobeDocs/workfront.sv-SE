@@ -6,9 +6,9 @@ description: Du kan visa den övergripande statusen för dina mål och deras utv
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,8 @@ Du kan visa den övergripande statusen för dina mål och deras utvecklingstrend
  <tr>
   <td> <p>Adobe Workfront package</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>ANMÄRKNING</b></p>
+<p>Kontakta Workfront om du har ett annat Workfront-paket.</p>
    </td> 
   </tr>
  <tr>

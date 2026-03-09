@@ -6,9 +6,9 @@ description: Du kan stänga ett mål när du vill ange att du har slutfört det 
 author: Alina
 feature: Workfront Goals
 exl-id: bbb549c1-aea6-4f5e-8a6b-01fc04cf06ef
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,8 @@ Du kan öppna mål som har stängts igen när de blir relevanta igen.
  <tr>
   <td> <p>Adobe Workfront package</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>ANMÄRKNING</b></p>
+<p>Kontakta Workfront om du har ett annat Workfront-paket.</p>
    </td> 
   </tr> 
  <tr>

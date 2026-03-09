@@ -3,10 +3,10 @@ title: Godkänn en begäran i Adobe Workfront Planning
 description: När en användare skickar en begäran till ett begärandeformulär som är kopplat till ett godkännande i Adobe Workfront Planning får godkännarna ett meddelande och ett e-postmeddelande om det väntande godkännandet. De måste godkänna begäran innan Workfront Planning skapar ett objekt.
 feature: Workfront Planning
 role: User, Admin
-author: Alina, Becky
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: ec72e2af00bb5010288eaae725b67ad7dad55486
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '1071'
 ht-degree: 0%
@@ -118,7 +118,7 @@ Du kan godkänna begäranden om att skapa poster från själva begäran eller fr
    Förfrågningssidan öppnas i skrivskyddat läge.
 
    ![Skrivskyddad begärandesida med granskningsstatus](assets/read-only-reqeust-page-in-review-status.png)
-1. Om du använder den nya begärandefunktionen i Workfront klickar du på **Huvudmeny** ![Primär meny](assets/dots-menu.png) i skärmens övre högra hörn eller på **Huvudmeny** ![Rader-huvudmenyn](assets/lines-menu.png) i skärmens övre vänstra hörn, om den är tillgänglig, klickar sedan på **Förfrågningar** och klickar på den begäran som du vill godkänna med statusen **10&rbrace; Väntande granskning**.
+1. Om du använder den nya begärandefunktionen i Workfront klickar du på **Huvudmeny** ![Primär meny](assets/dots-menu.png) i skärmens övre högra hörn eller på **Huvudmeny** ![Rader-huvudmenyn](assets/lines-menu.png) i skärmens övre vänstra hörn, om den är tillgänglig, klickar sedan på **Förfrågningar** och klickar på den begäran som du vill godkänna med statusen **10} Väntande granskning**.
 1. (Valfritt) Klicka på ikonen **Godkännanden** ![Godkännanden](assets/approvals-icon.png) i det övre högra hörnet av begäran för att visa godkännarna.
 1. Klicka på **Granska och godkänn** och välj sedan något av följande:
 

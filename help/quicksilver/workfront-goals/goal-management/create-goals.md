@@ -6,9 +6,9 @@ description: Oavsett om du är VD, chef eller enskild medverkande kan du skapa m
 author: Alina
 feature: Workfront Goals
 exl-id: 14bf48b6-eb0c-4b00-a1a4-0d070ccc1392
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,8 @@ Oavsett om du är VD, chef eller enskild medverkande kan du skapa mål i Adobe W
  <tr>
   <td> <p>Adobe Workfront package</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>ANMÄRKNING</b></p>
+<p>Kontakta Workfront om du har ett annat Workfront-paket.</p>
    </td> 
   </tr>
  <tr>
@@ -252,7 +253,7 @@ Mållistan visas.
    Gör minst något av följande för att förbereda ett mål som ska aktiveras:
    * Lägg till ett resultat
 
-     Mer information om hur du lägger till resultat finns i [Lägga till resultat i mål i Adobe Workfront &#x200B;](../results-and-activities/add-results-to-goals.md).
+     Mer information om hur du lägger till resultat finns i [Lägga till resultat i mål i Adobe Workfront ](../results-and-activities/add-results-to-goals.md).
    * Lägg till en aktivitet
 
      Mer information om hur du lägger till aktiviteter finns i [Lägga till aktiviteter i mål i Adobe Workfront-mål](../results-and-activities/add-activities-to-goals.md).

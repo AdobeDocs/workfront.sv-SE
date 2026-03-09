@@ -6,9 +6,9 @@ description: När du skapar ett mål sparar Adobe Workfront Goals det med status
 author: Alina
 feature: Workfront Goals
 exl-id: fc556073-fe63-4f13-a313-505ca0ef1f9b
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,8 @@ Mer information om hur du skapar ett mål finns i [Skapa mål i Adobe Workfront-
   <tr>
   <td> <p>Adobe Workfront package</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>ANMÄRKNING</b></p>
+<p>Kontakta Workfront om du har ett annat Workfront-paket.</p>
    </td> 
   </tr> 
   <tr>
@@ -135,11 +136,11 @@ Gör minst något av följande för att kunna aktivera ett mål:
 
 * Lägg till ett resultat till målet
 
-  Mer information finns i [Lägga till resultat i mål i Adobe Workfront &#x200B;](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+  Mer information finns i [Lägga till resultat i mål i Adobe Workfront ](../../workfront-goals/results-and-activities/add-results-to-goals.md).
 
 * Lägg till en aktivitet i målet
 
-  Mer information finns i [Lägga till aktiviteter i mål i Adobe Workfront &#x200B;](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+  Mer information finns i [Lägga till aktiviteter i mål i Adobe Workfront ](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
 
 * Koppla ett projekt till målet
 

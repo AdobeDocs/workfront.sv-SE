@@ -6,9 +6,9 @@ description: Du kan redigera befintliga mål när som helst under en viss period
 author: Alina
 feature: Workfront Goals
 exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,8 @@ Du kan redigera befintliga mål när som helst under en viss period och med vilk
  <tr>
   <td> <p>Adobe Workfront package</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>ANMÄRKNING</b></p>
+<p>Kontakta Workfront om du har ett annat Workfront-paket.</p>
    </td> 
   </tr>
  <tr>
@@ -202,8 +203,8 @@ En lista med mål visas.
 
 1. Gör något av följande om du vill redigera information för målet:
    * Klicka på fält som visas i målhuvudet för att uppdatera dem. Alla fält i rubriken kan inte redigeras.
-   * Klicka på ikonen **Mer** ![Mer &#x200B;](assets/more-icon.png) till höger om målnamnet och klicka sedan på **Redigera**.
-   * Klicka på **Målinformation** i den vänstra panelen och klicka på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) i det övre högra hörnet. Klicka sedan på **Redigera alla**. Börja uppdatera fält i delen Målinformation.
+   * Klicka på ikonen **Mer** ![Mer ](assets/more-icon.png) till höger om målnamnet och klicka sedan på **Redigera**.
+   * Klicka på **Målinformation** i den vänstra panelen och klicka på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) i det övre högra hörnet. Klicka sedan på **Redigera alla**. Börja uppdatera fält i delen Målinformation.
 
      >[!IMPORTANT]
      >
@@ -233,7 +234,7 @@ En lista med mål visas.
 1. (Valfritt) Klicka på **Förloppsindikatorer** i den vänstra panelen för att lägga till resultat, aktiviteter eller projekt i målet. Genom att lägga till förloppsindikatorer kan du se till att du kan spåra målets framsteg.
 Mer information finns i följande artiklar:
    * [Lägga till aktiviteter i mål i Adobe Workfront](../results-and-activities/add-activities-to-goals.md)
-   * [Lägg till resultat i mål i Adobe Workfront &#x200B;](../results-and-activities/add-results-to-goals.md).
+   * [Lägg till resultat i mål i Adobe Workfront ](../results-and-activities/add-results-to-goals.md).
    * [Lägg till projekt i mål i Adobe Workfront-mål](../results-and-activities/connect-projects-to-goals-overview.md).
 
 </div>

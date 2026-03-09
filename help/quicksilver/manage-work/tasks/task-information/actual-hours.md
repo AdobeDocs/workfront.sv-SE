@@ -7,9 +7,9 @@ description: De timmar du loggar in på dina arbetsuppgifter i Adobe Workfront r
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1270'
 ht-degree: 0%
 
 ---
@@ -201,7 +201,9 @@ Du måste ta hänsyn till konverteringen från minuter till timmar när du får 
 
 De faktiska timmarna som loggats för projekt, uppgifter eller utgåvor lagras för närvarande i Workfront-databasen som minuter och deras värdefält är `actualWorkRequired`.
 
-Med följande version av Workfront API som ska släppas senare under 2025 lagras Faktiska timmar i följande fält och enheter i databasen:
+Sedan oktober 2025, med API-version 21, lagras faktiska timmar i följande fält och enheter i databasen:
+
+<!--above used to be this: With the following version of the Workfront API scheduled to release later in 2025, Actual Hours are stored in the following fields and units in the database: -->
 
 * **Faktiska timmar**: Timmar som loggats för projekt, uppgifter eller problem efter maj 2021. De lagras i Workfront-databasen i timmar och deras värdefält är `actualWorkRequiredDouble`.
 * **Tidigare faktiska timmar**: Timmar som loggats för projekt, uppgifter eller problem när som helst, inklusive före maj 2021. De lagras i Workfront-databasen som minuter och deras värdefält är `actualWorkRequired`.

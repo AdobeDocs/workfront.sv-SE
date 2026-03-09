@@ -2,10 +2,10 @@
 title: Använd formulärifyllning med AI för att fylla i en förfrågan med hjälp av uppmaningar eller dokument
 content-type: reference
 description: Du kan använda AI för att autofylla begärandefält genom att ange en uppmaning eller genom att ange ett dokument.
-author: Becky
+author: Alina
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: b55cb2df33ebba0d61d4254f17a49f92b7d6553e
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '1391'
 ht-degree: 0%

@@ -6,9 +6,9 @@ description: Du kan ta bort justeringen mellan två mål om det inte längre är
 author: Alina
 feature: Workfront Goals
 exl-id: a6196356-ca11-4759-9cff-64850a60208e
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,8 @@ Mer information om hur du justerar mål finns i följande artiklar:
  <tr>
   <td> <p>Adobe Workfront package</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>ANMÄRKNING</b></p>
+<p>Kontakta Workfront om du har ett annat Workfront-paket.</p>
    </td> 
   </tr> 
  <tr>
@@ -167,7 +168,7 @@ Removing goal alignment differs depending on which environment you use.
 
    ![Flytta om måljustering](assets/remove-goal-alignment-from-list-unshimmed.png)
 
-1. I gruppen **Typ: Mål** väljer du ett mål och klickar sedan på ikonen **Koppla från** ![Koppla från &#x200B;](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) överst i listan.
+1. I gruppen **Typ: Mål** väljer du ett mål och klickar sedan på ikonen **Koppla från** ![Koppla från ](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) överst i listan.
 
    Frånkopplingsrutan visas.
 

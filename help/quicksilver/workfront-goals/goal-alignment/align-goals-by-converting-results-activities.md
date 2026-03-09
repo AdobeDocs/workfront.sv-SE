@@ -6,9 +6,9 @@ description: Du kan justera två mål manuellt eller konvertera resultaten och a
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,8 @@ Mer information om att manuellt justera två mål finns i [Justera mål genom at
 
 <td> <p>Adobe Workfront package</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>ANMÄRKNING</b></p>
+<p>Kontakta Workfront om du har ett annat Workfront-paket.</p>
    </td> 
   </tr> 
   <tr> 
