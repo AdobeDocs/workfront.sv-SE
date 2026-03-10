@@ -383,7 +383,7 @@ Du kan konfigurera och aktivera automatiseringen på posttypens sida i Workfront
 
 Du kan till exempel skapa en automatisering som tar en Workfront Planning-kampanj och skapar ett varumärke som ska kopplas till kampanjen.
 
-Mer information om hur du skapar objekt med en befintlig automatisering finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+Mer information om hur du skapar objekt med en befintlig automatisering finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning &#x200B;](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
 ### Begär formulär
 
