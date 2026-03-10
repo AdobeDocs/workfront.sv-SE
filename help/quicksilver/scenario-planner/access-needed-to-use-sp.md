@@ -7,7 +7,7 @@ description: Scenarioplaneraren kräver en separat licens från Adobe Workfront 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: 68dee7bc9643b7b9446ff4737ff70f4b850e7bbb
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
-Utan rätt åtkomst eller behörigheter kanske du inte kan visa [!UICONTROL Scenarios]-området för [!DNL &#x200B; Adobe Workfront] eller hantera planer eller initiativ för din organisation. I hanteringen av planer och initiativ ingår att skapa, redigera och ta bort dem.
+Utan rätt åtkomst eller behörigheter kanske du inte kan visa [!UICONTROL Scenarios]-området för [!DNL  Adobe Workfront] eller hantera planer eller initiativ för din organisation. I hanteringen av planer och initiativ ingår att skapa, redigera och ta bort dem.
 
 ## Åtkomst krävs för att visa och använda [!DNL Adobe Workfront Scenario Planner]
 
@@ -56,6 +56,7 @@ Du måste se till att alla följande villkor uppfylls innan du kan komma åt [!D
         * [!UICONTROL Plan]
         * [!UICONTROL Work]
         * [!UICONTROL Review]-->
+
   <!--Old: 
       >[!NOTE]
       > 
