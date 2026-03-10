@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1288'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ Så här anger du godkännanderegler för ett begärandeformulär:
 
    ![Standardområde för godkännanderegel](assets/default-approvers.png)
 
-1. (Valfritt) Börja lägga till godkännanderegler. Gör följande för varje regel för godkännande:
+1. (Valfritt) Börja lägga till godkännanderegler. Gör följande för varje anpassad regel för godkännande:
 
    1. Klicka på **Lägg till godkännanderegel**
    1. Klicka på platshållartiteln **Namnlös godkännanderegel** och ange ett namn för godkännanderegeln.
@@ -161,6 +161,14 @@ Så här anger du godkännanderegler för ett begärandeformulär:
    1. (Valfritt) Klicka på **Lägg till villkor** om du vill lägga till fler villkor och koppla dem med programsatserna **And** eller **Or** genom att konfigurera ytterligare villkor som i steg C-E.
    1. I området **Åtgärder** i godkännanderegeln lägger du till minst en användare eller grupp som ska anges som godkännare i fältet **Godkännare** när villkoret är uppfyllt.
    1. (Villkorligt och valfritt) Om du vill att posten ska skapas efter att någon av godkännarna har godkänt den, markerar du kryssrutan **Endast ett beslut krävs**. Annars måste alla godkännare fatta beslut om godkännandet innan begäran godkänns eller avslås.
+
+   >[!NOTE]
+   >
+   >   Tänk på följande när du lägger till godkännanderegler:
+   >
+   >   * Om bara en standardregel har konfigurerats gäller den för alla skickade begäranden.
+   >   * Om en anpassad regel uppfylls används inte standardinställningen i arbetsflödet för godkännande av begäran. Endast matchade anpassade regler gäller för godkännanden och standardregeln ignoreras.
+   >   * Om flera anpassade regler uppfylls gäller den första i ordningen. I det här fallet gäller inte standardgodkännandet, om det finns ett.
 
 1. Klicka på **Spara** för att spara godkännandereglerna.
 1. (Valfritt) Klicka på **Publicera** om du aldrig har delat begärandeformuläret tidigare.

@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 4713864c21d23b507f4d19d7a7955128768e077d
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 0%
@@ -14,11 +14,15 @@ ht-degree: 0%
 ---
 
 
-<!--*******************REPLACE THE "ADVANCED SETTINGS" SECTION IN THE "EDIT RECORD TYPES" ARTICLE WITH A LINK TO THIS ARTICLE INSTEAD AND REMOVE THE STEPS FROM THE "EDIT RECORD TYPES" ARTICLE ON HOW TO ALLOW CROSS-WORKSPACE SETTINGS FOR RECORD TYPES*************-->
+<!--
+*******************REPLACE THE "ADVANCED SETTINGS" SECTION IN THE "EDIT RECORD TYPES" ARTICLE WITH A LINK TO THIS ARTICLE INSTEAD AND REMOVE THE STEPS FROM THE "EDIT RECORD TYPES" ARTICLE ON HOW TO ALLOW CROSS-WORKSPACE SETTINGS FOR RECORD TYPES*************
+-->
 
 # Konfigurera funktioner för olika arbetsytor för posttyper
 
-<!--this article is linked to the UI in the Advanced settings/ Cross-workspace settings tab - do not delete or change the URL-->
+<!--
+this article is linked to the UI in the Advanced settings/ Cross-workspace settings tab - do not delete or change the URL
+-->
 
 {{planning-important-intro}}
 
@@ -82,18 +86,21 @@ eller
    <p>Så här gör du en post anslutningsbar:</p>
    <ul><li>Systemadministratör</li></ul>
 
-<!--replace the above with this at release:
+<!--
+   replace the above with this at release:
    <p>To make a record global:</p>
    <ul><li>Standard or higher</li></ul>
    <p>To make a record connectable:</p>
    <ul><li>In the Production environment:</li>
    <ul><li>System Administrator</li></ul></ul>
-
+   -->
+<!--
    <div class="preview">
    <ul><li>In the Preview environment:</li>
    <ul><li>Standard to make a record connectable from specific workspaces</li>
    <li>System Administrator to make a record connectable from all workspaces</li></ul></ul>
-   </div>-->
+   </div>
+   -->
 
 </td> 
   </tr> 
@@ -109,8 +116,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
 +++   
 
-<!--Old:
-
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -119,7 +126,6 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 <tbody> 
     <tr> 
 <tr> 
-
   </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
@@ -146,12 +152,15 @@ And
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
   </tr>  
 </tbody> 
-</table> -->
+</table>
+-->
 
 
 ## Konfigurera globala posttyper
 
-<!--this is a UI term; don't change the title of this section-->
+<!--
+this is a UI term; don't change the title of this section
+-->
 
 Som arbetsytehanterare kan du konfigurera en posttyp så att den blir en global posttyp. En global posttyp kan läggas till i andra arbetsytor.
 
@@ -174,7 +183,7 @@ Så här konfigurerar du en posttyp som global:
 
      ![Fler menyalternativ från posttypskort](assets/more-menu-options-from-record-type-card.png)
 
-   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn.
+   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn.
 1. Klicka på **Redigera** eller **Inställningar**.
 
    >[!TIP]
@@ -255,14 +264,14 @@ Så här konfigurerar du en posttyp som global:
 
      ![Fler menyalternativ från posttypskort med inställningar](assets/more-menu-options-from-record-type-card-with-settings-link.png)
 
-   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn.
+   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn.
 1. Klicka på **Redigera** eller **Inställningar**.
 
 1. (Villkorligt) Om du klickade på **Redigera** klickar du på fliken **Inställningar för arbetsytan** i rutan **Redigera posttyp**
 
    Om du klickade på **Inställningar** kan du klicka på avsnittet **Inställningar för arbetsytan mellan arbetsytor** i den vänstra panelen.
 
-1. Aktivera inställningen **Tillåt anslutning till den här posttypen i andra arbetsytor**. <!-- check the setting name, I sent this to Lilit to say FROM instead of IN-->
+1. Aktivera inställningen **Tillåt anslutning till den här posttypen i andra arbetsytor**.
 
    <!-- add new screen shot with new tab name-->
 
@@ -270,7 +279,7 @@ Så här konfigurerar du en posttyp som global:
 
    När det här alternativet är aktiverat är posttypen tillgänglig och kan anslutas till från andra arbetsytor.
 
-1. &#x200B;<!--<span class="preview">(Conditional) Depending on which license you have,</span>--> Välj från vilka arbetsytor som posttypen kan nås. Välj bland följande alternativ:
+1. <!--<span class="preview">(Conditional) Depending on which license you have,</span>--> Välj från vilka arbetsytor som posttypen kan nås. Välj bland följande alternativ:
 
    <!--check names of the setting: System wide?? OR All workspaces??-->
 

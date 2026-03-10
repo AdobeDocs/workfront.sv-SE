@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: bf34bfa2059d227eca3faa3d719adcf4d711e457
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
 source-wordcount: '5510'
 ht-degree: 0%
@@ -14,11 +14,17 @@ ht-degree: 0%
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=sv-SE ??-->
+<!--
+Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??
+-->
 
-<!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
+<!--
+will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? 
+-->
 
-<!--Do we need this for FORMULAS: when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula - not sure is needed??-->
+<!--
+Do we need this for FORMULAS: when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula - not sure is needed??
+-->
 
 # Skapa fält
 
@@ -85,8 +91,9 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
 +++   
 
-<!--Old:
+<!--
 
+Old:
  <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -141,7 +148,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
    <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p> </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Skapa fält genom att ansluta posttyper
 
@@ -149,9 +157,11 @@ Du kan skapa länkade postfält när du lägger till en ny anslutning mellan tv�
 
 Mer information om hur du ansluter posttyper för Workfront Planning finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-<!--## Create fields by importing record types using an Excel or CSV file
+<!--
 
-For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).-->
+## Create fields by importing record types using an Excel or CSV file
+For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
+-->
 
 ## Skapa fält genom att skapa en posttyp
 
@@ -240,14 +250,17 @@ Mer information finns i [Importera fält från Workfront](/help/quicksilver/plan
    * [Senast ändrat den](#last-modified-date)
    * [Godkänt den](#approved-date)
    * [Godkänd av](#approved-by)
+     <!--* <span class="preview">[Record ID](#record-id)</span>-->
      <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
    >
    >Du kan inte ändra fälttypen när du har sparat den.
 
-   <!--Add this to the IMPORTANT above and make it a NOTE - should do directly to Prod:
-    * You can use any keyword that might be related to any of the field type names. For example, a search for "Budget" will display the Number or Currency field type.-->
+   <!--
+    Add this to the IMPORTANT above and make it a NOTE - should do directly to Prod:
+    * You can use any keyword that might be related to any of the field type names. For example, a search for "Budget" will display the Number or Currency field type.
+    -->
 
 1. Fortsätt med att lägga till varje fält enligt beskrivningen i avsnitten nedan.
 
@@ -575,7 +588,7 @@ Mer information finns i [Översikt över formelfält](/help/quicksilver/planning
    >
    >* Du kan referera till ett fält som är upp till fyra fält (och objekt) utanför den aktuella posttypen. Om du till exempel skapar ett formelfält för en aktivitetsposttyp (1) och aktiviteten är kopplad till kampanjposttypen (2) som är kopplad till ett Workfront-projekt (3), kan du referera till projektets budgetfält (4) i formeln som du skapar för aktivitetsposttypen.
    >
-   >![Formelexempel för projektbudget fyra fält har tagits bort &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Formelexempel för projektbudget fyra fält har tagits bort ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Valfritt) Klicka på **Maximera** för att öppna formelrutan i ett större område.
@@ -797,6 +810,33 @@ Du kan använda fälttypen Godkänd av för att lägga till den användare som s
 
    Det nya fältet Godkänd efter typ läggs till som en kolumn till posttypen och dess värden är förifyllda med namnet på den användare som senast ändrade varje post.
 
+<!--
+<span class="preview">
+
+## Record ID
+
+You can use the Record ID field type to reveal a system-generated, read-only identifier for each record. 
+
+When created, the Record ID field auto-populates with an alpha-numeric value. You can use it in formula fields and in API integrations to uniquely identify each record. 
+
+You cannot manually modify the value of a Record ID field. 
+ 
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Record ID** field type.
+ 
+   ![Record ID field type](assets/record-id-field-type.png)
+
+1. Add the following information in the **New field** tab:
+
+     * **Name**: The name of the field, as it will appear in a table or the record page. 
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
+    
+1. Click **Create**.
+
+    The new Record ID-type field is added as a column to the record type and its values are prefilled with an alpha-numeric value.  
+
+</span>
+
+-->
 <!--
 
 ## Object field type

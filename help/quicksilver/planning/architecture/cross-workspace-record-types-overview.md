@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 5a725e747e8776a867cb0dc4129544f6a28ce8e0
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
 source-wordcount: '1709'
 ht-degree: 0%
@@ -120,13 +120,13 @@ Posttypen som konfigurerats som global har följande egenskaper:
    * Du har samma behörigheter som de poster som skapas i den primära arbetsytan som du har till arbetsytan och till den ursprungliga globala posttypen.
    * Du har samma behörigheter till posterna som skapas i en sekundär arbetsyta som du har till den sekundära arbetsytan och till den globala posttypen i den arbetsytan.
 
-<!--Removed this as this was too confusing: 
-
-* When the original global record type is added to multiple secondary workspaces, users gain the following visibility to the records added to the global record types: 
-
-    * Members of the original workspace automatically gain View permissions to all records added from any workspace, even if they are  not members of those workspaces. They can view these records in the following workspaces, only if they are a member of these following workspaces: 
-        * The primary workspace
-        * The secondary workspace where the records were added. Secondary workspace members can view only records from workspaces where they are a member.-->
+  <!--
+    Removed this as this was too confusing: 
+    * When the original global record type is added to multiple secondary workspaces, users gain the following visibility to the records added to the global record types: 
+        * Members of the original workspace automatically gain View permissions to all records added from any workspace, even if they are  not members of those workspaces. They can view these records in the following workspaces, only if they are a member of these following workspaces: 
+            * The primary workspace
+            * The secondary workspace where the records were added. Secondary workspace members can view only records from workspaces where they are a member.
+    -->
 
 * Posttyperna som är kopplade till en global posttyp blir tillgängliga för anslutning från arbetsytorna där den här posttypen läggs till.
 
@@ -167,14 +167,18 @@ Posttypen som konfigurerats som global har följande egenskaper:
      Mer information finns i [Dela vyer](/help/quicksilver/planning/access/share-views.md).
 
 
-<!--when they will be able to add fields to the secondary space, this bullet will need this extra information: 
-    After adding fields to the global record type in the secondary workspace, shared views might not open for other users in workspaces. The fields exist only in the secondary workspace and they would not be visible in any other workspace. Only fields created in the primary workspace are visible in all secondary workspaces where there the record type is added.-->
+<!--
+when they will be able to add fields to the secondary space, this bullet will need this extra information: 
+After adding fields to the global record type in the secondary workspace, shared views might not open for other users in workspaces. The fields exist only in the secondary workspace and they would not be visible in any other workspace. Only fields created in the primary workspace are visible in all secondary workspaces where there the record type is added.
+-->
 
-<!--These two capabilities will come later - and edit some of the bullets below after these capabilities are released:
+<!--
+These two capabilities will come later - and edit some of the bullets below after these capabilities are released:
 * Add new fields
     Fields added to a global record from a secondary workspace are visible only from the secondary workspace. 
 * Add request forms to it
-* Add automations to it-->
+* Add automations to it
+-->
 
 * Ingen användare kan utföra följande åtgärder på en global posttyp på en sekundär arbetsyta:
 
@@ -193,7 +197,9 @@ Posttypen som konfigurerats som global har följande egenskaper:
 
    * Om du har behörigheten Hantera på den ursprungliga arbetsytan, och inga behörigheter på en sekundär arbetsyta, kan du visa poster som lagts till från den sekundära arbetsytan i den ursprungliga arbetsytan, men du kan inte hantera dem från den ursprungliga arbetsytan.
    * Om du har behörigheten Hantera på den ursprungliga och den sekundära arbetsytan kan du hantera posterna både från den globala posttypens ursprungliga arbetsyta och från den sekundära arbetsytan där de lades till.
-     <!--not anymore: * You can view the records in additional secondary workspaces where the global record type is added only if you have View permissions to those workspaces-->
+  <!--
+    not anymore: * You can view the records in additional secondary workspaces where the global record type is added only if you have View permissions to those workspaces
+    -->
 * Du kan inte dela vyer offentligt från en global posttyp på en sekundär arbetsyta.
 
 ### Åtkomst till anslutningar av global posttyp
@@ -223,6 +229,10 @@ Så här använder du kopplingsbara posttyper:
    En arbetsytehanterare kan välja vilka arbetsytor en angiven posttyp kan ansluta till.
 
    Den ursprungliga posttypen kommer att finnas på den ursprungliga arbetsytan och det går att ansluta till den från en annan arbetsyta.
+
+   <!--
+    <span class="preview">Only System Administrators can designate a record type to be connectable from all workspaces in the system. All other workspace managers can designate specific workspaces to connect to the record type from. </span>
+    -->
 
    Mer information finns i [Konfigurera funktioner för arbetsytan över arbetsytor för posttyper](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 1. Anslut till en posttyp som är angiven som anslutningsbar från en annan arbetsyta som du hanterar.
