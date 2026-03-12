@@ -59,7 +59,7 @@ Ta bort ett dokument:
 1. Gå till det projekt, den uppgift eller det problem som innehåller dokumentet och välj sedan **Dokument** i den vänstra panelen.
 1. Hitta det dokument du behöver.
 
-1. Klicka på ikonen **Ta bort** ![Ta bort ](assets/delete.png) ovanför dokumentområdet.
+1. Klicka på ikonen **Ta bort** ![Ta bort &#x200B;](assets/delete.png) ovanför dokumentområdet.
 
 1. I rutan som visas klickar du på **Ja, tar bort** för att bekräfta.
 
