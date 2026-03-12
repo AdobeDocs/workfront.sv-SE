@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: 8233bcad8409b6f293d365fe871338e643a410dc
+source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '960'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,11 @@ Du måste ha Workfront- och Frame.io-integreringen konfigurerad i din Workfront-
 
 ## Arbetsplanering i Workfront
 
-Projektsamordnare kan skapa projekt och planera arbetet i Workfront. Projekt som skapas i en instans med Frame.io-integreringen aktiverad använder Adobe Enterprise Storage, som gör att resurser kan lagras och hanteras i Adobe ekosystem.
+Projektsamordnare kan skapa projekt och planera arbetet i Workfront. Projekt som skapas i en instans med Frame.io-integreringen aktiverad använder Adobe Enterprise-lagring, som gör att resurser kan lagras och hanteras i Adobe ekosystem.
 
 Om din organisation har en Frame.io Enterprise-licens visas även projekt som skapats i Workfront i Frame.io, vilket gör att användare kan interagera och överföra resurser i båda produkterna.
 
-Mer information om Adobe Enterprise Storage och projekt i Frame.io finns i
+Mer information om Adobe Enterprise-lagring eller projekt i Frame.io finns i
 
 * [Workspace - översikt: Projekt](https://help.frame.io/en/articles/9101001-workspace-overview#h_d9f8654895)
 * [Adobe Enterprise Storage - översikt](/help/quicksilver/review-and-approve-work/esm-overview.md)
@@ -67,13 +67,13 @@ Granskare och godkännare kan läggas till i ett arbetsflöde för engångsgodk�
 
 * **Engångsgodkännanden**: I det projekt eller den uppgift där resursen finns kan projektkoordinatorn tilldela granskare och godkännare och ange en sluttid. Granskare och godkännare får påminnelser via e-post 72 timmar före ansökningsdeadline, 24 timmar före ansökningsdeadline och sedan efter själva deadline.
 
-  Mer information finns i [Skapa en begäran om dokumentgranskning eller godkännande](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+  Mer information finns i [Skapa ett arbetsflöde för dokumentgodkännande](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
-* **Godkännandemallar**: Under Konfigurera i Workfront kan projektkoordinatorer skapa återanvändbara godkännandemallar. I en mall kan användare lägga till granskare och godkännare och ange en tidsram för slutförande. När godkännandemallen används för en resurs beräknas tidsgränsen från den angivna tidsramen.
+* **Godkännandemallar**: Under Konfigurera i Workfront kan projektsamordnare skapa återanvändbara godkännandemallar. I en mall kan användare lägga till granskare och godkännare och ange en tidsram för slutförande. När godkännandemallen används för en resurs beräknas tidsgränsen från den angivna tidsramen.
 
   När en mall har skapats kan den tillämpas på en mediefil för att starta den formella gransknings- och godkännandeprocessen i Workfront.
 
-  Mer information finns i [Skapa en godkännandemall](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+  Mer information finns i [Skapa en arbetsflödesmall för godkännande för dokument](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 
   ![Tilldela mall](assets/assign-template.png)
@@ -106,6 +106,7 @@ Kommentarer och resursmarkeringar visas i Frame.io-visningsprogrammet. Mer infor
 När all granskningsaktivitet är klar måste godkännarna fatta något av följande beslut:
 
 * **Godkänn**: Resursen behöver inte ändras och är klar att användas.
+* **Godkänd med ändringar**: Resursen är för det mesta slutförd men behöver mindre ändringar innan den kan användas. När de angivna ändringarna har gjorts är resursen klar och behöver inte gå igenom ytterligare en godkännandeomgång.
 * **Behöver arbete**: Resursen behöver ändras och är inte klar att användas. När de angivna ändringarna har gjorts måste resursen överföras som en ny version och gå igenom en ny godkännandeomgång. <!--is the same approval workflow automatically applied? Does the coordinator have to do anything to get the approval going? -->
 
 Granskarna kan markera sin granskning som slutförd i Workfront, men detta krävs inte för att resursen ska gå vidare i godkännandeprocessen.

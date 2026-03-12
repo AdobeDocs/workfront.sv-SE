@@ -6,9 +6,9 @@ description: Du kan länka dokument och mappar till Adobe Workfront från extern
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '2545'
+source-wordcount: '2585'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,11 @@ Du kan länka dokument och mappar till Adobe Workfront från följande källor:
 Innan du länkar dokument eller mappar måste Workfront-administratören aktivera den här funktionen för varje dokumentleverantör eller för en anpassad dokumentintegrering, enligt beskrivningen i [Konfigurera dokumentintegreringar](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
 Du kan granska och godkänna dokument som är länkade till en extern molnleverantör på samma sätt som du gör med dokument som överförs direkt till Workfront.
+
+>[!NOTE]
+>
+>Den här funktionen är inte tillgänglig i området för nya dokument.<br>
+>Om ditt företag använder Enterprise-lagring visas det nya dokumentområdet när du öppnar dokument i Workfront. Mer information om Enterprise-lagring finns i [Översikt över Adobe Enterprise-lagring](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Åtkomstkrav
 

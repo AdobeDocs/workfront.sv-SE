@@ -6,9 +6,9 @@ description: Du kan checka ut ett dokument för att förhindra att andra använd
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 15d9ea43-1cee-4cb1-9365-4374a291c090
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '674'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 0%
 # Checka ut dokument
 
 Du kan checka ut ett dokument för att förhindra att andra användare tar bort det eller överför en ny version av det. Endast en användare kan checka ut ett dokument åt gången. Du kan checka ut alla dokument som överförts till Adobe Workfront samt dokument som är länkade till tredjepartsleverantörer av dokument (Box, Dropbox, Google Drive, Webdam, Workfront DAM, SharePoint eller någon annan anpassad leverantör). 
+
+>[!NOTE]
+>
+>Den här funktionen är inte tillgänglig i området för nya dokument.<br>
+>Om ditt företag använder Enterprise-lagring visas det nya dokumentområdet när du öppnar dokument i Workfront. Mer information om Enterprise-lagring finns i [Översikt över Adobe Enterprise-lagring](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Åtkomstkrav
 

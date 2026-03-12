@@ -6,26 +6,23 @@ description: Du kan lägga till dokument i projekt, uppgifter eller problem i fl
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: 47f029fbbc165db36e750907c9a14bb3c0718d58
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 1%
+source-wordcount: '1237'
+ht-degree: 0%
 
 ---
 
 # Lägga till dokument i Adobe Workfront från filsystemet
 
-Du kan lägga till dokument i projekt, uppgifter eller problem i följande områden i Adobe Workfront:
+Workfront har för närvarande två versioner av dokumentområdet: det gamla dokumentområdet och det nya dokumentområdet. Vilken version din organisation använder beror på om din organisation använder äldre Workfront-lagring eller Enterprise-lagring. Mer information om de här lagringstyperna finns i [Översikt över Adobe Enterprise-lagring](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-* Det globala dokumentområdet
-* Dokumentområdet för ett Workfront-objekt
-* Ett anslutet kort på Workfront
+Hur du lägger till dokument i Workfront varierar beroende på vilken version av dokumentområdet som används i organisationen.
 
-Du kan också överföra nya versioner av dokument och lägga till länkar till dokument från tredjepartsleverantörer i molnet, som Google Drive, Dropbox och Microsoft OneDrive. Mer information om hur du lägger till nya versioner av dokument finns i [Överföra en ny version av ett dokument](../../documents/managing-documents/upload-new-document-version.md). Mer information om hur du lägger till dokument från tredjepartsleverantörer i molnet finns i [Länka dokument från externa program](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+* [Lägg till dokument i från filsystemet i det äldre dokumentområdet](#add-documents-from-your-file-system-in-the-legacy-documents-area)
+* [Lägga till dokument i Workfront i området för nya dokument](#add-documents-to-workfront-in-the-new-documents-area)
 
-Det finns inga begränsningar för vilka filtyper och filstorlekar du kan överföra till Workfront. För att överföringen ska lyckas måste den slutföras inom fem minuter och du måste ha tillräckligt med lagringsutrymme tillgängligt.
 
-Om du behöver information om hur du överför nya versioner av ett dokument till Workfront läser du [Överföra en ny version av ett dokument](../../documents/managing-documents/upload-new-document-version.md).
 
 ## Åtkomstkrav
 
@@ -47,7 +44,9 @@ Om du behöver information om hur du överför nya versioner av ett dokument til
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Redigera åtkomst till dokument</p> </td> 
+   <td> <p>Äldre Workfront-lagring: Redigera åtkomst till dokument</p> 
+   <p>Enterprise-lagring: Redigera åtkomst till dokument är aktiverat som standard och kan inte ändras</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,7 +55,24 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 +++
 
-## Lägga till dokument i Workfront
+## Lägga till dokument från filsystemet i det äldre dokumentområdet
+
+Om din organisation använder äldre Workfront-lagring visas det äldre dokumentområdet när du öppnar dokument i Workfront. Mer information om Workfront-lagring finns i [Skillnader mellan Adobe Enterprise-lagring och äldre Workfront-lagring](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
+
+Du kan lägga till dokument i projekt, uppgifter eller problem i följande områden i Adobe Workfront:
+
+* Det globala dokumentområdet
+* Dokumentområdet för ett Workfront-objekt
+* Ett anslutet kort på Workfront
+
+Du kan också överföra nya versioner av dokument och lägga till länkar till dokument från tredjepartsleverantörer i molnet, som Google Drive, Dropbox och Microsoft OneDrive. Mer information om hur du lägger till nya versioner av dokument finns i [Överföra en ny version av ett dokument](../../documents/managing-documents/upload-new-document-version.md). Mer information om hur du lägger till dokument från tredjepartsleverantörer i molnet finns i [Länka dokument från externa program](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+
+Det finns inga begränsningar för vilka filtyper och filstorlekar du kan överföra till Workfront. För att överföringen ska lyckas måste den slutföras inom fem minuter och du måste ha tillräckligt med lagringsutrymme tillgängligt.
+
+Om du behöver information om hur du överför nya versioner av ett dokument till Workfront läser du [Överföra en ny version av ett dokument](../../documents/managing-documents/upload-new-document-version.md).
+
+
+### Lägga till dokument i Workfront i det äldre dokumentområdet
 
 Du kan lägga till nya dokument i Workfront från filsystemet på din arbetsstation. Du kan även länka dokument från tredjepartsprogram som Google Drive och SharePoint.
 
@@ -110,14 +126,72 @@ Så här lägger du till ett dokument:
     </tbody> 
    </table>
 
-## Dokumentsäkerhet
+
+## Lägga till dokument i Workfront i området för nya dokument
+
+Du kan lägga till dokument i projekt, uppgifter eller utgåvor med hjälp av Enterprise-lagringsmodellen. Mer information om Enterprise-lagring finns i [Översikt över Adobe Enterprise-lagring](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Funktionen stöds för närvarande inte i området för nya dokument:
+
+* Överföra dokument till det globala dokumentområdet
+* Lägga till länkar till dokument från tredjepartsleverantörer i molnet, som Google Drive, Dropbox och Microsoft OneDrive.
+* Begära dokument
+* Kopiera en länk till en mapp
+* Checka ut dokument
+* Klistra in bilder från Urklipp
+* Lägga till smarta mappar
+
+
+### Lägga till dokument i Workfront i området för nya dokument
+
+Om ditt företag använder Enterprise-lagring visas det nya dokumentområdet när du öppnar dokument i Workfront. Mer information om Enterprise-lagring finns i [Översikt över Adobe Enterprise-lagring](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+<!--
+>[!IMPORTANT]
+>
+>* You can upload up to 150 documents at one time.
+>* There is no limit on the file size. 
+>* Document downloads are limited to 4GB.
+-->
+
+Så här lägger du till ett dokument:
+
+1. Gå till projektet, uppgiften eller utgåvan där du vill lägga till ett nytt dokument.
+1. Klicka på **Dokument** i den vänstra panelen.
+1. Klicka på **Nytt** till höger på sidan eller dra och släpp filen i släppzonen som visas. Du kan lägga till flera dokument samtidigt.
+
+   ![Lägg till ett nytt dokument](assets/add-new-doc-new-doc.png)
+
+Om du behöver information om hur du överför nya versioner av ett dokument till Workfront läser du [Överföra en ny version av ett dokument](../../documents/managing-documents/upload-new-document-version.md).
+
+## Dokumentsäkerhet för företagslagring
+
+Workfront förhindrar att virus och annat skadligt innehåll kommer in på webbplatsen via dokument på följande sätt:
+
+**Så här identifierar Workfront skadade filer**
+
+Dokumentskanning aktiveras automatiskt för objekt som använder Enterprise-lagringsmodellen.
+
+Alla filer under 500 MB genomsöks när de överförs. Filer som är större än 500 MB genomsöks inte. Om Workfront upptäcker ett skadat dokument tas det bort automatiskt.
+
+**Filnamnsbegränsningar**
+
+Eftersom integreringen byggs med Adobe Enterprise-lagring finns det vissa tvingande struktur- och namnkonventioner som du bör känna till när du hanterar projekt och dokument.
+
+* Objektnamn måste vara unika och kan inte dupliceras
+* Adobe Enterprise-lagring kräver unika namn för peer-objekt med samma överordnade i hierarkiträdet
+* Dokument kan inte ha samma namn om de tillhör samma projekt
+* Dokumentnamn får inte innehålla något av följande specialtecken: `\ / : * ? " | < >`
+* Dokumentnamn får innehålla högst 255 tecken
+
+Med dessa begränsningar i åtanke byter Workfront automatiskt namn på objekt och dokument efter behov för att förhindra konflikter.
+
+
+## Dokumentsäkerhet för äldre Workfront-lagring
 
 Workfront webbplats förhindrar att virus och annat skadligt innehåll kommer in på webbplatsen via dokument på följande sätt:
 
-* [Så här identifierar Workfront skadade filer](#how-workfront-detects-corrupted-files)
-* [Filnamnsbegränsningar](#file-name-restrictions)
-
-### Hur Workfront identifierar skadade filer {#how-workfront-detects-corrupted-files}
+**Så här identifierar Workfront skadade filer**
 
 Dokumentskanning är bara aktiverat för din organisation på begäran.
 
@@ -127,6 +201,6 @@ Om Workfront upptäcker ett skadat dokument visas ett meddelande om att filen ä
 
 Skadade filer tas bort inom 24 timmar efter att de identifierats, såvida du inte tar bort dem manuellt. Om du tar bort en skadad fil spårar Workfront den här åtgärden som en uppdatering. Om du tillåter att Workfront tar bort den registreras inga uppdateringar.
 
-### Filnamnsbegränsningar {#file-name-restrictions}
+**Filnamnsbegränsningar**
 
 Filer som överförs till Workfront får inte innehålla vissa tecken i filnamn. Om en fil innehåller något av följande tecken i filnamnet, tas tecknen bort från filnamnet när filen överförs: `! # % * \ | ' " / ? < > { } [ ]`.

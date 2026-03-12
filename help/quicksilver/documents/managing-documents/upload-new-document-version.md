@@ -6,9 +6,9 @@ description: Du kan lägga till en ny version av ett dokument som du tidigare ha
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d475e0f0-112e-4d4e-b666-6e0af3ea7702
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,11 @@ Mer information om hur du lägger till en ny version av ett dokument som är lä
 Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
-## Lägg till en ny version genom att dra och släppa
+## Överför en ny dokumentversion till det äldre dokumentområdet
+
+Om ditt företag har äldre Workfront-lagring visas det äldre dokumentområdet när du öppnar dokument i Workfront. Mer information om äldre Workfront-lagring finns i [Skillnader mellan äldre Workfront-lagring och Adobe Enterprise-lagring](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+### Lägg till en ny version genom att dra och släppa
 
 >[!NOTE]
 >
@@ -74,7 +78,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
    Mer information om hur du hanterar dokumentversioner finns i [Hantera dokumentversioner](../../documents/managing-documents/manage-document-versions.md).
 
-## Använd menyn Mer för att lägga till en ny version
+### Använd menyn Mer för att lägga till en ny version
 
 1. Markera dokumentet där du vill lägga till en ny version.
 1. Klicka på **Lägg till ny** > **Version**.
@@ -82,3 +86,42 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    ![Lägg till ny version](assets/add-new-version-350x185.png)
 
 1. Välj vilken typ av dokument du vill överföra och följ sedan anvisningarna.
+
+## Överföra en ny dokumentversion till området för nya dokument
+
+Om ditt företag använder Enterprise-lagring visas det nya dokumentområdet när du öppnar dokument i Workfront. Mer information om Enterprise-lagring finns i [Översikt över Adobe Enterprise-lagring](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+### Lägg till en ny version genom att dra och släppa
+
+>[!NOTE]
+>
+>Det går inte att dra och släppa i Internet Explorer.
+
+1. Gå till området Dokument där dokumentet överförs.
+1. Dra den nya versionen av dokumentet över den befintliga versionen i Workfront.
+
+   ![Dra och släpp dokumentversion](assets/drag-drop-new-doc.png)
+
+1. Släpp den nya versionen ovanpå den befintliga filen på fliken **Dokument**.
+
+   Mer information om hur du hanterar dokumentversioner finns i [Hantera dokumentversioner](../../documents/managing-documents/manage-document-versions.md).
+
+### Använd menyn Mer för att lägga till en ny version
+
+1. Markera dokumentet där du vill lägga till en ny version.
+1. Öppna ikonen Visa versioner ![visa versioner](assets/show-versions.png) till höger.
+1. Klicka på **Lägg till ny version**.
+
+   ![Lägg till ny version](assets/new-version-new-doc.png)
+
+1. Leta reda på dokumentet och klicka sedan på **Öppna**.
+
+
+
+
+
+
+
+
+
+

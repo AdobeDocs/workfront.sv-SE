@@ -6,9 +6,9 @@ description: Du kan lägga till eller svara på uppdateringar av ett dokument f�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,11 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 +++
 
-## Lägga till eller svara på en uppdatering för ett dokument
+## Lägga till en uppdatering av ett dokument i det äldre dokumentområdet
+
+Om ditt företag har äldre Workfront-lagring visas det äldre dokumentområdet när du öppnar dokument i Workfront. Mer information om äldre Workfront-lagring finns i [Skillnader mellan äldre Workfront-lagring och Adobe Enterprise-lagring](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+### Lägga till eller svara på en uppdatering för ett dokument
 
 1. Gå till objektet som innehåller dokumentet och välj sedan **Dokument** i den vänstra panelen.
 1. Hitta det dokument du behöver och gör något av följande:
@@ -66,7 +70,7 @@ Mer information om hur du lägger till uppdateringar till objekt finns i [Uppdat
    Uppdateringarna och svaren läggs till i dokumentet och även till objekt med högre rankning. Mer information finns i [Översikt över uppdateringsavsnittet](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
-## Lägga till ett svar i en korrekturkommentar för ett dokument
+### Lägga till ett svar i en korrekturkommentar för ett dokument
 
 När du besvarar en kommentar som någon gjort när du korrekturerade ett dokument i uppdateringsområdet öppnas korrekturläsaren så att du kan skriva in ditt svar där med det sammanhang du behöver. Svaret visas både i korrekturläsaren och i dokumentets uppdateringsområde.
 
@@ -76,3 +80,12 @@ När du besvarar en kommentar som någon gjort när du korrekturerade ett dokume
 1. Klicka på **Svara i korrektur**, skriv kommentaren i korrekturläsaren som öppnas och klicka sedan på **Svara**.
 
    Om du behöver information om hur du skriver kommentarer och svar i korrekturläsaren läser du [Kommentera i ett korrektur](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md).
+
+## Lägga till en uppdatering av ett dokument i området för nya dokument
+
+Om ditt företag använder Enterprise-lagring visas det nya dokumentområdet när du öppnar dokument i Workfront. Mer information om Enterprise-lagring finns i [Översikt över Adobe Enterprise-lagring](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+1. Gå till objektet som innehåller dokumentet och välj sedan **Dokument** i den vänstra panelen.
+1. Leta reda på dokumentet som du behöver och klicka sedan på kommentarsikonen ![Kommentarikonen](assets/new-doc-comment-icon.png) för att öppna kommentarspanelen.
+1. Skriv din kommentar i textrutan och klicka sedan på **Skicka**.
+   ![Panelen Nya dokumentkommentarer](assets/comments-new-doc.png)

@@ -6,9 +6,9 @@ description: När ett dokument överförs från en tjänst för första gången 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fce8e8aa-fc48-49e1-a71d-c3933a179cf5
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,11 @@ När ett dokument överförs från en tjänst för första gången begär Adobe 
 Mer information om hur du länkar externa dokumenttjänster till Workfront finns i [Länka dokument från externa program](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 Eftersom dokumenttjänsten tillåter behörighet att länka till Workfront går det inte att ta bort den behörighet som tilldelats av dokumenttjänsten. Du måste ta bort behörigheten från dokumenttjänstprogrammet eller så måste du ringa vårt supportteam för att ta bort länken från våra servrar.
+
+>[!NOTE]
+>
+>Den här funktionen är inte tillgänglig i området för nya dokument.<br>
+>Om ditt företag använder Enterprise-lagring visas det nya dokumentområdet när du öppnar dokument i Workfront. Mer information om Enterprise-lagring finns i [Översikt över Adobe Enterprise-lagring](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Åtkomstkrav
 

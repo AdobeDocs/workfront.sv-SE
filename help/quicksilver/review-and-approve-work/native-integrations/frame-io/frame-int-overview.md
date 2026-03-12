@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
-source-git-commit: 07fa7207960f424cc8580eb46fe13bd5af4e56a8
+source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
@@ -95,10 +95,10 @@ Mer information om hur du hanterar projekt i Workfront finns i [Projekt: artikel
 
 ### Tvingad struktur och namnkonventioner
 
-Eftersom den här integreringen byggs med Adobe Enterprise Storage finns det vissa tvingande struktur- och namnkonventioner som du bör känna till när du hanterar projekt och dokument.
+Eftersom integreringen byggs med Adobe Enterprise-lagring finns det vissa tvingande struktur- och namnkonventioner som du bör känna till när du hanterar projekt och dokument.
 
 * Objektnamn måste vara unika och kan inte dupliceras
-* Adobe Enterprise Storage kräver unika namn för peer-objekt med samma överordnade objekt i hierarkiträdet
+* Adobe Enterprise-lagring kräver unika namn för peer-objekt med samma överordnade i hierarkiträdet
 * Dokument kan inte ha samma namn om de tillhör samma projekt
 * Dokumentnamn får inte innehålla något av följande specialtecken: \ / : * ? &quot; | &lt; >
 * Dokumentnamn får innehålla högst 255 tecken
@@ -134,9 +134,7 @@ Följande tabell visar hur Workfront-behörigheter mappas till Frame.io-behörig
 
 ### Dokumenthantering i Workfront
 
-Dokument hanteras på projektnivå med den här integreringen och kan för närvarande inte överföras till aktiviteter eller problem.
-
-Åtkomst till dokument hanteras också på projektnivå. Om en användare har åtkomst till ett projekt kan han/hon få åtkomst till alla dokument som är kopplade till det projektet.
+Dokument som överförs till Workfront lagras i Adobe Enterprise och är tillgängliga i både Workfront och Frame.io. När du överför ett dokument till en uppgift eller ett problem i Workfront skapas en systemgenererad mapp i Adobe Enterprise-lagring som ärver behörigheter från uppgiften eller problemet. Alla dokument som överförs till den uppgiften eller utgåvan lagras i den mappen och ärver behörigheter från den. Mer information om dokument i Workfront finns i [Översikt över det nya dokumentområdet](/help/quicksilver/documents/managing-documents/documents-area.md) och [Objektbehörigheter och översikt över åtkomstnivån för Adobe Enterprise-lagringsmodell](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
 
 ### Begränsningar i dokumentupplevelsen
 
@@ -151,13 +149,3 @@ Följande funktioner kommer inte att ingå i den här integreringen:
 * Dokumentvisningsprogram i Workfront
 * Favoritdokument
 * Begär dokument
-
-
-<!--#### Temporary limitations
-
-For now, the following capabilities are not available:
-
-* Send documents to Adobe Experience Manager Assets
-* Multi-stage approvals
-* Upload documents to comments or updates in Workfront
-* Upload documents to tasks or issues in Workfront-->

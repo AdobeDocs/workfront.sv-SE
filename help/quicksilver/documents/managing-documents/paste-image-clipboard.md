@@ -6,9 +6,9 @@ description: Du kan lägga till en bildfil i Adobe Workfront genom att kopiera d
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 5c3f089c-9e66-4294-806a-424a08bbf225
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 0%
 # Klistra in bilder från Urklipp
 
 Du kan lägga till en bildfil i Adobe Workfront genom att kopiera den och klistra in den från systemets Urklipp på din arbetsstation. 
+
+>[!NOTE]
+>
+>Den här funktionen är inte tillgänglig i området för nya dokument.<br>
+>Om ditt företag använder Enterprise-lagring visas det nya dokumentområdet när du öppnar dokument i Workfront. Mer information om Enterprise-lagring finns i [Översikt över Adobe Enterprise-lagring](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Webbläsarkrav för inklistring från Urklipp
 

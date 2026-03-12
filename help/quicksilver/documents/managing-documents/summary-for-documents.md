@@ -7,9 +7,9 @@ description: Med Sammanfattning kan du interagera med viktig information direkt 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,11 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 +++
 
-## Öppna sammanfattningsvyn
+## Sammanfattning av dokument i äldre dokument
+
+Om ditt företag har äldre Workfront-lagring visas det äldre dokumentområdet när du öppnar dokument i Workfront. Mer information om äldre Workfront-lagring finns i [Skillnader mellan äldre Workfront-lagring och Adobe Enterprise-lagring](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+### Öppna sammanfattningsvyn i det äldre dokumentgränssnittet
 
 {{step1-to-documents}}
 
@@ -72,32 +76,32 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    När du har öppnat Sammanfattning är den fortfarande öppen på den här sidan (även om du klickar på andra dokument) tills du stänger den manuellt.
 
 
-## Information
+### Information
 
 Använd detaljavsnittet för att visa översiktsinformation på hög nivå och interagera med anpassade formulär. Klicka på Detaljer överst i avsnittet för att gå till den fullständiga dokumentinformationssidan.
 
 * [Översikt](#overview)
 * [Anpassad Forms](#custom-forms)
 
-### Översikt {#overview}
+#### Översikt {#overview}
 
 Expandera avsnittet Översikt om du vill visa eller ladda ned en miniatyrbild, öppna ett korrektur, uppdatera den grundläggande beskrivningen, checka ut dokumentet med mera.
 
 ![Översikt över dokumentsammanfattning](assets/details-section.png)
 
-### Anpassad Forms {#custom-forms}
+#### Anpassad Forms {#custom-forms}
 
 Använd sektionen Anpassad Forms för att lägga till, redigera eller visa anpassade formulär som är kopplade till dokumentet. Börja skriva namnet på det anpassade formuläret för att lägga till det i dokumentet. Mer information finns i [Lägga till eller redigera ett anpassat formulär i ett dokument](../../documents/managing-documents/add-custom-form-documents.md).
 
 ![Lägg till ett anpassat formulär i dokumentsammanfattning](assets/custom-forms-section.png)
 
-## Uppdateringar
+### Uppdateringar
 
 Använd uppdateringsavsnittet för att visa en uppdatering som gjorts i dokumentet eller korrekturet. Sammanfattningen visar de två första kommentarerna som gjorts. Mer information om uppdateringar finns i [Kommentera på ett korrektur](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
 
 ![Uppdateringsavsnitt i sammanfattningspanelen](assets/updates-section.png)
 
-## Godkännanden
+### Godkännanden
 
 Använd avsnittet Godkännanden för att be om ett dokumentgodkännande. Du kan även påminna någon om ett godkännande, skicka om godkännandet och avbryta det tidigare beslutet eller ta bort godkännandet. Dokumentgodkännare kan använda Sammanfattning för att fatta ett beslut.
 
@@ -108,7 +112,7 @@ Bevisgodkännanden måste läggas till i korrekturarbetsflödet. Mer information
 
 ![Godkännanden av dokumentsammanfattning](assets/approvals-section.png)
 
-## Versioner
+### Versioner
 
 Använd avsnittet Versioner om du vill visa antalet versioner som skapats för ett visst dokument. Klicka på ikonen Mer ![Mer](assets/more-icon.png) om du vill göra följande:
 
@@ -119,3 +123,48 @@ Använd avsnittet Versioner om du vill visa antalet versioner som skapats för e
 * Ta bort ett korrektur eller dokument.
 
 ![Dokumentsammanfattningsversioner](assets/versions-section.png)
+
+## Sammanfattning av dokument i det nya dokumentgränssnittet
+
+Om ditt företag använder Enterprise-lagring visas det nya dokumentområdet när du öppnar dokument i Workfront. Mer information om Enterprise-lagring finns i [Översikt över Adobe Enterprise-lagring](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+### Information
+
+Använd detaljavsnittet för att visa översiktsinformation på hög nivå och interagera med anpassade formulär.
+
+![Dokumentsammanfattningsinformation i upplevelsen av nya dokument](assets/summary-details.png)
+
+### Godkännanden
+
+Använd avsnittet Godkännanden för att skapa ett arbetsflöde för godkännande. Du kan även påminna deltagarna om ett godkännande eller ta bort det. Dokumentgodkännare kan öppna Frame.io-visningsprogrammet eller använda Sammanfattning för att fatta ett beslut.
+
+Mer information om godkännanden och Frame.io finns i
+
+* [Kom igång med Frame.io-integrering](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
+* [Skapa en dokumentgranskning eller godkännandebegäran](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
+![Godkännanden av dokumentsammanfattningar i en ny dokumentupplevelse](assets/summary-approvals.png)
+
+
+<!-- resubmit the approval and cancel the previous decision, or delete the approval. Document approvers can use the Summary to make a decision.-->
+
+
+### Versioner
+
+Använd avsnittet Versioner om du vill visa antalet versioner som skapats för ett visst dokument. Klicka på ikonen Mer om du vill göra följande:
+
+* Byta namn på en version
+* Visa dokumentinformation
+* Begär godkännande av en specifik version
+* Öppna i bildruta.io
+* Ladda ned versionen
+* Dela versionen
+* Ta bort versionen
+
+![Dokumentsammanfattningsversioner i nya dokument fungerar](assets/summary-versions.png)
+
+### Historik
+
+Använd avsnittet Historik för att visa en lista över alla aktiviteter som är relaterade till dokumentet.
+
+![Dokumentsammanfattningshistorik i upplevelsen av nya dokument](assets/summary-history.png)

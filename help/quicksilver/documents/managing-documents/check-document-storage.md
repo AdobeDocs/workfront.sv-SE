@@ -6,9 +6,9 @@ description: Även om det inte finns några begränsningar för vilka typer och 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 0%
 # Kontrollera dokumentlagringsgränser
 
 Även om det inte finns några begränsningar för vilka typer och storlekar enskilda filer som användare kan överföra till din Workfront-instans finns det en gräns för hur mycket lagringsutrymme som används av din Workfront-instans i Workfront-planen. Som Adobe Workfront-administratör övervakar du instansens dokumentlagring under Konfigurera.
+
+>[!NOTE]
+>
+>Den här funktionen är inte tillgänglig i området för nya dokument.<br>
+>Om ditt företag använder Enterprise-lagring visas det nya dokumentområdet när du öppnar dokument i Workfront. Mer information om Enterprise-lagring finns i [Översikt över Adobe Enterprise-lagring](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Åtkomstkrav
 

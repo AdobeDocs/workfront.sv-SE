@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: cd2a5560fdf446e8e971afcb640af38b4d301d40
+source-git-commit: 7944822b0aa49498ef8a396768b90dc9ed85b607
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Användare kan lägga till AI-granskare i godkännandemallar för att automatisk
 
 När du har skapat en mall för godkännande kan du använda den för resurser i området Dokument i ett projekt, en uppgift eller en utgåva.
 
-Mer information finns i [Skapa en godkännandemall för resurser och dokument](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+Mer information finns i [Skapa en arbetsflödesmall för godkännande för dokument](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 ![malllista med AI-granskare](assets/ai-review-templates.png)
 
@@ -91,10 +91,10 @@ Mer information finns i [Skapa en godkännandemall för resurser och dokument](/
 
 När användare skapar enskilda gransknings- och godkännandeförfrågningar kan de lägga till en AI Reviewer i med andra deltagare eller skapa en enda förfrågan med endast AI Reviewer för att kontrollera varumärkesefterlevnaden.
 
-Mer information finns i [Skapa en begäran om dokumentgranskning eller godkännande](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+Mer information finns i [Skapa ett arbetsflöde för dokumentgodkännande](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 
-![AI-granskare har lagts till i en enskild godkännandebegäran](assets/ad-ai-reviewer-to-request.png)
+
 
 ## Visa AI Reviewer-poäng och feedback
 

@@ -6,9 +6,9 @@ description: Smarta mappar används för att hantera dokument utanför ett proje
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
-source-git-commit: 3f9a824780f2ded914d461a473aef3b6ecfa8701
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,11 @@ ht-degree: 0%
 Smarta mappar används för att hantera dokument utanför ett projekt, en uppgift eller ett problem, och finns i huvuddokumentområdet på huvudmenyn. Du kan konfigurera en smart mapp för att filtrera resurser och visa endast de som är viktiga för dig, i stället för att söka igenom alla dina resurser.
 
 Som standard är två smarta mappar tillgängliga första gången du öppnar området Dokument: Alla dokument och Senaste. Du kan redigera, byta namn på eller kopiera standardsmarta mappar, men du kan inte ta bort dem. Du kan skapa ytterligare smarta mappar för att tillgodose andra resurshanteringsbehov.
+
+>[!NOTE]
+>
+>Den här funktionen är inte tillgänglig i området för nya dokument.<br>
+>Om ditt företag använder Enterprise-lagring visas det nya dokumentområdet när du öppnar dokument i Workfront. Mer information om Enterprise-lagring finns i [Översikt över Adobe Enterprise-lagring](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Åtkomstkrav
 
@@ -68,7 +73,7 @@ Du kan visa mappar i miniatyrvyn, standardvyn eller listvyn. Om du vill ändra v
 ## Redigera en smart mapp 
 
 1. Gå till området **Dokument** som innehåller den smarta mappen som du vill redigera.
-1. I kolumnen **Mappar** klickar du på ikonen **Mer** ![Mer &#x200B;](assets/more-icon.png) bredvid den smarta mapp som du vill redigera.
+1. I kolumnen **Mappar** klickar du på ikonen **Mer** ![Mer ](assets/more-icon.png) bredvid den smarta mapp som du vill redigera.
 1. Klicka på **Redigera**.
 
 1. Gör ändringarna och klicka sedan på **Spara mapp**.

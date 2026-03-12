@@ -6,9 +6,9 @@ description: Som granskare kan du förhandsgranska ett dokument som har skickats
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 7572dd64a7f23d6f8dcae374a327d67f2d6738c5
+source-git-commit: 3fd4d18e1be14cc27b3b39d4abf399ec26ddcd51
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '560'
 ht-degree: 0%
 
 ---
@@ -109,6 +109,6 @@ Så här granskar du ett dokument:
 
 1. Om du vill registrera att du har slutfört granskningen klickar du på **Slutför granskning**.
 
-<!--## Review a document from the Frame.io viewer
+## Granska ett dokument från Frame.io-visningsprogrammet
 
-To review a document from the Frame.io viewer, your Workfront instance must be integrated with Frame.io. For more information, see the [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).-->
+Om du vill granska ett dokument från Frame.io-visningsprogrammet måste din Workfront-instans vara integrerad med Frame.io. Mer information finns i [Integreringsöversikten för Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).

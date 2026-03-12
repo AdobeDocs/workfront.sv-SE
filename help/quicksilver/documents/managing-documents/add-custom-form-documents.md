@@ -6,9 +6,9 @@ description: Du kan lägga till ett anpassat formulär i ett dokument eller i en
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,9 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 * Det anpassade formuläret måste delas med dig
 
-## Lägga till ett anpassat formulär
+## Lägga till ett anpassat formulär i det äldre dokumentområdet
+
+Om din organisation använder äldre Workfront-lagring visas det äldre dokumentområdet när du öppnar dokument i Workfront. Mer information om Workfront-lagring finns i [Skillnader mellan Adobe Enterprise-lagring och äldre Workfront-lagring](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
 
 Så här lägger du till ett anpassat formulär i ett dokument:
 
@@ -68,7 +70,7 @@ Så här lägger du till ett anpassat formulär i ett dokument:
    >
    >Endast aktiva anpassade formulär visas i listrutan. Du kan lägga till upp till 10 anpassade formulär per dokument. Om du behöver skapa ett anpassat formulär kan du läsa [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-## Redigera ett eget formulär
+## Redigera ett anpassat formulär i det äldre dokumentområdet
 
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
 1. Hitta det dokument du behöver.
@@ -78,3 +80,26 @@ Så här lägger du till ett anpassat formulär i ett dokument:
 1. Gör de ändringar du behöver och klicka sedan på **Spara**.
 
    ![Redigera eget formulär](assets/edit-custom-form-350x265.png)
+
+## Lägga till ett anpassat formulär i det nya dokumentområdet
+
+Om ditt företag använder Enterprise-lagring visas det nya dokumentområdet när du öppnar dokument i Workfront. Mer information om Enterprise-lagring finns i [Översikt över Adobe Enterprise-lagring](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Så här lägger du till ett anpassat formulär i ett dokument:
+
+1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
+1. Välj det dokument du behöver.
+1. Klicka på **Redigera** i avsnittet **Detaljer** till höger.
+   ![redigeringsknappen i informationsavsnittet](assets/edit-custom-form.png)
+1. I fältet **Egen Forms** börjar du skriva och väljer ett anpassat formulär.
+1. Klicka på **Spara**. Det anpassade formuläret visas i informationsavsnittet.
+
+
+## Redigera ett anpassat formulär i det nya dokumentområdet
+
+1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
+1. Välj det dokument du behöver.
+1. Klicka på **Redigera** i avsnittet **Detaljer** till höger.
+   ![redigeringsknappen i informationsavsnittet](assets/edit-custom-form.png)
+1. I avsnittet **Egen Forms** söker du efter formuläret som du vill redigera.
+1. Gör de ändringar du behöver och klicka sedan på **Spara**.

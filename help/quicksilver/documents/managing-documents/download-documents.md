@@ -6,9 +6,9 @@ description: Du kan ladda ned dokument från Adobe Workfront individuellt eller 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 083c604a-b2ca-4279-a90d-b103e3575dad
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -50,16 +50,22 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 +++
 
-## Hämta ett enskilt dokument
+## Ladda ned dokument i det äldre dokumentområdet
+
+Om ditt företag har äldre Workfront-lagring visas det äldre dokumentområdet när du öppnar dokument i Workfront. Mer information om äldre Workfront-lagring finns i [Skillnader mellan äldre Workfront-lagring och Adobe Enterprise-lagring](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+### Hämta ett enskilt dokument i det äldre dokumentområdet
 
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
 1. Hitta det dokument du behöver.
 
 1. Klicka på ikonen **Hämta markerade** ![Hämta markerade](assets/download-icon.png).
 
-## Hämta flera dokument samtidigt
+![hämta ett enskilt dokument](assets/legacy-doc-download.png)
 
-Du kan hämta flera dokument samtidigt. 
+### Hämta flera dokument samtidigt i det äldre dokumentområdet
+
+Du kan hämta flera dokument samtidigt.
 
 1. Gå till området Dokument som innehåller de dokument du vill hämta.
 1. (Valfritt) Markera de enskilda dokument som du vill hämta i listan med dokument.
@@ -72,3 +78,12 @@ Du kan hämta flera dokument samtidigt. 
 1. Klicka på ikonen Hämta markerade ![Ikonen Hämta markerade](assets/download-icon.png).
 
    Mappar hämtas som ZIP-filer och begränsas till 4 GB.
+
+## Hämta dokument i området för nya dokument
+
+Om ditt företag använder Enterprise-lagring visas det nya dokumentområdet när du öppnar dokument i Workfront. Mer information om Enterprise-lagring finns i [Översikt över Adobe Enterprise-lagring](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+1. Gå till det projekt, den uppgift eller det problem som innehåller dokumentet och välj sedan **Dokument** i den vänstra panelen.
+1. Leta reda på de dokument du behöver och klicka sedan på **Hämta**.
+
+![Hämta dokument](assets/download-new-doc.png)

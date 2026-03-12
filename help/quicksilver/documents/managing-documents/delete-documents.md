@@ -6,9 +6,9 @@ description: Du kan ta bort dokument som du överför. Om du får behörighet at
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1a4c4849-bca1-4ae3-9111-d0ed4dacca14
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -50,13 +50,36 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 +++
 
+## Ta bort ett dokument i det äldre dokumentområdet
+
+Om ditt företag har äldre Workfront-lagring visas det äldre dokumentområdet när du öppnar dokument i Workfront. Mer information om äldre Workfront-lagring finns i [Skillnader mellan äldre Workfront-lagring och Adobe Enterprise-lagring](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 Ta bort ett dokument:
 
-1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
+1. Gå till det projekt, den uppgift eller det problem som innehåller dokumentet och välj sedan **Dokument** i den vänstra panelen.
 1. Hitta det dokument du behöver.
 
-1. Klicka på ikonen **Ta bort** ![Ta bort &#x200B;](assets/delete.png) ovanför dokumentområdet.
+1. Klicka på ikonen **Ta bort** ![Ta bort ](assets/delete.png) ovanför dokumentområdet.
 
 1. I rutan som visas klickar du på **Ja, tar bort** för att bekräfta.
 
-En system- eller gruppadministratör kan återställa ett dokument inom 30 dagar efter att det tagits bort, vilket beskrivs i [Återställ borttagna objekt](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+   En system- eller gruppadministratör kan återställa ett dokument inom 30 dagar efter att det tagits bort, vilket beskrivs i [Återställ borttagna objekt](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+
+   ![ta bort dokument](assets/delete-documents-legacy.png)
+
+
+## Ta bort ett dokument i området för nya dokument
+
+Om ditt företag använder Enterprise-lagring visas det nya dokumentområdet när du öppnar dokument i Workfront. Mer information om Enterprise-lagring finns i [Översikt över Adobe Enterprise-lagring](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Ta bort ett dokument:
+
+1. Gå till det projekt, den uppgift eller det problem som innehåller dokumentet och välj sedan **Dokument** i den vänstra panelen.
+
+1. Leta reda på dokumentet som du behöver och klicka sedan på **Ta bort**.
+
+1. I rutan som visas klickar du på **Ta bort** för att bekräfta.
+
+   En system- eller gruppadministratör kan återställa ett dokument inom 30 dagar efter att det tagits bort, vilket beskrivs i [Återställ borttagna objekt](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+
+   ![ta bort dokument](assets/delete-documents-new.png)

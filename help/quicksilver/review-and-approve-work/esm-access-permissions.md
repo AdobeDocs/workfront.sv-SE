@@ -8,13 +8,13 @@ feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 89dcc972e2e29890763dba6b5f7a44489a2eee5a
+exl-id: 758d17e6-f31f-42b7-a9e6-6bd1821f5c15
+source-git-commit: 522175549d1a2b19c9e6a47a7e4b0d63ac08e3a3
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
-
 
 # Översikt över objektbehörigheter och åtkomstnivå för Adobe Enterprise-lagringsmodell
 
@@ -55,15 +55,60 @@ Du kan inte begränsa åtkomst till dokumentarv.
 
 Inga ändringar av dokumentåtkomstnivåer eller -beteende.
 
+## Objektbehörigheter
 
-## Projekt
+Objektbehörigheterna avgör vad du kan se och göra med projekt, uppgifter, problem och dokument i Workfront. Behörigheter tilldelas när någon delar ett objekt med dig.
 
-Användare med projektnivåbehörighet kan visa och hantera dokument för projekt i andra Adobe-produkter som Frame.io och Adobe Creative Cloud.
+>[!IMPORTANT]
+>
+>I Adobe Enterprise-lagring fungerar dokumentbehörigheter annorlunda än i äldre Workfront-lagring. Dokument ärver behörigheter från det projekt, den uppgift eller det ärende som de är länkade till.
 
-Projektnamn visas även utanför Workfront för ESM-projekt.
 
-Finansiella data är inte synliga utanför Workfront för ESM-projekt.
+### Hur dokumentbehörigheter fungerar
 
-## Uppgifter och problem
+Dokumentbehörigheter styrs av objektet som dokumentet är länkat till. Du kan inte ange behörigheter för enskilda dokument.
 
-Dokument lagras på projektnivå men kan delas med enskilda uppgifter och ärenden efter behov. Användare med uppgifter och ärenden ärver automatiskt dokumentåtkomst från projektet. Du kan inte ändra deras åtkomstnivå. De har antingen behörighet eller ingen åtkomst.
+När du överför ett dokument till en uppgift eller ett problem skapas en systemgenererad mapp med hjälp av uppgifts- eller utgivningsnamnet. Den här mappen är länkad till uppgiften eller problemet och ärver dess behörigheter.
+
+Du kan skapa undermappar i den systemgenererade mappen för att ordna dokumenten ytterligare. Alla undermappar ärver behörigheter från den överordnade mappen. På projektnivå kan du överföra dokument utanför en mapp, men bara användare med åtkomst på projektnivå kan se dem.
+
+På projektnivå visar systemgenererade mappar ett länkat objekt. Det här är vanligtvis uppgifts- eller problemnamnet och det är så systemet vet vilken åtgärd eller vilket problem mappen ska ses på.
+
+### Projektbehörigheter
+
+När du har behörighet på projektnivå kan du visa och hantera dokument för det projektet i Workfront och andra Adobe-produkter som Frame.io och Adobe Creative Cloud. Projektnamnet visas också i de verktygen. Andra projektdata visas inte utanför Workfront.
+
+### Aktivitets- och utfärdandebehörigheter
+
+Aktiviteter och ärenden ärver behörigheter från projektet. När du har behörighet på uppgifts- eller utfärdandenivå kan du visa och hantera dokument som är länkade till den uppgiften eller utgåvan i Workfront och andra Adobe-produkter som Frame.io och Adobe Creative Cloud.
+
+**Systemgenererade mappar**
+
+* Mappåtkomst tas inte bort automatiskt om du tar bort användare från en uppgift eller ett problem. De kan fortfarande ha åtkomst via behörigheter på projektnivå.
+* Underaktiviteter ärver inte systemgenererade mappbehörigheter från överordnade aktiviteter. Du måste läggas till direkt i en underuppgift för att komma åt den systemgenererade mappen.
+* Om du lägger till användare i en uppgift eller utfärdar delningar av objektets systemgenererade mapp med dem.
+
+**Flytta och byta namn på systemgenererade mappar:**
+
+* Systemgenererade mappar kan byta namn och flyttas.
+* Om en systemgenererad mapp flyttas till en annan plats, uppdateras dess länkade objekt till det nya objektet. Behörigheterna ärvs sedan från det nya överordnade objektet.
+
+Förfrågningar följer samma beteende som uppgifter och ärenden.
+
+### Godkännanden
+
+När du läggs till i ett arbetsflöde för dokumentgodkännande kan du se följande, oavsett projektbehörigheter:
+
+* Projektnamn
+* Dokumentnamn
+* Dokumentminiatyr
+
+
+
+
+
+
+
+
+
+

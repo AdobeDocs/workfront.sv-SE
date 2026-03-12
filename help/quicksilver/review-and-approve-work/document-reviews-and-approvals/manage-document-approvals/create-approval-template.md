@@ -1,19 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Skapa en godkännandemall för resurser och dokument
+title: Skapa en arbetsflödesmall för godkännande av dokument
 description: Du kan skapa godkännandemallar för att effektivisera godkännandeprocessen.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
-source-git-commit: 7572dd64a7f23d6f8dcae374a327d67f2d6738c5
+source-git-commit: 6d6ac026bb2aa10ba3e678fb7e0f32dc95d0405f
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
 
-# Skapa en godkännandemall för resurser och dokument
+# Skapa en arbetsflödesmall för godkännande av dokument
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 I Workfront Setup kan användare med en standardlicens skapa återanvändbara godkännandemallar. När du har skapat mallar för godkännande kan du använda dem på resurser i dokumentområdet för ett projekt, en uppgift eller en utgåva.
 
@@ -46,7 +48,10 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 +++
 
-## Skapa en godkännandemall
+
+
+
+## Skapa en godkännandemall i produktionsmiljön
 
 {{step-1-to-setup}}
 
@@ -63,7 +68,53 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 
 
+<div class="preview">
 
+## Skapa en godkännandemall i förhandsvisningsmiljön
+
+{{step-1-to-setup}}
+
+1. Klicka på **Granska och godkänn** > **Godkännandemallar** i den vänstra panelen.
+1. Klicka på **Ny mall** till höger på sidan.
+
+1. Fyll i följande uppgifter:
+
+   <table>
+     <tr>
+   <td><strong>Mallnamn</strong></td>
+   <td>Lägg till ett mallnamn. </td>
+   </tr>
+   <tr>
+   <td><strong>Scennamn</strong></td>
+   <td>Lägg till ett scennamn. Du kan ändra namnet till något mer beskrivande, till exempel <em>Inledande granskning</em> eller <em>Slutligt godkännande</em>.</td>
+   </tr>
+   <tr>
+   <td><strong>Lägg till namn eller e-post</strong></td>
+   <td>Börja skriva ett användar- eller teamnamn som ska läggas till som godkännare eller granskare. Om du bara har granskare meddelas de och har möjlighet att slutföra granskningen, men inget beslut krävs eller fattas.</td>
+   </tr>
+   <tr>
+   <td><strong>Ett beslut krävs (valfritt)</strong></td>
+   <td>Den första personen som fattar ett beslut slutför steget.</td>
+   </tr>
+   <tr>
+   <td><strong>Dagar till förfallodatum</strong></td>
+   <td>Välj hur många arbetsdagar som ska förflyta innan godkännandet förfaller efter att en fas har aktiverats.</td>
+   </tr>
+   </table>
+
+1. (Valfritt) Upprepa föregående steg om du vill lägga till ytterligare steg.
+
+   >[!NOTE]
+   >
+   >Om du lägger till flera faser fortsätter arbetsflödet för godkännande i den ordning som faserna listas. När alla nödvändiga beslut fattas börjar nästa steg och den föregående fasen låses.
+
+   ![Dokumentinformation](assets/new-stage.png)
+
+1. Klicka på **Spara**.
+
+När mallen har skapats kan den tillämpas på dokument i dokumentdelen av ett projekt, en uppgift eller en utgåva för att starta den formella gransknings- och godkännandeprocessen i Workfront.
+
+</div>
 
 
 <!-- Once a template is created, it can be applied to assets sent from Frame.io to begin the formal review and approval process in Workfront.

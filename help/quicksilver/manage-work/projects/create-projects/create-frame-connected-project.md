@@ -8,9 +8,9 @@ feature: Work Management
 hide: true
 hidefromtoc: true
 exl-id: 230d8e62-a3c9-4e38-9b26-5ba1c4f56391
-source-git-commit: 321449202f629f75464870bea7fa3db8b4c0e0cb
+source-git-commit: ad3478d3f1b54af596b146ac212a9eacf6f972f7
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
@@ -143,7 +143,7 @@ När du har skapat en mall kan du använda den för att skapa projekt.
 
 1. Ändra projektet från **Planering** till **Aktuell** i projekthuvudet.
 
-När projektet har skapats och kreatörerna har överfört färdiga resurser kan du tilldela resursen i Workfront ett arbetsflöde för granskning och godkännande. Mer information finns i [Skapa en begäran om dokumentgranskning eller godkännande](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!-- name may need to change -->
+När projektet har skapats och kreatörerna har överfört färdiga resurser kan du tilldela resursen i Workfront ett arbetsflöde för granskning och godkännande. Mer information finns i [Skapa ett arbetsflöde för dokumentgodkännande](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!-- name may need to change -->
 
 ## Skapa ett nytt projekt från grunden
 
@@ -211,5 +211,3 @@ Workfront har robusta projekthanteringsfunktioner. Vi rekommenderar att du anvä
 När projektet har skapats och kreatörerna har överfört färdiga resurser kan du tilldela resursen i Workfront ett arbetsflöde för granskning och godkännande.
 
 När projektet har skapats och kreatörerna har överfört färdiga resurser kan du tilldela resursen i Workfront ett arbetsflöde för granskning och godkännande.
-
-Mer information finns i [Skapa en begäran om dokumentgranskning eller godkännande](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!-- name may need to change -->

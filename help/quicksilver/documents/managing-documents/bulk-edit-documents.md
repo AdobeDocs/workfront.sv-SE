@@ -8,9 +8,9 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '905'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,9 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 +++
 
-## Redigera flera dokument samtidigt
+## Redigera flera dokument samtidigt i det äldre dokumentområdet
+
+Om din organisation använder äldre Workfront-lagring visas det äldre dokumentområdet när du öppnar dokument i Workfront. Mer information om Workfront-lagring finns i [Skillnader mellan Adobe Enterprise-lagring och äldre Workfront-lagring](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
 
 Så här redigerar du flera dokument:
 
@@ -93,6 +95,31 @@ Så här redigerar du flera dokument:
     </table>
 1. Klicka på **Spara**.
 
+## Redigera flera dokument samtidigt i området för nya dokument
+
+
+Om ditt företag använder Enterprise-lagring visas det nya dokumentområdet när du öppnar dokument i Workfront. Mer information om Enterprise-lagring finns i [Översikt över Adobe Enterprise-lagring](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Så här redigerar du flera dokument:
+
+1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
+1. Tryck på Ctrl eller Cmd på tangentbordet och markera de dokument som du vill redigera.
+1. Klicka på Redigera längst ned på sidan.
+   ![redigera flera dokument](assets/bulk-edit-documents.png)
+1. (Valfritt) Lägg till eller redigera **beskrivningen**. Om beskrivningen för varje dokument är annorlunda visas _Flera värden_ i beskrivningsrutan. Du kan lägga till samma beskrivning för alla dokument, men du kan inte redigera enskilda dokumentbeskrivningar när du redigerar flera.
+1. Gör följande ändringar med anpassade formulär:
+
+   <table>
+    <tr>
+    <td><strong>Lägg till formulär</strong></td>
+    <td>I avsnittet <strong>Eget formulär</strong> kan du lägga till ett nytt anpassat formulär i de markerade dokumenten. Anpassade formulär som bifogas till alla markerade dokument visas i avsnittet <strong>Anpassade formulär i det gemensamma </strong> -avsnittet.  </td>
+    </tr>
+    <tr>
+    <td><strong>Redigera formulär</strong></td>
+    <td>Redigera eventuella kopplade anpassade formulär. Den information du ändrar skriver över befintlig information om enskilda dokument. Fält med olika värden i olika dokument visas som"Flera värden". </td>
+    </tr>
+    </table>
+1. Klicka på **Spara**.
 
 ## Redigera flera dokument samtidigt i en dokumentrapport
 
@@ -101,7 +128,6 @@ eller
 Skapa en dokumentrapport enligt beskrivningen i [Skapa en anpassad rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. Markera de dokument som du vill redigera.
 1. Klicka på ikonen Redigera ![redigera](assets/edit-icon.png).
-   ![redigera ikonens plats på sidan](assets/edit-multiple-documents.png)
 1. (Valfritt) Lägg till eller redigera **beskrivningen**. Om beskrivningen för varje dokument är annorlunda visas _Flera värden_ i beskrivningsrutan. Du kan lägga till samma beskrivning för alla dokument, men du kan inte redigera enskilda dokumentbeskrivningar när du redigerar flera.
 1. Gör följande ändringar med anpassade formulär:
 
