@@ -6,16 +6,16 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
+source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
 workflow-type: tm+mt
-source-wordcount: '5510'
+source-wordcount: '5686'
 ht-degree: 0%
 
 ---
 
 
 <!--
-Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=sv-SE ??
+Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??
 -->
 
 <!--
@@ -250,7 +250,7 @@ Mer information finns i [Importera fält från Workfront](/help/quicksilver/plan
    * [Senast ändrat den](#last-modified-date)
    * [Godkänt den](#approved-date)
    * [Godkänd av](#approved-by)
-     <!--* <span class="preview">[Record ID](#record-id)</span>-->
+   * <span class="preview">[Post-ID](#record-id)</span>
      <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
@@ -588,7 +588,7 @@ Mer information finns i [Översikt över formelfält](/help/quicksilver/planning
    >
    >* Du kan referera till ett fält som är upp till fyra fält (och objekt) utanför den aktuella posttypen. Om du till exempel skapar ett formelfält för en aktivitetsposttyp (1) och aktiviteten är kopplad till kampanjposttypen (2) som är kopplad till ett Workfront-projekt (3), kan du referera till projektets budgetfält (4) i formeln som du skapar för aktivitetsposttypen.
    >
-   >![Formelexempel för projektbudget fyra fält har tagits bort &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Formelexempel för projektbudget fyra fält har tagits bort ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Valfritt) Klicka på **Maximera** för att öppna formelrutan i ett större område.
@@ -810,33 +810,32 @@ Du kan använda fälttypen Godkänd av för att lägga till den användare som s
 
    Det nya fältet Godkänd efter typ läggs till som en kolumn till posttypen och dess värden är förifyllda med namnet på den användare som senast ändrade varje post.
 
-<!--
 <span class="preview">
 
-## Record ID
+## Post-ID
 
-You can use the Record ID field type to reveal a system-generated, read-only identifier for each record. 
+Du kan använda fälttypen Post-ID för att visa en systemgenererad, skrivskyddad identifierare för varje post.
 
-When created, the Record ID field auto-populates with an alpha-numeric value. You can use it in formula fields and in API integrations to uniquely identify each record. 
+När fältet Post-ID skapas fylls det automatiskt i med ett alfanumeriskt värde. Du kan använda den i formelfält och i API-integreringar för att unikt identifiera varje post.
 
-You cannot manually modify the value of a Record ID field. 
- 
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Record ID** field type.
- 
-   ![Record ID field type](assets/record-id-field-type.png)
+Du kan inte ändra värdet för ett post-ID-fält manuellt.
 
-1. Add the following information in the **New field** tab:
+1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Post-ID**.
 
-     * **Name**: The name of the field, as it will appear in a table or the record page. 
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
-    
-1. Click **Create**.
+   ![Fälttyp för post-ID](assets/record-id-field-type.png)
 
-    The new Record ID-type field is added as a column to the record type and its values are prefilled with an alpha-numeric value.  
+1. Lägg till följande information på fliken **Nytt fält**:
+
+   * **Namn**: Fältets namn, så som det kommer att visas i en tabell eller på postsidan.
+   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
+
+1. Klicka på **Skapa**.
+
+   Det nya fältet för post-ID läggs till som en kolumn till posttypen och dess värden är förifyllda med ett alfanumeriskt värde.
 
 </span>
 
--->
+
 <!--
 
 ## Object field type

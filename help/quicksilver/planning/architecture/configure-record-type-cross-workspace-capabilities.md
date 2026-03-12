@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
+source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
@@ -81,26 +81,23 @@ eller
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
    <td>
+   <p>I produktionsmiljön: </p>
    <p>Så här gör du en post global:</p>
    <ul><li>Standard eller högre</li></ul>
    <p>Så här gör du en post anslutningsbar:</p>
    <ul><li>Systemadministratör</li></ul>
 
-<!--
-   replace the above with this at release:
-   <p>To make a record global:</p>
-   <ul><li>Standard or higher</li></ul>
-   <p>To make a record connectable:</p>
-   <ul><li>In the Production environment:</li>
-   <ul><li>System Administrator</li></ul></ul>
-   -->
-<!--
-   <div class="preview">
-   <ul><li>In the Preview environment:</li>
-   <ul><li>Standard to make a record connectable from specific workspaces</li>
-   <li>System Administrator to make a record connectable from all workspaces</li></ul></ul>
+<div class="preview">
+
+<p>I förhandsvisningsmiljön:</p>
+   <p>Så här gör du en post global:</p>
+   <ul><li>Standard eller högre</li></ul>
+   <p>Så här gör du en post anslutningsbar:</p>
+
+<ul><li>Standard för att göra en post anslutningsbar från specifika arbetsytor</li>
+   <li>Systemadministratör som gör en post anslutningsbar från alla arbetsytor</li></ul>
    </div>
-   -->
+
 
 </td> 
   </tr> 
@@ -183,7 +180,7 @@ Så här konfigurerar du en posttyp som global:
 
      ![Fler menyalternativ från posttypskort](assets/more-menu-options-from-record-type-card.png)
 
-   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn.
+   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn.
 1. Klicka på **Redigera** eller **Inställningar**.
 
    >[!TIP]
@@ -264,7 +261,7 @@ Så här konfigurerar du en posttyp som global:
 
      ![Fler menyalternativ från posttypskort med inställningar](assets/more-menu-options-from-record-type-card-with-settings-link.png)
 
-   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn.
+   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn.
 1. Klicka på **Redigera** eller **Inställningar**.
 
 1. (Villkorligt) Om du klickade på **Redigera** klickar du på fliken **Inställningar för arbetsytan** i rutan **Redigera posttyp**
@@ -273,17 +270,13 @@ Så här konfigurerar du en posttyp som global:
 
 1. Aktivera inställningen **Tillåt anslutning till den här posttypen i andra arbetsytor**.
 
-   <!-- add new screen shot with new tab name-->
-
    ![Redigera posttyp Fliken Inställningar för arbetsytan mellan arbetsytor med anslutning från andra arbetsytor aktiverad](assets/edit-record-type-box-cross-workspace-settings-connectable-record-type-enabled.png)
 
    När det här alternativet är aktiverat är posttypen tillgänglig och kan anslutas till från andra arbetsytor.
 
-1. &#x200B;<!--<span class="preview">(Conditional) Depending on which license you have,</span>--> Välj från vilka arbetsytor som posttypen kan nås. Välj bland följande alternativ:
+1. <span class="preview">(Villkorligt) Beroende på vilken licens du har väljer </span> bland vilka arbetsytor posttypen kan nås. Välj bland följande alternativ:
 
-   <!--check names of the setting: System wide?? OR All workspaces??-->
-
-   * **Alla arbetsytor**: Användare kan ansluta till den här posttypen från alla arbetsytor där de har behörigheten Hantera. <!--<span class="preview">This option is dimmed for workspace managers with a Standard license. Only System Administrators can turn on connecting record types from all workspaces.</span>-->
+   * **Alla arbetsytor**: Användare kan ansluta till den här posttypen från alla arbetsytor där de har behörigheten Hantera. <span class="preview">Det här alternativet är nedtonat för arbetsytehanterare med en standardlicens. Endast systemadministratörer kan aktivera anslutande posttyper från alla arbetsytor.</span>
    * **Specifika arbetsytor**: Lägg till namnen på arbetsytorna där arbetsytehanterare kan ansluta till den här posttypen från den nedrullningsbara menyn.
 
 1. (Villkorligt) Klicka på **Spara** i rutan **Redigera posttyp** eller klicka på bakåtpilen till vänster om **Inställningar** i sidhuvudet för att spara ändringarna.

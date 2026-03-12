@@ -6,9 +6,9 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1502'
 ht-degree: 0%
 
 ---
@@ -161,7 +161,7 @@ Du kan använda Planning Designer eller AI Assistant för att utföra följande 
 
   >[!IMPORTANT]
   >
-  >Även om vi stöder filtyperna .XLSX och .CSV kan de inte användas för storskalig postimport via Planning Designer.
+  >Även om vi stöder XLSX-filtyper kan de inte användas för storskalig postimport via Planning Designer.
   >Om du behöver importera ett stort antal poster rekommenderar vi att du gör det med de manuella funktionerna i Planning.
   >
   >Mer information finns i [Skapa poster genom att importera information från en CSV- eller Excel-fil](/help/quicksilver/planning/records/import-file-to-create-records.md).
