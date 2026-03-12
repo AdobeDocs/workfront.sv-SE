@@ -4,12 +4,12 @@ product-area: reports and dashboards
 navigation-topic: data connect
 title: Skapa ett läsarkonto för Snowflake
 description: För att få åtkomst till Data Connect-data måste du först skapa ett Snowflake-läsarkonto.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: 9cf221bda04614856a6a3670100742340fb73aee
+source-git-commit: b6267718fd76a643395c850b97352095a0fe12fc
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '894'
 ht-degree: 0%
 
 ---
@@ -75,17 +75,31 @@ Så här skapar du ett läsarkonto:
 
 ## Skapa en anslutning
 
+>[!IMPORTANT]
+>
+>I juni 2026 krävs användarnamn/lösenord för att använda multifaktorautentisering (MFA). Vi rekommenderar att du övergår till antingen RSA- eller PAT-baserad autentisering för tjänstanvändarkonton som används för att läsa in data från Data Connect till tredjepartsverktyg för visualisering, dataprocessorer och skript som inte fungerar med MFA i autentiseringsprocessen.
+
+
 1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Konfigurera**.
 
 1. Klicka på **System** > **Dataanslutning** i den vänstra panelen.
 
-1. Klicka på **Skapa ny anslutning**
+1. Klicka på **Skapa ny anslutning**.
 
 1. I fönstret som visas anger du ett namn för anslutningen i **Anslutningsreferensbeskrivning** och ett användarnamn i **Anslutningsanvändare**. Klicka sedan på **Skapa anslutning**.
 
    ![Skapa ny anslutning](/help/quicksilver/reports-and-dashboards/data-lake/assets/new-reader-connection.png) {width="500"}
 
-1. Ett **standardlösenord** genereras, liksom en URL där dina data kan visas via Snowflake. Du måste använda lösenordet tillsammans med det användarnamn du valde för att logga in på Snowflake för första gången, så se till att du sparar information om det samt URL:en. Markera kryssrutan som hävdar att du har gjort det och klicka sedan på **Stäng**.
+1. Välj en autentiseringsmetod för anslutningen:
+   * [Lösenordsautentisering](#password-authentication)
+   * [Autentisering med token för programmatisk åtkomst](#programmatic-access-token-authentication)
+   * [RSA-nyckelautentisering](#rsa-key-authentication)
+
+### Lösenordsautentisering
+
+1. Klicka på **Lösenord** och sedan på **Skapa anslutning**.
+
+1. Ett **standardlösenord** genereras samt en URL där dina data kan visas via Snowflake. Du måste använda lösenordet med det användarnamn du valde för att logga in på Snowflake för första gången, så se till att du sparar information om det och URL:en. Markera kryssrutan som hävdar att du har gjort det och klicka sedan på **Stäng**.
 
    ![Standardkontolösenord](/help/quicksilver/reports-and-dashboards/data-lake/assets/default-password-reader-account.png) {width="500"}
 
@@ -96,6 +110,35 @@ Så här skapar du ett läsarkonto:
    ![Återställ Snowflake-lösenord](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
 
 1. Nu kan du använda ditt användarnamn och nya lösenord för att få åtkomst till Data Connect-datasjön i Snowflake eller det företagsvisualiseringsverktyg som du väljer.
+
+### Autentisering med token för programmatisk åtkomst
+
+1. Klicka på **Programmatisk åtkomsttoken**.
+
+1. Ange ett förfallodatum för din token i fältet **Förfallodatum**. Du kan välja ett förfallodatum på upp till 365 dagar i framtiden.
+
+1. Klicka på **Skapa anslutning**.
+
+1. En PAT-token genereras som kan användas för autentisering, och din Snowflake-URL anges. Du kan använda PAT och det användarnamn du angav för att ansluta till Snowflake från ditt tredjepartsvisualiseringsverktyg eller din dataprocessor. Se till att du sparar både den och URL-adressen. Markera kryssrutan som hävdar att du har gjort det och klicka sedan på **Stäng**.
+
+   ![dialogruta för programmatisk åtkomsttoken](/help/quicksilver/reports-and-dashboards/data-lake/assets/pat-test.png)
+
+
+### RSA-nyckelautentisering
+
+1. Klicka på **RSA-nyckel**.
+
+1. Ange en offentlig RSA-nyckel i fältet **Offentlig RSA-nyckel**.
+
+1. Klicka på **Skapa anslutning**.
+
+1. En anslutning skapas och din URL till Snowflake-miljön anges. Du kan använda RSA-nyckeln och det användarnamn du angav för att ansluta till Snowflake från ditt tredjepartsvisualiseringsverktyg eller din dataprocessor.
+
+
+
+Du måste använda RSA-nyckeln med det användarnamn du valde för att logga in på Snowflake, så att du kan registrera både den och URL:en. Markera kryssrutan som hävdar att du har gjort det och klicka sedan på **Stäng**.
+
+    ![Dialogruta för RSA-nyckel](Assets/rsa-test.png)
 
 ## Återkalla ett läsarkonto
 
