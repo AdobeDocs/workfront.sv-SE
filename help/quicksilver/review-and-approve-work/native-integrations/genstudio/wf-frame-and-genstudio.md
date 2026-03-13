@@ -90,7 +90,7 @@ Mer information om hur du skapar arbetsflödesmallar för godkännande i Workfro
 
 När en användare initierar en granskning i GenStudio for Performance Marketing väljer de bara den mall de behöver. Användarna kan enkelt ändra alla enhetliga arbetsflödesmallar för godkännande och lägga till eller ta bort granskare och faser när som helst.
 
-Mer information finns i [Begär granskning och godkännande](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
+Mer information finns i [Begär granskning och godkännande](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
 
 ## Granska och godkänn GenStudio for Performance Marketing-utkast i Frame.io-visningsprogrammet
 
@@ -109,4 +109,4 @@ Mer information om hur du använder Frame.io-visningsprogrammet finns i [Komment
 
 När materialet har granskats och godkänts kan du se granskningsbeslutet och publicera det direkt från GenStudio for Performance Marketing.
 
-Mer information finns i [Publicera godkänt innehåll](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).
+Mer information finns i [Publicera godkänt innehåll](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).
