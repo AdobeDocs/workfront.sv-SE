@@ -4,10 +4,10 @@ description: Andra kvartalet 2026 - dokumentförbättringar
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: 8bcea5cec9f68deacc5f89ca7703303a1b00769f
+exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
+source-git-commit: 93c22854ccc405c442331ac392d919d63b8a8aa8
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -20,34 +20,64 @@ På den här sidan beskrivs de dokumentförbättringar som gjorts i den andra ut
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den andra utgåvan av kvartal 2026 finns i [Översikt över den andra utgåvan av kvartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
-<!--
+## Enhetliga gransknings- och godkännandeprocesser som bygger på Workfront och Frame.io
 
-## Multi‑stage approval workflows available for unified approvals
+Vi är glada över att kunna presentera en enhetlig gransknings- och godkännandeprocess med Workfront och Frame.io, en smidig gransknings- och godkännandeupplevelse.
+
+Den nya funktionen är tillgänglig för nya nettokunder och för befintliga kunder vid förnyelse.
+
+### Nyheter
+
+#### En ny dokumentupplevelse
+
+Få en helt omdesignad dokumentupplevelse med modern stil och känsla. Det uppdaterade gränssnittet förenklar navigeringen, gör det tydligare och gör det enklare för team att hantera granskningar och godkännanden i en enhetlig miljö. Mer information finns i [Översikt över dokumentområdet](/help/quicksilver/documents/managing-documents/documents-area.md).
+
+#### Godkännanden i flera steg
+
+Skapa mer strukturerade och sofistikerade arbetsflöden för godkännande med godkännanden i flera steg. Vidarebefordra arbetet genom sekventiella granskningsfaser, tilldela intressenter i varje steg och se till att rätt personer signerar vid rätt tidpunkt, vilket ger bättre styrning och synlighet till processen. Mer information finns i [Skapa en begäran om dokumentgranskning eller godkännande](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
+#### Granska och godkänn innehåll i Frame.io
+
+Granska och godkänn material direkt i Frame.io-visningsprogrammet och slipp växla mellan olika plattformar. Tack vare den här integreringen går det snabbare att få feedback och all granskningsaktivitet på ett och samma ställe. Mer information finns i [Kom igång med Frame.io-integreringen](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
+
+#### Uppkoppling med Adobe Experience Manager
+
+Skicka smidigt godkända mediefiler direkt till Adobe Experience Manager. Integreringen snabbar upp aktiveringen av innehåll genom att koppla ihop arbetsflöden för granskning och godkännande med innehållshantering längre fram i kedjan. Mer information finns i [Använda Adobe Experience Manager med Frame.io-integrering](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+
+#### Tillgång till Adobe Enterprise Storage
+
+Adobe Enterprise-lagring är en molnbaserad lagringslösning som fungerar som central lagringsplats för resurser i Adobe företagsprodukter. Integreringen av Workfront och Frame.io bygger på Adobe Enterprise-lagring, vilket möjliggör smidigt samarbete och filhantering mellan dessa plattformar.
+
+Tillgång till Adobe Enterprise Storage banar också väg för framtida integrering av resurshantering med andra Adobe-produkter, som Adobe Creative Cloud.
+
+Mer information finns i [Adobe Enterprise-lagringsöversikt](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Workfront och Frame.io utökar GenStudio for Performance Marketing grundläggande gransknings- och godkännandeprocess med mer strukturerade gransknings- och godkännandefunktioner. De korrektur som granskas i den här integreringen är begränsade till de format som stöds av GenStudio for Performance Marketing.
+
+## Arbetsflöden för godkännande i flera steg är tillgängliga för enhetliga godkännanden
 
 >[!NOTE]
 >
->Preview: February 26, 2026
->Production fast release: March 12, 2026
->Production for everyone: April 16, 2026
+>Förhandsgranska: 12 mars 2026
+>Production fast release: 15 april 2026
+>Produktion för alla: 16 april 2026
 
-Multi‑stage approval workflows are now available in unified approvals, helping organizations enforce structured, repeatable approval processes that reflect how work is reviewed in the real world. With multi‑stage approvals, you can:
+Arbetsflöden för godkännande i flera steg är nu tillgängliga i enhetliga godkännanden, vilket hjälper organisationer att genomdriva strukturerade, repeterbara godkännandeprocesser som återspeglar hur arbetet granskas i verkligheten. Med godkännanden i flera steg kan ni
 
-* Route work through defined sequential stages 
-* Assign the people or teams to each stage and choose their decision role
-* Set stage‑specific deadlines 
-* Ensure approvals progress only when required decisions are complete
-* Maintain visibility into approval progress
+* Vidarebefordra arbetet genom definierade sekventiella faser
+* Tilldela medarbetarna eller teamen till varje fas och välj deras beslutsroll
+* Ställa in scenspecifika deadlines
+* Se till att godkännandena bara går igenom när de nödvändiga besluten är klara
+* Underhåll synlighet för godkännandeprocessen
 
-For more information, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
-
--->
+Mer information finns i [Skapa ett arbetsflöde för dokumentgodkännande](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 ## Konfigurera och använda arbetsflödesmallar för godkännande i flera steg
 
 >[!NOTE]
 >
->Förhandsgranska: 26 februari 2026
->Production fast release: 12 mars 2026
+>Förhandsgranska: 12 mars 2026
+>Production fast release: 15 april 2026
 >Produktion för alla: 16 april 2026
 
 Nu kan du konfigurera och återanvända arbetsflödesmallar för godkännande i flera steg, vilket gör det enklare att använda konsekvent styrning i repeterbara godkännandearbetsflöden.
@@ -59,4 +89,3 @@ Med mallar för godkännandearbetsflöden kan man
 * Se till att alla intressenter är engagerade i rätt skede
 
 Mer information finns i [Skapa en arbetsflödesmall för godkännande för dokument](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
-
