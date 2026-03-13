@@ -7,8 +7,10 @@ description: Kom igång med integrationen mellan GenStudio for Performance Marke
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
+hide: true
+hidefromtoc: true
 exl-id: 4d0c0542-3383-4907-b573-e2ef56117681
-source-git-commit: 8b8f638f089ff967fe7d4fb641b23f5836ac86b5
+source-git-commit: 2b4230acf01f62b53b8e2efe4c21cabbdef28701
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 0%
@@ -88,7 +90,7 @@ Mer information om hur du skapar arbetsflödesmallar för godkännande i Workfro
 
 När en användare initierar en granskning i GenStudio for Performance Marketing väljer de bara den mall de behöver. Användarna kan enkelt ändra alla enhetliga arbetsflödesmallar för godkännande och lägga till eller ta bort granskare och faser när som helst.
 
-Mer information finns i [Begär granskning och godkännande](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
+Mer information finns i [Begär granskning och godkännande](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
 
 ## Granska och godkänn GenStudio for Performance Marketing-utkast i Frame.io-visningsprogrammet
 
@@ -107,4 +109,4 @@ Mer information om hur du använder Frame.io-visningsprogrammet finns i [Komment
 
 När materialet har granskats och godkänts kan du se granskningsbeslutet och publicera det direkt från GenStudio for Performance Marketing.
 
-Mer information finns i [Publicera godkänt innehåll](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).
+Mer information finns i [Publicera godkänt innehåll](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).
