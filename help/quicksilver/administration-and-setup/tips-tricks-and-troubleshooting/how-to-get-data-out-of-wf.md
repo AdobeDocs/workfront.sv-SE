@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ed40984f-602a-46e9-a72b-141936de8fcb
-source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
+source-git-commit: bbd00374a6b291582cd03b9d0471d8547eb6ab7f
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -32,15 +32,7 @@ I den här artikeln förklaras för- och nackdelarna med fyra alternativ som du 
 
 * **Kostnader:** Mer information finns på [https://store.atappstore.com/product/workfront-snapshot/](https://store.atappstore.com/product/workfront-snapshot/).
 
-## Begär en [!DNL Postgres]-datadumpfil från vårt databasteam
 
-Du måste skicka en begäran till vårt kundsupportteam, som sedan skickar en begäran till vårt databasteam om att exportera en databasdumpfil (.dmp [!DNL Postgres] fil) med dina data. Ytterligare en begäran kommer att skickas till vårt NOC-team för att hämta alla dina lagrade dokument.
-
-* **Pros**: Du får hela din datainläsning, inklusive anpassade fält och dokument som lagras i systemet.
-
-* **Kon**: Det finns inget sätt att läsa den här filen om du inte överför den till en [!DNL Postgres]-databas och återupprättar relationerna mellan tabellerna. Dokumenten lagras på en separat filserver och måste extraheras separat med en separat process av NOC-teamet. Då finns det ingen organisation för dokumenten och de hänvisas alla till av deras GUID.
-
-* **Kostnad**: Det är en kostnad kopplad till den här hämtningen, beroende på hur lång tid det tar för teamet att skapa filen. Kontakta en återförsäljare för mer information eller för att komma igång.
 
 ## Exportera via [!UICONTROL Kick-Starts]
 
