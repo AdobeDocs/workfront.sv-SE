@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
-source-git-commit: e23cd8613a54ce54ae93ea1a4ea14c022fbd1ae2
+source-git-commit: 1e05945e24770848da9d2c77b81b9475e43797ea
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -24,21 +24,33 @@ En lista över alla funktioner som släppts för Adobe Workfront Planning finns 
 
 <!--
 
-## Allow non-admin users to make a record type connectable 
+## New field type for Record ID  
 
 >[!NOTE]
 >
->Preview: March 5, 2026
+>Preview: March 12, 2026
 >Production fast release: April 15, 2026
 >Production for everyone: April 16, 2026
 
-We are now allowing non-administrators who are workspace managers to make a record type connectable from specific workspaces.  
+We have added a new field type for Record ID. This is a system-generated alpha-numeric indicator which uniquely identifies each record. The field displays in any record view as well as the record details area.  
 
-Before this update, non-administrators could not enable record types to be connectable. Now, they can enable the record types to be connectable from specific workspaces. They cannot enable record types to be connectable from all workspaces in the system. 
-
-For information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
+For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
 
 -->
+
+## Tillåt icke-admin-användare att göra en posttyp anslutningsbar
+
+>[!NOTE]
+>
+>Förhandsgranska: 12 mars 2026
+>Production fast release: 15 april 2026
+>Produktion för alla: 16 april 2026
+
+Nu tillåter vi att icke-administratörer som är arbetsytehanterare kan koppla en posttyp från specifika arbetsytor.
+
+Före den här uppdateringen kunde inte icke-administratörer aktivera posttyper som kunde kopplas. Nu kan de göra det möjligt att koppla posttyperna från specifika arbetsytor. De kan inte göra det möjligt att koppla posttyper från alla arbetsytor i systemet.
+
+Mer information finns i [Konfigurera funktioner för arbetsytan över arbetsytor för posttyper](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
 ## Utlösarbaserad automatisering
 

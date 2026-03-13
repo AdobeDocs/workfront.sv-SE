@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
-source-git-commit: aceb9f7bd6c62036838b15d74ee2a9b7843e5c11
+source-git-commit: ed4b03429a479797854a0cae08f9191a25eebc13
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,22 @@ ht-degree: 0%
 Den här sidan beskriver rapportförbättringar som gjorts i den andra utgåvan av kvartalet 2026 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den andra utgåvan av kvartal 2026 finns i [Översikt över den andra utgåvan av kvartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Nya autentiseringsalternativ för dataanslutning
+
+>[!NOTE]
+>
+>Förhandsgranska: 12 mars 2026
+>Production fast release: 12 mars 2026
+>Produktion för alla: 16 april 2026
+
+Nu kan du autentisera till Data Connect med RSA-nycklar eller PAT-anslutningar (Programmatic Access Tokens), vilket ger säkrare och flexiblare alternativ till traditionella inloggningsuppgifter för användarnamn/lösenord.
+
+Med dessa nya alternativ kan organisationer upprätthålla stabila anslutningar från Power BI, Tableau och andra BI-verktyg från tredje part utan att förlita sig på användarbaserade inloggningsmetoder.
+
+>[!IMPORTANT]
+>
+>I juni 2026 krävs användarnamn/lösenord för att använda multifaktorautentisering (MFA). Vi rekommenderar att du övergår till antingen RSA- eller PAT-baserad autentisering för tjänstanvändarkonton som används för att läsa in data från Data Connect till tredjepartsverktyg för visualisering, dataprocessorer och skript som inte fungerar med MFA i autentiseringsprocessen.
 
 ## Anpassade fältetiketter visas när rapporter skapas
 
