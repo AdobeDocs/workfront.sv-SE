@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: 93c22854ccc405c442331ac392d919d63b8a8aa8
+source-git-commit: 7bf762870af2bbc4f4889d66cf713d4533a30ff5
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -51,8 +51,6 @@ Adobe Enterprise-lagring är en molnbaserad lagringslösning som fungerar som ce
 Tillgång till Adobe Enterprise Storage banar också väg för framtida integrering av resurshantering med andra Adobe-produkter, som Adobe Creative Cloud.
 
 Mer information finns i [Adobe Enterprise-lagringsöversikt](/help/quicksilver/review-and-approve-work/esm-overview.md).
-
-Workfront och Frame.io utökar GenStudio for Performance Marketing grundläggande gransknings- och godkännandeprocess med mer strukturerade gransknings- och godkännandefunktioner. De korrektur som granskas i den här integreringen är begränsade till de format som stöds av GenStudio for Performance Marketing.
 
 ## Arbetsflöden för godkännande i flera steg är tillgängliga för enhetliga godkännanden
 
