@@ -6,7 +6,7 @@ description: Om du använder den nya begärandefunktionen kan du skapa och spara
 author: Alina
 feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: 78ad910e8d121dda38c9a7da27b0b338e0e1dcda
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 0%
@@ -19,9 +19,6 @@ ht-degree: 0%
 <span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
 <span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
-
-
 
 
 Om du använder den nya begärandeupplevelsen i Adobe Workfront kan du skapa och spara vyer för området Förfrågningar. De här vyerna innehåller filter och kolumnupplägg.
@@ -47,7 +44,10 @@ Om du använder den nya begärandeupplevelsen i Adobe Workfront kan du skapa och
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Alla </p> </td> 
+   <td> <p>Alla Workfront- eller Workflow-paket</p>
+
+<p>Alla Worfront Planning-licenser, för att visa Workfront Planning-begäranden i begärandelistor</p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
@@ -59,10 +59,12 @@ Om du använder den nya begärandeupplevelsen i Adobe Workfront kan du skapa och
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till problem</p>  <p>Du måste vara Workfront-administratör för att kunna lägga till vyer i layoutmallar</td> 
   </tr> 
+  <!--
   <tr> 
-   <td role="rowheader"> Produkt</td> 
-   <td> <ul><li>Adobe Workfront</li><li>Du måste ha Adobe Workfront Planning för att kunna visa planeringsförfrågningar eller begära formulär</td> 
-  </tr> 
+   <td role="rowheader"> Product</td> 
+   <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
+   </tr> 
+   -->
  </tbody> 
 </table>
 

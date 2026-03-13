@@ -1,33 +1,33 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Visa skickade begäranden
-description: Läs mer om de områden i Adobe Workfront där du kan visa begäranden som du eller någon annan har skickat eller begäranden som du aldrig har skickat in och sparats som utkast.
+title: Visa skickade förfrågningar
+description: Läs mer om de delar av Adobe Workfront där du kan visa förfrågningar som du eller någon annan har skickat in eller förfrågningar som du aldrig har skickat in och som har sparats som utkast.
 author: Alina
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: 78ad910e8d121dda38c9a7da27b0b338e0e1dcda
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1360'
 ht-degree: 0%
 
 ---
 
-# Visa skickade begäranden
+# Visa skickade förfrågningar
 
-Du kan visa förfrågningar som du eller någon annan har skickat, eller förfrågningar som du har startat men som du aldrig har slutfört. De oavslutade förfrågningarna sparas som utkast.
+Du kan visa förfrågningar som du eller någon annan har skickat in, eller förfrågningar som du har startat men som du aldrig har slutfört. De oavslutade förfrågningarna sparas som utkast.
 
 Du kan hitta skickade begäranden i följande områden i Adobe Workfront:
 
 * Området med förfrågningar i Workfront
 * Widgeten Mina förfrågningar i Hem
 
-I området Förfrågningar visas följande förfrågningar, beroende på hur du väljer att visa dem:
+I området Förfrågningar visas följande förfrågningar beroende på hur du väljer att visa dem:
 
-* Workfront begär när du använder äldre upplevelse
-* Både Workfront och Planning begär när du använder den nya upplevelsen.
+* Workfront-förfrågningar när du använder den äldre upplevelsen
+* såväl Workfront som Planering av förfrågningar när du använder den nya upplevelsen.
 
   >[!NOTE]
   >
@@ -45,7 +45,9 @@ I området Förfrågningar visas följande förfrågningar, beroende på hur du 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Alla </p> </td> 
+   <td> <p>Valfritt Adobe Workront- eller Adobe Workflow-paket</p> 
+   <p>Alla Adobe Workfront Planning-paket</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
@@ -59,12 +61,14 @@ I området Förfrågningar visas följande förfrågningar, beroende på hur du 
   </tr>
   <tr>
    <td role="rowheader">Objektbehörigheter</td> 
-   <td><p>Visa behörigheter eller högre för begäranden</p></td> 
+   <td><p>Visa behörigheter eller högre för förfrågningarna</p></td> 
   </tr> 
-  <tr> 
-   <td role="rowheader"> Produkt</td> 
-   <td> <ul><li>Adobe Workfront</li><li>Du måste ha Adobe Workfront Planning för att kunna visa planeringsförfrågningar eller begära formulär</td> 
+  <!--
+  tr> 
+   <td role="rowheader"> Product</td> 
+   <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
   </tr> 
+  -->
  </tbody> 
 </table>
 
@@ -81,11 +85,11 @@ Hur skickade begäranden visas skiljer sig åt beroende på om du använder den 
 
 ### Visa skickade begäranden i den nya begärande upplevelsen
 
-Du kan visa skickade begäranden i området Begäranden, som innehåller länkar till objekt som skapats av planeringsbegäranden.
+Du kan visa skickade begäranden i området Begäranden, som innehåller länkar till objekt som skapats av Adobe Workfront Planning-begäranden.
 
 >[!NOTE]
 >
->Länkar till skapade objekt är bara tillgängliga i den nya begärandefunktionen för planeringsbegäranden, där själva begäran skapade en post.
+>Länkar till skapade objekt är endast tillgängliga i den nya begärandeupplevelsen för Planeringsbegäranden, i de fall där själva begäran skapade en post.
 >
 >Om en Workfront-begäran konverteras till ett projekt eller annat objekt är ingen länk till det konverterade objektet tillgänglig i listan över förfrågningar i den nya begärandeupplevelsen.
 
@@ -97,20 +101,20 @@ Så här visar du förfrågningar som du eller andra användare har skickat in i
 
    Listan över förfrågningar visas.
 
-1. (Valfritt) Om du vill söka efter en begäran börjar du skriva i sökfältet i det övre högra hörnet av listan. Sökresultaten visas när du skriver.
-1. (Valfritt) Klicka på **Filter** och börja lägga till villkor för de begäranden som du vill visa.
+1. (Valfritt) Om du vill söka efter en begäran börjar du skriva i sökfältet längst upp till höger i listan. Sökresultaten visas när du skriver.
+1. (Valfritt) Klicka på **Filter** och börja lägga till villkor för de förfrågningar som du vill visa.
 
    Mer information om filter finns i [Skapa och hantera vyer i området Förfrågningar](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 
-1. (Valfritt) Klicka på listrutan **Vyer** om du vill uppdatera vyn eller dela den med andra.
+1. (Valfritt) Klicka på listrutan **Visningar** för att uppdatera vyn eller dela den med andra.
 
    Mer information finns i [Skapa eller redigera vyer i området Förfrågningar](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
-1. (Valfritt) Kontrollera status för en begäran genom att kontrollera kolumnen **Status**. Följande statusvärden är tillgängliga i den nya upplevelsen av begärande:
+1. (Valfritt) Kontrollera statusen för en begäran genom att kontrollera kolumnen **Status**. Följande statusar är tillgängliga i den nya upplevelsen med begäran:
 
-   * **Utkast**: Den här begäran har inte skickats ännu.
-   * **Väntande granskning**: (Endast planering) Den här begäran har godkännare och ingen av godkännarna har öppnat begäran.
-   * **I granskning**: (endast planering) Den här begäran har godkännare och minst en godkännare har öppnat begäran, men inget beslut har fattats.
-   * **Avvisad**: (Endast planering) Den här begäran har godkännare och har avvisats. Denna begäran kommer inte att skapa någon post.
+   * **Utkast**: Denna begäran har inte skickats in än.
+   * **Väntande granskning**: (Endast planering) Begäran har godkännare och ingen av godkännarna har öppnat begäran.
+   * **I granskning**: (Endast planering) Den här begäran har godkännare och minst en godkännare har öppnat begäran, men inget beslut har fattats.
+   * **Avvisat**: (Endast planering) Begäran har godkännare och har avslagits. Denna begäran skapar ingen post.
    * **Pågår**:
       * Workfront-begäranden: Begäran har konverterats och arbetet pågår.
       * Workfront Planning-begäranden: Begärandeslutförandet mappas till ett specifikt Planning-fält och fältvärdet matchar ännu inte slutförandevärdet.
@@ -120,25 +124,25 @@ Så här visar du förfrågningar som du eller andra användare har skickat in i
 
 >[!NOTE]
 >
->* Om du har Workfront Planning visas dina Workfront- och Planning-begäranden i samma lista. Workfront-begäranden visar värdet `Issue` i kolumnen **Objekttyp**.
->* Upp till 50 begäranden visas som standard i listan i området Begäranden. Om du vill visa fler begäranden bläddrar du längst ned i listan.
+>* Om du har Workfront-planering visas dina Workfront- och planeringsförfrågningar i samma lista. I Workfront-förfrågningar visas värdet `Issue` i kolumnen **Objekttyp**.
+>* Upp till 50 förfrågningar visas som standard i listan i området Förfrågningar. Om du vill se fler förfrågningar bläddrar du längst ned i listan.
 
-### Visa skickade begäranden i den äldre begärande upplevelsen
+### Visa inskickade förfrågningar i den äldre begärande upplevelsen
 
-Så här visar du begäranden som du eller andra användare har skickat in i den tidigare begärande upplevelsen:
+Så här visar du förfrågningar som du eller andra användare har skickat i den äldre begärande upplevelsen:
 
 {{step1-to-requests}}
 
-1. (Villkorligt) Om din organisation har köpt ett Workfront Planning-paket klickar du på fliken **Workfront** för att visa Workfront-begäranden.
-1. Klicka på **Skickat** i den vänstra panelen för att visa alla skickade begäranden.
+1. (Villkorligt) Om din organisation har köpt ett Workfront Planning-paket klickar du på fliken **Workfront** för att visa Workfront-förfrågningar.
+1. Klicka på **Skickade** i den vänstra panelen för att visa alla skickade förfrågningar.
 
    Du kan visa upp till 2 000 förfrågningar och de kan visas på flera sidor.
 
    >[!TIP]
    >
-   >Du kan inte anpassa kolumnerna i listan Skickade begäranden.
+   >Du kan inte anpassa kolumnerna i listan över skickade förfrågningar.
 
-   ![Skickade begäranden i en ny lista](assets/nwe-submitted-requests-new-list-350x57.png)
+   ![Skickade förfrågningar - ny lista](assets/nwe-submitted-requests-new-list-350x57.png)
 
 
 1. Följande kolumner visas som standard:
@@ -151,7 +155,7 @@ Så här visar du begäranden som du eller andra användare har skickat in i den
          <td role="rowheader">Namn</td> 
          <td> <p>Namnet på begäran.</p> <p>Klicka på namnet på en begäran för att öppna den. </p> <p><b>TIPS</b>
 
-   Om problemet inte kunde bevaras när det konverterades till en aktivitet eller ett projekt är namnet på problemet nedtonat och kan inte längre klickas. Mer information om hur du konverterar problem finns i <a href="../../../manage-work/issues/convert-issues/convert-issues.md" class="MCXref xref">Översikt över hur du konverterar problem i Adobe Workfront</a>. </p> </td>
+   Om problemet inte bevarades när det konverterades till en uppgift eller ett projekt är namnet på problemet nedtonat och kan inte längre klickas på. Mer information om hur du konverterar finns i <a href="../../../manage-work/issues/convert-issues/convert-issues.md" class="MCXref xref">Översikt över konverteringsproblem i Adobe Workfront</a>. </p> </td>
    </tr> 
       <tr> 
          <td role="rowheader">Konverterad till</td> 
@@ -180,9 +184,9 @@ Så här visar du begäranden som du eller andra användare har skickat in i den
 
    >[!TIP]
    >
-   >När du navigerar bort från listan Skickade begäranden bevaras det valda sorteringsalternativet.
+   >När du navigerar bort från listan över skickade förfrågningar behålls det valda sorteringsalternativet.
 
-1. (Valfritt) Markera en begäran i listan och klicka sedan på ikonen **Öppna sammanfattning** ![Öppna sammanfattning med text](assets/open-summary-with-text-nwe.png) för att öppna panelen Sammanfattning och visa ytterligare information om begäran, lägga till kommentarer, dokument eller tilldela den. Mer information om panelen Sammanfattning finns i [Översikt över sammanfattning](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+1. (Valfritt) Välj en förfrågan i listan och klicka sedan på ikonen **Öppna sammanfattning** ![Öppna sammanfattning med text](assets/open-summary-with-text-nwe.png) för att öppna panelen Sammanfattning och visa ytterligare information om förfrågan, lägga till kommentarer eller dokument eller tilldela den. Mer information om panelen Sammanfattning finns i [Översikt över sammanfattning](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
    >[!TIP]
    >
@@ -214,18 +218,18 @@ Så här visar du begäranden som du eller andra användare har skickat in i den
    </tr> 
      <tr> 
       <td role="rowheader">Mina förfrågningar</td> 
-      <td>Begäranden som du har skickat oavsett status. </td> 
+      <td>Förfrågningar som du har skickat in oavsett deras status. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Mina öppna förfrågningar</td> 
-      <td> <p>Begäranden som du har skickat och som fortfarande är öppna. </p> <p>Förfrågningar utan faktiskt slutförandedatum eller vars matchande objekt inte har något faktiskt slutförandedatum visas på underfliken Mina öppna förfrågningar. </p> <p><b>TIPS</b>
+      <td> <p>Förfrågningar som du har skickat och som fortfarande är öppna. </p> <p>Förfrågningar utan faktiskt slutförandedatum eller vars matchande objekt inte har något faktiskt slutförandedatum visas på underfliken Mina öppna förfrågningar. </p> <p><b>TIPS</b>
 
    Begäranden som inte har en status som motsvarar stängda betraktas som öppna.</p> </td>
    </tr> 
     </tbody> 
    </table>
 
-1. (Valfritt) Klicka på ikonen **Filtrera sida** ![Sök &#x200B;](assets/search-icon.png) högst upp i listan om du vill söka efter en begäran per namn. Listan uppdateras med resultat som matchar dina sökvillkor.
+1. (Valfritt) Klicka på ikonen **Filtrera sida** ![Sök ](assets/search-icon.png) högst upp i listan om du vill söka efter en begäran per namn. Listan uppdateras med resultat som matchar dina sökvillkor.
 
    <!--
 
@@ -269,6 +273,6 @@ Så här visar du begäranden som du eller andra användare har skickat in i den
 
    * **Utkast**: Den här begäran har inte skickats ännu.
    * **Pågår**
-   * **Fullständigt**
+   * **Slutfört**
 
 
