@@ -3,10 +3,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Redigera en befintlig kalenderrapport
 description: Du kan ändra en befintlig kalender genom att lägga till eller ta bort en länk till ett projekt. Du kan också ändra kalendergrupperingar som är kopplade till en kalenderrapport.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%

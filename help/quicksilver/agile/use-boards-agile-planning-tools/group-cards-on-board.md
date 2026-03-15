@@ -4,10 +4,10 @@ content-type: reference
 navigation-topic: boards
 title: Använd grupper på en anslagstavla
 description: Du kan gruppera kort på en anslagstavla per tilldelad eller tagg. När du väljer ett alternativ att gruppera efter visas korten i ett simbaneformat.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 6f57a20e-0e47-4457-8605-9bce55c013ec
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%

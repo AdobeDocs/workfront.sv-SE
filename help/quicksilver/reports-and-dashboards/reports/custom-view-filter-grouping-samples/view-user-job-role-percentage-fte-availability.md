@@ -4,10 +4,10 @@ product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visa: Procentandel av FTE-tillgänglighet för användarjobbroll'
 description: Du kan lägga till en kolumn i vyn över en användarlista för att visa en lista över de jobbroller användaren är kopplad till samt procentandelen FTE-tillgänglighet för varje jobbroll, enligt definitionen i användarprofilen.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: d479b0b1-8ad5-47d6-8ef8-80261b46ecea
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 0%

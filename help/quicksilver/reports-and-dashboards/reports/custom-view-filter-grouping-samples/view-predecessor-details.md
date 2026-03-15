@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visa: Information om föregående'
 description: I den här uppgiftsvyn visas information om föregående aktiviteter för uppgifter som använder en samlingsvy. I en samlingsvy kan du visa information om objekt som finns i en"en-till-många"-relation. I det här fallet kan varje uppgift (en) ha flera föregående (många). I vyn visas namnet på aktiviteterna samt namnen på Föregående och Föregående, Föregående och Föregående samt Status för Föregående projekt.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 0187da94-4895-47b1-914f-284fed9e0fd0
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%

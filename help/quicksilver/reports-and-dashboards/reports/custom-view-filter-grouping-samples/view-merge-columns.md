@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visa: Sammanfoga information från flera kolumner i en delad kolumn'
 description: Du kan sammanfoga informationen som visas i flera separata kolumner och visa den i en delad kolumn.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1070'
 ht-degree: 0%
@@ -84,7 +84,7 @@ Du kan sammanfoga data från flera separata kolumner så att de visas i en kolum
 Så här sammanfogar du data från två kolumner utan radbrytning:
 
 1. Gå till en lista med objekt.
-1. I listrutan **Visa** markerar du en vy och klickar sedan på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) för att redigera vyn.
+1. I listrutan **Visa** markerar du en vy och klickar sedan på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) för att redigera vyn.
 1. Gå till den första kolumnen som du vill sammanfoga och klicka sedan på **Växla till textläge** > **Redigera textläge**.
 1. Lägg till följande text i den första kolumnen som du vill sammanfoga:
 
@@ -120,7 +120,7 @@ Så här sammanfogar du data från två kolumner utan radbrytning:
 Gör följande för att sammanfoga data från flera kolumner så att de visas i en gemensam kolumn med en radbrytning mellan värdena från varje kolumn:
 
 1. Gå till en lista med objekt.
-1. I listrutan **Visa** markerar du en vy och klickar sedan på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) för att redigera vyn.
+1. I listrutan **Visa** markerar du en vy och klickar sedan på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) för att redigera vyn.
 1. Lägg till en tredje kolumn mellan de två kolumner som du vill sammanfoga.
 
    >[!TIP]

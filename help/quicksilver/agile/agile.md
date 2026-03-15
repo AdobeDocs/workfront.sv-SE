@@ -4,11 +4,11 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: 'Agile: Artikelindex'
 description: Läs artiklarna i de här områdena och lär dig hur du använder Agile i Adobe Workfront.
-author: Jenny
+author: Courtney
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: c9bce921-0aee-42ba-9d6d-dd855762dc76
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%

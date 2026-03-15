@@ -3,10 +3,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Kopiera en kalenderrapport
 description: Om du har skapat en kalender kan du kopiera den och använda den som startpunkt för en ny kalender.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f72cf896-294f-4166-b731-eaec0c2156b1
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%

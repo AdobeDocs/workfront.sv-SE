@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visa: Lägg till en lista med efterföljande aktiviteter i en kolumn'
 description: Du kan lägga till en kolumn i en uppgiftsvy för att visa en lista över de efterföljande uppgifterna. Kolumnen Uppgiftens efterföljare innehåller både numret på efterträdaren och namnet.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 45e9cb13-99c7-4401-962e-2aea5e5258c0
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%

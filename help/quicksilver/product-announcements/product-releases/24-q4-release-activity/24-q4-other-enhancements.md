@@ -1,11 +1,11 @@
 ---
 title: Andra förbättringar under den fjärde kvartersversionen 2024
 description: Andra förbättringar under den fjärde kvartsutgåvan 2024
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 13208dca-afc9-419a-bb08-e063c6d9b480
-source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Mer information finns i [Sammanfatta med hjälp av AI-assistenten](/help/quicksi
 Vi har lagt till Adobe AI Assistant till Workfront så att du enklare kan utföra ditt arbete. AI Assistant kan hjälpa dig genom att:
 
 * Sammanfatta arbetsobjekt och dokument så att du snabbt kan få en allmän förståelse för uppgifter, projekt och resurser.
-* Tillhandahålla information från Experience League-dokumentation, föra in instruktioner och referensmaterial i Workfront och länka till mer ingående dokumentation.
+* Tillhandahålla information från Experience League-dokumentation och skicka instruktioner och referensmaterial till Workfront, och länka till mer ingående dokumentation.
 * Skapa och förfina formler för beräknade anpassade formulärfält, generera formler från textmeddelanden eller hitta fel i befintliga formler.
 
 Din Workfront-administratör kan aktivera eller inaktivera AI Assistant för din organisation. AI-assistenten är tillgänglig för instanser med planerna Select, Prime och Ultimate.

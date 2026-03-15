@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visa: Visa namn på överordnade aktiviteter som versaler'
 description: Du kan lägga till den här kolumnen i en uppgiftsvy om du vill visa namnet på den överordnade uppgiften med versaler.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: bb489920-6b17-4689-b432-b0c28bcb5d10
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 Så här skapar du den här kolumnen i en uppgiftsvy:
 
 1. Gå till en lista med uppgifter.
-1. Välj en vy i listrutan **Visa** och klicka sedan på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) .
+1. Välj en vy i listrutan **Visa** och klicka sedan på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) .
 eller\
    Välj **Ny vy** i listrutan **Visa**.
 

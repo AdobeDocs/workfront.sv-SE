@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Skapa en matrisrapport
 description: Matrisrapporter visar sammanfattningsinformation i ett aggregerat tabellformat, vilket gör det enklare att visa den än om den visades i en lista som i en traditionell rapport.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 714f2802-089f-4a41-8205-f397cf474a24
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 0%
@@ -126,8 +126,9 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
      >   * Anpassade datafält för tal- och valutavärden samlar alla uppgifter: överordnade, underordnade, överordnade och fristående uppgifter. Om du har skapat matrisrapporten för att visa Planerade timmar eller Faktiska timmar i kolumnen **Värde** ska du tänka på att timmar eller kostnadsinformation för eventuella överordnade objekt (till exempel överordnade uppgifter) inte visas i matrisrapporten. Om du vill visa timmar för överordnade objekt måste du visa fliken **Detaljer**.
      >   
      >   
-     >**Villkorliga regler:** Ange eventuella formateringsregler för sammansatta värden.\
+     >
 
+   **Villkorliga regler:** Ange eventuella formateringsregler för sammansatta värden.\
    När du har lagt till en regel kan du definiera fält- och textformat för hur fält som matchar den regeln visas. Klicka på **Lägg till regel** när du har definierat regeln och **Klar** för att spara regeln.
 
 1. Klicka på fliken **Filter** för att definiera vilken information som ska visas i rapporten.

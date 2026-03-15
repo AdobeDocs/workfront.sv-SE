@@ -1,11 +1,11 @@
 ---
 title: Förbättrad resurshantering i tredje kvartalet 2024
 description: Förbättrad resurshantering i tredje kvartalet 2024
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 40ca0460-5a01-4df9-b3dc-72055a272072
-source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 0%

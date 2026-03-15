@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Filter: visa aktuella projekt som väntar på godkännande'
 description: Följande projektfilter visar projekt i statusläget Aktuell - väntande godkännande, där den inloggade användaren är antingen Projektsponsor eller Portfolio Manager.
-author: Lisa and Jenny
+author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 32045aec-acc5-44d2-bad5-7759dc797414
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%

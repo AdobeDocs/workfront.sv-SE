@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Gruppering: Uppgiftsprocentuell uppdelning 2'
 description: 'I den här anpassade uppgiftsgrupperingen kan du visa uppgifter grupperade efter ett intervall av deras procentvärden för slutförande. Uppdelningarna visar procentandelen komplett i steg om 10 procent: 1-10 %, 11-20 % osv.'
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 7d5a40dd-d451-48c7-9323-af52aa387709
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 0%

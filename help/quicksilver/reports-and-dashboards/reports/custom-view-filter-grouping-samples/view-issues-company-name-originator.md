@@ -4,10 +4,10 @@ product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visa: Problem med upphovsmannens företagsnamn'
 description: I den här problemvyn visas det företagsnamn som är associerat med den användare som skickade problemet.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e628f7cf-4a7b-4125-bea6-348c72477bd7
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%

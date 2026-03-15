@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visa: Aktiviteter som påverkas av schemalagda undantag'
 description: I den här aktivitetsvyn identifieras aktiviteter som måste slutföras sent på grund av helger, personlig tid av eller andra schemaundantag.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 7d7c77fa-d9a7-4e91-8dae-ad3aaca6f1da
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 0%

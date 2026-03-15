@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visa: Visa en bild i stället för en sträng i en kolumn'
 description: Du kan ersätta namnet på ett objekt i en vy med en bild i textläge. Du kan också lägga till en länk till bilden som kan öppna det objekt den ersätter.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e1e4a993-f05c-4b6e-b00a-e96c9ab4c94f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%

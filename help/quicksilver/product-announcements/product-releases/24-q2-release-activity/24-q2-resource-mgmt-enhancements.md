@@ -1,11 +1,11 @@
 ---
 title: Andra kvartal 2024 Förbättrad resurshantering
 description: Andra kvartal 2024 Förbättrad resurshantering
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 12b3c586-5f44-48cf-9451-1ef32118676f
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%

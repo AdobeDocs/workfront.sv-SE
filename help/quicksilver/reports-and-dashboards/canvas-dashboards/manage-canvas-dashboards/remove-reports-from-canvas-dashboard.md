@@ -3,11 +3,11 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Ta bort rapporter från en kontrollpanel
 description: Du kan ta bort rapporter från en kontrollpanel när de har lagts till.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 hidefromtoc: true
 hide: true
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 0%
@@ -24,7 +24,7 @@ När en kontrollpanel har skapats och du har lagt till rapporter i den, kan du t
 
 Att ta bort en rapport från en kontrollpanel är permanent. Om du behöver lägga till en rapport på nytt efter att den har tagits bort, måste du återskapa rapporten.
 
-+++ Expandera om du vill visa åtkomstkraven.
++++ Expandera om du vill visa åtkomstkraven. 
 
 <table style="table-layout:auto"> 
 <col> 

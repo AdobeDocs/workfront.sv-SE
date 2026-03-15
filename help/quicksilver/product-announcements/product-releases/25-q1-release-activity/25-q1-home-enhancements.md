@@ -1,11 +1,11 @@
 ---
 title: Första kvartalet 2025, hemförbättringar
 description: Prioriterade förbättringar för första kvartalet 2025
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: 11b25decc88146568aad615eb06ef3521f7aa761
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 0%
@@ -22,7 +22,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 >[!VIDEO](https://video.tv.adobe.com/v/3442750/?quality=12&learn=on)
 
-I videon [Prioritetsförbättringar &#x200B;](#priorities-enhancements-demo-video) nedan visas de funktioner som ingår i den här översikten.
+I videon [Prioritetsförbättringar ](#priorities-enhancements-demo-video) nedan visas de funktioner som ingår i den här översikten.
 
 ## Använd smarta filter för att hitta ditt material i prioriteter
 
@@ -46,7 +46,7 @@ Mer information finns i [Filtrera och gruppera ditt arbete med prioritet](/help/
 >
 >Förhandsversion: 20 december 2024; Produktionsrelease för alla kunder: Med version 25.1 (16 januari 2025)
 >
->_Den här funktionen är bara tillgänglig för kunder som använder AI Assistant på en enhetlig Adobe-upplevelse._
+>_Den här funktionen är bara tillgänglig för kunder som använder AI-assistenten på Unified Adobe Experience._
 
 Du kan använda Fånga upp mig för att minska tiden när du söker information om aktiva projekt.
 

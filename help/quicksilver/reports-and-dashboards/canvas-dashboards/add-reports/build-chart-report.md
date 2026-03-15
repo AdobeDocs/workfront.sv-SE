@@ -3,10 +3,10 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Skapa en diagramrapport på en Canvas Dashboard
 description: En diagramrapport som visualiserar dina data som stapel-, kolumn-, linje- eller cirkeldiagram kan läggas till på en Canvas-kontrollpanel.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: c6458d777726092d74e8b031f5c14dfd58710e11
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1814'
 ht-degree: 0%
@@ -161,7 +161,7 @@ Det finns många konfigurationsalternativ för att skapa en diagramrapport. I de
 
 Följ stegen nedan för att konfigurera avsnittet **Filter**:
 
-1. Klicka på ikonen **Filter**![&#x200B; Filter](assets/filter-icon.png) i den vänstra panelen.
+1. Klicka på ikonen **Filter**![ Filter](assets/filter-icon.png) i den vänstra panelen.
 1. Välj **Redigera filter**.
 1. Klicka på **Lägg till villkor** och ange sedan fältet som du vill filtrera efter och modifieraren som definierar vilken typ av villkor som fältet måste uppfylla.
 1. (Valfritt) Klicka på **Lägg till filtergrupp** om du vill lägga till ytterligare en uppsättning filtervillkor. Standardoperatorn mellan uppsättningarna är AND. Klicka på operatorn för att ändra den till ELLER.

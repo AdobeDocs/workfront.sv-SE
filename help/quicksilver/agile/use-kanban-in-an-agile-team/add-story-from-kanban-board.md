@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: use-kanban-in-an-agile-team
 title: Lägg till artiklar och ärenden från Kanban-styrelsen
 description: Du kan snabbt skapa en ny artikel eller utgåva direkt från Kanban-tavlan.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 8f12b05c-d132-42ca-b617-bdd14e57acf2
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%

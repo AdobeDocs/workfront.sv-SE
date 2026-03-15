@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Dela ett filter, en vy eller en grupp
 description: Du kan dela filter, vyer och grupperingar som du har tillgång till för att visa med andra användare.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Du kan dela ett filter i standardgränssnittet från listor med projekt, uppgift
 Dela ett filter med standardgränssnittet i Builder:
 
 1. Gå till en lista med projekt, uppgifter eller problem.
-1. Klicka på ikonen **Filter** ![Filter &#x200B;](assets/filter-nwepng.png) .
+1. Klicka på ikonen **Filter** ![Filter ](assets/filter-nwepng.png) .
 
    ![Standardfilterverktyg](assets/new-filters-all-filter-types.png)
 

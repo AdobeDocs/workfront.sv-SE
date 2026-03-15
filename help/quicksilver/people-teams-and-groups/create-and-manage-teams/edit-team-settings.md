@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: Redigera gruppinställningar
 description: Workfront-administratörer och användare med en plan- eller arbetslicens kan redigera teaminställningar.
-author: Jenny
+author: Courtney
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 0%

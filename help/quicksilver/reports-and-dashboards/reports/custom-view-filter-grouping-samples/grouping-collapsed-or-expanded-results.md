@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Gruppering: Ange om resultatet av en gruppering ska komprimeras eller utökas i textläge'
 description: 'Gruppering: ange om resultatet av en gruppering ska komprimeras eller expanderas i textläge'
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 2880e06f-34f3-47b1-9462-5a15a20d6fee
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 0%

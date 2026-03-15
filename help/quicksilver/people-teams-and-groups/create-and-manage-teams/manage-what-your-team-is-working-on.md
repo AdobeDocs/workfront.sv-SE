@@ -1,12 +1,12 @@
 ---
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: Hantera vad ditt team arbetar med
-description: Du kan se en kalendervy över uppgifter och problem som ditt team arbetar med just nu. Du kan tilldela ej tilldelade artiklar, justera aktuella tilldelningar, justera aktuella tilldelningar och mycket mer.
-author: Jenny
+title: Manage What Your Team Is Working on
+description: You can see a calendar view of tasks and issues that your team is currently working on. You can assign unassigned items, adjust current assignments, adjust current allocations, and more.
+author: Courtney
 feature: People Teams and Groups
 exl-id: 4bdec4b9-18b0-4981-a067-f47e259bc708
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 0%
@@ -15,10 +15,10 @@ ht-degree: 0%
 
 # Hantera vad teamet arbetar med
 
-Du kan se en lista över objekt som ditt team arbetar med i [!UICONTROL Team Requests]-delen av ditt team.
+You can see a list of items that your team is working on in the [!UICONTROL Team Requests] section of your team.
 
-Du kan tilldela ej tilldelade artiklar, justera aktuella tilldelningar, justera aktuella tilldelningar och mycket mer i [!UICONTROL Workload Balancer]-avsnittet i ditt team.
+You can assign unassigned items, adjust current assignments, adjust current allocations, and more in the [!UICONTROL Workload Balancer] section of your team.
 
-Mer information om hur du hanterar arbete som tilldelats ditt team finns i [[!UICONTROL Workload Balancer]](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+For detailed information about how to manage work assigned to your team, see [[!UICONTROL Workload Balancer]](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-![Teamsida med arbetsbelastningsutjämnare](assets/team-page-workload-balancer.png)
+![Team page showing Workload Balancer](assets/team-page-workload-balancer.png)

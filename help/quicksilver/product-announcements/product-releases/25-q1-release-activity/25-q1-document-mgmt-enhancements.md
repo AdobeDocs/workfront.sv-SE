@@ -1,11 +1,11 @@
 ---
 title: Förbättringar av dokumenthanteringen i det första kvartalet 2025
 description: Förbättringar av dokumenthanteringen i det första kvartalet 2025
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0639cb37-212c-46d5-bfe0-b524efc085d3
-source-git-commit: f9ebf647c7672a9d471288806cf596d103007613
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 0%

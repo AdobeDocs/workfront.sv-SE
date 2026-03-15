@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Ta bort artikel från Kanban-tavlan
 description: Du kan ta bort en artikel eller utgåva från Kanban-tavlan. När du tar bort en artikel eller ett problem flyttas den till papperskorgen i 30 dagar och kan endast återställas av systemadministratören.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 5e838f0a-b26d-4bbe-b9e9-3161e3958b58
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 0%

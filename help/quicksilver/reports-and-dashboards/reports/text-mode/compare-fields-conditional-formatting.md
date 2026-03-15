@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Jämför fält i villkorlig formatering
 description: Du kan använda villkorsstyrd formatering för att jämföra två olika fält i en vy och markera dem när vissa villkor uppfylls mellan fälten.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: da4447ba-6e76-4701-88ee-87a30393bed9
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%

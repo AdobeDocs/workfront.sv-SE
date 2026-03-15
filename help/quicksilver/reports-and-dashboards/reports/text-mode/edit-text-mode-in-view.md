@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Redigera en vy i textläge
 description: Du kan redigera en vy i en lista eller rapport i textläge för att komma åt fält som inte är tillgängliga i standardgränssnittet och skapa mer komplexa vyer.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 0%
@@ -78,7 +78,7 @@ Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](
 1. Gör något av följande:
 
    1. Gå till rapporten och klicka sedan på **Rapportåtgärder** > **Redigera** > **Kolumner (vy)** för att få åtkomst till vyn från en rapport.
-   1. Om du vill få åtkomst till vyn från en lista går du till listan och från listrutan **Visa** håller du musen över den vy du vill ändra och klickar på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) .
+   1. Om du vill få åtkomst till vyn från en lista går du till listan och från listrutan **Visa** håller du musen över den vy du vill ändra och klickar på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) .
 
       Vyverktyget öppnas.
 
@@ -115,7 +115,7 @@ Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](
     </thead> 
     <tbody> 
      <tr> 
-      <td> <p><ol><tr><tr><ol><tr><tr><tr><tr><tr><tr><tr><tr><tr><tr><div class="example" data-mc-autonum="<b>Example: </b>"><code><strong>valuefield</strong>=&lt;/cod></p> </td> 
+      <td> <p><ol><tr><tr><ol><tr><tr><tr><tr><tr><tr><tr><tr><tr><tr><div class="example" data-mc-autonum="<b>Example: </b>"><code><strong>valuefield</strong>=</cod></p> </td> 
       <td> <p>This is the name of the object or of the field as it appears in the database. For more information about how objects and fields appear in the database, see <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p> <p>The following scenarios exist:</p> 
         
         <li value="1"> <p> If the name of the field you display is a phrase instead of a single noun, you must use camel case syntax for the <code>valuefield</code>. For example, for the Planned Start Date of a task the code is: </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>valuefield=plannedStartDate</code> </p> </li> 

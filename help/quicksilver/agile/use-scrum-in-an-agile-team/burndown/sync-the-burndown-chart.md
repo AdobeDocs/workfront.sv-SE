@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: burndown
 title: Synkronisera data i nedladdningsschemat
 description: Nedladdningsschemat synkroniseras automatiskt med data i ditt projekt eller din iteration. Om nedladdningsdiagrammet någonsin blir osynkroniserat med data i projektet eller iterationen kan du synkronisera det manuellt.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 39086d73-4835-4e15-8fa6-7a7efc48a38b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 0%

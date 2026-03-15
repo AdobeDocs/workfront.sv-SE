@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Skapa komplexa textlägesfilter med EXISTS-satser
 description: Du kan skapa komplexa textlägesfilter med EXISTS-satser. Den här artikeln kräver en grundlig förståelse för Adobe Workfront API och rapportgränssnittet för textläge.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '2668'
 ht-degree: 0%

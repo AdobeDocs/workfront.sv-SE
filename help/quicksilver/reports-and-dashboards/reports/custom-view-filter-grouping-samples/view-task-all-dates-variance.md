@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visa: Aktivitet med alla datumvariationer'
 description: Aktivitetsvyn liknar vyn Alla datum som finns i ditt Adobe Workfront-konto. Den här vyn innehåller varianskolumner, som beräknar skillnaden i dagar mellan datum.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 20df7cd8-113e-4c0d-b3f5-1def7db968a5
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%

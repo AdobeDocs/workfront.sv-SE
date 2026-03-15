@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Ändra kolumnbredd och -ordning
 description: Läs den här artikeln om du vill veta mer om riktlinjer för kolumnbredd och hur du ändrar kolumnbredden och ordningen i Workfront.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 0%

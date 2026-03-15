@@ -4,11 +4,11 @@ content-type: release-notes
 navigation-topic: proof-release-activity
 title: Adobe Workfront Proof med version 23.3
 description: Den här sidan innehåller information om funktionaliteten för Adobe Workfront Proof i den nya Adobe Workfront-upplevelsen som släpps till produktionsmiljön i version 23.3.
-author: Nolan
+author: Courtney
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: b4e3f45f-b687-40e5-93f9-a7c3b58d55bd
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 0%

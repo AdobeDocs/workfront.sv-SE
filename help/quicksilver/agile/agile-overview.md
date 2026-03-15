@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: Agile Overview
 description: Agile är en arbetsmetod som gör det möjligt för team att slutföra små, hanterbara arbetsmängder vid en konsekvent gräns. Teamen kan hantera artiklar på en eftersläpning eller en anslagstavla och inte uppgifter i ett projekt. [!DNL Adobe Workfront] innehåller verktyg som hjälper team att arbeta på ett smidigt sätt.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 0%

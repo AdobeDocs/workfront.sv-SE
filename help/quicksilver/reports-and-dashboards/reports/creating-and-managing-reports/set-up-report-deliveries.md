@@ -3,10 +3,10 @@ product-area: reporting;setup
 navigation-topic: create-and-manage-reports
 title: Översikt över rapportleverans
 description: Översikt över rapportleverans
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1534'
 ht-degree: 0%

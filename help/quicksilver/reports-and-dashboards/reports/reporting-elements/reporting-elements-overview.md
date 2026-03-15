@@ -4,11 +4,11 @@ product-area: reporting
 navigation-topic: reports
 title: Översikt över rapportelement
 description: Alla rapporter och listor från Adobe Workfront är en kombination av tre viktiga element - vyer, filter och grupperingar.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5b5385ac-3b75-4500-bf4d-ec6ad4bf727a
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 0%

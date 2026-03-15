@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Köra en rapport
 description: Du kan köra alla rapporter som du har åtkomst till Visa.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: bd2202a7-040c-4291-ad02-ba8929a37e2b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%

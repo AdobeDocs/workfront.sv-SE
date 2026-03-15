@@ -3,10 +3,10 @@ content-type: reference
 navigation-topic: boards
 title: Migrera Agile Team Kanban-kort till Workfront Boards
 description: Du kan migrera dina arbetsuppgifter från en Agile Team Kanban-styrelse till en ny eller befintlig Workfront-styrelse.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 72e3902b-af9a-497c-817f-63630c4fb73b
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 0%

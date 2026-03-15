@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: report-usage
 title: Få åtkomst till och ordna rapporter
 description: Du kan använda rapporter i Adobe Workfront för att granska eller redigera information om objekt i systemet. Du kan skapa egna rapporter, ordna de rapporter som du skapar och visa rapporter som har delats med dig eller delats offentligt.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%

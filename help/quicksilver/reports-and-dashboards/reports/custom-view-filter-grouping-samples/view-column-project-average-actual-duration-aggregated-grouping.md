@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visa och gruppera: Visa projektets faktiska varaktighet aggregerad med genomsnittet i en gruppering'
 description: Du kan lägga till följande kolumn i en projektrapport om du vill visa den faktiska varaktigheten som ett genomsnitt i en gruppering.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 31794fe9-a04a-437d-8d2e-40e0cb6e6104
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 0%

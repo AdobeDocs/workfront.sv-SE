@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: boards
 title: Skapa en iteration i en arbetsström
 description: En iteration är en angiven tidsrymd som är reserverad för att slutföra arbete. Vissa Agile-team kan kalla en iteration för en fjäder.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 0%
@@ -121,5 +121,5 @@ Use the [!UICONTROL Next Iteration] column to move cards from the current iterat
 ## Ta bort en iteration
 
 1. Klicka på fliken [!UICONTROL **Kortlista**] i arbetsflödet och öppna itereringsvyn.
-1. Klicka på ikonen **Ta bort** ![Ta bort &#x200B;](assets/delete.png) intill iterationen.
+1. Klicka på ikonen **Ta bort** ![Ta bort ](assets/delete.png) intill iterationen.
 1. Klicka på [!UICONTROL **Ta bort upprepning**] i bekräftelsemeddelandet.

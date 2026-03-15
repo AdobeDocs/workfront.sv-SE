@@ -3,9 +3,9 @@ navigation-topic: use-lists
 title: Ändra hur en lista visas
 description: I  [!DNL Adobe Workfront] kan du anpassa hur en lista visas för dig. Andra användare som visar listan kan inte se dina ändringar.
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
-source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 0%

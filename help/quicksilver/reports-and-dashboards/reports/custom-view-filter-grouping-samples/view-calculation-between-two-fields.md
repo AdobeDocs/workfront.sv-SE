@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visa: visa resultatet av en beräkning mellan två fält i en kolumn'
 description: Du kan använda textläge i en kolumn för att visa en beräkning mellan två fält.
-author: Lisa and Jenny
+author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 303f8824-311a-4de0-9777-cfa11ecad1e1
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 0%

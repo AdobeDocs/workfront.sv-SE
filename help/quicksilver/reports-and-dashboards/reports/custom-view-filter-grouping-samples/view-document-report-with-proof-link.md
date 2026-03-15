@@ -4,10 +4,10 @@ product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visa: Dokumentrapport med länk till ett korrektur'
 description: 'Visa: dokumentrapport med länk till ett korrektur'
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: a38c5e86-9789-41ca-a832-2ee5eb0a570b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%

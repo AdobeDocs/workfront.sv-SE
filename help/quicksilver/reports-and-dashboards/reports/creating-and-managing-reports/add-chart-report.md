@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Lägga till ett diagram i en rapport
 description: Du kan förbättra dina rapporter genom att lägga till ett diagram. Du kan lägga till diagram i befintliga rapporter eller i rapporter som du skapar.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '2739'
 ht-degree: 0%

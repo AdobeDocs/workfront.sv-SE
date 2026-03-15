@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Ta bort eller arkivera ett kort från en styrelse
 description: När du tar bort ett kort från en anslagstavla tas det bort permanent och kan inte återställas. När du arkiverar ett kort skickas det till arkivet och du kan återställa det till styrelsen senare.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%

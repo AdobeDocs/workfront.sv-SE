@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Skapa eller redigera en anslagstavla
 description: Från kontrollpanelen [!UICONTROL boards] kan du skapa en ny panel eller redigera en befintlig panel.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 0%

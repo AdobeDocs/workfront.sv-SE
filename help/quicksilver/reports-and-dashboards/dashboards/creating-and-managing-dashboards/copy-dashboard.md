@@ -3,10 +3,10 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Kopiera en kontrollpanel
 description: Du kan kopiera en kontrollpanel och allt dess innehåll (rapporter, kalendrar och externa sidor). När du kopierar innehållet på en kontrollpanel kan du välja att behålla dem så som de visas på den ursprungliga kontrollpanelen, eller skapa nya objekt som är kopior av dem på den ursprungliga kontrollpanelen. Du kan också välja att inte överföra eller kopiera objekt på den nya instrumentpanelen.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: a88cc171-2bb1-40f0-a778-8dac7eecb718
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 0%

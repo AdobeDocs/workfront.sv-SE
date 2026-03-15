@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: iterations
 title: Lägg till artiklar i en befintlig iteration
 description: Du kan lägga till artiklar i en iteration på flera olika sätt.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Du kan lägga till artiklar i en iteration på något av följande sätt:
 
-* Från en eftersläpning efter att upprepningen har skapats, vilket beskrivs i avsnittet [Flytta artiklar från eftersläpningen till en iteration eller [!UICONTROL Kanban] board &#x200B;](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board) i [Hantera Agile-eftersläpningen](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
+* Från en eftersläpning efter att upprepningen har skapats, vilket beskrivs i avsnittet [Flytta artiklar från eftersläpningen till en iteration eller [!UICONTROL Kanban] board ](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board) i [Hantera Agile-eftersläpningen](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
 
 * Från sidan [!UICONTROL Details] för den enskilda aktiviteten eller problemet
 * Från en uppgift eller en utleveranslista

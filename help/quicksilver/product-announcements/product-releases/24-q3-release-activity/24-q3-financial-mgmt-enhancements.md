@@ -1,11 +1,11 @@
 ---
 title: Förbättrad ekonomisk förvaltning för tredje kvartalet 2024
 description: Förbättrad ekonomisk förvaltning för tredje kvartalet 2024
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c8f78a68-41d3-4cb3-ade5-577bd85181b3
-source-git-commit: 0132485ba872dbd5961145e0d46fc7500169d728
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%

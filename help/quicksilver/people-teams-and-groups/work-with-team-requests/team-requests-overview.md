@@ -4,10 +4,10 @@ product-area: user-management;agile-and-teams
 navigation-topic: people-teams-and-groups
 title: Översikt över gruppförfrågningar
 description: Teamförfrågningar finns i Teams-området på huvudmenyn.
-author: Jenny
+author: Courtney
 feature: People Teams and Groups
 exl-id: c131c021-8bc0-4a48-a873-9ee0e189bcab
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## Förstå teamförfrågningar
 
-Teamförfrågningar finns i området [!UICONTROL Teams] i [!UICONTROL Main Menu]. Klicka på ikonen [!UICONTROL Team Requests] ![Request &#x200B;](assets/request-icon.png) i den vänstra panelen för att visa teamförfrågningar.
+Teamförfrågningar finns i området [!UICONTROL Teams] i [!UICONTROL Main Menu]. Klicka på ikonen [!UICONTROL Team Requests] ![Request ](assets/request-icon.png) i den vänstra panelen för att visa teamförfrågningar.
 
 >[!NOTE]
 >

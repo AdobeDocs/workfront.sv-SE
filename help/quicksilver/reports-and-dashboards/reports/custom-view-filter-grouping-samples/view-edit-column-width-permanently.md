@@ -4,10 +4,10 @@ product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visa: Redigera bredden på en kolumn permanent'
 description: Du kan tillfälligt ändra kolumnbredden genom att dra och släppa marginalerna så att de matchar den önskade bredden. Mer information finns i Ändra kolumnbredd och -ordning.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 42633036-8e42-4cec-876c-f20a5ece2478
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%

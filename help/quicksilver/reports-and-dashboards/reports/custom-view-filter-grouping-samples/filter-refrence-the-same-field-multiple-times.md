@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Filter: Skapa flera filterregler som refererar till samma fält (AND-satser)'
 description: I standardlägesgränssnittet, när du försöker skapa flera filter som refererar till samma fält (med AND-kvalificeraren), tas ett av filtren bort när du sparar rapporten och avslutar rapportbyggaren.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: fb167e9f-c8bd-43f6-84c9-9a87e80c3eb2
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%

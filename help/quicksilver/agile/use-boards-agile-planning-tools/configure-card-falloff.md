@@ -4,10 +4,10 @@ content-type: reference
 navigation-topic: boards
 title: Konfigurera kortutfall
 description: Du kan konfigurera en styrelse så att kort arkiveras eller faller bort från styrelsen enligt ett schema.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 0e4f6b3c-75aa-4314-9cb0-737e5a9d3bda
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%

@@ -4,10 +4,10 @@ product-area: reporting;dashboards
 navigation-topic: report-usage
 title: Förstå hur du organiserar rapporter på en kontrollpanel
 description: Du kan se om en rapport har lagts till på en kontrollpanel i Adobe Workfront. Detta kan vara användbart när du bestämmer vilka rapporter du kan behålla och vilka som kan tas bort från systemet. Om det finns rapporter på kontrollpaneler kanske användarna fortfarande förlitar sig på dem. Vi rekommenderar att du inte tar bort rapporter som visas på kontrollpaneler som användarna använder. Mer information om hur du lägger till rapporter på kontrollpaneler finns i artikeln Lägga till en rapport på en kontrollpanel.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: ce00c307-9e64-49f5-997b-f7fc461c960c
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%

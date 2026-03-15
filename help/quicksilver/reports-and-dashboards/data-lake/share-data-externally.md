@@ -4,10 +4,10 @@ product-area: reports and dashboards
 navigation-topic: data connect
 title: Upprätta en anslutning till Workfront Data Connect
 description: Med Workfront Data Connect kan ni använda företagets Workfront-data med verktyg för affärsintelligens eller lagra dem på ett externt datalager.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 0%

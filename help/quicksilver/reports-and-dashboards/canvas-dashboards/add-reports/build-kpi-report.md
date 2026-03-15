@@ -3,10 +3,10 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Skapa en KPI-rapport på en Canvas Dashboard
 description: En KPI-rapport som tydligt visar en enda aggregerad KPI kan läggas till på en Canvas Dashboard.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: d7caaa0871263fb8ef4224a9c298778f3ee2454a
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1260'
 ht-degree: 0%

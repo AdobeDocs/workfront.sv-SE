@@ -3,11 +3,11 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 'Kom igång med styrelser: Artikelindex'
 description: Läs dessa artiklar och lär dig hur du använder anslagstavlor i Workfront.
-author: Jenny
+author: Courtney
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 0%

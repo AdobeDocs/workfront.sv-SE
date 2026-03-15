@@ -3,10 +3,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Lägg till Ad hoc-händelser i en kalenderrapport
 description: Du kan lägga till ad hoc-händelser i en kalender. En ad hoc-händelse fungerar bara som en påminnelse i kalendern och är inte kopplad till ett projekt, en aktivitet eller ett problem.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 4145119e-ef2c-4f0d-89e7-86669ca5b127
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%

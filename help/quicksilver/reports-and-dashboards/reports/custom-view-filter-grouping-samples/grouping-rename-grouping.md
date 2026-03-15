@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Gruppering: Redigera visningsnamnet i en gruppering'
 description: Du kan ändra namn på grupperingar i listor och rapporter till något som är mer välbekant för användarna.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 072d3c2b-9ede-4bb9-9a27-dc77ceb732c4
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%

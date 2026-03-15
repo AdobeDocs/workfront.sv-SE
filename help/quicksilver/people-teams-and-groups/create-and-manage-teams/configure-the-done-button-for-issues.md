@@ -3,10 +3,10 @@ product-area: agile-and-teams;setup
 navigation-topic: create-and-manage-teams
 title: Konfigurera Klar-knappen för problem
 description: Knappen Klar kan automatiskt ange status för en uppgift eller ett problem. Som standard markerar Adobe Workfront ett problem som Löst när en tilldelad klickar på Klar på sin arbetsuppgift.
-author: Jenny
+author: Courtney
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 0%

@@ -4,9 +4,9 @@ navigation-topic: use-lists
 title: Inline Edit Items in a List in [!DNL Adobe Workfront]
 description: Du kan redigera objekt textbundet när de visas i en lista eller rapport. När du redigerar informationen om objekt som visas i en lista eller rapport uppdateras objektet omedelbart.
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%

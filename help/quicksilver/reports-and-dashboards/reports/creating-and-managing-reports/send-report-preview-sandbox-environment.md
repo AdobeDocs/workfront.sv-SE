@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Skicka en rapport i förhandsgranskningssandlådemiljön
 description: Informationen på den här sidan hänvisar till funktioner som bara är tillgängliga i sandlådemiljöerna Förhandsvisa och Anpassad uppdatering. Den här funktionen är inte tillgänglig i produktionsmiljön.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 568360df-bec9-4767-8b5a-32a294d05d47
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 0%

@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: boards
 title: Använda kortlistan
 description: Du kan skapa en kortlista i en arbetsström och lägga till korten i iterationer.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 2976f7e8-be84-4d27-9d70-8430392d5331
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 0%

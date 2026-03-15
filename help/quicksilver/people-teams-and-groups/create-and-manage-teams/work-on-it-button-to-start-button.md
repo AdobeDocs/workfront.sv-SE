@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: Ersätta knappen Work On It (Arbeta på den) med en Start-knapp
 description: Adobe Workfront standardkonfiguration innehåller knappen Arbeta med för uppgifter och utgåvor som visas för objekt som du har tilldelats.
-author: Jenny
+author: Courtney
 feature: People Teams and Groups
 exl-id: 9387c5ae-2835-4d8f-80ec-22fcd16c5b6e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 0%

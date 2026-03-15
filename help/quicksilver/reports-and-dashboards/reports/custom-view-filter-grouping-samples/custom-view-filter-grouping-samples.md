@@ -2,13 +2,13 @@
 content-type: reference
 product-area: reporting
 navigation-topic: reports
-title: "Anpassad vy, filter och gruppering av exempel: artikelindex"
+title: 'Anpassad vy, filter och gruppering av exempel: artikelindex'
 description: I det här avsnittet finns exempel på anpassade vyer, filter och grupperingar som du kan använda i ditt Adobe Workfront-konto.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: beac1ea6-a983-4d12-8972-91150914f731
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%
@@ -63,7 +63,7 @@ I det här avsnittet finns exempel på anpassade vyer, filter och grupperingar s
 * [Visa: information om ursprungligt problem för aktiviteter och projekt](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md)
 * [Visa: visa den överordnade-underordnade relationen i en uppgift genom att dra in uppgifterna](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-parent-child-relationship-by-indenting-tasks-with-custom-view.md)
 * [Visa: Planerade timmar kontra faktiska timmar per tilldelning i en uppgiftsvy](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-planned-hours-actual-hours-assignment-task-view.md)
-* [Visa: information om föregående &#x200B;](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md)
+* [Visa: information om föregående ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md)
 * [Visa: projekt med alla användare och roller i projektteamet](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-all-project-team-users-roles.md)
 * [Visa: lista över projektanvändare med jobbroller](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md)
 * [Visa: ta bort länk till ett objekt i en kolumn](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-remove-link-to-object.md)
@@ -109,7 +109,7 @@ I det här avsnittet finns exempel på anpassade vyer, filter och grupperingar s
 
 * [Gruppera en rapport i ett anpassat fält som består av flera markeringar](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-multi-select-custom-field.md)
 * [Gruppering: Hemgrupp för projektägare i en lista över timmar](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-home-group-project-owner-list-hours.md)
-* [Gruppering: Aktivitetsgruppering på fyra nivåer för Portfolio, programägare, projektägare och projektstatus](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-4-level-task-grouping.md)
+* [Gruppering: Aktivitetsgruppering på 4 nivåer för Portfolio-ägare, programägare, projektägare och projektstatus](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-4-level-task-grouping.md)
 * [Gruppering: lägg till en fjärde gruppering i en lista](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-add-fourth-grouping.md)
 * [Gruppering: Organisera listresultat med ett beräknat värde som är gemensamt för alla objekt i grupperingen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
 * [Gruppering: visa resultatet av att samla flera beräknade värden i en gruppering](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md)

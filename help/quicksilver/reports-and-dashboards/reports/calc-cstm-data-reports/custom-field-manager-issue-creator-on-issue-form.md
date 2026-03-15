@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: 'Exempel på beräknat anpassat fält: visa hanteraren för den som skapat ett ärende i det anpassade formuläret'
 description: Med hjälp av ett beräknat anpassat fält kan du visa namnet på den som har skapat ett ärende i ett anpassat formulär som har kopplats till problemet. Med samma programsats kan du skapa liknande beräkningsfält för projekt, utgåvor och andra objekt.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 0%

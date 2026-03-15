@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: 'Översikt över Agile-planeringsverktyg: artikelindex'
 description: När du skapar en styrelse med ad hoc-kort och anslutna kort kan du dra nytta av ytterligare Agile-planeringsverktyg på anslagstavlor.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%

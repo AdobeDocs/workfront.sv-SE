@@ -4,10 +4,10 @@ content-type: reference
 navigation-topic: boards
 title: Tidig tillgång för  [!DNL Workfront] anslagstavlor
 description: Läs den här artikeln om du vill veta mer om  [!DNL Workfront Boards] deltagande för tidiga funktioner.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%

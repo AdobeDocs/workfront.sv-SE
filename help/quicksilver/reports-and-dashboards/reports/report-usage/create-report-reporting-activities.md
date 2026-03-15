@@ -4,10 +4,10 @@ keywords: ändring,ägare,delad,rapport,resurs,körning,användare,åtkomst,rät
 navigation-topic: report-usage
 title: Skapa en rapport om rapporteringsaktiviteter
 description: När du skapar en rapport om rapporter kan du identifiera specifik rapportinformation, som kan inkludera om rapporter tilldelas till inaktiverade användare, om rapporter är inställda på att köras med åtkomsträttigheter för en inaktiverad användare, om användare öppnar en rapport som du planerar att ta bort osv.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 3861ac81-d2e4-4dec-b9cd-96eee0b66a38
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%

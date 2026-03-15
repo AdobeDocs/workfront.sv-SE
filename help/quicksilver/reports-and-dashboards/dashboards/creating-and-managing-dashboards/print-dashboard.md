@@ -3,10 +3,10 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Skriva ut en instrumentpanel
 description: Du kan skriva ut eller exportera en kontrollpanel till en .PDF-fil. Om du vill skriva ut en kontrollpanel måste du ha behörighet att visa den.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 30f3481b-23b6-4dc9-be0d-9cffd5d4dfed
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 0%

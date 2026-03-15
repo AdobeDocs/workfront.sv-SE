@@ -1,11 +1,11 @@
 ---
 title: Uppdateringar som både ser ut och känns under den första releasefrekvensen i kvartal 2025
 description: Uppdateringar som både ser ut och känns under den första releasefrekvensen i kvartal 2025
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 0%

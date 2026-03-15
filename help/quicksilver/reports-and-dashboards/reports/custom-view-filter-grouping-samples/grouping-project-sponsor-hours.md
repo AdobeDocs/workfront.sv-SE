@@ -4,10 +4,10 @@ product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Gruppering: Projektsponsorer för timmar'
 description: Den här timgrupperingen organiserar timmar av sponsorn för projektet där timmarna är loggade. Standardgränssnittet för Report Builder för timgrupperingar innehåller ingen mappning till fältet Project Sponsor. Du måste använda gränssnittet Textläge för att komma åt det här fältet.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6b35b0ef-18b7-4121-ae39-d7957d76c04b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 0%

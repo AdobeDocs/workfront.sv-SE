@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
 title: Hantera PIA-gränsen (Work in Progress) för Kanban-styrelsen
 description: Du kan konfigurera en PIA-gräns (Work In Progress) för varje kolumn på Kanban-tavlan. Gränsen för pågående arbete är bara en visuell varning och förhindrar inte ditt team från att ha fler objekt i varje statuskolumn än den gräns som du anger.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 540880ad-46af-416b-8e0b-5df869555424
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 0%

@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Skapa eller redigera vyer i Adobe Workfront
 description: Du kan anpassa vilken typ av information som visas på skärmen med hjälp av vyer. Du kan använda flera typer av vyer i Adobe Workfront.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Du kan skapa en ny standardvy eller anpassa en befintlig standardvy som du skapa
 
 1. Klicka på knappen **+ Ny vy** för att skapa en ny vy.
 eller
-Klicka på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) som visas i muspekaren till höger om en befintlig vy som du vill redigera.
+Klicka på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) som visas i muspekaren till höger om en befintlig vy som du vill redigera.
 Dialogrutan **Anpassa vy** visas.
 
 1. Gör något av följande i avsnittet **Förhandsvisa kolumn**:

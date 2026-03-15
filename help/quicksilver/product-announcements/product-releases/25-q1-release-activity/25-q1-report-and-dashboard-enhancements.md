@@ -1,11 +1,11 @@
 ---
 title: Förbättringar av rapporten och kontrollpanelen för första kvartalet 2025
 description: Förbättringar av rapporten och kontrollpanelen för första kvartalet 2025
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3c0b4797-594c-44d0-b3ad-a64384b6c4a8
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 0%
@@ -61,6 +61,6 @@ Mer information finns i [Skapa en instrumentpanel](/help/quicksilver/reports-and
 >
 >Produktionsrelease för alla kunder: 14 november 2024
 
-Administratörer som använder Data Connect för första gången har nu möjlighet att skapa ett nytt läsarkonto för Snowflake genom att klicka på en enda knapp. Processen tar några minuter, men kräver ingen ytterligare åtgärd.
+Administratörer som använder Data Connect för första gången kan nu skapa ett nytt Snowflake Reader-konto genom att klicka på en enda knapp. Processen tar några minuter, men kräver ingen ytterligare åtgärd.
 
 Mer information om konfiguration av Data Connect finns i [Skapa ett läsarkonto för Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md).

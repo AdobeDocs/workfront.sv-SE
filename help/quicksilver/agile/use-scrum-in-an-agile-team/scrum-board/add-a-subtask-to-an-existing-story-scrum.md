@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Lägg till en underuppgift i en befintlig artikel på anslagstavlan
 description: När du skapar underaktiviteter för befintliga artiklar bör du tänka på inställningen för Slutförandeläge för projektet, eftersom detta påverkar hur artiklarna uppdateras.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 264e66e9-94c7-4904-baad-f733d39b4791
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 0%

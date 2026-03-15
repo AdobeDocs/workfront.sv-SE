@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Översikt över textläge
 description: Du kan skapa en rapport eller en lista i Adobe Workfront med hjälp av standardgränssnittet eller textlägesgränssnittet när du skapar elementen som utgör rapporten eller listan.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Med standardgränssnittet kan du referera till fält och deras attribut som är 
 
 I textläge kan du referera till fält och attribut som kanske inte är tillgängliga i standardläge, men som är tillgängliga i Workfront-databasen.
 
-Mer information om hur du skapar rapporter i textläge, inklusive klasser, videoklipp och självstudiekurser, finns i avsnittet Lär dig på Adobe Experience League webbplats.
+Mer information om hur du skapar rapporter i textläge, inklusive klasser, videoklipp och självstudiekurser, finns i avsnittet Lär dig på Adobe Experience League-webbplatsen.
 
 ## Att tänka på innan du använder textläge
 

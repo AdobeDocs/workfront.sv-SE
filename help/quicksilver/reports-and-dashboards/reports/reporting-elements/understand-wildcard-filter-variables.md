@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Variabler för jokertecken
 description: Genom att använda jokertecken i filter kan du referera till en allmän användare eller ett allmänt datum i stället för en specifik användare eller ett specifikt datum. På så sätt är elementen som du skapar dynamiska och resultatet ändras beroende på i vilket sammanhang de används.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1439'
 ht-degree: 0%

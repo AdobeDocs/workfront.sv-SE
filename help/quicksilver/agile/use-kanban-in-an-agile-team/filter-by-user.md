@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: use-kanban-in-an-agile-team
 title: Filtrera efter användare på Kanban-styrelsen
 description: Du kan använda filtret på en Kanban-tavla för att se vilka arbetsobjekt som är associerade med andra användare och vilka som inte är tilldelade.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: e6f6beda-aaf9-4053-97ed-3a48e617d8e9
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%

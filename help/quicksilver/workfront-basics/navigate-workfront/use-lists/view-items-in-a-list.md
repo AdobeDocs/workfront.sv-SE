@@ -3,9 +3,9 @@ navigation-topic: use-lists
 title: Kom igång med listor i  [!DNL Adobe Workfront]
 description: Du kan visa listor med objekt i [!DNL Adobe Workfront] för att få information om dem, t.ex. start- och förfallodatum, användare som är tilldelade dem och andra objekt som är kopplade till dem.
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1913'
 ht-degree: 0%

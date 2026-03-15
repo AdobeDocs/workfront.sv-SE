@@ -1,11 +1,11 @@
 ---
 title: Tredje kvartalet 2025 Rapporteringsförbättringar
 description: Förbättringar av projektet för tredje kvartalet 2025
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6e53dca8-285a-471b-a646-1773722554f3
-source-git-commit: a0a7ad2770b99ee1d45169372e64e460701ccc10
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%

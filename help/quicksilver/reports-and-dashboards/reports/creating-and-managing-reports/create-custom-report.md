@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Skapa en anpassad rapport
 description: Du kan ge åtkomst till den information din organisation behöver inom Adobe Workfront genom att skapa rapporter. Du kan använda någon av de inbyggda rapporterna i Workfront eller skapa anpassade rapporter från grunden.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1816'
 ht-degree: 0%

@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: boards
 title: Granska iterationsmått
 description: Mätvärden finns tillgängliga för varje upprepning i ett arbetsflöde på iterationsprocessbordet.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 09743566-161d-4850-9a1a-b96da6d537a7
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%

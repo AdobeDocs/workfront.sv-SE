@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visa: Rapportelement som används i rapporter'
 description: I den här vyn visas den vy, det filter och den gruppering som används för att skapa respektive rapport i Adobe Workfront när du använder den i en lista med rapporter.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 67f86523-e136-4768-af93-586a107b106f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%

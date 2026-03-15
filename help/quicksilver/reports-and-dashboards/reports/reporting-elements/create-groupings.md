@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Skapa grupperingar i Adobe Workfront
 description: Du kan skapa en anpassad gruppering från grunden eller anpassa en befintlig gruppering.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 64cc52b7-d97b-4b41-9101-530e7db2d26e
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%

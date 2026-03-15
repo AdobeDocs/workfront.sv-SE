@@ -3,9 +3,10 @@ product-area: reports and dashboards
 navigation-topic: data-connect
 title: Använda vyn Övervaka datauppdateringar i Dataanslutning
 description: Med Data Connect kan Workfront-administratörer få tillgång till detaljerade poster om de senaste uppdateringarna som gjorts i Data Lake-datumet under den senaste uppdateringen.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 1bcb64fbcdf2cb8b40cb50e5a7d4f5768f3a712f
+exl-id: 230d1a30-2af9-4d2c-9ec1-34c3d4c080d4
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 0%
@@ -87,4 +88,3 @@ Vykolumnerna för uppdatering av övervakningsdata innehåller följande informa
         <br><b> Obs! </b> Detta är inte detsamma som det totala antalet poster som påverkas av händelserna CREATE, UPDATE och DELETE eftersom samma post kan skapas och uppdateras flera gånger inom intervallet mellan uppdateringarna.  </td>
     </tr>
    </table>
-

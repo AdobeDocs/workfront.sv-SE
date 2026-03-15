@@ -3,10 +3,10 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Bädda in en extern webbsida i en instrumentpanel
 description: Du kan bädda in en extern webbsida i en instrumentpanel för att ge åtkomst till relaterad information från andra system i Adobe Workfront eller till andra Workfront-sidor.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Om din organisation till exempel har en webbaserad dokumentdatabas, wiki eller n
 >
 >
 >* Instrumentpanelssidor stöds inte längre som inbäddade externa sidor i Dashboards. Befintliga kontrollpaneler ändras inte automatiskt för att ta bort dessa externa sidor, men ändringar av en kontrollpanel som innehåller en sådan referens kan inte sparas förrän referensen tas bort eller ändras.
->  &#x200B;> Följande Workfront.com-underdomäner stöds inte längre:
+> Följande Workfront.com-underdomäner stöds inte längre:
 >
 >     * /dashboards &#x200B;
 >     * /dashboard/:ID &#x200B;
@@ -166,7 +166,7 @@ Så här uppdaterar du informationen för en extern sida som används i en kontr
    ![Redigera extern sida infogat](assets/nwe-inline-edit-external-page-350x226.png)
 
 1. Uppdatera fälten som du vill ändra i rutan **Redigera extern sida** och klicka sedan på **Spara**.
-1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort &#x200B;](assets/delete.png) om du vill ta bort den externa sidan från instrumentpanelen. Mer information finns i [Ta bort en extern sida från en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
+1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort ](assets/delete.png) om du vill ta bort den externa sidan från instrumentpanelen. Mer information finns i [Ta bort en extern sida från en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
 1. Klicka på **Spara + Stäng**.
 
 ## Visa externa sidor i en rapport

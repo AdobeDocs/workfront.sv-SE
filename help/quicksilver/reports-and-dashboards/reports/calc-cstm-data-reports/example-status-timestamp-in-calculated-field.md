@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: 'Exempel på beräknat anpassat fält: visa en tidsstämpel för status i ett anpassat formulär'
 description: I följande beräkningsfält visas det datum då objektets status markeras som Pågår (INP). Du kan använda samma information för beräknade anpassade fält för utgåvor, uppgifter eller projekt.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 55817a68-3655-4288-8cc7-48547829c46e
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%

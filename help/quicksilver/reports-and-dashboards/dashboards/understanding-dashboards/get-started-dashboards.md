@@ -4,10 +4,10 @@ product-area: dashboards
 navigation-topic: understand-dashboards
 title: Kom igång med instrumentpaneler
 description: Syftet med en kontrollpanel är att ge snabb åtkomst till information. Du kan samla information i rapporter och sedan placera dem på kontrollpaneler för att göra informationen enklare att komma åt.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 0%

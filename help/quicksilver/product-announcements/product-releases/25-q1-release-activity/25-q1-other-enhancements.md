@@ -1,11 +1,11 @@
 ---
 title: Andra förbättringar under den första kvartersversionen 2025
 description: Andra förbättringar under den första kvartersutgåvan 2025
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 0%
@@ -26,7 +26,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 Vi har ändrat det sätt på vilket flyttade och borttagna resurser hanteras när vi använder Adobe Workfront-integreringen med Experience Manager Assets och Assets Essentials:
 
-* Borttagna resurser: När en resurs tas bort inuti en länkad mapp i Assets eller Assets Essentials behålls den borttagna resursen i området Projektdokument.
+* Borttagna resurser: När en resurs tas bort inuti en länkad mapp i Assets eller Resurser Essentials behålls den borttagna resursen i området Projektdokument.
 * Flyttade resurser: När en resurs flyttas utanför en länkad mapp i Assets eller Assets Essentials behålls den flyttade resursen i området Projektdokument.
 
 ## Avsnitt i ett anpassat formulär kan nu komprimeras och utökas

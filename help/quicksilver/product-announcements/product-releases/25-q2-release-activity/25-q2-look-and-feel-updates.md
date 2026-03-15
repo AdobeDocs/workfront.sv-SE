@@ -1,11 +1,11 @@
 ---
 title: Uppdateringar som både ser ut och känns under andra kvartersutgåvan 2025
 description: Uppdateringar som både ser ut och känns under andra kvartersutgåvan 2025
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 35cfdba7c206e8acb76648737588aa07120d2bbe
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Tidigare hade du möjlighet att välja från Min enhet eller en delad enhet om d
  <thead>
     <tr>
         <th>Föregående</th>
-        <th>Nytt</th>
+        <th>Nyhet</th>
     </tr>
   </thead>
  <tr>

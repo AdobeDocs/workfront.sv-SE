@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Hantera administratörsvyn för anslagstavlor
 description: I vyn för styrelsemedlemmar finns en lista över alla anslagstavlor på ditt konto som systemadministratörer kan använda för att få en snabb ögonblicksbild av den övergripande informationen om anslagstavlor.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 4a7f2f68-14d2-4532-8c76-2ba78b45deac
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 0%

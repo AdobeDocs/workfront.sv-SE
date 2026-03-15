@@ -6,9 +6,9 @@ title: Konfigurera JumpSeat-integrering
 description: Du kan integrera [!DNL JumpSeat] med [!DNL Workfront] för att skapa anpassad produktvägledning.
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
-author: Nolan, Becky
+author: Courtney, Becky
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 1%
@@ -90,7 +90,7 @@ Så här konfigurerar du integreringen av [!DNL JumpSeat]:
 
 https://{mycompanyname}.hoppseat.io
 
-&#x200B;>>
+>>
 
 >[!ENDSHADEBOX]
 

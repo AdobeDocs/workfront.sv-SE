@@ -4,10 +4,10 @@ product-area: reporting;user-management
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: 'Filter: Korrekturgodkännanderapport som utelämnar tidigare korrekturversioner'
 description: I en korrekturgranskningsrapport kan du använda filtret Är aktuell dokumentversion för att endast inkludera de aktuella versionerna av korrektur som väntar på ditt godkännande.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e844d3ed-75ee-4a0f-a28c-a3d22f203502
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 0%

@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: using-built-in-reports
 title: Använd inbyggda rapporter från Adobe Workfront
 description: Adobe Workfront har en omfattande lista över inbyggda rapporter som är klara att användas. Workfront-administratörer kan dölja inbyggda rapporter så att användare inte har tillgång till dem.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '2978'
 ht-degree: 0%

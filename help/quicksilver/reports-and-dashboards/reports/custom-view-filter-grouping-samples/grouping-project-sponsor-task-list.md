@@ -4,10 +4,10 @@ product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Gruppering: Projektsponsor för en uppgiftslista'
 description: Med den här uppgiftsgrupperingen kan du gruppera uppgifter efter projektsponsorn.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 2d8f85ea-492e-4b08-82f5-726170acc7d5
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 0%

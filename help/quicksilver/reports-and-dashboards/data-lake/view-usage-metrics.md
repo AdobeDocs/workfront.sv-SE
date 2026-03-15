@@ -4,10 +4,10 @@ product-area: reports and dashboards
 navigation-topic: data connect
 title: Visa användningsstatistik för Workfront Data Connect
 description: På fliken Workfront Data Connect Metrics kan du visa organisationens användningsstatistik utifrån både månatlig beräkningstid och antalet utförda frågor.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 29185bd1-e058-4b42-a508-53406fb9ddd2
-source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 0%

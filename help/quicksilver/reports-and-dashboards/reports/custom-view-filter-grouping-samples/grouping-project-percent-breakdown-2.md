@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Gruppering: Procentuell projektfördelning 2'
 description: 'I den här anpassade projektgrupperingen kan du visa projekt grupperade efter ett intervall av deras procentvärden för slutförande. Uppdelningarna visar procentvärdet som är fullständigt i steg om 10 procent: 0-10 %, 11-20 %, 21-30 % osv.'
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 7845fd66-8304-4154-8630-e72482cd753f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 0%

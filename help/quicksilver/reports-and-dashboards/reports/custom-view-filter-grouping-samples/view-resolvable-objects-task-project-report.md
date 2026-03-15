@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visa: Lösbara objekt i en aktivitet eller projektrapport'
 description: Du kan visa en lista med alla upplösningsbara objekt i ett projekt eller en uppgiftsvy eller rapport.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 2b0d8e7c-9211-44e5-9d92-c87a2fe4336d
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%

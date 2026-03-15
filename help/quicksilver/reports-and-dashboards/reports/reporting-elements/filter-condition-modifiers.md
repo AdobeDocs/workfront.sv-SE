@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Filter- och villkorsmodifierare
 description: Med filter- och villkorsmodifierarna kan du skapa filter och skapa villkor för formatering av rapportresultat.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: 6bd9dc626befc4dfa4054760e7ec7d677f6da6e5
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1593'
 ht-degree: 0%

@@ -4,10 +4,10 @@ product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visa: Utökad användarinformation'
 description: Den här användarvyn visar information om dina användare. Förutom namn, åtkomstnivåer och företag visas även listor över deras grupper, team och roller.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6a978b43-4718-43fb-80b8-844b35e09d06
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%

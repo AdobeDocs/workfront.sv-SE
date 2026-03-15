@@ -3,9 +3,9 @@ navigation-topic: use-lists
 title: Exportera en lista
 description: Du kan exportera en lista med objekt från Adobe Workfront. När objektlistan i Workfront innehåller fler än 2 000 objekt är det enda sättet att granska alla objekt i listan på en sida att exportera listan.
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: 31159d6d-f03a-4f84-a454-25a232971441
-source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 0%

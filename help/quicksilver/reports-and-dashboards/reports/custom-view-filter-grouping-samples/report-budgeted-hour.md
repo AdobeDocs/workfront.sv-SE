@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Rapport: Budgeterad timme'
 description: 'Rapport: Budgeterad timme'
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 0%
@@ -65,7 +65,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Bygg en budgeterad timrapport
 
-1. Klicka på ikonen **Huvudmeny** ![Huvudmeny &#x200B;](assets/main-menu-icon.png) i det övre högra hörnet eller på ikonen **Huvudmeny** ![Huvudmenyrader](assets/lines-main-menu.png) i det övre vänstra hörnet, om det finns några, och klicka sedan på **Rapporter**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny ](assets/main-menu-icon.png) i det övre högra hörnet eller på ikonen **Huvudmeny** ![Huvudmenyrader](assets/lines-main-menu.png) i det övre vänstra hörnet, om det finns några, och klicka sedan på **Rapporter**.
 
 1. Klicka på **Ny rapport** > **Mer** > **Budgeterad timme**.
 

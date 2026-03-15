@@ -6,9 +6,9 @@ title: Dölj inbyggda rapporter
 description: Adobe Workfront har en omfattande lista över inbyggda standardrapporter som användare kan öppna och visa. Som Workfront-administratör kan du ändra en användares åtkomstnivå för att dölja inbyggda rapporter så att användare inte har tillgång till dem.
 feature: System Setup and Administration
 role: Admin
-author: Nolan, Lisa
+author: Courtney, Lisa
 exl-id: d48b0dd7-933e-4e91-a2f1-8d64b1c6dbb3
-source-git-commit: ebdc4cef2d7054cd14002910872a1fc3deadad91
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 0%

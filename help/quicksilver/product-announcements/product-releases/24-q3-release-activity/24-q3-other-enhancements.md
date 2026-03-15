@@ -1,11 +1,11 @@
 ---
 title: Andra förbättringar under den tredje kvartersversionen 2024
 description: Andra förbättringar under den tredje kvartersutgåvan 2024
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-source-git-commit: 0dd0230fd0a986276f775a00f1f23332373daf6f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -30,12 +30,12 @@ Vi implementerar en teknikförändring för våra produktguider under de kommand
 
 >[!NOTE]
 >
->* Det enhetliga Adobe-skalet görs tillgängligt i en fasad utrullning. Ytterligare organisationer kommer att ingå i Adobe Unified Shell med versionerna 24.10 och 25.1.
+>* Adobe Unified Shell görs tillgängligt i en fasad utrullning. Ytterligare organisationer kommer att ingå i Adobe Unified Shell med versionerna 24.10 och 25.1.
 >* Förhandsversion: 20 juni 2024; Produktionsrelease för angivna kunder: Med version 24.7 (18 juli 2024)
 
-För att ge företag och organisationer tillgång till fördelarna med Adobe Unified Experience har vi börjat göra den tillgänglig för befintliga Workfront-kunder.
+Vi har börjat göra Adobe Unified Experience tillgängligt för befintliga Workfront-kunder för att ge företag och organisationer tillgång till fördelarna med Unified Experience.
 
-Adobe enhetliga upplevelse omfattar:
+Adobe Unified Experience innehåller följande:
 
 * En enda inloggning för alla Adobe-program via Adobe Experience Cloud
 * En&quot;företagsväljare&quot; för att växla mellan Workfront organisationer och miljöer

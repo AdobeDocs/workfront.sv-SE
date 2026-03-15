@@ -4,11 +4,11 @@ product-area: reports and dashboards
 navigation-topic: data connect
 title: Workfront Data Connect - översikt
 description: En översikt över Workfront Data Connect
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
-source-git-commit: 1bcb64fbcdf2cb8b40cb50e5a7d4f5768f3a712f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 0%

@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Generera rapporter med datumbaserade jokertecken
 description: Du kan generera en rapport genom att använda jokertecken i stället för specifik information när du skapar vissa rapportelement.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 0%

@@ -3,10 +3,10 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Lägga till en Canvas-kontrollpanel i en layoutmall
 description: Du kan lägga till en kontrollpanel för arbetsytan i en layoutmall så att den ersätter startsidan, visas i det vänstra objektets panel eller är fäst på det övre fältet.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 91ebcec5-99a4-4096-8d4e-b4ea31755d75
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -18,8 +18,8 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Delar av funktionen kanske inte är fullständiga eller fungerar som de ska i det här skedet. Skicka feedback om din upplevelse genom att följa instruktionerna i avsnittet [Ge feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) i översiktsartikeln i Canvas Dashboards.<br>
->&#x200B;>Om du har synpunkter på ett eventuellt fel eller tekniska problem ber vi dig skicka ett supportärende till Workfront Support. Mer information finns i [Kontakta kundsupport](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Observera att betaversionen inte är tillgänglig för följande molnleverantörer:
+>Om du har synpunkter på ett eventuellt fel eller tekniska problem ber vi dig skicka ett supportärende till Workfront Support. Mer information finns i [Kontakta kundsupport](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Observera att betaversionen inte är tillgänglig för följande molnleverantörer:
 >
 >* Använd din egen nyckel för Amazon Web Services
 >* Azure

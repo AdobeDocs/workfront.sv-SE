@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Kategorisera artiklar efter färg på skärmanslaget
 description: Standardfärgassociationen för Scrum board-artiklar varierar beroende på om artikelpanelen finns på en iteration eller i ett projekt.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 8e351505-73d1-4c8f-b369-53c965b88c95
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Standardfärgassociationen för artiklar varierar beroende på om artikelpanelen
 
 * **[!UICONTROL Iteration]**: På en iteration färgkodas artikelpaneler enligt det projekt som artikeln är kopplad till. (Varje projekt tilldelas godtyckligt en färg på artikelpanelen.) Du kan ändra det här standardbeteendet för varje Agile-team. Färger för Agile-artiklar i en iteration kan knytas till projektet (standard), artikelprioritet, ägare eller frihandsfigur. Mer information finns i [Konfigurera hur färgindikatorer används för artiklar på Agile-anslagstavlan](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur4) i artikeln [Konfigurera repet](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
-* **[!UICONTROL Project]**: I ett projekt matchar alla underaktiviteter färgen för den överordnade aktiviteten, så att färgerna för alla artiklar i ett givet simfält är desamma. Färger tilldelas slumpmässigt till aktiviteter när de skapas om aktiviteten inte har några underaktiviteter eller inte har någon överordnad aktivitet. Du kan ändra det här standardbeteendet genom att ändra vyn Agile. Färger för Agile-artiklar i ett projekt kan kopplas till den överordnade artikeln (standard), artikelprioritet, ägare eller frihandsfigur. Mer information finns i [Skapa eller anpassa en [!UICONTROL Agile] vy &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) i [Vyöversikt i [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+* **[!UICONTROL Project]**: I ett projekt matchar alla underaktiviteter färgen för den överordnade aktiviteten, så att färgerna för alla artiklar i ett givet simfält är desamma. Färger tilldelas slumpmässigt till aktiviteter när de skapas om aktiviteten inte har några underaktiviteter eller inte har någon överordnad aktivitet. Du kan ändra det här standardbeteendet genom att ändra vyn Agile. Färger för Agile-artiklar i ett projekt kan kopplas till den överordnade artikeln (standard), artikelprioritet, ägare eller frihandsfigur. Mer information finns i [Skapa eller anpassa en [!UICONTROL Agile] vy ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) i [Vyöversikt i [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Åtkomstkrav
 

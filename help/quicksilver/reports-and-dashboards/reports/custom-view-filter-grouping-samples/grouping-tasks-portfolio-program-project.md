@@ -4,10 +4,10 @@ product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Gruppering: Uppgifter efter Portfolio, Program och Projekt'
 description: Använd den här uppgiftsgrupperingen för att gruppera uppgifter efter portföljen, efter program och sedan efter det projekt de är kopplade till.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8fdad6a1-54b3-4d3e-8f21-4f2efc2dc27a
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 0%

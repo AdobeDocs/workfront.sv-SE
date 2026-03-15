@@ -3,10 +3,10 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Skapa en tabellrapport på en Canvas Dashboard
 description: Du kan lägga till en tabellrapport på en Canvas-kontrollpanel för att visa data i ett tabellformat.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: d7caaa0871263fb8ef4224a9c298778f3ee2454a
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1199'
 ht-degree: 0%

@@ -3,11 +3,11 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Översikt över syntaxen i textläge
 description: Du kan använda textlägesgränssnittet för att skapa mer komplexa vyer, filter, grupperingar och anpassade uppmaningar i listor och rapporter. Genom att använda textläge kan du komma åt fält och deras attribut som inte är tillgängliga i standardlägesgränssnittet.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1862'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Mer information och överväganden om textläge innan du börjar finns i [Övers
 
 En fullständig lista över alla rapportbara fält och deras attribut finns i [API-utforskaren](../../../wf-api/general/api-explorer.md).
 
-Mer information om hur du skapar rapporter i textläge, inklusive klasser, videoklipp och självstudiekurser, finns i avsnittet Lär dig på Adobe Experience League webbplats.
+Mer information om hur du skapar rapporter i textläge, inklusive klasser, videoklipp och självstudiekurser, finns i avsnittet Lär dig mer på Adobe Experience League-webbplatsen.
 
 ## Att tänka på när det gäller syntax i textläge
 
@@ -42,7 +42,7 @@ Nedan följer några vanliga riktlinjer när du skapar ett rapporterings- eller 
    * Du kan visa ett objekt som är tre objekt bort från rapporten eller listobjektet i en vy.
    * Du kan inte referera till objekt som är mer än två objekt från huvudobjektet i en gruppering, ett filter eller en anpassad prompt.
 
-  **Exempel:** Du kan visa Portfolio-ägarens namn eller GUID i en uppgiftsvy:
+  **Exempel:** Du kan visa namnet eller GUID för Portfolio-ägaren i en uppgiftsvy:
 
   `valuefield=project:portfolio:ownerID`
 

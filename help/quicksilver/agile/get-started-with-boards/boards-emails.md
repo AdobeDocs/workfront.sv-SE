@@ -4,10 +4,10 @@ content-type: reference
 navigation-topic: boards
 title: E-postmeddelanden och inställningar för anslagstavlor
 description: Adobe Workfront Boards skickar ett e-postmeddelande till dig när du läggs till på en anslagstavla och när du tilldelas ett kort.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 0%

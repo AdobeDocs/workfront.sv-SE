@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Använd villkorsstyrd formatering i vyer
 description: När du delar dina rapporter med andra användare i Adobe Workfront bör du överväga att anpassa rapportvyn så att viss information blir lättare att läsa eller bara sticka ut.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 0%

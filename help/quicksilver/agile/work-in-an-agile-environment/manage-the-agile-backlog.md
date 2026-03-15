@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: work-in-an-agile-environment
 title: Hantera Agile-eftersläpningen
 description: Uppgifter och ärenden kan tilldelas ett Agile-team och läggas till i teamets eftersläpning som artiklar, beroende på vilken Agile-metod teamet använder.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1244'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 Följande arbetsuppgifter kan tilldelas ett Agile-team och läggas till i teamets eftersläpning som artiklar, beroende på vilken Agile-metod teamet använder:
 
 * **[!UICONTROL Scrum Agile teams]:** Uppgifter och utgåvor kan tilldelas Agile-teamet och läggas till i eftersläpningen.
-* **[!UICONTROL Kanban Agile teams]:** Uppgifter kan tilldelas Agile-teamet och läggas till i eftersläpningen. Användare kan visa eftersläpningen direkt från Agile-artikelpanelen, enligt beskrivningen i [[!UICONTROL Add the backlog] till Kanban-tavlan &#x200B;](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md). Teamet använder denna eftersläpning för att prioritera och hantera sin arbetskö.
+* **[!UICONTROL Kanban Agile teams]:** Uppgifter kan tilldelas Agile-teamet och läggas till i eftersläpningen. Användare kan visa eftersläpningen direkt från Agile-artikelpanelen, enligt beskrivningen i [[!UICONTROL Add the backlog] till Kanban-tavlan ](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md). Teamet använder denna eftersläpning för att prioritera och hantera sin arbetskö.
 
 Uppgifter eller problem kan tilldelas teamet (och sedan läggas till i teamets eftersläpning) var som helst i [!DNL Adobe Workfront]. Ett team kan till exempel tilldelas arbetsuppgifter från flera projekt.
 

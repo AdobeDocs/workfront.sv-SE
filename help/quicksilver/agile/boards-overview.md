@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: Översikt
 description: Adobe Workfront Boards är flexibla verktyg som ger teamsamarbete genom att ge åtkomst till en delad anslagstavla som innehåller kolumner och kort.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -34,6 +34,6 @@ Mer information om hur du använder en anslagstavla i ett projekt finns i [Hante
 
 Du kan även komma åt paneler i mobilappen. Mer information finns i [[!DNL Adobe Workfront] [!UICONTROL Boards] för mobil](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
 
-Videogenomgångar av brädfunktioner finns i [[!DNL Adobe Workfront] [!UICONTROL Boards] videodemonstrationer &#x200B;](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md).
+Videogenomgångar av brädfunktioner finns i [[!DNL Adobe Workfront] [!UICONTROL Boards] videodemonstrationer ](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md).
 
 Mer information om ytterligare Agile-verktyg i [!DNL Workfront] finns i [Agile overview](../agile/agile-overview.md).

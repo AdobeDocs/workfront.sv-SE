@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Använd flaggor på artiklar på Kanban-styrelsen
 description: På  [!DNL Kanban] board ger flaggor en visuell indikation på när en artikel är klar att flyttas till nästa status. På så sätt kan Kanban-team använda en"pull"-metod i stället för en"push"-metod när de flyttar artiklar mellan olika statusar.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: e19a007d-737c-42d4-aa69-771d8a9e9fd8
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 0%

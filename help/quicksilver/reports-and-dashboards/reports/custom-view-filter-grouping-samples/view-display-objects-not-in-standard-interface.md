@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visa: Visningsobjekt som inte ingår i standardgränssnittet'
 description: Du kan visa objekt som inte ingår i standardlägesgränssnittet i en vy. Du kan bara göra detta genom att referera till dem via textläge.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: c0138730-494b-4443-865a-44f8f00d5342
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%

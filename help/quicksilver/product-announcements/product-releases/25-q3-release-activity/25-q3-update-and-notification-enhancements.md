@@ -1,10 +1,11 @@
 ---
 title: Förbättringar av uppdatering och meddelanden för tredje kvartalet 2025
 description: Förbättringar av projektet för tredje kvartalet 2025
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: da73dc4e060e018e7a9254319bbaab6d333ce056
+exl-id: 26ed0bee-2fd4-480d-b55c-3c5a289d25b0
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 0%
@@ -30,5 +31,3 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 För att få bättre prestanda har vi introducerat en modifierad upplevelse när vi lägger till personer i kommentarer. Länken&quot;Tagga personer eller team&quot; finns kvar i rutan Kommentar när du har börjat lägga till användare eller team i kommentaren. Före den här ändringen togs länken &quot;Tagga personer eller team&quot; bort efter att man börjat lägga till personer eller team i en kommentar. Den här ändringen har införts för alla Workfront-objekt där du kan lägga till en kommentar.
 
 Mer information finns i [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-
-

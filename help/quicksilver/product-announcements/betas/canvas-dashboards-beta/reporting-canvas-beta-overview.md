@@ -1,14 +1,14 @@
 ---
 content-type: reference
 navigation-topic: betas
-title: 'Reporting Canvas beta: översikt'
+title: 'Betaversion av arbetsyta för rapportering: översikt'
 description: Information om betaprogrammet för det kommande verktyget Reporting Canvas för Adobe Workfront
-author: Nolan
+author: Courtney
 feature: Product Announcements
 hidefromtoc: true
 hide: true
 exl-id: 5767ef7d-1bc3-40d8-abeb-02b15166a0a3
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1061'
 ht-degree: 0%
@@ -95,7 +95,7 @@ Vår nuvarande strategi för migrering i den officiella versionen är att göra 
 1. I Rapportera arbetsyta kontrollerar du att alla rapporter och instrumentpaneler som du har valt har migrerats.
 +++
 
-+++Varför kan jag inte se alla objekt jag normalt gör?
++++Varför kan jag inte se alla objekt som jag vanligtvis gör?
 
 För att kunna ge våra kunder betaversionen så tidigt som möjligt har vi bara släppt den med en delmängd av de många objekttyper som finns i Workfront idag. Nedan finns de objekttyper som stöds i betaversionen:
 
@@ -105,7 +105,7 @@ För att kunna ge våra kunder betaversionen så tidigt som möjligt har vi bara
 * Utgift
 * Timme
 * Problem
-* Anteckning
+* Obs
 * Portfolio
 * Projekt
 * Program
@@ -114,7 +114,7 @@ För att kunna ge våra kunder betaversionen så tidigt som möjligt har vi bara
 * Arbetsobjekt
 +++
 
-+++Om något går fel i Reporting Canvas under betatestningen, kommer data från min organisation att påverkas?
++++Om något blir fel i Reporting Canvas under betaversionen, kommer då data från min organisation att påverkas?
 
 Nej. Betaversionen använder en kopia av organisationens data som fylls i i Reporting Canvas. Detta innebär att du kan experimentera under betaversionen utan risk för att påverka viktiga data, men det innebär också att redigering online av data i Reporting Canvas inte är tillgängligt förrän den officiella starten.
 +++

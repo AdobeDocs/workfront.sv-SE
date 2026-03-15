@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: iterations
 title: Skapa en Agile-artikel i en Iteration
 description: I den här artikeln beskrivs hur du skapar en ny Agile-artikel när du redan är i iteration.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 9712e065-5fbf-4deb-a39f-36e0e918ed12
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%

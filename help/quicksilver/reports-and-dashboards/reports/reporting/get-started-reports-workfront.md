@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: reporting-navigation-topic
 title: Kom igång med rapporter
 description: Rapporterna ger insyn i vad som händer med användare och arbete. Med hjälp av rapporter kan du visa information om objekt i Adobe Workfront.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '3292'
 ht-degree: 0%

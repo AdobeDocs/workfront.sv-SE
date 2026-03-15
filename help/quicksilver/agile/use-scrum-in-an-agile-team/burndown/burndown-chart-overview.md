@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: burndown
 title: Översikt över Agile Burndown Chart
 description: Nedbrytningsdiagrammet ger en visuell representation av hur artiklar fortskrider genom iteration eller projekt. Den faktiska nedbränningsgraden mäts mot den ideala nedladdningsfrekvensen för tidslinjen för iteration eller projekt.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 0%

@@ -3,10 +3,10 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Lägga till en rapport på en instrumentpanel
 description: Du kan lägga till en rapport på en ny eller befintlig kontrollpanel direkt från en rapport. Du kan också lägga till en befintlig rapport på en kontrollpanel.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 42d5945d-66c5-430b-8a37-dca9c2973716
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 0%

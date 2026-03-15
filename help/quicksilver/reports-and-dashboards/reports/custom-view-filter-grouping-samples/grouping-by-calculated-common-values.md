@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Gruppering: Organisera listresultat med ett beräknat värde som är gemensamt för alla objekt i grupperingen'
 description: Du kanske vill visa dina uppgifter grupperade efter Procent färdigt i intervallet 0-25, 26-50, 51-75, 75-99 och 100. Du kan skapa en gruppering i textläge för att göra detta.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 93b743ce-7e54-4a96-933b-912e2107a84f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 0%

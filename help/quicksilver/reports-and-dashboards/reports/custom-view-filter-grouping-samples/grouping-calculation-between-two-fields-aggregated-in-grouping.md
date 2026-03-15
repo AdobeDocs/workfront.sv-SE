@@ -5,10 +5,10 @@ keywords: beräknad,aggregat,avancerad,vyer
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Gruppering: Visa resultatet av att aggregera flera beräknade värden i en gruppering'
 description: Du kan använda textläge i en kolumn för att visa en beräkning mellan två fält i vyn för en rapport eller lista. Varje rad visar beräkningen för varje objekt i rapporten eller listan.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e67c0b10-af9f-4657-8f99-8b63ae3c0865
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 0%

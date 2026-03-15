@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visa: Problem med att lösa objektinformation'
 description: I den här problemvyn visas namnet och procentandelen som är slutförd för problemlösningsobjektet, vilket gör att den som skapade problemet kan få insikt i hur problemet fortskrider, även utan åtkomst till lösningsaktiviteten eller -projektet.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 7f4c923a-01e4-4896-9f54-1f0c66d64bb5
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%

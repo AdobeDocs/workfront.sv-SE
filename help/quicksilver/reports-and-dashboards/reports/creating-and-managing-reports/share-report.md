@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Dela en rapport i Adobe Workfront
 description: Din Adobe Workfront-administratör ger användarna åtkomst till att visa eller redigera rapporter när de tilldelar åtkomstnivåer. Mer information om hur du beviljar åtkomst till problem finns i Bevilja åtkomst till rapporter, instrumentpaneler och kalendrar.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: c8a25bcc8c9b56a649ca7764918c86f9cdd5b3e2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 0%

@@ -5,10 +5,10 @@ keywords: granskning,spåra,anpassad,fält
 navigation-topic: calculate-custom-data-reports
 title: 'Exempel på beräknat anpassat fält: visa ett fälts redigeringshistorik'
 description: Om användare uppdaterar anpassade fält regelbundet och du vill samla in en logg över alla ändringar som gjorts i ett fält samt ett datum när ändringarna inträffar, kan du spara informationen i ett beräknat anpassat fält.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e233ef28-c95a-42a1-b2eb-448dad5feddb
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%

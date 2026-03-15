@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: scrum-board
 title: Hantera artiklar och ärenden på Scrum Board
 description: Du kan flytta en artikel eller ett problem från Urklipp till en annan upprepning eller till eftersläpningen, eller ta bort det från Urklipp. När du tar bort en artikel eller ett problem flyttas den till papperskorgen i 30 dagar och kan endast återställas av systemadministratören.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 72990251-0264-4e68-83ef-1a9cde5b685c
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%

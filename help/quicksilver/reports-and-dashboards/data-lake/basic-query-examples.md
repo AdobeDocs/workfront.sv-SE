@@ -4,10 +4,10 @@ product-area: reports and dashboards
 navigation-topic: data connect
 title: Exempel på frågor om dataanslutning
 description: Exempelfrågor som du kan använda för att bekanta dig med syntaxen och strukturen för specifika typer av frågor.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f2da081c-bdce-4012-9797-75be317079ef
-source-git-commit: c8a25bcc8c9b56a649ca7764918c86f9cdd5b3e2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 0%
@@ -182,10 +182,10 @@ Undersöker frågan inifrån och ut: 
 >[!NOTE]
 >
 >Vi rekommenderar att du använder den här frågan som en egen&quot;vy&quot; i PowerBI eller Tableau.  Om du vill hämta in andra fält från `<object>_event view` ansluter du resultatet från den här frågan till `<object>_event view`.  Kopplingsfälten blir följande: <br>
->&#x200B;>For projects_event: 
->&#x200B;>`From projects_event p`
->&#x200B;>`Join <above query> c on c.projectid = p.projectid  `
->&#x200B;>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
+>For projects_event: 
+>`From projects_event p`
+>`Join <above query> c on c.projectid = p.projectid  `
+>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
 
 
 

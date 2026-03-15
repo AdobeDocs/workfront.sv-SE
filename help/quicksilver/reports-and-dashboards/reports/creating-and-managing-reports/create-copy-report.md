@@ -4,10 +4,10 @@ keywords: spara,ny,rapport,kopiera
 navigation-topic: create-and-manage-reports
 title: Skapa en kopia av en rapport
 description: Du kan skapa en kopia av alla rapporter som du har tillgång till. Du kan antingen skapa en exakt kopia av en anpassad rapport eller spara en ny version av en standardrapport. När du har kopierat en rapport blir du ägare till den kopierade rapporten och den visas i delen Mina rapporter.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: 0841594c855c39fedf4eab5492994ff4f7acfbdf
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 0%

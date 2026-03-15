@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visa: Timmar med information om överordnad aktivitet'
 description: I timvyn visas namnet på den uppgift där timarna loggades samt namnet på den överordnade uppgiften.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: c24555fc-3bae-451b-8a44-28a8158199d1
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%

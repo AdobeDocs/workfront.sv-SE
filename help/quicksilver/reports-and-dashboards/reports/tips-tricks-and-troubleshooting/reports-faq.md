@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: Vanliga frågor och svar om rapporter
 description: Vanliga frågor och svar om rapporter
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1500'
 ht-degree: 0%

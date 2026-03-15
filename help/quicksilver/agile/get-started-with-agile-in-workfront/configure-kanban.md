@@ -3,10 +3,10 @@ product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: Konfigurera Kanban
 description: Du kan konfigurera följande alternativ för Kanban Agile-team under eller efter det att teamet har skapats.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1386'
 ht-degree: 0%
@@ -94,7 +94,7 @@ Så här definierar du de statusvärden som är tillgängliga för den artikelpa
 
 {{step1-to-team}}
 
-1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team &#x200B;](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
+1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team ](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
 
 1. Välj det Agile-team som du vill hantera.
 1. Klicka på menyn **[!UICONTROL More]** och välj sedan **[!UICONTROL Edit]**.
@@ -142,7 +142,7 @@ Så här konfigurerar du artikelkort som tilldelats Agile-teamet så att ytterli
 
 {{step1-to-team}}
 
-1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team &#x200B;](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
+1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team ](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
 
 1. Välj det Agile-team som du vill hantera.
 1. Klicka på menyn **[!UICONTROL More]** och välj sedan **[!UICONTROL Edit]**.
@@ -167,7 +167,7 @@ Så här begränsar du PIA för ditt Kanban-team:
 
 {{step1-to-team}}
 
-1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team &#x200B;](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
+1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team ](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
 
 1. Välj det Kanban-team som du vill hantera.
 1. Klicka på **[!UICONTROL More]**-menyn ![](assets/more-menu.png) och välj sedan **[!UICONTROL Edit]**.
@@ -192,7 +192,7 @@ Du kan konfigurera artiklar från en eftersläpning så att de automatiskt lägg
 
 {{step1-to-team}}
 
-1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team &#x200B;](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
+1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team ](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
 
 1. Välj det Kanban-team som du vill hantera.
 1. Klicka på **[!UICONTROL More]**-menyn ![](assets/more-menu.png) och välj sedan **[!UICONTROL Edit]**.

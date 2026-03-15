@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: Hantera PIA-gränsen (Work in Progress) för en styrelse
 description: Du kan konfigurera en PIA-gräns (Work In Progress) för varje kolumn på en anslagstavla.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 7901c6e7-75a4-41e4-b288-d527c4a6d031
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 0%

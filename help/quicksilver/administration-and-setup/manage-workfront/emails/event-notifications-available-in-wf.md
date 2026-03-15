@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: Händelsemeddelandetyper
 description: Händelsemeddelanden är e-postmeddelanden som utlöses av olika typer av händelser för objekt som projekt, uppgifter och problem. I den här artikeln listas och beskrivs de tillgängliga typerna av händelsemeddelanden.
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: f3016e77f086d221dc11398ec06cc7435ad82278
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '5237'
 ht-degree: 0%
@@ -171,7 +171,7 @@ Se även [Meddelanden: Åtgärd krävs](../../../workfront-basics/using-notifica
 
 ## Begäranden jag gjort
 
-Se även [Meddelanden: Jag har gjort &#x200B;](../../../workfront-basics/using-notifications/notifications-requests-i-have-made.md) förfrågningar.
+Se även [Meddelanden: Jag har gjort ](../../../workfront-basics/using-notifications/notifications-requests-i-have-made.md) förfrågningar.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -535,7 +535,7 @@ Se även [Meddelanden: Information om arbete som tilldelats mig](../../../workfr
 
 ## Information om projekt som jag är på
 
-Se även [Meddelanden: Information om projekt som jag är på &#x200B;](../../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md).
+Se även [Meddelanden: Information om projekt som jag är på ](../../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md).
 
 <table style="table-layout:auto"> 
  <col> 

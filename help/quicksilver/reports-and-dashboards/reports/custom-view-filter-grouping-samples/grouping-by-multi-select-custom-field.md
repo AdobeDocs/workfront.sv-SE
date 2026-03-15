@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: Gruppera en rapport efter ett anpassat fält som har valts flera gånger
 description: Du kan bara gruppera efter värdet i ett anpassat fält med flera val i en Adobe Workfront-rapport genom att använda textläge.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 0%

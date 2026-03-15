@@ -3,10 +3,10 @@ product-area: reporting;user-management
 navigation-topic: create-and-manage-reports
 title: Ändra rapportens ägare
 description: Du kan inte ändra rapportens ägare. När du kopierar en rapport blir du dock automatiskt ägare till den kopierade rapporten.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8089cbeb-4258-48b8-b13a-dfbd739c526a
-source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 0%

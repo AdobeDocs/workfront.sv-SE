@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Filter: Visa objekt efter status med samma namn när statusvärdena är kopplade till olika grupper'
 description: Du kan ha en uppgiftsstatus tilldelad till Grupp A med namnet Ny status med nyckeln NST med tre bokstäver. Du kan ha en annan uppgiftsstatus tilldelad Grupp B med namnet Ny status med nyckeln NES med tre bokstäver. Även om namnen för de två statusarna kan vara identiska är koden med tre bokstäver alltid unik. Mer information om gruppstatus finns i Skapa eller redigera en gruppstatus.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8ddcd8b1-44a9-4341-80c7-76ba70d2953b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%

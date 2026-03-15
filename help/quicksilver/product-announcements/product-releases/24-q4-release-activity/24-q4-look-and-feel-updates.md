@@ -1,11 +1,11 @@
 ---
 title: Uppdateringar som både ser ut och känns under den fjärde kvartersreleasen 2024
 description: Uppdateringar som både ser ut och känns under den fjärde kvartersreleasen 2024
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1188'
 ht-degree: 0%

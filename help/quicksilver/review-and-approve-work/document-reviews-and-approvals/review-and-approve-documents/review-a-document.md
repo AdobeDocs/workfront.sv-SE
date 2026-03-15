@@ -3,10 +3,10 @@ product-area: projects
 navigation-topic: approvals
 title: Granska ett dokument i Workfront
 description: Som granskare kan du förhandsgranska ett dokument som har skickats till dig för granskning.
-author: Nolan
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 3fd4d18e1be14cc27b3b39d4abf399ec26ddcd51
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 0%

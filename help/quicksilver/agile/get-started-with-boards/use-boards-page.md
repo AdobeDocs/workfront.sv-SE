@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Använda instrumentpanelen för anslagstavlor
 description: Kontrollpanelen [!UICONTROL boards] visar en lista med paneler som du har åtkomst till, inklusive paneler som du har skapat och paneler som du har lagts till i.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 0%
@@ -110,7 +110,7 @@ När du arkiverar en styrelse eller ett arbetsflöde skickas det till arkivet oc
 
    Arkiverade objekt är dolda på panelens kontrollpanel såvida du inte använder ett filter för att visa dem. Mer information finns i avsnittet [[!UICONTROL Filter boards]](#filter-boards) i den här artikeln.
 
-1. Om du vill återställa ett arkiverat bord eller arbetsflöde klickar du på **[!UICONTROL More]**-menyikonen ![Mer &#x200B;](assets/more-icon-spectrum.png) på anslagstavlan eller i arbetsflödet och väljer **[!UICONTROL Restore]**.
+1. Om du vill återställa ett arkiverat bord eller arbetsflöde klickar du på **[!UICONTROL More]**-menyikonen ![Mer ](assets/more-icon-spectrum.png) på anslagstavlan eller i arbetsflödet och väljer **[!UICONTROL Restore]**.
 
 ## Ta bort en anslagstavla eller ett arbetsflöde
 

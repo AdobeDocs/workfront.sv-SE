@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Formatera tal, valuta och procentvärden i textlägesrapporter
 description: Numeriska värden, inklusive valutor, kan konfigureras för visning i olika format i rapporter och listor i Adobe Workfront.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 965f5dcd-4844-4792-9fd0-a47814a325a4
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 2%

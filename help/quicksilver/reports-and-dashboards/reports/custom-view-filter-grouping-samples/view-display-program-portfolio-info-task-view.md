@@ -4,10 +4,10 @@ product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visa: Visa program- och Portfolio-information i en uppgiftsvy'
 description: I den här uppgiftsvyn visas programmet och Portfolio som är associerade med aktivitetens projekt. Den här informationen är inte tillgänglig i Report Builder när en uppgiftsvy skapas. Den här informationen är bara tillgänglig i textläge.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: cdd5a1e9-3cbf-4951-b803-fca544b2519a
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%

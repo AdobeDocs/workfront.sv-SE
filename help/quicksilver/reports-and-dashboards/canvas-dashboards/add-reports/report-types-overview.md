@@ -3,13 +3,13 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Översikt över rapporttyper
 description: Det finns ett antal olika rapporter som du kan lägga till på en Canvas Dashboard som visualiserar dina Workfront-data på olika sätt.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
 exl-id: d593a9d5-6351-48ff-891d-cc1b727188bc
-source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%

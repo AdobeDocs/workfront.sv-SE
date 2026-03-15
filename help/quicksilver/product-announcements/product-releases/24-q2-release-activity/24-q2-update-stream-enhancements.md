@@ -1,11 +1,11 @@
 ---
 title: Andra kvartalet 2024 Uppdateringsström och aviseringsförbättringar
 description: Andra kvartalet 2024 Uppdateringsström och aviseringsförbättringar
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
-source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Kommentarer som har gjorts i systemaktivitetsposterna i den tidigare kommentarfu
 
 Mer information finns i [Översikt över uppdateringsavsnittet](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Diskussionen om den här specifika funktionen börjar klockan 2:00)
+[Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Diskussionen om den här specifika funktionen börjar vid 2:00)
 
 ## Ny flik för uppdateringsström för att hämta både kommentarer och systemaktivitetsposter
 

@@ -3,10 +3,10 @@ navigation-topic: navigate-workfront
 title: Listor i  [!DNL Adobe Workfront]
 description: Du kan visa objekt i Adobe Workfront i listor. Du kan använda filter, vyer eller grupperingar i en lista för att ändra den information som visas. Det här avsnittet innehåller följande artiklar om listor
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 recommendations: noDisplay, noCatalog
 exl-id: 71819834-2e2d-4bdd-8c82-a01d2849355e
-source-git-commit: 97141bd032f672aae3ba1a18dfa5b3ca415adc41
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 0%

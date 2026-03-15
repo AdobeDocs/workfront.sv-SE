@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visa: Kombinerad uppgift och information om problem i en timlista'
 description: I den här timvyn kombineras kolumnerna Aktivitets- och Ärendenamn samt Aktivitets- och Utfärdandetimmar med hjälp av taggen sharecol. Eftersom en timpost bara kan tillhöra en aktivitet eller ett problem, kan båda objekten inte finnas i samma kolumn samtidigt. Varje rad i vyn innehåller information från en aktivitet eller ett problem.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: cf1137fd-c26a-4907-afe9-2373d3434631
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 0%

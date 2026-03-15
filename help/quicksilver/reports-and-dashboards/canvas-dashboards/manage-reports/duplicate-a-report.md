@@ -3,9 +3,10 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Duplicera en rapport på en arbetsytans kontrollpanel
 description: Du kan duplicera en rapport på en Canvas-kontrollpanel.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 7e14f7224b5383f94c330a1543b9e01b651ed821
+exl-id: e0f9d091-bb89-4c5b-a18d-b1e339084e67
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 0%

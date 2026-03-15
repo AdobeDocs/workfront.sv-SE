@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Översikt över vyer i Adobe Workfront
 description: Du kan anpassa den typ av information som du visar i en lista eller rapport genom att hantera vyn av listan eller rapporten. Du kan visa objekt och deras attribut i en vy.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 0%

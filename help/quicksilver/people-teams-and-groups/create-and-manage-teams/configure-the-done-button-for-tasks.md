@@ -3,10 +3,10 @@ product-area: agile-and-teams;setup
 navigation-topic: create-and-manage-teams
 title: Konfigurera Klar-knappen för uppgifter
 description: Knappen Klar kan automatiskt ange status för en uppgift eller ett problem. Som standard markeras en uppgift som Slutfört när en tilldelad klickar på Klar på sin arbetsuppgift.
-author: Jenny
+author: Courtney
 feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 0%

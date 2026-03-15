@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Lägga till en fråga i en rapport
 description: Filter och uppmaningar liknar varandra i den bemärkelsen att de båda begränsar den mängd information som du visar i en rapport.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1361'
 ht-degree: 0%

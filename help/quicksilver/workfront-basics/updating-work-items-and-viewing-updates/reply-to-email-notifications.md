@@ -3,10 +3,10 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Svara på e-postmeddelanden
 description: Du kan besvara e-postmeddelanden från Workfront som genererats från kommentarer som gjorts i projekt, uppgifter, utgåvor och andra objekt för att lägga till svar på de ursprungliga kommentarerna som gjorts i Adobe Workfront-programmet.
-author: Nolan and Alina
+author: Courtney and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 0%

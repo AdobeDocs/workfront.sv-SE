@@ -3,10 +3,10 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Filtrera en arbetsytans kontrollpanel
 description: Du kan använda ett filter på en Canvas-kontrollpanel när den har skapats.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
-source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 0%
@@ -176,6 +176,6 @@ Alla användare som har tillgång till en kontrollpanel kan lägga till en kontr
 1. I avsnittet **Visa poster där..** väljer du ett villkor för en eller alla uppmaningar som visas. Uppmaningen tillämpas och en **kontrollpanelsfilter**-tagg visas i hörnet av rapportwidgeten.
    ![Välj villkor](assets/prompts-list.png)
 
-1. Klicka på ikonen **Stäng** ![Stäng &#x200B;](assets/close-icon.png) i det övre högra hörnet om du vill dölja panelen.
+1. Klicka på ikonen **Stäng** ![Stäng ](assets/close-icon.png) i det övre högra hörnet om du vill dölja panelen.
 
 

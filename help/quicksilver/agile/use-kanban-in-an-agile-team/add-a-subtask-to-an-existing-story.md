@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Lägg till en underuppgift i en befintlig artikel i Kanban-styrelsen
 description: Läs den här artikeln om du vill veta mer om hur du skapar underaktiviteter för befintliga artiklar på Kanban-tavlan.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: c6610616-80e5-4ded-9d23-63f15536e45c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%

@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visa: Ursprunglig probleminformation för aktiviteter och projekt'
 description: När ett problem konverteras till en aktivitet eller ett projekt skapas en matchande objektrelation mellan aktiviteten eller projektet och problemet. I den här vyn visas fälten i problemet som slutförs automatiskt när aktiviteten eller projektet slutförs.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5fefb174-3a18-408f-aa12-3f4aff23acfa
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 0%

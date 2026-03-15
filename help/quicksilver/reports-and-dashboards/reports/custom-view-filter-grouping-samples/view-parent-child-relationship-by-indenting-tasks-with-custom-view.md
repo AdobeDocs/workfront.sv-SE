@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visa: Visa den överordnade-underordnade relationen i en uppgift genom att dra in uppgifterna'
 description: Du kan behålla skillnaden mellan överordnade och underordnade relationer i en exporterad uppgiftslista genom att lägga till en anpassad vy i uppgiftslistan och se till att den här vyn är markerad innan du exporterar listan.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 4987501f-a1d9-47cd-bfbe-83acfc225204
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%

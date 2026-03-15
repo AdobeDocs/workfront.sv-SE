@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Filter: Personliga uppgifter'
 description: Aktivitetsfiltret returnerar tillfälliga arbetsbegäranden som skickas till en användare eller att göra-objekt som lagts till av användare i hemområdet. Personliga uppgifter är inte kopplade till ett projekt, men de kan flyttas till ett projekt om det behövs.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 204cfae1-7c57-4223-9e00-ac94e1e2ba3a
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%

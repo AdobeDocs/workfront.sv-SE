@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visa: Visa överordnade aktiviteter upp till 4 nivåer Djup'
 description: I den här uppgiftsvyn visas aktivitetsnamnet i den första kolumnen och (om det finns) upp till 4 överordnade uppgifter i separata kolumner i samma lista.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 66b45d64-794d-4adc-b208-2ded0dc9c5dc
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 0%

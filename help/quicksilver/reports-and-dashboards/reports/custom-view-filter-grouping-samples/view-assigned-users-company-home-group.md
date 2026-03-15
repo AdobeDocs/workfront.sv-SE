@@ -4,10 +4,10 @@ product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visa: Tilldelad användares företag och hemgrupp'
 description: Den här uppgiftsvyn visar företag och hemgrupp för uppgiftens primära ägare. Dessa är värden som inte är tillgängliga i standardgränssnittet, men som är tillgängliga via textläge.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 818c1f3a-4e82-4dc3-af86-4f9dcf5c11a4
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 0%

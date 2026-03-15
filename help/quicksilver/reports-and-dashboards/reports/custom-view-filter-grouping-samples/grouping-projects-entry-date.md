@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Gruppera: Projekt efter anmälningsdatum'
 description: I den här anpassade projektgrupperingen kan du visa projekt grupperade efter deras värden för anmälningsdatum.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 511faad5-b5bd-4e2d-8daa-3fcde49a502c
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%

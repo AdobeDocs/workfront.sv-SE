@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: using-built-in-reports
 title: Inbyggda statusikoner i vyer
 description: Du kan lägga till det inbyggda fältet Statusikoner som en kolumn i vyerna för att förbättra synligheten i viktiga punkter om objekten.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1205'
 ht-degree: 0%

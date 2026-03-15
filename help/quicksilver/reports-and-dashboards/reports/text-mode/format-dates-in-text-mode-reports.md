@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Formatera datum i textlägesrapporter
 description: Datum kan konfigureras för visning i en mängd olika format i rapporter och listor i Adobe Workfront. Om du vill skapa ett datumformat måste du ändra värdeformatraden för textlägeskoden i kolumnen.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: ff0686aa-b306-4954-8f9b-3e98bf8cff22
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 0%
@@ -40,8 +40,8 @@ Du kan formatera datum med följande `valueformat`-textlägesvärden:
 | **Format** | Exempel  | ***värdeformat=*** |
 |---|---|---|
 | MM/DD/YY | 10/11/18 | `atDate` |
-| MM/DD/YY-tid | 10/11/18 12:00 pm | `longAtDate` |
+| MM/DD/YY-tid | 10/11/18 12:00pm | `longAtDate` |
 | MM/DD/YY | 10/11/18 | `shortAtDate` |
 | Mth, DD, YR | 11 okt 2018 | `mediumAtDate` |
 | DW, Mth, Day, YR | Mån, 11 oktober 2018 | `partialAtDate` |
-| DW, Mth, Day, YR Time | Mån, 11 oktober 2018 12:00 | `fullAtDate` |
+| DW, Mth, Day, YR Time | Mån, 11 oktober 2018 12:00 pm | `fullAtDate` |

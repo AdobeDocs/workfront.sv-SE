@@ -4,10 +4,10 @@ content-type: reference
 navigation-topic: boards
 title: Konfigurera eftersläpningen på en Workstream-anslagstavla
 description: Du kan välja att visa en eftersläpande kolumn på en anslagstavla i ett arbetsflöde och definiera en fråga för korten som hämtas till eftersläpningen i arbetsflödets kortlista.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
