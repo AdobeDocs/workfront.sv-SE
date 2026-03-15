@@ -1,13 +1,13 @@
 ---
 title: Redigera inställningar för ett team i inställningsområdet
 description: Som Adobe Workfront-administratör kan du redigera ett teams inställningar under Konfigurera. Du kan lägga till användare i ett team, ange teamets layoutmall och ange hur status ska registreras när arbetsobjekten slutförs av ett team.
-author: Jenny
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 648a36ce-5793-472f-9fee-9dedf71991ef
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 963a7099aa673d6ac96b7058b9fcb745f325d21e
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   <tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td><p>Nytt: Standard</p>
-       <p>eller</p>
-       <p>Aktuell: Planera</p></td>
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   </tr> 
   <tr> 
