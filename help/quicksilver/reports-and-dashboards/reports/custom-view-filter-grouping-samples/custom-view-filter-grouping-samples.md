@@ -63,7 +63,7 @@ I det här avsnittet finns exempel på anpassade vyer, filter och grupperingar s
 * [Visa: information om ursprungligt problem för aktiviteter och projekt](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md)
 * [Visa: visa den överordnade-underordnade relationen i en uppgift genom att dra in uppgifterna](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-parent-child-relationship-by-indenting-tasks-with-custom-view.md)
 * [Visa: Planerade timmar kontra faktiska timmar per tilldelning i en uppgiftsvy](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-planned-hours-actual-hours-assignment-task-view.md)
-* [Visa: information om föregående ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md)
+* [Visa: information om föregående &#x200B;](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md)
 * [Visa: projekt med alla användare och roller i projektteamet](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-all-project-team-users-roles.md)
 * [Visa: lista över projektanvändare med jobbroller](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md)
 * [Visa: ta bort länk till ett objekt i en kolumn](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-remove-link-to-object.md)

@@ -120,7 +120,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    1. Markera alla eller flera av objekten i listan och klicka sedan på **[!UICONTROL Edit]** om du vill redigera objekten gruppvis.
    1. När du är klar med redigeringarna klickar du på **[!UICONTROL Save Changes]**.
 
-1. (Valfritt) Om du vill exportera objekt som hittas av snabbfiltret markerar du alla eller flera av objekten i listan och klickar sedan på ikonen **[!UICONTROL Export]** ![Exportera ](assets/export.png) .
+1. (Valfritt) Om du vill exportera objekt som hittas av snabbfiltret markerar du alla eller flera av objekten i listan och klickar sedan på ikonen **[!UICONTROL Export]** ![Exportera &#x200B;](assets/export.png) .
 
    ![select_all_projects_with_highlight_1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 

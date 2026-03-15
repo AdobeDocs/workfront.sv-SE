@@ -132,7 +132,7 @@ När du har ställt in hur du vill att objekten ska visas måste du lägga till 
 
 
    ![Välj objekt för kalendern](assets/calendar-field-name.png)
-Mer information om hur du ställer in villkor finns i [Filter och villkorsmodifierare ](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md) .
+Mer information om hur du ställer in villkor finns i [Filter och villkorsmodifierare &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md) .
 
 1. (Valfritt) Ange ytterligare objekt för kalendergrupperingen genom att upprepa steg 1-4.
 1. I fältet **[!UICONTROL Set the Tasks/Projects/Issues labels to be the...]** väljer du hur objekten i den här kalendergruppen ska märkas i kalendern.

@@ -83,7 +83,7 @@ Mer information om syntaxen som du måste använda i en beräknad anpassad kolum
 
 I listorna nedan definieras de tillgängliga uttryck som du kan använda när du skapar en av de tre olika typerna av beräknade anpassade fält i Workfront:
 
-* [Anpassade fält för datum och tid ](#date-time-calculated-custom-fields)
+* [Anpassade fält för datum och tid &#x200B;](#date-time-calculated-custom-fields)
 * [Matematiskt beräknade anpassade fält](#mathematical-calculated-custom-fields)
 * [Textberäknade anpassade fält](#text-calculated-custom-fields)
 

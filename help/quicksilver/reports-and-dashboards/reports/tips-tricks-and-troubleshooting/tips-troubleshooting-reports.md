@@ -19,8 +19,8 @@ ht-degree: 0%
 
 This section contains the following articles:
 
-* [](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)
-* [](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-message-calendar.md)
-* [](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-running-report.md)
-* [](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/date-edits-shift-calendar.md)
+* [&#128279;](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)
+* [&#128279;](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-message-calendar.md)
+* [&#128279;](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-running-report.md)
+* [&#128279;](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/date-edits-shift-calendar.md)
 * [Data from shared columns not displayed in dashboard reports](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/shared-columns-not-displayed-in-report-dashboard.md)

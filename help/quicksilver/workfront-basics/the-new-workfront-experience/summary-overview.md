@@ -101,7 +101,7 @@ I den här artikeln beskrivs hur du får åtkomst till och använder panelen [!U
 
 Mer information om hur du får åtkomst till [!UICONTROL Summary] i [!UICONTROL Workload Balancer] finns i [Uppdatera arbetsobjekt i [!UICONTROL Workload Balancer] med [!UICONTROL Summary]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
 
-Mer information om hur du får åtkomst till [!UICONTROL Summary] för dokument finns i [[!UICONTROL Summary] för dokumentöversikt ](../../documents/managing-documents/summary-for-documents.md).
+Mer information om hur du får åtkomst till [!UICONTROL Summary] för dokument finns i [[!UICONTROL Summary] för dokumentöversikt &#x200B;](../../documents/managing-documents/summary-for-documents.md).
 
 
 ## Visa panelen [!UICONTROL Summary] i en lista över uppgifter eller problem
@@ -111,7 +111,7 @@ Mer information om hur du får åtkomst till [!UICONTROL Summary] för dokument 
 
    eller
 
-   Klicka på ikonen **[!UICONTROL Open Summary]** ![Öppna sammanfattning med text ](assets/open-summary-with-text-nwe.png) i avsnittet [!UICONTROL Submitted] i området [!UICONTROL Requests].
+   Klicka på ikonen **[!UICONTROL Open Summary]** ![Öppna sammanfattning med text &#x200B;](assets/open-summary-with-text-nwe.png) i avsnittet [!UICONTROL Submitted] i området [!UICONTROL Requests].
 
    När du har öppnat sammanfattningen förblir den öppen när du klickar på eller väljer andra uppgifter eller ärenden och är öppen tills du stänger den manuellt.
 
@@ -129,7 +129,7 @@ Mer information om hur du får åtkomst till [!UICONTROL Summary] för dokument 
 
      Klicka på ikonen **X** i det övre högra hörnet av panelen [!UICONTROL Summary].
 
-   * Klicka på ikonen [!UICONTROL Submitted] [!UICONTROL Requests]Stäng sammanfattning med text **[!UICONTROL Close Summary]** i avsnittet ![ i området ](assets/close-summary-with-text-nwe.png).
+   * Klicka på ikonen [!UICONTROL Submitted] [!UICONTROL Requests]Stäng sammanfattning med text **[!UICONTROL Close Summary]** i avsnittet ![&#x200B; i området &#x200B;](assets/close-summary-with-text-nwe.png).
 
      eller
 

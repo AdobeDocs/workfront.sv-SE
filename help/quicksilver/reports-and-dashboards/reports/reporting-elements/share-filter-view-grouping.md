@@ -85,7 +85,7 @@ Du kan dela ett filter i standardgränssnittet från listor med projekt, uppgift
 Dela ett filter med standardgränssnittet i Builder:
 
 1. Gå till en lista med projekt, uppgifter eller problem.
-1. Klicka på ikonen **Filter** ![Filter ](assets/filter-nwepng.png) .
+1. Klicka på ikonen **Filter** ![Filter &#x200B;](assets/filter-nwepng.png) .
 
    ![Standardfilterverktyg](assets/new-filters-all-filter-types.png)
 

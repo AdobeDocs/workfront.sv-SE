@@ -31,7 +31,7 @@ Du kan skapa IF-satser för följande Workfront-element:
 * Beräknade anpassade fält
 * Affärsregler
 
-Mer information om hur du skapar IF-satser finns i Översikt över [ IF-satser ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md).
+Mer information om hur du skapar IF-satser finns i Översikt över [&#x200B; IF-satser &#x200B;](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md).
 
 Exemplen i den här handboken visar hur du använder villkorsoperatorer i beräknade anpassade fält. Du kan även använda dem i beräknade anpassade kolumner eller grupperingar när du följer rätt syntax för beräknade anpassade fält i rapporter.
 

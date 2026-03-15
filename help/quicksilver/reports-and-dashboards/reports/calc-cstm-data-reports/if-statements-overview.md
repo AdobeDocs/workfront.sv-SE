@@ -57,7 +57,7 @@ Du kan skapa IF-satser i Workfront med följande format:
 
 * **Villkorsoperator** = det här är den operator som hjälper dig att skapa villkoret för din IF-sats. &quot;är lika med&quot; eller &quot;är större än&quot; är villkorsoperatorer. En lista med villkorsoperatorer som du kan använda i satser finns i [Villkorsoperatorer i beräknade anpassade uttryck](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
-* **Sant****Uttryck** = Detta är variabeln &quot;Sant&quot;, som instruerar ekvationen vilken indikator som ska visas när villkoren för villkoret är uppfyllda (sanna indikatorer).
+* **Sant**&#x200B;**Uttryck** = Detta är variabeln &quot;Sant&quot;, som instruerar ekvationen vilken indikator som ska visas när villkoren för villkoret är uppfyllda (sanna indikatorer).
 
 * **Falskt uttryck** = Det här är variabeln &quot;Falskt&quot;, som anger vilken indikator som ska visas för ekvationen när villkoren för villkoret inte uppfylls (falska indikeringar).
 
