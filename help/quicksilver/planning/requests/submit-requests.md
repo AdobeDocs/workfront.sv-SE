@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
 workflow-type: tm+mt
 source-wordcount: '2252'
 ht-degree: 0%
@@ -185,7 +185,7 @@ Om du aktiverar den här inställningen blir Workfront Planning-förfrågningsfo
 
      >[!NOTE]
      >
-     >Meddelanden via e-post och appar visas bara när din organisations instans av Workfront är kopplad till Adobe Unified Experience.
+     >E-postmeddelandet och meddelandet i appen visas bara när din organisations instans av Workfront är kopplad till Adobe Unified Experience.
      >
      >Det finns en länk till begäran i e-postbekräftelsen eller godkännandemeddelandet.
 
@@ -272,7 +272,7 @@ Informationen i det här avsnittet gäller endast för Workfront-användare som 
 
      >[!NOTE]
      >
-     >Meddelanden via e-post och appar visas bara när din organisations instans av Workfront är kopplad till Adobe Unified Experience.
+     >E-postmeddelandet och meddelandet i appen visas bara när din organisations instans av Workfront är kopplad till Adobe Unified Experience.
 
    <!-- <span class="preview"> After the request was approved and the record was created, the Approved by and Approved date fields display information about the approval on the record.</span>-->
 

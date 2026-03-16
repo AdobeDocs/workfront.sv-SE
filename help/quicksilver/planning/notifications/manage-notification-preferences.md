@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
+source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
+I den här artikeln beskrivs hur du kan hantera Adobe Workfront Planning-meddelanden, och inte Adobe Workfront-meddelanden, i allmänhet.
+
 Du kan få meddelanden i programmet eller via e-post när följande åtgärder inträffar i Workfront Planning:
 
 * Någon lägger till dig eller dina team i en kommentar på postsidan
@@ -30,6 +32,11 @@ Du kan få meddelanden i programmet eller via e-post när följande åtgärder i
 * Du skickar en Workfront Planning-förfrågan.
 * Någon godkänner eller avvisar en Workfront Planning-begäran som du har skickat in.
 * Statusen ändras till en Workfront Planning-förfrågan som du har skickat in.
+
+Du kan ta emot och hantera följande typer av meddelanden från Workfront Planning-aktiviteter:
+
+* I appen
+* E-post
 
 ## Åtkomstkrav
 
@@ -143,11 +150,19 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 Mer information om Workfront Planning-meddelanden finns i följande artiklar:
 
 * Mer information om kommentarer om poster finns i [Hantera postkommentarer](/help/quicksilver/planning/records/manage-record-comments.md).
+* Mer information om godkännandemeddelanden finns i följande artiklar:
+
+   * [Godkänn en begäran i Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md)
+   * [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md)
 * Information om meddelanden i appen från Workfront Planning finns i [Hantera meddelanden i appen för Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md).
 * Information om e-postmeddelanden från Workfront Planning finns i [Hantera e-postmeddelanden för Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md).
 
 
 ## Hantera meddelandeinställningar
+
+>[!NOTE]
+>
+>Du hanterar dina Workfront Planning-meddelanden med området Adobe-inställningar, och inte Workfront Notifications-området på din användarprofilsida.
 
 1. Logga in på Workfront med dina Adobe Experience Cloud-uppgifter.
 1. Klicka på ikonen **kontomeny** ![Konto-meny på Experience Cloud](assets/account-menu-icon-on-experience-cloud.png) i skärmens övre högra hörn och klicka sedan på **Inställningar**.
@@ -159,6 +174,7 @@ Avmarkera de meddelanden som du vill sluta ta emot.
    ![Adobe Experience Cloud-meddelandepanel för Workfront Planning](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
 1. Följande meddelanden är tillgängliga för Workfront:
 
+   * **Godkännanden**: Du får ett meddelande när någon skickar en planeringsbegäran för godkännande eller när de vill begära åtkomst till ett Planning-objekt från dig.
    * **Meningar**: Du får ett meddelande när någon taggar dig eller ditt team i en kommentar i Workfront Planning
    * **Begäranden**: Du får ett meddelande när någon har gjort något av följande:
 
@@ -167,7 +183,7 @@ Avmarkera de meddelanden som du vill sluta ta emot.
       * Status för en Workfront Planning-begäran som du har skickat in ändringar för
       * Begär, beviljar eller avvisar ett godkännande av en Workfront Planning-begäran
 
-   Mer information om hur du hanterar meddelanden finns i [Kontoinställningar och meddelanden](https://experienceleague.adobe.com/sv/docs/core-services/interface/features/account-preferences).
+   Mer information om hur du hanterar meddelanden finns i [Kontoinställningar och meddelanden](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 <!--OLD: notifications are not available to non-IMS customers: 
 
@@ -177,7 +193,7 @@ The following scenarios exist:
 
 * Adobe Unified Experience customers receive both an in-app notification and an email notification. They can manage their in-app and email notification preferences in the Preferences area of their Adobe Experience Cloud profile for the Workfront product. 
 
-    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/sv/docs/core-services/interface/features/account-preferences).
+    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 * Customers who are not on the Adobe Unified Experience receive only an email notification. They cannot manage their email notifications preferences and will always receive an email when someone adds them to a comment on a record in Workfront Planning.   
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
 +++
 
-## Godkänn en begäran om att skapa en post
+## Godkänn en planeringsförfrågan för att skapa en post
 
 När användare har lagt till begäranden i ett formulär för posttypbegäran som är kopplat till ett godkännande, skickas begäran till godkännarna.
 
@@ -93,65 +93,66 @@ Godkännare får följande meddelanden om en begäran som väntar på deras godk
 * Ett meddelande i appen
 * Ett e-postmeddelande
 
+Mer information om hur du godkänner begäranden från meddelanden finns i följande artiklar:
+
+* [Hantera e-postmeddelanden om Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md)
+* [Hantera meddelanden i appen för Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md)
+
 >[!NOTE]
 >
 >Din organisations instans av Workfront måste vara registrerad på Adobe Unified Experience för att användare ska kunna ta emot e-post och meddelanden i appen.
 
 Du kan godkänna begäranden om att skapa poster från själva begäran eller från widgeten Mina godkännanden i Hem.
 
-* [Godkänn en begäran från begäran i Workfront Planning](#approve-a-request-from-the-request-in-workfront-planning)
-* [Godkänn en begäran från widgeten Mina godkännanden i Hem](#approve-a-request-from-the-my-approvals-widget-in-home)
+### Godkänn en planeringsbegäran från ett meddelande eller från området Begäranden
 
-### Godkänn en begäran från begäran i Workfront Planning
+1. Öppna begäran genom att göra något av följande:
 
-1. (Villkorligt) Om du använder den äldre begärande funktionen i Workfront, öppnar du begäran genom att göra något av följande:
-
-   * Om du har tillgång till Workfront Planning och kan visa minst en arbetsyta klickar du på **Huvudmeny** ![Huvudmeny för punkter](assets/dots-menu.png) i skärmens övre högra hörn, eller på **Huvudmeny** ![Huvudmenyn för rader](assets/lines-menu.png) i det övre vänstra hörnet, om det är tillgängligt, och klickar sedan på **Förfrågningar** > **Skickade** > **Planera** och klicka på begäran med statusen **Väntande granskning** eller **Under granskning** .
+   * Klicka på **Huvudmeny** ![Rader på huvudmenyn](assets/lines-menu.png) i det övre vänstra hörnet, klicka sedan på **Förfrågningar** > **Använd ny upplevelse** och klicka på begäran med statusen **Väntande granskning**.
 
      >[!TIP]
      >
-     >Om du inte har tillgång till Workfront Planning, eller om du inte har åtkomst till att visa några arbetsytor, kan du bara få åtkomst till en begäran om att godkänna den via e-post eller meddelanden i appen.
+     >* Om du inte har tillgång till Workfront Planning, eller om du inte har åtkomst till att visa några arbetsytor, kan du bara få åtkomst till en begäran om att godkänna den via e-post eller meddelanden i appen.
+     >* Du kan inte komma åt planeringsbegäranden från den äldre upplevelsen av begäranden.
 
    * Klicka på ikonen för området **Meddelanden** ![Meddelanden i det enhetliga gränssnittet](assets/notifications-area-icon-unified-shell.png) i skärmens övre högra hörn och klicka på meddelandet om en begäran som väntar på ditt godkännande för att öppna begäran.
-   * Gå till e-postmeddelandet i ditt e-postmeddelande som meddelar dig om en begäran som väntar på ditt godkännande och klicka sedan på **Öppna begäran** för att öppna begäran. <!--add the name of the button here, from the email-->
+   * Gå till e-postmeddelandet i ditt e-postmeddelande som meddelar dig om en begäran som väntar på ditt godkännande och klicka sedan på **Öppna begäran** för att öppna begäran.
 
    Förfrågningssidan öppnas i skrivskyddat läge.
 
    ![Skrivskyddad begärandesida med granskningsstatus](assets/read-only-reqeust-page-in-review-status.png)
-1. Om du använder den nya begärandefunktionen i Workfront klickar du på **Huvudmeny** ![Primär meny](assets/dots-menu.png) i skärmens övre högra hörn eller på **Huvudmeny** ![Rader-huvudmenyn](assets/lines-menu.png) i skärmens övre vänstra hörn, om den är tillgänglig, klickar sedan på **Förfrågningar** och klickar på den begäran som du vill godkänna med statusen **10&rbrace; Väntande granskning**.
 1. (Valfritt) Klicka på ikonen **Godkännanden** ![Godkännanden](assets/approvals-icon.png) i det övre högra hörnet av begäran för att visa godkännarna.
 1. Klicka på **Granska och godkänn** och välj sedan något av följande:
 
    * **Godkänn**: Detta godkänner begäran. En post skapas omedelbart för den posttyp som är associerad med begärandeformuläret efter att alla godkännare har godkänt begäran.
    * **Avvisa**: Detta avvisar begäran, även om du är den enda godkännaren som avvisar den. Ingen post skapas för den posttyp som är associerad med begärandeformuläret.
 
-   Användaren som skickade begäran får ett e-postmeddelande och i ett program-meddelanden när deras begäran har godkänts eller avvisats.
+   Användaren som skickade begäran får ett e-postmeddelande och ett appmeddelande när deras begäran godkänns eller avvisas.
 
    Status för begäran ändras till följande, beroende på beslutet om godkännande:
 
    * **Slutförd**: Begäran har godkänts.
    * **Avvisad**: Begäran nekades.
 
-   Begäran finns kvar under Begäranden i Workfront.
+   Begäran finns kvar i området **Begäranden** i Workfront.
 
 ### Godkänn en begäran från widgeten Mina godkännanden i Hem
 
 {{step1-to-home}}
 
-eller
+1. Gå till widgeten **Mina godkännanden** i **Hem**.
 
-Klicka på ikonen [!UICONTROL Home] ![Hem](/help/_includes/assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront och leta sedan upp widgeten Mina godkännanden.
+   ![Widgeten Mina godkännanden i Hem](assets/my-approvals-widget-in-home.png)
+1. Leta reda på planeringsbegäran som du vill godkänna eller avvisa.
 
-1. Leta reda på objektet som du vill godkänna eller avvisa.
+1. (Valfritt) Lägg till en kommentar genom att klicka på listrutepilen bredvid **Godkänn** eller **Avvisa**, skriva i anteckningen och klicka på **Lägg till**.
 
-1. (Valfritt) Lägg till en kommentar genom att klicka på listrutepilen bredvid Godkänn eller Avvisa, skriva i anteckningen och klicka på Lägg till.
-
-1. Välj något av följande:
+1. Klicka på något av följande:
 
    * **Godkänn**: Detta godkänner begäran. En post skapas omedelbart för den posttyp som är associerad med begärandeformuläret efter att alla godkännare har godkänt begäran.
    * **Avvisa**: Detta avvisar begäran, även om du är den enda godkännaren som avvisar den. Ingen post skapas för den posttyp som är associerad med begärandeformuläret.
 
-   Användaren som skickade begäran får ett e-postmeddelande och i ett program-meddelanden när deras begäran har godkänts eller avvisats.
+   Användaren som skickade begäran får ett e-postmeddelande och ett appmeddelande när deras begäran godkänns eller avvisas.
 
    Status för begäran ändras till följande, beroende på beslutet om godkännande:
 

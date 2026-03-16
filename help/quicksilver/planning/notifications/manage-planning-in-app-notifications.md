@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
+source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -155,8 +155,16 @@ OLD:
 
 ## Hantera meddelanden i appen när du begär och beviljar behörigheter
 
-Du får meddelanden i appen när någon begär eller ger dig behörighet till en vy eller arbetsyta. <!--<span class="preview">or record</span>-->
+Du får meddelanden i appen när någon begär eller ger dig behörighet för en vy, arbetsyta eller posttyp. <!--<span class="preview">or record</span>-->
 
 Mer information om att begära, bevilja eller neka behörigheter finns i [Begära behörigheter till en vy eller en arbetsyta](/help/quicksilver/planning/access/request-permissions.md).
 
 Information om hur du hanterar dina Workfront Planning-meddelanden finns i [Hantera aviseringsinställningar för Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
+
+## Hantera meddelanden i appen när Planning-begäranden godkänns eller avvisas
+
+Du får ett meddelande i appen när någon skickar en begäran om godkännande eller när någon godkänner en begäran som du har skickat in.
+
+Mer information om hur du skickar begäranden finns i [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md).
+
+Mer information om hur du godkänner begäranden finns i [Godkänn en begäran i Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).

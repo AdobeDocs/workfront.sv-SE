@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
+source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -180,6 +180,13 @@ Information om hur du hanterar dina Workfront Planning-meddelanden finns i [Hant
 när du har skickat en begäran eller efter att en begäran som du har skickat har godkänts eller avvisats. E-postmeddelandets avsändare är Adobe Workfornt.
 
 1. (Valfritt) Klicka på **Öppna begäran**. Detta öppnar förfrågan i Workfront Planning.
+
+1. Klicka på knappen **Granska och godkänn** i det övre högra hörnet av begäran och klicka sedan på något av följande:
+
+   * **Godkänn** för att godkänna begäran. En post skapas när du godkänner en planeringsbegäran.
+   * **Avvisa** om du vill avvisa begäran. Ingen post skapas när du avvisar en begäran i Workfront Planning. Begäran sparas i området Förfrågningar med statusen **Avvisad**.
+
+   ![Granska och godkänn-knapp på planeringsbegäran](assets/review-approval-button-with-drop-down-expanded.png)
 
 1. Klicka på ikonen **Notifications** ![Notifications Area icon Unified Shell](assets/notifications-area-icon-unified-shell.png) i skärmens övre högra hörn för att komma åt sidan **Notifications** .
 

@@ -6,9 +6,9 @@ description: Du kan redigera projektmallar för att återspegla ändringar i pro
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
 workflow-type: tm+mt
-source-wordcount: '5672'
+source-wordcount: '4971'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Du kan redigera en mall i taget eller redigera flera mallar samtidigt.
 
 1. Gå till mallen som du vill redigera.
 1. (Villkorligt) Om du vill redigera begränsad information om mallen klickar du på **Mallinformation** i den vänstra panelen och går sedan till de områden som visas i den vänstra panelen för att redigera information för varje område.
-1. Om du vill redigera information i detaljavsnittet klickar du på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) , väljer något av områdena nedan eller klickar på **Redigera alla** om du vill redigera information i alla områden:
+1. Om du vill redigera information i detaljavsnittet klickar du på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) , väljer något av områdena nedan eller klickar på **Redigera alla** om du vill redigera information i alla områden:
 
    * Översikt
    * Anpassad Forms
@@ -269,94 +269,36 @@ Du kan redigera en mall i taget eller redigera flera mallar samtidigt.
 1. Uppdatera följande fält:
 
    <table style="table-layout:auto"> 
-       <col> 
-       <col> 
-       <tbody> 
-         <tr> 
-         <td role="rowheader"><strong>Beskrivning</strong></td> 
-         <td>Lägg till ytterligare information om mallen.</td> 
-       </tr> 
-         <tr> 
-         <td role="rowheader"><strong>Prioritet</strong></td> 
-         <td><p>Det här är bara en visuell flagga som gör att du kan prioritera dina framtida projekt. Välj bland följande alternativ:</p> 
-         <ul> 
-         <li><p><strong>Ingen</strong></p></li> 
-         <li><p><strong>Låg</strong></p></li> 
-         <li><p><strong>Normal</strong></p></li> 
-         <li><p><strong>Hög</strong></p></li> 
-         <li><p><strong>Urgent</strong></p></li> 
-         </ul><p><p>Beroende på vilka projektinställningar du har valt av Workfront-administratören kan prioritetsnamnen vara olika för dig. Mer information om redigeringsprioriteringar finns i <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Skapa och anpassa prioriteringar</a>.</p></p></td> 
-       </tr> 
-       <tr> 
-       <td role="rowheader"><strong>URL</strong></td> 
-         <td>Ange en webblänk som relaterar till information om den här mallen.</td> 
-       </tr>
+    <col> 
+    <col> 
+    <tbody> 
       <tr> 
-      <td role="rowheader"><strong>Är aktiv</strong></td> 
-      <td><p>Aktivera det här alternativet om du vill att mallen ska vara aktiv. Andra användare kan hitta den här mallen och bifoga den till projekt när de skapar projekt. Inaktivera alternativet om du vill inaktivera mallar som inte längre används. Inaktiverade mallar kan inte bifogas till projekt. Detta är aktiverat som standard. </p><p><b>TIPS</b></p>
-
-   <p>Du kan inaktivera en mall från mallhuvudet enligt beskrivningen i avsnittet Aktivera eller inaktivera en mall i den här artikeln.</p></td> 
+      <td role="rowheader"><strong>Valuta</strong></td> 
+      <td><p>Ange valutan för det framtida projektet, om den skiljer sig från standardvalutan i systemet. Det här fältet är inte synligt om du bara har standardvalutan i systemet.<br>Mer information om valutor finns i <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Konfigurera valutakurser</a>.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Budget</strong></td> 
+      <td><p>Ange en budget för de projekt som skapas från den här mallen.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Resultatindexmetod</strong></td> 
+      <td><p>Ange om det framtida projektets värden för Intjänat värde ska beräknas med timmar eller kostnader. Mer information om prestandaindexmetoden finns i <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Ange prestandaindexmetod (PIM)</a>. </p></td> 
+     </tr>
+     <tr> 
+      <td role="rowheader"><strong>Planerad förmån</strong></td> 
+      <td><p>Ange den planerade fördelen för de projekt som skapas från den här mallen. Den planerade förmånen används i projektens och Portfolio Optimizters affärsfall. </p><p>Mer information om en planerad förmån för ett projekt finns i <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Översikt över projektplanerad förmån</a>. Den planerade fördelen med ett projekt beaktas när ett projekts nettovärde beräknas. </p><p>Mer information om hur du använder Portfolio Optimizer finns i <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Hantera projekt i Portfolio Optimizer</a>. </p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Fast kostnad</strong></td> 
+      <td><p>Ange fast kostnad för projekt som skapas från den här mallen. Detta skiljer sig från arbetskostnaden som kommer från timmarna i projektet och kostnaden som kommer från kostnaderna för projektet. Den fasta kostnaden för ett projekt tas med i beräkningen av ett projekts nettovärde och ingår i den budgeterade kostnaden.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Fast intäkt</strong></td> 
+      <td><p>Ange fasta intäkter för projekt som skapas från den här mallen.</p></td> 
      </tr>
 
-   <tr> 
-      <td role="rowheader"><strong>Villkorstyp</strong></td> 
-      <td><p>Välj mellan följande villkorstyper:</p> 
-      <ul> 
-      <li><strong>Manuell:</strong> Projektägaren ställer in projektets villkor manuellt i projektet. <strong></strong></li> 
-      <li><strong>Förloppsstatus:</strong> Workfront ställer automatiskt in villkoret för det framtida projektet baserat på förloppsstatusen för aktiviteter på den kritiska sökvägen. Mer information om förloppsstatus finns i <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Översikt över status för åtgärdsförlopp</a>.</li> 
-      </ul>
-      </td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Schemaläge</strong></td> 
-      <td><p>Ange om det projekt som använder den här mallen är schemalagt från <strong>Startdatum</strong> eller från <strong>Slutförandedatum</strong>. Det här valet bestämmer planerade datum för framtida aktiviteter i projektet med den här mallen. </p><p>Välj bland följande: </p> 
-      <ul> 
-      <li><p><strong>Schemalägg från startdatum</strong>: Mallens startdatum är i själva verket startdagen. När du schemalägger en mall från startdatum beräknas mallens avslutningsdag baserat på varaktigheten för alla malluppgifter i Adobe Workfront. Mallens startdag blir det planerade startdatumet för det framtida projektet.</p></li> 
-      <li><p><strong>Schema från slutförandedatum</strong>: Mallens slutförandedatum är faktiskt Slutförandedag. När du schemalägger en mall från Slutförandedatum beräknas mallens startdag i Workfront utifrån varaktigheten för alla malluppgifter. Mallens slutförandedag blir det planerade slutförandedatumet för det framtida projektet. </p></li> 
-      </ul><p>Mer information om Start- och slutförandedagar för malluppgifter finns i <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">Översikt över Start- och slutförandedagar i en mall</a>. </p><p>Inställningen Schemalägg från för mallar liknar inställningen för projekt. Workfront-administratören väljer standardinställningen Schemalägg från för projekten i ditt system. Mer information om hur du anger standardinställningar för projekt finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>.</p></td> 
-      </tr>
-
-   <tr> 
-      <td role="rowheader"><strong>Portfolio</strong></td> 
-      <td><p>Ange en Portfolio för de projekt som skapas från den här mallen. Du måste skapa en Portfolio innan den visas i listrutan. </p><p>Endast aktiva portföljer visas i listan. Mer information om hur du skapar portföljer finns i <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Skapa en portfölj </a>.</p></td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Program</strong></td> 
-      <td><p>Om du har valt en Portfolio för mallen anger du ett <strong>program</strong> för det framtida projektet. Vissa portföljer kanske inte har program. Du måste skapa ett program innan det visas i den här listrutan. Endast aktiva program visas i listan.</p><p>Mer information om hur du skapar program finns i <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Skapa ett program</a>.</p></td> 
-      </tr>  
-      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-      <td role="rowheader"><strong>Grupp</strong></td> 
-      <td><p>I listrutan väljer du den grupp som du vill ska associeras med projekt som skapats från mallen. Det kan vara en grupp på alla nivåer. </p><p>Du kan kontrollera att du markerar rätt grupp genom att hålla markören över den och klicka på informationsikonen <img src="assets/info-icon.png"> som visas bredvid den. Här visas ett verktygstips med information om gruppen, till exempel hierarkin för grupper ovanför och dess administratörer.</p> <p><b>ANTECKNINGAR</b>
-
-   <ul> 
-      <li><p>När någon skapar ett projekt med en mall som inte har en grupp markerad, kopplas den öppna gruppen till projektet i området Projekt på en grupps sida.</p><p>Detta skiljer sig från andra områden där systemet associerar en användares hemgrupp med projektet när användaren skapar projektet med en mall som inte har någon markerad grupp.</p></li> 
-      <li><p>Om en användare väljer en mall som har en grupp markerad när ett projekt skapas, eller när en uppgift eller ett problem konverteras till ett projekt, kan användaren välja en annan grupp för projektet.</p></li> 
-      <li>Det här fältet är endast tillgängligt i mallar i den nya Adobe Workfront-upplevelsen, men du kan se det i listor och rapporter både där och i Adobe Workfront Classic. </li> 
-      </ul> </p></td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Företag</strong></td> 
-      <td><p>Ange det företag som du vill associera med mallen. Endast aktiva företag visas i listan.</p></td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Mallägare</strong></td> 
-      <td><p>Användaren som anges som mallägare måste vara en Workfront-aktiv användare. </p><p>Tänk på följande när det gäller användaren som angetts som mallägare: </p> 
-      <ul> 
-      <li>De får automatiskt behörigheten Hantera till mallen. </li> 
-      <li>De läggs till i projektteamet och får automatiskt behörigheten Hantera för det projekt som skapas från mallen. </li> 
-      <li>De blir projektägare när projektet skapas från den här mallen. </li> 
-      <li> Om den användare som är utsedd som mallägare har begränsad åtkomst till mallar eller projekt från åtkomstnivån, begränsas behörigheten Hantera för mallen och för projekten. Om de till exempel bara har behörigheten Visa för mallar eller projekt på åtkomstnivån får de automatiskt behörigheterna Visa för mallen och projektet när de har angetts som mallägare.</li>
-      </ul></td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Mallsponsor</strong></td> 
-      <td><p>Användaren som anges i det här fältet blir projektsponsorn när mallen läggs till i projektet. Den här användaren läggs till i projektteamet och får automatiskt visningsbehörighet för projektet. Användaren som är angiven som mallsponsor måste vara en Workfront-användare. </p></td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Resurshanteraren</strong></td> 
-      <td><p>De angivna användarna får automatiskt behörighet att hantera framtida projekt och kan tilldela resurser till uppgifter och ärenden i projekten. Du kan ange mer än en resurshanterare. </p></td> 
-      </tr> 
-      </table>
+   </tbody> 
+   </table>
 
 1. (Valfritt) Fortsätt redigera följande avsnitt, beroende på vilken information du vill ändra.
 
