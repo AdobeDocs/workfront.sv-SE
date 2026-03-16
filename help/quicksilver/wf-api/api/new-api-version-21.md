@@ -6,9 +6,10 @@ description: Adobe Workfront släppte API-version 21 den 23 oktober 2025. API ve
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 7166a6b51a45b744a33df697c2bc8080427908a8
+exl-id: 7fb9131a-b815-4990-acba-cc75a24f389f
+source-git-commit: ec696c0ffa6a25cd274d494c9c1b475f99f661e2
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -398,7 +399,7 @@ Ett kategoriobjekt är ett anpassat formulär.
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Åtgärder</td>
+      <td role="rowheader">Instruktioner</td>
       <td>
         <ul>
           <li>
@@ -483,7 +484,7 @@ Ett Parameter-objekt är ett anpassat fält.
             <p>Följande möjliga värde har lagts till:</p>
              <ul>
               <li>
-                <p><code>RICHLX</code> (Lexikalisk RTF)</p>
+                <p><code>HTML</code> </p>
               </li>
             </ul>
          </li>
@@ -630,7 +631,7 @@ Ett QueueDef-objekt representerar en kö, vilket är ett projekt som har publice
       </td>
     </tr>
     <tr>
-      <td role="rowheader">Åtgärder</td>
+      <td role="rowheader">Instruktioner</td>
       <td>
         <ul>
           <li>
@@ -983,5 +984,3 @@ Ett Work-objekt är ett vanligt gränssnitt som både Task och OpTask ärver och
     </tr>
   </tbody>
 </table>
-
-
