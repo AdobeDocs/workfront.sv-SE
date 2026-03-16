@@ -7,9 +7,9 @@ description: För att få åtkomst till Data Connect-data måste du först skapa
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: b6267718fd76a643395c850b97352095a0fe12fc
+source-git-commit: 32f738e56a471407997031e13bb22abe81ac535c
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
@@ -138,7 +138,7 @@ Så här skapar du ett läsarkonto:
 
 Du måste använda RSA-nyckeln med det användarnamn du valde för att logga in på Snowflake, så att du kan registrera både den och URL:en. Markera kryssrutan som hävdar att du har gjort det och klicka sedan på **Stäng**.
 
-    ![Dialogruta för RSA-nyckel](Assets/rsa-test.png)
+![Dialogrutan för RSA-nyckel](assets/rsa-test.png)
 
 ## Återkalla ett läsarkonto
 
