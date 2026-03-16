@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 16c564a9-abd7-4b07-be3e-9c823f40177d
-source-git-commit: 97c351ca38a8b6075634b2f755f2330562bc8b52
+source-git-commit: 7f17ffc179914747d29c4acb08b34341c5a4b7b4
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -101,6 +101,8 @@ Befintliga kunder kan aktivera Adobe Enterprise-lagring i sin miljö när avtale
 
 
 
+## Överväganden
 
+* Workfront kan bli osynkroniserat med Frame.io eller Creative Cloud, t.ex. en resurs som tas bort i Workfornt men fortfarande visas i Frame.io, kontakta Workfront support för att få din miljö omsynkroniserad.
 
 

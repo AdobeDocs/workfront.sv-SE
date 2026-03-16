@@ -7,9 +7,10 @@ description: Du kan aktivera Adobe Enterprise-lagring för din organisation så 
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 97c351ca38a8b6075634b2f755f2330562bc8b52
+exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
+source-git-commit: e70a65447fe508d055809271edad399d823f66dd
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -65,5 +66,10 @@ Så här aktiverar du Adobe Enterprise-lagring för din organisation:
    >Om du aktiverar det här alternativet kan användarna välja lagringsleverantör när de skapar ett nytt projekt. Enterprise-lagring är märkt som&quot;Nytt projekt&quot; eftersom det är standardlagringsprovidern. Äldre Workfront-lagring är märkt som ett äldre projekt.
    >
    >![nya projekt och äldre projektalternativ](assets/new-esm-project.png)
+
+1. Välj något av följande alternativ i listrutan Tillämpa på:
+
+   - **Hela organisationen**: Med det här alternativet används standardlagringsprovidern i hela Workfront-miljön. När en användare skapar ett nytt projekt används standardlagringsprovidern.
+   - **Specifika grupper**: Med det här alternativet används standardlagringsprovidern endast för specifika grupper i organisationen. När en användare i de angivna grupperna skapar ett nytt projekt används standardlagringsprovidern
 
 1. Klicka på **Spara**.
