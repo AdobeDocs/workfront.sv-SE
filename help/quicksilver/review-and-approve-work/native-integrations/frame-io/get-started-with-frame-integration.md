@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
+source-git-commit: 990af6c3e0f026de495b666a108a8bbce5118c1b
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
@@ -67,16 +67,13 @@ Granskare och godkännare kan läggas till i ett arbetsflöde för engångsgodk�
 
 * **Engångsgodkännanden**: I det projekt eller den uppgift där resursen finns kan projektkoordinatorn tilldela granskare och godkännare och ange en sluttid. Granskare och godkännare får påminnelser via e-post 72 timmar före ansökningsdeadline, 24 timmar före ansökningsdeadline och sedan efter själva deadline.
 
-  Mer information finns i [Skapa ett arbetsflöde för dokumentgodkännande](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+  Mer information finns i [Skapa ett arbetsflöde för dokumentgodkännande](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-from-the-summary-panel-in-the-new-document-area).
 
 * **Godkännandemallar**: Under Konfigurera i Workfront kan projektsamordnare skapa återanvändbara godkännandemallar. I en mall kan användare lägga till granskare och godkännare och ange en tidsram för slutförande. När godkännandemallen används för en resurs beräknas tidsgränsen från den angivna tidsramen.
 
   När en mall har skapats kan den tillämpas på en mediefil för att starta den formella gransknings- och godkännandeprocessen i Workfront.
 
   Mer information finns i [Skapa en arbetsflödesmall för godkännande för dokument](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
-
-
-  ![Tilldela mall](assets/assign-template.png)
 
 ### Granska och godkänn resurser i Frame.io-visningsprogrammet
 
