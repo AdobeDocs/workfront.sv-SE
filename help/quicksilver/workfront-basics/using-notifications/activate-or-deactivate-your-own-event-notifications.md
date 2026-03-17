@@ -7,9 +7,9 @@ description: I den här artikeln beskrivs hur du kan hantera e-postmeddelanden i
 author: Courtney, Becky
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+source-git-commit: 571deef920ed11f6cd7d59da5ba91ef58e88ab9e
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-Din Adobe [!DNL Workfront]-administratör konfigurerar vilka e-postmeddelanden som användare får när händelser inträffar i Workfront (enligt beskrivningen i [[!UICONTROL Configure event] -meddelanden för alla i systemet &#x200B;](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
+Din Adobe [!DNL Workfront]-administratör konfigurerar vilka e-postmeddelanden som användare får när händelser inträffar i Workfront (enligt beskrivningen i [[!UICONTROL Configure event] -meddelanden för alla i systemet ](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
 Gruppadministratören kan också konfigurera vilka meddelanden som är aktiverade för dig och användarna i [!UICONTROL Home Group]. Om [!UICONTROL Home Group] är en undergrupp får du meddelanden som är aktiverade för den översta gruppen ovanför gruppen.
 
@@ -30,7 +30,7 @@ Mer information om e-postmeddelanden finns i [[!DNL Adobe Workfront] meddelanden
 >
 >* Om du aktiverar en meddelandetyp och sedan upptäcker att du inte får meddelanden av den typen, kan det bero på att den typen inte gäller för din roll.
 >* Administratören [!DNL Workfront] eller en gruppadministratör kan inte konfigurera meddelanden för [!DNL Workfront Goals]. Mer information om vilka meddelanden [!DNL Workfront]-administratören kan konfigurera finns i [Konfigurera händelsemeddelanden för alla i systemet](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md). Mer information om hur du konfigurerar enskilda meddelanden för [!DNL Workfront Goals] finns i den här artikeln.
->
+>* Godkännandemeddelanden gäller endast för äldre dokumentgodkännanden. Meddelandekontroller för enhetliga dokumentgodkännanden är för närvarande inte tillgängliga.
 
 ## Åtkomstkrav
 
@@ -63,7 +63,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 {{step1-click-profile-pic}}
 
-1. Klicka på ikonen **[!UICONTROL More]** ![Mer &#x200B;](assets/more-icon.png) bredvid ditt namn och klicka sedan på **[!UICONTROL Edit]**.
+1. Klicka på ikonen **[!UICONTROL More]** ![Mer ](assets/more-icon.png) bredvid ditt namn och klicka sedan på **[!UICONTROL Edit]**.
 
 1. Gå till avsnittet **[!UICONTROL Edit Person]** i rutan **[!UICONTROL Notifications]** som visas.
 

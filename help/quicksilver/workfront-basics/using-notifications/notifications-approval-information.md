@@ -6,9 +6,9 @@ description: Följande meddelanden informerar dig om godkännandeaktiviteter fö
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e152913e-de7e-405f-af63-827a9b91e2ae
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+source-git-commit: 571deef920ed11f6cd7d59da5ba91ef58e88ab9e
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 0%
 # Meddelanden: Godkännandeinformation
 
 Följande meddelanden informerar dig om godkännandeaktiviteter för en arbetsuppgift som du är inblandad i. Mer information om hur du konfigurerar vilka meddelanden du får finns i [Ändra dina egna e-postmeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+
+>[!NOTE]
+>
+>Dessa meddelanden gäller endast för äldre dokumentgodkännanden. Meddelandekontroller för enhetliga dokumentgodkännanden är för närvarande inte tillgängliga.
+
 
 Se även [Händelsemeddelanden](../../workfront-basics/using-notifications/event-notifications.md).
 

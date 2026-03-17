@@ -7,7 +7,7 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 16c564a9-abd7-4b07-be3e-9c823f40177d
-source-git-commit: 7f17ffc179914747d29c4acb08b34341c5a4b7b4
+source-git-commit: c4c4eb8e04b8e43a6681a92c3ee1e3a177ad0983
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Det uppdaterade gränssnittet förenklar navigeringen, ger större tydlighet och
 
 >[!IMPORTANT]
 >
->I Adobe Enterprise-lagring fungerar dokumentbehörigheter annorlunda än i äldre Workfront-lagring. Dokument ärver behörigheter från det projekt, den uppgift eller det ärende som de är länkade till.
+>I Adobe Enterprise-lagring fungerar dokumentbehörigheter annorlunda än i äldre Workfront-lagring. Dokument ärver behörigheter från det projekt, den uppgift eller det problem de är länkade till.
 
 Dokument kan inte delas individuellt. I stället genererar systemet automatiskt en mapp för varje uppgift eller problem och ärver behörigheter från uppgiften eller utgåvan. Alla dokument som överförs till uppgiften eller utgåvan lagras i den genererade mappen.
 
@@ -103,6 +103,6 @@ Befintliga kunder kan aktivera Adobe Enterprise-lagring i sin miljö när avtale
 
 ## Överväganden
 
-* Workfront kan bli osynkroniserat med Frame.io eller Creative Cloud, t.ex. en resurs som tas bort i Workfornt men fortfarande visas i Frame.io, kontakta Workfront support för att få din miljö omsynkroniserad.
+* Workfront kan bli osynkroniserat med Frame.io eller Creative Cloud, t.ex. en resurs som tas bort i Workfront men fortfarande visas i Frame.io, kontakta Workfront support för att få din miljö omsynkroniserad.
 
 
