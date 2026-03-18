@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
-source-git-commit: 93c22854ccc405c442331ac392d919d63b8a8aa8
+source-git-commit: 50ee9ac593e230e6f869f4158a67e4c3113aed45
 workflow-type: tm+mt
 source-wordcount: '1505'
 ht-degree: 0%
@@ -26,9 +26,9 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >[!IMPORTANT]
 >
 >
->Månads- och kvartalsvisa upplagor planeras att vara tillgängliga på torsdagen den andra hela veckan i månaden, om inte annat anges.
+>Månads- och kvartalsvisa releaser planeras vara tillgängliga torsdagen den andra hela veckan i månaden, om inte annat anges.
 >
->| Månadsvis version | Kvartalsversion |
+>| Månadsrelease | Kvartalsvis utgivning |
 >|----|----|
 >| <ul><li>26.2 (12 februari 2026)</li><li>26.3 (12 mars 2026)</li><li>26.4 (15 april 2026)</li></ul> | <ul><li>26.1 (16 april 2026)</li></ul> |
 >
@@ -38,7 +38,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront-förbättringar
 
-* [Förbättringar av administratörer](#administrator-enhancements)
+* [Administratörsförbättringar](#administrator-enhancements)
 * [Förbättrade dokument](#document-enhancements)
 * [Projektförbättringar](#project-enhancements)
 * [Rapportförbättringar](#reporting-enhancements)
@@ -60,7 +60,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Egna kvartal har tagits bort från projektinställningarna</a><p>Området för anpassade kvartal har flyttats från avsnittet Projektinställningar. Det är nu ett fristående avsnitt i installationsprogrammet.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Egna kvartal har tagits bort från projektinställningarna</a><p>Vi har flyttat området Anpassat kvartal från avsnittet Projektinställningar. Det är nu ett fristående avsnitt i installationsprogrammet.</p>
         </td>
         <td><p>5 mars 2026</p></td>
         <td><p>15 april 2026</p></td>
@@ -86,15 +86,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Nya IP-adresser för e-postmeddelanden från Workfront</a><p></p>
-            <p>Vi uppdaterar de IP-adresser som används för att skicka e-postmeddelanden från Workfront. Om din organisation har en tillåtelselista för e-post eller brandvägg måste du <b>lägga till de nya IP-adresserna nedan för att säkerställa fortsatt leverans av Workfront-meddelanden.</b></p><p>De här uppdateringarna gäller alla utgående e-postmeddelanden som genereras av Workfront-programmet, inklusive godkännanden, påminnelser, korrekturmeddelanden och andra systemmeddelanden.</p>
+            <p>Vi uppdaterar IP-adresserna som används för att skicka e-postmeddelanden från Workfront. Om din organisation upprätthåller ett e-postmeddelande eller en brandvägg tillåtslista <b>måste</b> lägga till de nya IP-adresserna nedan för att säkerställa fortsatt leverans av Workfront-meddelanden.</p><p>Uppdateringarna gäller alla utgående e-postmeddelanden som genereras av Workfront-programmet, inklusive godkännanden, påminnelser, korrekturmeddelanden och andra systemmeddelanden.</p>
             <ul>
             <li>USA:
             <ul>
             <li>206.55.149.212</li>
             <li>206.55.149.214</li>
-            <li>206 55 149 215</li>
-            <li>206 55 149 213</li>
-            <li>206 55 149 211</li>
+            <li>206.55.149.215</li>
+            <li>206.55.149.213</li>
+            <li>206.55.149.211</li>
             </ul>
             </li>
             <li>EU: 
@@ -127,7 +127,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Enhetlig granskning och godkännande från Workfront och Frame.io</a><p></p>
-            <p>Vi är glada över att kunna presentera enhetlig granskning och godkännande med teknik från Workfront och Frame.io, en effektiv gransknings- och godkännandeupplevelse som samlar planering, korrektur och samarbete i ett enda, anslutet arbetsflöde.
+            <p>Vi är glada över att kunna presentera en enhetlig granskning och godkännande som bygger på Workfront och Frame.io, en smidig gransknings- och godkännandeupplevelse som sammanför planering, korrektur och samarbete i ett enda, uppkopplat arbetsflöde.
  </p>
         </td>
         <td><p>12 mars 2026</p></td>
@@ -137,7 +137,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Arbetsflöden för godkännande i flera steg är tillgängliga för enhetliga godkännanden</a><p></p>
-            <p>Arbetsflöden för godkännande i flera steg finns nu tillgängliga för enhetliga godkännanden, vilket hjälper organisationer att upprätthålla strukturerade, upprepningsbara godkännandeprocesser som återspeglar hur arbete granskas i verkligheten. </p>
+            <p>Arbetsflöden för godkännande i flera steg är nu tillgängliga i enhetliga godkännanden, vilket hjälper organisationer att genomdriva strukturerade, repeterbara godkännandeprocesser som återspeglar hur arbetet granskas i verkligheten. </p>
         </td>
         <td><p>12 mars 2026</p></td>
         <td><p>15 april 2026</p></td>
@@ -145,8 +145,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Konfigurera och använd arbetsflödesmallar för godkännande i flera steg</a><p></p>
-            <p>Nu kan du konfigurera och återanvända arbetsflödesmallar för godkännande i flera steg, vilket gör det enklare att tillämpa konsekvent styrning i upprepade arbetsflöden för godkännande. </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Konfigurera och använda arbetsflödesmallar för godkännande i flera steg</a><p></p>
+            <p>Nu kan du konfigurera och återanvända arbetsflödesmallar för godkännande i flera steg, vilket gör det enklare att använda konsekvent styrning i repeterbara godkännandearbetsflöden. </p>
         </td>
         <td><p>12 mars 2026</p></td>
         <td><p>15 april 2026</p></td>
@@ -220,8 +220,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
    <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Delbara rapportmappar</a><p></p>
-            <p>Nu kan du ordna och dela rapporter med hjälp av delbara rapportmappar. Den här nya funktionen hjälper team som hanterar stora rapportvolymer att upprätthålla skalbar och konsekvent åtkomstkontroll.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Delningsbara rapportmappar</a><p></p>
+            <p>Nu kan du ordna och dela rapporter med delningsbara rapportmappar. Den här nya funktionen hjälper team som hanterar stora mängder rapporter att upprätthålla en skalbar och konsekvent åtkomstkontroll.</p>
         </td>
         <td><p>26 februari 2026</p></td>
         <td><p>12 mars 2026</p></td>
@@ -249,11 +249,11 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Funktion</strong>
         </td>
         <td><strong>Förhandsgranskning</strong></td>
-        <td><strong>Snabb version</strong></td>
-        <td><strong>Kvartalsvis</strong></td>
+        <td><strong>Snabb release</strong></td>
+        <td><strong>kvartalsvis</strong></td>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md" class="MCXref xref" xrefformat="{para}">Delningsupplevelsen har uppdaterats för förbättrade vyer</a><p></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md" class="MCXref xref" xrefformat="{para}">Uppdaterad delning för förbättrade vyer</a><p></p>
             <p>När du delar en förbättrad vy med en användare och ger dem behörigheten Visa i området Ny begäran kan användaren ändra vyelementen och dessa ändringar sparas i användarens personliga inställningar. De kan nu spara en kopia av vyn som innehåller ändringarna eller återställa den delade vyn till sina ursprungliga inställningar. De kan dela den kopierade vyn med andra. </p>
         </td>
            <td><p>26 februari 2026</p></td>
@@ -302,7 +302,7 @@ We are updating the interface throughout Adobe Workfront to improve the user exp
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Förbättringar av Workfront Planning
 
@@ -334,9 +334,9 @@ Uppdateringen gäller både Mac och Windows.
 
 >[!NOTE]
 >
->* Förhandsvisning och produktion för alla: 2 mars 2026
->* Du måste acceptera testversionen som finns i din miljö innan du kan använda miljön Planering - utvärderingsversion.
->* Du behöver inte signera Adobe AI-agentavtalet för att använda Planning Designer under testperioden.
+>* Förhandsgranska och produktion för alla: 2 mars 2026
+>* Du måste godkänna utvärderingsavtalet som finns i din miljö innan du kan komma åt testmiljön för planering.
+>* Du behöver inte signera Adobe AI Agent-avtalet för att använda Planning Designer under testperioden.
 
 Testversionen av Workfront Planning är nu tillgänglig för alla Workfront-kunder.
 
@@ -344,11 +344,11 @@ Den kostnadsfria provversionen ger Workfront-kunder 60 dagars Prime-licens till 
 
 Den kostnadsfria testversionen av Workfront Planning innehåller följande:
 
-* En kurerad planeringsmiljö för flera arbetsytor
-* Ta dataexempel för att ge dig en uppfattning om var du ska börja
-* Utbildning och vägledning i produkten
-* Tydlig indikering av milstolpar under konfigurationen som är anpassade för specifika roller.
-* Planning Designer - en AI-driven assistent som kan hjälpa dig att skapa den miljö du vill ha
+* Planeringsmiljö för flera arbetsytor
+* Exempeldata som ger dig en idé om var du ska börja
+* Utbildning och vägledning inifrån produkten
+* Tydliga indikationer på milstolpar under konfigurationen som är anpassade för specifika roller.
+* Planning Designer - en AI-baserad assistent som kan hjälpa dig att skapa den miljö du vill ha
 
 Mer information finns i [Kom igång med den kostnadsfria provversionen av Adobe Workfront Planning](/help/quicksilver/planning/general/trial-workfront-planning.md).
 
@@ -368,20 +368,20 @@ Mer information om API-versioner finns i [API-versionshantering och supportschem
 
 ### Andra integreringsövergångar för Workfront
 
-För att leverera mer stabila och skalbara integreringar byter vi till ett modernt, flexibelt integrationskoncept med Workfront Automation and Integration (Fusion). Som en del av den här övergångsprocessen kommer följande integreringar inte att vara tillgängliga efter **den 28 februari 2026**:
+För att kunna leverera mer stabila och skalbara integreringar går vi över till en modern, flexibel integrationsstrategi med hjälp av Workfront Automation and Integration (Fusion). Som en del av den här övergångsprocessen är följande integreringar inte tillgängliga efter **28 februari 2026**:
 
-* Workfront för G Suite
+* Workfront for G Suite
 * Workfront för Jira
 * Workfront för Salesforce.
 
 Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Google Workspace.
-En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Underhållsuppdateringar för Workfront
 
-Mer information om underhållsuppdateringar som gjordes under andra kvartersversionen 2026 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=sv-SE).
+Mer information om underhållsuppdateringar som gjordes under andra kvartersversionen 2026 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan &#x200B;](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=sv-SE).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
