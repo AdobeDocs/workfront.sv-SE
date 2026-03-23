@@ -7,9 +7,9 @@ description: Du kan också lägga till en inloppskolumn på din anslagstavla som
 author: Courtney
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+source-git-commit: db2e91e795bbc4ecc9953eb0c7643c7ae1f1c911
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '994'
 ht-degree: 0%
 
 ---
@@ -145,8 +145,6 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 ## Använda inloppskolumnen
 
 Kort i inloppskolumnen går inte att redigera förrän du flyttar dem till andra kortkolumner. Du kan klicka på kortet för att öppna det i en skrivskyddad vy eller klicka på ![Öppna uppgift eller utgåva](assets/boards-launch-icon.png) för att öppna uppgiften eller utgåvan på en ny flik i webbläsaren.
-
-Du kan ändra ordning på objekten i inloppskolumnen manuellt.
 
 Ikonerna längst upp till höger i kolumnen visar hur många kort som finns i kolumnen och hur många filter som används.
 
