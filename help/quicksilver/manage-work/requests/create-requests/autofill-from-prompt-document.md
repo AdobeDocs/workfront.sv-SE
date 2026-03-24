@@ -5,9 +5,9 @@ description: Du kan använda AI för att autofylla begärandefält genom att ang
 author: Alina
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 65bb04377c3d819de3df12a0dc9dfc3878152d51
+source-git-commit: 1afc69b23138ddfc6e369bf6231dec9ecb5d0bdb
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1486'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,19 @@ Tänk på följande när du använder formulärfyllning som drivs av AI
 * Files that you use in Form Fill powered by AI are uploaded to Azure storage for 24 hours. This is necessary for document processing. 
 * All files uploaded to Azure are currently stored in US Azure clusters for the 24 hour storage window. 
 -->
+
+
+## Aktivera formulärifyllning som bygger på AI för din organisation
+
+>[!NOTE]
+>
+>Formulärfyllning som drivs av AI är aktiverat på organisationsnivå och kan inte aktiveras eller inaktiveras för specifika användare eller åtkomstnivåer.
+
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Setup]** ![ikonen Konfigurera](/help/_includes/assets/gear-icon-setup.png).
+1. Klicka på **System** och sedan på **Inställningar** under System.
+1. Kontrollera att **Aktivera AI** är aktiverat i AI-inställningsavsnittet.
+1. Växla på **AI-formulärfyllning**.
+1. Om du vill inaktivera formulärifyllning som drivs av AI måste du inaktivera **AI-formulärifyllning**.
 
 ## Få förslag från en textfråga
 
