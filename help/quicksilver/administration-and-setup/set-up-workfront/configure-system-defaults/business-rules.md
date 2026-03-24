@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: b6731b9877237916259a862863b30c8ef65ad343
+source-git-commit: 061694c7db64d3f4957903ae21e436f52c77a07e
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1326'
 ht-degree: 0%
 
 ---
@@ -144,6 +144,12 @@ IF(
    * risk
    * Kreditkort
    * Tilldelning
+   * Användare
+   * Roll
+   * Timme
+   * Mall
+   * Tid av
+   * Resurspool
 
 1. Skriv **Namn** för affärsregeln i dialogrutan Regelbyggaren.
 1. I fältet **Är aktiv** väljer du om regeln ska vara aktiv när du sparar den.
