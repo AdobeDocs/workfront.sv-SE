@@ -8,16 +8,32 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 061694c7db64d3f4957903ae21e436f52c77a07e
+source-git-commit: c16d107d8162f77436337d0b08ea5826d5c25d83
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1417'
 ht-degree: 0%
 
 ---
 
 # Skapa och redigera affärsregler
 
-Med en affärsregel kan du validera Workfront-objekt och hindra användare från att skapa, redigera eller ta bort ett objekt när vissa villkor är uppfyllda. Affärsreglerna bidrar till att förbättra datakvaliteten och effektiviteten genom att förhindra åtgärder som kan äventyra dataintegriteten.
+<!--
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+-->
+
+Med en affärsregel kan du validera Workfront-objekt och hindra användare från att skapa, redigera eller ta bort ett objekt när vissa villkor är uppfyllda. Validering av affärsregler förbättrar datakvaliteten och effektiviteten genom att man förhindrar åtgärder som kan äventyra dataintegriteten.
+
+<!--
+
+<div class="preview">
+
+Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object, notifying a user, or attaching a custom form to the object.  
+
+</div>
+
+-->
 
 En affärsregel kan bara tilldelas ett objekt. Om du t.ex. skapar en affärsregel för att inte redigera projekt under vissa förhållanden, kan du inte använda samma regel för uppgifter. Du måste skapa en separat affärsregel med samma villkor för uppgifter.
 
@@ -42,8 +58,9 @@ Affärsreglerna gäller för att skapa, redigera och ta bort objekt via API:t oc
   <tr>
    <td>Adobe Workfront package
    </td>
-   <td> <p>Ultimate</p>
-    <p>Arbetsflöde Ultimate</p>
+   <td> <p>Verifiering av affärsregel:<ul><li><p>Ultimate</p></li><li>
+    <p>Arbetsflöde Ultimate</p></li></ul></p><p>Automatisering av affärsregler:<ul><li>
+    <p>Arbetsflöde Ultimate</p></li><ul></p>
    </td>
   </tr> 
   <tr> 
@@ -63,7 +80,12 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 ## Scenarier för affärsregler
 
-Formatet på en affärsregel är&quot;OM det definierade villkoret uppfylls förhindras användaren från att utföra åtgärden på objektet och meddelandet visas.&quot;
+* [Scenarier för validering av affärsregler](#scenarios-for-business-rule-validation)
+* [Scenarier för automatisering av affärsregler](#scenarios-for-business-rule-automation)
+
+### Scenarier för validering av affärsregler
+
+Formatet för en validering av affärsregler är&quot;OM det definierade villkoret är uppfyllt, hindras användaren från att utföra åtgärden på objektet och meddelandet visas.&quot;
 
 Syntaxen för egenskaperna och andra funktioner i en affärsregel är densamma som syntaxen för ett beräkningsfält i ett anpassat formulär. Mer information om syntaxen finns i [Lägga till beräknade fält med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
@@ -117,15 +139,53 @@ IF(
 )
 ```
 
+
+<!--
+
+## Scenarios for business rule automation
+
+>[!NOTE]
+>
+>Your organization must have a Workflow Ultimate package to use business rule automation.
+
+The format of a business rule automation is "IF the defined condition is met, then the selected automation is triggered."
+
+Business rule automation formulas do not require an error message
+
+To ensure that an automation runs whenever the selected object and action occurs, such as when a project is created, use the following formula:
+
+```
+IF(true, true)
+```
+
+To share a project only if that's project has been approved, use a formula like the following:
+
+```
+IF({status} = "APR", true)
+```
+
+You can use wildcards in business rule actions, as described in the section [Scenarios for business rule validation](#scenarios-for-business-rule-validation).
+
+-->
+
 ## Lägg till en ny affärsregel
 
 {{step-1-to-setup}}
 
 1. Klicka på **Affärsregler** i den vänstra panelen.
 1. Klicka på **Ny affärsregel**.
-1. Välj den objekttyp som affärsregeln ska tilldelas till och klicka sedan på **Fortsätt**.
 
-   ![Markera ett objekt](assets/object-for-business-rule3.png)
+1. Skriv **Namn** för affärsregeln i dialogrutan Regelbyggaren.
+1. I fältet **Är aktiv** väljer du om regeln ska vara aktiv när du sparar den.
+
+   Om du väljer **Nej** sparas regeln som inaktiv och du kan aktivera den senare.
+
+1. (Valfritt) Ange en **beskrivning** av affärsregeln och vad som händer när den tillämpas.
+
+
+1. Välj den objekttyp som affärsregeln ska tilldelas till.
+
+   ![Markera ett objekt](assets/object-for-business-rule4.png)
 
    Du kan tillämpa affärsregler på följande objekt:
 
@@ -150,6 +210,17 @@ IF(
    * Mall
    * Tid av
    * Resurspool
+<!--
+   * <span class="preview">Job role</span>
+   * <span class="preview">Non-labor resource category</span>
+   * <span class="preview">Resource Pool</span>
+   * <span class="preview">Time Off</span>
+   * <span class="preview">Hour</span>
+   * <span class="preview">Staffing Plan</span>
+   * <span class="preview">Template</span>
+   * <span class="preview">Staffing Plan Resource</span>
+   * <span class="preview">Team</span>
+-->
 
 1. Skriv **Namn** för affärsregeln i dialogrutan Regelbyggaren.
 1. I fältet **Är aktiv** väljer du om regeln ska vara aktiv när du sparar den.
@@ -158,11 +229,10 @@ IF(
 
 1. Välj en **utlösare** för affärsregeln. Alternativen är:
 
-   * **När objekt skapas:** Regeln används när en användare försöker skapa ett objekt.
-   * **Vid objektredigering:** Regeln används när en användare försöker redigera ett objekt.
-   * **Vid borttagning av objekt:** Regeln används när en användare försöker ta bort ett objekt.
+   * **Skapad** Regeln används när en användare försöker skapa ett objekt.
+   * **Redigerad** Regeln används när en användare försöker redigera ett objekt.
+   * **Borttagen** Regeln används när en användare försöker ta bort ett objekt.
 
-1. (Valfritt) Ange en **beskrivning** av affärsregeln och vad som händer när den tillämpas.
 1. Bygg formeln i formelredigeraren i mitten av dialogrutan för affärsregler.
 
    Formatet på en affärsregel är&quot;OM det definierade villkoret uppfylls förhindras användaren från att utföra åtgärden på objektet och meddelandet visas.&quot;
@@ -172,13 +242,13 @@ IF(
    * &quot;object&quot; är den objekttyp som du valde när du skapade affärsregeln. Den visas i dialogrutans rubrik.
    * &quot;action&quot; är den utlösare som du valde för regeln: skapa, redigera eller ta bort objektet.
    * Eftersom objektet och åtgärden redan är definierade, tar du inte med dem i formeln.
-   * Det anpassade felmeddelandet visas för användaren när de utlöser affärsregeln. Den ska innehålla tydliga instruktioner om vad som gick fel och hur problemet ska åtgärdas.
+   * Det anpassade felmeddelandet <!--<span class="preview">is included only if the rule is for validation, and </span>--> visas för användaren när de utlöser affärsregeln. Den ska innehålla tydliga instruktioner om vad som gick fel och hur problemet ska åtgärdas.
 
      Du kan inkludera en statisk URL-adress i felmeddelandet, för att länka till dokumentation eller andra användbara sidor som hjälper användaren hur de ändrar sin åtgärd inom regelbegränsningen.
 
      I det här exemplet kommer &quot;Läs mer&quot; att länka till webbadressen. `"You are not allowed to add a new project in November.[Learn more](http://url)"` URL:en måste vara inom parentes, men länktext inom parentes krävs inte. Du kan visa den fullständiga URL:en och det blir en klickbar länk.
 
-   ![Dialogrutan Lägg till affärsregel](assets/add-business-rule-dialog-no-ai-button.png)
+   ![Dialogrutan Lägg till affärsregel](assets/add-business-rule-dialog-no-ai-button.png) <!--UPDATE ME-->
 
    Det här exemplet är en affärsregel för projekt. Om den aktuella månaden är november får användarna inte skapa nya projekt, och meddelandet förklarar detta.
 
@@ -190,11 +260,46 @@ IF(
 
    Listan med tillgängliga fält är begränsad till fält som är relaterade till objekttypen för affärsregeln.
 
+1. (Villkorligt) Om du validerar åtgärden, om din organisation finns i Workfront Ultimate-paketet, väljer du **Validera objektet** i området Sedan.
+
+   För andra paket är det här alternativet förvalt.
+
+<!--
+
+1. (Conditional) To automate another action,, select the action. 
+
+   For details on these actions, see the section [Business rule automation options](#business-rule-automation-options) in this article.
+
+   >[!NOTE]
+   >
+   >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
+
+   -->
+
 1. Klicka på **Spara** när du är klar med att skapa affärsregeln.
 
 >[!NOTE]
 >
 >När du har lagt till en affärsregel bör du testa den genom att lägga till, redigera eller ta bort det associerade objektet för att se till att regeln tillämpas korrekt.
+
+<!--
+
+<div class="preview">
+
+### Business rule automation options
+
+   >[!NOTE]
+   >
+   >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
+
+You can set these actions to automate when the business rule is triggered. Available actions depend on the selected object type.
+
+|Automation|Further configuration|
+|---|---|
+|Attach a custom form|Select the custom form that you want to add|
+|Share the object|Select the people, roles, groups, companies, or access levels that you want to share the object with.|
+
+-->
 
 ## Aktivera en affärsregel
 
