@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
-source-git-commit: 50ee9ac593e230e6f869f4158a67e4c3113aed45
+source-git-commit: fa4d8132cecd51b93f26c28803535a84bebad137
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,18 @@ I den här artikeln beskrivs funktionerna som lanseras för Workfront Planning i
 <!--keep the sentence below for all future quarterly release pages-->
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning finns i [Versionsaktivitet för Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Breadcrumb redesign
+
+>[!NOTE]
+>
+>Förhandsgranska: 26 mars 2026
+>Production fast release: 15 april 2026
+>Produktion för alla: 16 april 2026
+
+Vi har gjort om sättet som vägbeskrivningar visas på i olika posttyper och poster. När du klickar på Mer på den synliga raden visas nu namnen på posterna och objekten på flera rader. Före den här förbättringen visades namnen på poster och objekt i listrutor när du klickar på Mer.
+
+Mer information finns i [Översikt över hierarki och vägbeskrivningar](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 <!--
 
