@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
+source-git-commit: 16da53ace7c5b3fadf9b4142ac6146bc3fe5ebd5
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '949'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,9 @@ ht-degree: 0%
 
 Som arbetsytehanterare kan du skapa flera arbetsytehierarkier mellan posttyper i Adobe Workfront Planning.
 
-När posttyperna har anslutits inom en arbetsyta kan du skapa en hierarki som organiserar dessa anslutningar. Hierarkier organiserar post- och objekttyper i överordnade och underordnade relationer och kan innehålla upp till fyra nivåer med objekttyper.
+När posttyperna har anslutits inom en arbetsyta kan du skapa en hierarki som organiserar dessa anslutningar.
+
+Hierarkier organiserar post- och objekttyper i överordnade och underordnade relationer och kan innehålla upp till fyra objekttyper vardera. Du kan skapa upp till fem hierarkier på en arbetsyta.
 
 Om det inte redan finns en anslutning mellan två posttyper kan den skapas när du skapar hierarkin. När hierarkin har definierats skapar den en strukturerad sökväg över relaterade posttyper på arbetsytan.
 
@@ -70,8 +72,6 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 +++
 
 ## Skapa en arbetsytehierarki
-
-Du kan skapa upp till fem hierarkier på en arbetsyta.
 
 {#step1-to-planning}
 
@@ -132,7 +132,7 @@ Varje ytterligare objekttyp blir underordnad till föregående objekttyper.
    1. Återgå till arbetsytans **inställningsområde** och klicka på **Ny hierarki** igen. Följ sedan stegen för att skapa en hierarki.
 
 1. (Valfritt) Fortsätt lägga till upp till fyra objekttyper i hierarkierna enligt stegen ovan. Du kan lägga till alla objekttyper först och sedan lägga till anslutningsfälten mellan dem.
-1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort &#x200B;](assets/minus-icon.png) för att ta bort en anslutning.
+1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort ](assets/minus-icon.png) för att ta bort en anslutning.
 1. Klicka på **Spara** för att spara hierarkin.
 
    >[!TIP]
@@ -158,6 +158,10 @@ Varje ytterligare objekttyp blir underordnad till föregående objekttyper.
 
    * **Redigera**: Då öppnas rutan **Redigera hierarki** där du kan göra ändringar.
    * **Ta bort**: Detta tar bort hierarkin permanent. Det går inte att återställa borttagna hierarkier. Anslutningsfält tas inte bort.
+
+1. (Valfritt) Klicka på namnet på den sista posttypen i hierarkin och sedan namnet på en post från den posttypens vy. Då öppnas postens informationssida. Hitta hierarkin som du skapade i en posts spreadcrumb högst upp på postens sida.
+
+   Mer information finns i [Hantera postsidans layout](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 
 

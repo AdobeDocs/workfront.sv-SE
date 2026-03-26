@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
+source-git-commit: 2f1c3d4311f54f7f273b2304e39e6fbfc0f4b657
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1648'
 ht-degree: 0%
 
 ---
@@ -190,7 +190,7 @@ Så här lägger du till ett avsnitt i en postförhandsgranskning eller sida:
 
    eller
 
-   I tabelltabellvyn klickar du på ikonen **Öppna detaljer** ![Öppna detaljikonen i tabellnamnsfältet](assets/open-details-icon-in-table-name-field.png) i den första kolumnen.
+   I tabellvyn klickar du på ikonen **Öppna detaljer** ![Öppna detaljer i tabellnamnsfältet](assets/open-details-icon-in-table-name-field.png) i den första kolumnen.
 
    <span class="preview">Postens förhandsgranskning öppnas i vyn.</span>
 
@@ -282,19 +282,23 @@ Följande saker händer:
    * Välj inställningen **Visa alla fält** om du vill visa alla fält från postens tabellvy, inklusive dolda fält.
    * Avmarkera inställningen **Visa alla fält** om du bara vill visa fält som inte är dolda i postens tabellvy. Det här är standardinställningen
 
+     <!--
+      replace with this when they fix the UI text:
+      * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
+      * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
+      -->
+
    </div>
 
    >[!TIP]
    >
    ><span class="preview">Inställningen **Visa alla fält** är bara tillgänglig i postens förhandsvisningsruta Detaljer. Den är inte tillgänglig på postens informationssida.</span>
+1. (Valfritt) Om du vill navigera till en ansluten post klickar du på den postens namn i det synliga fältet högst upp på informationssidan. <span class="preview">Om du inte kan se namnet på en post i vägbeskrivningsfilen klickar du på **Mer**. Då visas den synliga sökvägen på flera rader. Klicka på **Less** om du vill korta av förgrundsrubriken och visa den på en rad.</span>
 
+   >[!TIP]
+   >
+   >Du måste ha anslutna posttyper, poster och hierarkier på arbetsytan för att kunna se vägbeskrivningar på postens informationssida.
 
-   <!--replace with this when they fix the UI text:
-   * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
-   * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
-   -->
-
-   </div>
 
 1. (Valfritt) Klicka på ikonen **Öppna på ny flik** ![Öppna informationsrutan i en ny flikikon](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av postens förhandsgranskning för att öppna postens sida på en ny flik.
 
@@ -302,7 +306,7 @@ Följande saker händer:
 
    ![Informationssida](assets/details-page.png)
 
-1. På fliken **Detaljer** klickar du på ikonen **Ta** ![Ta tag i &#x200B;](assets/grab-icon.png) till vänster om fältnamnet och drar och släpper den på önskad plats.
+1. På fliken **Detaljer** klickar du på ikonen **Ta** ![Ta tag i ](assets/grab-icon.png) till vänster om fältnamnet och drar och släpper den på önskad plats.
 
    >[!TIP]
    >

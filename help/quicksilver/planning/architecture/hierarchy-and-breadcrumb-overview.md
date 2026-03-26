@@ -5,20 +5,19 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
+exl-id: de066d44-d214-47cc-8483-37c2623585ea
+source-git-commit: 16da53ace7c5b3fadf9b4142ac6146bc3fe5ebd5
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1096'
 ht-degree: 0%
 
 ---
 
-
-
 # Översikt över hierarki och vägbeskrivningar
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Som arbetsytehanterare kan du definiera flexibla men strukturerade hierarkier mellan anslutna posttyper och andra objekttyper i Adobe Workfront Planning.
 
@@ -79,12 +78,13 @@ Nedan följer några fördelar med att använda hierarkier i dina arbetsytor:
 
 När du skapar hierarkier mellan posttyper genereras vägbeskrivningar för poster som tillhör de posttyperna.
 
-Om du t.ex. skapar en hierarki och kopplar ihop kampanjer med taktik, sedan med Aktiviteter, och sedan med Projekt, när du navigerar till en post av någon av de typer som är kopplade till hierarkin, kan du visa var i hierarkin posten placeras.
+Om du till exempel skapar en hierarki och kopplar ihop kampanjer med taktik, och sedan med Aktiviteter, kan du, när du navigerar till en post för någon av de typer som är kopplade till hierarkin, visa var i hierarkin posten placeras. Om posten visas på flera arbetsytor kan du visa sökvägarna i varje arbetsyta <span class="preview">med början på arbetsytans namn i den synliga arbetsytan.</span>
 
-![Breadcrumb](assets/breadcrumbs-on-project.png)
+![Breadcrumb](assets/breadcrumbs-on-activities-planning-only.png)
 
 Tänk på följande:
 
+* Brevlådor visas i förhandsvisningsområdet för en post samt på sidan med information om poster.
 * Om en posttyp ingår i flera hierarkier kan du växla mellan hierarkier från postens vägbeskrivningar på postens sida.
 * Om posttypen i en hierarki har flera poster kan du välja poster från den synliga sökvägen.
 * Brödraperier fungerar i Workfront och Planning.
@@ -93,5 +93,3 @@ Tänk på följande:
 
   Mer information finns i [Skapa arbetsytehierarkier](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
 * När du redigerar en post visas ändringarna från alla arbetsytor och alla hierarkier som posten är en del av.
-
-
