@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 16c564a9-abd7-4b07-be3e-9c823f40177d
-source-git-commit: c4c4eb8e04b8e43a6681a92c3ee1e3a177ad0983
+source-git-commit: 86d5ed6f91bca0b68748a43476710028d34d6ad2
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Det här lagringsalternativet banar också väg för framtida integrering av res
 
 Integreringen av Workfront och Frame.io utnyttjar Adobe Enterprise-lagring för att ge en enhetlig gransknings- och godkännandeupplevelse. Tack vare den här integreringen kan projektsamordnare hantera projekt och planera arbetet i Workfront, medan kreatörer, marknadsförare och intressenter kan granska och godkänna resurser i Frame.io. Detta garanterar att alla intressenter har tillgång till de senaste versionerna av mediefilerna och att feedback samlas på ett och samma ställe.
 
-Mer information om integrationen mellan Workfront och Frame.io finns i [Integreringsöversikt för Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).
+Mer information om integrationen mellan Workfront och Frame.io finns i [Översikt över enhetlig granskning och godkännande](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
 ## Skillnader mellan Adobe Enterprise-lagring och Workfront-lagring
 

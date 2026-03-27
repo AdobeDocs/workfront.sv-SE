@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 3190ad18-180e-42e5-aa10-bdad74303d3d
-source-git-commit: a5041aecad22d3e576d7f0e9a4388a3e5bc69565
+source-git-commit: 86d5ed6f91bca0b68748a43476710028d34d6ad2
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Du kan granska och godkänna dokument i Workfront med Frame.io-visningsprogramme
 
 Genom att granska Workfront-dokument med Frame.io-visningsprogrammet kan du lämna kommentarer eller kommentera i specifika delar av ett dokument, en bild eller en video för att samarbeta effektivt med teamet och säkerställa att det går att ge tydlig och tydlig feedback.
 
-Mer information om Frame.io-integrering med Workfront finns i [Integreringsöversikt för Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).
+Mer information om Frame.io-integrering med Workfront finns i [Översikt över enhetlig granskning och godkännande](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
 
 <!--## Access requirements
@@ -59,7 +59,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Förutsättningar
 
-* Du måste ha Workfront- och Frame.io-integreringen konfigurerad i din Workfront-instans. Mer information finns i [Integreringsöversikt för Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md#integration-requirements).
+* Du måste ha Workfront- och Frame.io-integreringen konfigurerad i din Workfront-instans. Mer information finns i [Översikt över enhetlig granskning och godkännande](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements).
 
 ## Granska ett dokument
 
