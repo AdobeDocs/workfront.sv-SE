@@ -5,21 +5,26 @@ title: Kom igång med enhetlig granskning och godkännande
 description: Läs mer om enhetlig granskning och godkännande från Workfront och Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 18821ee34bb44b38fa3bb260434d7db986d2706e
+exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
+source-git-commit: b57b9262d71ccd1aff529111424182ff4a269470
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '994'
 ht-degree: 0%
 
 ---
 
-
 # Kom igång med enhetlig granskning och godkännande
 
-Med enhetlig granskning och godkännande från Workfront och Frame.io kan kreatörer, marknadsförare och intressenter arbeta i ett smidigt arbetsflöde. Få tillgång till uppdateringar i realtid, undvik dubbelarbete och se till att materialet godkänns före start.
+
+Enhetlig granskning och godkännande sammanför Adobe Workfront och Adobe Frame.io till en enda, sammanhängande upplevelse - som överbryggar klyftan mellan hantering av marknadsföring, granskning och innehållsleverans. Projektsamordnarna hanterar arbetet i Workfront medan kreatörer, marknadsförare och intressenter granskar och godkänner resurser i den professionella versionen av Frame.io-visningsprogrammet, utan att behöva flytta filer mellan olika verktyg.
 
 Mer information om Frame.io finns i [Komma igång med Frame.io](https://support.frame.io/en/collections/49298-getting-started).
 
 Du måste ha Workfront- och Frame.io-integreringen konfigurerad i din Workfront-instans. Mer information finns i [Översikt över enhetlig granskning och godkännande](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements).
+
+## Demo av video
+
+>[!VIDEO](https://video.tv.adobe.com/v/3471078)
 
 ## Integrationskrav
 
@@ -124,3 +129,4 @@ Projektsamordnarna kan övervaka förloppet för alla pågående godkännanden i
 Du kan använda &#x200B; [!DNL Experience Manager Assets] för att hantera och lagra dina digitala resurser som har gått igenom gransknings- och godkännandecykeln. Tack vare integreringen kan ni utnyttja funktionerna i Adobe Experience Manager, Frame.io och Workfront för att effektivisera innehållshanteringen och samarbetet.
 
 Mer information finns i [Använda Adobe Experience Manager med Frame.io-integrering](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+
