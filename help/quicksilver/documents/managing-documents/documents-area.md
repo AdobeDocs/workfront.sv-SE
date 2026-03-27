@@ -7,9 +7,9 @@ description: Under Dokument kan du ordna, hantera och visa metadata för dokumen
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
-source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
+source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ När du markerar ett dokument i dokumentområdet kan du använda panelen Sammanf
 
 Du kan granska och godkänna dokument i det nya dokumentområdet med visningsprogrammet Frame.io.
 
-Mer information finns i [Kom igång med Frame.io-integreringen](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
+Mer information finns i [Kom igång med enhetlig granskning och godkännande](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
 #### Hantera versioner
 

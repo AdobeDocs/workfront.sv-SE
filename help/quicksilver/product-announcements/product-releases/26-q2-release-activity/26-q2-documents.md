@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: 7bf762870af2bbc4f4889d66cf713d4533a30ff5
+source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Skapa mer strukturerade och sofistikerade arbetsflöden för godkännande med go
 
 #### Granska och godkänn innehåll i Frame.io
 
-Granska och godkänn material direkt i Frame.io-visningsprogrammet och slipp växla mellan olika plattformar. Tack vare den här integreringen går det snabbare att få feedback och all granskningsaktivitet på ett och samma ställe. Mer information finns i [Kom igång med Frame.io-integreringen](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
+Granska och godkänn material direkt i Frame.io-visningsprogrammet och slipp växla mellan olika plattformar. Tack vare den här integreringen går det snabbare att få feedback och all granskningsaktivitet på ett och samma ställe. Mer information finns i [Kom igång med enhetlig granskning och godkännande](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
 #### Uppkoppling med Adobe Experience Manager
 

@@ -6,9 +6,9 @@ description: Översikt över de system som finns för granskning och godkännand
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
+source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Mer information om rapportering finns i [Skapa en rapportinstrumentpanel för gr
 
 * Få åtkomst till gransknings- och godkännandebegäranden i widgeten Mina godkännanden i hemområdet
 
-* Använd integrationen Frame.io för att granska och godkänna dokument. Mer information finns i [Kom igång med Frame.io-integreringen](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
+* Använd Frame.io-visningsprogrammet för att granska och godkänna dokument. Mer information finns i [Kom igång med enhetlig granskning och godkännande](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
 * Använd AI Reviewer för att automatisera varumärkesgranskningar. Mer information finns i [Kom igång med Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 

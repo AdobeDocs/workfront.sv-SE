@@ -1,22 +1,24 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Bildruta.io - integreringsöversikt
-description: Bildruta.io - integreringsöversikt
+title: Enhetlig översikt över granskning och godkännande
+description: Läs mer om enhetlig granskning och godkännanden från Workfront och Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
+hide: true
+hidefromtoc: true
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
-source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
+source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '838'
 ht-degree: 0%
 
 ---
 
-# Bildruta.io - integreringsöversikt
+# Enhetlig översikt över granskning och godkännande
 
-Tack vare integreringen mellan Workfront och Frame.io kan projektsamordnare hantera projekt och planera arbetet i Workfront, medan kreatörer, marknadsförare och intressenter kan granska och godkänna mediefiler i Frame.io.
+Med enhetlig granskning och godkännande som bygger på Workfront och Frame.io kan projektsamordnare hantera projekt och planera arbetet i Workfront, medan kreatörer, marknadsförare och intressenter kan granska och godkänna mediefiler i Frame.io.
 
 ## Integrationskrav
 
@@ -31,7 +33,7 @@ Tack vare integreringen mellan Workfront och Frame.io kan projektsamordnare hant
 
 ## Byggt på Adobe Enterprise-lagring
 
-Kärnan i denna integrering är Adobe Enterprise-lagring - en molnbaserad lagringslösning som fungerar som central lagringsplats för resurser i Adobe företagsprodukter, inklusive Workfront och Frame.io. <!--, and Creative Cloud.-->
+Enhetlig granskning och godkännande bygger på Adobe Enterprise-lagring - en molnbaserad lagringslösning som fungerar som central lagringsplats för resurser i Adobe företagsprodukter, inklusive Workfront och Frame.io. <!--, and Creative Cloud.-->
 
 Några av fördelarna med Adobe Enterprise-lagring:
 
@@ -44,7 +46,7 @@ Mer information finns i [Adobe Enterprise-lagringsöversikt](/help/quicksilver/r
 
 ## Enhetlig granskning och godkännande
 
-Integreringen av Workfront och Frame.io använder Workfront enhetliga godkännandefunktioner för att hantera granskningar och godkännanden. Med enhetliga godkännanden kan ni
+Med enhetlig granskning och godkännande kan man
 
 * Skapa och hantera granskningar och godkännanden direkt från Workfront
 * Spåra status för granskningar och godkännanden i realtid
@@ -58,14 +60,14 @@ Mer information finns i [Enhetliga dokumentgodkännanden: artikelindex](/help/qu
 
 ### Använda visningsprogrammet Frame.io
 
-Integrationen kopplas även till Frame.io-visningsprogrammet. Visningsprogrammet Frame.io innehåller
+Använd Frame.io-visningsprogrammet för att granska och godkänna resurser. Visningsprogrammet Frame.io innehåller
 
 * Markerings- och kommentarverktyg
 * Versionshistorik och jämförelse
 * Tidsstämplade kommentarer för videogranskningar
 * Mobil åtkomst till granskningar och godkännanden oavsett var du är
 
-Mer information finns i [Kom igång med Frame.io-integreringen](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
+Mer information finns i [Kom igång med enhetlig granskning och godkännande](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
 #### Gränser för videogranskning
 
@@ -89,13 +91,13 @@ Workfront språkfunktioner är inte tillgängliga med den här integreringen.
 
 ## Kraftfull projekthantering i Workfront
 
-Tack vare integreringen mellan Workfront och Frame.io kan projektsamordnarna utnyttja Workfront kraftfulla projekthanteringsfunktioner för att planera, spåra och hantera arbetet.
+Projektsamordnare kan utnyttja Workfront kraftfulla projekthanteringsfunktioner för att planera, spåra och hantera arbeten.
 
 Mer information om hur du hanterar projekt i Workfront finns i [Projekt: artikelindex](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
 
 ### Tvingad struktur och namnkonventioner
 
-Eftersom integreringen byggs med Adobe Enterprise-lagring finns det vissa tvingande struktur- och namnkonventioner som du bör känna till när du hanterar projekt och dokument.
+Eftersom enhetliga gransknings- och godkännandeprocesser byggs med Adobe Enterprise-lagring, finns det vissa tvingande struktur- och namnkonventioner som du bör känna till när du hanterar projekt och dokument.
 
 * Objektnamn måste vara unika och kan inte dupliceras
 * Adobe Enterprise-lagring kräver unika namn för peer-objekt med samma överordnade i hierarkiträdet
@@ -138,11 +140,7 @@ Dokument som överförs till Workfront lagras i Adobe Enterprise och är tillgä
 
 ### Begränsningar i dokumentupplevelsen
 
-Eftersom den här integreringen byggs med Adobe Enterprise-lagring finns det vissa begränsningar i den ursprungliga dokumentupplevelsen i Workfront:
-
-#### Begränsningar
-
-Följande funktioner kommer inte att ingå i den här integreringen:
+Följande dokumentfunktioner ingår inte:
 
 <!--* External document providers-->
 * Åtkomst till korrektur i Workfront
