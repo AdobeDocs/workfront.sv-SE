@@ -6,7 +6,7 @@ description: Läs mer om enhetlig granskning och godkännande från Workfront oc
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
-source-git-commit: b57b9262d71ccd1aff529111424182ff4a269470
+source-git-commit: 9dc15e8f50b91dde3536902bb57229cfbe164317
 workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Mer information om Frame.io finns i [Komma igång med Frame.io](https://support.
 
 Du måste ha Workfront- och Frame.io-integreringen konfigurerad i din Workfront-instans. Mer information finns i [Översikt över enhetlig granskning och godkännande](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements).
 
-## Demo av video
+## Videoöversikt
 
 >[!VIDEO](https://video.tv.adobe.com/v/3471078)
 
