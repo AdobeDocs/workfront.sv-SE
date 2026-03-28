@@ -6,9 +6,9 @@ description: Du kan visa kalenderrapporter och händelseinformation som du har s
 author: Courtney
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+source-git-commit: 8d2f7abc188be5e0d94524e3d42cee72126967f3
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,10 @@ Du kan välja bland följande kalenderrapportvyer:
    * **[!UICONTROL Gantt]**: Visar en kontinuerlig vy av kalendern
 
      Du kan se fler händelser i en **Gantt** -vy genom att rulla nedåt eller åt sidan. En inläsningssymbol visas när data fylls i för vyn.
+
+   >[!NOTE]
+   >
+   >Kalendrar kan visa händelser upp till 5 år framåt.
 
    >[!NOTE]
    >
