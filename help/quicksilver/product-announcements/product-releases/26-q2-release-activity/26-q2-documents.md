@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
+source-git-commit: 34f367e1bd1aa0c75433f2f59baf4efc1284e61b
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 0%
@@ -22,9 +22,13 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 ## Enhetliga gransknings- och godkännandeprocesser som bygger på Workfront och Frame.io
 
-Vi är glada över att kunna presentera en enhetlig gransknings- och godkännandeprocess med Workfront och Frame.io, en smidig gransknings- och godkännandeupplevelse.
 
-Den nya funktionen är tillgänglig för nya nettokunder och för befintliga kunder vid förnyelse.
+>[!IMPORTANT]
+>
+>Den nya funktionen är tillgänglig för nya nettokunder och för befintliga kunder vid förnyelse.
+
+
+Vi är glada över att kunna presentera en enhetlig gransknings- och godkännandeprocess med Workfront och Frame.io, en smidig gransknings- och godkännandeupplevelse.
 
 ### Nyheter
 
