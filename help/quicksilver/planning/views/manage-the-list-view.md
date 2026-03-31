@@ -163,7 +163,7 @@ Mer information finns i [Använd förbättrade listor](/help/quicksilver/workfro
             </div>
         -->
 
-   1. Klicka på ikonen **Filter** ![Filter ](assets/filter-icon.png) för att lägga till ett filter i vyn. Resultaten filtreras omedelbart i listan. Du kan inte spara och namnge filter. Filter sparas när du öppnar sidan i framtiden och de är en del av delade vyer.
+   1. Klicka på ikonen **Filter** ![Filter &#x200B;](assets/filter-icon.png) för att lägga till ett filter i vyn. Resultaten filtreras omedelbart i listan. Du kan inte spara och namnge filter. Filter sparas när du öppnar sidan i framtiden och de är en del av delade vyer.
    1. Klicka på ikonen **Kolumner** ![Kolumner](assets/columns-icon.png) för att välja vilka kolumner som ska visas eller döljas i vyn.
    1. Håll pekaren över namnet på en kolumn, klicka sedan på nedåtpilen till vänster om kolumnnamnet och klicka sedan på något av följande:
       * **Byt namn** om du vill lägga till en **anpassad etikett** för kolumnen. Namnet på det ursprungliga fältet i Workfront ändras inte.
