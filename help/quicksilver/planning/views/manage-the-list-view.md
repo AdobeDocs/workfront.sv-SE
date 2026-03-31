@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+source-git-commit: ddf10844646a79c43accaffa1789caf24290cc8a
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1490'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,17 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-Du kan visa projekt och deras fält i en listvy när du öppnar dem på postens sida Anslutna poster i Adobe Workfront Planning. <!--change 'projects' to other objects when they become available and the location of the list view-->
+Du kan visa objekt i listvyn i följande områden i Workfront Planning:
 
-I den här artikeln beskrivs hur du kan skapa eller redigera en listvy som visar projekt på postens sida Anslutna poster och hur du kan redigera projekten i vyn. <!--change 'projects' to other objects when they become available and the location of the list view-->
+* En sida med anslutna poster för projekt i en posts informationsområde
+
+  ![Projekt på sidan med anslutna poster i listvyn](assets/projects-on-connected-records-page-list-view.png)
+
+* En lista över begärandeformulär på posttypsnivå
+
+  ![Begär formulär i listvyn](assets/request-forms-in-list-view.png)
+
+I den här artikeln beskrivs hur du kan navigera, skapa och redigera en listvy som visar objekt i Workfront Planning. <!--change 'projects' to other objects when they become available and the location of the list view-->
 
 ## Åtkomstkrav
 
@@ -72,35 +80,62 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
 ## Överväganden om listvyer
 
-* Du kan inte visa alla objekttyper på posttypsidorna i en listvy.
+* Tänk på följande när du visar sidlistvyn för anslutna poster:
 
-  Du kan bara visa följande objekt i en listvy när du visar dem på postens sida Anslutna poster:
-
-   * Workfront-projekt
+   * Du kan bara visa projekt i listvyn på den anslutna postens postsida. Listvyn är inte tillgänglig för andra objekt- eller posttyper på en ansluten postsida.
 
   Mer information om hur du skapar en ansluten postsida finns i [Lägga till en kopplad postsida till en post](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
-* Innan du kan visa en listvy på en postsida med anslutna poster måste du koppla Workfront-projekt till posttyperna Planering. Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
+   * Innan du kan visa en listvy på en postsida med anslutna poster måste du koppla Workfront-projekt till posttyperna Planering. Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
+   * Du kan skapa flera listvyer för projekt på postens sida med kopplade poster.
+
+* Tänk på följande för listvyn över förfrågningsformulär:
+
+   * Du kan inte skapa eller redigera ytterligare listvyer för planeringsförfrågningsformulär. Workfront skapar en listvy för förfrågningsformulär. <!--this will change-->
+
+     Mer information om förfrågningsformulär finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+* Beroende på var den visas har inte alla listvyer samma element som beskrivs i den här artikeln.
 
 
 ## Hantera en listvy {#manage-a-list-view}
 
-Listvyer liknar förbättrade listor. Mer information finns i [Använd förbättrade listor](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+Listvyer liknar förbättrade listor. De flesta element från förbättrade vyer finns också i listvyer i Workfront Planning.
 
+Mer information finns i [Använd förbättrade listor](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+<!--
 {{step1-to-planning}}
 
-1. Klicka på ett arbetsytekort och klicka sedan på ett posttypskort.
-1. Klicka i valfri vy på namnet på en post för att öppna postens förhandsgransknings- eller informationssida.
-1. Lägg till en **sida för anslutna poster** för anslutna projekt enligt beskrivningen i artikeln [Lägg till en sida för kopplade poster i en post](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
+1. (Conditional) To access a projects connected page, do the following: 
 
-   På sidan Anslutna poster visas projekt som är kopplade till posten i listvyn.
+    1. Click a workspace card, then click a record type card. 
+    1. From any view, click the name of a record to open the record's preview or details page. 
+    1. Add a **Connected records page** for connected projects as described in the article [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
-   <!--add new screen shot when they release Conditional formatting MVP -->
+    The Connected records page displays projects connected to the record in the list view. 
 
-   ![Projekt på sidan med anslutna poster i listvyn](assets/projects-on-connected-records-page-list-view.png)
+    ![Projects on connected records page in list view](assets/projects-on-connected-records-page-list-view.png)
 
-1. (Valfritt) Gör något av följande om du vill ändra listvyn:
+1. (Conditional) To access a list of request forms, do the following: 
 
-   1. Expandera menyn för listvyer i det övre högra hörnet av listan om du vill välja en annan vy, eller klicka på **Ny vy** och skapa en annan.
+    1. {{step1-to-planning}}
+
+    1. (Conditional) To access a projects connected page, do the following: 
+
+    1. Click a workspace card, then click a record type card.
+    1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record name in the header, then click **Manage request forms**.
+
+        A list of request forms displays.
+
+-->
+
+1. Gå till en listvy i något av följande områden:
+
+   * Sidan med kopplade poster i en posts informationsområde
+   * Sidan Begär formulär för en post
+
+1. (Villkorligt) Gör något av följande om du vill ändra listvyn:
+
+   1. Expandera menyn för listvyer i det övre vänstra hörnet av listan om du vill välja en annan vy, eller klicka på **Ny vy** och skapa en annan.
 
       Vyer delas i hela systemet. Om du skapar en projektvy för en posttyp kan du visa den på andra posttyper som visar anslutna projekt.
 
@@ -117,7 +152,18 @@ Listvyer liknar förbättrade listor. Mer information finns i [Använd förbätt
       >
       >* <span class="preview">Du kan återställa en vy som har delats med dig och som du bara har behörighet att visa, efter att du har ändrat den för att återställa de ursprungliga inställningarna, eller så kan du kopiera den med dina ändringar och dela kopian. Mer information finns i [Använd förbättrade listor](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
 
-   1. Klicka på ikonen **Filter** ![Filter &#x200B;](assets/filter-icon.png) för att lägga till ett filter i vyn. Resultaten filtreras omedelbart i listan. Du kan inte spara och namnge filter. Filter sparas när du öppnar sidan i framtiden och de är en del av delade vyer.
+      <!--
+        And hide everything else below for these elements, after moving it to the Use enhanced lists article: 
+        1. <span class="preview">To update one of the following view elements, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md):</span>
+            <div class="preview">
+            * Filter
+            * Columns
+            * Format cells
+            * Row height
+            </div>
+        -->
+
+   1. Klicka på ikonen **Filter** ![Filter ](assets/filter-icon.png) för att lägga till ett filter i vyn. Resultaten filtreras omedelbart i listan. Du kan inte spara och namnge filter. Filter sparas när du öppnar sidan i framtiden och de är en del av delade vyer.
    1. Klicka på ikonen **Kolumner** ![Kolumner](assets/columns-icon.png) för att välja vilka kolumner som ska visas eller döljas i vyn.
    1. Håll pekaren över namnet på en kolumn, klicka sedan på nedåtpilen till vänster om kolumnnamnet och klicka sedan på något av följande:
       * **Byt namn** om du vill lägga till en **anpassad etikett** för kolumnen. Namnet på det ursprungliga fältet i Workfront ändras inte.
@@ -133,7 +179,13 @@ Du kan inte ta bort det primära fältet i listvyn som visas i den första kolum
       <span class="preview">Gör följande: </span>
 
       1. Klicka på **Lägg till villkor**.
-      1. <span class="preview">Markera ett fält på raden **If** och välj ett fältvärde. Klicka sedan på **Lägg till villkor**. </span>
+      1. <span class="preview">Markera ett fält på raden **If**, välj ett fältvärde och lägg till en modifierare. Modifierare ändras beroende på vilken fälttyp du väljer. </span>
+
+         >[!TIP]
+         >
+         ><span class="preview">Endast synliga fält i listvyn är tillgängliga för villkorsstyrd formatering.</span>
+
+      1. <span class="preview">(Valfritt) I stället för att lägga till ett fältvärde klickar du på ikonen **Jämför med ett annat fält** ![Jämför med ett annat fält](assets/compare-to-another-field-icon.png) och väljer ett fält vars värde du vill jämföra med värdet för det markerade fältet. Du kan till exempel filtrera efter projekt vars projektägare matchar projektsponsorn. </span>
 
          >[!TIP]
          >
@@ -149,7 +201,7 @@ Du kan inte ta bort det primära fältet i listvyn som visas i den första kolum
 
       1. Klicka på **Eller**-kopplingen mellan villkor om du vill ändra till **och** och ange att flera villkor måste uppfyllas samtidigt. **Eller** är standardkoppling.
       1. På raden **Format** markerar du ett fält som anger vilken kolumn som ska formateras. <!--edit this area, if it changes names??-->
-      1. (Valfritt) Klicka på ikonen **färgcirkel** ![Färgcirkel](assets/color-circle.png) bredvid det markerade fältet för att expandera det och välja en annan färg.
+      1. (Valfritt) Klicka på ikonen **färgcirkel** ![Färgcirkel](assets/color-circle.png) bredvid det markerade fältet för att expandera det och välja en annan färg <!--for a cell or the text of the cell that matches your criteria-->. <!--is this where the bold, italic is? I had no UI for this when I wrote it-->
       1. Aktivera inställningen **Använd på rad** om du vill använda formateringen på hela raden i fältet som uppfyller villkoren.
       1. (Valfritt) Klicka på **Lägg till villkor** i rutan **Format** om du vill lägga till en annan regel för ett annat fält och upprepa stegen ovan.
       1. (Valfritt) Klicka på **Rensa alla** om du vill ta bort all formatering.
@@ -160,6 +212,8 @@ Formateringen används omedelbart i listvyn.
 Det finns en blå punkt bredvid ikonen **Formatera celler** som anger att specialformatering används i vyn.
 
       </div>
+
+   <!--leave these here-->
 
 1. (Valfritt) Lägg till ett nyckelord i sökrutan i det övre högra hörnet av listan för att söka efter ett objekt.
 
@@ -178,9 +232,9 @@ Det finns en blå punkt bredvid ikonen **Formatera celler** som anger att specia
 
    eller
 
-   Markera ett eller flera objekt och lägg märke till åtgärdsfältet längst ned i listan och klicka sedan på något av följande:
+   Markera ett eller flera objekt och lägg märke till åtgärdsfältet längst ned i listan och klicka sedan på något av följande, om det är tillgängligt:
 
-   * **Ta bort** om du vill ta bort projektet. Om du tar bort ett projekt kopplas det från posten och flyttas till Workfront papperskorg. Workfront-administratörer kan återställa borttagna projekt upp till 30 dagar efter att de tagits bort.
+   * **Ta bort** om du vill ta bort objektet. Om du tar bort ett projekt kopplas det från posten och flyttas till Workfront papperskorg. Workfront-administratörer kan återställa borttagna projekt upp till 30 dagar efter att de tagits bort. När du tar bort ett formulär tas inte de förfrågningar eller poster som skapades när formuläret skickades bort.
    * **Koppla från** om du vill koppla från projektet från posten. När du kopplar från ett projekt tas det bort och alla värden i sökfälten tas bort från den aktuella posten.
 
    ![Åtgärdsfältet i sidvyn Anslutna poster](assets/actions-bar-connected-records-page-list-view.png)

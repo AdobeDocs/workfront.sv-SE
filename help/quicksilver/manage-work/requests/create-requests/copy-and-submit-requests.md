@@ -6,9 +6,9 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
-source-wordcount: '1520'
+source-wordcount: '1529'
 ht-degree: 0%
 
 ---
@@ -226,17 +226,21 @@ Du måste ha en begäran om att du eller någon i din organisation som tidigare 
 
 Du kan kopiera och skicka begäranden i området Förfrågningar i Workfront eller från widgeten Mina förfrågningar i Hem.
 
-{{step1-to-requests}}
+1. Gör något av följande:
 
-1. Så här öppnar du widgeten Mina förfrågningar i Hem:
+   {{step1-to-requests}}
+
+   1. Så här kommer du åt widgeten **Mina förfrågningar** i **Hem**:
 
    {{step1-to-home}}
 
-   1. Leta reda på widgeten Mina förfrågningar.
+   1. Leta reda på widgeten **Mina förfrågningar**.
 
       Mer information om widgeten Mina förfrågningar finns i [Använd widgeten Mina förfrågningar](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
-1. I listan **Begäranden** eller widgeten **Mina förfrågningar** i Hem håller du muspekaren över den förfrågan du vill kopiera och klickar sedan på menyn **Mer** ![Mer](assets/more-menu.png) .
+1. I listan **Begäranden** eller widgeten **Mina förfrågningar** i Hem håller du muspekaren över den förfrågan du vill kopiera och klickar sedan på menyn **Mer** bredvid dess namn.
+
+   ![Mer-menyn](assets/more-menu.png)
 
 1. Klicka på **Kopiera**
 

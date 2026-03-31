@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: Använda widgeten Mina förfrågningar
-description: Du kan skicka förfrågningar i widgeten Mina förfrågningar. Du kan också anpassa widgeten med filter och kolumner.
+description: Du kan skicka begäranden i widgeten Mina förfrågningar. Du kan också anpassa widgeten med filter och kolumner.
 author: Alina, Courtney
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 3893a57fb7ae31a1649b20beccc1f0b79f2421fb
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -17,14 +17,14 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->I den här artikeln beskrivs den nya widgeten Mina förfrågningar. Du måste ha den nya upplevelsen som begär aktiverad för att kunna se den nya widgeten.
+>Den här artikeln beskriver den nya widgeten Mina förfrågningar. Du måste ha den nya upplevelsen som begär aktiverad för att kunna se den nya widgeten.
 >Du kan aktivera den nya begärandeupplevelsen i området Förfrågningar.
 
-Widgeten Mina förfrågningar visar förfrågningar som du har skickat. Du kan filtrera begäranden, söka efter specifika begäranden eller justera kolumnordning och synlighet. Du kan också skapa en ny förfrågan från widgeten Mina förfrågningar.
+Widgeten Mina förfrågningar visar förfrågningar som du har skickat in. Du kan filtrera förfrågningar, söka efter specifika förfrågningar eller justera kolumnordningen och synligheten. Du kan också skapa en ny begäran från widgeten Mina förfrågningar.
 
 >[!NOTE]
 >
->* När widgeten Mina förfrågningar läses in visas upp till 50 förfrågningar. Bläddra nedåt i listan om du vill visa fler förfrågningar.
+>* När widgeten Mina förfrågningar läses in visas upp till 50 förfrågningar. Om du vill visa fler begäranden rullar du nedåt i listan.
 
 ## Åtkomstkrav
 
@@ -78,31 +78,53 @@ Du kan kopiera en begäran i widgeten Mina förfrågningar, redigera den och ski
 
 Instruktioner finns i [Kopiera och skicka begäranden](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
 
-## Filterförfrågningar
+## Hantera information i listan över förfrågningar i widgeten Mina förfrågningar
 
-Widgeten Mina förfrågningar har ett anpassningsbart filter som gör att du kan styra vilka förfrågningar som visas i widgeten. Du kan konfigurera det här filtret för olika fält och värden och kan stapla villkor med operatorerna AND och OR.
+<!--
+The My Requests widget features a customizable filter that allows you to control which requests appear in the widget. You can configure this filter for different fields and values, and can stack conditions using AND and OR operators.
 
-Så här konfigurerar du filtret i widgeten Mina förfrågningar:
+To configure the filter in the My Requests widget:
+-->
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/lines-main-menu.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Home]**.
 1. (Villkorligt) Om du vill lägga till widgeten **Mina förfrågningar** på hemskärmen. Klicka på **Anpassa** och sök efter **Mina förfrågningar**. Klicka sedan på den för att lägga till den i **Hem**.
-1. Klicka på **Filter** i widgeten **Mina förfrågningar**.
-1. Markera fältet som du vill filtrera efter. Tillgängliga alternativ är:
+1. (Valfritt) Om du vill hantera hur informationen visas i listan med begäranden uppdaterar du följande vyelement för listan:
+
+   * Visa
+   * Filter
+   * Kolumner
+
+   <!--
+   <div class="preview">
+      * Group
+   * Format cells
+   * Row height
+      </div>
+   -->
+
+   Mer information om hur du hanterar information i listan över förfrågningar finns i [Använda förbättrade listor](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+
+<!-- Removed all these sections because this is common to ALL the Glists/ enhanced lists. So, we will update that article with all the specific steps: 
+1. Select the field that you want to filter by. Available options are:
 
    * Workspace
-   * Objekttyp
-   * Anmälningsdatum
-   * Formulär för förfrågningar
+   * Object type
+   * Entry date
+   * Request form
    * Status
-   * Anges av
-   * Anpassade fält från begäran eller från det skapade objektet
+   * Entered by
+   * Custom fields from the request or from the created object   
 
-1. I nästa fält väljer du den operator som du vill använda för det här filtervillkoret. Vilka operatorer som är tillgängliga beror på vilket fält du har valt.
-1. (Villkorligt) Om ett fält visas till höger om operatorn markerar du det värde som du vill filtrera efter.
-1. (Valfritt) Om du vill lägga till ytterligare ett filtervillkor klickar du på **Lägg till villkor** och upprepar steg 4-6.
-1. (Valfritt och villkorligt) Om du har flera villkor växlar du värdet And eller Or genom att klicka på **And** eller **Or** till vänster om villkoret.
+1. In the next field, select the operator that you want to use for this filter condition. Available operators depend on the chosen field.
+1. (Conditional) If a field appears to the right of the operator, select the value that you want to filter by.
+1. (Optional) To add another filter condition, click **Add condition** and repeat steps 4-6.
+1. (Optional and conditional) If you have multiple conditions, switch the And or Or value by clicking **And** or **Or** to the left of the condition.
 
-Filtret sparas automatiskt.
+
+The filter is saved automatically.
+
+-->
 
 >[!TIP]
 >
@@ -111,45 +133,53 @@ Filtret sparas automatiskt.
 >* Om du bara vill filtrera efter Workfront-begäranden anger du filtret till **Objekttyp** > **Har något av** > **Problem**.
 >* Om du bara vill filtrera efter Workfront Planning-begäranden anger du filtret till **Objekttyp** > **Har inga av** > **Problem**.
 
-## Justera eller lägga till kolumner
+<!--
 
-Du kan välja vilken av de tillgängliga kolumnerna som ska visas i widgeten Mina förfrågningar och ange ordningen för dem.
+## Adjust or add columns
 
-Tillgängliga kolumner är:
+You can choose which of the available columns appear on the My Requests widget, and set their order.
 
-* Ämne
-* Skapat objekt
-* Objekttyp
+Available columns include:
+
+* Subject
+* Created object
+* Object type
 * Status
-* Formulär för förfrågningar
-* Anmälningsdatum
-* Angivet av
+* Request form
+* Entry date
+* Entered by
 
-Så här justerar du kolumnerna i widgeten Mina förfrågningar:
+To adjust the columns on the My Requests widget:
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
-1. (Villkorligt) Om du vill lägga till widgeten **Mina förfrågningar** på startskärmen. Klicka på **Anpassa** och sök efter **Mina förfrågningar**. Klicka sedan på den för att lägga till den i **Hem**.
-1. Klicka på **Kolumner** i widgeten **Mina förfrågningar**.
-1. (Valfritt) Om du vill ändra ordning på kolumnerna klickar du på draghandtaget ![drar i handtaget](assets/drag-handle.png) för den kolumn du vill flytta och drar det till önskad plats. Kolumnen högst upp på listan visas i widgeten Mina förfrågningar som den första kolumnen.
-1. (Valfritt) Använd reglaget för att dölja eller visa kolumnen i listan Förfrågningar.
-1. Om du vill lägga till ett anpassat fält som en kolumn klickar du på ikonen **Lägg till kolumn** ![Lägg till kolumn](assets/add-column.png) i det övre högra hörnet av listan och klickar på plusikonen bredvid det anpassade fältet som du vill lägga till som en kolumn i widgeten.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. (Conditional) To add the **My Requests** widget to your home screen. Click **Customize**, and find **My Requests**, then click it to add it to **Home**. 
+1. In the **My Requests** widget, click **Columns**.
+1. (Optional) To reorder columns, click the drag handle ![drag handle](assets/drag-handle.png) of the column you want to move and drag it to the desired locations. The column at the top of the list appears in the My Requests widget as the first column.
+1. (Optional) Use the toggle to hide or show the column in the requests list.
+1. To add a custom field as a column, click the **Add column** icon ![Add column](assets/add-column.png) in the upper-right corner of the list, and click the plus icon next to the custom field that you want to add as a column to the widget.
 
-   Anpassade fält i formulär som är kopplade till objektet i listan är tillgängliga för tillägg som kolumner.
+   Custom fields on forms attached to the object in the list are available to add as columns.
 
-Kolumninställningarna sparas automatiskt.
+Column preferences are saved automatically.
 
-## Skapa en vy
+-->
 
-Du kan skapa vyer i widgeten Mina förfrågningar om du vill ändra hur informationen visas i listan med förfrågningar.
+<!--
 
-Tänk på följande när du arbetar med vyer i widgeten Mina förfrågningar:
+## Create a view
 
-* En vy i widgeten Mina förfrågningar innehåller de kolumner och filter som har tillämpats på vyn.
-* Du kan skapa vyer och dela dem med andra. De filter och kolumner som du väljer för vyn innan du delar den inkluderas i de vyer som du delar.
-* Följande är en systemvy som du inte kan redigera, dela eller ta bort:
+You can create views in the My Requests widget to change the way the information displays in the request list. 
 
-   * Standardvy för enhetliga Widget-begäranden
-* Att skapa och redigera en vy i widgeten Mina förfrågningar liknar förbättrade listor. Mer information finns i [Använd förbättrade listor](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+Consider the following when working with views in the My Requests widget:
+
+* A view in the My Requests widget contains the columns and filters applied to the view.
+* You can create views and share them with others. The filters and columns you select for the view before you share it are included in the views you share. 
+* The following is a system view which you cannot edit, share, or delete: 
+
+   * Widget Unified Requests Default View
+* Creating and editing a view in the My Requests widget is similar to enhanced lists. For information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). 
+
+-->
 
 ## Sökbegäranden
 

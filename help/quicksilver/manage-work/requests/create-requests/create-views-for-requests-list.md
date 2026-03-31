@@ -6,9 +6,9 @@ description: Om du använder den nya begärandefunktionen kan du skapa och spara
 author: Alina
 feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
-source-git-commit: 78ad910e8d121dda38c9a7da27b0b338e0e1dcda
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -122,8 +122,7 @@ De ändringar du gör i en vy är synliga för alla som du delar vyn med.
    >
    >Fält som du lägger till i kolumnerna måste finnas innan de är tillgängliga i **kolumnhanteraren**.
 
-
-1. (Valfritt) Klicka på **Kolumner** för att öppna rutan F **fälts synlighet och ordning**.
+1. (Valfritt) Klicka på **Kolumner** för att öppna rutan **Fältsynlighet och fältordning**.
 1. Aktivera inställningen för varje fält som du vill visa i listan, inaktivera den för att dölja den eller dra och släpp fälten i en annan ordning.
 
 1. (Valfritt) Klicka på **Filter** och börja lägga till villkor för vilka begäranden du vill visa.

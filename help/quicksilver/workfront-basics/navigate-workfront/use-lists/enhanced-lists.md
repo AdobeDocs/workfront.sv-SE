@@ -5,9 +5,9 @@ description: De förbättrade listorna har ett tabellformat för att visa listob
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
-source-wordcount: '2337'
+source-wordcount: '2350'
 ht-degree: 0%
 
 ---
@@ -156,7 +156,7 @@ I vissa kolumner kan du spara ett anpassat namn för kolumnrubriken.
 
    Det nya kolumnnamnet visas i listan.
 
-## Lägga till och ta bort kolumner med kolumnhanteraren
+### Lägga till och ta bort kolumner med kolumnhanteraren
 
 Du kan använda **kolumnhanteraren** i vissa förbättrade listor för att enkelt lägga till och ta bort kolumner i listan. Du kan lägga till eller ta bort både systemfält och anpassade fält som redan finns i Workfront som kolumner i en förbättrad lista.
 
@@ -283,11 +283,13 @@ Så här sorterar du enskilda kolumner:
 
    ![Sortera efter kolumn](assets/glist-sort-by-column.png)
 
-Så här sorterar du arbetet i en grupp:
-
-1. Klicka på **Grupp**, gå till raden för den använda grupperingen, klicka på sorteringslistrutan och välj en stigande eller fallande ordning.
+1. (Valfritt) Om du vill sortera ditt arbete inom en gruppering klickar du på **Grupp**, går till raden för den gruppering som används, klickar på listrutan Sorterare och väljer en stigande eller fallande ordning.
 
    ![Sortera i en gruppering](assets/sort-in-groups.png)
+
+   >[!TIP]
+   >
+   >Sorteringsordningen varierar beroende på vilken fälttyp du sorterar efter.
 
 ### Söka i en förbättrad lista
 

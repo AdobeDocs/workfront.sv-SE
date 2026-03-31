@@ -6,25 +6,21 @@ description: Planerat arbete representeras i Adobe Workfront av projekt och uppg
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
-source-wordcount: '2575'
+source-wordcount: '2685'
 ht-degree: 0%
 
 ---
 
 # Skapa och skicka begäranden
 
-<!--Audited: 12/2023-->
+<!--Audited: 03/2026-->
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>(NOTE: Linked to the UI - do not change/ remove; THIS IS NOW SPLIT IN THREE ARTICLES>> MAKE SURE THE TRANSITION TO THE OTHER TWO IS CLEAR SINCE THIS IS LINKED TO UI)</p>
-<p>(NOTE: If they come out with templates AND drafts, consider splitting this article to keep Create in one and Working with Drafts and Requests in another??)</p>
 <p>(NOTE: this article is linked from Submitting Workfront Requests from Salesforce) </p>
-</div>
 -->
-
 
 Planerat arbete representeras i Adobe Workfront av projekt och uppgifter. Du kan dock arbeta i en miljö där oplanerat arbete, i form av förfrågningar, kan komma in när som helst. Workfront tillhandahåller ett arbetsflöde för den här typen av miljö genom att använda frågeköer.
 
@@ -37,13 +33,17 @@ Du kan skapa en Workfront-begäran på följande sätt:
 * Från utkast. Mer information finns i [Skapa begäranden från utkast](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
 * Från en befintlig begäran genom att kopiera och skicka en kopia. Mer information finns i [Kopiera och skicka begäranden](../../../manage-work/requests/create-requests/copy-and-submit-requests.md).
 
-Du kan skapa en ny Workfront Planning-begäran om du vill skapa poster i Workfront Planning på följande sätt:
+Om ditt företag har köpt Adobe Workfront Planning kan du även skapa en Workfront Planning-förfrågan från grunden på följande sätt:
 
 * Från en länk till ett begärandeformulär för Workfront Planning.
 
 * Från ett Workfront Planning-begärandeformulär i området Begäranden i Workfront.
 
-  Din organisation måste köpa ett Workfront Planning-paket. Mer information finns i [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md).
+Planeringsbegäranden skapar poster i Workfront Planning.
+
+Mer information finns i avsnittet [Skapa begäranden med hjälp av ett Workfront Planning-begärandeformulär](#create-requests-using-a-workfront-planning-request-form) i den här artikeln.
+
+I den här artikeln beskrivs hur du kan skapa och skicka Workfront-begäranden med Workfront frågeköar.
 
 ## Åtkomstkrav
 
@@ -56,22 +56,19 @@ Du kan skapa en ny Workfront Planning-begäran om du vill skapa poster i Workfro
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Alla </p> </td> 
+   <td> <p>Alla Workfront- eller Workflow-paket</p>
+   <p>Du måste ha ett Adobe Workfront Planning-paket för att kunna skapa Planning-begäranden</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Medarbetare eller högre</p>
-   <p>Begäran eller senare</p>
+   <td> <p>Workfront Contributor eller senare</p>
+   <p>Workfront Request eller senare</p>
     </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till problem</p>  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> Produkt</td> 
-   <td> <ul><li>Adobe Workfront</li><li>Du måste ha Adobe Workfront Planning för att kunna visa planeringsförfrågningar eller begära formulär</td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
@@ -80,6 +77,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 +++
 
 ## Förutsättningar för att använda frågeköer
+
+Informationen i det här avsnittet gäller för Workfront begärandeköer. Mer information om att planera begärandeformulär finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 En Workfront-administratör måste skapa begärandeköer och göra dem tillgängliga för användare innan de kan använda den här funktionen. En användare med en planerarlicens och med behörigheten Redigera för projekt och Hantera för ett visst projekt kan också skapa begärandeköer.
 
@@ -107,10 +106,12 @@ En Workfront-administratör måste skapa följande komponenter i en frågekö:
 
 När du skapar en begäran i Workfront webbprogram sparar Workfront begäran som ett utkast innan du skickar den. Workfront skapar ett utkast så snart du har valt din begärandekö och börjar ange information om det.
 
-Du kan fortsätta skicka begäran eller så kan du fylla i så mycket information du har och navigera bort från den för att slutföra den senare. Workfront sparar den ifyllda förfrågan som du har startat. Du kan hitta dem i:
+Du kan fortsätta skicka begäran eller så kan du fylla i så mycket information du har och navigera bort från den för att slutföra den senare. Workfront sparar den ifyllda förfrågan som du har startat.
 
-* Ny begärande upplevelse: Listan över förfrågningar
-* Äldre begärande upplevelse: Mappen Utkast
+Du kan hitta utkast till begäranden inom följande områden:
+
+* Ny begärande upplevelse: Listan över förfrågningar. Utkast är begäranden med statusen Utkast.
+* Äldre begärande upplevelse: Mappen Utkast i listan över begäranden.
 
 >[!IMPORTANT]
 >
@@ -119,8 +120,9 @@ Du kan fortsätta skicka begäran eller så kan du fylla i så mycket informatio
 >* Workfront skapar inte utkastbegäranden när du skickar dem från ett tredjepartsprogram, som att skicka dem till Workfront eller skapa dem med något annat program. När du skickar en begäran utanför Workfront webbprogram sparas begäran i avsnittet Skickat.
 >* Om strukturen för en begärandekö ändras kan du inte längre komma åt befintliga utkast. Om till exempel ett köämne tas bort, eller om en ämnesgrupp läggs till, är de sparade utkasten inte längre tillgängliga.
 >
+>* Utkast tas aldrig bort. De sparas i Workfront tills du antingen skickar in dem och de blir skickade förfrågningar eller du tar bort dem.
 
-Mer information om hur du skapar begäranden från befintliga utkast finns i [Skapa begäranden från utkast](../../../manage-work/requests/create-requests/create-requests-from-drafts.md). Mer information om hur du tar bort utkast för begäranden finns i [Ta bort ett utkast för en begäran](../../../manage-work/requests/create-requests/delete-request-draft.md).
+Mer information om hur du skapar begäranden från befintliga utkast finns i [Skapa begäranden från utkast](../../../manage-work/requests/create-requests/create-requests-from-drafts.md). Mer information om hur du tar bort utkast av begäranden finns även i [Ta bort en skickad begäran eller ett utkast av begäranden](../../../manage-work/requests/create-requests/delete-request-draft.md).
 
 Så här skapar du en begäran i Workfront webbprogram:
 
@@ -128,7 +130,7 @@ Så här skapar du en begäran i Workfront webbprogram:
 
 1. (Valfritt och villkorligt) Välj inställningen **Växla till ny upplevelse** i skärmens övre högra hörn.
 
-1. Klicka på **Ny begäran** i det övre högra hörnet på sidan.
+1. (Villkorligt) Om du använder den äldre begärande funktionen klickar du på **Ny begäran** i det övre högra hörnet på sidan.
 
    >[!TIP]
    >
@@ -141,16 +143,13 @@ Så här skapar du en begäran i Workfront webbprogram:
 
    När du klickar på sökfältet visas en listruta med de senast använda köerna och formulären först. Välj en från listan eller börja skriva och välj kön eller formuläret när det visas.
 
-   >[!NOTE]
+   >[!TIP]
    >
-   >Tänk på följande när det gäller den nya upplevelsen som begär:
-   >* Listan innehåller både Workfront begärandeköer och Workfront Planning-förfrågningsformulär.
-   >* Du kan filtrera listan efter objekttyp.
-   >* I den nya begärandeupplevelsen finns utkast i samma lista som skickade begäranden.
+   >Listan innehåller både Workfront begärandeköer och Workfront Planning-formulär
 
 1. (Villkorligt) Om du växlade till den nya versionen väljer du ämnesgrupper och köämnen och fortsätter att uppdatera formuläret.
 
-   Annars klickar du i fältet **Typ av begäran** och gör något av följande:
+   Klicka i fältet **Typ av begäran** i den äldre versionen och gör något av följande:
 
    * I avsnittet **Senaste sökvägar** väljer du en sökväg som du nyligen använde för att öppna en frågekö. En sökväg innehåller begärandekön, ämnesgrupperna och det köämne som du skickade till nyligen. De sista tre banorna visas som standard.
 
@@ -210,7 +209,7 @@ Så här skapar du en begäran i Workfront webbprogram:
 
    * Börja ange en ny begäran i den valda kön.
 
-     Ett nytt utkast sparas automatiskt i avsnittet Utkast när du har börjat ange information för den nya begäran och du ger begäran ett namn i fältet Ämne.
+     Ett nytt utkast sparas automatiskt åt dig i avsnittet **Utkast** när du har börjat ange information för den nya begäran och du ger begäran ett namn i fältet Ämne.
 
 1. (Valfritt) Om din frågekö innehåller ämnesgrupper väljer du namnet på ämnesgruppen i det första nedrullningsbara fältet. Annars väljer du ett köämne.
 
@@ -313,8 +312,10 @@ Så här skapar du en begäran i Workfront webbprogram:
     </tbody> 
    </table>
 
-1. (Valfritt) Om din Workfront-administratör har kopplat ett anpassat formulär till begärandekön eller till avsnittet Kö anger du fälten i det anpassade formuläret.\
+1. (Valfritt) Om din Workfront-administratör har kopplat ett anpassat formulär till begärandekön eller till avsnittet Kö anger du fälten i det anpassade formuläret.
+
    Anpassade formulär är olika för alla Workfront-instanser.
+
 1. (Valfritt och villkorligt) Klicka på [!UICONTROL **Ignorera utkast**] när som helst när du anger begäran om du vill ta bort det utkast som skapas automatiskt. Detta tar bort utkastet som inte kan återställas. Ett bekräftelsemeddelande visas som bekräftar att du håller på att ta bort utkastet.
 
 1. (Valfritt) Klicka på [!UICONTROL **Ångra**] i bekräftelsemeddelandet om du vill återställa åtgärden och behålla utkastet.
@@ -331,15 +332,25 @@ Så här skapar du en begäran i Workfront webbprogram:
 
    När du skickar begäran tas utkastet automatiskt bort och kan inte återställas.
 
-   Skickade begäranden visas i avsnittet **Skickade** i området Begäranden. Om du använder den nya versionen visas de förfrågningar som Workfront har skickat på fliken **Workfront** i området Förfrågningar.
+   Skickade begäranden listas i avsnittet **Skickade** i området Begäranden när äldre erfarenhet används. Om du använder den nya versionen visas de förfrågningar som Workfront har skickat i listan över förfrågningar.
+
+   >[!NOTE]
+   >
+   >Tänk på följande när det gäller listan över förfrågningar i den nya upplevelsen som begär:
+   >
+   >* Du kan filtrera listan efter objekttyp.
+   >
+   >* Utkast finns i samma lista som skickade begäranden.
 
    Mer information om hur du hanterar inkommande begäranden finns i artikeln [Hantera arbets- och teamförfrågningar](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
-   Mer information om hur du söker efter skickade eller skrivna begäranden finns i [Leta reda på skickade begäranden](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+   Mer information om hur du söker efter skickade eller utkast till begäranden finns i [Visa skickade begäranden](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
 ## Skapa förfrågningar utanför Workfront
 
-Du kan dela en direktlänk till en begärandekö när du skickar en ny begäran och bädda in den i andra program. Användare som kommer åt den här länken från webben eller från andra program måste också vara inloggade med ett aktivt Workfront-konto för att kunna komma åt den här kön och skicka begäranden till den. Mer information finns i [Dela en länk till en begärandekö](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
+Du kan dela en direktlänk till en begärandekö när du skickar en ny begäran och bädda in den i andra program. Användare som kommer åt den här länken från webben eller från andra program måste också vara inloggade med ett aktivt Workfront-konto för att kunna komma åt den här kön och skicka begäranden till den.
+
+Mer information finns i [Dela en länk till en begärandekö](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
 
 ## Skapa förfrågningar genom att mejla till Workfront
 
@@ -382,4 +393,4 @@ Mer information finns i följande artiklar:
 
 ## Sök efter skickade begäranden
 
-Mer information om hur du söker efter skickade eller skrivna begäranden finns i [Leta reda på skickade begäranden](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+Mer information om hur du söker efter skickade eller utkast till begäranden finns i [Visa skickade begäranden](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
