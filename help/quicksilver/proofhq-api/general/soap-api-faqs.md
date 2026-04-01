@@ -6,7 +6,7 @@ draft: Probably
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: fcf89bd6-0e07-42a7-9ae3-9a1309e51946
-source-git-commit: 79b6370ec3283922a16435e8eb8069f7f9560c55
+source-git-commit: 729c8512f7aa239f0858e18295a0c77e6b7e3328
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Det krävs två enkla steg:
 
 **Steg 1**: Om du inte har något sessions-ID kan du hämta ett med metoderna doLogin() eller getSessionID(). Använd den första för att&quot;logga in&quot; med en användares e-postadress och lösenord eller den senare metoden om du har användarens e-postadress och autentiseringstoken.
 
-**Steg 2:**&#x200B;Nu är det dags att skapa ett korrektur. Använd metoden createProof() och skicka minst de obligatoriska fälten (för närvarande finns det bara 5). Se till att du anger parametern Hash som &quot;web&quot; och parametern SourceName som URL för den webbsida som du vill hämta.
+**Steg 2:** Nu är det dags att skapa ett korrektur. Använd metoden createProof() och skicka minst de obligatoriska fälten (för närvarande finns det bara 5). Se till att du anger parametern Hash som &quot;web&quot; och parametern SourceName som URL för den webbsida som du vill hämta.
 
 Om du loggar in på ditt konto ser du korrekturet.
 
@@ -59,7 +59,7 @@ Du behöver inte skaffa något nytt sessions-ID innan varje anrop till API:t. De
 
 **Team/Public**: Varje korrekturversion har en unik Team-URL (Public). Om det här alternativet är aktiverat öppnas korrekturet i skrivskyddat läge. Du kan hämta Team-URL:en med metoden [getProofURL()](https://api.proofhq.com/home/proofs/getproofurl.html).
 
-**Personlig**: En personlig URL är unik för varje granskare och korrekturversion. Om en korrekturuppsättning innehåller tre versioner och en granskare finns i alla versioner har granskaren tre unika personliga URL:er. En personlig URL öppnar korrekturversionen med granskaren som redan är identifierad och som därför ska vara säker och inte delas. Personliga URL:er kan hämtas genom att metoden [getProofReviewers()](https://api.proofhq.com/home/proofs/getproofreviewers.html) anropas och sedan itereras över varje  [&#x200B; SOAPRecepientObject &#x200B;](https://api.proofhq.com/home/objects/soaprecipientobject.html) och hämtar parametern &quot;proof_url&quot;.
+**Personlig**: En personlig URL är unik för varje granskare och korrekturversion. Om en korrekturuppsättning innehåller tre versioner och en granskare finns i alla versioner har granskaren tre unika personliga URL:er. En personlig URL öppnar korrekturversionen med granskaren som redan är identifierad och som därför ska vara säker och inte delas. Personliga URL:er kan hämtas genom att metoden [getProofReviewers()](https://api.proofhq.com/home/proofs/getproofreviewers.html) anropas och sedan itereras över varje  [ SOAPRecepientObject ](https://api.proofhq.com/home/objects/soaprecipientobject.html) och hämtar parametern &quot;proof_url&quot;.
 
 ## >Hur du inkluderar anpassade parametrar när du öppnar minikorrekturet?
 
