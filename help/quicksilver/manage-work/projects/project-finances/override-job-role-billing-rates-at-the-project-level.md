@@ -6,24 +6,26 @@ description: Som projektledare kan du ange faktureringssatsen för en jobbroll i
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: 1992e1c07e5e530a2e627ef5d2059b2384b31000
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
 
 # Åsidosätt faktureringshastigheter för jobbroller på projektnivå
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
+{{highlighted-preview}}
 
 Som projektledare kan du ange faktureringssatsen för en jobbroll i ett visst projekt. Den här faktureringsnivån på projektnivå åsidosätter faktureringsnivån på systemnivån för den här jobbrollen. Workfront använder faktureringssatsen på projektnivå för jobbrollen för att beräkna intäkten, i stället för att använda faktureringssatsen på systemnivå.
 
 I den här artikeln beskrivs hur du kan åsidosätta faktureringstaxorna för systemjobbroller för ett projekt.
 
-Allmän information om hur du åsidosätter faktureringssatser för jobbroller för projekt och beräknar projektintäkter finns i [Översikt över åsidosättande av faktureringssatser för jobbroller och beräkning av intäkter för ett projekt](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Allmän information om hur du åsidosätter faktureringssatser för jobbroller för projekt och beräknar projektintäkter finns i [Översikt över åsidosatta faktureringssatser och beräkning av intäkter för ett projekt](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
-Mer information om vilken jobbroll som används för att beräkna intäkter för projektet finns i avsnittet Förstå intäktsberäkningar för aktiviteter baserade på användar- och rolltilldelningar i artikeln [Översikt över fakturering och intäkt](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Mer information om vilken jobbroll som används för att beräkna intäkter för projektet finns i avsnittet [Översikt över intäkt- och kostnadshierarkin](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md) och i avsnittet [Inkomstberäkningar för aktiviteter baserade på användar- och rolltilldelningar](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments) i artikeln [Översikt över fakturering och intäkt](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 >[!NOTE]
 >
@@ -39,7 +41,8 @@ Mer information om vilken jobbroll som används för att beräkna intäkter för
  <tbody> 
   <tr> 
    <td>Adobe Workfront package</td> 
-   <td>Alla</td> 
+   <td> <p>Så här åsidosätter du en faktureringsfrekvens för en jobbroll för ett projekt: Alla Workfront- eller arbetsflödespaket</p>
+        <p>Så här använder du attribut för jobbrollen: Ultimate för arbetsflöde</p> </td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront-licens</td> 
@@ -64,58 +67,64 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 ## Åsidosätt faktureringshastigheter för jobbroller på projektnivå
 
-Du kan åsidosätta faktureringsfrekvensen för en jobbroll i ett projekt på följande sätt:
+När du åsidosätter faktureringsfrekvensen för ett jobb i ett projekt kan du tilldela giltighetsdatum och varje datumintervall har olika hastigheter. Om du inte tilldelar giltighetsdatum används den åsidosättning av faktureringssatsen som du anger för hela projektets varaktighet för att beräkna intäkten.
 
-* En gång genom att välja en ny avgift för jobbrollen.\
-  Den nya avgiften används för att beräkna intäkterna under hela projektets löptid.
-
-* Flera gånger genom att välja flera nya priser för specifika datumintervall.\
-  Du kan använda olika hastigheter under varje angivet datumintervall.
-
-* Du kan lägga till nya faktureringstariffer i en projektmall och dessa blir projektfaktureringstariffer när du skapar projektet från den mallen. Mer information om hur du redigerar mallar finns i [Redigera projektmallar](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
+Du kan lägga till nya faktureringstariffer i en projektmall och dessa blir projektfaktureringstariffer när du skapar projektet från den mallen. Mer information om hur du redigerar mallar finns i [Redigera projektmallar](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 >[!TIP]
 >
->Du kan inte åsidosätta användarfaktureringstariffer för ett projekt.
+>Du kan inte åsidosätta användarnas faktureringstaxor för ett projekt om du inte har Workflow Ultimate-paketet.
 
 Så här åsidosätter du en faktureringstaxa för ett projekt:
 
 1. Gå till det projekt som du vill åsidosätta faktureringstariffer för.
 1. Klicka på **Faktureringstariffer** i den vänstra panelen.
+
+   eller
+
+   <span class="preview">Klicka på **Kurser** i den vänstra panelen och klicka på fliken **Fakturering** om den inte redan är markerad.</span>
+
 1. Klicka på **Lägg till faktureringsränta** > **Ny faktureringsränta**.
+
+   eller
+
+   <span class="preview">Klicka på **Lägg till faktureringsfrekvens > Ny faktureringsfrekvens för jobbroll**.</span>
 
    Rutan Ny faktureringsränta öppnas.
 
 1. I fältet **Jobbroll** väljer du den jobbroll du vill ändra faktureringsfrekvensen för.
 
-   Fältet **Standardfaktureringsfrekvens** visar systemnivåfrekvensen för den här jobbrollen.
+1. <span class="preview">(Valfritt) Välj eventuella attribut för faktureringsfrekvensen, till exempel byrå eller plats.</span>
 
-1. I fältet **Faktureringstariffer 1** anger du åsidosättning av engångsavgift och klickar sedan på **Spara** för att åsidosätta faktureringstaxan en gång
+   <span class="preview">Systemadministratören definierar tariffattribut i inställningsområdet.</span>
+
+1. Välj **Valuta** för åsidosättning av faktureringsfrekvens.
+1. I fältet **Faktureringsgrad** anger du åsidosättning av faktureringsfrekvens och klickar sedan på **Spara** för att åsidosätta faktureringssatsen en gång
 
    eller
 
    Klicka på **Lägg till ränta** om du vill lägga till fler åsidosättningar av faktureringsfrekvens.
 
-1. (Villkorligt) Om du lägger till fler än en åsidosättning av faktureringsfrekvens anger du följande information:
+1. (Villkorligt) Ange följande information för varje rad om åsidosättning av gällande faktureringsränta för datum:
 
-   * **Faktureringstariffer 1**: värdet på faktureringstakten från början av projektet till första datumet för den första åsidosättningen. Detta är vanligtvis samma belopp som **standardfrekvensen**.
-   * **Startdatum**: Detta är det datum då standardhastigheten slutar.
-   * **Slutdatum**: det datum då den nya faktureringstariffen upphör.
+   * **Faktureringstakt**: Värdet för faktureringstakten från början av projektet till första datumet för den första åsidosättningen.
+   * **Startdatum**: Det datum då åsidosättningen av faktureringstariff börjar.
+   * **Slutdatum**: Det datum då faktureringstakten åsidosätts slutar.
 
-   <!--<span class="preview">Sample image in the Preview environment:</span>-->
-   ![Faktureringstariffer med åsidosättningsdatum](assets/billing-rates-093025.png)
+   ![Faktureringstariffer med åsidosättningsdatum](assets/new-job-role-billing-rate-on-project2.png)
 
-   <!--Sample image in the Production environment:
-   ![Billing rates with override dates](assets/new-billing-rate-with-adjustment-dates-350x266.png)-->
+   Workfront tillämpar rollfrekvensen för åsidosättningsjobb på de timmar som inträffar under dessa tidsramar vid beräkning av projektets intäkter.
 
-1. Tidszonen för de datum du väljer visas längst ned i rutan Ny faktureringsfrekvens. Detta är den tidszon som är kopplad till din Workfront-instans, vilket visas i området Kundinformation i installationsprogrammet. Mer information finns i [Konfigurera grundläggande information för systemet](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
-1. Workfront tillämpar rollfrekvensen för åsidosättningsjobb på de timmar som inträffar under de tidsramar som anges vid beräkning av projektets intäkter.
-1. Det ska inte finnas några mellanrum mellan tidsbildrutorna för två åsidosättningsfrekvenser. **Startdatum** för en åsidosättningsfrekvens ska vara dagen omedelbart efter **Slutdatum** för föregående åsidosättningsdatum.
+   I Workfront kan du lämna luckor mellan åsidosättandetidsramar, men du får en varning som bekräftar att detta är avsiktligt.
 
-1. Du kan inte ange ett startdatum för den första åsidosättningsfrekvensen eller ett slutdatum för den senaste åsidosättningsfrekvensen.\
-   Vi rekommenderar att du använder standardpriset för den första åsidosättningsfrekvensen.\
-   Workfront antar att den första åsidosättandefrekvensen används för alla timmar med ett datum som är äldre än slutdatumet för den första åsidosättningen och att den senaste åsidosättandefrekvensen används för alla timmar med ett datum som är senare än startdatumet för den senaste åsidosättningen.\
-   Om en timme loggas före projektets planerade startdatum används den första faktureringstakten.\
+   Du behöver inte ange ett startdatum för den första åsidosättningsfrekvensen eller ett slutdatum för den senaste åsidosättningsfrekvensen.
+
+   Om du bara anger en åsidosättning av faktureringssatsen gäller den avgiften för hela projektperioden. Om du lägger till flera datumgiltiga åsidosättningar förutsätter Workfront att den första åsidosättningen gäller alla timmar före slutdatumet och att den sista åsidosättningen gäller alla timmar efter startdatumet.
+
+   Workfront antar att den första åsidosättandefrekvensen används för alla timmar med ett datum som är äldre än slutdatumet för den första åsidosättningen och att den senaste åsidosättandefrekvensen används för alla timmar med ett datum som är senare än startdatumet för den senaste åsidosättningen.
+
+   Om en timme loggas före projektets planerade startdatum används den första faktureringstakten.
+
    Om en timme loggas efter projektets planerade slutförandedatum används den sista faktureringstakten.
 
 1. Klicka på **Spara**.

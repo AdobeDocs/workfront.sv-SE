@@ -4,14 +4,16 @@ description: Du kan dela en portfölj med andra användare om du har behörighet
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ddaecaf65fc7080e27ae67d6c8f4980586f1241e
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '896'
 ht-degree: 0%
 
 ---
 
 # Dela en portfölj
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Din Adobe Workfront-administratör kan ge dig åtkomst att visa eller redigera portföljer när du tilldelar din åtkomstnivå. Du måste ha en planlicens för att kunna redigera en portfölj. Mer information finns i [Bevilja åtkomst till portföljer](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md).
 
@@ -82,7 +84,7 @@ Mer information om objekthierarkin i Workfront finns i [Förstå objekt i Adobe 
 
    ![Knappen Dela portfölj](assets/share-portfolio-button.png)
 
-1. I fältet **Bevilja portföljåtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela portföljen med och klickar sedan på namnet i listrutan.
+1. I fältet **Bevilja portföljåtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp, det företag eller den affärsprofil <span class="preview"> som du vill dela portföljen med och klickar sedan på namnet i listrutan.</span>
 
    >[!TIP]
    >
@@ -115,7 +117,7 @@ Mer information om objekthierarkin i Workfront finns i [Förstå objekt i Adobe 
 
    ![Dela flera portföljer](assets/bulk-share-portfolios.png)
 
-1. I fältet **Bevilja portföljåtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela portföljerna med och klickar sedan på namnet i listrutan.
+1. I fältet **Bevilja portföljåtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp, det företag eller den affärsprofil <span class="preview"> som du vill dela portföljerna med och klickar sedan på namnet i listrutan.</span>
 
    >[!TIP]
    >

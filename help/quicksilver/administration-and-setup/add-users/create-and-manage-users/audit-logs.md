@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 85c6985d27ef0806e9152ecf2cbd90ca63a588c6
+source-git-commit: 5f5a32b9a569221acc3d5f38568bb6a1e609070f
 workflow-type: tm+mt
-source-wordcount: '1523'
+source-wordcount: '1578'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 # Översikt över granskningsloggar
 
 <!--Audited: 08/2025-->
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Som Adobe Workfront-administratör kan du spåra användarändringar som utlösts i systemet under de senaste 90 dagarna med hjälp av granskningsloggarna som beskrivs nedan.
 
@@ -65,7 +67,8 @@ Följande fält registreras i alla poster i granskningsloggen:
 ## Granskningsloggtyper och de åtgärder som utlöser dem
 
 * [Åtkomstnivå](#access-level)
-* [Affärsregler](#business-rules)
+* [Affärsprofiler](#business-profiles)
+* <span class="preview">[Affärsregler](#business-rules)</span>
 * [Företag](#company)
 * [Villkor](#condition)
 * [Anpassat fält](#custom-field)
@@ -98,6 +101,18 @@ Systemet genererar en loggpost på åtkomstnivå när en användare utför någo
      >Systemet registrerar inte några behörighetsändringar i finansiella data eller inom följande åtkomsttyper: Visa och redigera.
      >
      >Om en användare t.ex. ändrar åtkomsttypen Planering från Visa till Redigera, visas inte information i den nedrullningsbara menyn Finjustera inställningarna.
+
+<div class="preview">
+
+### Affärsprofiler
+
+Systemet genererar en loggpost för affärsprofilsgranskning när en användare gör något av följande:
+
+* Skapar en affärsprofil
+* Redigerar en affärsprofil:
+* Tar bort en affärsprofil
+
+</div>
 
 ### Affärsregler
 

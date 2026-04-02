@@ -5,9 +5,9 @@ description: Förutom att ställa in intäkter och spåra utgifter kan du skapa 
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1633'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ Du kan lägga till timmar i en faktureringspost när följande villkor är uppfy
      >[!NOTE]
      >
      >Du kan åsidosätta faktureringstariffer för jobbroller på projektnivå.\
-     >Mer information finns i avsnittet Åsidosätta faktureringssatser för jobbroller på projektnivå i artikeln [Översikt över åsidosättande av faktureringssatser för jobbroller och beräkning av intäkter för ett projekt](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+     >Mer information finns i avsnittet Åsidosätta faktureringstariffer för jobbroller på projektnivå i artikeln [Översikt över åsidosatta faktureringstariffer och beräkna intäkter för ett projekt](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 * Om alternativet Kräv tid att godkänna för det här projektet har valts under Projektinställningar måste projektägaren godkänna de loggade timmarna.\
   Mer information finns i [Kräv tid för att godkännas för ett projekt](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md).

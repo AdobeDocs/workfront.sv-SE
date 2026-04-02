@@ -8,9 +8,9 @@ author: Lisa
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 7dda021d-4cf8-4f65-b187-23fcd935a842
-source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
+source-git-commit: 5a112a0fe9f7e40f57fef82b35860615c9408b95
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
@@ -69,13 +69,9 @@ Mer information om områden där du kan hitta finansiell information om projekt 
 
 [Beräkna planerad arbetskostnad](../../../manage-work/projects/project-finances/planned-labor-cost.md)
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"><a href="../../../manage-work/projects/project-finances/export-billing-record-details.md" class="MCXref xref" xrefformat="{para}">Export billing record details as a PDF file</a> </p>
--->
+[Översikt över intäkter och kostnadshierarki](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../manage-work/projects/project-finances/how-workfront-calculates-finances.md" class="MCXref xref" xrefformat="{para}">How Adobe Workfront calculates finances </a> </p>
--->
+[Åsidosätt användarkostnadstariffer på projektnivå](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md)
 
 ## Faktureringstariffer
 
@@ -85,8 +81,14 @@ Mer information om områden där du kan hitta finansiell information om projekt 
 
 [Åsidosätt faktureringstariffer på projektnivå med faktureringstariffer på företagsnivå](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md)
 
-[Översikt över åsidosättande av faktureringstaxor för jobbroller och beräkning av intäkter för ett projekt](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
+[Översikt över åsidosättande av faktureringstariffer och beräkning av intäkter för ett projekt](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
 
 [Åsidosätt faktureringshastigheter för jobbroller på projektnivå](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)
 
+[Åsidosätt användarfakturering på projektnivå](/help/quicksilver/manage-work/projects/project-finances/override-user-billing-rates-project-level.md)
+
 [Koppla ett tariffkort till ett projekt](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)
+
+[Ställ in en jobbroll för fakturering](/help/quicksilver/manage-work/projects/project-finances/set-up-job-role-for-billing.md)
+
+[Definiera en övertidskvot](/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md)

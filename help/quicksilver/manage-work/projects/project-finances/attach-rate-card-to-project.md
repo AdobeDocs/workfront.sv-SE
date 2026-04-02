@@ -5,9 +5,9 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: 97c33c5a-e42d-4015-841f-69dc44a0599d
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: 58d3f084c343bcc404f30edd270017fa5f86eb58
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -16,19 +16,17 @@ ht-degree: 0%
 
 {{highlighted-preview-article-level}}
 
-Hastighetskort lagrar flera faktureringspriser per jobbroll, baserat på plats. Du kan vara Designer-baserad i Paris och en andra Designer-baserad i New York, var och en med olika faktureringstaxor. Det krävs dock ingen plats för jobbroller på ett tariffkort. En faktureringsfrekvens för en jobbroll (och eventuell plats) på ett kurskort kan även innehålla giltighetsdatum.
+Hastighetskort lagrar flera faktureringsfrekvenser per jobbroll, baserat på attribut. Du kan till exempel ha en befattning som Designer baserad i Paris för byrå A, en annan Designer baserad i Paris för byrå B och en tredje Designer baserad i New York som inte tilldelats någon byrå, var och en med olika faktureringstaxor. Attribut krävs dock inte för jobbroller på ett tariffkort. Attributen fungerar som verktyg för att fastställa mer detaljerade frekvenser. En faktureringstaxa på ett betalkort kan också vara giltighetsdatum, så att priset börjar och slutar på angivna datum.
 
-När du kopplar ett betalningskort till ett projekt läggs alla roller efter plats och deras associerade faktureringstaxor till i projektet.
+När du bifogar ett betalkort till ett projekt läggs alla roller och tillhörande faktureringstaxor till i projektet.
 
 >[!NOTE]
 >
->Om du bifogar ett betalkort åsidosätts alla befintliga faktureringspriser för projektet.
+>Om du bifogar ett betalkort åsidosätts alla befintliga faktureringspriser för betalkort i projektet. Åsidosättningar av faktureringsfrekvens som lades till direkt i projektet tas inte bort.
 
-Du kan redigera faktureringstarifferna direkt från tariffkortet i projektet. Detta påverkar inte de hastigheter som lagras på standardtariffkortet.
+Mer information om hur du skapar tariffkort finns i [Hantera tariffkort](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
 
-Mer information om hur du skapar tariffkort finns i [Hantera tariffkort](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).
-
-Allmän information om hur du åsidosätter faktureringssatser för jobbroller för projekt och beräknar projektintäkter finns i [Översikt över åsidosättande av faktureringssatser för jobbroller och beräkning av intäkter för ett projekt](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Allmän information om hur du åsidosätter faktureringstaxor för jobbroller för projekt och beräknar projektintäkter finns i [Översikt över åsidosatta faktureringstariffer och beräkning av intäkter för ett projekt](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 ## Åtkomstkrav
 
@@ -40,21 +38,19 @@ Allmän information om hur du åsidosätter faktureringssatser för jobbroller f
  <tbody> 
   <tr> 
    <td>Adobe Workfront package</td> 
-   <td>Alla</td> 
+   <td>Arbetsflöde Ultimate</td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront-licens</td> 
-   <td>
-   <p>Standard</p>
-   <p>Plan</p></td> 
+   <td>Standard</td> 
   </tr> 
   <tr> 
    <td>Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Redigera åtkomst till projekt och finansiella data</p> <p>Administrativ åtkomst för jobbroller</p></td> 
+   <td>Redigera åtkomst till projekt, ekonomiska data och tariffkort</td> 
   </tr> 
   <tr> 
    <td>Objektbehörigheter</td> 
-   <td>Hantera behörigheter för det projekt som innehåller Redigera ekonomiska data </td> 
+   <td>Hantera behörigheter till projektet med behörighet att redigera faktureringstariffer</td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,17 +62,33 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 ## Koppla ett tariffkort till ett projekt
 
 1. Gå till projektet.
-1. Klicka på **Faktureringstariffer** i den vänstra panelen.
+1. Klicka på **Priser** i den vänstra panelen och välj sedan **Fakturering**.
 1. Klicka på **Lägg till faktureringstakt > Koppla ett tariffkort**.
 
-   Sidan Bifoga ett tariffkort öppnas. Mer information finns i [Hantera tariffkort](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).
+   Rutan **Koppla ett tariffkort** öppnas. Du kan söka efter ett kurskort i listan.
+
+   ![Koppla en tariffkortsruta](assets/attach-rate-card-dialog.png)
+
+   >[!NOTE]
+   >
+   >Grupp och företag på priskortet används som filter i den här listan. Eftersom projekt även innehåller fält för grupper och företag använder Workfront dessa värden för att begränsa listan med tillgängliga kort till dem som är relevanta för projektets sammanhang, och inte alla tariffkort i hela systemet.
+   >
+   >Matchen behöver inte vara exakt. Klassificeringskort med tomma värden för Grupp och/eller Företag kan fortfarande visas beroende på projektets Group/Company-konfiguration. Om till exempel ett projekt har en Grupp vald men företaget är tomt, kan du se priskort som är kopplade till den gruppen även om priskortets företag är ett annat eller tomt.
 
 1. Välj det tariffkort som ska läggas till i projektet och klicka på **Bifoga**.
 
    Kurskortet och alla dess rollpriser för jobb läggs till i faktureringsrabattlistan.
 
-   ![Gradkort tillagt i projekt](assets/billing-rates-added-from-rate-card.png)
+   ![Gradkort tillagt i projekt](assets/rate-card-on-project.png)
 
-   >[!NOTE]
-   >
-   >I faktureringsrabattlistan kan du ta bort en eller flera jobbroller som kommer från ett betalkort. Om du tar bort en faktureringsfrekvens för en jobbroll från projektet tas den inte bort från standardtariffkortet.
+## Ta bort ett tariffkort från ett projekt
+
+När du tar bort ett kurskort från ett projekt tas alla dess jobbrollfrekvenser bort. Du kan inte ta bort en individuell avgift från projektet som kommer från ett tariffkort.
+
+Åsidosättningar av faktureringsfrekvens för användare eller jobbroller som har lagts till direkt i projektet kan tas bort utan att hela avgiftskortet tas bort.
+
+1. Gå till projektet.
+1. Klicka på **Priser** i den vänstra panelen och välj sedan **Fakturering**.
+1. Klicka på ikonen **Ta bort** ![Ta bort](assets/remove-icon.png).
+1. Klicka på **Bekräfta** i bekräftelsemeddelandet för att ta bort tariffkortet.
+

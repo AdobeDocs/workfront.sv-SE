@@ -6,14 +6,17 @@ description: Din Adobe Workfront-administratör kan ge dig åtkomst att visa ell
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ddaecaf65fc7080e27ae67d6c8f4980586f1241e
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1222'
 ht-degree: 0%
 
 ---
 
 # Dela en uppgift
+
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Din Adobe Workfront-administratör kan ge dig åtkomst att visa eller redigera uppgifter när de tilldelar åtkomstnivåer. Mer information om hur du beviljar åtkomst till aktiviteter finns i [Bevilja åtkomst till aktiviteter](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
 
@@ -87,7 +90,7 @@ Du kan dela en uppgift på följande sätt:
    * Ange behörigheter för något av de överordnade objekten för uppgiften: projekt, program eller portfölj. Aktiviteter ärver behörigheter från sina överordnade objekt. Mer information om hur du visar ärvda behörigheter för objekt finns i [Visa ärvda behörigheter för objekt](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
    * Lägg till entiteter i projektdelning på en mall som används för att skapa det projekt som aktiviteten är i. Mer information om att dela projekt från mallar finns i [Dela en mall](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Ange behörigheter för alla uppgifter i ett projekt när du redigerar projektet.  Information om hur du hanterar åtkomsten till aktiviteter i projektet baserat på en användares behörigheter till projektet finns i avsnittet [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) i artikeln [Redigera projekt](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Ange behörigheter för alla uppgifter i ett projekt när du redigerar projektet.  Information om hur du hanterar åtkomsten till aktiviteter i projektet baserat på en användares behörigheter till projektet finns i avsnittet [](../../manage-work/projects/manage-projects/edit-projects.md#access) i artikeln [Redigera projekt](../../manage-work/projects/manage-projects/edit-projects.md).
 
   >[!TIP]
   >
@@ -101,7 +104,7 @@ Du kan dela en uppgift på följande sätt:
 
    ![Knappen Dela aktivitet](assets/share-task-button.png)
 
-1. I fältet **Bevilja aktivitetsåtkomst till** börjar du med att skriva namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela uppgiften med och klickar sedan på namnet i listrutan.
+1. I fältet **Bevilja aktivitetsåtkomst till** börjar du med att skriva namnet på den användare, det team, den roll, den grupp, det företag eller den affärsprofil <span class="preview"> som du vill dela uppgiften med och klickar sedan på namnet i listrutan.</span>
 
    >[!TIP]
    >
@@ -138,7 +141,7 @@ Du kan dela en uppgift på följande sätt:
 
    ![Dela aktiviteter gruppvis](assets/bulk-share-tasks.png)
 
-1. I fältet **Bevilja aktivitetsåtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela aktiviteterna med och klickar sedan på namnet när det visas i listrutan.
+1. I fältet **Bevilja aktivitetsåtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp, det företag eller den affärsprofil <span class="preview"> som du vill dela aktiviteterna med och klickar sedan på namnet i listrutan.</span>
 
    >[!TIP]
    >

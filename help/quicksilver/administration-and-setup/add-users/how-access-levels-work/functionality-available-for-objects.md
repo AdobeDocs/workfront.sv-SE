@@ -2,7 +2,7 @@
 user-type: administrator
 content-type: reference
 product-area: system-administration
-keywords: åtkomst,modell,tratt,diagram,nivåer,behörigheter
+keywords: åtkomst,modell,funnel,diagram,nivåer,behörigheter
 navigation-topic: access-levels
 title: Tillgängliga funktioner för varje objekttyp
 description: I följande tabeller visas de funktioner som är tillgängliga för varje objekttyp på olika åtkomstnivåer.
@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+source-git-commit: 1721d6d4c2059fa32d0fd2ae80af4bd26a8f06a7
 workflow-type: tm+mt
-source-wordcount: '1326'
-ht-degree: 1%
+source-wordcount: '1555'
+ht-degree: 3%
 
 ---
 
@@ -32,7 +32,7 @@ Det anger också vilka åtgärder Workfront-administratörer kan inaktivera elle
 >[!NOTE]
 >
 >* I den här artikeln beskrivs de funktioner som är tillgängliga för åtkomstnivåer i den nya paketmodellen för Workfront. Information om vilka funktioner som är tillgängliga i den aktuella paketmodellen finns i [Tillgängliga funktioner för varje objekttyp för olika åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* En lista över funktioner som är tillgängliga för de olika paketen i den senaste modellen finns i [Adobe Workfront Pricing and Packaging](https://business.adobe.com/se/products/workfront/pricing.html).
+>* En lista över funktioner som är tillgängliga för de olika paketen i den senaste modellen finns i [Adobe Workfront Pricing and Packaging](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Projekt
 
@@ -59,6 +59,7 @@ Det anger också vilka åtgärder Workfront-administratörer kan inaktivera elle
 | Hantera risker | ✓ |   |   |   |
 | Hantera ekonomi | ✓ |   |   |   |
 | Lägg till/redigera utgifter | ✓ |   |   |   |
+| <span class="preview">Koppla ett tariffkort</span> | ✓ |   |   |   |
 | Bifoga mallar | ✓ |   |   |   |
 | Spara som mall | ✓ |   |   |   |
 | Lägga till/redigera ett affärsärende | ✓ |   |   |   |
@@ -241,7 +242,7 @@ Användare med en Standard-licens har fullständig åtkomst till rapporter. Alla
 | Lägga till uppdateringar och kommentarer | ✓ | ✓ | ✓ |   |
 | Ladda upp ny version | ✓ | ✓ | ✓ |   |
 | Ta bort en version | ✓ | ✓ | ✓ |   |
-| Förhandsgranska | ✓ | ✓ | ✓ | ✓ |
+| Förhandsgranskning | ✓ | ✓ | ✓ | ✓ |
 | Godkänn korrektur | ✓ | ✓ | ✓ | ✓ |
 | Generera korrektur | ✓ |   |   |   |
 | Ta bort korrektur | ✓ | ✓ | ✓ |   |
@@ -255,6 +256,36 @@ Användare med en Standard-licens har fullständig åtkomst till rapporter. Alla
 &#42; Med en åtkomstnivå kan Workfront-administratörer inaktivera eller aktivera den här funktionen.
 
 ## Användare
+
+<div class="preview">
+
+De här alternativen är tillgängliga i förhandsvisningsmiljön:
+
+| Åtgärd | Standard | Ljus | Medarbetare | Extern användare** |
+|----------------------------------------------------------------------------------------------------|----------|--------|-------------|-----------------|
+| Skapa | ✓* |   |   |   |
+| Ta bort | ✓* |   |   |   |
+| Redigera faktureringstariffer | ✓* |   |   |   |
+| Redigera kontaktinformation | ✓* |   |   |   |
+| Redigera kostnadstariffer | ✓* |   |   |   |
+| Redigera allmän finansiering | ✓* |   |   |   |
+| Redigera, ta bort, inaktivera, logga in som eller återställa lösenordet för alla användare | ✓* |   |   |   |
+| Redigera, ta bort, inaktivera, logga in som eller återställa lösenordet för alla användare i en grupp som de administrerar | ✓* |   |   |   |
+| Visa användare | ✓ | ✓ | ✓ |   |
+| Visa kontaktinformation | ✓ | ✓ | ✓ |   |
+| Visa faktureringstariffer | ✓* |   |   |   |
+| Visa kostnadstariffer | ✓* |   |   |   |
+| Visa allmän finansiering | ✓* |   |   |   |
+
+{style="table-layout:auto"}
+
+&#42; Med en åtkomstnivå kan Workfront-administratörer inaktivera eller aktivera den här funktionen.
+
+&#42;&#42;Externa användare kan bara söka efter andra användare.
+
+</div>
+
+De här alternativen är tillgängliga i produktionsmiljön:
 
 | Åtgärd | Standard | Ljus | Medarbetare | Extern användare** |
 |----------------------------------------------------------------------------------------------------|----------|--------|-------------|-----------------|
@@ -270,6 +301,63 @@ Användare med en Standard-licens har fullständig åtkomst till rapporter. Alla
 &#42; Med en åtkomstnivå kan Workfront-administratörer inaktivera eller aktivera den här funktionen.
 
 &#42;&#42;Externa användare kan bara söka efter andra användare.
+
+<!--
+
+<div class="preview">
+
+## Job Roles
+
+|  Action           |  Standard  |  Light  |  Contributor  | External user |
+|-------------------|------------|---------|---------------|---------------|
+| View              | ✓          | ✓       | ✓             | &nbsp;        |
+| Edit              | ✓          | &nbsp;  | &nbsp;        | &nbsp;        |
+| Create            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Delete            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit Billing Rates | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit Cost Rates   | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit General Finance | ✓*      | &nbsp;  | &nbsp;        | &nbsp;        |
+| View Billing Rates | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
+| View Cost Rates    | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
+| View General Finance | ✓       | &nbsp;  | &nbsp;        | &nbsp;        |
+
+{style="table-layout:auto"}
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality.
+
+</div>
+
+## Companies
+
+|  Action           |  Standard  |  Light  |  Contributor  | External user |
+|-------------------|------------|---------|---------------|---------------|
+| View              | ✓          | ✓       | ✓             | &nbsp;        |
+| Edit              | ✓          | &nbsp;  | &nbsp;        | &nbsp;        |
+| Create            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Delete            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit Billing Rates | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit Cost Rates   | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit General Finance | ✓*      | &nbsp;  | &nbsp;        | &nbsp;        |
+| View Billing Rates | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
+| View Cost Rates    | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
+| View General Finance | ✓       | &nbsp;  | &nbsp;        | &nbsp;        |
+
+{style="table-layout:auto"}
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality.
+
+## Groups
+
+|  Action           |  Standard  |  Light  |  Contributor  | External user |
+|-------------------|------------|---------|---------------|---------------|
+| Share             | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| View              | ✓          | ✓       | ✓             | &nbsp;        |
+
+{style="table-layout:auto"}
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality.
+
+-->
 
 ## Team
 
@@ -306,6 +394,34 @@ Användare med en Standard-licens har fullständig åtkomst till rapporter. Alla
 
 Endast användare med en Standard-licens har fullständig åtkomst till ekonomiska data.
 
+<div class="preview">
+
+De här alternativen är tillgängliga i förhandsvisningsmiljön:
+
+| Åtgärd | Standard | Ljus | Medarbetare | Extern användare |
+|--------------------------------------------------------------|----------|--------|-------------|---------------|
+| Redigera faktureringstariffer | ✓&#42; |   |   |   |
+| Redigera kostnadstariffer | ✓&#42; |   |   |   |
+| Redigera allmän finansiering | ✓&#42; |   |   |   |
+| Visa faktureringstariffer | ✓&#42; | ✓&#42; |   |   |
+| Visa kostnadstariffer | ✓&#42; | ✓&#42; |   |   |
+| Visa allmän finansiering | ✓&#42; | ✓&#42; |   |   |
+| Hantera faktureringsposter | ✓ |   |   |   |
+| Hantera utgifter | ✓ |   |   |   |
+| Visa information efter kostnad i Resursplaneringsverktygen | ✓ |   |   |   |
+| Budgetresurser i resursplaneringsverktygen &#42;&#42; | ✓ |   |   |   |
+| Visa resursallokering i resursplaneringsverktygen &#42; | ✓ | ✓ |   |   |
+| Skapa risker i projekt | ✓ |   |   |   |
+| Visa risker i projekt | ✓ | ✓ |   |   |
+
+{style="table-layout:auto"}
+
+&#42; Med en åtkomstnivå kan Workfront-administratörer inaktivera eller aktivera den här funktionen.
+
+</div>
+
+De här alternativen är tillgängliga i produktionsmiljön:
+
 | Åtgärd | Standard | Ljus | Medarbetare | Extern användare |
 |--------------------------------------------------------------|----------|--------|-------------|---------------|
 | Redigera rollfakturering och kostnadstariffer | ✓&#42; |   |   |   |
@@ -315,7 +431,6 @@ Endast användare med en Standard-licens har fullständig åtkomst till ekonomis
 | Hantera faktureringsposter | ✓ |   |   |   |
 | Hantera utgifter | ✓ |   |   |   |
 | Visa ekonomiska data | ✓&#42; | ✓&#42; |   |   |
-| <span class="preview">Hantera tariffkort</span> | ✓ |   |   |   |
 | Visa information efter kostnad i Resursplaneringsverktygen | ✓ |   |   |   |
 | Budgetresurser i resursplaneringsverktygen &#42;&#42; | ✓ |   |   |   |
 | Visa resursallokering i resursplaneringsverktygen &#42; | ✓ | ✓ |   |   |
@@ -368,11 +483,31 @@ Endast användare med en standardlicens har fullständig åtkomst till resurshan
 
 &#42; För att användare ska kunna visa ekonomiska data i en plan eller ett initiativ måste de ha tillgång till ekonomiska data. Mer information finns i [Bevilja åtkomst till ekonomiska data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
+<div class="preview">
+
+## Kreditkort
+
+Endast användare med en standardlicens har fullständig tillgång till betalkort.
+
+| Åtgärd | Standard | Ljus | Medarbetare | Extern användare |
+|-------------------|------------|---------|---------------|---------------|
+| Visa | ✓ | ✓ |   |   |
+| Redigera | ✓ |   |   |   |
+| Skapa | ✓* |   |   |   |
+| Ta bort | ✓* |   |   |   |
+| Dela | ✓* | ✓* |   |   |
+
+{style="table-layout:auto"}
+
+&#42; Med en åtkomstnivå kan Workfront-administratörer inaktivera eller aktivera den här funktionen.
+
+</div>
+
 ## Workfront målområde
 
 <!-- ask Alina about this section -->
 
-| Åtgärder | Visa | Redigera |
+| Instruktioner | Visa | Redigera |
 |---|---|---|
 | Skapa |   | ✓ |
 | Redigera/ta bort alla mål |   | ✓ |

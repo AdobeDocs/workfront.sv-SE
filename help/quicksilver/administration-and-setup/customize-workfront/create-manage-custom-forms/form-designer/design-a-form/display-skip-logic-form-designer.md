@@ -3,19 +3,21 @@ title: Lägg till logikregler i anpassade Forms och fält
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: Du kan bestämma vilka avsnitt i ett anpassat formulär som ska visas eller hoppas över baserat på vad användaren gör när han eller hon fyller i det.
+description: Med logiska regler kan du anpassa fälten i formuläret ytterligare.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: a060b0023d6ea04f0eb1210c61b7add37a943842
 workflow-type: tm+mt
-source-wordcount: '1682'
+source-wordcount: '3485'
 ht-degree: 0%
 
 ---
 
 # Lägga till logiska regler i anpassade formulär och fält
+
+{{highlighted-preview}}
 
 Med logiska regler kan du anpassa fälten i formuläret ytterligare.
 
@@ -35,7 +37,8 @@ Du kan till exempel visa eller hoppa över fält eller avsnitt i ett anpassat fo
  <tbody> 
   <tr> 
    <td>Adobe Workfront package</td> 
-   <td><p>Alla</p></td> 
+   <td> <p>Använda avancerad visning, standardvärde, villkorsstyrd formatering eller redigeringslogik: Arbetsflöde Prime eller senare</p>
+         <p>Så här använder du alla andra logiktyper: alla Workfront- eller Workflow-paket</p> </td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront-licens</td> 
@@ -53,20 +56,30 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 +++
 
-## Visa och hoppa över logiska ikoner
+## Logikindikatorikoner
 
-Anpassade formulär visar ikoner som anger när visnings- eller hopplogik används i vissa fält. Ikoner i ett fält i formulärdesignern anger att logik används i fältet.
+Anpassade formulär visar ikoner som anger när logik används i fälten.
 
-| Ikon | Placering i fält i formulärdesignern | Definition |
-|--- |--- |--- |
-| ![Visningslogik för målfält](assets/display-logic-bottom-left.png) | Nederst till vänster | Fältet är målfält för visningslogik. Om du har gjort en viss markering i formuläret visas det här fältet. |
-| ![Definiera ikon för visningslogik](assets/display-logic-bottom-right.png) | Nederst till höger | Fältet definierar visningslogik. Målfältet visas när du väljer eller anger ett värde i det här fältet. |
-| ![Hopplogik för målfält](assets/skip-logic-bottom-left.png) | Nederst till vänster | Fältet är målfält för hopplogik. Om formuläret är markerat hoppar formuläret framför det här fältet och fälten däremellan döljs. |
-| ![Definiera ikon för hopplogik](assets/skip-logic-bottom-right.png) | Nederst till höger | Fältet definierar hopplogik. En specifik markering eller ett specifikt värde i det här fältet hoppar över andra fält och går direkt till målfältet. |
+<span class="preview">Klicka på **Visa logik** i formulärdesignerns huvud om du vill visa eller dölja ikonerna för de olika fältslogiktyperna.</span>
 
-![Logic icons](assets/logic-icons-3.png)
+| Ikon | Definition |
+| --- | --- |
+| ![Visningslogik för målfält](assets/display-logic-bottom-right.png) | Fältet är det målfält där visningslogiken används. Om du har gjort en viss markering i formuläret visas det här fältet. |
+| ![Visa logikikon för referensfält](assets/display-logic-bottom-left.png) | Fältet är referensfältet för visningslogik. Målfältet visas när du väljer eller anger ett värde i det här fältet. |
+| ![Hopplogik för målfält](assets/skip-logic-bottom-right.png) | Fältet är målfältet där hopplogik används. Om du väljer eller anger ett värde i det här fältet hoppar du över andra fält och går direkt till referensfältet. |
+| ![Hoppa över logikikon för referensfält](assets/skip-logic-bottom-left.png) | Fältet är referensfältet för hopplogik. Om du väljer ett specifikt fält i målfältet, hoppar formuläret framför det här fältet och fälten däremellan döljs. |
+| ![Valideringslogik för målfält](assets/validation-logic-icon.png) | Fältet är det målfält där valideringslogik används. Ett specifikt val eller värde i referensfältet avgör om valideringen misslyckas. Målfältet och referensfältet kan vara samma för valideringslogik. |
+| ![Valideringslogik för referensfält](assets/validation-logic-reference-field.png) | Fältet är referensfältet för valideringslogik. Ett specifikt val eller värde i det här fältet avgör om valideringen misslyckas i målfältet. Målfältet och referensfältet kan vara samma för valideringslogik. |
+| ![Standardvärdelogik för målfält](assets/default-value-logic-icon.png) | <span class="preview">Fältet är det målfält där standardvärdelogik används. Ett specifikt val eller värde i referensfältet avgör standardvärdet. Målfältet och referensfältet kan vara samma för standardvärdeslogiken.</span> |
+| ![Standardvärdelogik för referensfält](assets/default-value-logic-reference-field.png) | <span class="preview">Fältet är referensfält för standardvärdeslogik. Ett specifikt val eller värde i det här fältet avgör standardvärdet i målfältet. Målfältet och referensfältet kan vara samma för standardvärdeslogiken.</span> |
+| ![Formateringslogik för målfält](assets/formatting-logic-icon.png) | <span class="preview">Fältet är målfältet där formateringslogik används. Formateringen bestäms av en viss markering eller ett visst värde i referensfältet. Målfältet och referensfältet kan vara samma för formateringslogik.</span> |
+| ![Formateringslogik för referensfält](assets/formatting-logic-reference-field.png) | <span class="preview">Fältet är referensfält för formateringslogik. Ett specifikt val eller värde i det här fältet avgör formateringen i målfältet. Målfältet och referensfältet kan vara samma för formateringslogik.</span> |
+| ![Ändringslogik för målfält](assets/editability-logic-icon.png) | <span class="preview">Fältet är målfältet där redigeringslogik används. Fältet kan vara redigerbart eller skrivskyddat när de definierade villkoren uppfylls. Målfältet och referensfältet kan vara samma för redigeringslogik.</span> |
+| ![Ändringslogik för referensfält](assets/editability-logic-reference-field.png) | <span class="preview">Fältet är referensfält för redigerbarhetslogik. När de definierade villkoren uppfylls i det här fältet används logiken i målfältet. Målfältet och referensfältet kan vara samma för redigeringslogik.</span> |
 
-Välj ett fält med den logik som används för att visa de befintliga logikreglerna i fältinställningarna.
+<!-- ![Logic icons](assets/logic-icons-3.png) -->
+
+Om du bara vill visa och hoppa över logik markerar du ett fält för att visa de befintliga logikreglerna i fältinställningarna.
 
 ![Logic rules](assets/form-designer-view-only-logic.png)
 
@@ -94,11 +107,9 @@ Mer information om anpassade fält och widgetar i anpassade formulär finns i [S
 
 Visningslogik definierar vilka anpassade fält som visas i formuläret när användaren väljer ett specifikt värde i ett flervalsfält. Logiken läggs till i målfältet, som bara visas när värdet är markerat.
 
-<!--
 >[!NOTE]
 >
-><span class="preview">This procedure describes the basic mode for display logic. Advanced display logic is also available. For more information, see [Add advanced display logic to a custom form](#add-advanced-display-logic-to-a-custom-form), in this article.</span>
--->
+><span class="preview">Den här proceduren beskriver det grundläggande läget för visningslogik. Avancerad visningslogik finns också tillgänglig. Mer information finns i [Lägg till avancerad visningslogik i ett anpassat formulär](#add-advanced-display-logic-to-a-custom-form) i den här artikeln.</span>
 
 {{step-1-to-setup}}
 
@@ -126,60 +137,66 @@ Visningslogik definierar vilka anpassade fält som visas i formuläret när anv�
 
    Ikonerna för visningslogik läggs till i målfältet och i definitionsfältet i formulärdesignern.
 
-<!--
 <div class="preview">
 
-## Add advanced display logic to a custom form
+## Lägga till avancerad visningslogik i ett anpassat formulär
 
-The advanced display logic for custom form fields allows you to build complex logic using formulas. You can apply this logic to the following field types: drop-down, radio button, checkbox, typeahead, single line text, paragraph text, date field, text with formatting, and calculated fields.
+Med den avancerade visningslogiken för anpassade formulärfält kan du skapa komplex logik med hjälp av formler. Du kan använda den här logiken för följande fälttyper: enkelradstext, stycke, text med formatering, envalslistruta, flervalslistruta, extern sökning, flervalssökning, intern fältreferens, typhuvud, beräknad, datum, kryssrutegrupp och alternativknappar.
 
-### Examples
+>[!NOTE]
+>
+>Den här proceduren beskriver det avancerade läget för visningslogik. Det finns även grundläggande visningslogik. Mer information finns i [Lägg till visningslogik i ett anpassat formulär](#add-display-logic-to-a-custom-form) i den här artikeln.
 
-You can use advanced display logic to control the visibility of custom form sections based on user roles and the visibility of a field based on another field's status.
+### Exempel
 
-No logic is applied to the default section on the form, so it is always visible to all users.
+Du kan använda avancerad visningslogik för att styra synligheten för anpassade formuläravsnitt baserat på användarroller och synligheten för ett fält baserat på ett annat fälts status.
 
-Using the following condition, the Resources Required section is only displayed when a user with the job role of Resource Manager views the form.
+Ingen logik används för standardavsnittet i formuläret, så det är alltid synligt för alla användare.
+
+Om du använder följande villkor visas avsnittet Resurser som krävs endast när en användare med jobbrollen Resurshanterare visar formuläret.
 
 ```IF($$USER.{roleID}="123abc", true)```
 
-Note that ```123abc``` represents the role ID of the Resource Manager.
+Observera att ```123abc``` representerar resurs-ID:t för resurshanteraren.
 
-![Form section displayed for role](assets/advanced-display-on-form1.png)
+![Formuläravsnittet visas för rollen](assets/advanced-display-on-form1.png)
 
-The same condition with a different role ID is applied to the Project Financial KPIs section to define that  only the Financial Advisor role can view the section.
+Samma villkor med ett annat roll-ID används i avsnittet KPI:er för projektfinansiering för att definiera att endast rollen Ekonomisk rådgivare kan visa avsnittet.
 
-Using the following condition, the Sold KPI field only becomes visible when the project is complete. This logic is applied directly to the field instead of to a form section. There is no need to specify which role can view the field, because that is already defined in the section that the field is in.
+Med följande villkor blir fältet Sold KPI bara synligt när projektet är klart. Den här logiken används direkt i fältet i stället för i ett formuläravsnitt. Du behöver inte ange vilken roll som ska kunna visa fältet, eftersom det redan är definierat i det avsnitt där fältet finns.
 
 ```IF({status}="CPL", true)```
 
-![Field is visible on complete project](assets/advanced-display-on-form2.png)
+![Fältet visas i det fullständiga projektet](assets/advanced-display-on-form2.png)
 
-### Define advanced display logic
+### Definiera avancerad visningslogik
 
 {{step-1-to-setup}}
 
-1. Click **Custom Forms**.
-1. Create a new custom form or open an existing form. See [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) for details.
-1. Add fields to the form as needed.
-1. Select the field to apply logic to, and click **Add Logic**.
-1. Select the **Display** tab on the logic builder.
-1. Turn on **Advanced mode**.
-   
-   This option might be turned on automatically, for fields that do not support the simple mode of display logic.
+1. Klicka på **Anpassad Forms**.
+1. Skapa ett nytt anpassat formulär eller öppna ett befintligt formulär. Mer information finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Lägg till fält i formuläret efter behov.
+1. Markera fältet som logiken ska användas i och klicka på **Lägg till logik**.
+1. Välj fliken **Visning** i logikverktyget.
+1. Aktivera **avancerat läge**.
 
-   ![Advanced mode for display logic](assets/advanced-display-logic-blank-editor.png)
+   Det här alternativet kan aktiveras automatiskt för fält som inte har stöd för det enkla läget för visningslogik.
 
-1. Build the display condition in the editor.
+   ![Avancerat läge för visningslogik](assets/advanced-display-logic-blank-editor.png)
 
-   For more information about calculations and expressions, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) and [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+1. Skapa visningsvillkoret i redigeraren.
 
-1. Click **Apply**.
-   
-   The logic is applied to the field and the display logic icon is added in the form designer.
+   Mer information om beräkningar och uttryck finns i [Lägga till beräknade fält i ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) och [Översikt över beräknade datauttryck](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+1. Klicka på **Använd**.
+
+   Logiken används i fältet och ikonen för visningslogik läggs till i formulärdesignern.
+
+   >[!NOTE]
+   >
+   >Avancerad visningslogik stöds inte i formulärdesignerns förhandsgranskningsläge.
 
 </div>
--->
 
 ## Lägga till hopplogik i ett anpassat formulär
 
@@ -211,13 +228,63 @@ Hopplogik definierar anpassade formulärfält som hoppas över när användaren 
 
    Ikonerna för hopplogik läggs till i målfältet och definieringsfältet i formulärdesignern.
 
+<div class="preview">
+
+## Lägga till standardvärdeslogik i ett anpassat formulär
+
+Med standardvärdeslogik kan du konfigurera standardvärden för anpassade formulärfält med hjälp av formler. Standardvärdet visas när de definierade villkoren uppfylls. Ett standardvärde kan vara ett statiskt värde eller ett dynamiskt värde som refererar till andra fält i objektet. Även om standardvärdet kan referera till andra fält, ändras det inte som andra fält i formulärändringen.
+
+Du kan använda avancerad standardvärdelogik för följande fälttyper: enkelradstext, stycke, envalslistruta, flervalslistruta, extern sökning, flervalssökning. intern fältreferens, typsnitt, kryssrutegrupp och alternativknappar.
+
+>[!TIP]
+>
+>Ett standardvärde används bara en gång för ett anpassat fält när det anpassade formuläret kopplas till objektet. Om standardvärdeformeln är beroende av värdet i ett annat fält, måste värdet i det andra fältet redan finnas när det anpassade formuläret bifogas.
+
+>[!NOTE]
+>
+>Standardlogiken för standardvärden i formulärdesignern finns fortfarande. Om båda typerna används i samma fält prioriteras den avancerade logiken. Mer information om standardvärdeslogik finns i [Lägga till alternativknappar, kryssrutegrupper och listrutor](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs) i [Skapa ett eget formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+### Exempel
+
+Med hjälp av följande formel kommer det flervalsfält som logiken tillämpas på att hämta standardvärdet från projektbeskrivningen när projektstatusen är Planering.
+
+```
+IF({status} = 'PLN', ARRAY({description}, ','))
+```
+
+När det anpassade formuläret är kopplat till ett projekt och projektstatusen är Planering, används projektbeskrivningsfältets värde som standardvärde i fältet för flerval. Eftersom det är ett flervalsfält kan fler än ett värde hämtas när värdena matchar beskrivningen. Om beskrivningsvärdet inte matchar något av alternativen för flervalsvärden kommer flervalsfältet inte att ha något standardvärde och användaren kan välja ett värde i listrutan.
+
+### Definiera standardvärdeslogik
+
+1. Klicka på **Anpassad Forms**.
+1. Skapa ett nytt anpassat formulär eller öppna ett befintligt formulär. Mer information finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Lägg till fält i formuläret efter behov.
+1. Markera fältet som logiken ska användas i och klicka på **Lägg till logik**.
+1. Välj fliken **Standardvärde** i logikverktyget.
+
+   ![Logikverktyg för standardvärde](assets/default-value-blank-editor.png)
+
+1. Bygg standardvärdevillkoret i redigeraren.
+
+   Mer information om beräkningar och uttryck finns i [Lägga till beräknade fält i ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) och [Översikt över beräknade datauttryck](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+1. Klicka på **Använd**.
+
+   Logiken tillämpas på fältet i formulärdesignern.
+
+   >[!NOTE]
+   >
+   >Standardvärdelogik stöds inte i förhandsgranskningsläget för formulärdesignern.
+
+</div>
+
 ## Lägga till valideringslogik i ett anpassat formulär
 
 Valideringslogiken byggs med formler och du kan göra logiken så enkel eller komplex som du behöver. Valideringen kan baseras på värdena i andra fält eller objektens status, och du kan ange ett felmeddelande när valideringen misslyckas.
 
 Om fältet med den logik som används uppfyller de definierade valideringsvillkoren när en användare fyller i det anpassade formuläret, markeras fältet och felmeddelandet visas.
 
-Du kan använda valideringslogik för följande fälttyper: enkelradstext, stycke, envalslistruta, flervalslistruta, extern sökning, typsnitt, datum, kryssrutegrupp och alternativknappar.
+Du kan använda valideringslogik för följande fälttyper: enkelradstext, stycke, envalslistruta, flervalslistruta, extern sökning, flervalssökning, texthuvud, datum, kryssrutegrupp och alternativknappar.
 
 ### Exempel
 
@@ -260,22 +327,21 @@ Fler exempel på valideringslogik finns i [Exempel på avancerad logik i anpassa
    >
    >Valideringslogik stöds inte i förhandsgranskningsläget för formulärdesignern.
 
-<!--
 <div class="preview">
 
-## Add formatting logic to a custom form
+## Lägga till formateringslogik i ett anpassat formulär
 
-Formatting logic highlights a field value when it meets the defined conditions. The applied formatting will work on multiple fields at once.
+Formateringslogiken markerar ett fältvärde när det uppfyller de definierade villkoren. Den använda formateringen fungerar för flera fält samtidigt.
 
-You can apply formatting logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, typeahead, calculated, date, checkbox group, and radio buttons.
+Du kan använda formateringslogik för följande fälttyper: enkelradstext, stycke, envalslistruta, flervalslistruta, extern sökning, flervalssökning, texthuvud, beräknad, datum, kryssrutegrupp och alternativknappar.
 
-Formatting applied to custom forms is separate from formatting applied to lists and reports. For information on report formatting, see [Use conditional formatting in views](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+Formatering som används i anpassade formulär är skilt från formatering som används i listor och rapporter. Mer information om rapportformatering finns i [Använda villkorsstyrd formatering i vyer](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
-### Example
+### Exempel
 
-Using the following condition, the Budget field appears red when the user enters a value of 1000 or more. The field appears yellow when the user enters a value of 500 or more.
+Med följande villkor visas budgetfältet rött när användaren anger ett värde på 1 000 eller mer. Fältet visas gult när användaren anger ett värde på minst 500.
 
-To add a hover-over definition of the formatting, use the Instructions field in the custom form. For example, a message on the Budget field could say "Please enter a budget within a reasonable range. Values over 500 are a warning notice, and above 1000 is considered too high."
+Om du vill lägga till en hovringsdefinition av formateringen använder du fältet Instruktioner i det anpassade formuläret. Ett meddelande i budgetfältet kan t.ex. innehålla texten&quot;Ange en budget inom ett rimligt intervall&quot;. Värden över 500 är ett varningsmeddelande och över 1 000 anses vara för höga.&quot;
 
 ```
 IF(
@@ -285,42 +351,99 @@ IF(
 )
 ```
 
-### Define formatting logic
+### Definiera formateringslogik
 
 {{step-1-to-setup}}
 
-1. Click **Custom Forms**.
-1. Create a new custom form or open an existing form. See [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) for details.
-1. Add fields to the form as needed.
-1. Select the field to apply logic to, and click **Add Logic**.
-1. Select the **Formatting** tab on the logic builder.
+1. Klicka på **Anpassad Forms**.
+1. Skapa ett nytt anpassat formulär eller öppna ett befintligt formulär. Mer information finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Lägg till fält i formuläret efter behov.
+1. Markera fältet som logiken ska användas i och klicka på **Lägg till logik**.
+1. Välj fliken **Formatering** i logikverktyget.
 
-   ![Formatting logic builder](assets/formatting-logic-blank-editor.png)
+   ![Skapare av formateringslogik](assets/formatting-logic-blank-editor.png)
 
-1. Build the formatting condition in the editor.
+1. Skapa formateringsvillkoret i redigeraren.
 
-   You can add up to five formatting rules per field.
+   Du kan lägga till upp till fem formateringsregler per fält.
 
-   The field highlighting color options are:
+   Färgalternativen för markering av fält är:
 
    * `$$POSITIVE (green)`
    * `$$INFORMATIVE (blue)`
    * `$$NEGATIVE (red)`
    * `$$NOTICE (orange)`
-   
-   The text formatting options are:
-   
+
+   Textformateringsalternativen är:
+
    * `$$BOLD`
    * `$$ITALIC`
    * `$$UNDERLINE`
 
-   Only one color option may be used per function, along with up to three additional text formatting options. If no color option is specified, the system's default color is applied.
+   Endast ett färgalternativ kan användas per funktion, tillsammans med upp till tre ytterligare textformateringsalternativ. Om inget färgalternativ anges används systemets standardfärg.
 
-   For more information about calculations and expressions, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) and [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Mer information om beräkningar och uttryck finns i [Lägga till beräknade fält i ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) och [Översikt över beräknade datauttryck](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-1. Click **Apply**.
-   
-   The logic is applied to the field in the form designer.
+1. Klicka på **Använd**.
+
+   Logiken tillämpas på fältet i formulärdesignern.
+
+   >[!NOTE]
+   >
+   >Formateringslogik stöds inte i formulärdesignerns förhandsgranskningsläge.
 
 </div>
--->
+
+<div class="preview">
+
+## Lägg till redigeringslogik i ett anpassat formulär
+
+Ändringslogik avgör om ett anpassat formulärfält kan redigeras eller om det är skrivskyddat. Den här logiken skapas med formler, och när fältet uppfyller de definierade villkoren kan det anges som redigerbart eller skrivskyddat.
+
+Du kan använda redigeringslogik för följande fälttyper: enkelradstext, stycke, text med formatering, listruta med ett val, flervalslistruta, extern sökning, flervalssökning, texthuvud, datum, kryssrutegrupp och alternativknappar.
+
+### Exempel
+
+Med följande formel kan fältet med tillämpad logik bara redigeras när ett annat fält som kallas Radio har markerat alternativet Aktiverad.
+
+```
+IF({DE:Radio} = "Enabled", true)
+```
+
+Om du använder följande formel går det bara att redigera beskrivningsfältet när det är tomt. När ett värde har angetts blir det skrivskyddat.
+
+```
+IF(ISBLANK({DE:Description}), true)
+```
+
+Med följande formel kan fältet med tillämpad logik bara redigeras när en användare med jobbrollen Resurshanterare visar formuläret.
+
+```
+IF($$USER.{role}.{name}="Resource Manager", true)
+```
+
+### Definiera redigeringslogik
+
+{{step-1-to-setup}}
+
+1. Klicka på **Anpassad Forms**.
+1. Skapa ett nytt anpassat formulär eller öppna ett befintligt formulär. Mer information finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Lägg till fält i formuläret efter behov.
+1. Markera fältet som logiken ska användas i och klicka på **Lägg till logik**.
+1. Välj fliken **Redigerbarhet** i logikverktyget.
+
+   ![Logikverktyg för redigerbarhet](assets/editability-blank-editor.png)
+
+1. Bygg redigeringsvillkoret i redigeraren.
+
+   Mer information om beräkningar och uttryck finns i [Lägga till beräknade fält i ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) och [Översikt över beräknade datauttryck](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+1. Klicka på **Använd**.
+
+   Logiken tillämpas på fältet i formulärdesignern.
+
+   >[!NOTE]
+   >
+   >Ändringslogik stöds inte i förhandsgranskningsläget för formulärdesignern.
+
+</div>

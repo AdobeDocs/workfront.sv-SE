@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+source-git-commit: 4ce13e7d46efb026c1d42a61f4fce4bf1a37bb5f
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '790'
 ht-degree: 0%
 
 ---
 
 # Anpassa den vänstra panelen med en layoutmall
+
+{{highlighted-preview}}
 
 <!--Audited: 10/2024-->
 
@@ -46,7 +48,7 @@ När du har konfigurerat en layoutmall måste du tilldela den till användare f�
   <tr> 
    <td>Adobe Workfront package</td> 
    <td><p>Alla</p>
-       <p>Det går bara att lägga till anpassade program på huvudmenyn för organisationer som har licens för Adobe App Builder.</p></td> 
+       <p>Det går bara att lägga till anpassade program i den vänstra panelen för organisationer som har licens för Adobe App Builder.</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront-licens</td> 
@@ -134,8 +136,13 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
      </tr> 
      <tr> 
       <td>[!UICONTROL Projects]</td> 
-      <td>Projekt <img src="assets/projects-in-main-menu.png"> i [!UICONTROL Main menu] <img src="assets/main-menu-icon.png"></td> 
+      <td>Projekt <img src="assets/projects-in-main-menu.png"> i [!UICONTROL Main Menu] <img src="assets/main-menu-icon-left-nav.png"></td> 
       <td>[!UICONTROL Projects]</td> 
+     </tr> 
+     <tr> 
+      <td><span class="preview">[!UICONTROL Resourcing]</span></td> 
+      <td><span class="preview">[!UICONTROL Resourcing] i [!UICONTROL Main Menu] <img src="assets/main-menu-icon-left-nav.png"></span></td> 
+      <td><span class="preview">[!UICONTROL Planner] (kan inte döljas), [!UICONTROL Workload Balancer], [!UICONTROL Utilization], [!UICONTROL Resource Pools]</span></td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Requests]</td> 
@@ -167,6 +174,21 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
       <td>Namnet på en iteration</td> 
       <td>[!UICONTROL Stories], [!UICONTROL Issues], [!UICONTROL Story Board], [!UICONTROL Overview], [!UICONTROL Custom Forms], [!UICONTROL Updates] </td> 
      </tr> 
+     <tr> 
+       <td><span class="preview">[!UICONTROL User Details]</span></td> 
+       <td><span class="preview">Namnet på en användare</span></td> 
+       <td><span class="preview">[!UICONTROL Details], [!UICONTROL Org Chart], [!UICONTROL Time Off], [!UICONTROL Custom Forms], [!UICONTROL Business Profiles], [!UICONTROL Updates], [!UICONTROL Workload Balancer]</span></td> 
+     </tr>
+     <tr> 
+       <td><span class="preview">[!UICONTROL Rate Card]</span></td> 
+       <td><span class="preview">Namnet på ett tariffkort</span></td> 
+       <td><span class="preview">[!UICONTROL Job Roles and Rates], [!UICONTROL Rate Card Details], [!UICONTROL Expense Type and Rates]</span></td> 
+     </tr>
+     <tr> 
+       <td><span class="preview">[!UICONTROL Group]</span></td> 
+       <td><span class="preview">Namnet på en grupp</span></td> 
+       <td><span class="preview">[!UICONTROL Group Members], [!UICONTROL Subgroup Members], [!UICONTROL Group Details], [!UICONTROL Project Preferences], [!UICONTROL Tasks & Issues Preferences], [!UICONTROL Timesheets & Hours], [!UICONTROL Subgroups], [!UICONTROL Statuses], [!UICONTROL Event Notifications], [!UICONTROL Portfolios], [!UICONTROL Programs], [!UICONTROL Projects], [!UICONTROL Templates], [!UICONTROL Recently Deleted], [!UICONTROL Recently Restored], [!UICONTROL Approvals], [!UICONTROL Companies], [!UICONTROL Teams], [!UICONTROL Schedules], [!UICONTROL Timesheet Profiles], [!UICONTROL Layout Templates]</span></td> 
+     </tr>
      <!--
       <tr> 
        <td>Company</td> 
@@ -200,12 +222,12 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
    *Ditt företag måste köpa ytterligare en licens för Workfront Planning för att kunna lägga till det här området i den vänstra panelen av projekt, portfolior och program. Mer information finns i [Kom igång med Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
 
-   **Anpassade program måste skapas separat innan de blir tillgängliga som alternativ på huvudmenyn. Mer information finns i [Skapa ett anpassat program för Workfront med Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
+   **Anpassade program måste skapas separat innan de blir tillgängliga som alternativ i den vänstra panelen. Mer information finns i [Skapa ett anpassat program för Workfront med Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 
 
 1. Gör något av följande i listan **[!UICONTROL Left panel]** för att avgöra vad användare kommer att se i den vänstra panelen för det [!DNL Workfront] -område eller den objekttyp som du har valt:
 
-   * Klicka på ikonerna **Visa** ![Visa &#x200B;](assets/add-secondary-nav-item.png) eller **Dölj** ![Dölj ikon](assets/delete-secondary-nav-item.png) om du vill visa eller dölja avsnitt i den vänstra panelen. Du kan inte dölja objekt som inte har en **Visa**- eller **Dölj**-ikon.
+   * Klicka på ikonerna **Visa** ![Visa ](assets/add-secondary-nav-item.png) eller **Dölj** ![Dölj ikon](assets/delete-secondary-nav-item.png) om du vill visa eller dölja avsnitt i den vänstra panelen. Du kan inte dölja objekt som inte har en **Visa**- eller **Dölj**-ikon.
 
    * Dra objekt ![Flytta ikon](assets/move-icon---dots.png) om du vill ändra deras ordning på den vänstra panelen.
 

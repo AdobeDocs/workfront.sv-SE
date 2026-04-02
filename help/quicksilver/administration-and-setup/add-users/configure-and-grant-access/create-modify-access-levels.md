@@ -8,9 +8,11 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 0f2923851230e830eb647d422f2862a0c5d5472b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1612'
 ht-degree: 0%
 
 ---
@@ -20,6 +22,8 @@ ht-degree: 0%
 <!--Audited: 12/2023-->
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help. -->
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Som Adobe Workfront-administratör kan du skapa anpassade åtkomstnivåer och använda dem för användare. När du arbetar med åtkomstnivåer är det viktigt att förstå hur de fungerar tillsammans med objektbehörigheterna som användarna ger när de delar objekt med varandra. Mer information om åtkomstnivåer finns i:
 
@@ -191,8 +195,21 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
       <td role="rowheader">Tillåt aldrig användare att ta bort meddelanden</td> 
       <td>Förhindrar att användare tar bort meddelanden i meddelandecentret. Mer information finns i <a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">Skicka meddelanden</a>.</td> 
      </tr> 
+     <tr>
+      <td role="rowheader">Tillåt användare att komma åt varumärken</td> 
+      <td>Tillåter användare att komma åt och hantera GenStudio Brands i Workfront. Mer information finns i <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md" class="MCXref xref">Bevilja åtkomst till varumärkesbehörigheter</a>.</td> 
+     </tr>
     </tbody> 
    </table>
+
+
+1. <span class="preview">(Valfritt) Om du vill hindra användare med den här åtkomstnivån från att se specifika fält lägger du till fälten i avsnittet Lägg till begränsade fält.</span>
+
+   <span class="preview">Du kan söka efter både inbyggda och anpassade fält i det här avsnittet. Det finns en gräns på 20 begränsade fält.</span>
+
+   <span class="preview">Fälten begränsas när åtkomstnivån tilldelas en användare som primär åtkomstnivå eller via en affärsprofil. Mer information om affärsprofiler finns i [Översikt över affärsprofiler](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).</span>
+
+   <span class="preview">Ett begränsat fält är fortfarande synligt för användarna i systemet, men visas som tomt eller visar N/A i stället för faktiska data.</span>
 
 1. (Villkorligt och valfritt) Om ditt Workfront-system är konfigurerat för användare som tillhör flera företag kan du begränsa synligheten till andra användare baserat på vilket företag de tillhör i avsnittet **Personer i andra företag bör endast visa användare från**.
 

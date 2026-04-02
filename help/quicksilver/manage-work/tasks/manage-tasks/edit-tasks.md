@@ -7,14 +7,18 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '3928'
+source-wordcount: '4076'
 ht-degree: 0%
 
 ---
 
 # Redigera uppgifter
+
+{{highlighted-preview}}
 
 <!--Audited: 10/2025-->
 
@@ -28,13 +32,16 @@ ht-degree: 0%
 </div>
 -->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
 
-</div> -->
+</div>
+-->
+
 
 Du kan redigera information om åtgärder som du har skapat eller om du har behörighet att göra det i Contribute eller Hantera.
 
@@ -48,7 +55,8 @@ Du kan redigera information om åtgärder som du har skapat eller om du har beh�
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Alla</p> </td> 
+   <td>  <p>Så här använder du Inkomster och kostnadstyper för användare och roller per timme och lägger till en övertidskvot: Arbetsflöde Ultimate</p>
+      <p>Om du vill redigera alla andra inställningar och använda alla andra Intäkts- och kostnadstyper: Alla Workfront- eller arbetsflödespaket</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
@@ -82,7 +90,8 @@ Du kan redigera information om åtgärder som du har skapat eller om du har beh�
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -118,7 +127,8 @@ Du kan redigera information om åtgärder som du har skapat eller om du har beh�
     </ul> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Begränsningar för redigering av uppgifter
 
@@ -184,7 +194,7 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
 
    Så här redigerar du information i detaljavsnittet:
 
-   1. (Valfritt) Klicka på ikonen **Komprimera alla** ![Komprimera alla &#x200B;](assets/collapse-all-icon.png) i det övre högra hörnet om du vill komprimera alla områden.
+   1. (Valfritt) Klicka på ikonen **Komprimera alla** ![Komprimera alla ](assets/collapse-all-icon.png) i det övre högra hörnet om du vill komprimera alla områden.
    1. (Valfritt och villkorligt) När ett område är komprimerat klickar du på **högerpilen** ![högerpilen](assets/right-pointing-arrow.png) bredvid varje område för att expandera det område som du vill redigera.
    1. Mer information om hur du redigerar information på fliken Uppgiftsinformation finns i följande artiklar:
 
@@ -192,7 +202,7 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
       * [Hantera aktivitetsfinanser i avsnittet Uppgiftsinformation](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 
    1. (Valfritt) Om det inte finns några anpassade formulär kopplade till aktiviteten börjar du skriva namnet på ett formulär i fältet **Lägg till anpassat formulär**, markerar det när det visas i listan och klickar sedan på **Spara ändringar**.
-   1. (Valfritt) Klicka på ikonen **Exportera** ![Exportera &#x200B;](assets/export.png) om du vill exportera översiktsinformation och anpassad formulärinformation till en PDF-fil. Klicka sedan på **Exportera**. Välj bland följande:
+   1. (Valfritt) Klicka på ikonen **Exportera** ![Exportera ](assets/export.png) om du vill exportera översiktsinformation och anpassad formulärinformation till en PDF-fil. Klicka sedan på **Exportera**. Välj bland följande:
 
       * Markera alla (visas bara när det finns minst ett anpassat formulär bifogat)
       * Översikt
@@ -537,7 +547,7 @@ Du kan definiera anpassade standardformulär som automatiskt ska kopplas till up
 1. Börja redigera uppgiften enligt beskrivningen ovan.
 1. Klicka på **Egen Forms** i den vänstra panelen eller klicka på namnet på ett anpassat formulär om det redan är kopplat.
 
-   ![Åtgärdsrutan Redigera anpassade formulär i avsnittet &#x200B;](assets/nwe-custom-forms-section-edit-task-box-350x127.png)
+   ![Åtgärdsrutan Redigera anpassade formulär i avsnittet ](assets/nwe-custom-forms-section-edit-task-box-350x127.png)
 
 1. Klicka på **Lägg till anpassat formulär** och markera det eller de anpassade formulär som du vill associera med uppgiften. Du måste skapa anpassade formulär innan de kan väljas i det här fältet. Endast aktiva anpassade formulär visas i listan.
 
@@ -572,6 +582,7 @@ Du kan definiera anpassade standardformulär som automatiskt ska kopplas till up
         <li> <p>Fast en timme </p> </li> 
         <li> <p> Användare per timme </p> </li> 
         <li> <p> Roll timvis</p> </li> 
+        <li> <p> <span class="preview">Användare och roll varje timme</span></p> </li> 
        </ul> <p>Mer information om spårningskostnader finns i <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Spåra kostnader</a> . Workfront-administratören eller en gruppadministratör väljer standardinställningen för kostnadstyp för uppgifterna i ditt system eller din grupp. Mer information om hur du anger standardinställningar för projekt finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a> .</p> </td> 
      </tr> 
      <tr> 
@@ -581,14 +592,26 @@ Du kan definiera anpassade standardformulär som automatiskt ska kopplas till up
       <li> <p> Ej fakturerbar </p> </li> 
       <li> <p>Användare per timme </p> </li> 
       <li> <p>Roll timvis </p> </li> 
+      <li> <p> <span class="preview">Användare och roll varje timme</span></p> </li> 
       <li> <p>Fast en timme </p> </li> 
       <li> <p>Användartimme med versaler </p> </li> 
       <li> <p>Roll timvis med ändpunkt </p> </li> 
+      <li> <p> <span class="preview">Användare och roll per timme med ändpunkt</span></p> </li> 
       <li> <p>Användarens timma plus fast </p> </li> 
       <li> <p>Roll timvis plus fast </p> </li> 
+      <li> <p> <span class="preview">Användare och roll timvis plus korrigering</span></p> </li> 
       <li> <p>Fast intäkt </p> </li> 
-       </ul> <p>Mer information om att spåra intäkter finns i <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Översikt över fakturering och intäkter</a> . </p> <p>Din Workfront-administratör eller gruppadministratör väljer standardinställningen för Intäktstyp för uppgifterna i ditt system eller din grupp. Mer information om hur du anger standardinställningar för projekt finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>.</p> </td> 
+       </ul> <p>Mer information om att spåra intäkter finns i <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Översikt över fakturering och intäkter</a> och <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Översikt över intäkter och kostnadshierarki</a>. </p> <p>Din Workfront-administratör eller gruppadministratör väljer standardinställningen för Intäktstyp för uppgifterna i ditt system eller din grupp. Mer information om hur du anger standardinställningar för projekt finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>.</p> </td> 
      </tr> 
+     <tr>
+      <td><span class="preview">Övertidskvot</span></td> 
+      <td><span class="preview"><p>Ange multiplikatorn för övertid för uppgiften, till exempel 1.5 eller 2.0. Standardvärdet är 1.0 (ingen multiplikator). Mer information finns i <a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">Definiera en övertidskvot</a>.</p><p>Så här visar du fältet Övertidsförhållande:</p>
+       <ul>
+       <li>Inkomsttypen för aktiviteten måste vara Användare och Roll per timme. Mer information finns i <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Översikt över intäkt- och kostnadshierarkin</a>.</li>
+       <li>Fältet måste vara aktiverat i layoutmallen, för området Ekonomi i vyn Uppgiftsinformation. Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md">Anpassa detaljvyn med hjälp av en layoutmall</a>.</li>
+       </ul>
+      </span></td>
+     </tr>
     </tbody> 
    </table>
 
@@ -710,7 +733,8 @@ Du kan redigera flera uppgifter samtidigt i en lista och uppdatera all informati
 
 Mer information om att spara flera uppgifter samtidigt finns i avsnittet Redigera uppgifter gruppvis i artikeln [Redigera uppgifter i en lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
-<!--Temporary content while changing Assignments area: 
+<!--
+Temporary content while changing Assignments area: 
 
 Editing assignments is different in the Edit Task box depending on which environment you choose.
 
@@ -848,7 +872,8 @@ Editing assignments is different in the Edit Task box depending on which environ
          </table>
       
    
-      <!--<tr> 
+      <!--
+      <tr> 
       <td role="rowheader">Allocation</td> 
       <td> <p>If your Task Constraint is Calculated Work or Effort Driven, specify the <strong>Allocation %</strong> (allocation percentage) for each assignee. This is the amount of time from the schedule of the assignee that they can spend on this task. Changing the allocation percentage for an assignee will change the Planned Hours of a task. </p> <p>When the Task Constraint is Simple, you can specify the following:</p> 
          <ul> 
@@ -1019,4 +1044,5 @@ Editing assignments is different in the Edit Task box depending on which environ
 
 <div class="preview">
 
-#### Edit the Assignments area in the Preview environment-->
+#### Edit the Assignments area in the Preview environment
+-->

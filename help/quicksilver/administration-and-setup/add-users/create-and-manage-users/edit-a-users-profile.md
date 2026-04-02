@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: e5ac8fde409b960aacd3cf7daa0532e9bc3e8121
 workflow-type: tm+mt
-source-wordcount: '3403'
+source-wordcount: '3478'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/se/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -44,7 +44,8 @@ Mer information om användare som uppdaterar sina egna profiler finns i [Konfigu
  <tbody> 
   <tr> 
    <td>Adobe Workfront package</td> 
-   <td><p>Alla</p></td> 
+   <td><p>Så här redigerar du en användarprofil: Alla Workfront- eller arbetsflödespaket</p>
+       <p>Så här anger du tariffattribut och åsidosätter kostnadstariff: Workflow Ultimate</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront-licens</td> 
@@ -104,8 +105,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
   Du kan inte återställa lösenordet för en Workfront-administratör.
 
-* **&lt;SSO-konfiguration> Användarnamn**: Om Workfront-administratören har aktiverat en SSO-integrering med Workfront visas SSO-användarnamnet i det här fältet. Den typ av SSO-konfiguration som är aktiverad för din Workfront-instans visas i det här fältet.
-* **Tillåt endast &lt;SSO-konfiguration>-autentisering**: Om din Workfront-administratör har aktiverat en SSO-integrering med Workfront och har uppdaterat alla användare för enkel inloggning, är det här fältet markerat som standard. Den typ av SSO-konfiguration som är aktiverad för din Workfront-instans visas i det här fältet.
+* **&lt;SSO-konfiguration> Användarnamn**: Om din Workfront-administratör har aktiverat en SSO-integrering med Workfront, visas SSO-användarnamnet i det här fältet. Den typ av SSO-konfiguration som är aktiverad för din Workfront-instans visas i det här fältet.
+* **Tillåt endast &lt;SSO-konfiguration> autentisering**: Om din Workfront-administratör har aktiverat en SSO-integrering med Workfront och har uppdaterat alla användare för enkel inloggning, är det här fältet markerat som standard. Den typ av SSO-konfiguration som är aktiverad för din Workfront-instans visas i det här fältet.
 
   När det här fältet är markerat måste användaren logga in på Workfront med sina SSO-inloggningsuppgifter. Om du avmarkerar den kan de logga in på Workfront med sina Workfront-inloggningsuppgifter.
 
@@ -264,9 +265,11 @@ Mer information finns i [Konfigurera händelsemeddelanden för alla i systemet](
 
   Mer information om hur du konfigurerar inställningar för resurshantering finns i [Konfigurera inställningar för resurshantering](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-  <span class="preview">(Valfritt) Rolltilldelningar för giltighetsdatum används i ekonomiska beräkningar om användarens jobbroll ändras under ett projekt.</span>
+<!--
+<span class="preview">(Optional) Date effective job role assignments are used in financial calculations if the user's job role changes during a project.</span>
 
-  <span class="preview">Klicka på **Definiera roller efter datum**, välj **Primär roll** och **Andra roller** och ange allokeringsprocenten för varje roll. Rollerna kan vara desamma som de befintliga rollerna (med olika procentandelar) eller nya roller. Välj startdatum när de här rollerna blir aktiva. Detta kan vara ett framtida datum. När de senaste rollerna blir aktiva kan du klicka på **Visa tidigare roller** för att visa föregående, inaktiva roller.</span>
+  <span class="preview">Click **Define roles by date**, select the **Primary Role** and **Other Roles**, and enter the allocation percentage for each role. The roles could be the same as the existing roles (using different percentages), or new roles. Select the Start date when these roles become active. This can be a future date. When the newest roles become active, you can click **Show previous roles** to see the previous, inactive roles.</span>
+-->
 
 * **Schema**: Associera ett schema med användaren. Schemat för användaren beräknar tidslinjen för de uppgifter som användaren är tilldelad till.
 
@@ -316,6 +319,8 @@ Mer information finns i [Konfigurera händelsemeddelanden för alla i systemet](
 
   Vissa datum läggs till automatiskt. Om t.ex. Kostnadsgrad 1 inte har ett slutdatum och du lägger till Kostnadsnivå 2 med startdatumet 1 maj 2023, läggs ett slutdatum som är 30 april 2023 till Kostnadsnivå 1 så att inga luckor uppstår.
 
+* <span class="preview">**Åsidosättning av kostnadstariff tillåts**: Aktivera det här alternativet om du vill tillåta åsidosättningar av kostnadstariffer för den här användaren i projekt. Mer information finns i [Åsidosätta användarkostnader på projektnivå](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md).</span>
+
 * **Faktureringshastighet**: Användarens faktureringsbelopp per timme.
 
   Klicka på **Lägg till ränta** om du vill se gällande faktureringspriser för datum. Ange faktureringsvärdet för tidsperioden och tilldela startdatum och slutdatum efter behov. Faktureringsränta 1 har inget startdatum och den senaste faktureringstakten har inget slutdatum.
@@ -333,6 +338,28 @@ Koppla ett befintligt anpassat formulär till den här användaren. Du måste sk
 >Avancerade anpassade formulärfunktioner som externa sökningsfält och inbyggda Workfront-fält är bara tillgängliga när du öppnar användarposten på informationssidan, inte i dialogrutan Redigera användare. (I listan över användare klickar du på användarnamnet för att öppna informationen.)
 
 Mer information om hur du skapar anpassade formulär finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+<div class="preview">
+
+### Attribut
+
+Graderingsattribut stöds i områden i Workfront där det finns priser, t.ex. jobbroller och användare. När attribut tillämpas på en användares profil tolkas deras tilldelningar automatiskt till rätt frekvens.
+
+1. Klicka på **Lägg till ny uppsättning**.
+1. Markera attributvärdena.
+
+   Workfront-administratören anger tillgängliga attribut. Det kan vara myndighet, plats, kostnadsställe, kund eller andra attribut som är nödvändiga för din organisation.
+
+1. (Valfritt) Om du vill lägga till ytterligare en uppsättning attribut med giltighetsdatum:
+
+   1. Klicka på **Lägg till ny uppsättning**.
+   1. Välj ett **slutdatum** för den aktuella attributuppsättningen.
+
+      **Startdatum** för nästa uppsättning läggs till automatiskt.
+
+   1. Lägg till attributvärdena för nästa attributuppsättning. Dessa värden börjar gälla på startdatumet.
+
+</div>
 
 ### Kommentar
 

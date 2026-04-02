@@ -7,9 +7,9 @@ description: Att hålla koll på projektekonomin är avgörande för att hantera
 author: Lisa
 feature: Work Management
 exl-id: a5e69dea-d0aa-47cd-9b59-6199cec56fe4
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '592'
 ht-degree: 5%
 
 ---
@@ -95,7 +95,7 @@ I följande tabell visas en del av de finanser som du kan hålla reda på i Work
   </tr> 
   <tr> 
    <td>Faktureringstaxor</td> 
-   <td> <p>Du kan ange faktureringspriser för användare eller jobbroller.</p> <p>Mer information om hur du associerar användare med faktureringstariffer finns i <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Redigera en användares profil</a>.</p> <p>Mer information om hur du associerar jobbroller med faktureringstariffer finns i <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Skapa och hantera jobbroller</a>.</p> <p>Faktureringstariffer beräknar intäkterna för dina projekt och uppgifter. Du kan åsidosätta rollfaktureringstariffer för ett projekt eller för ett företag. </p> <p>Mer information om att åsidosätta faktureringstariffer för projekt finns i <a href="../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md" class="MCXref xref">Översikt över åsidosättande av faktureringstariffer för jobbroller och beräkning av intäkter för ett projekt</a>.</p> <p>Mer information om att åsidosätta faktureringstariffer för företag finns i <a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref">Åsidosätt faktureringstariffer på projektnivå med faktureringstariffer på företagsnivå</a>.</p> </td> 
+   <td> <p>Du kan ange faktureringspriser för användare eller jobbroller.</p> <p>Mer information om hur du associerar användare med faktureringstariffer finns i <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Redigera en användares profil</a>.</p> <p>Mer information om hur du associerar jobbroller med faktureringstariffer finns i <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Skapa och hantera jobbroller</a>.</p> <p>Faktureringstariffer beräknar intäkterna för dina projekt och uppgifter. Du kan åsidosätta rollfaktureringstariffer för ett projekt eller för ett företag. </p> <p>Mer information om hur du åsidosätter faktureringstariffer för projekt finns i <a href="../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md" class="MCXref xref">Översikt över åsidosättande av faktureringstariffer och beräkning av intäkter för ett projekt</a>.</p> <p>Mer information om att åsidosätta faktureringstariffer för företag finns i <a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref">Åsidosätt faktureringstariffer på projektnivå med faktureringstariffer på företagsnivå</a>.</p> </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 

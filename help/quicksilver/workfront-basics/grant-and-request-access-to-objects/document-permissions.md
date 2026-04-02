@@ -7,14 +7,18 @@ description: Din Adobe Workfront-administratör ger användarna åtkomst till at
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: '1465'
 ht-degree: 0%
 
 ---
 
 # Dela ett dokument i en äldre Workfront-lagringsplats
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Workfront-administratören styr vilka som kan visa eller redigera dokument i området Åtkomstnivåer i installationsprogrammet. Mer information finns i [Bevilja åtkomst till dokument](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
 
@@ -75,11 +79,11 @@ Användaren som överför ett dokument till Workfront har som standard behörigh
 
    ![Länk för dokumentinformation](assets/document-details-link.png)
 
-1. Klicka på ikonen **Mer** ![Mer &#x200B;](assets/more-icon.png) till höger om dokumentnamnet och klicka sedan på **Dela**. Dialogrutan **Dela [dokumentnamn]** öppnas.
+1. Klicka på ikonen **Mer** ![Mer ](assets/more-icon.png) till höger om dokumentnamnet och klicka sedan på **Dela**. Dialogrutan **Dela [dokumentnamn]** öppnas.
 
    ![Dela ett dokument](assets/share-a-document-350x160.png)
 
-1. I fältet **Bevilja dokumentåtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela dokumentet med och klickar sedan på namnet när det visas i listrutan.
+1. I fältet **Bevilja dokumentåtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp, det företag eller den affärsprofil <span class="preview"> som du vill dela dokumentet med och klickar sedan på namnet i listrutan.</span>
 
    >[!TIP]
    >
@@ -122,7 +126,7 @@ Användaren som överför ett dokument till Workfront har som standard behörigh
 
    ![Ikonen Dela](assets/share-documents-in-bulk.png)
 
-1. I fältet **Bevilja dokumentåtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela dokumenten med och klickar sedan på namnet när det visas i listrutan.
+1. I fältet **Bevilja dokumentåtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp, det företag eller den affärsprofil <span class="preview"> som du vill dela dokumenten med och klickar sedan på namnet när det visas i listrutan.</span>
 
    >[!TIP]
    >

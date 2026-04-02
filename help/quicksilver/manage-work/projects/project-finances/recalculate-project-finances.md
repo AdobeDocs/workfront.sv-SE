@@ -6,9 +6,9 @@ description: Ekonomer beräknas för ett projekt i takt med att förändringar s
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1605'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Inkomstnivåerna kan ändras på följande nivåer:
   Mer information finns i [Åsidosätta faktureringstariffer för jobbroller på företagsnivå](../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 * Projektnivån (för jobbroller)\
-  Mer information om hur du åsidosätter rollfrekvenser för jobb på projektnivå finns i artikeln [Översikt över åsidosättande av faktureringstaxor för jobbroller och beräkning av intäkter för ett projekt](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+  Mer information om hur du åsidosätter rollfrekvenser för jobb på projektnivå finns i artikeln [Översikt över åsidosättande av faktureringsfrekvenser och beräkning av intäkter för ett projekt](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 En användares faktureringstakt ändras till exempel under ett projekt från 50 till 75 USD per timme och du vill att alla befintliga data ska fortsätta att beräknas till den gamla avgiften ($50 och timme). När projektets ekonomi beräknas om kommer dock befintliga finansiella uppgifter att uppdateras för att återspegla den nya faktureringstakten (75 USD i timmen).
 
@@ -112,7 +112,7 @@ Mer information om hur du skapar faktureringsposter finns i artikeln [Skapa fakt
 
 När faktureringstarifferna ändras för jobbroller på projektnivå kan du behålla befintliga intäkter som redan har beräknats i projektet genom att använda flera åsidosättningar av faktureringsfrekvenser som är låsta inom en angiven tidsram.
 
-Mer information om hur du använder flera åsidosättningar av faktureringstariffer finns i artikeln [Översikt över åsidosättande av faktureringstaxor för jobbroller och beräkning av intäkter för ett projekt](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Mer information om hur du använder flera åsidosättningar av faktureringssatser finns i artikeln [Översikt över åsidosättande av faktureringssatser och beräkning av intäkter för ett projekt](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 >[!NOTE]
 >
@@ -178,7 +178,7 @@ Du kan manuellt beräkna om ekonomin för flera projekt genom att redigera dem i
 Så här beräknar du om ekonomin för flera projekt manuellt:
 
 1. Gå till en lista med projekt.
-1. Markera flera projekt i listan och klicka sedan på ikonen **Mer** ![Mer &#x200B;](assets/qs-more-icon-on-an-object.png) överst i listan.
+1. Markera flera projekt i listan och klicka sedan på ikonen **Mer** ![Mer ](assets/qs-more-icon-on-an-object.png) överst i listan.
 
    ![Beräkna om uttryck](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 

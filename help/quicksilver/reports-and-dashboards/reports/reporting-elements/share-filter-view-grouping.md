@@ -6,9 +6,11 @@ description: Du kan dela filter, vyer och grupperingar som du har tillgång till
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1194'
 ht-degree: 0%
 
 ---
@@ -17,8 +19,12 @@ ht-degree: 0%
 
 <!-- Audited: 11/2024 -->
 
-<!--(NOTE: CONSIDER SPLITTING THIS in three articles for each reporting element?)
-(NOTE: This is linked from the TOC article in WF Basics > permissions section)-->
+<!--
+(NOTE: CONSIDER SPLITTING THIS in three articles for each reporting element?)
+(NOTE: This is linked from the TOC article in WF Basics > permissions section)
+-->
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Din Adobe Workfront-administratör ger användarna åtkomst till att visa eller redigera objekt när de tilldelar åtkomstnivåer. Mer information om hur du beviljar åtkomst till objekt finns i [Skapa eller ändra anpassade åtkomstnivåer](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -85,7 +91,7 @@ Du kan dela ett filter i standardgränssnittet från listor med projekt, uppgift
 Dela ett filter med standardgränssnittet i Builder:
 
 1. Gå till en lista med projekt, uppgifter eller problem.
-1. Klicka på ikonen **Filter** ![Filter &#x200B;](assets/filter-nwepng.png) .
+1. Klicka på ikonen **Filter** ![Filter ](assets/filter-nwepng.png) .
 
    ![Standardfilterverktyg](assets/new-filters-all-filter-types.png)
 
@@ -167,7 +173,7 @@ Delningsfilter, vyer och grupperingar i det äldre gränssnittet är identiska.
 
 1. Fyll i något av följande, beroende på vem du vill dela med:
 
-   **Så här delar du med enskilda användare, team, roller, grupper eller företag:** I fältet som anges börjar du skriva namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela med och klickar sedan på namnet i listrutan.\
+   **Så här delar du med enskilda användare, team, roller, grupper eller företag:** I fältet som anges börjar du med att skriva namnet på den användare, det team, den roll, den grupp, det företag eller den företagsprofil <span class="preview"> som du vill dela med. Klicka sedan på namnet när det visas i listrutan.</span>\
    Upprepa den här processen om du vill dela åtkomst med flera användare, team, roller, grupper eller företag.
 
    >[!TIP]

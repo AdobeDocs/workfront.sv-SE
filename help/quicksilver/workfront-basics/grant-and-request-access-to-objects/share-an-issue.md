@@ -6,14 +6,16 @@ description: Din Adobe Workfront-administratör ger användarna åtkomst att vis
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ddaecaf65fc7080e27ae67d6c8f4980586f1241e
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1263'
 ht-degree: 0%
 
 ---
 
 # Dela ett ärende
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Din Adobe Workfront-administratör ger användarna åtkomst att visa eller redigera problem när de tilldelar åtkomstnivåer. Mer information om att bevilja åtkomst till problem finns i [Bevilja åtkomst till problem](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md).
 
@@ -85,7 +87,7 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
    * Ange behörigheter för något av de överordnade objekten i utgåvan: projekt, program eller portfölj. Problem ärver behörigheterna från sina överordnade objekt. Mer information om hur du visar ärvda behörigheter för objekt finns i [Visa ärvda behörigheter för objekt](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
    * Lägg till entiteter i projektdelning på en mall som används för att skapa det projekt som utgåvan gäller. Mer information om att dela projekt från mallar finns i [Dela en mall](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Ange behörigheter för alla problem i ett projekt när du redigerar projektet. Information om hur du hanterar åtkomst till problem eller begäranden i projektet baserat på en användares behörigheter till projektet finns i avsnittet [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) i artikeln [Redigera projekt](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Ange behörigheter för alla problem i ett projekt när du redigerar projektet. Information om hur du hanterar åtkomst till problem eller begäranden i projektet baserat på en användares behörigheter till projektet finns i avsnittet [](../../manage-work/projects/manage-projects/edit-projects.md#access) i artikeln [Redigera projekt](../../manage-work/projects/manage-projects/edit-projects.md).
 
      >[!TIP]
      >
@@ -167,7 +169,7 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
 
    ![Knappen Dela problem](assets/share-issue-button.png)
 
-1. I fältet **Bevilja utfärdandeåtkomst till** börjar du skriva namnet på den användare, det team, den roll, grupp eller det företag som du vill dela problemet med och klickar sedan på namnet i listrutan.
+1. I fältet **Bevilja utfärdandeåtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp, det företag eller den företagsprofil <span class="preview"> som du vill dela problemet med och klickar sedan på namnet i listrutan.</span>
 
    >[!TIP]
    >
@@ -201,7 +203,7 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
 
    ![Problem med massdelning](assets/bulk-share-issues.png)
 
-1. I fältet **Bevilja utfärdandeåtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela problemen med och klickar sedan på namnet i listrutan.
+1. I fältet **Bevilja utfärdandeåtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp, det företag eller den affärsprofil <span class="preview"> som du vill dela problemen med och klickar sedan på namnet i listrutan.</span>
 
    >[!TIP]
    >

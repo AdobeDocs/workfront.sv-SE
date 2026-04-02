@@ -8,10 +8,10 @@ description: Affärsprofiler är en förbättrad behörighetsmodell som gör det
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: true
-hidefromtoc: true
 exl-id: 7f62de33-e544-4be9-8dcf-03a2e09e8a05
-source-git-commit: 1389c6a1f41a14bafd6b70e2e079e40d22d47b07
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
 source-wordcount: '1466'
 ht-degree: 0%

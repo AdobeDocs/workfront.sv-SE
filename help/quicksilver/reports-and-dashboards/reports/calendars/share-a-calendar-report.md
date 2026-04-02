@@ -6,14 +6,18 @@ description: Du kan dela en kalender med andra användare och göra den tillgän
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
 
 # Dela en kalenderrapport
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 
 Du kan dela en kalender med andra användare och du kan göra den tillgänglig för allmänheten, så att någon utan en [!DNL Adobe Workfront]-licens kan visa den.
@@ -63,7 +67,7 @@ Så här delar du en kalender i [!DNL Workfront]:
 1. Gå till kalendern som du vill dela.
 1. Klicka på menyn **Mer** bredvid kalendernamnet och klicka sedan på **Delning**.
    ![kalendermer meny](assets/more-menu-calendar.png)
-1. I fältet **[!UICONTROL Give Calendar access to]** börjar du skriva namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela kalendern med och klickar sedan på namnet när det visas i listrutan.\
+1. I fältet **[!UICONTROL Give Calendar access to]** börjar du skriva namnet på den användare, det team, den roll, den grupp, det företag, <span class="preview"> eller den företagsprofil </span> som du vill dela kalendern med och klickar sedan på namnet när det visas i listrutan.\
    Mer information om att ange behörigheter finns i [Översikt över delningsbehörigheter för objekt](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 1. (Valfritt) Upprepa steg 3 för varje användare, team, roll eller grupp som du vill ge åtkomst till kalendern.

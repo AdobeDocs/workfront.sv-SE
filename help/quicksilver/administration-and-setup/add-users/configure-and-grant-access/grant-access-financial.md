@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
-source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
+source-git-commit: d45c34b1f48a7ffcae29556d34558bb4d1d8a016
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
@@ -61,13 +61,18 @@ Tänk på följande när du ger användare tillgång till ekonomiska data i Work
 * En användare vars åtkomstnivå inte tillåter åtkomst till ekonomiska data kan inte ge åtkomst som skulle göra det möjligt för andra att visa ekonomiska data. Detta innefattar att ge åtkomst till projekt som skulle visa ekonomiska data, eller ändra en åtkomstnivå för att tillåta visning av ekonomiska data.
 * En användare vars åtkomstnivå inte tillåter åtkomst till ekonomiska data kan inte skapa en risk för ett projekt. Mer information finns i [Skapa och redigera risker i projekt](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
 * Du kan också använda en åtkomstnivå för att avgöra vilka resurshanteringsaktiviteter en användare kan använda för att budgetera eller visa resursallokering. Mer information finns i [Bevilja åtkomst till resurshantering](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+* <span class="preview">Åtkomsten till faktureringstariffer, kostnadstariffer och allmän ekonomi är separat, vilket ger mer exakt kontroll över olika användarroller som hanterar komplexa ekonomiska detaljer. Allmän finansiering är ytterligare finansiella data som inte inkluderar fakturering och kostnadstariffer.</span>
 
 ## Konfigurera användaråtkomst till ekonomiska data med en anpassad åtkomstnivå
 
 1. Börja skapa eller redigera åtkomstnivån enligt beskrivningen i [Skapa eller ändra anpassade åtkomstnivåer](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Klicka på kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen **Visa** eller **Redigera** till höger om Finansiella data och välj sedan de funktioner som du vill ge under **Finjustera dina inställningar**.
 
-   ![](assets/financial-data-fine-tune-nwe.png)
+   <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
+   ![Finjustera åtkomst till ekonomiska data](assets/financial-data-access-fine-tune.png)
+
+   Exempelbild i produktionsmiljön:
+   ![Finjustera åtkomst till ekonomiska data](assets/financial-data-fine-tune-nwe.png)
 
 1. (Valfritt) Välj följande alternativ i området **Tillåt administrativ åtkomst för**:
 
@@ -126,15 +131,9 @@ En användare utan åtkomst till ekonomiska data har inte åtkomst till följand
 
 * Avsnittet Ekonomi under Projekt och uppgifter
 * Affärsärende
-* Faktureringspriser och faktureringsposter
-* <span class="preview">Betygsätt kort</span>
-* Kostnad per timme och fakturering per timme i användarinställningarna
-
-  Du kan konfigurera detta med kugghjulsikonen ![](assets/gear-icon-settings.png) på Visa-knappen i steg 4 ovan.
-
+* Faktureringstariffer och faktureringsposter för projekt
+* Kostnad per timme och fakturering per timme för användarprofiler
 * Kostnad per timme och fakturering per timme för jobbroller
-
-  Du kan konfigurera detta med kugghjulsikonen ![](assets/gear-icon-settings.png) på Visa-knappen i steg 4 ovan.
 
 ### Visa åtkomst
 
@@ -142,8 +141,8 @@ En användare med behörigheten Visa för ekonomiska data kan visa (inte rediger
 
 * Avsnittet Ekonomi under Projekt och uppgifter
 * Affärsärende
-* Faktureringspriser och faktureringsposter
-* Kostnad per timme och fakturering per timme i användarinställningarna
+* Faktureringstariffer och faktureringsposter för projekt
+* Kostnad per timme och fakturering per timme för användarprofiler
 
   Du kan konfigurera detta med kugghjulsikonen ![](assets/gear-icon-settings.png) på Visa-knappen i steg 4 ovan.
 
@@ -157,9 +156,8 @@ En användare med Redigera-åtkomst till ekonomiska data kan visa och redigera f
 
 * Avsnittet Ekonomi under Projekt och uppgifter
 * Affärsärende
-* Faktureringspriser och faktureringsposter
-* <span class="preview">Betygsätt kort</span>
-* Kostnad per timme och fakturering per timme i användarinställningarna
+* Faktureringstariffer, faktureringsposter och kostnadstariffer för projekt
+* Kostnad per timme och fakturering per timme för användarprofiler
 
   Du kan konfigurera detta med kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen Redigera i steg 4 ovan.
 

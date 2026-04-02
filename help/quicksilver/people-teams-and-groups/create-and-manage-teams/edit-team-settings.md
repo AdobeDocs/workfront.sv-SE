@@ -6,9 +6,11 @@ description: Workfront-administratörer och användare med en plan- eller arbets
 author: Courtney
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -86,5 +88,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
       * [Konfigurera knappen [!UICONTROL Done] för aktiviteter](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
       * [Konfigurera knappen [!UICONTROL Done] för problem](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
+
+   * Bifoga ett eget formulär. Mer information finns i [Lägga till ett anpassat formulär i ett objekt](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 1. Klicka på **[!UICONTROL Save Changes]**.

@@ -8,20 +8,22 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+source-git-commit: 106ff601a4a19dbbf50cb3329675928ad7087b21
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
 
 # Anpassa objektrubriker med hjälp av en layoutmall
 
+{{highlighted-preview}}
+
 Som Adobe Workfront-administratör eller gruppadministratör kan du använda en layoutmall för att konfigurera de fält som användarna ser i objekthuvudet när de öppnar ett objekts sida.
 
 >[!IMPORTANT]
 >
->Det går för närvarande att anpassa objektrubriker för projekt, uppgifter och ärenden.
+>Det går för närvarande att anpassa objektrubriker för projekt, uppgifter, utgåvor, <span class="preview">portföljer, program, mallar, faktureringsposter, team, grupper, användare, företag, grupper och kurskort.</span>
 
 ![Objektrubrikfält](assets/object-header-fields.png)
 
@@ -64,10 +66,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 ## Anpassa objektrubriker
 
 1. Börja arbeta med en layoutmall enligt beskrivningen i [Skapa och hantera layoutmallar](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Välj **Projekt**, **Åtgärder** eller **Problem** i den nedrullningsbara menyn **Anpassa vad användare ser**.
-
-   <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
-
+1. I listrutan **Anpassa vad användarna ser** markerar du det objekt vars huvud du vill anpassa.
 1. Håll markören över de aktuella fälten i avsnittet [!UICONTROL Header fields] och gör något av följande:
    * Klicka på ikonen **x** för att ta bort ett fält
 
@@ -75,12 +74,12 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
    * Klicka på och håll ned ikonen **gripna** för att dra och släppa fältet på en ny plats.
 
-   <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
-
    ![Objektrubrikfält döljer och flyttar ikoner](assets/object-header-field-x-and-grab-icons-in-lt.png)
 
 1. Du kan ha upp till fem fält i ett objekts sidhuvud.
-Om du redan har markerat fem fält måste du ta bort ett fält innan du kan lägga till ett nytt.
+
+   Om du redan har markerat fem fält måste du ta bort ett fält innan du kan lägga till ett nytt.
+
 1. I rutan **Lägg till fält** börjar du skriva namnet på ett anpassat fält eller ett inbyggt Workfront-fält som du vill lägga till och markerar det när det visas i listan. Fältet läggs till i det högra hörnet av rutan Lägg till och visas som det första fältet i det övre högra hörnet av objektets rubrik.
 
    >[!TIP]
@@ -89,7 +88,7 @@ Om du redan har markerat fem fält måste du ta bort ett fält innan du kan läg
    >
    >* När en användare redigerar ett anpassat fält i huvudet och det finns i ett anpassat formulär som inte är kopplat till objektet, läggs det anpassade formuläret automatiskt till objektet.
    >
-   >* När du lägger till fältet &quot;Löst av&quot; i huvudet på ett problem, ändras fältet till &quot;Lösa problem, Aktivitet eller Projekt&quot;, när det finns ett matchande objekt kopplat till problemet.
+   >* När du lägger till fältet &quot;Löst av&quot; i huvudet på ett problem, ändras fältet till &quot;Lösa problem, Aktivitet eller Projekt&quot; när det finns ett matchande objekt kopplat till problemet.
 
    ![Lägg till fält i rubrik](assets/add-field-to-header-in-lt-list.png)
 

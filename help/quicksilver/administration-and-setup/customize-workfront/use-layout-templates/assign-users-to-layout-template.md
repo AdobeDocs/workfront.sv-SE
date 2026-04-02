@@ -8,14 +8,18 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '960'
 ht-degree: 0%
 
 ---
 
 # Tilldela användare till en layoutmall
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Du kan tilldela en layoutmall som du har skapat till alla användare, jobbroller, team eller grupper som behöver använda den.
 
@@ -28,6 +32,8 @@ Du kan tilldela flera olika layoutmallar till samma namn. Mer information om vil
 Mer information om layoutmallar finns i [Layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
 
 Mer information om layoutmallar för grupper finns i [Skapa och ändra en grupps layoutmallar](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+<span class="preview">Mer information om layoutmallar och affärsprofiler finns i [Översikt över affärsprofiler](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).</span>
 
 ## Åtkomstkrav
 
@@ -68,13 +74,13 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
    >När du är nöjd med din layoutmall rekommenderar vi att du testar den enligt beskrivningen i [Testa en ny layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md).
 
 1. Klicka på **Tilldela den här till** i det övre avsnittet på sidan.
-1. I rutan som visas klickar du på **Lägg till en användare, en jobbroll, ett team eller en grupp**. Börja skriva namnet på en användare, en jobbroll, ett team eller en grupp och klicka sedan på namnet när det visas i listrutan.
+1. I rutan som visas klickar du på **Lägg till en användare, jobbroll, team, grupp <span class="preview"> eller åtkomstnivå</span>**. Börja skriva namnet på en användare, jobbroll, team, grupp <span class="preview"> eller åtkomstnivå </span> och klicka sedan på namnet när det visas i listrutan.
 
    Nyligen tillagda namn visas med blå bakgrund. Detta är praktiskt när du redigerar en befintlig layoutmall eftersom du kan skilja de namn du just har lagt till från de som redan finns i listan.
 
-   En informationsikon ![Informationsikon](assets/info-icon.png) visas till höger om namnet på en användare, jobbroll, team eller grupp som redan har tilldelats en annan layoutmall. Du kan hålla muspekaren över ikonen för att se namnet på layoutmallen och bestämma om du vill åsidosätta det befintliga uppdraget.
+   En informationsikon ![Informationsikon](assets/info-icon.png) visas till höger om namnet på en användare, jobbroll, team, grupp <span class="preview"> eller åtkomstnivå </span> som redan har tilldelats en annan layoutmall. Du kan hålla muspekaren över ikonen för att se namnet på layoutmallen och bestämma om du vill åsidosätta det befintliga uppdraget.
 
-1. Upprepa de två föregående stegen för att tilldela layoutmallen till andra användare, jobbroller, team eller grupper efter behov.
+1. Upprepa de två föregående stegen för att tilldela layoutmallen till andra användare, jobbroller, team, grupp <span class="preview">eller åtkomstnivå</span> efter behov.
 
    Du kan tilldela upp till 100 användare åt gången.
 
@@ -90,6 +96,7 @@ Du och andra Workfront-administratörer kan tilldela flera olika layoutmallar ti
 * Till en viss jobbroll som användaren har
 * För ett visst team är användaren på
 * Till en viss grupp är användaren i
+* <span class="preview">Till en viss åtkomstnivå tilldelas användaren till </span>
 
 Användaren kan dock bara se en layoutmall åt gången. Mallen som är synlig avgörs av följande prioritetshierarki:
 
@@ -106,9 +113,12 @@ Användaren kan dock bara se en layoutmall åt gången. Mallen som är synlig av
 
   Endast den mall som tilldelats hemgruppen för en användare visas för användaren. Mallar som tilldelats någon av deras andra grupper visas inte.
 
+* <span class="preview"> Åtkomstnivå: Om personen inte har tilldelats en layoutmall som en enskild användare, eller som en användare med en primär jobbroll, eller som medlem i ett Hem-team eller som medlem i en Hem-grupp, ser de mallen som tilldelats till deras åtkomstnivå.</span>
+
 ## Ett stort antal användare som tilldelats en layoutmall
 
-<!--If you edit a layout template which is assigned to more than 2000 users and make changes to it, only the first 2000 users will be retained on the layout template and will see the changes you made. The layout template is removed from all others.
+<!--
+If you edit a layout template which is assigned to more than 2000 users and make changes to it, only the first 2000 users will be retained on the layout template and will see the changes you made. The layout template is removed from all others.
 -->
 Om du har fler än 2 000 användare att tilldela till en layoutmall rekommenderar vi att du gör något av följande:
 

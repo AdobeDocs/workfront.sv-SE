@@ -8,9 +8,11 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 9fcfea189bfc8827e41098823402f5e392b36d1b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '7040'
+source-wordcount: '7439'
 ht-degree: 0%
 
 ---
@@ -33,8 +35,9 @@ Du kan utforma ett anpassat formulär med formulärdesignern i Adobe Workfront. 
  <tbody> 
   <tr> 
    <td>Adobe Workfront package</td> 
-   <td><p>Alla</p></td> 
-  </tr> 
+   <td> <p>Så här skapar du anpassade formulär för jobbroller, tariffkort och tilldelningar: Workflow Ultimate</p>
+      <p>Så här skapar du anpassade formulär för alla andra objekt som stöds: Alla Workfront- eller Workflow-paket</p> </td> 
+  </tr>  
   <tr> 
    <td>Adobe Workfront-licens</td> 
    <td><p>Standard</p>
@@ -42,7 +45,7 @@ Du kan utforma ett anpassat formulär med formulärdesignern i Adobe Workfront. 
   </tr> 
   <tr> 
    <td>Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Administrativ åtkomst till anpassade formulär</p> </td> 
+   <td>Administrativ åtkomst till anpassade formulär</td> 
   </tr>  
  </tbody> 
 </table>
@@ -60,10 +63,49 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 1. Klicka på **Nytt anpassat formulär.**
 1. Välj vilka objekttyper du vill koppla det anpassade formuläret till och klicka sedan på **Fortsätt**.
 
-   ![Välj objekttyper](assets/new-custom-form-select-objects.png)
+<div class="preview">
+
+Exempelbild i förhandsvisningsmiljön:
+
+![Välj objekttyper](assets/new-custom-form-select-objects-032526.png)
+
+</div>
+
+Exempelbild i produktionsmiljön:
+
+![Välj objekttyper](assets/new-custom-form-select-objects.png)
+
++++ Expandera om du vill visa en lista med objekt som stöder anpassade formulär.
+
+* Projekt
+* Uppgift
+* Problem/förfrågan
+* Portfolio
+* Dokument
+* Program
+* Utgift
+* Användare
+* Företag
+* Upprepning
+* Faktureringspost
+* Grupp
+* <span class="preview">Team</span>
+
+<div class="preview">
+
+Om du använder Workflow Ultimate-paketet kan du även skapa anpassade formulär för dessa objekt:
+
+* Jobbroll
+* Hastighetskort
+* Tilldelning
+
+</div>
+
++++
 
 1. Skriv den anpassade formulärtiteln i området **Lägg till ett formulärnamn**.
-1. (Valfritt) Om du vill lägga till fler objekttyper i formuläret så att det kan kopplas till fler objekt klickar du på ikonen **Lägg till** ![Lägg till objekt &#x200B;](assets/add-objects-icon.png) bredvid **Objekttyper** och väljer sedan önskad typ på menyn som visas. Du kan upprepa detta om du vill lägga till så många objekttyper som du vill.
+1. <span class="preview">(Valfritt) Om du vill lägga till fler objekttyper i formuläret så att det kan kopplas till fler objekt klickar du på **Objekttyper** i formulärdesignerns huvud. Markera de objekttyper som du vill lägga till och avmarkera de objekttyper som du vill ta bort från formuläret.</span>
+1. (Valfritt) Om du vill lägga till fler objekttyper i formuläret så att det kan kopplas till fler objekt klickar du på ikonen **Lägg till** ![Lägg till objekt ](assets/add-objects-icon.png) bredvid **Objekttyper** och väljer sedan önskad typ på menyn som visas. Du kan upprepa detta om du vill lägga till så många objekttyper som du vill.
 
    När du har lagt till mer än ett objekt i formuläret kan du klicka på X för en objekttyp för att ta bort det från formuläret.
 
@@ -259,6 +301,22 @@ Lägga till ett textfält:
     </ul></td>
     </tr>
     <tr>
+      <td><span class="preview">Typ av ekonomisk behörighet</span></td>
+      <td><p><span class="preview">Välj den ekonomiska behörighetstyp som användarna måste ha innan de kan visa eller redigera det här anpassade fältet. Alla format tillåts för beräkningsfält.</span></p>
+      <ul span class="preview">
+      <li><p><strong>Ingen behörighet krävs:</strong> Alla användare kan se det här fältet</p></li>
+      <li><p><strong>Allmänt:</strong> Användare måste ha behörighet att redigera eller visa Allmän ekonomi</p></li>
+      <li><p><strong>Faktura:</strong> Användare måste ha behörighet att redigera eller visa faktureringsfrekvenser</p></li>
+      <li><p><strong>Kostnad:</strong> Användare måste ha behörighet att redigera eller visa kostnadstariffer</p></li>
+      </ul>
+      <p><span class="preview">Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Begränsa åtkomst till ekonomiska data i anpassade fält</a>.</span></p>
+      </td>
+      <td><ul span class="preview">
+       <li>Enkelradig text</li>
+       <li>Stycke</li>
+       </ul></td>
+    </tr>
+    <tr>
     <td>Visningstyp</td>
     <td>Växla mellan textrutorna för en rad och ett stycke.</td>
     <td><ul>
@@ -398,6 +456,24 @@ Så här lägger du till alternativknappar, kryssrutegrupper och listrutor:
     <li>Listruta för flera val</li>
     </ul></td>
     </tr> 
+    <tr>
+      <td><span class="preview">Typ av ekonomisk behörighet</span></td>
+      <td><p><span class="preview">Välj den ekonomiska behörighetstyp som användarna måste ha innan de kan visa eller redigera det här anpassade fältet. Alla format tillåts för beräkningsfält.</span></p>
+      <ul span class="preview">
+      <li><p><strong>Ingen behörighet krävs:</strong> Alla användare kan se det här fältet</p></li>
+      <li><p><strong>Allmänt:</strong> Användare måste ha behörighet att redigera eller visa Allmän ekonomi</p></li>
+      <li><p><strong>Faktura:</strong> Användare måste ha behörighet att redigera eller visa faktureringsfrekvenser</p></li>
+      <li><p><strong>Kostnad:</strong> Användare måste ha behörighet att redigera eller visa kostnadstariffer</p></li>
+      </ul>
+      <p><span class="preview">Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Begränsa åtkomst till ekonomiska data i anpassade fält</a>.</span></p>
+      </td>
+      <td><ul span class="preview">
+       <li>Alternativknappar</li>
+       <li>Kryssrutegrupp</li>
+       <li>Listruta med ett val</li>
+       <li>Listruta för flera val</li>
+       </ul></td>
+    </tr>
     <tr> 
      <td role="rowheader">Visningstyp</td> 
     <td>Växla mellan alternativknappar, kryssrutegrupp, listruta för enstaka val eller listruta för flera val för fältet.</td> 
@@ -645,6 +721,18 @@ Så här lägger du till en extern sökning:
       <li>Teckengränsen för nummerfält är 16. Du kan också använda ett textfält för att ange tal och undvika gränsen.</li>
       </ul></td>
      </tr> 
+     <tr>
+      <td><span class="preview">Typ av ekonomisk behörighet</span></td>
+      <td><p><span class="preview">Välj den ekonomiska behörighetstyp som användarna måste ha innan de kan visa eller redigera det här anpassade fältet. Alla format tillåts för beräkningsfält.</span></p>
+      <ul span class="preview">
+      <li><p><strong>Ingen behörighet krävs:</strong> Alla användare kan se det här fältet</p></li>
+      <li><p><strong>Allmänt:</strong> Användare måste ha behörighet att redigera eller visa Allmän ekonomi</p></li>
+      <li><p><strong>Faktura:</strong> Användare måste ha behörighet att redigera eller visa faktureringsfrekvenser</p></li>
+      <li><p><strong>Kostnad:</strong> Användare måste ha behörighet att redigera eller visa kostnadstariffer</p></li>
+      </ul>
+      <p><span class="preview">Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Begränsa åtkomst till ekonomiska data i anpassade fält</a>.</span></p>
+      </td>
+     </tr>
      <tr> 
       <td role="rowheader">Bas-API-URL</td> 
       <td><p>Skriv eller klistra in URL:en för API:t.</p><p>API-URL:en måste returnera ett JSON-innehåll av de alternativ som du vill visa i listrutan. Du kan använda JSON-sökvägsfältet för att välja specifika värden från den returnerade JSON-filen som listalternativ.</p><p>När du anger API-URL:en kan du välja att skicka följande värden i URL:en:</p>
@@ -666,12 +754,12 @@ Så här lägger du till en extern sökning:
       <td role="rowheader">JSON-sökväg</td>
       <td><p>Skriv eller klistra in JSON-sökvägen för API:t.</p> <p>Med det här alternativet kan data extraheras från den JSON som returneras av API-URL:en. Det är ett sätt att välja vilka värden från JSON som ska visas i listrutan.</p><p>Om din API-URL till exempel returnerar JSON i följande format kan du använda "$.data[*].name" för att välja USA och Kanada som nedrullningsbara alternativ:</br>
       <pre>
-      &lbrace;
-       data: &lbrace;
+      {
+       data: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Mer information om JSON-sökvägen och hur du ser till att du skriver rätt JSON-sökväg finns på <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -718,12 +806,14 @@ Du kan lägga till bilder, PDF-filer och videoklipp i ett anpassat formulär. An
 * Objektets detaljområde (t.ex. området Projektinformation för ett projekt).
 * Rutan Redigera för objektet, om det har det nya Adobe Workfront-gränssnittet (till exempel i rutorna Redigera projekt och Redigera uppgift).
 
-<!-- Do we need to tell them where they can't see it if we tell them where they can see it?
+<!--
+ Do we need to tell them where they can't see it if we tell them where they can see it?
 Currently, users cannot see the widget in the following areas:​
 Lists and reports
 Home and Summary
 The Edit box for the object, if it doesn't have the new Adobe Workfront experience look and feel (for example, the Edit Expense box)
-The Workfront Mobile app -->
+The Workfront Mobile app
+-->
 
 +++ Expandera om du vill visa beskrivningar av tillgängliga fält.
 

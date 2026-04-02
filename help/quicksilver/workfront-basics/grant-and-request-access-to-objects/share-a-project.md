@@ -6,9 +6,11 @@ description: Din Adobe Workfront-administratör kan ge dig åtkomst till att vis
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '1574'
+source-wordcount: '1600'
 ht-degree: 0%
 
 ---
@@ -16,6 +18,8 @@ ht-degree: 0%
 # Dela ett projekt
 
 <!-- Audited: 1/2024 -->
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Din Adobe Workfront-administratör kan ge dig åtkomst till att visa eller redigera projekt när du tilldelar din åtkomstnivå. Mer information finns i [Bevilja åtkomst till projekt](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
@@ -74,7 +78,7 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
 
 * När du delar ett projekt ärver alla uppgifter, utgåvor och dokument samma behörigheter, om inget annat anges.
 
-  Information om hur du hanterar åtkomst till aktiviteter och problem i projektet baserat på en användares behörigheter till projektet finns i avsnittet [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) i artikeln [Redigera projekt](../../manage-work/projects/manage-projects/edit-projects.md).
+  Information om hur du hanterar åtkomst till aktiviteter och problem i projektet baserat på en användares behörigheter till projektet finns i avsnittet [](../../manage-work/projects/manage-projects/edit-projects.md#access) i artikeln [Redigera projekt](../../manage-work/projects/manage-projects/edit-projects.md).
 
   Workfront-administratören kan ange om dokument ska ärva behörigheter från högre objekt på användarens åtkomstnivå. Mer information om att begränsa ärvda behörigheter i dokument finns i [Skapa eller ändra anpassade åtkomstnivåer](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -144,7 +148,7 @@ Mer information om hur du visar ärvda behörigheter för ett objekt finns i [Vi
 
    ![Knappen Dela projekt](assets/share-project.png)
 
-1. I fältet **Bevilja projektåtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela projektet med och klickar sedan på namnet i listrutan.
+1. I fältet **Bevilja projektåtkomst till** börjar du med att skriva namnet på den användare, det team, den roll, den grupp, det företag eller den affärsprofil <span class="preview"> som du vill dela projektet med och klickar sedan på namnet i listrutan.</span>
 
    >[!TIP]
    >
@@ -164,7 +168,8 @@ Mer information om hur du visar ärvda behörigheter för ett objekt finns i [Vi
    >Mer information om hur du anger delningsstandardvärden för projekt på åtkomstnivå finns i [Bevilja åtkomst till projekt](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
 
    <!--
-   >this note also appears in Understanding Project Permissions-->
+   >this note also appears in Understanding Project Permissions
+   -->
 
 
 1. Klicka på listrutan till höger om användarens namn och välj behörighetsnivå för det här projektet:
@@ -190,7 +195,7 @@ Mer information om hur du visar ärvda behörigheter för ett objekt finns i [Vi
 
    ![Dela projekt gruppvis](assets/bulk-share-icon.png)
 
-1. I fältet **Bevilja projektåtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela projekten med och klickar sedan på namnet när det visas i listrutan.
+1. I fältet **Bevilja projektåtkomst till** börjar du med att skriva namnet på den användare, det team, den roll, den grupp, det företag eller den affärsprofil <span class="preview"> som du vill dela projekten med och klickar sedan på namnet när det visas i listrutan.</span>
 
    >[!TIP]
    >

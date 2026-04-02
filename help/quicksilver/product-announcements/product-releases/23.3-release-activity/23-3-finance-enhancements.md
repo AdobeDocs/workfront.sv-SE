@@ -5,9 +5,9 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: dc8ea58d-ad8a-45c8-bd02-552ab6127c38
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 3fe3313bd545d51be7aa0fb021dd0bb0f91b4321
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -40,4 +40,4 @@ Datumrollsuppsättningar för giltighetsjobb är nu även tillgängliga för anv
 
 Med en ny funktion, tariffkort, kan du definiera flera faktureringspriser per jobbroll baserat på plats. En faktureringsfrekvens för en jobbroll och plats kan även innehålla giltighetsdatum. Gradkort kan kopplas till projekt för att tillämpa all tariffinformation samtidigt för den specifika jobbrollen och platsen. Platsbaserade roller kan också tilldelas aktiviteter med möjlighet att åsidosätta deras satser på tilldelningsnivån.
 
-Mer information finns i [Redigera en användares profil](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md), [Skapa och hantera jobbroller](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md), [Hantera tariffkort](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md) och [Översikt över fakturering och intäkter](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Mer information finns i [Redigera en användares profil](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md), [Skapa och hantera jobbroller](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) och [Översikt över fakturering och intäkter](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).

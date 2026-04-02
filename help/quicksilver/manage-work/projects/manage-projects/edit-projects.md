@@ -7,9 +7,11 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '7726'
+source-wordcount: '7855'
 ht-degree: 0%
 
 ---
@@ -18,9 +20,11 @@ ht-degree: 0%
 
 <!--Audited: 07/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -48,7 +52,8 @@ Det bästa är om du redigerar ett projekt när projektet har statusen Planering
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Alla</p> </td> 
+   <td> <p>Så här anger du valutakurser på systemnivå för projektet och bevarar projektfaktureringspriser: Arbetsflöde i Ultimate</p>
+      <p>Så här redigerar du alla andra inställningar: Alla Workfront- eller arbetsflödespaket</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
@@ -72,7 +77,8 @@ Det bästa är om du redigerar ett projekt när projektet har statusen Planering
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,7 +107,8 @@ Det bästa är om du redigerar ett projekt när projektet har statusen Planering
  </tbody> 
 </table>
 
-*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Begränsningar för redigering av projekt
 
@@ -148,7 +155,7 @@ Mer information om hur du skapar ett projekt från en mall finns i [Skapa ett pr
 
    Så här redigerar du information i detaljavsnittet:
 
-   1. (Valfritt) Klicka på ikonen **Komprimera alla** ![Komprimera alla &#x200B;](assets/collapse-icon.png) i det övre högra hörnet om du vill komprimera alla områden.
+   1. (Valfritt) Klicka på ikonen **Komprimera alla** ![Komprimera alla ](assets/collapse-icon.png) i det övre högra hörnet om du vill komprimera alla områden.
    1. (Valfritt och villkorligt) När ett område är komprimerat klickar du på **högerpilen** ![högerpilen](assets/right-pointing-arrow.png) bredvid varje område för att expandera det område som du vill redigera.
    1. Mer information om hur du redigerar information på fliken Projektinformation finns i följande artiklar:
 
@@ -156,7 +163,7 @@ Mer information om hur du skapar ett projekt från en mall finns i [Skapa ett pr
       * [Hantera information i projektfinansieringsdelen](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
 
    1. (Valfritt) Om du vill bifoga ett anpassat formulär börjar du skriva namnet på ett formulär i fältet **Lägg till anpassat formulär** och markerar det när det visas i listan. Klicka sedan på **Spara ändringar**.
-   1. (Valfritt) Klicka på ikonen **Exportera** ![Exportera &#x200B;](assets/export.png) om du vill exportera översiktsinformation och anpassad formulärinformation till en PDF-fil. Klicka sedan på **Exportera**. Välj bland följande:
+   1. (Valfritt) Klicka på ikonen **Exportera** ![Exportera ](assets/export.png) om du vill exportera översiktsinformation och anpassad formulärinformation till en PDF-fil. Klicka sedan på **Exportera**. Välj bland följande:
 
       * Markera alla (visas bara när det finns minst ett anpassat formulär bifogat)
       * Översikt
@@ -368,7 +375,7 @@ Så här redigerar du information i anpassade formulär när du redigerar ett pr
 1. Börja redigera ditt projekt enligt beskrivningen ovan.
 1. Klicka på **Egen Forms** i den vänstra panelen.
 
-   ![Cusrom-formulär i rutan Redigera projekt](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
+   ![Anpassade formulär i rutan Redigera projekt](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
 
 1. Klicka på rutan **Lägg till anpassat formulär** och välj ett formulär från listan som du vill bifoga till projektet. Som standard visas de första 40 formulären i alfabetisk ordning. Om du inte ser formuläret i listan börjar du skriva dess namn och markerar det när det visas i listan.
 
@@ -399,11 +406,12 @@ När du markerar flera projekt som ska redigeras samtidigt och i stället väljs
 
 Så här redigerar du fält i finanssektorn:
 
-
 1. Börja redigera ditt projekt enligt beskrivningen ovan.
 1. Klicka på **Ekonomi** i den vänstra panelen.
 
    ![Ekonomi i redigeringsrutan för projekt](assets/nwe-finance-in-edit-project-box-350x183.png)
+
+   <!--![Finance area in the project edit box](assets/edit-project-finance-section.png)-->
 
 1. Uppdatera följande ekonomiska information för projektet:
 
@@ -411,9 +419,17 @@ Så här redigerar du fält i finanssektorn:
     <col> 
     <col> 
     <tbody> 
+     <tr>
+      <td><strong><span class="preview">Använd datumeffektiva valutakurser från systemet</span></strong></td>
+      <td><p><span class="preview">När det här alternativet har valts används alltid de datumeffektiva växelkurserna på systemnivå, och valutakursåsidosättningar tillåts inte i projektet.</span></p> <p><span class="preview">Du måste också välja <strong>valutakursdatum</strong> att starta från när alternativet är markerat.</span></p></td> 
+     </tr>
+     <tr>
+      <td><strong><span class="preview">Bevara information om projektfaktureringssatser</span></strong></td>
+      <td><p><span class="preview">När du aktiverar det här alternativet fryses alla tilldelningsfaktureringstaxor permanent till den högsta tillämpliga nivån från faktureringshierarkin. Detta är en engångsåtgärd och du kan inte inaktivera alternativet när projektet har tilldelningar eller timmar. Efter bevarande kan inte faktureringspriserna för tilldelning ändras, redigeras eller åsidosättas någonstans i projektet.</span></p></td>
+     </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Valuta</strong> </td> 
-      <td> <p> <p>Ange valutan för projektet, om den skiljer sig från standardvalutan i systemet. Du kan inte ändra valutan för ett projekt om det redan finns ekonomisk information om projektet. Det här fältet är inte synligt om du bara har standardvalutan i systemet. </p> <p>Mer information om valutor finns i <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Konfigurera valutakurser</a>.<br></p> </p> </td> 
+      <td> <p>Ange valutan för projektet, om den skiljer sig från standardvalutan i systemet. Du kan inte ändra valutan för ett projekt om det redan finns ekonomisk information om projektet. Det här fältet är inte synligt om du bara har standardvalutan i systemet. </p> <p>Mer information om valutor finns i <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Konfigurera valutakurser</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Budget</strong> </td> 
@@ -850,7 +866,8 @@ Mer information om hur du redigerar åtkomstområdet finns i avsnittet [Åtkomst
 1. Klicka på **Spara**.
 
 
-<!-- Old information for how to bulk edit in classic/ before project bulk edit redesign: 
+<!--
+ Old information for how to bulk edit in classic/ before project bulk edit redesign: 
 
 ### Edit projects in bulk in the Production environment
 

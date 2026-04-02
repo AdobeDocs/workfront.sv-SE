@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dead6081-dfd2-4b1a-8be2-32a0ba813bc3
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 1dd0faae822310616e2ca3d067169d5620846736
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Du kan använda jobbroller för följande syften:
    * Projekt
    * Uppgifter
    * Problem
-   * Portfolio
+   * Portföljer
    * Program
    * Mallar
    * Malluppgifter
@@ -61,6 +61,6 @@ Du kan använda jobbroller för följande syften:
   >Om användare tilldelas en layoutmall till sin användarprofil har den mallen företräde framför den som tilldelats till deras primära jobbroll. Mer information finns i [Tilldela användare till en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
 * Du kan tilldela jobbroller till planer och initiativ för att hantera tillgängligheten för dina resurser när du använder [!DNL Adobe Workfront Scenario Planner]. Detta kräver ytterligare en licens för [!DNL Scenario Planner]. Mer information finns i [Kom igång med  [!DNL Scenario Planner]](../../../scenario-planner/get-started-with-scenario-planning.md).
-* Du kan åsidosätta jobbrollfrekvenser baserat på olika valutor när du arbetar med resurser från olika länder. På så sätt kan ni få exaktare kostnads- och intäktsbelopp för arbetsuppgifter.
+* Du kan ändra valutan för den faktiskt daterade rollen när du arbetar med resurser från olika länder. På så sätt kan ni få exaktare kostnads- och intäktsbelopp för arbetsuppgifter.
 
   Mer information finns i [Skapa och hantera jobbroller](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).

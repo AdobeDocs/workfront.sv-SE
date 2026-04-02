@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: d45c34b1f48a7ffcae29556d34558bb4d1d8a016
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 0%
+source-wordcount: '738'
+ht-degree: 1%
 
 ---
 
@@ -47,21 +47,21 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Konfigurera åtkomst för användare
 
-Du kan hantera vilken information användare kan visa och redigera för andra användare med en standardåtkomstnivå eller en anpassad åtkomstnivå som du skapar. Användare med standardlicenser för Planera och Arbeta kan visa kontaktinformation för andra användare. Alla följande användare kan skapa och redigera andra användare:
+Du kan hantera vilken information användare kan visa och redigera för andra användare med en standardåtkomstnivå eller en anpassad åtkomstnivå som du skapar. Användare med standardlicenserna Standard, Plan och Work kan visa kontaktinformation för andra användare. Alla följande användare kan skapa och redigera andra användare:
 
 * En Workfront-administratör.
 
   Mer information finns i [Bevilja en användare fullständig administrativ åtkomst](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
-* En användare med en standardplanlicens som även har åtkomst till användare, vilket förklaras i den här artikeln.
+* En användare med en standardlicens eller en standardlicens för plan som även har åtkomst till användare, vilket förklaras i den här artikeln.
 
   Användare som är begränsade att bara se användare från sitt företag eller det primära företaget har tillgång till att redigera endast de användare som de kan se. Mer information finns i [Skapa eller ändra anpassade åtkomstnivåer](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-* En användare med en standardplanlicens som också är angiven som hanterare för en annan användare.
+* En användare med en standardlicens eller en standardplanlicens som även anges som hanterare för en annan användare.
 
   Användare som har behörighet att redigera för användare på åtkomstnivå kan hantera användare som rapporterar till dem. Mer information om hur du hanterar en användare finns i [Visa organisationsschemat](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
 
-* En användare med en standardplanlicens som har skapat en användare kan inaktivera, ta bort eller redigera användaren som han/hon skapade. Mer information om hur du skapar nya användare finns i [Lägg till användare](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+* En användare med en standardlicens eller en standardplanlicens som har skapat en användare kan inaktivera, ta bort eller redigera användaren som han/hon skapade. Mer information om hur du skapar nya användare finns i [Lägg till användare](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 ## Konfigurera användaråtkomst för att redigera användare med en anpassad åtkomstnivå
 

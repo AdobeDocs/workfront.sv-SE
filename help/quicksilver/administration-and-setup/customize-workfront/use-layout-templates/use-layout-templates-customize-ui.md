@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: f8961140-948f-4bea-956b-a8126008b8cb
-source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
+source-git-commit: 4ce13e7d46efb026c1d42a61f4fce4bf1a37bb5f
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
@@ -29,14 +29,15 @@ I följande artiklar beskrivs hur du kan anpassa Workfront-gränssnittet med hj�
 * [Om Adobe Workfront standardlayout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
 * [Varumärk Adobe Workfront med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 * [Anpassa huvudmenyn med hjälp av en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
-* [Anpassa objektrubriker med en layoutmall](../../customize-workfront/use-layout-templates/customize-object-headers.md)
+* [Anpassa objektrubriker med hjälp av en layoutmall](../../customize-workfront/use-layout-templates/customize-object-headers.md)
 * [Anpassa den vänstra panelen med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
-* [Anpassa detaljvyn med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
+* [Anpassa menyn Mer med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-more-menu.md)
+* [Anpassa detaljvyn med hjälp av en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
 * [Anpassa panelen Sammanfattning med hjälp av en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
 * [Anpassa startsidan med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
 * [Anpassa fästa sidor med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
 * [Anpassa filter, vyer och grupperingar med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-* [Anpassa användargränssnittsterminologi med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
+* [Anpassa användargränssnittsterminologi med hjälp av en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
 * [Anpassa landningssidan med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
 * [Testa en ny layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
 * [Bevilja administrativ åtkomst för en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)

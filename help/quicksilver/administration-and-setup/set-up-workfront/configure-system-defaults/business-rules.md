@@ -8,9 +8,11 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: c16d107d8162f77436337d0b08ea5826d5c25d83
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1823'
 ht-degree: 0%
 
 ---
@@ -29,7 +31,7 @@ Med en affärsregel kan du validera Workfront-objekt och hindra användare från
 
 <div class="preview">
 
-Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object, notifying a user, or attaching a custom form to the object.  
+Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object or attaching a custom form to the object.  
 
 </div>
 
@@ -139,34 +141,51 @@ IF(
 )
 ```
 
+### Aktivera lokalisering i en affärsregel
 
-<!--
+Om din organisation använder anpassad lokalisering måste du aktivera översättning av ett affärsregelmeddelande i affärsregeln. Om översättning inte är aktiverat visas meddelandet för läsaren på engelska, även om meddelandetexten finns i lokaliseringslistan och användarens webbläsare är inställd på rätt språk.
 
-## Scenarios for business rule automation
+När du konfigurerar regeln infogar du ordet TRANSLATE före meddelandet och omger meddelandet inom parentes.
+
+>[!BEGINSHADEBOX]
+
+Exempel:
+
+I det här exemplet antas att meddelandet&quot;Du kan inte redigera färdiga projekt&quot; finns i lokaliseringsdelen av installationsprogrammet och att användarens webbläsare är inställd på det lokaliserade språket.
+
+* `IF({status} = "CPL", "You cannot edit completed projects.") `
+Meddelandet visas på engelska.
+* `IF({status} = "CPL", TRANSLATE("You cannot edit completed projects."))`
+Meddelandet visas på det lokaliserade språket.
+
+>[!ENDSHADEBOX]
+
+Mer information om anpassad lokalisering finns i [Konfigurera anpassad lokalisering](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
+
+## Scenarier för automatisering av affärsregler
 
 >[!NOTE]
 >
->Your organization must have a Workflow Ultimate package to use business rule automation.
+>Din organisation måste ha ett Workflow Ultimate-paket för att kunna använda automatisering av affärsregler.
 
-The format of a business rule automation is "IF the defined condition is met, then the selected automation is triggered."
+Formatet för automatisering av affärsregler är&quot;OM det definierade villkoret är uppfyllt aktiveras den valda automatiseringen&quot;.
 
-Business rule automation formulas do not require an error message
+Formler för automatisering av affärsregler kräver inget felmeddelande
 
-To ensure that an automation runs whenever the selected object and action occurs, such as when a project is created, use the following formula:
+Använd följande formel för att se till att en automatisering körs när det valda objektet och åtgärden inträffar, t.ex. när ett projekt skapas:
 
 ```
 IF(true, true)
 ```
 
-To share a project only if that's project has been approved, use a formula like the following:
+Om du bara vill dela ett projekt om projektet har godkänts använder du en formel som den nedan:
 
 ```
 IF({status} = "APR", true)
 ```
 
-You can use wildcards in business rule actions, as described in the section [Scenarios for business rule validation](#scenarios-for-business-rule-validation).
+Du kan använda jokertecken i åtgärder för affärsregler, vilket beskrivs i avsnittet [Scenarier för validering av affärsregler](#scenarios-for-business-rule-validation).
 
--->
 
 ## Lägg till en ny affärsregel
 
@@ -210,15 +229,15 @@ You can use wildcards in business rule actions, as described in the section [Sce
    * Mall
    * Tid av
    * Resurspool
+   * Jobbroll
+   * Resurskategori utanför arbetsplats
+   * Resurspool
+   * Tid av
+   * Timme
+   * Personalplan
+   * Mall
+   * Resurs för personalplan
 <!--
-   * <span class="preview">Job role</span>
-   * <span class="preview">Non-labor resource category</span>
-   * <span class="preview">Resource Pool</span>
-   * <span class="preview">Time Off</span>
-   * <span class="preview">Hour</span>
-   * <span class="preview">Staffing Plan</span>
-   * <span class="preview">Template</span>
-   * <span class="preview">Staffing Plan Resource</span>
    * <span class="preview">Team</span>
 -->
 
@@ -242,13 +261,13 @@ You can use wildcards in business rule actions, as described in the section [Sce
    * &quot;object&quot; är den objekttyp som du valde när du skapade affärsregeln. Den visas i dialogrutans rubrik.
    * &quot;action&quot; är den utlösare som du valde för regeln: skapa, redigera eller ta bort objektet.
    * Eftersom objektet och åtgärden redan är definierade, tar du inte med dem i formeln.
-   * Det anpassade felmeddelandet <!--<span class="preview">is included only if the rule is for validation, and </span>--> visas för användaren när de utlöser affärsregeln. Den ska innehålla tydliga instruktioner om vad som gick fel och hur problemet ska åtgärdas.
+   * Det anpassade felmeddelandet <span class="preview"> inkluderas bara om regeln är för validering och </span> visas för användaren när de utlöser affärsregeln. Den ska innehålla tydliga instruktioner om vad som gick fel och hur problemet ska åtgärdas.
 
      Du kan inkludera en statisk URL-adress i felmeddelandet, för att länka till dokumentation eller andra användbara sidor som hjälper användaren hur de ändrar sin åtgärd inom regelbegränsningen.
 
      I det här exemplet kommer &quot;Läs mer&quot; att länka till webbadressen. `"You are not allowed to add a new project in November.[Learn more](http://url)"` URL:en måste vara inom parentes, men länktext inom parentes krävs inte. Du kan visa den fullständiga URL:en och det blir en klickbar länk.
 
-   ![Dialogrutan Lägg till affärsregel](assets/add-business-rule-dialog-no-ai-button.png) <!--UPDATE ME-->
+   ![Dialogrutan Lägg till affärsregel](assets/add-business-rule-new.png)
 
    Det här exemplet är en affärsregel för projekt. Om den aktuella månaden är november får användarna inte skapa nya projekt, och meddelandet förklarar detta.
 
@@ -264,17 +283,13 @@ You can use wildcards in business rule actions, as described in the section [Sce
 
    För andra paket är det här alternativet förvalt.
 
-<!--
+1. <span class="preview">(Villkorligt) Om du vill automatisera en annan åtgärd väljer du åtgärden. </span>
 
-1. (Conditional) To automate another action,, select the action. 
-
-   For details on these actions, see the section [Business rule automation options](#business-rule-automation-options) in this article.
+   <span class="preview">Mer information om de här åtgärderna finns i avsnittet [Alternativ för automatisering av affärsregler](#business-rule-automation-options) i den här artikeln.</span>
 
    >[!NOTE]
    >
-   >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
-
-   -->
+   ><span class="preview">Din organisation måste finnas i Workflow Ultimate-paketet för att kunna använda åtgärder förutom validering. Om du inte ser de här andra alternativen finns din organisation inte i Workflow Ultimate-paketet.</span>
 
 1. Klicka på **Spara** när du är klar med att skapa affärsregeln.
 
@@ -282,24 +297,22 @@ You can use wildcards in business rule actions, as described in the section [Sce
 >
 >När du har lagt till en affärsregel bör du testa den genom att lägga till, redigera eller ta bort det associerade objektet för att se till att regeln tillämpas korrekt.
 
-<!--
-
 <div class="preview">
 
-### Business rule automation options
+### Automatiseringsalternativ för affärsregler
 
-   >[!NOTE]
-   >
-   >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
+>[!NOTE]
+>
+>Din organisation måste finnas i Workflow Ultimate-paketet för att kunna använda andra åtgärder än validering. Om du inte ser dessa andra alternativ finns din organisation inte i Workflow Ultimate-paketet.
 
-You can set these actions to automate when the business rule is triggered. Available actions depend on the selected object type.
+Du kan ställa in dessa åtgärder så att de automatiseras när affärsregeln aktiveras. Vilka åtgärder som är tillgängliga beror på den valda objekttypen.
 
-|Automation|Further configuration|
+| Automatisering | Ytterligare konfiguration |
 |---|---|
-|Attach a custom form|Select the custom form that you want to add|
-|Share the object|Select the people, roles, groups, companies, or access levels that you want to share the object with.|
+| Bifoga ett eget formulär | Välj det anpassade formulär som du vill lägga till |
+| Dela objektet | Välj personer, roller, grupper, företag eller åtkomstnivåer som du vill dela objektet med. |
 
--->
+</div>
 
 ## Aktivera en affärsregel
 
@@ -310,3 +323,4 @@ Så här aktiverar du en affärsregel:
 1. Markera affärsregeln i listan med regler och klicka på ikonen Redigera.
 1. Välj **Ja** för **Är aktiv** i dialogrutan för affärsregler.
 1. Klicka på **Spara**.
+

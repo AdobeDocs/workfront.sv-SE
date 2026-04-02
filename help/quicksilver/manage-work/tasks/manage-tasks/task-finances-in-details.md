@@ -6,9 +6,11 @@ description: Du kan visa eller redigera den ekonomiska informationen för en upp
 author: Alina
 feature: Work Management
 exl-id: 54ae48e5-bc8c-4e90-8fa1-0015523df4e6
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
@@ -18,6 +20,8 @@ ht-degree: 0%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, to it in both articles)</p>
 -->
+
+{{highlighted-preview}}
 
 Du kan visa eller redigera den ekonomiska informationen för en uppgift genom att gå till området Översikt i avsnittet Uppgiftsinformation. Det finns ett begränsat antal fält som du kan visa eller redigera i det här området.
 
@@ -33,7 +37,8 @@ Mer information om hur du redigerar all ekonomisk information för en uppgift fi
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Alla</p> </td> 
+   <td> <p>Så här använder du Inkomster och kostnadstyper för användare och roller per timme och lägger till en övertidskvot: Arbetsflöde Ultimate</p>
+      <p>Om du vill redigera alla andra inställningar och använda alla andra Intäkts- och kostnadstyper: Alla Workfront- eller arbetsflödespaket</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
@@ -55,7 +60,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -77,7 +83,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
    <td> <p>View permissions to the task that include View Finance or higher</p> <p>You must have Manage permissions on the task that include Edit Finance to edit financial information on tasks</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Redigera aktivitetsfinanser i avsnittet Uppgiftsinformation
 
@@ -117,6 +124,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
         <li> <p>Fast en timme </p> </li> 
         <li> <p> Användare per timme </p> </li> 
         <li> <p> Roll timvis</p> </li> 
+        <li> <p> <span class="preview">Användare och roll varje timme</span></p> </li> 
        </ul> <p>Mer information om spårningskostnader finns i <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Spåra kostnader</a> . Workfront-administratören eller en gruppadministratör väljer standardinställningen för kostnadstyp för uppgifterna i ditt system eller din grupp. Mer information om hur du anger standardinställningar för projekt finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a> .</p> </td> 
      </tr> 
      <tr> 
@@ -126,13 +134,16 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
         <li> <p> Ej fakturerbar </p> </li> 
         <li> <p>Användare per timme </p> </li> 
         <li> <p>Roll timvis </p> </li> 
+        <li> <p> <span class="preview">Användare och roll varje timme</span></p> </li>
         <li> <p>Fast en timme </p> </li> 
         <li> <p>Användartimme med versaler </p> </li> 
-        <li> <p>Roll timvis med ändpunkt </p> </li> 
+        <li> <p>Roll timvis med ändpunkt </p> </li>
+        <li> <p> <span class="preview">Användare och roll per timme med ändpunkt</span></p> </li> 
         <li> <p>Användarens timma plus fast </p> </li> 
         <li> <p>Roll timvis plus fast </p> </li> 
+        <li> <p> <span class="preview">Användare och roll timvis plus korrigering</span></p> </li>
         <li> <p>Fast intäkt </p> </li> 
-       </ul> <p>Mer information om att spåra intäkter finns i <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Översikt över fakturering och intäkter</a> . </p> <p>Din Workfront-administratör eller gruppadministratör väljer standardinställningen för Intäktstyp för uppgifterna i ditt system eller din grupp. Mer information om hur du anger standardinställningar för projekt finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>.</p> </td> 
+       </ul> <p>Mer information om att spåra intäkter finns i <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Översikt över fakturering och intäkter</a> och <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Översikt över intäkter och kostnadshierarki</a>. </p> <p>Din Workfront-administratör eller gruppadministratör väljer standardinställningen för Intäktstyp för uppgifterna i ditt system eller din grupp. Mer information om hur du anger standardinställningar för projekt finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Planerad kostnad</td> 
@@ -150,8 +161,17 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
       <td role="rowheader">Faktisk intäkt</td> 
       <td> <p>Detta är en beräkning som visar de intäkter som är associerade med uppgiften baserat på de faktiska timmarna, intäktstypen och timpriset för användare eller jobbroller. Mer information om spårningskostnader finns i <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Spåra kostnader</a>.</p> </td> 
      </tr> 
+     <tr>
+      <td><span class="preview">Övertidskvot</span></td> 
+      <td><span class="preview"><p>Ange multiplikatorn för övertid för uppgiften, till exempel 1.5 eller 2.0. Standardvärdet är 1.0 (ingen multiplikator). Mer information finns i <a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">Definiera en övertidskvot</a>.</p><p>Så här visar du fältet Övertidsförhållande:</p>
+       <ul>
+       <li>Inkomsttypen för aktiviteten måste vara Användare och Roll per timme. Mer information finns i <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Översikt över intäkt- och kostnadshierarkin</a>.</li>
+       <li>Fältet måste vara aktiverat i layoutmallen, för området Ekonomi i vyn Uppgiftsinformation. Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md">Anpassa detaljvyn med hjälp av en layoutmall</a>.</li>
+       </ul>
+      </span></td>
+     </tr>
      <tr> 
-      <td role="rowheader"><strong>CPI/SPI/CSI</strong> </td> 
+      <td role="rowheader">CPI/SPI/CSI</td> 
       <td> <p>Det här är aktivitetsprestandamätningar som visar hur din uppgift fungerar vid en given tidpunkt. Deras värden beräknas utifrån projektets prestandaindexmetod.<br>Mer information finns i följande artiklar:</p> 
        <ul> 
         <li> <p><a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref">Beräkna index för kostnadsprestanda (CPI)</a> </p> </li> 
@@ -166,4 +186,4 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
     </tbody> 
    </table>
 
-1. (Villkorligt) Om du redigerar fälten i avsnittet Ekonomi klickar du på **Spara***Ändringar**.
+1. (Villkorligt) Om du redigerar fälten i avsnittet Ekonomi klickar du på **Spara ändringar**.

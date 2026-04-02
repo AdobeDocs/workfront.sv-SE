@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+source-git-commit: 09bbb257a80c3f85abea9d238900d63c493fea2e
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 # Tillgång till objekt och områden med hjälp av licenser
 
 <!-- Audited: 2/2024 -->
+
+{{highlighted-preview}}
 
 >[!NOTE]
 >
@@ -105,6 +107,13 @@ Tabellen nedan visar den högsta åtkomstnivån (Redigera eller Visa) som var oc
         <td>Visa</td>
     </tr>
     <tr>
+        <td><span class="preview">Jobbroller</span></td>
+        <td>Redigera</td>
+        <td>Visa</td>
+        <td>Visa</td>
+        <td>Ingen åtkomst</td>
+    </tr>
+    <tr>
         <td>Team</td>
         <td>Redigera</td>
         <td>Visa</td>
@@ -134,6 +143,13 @@ Tabellen nedan visar den högsta åtkomstnivån (Redigera eller Visa) som var oc
     </tr>
     <tr>
         <td>Scenarioplan</td>
+        <td>Redigera</td>
+        <td>Visa</td>
+        <td>Ingen åtkomst</td>
+        <td>Ingen åtkomst</td>
+    </tr>
+    <tr>
+        <td><span class="preview">Kreditkort</span></td>
         <td>Redigera</td>
         <td>Visa</td>
         <td>Ingen åtkomst</td>
@@ -176,4 +192,5 @@ Du hittar detaljerad information om vilka åtkomstnivåer som tillåts för varj
 * [Bevilja åtkomst till ekonomiska data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)
 * [Bevilja åtkomst till resurshantering](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
 * [Bevilja åtkomst till scenarioplan](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
+* [Bevilja åtkomst till tariffkort](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-rate-cards.md)
 * [Ge åtkomst till Adobe Workfront mål](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)

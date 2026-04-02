@@ -9,9 +9,11 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -24,6 +26,8 @@ ht-degree: 0%
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
+{{highlighted-preview}}
+
 Som Adobe Workfront-administratör eller gruppadministratör kan du skapa och ändra layoutmallar för att anpassa följande layoutelement i Workfront:
 
 * Huvudmeny
@@ -32,7 +36,8 @@ Som Adobe Workfront-administratör eller gruppadministratör kan du skapa och ä
 * Panelen Sammanfattning
 * Vyer, filter och grupperingar som andra använder med listor och rapporter.
 * Terminologi på skärmen
-* Projekt-, uppgifts- och problemhuvuden
+* <span class="preview">Objektrubriker</span>
+* <span class="preview">Mer meny (trepunktsmeny) för ett objekt</span>
 
 När du har skapat eller ändrat en layoutmall kan du tilldela den till enskilda användare, team, grupper eller jobbroller.
 
@@ -76,10 +81,6 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 Mer information om layoutmallar finns i [Layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
 
-<!--removed this from above, but keeping it for a bit, in case it will be needed - known issue around old templates still visible at time:
-* Your older layout templates created in Adobe Workfront Classic have been automatically available in your instance of the new Adobe Workfront experience since they were migrated in early Fall 2019. Layout templates created in Adobe Workfront Classic after that time were migrated in April 2020. We recommend that you update these layout templates in the new Adobe Workfront experience to take advantage of new functionality and to make them even more useful in that environment.
--->
-
 ## Skapa eller ändra en layoutmall
 
 {{step-1-to-setup}}
@@ -96,11 +97,12 @@ Mer information om layoutmallar finns i [Layoutmallar](../../../administration-a
 
 1. Anpassa delar av användargränssnittet enligt följande artiklar:
 
-   * [Anpassa huvudmenyn med en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
+   * [Anpassa huvudmenyn med hjälp av en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
    * [Anpassa den vänstra panelen med en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
+   * [Anpassa menyn Mer med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-more-menu.md)
    * [Anpassa fästa sidor med en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
-   * [Anpassa detaljvyn med en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
-   * [Anpassa panelen Sammanfattning med en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   * [Anpassa detaljvyn med hjälp av en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
+   * [Anpassa panelen Sammanfattning med hjälp av en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
    * [Anpassa startsidan med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
    * [Anpassa landningssidan med en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
    * [Anpassa filter, vyer och grupperingar med en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
@@ -114,5 +116,5 @@ Mer information om layoutmallar finns i [Layoutmallar](../../../administration-a
 
 >[!TIP]
 >
->Du kan också skapa en layoutmall genom att kopiera den och ändra kopian. Mer information finns i [Kopiera en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
+>Du kan också skapa en layoutmall genom att kopiera den och ändra den kopierade versionen. Mer information finns i [Kopiera en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
 
