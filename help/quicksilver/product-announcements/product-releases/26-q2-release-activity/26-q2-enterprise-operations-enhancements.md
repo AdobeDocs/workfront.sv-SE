@@ -128,7 +128,7 @@ Mer information finns i [Skapa ett anpassat formulär](/help/quicksilver/adminis
   >* Det går att lägga till anpassade formulär till team för organisationer i alla Workfront- och Workflow-paket.
 
 * En inställning av typen **Ekonomisk behörighet** för valutaformaterade fält, som endast tillåter åtkomst för användare som har vissa behörigheter angivna i åtkomstnivåerna
-Mer information finns i [Begränsa åtkomst till ekonomiska data i anpassade fält ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md) .
+Mer information finns i [Begränsa åtkomst till ekonomiska data i anpassade fält &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md) .
 
   >[!NOTE]
   >
