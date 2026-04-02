@@ -7,9 +7,11 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
-source-git-commit: fa4d8132cecd51b93f26c28803535a84bebad137
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 64ee7798e79324af0ab48af91f49d04d94ece3a9
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1882'
 ht-degree: 0%
 
 ---
@@ -21,6 +23,138 @@ I den här artikeln beskrivs funktionerna som lanseras för Workfront Planning i
 <!--keep the sentence below for all future quarterly release pages-->
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning finns i [Versionsaktivitet för Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+
+## Ny möjlighet att öka radhöjden för listvyn
+
+>[!NOTE]
+>
+>Förhandsgranska: 2 april 2026
+>Production fast release: 15 april 2026
+>Produktion för alla: 16 april 2026
+
+Vi har lagt till en ny inställning för att justera radhöjden i listvyn.
+
+Mer information finns i Hantera listvyn (help/quicksilver/planning/views/manage-the-list-view.md).
+
+Mer information finns i [Hantera listvyn](/help/quicksilver/planning/views/manage-the-list-view.md).
+
+## Lägg till posttypnamn och visningsikon i delade vyer
+
+>[!NOTE]
+>
+>Förhandsgranska: 2 april 2026
+>Production fast release: 15 april 2026
+>Produktion för alla: 16 april 2026
+
+För att säkerställa att mottagarna alltid förstår vilken vy de fick när de öppnade en offentlig delad länk till en posttyp, har vi lagt till posttypens namn på sidan med den delade vyn, förutom visningsikonen och vynamnet.
+
+Mer information finns i [Dela vyer](/help/quicksilver/planning/access/share-views.md)
+
+## Ny grupperingsfunktion har lagts till i listan över förfrågningsformulär
+
+>[!NOTE]
+>
+>Förhandsgranska: 2 april 2026
+>Production fast release: 15 april 2026
+>Produktion för alla: 16 april 2026
+
+För att hjälpa dig att organisera information bättre har vi lagt till möjligheten att gruppera objekt på sidan Formulär för begäran av en posttyp.
+
+Före den här förbättringen fanns den här funktionen inte i det här området.
+
+Mer information finns i [Hantera listvyn](/help/quicksilver/planning/views/manage-the-list-view.md).
+
+## Expandera listan över delade entiteter för att visa användare
+
+>[!NOTE]
+>
+>Förhandsgranska: 2 april 2026
+>Production fast release: 15 april 2026
+>Produktion för alla: 16 april 2026
+
+Nu kan du utöka grupper, team, företag och roller för att visa deras medlemmar när du delar en arbetsyta eller en vy med dem. Före den här förbättringen var medlemslistorna bara tillgängliga för dessa objekt när posttyperna för delning delades.
+
+Mer information finns i [Dela arbetsytor](/help/quicksilver/planning/access/share-workspaces.md).
+
+## Mall för implementering av Workfront Planning på flera arbetsytor
+
+>[!NOTE]
+>
+>Förhandsgranska: 2 april 2026
+>Production fast release: 15 april 2026
+>Produktion för alla: 16 april 2026
+
+Vi introducerar ett mallpaket som hjälper dig att effektivisera implementeringen av Workfront Planning i din organisation. Genom att installera ramverksmallen för bästa praxis kan du skapa upp till sex arbetsytor som innehåller all information du behöver för att börja flytta din strategiska planering i Workfront.
+
+Mallen för flera arbetsytor innehåller en global mall som anger viktiga posttyper som du kan använda på alla anpassade arbetsytor som du har skapat. Dessutom innehåller mallen ytterligare fem arbetsytor som du kan använda som exempel och som är sammankopplade med varandra och med andra objekt i Workfront.
+
+Mer information finns i [Skapa arbetsytor](/help/quicksilver/planning/architecture/create-workspaces.md).
+
+>[!NOTE]
+>
+> Den här förbättringen är endast tillgänglig för kunder med ett Prime-paket eller ett högre paket.
+
+## Global sökning för Workfront Planning-objekt från alla Workfront Planning-sidor
+
+>[!NOTE]
+>
+>Förhandsgranska: 2 april 2026
+>Production fast release: 15 april 2026
+>Produktion för alla: 16 april 2026
+
+Nu kan du söka efter arbetsytor, posttyper eller vyer från vilken sida som helst i Workfront Planning genom att använda följande tangentkombinationer från en Planning-sida:
+
+* CTRL+K för Windows
+* ⌘+K för Mac
+
+Du kan också söka efter arbetsytor, posttyper eller vyer i den nya sökrutan som lagts till på Planeringens landningssida.
+
+Mer information finns i [Redigera arbetsytor](/help/quicksilver/planning/architecture/edit-workspaces.md).
+
+## Använda ytterligare villkorsstyrd formatering på en lista med projekt på en posts anslutna sida
+
+>[!NOTE]
+>
+>Förhandsgranska: 2 april 2026
+>Production fast release: 15 april 2026
+>Produktion för alla: 16 april 2026
+
+Du kan nu använda ytterligare villkorsstyrd formatering på en lista med projekt på en posts anslutna sida.
+
+De nya funktionerna för villkorsstyrd formatering inkluderar följande:
+
+* Lägga till färg i text
+
+* Gör texten fet eller kursiv i en cell
+
+* Möjlighet att använda villkorsstyrd formatering på en hel rad
+
+Före den här förbättringen fanns det bara möjlighet att lägga till färg i en cells bakgrund.
+
+Mer information finns i [Hantera listvyn](/help/quicksilver/planning/views/manage-the-list-view.md).
+
+## Anpassade namn för filter har lagts till i listvyn
+
+>[!NOTE]
+>
+>Förhandsgranska: 2 april 2026
+>Production fast release: 15 april 2026
+>Produktion för alla: 16 april 2026
+
+Vi har lagt till följande personliga namn för ett team-, grupp-, företag- och rollfilter i listvyn:
+
+* Mitt hemteam, Mina team
+
+* Min hemgrupp, Mina grupper
+
+* Min primära roll, Mina roller
+
+* Mitt företag
+
+Fälten måste finnas på objekt som visas i vyn för att filteralternativen ska kunna visas.
+
+Mer information finns i [Hantera listvyn](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 ## Breadcrumb redesign
 

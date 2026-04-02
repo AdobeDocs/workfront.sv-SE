@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: 34f367e1bd1aa0c75433f2f59baf4efc1284e61b
+source-git-commit: b334e8b234c9c87dd1b1ecd26df6645b3381ffb0
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -20,12 +20,44 @@ På den här sidan beskrivs de dokumentförbättringar som gjorts i den andra ut
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den andra utgåvan av kvartal 2026 finns i [Översikt över den andra utgåvan av kvartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
-## Enhetliga gransknings- och godkännandeprocesser som bygger på Workfront och Frame.io
+## GenStudio Foundations Provisioning har stöd för AI-samarbetspartners
 
+>[!NOTE]
+>
+>Förhandsgranska: 31 mars 2026
+>Production fast release: 31 mars 2026
+>Produktion för alla: 31 mars 2026
+
+Den 31 mars 2026 etablerades alla Workfront-kunder för GenStudio Foundation, och Admin Console systemadministratörer kommer att ha fått ett e-postmeddelande om detta. Produkten tillhandahålls endast så att Workfront-kunder kan ge varumärken tillgång till Workfront-kunder efter behov för att kunna släppa AI-medarbetare. Själva produkten är bara en åtkomstmekanism för varumärken och det finns inga ytterligare funktioner i GenStudio Foundation.
+
+Kunder kommer inte att debiteras för den nya produkten.
+
+## Mina widgetuppdateringar för godkännande
+
+>[!NOTE]
+>
+>Förhandsgranska: 2 april 2026
+>Production fast release: 15 april 2026
+>Produktion för alla: 16 april 2026
+
+Vi har lagt till följande förbättringar i widgeten Mina godkännanden i Hem:
+
+* Sortera godkännandelistan efter Äldsta först eller Nyaste först
+* Expandera widgeten till helskärm
+
+Mer information finns i [Hantera dina godkännanden med widgeten Mina godkännanden](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-approvals-widget.md).
+
+## Enhetliga gransknings- och godkännandeprocesser som bygger på Workfront och Frame.io
 
 >[!IMPORTANT]
 >
 >Den nya funktionen är tillgänglig för nya nettokunder och för befintliga kunder vid förnyelse.
+
+>[!NOTE]
+>
+>Förhandsgranska: 12 mars 2026
+>Production fast release: 15 april 2026
+>Produktion för alla: 16 april 2026
 
 
 Vi är glada över att kunna presentera en enhetlig gransknings- och godkännandeprocess med Workfront och Frame.io, en smidig gransknings- och godkännandeupplevelse.

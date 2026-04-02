@@ -5,9 +5,11 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: d3a7c3c03b6be87f3adf2fd67b9136bc2be9c24b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 71b3af519d0fac1d15164e5d9f40bda5d76d0f5c
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -17,6 +19,22 @@ ht-degree: 0%
 Den här sidan beskriver administratörsförbättringar som gjorts i den andra utgåvan av kvartalet 2026 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den andra utgåvan av kvartal 2026 finns i [Översikt över den andra utgåvan av kvartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## AI-samarbetspartners finns nu tillgängliga
+
+>[!NOTE]
+>
+>Förhandsgranska: 2 april 2026
+>Production fast release: 15 april 2026
+>Produktion för alla: 16 april 2026
+
+För att du enklare ska kunna dra nytta av AI i ditt dagliga arbete har vi skapat AI-medarbetare. AI-samarbetspartners är ett sätt att införliva AI-agenter i projekt och uppgifter. Du kan konfigurera en AI-samarbetspartner med varumärkesriktlinjer och sedan tilldela den till en uppgift på samma sätt som en användare.
+
+För närvarande kan AI-medarbetare användas för att granska innehåll. Fler funktioner för AI Collaborator kommer att vara tillgängliga i framtiden.
+
+<!--
+For more information, see [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators).
+-->
 
 ## Anpassade kvartal är nu tillgängliga som en separat sida i Inställningar
 

@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 18821ee34bb44b38fa3bb260434d7db986d2706e
+source-git-commit: 64ee7798e79324af0ab48af91f49d04d94ece3a9
 workflow-type: tm+mt
-source-wordcount: '13813'
+source-wordcount: '13913'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 0%
          * [Andra utgåvan, kvartal 2026, översikt](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
          * [Andra kvartalet 2026 - förbättringar av administratörer](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md)
          * [Andra kvartalet 2026 - dokumentförbättringar](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md)
+         * [Andra kvartal 2026 - förbättringar av företagsfunktioner](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-enterprise-operations-enhancements.md)
          * [Andra kvartalet 2026 - projektförbättringar](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md)
          * [Andra kvartalet 2026 - rapportförbättringar](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md)
          * [Andra kvartalet 2026 Begära förbättringar](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md)
@@ -463,9 +464,8 @@ ht-degree: 0%
          * [Aktivera eller inaktivera snabba releaser för din organisation](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
          * [Aktivera Adobe Enterprise-lagring för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
          * [Skapa och redigera affärsregler](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
-         * [Konfigurera platser](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
-         * [Hantera tariffkort](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)
-         * [Importera tariffkort från en mall](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/import-rate-cards.md)
+         * [Konfigurera anpassad lokalisering](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
+         * [Konfigurera AI-samarbetspartners](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)
       * Konfigurera scheman och tidrapportinställningar {#configure-timesheets-schedules}
          * [Konfigurera scheman och tidrapportinställningar](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
          * [Översikt över scheman](administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)
@@ -561,7 +561,9 @@ ht-degree: 0%
          * [Bevilja åtkomst till filter, vyer, grupperingar](administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
          * [Bevilja åtkomst till scenarioplan](administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
          * [Bevilja åtkomst till resurshantering](administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
+         * [Bevilja åtkomst till tariffkort](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-rate-cards.md)
          * [Ge åtkomst till Workfront mål](administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
+         * [Ge åtkomst till varumärkesbehörigheter](administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md)
       * Enkel inloggning i Workfront {#sso}
          * [Enkel inloggning: artikelindex](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
          * [Översikt över enkel inloggning](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
@@ -588,6 +590,7 @@ ht-degree: 0%
          * [Anpassa huvudmenyn](administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
          * [Anpassa objektrubriker med hjälp av en layoutmall](administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)
          * [Anpassa den vänstra panelen](administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
+         * [Anpassa menyn Mer med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-more-menu.md)
          * [Anpassa detaljvyn](administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
          * [Anpassa panelen Sammanfattning med hjälp av en layoutmall](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
          * [Anpassa nytt hem](administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
@@ -611,6 +614,7 @@ ht-degree: 0%
             * [Lägga till beräknade fält i ett formulär](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
             * [Lägga till logiska regler i anpassade formulär och fält](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
             * [Exempel på avancerad logik i anpassade formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/advanced-logic-examples.md)
+            * [Begränsa åtkomst till ekonomiska data i anpassade fält](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md)
             * [Exempel på det externa sökfältet i ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
             * [Ordna och förhandsgranska ett formulär](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
          * Hantera anpassade formulär {#manage-custom-forms}
@@ -783,6 +787,15 @@ ht-degree: 0%
          * [Hantera gruppprojektmallar](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)
          * [Hantera en grupps borttagna objekt](administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md)
          * [Hantera en grupps återställda objekt](administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md)
+   * Hantera företagsåtgärder {#manage-enterprise-operations}
+      * [Hantera företagsåtgärder: artikelindex](/help/quicksilver/administration-and-setup/manage-enterprise-operations/enterprise-operations-index.md)
+      * [Översikt över funktioner i företagsoperationer](/help/quicksilver/administration-and-setup/manage-enterprise-operations/enterprise-operations-capabilities-overview.md)
+      * [Konfigurera platser](/help/quicksilver/administration-and-setup/manage-enterprise-operations/configure-locations.md)
+      * [Definiera tariffattribut](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)
+      * [Hantera tariffkort](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)
+      * [Importera tariffkort från en mall](/help/quicksilver/administration-and-setup/manage-enterprise-operations/import-rate-cards.md)
+      * [Justera hastighetsändringar i projekt](/help/quicksilver/administration-and-setup/manage-enterprise-operations/push-rates-to-projects.md)
+      * [Dela ett tariffkort](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md)
    * Konfigurera integreringar {#configure-integrations}
       * [Konfigurera integreringar](administration-and-setup/configure-integrations/workfront-integrations.md)
       * [Adobe Workfront-integreringar](administration-and-setup/configure-integrations/workfront-integrations-1.md)
@@ -879,7 +892,7 @@ ht-degree: 0%
       * [Prioriteter: artikelindex](workfront-basics/priorities/priorities-toc.md)
       * [Kom igång med prioriteringar](workfront-basics/priorities/get-started-with-priorities.md)
       * [Visa projekt- och arbetsuppgiftsinfo i Prioriteringar](workfront-basics/priorities/view-task-project-details.md)
-      * [Filtrera och gruppera ditt arbete i prioriteter](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
+      * [Filtrera, gruppera och sortera materialet med prioritet](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
       * [Anpassa kolumnerna i arbetslistan](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
       * [Prioritera viktiga arbetsuppgifter](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)
       * [Skapa uppgifter och problem i Prioriteringar](/help/quicksilver/workfront-basics/priorities/create-task-issue-priorities.md)
@@ -1224,6 +1237,7 @@ ht-degree: 0%
          * [Skapa ett projekt med en mall](manage-work/projects/create-projects/create-project-from-template.md)
          * [Importera ett projekt från Microsoft Project](manage-work/projects/create-projects/import-project-from-ms-project.md)
          * [Skapa projektbaslinjer](manage-work/projects/create-projects/create-baselines.md)
+         * [Skapa och visa ögonblicksbilder av projekt](manage-work/projects/create-projects/create-snapshots.md)
       * Uppdatera arbete i ett projekt {#update-work-on-a-project}
          * [Uppdatera arbete i ett projekt: artikelindex](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
          * [Tillämpa statusvärden på arbete som är associerat med en grupp](manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
@@ -1298,13 +1312,18 @@ ht-degree: 0%
          * [Hantera information i projektfinansieringsdelen](manage-work/projects/project-finances/manage-project-finance-area.md)
          * [Ändra projektvalutan](manage-work/projects/project-finances/change-project-currency.md)
          * [Spåra kostnader](manage-work/projects/project-finances/track-costs.md)
+         * [Åsidosätt användarkostnadstariffer på projektnivå](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md)
          * [Hantera projektutgifter](manage-work/projects/project-finances/manage-project-expenses.md)
+         * [Översikt över intäkter och kostnadshierarki](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)
          * [Översikt över fakturering och intäkt](manage-work/projects/project-finances/billing-and-revenue-overview.md)
          * [Skapa faktureringsposter](manage-work/projects/project-finances/create-billing-records.md)
          * [Åsidosätt faktureringstariffer på projektnivå med faktureringstariffer på företagsnivå](manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md)
-         * [Översikt över åsidosättande av faktureringstaxor för jobbroller och beräkning av intäkter för ett projekt](manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
+         * [Översikt över åsidosättande av faktureringstariffer och beräkning av intäkter för ett projekt](manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
          * [Åsidosätt faktureringshastigheter för jobbroller på projektnivå](manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)
+         * [Åsidosätt användarfakturering på projektnivå](/help/quicksilver/manage-work/projects/project-finances/override-user-billing-rates-project-level.md)
          * [Koppla ett tariffkort till ett projekt](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)
+         * [Ställ in en jobbroll för fakturering](/help/quicksilver/manage-work/projects/project-finances/set-up-job-role-for-billing.md)
+         * [Definiera en övertidskvot](/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md)
          * [Översikt över projektplanerad förmån](manage-work/projects/project-finances/project-planned-benefit.md)
          * [Ange PIM (Performance Index Method)](manage-work/projects/project-finances/set-pim.md)
          * [Beräkna räntabilitet](manage-work/projects/project-finances/calculate-roi.md)
@@ -1860,23 +1879,22 @@ ht-degree: 0%
       * [Enhetliga dokumentgodkännanden: artikelindex](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [Tillgänglig funktionalitet för dokumentgodkännanden](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
       * [Översikt över dokumentets beslutsstatus](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-      * [Kom igång med Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
+      * [Kom igång med Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
       * [Adobe Enterprise Storage - översikt](/help/quicksilver/review-and-approve-work/esm-overview.md)
       * [Översikt över objektbehörigheter och åtkomstnivå för Adobe Enterprise-lagringsmodell](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
       * Ställ in och hantera godkännande av tillgångar och dokument {#manage-asset-review-and-approval}
          * [Ställa in och hantera enhetliga godkännanden: artikelindex](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
-         * [Skapa AI-granskare](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
-         * [Konfigurera varumärken för AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
-         * [Skapa ett arbetsflöde för dokumentgodkännande](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
-         * [Lägga till ytterligare godkännare eller granskare i ett arbetsflöde för dokumentgodkännande](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
-         * [Ta bort godkännare eller granskare från ett arbetsflöde för dokumentgodkännande](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
-         * [Skapa en arbetsflödesmall för godkännande av dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+         * [Skapa och hantera varumärken för Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
+         * [Skapa en begäran om dokumentgranskning eller godkännande](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+         * [Lägga till ytterligare granskare eller godkännare till en resurs eller ett dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
+         * [Ta bort godkännare eller granskare från en resurs eller ett dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+         * [Skapa en godkännandemall för resurser och dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
          * [Använd enhetliga godkännanden och korrektur tillsammans](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
          * [Överför en ny dokumentversion och begär godkännande](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
          * [Skapa en rapportkontrollpanel för granskning och godkännande](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
       * Granska och godkänn resurser och dokument {#review-and-approve-documents}
          * [Granska och godkänna dokument: artikelindex](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
-         * [Visa AI Reviewer-poäng och feedback](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
+         * [Visa Content Reviewer-poäng och feedback](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
          * [Granska ett dokument](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [Godkänn ett dokument](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
          * [Granska och godkänna ett dokument i Frame.io-visningsprogrammet](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)
