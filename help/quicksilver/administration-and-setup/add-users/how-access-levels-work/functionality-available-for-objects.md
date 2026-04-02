@@ -32,7 +32,7 @@ Det anger också vilka åtgärder Workfront-administratörer kan inaktivera elle
 >[!NOTE]
 >
 >* I den här artikeln beskrivs de funktioner som är tillgängliga för åtkomstnivåer i den nya paketmodellen för Workfront. Information om vilka funktioner som är tillgängliga i den aktuella paketmodellen finns i [Tillgängliga funktioner för varje objekttyp för olika åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* En lista över funktioner som är tillgängliga för de olika paketen i den senaste modellen finns i [Adobe Workfront Pricing and Packaging](https://business.adobe.com/products/workfront/pricing.html).
+>* En lista över funktioner som är tillgängliga för de olika paketen i den senaste modellen finns i [Adobe Workfront Pricing and Packaging](https://business.adobe.com/se/products/workfront/pricing.html).
 
 ## Projekt
 
