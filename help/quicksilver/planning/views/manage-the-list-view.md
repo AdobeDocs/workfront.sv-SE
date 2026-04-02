@@ -160,7 +160,7 @@ Removed - more direct steps below:
       >
       >* <span class="preview">Du kan återställa en vy som har delats med dig och som du bara har behörighet att visa, efter att du har ändrat den för att återställa de ursprungliga inställningarna, eller så kan du kopiera den med dina ändringar och dela kopian. Mer information finns i [Använd förbättrade listor](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
 
-   1. Klicka på ikonen **Filter** ![Filter ](assets/filter-icon.png) för att lägga till ett filter i vyn. Resultaten filtreras omedelbart i listan. Du kan inte spara och namnge filter. Filter sparas när du öppnar sidan i framtiden och de är en del av delade vyer.
+   1. Klicka på ikonen **Filter** ![Filter &#x200B;](assets/filter-icon.png) för att lägga till ett filter i vyn. Resultaten filtreras omedelbart i listan. Du kan inte spara och namnge filter. Filter sparas när du öppnar sidan i framtiden och de är en del av delade vyer.
 
       >[!TIP]
       >
@@ -233,7 +233,7 @@ Du kan inte ta bort det primära fältet i listvyn som visas i den första kolum
 
       <span class="preview">Fältet måste vara en kolumn i listan innan du kan gruppera efter den. Alla fälttyper kan inte användas för grupperingar.</span>
 
-   1. <span class="preview">Klicka på ikonen **Radhöjd** ![Radhöjd ](assets/row-height-icon.png) om du vill uppdatera den lodräta längden på en rad. Välj bland följande alternativ: </span>
+   1. <span class="preview">Klicka på ikonen **Radhöjd** ![Radhöjd &#x200B;](assets/row-height-icon.png) om du vill uppdatera den lodräta längden på en rad. Välj bland följande alternativ: </span>
 
       <div class="preview">
 
