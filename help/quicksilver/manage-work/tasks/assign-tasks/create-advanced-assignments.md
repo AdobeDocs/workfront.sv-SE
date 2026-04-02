@@ -106,7 +106,7 @@ Den här layouten för avancerade uppdrag gäller endast för uppgifter. Mer inf
    >[!TIP]
    >
    >Du kan göra avancerade uppdrag direkt i uppgiftslistan. Klicka i fältet **Uppdrag** på samma rad som uppgiften och klicka sedan på **Avancerat** längst ned i listan eller på ikonen **Personer** i det övre högra hörnet av uppdragsrutan för att öppna fönstret Avancerade uppdrag. Gå till steg 5 om du vill fortsätta skapa avancerade uppdrag.
-   >![Klicka på Avancerat eller på ikonen Personer ](assets/access-aa-from-lists.png)
+   >![Klicka på Avancerat eller på ikonen Personer &#x200B;](assets/access-aa-from-lists.png)
 
 1. Klicka på **Tilldela till** i fältet **Tilldelningar** i uppgiftens huvud
 
@@ -322,7 +322,7 @@ Den här layouten för avancerade uppdrag gäller för både uppgifter och ären
    >[!TIP]
    >
    >Du kan göra avancerade uppdrag direkt i uppgifts- eller utleveranslistan. Klicka i fältet **Uppdrag** på samma rad som uppgiften eller utgåvan och klicka sedan på **Avancerat** längst ned i listan eller på ikonen **Personer** i det övre högra hörnet av uppdragsrutan för att öppna fönstret Avancerade uppdrag. Gå till steg 5 om du vill fortsätta skapa avancerade uppdrag.
-   >![Klicka på Avancerat eller på ikonen Personer ](assets/access-aa-from-lists.png)
+   >![Klicka på Avancerat eller på ikonen Personer &#x200B;](assets/access-aa-from-lists.png)
 
 1. Klicka på **Tilldela till** i fältet **Tilldelningar** i huvudet på uppgiften eller problemet
 

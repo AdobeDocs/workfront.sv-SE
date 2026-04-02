@@ -113,7 +113,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 
 Du kan exportera listan över alla ögonblicksbilder eller en ögonblicksbildsjämförelse i formatet .xlsx eller .csv. Alla kolumner som visas inkluderas i den exporterade filen.
 
-1. Klicka på ikonen **Exportera** ![Exportera ](assets/export-icon.png) i ögonblicksbildslistan eller i ögonblicksbildsjämförelsen.
+1. Klicka på ikonen **Exportera** ![Exportera &#x200B;](assets/export-icon.png) i ögonblicksbildslistan eller i ögonblicksbildsjämförelsen.
 1. Välj exportfilens format.
 
    Filen sparas på datorn. Du kan uppmanas att välja plats.
