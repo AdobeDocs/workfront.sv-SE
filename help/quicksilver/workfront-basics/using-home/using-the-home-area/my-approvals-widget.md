@@ -76,7 +76,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 1. <span class="preview">(Villkorligt) Klicka på listrutan **Sortera** och välj sedan **Senaste först** för att se de senast tillagda godkännandena.</span>
 
 
-1. <span class="preview">(Valfritt) Klicka på helskärmsikonen ![ ](assets/full-screen.png) för att öppna widgeten Mina godkännanden i helskärmsläge.</span>
+1. <span class="preview">(Valfritt) Klicka på helskärmsikonen ![&#x200B; &#x200B;](assets/full-screen.png) för att öppna widgeten Mina godkännanden i helskärmsläge.</span>
 
 1. Markera objektet där du vill fatta ett beslut om godkännande.
 
