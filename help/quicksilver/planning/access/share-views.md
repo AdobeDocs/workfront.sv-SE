@@ -6,9 +6,11 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '1946'
+source-wordcount: '2016'
 ht-degree: 0%
 
 ---
@@ -37,7 +39,8 @@ Du kan dela en vy med andra för att säkerställa samarbete när du arbetar med
 
 
 <!--
-This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). -->
+This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md).
+-->
 
 ## Åtkomstkrav
 
@@ -91,7 +94,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -149,7 +153,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
   </tr> 
 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Att tänka på vid vydelning
 
@@ -214,12 +219,15 @@ Du kan dela vyer som du har skapat eller vyer som du har behörigheten Hantera m
    >
    >* När du delar en vy med en användare visas även deras primära jobbroll <span class="preview"> och deras e-postadress</span> i fältet. Du måste ha inställningen Visa kontaktinformation aktiverad för objektet Användare på din åtkomstnivå för att kunna se användarens e-post.
 
-
    * **Alla på arbetsytan kan visa**: Alla användare som har behörighet att visa eller högre på arbetsytor kan komma åt vyn.
 
 1. I fältet **Bevilja åtkomst till den här vyn** börjar du skriva namnet på en användare, en grupp, ett team, företag eller en jobbroll och klickar sedan på den när den visas i listan.
 
    ![Dela en vy med grupper](assets/sharing-a-view-ui-with-groups.png)
+
+1. <span class="preview">(Valfritt) När du delar med en grupp, ett team, en roll eller ett företag håller du muspekaren över namnet på enheten och klickar på högerpilen för att visa en lista över användare som får behörigheterna. </span>
+
+   ![Dela vy med team](assets/share-view-with-team-expanding-arrow-highlighted.png)
 
 1. Välj någon av följande behörighetsnivåer i listrutan:
    * Visa
@@ -294,8 +302,16 @@ Så här delar du en vy offentligt i Workfront Planning:
    >
    >Vyer utan personer eller globala ikoner är vyer som du har skapat och som inte delas med andra. Vyer som inte delas visas bara för dig.
 
-
 1. (Valfritt) Klistra in länken som du kopierade till ett e-postmeddelande, chattmeddelande, dokument eller i en Workfront-kommentar för att dela den med andra.
+
+   <div class="preview">
+
+   När andra öppnar en offentlig vy ser de följande information om vyn i sidhuvudet:
+
+   * Vynamn och ikon
+   * Namnet på posttypen som visas i vyn
+
+   </div>
 
 ## Kopiera en länk till en vy
 

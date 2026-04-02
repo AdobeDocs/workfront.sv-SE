@@ -6,9 +6,11 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '664'
 ht-degree: 0%
 
 ---
@@ -16,9 +18,9 @@ ht-degree: 0%
 
 # Redigera posttyper
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -76,7 +78,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -133,7 +136,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
   </tr> 
 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Redigera posttyper
 
@@ -152,7 +156,7 @@ eller
 
 1. I rutan **Redigera posttyp** öppnas fliken **Utseende** som standard.
 
-   ![Redigera flik för posttypsrutans utseende &#x200B;](assets/edit-record-type-box-appearance-tab.png)
+   ![Redigera flik för posttypsrutans utseende ](assets/edit-record-type-box-appearance-tab.png)
 
    Uppdatera följande information på fliken **Utseende**:
 
@@ -166,11 +170,11 @@ eller
 
    Mer information finns i [Konfigurera funktioner för arbetsytan över flera arbetsytor för posttyper](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
-   ![Redigera posttypsruta med fliken Inställningar för arbetsyta &#x200B;](assets/edit-record-type-box-advanced-settings-tab.png)
+   ![Redigera posttypsruta med fliken Inställningar för arbetsyta ](assets/edit-record-type-box-advanced-settings-tab.png)
 
 1. Klicka på **Spara**.
 
-   Om du valde att ansluta den här posten från andra arbetsytor visas ikonen **Kopplingsbar post** ![Anslut från andra platser &#x200B;](assets/connect-from-other-workspaces-icon.png) på postkortet.
+   Om du valde att ansluta den här posten från andra arbetsytor visas ikonen **Kopplingsbar post** ![Anslut från andra platser ](assets/connect-from-other-workspaces-icon.png) på postkortet.
 
    Om du har valt att tillåta att den här posten läggs till på andra arbetsytor visas ikonen **Global post** ![Global posttyp](assets/global-icon.png) på postkortet.
 
@@ -179,3 +183,12 @@ eller
 1. (Valfritt) Om du vill redigera en annan posttyp expanderar du den nedåtriktade pilen till höger om ett posttypsnamn, söker efter en posttyp och markerar den när den visas i listan.
 
    ![Listrutan Posttyp på posttypssidan med sökrutan](assets/record-type-drop-down-on-record-type-page-with-search-box.png)
+
+   >[!TIP]
+   >
+   ><span class="preview">Du kan använda följande tangentbordskombination för att öppna den globala sökrutan från valfri Workfront Planning-sida och söka efter posttyper:</span>
+   >
+   >* <span class="preview">CTRL+K för Windows</span>
+   >* <span class="preview">⌘+K för Mac</span>
+   >
+   >![Global sökruta](assets/global-search-box.png)

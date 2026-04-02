@@ -6,9 +6,11 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1064'
 ht-degree: 0%
 
 ---
@@ -24,7 +26,8 @@ ht-degree: 0%
 Du kan dela en arbetsyta med andra för att säkerställa samarbete när du arbetar i Adobe Workfront Planning.
 
 <!--
-This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). -->
+This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md).
+-->
 
 >[!NOTE]
 >
@@ -67,7 +70,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -124,7 +128,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
   </tr> 
 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Att tänka på när du delar arbetsytor
 
@@ -174,6 +179,10 @@ Så här delar du en arbetsyta med andra:
    >* Förutom team, grupper, företag och jobbroller kan du bara dela med användare som har lagts till i Adobe Admin Console. Du kan inte lägga till användare med endast Workfront. Mer information finns i [Hantera användare i Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
    >
    >* När du delar en arbetsyta med en användare visas även deras primära jobbroll <span class="preview"> och deras e-postadress</span> i fältet. Du måste ha inställningen Visa kontaktinformation aktiverad för objektet Användare på din åtkomstnivå för att kunna se användarens e-post.
+
+1. <span class="preview">(Valfritt) När du delar med en grupp, ett team, en roll eller ett företag håller du muspekaren över namnet på enheten och klickar på högerpilen för att visa en lista över användare som får behörigheterna. </span>
+
+   ![Dela arbetsyta med en grupp](assets/share-workspace-role-expanding-arrow-highlighted.png)
 
 1. Välj någon av följande behörighetsnivåer i listrutan:
    * Visa

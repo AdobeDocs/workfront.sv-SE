@@ -6,9 +6,11 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '811'
 ht-degree: 0%
 
 ---
@@ -16,9 +18,11 @@ ht-degree: 0%
 
 # Redigera arbetsytor
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -29,6 +33,16 @@ En arbetsyta är en samling posttyper som används av ett team och representerar
 Mer information om hur du skapar arbetsytor finns i [Skapa arbetsytor](/help/quicksilver/planning/architecture/create-workspaces.md).
 
 Alla ändringar du gör på en arbetsyta är synliga för alla som har minst behörigheten Visa på arbetsytan.
+
+Du kan redigera en arbetsyta på följande sätt:
+
+* Manuellt.
+
+  I den här artikeln beskrivs hur du kan redigera en arbetsyta manuellt.
+
+* Med AI-driven Planning Designer. Den här funktionen är för närvarande bara tillgänglig i ett begränsat Beta-program.
+
+  Mer information finns i [Kom igång med Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
 
 ## Åtkomstkrav
 
@@ -69,7 +83,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -123,7 +138,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
    <td>  <p>Manage permissions to the workspace </p>   </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Redigera en arbetsyta
 
@@ -140,7 +156,17 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
    * Håll pekaren över arbetsytans kort och klicka sedan på menyn **Mer** ![Mer](assets/more-menu.png) i kortets övre högra hörn
 eller
-   * Klicka på ikonen **sök** ![Sök &#x200B;](assets/search-icon.png) i det övre högra hörnet på sidan Arbetsytor om du vill söka efter en arbetsyta efter namn och klicka på ett arbetsytekort för att öppna arbetsytan. Klicka sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om arbetsytans namn.
+   * Klicka på ikonen **sök** ![Sök ](assets/search-icon.png) i det övre högra hörnet på sidan Arbetsytor om du vill söka efter en arbetsyta efter namn och klicka på ett arbetsytekort för att öppna arbetsytan. Klicka sedan på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om arbetsytans namn.
+
+   >[!TIP]
+   >
+   ><span class="preview">Du kan använda följande tangentbordskombination för att öppna den globala sökrutan från en Workfront Planning-sida och söka efter arbetsytor:</span>
+   >
+   >* <span class="preview">CTRL+K för Windows</span>
+   >* <span class="preview">⌘+K för Mac</span>
+   >
+   >![Global sökruta](assets/global-search-box.png)
+
 1. Klicka på **Redigera**.
 
    Rutan **Arbetsytan för redigering** visas.

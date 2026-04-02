@@ -6,9 +6,11 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1586'
 ht-degree: 0%
 
 ---
@@ -89,7 +91,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -147,7 +150,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
   </tr> 
  
 </tbody> 
-</table>-->
+</table>
+-->
 
 ## Att tänka på vid delning av posttyper
 
@@ -201,7 +205,7 @@ Du kan justera behörigheter till enskilda posttyper på en arbetsyta om du har 
 
    Rutan **Dela** öppnas.
 
-   ![Behörigheter för posttyper med ärvda behörigheter &#x200B;](assets/permissions-for-record-types-with-inherited-permissions-on.png)
+   ![Behörigheter för posttyper med ärvda behörigheter ](assets/permissions-for-record-types-with-inherited-permissions-on.png)
 
 1. (Valfritt) I området **Vem har åtkomst** är alternativet **Alla på arbetsytan kan visa** markerat som standard.  Alla användare som har behörighet att visa eller högre på arbetsytan kan visa posttypen.
 
@@ -215,11 +219,15 @@ Du kan justera behörigheter till enskilda posttyper på en arbetsyta om du har 
 
    1. Välj **Inaktivera** i listrutan **Ärvda behörigheter**.
 
-   >[!TIP]
-   >
-   >Workspace-hanterare har fortfarande behörighet att hantera posttypen.
+      >[!TIP]
+      >
+      >Workspace-hanterare har fortfarande behörighet att hantera posttypen.
 
    1. I fältet **Bevilja åtkomst till den här posttypen** lägger du till de användare, team, grupper, företag eller jobbroller som du vill ge en annan behörighetsnivå än de har för arbetsytan.
+   1. <span class="preview">(Valfritt) När du delar med en grupp, ett team, en roll eller ett företag håller du muspekaren över namnet på enheten och klickar på högerpilen för att visa en lista över användare som får behörigheterna. </span>
+
+      ![Dela posttyp med grupp](assets/share-record-type-with-group-expanding-arrow-highlighted.png)
+
    1. Välj en behörighetsnivå.
 
    >[!IMPORTANT]
@@ -270,7 +278,8 @@ Du kan ta bort användarnas behörigheter från en posttyp. De behåller dock å
 
    Användarna som har tagits bort från åtkomsten till posttypen får inget meddelande om att de inte längre har dessa behörigheter.
 
-<!-- This is not working yet: *************************** edit this before publishing, because this was not tested with record types - this section came from sharing views *******************: 
+<!--
+ This is not working yet: *************************** edit this before publishing, because this was not tested with record types - this section came from sharing views *******************: 
 
 ## Grant permissions to a record type from a permission request
 
@@ -295,5 +304,8 @@ Users who access a link to a record type to which they do not have permissions c
 1. Select the user for whom you want to approve or deny the permission, then click **Approve all** or **Deny all**. 
 1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
 
-   If you approved the request, the users are added to the sharing box of the view. The user requesting the permission receives an email confirmation that their request was approved. <!--will they also get an in-app notification??-->
+   If you approved the request, the users are added to the sharing box of the view. The user requesting the permission receives an email confirmation that their request was approved. 
+   
+   will they also get an in-app notification??
+-->
 

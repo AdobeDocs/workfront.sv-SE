@@ -6,20 +6,22 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '1188'
 ht-degree: 0%
 
 ---
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Skapa arbetsytor
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -45,12 +47,15 @@ Allmän information om arbetsytor finns i [Översikt över arbetsytor](/help/qui
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Alla Workfront- och Planning-paket</p> <p>Alla arbetsflöden och alla planeringsdokument</p>
+<p>Alla Workfront- eller Workflow-paket</p> 
+<p>Alla Workfront Planning-paket</p>
+<p>Ett Workfront Planning Prime-paket eller ett högre paket <span class="preview"> som kan användas för att skapa flera arbetsytor samtidigt</span></p>
 <p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
    <td><p>Standard</p>
+   <p><span class="preview">Systemadministratör kan skapa flera arbetsytor samtidigt med mallpaketet med bästa praxis</p>
    </td> 
   </tr> 
   <tr> 
@@ -65,7 +70,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
 +++   
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -120,11 +126,33 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
    <td>   <p>You receive Manage permissions to the workspaces you create. </p> </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Skapa en arbetsyta
 
-Du kan skapa en arbetsyta och lägga till posttyper för att ordna dina objekt i Workfront Planning. Mer information om hur du redigerar en arbetsyta finns i [Redigera arbetsytor](/help/quicksilver/planning/architecture/edit-workspaces.md).
+Du kan skapa en arbetsyta och lägga till posttyper för att ordna dina objekt i Workfront Planning.
+
+Mer information om hur du redigerar en arbetsyta finns i [Redigera arbetsytor](/help/quicksilver/planning/architecture/edit-workspaces.md).
+
+Du kan skapa arbetsytor på följande sätt:
+
+* Skapa en arbetsyta från grunden eller från en mall
+
+  Mer information finns i avsnittet [Skapa en arbetsyta från grunden eller från en mall](#create-a-workspace-from-scratch-or-from-a-template) i den här artikeln.
+* Skapa en arbetsyta med AI-driven Planning Designer. Den här funktionen är för närvarande endast tillgänglig för ett begränsat antal kunder i ett Beta-program.
+
+  Mer information finns i [Kom igång med Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
+
+<div class="preview">
+
+* Skapa flera arbetsytor med ett standardpaket med flera arbetsytor
+
+  Mer information finns i avsnittet [Skapa flera arbetsytor med ett mallpaket för flera arbetsytor ](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle) i den här artikeln
+
+</div>
+
+### Skapa en arbetsyta från grunden eller från en mall
 
 {{step1-to-planning}}
 
@@ -192,5 +220,59 @@ Du kan skapa en arbetsyta och lägga till posttyper för att ordna dina objekt i
    >För användare som för närvarande går över till Adobe Identity Management System (IMS) visas arbetsytor som skapats av användare med endast Workfront som inte är IMS-användare som skapats av **System**.
    >
    >Mer information om IMS finns i [Adobe Unified Experience för Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+
+<div class="preview">
+
+### Skapa flera arbetsytor med ett standardpaket med flera arbetsytor
+
+>[!IMPORTANT]
+>
+>Att skapa flera arbetsytor samtidigt med mallpaketet för de bästa metoderna är bara tillgängligt när följande förutsättningar är uppfyllda:
+>
+>* Din organisation har köpt ett Workfront Planning Prime- eller Ultimate-paket.
+>* Du är systemadministratör
+
+Du kan använda ett mallpaket för flera arbetsytor för att skapa sex arbetsytor med ett enda klick.
+
+Mallarna som ingår i paketet innehåller arbetsytor, posttyper, poster, vyer och fält som hjälper dig att komma igång med din planeringsimplementering.
+
+>[!IMPORTANT]
+>
+>Alla namn på arbetsytor, posttyper, fält och poster som ingår i paketet är exempel och är inte en spegling av din egen miljö.
+>
+>Vi rekommenderar att du använder det här mallpaketet som exempel på en planeringsstruktur och fortsätter med att skapa objekt som återspeglar organisationens arbetsflöde.
+
+{{step1-to-planning}}
+
+1. Klicka på **Skapa arbetsyta**
+
+   Rutan Skapa arbetsyta visas. Du kan skapa en arbetsyta från grunden eller skapa den med någon av de tillgängliga mallarna.
+
+1. Klicka på **Konfiguration av arbetsyta för granskning** i området **Börja här (rekommenderas)**.
+1. (Valfritt) Klicka på **Förhandsgranska** i någon av följande fördefinierade arbetsytemallar för att öppna rutan Förhandsgranska för varje mall:
+
+   * &#x200B;1. Globala klassificeringar och taxonomier
+
+     Mallen Globala klassificeringar och taxonomier innehåller alla posttyper och fält som vi rekommenderar att du skapar i din miljö för en lyckad implementering av Workfront Planning.
+
+     Du kan senare länka eller importera posttyperna i den här mallen i andra arbetsytor som du skapar.
+   * 2.Fréscopa Global Marketing
+   * 3.Fréscopa Social Marketing
+   * 4.Fréscopa Media och PR
+   * 5.Fréscopa Global Events
+   * 6.Fréscopa Executive Company Leadership
+
+1. När du har öppnat rutan **Förhandsgranska** för varje arbetsytemall klickar du på Tillbaka för att gå tillbaka till rutan **Skapa arbetsyta** eller på Använd mallar för att använda mallarna inklusive i paketet och skapa arbetsytor.
+
+   Arbetsytorna skapas och visas på flikarna **Arbetsytor som jag är** på och **Alla arbetsytor** för systemadministratörer. Alla användare med standardlicens kan se arbetsytorna i sin arbetsyta efter att en systemadministratör har skapat dem och delat de nya arbetsytorna med dem.
+
+1. Börja redigera arbetsytorna som du har skapat och lägg till posttyper, poster, vyer och fält som är relevanta för din organisation.
+
+   Mer information om de bästa sätten att implementera Workfront finns i artiklarna i avsnittet [Bästa praxis för Adobe Workfront-planering: artikelindex](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
+
+   Mer information om hur du redigerar arbetsytor finns i [Redigera arbetsytor](/help/quicksilver/planning/architecture/edit-workspaces.md).
+
+</div>
+
 
 

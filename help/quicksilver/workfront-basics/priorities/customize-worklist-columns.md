@@ -6,14 +6,19 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
 
 # Anpassa kolumnerna i listan Prioriteter
+
+<span class="preview">Informationen som är markerad på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 Du kan anpassa kolumnerna i arbetslistan under Prioriteter så att de passar ditt sätt att arbeta.
 
@@ -80,3 +85,22 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 >[!NOTE]
 >
 >Kolumnen Namn är fast och kan inte flyttas.
+
+<div class="preview">
+
+### Ändra radhöjden i prioriteringslistan
+
+{{step1-to-priorities}}
+
+1. Klicka på ikonen **Radhöjd** .
+
+   Detta uppdaterar den lodräta längden på en rad. Välj bland följande alternativ:
+
+   * Kort
+   * Standard. Det här är standardalternativet.
+   * Medium
+   * Hög
+
+   Listan uppdateras omedelbart.
+
+</div>

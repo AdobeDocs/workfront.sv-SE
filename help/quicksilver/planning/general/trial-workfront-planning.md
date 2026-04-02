@@ -5,9 +5,11 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: ff87e425389f30dfaa1a178ea2b548d1c41179bb
 workflow-type: tm+mt
-source-wordcount: '2168'
+source-wordcount: '2184'
 ht-degree: 0%
 
 ---
@@ -26,10 +28,12 @@ Adobe Workfront Planning ger centraliserad insyn i era marknadsföringslivscykle
 >
 >* Adobe Workfront erbjuder en 60-dagars kostnadsfri testversion av Adobe Workfront Planning för alla Adobe Workfront-kunder som inte också är Workfront Planning-kunder.
 >
->* Testversionen finns tillgänglig mellan följande datum: 2 mars - 1 maj 2026.
+>* Anmälningsperioden upphörde den 1 april 2026 och är nu avslutad.
 >
->* Observera att testversionen är tillgänglig i 60 dagar efter att den startats och inte i 60 dagar efter att du gått med i den.
->* Anmälningsperioden upphör den 1 april 2026.
+>* Om du har godkänt testversionen och deltar i den kan du välja mellan följande datum: 2 mars-1 maj 2026.
+>
+>* Observera att testversionen är tillgänglig i 60 dagar efter lanseringen och inte i 60 dagar efter att du har gått med i den.
+>
 
 I den här testversionen får du först se hur Planning hjälper er att anpassa det dagliga arbetet till strategiska mål, effektivisera genomförandet och ger mätbara resultat för organisationen.
 
@@ -104,8 +108,10 @@ Följande är viktiga datum som är associerade med Adobe Workfront Planning kos
 
 * **30 november 2026**: Workfront skyddar inte längre dina data efter detta datum. Om du har köpt Workfront Planning före detta datum får du tillgång till Planning och dina data igen.
 
-<!--Lauren wanted this out: 
-* **November 30, 2026** - Workfront no longer makes your data available after this date. You can still purchase Workfront Planning, but your data is removed after this date. -->
+<!--
+Lauren wanted this out: 
+* **November 30, 2026** - Workfront no longer makes your data available after this date. You can still purchase Workfront Planning, but your data is removed after this date.
+-->
 
 ## Tillstånd till Workfront Planning-data under och efter den kostnadsfria provperioden
 
@@ -133,7 +139,8 @@ Mer information om hur du implementerar Workfront Planning finns i [Bästa praxi
 
 <!--
 
-this information will be live on March 2 - the How to sign up below will be a ### instead of a ## section and the Navigate the trial section will be visible; also adjust ALL the ##s when you make this live: -->
+this information will be live on March 2 - the How to sign up below will be a ### instead of a ## section and the Navigate the trial section will be visible; also adjust ALL the ##s when you make this live:
+-->
 
 ## Registrera dig i den kostnadsfria provversionen av Adobe Workfront Planning
 
@@ -217,7 +224,7 @@ Du kan granska exempel på planeringarbetsytor och deras objekt och skapa egna n
 
    * **Globala klassificeringar och taxonomier**: Innehåller exempel på Planning-objekttyper som utgör grunden för ett Marketing System of Record.
 
-     Alla posttyper på den här arbetsytan kan utgöra byggstenar i din Workfront Planning-struktur. Alla posttyper är globala och kan läggas till eller anslutas från alla andra arbetsytor. Mer information finns i [Posttypöversikt för arbetsytan över &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+     Alla posttyper på den här arbetsytan kan utgöra byggstenar i din Workfront Planning-struktur. Alla posttyper är globala och kan läggas till eller anslutas från alla andra arbetsytor. Mer information finns i [Posttypöversikt för arbetsytan över ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
      Mer information om hur du använder arbetsytan Globala taxonomier finns i [Förvandla din första vinst till hållbar utveckling: en spelbok för hanterad skalning](/help/quicksilver/planning/best-practices.md/playbook-how-to-scale.md).
    * Ytterligare exempelarbetsytor: Följande arbetsytor fungerar som exempel på vad ett exempelföretag (Fréscopa) kan behöva som specifika arbetsytor, posttyper, fält och vyer för att arkitekturera sin organisation och arbetsstruktur:
