@@ -9,7 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
-source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 2b3e2ac00126facab9cc45ba8fb193d8951a37ec
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 0%
@@ -52,7 +54,7 @@ Med enhetlig granskning och godkännande kan man
 * Spåra status för granskningar och godkännanden i realtid
 * Centralisera feedback och godkännanden på ett och samma ställe
 * Se till att alla intressenter har tillgång till de senaste versionerna av mediefiler
-* Använd AI-granskare för att automatisera varumärkesgranskningar
+* Automatisera varumärkesgranskningar
 * med mera
 
 Mer information finns i [Enhetliga dokumentgodkännanden: artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md).

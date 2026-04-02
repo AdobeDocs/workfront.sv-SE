@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-source-git-commit: b52c188d767ee37699ead71ed90642458d9889fa
+source-git-commit: 78c2fd4afbe24062cbaea935e9b548ffe6e528ea
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,12 @@ Följande funktioner är för närvarande tillgängliga i betaversionen:
 
   Mer information finns i [Projekthälsoöversikt](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
 
-* Workfront AI Reviewer
-Mer information finns i [Kom igång med Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
+* Workfront Content Reviewer
+
+   * Bildriktlinjer finns för närvarande i betaversionen. Content Reviewer använder de varumärkesriktlinjer du ställt in i Workfront för att granska innehåll och ge feedback till skribenterna under gransknings- och godkännandeprocessen.
+   * Riktlinjer för varumärkesröst finns tillgängliga för allmän tillgänglighet.
+
+  Mer information finns i [Kom igång med Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
 * Adobe Workfront Planning Designer finns i Closed Beta. Du kan skicka e-post till oss för att begära åtkomst till det här programmet.
 
