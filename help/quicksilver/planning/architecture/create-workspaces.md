@@ -148,7 +148,7 @@ Du kan skapa arbetsytor på följande sätt:
 
 * Skapa flera arbetsytor med ett standardpaket med flera arbetsytor
 
-  Mer information finns i avsnittet [Skapa flera arbetsytor med ett mallpaket för flera arbetsytor ](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle) i den här artikeln
+  Mer information finns i avsnittet [Skapa flera arbetsytor med ett mallpaket för flera arbetsytor &#x200B;](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle) i den här artikeln
 
 </div>
 
