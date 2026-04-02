@@ -6,9 +6,11 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '2961'
+source-wordcount: '2978'
 ht-degree: 0%
 
 ---
@@ -69,7 +71,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -122,7 +125,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>  <p>Contribute or higher permissions to a workspace and record type </a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
-  </tr> -->
+  </tr>
+  -->
 
 ## Att tänka på när du redigerar poster
 
@@ -142,7 +146,7 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
    * Systemfält (Skapat av, Skapat den, Senast ändrat av, Senast ändrat den, Godkänt den, Godkänd av, <span class="preview">Post-ID</span>)
 * Om de poster som du visar är länkade till andra poster, återspeglas den nya informationen om de poster som du redigerar på de länkade posterna på alla arbetsytor där posten är länkad.
 * Du kan inte redigera flera poster samtidigt. <!--this will probably change-->
-* URL-adresser känns bara igen som länkar i enradiga textfält när de börjar med följande: http://, https://, ftp:// eller www. .
+* URL-adresser känns bara igen som länkar i enradiga textfält när de börjar med följande: http://, https://, ftp:// eller www.
 * Du kan lägga till en omslagsbild till varje post. Bilden är unik för varje post och gäller inte för alla poster samtidigt. Mer information finns i [Lägga till en omslagsbild till en post](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 * Du kan redigera fältordningen på en posts informationssida. Mer information finns i [Hantera postsidans layout](/help/quicksilver/planning/records/manage-the-record-page.md).
 * Du kan redigera postens Start- och slutdatum genom att ändra storlek på eller flytta posterna i tidslinjen och kalendervyn.
@@ -187,6 +191,8 @@ Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create
 1. (Villkorligt) Klicka på fliken i en tabellvy eller klicka på **+-vy** för att skapa en tabellvy. Tabellvyn ska vara standardvy, såvida du inte har visat posttypen i en annan typ av vy när du senast öppnade den.
 
    Posterna som är associerade med den valda posttypen visas i tabellvyn.
+1. (Valfritt) Klicka i sökrutan och lägg till ett nyckelord för att hitta en post som du vill redigera.
+
 1. Klicka inuti en post för att börja redigera information om den infogade posten.
 
    ![Redigera postens styckefält med formateringstabellvy](assets/edit-record-paragraph-field-with-formatting-table-view.png)
@@ -275,7 +281,7 @@ Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create
 
 1. Klicka på fältet för en post för att öppna dess informationsområde och redigera alla fält.
 
-   Mer information finns i avsnittet [Redigera en post från postens förhandsgranskning i vyn &#x200B;](#edit-a-record-from-the-records-preview-in-a-view) i den här artikeln.
+   Mer information finns i avsnittet [Redigera en post från postens förhandsgranskning i vyn ](#edit-a-record-from-the-records-preview-in-a-view) i den här artikeln.
 
 ### Redigera en post i kalendervyn för en posttyp
 
@@ -292,7 +298,7 @@ Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create
 
 1. Klicka på fältet för en post för att öppna dess informationsområde och redigera alla fält.
 
-   Mer information finns i avsnittet [Redigera en post från postens förhandsgranskning i vyn &#x200B;](#edit-a-record-from-the-records-preview-in-a-view) i den här artikeln.
+   Mer information finns i avsnittet [Redigera en post från postens förhandsgranskning i vyn ](#edit-a-record-from-the-records-preview-in-a-view) i den här artikeln.
 
 ### Redigera en post från postens förhandsgranskning i en vy
 
@@ -387,7 +393,7 @@ Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create
 
    eller
 
-   Håll pekaren över den befintliga omslagsbilden och klicka sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) > **Överför** för att lägga till en ny omslagsbild för posten.
+   Håll pekaren över den befintliga omslagsbilden och klicka sedan på menyn **Mer** ![Mer ](assets/more-menu.png) > **Överför** för att lägga till en ny omslagsbild för posten.
 
    Mer information finns i [Lägga till en omslagsbild till en post](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 

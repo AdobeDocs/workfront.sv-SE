@@ -6,14 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
 
 # Arbetsytor - översikt
+
+<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -30,8 +34,11 @@ En arbetsyta är en samling posttyper som används av en organisationsenhet och 
 
    * Från början
    * Använda en mall. Mallar innehåller ett förkonfigurerat antal posttyper och deras fält.
+   * Med AI-driven Planning Designer. Den här funktionen finns i Beta.
+   * <span class="preview">Använder ett mallpaket för flera arbetsytor.</span>
 
   Mer information finns i [Skapa arbetsytor](/help/quicksilver/planning/architecture/create-workspaces.md).
+
 * Arbetsytor är ramverk inom vilka era organisationsenheter (ett team, en grupp, en avdelning eller en avdelning) arbetar. De kan inte associeras med fält. Endast posttyperna i en arbetsyta kan kopplas till fält.
 
   Mer information finns i [Översikt över posttyper](/help/quicksilver/planning/architecture/overview-of-record-types.md).

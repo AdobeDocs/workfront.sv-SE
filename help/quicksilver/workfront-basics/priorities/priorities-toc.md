@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 26f13890-5d79-44b6-9cf8-70ef05e4564d
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: a56441276fbc508a81d5331874580385ceb8812f
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Det här avsnittet innehåller följande underavsnitt:
 
 * [Kom igång med prioriteringar](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)
 * [Visa projekt- och arbetsuppgiftsinfo i Prioriteringar](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)
-* [Filtrera och gruppera ditt arbete i prioriteter](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
+* [Filtrera, gruppera och sortera materialet med prioritet](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
 * [Anpassa kolumnerna i listan Prioriteter](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
 * [Prioritera viktiga arbetsuppgifter](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)
 * [Skapa uppgifter och problem i Prioriteringar](/help/quicksilver/workfront-basics/priorities/create-task-issue-priorities.md)

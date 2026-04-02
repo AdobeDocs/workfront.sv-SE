@@ -6,9 +6,11 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '2026'
+source-wordcount: '2460'
 ht-degree: 0%
 
 ---
@@ -51,13 +53,11 @@ Mer information om hur en arbetsytehanterare kan skapa ett begärandeformulär o
 <tr> 
    <td role="rowheader"><p>Adobe Workfront</p></td> 
    <td> 
-<p>Alla Workfront-paket och alla Planning-paket</p>
-eller
-<p>Alla arbetsflödespaket och alla planeringsdokument</p>
+<p>Alla Workfront- eller Workflow-paket</p>
+<p>Alla Workfront Planning-paket</p>
 <p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront.</p>
    </td> </tr>
-
-</tr> 
+  </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
    <td><p>Alla</p> 
@@ -127,7 +127,9 @@ Följande måste finnas innan du kan skicka en begäran till ett Workfront Plann
 
   Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-<!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
+<!--
+Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.
+-->
 
 
 ## Skicka en begäran till Workfront Planning under Begäranden i Workfront
@@ -178,12 +180,12 @@ Om du aktiverar den här inställningen blir Workfront Planning-förfrågningsfo
 
      Följande fält visar information om begäran och registrering i området Förfrågningar och widgeten Mina förfrågningar i Hem:
 
-      * **Ämne**: Namnet på den ursprungliga begäran som lagts till i området Begäranden. Du kan inte dölja eller ta bort fältet **Ämne** från listan över förfrågningar.
-      * **Skapat objekt**: Namnet på posten som skapades från begäran så som den visas i Planning.
+      * **Ämne**: Namnet på den ursprungliga begäran som lagts till i området Begäranden. Du kan inte dölja eller ta bort fältet **Ämne** från listan över förfrågningar. Namnet har en länk som öppnar förfrågningssidan i Planering.
+      * **Skapat objekt**: Namnet på posten som skapades från begäran så som den visas i Planning. Namnet på det skapade objektet har en länk som öppnar den post som skapades från begäran.
       * **Objekttyp**: Namnet på arbetsytan och posttypen där poster skapades från begäran i Planning.
       * **Status**: Status för begärandeobjektet.
       * **Formulär för begäran**: Namnet på det begärandeformulär som är associerat med posttypen i Planning.
-     <!--* <span class="preview"**Created object status**: The status of the created record.</span> -->
+      * <span class="preview">**Skapad objektstatus**: Status för den skapade posten.</span>
 
    * Om begärandeformuläret associerades med ett godkännande läggs begäran till i listan över förfrågningar i området Workfront-förfrågningar och i widgeten Mina förfrågningar med statusen **Väntande granskning**. En ny post läggs bara till på posttypssidan efter att godkännarna har godkänt den.
 
@@ -207,17 +209,19 @@ Om du aktiverar den här inställningen blir Workfront Planning-förfrågningsfo
    * Filter
    * Kolumner
 
-   <!--
    <div class="preview">
-      * Group
-   * Format cells
-   * Row height
-      </div>
-   -->
 
-   Mer information finns i [Skapa och hantera vyer i området Förfrågningar](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+   * Grupp
+   * Formatera celler
+   * Radhöjd
 
-   <!--   
+   </div>
+
+
+   Mer information finns i [Använd förbättrade listor](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+   <!-- 
+   Removing this as this is covered at a higher level in the Use enhanced lists article: 
    1. (Optional) From the requests list, do any of the following:
       * Click **Filters** and start adding conditions for what requests you want to view in the Requests list. 
          ![Editing filters in the Requests area](assets/filters-editing-box-in-requests-planning-tab.png)
@@ -281,56 +285,51 @@ Externa personer har inte åtkomst till interna Workfront-områden, till exempel
 
    Om formuläret är kopplat till ett godkännande måste det godkännas innan det kan skapa en post.
 
-1. (Valfritt) Klicka på **Skicka en ny begäran** om du vill lägga till en ny begäran till samma delade länk.
+1. (Valfritt) Klicka på **Skicka en ny begäran** om du vill lägga till en ny begäran med samma delade länk.
 
-<!--
-   * If the request form was not associated with an approval, the request is added to the Requests list in the Workfront Requests area and My Requests widget in Home, and a new record is added to the record type associated with the form. This is available only when you log in to Workfront.
-   
-   * If the request form was associated with an approval, the request is added to the Requests list in the Workfront Requests area and My Requests widget. A new record is added to the record type page only after all the approvers have approved it. This is available only when you log in to Workfront.
-   
-      For information, see [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+   * Om begärandeformuläret inte var kopplat till ett godkännande läggs begäran till i listan över förfrågningar i området Workfront-förfrågningar och widgeten Mina förfrågningar i Hem, och en ny post läggs till i posttypen som är kopplad till formuläret. Detta är endast tillgängligt när du loggar in på Workfront.
 
-      >[!IMPORTANT]
-      >
-      >You can view only the requests submitted by you or anyone else to the workspaces that you have at least permissions to View. Workfront administrators can view all requests submitted to any workspace in the system. <!--ensure this is correct; asking team in slack
-   
-   
-   * You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.
-   * If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.
-      >[!NOTE]
-      >
-      >The email and in-app notification are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.
-   
-   <span class="preview"> After the request was approved and the record was created, the Approved by and Approved date fields display information about the approval on the record.</span>
+   * Om begärandeformuläret associerades med ett godkännande läggs begäran till i listan över förfrågningar i området Workfront-förfrågningar och i widgeten Mina förfrågningar med statusen Väntande granskning. En ny post läggs bara till på posttypssidan när alla godkännare har godkänt den. Detta är endast tillgängligt när du loggar in på Workfront.
 
+     Mer information finns i [Lägga till ett godkännande i ett begärandeformulär](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-1. (Optional) Click **View your request** to open the request in Workfront.
+     >[!IMPORTANT]
+     >
+     >Du kan bara visa de förfrågningar som du eller någon annan har skickat till arbetsytorna som du har minst behörighet att visa. Workfront-administratörer kan visa alla begäranden som skickas till valfri arbetsyta i systemet.
 
+   * Du får ett meddelande i appen och ett e-postmeddelande om att begäran antingen har skickats eller skickats för granskning.
+   * Om begärandeformuläret associerades med ett godkännande får godkännarna ett meddelande i appen och ett e-postmeddelande för att granska och godkänna begäran.
 
-Or
+     >[!NOTE]
+     >
+     >E-postmeddelandet och meddelandet i appen visas bara när din organisations instans av Workfront är kopplad till Adobe Unified Experience.
 
-Click [Submit another request](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) to open the request form and add a new request.
+   <span class="preview"> När begäran har godkänts och posten har skapats visar datumfälten Godkänd av och Godkänd information om godkännandet för posten.</span>
 
-   The request details page opens. 
+1. (Valfritt) Klicka på **Visa din begäran** för att öppna begäran i Workfront.
 
-   ![Request page with comment](assets/new-request-page-with-comment.png)
+eller
 
-1. (Optional) Enter a comment in the **Comments** area.
-1. (Conditional) If the request form is not associated with an approval, or if the request has been approved, click the name of the request, then click the name of the record in the **Created object** field. 
+Klicka på [Skicka en ny begäran](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) för att öppna begärandeformuläret och lägga till en ny begäran.
 
-   The record's page opens in Workfront Planning. 
+Sidan med information om förfrågan öppnas.
+
+![Begär sida med kommentar](assets/new-request-page-with-comment.png)
+
+1. (Valfritt) Ange en kommentar i området **Kommentarer**.
+1. (Villkorligt) Om begärandeformuläret inte är kopplat till ett godkännande, eller om begäran har godkänts, klickar du på namnet på begäran och sedan på namnet på posten i fältet **Skapat objekt**.
+
+   Postens sida öppnas i Workfront Planning.
 
    >[!TIP]
    >
-   >* If the record name was not added to the request form, the name of the record in the Record field of the request displays as **Untitled**. 
+   >* Om postnamnet inte har lagts till i begärandeformuläret visas postens namn i fältet Post i begäran som **Namnlöst**.
    >
-   >* If the request form is associated with an approval, the approval must be granted before you can access the record from the request page. 
+   >* Om begärandeformuläret är kopplat till ett godkännande måste det godkännas innan du kan få åtkomst till posten från begärandesidan.
 
-1. (Optional) Click the name of the **Object type**. 
+1. (Valfritt) Klicka på namnet på **objekttypen**.
 
-   The record type page opens in Workfront Planning. 
-
--->
+   Posttypssidan öppnas i Workfront Planning.
 
 ## Skapa en begäran genom att kopiera en befintlig begäran
 

@@ -6,9 +6,11 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: ddf10844646a79c43accaffa1789caf24290cc8a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '3568'
+source-wordcount: '3602'
 ht-degree: 0%
 
 ---
@@ -105,7 +107,7 @@ Om du vill skapa ett begärandeformulär måste du börja skapa formuläret, st�
 
 ### Börja skapa ett begärandeformulär
 
-Du kan skapa ett begärandeformulär från den posttyp som är associerad med formuläret <!--span class="preview">, or from the Requests area of Workfront.</span>-->.
+Du kan skapa ett begärandeformulär från den posttyp som är associerad med formuläret, <!--<span class="preview"> or from the Requests area of Workfront</span>-->.
 
 #### Skapa ett begärandeformulär av en posttyp
 
@@ -160,8 +162,6 @@ Du kan skapa ett begärandeformulär från den posttyp som är associerad med fo
 
    The request form for the selected record type opens in the Form tab.
 1. Continue to [Set up details for the request form](#set-up-details-for-the-request-form).
-
-
 
 </div>
 
@@ -383,7 +383,7 @@ For information on creating automations in other areas of Workfront Planning, se
 ### Skapa formulär för fullständig begäran
 
 1. Skapa och konfigurera formuläret enligt beskrivningen i [Börja skapa ett begärandeformulär](#begin-creating-a-request-form) och [Konfigurera information för begärandeformuläret](#set-up-details-for-the-request-form).
-1. (Valfritt) Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om formulärets namn i rubriken och klicka sedan på **Redigera** för att uppdatera formulärets namn.
+1. (Valfritt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om formulärets namn i rubriken och klicka sedan på **Redigera** för att uppdatera formulärets namn.
 
 1. Klicka på **Publicera** för att publicera formuläret och få en unik länk för det.
 
@@ -412,9 +412,21 @@ For information on creating automations in other areas of Workfront Planning, se
 
    Posttypssidan öppnas i den vy som du senast använde. Som standard öppnas en posttypssida i tabellvyn.
 
-1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Hantera begärandeformulär**.
+1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Hantera begärandeformulär**.
 
-   Alla förfrågningsformulär som är associerade med posttypen visas i en tabellvy.
+   Sidan **Begär formulär** öppnas och alla förfrågningsformulär som är associerade med posttypen visas i en tabellvy.
+1. (Valfritt) Uppdatera följande vyelement på sidan **Begär formulär** om du vill ändra hur information visas i tabellen:
+
+   * Kolumner
+
+   <!--
+   <div class="preview">
+   * Grouping <!-ensure they will change the label by Prod->
+   * Row height
+   </div>
+   -->
+
+   Mer information finns i [Hantera listvyn](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 1. (Valfritt) Hovra över namnet på ett begärandeformulär i tabellvyn, klicka sedan på menyn **Mer** ![Mer](assets/more-menu.png) till höger om formulärnamnet och klicka på något av följande:
 
@@ -424,12 +436,14 @@ For information on creating automations in other areas of Workfront Planning, se
    * **Kopiera länk**: Klicka här om du snabbt vill kopiera länken för begärandeformuläret utan att öppna formuläret.
    * **Ta bort**: Klicka här för att ta bort formuläret. Alla förfrågningar och poster som lagts till med formuläret tas inte bort. Formuläret kan inte återskapas.
 
+   <!--update screen shot at preview:-->
+
    ![Mer meny i begärandeformulär från listan över begärandeformulär](assets/more-menu-on-request-form-from-request-forms-list.png)
 
 1. Klicka på vänsterpilen till vänster om **Begär formulär** i sidhuvudet för att stänga tabellen med förfrågningsformulär.
 
    Posttypssidan öppnas.
-1. (Valfritt och villkorligt) Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn i rubriken och gör sedan något av följande:
+1. (Valfritt och villkorligt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn i rubriken och gör sedan något av följande:
 
    1. Klicka på **Uppdatera begärandeformuläret** för att göra ändringar i begärandeformuläret och klicka sedan på ett begärandeformulär för att öppna och redigera det.
    1. Klicka på **Kopiera länk för att begära formulär** om du vill dela länken till formuläret med andra.

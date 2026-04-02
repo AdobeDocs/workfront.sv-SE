@@ -6,9 +6,11 @@ description: Förutom att använda tillgängliga utkast som Workfront föreslår
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -58,7 +60,9 @@ Du måste göra följande innan du kan skapa en begäran från ett utkast:
 
 ## Skapa begäranden från utkast
 
-Hur du skapar begäranden från utkast skiljer sig mellan den nya begärande upplevelsen och den äldre upplevelsen.
+Du kan skapa förfrågningar från utkast för både Workfront- och planeringsförfrågningar.
+
+Att skapa begäranden från utkast skiljer sig mellan den nya upplevelsen av begärande och den gamla upplevelsen.
 
 * [Skapa förfrågningar från utkast i den nya begärande upplevelsen](#create-requests-from-drafts-in-the-new-requesting-experience)
 * [Skapa förfrågningar från utkast i den gamla begärande upplevelsen](#create-requests-from-drafts-in-the-legacy-requesting-experience)
@@ -88,9 +92,14 @@ Hur du skapar begäranden från utkast skiljer sig mellan den nya begärande upp
 
 1. När du är klar med informationen för begäran klickar du på **Skicka**.
 
-   När du skickar begäran tas utkastet bort och kan inte återställas.
+   När du skickar begäran ersätts utkastet med den nya begäran och kan inte återställas som ett utkast.
 
 ### Skapa förfrågningar från utkast i den gamla begärande upplevelsen
+
+>[!NOTE]
+>
+>Du kan inte skapa begäranden från utkast av planeringsförfrågningar med hjälp av den äldre funktionen.
+
 
 {{step1-to-requests}}
 

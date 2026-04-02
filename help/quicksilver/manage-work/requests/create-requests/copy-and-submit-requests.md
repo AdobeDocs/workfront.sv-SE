@@ -6,9 +6,11 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1529'
+source-wordcount: '1615'
 ht-degree: 0%
 
 ---
@@ -28,7 +30,9 @@ När du skickar in liknande begäranden ofta kan du kopiera en befintlig skickad
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Alla </p> </td> 
+   <td> <p>Alla Workfront- eller Workflow-paket</p>
+
+<p>Alla Workfront Planning-paket som ska kopieras och skickas Planning-begäranden </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
@@ -44,10 +48,12 @@ När du skickar in liknande begäranden ofta kan du kopiera en befintlig skickad
    <td role="rowheader">Objektbehörigheter</td> 
    <td><p>Åtkomst att lägga till begäranden i en begärandekö</p> <p>Visa eller högre behörigheter för den befintliga begäran</p> <p>Mer information om hur du konfigurerar en begärandekö finns i <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Skapa en begärandekö</a>. </p> </td> 
   </tr>
+  <!--
   <tr> 
-   <td role="rowheader"> Produkt</td> 
-   <td> <ul><li>Adobe Workfront</li><li>Du måste ha Adobe Workfront Planning för att kunna visa planeringsförfrågningar eller begära formulär</td> 
+   <td role="rowheader"> Product</td> 
+   <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
   </tr> 
+  -->
  </tbody> 
 </table>
 
@@ -58,6 +64,11 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 ## Förutsättningar
 
 Du måste ha en begäran om att du eller någon i din organisation som tidigare har skickats in ska kunna kopiera den och skicka den igen. Om begäran tillhör någon annan måste du ha åtminstone behörighet att visa den för att kunna kopiera och skicka den som ny.
+
+Du kan kopiera och skicka om någon av följande typer av förfrågningar:
+
+* En Workfront-begäran som har skickats till en begärandekö
+* En Workfront Planning-förfrågan har skickats till ett Planning-begärandeformulär, om ditt företag har köpt ett Planning-paket.
 
 ## Att tänka på när det gäller att kopiera och skicka begäranden som nya
 
@@ -92,7 +103,51 @@ Du måste ha en begäran om att du eller någon i din organisation som tidigare 
   >
   >Den kopierade begäran är inte länkad till ett matchande objekt.
 
+## Kopiera och skicka begäranden i den nya begärandeupplevelsen
+
+Du kan kopiera och skicka begäranden i området Förfrågningar i Workfront eller från widgeten Mina förfrågningar i Hem.
+
+1. Gör något av följande:
+
+   {{step1-to-requests}}
+
+   1. Så här kommer du åt widgeten **Mina förfrågningar** i **Hem**:
+
+   {{step1-to-home}}
+
+   1. Leta reda på widgeten **Mina förfrågningar**.
+
+      Mer information om widgeten Mina förfrågningar finns i [Använd widgeten Mina förfrågningar](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. I listan **Begäranden** eller widgeten **Mina förfrågningar** i Hem håller du muspekaren över den förfrågan du vill kopiera och klickar sedan på menyn **Mer** bredvid dess namn.
+
+   ![Mer-menyn](assets/more-menu.png)
+
+1. Klicka på **Kopiera**
+
+   eller
+
+   Högerklicka på den markerade begäran och klicka sedan på **Kopiera**.
+
+   >[!TIP]
+   >
+   >Om du inte har behörighet att skapa problem får du en varning om att administratören har begränsat dig från att skapa förfrågningar.
+
+1. (Valfritt) Uppdatera eventuell information från den kopierade begäran. Vilka fält som är tillgängliga beror på begärandekön eller vilket begärandeformulär som används för begäran.
+
+   När du anger eller ändrar några fältvärden i den kopierade begäran sparas de som ett utkast.
+
+1. Klicka på **Skicka**.
+
+   Den kopierade begäran skickas som en ny begäran.
+
+   Objekt som löses från den ursprungliga begäran kopieras inte.
+
+   När du kopierar och skickar om en planeringsbegäran skapas en annan post för den posttyp som är associerad med den ursprungliga begärans formulär.
+
 ## Kopiera och skicka begäranden i den äldre begärande upplevelsen
+
+Om ditt företag har köpt ett Workfront Planning-paket kan du inte kopiera och skicka in Planning-begäranden i den tidigare begärande upplevelsen.
 
 {{step1-to-requests}}
 
@@ -222,42 +277,6 @@ Du måste ha en begäran om att du eller någon i din organisation som tidigare 
 
    Den kopierade begäran skickas som en ny begäran i den begärandekö som du angav.
 
-## Kopiera och skicka begäranden i den nya begärandeupplevelsen
 
-Du kan kopiera och skicka begäranden i området Förfrågningar i Workfront eller från widgeten Mina förfrågningar i Hem.
-
-1. Gör något av följande:
-
-   {{step1-to-requests}}
-
-   1. Så här kommer du åt widgeten **Mina förfrågningar** i **Hem**:
-
-   {{step1-to-home}}
-
-   1. Leta reda på widgeten **Mina förfrågningar**.
-
-      Mer information om widgeten Mina förfrågningar finns i [Använd widgeten Mina förfrågningar](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
-
-1. I listan **Begäranden** eller widgeten **Mina förfrågningar** i Hem håller du muspekaren över den förfrågan du vill kopiera och klickar sedan på menyn **Mer** bredvid dess namn.
-
-   ![Mer-menyn](assets/more-menu.png)
-
-1. Klicka på **Kopiera**
-
-   eller
-
-   Högerklicka på den markerade begäran och klicka sedan på **Kopiera**.
-
-   >[!TIP]
-   >
-   >Om du inte har behörighet att skapa problem får du en varning om att administratören har begränsat dig från att skapa förfrågningar.
-
-1. (Valfritt) Uppdatera eventuell information från den kopierade begäran. Vilka fält som är tillgängliga beror på begärandekön eller vilket begärandeformulär som används för begäran.
-
-   När du anger eller ändrar några fältvärden i den kopierade begäran sparas de som ett utkast.
-
-1. Klicka på **Skicka**.
-
-   Den kopierade begäran skickas som en ny begäran.
 
 

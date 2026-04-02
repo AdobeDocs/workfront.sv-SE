@@ -8,9 +8,11 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1497'
+source-wordcount: '1541'
 ht-degree: 0%
 
 ---
@@ -164,7 +166,8 @@ I följande tabell visas projektinformation och om den överförs från mallen e
  </tbody> 
 </table>
 
-<!--WRITER
+<!--
+WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Convert an issue to a project</h2> 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: moved to its own article)</p>
@@ -256,3 +259,12 @@ Tabellen nedan visar vilka problemfält som visas i de konverterade projekten oc
 >[!CAUTION]
 >
 >Om den primära kontakten för ett problem ändras eller om problemet inte längre är länkat till projektet eller aktiviteten efter att problemet har konverterats, uppdateras inte namnet på den konverterade utgåvan och den ursprungliga primära kontakten för problemet visas när problemet konverterades.
+
+## Visa ursprungliga utgåvor och konverterade objekt från listor över förfrågningar
+
+Du kan visa originalutgåvan och konverterade objekt i området Förfrågningar och widgeten Mina förfrågningar i Hem.
+
+Mer information finns i följande artiklar:
+
+* [Visa skickade begäranden](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)
+* [Använda widgeten Mina förfrågningar](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)

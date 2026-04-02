@@ -1,19 +1,19 @@
 ---
 navigation-topic: get-started-with-workfront
-title: Filtrera och gruppera ditt arbete med prioritet
+title: Filtrera, gruppera och sortera ditt arbete med prioritet
 description: Du kan använda filter för att hitta det arbete du söker och sedan använda en gruppering för att ordna det.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
+source-git-commit: a56441276fbc508a81d5331874580385ceb8812f
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
 
-# Filtrera och gruppera ditt arbete med prioritet
+# Filtrera, gruppera och sortera materialet med prioritet
 
 Du kan använda filter för att hitta det du söker efter och sedan använda en gruppering för att ordna det.
 

@@ -6,9 +6,11 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: 4e3c2e50bb3dc1c49939a4c2064e6d89d20e4c24
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1018'
 ht-degree: 0%
 
 ---
@@ -103,7 +105,7 @@ När du har filtrerat ditt arbete kan du gruppera objekt baserat på
 * Status
 * Projekt
 
-Mer information finns i [Filtrera och gruppera ditt arbete i Prioriteter](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
+Mer information finns i [Filtrera, gruppera och sortera ditt arbete med prioritet](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
 
 ### Prioritera viktiga arbetsuppgifter med Mitt fokus
 
@@ -210,4 +212,5 @@ Du kan visa uppdateringar i realtid på informationssidan för en uppgift eller 
 <!--
 ## Considerations
 
-* Accessing tasks in Priorities is across tabs. We plan to add additional tabs, like Documents, Subtasks, Approvals, etc, in the future. Let us know you need these items by submitting feedback using the **Give Feedback** button.-->
+* Accessing tasks in Priorities is across tabs. We plan to add additional tabs, like Documents, Subtasks, Approvals, etc, in the future. Let us know you need these items by submitting feedback using the **Give Feedback** button.
+-->

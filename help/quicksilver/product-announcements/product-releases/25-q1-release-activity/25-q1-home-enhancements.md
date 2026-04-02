@@ -5,9 +5,11 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '803'
 ht-degree: 0%
 
 ---
@@ -22,7 +24,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 >[!VIDEO](https://video.tv.adobe.com/v/3442750/?quality=12&learn=on)
 
-I videon [Prioritetsförbättringar &#x200B;](#priorities-enhancements-demo-video) nedan visas de funktioner som ingår i den här översikten.
+I videon [Prioritetsförbättringar ](#priorities-enhancements-demo-video) nedan visas de funktioner som ingår i den här översikten.
 
 ## Använd smarta filter för att hitta ditt material i prioriteter
 
@@ -38,7 +40,7 @@ Använd naturligt språk för att snabbt filtrera arbetet i prioriteringslistan.
 
 Endast tillgängligt för IMS-aktiverade instanser.
 
-Mer information finns i [Filtrera och gruppera ditt arbete med prioritet](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
+Mer information finns i [Filtrera, gruppera och sortera ditt arbete med prioritet](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
 
 ## Fånga upp arbetet i prioriteringar
 
@@ -118,7 +120,7 @@ Nu kan du
 * Sortera objekt i grupperingarna
 * Dra och släpp objekt vid gruppering efter Min prioritet eller Status
 
-Mer information finns i [Filtrera och gruppera ditt arbete med prioritet](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
+Mer information finns i [Filtrera, gruppera och sortera ditt arbete med prioritet](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
 
 ### Borttagen
 

@@ -8,9 +8,11 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1441'
 ht-degree: 0%
 
 ---
@@ -21,13 +23,9 @@ ht-degree: 0%
 Remove production and preview references at release
 -->
 
-<!--
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
--->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Du kan visa förfrågningar som du eller någon annan har skickat, eller förfrågningar som du har startat men som du aldrig har slutfört. De oavslutade förfrågningarna sparas som utkast.
 
@@ -45,7 +43,7 @@ I området Förfrågningar visas följande förfrågningar, beroende på hur du 
   >
   >* Du kan bara visa dina egna utkastbegäranden.
   >* I den nya begärandeupplevelsen finns inskickade begäranden och utkast i samma lista.
-  >* Utkast som har skapats i den äldre upplevelsen visas inte i den nya begärandeupplevelsen.
+  >* Utkast som skapas i den äldre upplevelsen visas inte i den nya begärandeupplevelsen.
 
 ## Åtkomstkrav
 
@@ -90,6 +88,10 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 ## Visa skickade begäranden i området Begäranden
 
+Du kan visa skickade begäranden i området Förfrågningar eller i widgeten Mina förfrågningar i Hem.
+
+Mer information om Mina förfrågningar finns i [Använd widgeten Mina förfrågningar](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
 Hur skickade begäranden visas skiljer sig åt beroende på om du använder den nya eller gamla upplevelsen av att begära.
 
 * [Visa skickade begäranden i den nya begärande upplevelsen](#view-submitted-requests-in-the-new-requesting-experience)
@@ -102,23 +104,15 @@ Hur skickade begäranden visas skiljer sig åt beroende på om du använder den 
 >* Om du har Workfront Planning visas dina Workfront- och Planning-begäranden i samma lista. Workfront-begäranden visar värdet `Issue` i kolumnen **Objekttyp**.
 >* Upp till 50 begäranden visas som standard i listan i området Begäranden. Om du vill visa fler begäranden bläddrar du längst ned i listan.
 
-Du kan visa skickade begäranden i området Begäranden, som innehåller länkar till poster som skapats av Adobe Workfront Planning-begäranden i produktionsmiljön <!--, or links to records created by Planning requests or <span objects converted from Workfront issues in the Preview environment-->.
+Du kan visa skickade begäranden i området Förfrågningar och i widgeten Mina förfrågningar i Hem.
 
 >[!NOTE]
 >
->Länkar till skapade objekt är bara tillgängliga i den nya begärandefunktionen för planeringsbegäranden, där själva begäran skapade en post.
+>Följande objekt har länkar från listan över förfrågningar i området Förfrågningar och i widgeten Mina förfrågningar när du aktiverar den nya upplevelsen av förfrågningar:
 >
->Om en Workfront-begäran konverteras till ett projekt eller annat objekt är ingen länk till det konverterade objektet tillgänglig i listan över förfrågningar i den nya begärandeupplevelsen.
-
-<!--
-replace the note above with this at release: 
->[!NOTE]
->
->Links to created objects are available in the new requesting experience only for Planning requests in the Production environment, in cases where the request itself created a record. 
->
->If a Workfront request is converted to a project or other object, a link to that converted object is not available in the request list in the new requesting experience in the Production environment.
-><span class="preview">In the Preview environment, you can access both Workfront objects converted from Workfront requests and Planning records created from Planning requests from the Requests area list.</span>
--->
+>* Planering och Workfront-begäranden i ämnesfältet.
+>* Planeringsposter som har skapats från planeringsbegäranden i fältet Objekt som har skapats.
+>* <span class="preview">Workfront-uppgifter och -problem som konverterats från Workfront-begäranden i fältet Objekt som skapats i förhandsvisningsmiljön. </span>
 
 Så här visar du förfrågningar som du eller andra användare har skickat in i den nya begärandeupplevelsen:
 
@@ -135,13 +129,13 @@ Så här visar du förfrågningar som du eller andra användare har skickat in i
    * Filter
    * Kolumner
 
-   <!--
    <div class="preview">
-      * Group
-   * Format cells
-   * Row height
-      </div>
-   -->
+
+   * Grupp
+   * Formatera celler
+   * Radhöjd
+
+   </div>
 
    Mer information om hur du hanterar information i listan över förfrågningar finns i [Använda förbättrade listor](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
@@ -260,7 +254,7 @@ Så här visar du begäranden som du eller andra användare har skickat in i den
     </tbody> 
    </table>
 
-1. (Valfritt) Klicka på ikonen **Filtrera sida** ![Sök &#x200B;](assets/search-icon.png) högst upp i listan om du vill söka efter en begäran per namn. Listan uppdateras med resultat som matchar dina sökvillkor.
+1. (Valfritt) Klicka på ikonen **Filtrera sida** ![Sök ](assets/search-icon.png) högst upp i listan om du vill söka efter en begäran per namn. Listan uppdateras med resultat som matchar dina sökvillkor.
 
    <!--
 
@@ -292,7 +286,8 @@ Så här visar du begäranden som du eller andra användare har skickat in i den
 
 1. Klicka på **Utkast** för att visa alla utkast. Workfront sparar ett obegränsat antal utkast för varje begärandekö i den här mappen. När du anger en ny begäran för ett köämne som redan har ett utkast, uppmanas du att använda ett befintligt utkast. Mer information finns i [Skapa begäranden från utkast](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
 
-   <!--Planning tab has been removed and no longer visible in legacy Requests area: 
+   <!--
+   Planning tab has been removed and no longer visible in legacy Requests area: 
    (Optional and conditional) If your organization purchased a Workfront Planning package, click the **Planning** tab, then click **Submitted** in the left panel to view Workfront Planning requests. 
       Use **Filters** and **Columns** to update the information in the Planning request list. 
       ![Planning tab submitted section in Requests area](assets/workfront-planning-tab-submitted-section-in-requests-area.png)

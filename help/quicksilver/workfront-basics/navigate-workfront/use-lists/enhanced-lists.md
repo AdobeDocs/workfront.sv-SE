@@ -5,9 +5,11 @@ description: De förbättrade listorna har ett tabellformat för att visa listob
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '2350'
+source-wordcount: '2913'
 ht-degree: 0%
 
 ---
@@ -63,6 +65,12 @@ Nedan visas några typer av Workfront-objektlistor som använder det förbättra
 | Lista över begäranden | <ul><li>Begäranden (endast ny upplevelse)</li><li>Widgeten Mina förfrågningar på startsidan</li></ul> |
 | Statuslistor, prioriteter, allvarlighetsgrader och valutakurser i installationsprogrammet | <ul><li>Inställningar > Projektinställningar > Status</li><li>Inställningar > Projektinställningar > Prioriteter</li><li>Inställningar > Projektinställningar > Allvarlighetsgrader</li><li>Inställningar > Projektinställningar > Exchange-priser</li></ul> |
 | <span class="preview">Lista över rapporter</span> | <span class="preview">Rapporter (**Använd delningsbara mappar** måste vara aktiverat)</span> |
+| <span class="preview">Lista över jobbroller och frekvenser i installationen</span> | <span class="preview">Inställningar > Klassificeringskort > Välj ett tariffkort > Jobbroller och priser</span> |
+| <span class="preview">Lista över översättningar</span> | <span class="preview">Inställningar > Lokalisering</span> |
+| <span class="preview">Lista över ögonblicksbilder</span> | <span class="preview">Projekt > Ögonblicksbilder</span> |
+| <span class="preview">Lista över resurser för fakturering</span> | <span class="preview">Projekt > Resurs för fakturering</span> |
+| <span class="preview">Nya avancerade tilldelningar för en aktivitet</span> | <span class="preview">Aktivitet > Uppdrag > Avancerat </span> |
+
 
 ## Lägga till objekt i en förbättrad lista
 
@@ -110,6 +118,9 @@ Du kan använda åtgärdsfältet i en förbättrad lista för att redigera objek
    * Visa
    * Redigera
    * Ta bort
+   * Kopiera
+   * Flytta till mapp
+   * Dela
 
    Om det inte finns några tillgängliga åtgärder för det valda objektet visas&quot;Inga tillgängliga åtgärder&quot; i åtgärdsfältet.
 
@@ -178,15 +189,33 @@ Så här lägger du till och tar bort kolumner:
 
    Listan uppdaterar kolumnerna enligt de val du har gjort.
 
+<div class="preview">
+
+### Ändra radhöjden i en vy
+
+>[!NOTE]
+>
+>Alla förbättrade listor har inte alla element som beskrivs i det här avsnittet.
+
+1. Klicka på ikonen **Radhöjd** ![Radhöjd](assets/row-height-icon.png) i en förbättrad lista.
+
+   Detta uppdaterar den lodräta längden på en rad. Välj bland följande alternativ:
+   * Kort
+   * Standard. Det här är standardalternativet.
+   * Medium
+   * Hög
+
+</div>
+
 ## Uppdatera utökade listelement
 
 Följande element är komponenter i en förbättrad lista:
 
-* Visa: Definierar kolumner, filter och grupperingar i listan med förinställningar
-* Filter: Begränsar mängden information som visas i listan
-* Grupperingar: Ordna listobjekten enligt vanliga fält
-* Sortera: Ordnar objekten i en lista i den ordning som du anger för ett visst fält
-* Sök: Hitta snabbt ett objekt med ett söknyckelord
+* **Visa**: Definierar kolumner, filter och grupperingar i listan med förinställningar
+* **Filter**: Begränsar mängden information som visas i listan
+* **Grupperingar**: Ordna listobjekten enligt gemensamma fält
+* **Sortera**: Ordnar objekten i en lista i den ordning som du identifierar för ett visst fält
+* **Sök**: Hitta ett objekt snabbt med ett söknyckelord
 
 ### Använda och skapa vyer
 
@@ -208,102 +237,6 @@ Så här använder eller skapar du en vy:
 1. (Valfritt) Gruppera objekten i listan. Mer information finns i [Gruppera objekt i en förbättrad lista](#group-items-in-an-enhanced-list).
 
    Ändringar av vyer sparas automatiskt. Nästa gång du använder den här vyn behåller du inställningarna för kolumner och filter.
-
-### Filtrera objekt i en förbättrad lista
-
->[!NOTE]
->
->Alla förbättrade listor har inte alla element som beskrivs i det här avsnittet.
-
-Med filter kan du minska mängden information som visas i listan.
-
-1. Klicka på **Filter** ovanför listan.
-1. Klicka på **Lägg till villkor** i rutan Filter.
-1. Välj ett fält att filtrera efter.
-1. Välj en filtermodifierare, till exempel &quot;Har någon av,&quot; &quot;Har ingen av,&quot; &quot;Är före&quot; eller &quot;Är efter&quot;. Modifieringsalternativen varierar beroende på vilken typ av fält du filtrerar efter.
-1. Markera fältvärdet eller -värdena. Beroende på vilken fälttyp du filtrerar efter kan du uppmanas att välja objektet från en lista, söka efter det eller använda en kalender för att välja ett datumintervall.
-
-   ![Filtrera i förbättrade listor](assets/glist-filter-with-options.png)
-
-   Filtret tillämpas automatiskt på listan.
-
-   >[!TIP]
-   >
-   >Om du vill använda ett aktuellt användarens jokertecken väljer du **Jag (inloggad användare)** som fältvärde. Filtret gäller sedan den användare som visar listan. Jokertecknet är tillgängligt i fält där värdet är en användare.
-
-1. Klicka på **Lägg till villkor** om du vill lägga till ytterligare ett villkor i filtret.
-
-   Du kan förena flera filter med en AND- eller en OR-koppling.
-
-1. När filtret används kan du öppna alternativen för **Filter** igen och ändra filteralternativen eller ta bort alla filter.
-
-   En indikator visas på knappen **Filter** när ett filter används i listan.
-
-   ![Filtrera tillämpad indikator](assets/glist-filter-applied-indicator.png)
-
-### Gruppera objekt i en förbättrad lista
-
->[!NOTE]
->
->Alla förbättrade listor har inte alla element som beskrivs i det här avsnittet.
-
-Grupperingar delar upp objekten i listan i områden baserat på specifika kriterier.
-
-Workfront har ett begränsat antal fördefinierade grupperingar och du kan inte ändra dem.
-
-1. Klicka på **Grupp** ovanför listan.
-1. Välj en gruppering för att ordna listan.
-
-   ![Välj en gruppering](assets/glist-grouping-choose-a-group-by.png)
-
-1. Klicka på **Komprimera alla** om du vill visa listan med alla grupperingar komprimerade. Standardalternativet är att visa listan med alla grupperingar utökade.
-1. När grupperingen används kan du öppna grupperingsalternativen igen om du vill komprimera eller utöka alla grupperingar samtidigt, ändra grupperingen till gruppering i ett annat fält eller ta bort alla grupperingar.
-
-   ![Gruppering i utökade listor](assets/glist-group-by-due-date-priorities.png)
-
-   En indikator visas på knappen **Grupp** när en gruppering används i listan.
-
-   ![Gruppering av tillämpad indikator](assets/glist-grouping-applied-indicator.png)
-
-### Sortera i en förbättrad lista
-
->[!NOTE]
->
->Alla förbättrade listor har inte alla element som beskrivs i det här avsnittet.
-
-Så här sorterar du enskilda kolumner:
-
-1. Håll markören över kolumnen, klicka sedan på nedpilen och välj **Sortera**.
-
-   En ikon bredvid ett kolumnnamn anger att listan sorteras efter värdena i den kolumnen och sorteringsriktningen.
-
-   >[!NOTE]
-   >
-   >Vissa kolumner kanske inte kan sorteras, beroende på listan.
-
-   ![Sortera efter kolumn](assets/glist-sort-by-column.png)
-
-1. (Valfritt) Om du vill sortera ditt arbete inom en gruppering klickar du på **Grupp**, går till raden för den gruppering som används, klickar på listrutan Sorterare och väljer en stigande eller fallande ordning.
-
-   ![Sortera i en gruppering](assets/sort-in-groups.png)
-
-   >[!TIP]
-   >
-   >Sorteringsordningen varierar beroende på vilken fälttyp du sorterar efter.
-
-### Söka i en förbättrad lista
-
->[!NOTE]
->
->Alla förbättrade listor har inte alla element som beskrivs i det här avsnittet.
-
-1. Skriv ett nyckelord som du vill söka efter i sökrutan i det övre högra hörnet av listan. Resultatet markeras i listan när du skriver.
-
-   ![Söktermen är markerad](assets/glist-search-highlighted.png)
-
-   >[!NOTE]
-   >
-   >Sökningen söker i alla kolumner i alla listobjekt. Om listan är lång innehåller sökningen objekt som du kan behöva rulla för att se. När listan filtreras, söker sökningen endast efter det som för närvarande visas.
 
 ### Dela en vy
 
@@ -381,3 +314,165 @@ När en vy delas med dig som du inte har behörighet att redigera, och du uppdat
    ![Kopiera och återställa visningsalternativ](assets/glist-copy-view-shared-with-you.png)
 
 </div>
+
+<div class="preview">
+
+### Använda villkorsstyrd formatering i en vy
+
+>[!NOTE]
+>
+>Alla förbättrade listor har inte alla element som beskrivs i det här avsnittet.
+
+Med villkorsstyrd formatering kan du markera viktig information i vyn baserat på vanliga kriterier.
+
+1. Klicka på ikonen **Formatera celler** ![Formatera celler](assets/format-cells-icon.png). Rutan **Format** öppnas.
+
+1. Klicka på **Lägg till villkor**.
+1. Markera ett fält på raden **Om**, välj ett fältvärde och lägg till en modifierare. Modifierare ändras beroende på vilken fälttyp du väljer.
+
+   >[!TIP]
+   >
+   >Endast fält som är synliga i den utökade listan är tillgängliga för villkorsstyrd formatering.
+
+1. (Valfritt) I stället för att lägga till ett fältvärde klickar du på ikonen **Jämför med ett annat fält** ![Jämför med ett annat fält](assets/compare-to-another-field-icon.png) och väljer ett fält vars värde du vill jämföra med värdet för det markerade fältet. Du kan till exempel jämföra fälten Ämne och Beskrivning för begärandeobjekt.
+
+   >[!TIP]
+   >
+   >Endast fält som är synliga i listvyn är tillgängliga för villkorsstyrd formatering. Fälten som du jämför måste vara av samma typ.
+
+1. (Valfritt) Klicka på **Lägg till villkor** på raden **Om** om du vill lägga till fler villkor i samma regel.
+
+   >[!TIP]
+   >
+   >Du kan lägga till upp till 10 villkor i en villkorsregel och du kan ha upp till 20 regler för ett fält.
+
+1. Klicka på **Eller**-kopplingen mellan villkor om du vill ändra till **och** och ange att flera villkor måste uppfyllas samtidigt. **Eller** är standardkoppling.
+1. På raden **Format** markerar du ett fält som anger vilken kolumn som ska formateras.
+1. (Valfritt) Klicka på ikonen **Färgcirkel** ![Färgformatikon](assets/color-format-icon.png) bredvid det markerade fältet för att expandera det och välja en annan färg i området **Cellfyllning** för att ändra bakgrundsfärgen i en cell eller välj en färg i området **Textfärg** för att ändra textfärgen i en cell.
+1. Klicka på ikonen **Textformat** ![Textformat](assets/text-format-icon.png) och välj bland följande alternativ för att formatera texten i en cell:
+   * Fet
+   * Kursiv
+
+1. Aktivera inställningen **Använd på rad** om du vill använda formateringen på hela raden i fältet som uppfyller villkoren.
+
+1. (Valfritt) Klicka på **Lägg till villkor** i rutan **Format** om du vill lägga till en annan regel för ett annat fält och upprepa stegen ovan.
+1. (Valfritt) Klicka på **Rensa alla** om du vill ta bort all formatering.
+1. Klicka utanför rutan **Format** för att stänga den.
+
+   Du kommer nu tillbaka till listvyn.
+Formateringen används omedelbart i listvyn.
+Det finns en blå punkt bredvid ikonen **Formatera celler** som anger att specialformatering används i vyn.
+
+</div>
+
+### Filtrera objekt i en förbättrad lista
+
+>[!NOTE]
+>
+>Alla förbättrade listor har inte alla element som beskrivs i det här avsnittet.
+
+Med filter kan du minska mängden information som visas i listan.
+
+1. Klicka på **Filter** ovanför listan.
+1. Klicka på **Lägg till villkor** i rutan Filter.
+1. Välj ett fält att filtrera efter.
+1. Välj en filtermodifierare, till exempel &quot;Har någon av,&quot; &quot;Har ingen av,&quot; &quot;Är före&quot; eller &quot;Är efter&quot;. Modifieringsalternativen varierar beroende på vilken typ av fält du filtrerar efter.
+1. Markera fältvärdet eller -värdena. Beroende på vilken fälttyp du filtrerar efter kan du uppmanas att välja objektet från en lista, söka efter det eller använda en kalender för att välja ett datumintervall.
+
+   ![Filtrera i förbättrade listor](assets/glist-filter-with-options.png)
+
+   Filtret tillämpas automatiskt på listan.
+
+   >[!TIP]
+   >
+   ><span class="preview">Om du vill använda ett anpassat filter väljer du något av följande alternativ för ett fältvärde:</span>
+   >
+   ><div class="preview">
+   >
+   >* **Jag (inloggad användare)** för att hänvisa till den inloggade användaren i fält som refererar till användare.
+   >
+   >* **Mina team** eller **Mitt hemteam** för att hänvisa till dina team i fält som refererar till team.
+   >
+   >* **Mina grupper** eller **Min hemgrupp** för att referera till dina grupper i fält som refererar till grupper.
+   >
+   >* **Mitt företag** för att hänvisa till ditt företag i fält som refererar till företag.
+   > 
+   >* **Mina roller** eller **Min primära roll** som refererar till dina jobbroller i fält som refererar till roller.
+   >
+   ></div>
+
+1. Klicka på **Lägg till villkor** om du vill lägga till ytterligare ett villkor i filtret.
+
+   Du kan förena flera filter med en AND- eller en OR-koppling.
+
+1. När filtret används kan du öppna alternativen för **Filter** igen och ändra filteralternativen eller ta bort alla filter.
+
+   En indikator visas på knappen **Filter** när ett filter används i listan.
+
+   ![Filtrera tillämpad indikator](assets/glist-filter-applied-indicator.png)
+
+### Gruppera objekt i en förbättrad lista
+
+>[!NOTE]
+>
+>Alla förbättrade listor har inte alla element som beskrivs i det här avsnittet.
+
+Grupperingar delar upp objekten i listan i områden baserat på specifika kriterier.
+
+Workfront har ett begränsat antal fördefinierade grupperingar och du kan inte ändra dem.
+
+1. Klicka på **Grupp** ovanför listan.
+1. Välj en gruppering för att ordna listan.
+
+   ![Välj en gruppering](assets/glist-grouping-choose-a-group-by.png)
+
+1. Klicka på **Komprimera alla** om du vill visa listan med alla grupperingar komprimerade. Standardalternativet är att visa listan med alla grupperingar utökade.
+1. När grupperingen används kan du öppna grupperingsalternativen igen om du vill komprimera eller utöka alla grupperingar samtidigt, ändra grupperingen till gruppering i ett annat fält eller ta bort alla grupperingar.
+
+   ![Gruppering i utökade listor](assets/glist-group-by-due-date-priorities.png)
+
+   En indikator visas på knappen **Grupp** när en gruppering används i listan.
+
+   ![Gruppering av tillämpad indikator](assets/glist-grouping-applied-indicator.png)
+
+### Sortera i en förbättrad lista
+
+>[!NOTE]
+>
+>Alla förbättrade listor har inte alla element som beskrivs i det här avsnittet.
+
+Så här sorterar du enskilda kolumner:
+
+1. Håll markören över kolumnen, klicka sedan på nedpilen och välj **Sortera**.
+
+   En ikon bredvid ett kolumnnamn anger att listan sorteras efter värdena i den kolumnen och sorteringsriktningen.
+
+   >[!NOTE]
+   >
+   >Vissa kolumner kanske inte kan sorteras, beroende på listan.
+
+   ![Sortera efter kolumn](assets/glist-sort-by-column.png)
+
+1. (Valfritt) Om du vill sortera ditt arbete inom en gruppering klickar du på **Grupp**, går till raden för den gruppering som används, klickar på listrutan Sorterare och väljer en stigande eller fallande ordning.
+
+   ![Sortera i en gruppering](assets/sort-in-groups.png)
+
+   >[!TIP]
+   >
+   >Sorteringsordningen varierar beroende på vilken fälttyp du sorterar efter.
+
+### Söka i en förbättrad lista
+
+>[!NOTE]
+>
+>Alla förbättrade listor har inte alla element som beskrivs i det här avsnittet.
+
+1. Skriv ett nyckelord som du vill söka efter i sökrutan i det övre högra hörnet av listan. Resultatet markeras i listan när du skriver.
+
+   ![Söktermen är markerad](assets/glist-search-highlighted.png)
+
+   >[!NOTE]
+   >
+   >Sökningen söker i alla kolumner i alla listobjekt. Om listan är lång innehåller sökningen objekt som du kan behöva rulla för att se. När listan filtreras, söker sökningen endast efter det som för närvarande visas.
+
+

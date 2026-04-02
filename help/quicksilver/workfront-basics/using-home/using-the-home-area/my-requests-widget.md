@@ -6,14 +6,22 @@ description: Du kan skicka begäranden i widgeten Mina förfrågningar. Du kan o
 author: Alina, Courtney
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
 
 # Använda widgeten Mina förfrågningar
+
+<!--remove Preview and Production references at Production release April 15, 2026-->
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 >[!IMPORTANT]
 >
@@ -70,7 +78,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 Du kan skapa en begäran direkt från widgeten Mina förfrågningar.
 
-Instruktioner finns i avsnittet [Skapa en begäran](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md/#create-a-request) i artikeln [Skapa arbetsobjekt och projekt från Hem](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+Instruktioner finns i avsnittet [Skapa en begäran](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request) i artikeln [Skapa arbetsobjekt och projekt från Hem](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 ## Kopiera en begäran
 
@@ -81,6 +89,7 @@ Instruktioner finns i [Kopiera och skicka begäranden](/help/quicksilver/manage-
 ## Hantera information i listan över förfrågningar i widgeten Mina förfrågningar
 
 <!--
+This is similar to what we document in Enhanced lists, so we will link to that to avoid documentation duplication:
 The My Requests widget features a customizable filter that allows you to control which requests appear in the widget. You can configure this filter for different fields and values, and can stack conditions using AND and OR operators.
 
 To configure the filter in the My Requests widget:
@@ -88,24 +97,25 @@ To configure the filter in the My Requests widget:
 
 1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/lines-main-menu.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Home]**.
 1. (Villkorligt) Om du vill lägga till widgeten **Mina förfrågningar** på hemskärmen. Klicka på **Anpassa** och sök efter **Mina förfrågningar**. Klicka sedan på den för att lägga till den i **Hem**.
-1. (Valfritt) Om du vill hantera hur informationen visas i listan med begäranden uppdaterar du följande vyelement för listan:
+1. (Valfritt) Om du vill hantera hur informationen visas i listan med begäranden skapar eller uppdaterar du följande vyelement för listan:
 
    * Visa
    * Filter
    * Kolumner
 
-   <!--
    <div class="preview">
-      * Group
-   * Format cells
-   * Row height
-      </div>
-   -->
 
-   Mer information om hur du hanterar information i listan över förfrågningar finns i [Använda förbättrade listor](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+   * Grupp
+   * Formatera celler
+   * Radhöjd
+
+   </div>
+
+   Mer information om hur du uppdaterar vyelement i listan över förfrågningar finns i [Använda förbättrade listor](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 
-<!-- Removed all these sections because this is common to ALL the Glists/ enhanced lists. So, we will update that article with all the specific steps: 
+<!--
+ Removed all these sections because this is common to ALL the Glists/ enhanced lists. So, we will update that article with all the specific steps: 
 1. Select the field that you want to filter by. Available options are:
 
    * Workspace
@@ -120,10 +130,7 @@ To configure the filter in the My Requests widget:
 1. (Conditional) If a field appears to the right of the operator, select the value that you want to filter by.
 1. (Optional) To add another filter condition, click **Add condition** and repeat steps 4-6.
 1. (Optional and conditional) If you have multiple conditions, switch the And or Or value by clicking **And** or **Or** to the left of the condition.
-
-
 The filter is saved automatically.
-
 -->
 
 >[!TIP]
@@ -134,6 +141,8 @@ The filter is saved automatically.
 >* Om du bara vill filtrera efter Workfront Planning-begäranden anger du filtret till **Objekttyp** > **Har inga av** > **Problem**.
 
 <!--
+
+Use enhanced lists and other requests articles describe all of these:
 
 ## Adjust or add columns
 
@@ -185,7 +194,7 @@ Consider the following when working with views in the My Requests widget:
 
 Så här söker du efter specifika förfrågningar i widgeten Mina förfrågningar:
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/lines-main-menu.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Home]**.
 1. (Villkorligt) Om du vill lägga till widgeten **Mina förfrågningar** på hemskärmen. Klicka på **Anpassa** och sök efter **Mina förfrågningar**. Klicka sedan på den för att lägga till den i **Hem**.
 1. I sökfältet uppe till höger i widgeten Mina förfrågningar anger du den term som du vill söka efter.
 
@@ -199,12 +208,25 @@ Du kan söka efter objekt som har skapats av en begäran i widgeten Mina förfr�
 
 >[!NOTE]
 >
->Länkar till skapade objekt är bara tillgängliga i den nya begärandefunktionen för planeringsbegäranden, där själva begäran skapade ett objekt. Om en Workfront-begäran konverteras till ett projekt eller annat objekt är ingen länk till det konverterade objektet tillgänglig i listan över förfrågningar i den nya begärandeupplevelsen.
+>Följande objekt har länkar från listan över förfrågningar i widgeten Mina förfrågningar när du aktiverar den nya upplevelsen av förfrågningar i området Förfrågningar:
+>
+>* Planering och Workfront-begäranden i ämnesfältet.
+>* Planeringsposter som har skapats från planeringsbegäranden i fältet Objekt som har skapats.
+>* <span class="preview">Workfront-uppgifter och -problem som konverterats från Workfront-begäranden i fältet Objekt som skapats i förhandsgranskningsmiljön.</span>
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/lines-main-menu.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Home]**.
 1. (Villkorligt) Om du vill lägga till widgeten **Mina förfrågningar** på hemskärmen. Klicka på **Anpassa** och sök efter **Mina förfrågningar**. Klicka sedan på den för att lägga till den i **Hem**.
 1. Leta reda på den begäran som skapade objektet.
 1. Klicka på objektnamnet i kolumnen **Skapat objekt** för den begäran.
 
    Objektets sida öppnas.
+
+   >[!TIP]
+   >
+   >I produktionsmiljön har bara planeringsposter en länk i fältet **Skapat objekt**.
+   >   
+   ><span class="preview">I förhandsgranskningsmiljön har Workfront-aktiviteter och -projekt som konverterats från problem samt planeringsposter som skapats från planeringsbegäranden en länk i fältet **Skapat objekt**.</span>
+   >
+
+
 
