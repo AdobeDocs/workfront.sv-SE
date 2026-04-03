@@ -6,14 +6,18 @@ description: Du kan redigera en kontrollpanelsrapport för arbetsytan när den h
 author: Courtney
 feature: Reports and Dashboards
 exl-id: fd659f56-d67f-4a0f-8735-b214934903ac
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
 
 # Redigera en rapport på en arbetsytans kontrollpanel
+
+{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -84,7 +88,13 @@ Mer information finns i [Skapa en arbetsytans kontrollpanel](/help/quicksilver/r
 
    ![Redigera en rapport](assets/edit-report-box.png)
 
-1. Redigera informationen i avsnitten till vänster i dialogrutan **Konfigurera**. De här avsnitten varierar beroende på vilken rapporttyp du redigerar.
+1. <span class="preview">Redigera informationen i de avsnitt som visas till vänster i dialogrutan **Konfigurera**. De här avsnitten varierar beroende på vilken rapporttyp du redigerar.
+
+   >[!TIP]
+   >
+   >Avsnittet Detaljer för alla rapporttyper innehåller en **Kör den här rapporten med åtkomstbehörigheten**. Använd det här alternativet om du vill ange en användare vars behörigheter används för att återge rapportdata, så att alla instrumentpanelsvisningsprogram ser samma data. Mer information finns i [Skapa en KPI-rapport](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md), [Skapa en diagramrapport](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) eller [Skapa en tabellrapport](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
+
+   </span>
 
 1. (Valfritt) Om du redigerar en KPI-rapport kan du redigera information efter behov i följande avsnitt:
 

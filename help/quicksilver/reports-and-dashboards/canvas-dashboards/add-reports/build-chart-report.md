@@ -6,14 +6,19 @@ description: En diagramrapport som visualiserar dina data som stapel-, kolumn-, 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
 workflow-type: tm+mt
-source-wordcount: '1814'
+source-wordcount: '1917'
 ht-degree: 0%
 
 ---
 
 # Skapa en diagramrapport på en Canvas Dashboard
+
+{{highlighted-preview}}
+
 
 >[!IMPORTANT]
 >
@@ -99,6 +104,15 @@ Det finns många konfigurationsalternativ för att skapa en diagramrapport. I de
       >[!NOTE]
       >
       >Det finns maximalt 60 serier som kan visas i ett diagram. När den här rutan är markerad konsolideras alla serier över gränsen till en **annan**-gruppering i diagrammet.
+
+   1. <span class="preview">(Valfritt) I fältet **Kör den här rapporten med åtkomsträttigheter för** börjar du skriva namnet på den användare vars behörigheter du vill att rapporten ska använda och väljer sedan användaren när han/hon visas i listan. När du konfigurerar en rapport att köras som en annan användare, ser alla granskare på kontrollpanelen samma data, oavsett deras egen åtkomstnivå. Om du inte väljer en användare ser varje visningsprogram data baserat på deras egna behörigheter.
+
+      >[!IMPORTANT]
+      >
+      >Om den valda användaren är inaktiverad eller förlorar åtkomst till de relevanta arbetsytorna eller posttyperna kan rapporten visa ofullständiga data eller misslyckas med att återge.
+
+   </span>
+
 1. Välj vilken typ av diagram du vill skapa:
    * [Stolpdiagram, stapeldiagram och linjediagram](#bar-column-or-line-chart)
    * [Cirkeldiagram](#pie-chart)
@@ -161,7 +175,7 @@ Det finns många konfigurationsalternativ för att skapa en diagramrapport. I de
 
 Följ stegen nedan för att konfigurera avsnittet **Filter**:
 
-1. Klicka på ikonen **Filter**![&#x200B; Filter](assets/filter-icon.png) i den vänstra panelen.
+1. Klicka på ikonen **Filter**![ Filter](assets/filter-icon.png) i den vänstra panelen.
 1. Välj **Redigera filter**.
 1. Klicka på **Lägg till villkor** och ange sedan fältet som du vill filtrera efter och modifieraren som definierar vilken typ av villkor som fältet måste uppfylla.
 1. (Valfritt) Klicka på **Lägg till filtergrupp** om du vill lägga till ytterligare en uppsättning filtervillkor. Standardoperatorn mellan uppsättningarna är AND. Klicka på operatorn för att ändra den till ELLER.

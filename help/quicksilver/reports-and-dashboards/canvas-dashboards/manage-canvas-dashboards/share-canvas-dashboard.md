@@ -6,14 +6,18 @@ description: Du kan dela en Canvas-kontrollpanel med andra Adobe Workfront-anvä
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
 
 # Dela en arbetsytans kontrollpanel
+
+{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -81,6 +85,8 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 * När du delar en kontrollpanel ärver resurserna som den delas med behörigheter till de rapporter som visas på kontrollpanelen.
 
 * När en kontrollpanel distribueras via en layoutmall tilldelas alla resurser som tilldelats layoutmallen automatiskt behörigheten Visa för kontrollpanelen (och dess rapporter).
+
+* <span class="preview">När en rapport på en instrumentpanel har konfigurerats med alternativet Kör som användare, ser alla visningsprogram data baserat på den valda användarens behörigheter i stället för på deras egna. Detta innebär att tittarna kan se data som de normalt inte har tillgång till. Om vissa rapporter på en instrumentpanel använder Kör som-användare och andra inte gör det, kan visningsprogram se inkonsekventa data i alla rapporter.</span>
 
 
 ## Dela en arbetsytans kontrollpanel

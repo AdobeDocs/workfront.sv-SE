@@ -7,9 +7,11 @@ author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '534'
 ht-degree: 0%
 
 ---
@@ -97,6 +99,7 @@ Nedan finns en lista över de rapporttyper som för närvarande stöds i betaver
 * Detaljerad konfiguration för KPI- och diagramrapporter
 * Gruppera tabellresultat
 * Filter på kontrollpanelnivå och användartillämpade övertäckningsfilter
+* Kör som användarkonfiguration för rapporter
 
 
 ### Funktioner under utveckling
