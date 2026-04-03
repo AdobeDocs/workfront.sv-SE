@@ -6,18 +6,22 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5e0be9d9-efa5-4b16-bd56-f9c85bc57ced
-source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: c4716157a6fdf667f7e608d0c37399f57ec1bbfe
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1569'
 ht-degree: 0%
 
 ---
 
 # Lägga till en sida med kopplade poster i en post
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Du kan visa information från anslutna poster eller objekt genom att lägga till en flik för en sida med kopplade poster till en post i Adobe Workfront Planning. Då läggs de kopplade posterna i en tabellvy till på fliken.
 
@@ -76,7 +80,7 @@ Tänk på följande när du lägger till en sida med kopplade poster till en pos
    <ul><li><p>En Adobe Experience Manager Assets-licens och en integrering mellan AEM Assets och Workfront för att koppla AEM-material till posttyperna Planning.</p>
    <p>Mer information finns i <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront för Experience Manager Assets och Assets Essentials: artikelindex</a>. </p></li>
    <li><p> En Adobe GenStudio for Performance Marketing-licens för att koppla posttyper till GenStudio Brands</p>
-   <p>Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/get-started">Kom igång med Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Kom igång med Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>
 
@@ -299,40 +303,50 @@ När du skapar en ansluten postsida för anslutna Workfront-projekt gör du föl
 
 1. Gå till en posttypssida och klicka på postens namn. Då öppnas postens förhandsgranskningssida.
 1. Klicka på fliken för en sida med anslutna poster som visar Workfront-projekt.
-De projekt som är kopplade till den valda posten visas i listvyn.
-1. Klicka på **Anslut poster** i det övre högra hörnet på den anslutna postsidan om du vill ansluta befintliga projekt.
 
-   Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
-1. Dubbelklicka i en cell i listvyn om du vill redigera ett projekts fält. Vissa fält är skrivskyddade.
-1. Redigera listvyn genom att göra något av följande:
+   ![Sidan med kopplade poster för projekt](assets/projects-connected-records-page-table.png)
 
-   * Klicka på **Ny rad** om du vill skapa ett projekt utan en mall. Det nya projektet ansluts automatiskt till den aktuella posten.
+   De projekt som är kopplade till den valda posten visas i listvyn.
 
-     Mer information finns i [Skapa Workfront-objekt från Workfront Planning när du ansluter dem till poster](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
-   * Klicka på **Skapa poster &#x200B;** i det övre högra hörnet av vyn om du vill lägga till befintliga projekt. Projekt är omedelbart kopplade till den valda posten.
+   Mer information om hur du hanterar eller redigerar objekt i listvyn finns i [Hantera listvyn](/help/quicksilver/planning/views/manage-the-list-view.md).
 
-   * Håll muspekaren över ett projektnamn i listan och klicka på menyn **Mer** [Mer](assets/more-menu.png) och klicka på **Visa** för att öppna projektet på en annan flik
+<!-- 
+removed this part, so we won't have to have duplicate information to keep up with for the list view in Planning: 
+1. Click **Connect records** in the upper-right corner of the connected record page to connect existing projects.
 
-     eller
+   For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+1. Double-click inside a cell in the list view to edit a project's fields. Some fields are read-only. 
+1. Do one of the following to edit the list view: 
 
-     Markera ett eller flera projekt och klicka på **Ta bort** eller **Koppla från** i åtgärdsfältet längst ned i listan för att ta bort objektet från listan.
+   * Click **New row** to create a project without a template. The new project is automatically connected to the current record.
 
+      For more information, see [Create Workfront objects from Workfront Planning as you connect them to records](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
+   * Click **Create records **in the upper-right corner of the view to add existing projects. Projects are immediately connected to the selected record. 
 
-   * Klicka på listrutemenyn för vyer och klicka på **Ny vy** för att lägga till en ny vy för sidan. Gör sedan följande, eller klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om ett nytt namn, och sedan **Byt namn**, **Dela** eller **Ta bort** vyn.
+   * Hover over a project name in the list and click the **More** menu [More menu](assets/more-menu.png) and click **View** to open the project in another tab
+     
+      Or
 
-     Du kan inte byta namn på, dela eller ta bort systemvyer eller vyer som du inte har behörighet att hantera.
+      Select one or more projects, and from the actions bar at the bottom of the list, click **Delete** or **Disconnect** to remove the item from the list.
+      
 
-     ![Visa fler meny på sidan Projekt - kopplade poster](assets/view-more-menu-projects-connected-records-page.png)
+   * Click the views dropdown menu, and click **New view** to add a new view for the page, then do the following, or click the **More** menu ![More menu](assets/more-menu.png) to the right of a new name, then **Rename**, **Share**, or **Delete** the view. 
 
-   * Klicka på något av följande för att uppdatera vyns element:
+      You cannot rename, share or delete System Views or views you do not have Manage permissions to.
 
-      * **Filter** om du vill begränsa mängden information i listan
-      * **Kolumner** om du vill dölja kolumner eller ändra deras ordning
-      * Ikonen **+** i tabellvyns övre högra hörn om du vill lägga till befintliga fält i listan. Fälten måste finnas innan du kan lägga till dem.
+      ![View more menu on Projects Connected records page](assets/view-more-menu-projects-connected-records-page.png)
 
-   Mer information om hur du hanterar objekt i en listvy finns i [Hantera listvyn](/help/quicksilver/planning/views/manage-the-list-view.md).
+   * Click one of the following to update the view's elements: 
 
-<!-- this is repetitive from an earlier section above: 
+      * **Filter** to limit the amount of information in the list
+      * **Columns** to hide columns or change their order
+      * The **+** icon in the upper-right corner of the table view to add existing fields to the list. Fields must exist before you can add them. 
+
+   For more information about managing objects in a list view, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md).
+-->
+
+<!--
+ this is repetitive from an earlier section above: 
 
 ## Manage multiple views from the connected records page
 
@@ -361,13 +375,16 @@ To manage multiple views from the connected records page:
    * **Export** 
    * **Delete**
 
-   <!--not possible right now: * **Duplicate**. For more information, see [Duplicate record views](/help/quicksilver/planning/views/duplicate-record-views.md).
+   <!--
+   not possible right now: * **Duplicate**. For more information, see [Duplicate record views](/help/quicksilver/planning/views/duplicate-record-views.md).
       >[!TIP]
       >
-      >Duplicating a view from Connected records pages makes it available in all other areas of Workfornt planning, when viewing the same record types. -->
+      >Duplicating a view from Connected records pages makes it available in all other areas of Workfornt planning, when viewing the same record types.
+      -->
 
 
-<!--No longer possible: 1. (Optional and conditional) When you create a connected records page for the following Workfront object types:
+<!--
+No longer possible: 1. (Optional and conditional) When you create a connected records page for the following Workfront object types:
          * Portfolios
          * Programs
          * Groups

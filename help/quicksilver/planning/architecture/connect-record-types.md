@@ -6,9 +6,11 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 973a095e8ff08e382010247d9ed38e48d4b2c564
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: c4716157a6fdf667f7e608d0c37399f57ec1bbfe
 workflow-type: tm+mt
-source-wordcount: '2982'
+source-wordcount: '3044'
 ht-degree: 0%
 
 ---
@@ -28,7 +30,8 @@ ht-degree: 0%
 {{planning-important-intro}}
 
 <!--
-You can use Adobe Workfront Planning to design fully-customizable workspaces that contain record types needed in your organization. A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application. -->
+You can use Adobe Workfront Planning to design fully-customizable workspaces that contain record types needed in your organization. A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application.
+-->
 
 Du kan ansluta posttyper till varandra eller koppla posttyper med objekttyper från andra program.
 
@@ -91,7 +94,7 @@ Ett exempel på hur du ansluter posttyper och poster finns i [Exempel på att an
    <ul><li><p>En Adobe Experience Manager Assets-licens och en integrering mellan AEM Assets och Workfront för att koppla AEM-material till posttyperna Planning.</p>
    <p>Mer information finns i <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront för Experience Manager Assets och Assets Essentials: artikelindex</a>. </p></li>
    <li><p> En Adobe GenStudio for Performance Marketing-licens för att koppla posttyper till GenStudio Brands</p>
-   <p>Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/get-started">Kom igång med Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Kom igång med Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -112,7 +115,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 +++
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -173,7 +177,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
   </tr> 
  
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Koppla posttyper
 
@@ -212,7 +217,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
      >
      >![Fliken Redigera inställningar för arbetsytan mellan arbetsytor i rutan för posttyp](assets/edit-record-type-box-advanced-settings-tab.png)
 
-     <!--Old:
+     <!--
+        Old:
         [!TIP]
         The **Allow connecting to this record type in other workspaces** setting must be enabled for a record type in the **Advanced settings** tab of the **Edit record type** box, for a record type to be accessible from other workspaces. If there are no record types that are configured to connect from other workspaces, the workspace section does not display.
         ![Edit record type box advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
@@ -269,13 +275,17 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
    * **Flerval**: Välj det här alternativet om du vill tillåta en post från den aktuella posttypen att ansluta till flera poster från anslutningsposttypen.
    * **Ett-val**: Välj det här alternativet om du vill tillåta en post från den aktuella posttypen att ansluta till en post från anslutningsposttypen.
 
-1. Markera **Skapa motsvarande fält för den länkade posttypen**. När du väljer det här alternativet skapas ett anslutningsfält för den posttyp som du är ansluten till, förutom det anslutningsfält som läggs till den aktuella posttypen. Detta är inaktiverat som standard.
+1. Markera **Skapa motsvarande fält för den länkade posttypen**. När du väljer det här alternativet skapas ett anslutningsfält för den posttyp som du ansluter till, förutom det anslutningsfält som läggs till den aktuella posttypen. Detta är inaktiverat som standard.
 
    >[!TIP]
    >
    >* Förutom gränsen på 30 anslutningsfält för en posttyp finns det en gräns på 500 fält för en posttyp. Vi rekommenderar att den här inställningen inte används, särskilt för taxonomiska posttyper, för att undvika att den här gränsen uppnås.
    >
    >* Om du väljer **Skapa motsvarande fält för den länkade posttypen** måste du skapa hierarkier.
+   >
+   >* Ett länkat postfält skapas inte för objekt från ett annat program i respektive program. Det finns till exempel inget fält som har skapats för Workfront-objekt som är kopplade till planeringsposter.
+   >
+   >   
 
 1. (Villkorligt) Om du har aktiverat **Skapa motsvarande fält för den länkade posttypen** kan du välja bland följande alternativ för att ange hur många poster som användare kan ansluta till och från:
 
@@ -300,7 +310,7 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
    >[!NOTE]
    >
-   >Workfront-administratören kan mappa Workfront Planning-fält till Experience Manager Assets-fält via metadatamappningen i Workfront. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >Workfront-administratören kan mappa Workfront Planning-fält till Experience Manager Assets-fält via metadatamappningen i Workfront. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Villkorligt) När du väljer att ansluta till Experience Manager Assets, till en post av typen Workfront Planning eller till ett GenStudio-märke, väljer du något av följande alternativ i området **Postutseende**:
@@ -323,7 +333,14 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
 1. Välj **Välj uppslagsfält** om du vill lägga till fält från den posttyp som du ansluter till. Uppslagsfälten är fält som är kopplade till den post eller objekttyp som du länkar till. När du länkar dem visas information från posten eller objektet som du länkar till på posten som du länkar från. Detta är markerat som standard.
 
+   <!--
+    When reference fields are coming, change the first bullet in the TIP below with this: 
+    >* In the Production environment, you cannot add Workfront reference fields (for example, the Project Group or Company from a Workfront Project) as lookup fields in Planning. <span class="preview">You can add Workfront reference fields as lookup fields in the Preview environment.</span>
+    -->
+
    >[!TIP]
+   >
+   >* Du kan inte lägga till referensfält från ett annat program som uppslagsfält. Du kan till exempel inte lägga till Projektgrupp eller Företag som sökfält i Planering när du ansluter till Workfront-projekt.
    >
    >* I produktionsmiljön kan du inte lägga till Workfront-användarfält (inklusive fält som Projektägare eller Projektsponsor) som sökfält. <span class="preview">Du kan lägga till användarfält som sökfält i förhandsvisningsmiljön.</span>
    >
@@ -408,7 +425,7 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
    >* **UNIQUE**: $100 000
    >
 
-1. (Valfritt) Använd ikonen **sök** ![Sök &#x200B;](assets/search-icon.png) för att söka efter ett fält.
+1. (Valfritt) Använd ikonen **sök** ![Sök ](assets/search-icon.png) för att söka efter ett fält.
 
 1. Klicka på **Lägg till fält** för att spara ändringarna.
 
