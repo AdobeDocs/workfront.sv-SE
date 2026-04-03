@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 48745335495433e25ad0a27a6726dda7fe8a97d8
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -67,13 +67,13 @@ När du skapar en anpassad status för hela organisationen kan du konfigurera de
 
 1. (Villkorligt) Om du skapar eller redigerar en status som ska användas i hela systemet måste du se till att **Systemstatus** är markerat i rutan i det övre högra hörnet.
 
-   ![Systemstatus](assets/system-statuses-in-upper-rt-corner-new.jpg)
+   ![Systemstatus](assets/system-statuses-in-upper-rt-corner-new-png.png)
 
    eller
 
    Om statusen är för en grupp eller undergrupp börjar du skriva namnet på gruppen i det övre högra hörnet och markerar den när den visas.
 
-   ![Systemstatus för gruppen](assets/system-statuses-in-upper-rt-corner-group.jpg)
+   ![Systemstatus för gruppen](assets/system-statuses-in-upper-rt-corner-group-new-png.png)
 
 1. Välj fliken för den objekttyp (**Projekt**, **Åtgärder** eller **Problem**) som du vill associera med statusen.
 
@@ -81,9 +81,9 @@ När du skapar en anpassad status för hela organisationen kan du konfigurera de
 
    eller
 
-   Om du redigerar en befintlig status håller du pekaren över den och klickar sedan på ikonen **Redigera** som visas längst till höger.
+   Om du redigerar en befintlig status klickar du i kryssrutan för den statusen och sedan på **Redigera** i banderollen längst ned på skärmen.
 
-   ![Redigera anpassad status](assets/custom-status-edit.png)
+   ![Redigera anpassad status](assets/edit-in-banner.png)
 
 1. Konfigurera statusen med följande alternativ:
 

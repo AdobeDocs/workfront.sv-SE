@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: d7e85faa0e6da2218d7e983d00fd992dc858a1d9
 workflow-type: tm+mt
-source-wordcount: '1321'
+source-wordcount: '1327'
 ht-degree: 0%
 
 ---
@@ -90,11 +90,12 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
    eller
 
-   Om du vill redigera en befintlig status för du musen över den status du vill redigera och klickar sedan på alternativet **Redigera** som visas längst till höger.
+   Om du redigerar en befintlig status klickar du i kryssrutan för den statusen och sedan på **Redigera** i banderollen längst ned på skärmen.
 
-   ![Gruppstatus](assets/group-statuses-edit.jpg)
+   ![Gruppstatus](assets/group-statuses-edit-new.png)
 
    >[!NOTE]
+   >
    >Du kan bara redigera en status för din grupp om:
    >      
    >* Du hanterar gruppen som statusen skapades för
@@ -166,15 +167,16 @@ Om du är gruppadministratör (eller Workfront-administratör) kan du skapa en a
 
 1. Om du är Workfront-administratör skapar du en olåst status i hela systemet enligt beskrivningen i [Skapa eller redigera en status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 1. I rutan i det övre högra hörnet tar du bort **Systemstatus**, börjar skriva namnet på en grupp där du vill dölja statusen och klickar sedan på namnet när det visas.
-1. Håll markören över den status som du vill dölja för gruppen och klicka sedan på **Redigera** när den visas.
+1. Klicka i kryssrutan för statusen som du vill redigera och klicka sedan på **Redigera** i banderollen längst ned på skärmen.
 
-   ![Redigera status](assets/hover-click-edit.jpg)
+
+   ![Redigera status](assets/group-statuses-edit-new.png)
 
 1. Aktivera alternativet **Dölj status** som visas.
 
    ![Dölj status](assets/hide-group-status.png)
 
-1. Klicka på **Spara**.
+1. Klicka på **Uppdatera**.
 
    Statusen är nedtonad och inte längre synlig för alla användare i gruppen.
 

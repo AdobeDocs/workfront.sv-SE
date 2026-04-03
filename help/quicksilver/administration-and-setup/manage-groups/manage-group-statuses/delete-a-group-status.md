@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 6c7dd2504ce20274f8b80a306fc1075ec5761da6
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -63,9 +63,9 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 1. Klicka på **Grupper** i den vänstra panelen.
 1. Klicka på namnet på gruppen på den översta nivån.
 1. Klicka på **Status** i den vänstra panelen.
-1. Håll markören över den status som du vill ta bort i listan med statusar som visas och klicka sedan på **Ta bort** när den visas längst till höger.
+1. Klicka i kryssrutan för statusen som du vill ta bort i listan över statusar som visas och klicka sedan på **Ta bort** i banderollen längst ned på skärmen.
 
-   ![Ta bort](assets/hover-click-delete.jpg)
+   ![Ta bort](assets/delete-status.png)
 
 1. I den ruta som visas väljer du en status för att ange en ersättningsstatus för objekt (projekt, uppgifter, utgåvor och godkännandeprocesser) som använder den status som du håller på att ta bort.
 
@@ -84,7 +84,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
         Mer information om standardstatusvärdena för Workfront finns i [Åtkomst till listan över status för systemprojekt](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md), [Åtkomst till listan över status för systemaktivitet](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md) och information om de fyra nödvändiga utfärdandestatusarna i [Åtkomst till listan över status för systemproblem](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).
 
-1. Klicka på **Ta bort status**.
+1. Klicka på **Ta bort**.
 
    Om borttagen status var standardstatus för den typen i gruppen ersätts ersättningsstatusen.
 
