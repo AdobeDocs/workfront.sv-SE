@@ -7,7 +7,8 @@ description: Som Adobe Workfront-administratör kan du konfigurera varumärkesbe
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: ebc342b65bee6a8c5ba0edbe2e990ec2775a9055
+exl-id: 727efbd6-79b4-42c5-bfa2-e5350f30ff23
+source-git-commit: f74c567505dbdf6b2d1d8a85a62ba40d919be7b3
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 0%
@@ -76,7 +77,7 @@ Tilldela en profil:
 1. Klicka på fliken **Tilldelade produktprofiler**.
 1. Klicka på **Tilldela profil**.
 1. På popup-menyn väljer du **Adobe GenStudio** i produktlistan och klickar sedan på **Använd**.
-1. Välj **Adobe GenStudio-systemhanterarprofilen**.
+1. Välj profilen för **Adobe GenStudio Foundation-redigerare**.
 1. Klicka på **Använd**.
 1. Klicka på **Spara**.
 
