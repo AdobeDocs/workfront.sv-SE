@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 64ee7798e79324af0ab48af91f49d04d94ece3a9
+source-git-commit: 1a37ff7e4e4b60ac23b0edde6b60258ed508e90b
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 0%
@@ -19,6 +19,22 @@ ht-degree: 0%
 Den här sidan beskriver rapportförbättringar som gjorts i den andra utgåvan av kvartalet 2026 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den andra utgåvan av kvartal 2026 finns i [Översikt över den andra utgåvan av kvartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Schemalagd rapportleverans stöder nu länkbaserade e-postmeddelanden
+
+>[!NOTE]
+>
+>Förhandsgranska: 3 april 2026
+>Production fast release: 15 april 2026
+>Produktion för alla: 16 april 2026
+
+Workfront innehåller nu en ny typ av länkleverans för schemalagda rapporter. I stället för att generera och bifoga en fil, skickar det här alternativet ett e-postmeddelande med en direktlänk till rapporten i Workfront, så att mottagarna kan visa de data som är mest aktuella i programmet.
+
+Alternativet Länka är nu standardleveranstyp för nya leveransregler för schemalagda rapporter, medan befintliga filbaserade format (HTML, PDF, Excel och TSV) fortfarande är tillgängliga.
+
+Med den här förändringen har vi även uppdaterat utseendet och känslan i e-postmeddelandet för rapportleverans.
+
+Mer information finns i [Schemalägg en automatisk rapportleverans](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
 
 ## Köra rapporter som en specifik användare på arbetsytans kontrollpaneler
 
@@ -35,22 +51,6 @@ Nu kan du konfigurera rapporter på arbetsytans kontrollpaneler så att de körs
 Detta ger enhetligare och tillförlitligare data i olika kontrollpanelsvisningsprogram, även när åtkomst till planeringsarbetsytor, posttyper eller auktoriseringsinställningar skiljer sig åt.
 
 Mer information finns i [Skapa en KPI-rapport på en Canvas-kontrollpanel](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md), [Skapa en diagramrapport på en Canvas-kontrollpanel](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) eller [Skapa en tabellrapport på en Canvas-kontrollpanel](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
-
-## Schemalagd rapportleverans stöder nu länkbaserade e-postmeddelanden
-
->[!NOTE]
->
->Förhandsgranska: 2 april 2026
->Production fast release: 15 april 2026
->Produktion för alla: 16 april 2026
-
-Workfront innehåller nu en ny typ av länkleverans för schemalagda rapporter. I stället för att generera och bifoga en fil, skickar det här alternativet ett e-postmeddelande med en direktlänk till rapporten i Workfront, så att mottagarna kan visa de data som är mest aktuella i programmet.
-
-Alternativet Länka är nu standardleveranstyp för nya leveransregler för schemalagda rapporter, medan befintliga filbaserade format (HTML, PDF, Excel och TSV) fortfarande är tillgängliga.
-
-Med den här förändringen har vi även uppdaterat utseendet och känslan i e-postmeddelandet för rapportleverans.
-
-Mer information finns i [Schemalägg en automatisk rapportleverans](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
 
 ## Nya autentiseringsalternativ för dataanslutning
 
