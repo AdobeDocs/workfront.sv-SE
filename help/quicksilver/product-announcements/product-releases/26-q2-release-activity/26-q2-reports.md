@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 1a37ff7e4e4b60ac23b0edde6b60258ed508e90b
+source-git-commit: 1ef6ead705231a41cbf62b8a8b35f480da004970
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '872'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,29 @@ Den här sidan beskriver rapportförbättringar som gjorts i den andra utgåvan 
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den andra utgåvan av kvartal 2026 finns i [Översikt över den andra utgåvan av kvartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+## Aktuellt versionsfält för dokumentversioner
+
+>[!NOTE]
+>
+>Förhandsgranska: 2 april 2026
+>Production fast release: 15 april 2026
+>Produktion för alla: 16 april 2026
+
+Vi har lagt till ett `currentVersion` booleskt fält i dokumentversionsobjektet för att göra det enklare att identifiera och rapportera om den senaste versionen av ett dokument.
+Med den här uppdateringen:
+
+* Du kan använda `currentVersion` i filter, vyer, grupperingar och diagram.
+* Fältet är tillgängligt i arbetsytans fältväljare för dokumentversionsrapporter.
+
+* När en ny version har överförts:
+
+   * Den nya versionen är markerad som `TRUE`
+   * Tidigare versioner har markerats som `FALSE`
+
+* Rapporterna kan konsekvent identifiera aktuella versioner på arbetsytans kontrollpaneler och äldre rapporter
+
+Befintliga filter för klassiska rapporter som använder `isCurrentVersion` eller `isDocumentCurrentVersion` fortsätter att fungera som dokumenterat.
+
 ## Schemalagd rapportleverans stöder nu länkbaserade e-postmeddelanden
 
 >[!NOTE]
@@ -28,7 +51,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 >Production fast release: 15 april 2026
 >Produktion för alla: 16 april 2026
 
-Workfront innehåller nu en ny typ av länkleverans för schemalagda rapporter. I stället för att generera och bifoga en fil, skickar det här alternativet ett e-postmeddelande med en direktlänk till rapporten i Workfront, så att mottagarna kan visa de data som är mest aktuella i programmet.
+Workfront innehåller nu en ny typ av länkleverans för schemalagda rapporter. I stället för att generera och bifoga en fil skickar det här alternativet ett e-postmeddelande som innehåller en direktlänk till rapporten i Workfront, vilket gör att mottagarna kan visa {{$include }} de senaste data som finns i programmet.
 
 Alternativet Länka är nu standardleveranstyp för nya leveransregler för schemalagda rapporter, medan befintliga filbaserade format (HTML, PDF, Excel och TSV) fortfarande är tillgängliga.
 
