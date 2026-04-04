@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 64ee7798e79324af0ab48af91f49d04d94ece3a9
+source-git-commit: 551f316bcfd5e0a1390e7be4679e06cd6808e969
 workflow-type: tm+mt
-source-wordcount: '13913'
+source-wordcount: '13917'
 ht-degree: 0%
 
 ---
@@ -1863,6 +1863,7 @@ ht-degree: 0%
    * [Enhetlig översikt över granskning och godkännande](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
    * [Kom igång med enhetlig granskning och godkännande](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
    * [Begränsat dokument och bevisbeslut för obetalda användare - översikt](review-and-approve-work/proof-doc-decision-limits.md)
+   * [Konfigurera AI-granskare](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
    * Arbetsgodkännanden {#work-approvals}
       * [Arbetsgodkännanden](review-and-approve-work/manage-approvals/manage-approvals.md)
       * [Översikt över godkännandeprocessen](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
