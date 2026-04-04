@@ -163,7 +163,7 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 1. Navigera till en lista med objekt.
 1. Markera flera objekt i listan.
 
-1. Klicka på menyn **Mer** ![Mer](assets/more-icon.png) och klicka sedan på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) .
+1. Klicka på menyn **Mer** ![Mer](assets/more-icon.png) och klicka sedan på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) .
 
    eller
 

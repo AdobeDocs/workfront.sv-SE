@@ -60,7 +60,7 @@ Håll ordning på ditt material med en tydlig, visuell kalender. Med Prioritetsk
  </tbody> 
 </table>
 
-[](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
+[&#128279;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
 
 +++
 
@@ -157,5 +157,5 @@ Prioriteter visar arbetsuppgifter som tilldelats dig. Det går inte att se arbet
 1. På fliken **Stapelstil** väljer du upp till 5 fält som ska visas i arbetsobjektsfältet i kalendern.
    ![exempelfält](assets/sample-task-for-field-config.png)
 
-1. **** ****
+1. **&#x200B;**&#x200B;**&#x200B;**
    ![](assets/sample-calendar-projects.png)

@@ -94,7 +94,7 @@ Följande användare kan ta bort utkast av begäranden:
 
       Mer information om widgeten **Mina förfrågningar** finns i [Använd widgeten Mina förfrågningar](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
-1. I listan **Förfrågningar** eller widgeten **Mina förfrågningar** i **Hem** håller du muspekaren över den förfrågan eller det utkast som du vill ta bort och klickar sedan på menyn **Mer** ![Mer ](assets/more-menu.png) .
+1. I listan **Förfrågningar** eller widgeten **Mina förfrågningar** i **Hem** håller du muspekaren över den förfrågan eller det utkast som du vill ta bort och klickar sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) .
 
 1. Klicka på **Ta bort**
 

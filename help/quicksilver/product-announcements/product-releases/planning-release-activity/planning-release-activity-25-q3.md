@@ -30,7 +30,7 @@ En lista över alla funktioner som släppts för Adobe Workfront Planning finns 
 >
 >Förhandsgranska: 10 juli 2025
 >Produktion för alla: 10 juli 2025
->[!BADGE Frånschemat ]{type=Neutral}
+>[!BADGE Frånschemat &#x200B;]{type=Neutral}
 
 
 Fliken Avancerade inställningar har uppdaterats när en posttyp skapas eller redigeras.
@@ -48,7 +48,7 @@ Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architectur
 >
 >Förhandsgranska: 10 juli 2025
 >Produktion för alla: 10 juli 2025
->[!BADGE Frånschemat ]{type=Neutral}
+>[!BADGE Frånschemat &#x200B;]{type=Neutral}
 
 Nu när du lägger till ett team i en arkivkommentar i Workfront Planning får alla teammedlemmar både ett meddelande i appen och ett e-postmeddelande om kommentaren. Före den här förbättringen meddelades endast användare som lagts till i kommentarer individuellt.
 
@@ -151,7 +151,7 @@ Mer information finns i [Hantera tabellvyn](/help/quicksilver/planning/views/man
 >
 >* Förhandsgranska: 26 juni 2025
 >* Produktion för alla: 26 juni 2025
->[!BADGE Frånschemat ]{type=Neutral}
+>[!BADGE Frånschemat &#x200B;]{type=Neutral}
 
 När du kopplar posttyper och infogar ett formelfält som en sökning kan du nu använda sammanställningsfunktionerna (SUM, AVERAGE, MIN, MAX osv.) beroende på formelfältets format. Om t.ex. formelfältet är numeriskt kan du använda funktioner som SUM eller AVG. Om formelfältet är formaterat som text används inte sammanställningsfunktioner som SUM.
 
@@ -187,7 +187,7 @@ Mer information finns i [Aktivera anpassade kvartal för projekt](/help/quicksil
 >
 >* Förhandsgranska: 12 juni 2025
 >* Produktion för alla: 12 juni 2025
->[!BADGE Frånschemat ]{type=Neutral}
+>[!BADGE Frånschemat &#x200B;]{type=Neutral}
 
 Vi har infört en förbättring som uppdaterar alla formelfält som är beroende av varandra samtidigt efter att ett refererat fält har uppdaterats manuellt. Formelfält som är 2, 3 eller 4 fält från fältet vars värde ändras manuellt och som refererar till varandra uppdateras nu automatiskt samtidigt.
 
@@ -201,7 +201,7 @@ Mer information finns i [Översikt över formelfält](/help/quicksilver/planning
 >
 >* Förhandsgranskning: 6 juni 2025
 >* Produktion för alla kunder: 6 juni 2025
->[!BADGE Frånschemat ]{type=Neutral}
+>[!BADGE Frånschemat &#x200B;]{type=Neutral}
 
 Vi har lagt till följande uttryck i formelfält:
 
