@@ -6,7 +6,9 @@ description: Du kan anpassa vilken typ av information som visas på skärmen med
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 0%
@@ -70,7 +72,7 @@ Du kan skapa en ny standardvy eller anpassa en befintlig standardvy som du skapa
 
 1. Klicka på knappen **+ Ny vy** för att skapa en ny vy.
 eller
-Klicka på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) som visas i muspekaren till höger om en befintlig vy som du vill redigera.
+Klicka på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) som visas i muspekaren till höger om en befintlig vy som du vill redigera.
 Dialogrutan **Anpassa vy** visas.
 
 1. Gör något av följande i avsnittet **Förhandsvisa kolumn**:
@@ -168,7 +170,8 @@ De är förkonfigurerade, men du kan ändra vissa inställningar för dem.
 
 Mer information om Agile- och Board-vyer finns i artikeln [Hantera ett Agile-projekt i styrelsvyn](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
-<!-- Legacy Agile views were deprecated with 25.3. This is old: 
+<!--
+ Legacy Agile views were deprecated with 25.3. This is old: 
 
 >[!NOTE]
 >

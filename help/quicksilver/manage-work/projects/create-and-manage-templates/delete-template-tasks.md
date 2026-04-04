@@ -7,10 +7,12 @@ description: Du kan ta bort en malluppgift om den inte längre behövs. Borttagn
 author: Alina
 feature: Work Management
 exl-id: dd733e9f-8045-4b65-828b-fe6aa40d973f
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -55,7 +57,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -79,7 +82,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
    <td> <p>Manage permissions for a template.</p> <p>You cannot share a template task.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Ta bort en malluppgift
 
@@ -90,7 +94,7 @@ Du kan ta bort en eller flera malluppgifter gruppvis.
 1. Klicka på namnet på en mall för att öppna den.
 1. Klicka på **Malluppgifter** i den vänstra panelen.
 1. Gör något av följande:
-   * Klicka på namnet på en malluppgift i listan för att öppna malluppgiften > klicka på menyn **Mer** ![Mer &#x200B;](assets/more-icon.png) > **Ta bort malluppgift**.
+   * Klicka på namnet på en malluppgift i listan för att öppna malluppgiften > klicka på menyn **Mer** ![Mer ](assets/more-icon.png) > **Ta bort malluppgift**.
    * Välj en eller flera mallåtgärder i listan > **Ta bort** ikon ![Ta bort ikon](assets/delete.png) .
 
    Rutan **Ta bort mallaktivitet** öppnas.

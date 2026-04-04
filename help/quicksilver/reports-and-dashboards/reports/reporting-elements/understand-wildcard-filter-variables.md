@@ -7,7 +7,9 @@ description: Genom att använda jokertecken i filter kan du referera till en all
 author: Courtney
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1439'
 ht-degree: 0%
@@ -18,12 +20,14 @@ ht-degree: 0%
 
 <!-- Audited: 11/2024 -->
 
-<!--(NOTE: This article is linked to the training self-serve promoted articles for user-based and date-based wildcards (how-to articles). This serves as the "overview/ reference" article for those articles. Consider renaming this when that is allowed.)
+<!--
+(NOTE: This article is linked to the training self-serve promoted articles for user-based and date-based wildcards (how-to articles). This serves as the "overview/ reference" article for those articles. Consider renaming this when that is allowed.)
 (NOTE: Alina: ***&gt;&gt;Linked in other articles - do not move/ delete.
 This was included but it is not supported???:
 The $$USER.roleIDs variable refers to all the job roles that are associated with the logged-in user. Using this variable, you can&nbsp; items assigned to all of the job roles associated with the logged-in user.
 For example, if you want to display tasks assigned to any of the job roles associated with the logged-in user, you can use the following filter rule in a task filter:
-AssignedToID Equals $$USER.roleIDs.)-->
+AssignedToID Equals $$USER.roleIDs.)
+-->
 
 Med jokertecken kan du referera till en allmän användare eller ett allmänt datum i stället för en specifik användare eller ett specifikt datum. På så sätt är elementen som du skapar dynamiska. Resultatet ändras beroende på i vilket sammanhang de används.
 
@@ -128,9 +132,11 @@ Du kan välja mellan följande användarbaserade variabler:
  <tbody> 
   <tr valign="top"> 
    <td width="200" role="rowheader"> <p><strong>$$USER.ID</strong> </p> </td> 
-   <td> <!--
+   <td>
+   <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: : should these be formatted with code?!) </p>
-    --> <p>Den vanligaste användarbaserade variabeln är $$USER.ID. Detta returnerar alltid den inloggade användarens ID. Detta är det ID som används för att identifiera vilken användare som har skapat varje objekt och deras arbetstilldelningar.</p> <p>När jokertecknet används i rapporter minskar det antalet rapporter som du behöver skapa i systemet. Du kan skapa en rapport och dela den med flera användare, och resultatet ändras baserat på den användare som är inloggad och tittar på rapporten.</p> <p>Om du till exempel vill skapa en rapport för alla utgåvor som tilldelats den användare som är inloggad, kan du använda följande regel i ett utgivningsfilter: <em>Tilldelad till ID är lika med $$USER.ID</em>.</p> <p>Workfront använder den här variabeln i följande inbyggda filter:</p> 
+    -->
+    <p>Den vanligaste användarbaserade variabeln är $$USER.ID. Detta returnerar alltid den inloggade användarens ID. Detta är det ID som används för att identifiera vilken användare som har skapat varje objekt och deras arbetstilldelningar.</p> <p>När jokertecknet används i rapporter minskar det antalet rapporter som du behöver skapa i systemet. Du kan skapa en rapport och dela den med flera användare, och resultatet ändras baserat på den användare som är inloggad och tittar på rapporten.</p> <p>Om du till exempel vill skapa en rapport för alla utgåvor som tilldelats den användare som är inloggad, kan du använda följande regel i ett utgivningsfilter: <em>Tilldelad till ID är lika med $$USER.ID</em>.</p> <p>Workfront använder den här variabeln i följande inbyggda filter:</p>
     <ul> 
      <li>Mina rapporter</li> 
      <li>Mina projekt</li> 

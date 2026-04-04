@@ -7,7 +7,9 @@ description: Översikt över arbetsinsats
 author: Alina
 feature: Work Management
 exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1488'
 ht-degree: 0%
@@ -38,11 +40,13 @@ Som projektledare kan du bestämma hur du vill beräkna hur mycket arbete som kr
   </tr> 
   <tr> 
    <td role="rowheader">Arbetsinsats </td> 
-   <td> <p>En manuell etikett som definierar om det tar en användare en liten, medelstor eller stor del av det dagliga arbetet att slutföra en uppgift. <!--
+   <td> <p>En manuell etikett som definierar om det tar en användare en liten, medelstor eller stor del av det dagliga arbetet att slutföra en uppgift.
+   <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
        The level of effort is estimated to be a percentage of the daily amount of working time. (NOTE: keep this drafted. Vazgen said it's not needed, but waiting for feedback from users)
       </MadCap:conditionalText>
-     --> </p> <p>Tänk på följande när det gäller arbetsinsats:</p> 
+     -->
+     </p> <p>Tänk på följande när det gäller arbetsinsats:</p>
     <ul> 
      <li>Det här fältet är bara tillgängligt för uppgifter med en enkel varaktighetstyp. </li> 
      <li>Du kan aktivera användningen av den här etiketten och definiera den procentandel av arbetstiden som är associerad med den på projektnivå. </li> 
@@ -90,7 +94,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -116,7 +121,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
    <td> <p>Manage permissions to a project and its tasks</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Att tänka på vid användning av Arbetsinsats
 

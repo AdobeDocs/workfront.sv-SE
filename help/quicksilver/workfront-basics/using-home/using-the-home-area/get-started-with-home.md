@@ -6,7 +6,9 @@ description: Home hjälper dig att hantera ditt arbete. Du kan anpassa det här 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 0%
@@ -17,9 +19,11 @@ ht-degree: 0%
 
 <!--Audited: 12/2023-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 >[!IMPORTANT]
 >
@@ -146,7 +150,7 @@ Du kan lägga till lite personlig överstrålning på hemsidan genom att välja 
 
 1. Gå till hemsidan genom att göra något av följande:
 
-   * Om Hem är inställt som landningssida klickar du på ikonen **Adobe Workfront** ![Adobe Workfront &#x200B;](assets/home-icon-30x29.png) i skärmens övre vänstra hörn.
+   * Om Hem är inställt som landningssida klickar du på ikonen **Adobe Workfront** ![Adobe Workfront ](assets/home-icon-30x29.png) i skärmens övre vänstra hörn.
    * Klicka på ikonen **Huvudmeny** i det övre högra hörnet av skärmen eller på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre vänstra hörnet, om den är tillgänglig, och klicka sedan på **Hem** .
 
 1. Klicka på **Anpassa** längst upp till höger på skärmen.

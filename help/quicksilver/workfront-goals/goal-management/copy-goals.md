@@ -6,7 +6,9 @@ description: Du kan kopiera mål i Adobe Workfront-mål för att skapa ett mål.
 author: Alina
 feature: Workfront Goals
 exl-id: 690a6030-ee29-4e50-869f-cd014050b364
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 0%
@@ -73,7 +75,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto">
 <col>
@@ -126,7 +129,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Att tänka på när du kopierar mål
 
@@ -259,7 +263,7 @@ To copy goals in the Production environment:
    >
    >Om du inte har kopierat resultaten från det ursprungliga målet måste du först koppla det nya målet till en förloppsindikator innan du kan aktivera det och börja arbeta mot att uppnå det.
    >Mer information om hur du associerar mål med förloppsindikatorer finns i följande artiklar:
-   >* [Lägg till resultat i mål i Adobe Workfront &#x200B;](../results-and-activities/add-results-to-goals.md)
+   >* [Lägg till resultat i mål i Adobe Workfront ](../results-and-activities/add-results-to-goals.md)
    >* [Lägg till aktiviteter i mål i Adobe Workfront-mål](../results-and-activities/add-activities-to-goals.md)
    >* [Justera mål genom att ansluta dem i Adobe Workfront-mål](../goal-alignment/align-goals-by-connecting-them.md)
    >

@@ -5,7 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: e82c1a122f7a11fda2210de75c5f62c5fbaa35f0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1875'
 ht-degree: 0%
@@ -19,9 +21,11 @@ Den här sidan innehåller information om de funktioner som ingår i den tredje 
 Förbättringarna på den här sidan är tillgängliga i förhandsvisningsmiljön. Den här sidan kommer att uppdateras med ytterligare förbättringar eftersom utgåvan för tredje kvartalet 2025 närmar sig den planerade produktionsutgåvan.
 
 
-<!-- Keep commented until Final Preview release.
+<!--
+ Keep commented until Final Preview release.
 
-The <add release> release webinar will be held on <date>. You can [register for the webinar here <get link from product ops>. -->
+The <add release> release webinar will be held on <date>. You can [register for the webinar here <get link from product ops>.
+-->
 
 >[!IMPORTANT]
 >
@@ -54,7 +58,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td><strong>Funktion</strong>
         </td>
-        <td><strong>Förhandsgranska</strong></td>
+        <td><strong>Förhandsgranskning</strong></td>
         <td><strong>Snabb release</strong></td>
         <td><strong>kvartalsvis</strong></td>
     </tr>
@@ -135,7 +139,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td><strong>Funktion</strong>
         </td>
-        <td><strong>Förhandsgranska</strong></td>
+        <td><strong>Förhandsgranskning</strong></td>
         <td><strong>Snabb release</strong></td>
         <td><strong>kvartalsvis</strong></td>
     </tr>
@@ -182,7 +186,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td><strong>Funktion</strong>
         </td>
-        <td><strong>Förhandsgranska</strong></td>
+        <td><strong>Förhandsgranskning</strong></td>
         <td><strong>Snabb release</strong></td>
         <td><strong>kvartalsvis</strong></td>
     </tr>
@@ -251,7 +255,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td><strong>Funktion</strong>
         </td>
-        <td><strong>Förhandsgranska</strong></td>
+        <td><strong>Förhandsgranskning</strong></td>
         <td><strong>Snabb release</strong></td>
         <td><strong>kvartalsvis</strong></td>
     </tr>
@@ -284,7 +288,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td><strong>Funktion</strong>
         </td>
-        <td><strong>Förhandsgranska</strong></td>
+        <td><strong>Förhandsgranskning</strong></td>
         <td><strong>Snabb release</strong></td>
         <td><strong>kvartalsvis</strong></td>
     </tr>
@@ -349,7 +353,7 @@ Vi uppdaterar gränssnittet i hela Adobe Workfront för att förbättra använda
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Förbättringar av Workfront Planning
 
@@ -387,15 +391,16 @@ Mer information om API-versioner finns i [API-versionshantering och supportschem
 
 ### Underhållsuppdateringar för Workfront
 
-Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=sv-SE).
+Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan &#x200B;](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=sv-SE).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
 
 
 
-<!-- HTML you might need
+<!--
+ HTML you might need
 
 New table
 

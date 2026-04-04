@@ -6,7 +6,9 @@ description: Du kan uppdatera status för ett projekt manuellt till en annan sta
 author: Alina
 feature: Work Management
 exl-id: 80098514-fd44-436d-836b-bd9c1b52b3a9
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 0%
@@ -59,7 +61,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 +++
 
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -85,7 +88,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
    <td> <p>Manage permissions on the project</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Att tänka på när du uppdaterar till specifika statusar
 
@@ -101,6 +105,6 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 
    eller
 
-   Klicka på menyn **Mer** ![Mer &#x200B;](assets/qs-more-menu.png) bredvid namnet på projektet och klicka på **Redigera** och välj en ny status i fältet **Status**. Klicka sedan på **Spara**.
+   Klicka på menyn **Mer** ![Mer ](assets/qs-more-menu.png) bredvid namnet på projektet och klicka på **Redigera** och välj en ny status i fältet **Status**. Klicka sedan på **Spara**.
 
    Projektstatusen uppdateras till den valda statusen.

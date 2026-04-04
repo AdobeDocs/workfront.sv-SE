@@ -8,7 +8,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 0%
@@ -185,14 +187,16 @@ Din [!DNL SharePoint]-klienthemlighet går ut en gång om året. För att säker
 >
 > Eftersom [!DNL SharePoint]-klienthemligheter hanteras av [!DNL Microsoft] kan funktioner och procedurer för klienthemlighet ändras baserat på uppdateringar av [!DNL SharePoint] som gjorts av [!DNL Microsoft]. Kontrollera alltid [!DNL Microsoft]-dokumentationen för att få den senaste informationen om procedurer och funktioner i [!DNL SharePoint].
 
-<!--1. Go to the site that your [!DNL SharePoint] integration uses. This may be a site that you created when setting up the integrations, or it may be your organization's root site.
+<!--
+1. Go to the site that your [!DNL SharePoint] integration uses. This may be a site that you created when setting up the integrations, or it may be your organization's root site.
 
-1. Add `/_layouts/15/appregnew.aspx` to the end of the URL in the search bar at the top of your browser window.-->
+1. Add `/_layouts/15/appregnew.aspx` to the end of the URL in the search bar at the top of your browser window.
+-->
 
 1. Generera en ny klienthemlighet enligt beskrivningen i [Ersätt en utgående klienthemlighet i ett  [!DNL SharePoint] tillägg](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret).
 1. Kopiera den här klienthemligheten till en säker plats.
 1. Logga in på [!DNL Workfront] som administratör.
-1. I Workfront klickar du på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klickar du på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och sedan på ikonen **[!UICONTROL Setup]** ![Konfigurera &#x200B;](/help/_includes/assets/gear-icon-setup.png) .
+1. I Workfront klickar du på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klickar du på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och sedan på ikonen **[!UICONTROL Setup]** ![Konfigurera ](/help/_includes/assets/gear-icon-setup.png) .
 1. Klicka på **[!UICONTROL Documents]** > **[!UICONTROL [!DNL SharePoint] Integration]** i den vänstra panelen.
 1. Klicka på den [!DNL SharePoint]-integrering som du vill uppdatera och klicka sedan på **[!UICONTROL Edit]**.
 1. Leta reda på avsnittet **Anslutningsinformation** i redigeringsfönstret och ange sedan den nya klienthemligheten i fältet **[!UICONTROL SharePoint Client Secret]**.
@@ -483,7 +487,8 @@ Om du vill visa en webbplatssamling i [!DNL Workfront] måste följande villkor 
 
   Kontrollera webbplatssamlingens behörigheter i SharePoint om du vill verifiera detta i [!DNL SharePoint].
 
-<!--* The [!DNL SharePoint] Site App must have access to the site collection.
+<!--
+* The [!DNL SharePoint] Site App must have access to the site collection.
 
   To verify this in [!DNL SharePoint]:
 
@@ -511,4 +516,5 @@ Mer information om hur du länkar mappar från externa leverantörer finns i [L�
 
 #### Solution:
 
-This error might occur if one of the sites configured in the [!UICONTROL Visible Site Collections] list has been deleted in Sharepoint. Check the [!UICONTROL Visible Site Collections] list, and remove any sites that have been deleted in Sharepoint.-->
+This error might occur if one of the sites configured in the [!UICONTROL Visible Site Collections] list has been deleted in Sharepoint. Check the [!UICONTROL Visible Site Collections] list, and remove any sites that have been deleted in Sharepoint.
+-->

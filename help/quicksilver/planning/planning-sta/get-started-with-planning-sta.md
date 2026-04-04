@@ -4,14 +4,17 @@ description: I den här artikeln beskrivs hur du kan dra nytta av den friståend
 hidefromtoc: true
 hide: true
 exl-id: 99ebed04-0440-4990-a122-4d29f73c2201
-source-git-commit: bddf24f667f0538786caf0b19af75d0adf99da91
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%
 
 ---
 
-<!--Update metadata with this at release:
+<!--
+Update metadata with this at release:
 
 ---
 title: Get Started with Planning Standalone
@@ -25,13 +28,15 @@ recommendations: noDisplay, noCatalog
 
 # Kom igång med Adobe Planning Standalone
 
-<!--I think we will need to delete this folder and just use the Planning existing folder with all capabilities to speak about Planning; then, we'll speak about WF proper as a third party application (like GenS and AEM etc)>
+<!--
+I think we will need to delete this folder and just use the Planning existing folder with all capabilities to speak about Planning; then, we'll speak about WF proper as a third party application (like GenS and AEM etc)>
 
 This article describes how you can benefit from using the standalone version of Adobe Workfront Planning.
 
 ## How your company can acquire an Adobe Workfront Standalone Planning license
 
-Whether you are an Adobe Workfront customer or not, you can speak with your Adobe account representation about a Workfront Planning Standalone license. <!--do people HAVE to be WF or Adobe customers at all, or can anyone buy this?-->
+Whether you are an Adobe Workfront customer or not, you can speak with your Adobe account representation about a Workfront Planning Standalone license. -do people HAVE to be WF or Adobe customers at all, or can anyone buy this?
+-->
 
 ## Integrerade eller fristående Workfront Planning-versioner
 

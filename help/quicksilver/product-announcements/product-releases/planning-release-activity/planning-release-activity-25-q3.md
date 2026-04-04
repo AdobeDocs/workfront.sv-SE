@@ -7,7 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 9d5249e5587a4291dc9020d456a320da4cdbb8f1
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2267'
 ht-degree: 0%
@@ -27,8 +29,8 @@ En lista över alla funktioner som släppts för Adobe Workfront Planning finns 
 >[!NOTE]
 >
 >Förhandsgranska: 10 juli 2025
->&#x200B;>Produktion för alla: 10 juli 2025
->&#x200B;>[!BADGE Frånschemat &#x200B;]{type=Neutral}
+>Produktion för alla: 10 juli 2025
+>[!BADGE Frånschemat ]{type=Neutral}
 
 
 Fliken Avancerade inställningar har uppdaterats när en posttyp skapas eller redigeras.
@@ -45,8 +47,8 @@ Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architectur
 >[!NOTE]
 >
 >Förhandsgranska: 10 juli 2025
->&#x200B;>Produktion för alla: 10 juli 2025
->&#x200B;>[!BADGE Frånschemat &#x200B;]{type=Neutral}
+>Produktion för alla: 10 juli 2025
+>[!BADGE Frånschemat ]{type=Neutral}
 
 Nu när du lägger till ett team i en arkivkommentar i Workfront Planning får alla teammedlemmar både ett meddelande i appen och ett e-postmeddelande om kommentaren. Före den här förbättringen meddelades endast användare som lagts till i kommentarer individuellt.
 
@@ -57,8 +59,8 @@ Mer information finns i Hantera postkommentarer [Hantera postkommentarer](/help/
 >[!NOTE]
 >
 >Förhandsgranska: 10 juli 2025
->&#x200B;>Production fast release: 14 augusti 2025
->&#x200B;>Produktion för alla: 16 oktober 2025
+>Production fast release: 14 augusti 2025
+>Produktion för alla: 16 oktober 2025
 
 
 När du har använt grupperingar i en tabellvy fylls de fält som är kopplade till de grupperingar du lägger till posten i automatiskt i när du lägger till en post i tabellen.
@@ -74,7 +76,7 @@ Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create
 >[!NOTE]
 >
 >Förhandsgranska: 9 juli 2025
->&#x200B;>Produktion för alla: 17 juli 2025
+>Produktion för alla: 17 juli 2025
 
 Nu kan du dela en vy samt en posttyp från samma knapp på posttypens sida. Före den här förbättringen kunde du bara dela posttypen från knappen Dela på posttypssidan och en vy från vyfliken.
 
@@ -84,7 +86,8 @@ Mer information finns i följande artiklar:
 
 * [Dela posttyper](/help/quicksilver/planning/access/share-record-types.md)
 
-<!--## Add teams as approvers on Planning request forms
+<!--
+## Add teams as approvers on Planning request forms
 
 >[!NOTE]
 >
@@ -95,7 +98,8 @@ To make the approval process more flexible, we've added the ability to add teams
 
 Previously, only individual users could be assigned as approvers. 
 
-For more information, see [Add an approval to a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).-->
+For more information, see [Add an approval to a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+-->
 
 ## Uppdaterad upplevelse vid delning av begärandeformulär
 
@@ -120,7 +124,7 @@ För att göra upplevelsen av att dela ett begärandeformulär i Workfront Plann
 * Vi har tagit bort alternativen för att hantera och bidra för användare som du delar frågeformuläret med. Nu kan tillagda användare bara skicka formuläret.
 * Fliken för offentlig delning visar nu fältet för länk och förfallodatum när alternativet Skapa offentlig länk har aktiverats.
 
-Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](https://experienceleague.adobe.com/sv/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
+Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Expandera och komprimera alla grupperingar i tabellvyn
 
@@ -147,7 +151,7 @@ Mer information finns i [Hantera tabellvyn](/help/quicksilver/planning/views/man
 >
 >* Förhandsgranska: 26 juni 2025
 >* Produktion för alla: 26 juni 2025
->  &#x200B;>[!BADGE Frånschemat &#x200B;]{type=Neutral}
+>[!BADGE Frånschemat ]{type=Neutral}
 
 När du kopplar posttyper och infogar ett formelfält som en sökning kan du nu använda sammanställningsfunktionerna (SUM, AVERAGE, MIN, MAX osv.) beroende på formelfältets format. Om t.ex. formelfältet är numeriskt kan du använda funktioner som SUM eller AVG. Om formelfältet är formaterat som text används inte sammanställningsfunktioner som SUM.
 
@@ -183,7 +187,7 @@ Mer information finns i [Aktivera anpassade kvartal för projekt](/help/quicksil
 >
 >* Förhandsgranska: 12 juni 2025
 >* Produktion för alla: 12 juni 2025
->  &#x200B;>[!BADGE Frånschemat &#x200B;]{type=Neutral}
+>[!BADGE Frånschemat ]{type=Neutral}
 
 Vi har infört en förbättring som uppdaterar alla formelfält som är beroende av varandra samtidigt efter att ett refererat fält har uppdaterats manuellt. Formelfält som är 2, 3 eller 4 fält från fältet vars värde ändras manuellt och som refererar till varandra uppdateras nu automatiskt samtidigt.
 
@@ -197,7 +201,7 @@ Mer information finns i [Översikt över formelfält](/help/quicksilver/planning
 >
 >* Förhandsgranskning: 6 juni 2025
 >* Produktion för alla kunder: 6 juni 2025
->  &#x200B;>[!BADGE Frånschemat &#x200B;]{type=Neutral}
+>[!BADGE Frånschemat ]{type=Neutral}
 
 Vi har lagt till följande uttryck i formelfält:
 
@@ -339,7 +343,7 @@ Före den här förbättringen måste användare med alla licensnivåer tilldela
 >[!NOTE]
 >
 >Den här ändringen är synlig för alla nya och befintliga användare med en systemadministratör och en standardlicens.
->&#x200B;>Befintliga användare som tilldelats en layoutmall kommer även fortsättningsvis att se allt enligt inställningarna som definierats i layoutmallen.
+>Befintliga användare som tilldelats en layoutmall kommer även fortsättningsvis att se allt enligt inställningarna som definierats i layoutmallen.
 
 Mer information finns i [Översikt över Adobe Workfront-planering](/help/quicksilver/planning/access/access-overview.md).
 

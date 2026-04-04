@@ -6,7 +6,9 @@ description: Du kan koppla ditt arbete till ditt innehåll i  [!DNL Experience M
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 315428ec517b3a6c0edae387b3a866093a49a2b2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1669'
 ht-degree: 0%
@@ -122,7 +124,7 @@ Innan du börjar mappa metadatafält måste du konfigurera metadatafält i både
 
 Konfigurera metadatafält:
 
-1. Konfigurera ett metadataschema i [!DNL Experience Manager Assets] enligt beskrivningen i [Konfigurera metadatamappning för resurser mellan Adobe [!DNL Workfront]  och [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+1. Konfigurera ett metadataschema i [!DNL Experience Manager Assets] enligt beskrivningen i [Konfigurera metadatamappning för resurser mellan Adobe [!DNL Workfront]  och [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. Konfigurera anpassade formulärfält i Workfront. [!DNL Workfront] har många inbyggda anpassade fält som du kan använda. Du kan även skapa egna anpassade fält enligt beskrivningen i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
@@ -152,7 +154,7 @@ Du kan mappa ett fält som stöds av Workfront till en tagg i Experience Manager
 
 När du har skapat taggarna i Experience Manager Assets visas de i listrutan Taggar i avsnittet Metadata. Om du vill länka ett fält till en tagg väljer du `xcm:keywords` i listrutan Experience Manager Assets i metadatamappningsområdet.
 
-Mer information om taggar i Experience Manager Assets, inklusive hur du skapar och hanterar taggar, finns i [Administrera taggar](https://experienceleague.adobe.com/sv/docs/experience-manager-64/administering/contentmanagement/tags).
+Mer information om taggar i Experience Manager Assets, inklusive hur du skapar och hanterar taggar, finns i [Administrera taggar](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags).
 
 **Anpassade metadataschfält för Experience Manager Assets**
 
@@ -239,7 +241,8 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 >Users must have write access in [!DNL Experience Manager] for assets living in the object in order for the metadata to sync when it's updated.
 
 1. Enable the **[!UICONTROL Sync object metadata]** field.
-1. Click **Save** or move on to the [Set up workflows (Optional)](#set-up-workflows-optional) section in this article.-->
+1. Click **Save** or move on to the [Set up workflows (Optional)](#set-up-workflows-optional) section in this article.
+-->
 
 ## Ställa in arbetsflöden (valfritt)
 
@@ -278,8 +281,8 @@ Du kan skapa upp till 100 länkade mappar per mappträd.
       >   `/`, `:`, `[`, `]`, `|`, `*`
 
    1. Om du vill lägga till en kapslad mapp i mappträdet klickar du på menyn med tre punkter bredvid mappen som du vill skapa en kapslad mapp i och väljer **Lägg till mapp**. Fyll i fälten enligt beskrivningen i Stega föregående steg.
-   1. Om du vill länka en mapp till Workfront markerar du mappen och klickar på **Skapa länkad mapp**   ikon ![Länk &#x200B;](assets/link-folder.png) .
-   1. (Valfritt) Om du vill redigera en mapp markerar du mappen och klickar på ikonen **Redigera mapp** ![Redigera &#x200B;](assets/edit-icon.png) .
+   1. Om du vill länka en mapp till Workfront markerar du mappen och klickar på **Skapa länkad mapp**   ikon ![Länk ](assets/link-folder.png) .
+   1. (Valfritt) Om du vill redigera en mapp markerar du mappen och klickar på ikonen **Redigera mapp** ![Redigera ](assets/edit-icon.png) .
    1. (Valfritt) Om du vill ta bort en mapp markerar du mappen och klickar på ikonen **Ta bort mapp** ![Ta bort mapp](assets/delete-folder.png) .
 1. (Villkorligt) Om du vill lägga till ytterligare ett mappträd klickar du på **+ Lägg till mappträd** och följer stegen i steg 5.
 

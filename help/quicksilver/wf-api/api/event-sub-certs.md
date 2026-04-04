@@ -7,7 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 3606b6c3-b373-47ea-9cb5-813bd3af8da7
-source-git-commit: 0921cc0e45a0a845404df90fc8789efc764f5790
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
@@ -16,7 +18,8 @@ ht-degree: 0%
 
 # Konfigurera klient-TLS för händelseprenumeration
 
-<!--Configuring Client TLS for Event Subscription
+<!--
+Configuring Client TLS for Event Subscription
 Steps to Verify Workfront's Client Certificate
 Examples for Server configuration
 NGINX
@@ -103,7 +106,7 @@ Mer information finns i
 | WF-miljö | Certifikatets namn | Certifikatämne (DN) |
 | -- | -- | -- |
 | Produktion | *.prod.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.prod.eventsubscriptions.workfront.com |
-| Förhandsgranska | *.preview.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.preview.eventsubscriptions.workfront.com |
+| Förhandsgranskning | *.preview.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.preview.eventsubscriptions.workfront.com |
 | Sandlåda 1 | *.sandbox.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.sandbox.eventsubscriptions.workfront.com |
 | Sandlåda 2 | *.sandbox.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.sandbox.eventsubscriptions.workfront.com |
 

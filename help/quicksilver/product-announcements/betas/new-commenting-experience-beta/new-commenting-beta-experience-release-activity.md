@@ -9,7 +9,9 @@ hide: true
 hidefromtoc: true
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1870'
 ht-degree: 0%
@@ -24,7 +26,8 @@ ht-degree: 0%
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
 * <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
+-->
 
 
 >[!IMPORTANT]
@@ -317,19 +320,19 @@ Finns för kommentering av Beta och Workfront-mål som standard på följande da
 
 Följande underhållsuppdatering har släppts för att ge möjlighet att kommentera betaversioner och för att hitta mål:
 
-Redigera bifogade bilder när du redigerar en kommentar. Mer information finns i avsnittet &quot;Maintenance Update on April 27&quot; i artikeln &lt;a href=&quot;https://experienceleague.adobe.com/sv/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in April 2023</a>.
+Redigera bifogade bilder när du redigerar en kommentar. Mer information finns i avsnittet &quot;Maintenance Update on April 27&quot; i artikeln &lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in April 2023</a>.
 
 ### 20 april 2023
 
 Följande underhållsuppdatering har släppts för att ge möjlighet att kommentera betaversioner och för att hitta mål:
 
-Behåll bilder som utkast när du flyttar bort från en uppdatering för mål och för problem i kommenteringsbetaupplevelsen. Mer information finns i avsnittet &quot;Maintenance Update on April 20&quot; i artikeln &lt;a href=&quot;https://experienceleague.adobe.com/sv/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in April 2023</a>.
+Behåll bilder som utkast när du flyttar bort från en uppdatering för mål och för problem i kommenteringsbetaupplevelsen. Mer information finns i avsnittet &quot;Maintenance Update on April 20&quot; i artikeln &lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in April 2023</a>.
 
 ### 17 april 2023
 
 Följande underhållsuppdatering har släppts för att ge möjlighet att kommentera betaversioner och för att hitta mål:
 
-Visa nya kommentarer utanför det synliga skärmområdet i uppdateringsavsnittet för problem (nya kommentarer för Beta) och mål. Mer information finns i avsnittet &quot;Maintenance Update on April 17&quot; i artikeln &lt;a href=&quot;https://experienceleague.adobe.com/sv/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in April 2023</a>.
+Visa nya kommentarer utanför det synliga skärmområdet i uppdateringsavsnittet för problem (nya kommentarer för Beta) och mål. Mer information finns i avsnittet &quot;Maintenance Update on April 17&quot; i artikeln &lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in April 2023</a>.
 
 
 ### 6 april 2023

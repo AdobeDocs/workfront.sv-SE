@@ -8,7 +8,9 @@ author: Courtney
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 20bb4534-796c-48ac-b43e-85717fefe1bf
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%
@@ -29,6 +31,6 @@ Det här avsnittet innehåller följande artiklar:
 * [Hantera gränsen för pågående arbete (PIA) på [!UICONTROL Kanban] board](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)
 * [Ändra ordning på artiklar på [!UICONTROL Kanban] anslagstavlan](../../agile/use-kanban-in-an-agile-team/reorder-stories-on-the-kanban-board.md)
 * [Uppdatera status för artiklar på [!UICONTROL Kanban] board](../../agile/use-kanban-in-an-agile-team/update-the-status-of-stories.md)
-* [Använd flaggor i artiklar på [!UICONTROL Kanban] board &#x200B;](../../agile/use-kanban-in-an-agile-team/use-flags-on-stories.md)
+* [Använd flaggor i artiklar på [!UICONTROL Kanban] board ](../../agile/use-kanban-in-an-agile-team/use-flags-on-stories.md)
 * [Lägg till eftersläpningen i [!UICONTROL Kanban] board](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)
 * [Ta bort artiklar eller utgåvor från [!UICONTROL Kanban]-panelen](../../agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md)

@@ -5,7 +5,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 0%
@@ -84,7 +86,7 @@ Du måste aktivera meddelanden under Konfigurera i Workfront innan användare ka
 
    Mer information om hur du anpassar ämnesraderna i e-postmeddelanden finns i [Anpassa e-postämnen för händelsemeddelanden](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md).
 
-1. (Valfritt) Om du vill låsa upp konfigurationen för ett e-postmeddelande så att gruppadministratörer kan konfigurera den separat för sina grupper klickar du på knappen ![Lås &#x200B;](assets/lock-toggle-button.png) till höger om meddelandet för att växla till den olåsta positionen ![Lås upp &#x200B;](assets/unlock-toggle-button.png).
+1. (Valfritt) Om du vill låsa upp konfigurationen för ett e-postmeddelande så att gruppadministratörer kan konfigurera den separat för sina grupper klickar du på knappen ![Lås ](assets/lock-toggle-button.png) till höger om meddelandet för att växla till den olåsta positionen ![Lås upp ](assets/unlock-toggle-button.png).
 
    Mer information finns i [Lås upp eller låsa konfigurationen för händelsemeddelanden för alla grupper](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
 

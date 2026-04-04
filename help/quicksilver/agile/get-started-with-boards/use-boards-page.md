@@ -6,7 +6,9 @@ description: Kontrollpanelen [!UICONTROL boards] visar en lista med paneler som 
 author: Courtney
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 0%
@@ -110,7 +112,7 @@ När du arkiverar en styrelse eller ett arbetsflöde skickas det till arkivet oc
 
    Arkiverade objekt är dolda på panelens kontrollpanel såvida du inte använder ett filter för att visa dem. Mer information finns i avsnittet [[!UICONTROL Filter boards]](#filter-boards) i den här artikeln.
 
-1. Om du vill återställa ett arkiverat bord eller arbetsflöde klickar du på **[!UICONTROL More]**-menyikonen ![Mer &#x200B;](assets/more-icon-spectrum.png) på anslagstavlan eller i arbetsflödet och väljer **[!UICONTROL Restore]**.
+1. Om du vill återställa ett arkiverat bord eller arbetsflöde klickar du på **[!UICONTROL More]**-menyikonen ![Mer ](assets/more-icon-spectrum.png) på anslagstavlan eller i arbetsflödet och väljer **[!UICONTROL Restore]**.
 
 ## Ta bort en anslagstavla eller ett arbetsflöde
 
@@ -129,7 +131,8 @@ Om du tar bort ett arbetsflöde tas även alla ritytor i arbetsflödet bort.
 
 1. Klicka på **[!UICONTROL Delete board]** eller [!UICONTROL **Ta bort arbetsflöde**] i bekräftelsemeddelandet.
 
-<!-- ## Move a board to a workstream
+<!--
+ ## Move a board to a workstream
 
 You can move a standalone board into a workstream, or move a board from one workstream to another workstream.
 

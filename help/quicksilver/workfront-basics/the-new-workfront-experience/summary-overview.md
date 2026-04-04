@@ -5,7 +5,9 @@ description: Du kan använda panelen Sammanfattning för att granska och uppdate
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 0%
@@ -14,11 +16,13 @@ ht-degree: 0%
 
 # [!UICONTROL Summary] översikt
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span> -->
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+-->
 
 Du kan använda panelen [!UICONTROL Summary] för att granska och uppdatera information om arbetsobjekt direkt från en lista med uppgifter, utgåvor, dokument eller från andra områden i [!DNL Adobe Workfront] som visar uppgifter och problem.
 
@@ -101,7 +105,7 @@ I den här artikeln beskrivs hur du får åtkomst till och använder panelen [!U
 
 Mer information om hur du får åtkomst till [!UICONTROL Summary] i [!UICONTROL Workload Balancer] finns i [Uppdatera arbetsobjekt i [!UICONTROL Workload Balancer] med [!UICONTROL Summary]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
 
-Mer information om hur du får åtkomst till [!UICONTROL Summary] för dokument finns i [[!UICONTROL Summary] för dokumentöversikt &#x200B;](../../documents/managing-documents/summary-for-documents.md).
+Mer information om hur du får åtkomst till [!UICONTROL Summary] för dokument finns i [[!UICONTROL Summary] för dokumentöversikt ](../../documents/managing-documents/summary-for-documents.md).
 
 
 ## Visa panelen [!UICONTROL Summary] i en lista över uppgifter eller problem
@@ -111,7 +115,7 @@ Mer information om hur du får åtkomst till [!UICONTROL Summary] för dokument 
 
    eller
 
-   Klicka på ikonen **[!UICONTROL Open Summary]** ![Öppna sammanfattning med text &#x200B;](assets/open-summary-with-text-nwe.png) i avsnittet [!UICONTROL Submitted] i området [!UICONTROL Requests].
+   Klicka på ikonen **[!UICONTROL Open Summary]** ![Öppna sammanfattning med text ](assets/open-summary-with-text-nwe.png) i avsnittet [!UICONTROL Submitted] i området [!UICONTROL Requests].
 
    När du har öppnat sammanfattningen förblir den öppen när du klickar på eller väljer andra uppgifter eller ärenden och är öppen tills du stänger den manuellt.
 
@@ -129,7 +133,7 @@ Mer information om hur du får åtkomst till [!UICONTROL Summary] för dokument 
 
      Klicka på ikonen **X** i det övre högra hörnet av panelen [!UICONTROL Summary].
 
-   * Klicka på ikonen [!UICONTROL Submitted] [!UICONTROL Requests]Stäng sammanfattning med text **[!UICONTROL Close Summary]** i avsnittet ![&#x200B; i området &#x200B;](assets/close-summary-with-text-nwe.png).
+   * Klicka på ikonen [!UICONTROL Submitted] [!UICONTROL Requests]Stäng sammanfattning med text **[!UICONTROL Close Summary]** i avsnittet ![ i området ](assets/close-summary-with-text-nwe.png).
 
      eller
 

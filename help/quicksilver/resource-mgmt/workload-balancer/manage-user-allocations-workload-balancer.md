@@ -6,7 +6,9 @@ description: Som resurshanterare kan du tilldela användare arbete och hantera d
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2864'
 ht-degree: 0%
@@ -74,7 +76,8 @@ Aktivitetens planerade timmar fördelas jämnt mellan alla dagar inom aktivitete
 
 >[!CAUTION]
 >
->Arbetsbelastningsutjämnaren visar bara <!--up to 1000 Planned Hours per work item per user, and--> upp till 1 000 dagar av ett objekts varaktighet. Allokeringarna i Utjämning av arbetsbelastning visas som noll när gränsen på 1 000 dagar har uppnåtts. Vi rekommenderar att aktiviteter delas upp i mindre underaktiviteter <!--to accommodate a larger number of Planned Hours or--> under mer än 1 000 dagar.
+>Arbetsbelastningsutjämnaren visar bara <!--up to 1000 Planned Hours per work item per user, and--> upp till 1 000 dagar av ett objekts varaktighet. Allokeringarna i Utjämning av arbetsbelastning visas som noll när gränsen på 1 000 dagar har uppnåtts. Vi rekommenderar att du delar upp uppgifter i mindre underuppgifter under mer än 1 000 dagar.
+<!--to accommodate a larger number of Planned Hours or-->
 
 Tänk på följande när du söker efter dagliga, veckovisa eller månadsvisa tilldelningar för uppgifter eller utgåvor i Utjämning av arbetsbelastning:
 
@@ -208,7 +211,7 @@ Som en del av tilldelningen av arbete till användare kan du ändra användarall
       >
       >Workfront-administratören bestämmer vilket schema som ska användas i hela systemet för att beräkna användarens kapacitet i området Resurshantering i installationsprogrammet. Mer information finns i [Konfigurera inställningar för resurshantering](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/qs-more-menu.png) för ett arbetsobjekt och klicka sedan på **Redigera allokeringar**.
+1. Klicka på menyn **Mer** ![Mer ](assets/qs-more-menu.png) för ett arbetsobjekt och klicka sedan på **Redigera allokeringar**.
 
    ![Mer meny för arbetsobjekt](assets/more-menu-on-task-wb-nwe.png)
 
@@ -222,7 +225,7 @@ Som en del av tilldelningen av arbete till användare kan du ändra användarall
 
    >[!TIP]
    >
-   >Klicka på ikonen **Avbryt** ![Avbryt &#x200B;](assets/cancel-allocations-wb.png) om du vill ta bort de allokeringar du har justerat.
+   >Klicka på ikonen **Avbryt** ![Avbryt ](assets/cancel-allocations-wb.png) om du vill ta bort de allokeringar du har justerat.
 
    ![Spara eller avbryt justerade allokeringar](assets/wb-contouring-with-check-and-x-boxes-350x63.png)
 

@@ -5,7 +5,9 @@ description: Du kan använda snabbfiltret i en lista med objekt för att bara hi
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 363f7ad1-f4f8-4cb1-a631-ee4e5ea28e5a
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 0%
@@ -120,7 +122,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    1. Markera alla eller flera av objekten i listan och klicka sedan på **[!UICONTROL Edit]** om du vill redigera objekten gruppvis.
    1. När du är klar med redigeringarna klickar du på **[!UICONTROL Save Changes]**.
 
-1. (Valfritt) Om du vill exportera objekt som hittas av snabbfiltret markerar du alla eller flera av objekten i listan och klickar sedan på ikonen **[!UICONTROL Export]** ![Exportera &#x200B;](assets/export.png) .
+1. (Valfritt) Om du vill exportera objekt som hittas av snabbfiltret markerar du alla eller flera av objekten i listan och klickar sedan på ikonen **[!UICONTROL Export]** ![Exportera ](assets/export.png) .
 
    ![select_all_projects_with_highlight_1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 

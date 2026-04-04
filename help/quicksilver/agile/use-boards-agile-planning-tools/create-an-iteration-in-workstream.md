@@ -7,7 +7,9 @@ description: En iteration är en angiven tidsrymd som är reserverad för att sl
 author: Courtney
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 0%
@@ -121,5 +123,5 @@ Use the [!UICONTROL Next Iteration] column to move cards from the current iterat
 ## Ta bort en iteration
 
 1. Klicka på fliken [!UICONTROL **Kortlista**] i arbetsflödet och öppna itereringsvyn.
-1. Klicka på ikonen **Ta bort** ![Ta bort &#x200B;](assets/delete.png) intill iterationen.
+1. Klicka på ikonen **Ta bort** ![Ta bort ](assets/delete.png) intill iterationen.
 1. Klicka på [!UICONTROL **Ta bort upprepning**] i bekräftelsemeddelandet.

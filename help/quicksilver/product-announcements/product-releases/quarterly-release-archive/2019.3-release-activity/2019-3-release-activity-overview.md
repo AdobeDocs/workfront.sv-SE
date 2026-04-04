@@ -7,9 +7,11 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b2bee19f-32eb-49b9-9497-dea290ce64b2
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1296'
 ht-degree: 0%
 
 ---
@@ -158,14 +160,16 @@ Version 2019.3 innehåller följande förbättringar:
 
 * [Ta bort objekt med mobilappen på iOS](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#delete)
 
-  <!-- <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete objects using the Mobile app on iOS</a> </MadCap:conditionalText>
+  <!--
+    <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete objects using the Mobile app on iOS</a> </MadCap:conditionalText>
    -->
 
   Nu kan du ta bort objekt som uppgifter, utgåvor och tidrapporter i mobilappen. Du måste ha rätt behörighet för objektet för att kunna ta bort det.
 
 * [Återställ lösenordet med mobilappen](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#reset)
 
-  <!--<MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Reset your password using the Mobile app</a> </MadCap:conditionalText>
+  <!--
+  <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Reset your password using the Mobile app</a> </MadCap:conditionalText>
   -->
 
   Du kan använda appen Workfront Mobile för att återställa ditt lösenord om du har glömt det.
@@ -351,7 +355,7 @@ Vi har skapat en ny fälttyp i den anpassade formulärbyggaren som kallas Typeah
   We are removing the Documents and Issues tabs from the Agile iteration details page.
 -->
 
-## Workfront Maintenance Updates
+## Underhållsuppdateringar för Workfront
 
 Mer information om underhållsuppdateringar som gjordes i version 2019.3 finns i .
 
@@ -361,7 +365,7 @@ Mer information om underhållsuppdateringar som gjordes i version 2019.3 finns i
 * [Workfront Library är nu tillgängligt](#workfront-library-now-available)
 * [API-version 3 stöds inte längre](#api-version-3-no-longer-supported)
 * [Stöd för TLS 1.0 och 1.1 upphör](#tls-1-0-and-1-1-support-is-ending)
-* [Borttagning av Flash](#flash-application-removal)
+* [Ta bort Flash-program](#flash-application-removal)
 * [Olika alternativ för enkel inloggning som ska tas bort](#various-single-sign-on-options-to-be-removed)
 * [Q3 Product Roadmap Webinar](#q3-product-roadmap-webinar)
 
@@ -399,11 +403,11 @@ TLS 1.2 to be required in Workfront
 ](https://experience.workfront.com/s/article/TLS-1-2-to-be-required-in-Workfront-1474533813).
 -->
 
-### Borttagning av Flash {#flash-application-removal}
+### Borttagning av Flash-program {#flash-application-removal}
 
-Alla funktioner som bygger på Flash har tagits bort från Workfront sedan version 2018.3 och ersatts med en ny lösning.
+Alla funktioner som bygger på Flash-teknik har tagits bort från Workfront sedan version 2018.3 och ersatts med en ny lösning.
 
-Mer information om de äldre verktygen för Flash och deras ersättningar finns i [Ersättning av verktyg baserade på Flash i Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)
+Mer information om de äldre Flash-verktygen och deras ersättningar finns i [Ersättning av Flash-baserade verktyg i Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">

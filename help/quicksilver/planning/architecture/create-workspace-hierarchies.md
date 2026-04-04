@@ -6,7 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 16da53ace7c5b3fadf9b4142ac6146bc3fe5ebd5
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 0%
@@ -16,9 +18,11 @@ ht-degree: 0%
 
 # Skapa arbetsytehierarkier
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Som arbetsytehanterare kan du skapa flera arbetsytehierarkier mellan posttyper i Adobe Workfront Planning.
 
@@ -132,7 +136,7 @@ Varje ytterligare objekttyp blir underordnad till föregående objekttyper.
    1. Återgå till arbetsytans **inställningsområde** och klicka på **Ny hierarki** igen. Följ sedan stegen för att skapa en hierarki.
 
 1. (Valfritt) Fortsätt lägga till upp till fyra objekttyper i hierarkierna enligt stegen ovan. Du kan lägga till alla objekttyper först och sedan lägga till anslutningsfälten mellan dem.
-1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort &#x200B;](assets/minus-icon.png) för att ta bort en anslutning.
+1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort ](assets/minus-icon.png) för att ta bort en anslutning.
 1. Klicka på **Spara** för att spara hierarkin.
 
    >[!TIP]

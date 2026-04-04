@@ -8,7 +8,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 59%
@@ -23,18 +25,18 @@ Granska dessa områden för att få en förståelse för grunderna i Adobe Workf
 
 Det här avsnittet innehåller följande underavsnitt:
 
-* [Glossary of Adobe Workfront terminology](../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
-* [Adobe Workfront browser requirements](../workfront-basics/workfront-browser-requirements.md)
-* [Supported languages in Adobe Workfront](../workfront-basics/supported-languages-in-workfront.md)
+* [Ordlista för Adobe Workfront-terminologi](../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
+* [Adobe Workfront webbläsarkrav](../workfront-basics/workfront-browser-requirements.md)
+* [Språk som stöds i Adobe Workfront](../workfront-basics/supported-languages-in-workfront.md)
 * [HIPAA-beredskap för Workfront](/help/quicksilver/workfront-basics/hipaa-readiness-for-workfront.md)
-* [Navigate Adobe Workfront: article index](../workfront-basics/navigate-workfront/navigate-workfront.md)
+* [Navigera i Adobe Workfront: artikelindex](../workfront-basics/navigate-workfront/navigate-workfront.md)
 * [Prioriteter: artikelindex](/help/quicksilver/workfront-basics/priorities/priorities-toc.md)
 * [Startsida](../workfront-basics/using-home/home.md)
-* [Update work items and view updates: article index](../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
-* [Work with custom forms](../workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
-* [Use notifications: article index](../workfront-basics/using-notifications/use-notifications.md)
-* [Grant and request permissions to objects](../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
-* [Manage your account and profile](../workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md)
-* [Mobile Apps](../workfront-basics/mobile-apps/mobile-apps.md)
+* [Uppdatera arbetsobjekt och visa uppdateringar: artikelindex](../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
+* [Arbeta med anpassade formulär](../workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
+* [Använd meddelanden: artikelindex](../workfront-basics/using-notifications/use-notifications.md)
+* [Bevilja och begär behörigheter för objekt](../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
+* [Hantera ditt konto och din profil](../workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md)
+* [Mobilappar](../workfront-basics/mobile-apps/mobile-apps.md)
 * [AI Assistant i Workfront](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
 * [Tips, tricks och felsökning för Adobe Workfront Basics](../workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)

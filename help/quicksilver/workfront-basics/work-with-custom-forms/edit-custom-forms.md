@@ -7,7 +7,9 @@ description: Du kan redigera information i ett anpassat formulär när formulär
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1222'
 ht-degree: 0%
@@ -57,7 +59,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -84,7 +87,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
     </ul> <p>For information on requesting additional access for objects, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Förutsättningar
 
@@ -177,7 +181,7 @@ I följande avsnitt beskrivs hur du kan beräkna om anpassade uttryck för objek
    * Program
    * Dokument
 
-1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-icon.png) till höger om objektets namn och klicka sedan på **Beräkna om uttryck**.
+1. Klicka på menyn **Mer** ![Mer ](assets/more-icon.png) till höger om objektets namn och klicka sedan på **Beräkna om uttryck**.
 
    Detta beräknar om alla anpassade fält i objektets formulär.
 

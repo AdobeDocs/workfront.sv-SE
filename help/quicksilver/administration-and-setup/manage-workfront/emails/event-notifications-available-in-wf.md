@@ -8,7 +8,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '5237'
 ht-degree: 0%
@@ -171,7 +173,7 @@ Se även [Meddelanden: Åtgärd krävs](../../../workfront-basics/using-notifica
 
 ## Begäranden jag gjort
 
-Se även [Meddelanden: Jag har gjort &#x200B;](../../../workfront-basics/using-notifications/notifications-requests-i-have-made.md) förfrågningar.
+Se även [Meddelanden: Jag har gjort ](../../../workfront-basics/using-notifications/notifications-requests-i-have-made.md) förfrågningar.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -272,7 +274,8 @@ Se även [Meddelanden: Jag har gjort &#x200B;](../../../workfront-basics/using-n
 <!--
       DRAFTED IN FLARE:
        For more information on publishing a project as a Help Request Queue, see 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.-->
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
+       -->
 
 ## Kommunikation
 
@@ -356,7 +359,8 @@ Se även [Meddelanden: kommunikation](../../../workfront-basics/using-notificati
 
 <!--
       DRAFTED IN FLARE: for the directed update above, it also mentions:
-        ... and is not the same user that enters the update-->
+        ... and is not the same user that enters the update
+        -->
 
 ## Godkännandeinformation
 
@@ -531,11 +535,12 @@ Se även [Meddelanden: Information om arbete som tilldelats mig](../../../workfr
 <!--
       DRAFTED IN FLARE: from the Request document add to issue assigned to: 
         For more information on publishing a project as a Help Request Queue, see 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>. -->
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
+       -->
 
 ## Information om projekt som jag är på
 
-Se även [Meddelanden: Information om projekt som jag är på &#x200B;](../../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md).
+Se även [Meddelanden: Information om projekt som jag är på ](../../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md).
 
 <table style="table-layout:auto"> 
  <col> 

@@ -6,7 +6,9 @@ description: Använd delen Måljustering för att visa en helhetsbild av måljus
 author: Alina
 feature: Workfront Goals
 exl-id: e79ced31-4680-4af7-b083-3d615c747af8
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 0%
@@ -72,7 +74,8 @@ Mer information finns i [Åtkomstkrav för Workfront-dokumentation](/help/quicks
 
 +++ 
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto">
 <col>
@@ -124,7 +127,8 @@ Or
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Navigera i avsnittet Måljustering
 
@@ -168,7 +172,8 @@ Or
          <li> <span>I problem </span> (röd indikator): det finns risk för att målet inte kan uppnås i tid. </li> 
         </ul> 
        </div> </td> 
-     </tr> <!--
+     </tr>
+     <!--
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">Updated on date </td> 
        <td> <p>The date when the goal was last updated</p> <p>(NOTE: drafted because I think this was removed with the alignment chart redesign - 21.1) </p> </td> 

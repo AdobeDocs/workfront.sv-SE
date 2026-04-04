@@ -6,7 +6,9 @@ description: Du kan filtrera en anslagstavla så att endast vissa kort visas.
 author: Courtney
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 0%
@@ -28,7 +30,7 @@ När du sorterar på anslagstavlan sorteras alla kort i kolumnerna. Det går int
 
 Genom att söka kan du även hitta ett visst kort på kortet.
 
-När filter används visas en indikator på ![ritytan &#x200B;](assets/boards-filterapplied-30x30.png). Klicka på **[!UICONTROL Clear All]** för att ta bort alla filter från ritytan och klicka på komprimeringsikonen för att stänga filterpanelen.
+När filter används visas en indikator på ![ritytan ](assets/boards-filterapplied-30x30.png). Klicka på **[!UICONTROL Clear All]** för att ta bort alla filter från ritytan och klicka på komprimeringsikonen för att stänga filterpanelen.
 
 ![Panelen Filter](assets/boards-all-filters-collapsed-0823.png)
 

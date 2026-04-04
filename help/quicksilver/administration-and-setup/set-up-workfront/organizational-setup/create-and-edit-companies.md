@@ -8,7 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 0d79b04c58d6a0a1c8de7f83d7b941e75b1a88f5
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1425'
 ht-degree: 0%
@@ -183,7 +185,8 @@ Mer information om hur användare får administrativ åtkomst till företag på 
 
 Mer information om hur du hanterar ett företag i området [!UICONTROL Setup] finns i [Skapa eller redigera ett företag i  [!DNL Workfront]](#create-or-edit-a-company-in-workfront) i den här artikeln.
 
-<!-- OLD HTML TABLE
+<!--
+ OLD HTML TABLE
 <table style="table-layout:auto"> 
     <col> 
     <col> 

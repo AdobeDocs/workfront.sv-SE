@@ -7,7 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: af1a54ea-1717-45fa-bb94-55774eb28f28
-source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2017'
 ht-degree: 0%
@@ -30,7 +32,7 @@ En lista över alla funktioner som släppts för Adobe Workfront Planning finns 
 >Förhandsgranska: 15 januari 2026
 >Production fast release: 15 januari 2026
 >Produktion för alla: 15 januari 2026
->[!BADGE Frånschemat &#x200B;]{type=Neutral}
+>[!BADGE Frånschemat ]{type=Neutral}
 
 Nu kan du dela globala posttyper som du har lagt till på en sekundär arbetsyta från den arbetsytan. Användarna får också samma behörigheter till alla poster på den sekundära arbetsytan som du delar.
 
@@ -40,7 +42,7 @@ Nu kan du dela globala posttyper som du har lagt till på en sekundär arbetsyta
 
 Före den här ändringen kan du bara dela den globala posttypen från den ursprungliga primära arbetsytan.
 
-Mer information finns i [Posttypöversikt för arbetsytan över &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+Mer information finns i [Posttypöversikt för arbetsytan över ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 
 ## Poster som lagts till i en global posttyp på en sekundär arbetsyta visas inte från andra sekundära arbetsytor
@@ -50,11 +52,11 @@ Mer information finns i [Posttypöversikt för arbetsytan över &#x200B;](/help/
 >Förhandsgranska: 15 januari 2026
 >Production fast release: 15 januari 2026
 >Produktion för alla: 15 januari 2026
->[!BADGE Frånschemat &#x200B;]{type=Neutral}
+>[!BADGE Frånschemat ]{type=Neutral}
 
 Poster som läggs till i en global posttyp på en sekundär arbetsyta visas bara från den arbetsytan eller från posttypens ursprungliga primära arbetsyta. Före den här uppdateringen var poster som lagts till på en sekundär arbetsyta också synliga från andra sekundära arbetsytor där du kanske har behörighet att visa.
 
-Mer information finns i [Posttypöversikt för arbetsytan över &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+Mer information finns i [Posttypöversikt för arbetsytan över ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 ## Skapa posttypshierarkier i arbetsytor
 
@@ -173,7 +175,7 @@ Mer information finns i [Redigera arbetsytor](/help/quicksilver/planning/archite
 >Förhandsgranska: 11 december 2025
 >Production fast release: 11 december 2025
 >Produktion för alla: 11 december 2025
->[!BADGE Frånschemat &#x200B;]{type=Neutral}
+>[!BADGE Frånschemat ]{type=Neutral}
 
 Anslutningsfältet med GenStudio for Performance Marketing Brand läggs nu till som standard för posttyperna Produkter och Personas på arbetsytan GenStudio i Workfront Planning.
 
@@ -190,7 +192,7 @@ Mer information finns i [Kom igång med integreringen mellan Adobe Workfront Pla
 >Förhandsgranska: 11 december 2025
 >Production fast release: 11 december 2025
 >Produktion för alla: 11 december 2025
->[!BADGE Frånschemat &#x200B;]{type=Neutral}
+>[!BADGE Frånschemat ]{type=Neutral}
 
 Vi har lagt till ett skyddsutkast som förhindrar dig från att ta bort behörigheter för GenStudio for Performance Marketing-användare från Workfront Planning-objekt. Med den här förbättringen kan du inte längre ta bort GenStudio-användare från GenStudio-arbetsytan i Planning, och du kan inte heller inaktivera ärvda behörigheter för posttyper i GenStudio-arbetsytan om dessa behörigheter omfattar GenStudio-användare. När du tog bort de här användarna från GenStudio-arbetsytan i Planning före den här förbättringen förlorar de även behörigheter för posttyper i GenStudio.
 

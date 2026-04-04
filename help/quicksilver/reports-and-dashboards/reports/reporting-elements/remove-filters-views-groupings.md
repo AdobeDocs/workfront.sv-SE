@@ -6,7 +6,9 @@ description: Du kan ta bort ett filter, en vy eller en gruppering från listor o
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 0%
@@ -74,14 +76,14 @@ Följande scenarier gäller när du tar bort eller tar bort ett filter med stand
 ### Ta bort ett filter med standardverktyget
 
 1. Gå till en lista med projekt, uppgifter, utgåvor, portfolior, program, användare, mallar eller grupper.
-1. Klicka på ikonen **Filter** ![Filter &#x200B;](assets/filter-nwepng.png) .
+1. Klicka på ikonen **Filter** ![Filter ](assets/filter-nwepng.png) .
 1. Hovra över ett filter under **Delat med mig**, klicka på **Mer**-menyn ![Mer-ikonen](assets/more-icon-spectrum.png) och klicka sedan på **Ta bort**.
 1. Välj **Ta bort** i bekräftelsemeddelandet om du vill ta bort filtret permanent.
 
 ### Ta bort ett filter med standardverktyget
 
 1. Gå till en lista med projekt, uppgifter, utgåvor, portfolior, program, användare, mallar eller grupper.
-1. Klicka på ikonen **Filter** ![Filter &#x200B;](assets/filter-nwepng.png) .
+1. Klicka på ikonen **Filter** ![Filter ](assets/filter-nwepng.png) .
 1. Håll pekaren över ett filter som du har behörighet att ta bort, klicka på ikonen **Mer** ![Mer](assets/more-icon-spectrum.png) och klicka sedan på **Ta bort**.
 
    ![Ta bort filter](assets/new-filters-more-menu-options-with-delete.png)

@@ -6,7 +6,9 @@ description: I Adobe Workfront kan uppgifter ha överordnade och underordnade re
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -53,7 +55,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -78,7 +81,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
    <td> <p>Contribute permissions to the project and the parent task with ability to Add Tasks or higher</p> <p>You automatically receive Manage permissions to the task after you create it.</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Skapa underaktiviteter
 
@@ -132,7 +136,7 @@ Du kan skapa underaktiviteter från uppgiftslistan eller underaktivitetsavsnitte
 1. Gå till det projekt där du vill göra en underaktivitet till en huvuduppgift.
 1. Klicka på avsnittet **Åtgärder** i den vänstra panelen.
 1. Markera den underaktivitet som du vill göra till huvuduppgift.
-1. Klicka på ikonen **Minska indrag** ![Dra ut &#x200B;](assets/outdent-icon-nwe-31x29.png) för att göra underaktiviteten till en huvudåtgärd.
+1. Klicka på ikonen **Minska indrag** ![Dra ut ](assets/outdent-icon-nwe-31x29.png) för att göra underaktiviteten till en huvudåtgärd.
 
    eller
 

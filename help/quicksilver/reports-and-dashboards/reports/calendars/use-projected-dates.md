@@ -6,7 +6,9 @@ description: En kalenderrapport är en dynamisk rapport som ger en visuell repre
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 39e16f0b-c10d-429e-9eb5-d4847c7e4ed9
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 0%
@@ -132,7 +134,7 @@ När du har ställt in hur du vill att objekten ska visas måste du lägga till 
 
 
    ![Välj objekt för kalendern](assets/calendar-field-name.png)
-Mer information om hur du ställer in villkor finns i [Filter och villkorsmodifierare &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md) .
+Mer information om hur du ställer in villkor finns i [Filter och villkorsmodifierare ](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md) .
 
 1. (Valfritt) Ange ytterligare objekt för kalendergrupperingen genom att upprepa steg 1-4.
 1. I fältet **[!UICONTROL Set the Tasks/Projects/Issues labels to be the...]** väljer du hur objekten i den här kalendergruppen ska märkas i kalendern.

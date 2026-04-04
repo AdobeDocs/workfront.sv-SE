@@ -7,7 +7,9 @@ description: Du kan använda uppgiftsfiltren nedan för att visa arbetsuppgifter
 author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 4c3956e1-59e0-4bf2-8739-8064271d6281
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 0%
@@ -129,7 +131,7 @@ Du kan använda följande filter på en uppgiftsrapport om du vill visa friståe
 1. I **Börja skriva fältnamn ...** rad börja skriva **Överordnat ID** och välj sedan **Aktivitet >> Överordnat ID** i listan.
 1. Välj **Är tom** som modifierare.
 
-   ![Överordnat ID är tomt och inga underordnade &#x200B;](assets/filter-parent-id-blank-and-zero-children-350x121.png)
+   ![Överordnat ID är tomt och inga underordnade ](assets/filter-parent-id-blank-and-zero-children-350x121.png)
 
    eller
 

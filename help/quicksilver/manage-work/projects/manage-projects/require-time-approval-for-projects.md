@@ -6,7 +6,9 @@ description: Du kan konfigurera projektet så att det kräver att de timmar som 
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 0%
@@ -77,7 +79,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -122,14 +125,15 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
     </ul> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Kräv tid för godkännande av ett projekt
 
 Så här kräver du projektledarens godkännande för timmar i projektet:
 
 1. Gå till projektet där du vill ha godkännande i timmar.
-1. Klicka på ikonen **Mer** ![Mer &#x200B;](assets/more-icon.png) till höger om projektnamnet och klicka sedan på **Redigera**.\
+1. Klicka på ikonen **Mer** ![Mer ](assets/more-icon.png) till höger om projektnamnet och klicka sedan på **Redigera**.\
    Dialogrutan Redigera projekt visas.
 
 1. I avsnittet **Projektinställningar** väljer du **Kräv tid för att godkännas för det här projektet**.

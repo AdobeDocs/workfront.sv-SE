@@ -6,10 +6,12 @@ description: Du kan inte ta bort en mall från ett projekt. Du kan bara ta bort 
 author: Alina
 feature: Work Management
 exl-id: a8b6055a-7fac-4f9b-a880-10b2b85299b7
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -49,7 +51,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -73,7 +76,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
    <td> <p>Manage access to tasks </p> <p>Contribute or higher access to the project </p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Alternativ för att ta bort mallinformation från ett projekt
 
@@ -112,4 +116,4 @@ Om du vill ta bort mallinformation som har lagts till i projektet kan du göra n
 
      Mer information om hur du skapar en vy finns i [Vyöversikt i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Markera alla uppgifter som identifieras i steg 2 som de har skapats från en mall och klicka sedan på **ikonen Ta bort**&#x200B;**> Ja, Ta bort den**. Mer information finns i [Ta bort uppgifter](../../../manage-work/tasks/manage-tasks/delete-tasks.md).
+1. Markera alla uppgifter som identifieras i steg 2 som de har skapats från en mall och klicka sedan på **ikonen Ta bort****> Ja, Ta bort den**. Mer information finns i [Ta bort uppgifter](../../../manage-work/tasks/manage-tasks/delete-tasks.md).

@@ -6,7 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
-source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
@@ -38,13 +40,13 @@ Håll ordning på ditt material med en tydlig, visuell kalender. Med Prioritetsk
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Alla</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> 
-   <p>Granskare eller högre</p>
-   <p>Ljus eller högre</p> 
+   <p>Reviewer or higher</p>
+   <p>Light or higher</p> 
    </td> 
   </tr> 
   <tr> 
@@ -58,11 +60,11 @@ Håll ordning på ditt material med en tydlig, visuell kalender. Med Prioritetsk
  </tbody> 
 </table>
 
-Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+[](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
 
 +++
 
-## Visa ditt arbete i kalendern
+## View your work in the calendar
 
 Prioriteter visar arbetsuppgifter som tilldelats dig. Det går inte att se arbetsobjekt som tilldelats ditt team i prioriteringskalendern.
 
@@ -85,27 +87,27 @@ Prioriteter visar arbetsuppgifter som tilldelats dig. Det går inte att se arbet
         </tr>
         <tr>
         <td>Klar att börja</td>
-        <td>Visar objekt med 
+        <td>Displays items with 
         <ul>
-        <li>Inga ofullständiga föregångare eller aktivitetsbegränsningar</li>
-        <p>och</p>
-        <li>Det planerade startdatumet har passerat eller är upp till två veckor i framtiden</li>
+        <li>No incomplete predecessors or task constraints</li>
+        <p>and</p>
+        <li>The Planned Start Date is in the past or up to two weeks in the future</li>
         </ul>
         </td>
         </tr>
         <tr>
-        <td>Inte klar</td>
-        <td>Visar objekt som har
+        <td>Not ready</td>
+        <td>Displays items that have
         <ul>
         <li>Ofullständiga föregående aktiviteter eller aktivitetsbegränsningar som förhindrar att objektet bearbetas</li>
-        <p>eller</p>
-        <li>Det planerade startdatumet är mer än två veckor framåt.</li>
+        <p>or</p>
+        <li>The Planned Start Date more than two weeks in the future.</li>
         </ul>
         </td>
         </tr>
         <tr>
-        <td>Begärd</td>
-        <td>Visar problem som du inte har börjat arbeta med.</td>
+        <td>Requested</td>
+        <td>Displays issues that you have not started work on.</td>
         </tr>
         <td>Klar</td>
         <td>Visar det arbete som utförts de senaste två veckorna. Det här filteralternativet inkluderar inte godkännanden.</td>
@@ -120,11 +122,11 @@ Prioriteter visar arbetsuppgifter som tilldelats dig. Det går inte att se arbet
         </tr>
         <tr>
         <td>Status</td>
-        <td>Visar uppgifter eller problem i nya, pågående och slutförda statusar.</td>
+        <td>Displays tasks or issues in new, in progress, and complete statuses.</td>
         </tr>
         <tr>
-        <td>Mitt fokus</td>
-        <td>Visar aktiviteter eller problem med tilldelade fokusnivåer. Fokusnivåer tilldelas och hanteras av den enskilda användaren.</td>
+        <td>My Focus</td>
+        <td>Displays tasks or issues in that have assigned focus levels. Focus levels are assigned and managed by the individual user.</td>
         </tr>
     </tbody>
     </table>
@@ -136,7 +138,7 @@ Prioriteter visar arbetsuppgifter som tilldelats dig. Det går inte att se arbet
    * Visa och redigera information om projekt och arbetsuppgift
    * Göra och visa kommentarer
    * Visa och överföra dokument
-   * Skapa ett korrektur
+   * Create a proof
    * Navigera till projektsidan i Workfront
    * Navigera till sidan med information om arbetsobjekt i Prioriteringar
    * Loggtid
@@ -155,5 +157,5 @@ Prioriteter visar arbetsuppgifter som tilldelats dig. Det går inte att se arbet
 1. På fliken **Stapelstil** väljer du upp till 5 fält som ska visas i arbetsobjektsfältet i kalendern.
    ![exempelfält](assets/sample-task-for-field-config.png)
 
-1. På fliken **Färg** väljer du hur du vill att dina arbetsobjekt ska visas. Om du till exempel väljer **Projekt** visas dina arbetsobjekt i enlighet med den färg som tilldelats projektet i arbetslistan.
-   ![exempelfärgprojekt](assets/sample-calendar-projects.png)
+1. **** ****
+   ![](assets/sample-calendar-projects.png)

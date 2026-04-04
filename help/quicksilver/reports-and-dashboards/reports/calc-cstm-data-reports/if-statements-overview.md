@@ -7,7 +7,9 @@ description: Du kan använda IF-programsatser i allmänna programmeringsspråk. 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 0%
@@ -57,7 +59,7 @@ Du kan skapa IF-satser i Workfront med följande format:
 
 * **Villkorsoperator** = det här är den operator som hjälper dig att skapa villkoret för din IF-sats. &quot;är lika med&quot; eller &quot;är större än&quot; är villkorsoperatorer. En lista med villkorsoperatorer som du kan använda i satser finns i [Villkorsoperatorer i beräknade anpassade uttryck](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
-* **Sant**&#x200B;**Uttryck** = Detta är variabeln &quot;Sant&quot;, som instruerar ekvationen vilken indikator som ska visas när villkoren för villkoret är uppfyllda (sanna indikatorer).
+* **Sant****Uttryck** = Detta är variabeln &quot;Sant&quot;, som instruerar ekvationen vilken indikator som ska visas när villkoren för villkoret är uppfyllda (sanna indikatorer).
 
 * **Falskt uttryck** = Det här är variabeln &quot;Falskt&quot;, som anger vilken indikator som ska visas för ekvationen när villkoren för villkoret inte uppfylls (falska indikeringar).
 

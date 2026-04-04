@@ -7,7 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 74ca298c-daac-4119-97cd-251b9f7f0efc
-source-git-commit: 99aac8d1621370f901704f58affd9e3e18497c4e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 0%
@@ -56,27 +58,35 @@ Version 2019.4 innehåller följande förbättringar:
    <td> <p><strong>Releasedatum</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#updated" target="_blank" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Uppdaterat utseende på nya listor</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#updated" target="_blank" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Uppdaterat utseende på nya listor</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2019-4-List-enhancements-91923249" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Updated look and feel of new lists</a>
-     --> <span style="color: #ff0000;">- Ändrat</span></p> <p>Listorna Projekt, Uppgift och Timmar har nu ett uppdaterat utseende och känsla. Andra listor som planerades att uppdateras med version 2019.4 kommer att uppdateras med en framtida version.</p> </td> 
+     -->
+     <span style="color: #ff0000;">- Ändrad </span></p> <p>Listorna Projekt, Uppgift och Timmar har nu ett uppdaterat utseende och känsla. Andra listor som planerades att uppdateras med version 2019.4 kommer att uppdateras med en framtida version.</p> </td>
    <td> <p>Förhandsversion: 4 oktober 2019</p> <p>Produktionsrelease: november 2019 med 2019.4-utgåvan</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#new" target="_blank" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Ny design används för listor för rapporter, malluppgifter, Portfolio och mer</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#new" target="_blank" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Ny design används för listor för rapporter, malluppgifter, portföljer och mycket annat</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2019-4-List-enhancements-91923249?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">New design applied to lists for Reports, Template tasks, Portfolios, and more</a>
-     --><span style="color: #ff0000;"> -Borttagen från version</span> </p> <p>Den nya listdesignen är nu tillgänglig för många andra listtyper.</p> </td> 
+     -->
+     <span style="color: #ff0000;"> -Borttagen från version </span> </p> <p>Den nya listdesignen är nu tillgänglig för många andra listtyper.</p> </td>
    <td> <p>Förhandsversion: 11 oktober 2019</p> <p>Produktionsrelease: november 2019 med 2019.4-utgåvan</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#new2" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Nytt verktygstips har lagts till i snabbfilter</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#new2" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Nytt verktygstips har lagts till i snabbfilter</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2019-4-List-enhancements-91923249?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">New tooltip added to quick filters</a>
-     --> </p> <p> I stället för att använda webbläsarens inbyggda funktioner för att hitta ett objekt i en lista kan du använda snabbfilter i alla omdesignade listor. </p> </td> 
+     -->
+     </p> <p> I stället för att använda webbläsarens inbyggda funktioner för att hitta ett objekt i en lista kan du använda snabbfilter i alla omdesignade listor. </p> </td>
    <td> <p>Förhandsversion: 11 oktober 2019</p> <p>Produktionsrelease: november 2019 med 2019.4-utgåvan</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#new3" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Nya genvägar för snabbfilter</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#new3" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Nya genvägar för snabbfilter</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2019-4-List-enhancements-91923249?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">New shortcuts for quick filters</a>
-     --> </p> <p>Påminnelser om kortkommandon finns nu i sökrutan med snabbfilter i listor för att göra det enklare för dig att komma åt filtren.</p> </td> 
+     -->
+     </p> <p>Påminnelser om kortkommandon finns nu i sökrutan med snabbfilter i listor för att göra det enklare för dig att komma åt filtren.</p> </td>
    <td> <p>Förhandsversion: 30 augusti 2019</p> <p>Produktionsrelease: november 2019 med 2019.4-utgåvan</p> </td> 
   </tr> 
  </tbody> 
@@ -93,33 +103,43 @@ Version 2019.4 innehåller följande förbättringar:
    <td> <p><strong>Releasedatum</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#workfron" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Workfront-app för iPad</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#workfron" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Workfront-app för iPad</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2019-4-Mobile-enhancements-1852732757#Workfron" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Workfront app for iPad</a>
-     --> </p> <p>Workfront har nu en ny mobilapp som är särskilt utformad och optimerad för iPad. </p> <p>Mer information om hur du använder Workfront på både iPad och iPhone finns i <a href="../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md" class="MCXref xref">Adobe Workfront för iOS</a>.</p> </td> 
+     -->
+     </p> <p>Workfront har nu en ny mobilapp som är särskilt utformad och optimerad för iPad. </p> <p>Mer information om hur du använder Workfront på både iPad och iPhone finns i <a href="../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md" class="MCXref xref">Adobe Workfront för iOS</a>.</p> </td>
    <td> <p>Förhandsgranskningsversion: Ingen tillgänglighet för förhandsgranskning</p> <p>Produktionsrelease: november 2019 med 2019.4-utgåvan</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#delete" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Ta bort objekt med mobilappen på Android</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#delete" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Ta bort objekt med mobilappen på Android</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2019-4-Mobile-enhancements-1852732757?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Delete objects using the Mobile app on Android</a>
-     --> </p> <p>Nu kan du ta bort objekt som uppgifter, problem och tidrapporter i Android mobilapp.</p> </td> 
+     -->
+     </p> <p>Nu kan du ta bort objekt som uppgifter, problem och tidrapporter i Android mobilapp.</p> </td>
    <td> <p>Förhandsversion: 4 oktober 2019</p> <p>Produktionsrelease: november 2019 med 2019.4-utgåvan</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#convert" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Konvertera aktiviteter, problem och förfrågningar till ett projekt med mobilappen Android</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#convert" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Konvertera aktiviteter, problem och förfrågningar till ett projekt med mobilappen Android</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2019-4-Mobile-enhancements-1852732757?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Convert Tasks, Issues, and Requests to a Project using the mobile app on Android</a>
-     --> </p> <p>Nu kan du konvertera enskilda uppgifter, ärenden och förfrågningar till projekt i Workfront mobilapp på Android.</p> </td> 
+     -->
+     </p> <p>Nu kan du konvertera enskilda uppgifter, ärenden och förfrågningar till projekt i Workfront mobilapp på Android.</p> </td>
    <td> <p>Förhandsversion: 4 oktober 2019</p> <p>Produktionsrelease: november 2019 med 2019.4-utgåvan</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#access" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Få åtkomst till befintliga favoriter och lägg till nya favoriter på mobilen</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#access" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Få åtkomst till befintliga favoriter och lägg till nya favoriter på mobilen</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2019-4-Mobile-enhancements-1852732757#Access" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Access existing Favorites and add new Favorites on mobile</a>
-     --> </p> <p>Nu kan du komma åt Favoriter-menyn i mobilappen Workfront på både iOS- och Android-enheter. Du kan komma åt befintliga objekt från Favoriter-menyn och lägga till nya objekt på Favoriter-menyn.</p> </td> 
+     -->
+     </p> <p>Nu kan du komma åt Favoriter-menyn i mobilappen Workfront på både iOS- och Android-enheter. Du kan komma åt befintliga objekt från Favoriter-menyn och lägga till nya objekt på Favoriter-menyn.</p> </td>
    <td> <p> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#updated" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Navigeringen på Android har uppdaterats</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#updated" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Navigeringen på Android har uppdaterats</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2019-4-Mobile-enhancements-1852732757#Updated" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Updated Navigation on Android</a>
-     --> </p> <p>Navigering i Android mobilapp liknar mer navigering när du använder Workfront i en webbläsare</p> </td> 
+     -->
+     </p> <p>Navigering i Android mobilapp liknar mer navigering när du använder Workfront i en webbläsare</p> </td>
    <td> <p> </p> </td> 
   </tr> 
  </tbody> 
@@ -136,15 +156,19 @@ Version 2019.4 innehåller följande förbättringar:
    <td> <p><strong>Releasedatum</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-resource-management-enhancements.md#the" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Betaversionen av belastningsutjämnaren </a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-resource-management-enhancements.md#the" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Betaversionen av belastningsutjämnaren </a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2019-4-Resource-Management-enhancements-1912990902?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">The Workload Balancer beta</a>
-     --> </p> <p>Utjämning av arbetsbelastning tillhandahåller ett nytt gränssnitt för hantering av arbetsbelastningen för dina resurser. Den här funktionen är avsedd att ersätta resursschemaläggaren någon gång i framtiden.</p> </td> 
+     -->
+     </p> <p>Utjämning av arbetsbelastning tillhandahåller ett nytt gränssnitt för hantering av arbetsbelastningen för dina resurser. Den här funktionen är avsedd att ersätta resursschemaläggaren någon gång i framtiden.</p> </td>
    <td> <p>Förhandsversion: 11 oktober 2019</p> <p>Produktionsrelease: november 2019 med 2019.4-utgåvan</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-resource-management-enhancements.md#resource" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Anpassade kolumner för resursplanering</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-resource-management-enhancements.md#resource" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Anpassade kolumner för resursplanering</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2019-4-Resource-Management-enhancements-1912990902?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Resource&nbsp;Planner custom columns</a>
-     --> </p> <p>Nu kan du anpassa kolumnerna som du visar i resursplaneraren så att endast den information som intresserar dig finns med.</p> </td> 
+     -->
+     </p> <p>Nu kan du anpassa kolumnerna som du visar i resursplaneraren så att endast den information som intresserar dig finns med.</p> </td>
    <td> <p>Förhandsversion: 24 oktober 2019</p> <p>Produktionsrelease: november 2019 med 2019.4-utgåvan</p> </td> 
   </tr> 
  </tbody> 
@@ -161,9 +185,11 @@ Version 2019.4 innehåller följande förbättringar:
    <td> <p><strong>Releasedatum</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-other-enhancements.md#start" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Starta ett automatiskt korrekturarbetsflöde från ett Adobe CC-dokument</a> <!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-other-enhancements.md#start" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Starta ett automatiskt korrekturarbetsflöde från ett Adobe CC-dokument</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2019-4-other-enhancements-742784455?language=en_US&amp;r=10&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Start an automated proofing workflow from an Adobe CC document</a>
-     --></p> <p>Utan att lämna Adobe CC kan du starta ett automatiskt korrekturarbetsflöde för ett Adobe CC-dokument som du har skapat.</p> </td> 
+     -->
+     </p> <p>Utan att lämna Adobe CC kan du starta ett automatiskt korrekturarbetsflöde för ett Adobe CC-dokument som du har skapat.</p> </td>
    <td> <p>Förhandsgranskningsversion: Ingen tillgänglighet för förhandsgranskning</p> <p>Produktionsrelease: november 2019 med 2019.4-utgåvan</p> </td> 
   </tr> 
   <!--
@@ -203,7 +229,7 @@ Version 2019.4 innehåller följande förbättringar:
  </tbody> 
 </table>
 
-## Workfront Maintenance Updates
+## Underhållsuppdateringar för Workfront
 
 Mer information om underhållsuppdateringar som gjordes i version 2019.4 finns i [Workfront underhållsuppdateringar](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 
@@ -212,7 +238,7 @@ Mer information om underhållsuppdateringar som gjordes i version 2019.4 finns i
 * [Olika alternativ för enkel inloggning som ska tas bort](#various-single-sign-on-options-to-be-removed)
 * [API-version 3 stöds inte längre](#api-version-3-no-longer-supported)
 * [Stöd för TLS 1.0 och 1.1 upphör](#tls-1-0-and-1-1-support-is-ending)
-* [Borttagning av Flash](#flash-application-removal)
+* [Ta bort Flash-program](#flash-application-removal)
 * [Q4 Product Roadmap Webinar](#q4-product-roadmap-webinar)
 
 ### Olika alternativ för enkel inloggning som ska tas bort {#various-single-sign-on-options-to-be-removed}
@@ -294,11 +320,11 @@ TLS 1.2 to be required in Workfront
 [](https://experience.workfront.com/s/article/TLS-1-2-to-be-required-in-Workfront-1474533813).
 -->
 
-### Borttagning av Flash {#flash-application-removal}
+### Borttagning av Flash-program {#flash-application-removal}
 
-Alla funktioner som bygger på Flash har tagits bort från Workfront sedan version 2018.3 och ersatts med en ny lösning.
+Alla funktioner som bygger på Flash-teknik har tagits bort från Workfront sedan version 2018.3 och ersatts med en ny lösning.
 
-Mer information om de äldre verktygen för Flash och deras ersättningar finns i [Ersättning av verktyg baserade på Flash i Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)
+Mer information om de äldre Flash-verktygen och deras ersättningar finns i [Ersättning av Flash-baserade verktyg i Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">

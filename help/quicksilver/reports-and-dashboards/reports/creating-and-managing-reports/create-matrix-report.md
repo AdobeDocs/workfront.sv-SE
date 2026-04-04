@@ -6,7 +6,9 @@ description: Matrisrapporter visar sammanfattningsinformation i ett aggregerat t
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 714f2802-089f-4a41-8205-f397cf474a24
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 0%
@@ -126,8 +128,9 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
      >   * Anpassade datafält för tal- och valutavärden samlar alla uppgifter: överordnade, underordnade, överordnade och fristående uppgifter. Om du har skapat matrisrapporten för att visa Planerade timmar eller Faktiska timmar i kolumnen **Värde** ska du tänka på att timmar eller kostnadsinformation för eventuella överordnade objekt (till exempel överordnade uppgifter) inte visas i matrisrapporten. Om du vill visa timmar för överordnade objekt måste du visa fliken **Detaljer**.
      >   
      >   
-     >**Villkorliga regler:** Ange eventuella formateringsregler för sammansatta värden.\
+     >
 
+   **Villkorliga regler:** Ange eventuella formateringsregler för sammansatta värden.\
    När du har lagt till en regel kan du definiera fält- och textformat för hur fält som matchar den regeln visas. Klicka på **Lägg till regel** när du har definierat regeln och **Klar** för att spara regeln.
 
 1. Klicka på fliken **Filter** för att definiera vilken information som ska visas i rapporten.

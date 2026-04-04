@@ -6,7 +6,9 @@ description: Du kan redigera en gruppering i en lista eller rapport i textläge 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1539'
 ht-degree: 0%
@@ -171,7 +173,7 @@ Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](
     </thead> 
     <tbody> 
      <tr> 
-      <td><strong>grupp.&lt;tal&gt;.</strong> </td> 
+      <td><strong>grupp.&lt;number&gt;.</strong> </td> 
       <td> <p>Varje kodrad föregås av den här texten. De kodrader som refererar till samma fält som är markerat i grupperingen numreras med samma nummer enligt följande:</p> 
        <ul> 
         <li>Den första grupperingen i rapporten har gruppnumret 0. Alla rader som refererar till den första grupperingen börjar med <code>group.0</code>.</li> 

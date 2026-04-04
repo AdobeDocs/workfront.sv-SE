@@ -6,7 +6,9 @@ description: Du kan använda enhetliga godkännanden med korrektur.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: 6d6ac026bb2aa10ba3e678fb7e0f32dc95d0405f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1723'
 ht-degree: 0%

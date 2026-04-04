@@ -6,7 +6,9 @@ description: Risker är tänkbara händelser eller faktorer som förhindrar att 
 author: Becky
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 2e86369ae4c8e9fe2678773c20c02f6dbf8d5247
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 0%
@@ -17,9 +19,11 @@ ht-degree: 0%
 
 <!--Audited: 06/2025-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+-->
 
 Risker är tänkbara händelser eller faktorer som förhindrar att ett projekt slutförs i tid eller inom budgeten. Du kan registrera risker när du skapar ett affärsärende för ett projekt eller genom att använda fliken Risker.
 
@@ -80,7 +84,7 @@ Så här skapar eller redigerar du en risk i ett affärsärende:
 
 1. Gå till det projekt som du vill skapa risker för.
 1. Klicka på **Affärsfall** i den vänstra panelen.
-1. I avsnittet **Risker** klickar du på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) .
+1. I avsnittet **Risker** klickar du på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) .
 1. Ange eller redigera följande information:
 
    * **Beskrivning:** Beskriv risken.

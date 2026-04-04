@@ -6,7 +6,9 @@ description: Det kan vara praktiskt att förstå hur  [!DNL Adobe Workfront]  an
 feature: Get Started with Workfront
 author: Becky
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1236'
 ht-degree: 0%
@@ -17,9 +19,11 @@ ht-degree: 0%
 
 <!-- Audited: 2/2024 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Det kan vara praktiskt att förstå hur [!DNL Adobe Workfront] använder tidszoner för att beräkna följande:
 
@@ -138,7 +142,7 @@ Mer information om hur den tidszon som har konfigurerats i schemat påverkar dis
 
 Du kan använda en serie beräknade anpassade fält i ett anpassat formulär för att visa den aktuella tiden för användare i organisationen, som en rad med flygplatsklockor som visar tiden i flera städer. Du kan skapa ett fält för var och en av de tidszoner där dina användare arbetar, där varje fält beräknar tiden för tidszonen.
 
-Mer information finns i [Lägga till beräknade fält i ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md), samt i avsnittet [Anpassade fält för datum och tid &#x200B;](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date) i artikeln [Översikt över beräknade datamängder](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Mer information finns i [Lägga till beräknade fält i ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md), samt i avsnittet [Anpassade fält för datum och tid ](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date) i artikeln [Översikt över beräknade datamängder](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 ### Använd textfält i stället för datumfält i ett anpassat formulär {#use-text-fields-instead-of-date-fields-in-a-custom-form}
 

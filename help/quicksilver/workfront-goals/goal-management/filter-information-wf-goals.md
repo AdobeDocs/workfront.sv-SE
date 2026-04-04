@@ -6,7 +6,9 @@ description: Du kan visa mål som du eller någon annan har lagt till i Adobe Wo
 author: Alina
 feature: Workfront Goals
 exl-id: ec9b6789-fffe-425c-8316-eefe670ad0d6
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1317'
 ht-degree: 0%
@@ -72,7 +74,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -123,7 +126,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Översikt över filter i Workfront-mål
 
@@ -193,9 +197,11 @@ Du kan skapa ett filter från grunden eller redigera något av de inbyggda filtr
       <tbody> 
        <tr> 
         <td>Alla</td> 
-        <td> <p>Alla mål i systemet, oavsett vem som skapade dem, vilken tidsperiod de har eller vem ägaren är. Det här är standardfiltret som du inte kan redigera. </p> <!--
+        <td> <p>Alla mål i systemet, oavsett vem som skapade dem, vilken tidsperiod de har eller vem ägaren är. Det här är standardfiltret som du inte kan redigera. </p>
+        <!--
           <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: what the ALL filter displays might change; right now, it displays all, regardless of status, period, owner, etc)</p>
-         --> </td> 
+         -->
+         </td>
        </tr> 
        <tr> 
         <td>Personligt</td> 

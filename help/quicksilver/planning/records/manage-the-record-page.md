@@ -6,7 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 8252e3456e26de3352ebcfd2d66f3d2e63b46428
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1648'
 ht-degree: 0%
@@ -78,7 +80,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 +++   
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
  <col>
  </col>
@@ -139,7 +142,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
   </td>
   </tr>
  </tbody>
-</table>-->
+</table>
+-->
 
 ## Att tänka på när du arbetar med postsidor
 
@@ -308,7 +312,7 @@ Följande saker händer:
 
    ![Informationssida](assets/details-page.png)
 
-1. På fliken **Detaljer** klickar du på ikonen **Ta** ![Ta tag i &#x200B;](assets/grab-icon.png) till vänster om fältnamnet och drar och släpper den på önskad plats.
+1. På fliken **Detaljer** klickar du på ikonen **Ta** ![Ta tag i ](assets/grab-icon.png) till vänster om fältnamnet och drar och släpper den på önskad plats.
 
    >[!TIP]
    >
@@ -326,7 +330,8 @@ Du kan visa information från anslutna poster eller objekt genom att lägga till
 
 Mer information finns i [Lägga till en kopplad postsida till en post](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
-<!--this content has been moved to the page linked above
+<!--
+this content has been moved to the page linked above
 Consider the following when adding a Connected records page to a record: 
 
 * You can add a Connected records page to a record after you connected record or object types to the record type from the table view of a record type.
@@ -440,7 +445,8 @@ To add a Connected records page:
    >
    >You cannot create, edit, or delete fields in the table view of a connected record's tab.
    
-1. (Optional)  Hover over the name of the Connected records page tab, click **More** ![More menu](assets/more-menu.png), then click **Delete** to remove to tab.-->
+1. (Optional)  Hover over the name of the Connected records page tab, click **More** ![More menu](assets/more-menu.png), then click **Delete** to remove to tab.
+-->
 
 
 <!--
@@ -450,13 +456,11 @@ To add a Connected records page:
 
 You can add a Brief page to the record's preview or pages. 
 
-Brief pages contain the same information as the Details tab, in a read-only format. <!--edit this when we can remove fields from this page-->
+Brief pages contain the same information as the Details tab, in a read-only format. edit this when we can remove fields from this page
+-->
 
 <!--
 1. From a record's page view, click the name of a record to open its preview or page.
 1. Click **Add page** > **Brief**. 
 1. Add the **Page name**, then click **Create**. 
 -->
-
-
-

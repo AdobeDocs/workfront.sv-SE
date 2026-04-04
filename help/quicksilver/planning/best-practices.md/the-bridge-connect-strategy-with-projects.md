@@ -6,7 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 567ab223-b282-4b98-9655-7b9766fba869
-source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1156'
 ht-degree: 0%
@@ -94,7 +96,7 @@ Detta kan göras på följande sätt:
 
   Detta gör att man kan lägga in tillsyn eller platshållare, vilket säkerställer att projekten bara genereras i arbetsflödesmiljön när de verkligen behövs.
 
-  Mer information finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning &#x200B;](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
+  Mer information finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
 
 
 ### Skapa automatiska aktiveringar
@@ -103,7 +105,7 @@ För organisationer med stora volymer eller avancerade automatiseringsbehov kan 
 
 Du behöver en licens för Adobe Workfront Fusion för den här metoden.
 
-Mer information finns i [Konfigurera och hantera Workfront Fusion: artikelindex](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
+Mer information finns i [Konfigurera och hantera Workfront Fusion: artikelindex](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
 
 * **Använd utlösare för överföring:** Eftersom formulär erbjuder en enda, ren inskickningshändelse kan de användas som utlösare för Fusion-automatisering. Ett Fusion-scenario kan identifiera en formulärskickning och omedelbart generera ett länkat projekt i Workfront.
 
@@ -145,7 +147,8 @@ Genom att koppla avsikten till en åtgärd kan ni snabbt besvara viktiga affärs
 
 * **Åsidosätt inte bryggan:** Om arbetet startar i arbetsflödesmodulen utan en länk till Planning har du skapat en&quot;Skuggplan&quot; som inte syns för ledningen.
 
-<!--original content:
+<!--
+original content:
 
 # The Bridge: Connecting Strategic Intent to Projects 
 

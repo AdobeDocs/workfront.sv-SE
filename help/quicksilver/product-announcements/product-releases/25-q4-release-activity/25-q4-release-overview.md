@@ -5,7 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2245'
 ht-degree: 0%
@@ -19,9 +21,11 @@ Den här sidan innehåller information om de funktioner som ingår i den fjärde
 Förbättringarna på den här sidan är tillgängliga i förhandsvisningsmiljön. Den här sidan uppdateras med ytterligare förbättringar eftersom den fjärde utgåvan av kvartal 2025 närmar sig den planerade produktionsutgåvan.
 
 
-<!-- Keep commented until Final Preview release.
+<!--
+ Keep commented until Final Preview release.
 
-The <add release> release webinar will be held on <date>. You can [register for the webinar here <get link from product ops>. -->
+The <add release> release webinar will be held on <date>. You can [register for the webinar here <get link from product ops>.
+-->
 
 >[!IMPORTANT]
 >
@@ -54,7 +58,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
    <tr>
         <td><strong>Funktion</strong>
         </td>
-        <td><strong>Förhandsgranska</strong></td>
+        <td><strong>Förhandsgranskning</strong></td>
         <td><strong>Snabb release</strong></td>
         <td><strong>kvartalsvis</strong></td>
     </tr>
@@ -119,7 +123,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
    <tr>
         <td><strong>Funktion</strong>
         </td>
-        <td><strong>Förhandsgranska</strong></td>
+        <td><strong>Förhandsgranskning</strong></td>
         <td><strong>Snabb release</strong></td>
         <td><strong>kvartalsvis</strong></td>
     </tr>
@@ -141,7 +145,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
    <tr>
         <td><strong>Funktion</strong>
         </td>
-        <td><strong>Förhandsgranska</strong></td>
+        <td><strong>Förhandsgranskning</strong></td>
         <td><strong>Snabb release</strong></td>
         <td><strong>kvartalsvis</strong></td>
     </tr>
@@ -193,7 +197,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
    <tr>
         <td><strong>Funktion</strong>
         </td>
-        <td><strong>Förhandsgranska</strong></td>
+        <td><strong>Förhandsgranskning</strong></td>
         <td><strong>Snabb release</strong></td>
         <td><strong>kvartalsvis</strong></td>
     </tr>
@@ -223,11 +227,12 @@ The <add release> release webinar will be held on <date>. You can [register for 
    <tr>
         <td><strong>Funktion</strong>
         </td>
-        <td><strong>Förhandsgranska</strong></td>
+        <td><strong>Förhandsgranskning</strong></td>
         <td><strong>Snabb release</strong></td>
         <td><strong>kvartalsvis</strong></td>
     </tr>
-      <!--<tr>
+      <!--
+      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">Create project intake forms in Workfront</a>
             <p>To make it easier to create requested projects without converting from issues, we've created Project intake forms. You can configure these intake forms with specific fields, templates, and custom forms, and set approvers for project creation. Then, when a user uses this form, the project is configured to your specifications and sent for approval.</p>
@@ -235,7 +240,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>August 21, 2025</td>
         <td>September 11, 2025</td>
         <td>October 16, 2025</td>
-    </tr> -->
+    </tr>
+    -->
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">Ny betaversion av Project Health </a>
@@ -279,7 +285,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
    <tr>
         <td><strong>Funktion</strong>
         </td>
-        <td><strong>Förhandsgranska</strong></td>
+        <td><strong>Förhandsgranskning</strong></td>
         <td><strong>Snabb release</strong></td>
         <td><strong>kvartalsvis</strong></td>
     </tr>
@@ -313,7 +319,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
    <tr>
         <td><strong>Funktion</strong>
         </td>
-        <td><strong>Förhandsgranska</strong></td>
+        <td><strong>Förhandsgranskning</strong></td>
         <td><strong>Snabb release</strong></td>
         <td><strong>kvartalsvis</strong></td>
     </tr>
@@ -326,7 +332,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>15 oktober 2025</td>
         <td>16 oktober 2025</td>
     </tr> 
-    <!--<tr>
+    <!--
+    <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">New combined Status column in unified Request list</a><p></p>
             <p>To simplify the unified request experience, the Status column now displays both Request Status and Approval Status, whichever applies to a given request.</p>
@@ -334,7 +341,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>August 28, 2025</td>
         <td>September 11, 2025</td>
         <td>October 16, 2025</td>
-    </tr>  -->   
+    </tr>
+    -->
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Uppdateringar av begärande upplevelse</a><p></p>
@@ -363,7 +371,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                <tr>
         <td><strong>Funktion</strong>
         </td>
-        <td><strong>Förhandsgranska</strong></td>
+        <td><strong>Förhandsgranskning</strong></td>
         <td><strong>Snabb release</strong></td>
         <td><strong>kvartalsvis</strong></td>
     </tr>
@@ -416,7 +424,7 @@ Vi uppdaterar gränssnittet i hela Adobe Workfront för att förbättra använda
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Förbättringar av Workfront Planning
 
@@ -465,7 +473,7 @@ För att kunna leverera mer stabila och skalbara integreringar går vi över til
 * Workfront för Salesforce.
 
 Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Google Workspace.
-En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### API version 20
 
@@ -477,8 +485,8 @@ Mer information om API-versioner finns i [API-versionshantering och supportschem
 
 ### Underhållsuppdateringar för Workfront
 
-Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=sv-SE).
+Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan &#x200B;](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=sv-SE).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).

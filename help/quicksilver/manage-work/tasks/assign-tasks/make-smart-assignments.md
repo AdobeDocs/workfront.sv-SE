@@ -6,7 +6,9 @@ description: Du kan använda smarta tilldelningar för att identifiera vem som �
 author: Lisa
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
@@ -72,10 +74,12 @@ Smarta uppdrag är tillgängliga på de flesta platser där du kan göra uppdrag
 
 1. Placera markören i uppdragsfältet och vänta i två sekunder.
 
-   <!--For issues, the smart assignments display in the following sections: 
+   <!--
+   For issues, the smart assignments display in the following sections: 
       * **Users and teams**
       * **Job roles**
-        ![Smart assignments issue header](assets/smart-assignments-issue-header.png)-->
+        ![Smart assignments issue header](assets/smart-assignments-issue-header.png)
+        -->
 
    Smarta tilldelningar visas i följande avsnitt:<!--, depending on which phase of the algorithm's calculation identified the assignments-->:
 

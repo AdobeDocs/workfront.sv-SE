@@ -5,7 +5,9 @@ description: Du kan använda AI för att autofylla begärandefält genom att ang
 author: Alina
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 1afc69b23138ddfc6e369bf6231dec9ecb5d0bdb
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1486'
 ht-degree: 0%

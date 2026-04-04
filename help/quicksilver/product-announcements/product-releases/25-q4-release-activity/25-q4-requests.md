@@ -5,7 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: 94e81f50ca38ab8139684887c58e0f00353587d7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -23,8 +25,8 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 >[!NOTE]
 >
 >Förhandsgranska: 2 oktober 2025
->&#x200B;>Production fast release: 15 oktober 2025
->&#x200B;>Produktion för alla: 16 oktober 2025
+>Production fast release: 15 oktober 2025
+>Produktion för alla: 16 oktober 2025
 
 För att göra det enklare att se den information du behöver har vi lagt till möjligheten att skapa och spara vyer i området Förfrågningar. Nu kan du spara en vy, inklusive filter och kolumnkonfigurationer, och växla mellan vyer. En Workfront-administratör kan lägga till den nya vyn i layoutmallar.
 
@@ -32,7 +34,8 @@ Tidigare gick det inte att spara filter och kolumnkonfigurationer.
 
 Mer information och instruktioner finns i [Skapa vyer i området Förfrågningar](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 
-<!--## New combined Status column in unified Request list 
+<!--
+## New combined Status column in unified Request list 
 
 >[!NOTE]
 >
@@ -45,7 +48,8 @@ To simplify the unified request experience, the Status column now displays both 
 For more information on creating requests see:
 
 * For Workfront: [Create and submit requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
-* For Workfront Planning: [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)-->
+* For Workfront Planning: [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)
+-->
 
 ## Uppdateringar för att begära erfarenhet
 

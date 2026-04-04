@@ -7,7 +7,9 @@ description: Olika funktioner fasas ut ur Adobe Workfront. Här följer en kort 
 author: Luke
 feature: Product Announcements
 exl-id: 119d65c7-2925-4b36-832a-ee06a718ce7e
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -44,27 +46,32 @@ Olika funktioner fasas ut ur Adobe Workfront. Här följer en kort beskrivning a
    <td> <p>Stöds inte längre den 9 november 2020 (med version 20.4)</p> <p>—</p> <p>Borttagen från Workfront efter första halvåret 2022</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Äldre Workfront Fusion</p> <p>Workfront Fusion ger en förbättrad upplevelse från äldre Workfront Fusion.</p> <p>Mer information om Workfront Fusion finns i <a href="https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/home">Adobe Workfront Fusion</a>.</p> </td> 
+   <td> <p>Äldre Workfront Fusion</p> <p>Workfront Fusion ger en förbättrad upplevelse från äldre Workfront Fusion.</p> <p>Mer information om Workfront Fusion finns i <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home">Adobe Workfront Fusion</a>.</p> </td> 
    <td> </td> 
    <td>Borttagen från Workfront-plattformen den 31 mars 2021</td> 
   </tr> 
   <tr> 
-   <td> <p>Flash</p> <p>Nu finns det olika verktyg i Workfront som ersättning för varje verktyg som är baserat på Flash. Mer information finns i <a href="../../product-announcements/announcements/announcement-archive/replace-flash-tools.md" class="MCXref xref">Ersättning av Flash-baserade verktyg i Adobe Workfront</a>.</p> </td> 
+   <td> <p>Flash</p> <p>Nu finns det olika verktyg i Workfront som ersätter de Flash-baserade verktygen. Mer information finns i <a href="../../product-announcements/announcements/announcement-archive/replace-flash-tools.md" class="MCXref xref">Ersättning av Flash-baserade verktyg i Adobe Workfront</a>.</p> </td> 
    <td> </td> 
    <td> <p> </p> <p>Borttagen från Workfront-plattformen den 19 november 2020</p> </td> 
-  </tr> <!--
+  </tr>
+  <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td> <p>Enhanced Authentication 1.0</p> <p>The method of migrating to the new Enhanced Authentication 2.0 depends on whether you are using Legacy Authentication or Enhanced Authentication 1.0. For more information, see <a href="../../administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md" class="MCXref xref">Enhanced Authentication overview</a>.</p> </td> 
     <td>&nbsp;</td> 
     <td>2021</td> 
    </tr>
-  --> <!--
+  -->
+  <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td> <p>Allowlist updates </p> <!--
+    <td> <p>Allowlist updates </p>
+    <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Split</p>
-     --> <!--
+     -->
+     <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Email Service updated (MailGun)</p>
-     --> </td>
+     -->
+     </td>
 
 </tr>
 

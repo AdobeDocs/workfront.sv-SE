@@ -9,7 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 2ca2361ee96c3940f1f4073274386262f76725ff
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1252'
 ht-degree: 0%
@@ -78,7 +80,7 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
  <thead> 
   <tr> 
    <th>System</th> 
-   <th>Ökning</th> 
+   <th>Översikt</th> 
    <th>Krav</th> 
    <th>Vem kan installera det?</th> 
   </tr> 
@@ -100,7 +102,7 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
    <td>Integreringen måste aktiveras för dina konton av Adobe produktgrupp. Mer information finns i <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md" class="MCXref xref">Kom igång med Adobe Express- och Workfront Proof-integrering</a>.</td> 
   </tr>
  <tr> 
-   <td role="rowheader"> <p>GenStudio for Performance Marketing </p> </td> 
+   <td role="rowheader"> <p>GenStudio för prestationsbaserad marknadsföring </p> </td> 
    <td> 
     <ul> 
      <li>Integrera korrekturupplevelsen med Genstudio för Performance Marketing. Med den här integreringen kan du 
@@ -127,8 +129,8 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
      <li>Premiere Pro </li>
      <li>After Effects </li>
      </ul>
-     <li><p>Hämta/installera från <a href="https://exchange.adobe.com/apps/browse/cc?page=1&product=All&q=workfront&sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
-     <p>Mer information och instruktioner finns i <a href="https://experienceleague.adobe.com/sv/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Installera plugin-programmet [!DNL Adobe Workfront] för [!DNL Creative Cloud]-program</a></p> 
+     <li><p>Hämta/installera från <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
+     <p>Mer information och instruktioner finns i <a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Installera plugin-programmet [!DNL Adobe Workfront] för [!DNL Creative Cloud]-program</a></p> 
      </td>  <td> </td> 
    <td> </td> 
   </tr> 
@@ -171,7 +173,8 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
    <td> </td> 
    <td> </td> 
   </tr> 
-  <!--<tr> 
+  <!--
+  <tr> 
    <td>[!DNL Microsoft] Calendars ([!DNL Office 365] / [!DNL Outlook Live])</td> 
    <td> 
     <ul> 
@@ -180,7 +183,8 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
     </ul> <p><b>NOTE</b>: The [!UICONTROL Outlook] calendar configuration is completely separate from the [!DNL Outlook] Add-in ([!DNL Outlook] Integration or [!DNL Workfront for Outlook]). There's no installation required to configure the calendar.</p></td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
-  </tr> -->
+  </tr>
+  -->
   <tr> 
    <td> <p>[!DNL Microsoft OneDrive]</p> <p> <img src="assets/microsoft-onedrive.png"> </p> </td> 
    <td> 
@@ -190,7 +194,8 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
    <td> </td> 
    <td> </td> 
   </tr> 
-  <!--<tr> 
+  <!--
+  <tr> 
    <td> <p>[!DNL Microsoft Outlook]</p> <p> <img src="assets/outlook.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
@@ -209,7 +214,8 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
    <td> 
     <ul> 
      <li>[!DNL Workfront] administrator </li> 
-    </ul> </td>--> 
+    </ul> </td>
+    -->
   </tr> 
   <tr> 
    <td> <p>[!DNL Microsoft Teams]</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p> </td> 
@@ -279,7 +285,7 @@ Med [!DNL Workfront] kan du utnyttja andra inbyggda integreringar och integrerad
 
   [!DNL Adobe Workfront Fusion] länkar åtgärder inom och mellan program och tjänster för att skapa ett scenario som överför och omvandlar dina data automatiskt. Den har dedikerade anslutningar till många appar, men kan ansluta till alla program med ett offentligt API.
 
-  Mer information finns i [[!DNL Adobe Workfront Fusion] översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+  Mer information finns i [[!DNL Adobe Workfront Fusion] översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan] (kräver [!DNL Workfront Fusion])
@@ -294,7 +300,7 @@ Workfront har många partnerintegreringar som berikar din Workfront-upplevelse. 
 
 Mer information om dessa och andra partnerintegreringar finns på [Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?page=1&partnerLevel=All&product=WRKFRNT&sort=RELEVANCE).
 
-## API för [!DNL Workfront]
+## [!DNL Workfront] API
 
 Med API:t [!DNL Workfront] kan du utöka och förbättra din [!DNL Workfront]-upplevelse genom att utnyttja vårt publika API. Du kan skapa egna integreringar med vårt öppna API.
 

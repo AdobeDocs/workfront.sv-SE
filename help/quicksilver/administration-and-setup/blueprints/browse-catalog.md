@@ -7,7 +7,9 @@ description: Med utkast får du grundläggande byggstenar som hjälper dig att s
 author: Courtney
 feature: System Setup and Administration, Work Management
 exl-id: 932072e4-4d52-4b4b-a045-0cd38cb882d3
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 0%
@@ -56,7 +58,7 @@ Katalogen innehåller alla ritningar som är tillgängliga för din organisation
    * Användningsfall (till exempel [!UICONTROL Human Resources] eller [!UICONTROL Marketing])
    * Förfallograd ([!UICONTROL managed] eller [!UICONTROL integrated])
    * Installationsstatus ([!UICONTROL installed] eller inte [!UICONTROL installed])
-   * Typ av blåtryck (<!--Custom Form, -->[!UICONTROL Dashboard], [!UICONTROL Organizational Structure], [!UICONTROL Project Template]<!--, Request Queue, Setup Feature-->)
+   * Typ av blåtryck ([!UICONTROL Dashboard], [!UICONTROL Organizational Structure], [!UICONTROL Project Template]<!-- above Custom Form; here, Request Queue, Setup Feature-->)
 
 1. (Valfritt) Klicka **[!UICONTROL Details]** på en plan om du vill veta hur den fungerar.
 

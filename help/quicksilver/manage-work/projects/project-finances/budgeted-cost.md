@@ -7,7 +7,9 @@ description: Beräkna förlopp för budgeterat kostnadsspårningsprojekt med en 
 author: Lisa
 feature: Work Management
 exl-id: e96fe38f-58c2-4938-9d2d-81d1109123fa
-source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
@@ -75,9 +77,11 @@ Budgeterad kostnad som återspeglas i resursbudgeteringsområdet i affärsärend
     </tr> 
     <tr> 
      <td>Projektbudgeterad kostnad</td> 
-     <td> <!--
+     <td>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Estimates report (NOTE: this was removed with flash)</p>
-      --> <p>Projektrapport</p> <p>Projektrapport (ekonomiska data)</p> <p>Uppgiftsrapport</p> <p>Problemrapport</p> <p>Budgeterad timrapport</p> <p>Mer information om hur du skapar en rapport finns i artikeln <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Skapa en anpassad rapport</a>.</p> </td> 
+      -->
+      <p>Projektrapport</p> <p>Projektrapport (ekonomiska data)</p> <p>Uppgiftsrapport</p> <p>Problemrapport</p> <p>Budgeterad timrapport</p> <p>Mer information om hur du skapar en rapport finns i artikeln <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Skapa en anpassad rapport</a>.</p> </td>
     </tr> 
    </tbody> 
   </table>

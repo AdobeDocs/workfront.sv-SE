@@ -6,7 +6,9 @@ description: Du kan uppdatera den ordning i vilken anpassade formulär som är k
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 0%
@@ -51,7 +53,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -73,7 +76,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
    <td> <p>Contribute permissions or higher to the objects for which you manage custom forms</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Förutsättningar
 
@@ -104,8 +108,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 
    Gå till exempel till ett projekt och klicka på avsnittet **Projektinformation**.
 
-1. Klicka på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) i det övre högra hörnet på objektets sida och klicka sedan på **Redigera alla**.
-1. Klicka på ikonen **Ta bort** ![Ta bort &#x200B;](assets/delete-icon.png) till höger om ett anpassat formulärnamn, klicka sedan på **Ta bort** för att bekräfta och ta bort formuläret från objektet eller på **Avbryt** för att förhindra att det tas bort.
+1. Klicka på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) i det övre högra hörnet på objektets sida och klicka sedan på **Redigera alla**.
+1. Klicka på ikonen **Ta bort** ![Ta bort ](assets/delete-icon.png) till höger om ett anpassat formulärnamn, klicka sedan på **Ta bort** för att bekräfta och ta bort formuläret från objektet eller på **Avbryt** för att förhindra att det tas bort.
 1. Klicka på **Spara ändringar** .
 
 ## Hantera flera anpassade formulär som innehåller samma anpassade fält
@@ -121,7 +125,8 @@ Du kan ha samma fält på flera anpassade formulär som är kopplade till samma 
 ## Hantera flera anpassade formulär vid gruppredigering av objekt
 
 <!--
-drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:-->
+drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:
+-->
 
 >[!NOTE]
 >
@@ -135,7 +140,7 @@ Endast de anpassade formulär som är kopplade till alla markerade objekt kan re
 
 Så här redigerar du flera anpassade formulär samtidigt när du redigerar objekt:
 
-1. Markera de objekt som de anpassade formulären är kopplade till i ett listobjekt och klicka sedan på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) .
+1. Markera de objekt som de anpassade formulären är kopplade till i ett listobjekt och klicka sedan på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) .
 1. Klicka på **Anpassad Forms**.
 
    Du kan bara redigera anpassade formulär som är kopplade till alla markerade objekt.

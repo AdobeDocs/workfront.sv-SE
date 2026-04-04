@@ -6,7 +6,9 @@ description: Som personansvarig eller tidrapportgodkännare kan du behöva ladda
 author: Lisa
 feature: Timesheets
 exl-id: cb5b1c6c-7800-48f4-ae2c-c4007a161a6c
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 0%
@@ -51,7 +53,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 +++
 
-<!--Old permissions:
+<!--
+Old permissions:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -76,7 +79,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
  </tbody> 
 </table>
 
-*To find out what plan or license type you have, contact your Workfront administrator.-->
+*To find out what plan or license type you have, contact your Workfront administrator.
+-->
 
 ## Exportera en lista med tidrapporter
 

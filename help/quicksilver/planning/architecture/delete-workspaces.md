@@ -6,7 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -16,9 +18,11 @@ ht-degree: 0%
 
 # Ta bort arbetsytor
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -67,7 +71,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
 +++   
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -123,7 +128,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Att tänka på när du tar bort arbetsytor
 
@@ -145,7 +151,7 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
    * Håll pekaren över arbetsytans kort och klicka sedan på menyn **Mer** ![Mer](assets/more-menu.png) i kortets övre högra hörn
 eller
-   * Klicka på ikonen **sök** ![Sök &#x200B;](assets/search-icon.png) i det övre högra hörnet på sidan Arbetsytor om du vill söka efter en arbetsyta efter namn och klicka på ett arbetsytekort för att öppna arbetsytan. Klicka sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om arbetsytans namn.
+   * Klicka på ikonen **sök** ![Sök ](assets/search-icon.png) i det övre högra hörnet på sidan Arbetsytor om du vill söka efter en arbetsyta efter namn och klicka på ett arbetsytekort för att öppna arbetsytan. Klicka sedan på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om arbetsytans namn.
 1. Klicka på **Ta bort**.
 
    ![Bekräftelse av borttagning av arbetsyta permanent](assets/permanently-delete-workspace-confirmation.png)

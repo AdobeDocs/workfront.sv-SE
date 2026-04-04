@@ -6,7 +6,9 @@ description: Du kan skapa planer som en del av att använda Workfront Scenariopl
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2250'
 ht-degree: 0%
@@ -63,7 +65,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav för Workfront-d
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -98,7 +101,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav för Workfront-d
    <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Skapa eller redigera planer
 
@@ -120,7 +124,7 @@ Så här skapar eller redigerar du en plan:
 
 En lista över befintliga planer som du har skapat visas i [!DNL Workfront Scenario Planner].
 
-1. (Valfritt) Klicka på ikonen **[!UICONTROL Filter]** ![Filter &#x200B;](assets/filter-icon-34x37.png) i det övre högra hörnet av planlistan och välj något av följande:
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Filter]** ![Filter ](assets/filter-icon-34x37.png) i det övre högra hörnet av planlistan och välj något av följande:
 
    | Filter | Beskrivning |
    |---|---|
@@ -130,7 +134,7 @@ En lista över befintliga planer som du har skapat visas i [!DNL Workfront Scena
 
    ![Listrutealternativ för planfilter](assets/plans-filters-dropdown-options-scenario-planer.png)
 
-1. (Valfritt) Klicka på ikonen **[!UICONTROL Search]** ![&#x200B; Sök &#x200B;](assets/search-icon.png) om du vill skriva ett nyckelord och snabbt hitta en plan i listan.
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Search]** ![ Sök ](assets/search-icon.png) om du vill skriva ett nyckelord och snabbt hitta en plan i listan.
 
 1. Klicka på namnet på en befintlig plan för att redigera den och fortsätt med steg 7.
 
@@ -253,7 +257,8 @@ En lista över befintliga planer som du har skapat visas i [!DNL Workfront Scena
         <li> <p><strong>[!UICONTROL Total required]</strong> (för timmar): Det totala antalet timmar som krävs för alla månader under planens varaktighet.</p> </li> 
         <li> <p><strong>[!UICONTROL Max required]</strong> (för heltidsanställda): Det högsta antal heltidsanställda som krävs för någon av månaderna under planens löptid. </p> </li> 
        </ul> <p>Tips! Det <span>maximala</span> antalet FTE <span> eller det totala antalet timmar</span> som krävs för den jobbrollen visas när du har påbörjat tillägg av initiativ. Mer information om hur du lägger till initiativ i en plan finns i <a href="../scenario-planner/create-and-edit-initiatives.md" class="MCXref xref">Skapa och redigera initiativ i [!DNL Scenario Planner]</a>.</p> </td> 
-     </tr> <!--
+     </tr>
+     <!--
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">[!UICONTROL Avg utilization]</td> 
        <td> <p>(NOTE: this field was removed in 21.2 - May 2021) </p> <p>[!DNL Workfront] calculates the average utilization for each job role using the job role FTEs associated with initiatives (required) and the job role FTEs associated with the plan (available). </p> <p> [!DNL Workfront] calculates the job role utilization percentage for a plan using the following formula: </p> <p><code>Job role utilization percentage = Sum [(Required job roles for each month of the plan *100)/ (Available job roles for each month of the plan)] / Number of months in the Duration of the plan</code> </p> 
@@ -296,7 +301,7 @@ En lista över befintliga planer som du har skapat visas i [!DNL Workfront Scena
        </div> </td> 
       <td> <p><span>Beroende på om du har valt att använda timmar eller FTE för din plan kan du granska eller uppdatera</span> det månadsvisa antalet FTE <span>eller timmar</span> för jobbrollen som är tillgängligt för scenariot i följande fält:</p> 
        <ul> 
-        <li> <p><strong>[!UICONTROL Available] (max &lt;antal FTE&gt;)</strong>: Antalet inom parentes visar det maximala antalet roller som är tillgängliga för en av månaderna för scenariot. Granska eller uppdatera antalet heltidsanställda för varje månad i scenariot. Om du ändrar månadstilldelningen kan antalet heltidsanställda uppdateras inom parenteserna. </p> </li> 
+        <li> <p><strong>[!UICONTROL Available] (max &lt;antal heltidsanställda&gt;)</strong>: Antalet inom parentes visar det maximala antalet roller som är tillgängliga för en av månaderna för scenariot. Granska eller uppdatera antalet heltidsanställda för varje månad i scenariot. Om du ändrar månadstilldelningen kan antalet heltidsanställda uppdateras inom parenteserna. </p> </li> 
         <li> <p><span><strong>[!UICONTROL Available] (totalt &lt;antal timmar&gt;)</strong>: Antalet inom parentes visar det totala antalet tillgängliga timmar för alla månader i scenariot. Granska eller uppdatera antalet timmar för varje månad i scenariot. Om du ändrar den månatliga allokeringen uppdateras antalet timmar inom parenteserna.</span> </p> </li> 
        </ul> <p>Manuell uppdatering av de månatliga jobbrollallokeringarna är ett annat sätt att lösa jobbrollskonflikter mellan initiativ i scenariot. </p> <p>Tips:   <p><span>Om du vill uppdatera den månatliga rolltillgängligheten för flera månader skriver du antalet timmar eller heltidsanställda i fältet [!UICONTROL Available] för en månad och drar sedan fältets hörn över de angränsande månaderna för att kopiera samma värde för varje månad. Släpp det för att uppdatera alla månader.</span> </p> <p> <img src="assets/job-role-distribution-draggable-corner-highlighted-350x83.png" style="width: 350;height: 83;"> </p> </p> </td> 
      </tr> 
@@ -308,7 +313,7 @@ En lista över befintliga planer som du har skapat visas i [!DNL Workfront Scena
        </div> </td> 
       <td> <p><span>Beroende på om du har valt att använda timmar eller heltidsanställd för din plan kan du granska</span> det månadsvisa antalet heltidsanställda eller timmar för jobbroller som krävs för scenariot i följande fält: </p> 
        <ul> 
-        <li> <p><strong>[!UICONTROL Required] (max &lt;antal FTE&gt;)</strong>: Antalet inom parentes visar det maximala antalet roller som krävs för någon av månaderna för scenariot. </p> </li> 
+        <li> <p><strong>[!UICONTROL Required] (max &lt;antal heltidsanställda&gt;)</strong>: Antalet inom parentes visar det maximala antalet roller som krävs för någon av månaderna för scenariot. </p> </li> 
         <li> <p><span><strong>[!UICONTROL Required] (totalt &lt;antal timmar&gt;)</strong>: Antalet inom parentes visar det totala antalet timmar som krävs för alla månader i scenariot.</span> </p> </li> 
        </ul> <p>Tips! Du kan inte ändra antalet FTE <span> eller timmar </span> som krävs för jobbrollen. Det här numret fyller i scenariot när du har börjat lägga till initiativ och deras krav på jobbroll. </p> </td> 
      </tr> 

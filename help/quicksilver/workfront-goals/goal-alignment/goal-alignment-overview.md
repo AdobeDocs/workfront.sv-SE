@@ -7,7 +7,9 @@ description: Målanpassningen säkerställer att alla i organisationen är på s
 author: Alina
 feature: Workfront Goals
 exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
@@ -27,7 +29,8 @@ ht-degree: 0%
 >Mer information om åtkomst till Workfront-mål finns i [Krav för att använda Workfront-mål](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 
-<!--Old:
+<!--
+Old:
 >Your organization must have the following to use the functionality described in this article:
 >
 >* For the new plan and license structure:
@@ -41,7 +44,8 @@ ht-degree: 0%
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).-->
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
 
 Målanpassning är en viktig del av målhanteringen. Ni kan se till att alla i organisationen är på samma sida om vad som måste göras för att driva strategin framåt genom att anpassa deras mål till varandra och till de organisatoriska målen för team, grupper och företaget.
 
@@ -51,7 +55,7 @@ Mer information om de effektivaste strategierna när du justerar mål finns i [K
 
 ## Överväganden för att justera mål
 
-* Ett mål kan inte bidra till mer än ett annat mål samtidigt. Även om du kan ha flera underordnade mål justerade mot samma överordnade mål, kan ett underordnat mål bara ha en överordnad. Mer information om mål för överordnade och underordnade finns i avsnittet [Förstå mål för överordnade och underordnade &#x200B;](#understand-parent-and-children-goals) i den här artikeln.
+* Ett mål kan inte bidra till mer än ett annat mål samtidigt. Även om du kan ha flera underordnade mål justerade mot samma överordnade mål, kan ett underordnat mål bara ha en överordnad. Mer information om mål för överordnade och underordnade finns i avsnittet [Förstå mål för överordnade och underordnade ](#understand-parent-and-children-goals) i den här artikeln.
 * Ett mål kan ha flera justerade (eller underordnade) mål samt flera aktiviteter och resultat. Dessutom kan varje underordnat mål ha andra aktiviteter och resultat som påverkar dess förlopp samt förloppet för det överordnade målet.
 
   >[!TIP]
@@ -71,7 +75,7 @@ Det finns två sätt att anpassa mål:
 
 * **En justering uppifrån och ned**: Du kan konvertera ett resultat eller en aktivitet för ett mål till ett annat mål. Det nya målet blir det underordnade målet för det ursprungliga målet som blir överordnat. Mer information om justering uppifrån och ned finns i [Justera mål genom att konvertera resultat och aktiviteter till mål](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
 
-Mer information om mål för överordnade och underordnade finns i avsnittet [Förstå mål för överordnade och underordnade &#x200B;](#understand-parent-and-children-goals) i den här artikeln.
+Mer information om mål för överordnade och underordnade finns i avsnittet [Förstå mål för överordnade och underordnade ](#understand-parent-and-children-goals) i den här artikeln.
 
 ## Förstå mål för överordnade och underordnade {#understand-parent-and-children-goals}
 

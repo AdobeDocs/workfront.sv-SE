@@ -6,7 +6,9 @@ description: Du kan uppdatera en uppgifts status för att informera andra om var
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 0%
@@ -56,7 +58,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -82,7 +85,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
    <td> <p>Manage permissions to the task</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Att tänka på när du uppdaterar aktiviteternas status
 
@@ -129,7 +133,8 @@ Så här uppdaterar du aktivitetsstatus i uppgiftshuvudet manuellt:
    >
    >  Det är bara uppgiftstilldelningar som kan uppdatera implementeringsdatumet.
 
-<!--old functionality in old commenting: 
+<!--
+old functionality in old commenting: 
 
 1. Go to a task that you are assigned to for which you want to update the status.
 1. Click the **Status** field in the task header and select a new status. 
@@ -142,7 +147,8 @@ Så här uppdaterar du aktivitetsstatus i uppgiftshuvudet manuellt:
    
    * To update the Commit Date of the task, expand the **Commit Date** drop-down calendar, and select a new Commit Date. 
    * To provide a visual indication of task completion, drag the bubble under Percent Complete or double-click it to enter a percent value.   
-     ![Drag the progress bar]](assets/drag-the-progress-bar-350x155.png)-->
+     ![Drag the progress bar]](assets/drag-the-progress-bar-350x155.png)
+     -->
 
 ## Uppdatera aktivitetsstatus automatiskt
 

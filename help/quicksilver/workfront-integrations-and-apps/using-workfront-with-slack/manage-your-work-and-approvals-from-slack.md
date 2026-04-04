@@ -6,7 +6,9 @@ description: Du kan öppna din hemarbetslista, granska och godkänna att arbeta 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 802a2f16-d827-455e-9e49-f58f4c5fc482
-source-git-commit: e6f61cdde9e8ad14a9226de4cc61fbcdcb6f839b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 0%

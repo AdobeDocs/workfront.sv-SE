@@ -7,7 +7,9 @@ description: När Adobe Workfront-administratören har gett dig rätt åtkomst t
 author: Alina
 feature: Workfront Goals
 exl-id: 922a05f9-2995-4401-a6d2-e5a331270fd3
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 0%
@@ -22,7 +24,7 @@ Mer information om att skapa mål, resultat och aktiviteter finns i följande ar
 
 * [Skapa mål i Adobe Workfront-mål](../../workfront-goals/goal-management/create-goals.md)
 * [Kom igång med resultat och aktiviteter i Adobe Workfront-mål](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
-* [Lägg till resultat i mål i Adobe Workfront &#x200B;](../../workfront-goals/results-and-activities/add-results-to-goals.md)
+* [Lägg till resultat i mål i Adobe Workfront ](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 * [Lägga till aktiviteter i mål i Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
 
 ## Åtkomstkrav
@@ -78,7 +80,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -132,7 +135,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Att tänka på när du redigerar resultat och aktiviteter
 
@@ -235,7 +239,7 @@ Editing activities differs depending on which environment you use.
 1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) och sedan på **Mål**.
 1. Öppna målsidan genom att klicka på namnet på ett mål i mållistan.
 1. Klicka på **Förloppsindikatorer** i den vänstra panelen.
-1. Välj en aktivitet i listan med förloppsindikatorer och klicka på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) .
+1. Välj en aktivitet i listan med förloppsindikatorer och klicka på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) .
 
    Rutan Redigera aktivitet öppnas.
 

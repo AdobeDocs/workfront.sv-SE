@@ -6,7 +6,9 @@ description: Du kan välja bland ett antal widgetar för att anpassa innehållet
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1092'
 ht-degree: 0%
@@ -106,10 +108,12 @@ Du kan använda följande filter i widgeten Mina uppgifter:
 </ul>
 </td>
   </tr>
-   <!-- <tr>
+   <!--
+    <tr>
     <td>All Unassigned Tasks</td>
     <td></td>
-  </tr> -->
+  </tr>
+  -->
   <tr>
     <td>Godkännandeuppgifter</td>
     <td>Visar uppgifter som väntar på godkännande</td>

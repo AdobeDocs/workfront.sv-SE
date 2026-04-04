@@ -6,7 +6,9 @@ description: Du kan redigera inställningarna för en rapport för att definiera
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 6fbbc557-65da-4ffe-968a-9c8db6a45811
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -90,11 +92,13 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
      </tr> 
      <tr> 
       <td role="rowheader">Visa vyn Resursstödraster på fliken Information</td> 
-      <td> <p>(Endast användarrapport) Välj det här alternativet om du vill visa resursstödrastret på fliken Information i rapporten.</p> <p>Obs! När du använder vyn Resursstödraster på en användarrapport visas endast projekt som har statusen Aktuell. Om du vill se projekt med någon annan status kan du använda fliken Användare i området Personer i det globala navigeringsfältet och använda vyn Resursstödraster där. <!--
+      <td> <p>(Endast användarrapport) Välj det här alternativet om du vill visa resursstödrastret på fliken Information i rapporten.</p> <p>Obs! När du använder vyn Resursstödraster på en användarrapport visas endast projekt som har statusen Aktuell. Om du vill se projekt med någon annan status kan du använda fliken Användare i området Personer i det globala navigeringsfältet och använda vyn Resursstödraster där.
+      <!--
          <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
           For more information about using the Resource Grid, see the article Overview of the Resource Grid . (drafted because this article is drafted also: Article is in draft Feb 1, 2021)
          </MadCap:conditionalText>
-        --></p> </td> 
+        -->
+        </p> </td>
      </tr> 
      <tr> 
       <td role="rowheader">Visa en särskild vy på fliken Detaljer</td> 

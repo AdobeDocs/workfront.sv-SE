@@ -6,7 +6,9 @@ description: Du kan kopiera en uppgift från ett projekt till ett annat projekt,
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1744'
 ht-degree: 0%
@@ -52,7 +54,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -80,7 +83,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
    <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Att tänka på vid kopiering av uppgifter
 
@@ -108,7 +112,7 @@ Tänk på följande när du kopierar en uppgift:
    Gå till en uppgiftsrapport.
 
 1. (Villkorligt) Klicka på **Åtgärder** i den vänstra panelen om du öppnade projektet som innehåller aktiviteterna.
-1. Klicka på ikonen **Planeringsläge** ![Listläge eller ikonen för att spara &#x200B;](assets/qs-list-mode-or-save-mode-icon-small.png) och kontrollera att alternativet **Spara automatiskt** är aktiverat.
+1. Klicka på ikonen **Planeringsläge** ![Listläge eller ikonen för att spara ](assets/qs-list-mode-or-save-mode-icon-small.png) och kontrollera att alternativet **Spara automatiskt** är aktiverat.
 
    ![Ikonen Spara automatiskt aktiverad och markerad](assets/autosave-icon-on-highlighted-350x202.png)
 
@@ -241,7 +245,7 @@ Förutom att kopiera uppgifter i en lista med uppgifter kan du även kopiera en 
 
    Uppgiften visas i listan.
 
-   ![Välj överordnad aktivitet när du flyttar en aktivitet med sökfunktioner &#x200B;](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![Välj överordnad aktivitet när du flyttar en aktivitet med sökfunktioner ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. Markera alternativknappen för den överordnade när du har hittat den.
 
@@ -294,7 +298,7 @@ Du kan snabbt duplicera en uppgift i en uppgiftslista om du behöver en identisk
 
      ![Duplicera uppgifter i listmenyobjektet](assets/duplicate-tasks-in-list-nwe-350x196.png)
 
-   * (Villkorligt) Klicka på ikonen **Planera läge** ![Listläge eller det lilla sparläget &#x200B;](assets/qs-list-mode-or-save-mode-icon-small.png) > **Spara manuellt** > **Standard** eller **Planera tidslinje** och gör sedan följande:
+   * (Villkorligt) Klicka på ikonen **Planera läge** ![Listläge eller det lilla sparläget ](assets/qs-list-mode-or-save-mode-icon-small.png) > **Spara manuellt** > **Standard** eller **Planera tidslinje** och gör sedan följande:
 
       1. Markera den eller de uppgifter du vill duplicera och klicka på **Duplicera**.
       1. (Valfritt) Klicka på **Ångra** om du vill ångra ändringarna och inte duplicera uppgifterna.

@@ -6,7 +6,9 @@ description: Det är viktigt att prioritera initiativ eftersom initiativen får 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 45f019de-b29c-477b-8bd1-f32ef21c1015
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -61,7 +63,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav för Workfront-d
 
 +++
 
-<!--<table style="table-layout:auto"> 
+<!--
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -95,7 +98,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav för Workfront-d
    <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Uppdatera initiala prioriteringar
 

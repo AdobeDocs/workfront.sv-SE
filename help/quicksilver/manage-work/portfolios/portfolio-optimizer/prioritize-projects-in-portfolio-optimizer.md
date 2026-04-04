@@ -6,7 +6,9 @@ description: Du kan prioritera dina projekt i Portfolio Optimizer för att fasts
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
-source-git-commit: 714e6e09f1429f0382c36d17d3f2aca95edcfbc6
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -64,7 +66,8 @@ Tänk på följande när du använder [!UICONTROL Portfolio Optimizer]:
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -90,7 +93,8 @@ Tänk på följande när du använder [!UICONTROL Portfolio Optimizer]:
     </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Ändra prioritet för projekten i [!UICONTROL Portfolio Optimizer]
 

@@ -6,19 +6,23 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '617'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
 # Ta bort poster
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -61,7 +65,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 +++   
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -116,7 +121,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Att tänka på när du tar bort poster
 
@@ -153,11 +159,11 @@ Du kan ta bort en post från följande områden:
 
    Postsidan öppnas.
 
-1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om postnamnet, klicka sedan på **Ta bort** och sedan på **Ta bort** igen för att bekräfta.
+1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om postnamnet, klicka sedan på **Ta bort** och sedan på **Ta bort** igen för att bekräfta.
 
    ![Fler menyalternativ från postinformationssidan](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 Posten tas bort.
-1. (Valfritt) Gå till tabellvyn på postsidan och klicka på ikonen **Ångra** ![Ångra &#x200B;](assets/undo-icon.png) i det övre högra hörnet av vyn. Klicka sedan på **Senast borttagen** för att återställa de borttagna posterna.
+1. (Valfritt) Gå till tabellvyn på postsidan och klicka på ikonen **Ångra** ![Ångra ](assets/undo-icon.png) i det övre högra hörnet av vyn. Klicka sedan på **Senast borttagen** för att återställa de borttagna posterna.
 
 Mer information om hur du återställer borttagna poster finns i [Återställa borttagna poster](/help/quicksilver/planning/records/restore-deleted-records.md).
 
@@ -178,7 +184,7 @@ Mer information om hur du återställer borttagna poster finns i [Återställa b
 1. Gör något av följande:
 
    * Högerklicka på en postrad och klicka sedan på **Ta bort**.
-   * Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om postnamnet och klicka sedan på **Ta bort**.
+   * Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om postnamnet och klicka sedan på **Ta bort**.
 
      ![Sammanhangsbaserad meny för postrad](assets/contextual-menu-for-record-row.png)
 
@@ -188,7 +194,7 @@ Mer information om hur du återställer borttagna poster finns i [Återställa b
 
 1. (Valfritt) Gör något av följande om du vill ångra eller göra om borttagning av en post:
 
-   * Klicka på ikonen **Ångra** ![Ångra &#x200B;](assets/undo-icon.png) och sedan på **Senast borttagen** för att återställa de borttagna posterna. Mer information om hur du återställer borttagna poster finns i [Återställa borttagna poster](/help/quicksilver/planning/records/restore-deleted-records.md).
+   * Klicka på ikonen **Ångra** ![Ångra ](assets/undo-icon.png) och sedan på **Senast borttagen** för att återställa de borttagna posterna. Mer information om hur du återställer borttagna poster finns i [Återställa borttagna poster](/help/quicksilver/planning/records/restore-deleted-records.md).
    * Använd följande kortkommandon för att ångra eller göra om borttagning av en post:
 
       * CTRL + Z (⌘ + Z för Mac) för att ångra borttagning av en post

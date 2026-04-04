@@ -6,7 +6,9 @@ description: Gantt-scheman i Adobe Workfront ger en visuell representation av ti
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 0%
@@ -49,7 +51,8 @@ Du kan visa projektlistan [!UICONTROL Gantt Chart] i en projektlista eller en pr
 
 ### Uppgiftslista [!UICONTROL Gantt Chart] {#task-list-gantt-chart}
 
-<!--The task list [!UICONTROL Gantt Chart] is accessible in the following areas:
+<!--
+The task list [!UICONTROL Gantt Chart] is accessible in the following areas:
 
 * In a Project
 
@@ -58,7 +61,8 @@ Du kan visa projektlistan [!UICONTROL Gantt Chart] i en projektlista eller en pr
 
 * In a [!UICONTROL Template]
 
-* In a [!UICONTROL Task] report-->
+* In a [!UICONTROL Task] report
+-->
 
 Så här kommer du åt uppgiftslistan [!UICONTROL Gantt Chart] för ett projekt eller en mall:
 
@@ -96,12 +100,14 @@ Så här kommer du åt uppgiftslistan [!UICONTROL Gantt Chart] för ett projekt 
 
 ### Projektlista [!UICONTROL Gantt Chart] {#project-list-gantt-chart}
 
-<!--The project list [!UICONTROL Gantt Chart] is accessible in the following areas:
+<!--
+The project list [!UICONTROL Gantt Chart] is accessible in the following areas:
 
 * In the [!UICONTROL Projects] area
 * In the [!UICONTROL Projects] section of a [!UICONTROL Portfolio]
 * In the [!UICONTROL Projects] section of a [!UICONTROL Program]
-* In a [!UICONTROL Project] report-->
+* In a [!UICONTROL Project] report
+-->
 
 Så här kommer du åt projektlistan [!UICONTROL Gantt Chart]:
 

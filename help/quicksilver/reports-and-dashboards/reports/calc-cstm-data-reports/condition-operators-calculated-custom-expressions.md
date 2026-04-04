@@ -7,7 +7,9 @@ description: Du kan använda villkorsoperatorer eller modifierare när du skapar
 author: Courtney
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 0%
@@ -31,7 +33,7 @@ Du kan skapa IF-satser för följande Workfront-element:
 * Beräknade anpassade fält
 * Affärsregler
 
-Mer information om hur du skapar IF-satser finns i Översikt över [&#x200B; IF-satser &#x200B;](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md).
+Mer information om hur du skapar IF-satser finns i Översikt över [ IF-satser ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md).
 
 Exemplen i den här handboken visar hur du använder villkorsoperatorer i beräknade anpassade fält. Du kan även använda dem i beräknade anpassade kolumner eller grupperingar när du följer rätt syntax för beräknade anpassade fält i rapporter.
 

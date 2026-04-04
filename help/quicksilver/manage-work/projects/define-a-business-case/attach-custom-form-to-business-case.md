@@ -5,7 +5,9 @@ description: Anpassade Forms används för att samla in information som inte vis
 author: Becky
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 0%
@@ -81,7 +83,9 @@ Så här bifogar du ett anpassat formulär:
 
    ![Expandera formulärinformation](assets/expand-custom-form-details.png)
 
-<!--1. (Optional) Select **Edit Custom Form**.  
+<!--
+1. (Optional) Select **Edit Custom Form**.  
   ![Edit custom form](assets/acf1-350x122.png)
 
-1. (Optional) Specify information in the fields of the custom form, then click **Save** . -->
+1. (Optional) Specify information in the fields of the custom form, then click **Save** .
+-->

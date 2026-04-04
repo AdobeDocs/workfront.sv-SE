@@ -6,7 +6,9 @@ description: Läs den här artikeln för att lära dig hur du loggar in på Work
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
-source-git-commit: c6272c7631941720e3ab1e1c80ed7d304a67d34b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
@@ -112,7 +114,8 @@ Så här loggar du in på [!DNL Workfront] med ditt SSO-användarnamn och lösen
    >
    >Det här är vanligtvis ditt företagsnamn. Kontakta [!DNL Workfront]-administratören om du är osäker.
 
-<!--1. Specify the [!DNL Workfront] URL for your company or the link to your SAML authentication portal.
+<!--
+1. Specify the [!DNL Workfront] URL for your company or the link to your SAML authentication portal.
 
    The [!DNL Workfront] URL should display in the following format:
    **`yourDomain.my.workfront.com`**
@@ -127,7 +130,8 @@ Så här loggar du in på [!DNL Workfront] med ditt SSO-användarnamn och lösen
 
 1. Tap **[!UICONTROL Continue in browser]**.
 1. Specify the **[!UICONTROL Username]** of your [!DNL Workfront] account or SAML user.
-1. Specify the **[!UICONTROL Password]** for your [!DNL Workfront] account or SAML user.-->
+1. Specify the **[!UICONTROL Password]** for your [!DNL Workfront] account or SAML user.
+-->
 
 1. (Villkorligt) Om du loggar in för första gången visas en sida som begär behörighet för mobilappen [!DNL Workfront] att komma åt ditt konto. Klicka på **Tillåt åtkomst** för att fortsätta.
 

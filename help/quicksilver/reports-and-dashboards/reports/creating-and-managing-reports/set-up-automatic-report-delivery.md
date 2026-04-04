@@ -6,7 +6,9 @@ description: Schemalägg automatisk rapportleverans
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 0%
@@ -190,7 +192,8 @@ Så här tar du bort en schemalagd rapportleverans: &#x200B;
 
 1. Bekräfta genom att klicka på **Ta bort**.
 
-<!--## Video walk-through
+<!--
+## Video walk-through
 
 View the following video to learn how to schedule a report delivery. This video was recorded in Workfront Classic. However, the content also applies to the new Workfront experience.
 

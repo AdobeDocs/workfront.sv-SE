@@ -9,7 +9,9 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2136'
 ht-degree: 0%
@@ -18,9 +20,11 @@ ht-degree: 0%
 
 # Konfigurera inställningar för aktiviteter och utgåvor för en grupp
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Om grupper i din organisation måste konfigurera en uppgift eller en utgåva oberoende av hur den är konfigurerad på systemnivå, kan en Adobe Workfront-administratör låsa upp inställningen. Som gruppadministratör kan du sedan konfigurera inställningen för gruppen så att den påverkar alla uppgifter eller problem som är kopplade till gruppen.
 
@@ -140,9 +144,11 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
        <ul> 
         <li><strong>Behåll det ursprungliga problemet och koppla dess upplösning till aktiviteten</strong>: När du konverterar problemet förblir det synligt som ett problem tills aktiviteten är slutförd. Status för problemet ändras automatiskt till Stängd när uppgiften har slutförts.</li> 
         <li><strong>Tillåt att primär kontakt har åtkomst till aktiviteten</strong>: Ger den primära kontakten (den som skapade problemet) åtkomst till aktiviteten för att granska aktiviteten, göra uppdateringar och hålla dig informerad om dess förlopp</li> 
-        <li> <p><strong>Tillåt att de här inställningarna ändras under konvertering</strong>: Gör att den användare som konverterar problemet kan ändra alternativen under konverteringen av ett problem till en aktivitet.</p> <!--
+        <li> <p><strong>Tillåt att de här inställningarna ändras under konvertering</strong>: Gör att den användare som konverterar problemet kan ändra alternativen under konverteringen av ett problem till en aktivitet.</p>
+        <!--
           Screenshot when possible</p>
-         --> </li> 
+         -->
+         </li>
        </ul> </td> 
      </tr> 
      <tr> 

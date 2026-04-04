@@ -6,7 +6,9 @@ description: Du kan söka efter, filtrera och sortera korrekturrundor för att e
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03edaa7e-08c3-4ab1-83ab-747694cf1c17
-source-git-commit: fe269b088c82e7045ffbb5155d54432e0b413cbe
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '787'
 ht-degree: 0%
@@ -89,9 +91,11 @@ Du kan filtrera kommentarerna som visas genom att definiera filterparametrar som
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Åtgärder</strong> </td> 
-      <td>Visar bara kommentarer som matchar den åtgärd du har valt. Ingen åtgärd. Åtgärder måste vara aktiverade i systemet. Mer information finns i .<!--
+      <td>Visar bara kommentarer som matchar den åtgärd du har valt. Ingen åtgärd. Åtgärder måste vara aktiverade i systemet. Mer information finns i .
+      <!--
         &nbsp;
-       --></td> 
+       -->
+       </td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Allmänna filtreringsalternativ</strong> </td> 

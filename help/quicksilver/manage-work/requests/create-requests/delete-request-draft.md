@@ -6,7 +6,9 @@ description: Du kan ta bort skickade begäranden eller begära utkast i Adobe Wo
 author: Alina
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 0%
@@ -92,7 +94,7 @@ Följande användare kan ta bort utkast av begäranden:
 
       Mer information om widgeten **Mina förfrågningar** finns i [Använd widgeten Mina förfrågningar](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
-1. I listan **Förfrågningar** eller widgeten **Mina förfrågningar** i **Hem** håller du muspekaren över den förfrågan eller det utkast som du vill ta bort och klickar sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) .
+1. I listan **Förfrågningar** eller widgeten **Mina förfrågningar** i **Hem** håller du muspekaren över den förfrågan eller det utkast som du vill ta bort och klickar sedan på menyn **Mer** ![Mer ](assets/more-menu.png) .
 
 1. Klicka på **Ta bort**
 

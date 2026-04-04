@@ -6,7 +6,9 @@ description: Om du är Adobe Workfront-kund kan du kontakta Workfront kundsuppor
 feature: Get Started with Workfront
 author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%
@@ -65,7 +67,8 @@ Du kan kontakta [!DNL Workfront Customer Support] 7 dagar i veckan, 24 timmar om
 * EMEA: +44 800 169 0454
 * Australien: +61 180 035 8683
 
-<!--Old numbers - before 2/10/2025:
+<!--
+Old numbers - before 2/10/2025:
 
 * US: 844-306-HELP(4357)
 * EMEA: +44 1256 274200
@@ -82,7 +85,7 @@ Du kan skicka en supportanmälan från självbetjäningsportalen [!DNL Experienc
 >Endast behöriga supportkontakter (eller supportberättigade användare) kan skicka supportärenden online.
 
 
-1. Klicka på [[!DNL Experience League] överst på webbplatsen &#x200B;](https://experienceleague.adobe.com/sv)**[!UICONTROL Support]**.
+1. Klicka på [[!DNL Experience League] överst på webbplatsen ](https://experienceleague.adobe.com)**[!UICONTROL Support]**.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
@@ -137,7 +140,8 @@ Om du har några frågor eller problem med att skicka in en förfrågan kan du r
 1. (Valfritt) Om du vill stänga ärendet klickar du på knappen **[!UICONTROL Close case]**.
 
 
-<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737?profile.language=sv)
+<!--
+drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
 
 - this is the information that was there before - pointing to WorkfrontOne: 
 

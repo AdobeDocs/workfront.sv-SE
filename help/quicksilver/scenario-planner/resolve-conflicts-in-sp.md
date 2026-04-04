@@ -6,7 +6,9 @@ description: När satsningarna hamnar i konflikt med varandra konkurrerar de om 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d3a3e177-bece-4e03-89d7-9cee6127bc55
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2086'
 ht-degree: 0%
@@ -60,7 +62,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav för Workfront-d
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -96,7 +99,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav för Workfront-d
    <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Översikt över att lösa konflikter
 
@@ -213,7 +217,7 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav för Workfront-d
 
    * Klicka på varningsikonen bredvid initieringens namn.
    * Klicka på ett initiativ.
-   * Klicka på ikonen **[!UICONTROL More]** ![Mer &#x200B;](assets/more-icon.png) till höger om initieringens namn och klicka sedan på **[!UICONTROL Edit]**.
+   * Klicka på ikonen **[!UICONTROL More]** ![Mer ](assets/more-icon.png) till höger om initieringens namn och klicka sedan på **[!UICONTROL Edit]**.
 
      Panelen Initiativinformation visas till höger.
 

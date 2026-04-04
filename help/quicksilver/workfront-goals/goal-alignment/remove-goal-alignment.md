@@ -6,7 +6,9 @@ description: Du kan ta bort justeringen mellan två mål om det inte längre är
 author: Alina
 feature: Workfront Goals
 exl-id: a6196356-ca11-4759-9cff-64850a60208e
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
@@ -75,7 +77,8 @@ Mer information om hur du justerar mål finns i följande artiklar:
 Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -124,7 +127,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Förutsättningar
 
@@ -168,7 +172,7 @@ Removing goal alignment differs depending on which environment you use.
 
    ![Flytta om måljustering](assets/remove-goal-alignment-from-list-unshimmed.png)
 
-1. I gruppen **Typ: Mål** väljer du ett mål och klickar sedan på ikonen **Koppla från** ![Koppla från &#x200B;](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) överst i listan.
+1. I gruppen **Typ: Mål** väljer du ett mål och klickar sedan på ikonen **Koppla från** ![Koppla från ](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) överst i listan.
 
    Frånkopplingsrutan visas.
 

@@ -7,7 +7,9 @@ description: Du kan skapa projekt från befintliga initiativ och uppdatera proje
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1583'
 ht-degree: 0%
@@ -63,7 +65,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav för Workfront-d
 +++
 
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -102,7 +105,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav för Workfront-d
     </ul> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 
 ## Förutsättningar
@@ -216,7 +220,7 @@ Innan du börjar:
 
    ![Initiativfilter](assets/initiatives-fitler-in-publishing-screen-scenario-planner.png)
 
-1. (Valfritt) Klicka på ikonen **[!UICONTROL Search]** ![&#x200B; Sök &#x200B;](assets/search-icon.png) och börja skriva namnet på ett initiativ för att snabbt hitta det i listan.
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Search]** ![ Sök ](assets/search-icon.png) och börja skriva namnet på ett initiativ för att snabbt hitta det i listan.
 1. Välj en eller flera initiativ att publicera och skapa eller uppdatera projekt från dem och klicka sedan på **[!UICONTROL Publish initiatives]**.
 
    Detta skapar ett nytt projekt från varje vald initiativ eller uppdaterar befintliga kopplade projekt, om de publicerade initiativen redan var kopplade till ett projekt.
@@ -286,7 +290,7 @@ Innan du börjar:
      >   
      >   
      >   * Mer information om hur du lägger till eller tar bort områden i avsnittet [!UICONTROL Details] med hjälp av en layoutmall finns i [Anpassa vyn [!UICONTROL Details] med hjälp av en layoutmall](../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
-     >   * Mer information om hur du visar information i området [!UICONTROL Overview] i [!UICONTROL Project Details] finns i [[!UICONTROL Manage] -information i projektområdet [!UICONTROL Overview] &#x200B;](../manage-work/projects/manage-projects/understand-project-overview-area.md).
+     >   * Mer information om hur du visar information i området [!UICONTROL Overview] i [!UICONTROL Project Details] finns i [[!UICONTROL Manage] -information i projektområdet [!UICONTROL Overview] ](../manage-work/projects/manage-projects/understand-project-overview-area.md).
      >   
      >
 

@@ -6,7 +6,9 @@ description: Du kan visa och lägga till uppdateringar för ett arbetsobjekt i o
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '824'
 ht-degree: 0%
@@ -17,9 +19,11 @@ ht-degree: 0%
 
 <!--Audited: 04/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Du kan visa och lägga till uppdateringar för ett arbetsobjekt i [!UICONTROL Home]-området i [!DNL Adobe Workfront]. Du kan även redigera andra data som är relaterade till arbetsposten om du har tillgång till dem för att redigera dem.
 
@@ -57,7 +61,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 +++
 
-<!--not sure if this  from the old UI: we don't have a Work List anymore - should this section come off? 
+<!--
+not sure if this  from the old UI: we don't have a Work List anymore - should this section come off? 
 
 ## View updates on a work item
 

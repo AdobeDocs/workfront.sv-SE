@@ -6,7 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 0%
@@ -16,9 +18,11 @@ ht-degree: 0%
 
 # Hantera e-postmeddelanden om Adobe Workfront Planning
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -28,7 +32,7 @@ Du kan få e-postmeddelanden från Workfront Planning när följande scenarier f
 
   Mer information om hur du taggar andra i en postkommentar finns i [Hantera postkommentarer](/help/quicksilver/planning/records/manage-record-comments.md).
 * Någon ber om din behörighet att komma åt en vy, en arbetsyta eller posttyp <!--or <span class="preview">or a record</span>-->
-* Någon bekräftar att din åtkomst har beviljats för en vy, arbetsyta eller posttyp <!--<span class="preview">or record</span>--> <!--Isk confirmed that there is nno email for denying access but did not test-->
+* Någon bekräftar att din åtkomst har beviljats för en vy, arbetsyta eller posttyp <!--<span class="preview">or record</span> Isk confirmed that there is nno email for denying access but did not test-->
 * Du skickar en Workfront Planning-förfrågan. Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
 * Någon godkänner eller avvisar en Workfront Planning-begäran som du har skickat in. Mer information finns i [Godkänn en begäran i Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md)
 * Statusen ändras till en Workfront Planning-förfrågan som du har skickat in.

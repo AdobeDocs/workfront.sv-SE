@@ -8,7 +8,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 0%
@@ -58,7 +60,8 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -90,7 +93,8 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    <td> <p>Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Ange manuellt planerat slutförandedatum för ett projekt
 
@@ -111,7 +115,7 @@ Så här schemalägger du ett projekt från Slutförandedatum:
 
 1. Välj **Projektinformation** i den vänstra panelen.
 
-1. Klicka på ikonen **Redigera projekt** ![Redigera &#x200B;](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) i det övre högra hörnet och välj sedan **Översikt** i listrutan som visas.
+1. Klicka på ikonen **Redigera projekt** ![Redigera ](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) i det övre högra hörnet och välj sedan **Översikt** i listrutan som visas.
 
 1. Klicka på fältet **Schemaläge** i avsnittet **Projektdatum** och välj sedan **Slutförandedatum**.
 
@@ -134,7 +138,7 @@ Så här schemalägger du ett projekt från startdatum:
 
 1. Välj **Projektinformation** i den vänstra panelen.
 
-1. Klicka på ikonen **Redigera projekt** ![Redigera &#x200B;](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) i det övre högra hörnet och välj sedan **Översikt** i listrutan som visas.
+1. Klicka på ikonen **Redigera projekt** ![Redigera ](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) i det övre högra hörnet och välj sedan **Översikt** i listrutan som visas.
 
 1. Klicka på fältet **Schemaläge** i avsnittet **Projektdatum** och välj sedan **Startdatum**.
 

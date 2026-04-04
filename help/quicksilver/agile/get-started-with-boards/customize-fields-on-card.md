@@ -6,7 +6,9 @@ description: Du kan anpassa vilka fält som ska visas på ett kort genom att ina
 author: Courtney
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
@@ -67,7 +69,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    De flesta fält och avsnitt är aktiverade som standard.
 
 1. Stäng av ett fält eller avsnitt för att inaktivera det i båda kortvyerna.
-1. Klicka på ikonen Dölj ![Dölj &#x200B;](assets/eye-hide-icon.png) bredvid ett fält eller avsnitt om du vill dölja det i den komprimerade vyn.
+1. Klicka på ikonen Dölj ![Dölj ](assets/eye-hide-icon.png) bredvid ett fält eller avsnitt om du vill dölja det i den komprimerade vyn.
 1. Om du vill visa alla fält och avsnitt i båda vyerna klickar du på [!UICONTROL **Återställ alla fält till standard**].
 1. Klicka på [!UICONTROL **Dölj konfigurera**] för att stänga konfigurationspanelen.
 

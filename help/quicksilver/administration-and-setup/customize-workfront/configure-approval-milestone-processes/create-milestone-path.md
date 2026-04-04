@@ -8,7 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: c13d893ba3f8748666c8c2d36d66367a6ec4e855
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 0%
@@ -176,15 +178,15 @@ Mer information om hur du kan associera en milstolpe med ett projekt och en mils
 
    Mer information om hur du associerar milstolpar till projekt och milstolpar till aktiviteter finns i [Associera milstolpar med aktiviteter](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
-1. (Valfritt) Välj en milstolpe i listan Milstolpbanor och klicka sedan på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) för att öppna milstolpbanan och redigera informationen.
-1. (Valfritt) Klicka på ikonen **Exportera** ![Exportera &#x200B;](assets/export-icon.png) och välj sedan bland följande format för att exportera listan över milstolpbanor till en fil:
+1. (Valfritt) Välj en milstolpe i listan Milstolpbanor och klicka sedan på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) för att öppna milstolpbanan och redigera informationen.
+1. (Valfritt) Klicka på ikonen **Exportera** ![Exportera ](assets/export-icon.png) och välj sedan bland följande format för att exportera listan över milstolpbanor till en fil:
 
    * PDF
    * Excel
    * Excel (xlsx)
    * Tabbavgränsad
 
-1. (Valfritt) Markera en eller flera milstolpar i listan med milstolpar och klicka sedan på ikonen **Ta bort** ![Ta bort &#x200B;](assets/delete-icon.png) för att ta bort den.
+1. (Valfritt) Markera en eller flera milstolpar i listan med milstolpar och klicka sedan på ikonen **Ta bort** ![Ta bort ](assets/delete-icon.png) för att ta bort den.
 1. Klicka på **Ja, ta bort den**.
 
    Milstolpen tas bort och kan inte återställas. Milstolpbanan tas bort från alla projekt som tidigare associerats med den och alla milstolpar tas bort från de uppgifter som är associerade med dem.

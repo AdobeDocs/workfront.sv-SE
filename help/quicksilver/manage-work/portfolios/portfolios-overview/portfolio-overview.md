@@ -7,7 +7,9 @@ description: En Portfolio är en samling projekt som har enhetliga egenskaper. D
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: b340501e-1190-415e-aa96-5aad177c4b7b
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 0%
@@ -69,7 +71,8 @@ Den här artikeln innehåller allmän information om portföljer i Workfront.
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -97,7 +100,8 @@ Den här artikeln innehåller allmän information om portföljer i Workfront.
     </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Förstå portföljmetoden [!DNL Adobe Workfront]
 

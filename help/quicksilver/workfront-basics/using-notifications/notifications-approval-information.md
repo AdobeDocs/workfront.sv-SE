@@ -6,7 +6,9 @@ description: Följande meddelanden informerar dig om godkännandeaktiviteter fö
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e152913e-de7e-405f-af63-827a9b91e2ae
-source-git-commit: 571deef920ed11f6cd7d59da5ba91ef58e88ab9e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 0%
@@ -37,17 +39,17 @@ Se även [Händelsemeddelanden](../../workfront-basics/using-notifications/event
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p><strong>En delegerad godkännandebegäran för utfärdande har slutförts</strong> </p> <p>Ett utfärdandegodkännande som du delegerat till en annan användare godkändes eller avvisades av den användaren.</p> <p>Ämnet för e-postmeddelandet är: <em>[!UICONTROL Issue Approval/ Rejection Made on Your Behalf by] &lt;Användarnamn&gt;</em></p> <p>Ämnet för det dagliga sammandragsmeddelandet är:<em> [!UICONTROL Digest of Approval Information] &lt;Datum för den dagliga sammandraget&gt;</em></p> </td> 
+   <td> <p><strong>En delegerad godkännandebegäran för utfärdande har slutförts</strong> </p> <p>Ett utfärdandegodkännande som du delegerat till en annan användare godkändes eller avvisades av den användaren.</p> <p>Ämnet för e-postmeddelandet är: <em>[!UICONTROL Issue Approval/ Rejection Made on Your Behalf by] &lt;Användarnamn&gt;</em></p> <p>Ämnet för det dagliga meddelandet är:<em> [!UICONTROL Digest of Approval Information] &lt;Datum för den dagliga sammanfattningen&gt;</em></p> </td> 
    <td> <p>Utleveransnamn<br>Projektnamn<br>Utfärdarreferensnummer<br>Namn på den användare som godkände/avvisade utgåvan för din räkning<br>Godkännandebeslut<br>Utfärdandestatus<br>Namn på den användare som begärde godkännandet<br><strong>[!UICONTROL See More Details]</strong> knapp<br>*Projektreferensnummer<br>*Projektnamn<br>*Totalt antal delegerade utgivningsgodkännanden<br>*Utfärdarnamn<br> <br>*Datum för den dagliga sammandraget<br><br></p> </td> 
    <td><strong>Dagligen</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>En delegerad begäran om projektgodkännande har slutförts</strong> </p> <p>Ett projektgodkännande som du har delegerat till en annan användare godkändes eller avvisades av den användaren.</p> <p>Ämnet för e-postmeddelandet är: <em>[!UICONTROL Project Approval/ Rejection Made on Your Behalf by] &lt;Användarnamn&gt;</em></p> <p><em>Ämnet för det dagliga sammandragsmeddelandet är: [!UICONTROL Digest of Approval Information] &lt;Datum för det dagliga sammandraget&gt;</em> </p> </td> 
+   <td> <p><strong>En delegerad begäran om projektgodkännande har slutförts</strong> </p> <p>Ett projektgodkännande som du har delegerat till en annan användare godkändes eller avvisades av den användaren.</p> <p>Ämnet för e-postmeddelandet är: <em>[!UICONTROL Project Approval/ Rejection Made on Your Behalf by] &lt;Användarnamn&gt;</em></p> <p><em>Ämnet för det dagliga meddelandet är: [!UICONTROL Digest of Approval Information] &lt;Datum för den dagliga sammanfattningen&gt;</em> </p> </td> 
    <td> Projektnamn<br>[!UICONTROL Portfolio Name]<br>[!UICONTROL Project Reference Number]<br>Namnet på den användare som godkände/avvisade projektet åt dig<br>[!UICONTROL Approval Decision]<br>[!UICONTROL Project Status]<br>Namnet på den användare som begärde godkännandet<br><strong>[!UICONTROL See More Details]</strong>-knappen<br>*Projektreferensnummer<br>*Projektnamn<br>*Godkännarens namn<br>[!UICONTROL *Date of the daily digest]<br></td> 
    <td><strong>Dagligen</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>En begäran om godkännande av delegerad aktivitet har slutförts</strong> </p> <p>Ett aktivitetsgodkännande som du har delegerat till en annan användare godkändes eller avvisades av den användaren.</p> <p>Ämnet för e-postmeddelandet är: <em>[!UICONTROL Task Approval/ Rejection Made on Your Behalf by] &lt;Användarnamn&gt;</em></p> <p>Ämnet för det dagliga sammandragsmeddelandet är:<em> [!UICONTROL Digest of Approval Information] &lt;Datum för den dagliga sammandraget&gt;</em></p> </td> 
+   <td> <p><strong>En begäran om godkännande av delegerad aktivitet har slutförts</strong> </p> <p>Ett aktivitetsgodkännande som du har delegerat till en annan användare godkändes eller avvisades av den användaren.</p> <p>Ämnet för e-postmeddelandet är: <em>[!UICONTROL Task Approval/ Rejection Made on Your Behalf by] &lt;Användarnamn&gt;</em></p> <p>Ämnet för det dagliga meddelandet är:<em> [!UICONTROL Digest of Approval Information] &lt;Datum för den dagliga sammanfattningen&gt;</em></p> </td> 
    <td> Aktivitetsnamn<br>Projektnamn<br>Aktivitetsreferensnummer<br>Namnet på den användare som godkände/avvisade aktiviteten åt dig<br>Godkännandebeslut<br>Aktivitetsstatus<br>Namnet på den användare som begärde godkännandet<br><strong>Se Mer information</strong> Knapp<br>*Projektreferensnummer<br>*Projektnamn<br>*Totalt antal delegerade aktivitetsgodkännanden<br>*Aktivitetsnamn<br>*Godkännanden ver Name<br>*Date of the day digest<br></td> 
    <td><strong>Dagligen</strong> </td> 
   </tr> 
@@ -57,7 +59,7 @@ Se även [Händelsemeddelanden](../../workfront-basics/using-notifications/event
    <td><strong>Direkt</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Jag har delegerats som godkännare</strong> </p> <p>Om någon har delegerat ett godkännande till dig får du ett e-postmeddelande. </p> <p>Ämnet för e-postmeddelandet är: <em>[!UICONTROL Delegated] &lt;Objekttyp&gt; [!UICONTROL Approval - Please Review] &lt;Objektnamn&gt;</em></p> <p> <p>Obs! Du kan inte konfigurera det här meddelandet för ett dagligt sammandrag-e-postmeddelande.</p> </p> </td> 
+   <td> <p><strong>Jag har delegerats som godkännare</strong> </p> <p>Om någon har delegerat ett godkännande till dig får du ett e-postmeddelande. </p> <p>Ämnet för e-postmeddelandet är: <em>[!UICONTROL Delegated] &lt;Object Type&gt; [!UICONTROL Approval - Please Review] &lt;Object Name&gt;</em></p> <p> <p>Obs! Du kan inte konfigurera det här meddelandet för ett dagligt sammandrag-e-postmeddelande.</p> </p> </td> 
    <td> <p>[!UICONTROL Object Name]<br>[!UICONTROL Parent Object Name]<br>[!UICONTROL Object Reference Number]<br>Namn på den användare som skickade objektet för godkännande<br>Namn på den användare för vars räkning du godkänner objektet<br>Objektstatus<br>Datum och tid när godkännandet begärdes<br>Objektprioritet<br>Namn på godkännandesteg<br>[!UICONTROL Planned Completion Date] för knappen Objekt<br><strong>[!UICONTROL Make Approval Decision]</strong></p> </td> 
    <td><strong>Direkt</strong> </td> 
   </tr> 

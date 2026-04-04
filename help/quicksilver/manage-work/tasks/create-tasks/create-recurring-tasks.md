@@ -7,7 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 0%
@@ -56,7 +58,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -84,7 +87,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator. For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator. For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Skapa en återkommande uppgift
 
@@ -109,7 +113,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 1. Klicka på **Översikt** i den vänstra panelen.
 1. Bläddra ned till avsnittet **Återkommande schema** och välj sedan alternativet **Gör detta till en återkommande uppgift**.
 
-   ![Val av återkommande aktiviteter &#x200B;](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
+   ![Val av återkommande aktiviteter ](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
 
 1. I listrutan **Täthet** väljer du antalet tidsenheter när du vill att uppgiften ska utföras och typen av tidsenheter. Välj bland följande alternativ:
 
@@ -140,7 +144,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
       <td> <p>Uppgiften upprepas varje månad, varannan månad, var tredje månad och så vidare, beroende på vilken frekvens du väljer. Du kan välja mellan 1 och 12 månader. </p> <p>I fältet <strong>Upprepningar</strong> väljer du bland följande alternativ när du vill att uppgiften ska utföras:</p> 
        <ul> 
         <li> <p><strong>varje månad den &lt;månadsdatum&gt;</strong> </p> <p>Du kan välja dagar mellan 1 och 30 eller så kan du välja <strong>senaste</strong>. Du kan till exempel välja "varje månad den 30:e". </p> </li> 
-        <li> <p><strong>varje månad den &lt;number&gt; &lt;veckodag&gt;</strong> </p> <p>I den första listrutan kan du välja ett tal mellan 1 och 4 för veckonumret i månaden eller så kan du välja "senaste". </p> <p>I den andra listrutan kan du välja vilken veckodag som helst. </p> <p>Du kan t.ex. välja "varje månad den andra tisdagen". </p> </li> 
+        <li> <p><strong>varje månad den &lt;number&gt; &lt;day of the week&gt;</strong> </p> <p>I den första listrutan kan du välja ett tal mellan 1 och 4 för veckonumret i månaden eller så kan du välja "senaste". </p> <p>I den andra listrutan kan du välja vilken veckodag som helst. </p> <p>Du kan t.ex. välja "varje månad den andra tisdagen". </p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 

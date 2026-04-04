@@ -6,7 +6,9 @@ description: Oavsett om du är VD, chef eller enskild medverkande kan du skapa m
 author: Alina
 feature: Workfront Goals
 exl-id: 14bf48b6-eb0c-4b00-a1a4-0d070ccc1392
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
@@ -72,7 +74,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto">
 <col>
@@ -125,7 +128,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Riktlinjer för att skapa mål
 
@@ -253,7 +257,7 @@ Mållistan visas.
    Gör minst något av följande för att förbereda ett mål som ska aktiveras:
    * Lägg till ett resultat
 
-     Mer information om hur du lägger till resultat finns i [Lägga till resultat i mål i Adobe Workfront &#x200B;](../results-and-activities/add-results-to-goals.md).
+     Mer information om hur du lägger till resultat finns i [Lägga till resultat i mål i Adobe Workfront ](../results-and-activities/add-results-to-goals.md).
    * Lägg till en aktivitet
 
      Mer information om hur du lägger till aktiviteter finns i [Lägga till aktiviteter i mål i Adobe Workfront-mål](../results-and-activities/add-activities-to-goals.md).

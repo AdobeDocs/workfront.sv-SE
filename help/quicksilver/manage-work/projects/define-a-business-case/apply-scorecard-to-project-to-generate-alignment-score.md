@@ -5,7 +5,9 @@ description: Du kan använda ett styrkort för att mäta hur väl ett projekt an
 author: Becky
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1211'
 ht-degree: 0%
@@ -100,7 +102,8 @@ Så här använder du ett styrkort för ett projekt:
 
    Styrkortet är nu kopplat till projektet och projektet poängsätts.
 
-<!--This functionality was removed when we redesigned bulk editing projects with 23.2: 
+<!--
+This functionality was removed when we redesigned bulk editing projects with 23.2: 
 
 1. (Conditional) When changes occur in the values of scorecard questions, you must recalculate the scorecard to reflect the new values for the project score. To recaulate the scorecard, do the following: 
 

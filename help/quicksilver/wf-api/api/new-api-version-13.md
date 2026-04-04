@@ -7,7 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: afbc986e-8b5c-40bc-9120-e8d34e0f7004
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 0%
@@ -87,7 +89,7 @@ Mer information om åtkomstnivåer finns i [Hur åtkomstnivåer fungerar](../../
 
 ### BreadCrumb {#breadcrumb}
 
-Ett BreadCrumb-objekt representerar ett element i hierarkin för överordnade/underordnade element för ett Workfront-arbetsobjekt. Brevbeskrivningar visar hur en arbetsuppgift passar in i den större strukturen för Portfolio, projekt, projekt och uppgifter.
+Ett BreadCrumb-objekt representerar ett element i hierarkin för överordnade/underordnade element för ett Workfront-arbetsobjekt. Brevbeskrivningar visar hur en arbetsuppgift passar in i den större strukturen för portföljer, projekt, projekt och uppgifter.
 
 Mer information om vägbeskrivningar finns i [Översikt över vägbeskrivningar i den nya Adobe Workfront-upplevelsen](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
 
@@ -149,7 +151,7 @@ Ett CustomerPreferences-objekt representerar den uppsättning inställningar som
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Åtgärder</td> 
+   <td>Instruktioner</td> 
    <td> <p>Följande åtgärder har lagts till i CustomerPreferences-resursen.</p> 
     <ul> 
      <li> <p><b>getTimesheetPreferences</b> </p> </li> 
@@ -199,7 +201,7 @@ Mer information om grupper finns i [Grupper kontra team i Adobe Workfront](../..
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td> <p>Åtgärder</p> </td> 
+   <td> <p>Instruktioner</p> </td> 
    <td> 
     <ul> 
      <li> <p><b>getParents</b> </p> <p>Den här åtgärden returnerar en array av gruppens överordnade grupper (grupper som den angivna gruppen är en undergrupp till).</p> </li> 
@@ -310,9 +312,11 @@ Projekt är arbetsuppgifter inom Workfront och är en viktig byggsten i det sät
    <td> <p>Direktfält</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>convertOpTaskOriginatorID</b> </p> <!--
+     <li> <p><b>convertOpTaskOriginatorID</b> </p>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Removed flag NOT&nbsp;FILTERABLE</p>
-      --> </li> 
+      -->
+      </li>
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -466,7 +470,7 @@ Objektet som representerar layoutmallar i Adobe Workfront Classic finns i [Layou
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Åtgärder</td> 
+   <td role="rowheader">Instruktioner</td> 
    <td> <p>Följande åtgärder har lagts till i UITemplate-resursen.</p> 
     <ul> 
      <li> <p><b>migrateCustomersAllLayoutTemplates</b> </p> <p>Tar argumentet:</p> 

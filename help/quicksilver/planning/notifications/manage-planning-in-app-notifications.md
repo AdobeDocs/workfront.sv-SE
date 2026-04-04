@@ -6,7 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 0%
@@ -24,7 +26,7 @@ Du kan få meddelanden i appen från Workfront Planning när följande scenarier
 
   Mer information om hur du taggar andra i en postkommentar finns i [Hantera postkommentarer](/help/quicksilver/planning/records/manage-record-comments.md).
 * Någon ber om din behörighet att komma åt en vy eller arbetsyta <!--<span class="preview">or record</span>-->
-* Någon bekräftar att din åtkomst har beviljats för en vy eller arbetsyta <!--<span class="preview">or record</span>--> <!--Isk confirmed there is no notification for denying permissions - did not test-->
+* Någon bekräftar att din åtkomst har beviljats för en vy eller arbetsyta <!--<span class="preview">or record</span> Isk confirmed there is no notification for denying permissions - did not test-->
 
 ## Åtkomstkrav
 

@@ -2,7 +2,7 @@
 user-type: administrator
 content-type: reference
 product-area: system-administration
-keywords: åtkomst,modell,tratt,diagram,nivåer,behörigheter
+keywords: åtkomst,modell,funnel,diagram,nivåer,behörigheter
 navigation-topic: access-levels
 title: Tillgängliga funktioner för varje objekttyp för olika åtkomstnivåer (äldre)
 description: I följande tabeller visas de funktioner som är tillgängliga för varje objekttyp på olika åtkomstnivåer.
@@ -10,7 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 57632f1949e849aca3f26874382f1101b9b0cf89
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1585'
 ht-degree: 1%

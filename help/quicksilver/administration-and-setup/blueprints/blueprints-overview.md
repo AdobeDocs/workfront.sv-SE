@@ -9,7 +9,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 0%
@@ -36,7 +38,7 @@ Utkast är uppsättningar av Workfront-objekt som hanterar vanliga användningso
 >
 >   Den här planen innehåller en mall för att organisera nya anställdas introduktionsaktiviteter. Genom att använda den här mallen kan IT-avdelningen arbeta effektivt, vilket ger en positiv ny medarbetarupplevelse och ger snabbare produktivitet.
 >
->* **Grunderna för ärvda instanser | Checklista**
+>* **Ärvda instansgrunder | Checklista**
 >
 >    Den här planen innehåller en projektmall (eller checklista) som du kan granska med en kort lista över frågor, resurser och länkar för att få en tydlig förståelse för hur din Workfront-instans har konfigurerats. Använd detta när du nyligen har ärvt en Workfront-instans och behöver hjälp med var du ska börja.
 >
@@ -82,7 +84,7 @@ Varje plan innehåller en informationssida. Från den här sidan kan du:
 * Se beskrivningar av roller, team, företag och grupper
 * Se ett visuellt exempel på en viss plan, t.ex. en projektmall (du kan förhandsvisa hela bilden i webbläsaren eller hämta den)
 
-![[!UICONTROL Blueprint Details] sida &#x200B;](assets/blueprint-details-page-2022.png)
+![[!UICONTROL Blueprint Details] sida ](assets/blueprint-details-page-2022.png)
 
 ## Installera en plan
 

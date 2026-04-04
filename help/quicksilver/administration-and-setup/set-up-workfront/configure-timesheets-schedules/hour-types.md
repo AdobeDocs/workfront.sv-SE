@@ -9,7 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 0%
@@ -20,16 +22,20 @@ ht-degree: 0%
 
 <!--Audited: 05/2025-->
 
-<!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
-**Linked to Creating Billing Record-->
+<!--
+DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
+**Linked to Creating Billing Record
+-->
 
-<!--<div class="preview">
+<!--
+<div class="preview">
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
-</div>-->
+</div>
+-->
 
 Timtyper är etiketter som du använder för att definiera timposterna. Du kan associera timtyper med timposterna.
 
@@ -157,7 +163,7 @@ Som [!DNL Workfront]-administratör kan du redigera timtyper för din organisati
 
 1. Klicka på **Tidrapport och timmar** i den vänstra panelen och klicka sedan på **Timtyper**.
 
-1. Klicka på ett timtypsnamn eller välj timtyp och klicka sedan på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) längst upp i listan.
+1. Klicka på ett timtypsnamn eller välj timtyp och klicka sedan på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) längst upp i listan.
 1. Ange följande information i dialogrutan **Redigera timtyper**:
 
    <table style="table-layout:auto"> 

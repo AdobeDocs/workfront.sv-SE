@@ -7,7 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1ffba3b5-ab24-4ca2-a1ef-f7e5b77e776c
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2421'
 ht-degree: 0%
@@ -31,9 +33,11 @@ Ett BreadCrumb-objekt representerar ett element i hierarkin för överordnade/un
 
 Mer information om vägbeskrivningar i Workfront finns i [Översikt över vägbeskrivningar i nya Adobe Workfront](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -53,9 +57,11 @@ RTF-fält är nu tillgängliga för fler objekt. RichTextParameterValue-objektet
 
 Mer information finns i [RTF-fält i Adobe Workfront API](../../wf-api/general/rich-text-field-api.md).
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -140,22 +146,28 @@ Ett AccessLevel-objekt är associerat med användare och beskriver uppsättninge
 
 Mer information om åtkomstnivåer finns i [Hur åtkomstnivåer fungerar](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
-  <tr> <!--
+  <tr>
+  <!--
     <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Direct Fields</td>
    --> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <!--
+     <li style="font-weight: bold;">
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">fieldAccessPrivileges</p>
-      --> <!--
+      -->
+      <!--
        <p style="font-weight: normal;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Added the possible value CPJ (Copy). This allows Users with Planner Access Level to copy Projects.</p>
-      --> </li> 
+      -->
+      </li>
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -191,43 +203,61 @@ Ett AccessLevelPermissions-objekt representerar en specifik behörighet för att
        <li> <p>ADD_TO_CUSTOM_FORMS </p> </li> 
        <li> <p>EDIT_SYSTEMWIDE </p> </li> 
       </ul> </li> 
-    </ul> <!--
+    </ul>
+    <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">OR</p>
-    --> <!--
+    -->
+    <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The following fields added the possible value PLANNED_HOURS_CONTOURING, which allows a user to update planned hours in the Workload Balancer</p>
     --> 
     <ul> 
-     <li> <!--
+     <li>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">coreAction</p>
-      --> </li> 
-     <li> <!--
+      -->
+      </li>
+     <li>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">forbiddenActions</p>
-      --> </li> 
-     <li> <!--
+      -->
+      </li>
+     <li>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">secondaryActions</p>
-      --> </li> 
-    </ul> <!--
+      -->
+      </li>
+    </ul>
+    <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The following fields added the possible value ADD_TO_CUSTOM_FORMS, which allows a user to add fields to custom forms.</p>
     --> 
     <ul> 
-     <li> <!--
+     <li>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">coreAction</p>
-      --> </li> 
-     <li> <!--
+      -->
+      </li>
+     <li>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">forbiddenActions</p>
-      --> </li> 
-     <li> <!--
+      -->
+      </li>
+     <li>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">secondaryActions</p>
-      --> </li> 
-    </ul> <!--
+      -->
+      </li>
+    </ul>
+    <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The following fields added the possible value EDIT_SYSTEMWIDE, which allows a user to share a custom field system-wide with Delete access. </p>
-    --> <!--
+    -->
+    <!--
      <ul data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
       <li> <p>coreAction</p> </li> 
       <li> <p>forbiddenActions</p> </li> 
       <li> <p>secondaryActions</p> </li> 
      </ul>
-    --> </td> 
+    -->
+    </td>
   </tr> 
  </tbody> 
 </table>
@@ -427,7 +457,7 @@ Ett kundobjekt representerar en organisation som använder en instans av Workfro
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>Åtgärder</td> 
+   <td>Instruktioner</td> 
    <td> 
     <ul> 
      <li> <p style="font-weight: normal;"><strong>productEnabled</strong> </p> <p style="font-weight: normal;">Den här åtgärden tar ett CustomerProductTypeEnum-argument och returnerar ett booleskt värde som anger om kunden har ett konto för produkten. </p> </li> 
@@ -467,7 +497,7 @@ Ett Document-objekt representerar en fil (t.ex. skrivet material, bilder eller a
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>Åtgärder</td> 
+   <td>Instruktioner</td> 
    <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>createLinkedProofVersion</p> <p style="font-weight: normal;">Tillagd</p> </li> 
@@ -500,7 +530,7 @@ Mer information om dokumentversioner finns i [Överföra en ny version av ett do
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Åtgärder</td> 
+   <td>Instruktioner</td> 
    <td> <p>Följande åtgärder har lagts till i Document-objektet.</p> 
     <ul> 
      <li> <p style="font-weight: bold;">getDocumentReviewerDecision</p> <p style="font-weight: normal;">Den här åtgärden tar argumentet documentVersonID (sträng) och returnerar en karta som anger granskarens beslut.</p> </li> 
@@ -538,7 +568,7 @@ Ett Group-objekt representerar en uppsättning användare och team. Grupper repr
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Åtgärder</td> 
+   <td>Instruktioner</td> 
    <td> 
     <ul> 
      <li> <p><strong>assignMultiple</strong> </p> <p>Den här åtgärden har följande argument:</p> 
@@ -602,7 +632,7 @@ Ett OpTask-objekt kallas vanligtvis för ett problem. Ett problem är en arbetsu
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Åtgärder</td> 
+   <td role="rowheader">Instruktioner</td> 
    <td> <p>De här åtgärderna har lagt till argumentstatusen för att stödja den nya Start-knappfunktionen, som ändrar statusen för en arbetsuppgift när en användare klickar på knappen för att ange att de har påbörjat arbetet med posten.</p> <p>Mer information finns i <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersätt knappen Arbeta med med knappen Start</a>.</p> 
     <ul> 
      <li> <p><strong>acceptWork</strong> </p> </li> 
@@ -801,7 +831,7 @@ Ett Task-objekt representerar en arbetsuppgift som måste utföras som ett steg 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Åtgärder</td> 
+   <td role="rowheader">Instruktioner</td> 
    <td> <p>De här åtgärderna har lagt till argumentstatusen för att stödja den nya Start-knappfunktionen, som ändrar statusen för en arbetsuppgift när en användare klickar på knappen för att ange att de har påbörjat arbetet med posten.</p> <p>Mer information finns i <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersätt knappen Arbeta med med knappen Start</a>.</p> 
     <ul> 
      <li> <p><strong>acceptWork</strong> </p> </li> 
@@ -823,9 +853,11 @@ Ett Team-objekt är en samling användare som kan tilldelas till ett arbetsobjek
    <td role="rowheader">Direktfält</td> 
    <td> <p>Följande fält har lagts till i teamresursen:</p> 
     <ul> 
-     <li> <p><strong>completeDaysOnKanbanBoard</strong> </p> <p>Det här fältet visar antalet dagar som ett ifyllt kort återstår på Kanban-tavlan.</p> <!--
+     <li> <p><strong>completeDaysOnKanbanBoard</strong> </p> <p>Det här fältet visar antalet dagar som ett ifyllt kort återstår på Kanban-tavlan.</p>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information, see <a href="../../agile/get-started-with-agile-in-workfront/configure-kanban.md" class="MCXref xref">Configure Kanban</a>.</p>
-      --> </li> 
+      -->
+      </li>
      <li> <p><strong>groupID</strong> </p> <p>Det här fältet associerar ett team med en grupp. Detta identifierar teamet som en del av gruppen och ger gruppadministratören möjlighet att hantera teamen.</p> </li> 
      <li> <p><strong>workOnItStatusChange</strong> </p> <p>Det här är en boolesk parameter som anger om teamets Work on It-knapp har konfigurerats som en Start-knapp. När en teammedlem klickar på en Start-knapp för att börja arbeta med ett arbetsobjekt ändras objektets status från Nytt till en status som konfigurerats i gruppinställningarna.</p> </li> 
      <li> <p>I följande fält kan du ange anpassade statusvärden för Start-knappen för de enskilda arbetsobjekten.</p> 
@@ -934,7 +966,7 @@ Ett User-objekt representerar en person med ett konto i Workfront som kan logga 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Åtgärder</td> 
+   <td role="rowheader">Instruktioner</td> 
    <td> <p>Följande åtgärd lades till i användarresursen:</p> 
     <ul> 
      <li> <p><strong>getUserAccessPermissionsByObjCode</strong> </p> <p>Den här åtgärden använder följande argument</p> 

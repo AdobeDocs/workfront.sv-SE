@@ -6,7 +6,9 @@ description: Referenssamlingar i en rapport
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2615'
 ht-degree: 0%
@@ -266,7 +268,7 @@ Raderna i ett textläge för en samling beskrivs i följande tabell:
   </tr> 
   <tr> 
    <td><code>listdelimiter=&lt;p&gt;</code> </td> 
-   <td> <p>Detta är avgränsaren som används för att separera värdena i listan.<br>Vi rekommenderar att du använder <code>&lt;p&gt;</code> som lägger till en radbrytning mellan värdena.</p> <p>Du kan även använda följande:</p> <p><code>&zwj;</code> (nollbreddsskarv). Värdena i samlingen har ingen separation mellan dem.<br><strong>,</strong> =kommaavgränsare. Samlingens värden avgränsas med ett kommatecken följt av inget blanksteg.<br><strong>/</strong> = snedstreck. Samlingens värden avgränsas med ett snedstreck.<br><strong>-</strong> = streckavgränsare. Samlingens värden avgränsas med ett streck.<br>Om du lämnar den här raden tom läggs ett kommatecken till följt av ett blanksteg mellan samlingens värden.</p> </td> 
+   <td> <p>Detta är avgränsaren som används för att separera värdena i listan.<br>Vi rekommenderar att du använder <code>&lt;p&gt;</code> som lägger till en radbrytning mellan värdena.</p> <p>Du kan även använda följande:</p> <p><code>&amp;zwj;</code> (nollbreddsskarv). Värdena i samlingen har ingen separation mellan dem.<br><strong>,</strong> =kommaavgränsare. Samlingens värden avgränsas med ett kommatecken följt av inget blanksteg.<br><strong>/</strong> = snedstreck. Samlingens värden avgränsas med ett snedstreck.<br><strong>-</strong> = streckavgränsare. Samlingens värden avgränsas med ett streck.<br>Om du lämnar den här raden tom läggs ett kommatecken till följt av ett blanksteg mellan samlingens värden.</p> </td> 
   </tr> 
   <tr> 
    <td><code>displayname=</code><em>Kolumnnamn</em> </td> 
@@ -395,7 +397,7 @@ Så här lägger du till en referens till en samling i den anpassade uppmaningen
 1. Klicka på **Rapportera frågor**.
 1. Klicka på **Lägg till fråga**.
 1. Klicka på **Egen fråga**.
-1. Ange namnet på uppmaningen i fältet **Fält**&#x200B;**namn**.
+1. Ange namnet på uppmaningen i fältet **Fält****namn**.
 
 1. Ange en **nedrullningsbar objektetikett**.
 1. Ange följande i fältet **Villkor**:

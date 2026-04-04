@@ -5,7 +5,9 @@ description: Läs om AI-assistenten i Adobe Workfront
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 418ea6e9728cb0e8d178fa201ece35328547eedb
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 1%
@@ -141,7 +143,7 @@ Så här begär du avtalet för Adobe Gen AI:
    >[!NOTE]
    >
    >* Det kan ta 1-3 arbetsdagar innan Adobe har signerat och skickat tillbaka avtalet att granska och aktivera AI Assistant.
-   >* If you do not see AI Assistant options available in your organization&#39;s instance after it has been enabled, contact Workfront customer support.
+   >* Om du inte ser AI Assistant-alternativen i din organisations instans när den har aktiverats kontaktar du Workfront kundsupport.
 
 ## Tips för att skapa uppmaningar i AI Assistant
 
@@ -150,7 +152,7 @@ Använd följande nyckelord i dina uppmaningar för att ge kontext och hjälp me
 Inkludera frasen `using (keyword)` när du anger din fråga.
 
 | Nyckelord | Effekt |
-| --- | --- | 
+| --- | --- |
 | `workfront` | Interagera med Workfront. |
 | `planning` | Interagerar med Workfront Planning. |
 | `help` | Returnerar information från Experience League-dokumentation. |

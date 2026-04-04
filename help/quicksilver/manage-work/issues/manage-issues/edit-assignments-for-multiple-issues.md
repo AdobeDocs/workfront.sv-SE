@@ -6,7 +6,9 @@ description: Ändra användartilldelningar för flera utgåvor i en lista
 author: Lisa
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: 8f7249e08268a8cb784d4c0ecc8c534542fa80cf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 0%
@@ -20,13 +22,15 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: similar article exists for tasks)</p>
 -->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> -->
+</div>
+-->
 
 Du kan ändra användartilldelningar samtidigt till flera utgåvor. Mer information om hur du redigerar problem eller tilldelar dem en åt gången finns i följande artiklar:
 
@@ -103,7 +107,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
       Listan över problem filtrerar automatiskt efter filtervillkoren.
    1. (Valfritt) Klicka på **Spara som ny** och sedan på **Spara**.
 
-1. Markera de ärenden som du vill ändra uppdrag för och klicka sedan på ikonen **Redigera** ![Redigera &#x200B;](assets/qs-edit-icon.png) .
+1. Markera de ärenden som du vill ändra uppdrag för och klicka sedan på ikonen **Redigera** ![Redigera ](assets/qs-edit-icon.png) .
 
    **Redigera problem** visas. Antalet markerade objekt visas i det övre vänstra hörnet på sidan.
 
@@ -132,7 +136,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 1. Klicka på **Spara**.
 
 
-   <!--Old functionality for assignments for issues - before November 2025:
+   <!--
+   Old functionality for assignments for issues - before November 2025:
    1. (Conditional) In the Production environment, do the following: 
    1. Go to the **Assignments** section, then select **Assignee**.
       ![Assignments area](assets/classic-assignmens-area-on-edit-box-350x119.png)
@@ -159,7 +164,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
          1. (Optional) Modify any of the following options for the assignees you selected to associate with the issues:
           * **Issue Owner:**  Select the radio button to indicate which assignee is designated as the Issues Owner. If left unselected, Adobe Workfront designates the first assignee as the Issue Owner. This is not available for team assignments. 
             * **Assignee's Role**: Select a role from the drop-down list. If left unselected, Workfront automatically selects the Primary Role of the user.
-      1. Click **Save Changes**.-->
+      1. Click **Save Changes**.
+      -->
 
 
 

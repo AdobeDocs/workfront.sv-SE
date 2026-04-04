@@ -6,7 +6,9 @@ description: Du kan importera befintliga projekt till en plan. De importerade pr
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1594'
 ht-degree: 0%
@@ -63,7 +65,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav för Workfront-d
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,7 +104,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav för Workfront-d
  </tbody> 
 </table>
 
-*For information, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+*For information, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Att tänka på när du importerar projekt till planer som nya initiativ
 
@@ -160,11 +164,13 @@ När du importerar ett projekt till en plan importeras viss projektinformation o
      <li> <p>[!DNL Workfront] använder de jobbroller som tilldelats uppgifter och ärenden eller de jobbroller som användarna tilldelade uppgifter eller ärenden är kopplade till i projektet och överför dem till det nya initiativet som obligatoriska jobbroller. </p> </li> 
      <li> <p>När planen är konfigurerad för att använda heltidsanställda konverteras de planerade timmarna som är kopplade till jobbrollerna för aktiviteterna och problemen i projektet först till heltidsanställda. Därefter tilldelas denna heltidsanställd en roll för initiativet. <span>Planerade timmar fördelas jämnt i [!DNL Workfront]. Om en aktivitet eller ett ärende sträcker sig över flera månader kommer antalet planerade timmar för varje månad under initieringens varaktighet att räknas om till månadsvis heltidsanställd och överföras till varje månad.</span></p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span><span>Om en aktivitet till exempel tilldelas en jobbroll för 80 planerade timmar i september, visar den importerade jobbrollen 0,5 heltidsanställda för initiativet i september.</span> </p> </li> 
      <li> <p>[!DNL Workfront] beräknar heltidsanställd personal för de obligatoriska befattningsroller som är kopplade till initiativet med hjälp av följande formel:</p> <p><code>Required Job Role FTE (initiative) = Job Role assignment Planned Hours (</code><code>from tasks and issues on the project)/ 160</code> </p> <p>Tips! [!DNL Scenario Planner] förutsätter att det finns 160 arbetstimmar per månad.</p> <p>Om ett projekt till exempel har en varaktighet på 1 200 minuter och en jobbroll för projektet är associerad med 600 minuters planerade timmar, är deras heltidsanställda 0,5. Vid import av projektet är den obligatoriska jobbrollen FTE för det nyskapade initiativet 0,5 för varje månad. </p> </li> 
-     <li>När en jobbroll tilldelas till en aktivitet i projektet med noll planerade timmar är den begärda heltidsanställda för projektets jobbroll noll som standard. <!--
+     <li>När en jobbroll tilldelas till en aktivitet i projektet med noll planerade timmar är den begärda heltidsanställda för projektets jobbroll noll som standard.
+     <!--
        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
          (NOTE: this used to be 1, not zero in Production) 
        </MadCap:conditionalText>
-      --></li> 
+      -->
+      </li>
      <li>När en jobbroll tilldelas till en aktivitet i projektet med noll [!UICONTROL Duration] är den begärda FTE <span> eller timmar </span> för projektets jobbroll som standard noll, även om aktiviteten har Planerade timmar. </li> 
     </ul> </td> 
   </tr> 

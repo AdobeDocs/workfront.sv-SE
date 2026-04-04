@@ -7,7 +7,9 @@ description: Du kan dela en plan som du har skapat i Adobe Workfront Scenariopla
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 0%
@@ -62,7 +64,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav för Workfront-d
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -97,7 +100,8 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav för Workfront-d
    <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Förutsättningar
 
@@ -217,11 +221,11 @@ Mer information om projektbehörigheter finns i [Dela ett projekt i [!DNL Adobe 
    >
    >Du kan dela en plan genom att klicka på de avatarer för användare som planen delas med i det övre högra hörnet av planhuvudet.
 
-1. (Villkorligt) Om du öppnade en plan klickar du på ikonen **[!UICONTROL More]** ![Mer &#x200B;](assets/more-icon.png) till höger om namnet på [!UICONTROL Plan] och sedan på **[!UICONTROL Share]**
+1. (Villkorligt) Om du öppnade en plan klickar du på ikonen **[!UICONTROL More]** ![Mer ](assets/more-icon.png) till höger om namnet på [!UICONTROL Plan] och sedan på **[!UICONTROL Share]**
 
    eller
 
-   Om du har valt flera planer att dela dem samtidigt klickar du på ikonen **[!UICONTROL Share]** ![Dela &#x200B;](assets/share-icon-26x26.png) högst upp i listan över planer för att öppna åtkomstrutan [!UICONTROL Plan].
+   Om du har valt flera planer att dela dem samtidigt klickar du på ikonen **[!UICONTROL Share]** ![Dela ](assets/share-icon-26x26.png) högst upp i listan över planer för att öppna åtkomstrutan [!UICONTROL Plan].
 
    >[!TIP]
    >

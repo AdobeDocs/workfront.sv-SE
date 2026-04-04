@@ -7,10 +7,12 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 24c900ee-a8f1-458e-a18b-c098c6314e0c
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '270'
-ht-degree: 4%
+ht-degree: 8%
 
 ---
 
@@ -19,8 +21,10 @@ ht-degree: 4%
 
 <!-- Audited: 5/2025 -->
 
-<!--Fieldsclass: "java.lang.IllegalArgumentException",  
-message: "APIModel INTERNAL does not support field projectid (OpTask)"-->
+<!--
+Fieldsclass: "java.lang.IllegalArgumentException",  
+message: "APIModel INTERNAL does not support field projectid (OpTask)"
+-->
 
 <table style="table-layout:auto"> 
  <col width="100"> 
@@ -160,7 +164,7 @@ message: "APIModel INTERNAL does not support field projectid (OpTask)"-->
 | Andra grupper | otherGroups | Grupp | GRUPP |
 
 
-## Åtgärder
+## Instruktioner
 
 | Etikett | Namn | Argument |
 |---|---|---|

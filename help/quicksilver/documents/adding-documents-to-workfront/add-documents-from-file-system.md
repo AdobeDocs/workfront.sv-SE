@@ -6,7 +6,9 @@ description: Du kan lägga till dokument i projekt, uppgifter eller problem i fl
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 47f029fbbc165db36e750907c9a14bb3c0718d58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1237'
 ht-degree: 0%
@@ -109,7 +111,7 @@ Så här lägger du till ett dokument:
       <td role="rowheader">Överför dokument från ett tredjepartsprogram som Google Drive eller SharePoint</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>Välj <strong>Från &lt;name_of_third-party_application&gt;</strong> i listrutan <strong>Lägg till ny</strong>.</p> <p>Om du till exempel vill överföra ett dokument från Google Drive klickar du på <strong>Från Google Drive</strong>.</p> </li> 
+        <li value="1"> <p>I listrutan <strong>Lägg till ny</strong> väljer du <strong>Från &lt;name_of_third-party_application&gt;</strong>.</p> <p>Om du till exempel vill överföra ett dokument från Google Drive klickar du på <strong>Från Google Drive</strong>.</p> </li> 
         <li value="2"> <p>Följ instruktionerna för att välja dokumentet i tredjepartsprogrammet.<br></p> <p>Mer information om länkade dokument finns i <a href="../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md" class="MCXref xref">Länka dokument från externa program</a>.</p> </li> 
        </ol> </td> 
      </tr> 

@@ -7,7 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b8826dc6-9791-49f6-923d-5a0c5392a8b0
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '3573'
 ht-degree: 0%
@@ -40,9 +42,11 @@ ht-degree: 0%
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="loginasaccessrule">LoginAsAccessRule</h3>
 -->
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -81,9 +85,11 @@ ht-degree: 0%
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="loginasadditionalrule">LoginAsAdditionalRule</h3>
 -->
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -120,9 +126,11 @@ ht-degree: 0%
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="loginassettings">LoginAsSettings</h3>
 -->
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -208,7 +216,7 @@ ReportableBudgedHour har lagts till i Adobe Workfront API som en resurs för rap
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Operationer</td> 
+   <td>Användning</td> 
    <td> 
     <ul> 
      <li style="font-weight: bold;">COUNT</li> 
@@ -277,7 +285,8 @@ Inga resurser togs bort för API v11.
      <li><a href="#templateassignment" class="MCXref xref">TemplateAssignment</a> </li> 
      <li><a href="#templatetask" class="MCXref xref">TemplateTask</a> </li> 
      <li><a href="#timesheet" class="MCXref xref">Tidrapport</a> </li> 
-     <li><a href="#update" class="MCXref xref">Uppdatera</a> </li> <!--
+     <li><a href="#update" class="MCXref xref">Uppdatera</a> </li>
+     <!--
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#user" class="MCXref xref">User</a> </li>
      --> 
      <li><a href="#usernote" class="MCXref xref">UserNote</a> </li> 
@@ -541,7 +550,7 @@ Ett företagsobjekt representerar en organisation som består av en samling pers
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>Åtgärder</td> 
+   <td>Instruktioner</td> 
    <td> <p style="font-weight: normal;">Följande åtgärder har lagts till i CustomEnum-objektet</p> 
     <ul> 
      <li style="font-weight: bold;">getDefaultOpTaskConditionEnum</li> 
@@ -580,7 +589,8 @@ Ett kundobjekt representerar en organisation som använder en instans av Workfro
        <li style="font-weight: normal;">CONDITION_OPTASK (Utgivningsvillkor)  </li> 
       </ul> </li> 
     </ul> </td> 
-  </tr> <!--
+  </tr>
+  <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td>Reference Fields</td> 
     <td> 
@@ -590,7 +600,7 @@ Ett kundobjekt representerar en organisation som använder en instans av Workfro
    </tr>
   --> 
   <tr> 
-   <td>Åtgärder</td> 
+   <td>Instruktioner</td> 
    <td> <p style="font-weight: normal;">Följande åtgärder har lagts till i kundobjektet</p> 
     <ul> 
      <li style="font-weight: bold;">målEnabled</li> 
@@ -604,9 +614,11 @@ Ett kundobjekt representerar en organisation som använder en instans av Workfro
 
 Ett CustomerPreferences-objekt representerar den uppsättning inställningar som en kund har ställt in för sin instans av Workfront.
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -636,7 +648,7 @@ Ett CustomerPreferences-objekt representerar den uppsättning inställningar som
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>Åtgärder</td> 
+   <td>Instruktioner</td> 
    <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>getMetadataDetailsForDocument</p> <p style="font-weight: normal;">Tillagd</p> </li> 
@@ -654,7 +666,7 @@ Ett Document-objekt representerar en fil (t.ex. skrivet material, bilder eller a
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>Åtgärder</td> 
+   <td>Instruktioner</td> 
    <td> <p>Följande åtgärder har lagts till i Document-objektet.</p> 
     <ul> 
      <li style="font-weight: bold;">completeLargeDocument</li> 
@@ -739,7 +751,7 @@ En milstolpe är en markör för en uppgift som anger att den är en huvudpunkt 
  </tbody> 
 </table>
 
-### Anteckning {#note}
+### Obs {#note}
 
 Ett Note-objekt är en kommentar eller en uppdatering som görs på ett Workfront-objekt.
 
@@ -809,7 +821,7 @@ Ett OpTask-objekt kallas vanligtvis för ett problem. Ett problem är en arbetsu
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Åtgärder</td> 
+   <td>Instruktioner</td> 
    <td> <p>Följande åtgärder har lagts till i OpTask-objektet</p> 
     <ul> 
      <li style="font-weight: bold;">bulkMove</li> 
@@ -988,7 +1000,7 @@ ReservedTime-resursen lade till flaggan REPORTABLE.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Operationer</td> 
+   <td>Användning</td> 
    <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>REDIGERA</p> <p style="font-weight: normal;">Tillagd</p> </li> 
@@ -1057,7 +1069,7 @@ Ett ScheduledReport-objekt representerar en rapport som har konfigurerats att sc
 
 ### ScoreCardQuestion {#scorecardquestion}
 
-Ett ScoreCardQuestion-objekt representerar en fråga som har lagts till i ett styrkort. Dessa frågor avgörs vanligtvis av Portfolio-förvaltaren och deras svar gör det möjligt för förvaltaren att förstå hur väl ett projekt passar ihop med portföljens mål.
+Ett ScoreCardQuestion-objekt representerar en fråga som har lagts till i ett styrkort. Dessa frågor avgörs vanligtvis av Portfolio-chefen och deras svar gör det möjligt för den som ansvarar för ledningen att förstå hur väl ett projekt passar in i portfolions mål.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -1241,7 +1253,7 @@ Ett Timesheet-objekt representerar ett virtuellt tidkort som gör att användare
  </tbody> 
 </table>
 
-### Uppdatera {#update}
+### Uppdatering {#update}
 
 Arbetsobjekt i Workfront kan uppdateras för att hålla användarna informerade om den aktuella statusen. Ett Update-objekt representerar en av dessa uppdateringar. Uppdateringar kan anges av användare eller skapas av Workfront-systemet.
 
@@ -1275,9 +1287,11 @@ Arbetsobjekt i Workfront kan uppdateras för att hålla användarna informerade 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">A User object represents a person with an account in Workfront that can log in and interact with the system.</p>
 -->
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -1289,7 +1303,7 @@ Arbetsobjekt i Workfront kan uppdateras för att hålla användarna informerade 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Åtgärder</td> 
+   <td>Instruktioner</td> 
    <td> <p style="font-weight: normal;">Följande åtgärder har lagts till i User-objektet.</p> 
     <ul> 
      <li style="font-weight: bold;">hasGrantLoginAsAccess</li> 
@@ -1313,7 +1327,7 @@ Arbetsobjekt i Workfront kan uppdateras för att hålla användarna informerade 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>Åtgärder</td> 
+   <td>Instruktioner</td> 
    <td> <p style="font-weight: normal;">Följande åtgärder har lagts till i User-objektet.</p> 
     <ul> 
      <li style="font-weight: bold;">confirmMyNotifications</li> 

@@ -6,7 +6,9 @@ description: Som standard kan användare bara se de objekt i en rapport som de h
 author: Courtney
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 0%
@@ -79,7 +81,7 @@ Så här kör du en rapport med åtkomsträttigheter för en annan användare:
 1. Klicka på **Rapportinställningar**.
 
 1. I fältet **Kör den här rapporten med åtkomsträttigheterna för:** börjar du skriva namnet på den användare som du vill att rapporten ska visas som och markerar den när du ser den i listan.\
-   ![Kör med åtkomsträttigheterna &#x200B;](assets/unshimmed-access-rights-of.png)
+   ![Kör med åtkomsträttigheterna ](assets/unshimmed-access-rights-of.png)
 
    >[!NOTE]
    >
@@ -109,7 +111,7 @@ Så här skickar du en rapport med åtkomsträttigheter för en annan användare
 1. Klicka på **Skicka rapport**.
 
 1. I fältet **Leverera den här rapporten med åtkomsträttigheterna för:** börjar du skriva namnet på den användare som du vill att rapporten ska visas som när den levereras i ett e-postmeddelande och markerar den när du ser den i listan. Standardvärdet är namnet på den användare som skapar rapporten.\
-   ![En rapport har skickats med åtkomsträttigheterna &#x200B;](assets/unshimmed-send-report-access-rights-of.png)
+   ![En rapport har skickats med åtkomsträttigheterna ](assets/unshimmed-send-report-access-rights-of.png)
 
    >[!NOTE]
    >

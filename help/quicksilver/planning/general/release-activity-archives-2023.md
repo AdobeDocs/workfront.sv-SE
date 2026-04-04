@@ -6,7 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
-source-git-commit: 46faf723ea7a8e9dfa02c0f2bed1f5f450976fc8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2900'
 ht-degree: 0%
@@ -76,7 +78,7 @@ Produktion: 21 december 2023
 >
 >Man måste köpa Adobe Workfront Fusion för att kunna bygga anslutningar med Adobe Workfront Planning.
 >
->Mer information finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Mer information finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 Nu kan du använda Adobe Workfront Fusion för att ansluta till planeringsfunktionerna. Med den nya Fusion-anslutningen kan du
 
@@ -92,7 +94,7 @@ Nu kan du använda Adobe Workfront Fusion för att ansluta till planeringsfunkti
 
 * Utlösa ett scenario när en ändring görs i planeringsfunktionerna
 
-Mer information finns i [Planeringsmoduler för Adobe Workfront](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules).
+Mer information finns i [Planeringsmoduler för Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules).
 
 ## Vecka 11 december 2023
 
@@ -144,7 +146,8 @@ När du har upprättat anslutningen är följande funktioner tillgängliga med d
 
 * Planeringsfunktionens användare kan visa namnet på de anslutna resurserna samt värdena för de anslutna fälten i planeringsfunktionerna.
 
-<!--removed per PM, for now: 
+<!--
+removed per PM, for now: 
 * An Experience Manager Assets record type is automatically created in Planning after you establish the connection. Connected assets are visible in the table and timeline views of this new record type.  
 -->
 

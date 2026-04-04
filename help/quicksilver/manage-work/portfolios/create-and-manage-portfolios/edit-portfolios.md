@@ -6,7 +6,9 @@ description: Du kan redigera information om portföljer som du har skapat eller 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1008'
 ht-degree: 0%
@@ -15,13 +17,15 @@ ht-degree: 0%
 
 # Redigera portföljer
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>-->
+</div>
+-->
 
 Du kan redigera information om portföljer som du har skapat eller som andra användare har skapat om de har delat dem med dig.
 
@@ -60,7 +64,8 @@ Du kan redigera en portfölj på portföljsidan eller redigera portföljer i en 
 
 +++ 
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -87,7 +92,8 @@ Du kan redigera en portfölj på portföljsidan eller redigera portföljer i en 
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Redigera portföljer
 
@@ -109,17 +115,17 @@ Du kan redigera en portfölj på portföljsidan eller redigera portföljer i en 
 
       Så här redigerar du information i avsnittet [!UICONTROL **Detaljer**]:
 
-   1. (Valfritt) Klicka på ikonen **[!UICONTROL Collapse all]** ![Komprimera alla &#x200B;](assets/collapse-all-icon.png) i det övre högra hörnet om du vill komprimera alla områden.
-   1. (Valfritt och villkorligt) När ett område är komprimerat klickar du på ikonen **Expandera** ![Expandera &#x200B;](assets/right-pointing-arrow.png) bredvid varje område för att expandera området som du vill redigera.
+   1. (Valfritt) Klicka på ikonen **[!UICONTROL Collapse all]** ![Komprimera alla ](assets/collapse-all-icon.png) i det övre högra hörnet om du vill komprimera alla områden.
+   1. (Valfritt och villkorligt) När ett område är komprimerat klickar du på ikonen **Expandera** ![Expandera ](assets/right-pointing-arrow.png) bredvid varje område för att expandera området som du vill redigera.
 
       >[!TIP]
       >
-      >Du kan klicka på ikonen **Expandera alla** ![Expandera &#x200B;](assets/right-pointing-arrow.png) i det övre högra hörnet av detaljavsnittet när alla områden är komprimerade.
+      >Du kan klicka på ikonen **Expandera alla** ![Expandera ](assets/right-pointing-arrow.png) i det övre högra hörnet av detaljavsnittet när alla områden är komprimerade.
 
       Om du vill ha information om de fält som visas i avsnittet [!UICONTROL **Portfolio Details**] kan du fortsätta redigera portföljen i rutan [!UICONTROL **Redigera Portfolio**] enligt beskrivningen nedan.
    1. (Valfritt) Om det inte finns några anpassade formulär kopplade till portföljen börjar du med att skriva namnet på ett formulär i fältet **[!UICONTROL Add custom form]** i det övre högra hörnet på sidan **Information** och markerar det sedan när det visas i listan.
    1. Lägg till information i fälten i områdena [!UICONTROL **Översikt**] och [!UICONTROL **Anpassad Forms**] och klicka sedan på [!UICONTROL **Spara ändringar**].
-   1. (Valfritt) Klicka på ikonen **[!UICONTROL Export]** ![&#x200B; Exportera &#x200B;](assets/export.png) om du vill exportera [!UICONTROL Overview] och anpassad formulärinformation till en PDF-fil. Klicka sedan på **[!UICONTROL Export]**. Välj bland följande:
+   1. (Valfritt) Klicka på ikonen **[!UICONTROL Export]** ![ Exportera ](assets/export.png) om du vill exportera [!UICONTROL Overview] och anpassad formulärinformation till en PDF-fil. Klicka sedan på **[!UICONTROL Export]**. Välj bland följande:
 
 
       * Markera alla (visas bara när det finns minst ett anpassat formulär bifogat)

@@ -8,13 +8,15 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 387a84c4bf511424a0c15bd65748987c1611cee5
+exl-id: 850576d3-4edb-4942-9f21-065bf941b01c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 0%
 
 ---
-
 
 # Första utgåvan, kvartal 2026, för Adobe Workfront begränsade tillgänglighetsfunktioner
 
@@ -73,7 +75,8 @@ Fältet **Valutakursdatum** i området Projektinformation > Ekonomi är nu dolt 
 
 Giltighetsdatumen för jobbrollfrekvenser medger nu luckor, men överlappande datum tillåts inte. Under en lucka används andra områden i faktureringshierarkin för att fastställa faktureringssatsen baserat på en uppgifts intäktstyp.
 
-<!--### Maintenance Updates week of January 11-17, 2026
+<!--
+### Maintenance Updates week of January 11-17, 2026
 
 **Title**
 

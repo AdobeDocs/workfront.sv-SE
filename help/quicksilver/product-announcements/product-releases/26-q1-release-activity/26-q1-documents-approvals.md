@@ -4,7 +4,10 @@ description: Första kvartalet 2026 Förbättringar av dokument och godkännande
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8d177d1081590f6a6733f29e0d615828394394c7
+exl-id: 2c3133c3-aaa9-424c-81f5-9e4e1f4a486f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -17,7 +20,8 @@ Den här sidan beskriver förbättringar av dokument och godkännande som gjorts
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den första utgåvan av kvartal 2026 finns i [Översikt över utgåvan första kvartalet 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
-<!--## Set up brands for the AI reviewer in Workfront
+<!--
+## Set up brands for the AI reviewer in Workfront
 
 >[!NOTE]
 >
@@ -27,7 +31,8 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 You can now set up brands for the AI reviewer in the Workfront Setup area. This allows you to customize the AI review process based on your organization's branding guidelines.
 
-The AI reviewer is currently in beta.-->
+The AI reviewer is currently in beta.
+-->
 
 ## Välj ett Workfront-projekt när du skickar en granskning i Adobe Express
 
@@ -67,4 +72,3 @@ Mer information finns i [Kom igång med integreringen mellan Adobe Express och W
 Nu kan ni använda Experience Manager Assets &#x200B; för att hantera och lagra era digitala resurser som gått igenom gransknings- och godkännandecykeln. Tack vare integreringen kan ni utnyttja funktionerna i Adobe Experience Manager, Frame.io och Workfront för att effektivisera innehållshanteringen och samarbetet.
 
 Mer information finns i [Använda Adobe Experience Manager med Frame.io-integrering](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
-

@@ -6,7 +6,9 @@ description: När du ger uppdateringskommentarer för ett Adobe Workfront-objekt
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '960'
 ht-degree: 0%
@@ -92,7 +94,8 @@ Mer information finns i [Åtkomstkrav för Workfront-dokumentation](/help/quicks
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
  <col> 
  <col> 
@@ -115,7 +118,8 @@ Mer information finns i [Åtkomstkrav för Workfront-dokumentation](/help/quicks
    <td> <p>View or higher permissions to the objects where you want to post the reply</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Tagga andra för uppdateringar
 
@@ -173,7 +177,7 @@ Du kan också ta bort användare som är taggade av misstag när du redigerar el
 
    Mer information om de ytterligare funktioner som är tillgängliga när du uppdaterar en arbetsuppgift finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Valfritt) Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) i det övre högra hörnet av kommentaren och klicka sedan på **Redigera**. Ta bort någon av de taggade användarna och klicka sedan på **Skicka**.
+1. (Valfritt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) i det övre högra hörnet av kommentaren och klicka sedan på **Redigera**. Ta bort någon av de taggade användarna och klicka sedan på **Skicka**.
 
    >[!IMPORTANT]
    >

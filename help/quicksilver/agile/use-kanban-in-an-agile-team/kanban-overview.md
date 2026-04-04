@@ -7,7 +7,9 @@ description: Läs den här artikeln för att få en bättre förståelse för hu
 author: Courtney
 feature: Agile
 exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 0%
@@ -28,7 +30,7 @@ Om du är intresserad av att migrera från ett Agile team [!UICONTROL Kanban]-ko
 
 [!UICONTROL Kanban]-panelen består av följande element:
 
-**Kolumn för eftersläpning**: Visar alla aktiviteter som för närvarande finns i efterloggen. Den här kolumnen visas inte som standard. Mer information om eftersläpningen, inklusive hur den visas på [!UICONTROL Kanban]-tavlan, finns i [Hantera bakåtloggen &#x200B;](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+**Kolumn för eftersläpning**: Visar alla aktiviteter som för närvarande finns i efterloggen. Den här kolumnen visas inte som standard. Mer information om eftersläpningen, inklusive hur den visas på [!UICONTROL Kanban]-tavlan, finns i [Hantera bakåtloggen ](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 **Artikelstatus**: Anger hur en artikel fortskrider baserat på vilken statuskolumn artikeln finns i.
 

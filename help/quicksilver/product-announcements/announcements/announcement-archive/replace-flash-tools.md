@@ -1,22 +1,24 @@
 ---
-title: Ersättning av verktyg baserade på Flash i Adobe Workfront
-description: Ersättning av verktyg baserade på Flash i Adobe Workfront
+title: Ersättning av Flash-baserade verktyg i Adobe Workfront
+description: Ersättning av Flash-baserade verktyg i Adobe Workfront
 author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: a0ca824d-aab8-4da2-97ed-0913a7f76d55
-source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2701'
 ht-degree: 0%
 
 ---
 
-# Ersättning av verktyg baserade på Flash i Adobe Workfront
+# Ersättning av Flash-baserade verktyg i Adobe Workfront
 
 Vi har tagit bort alla Flash-baserade verktyg från Adobe Workfront Classic.
 
-Nu finns ersättningsverktyg som bygger på aktuella standarder i Workfront. Ändringarna är anpassade till att stödet för Flash upphör enligt Adobe.
+Nu finns ersättningsverktyg som bygger på aktuella standarder i Workfront. Ändringarna är anpassade till att stödet för Flash-produkter upphör, vilket Adobe har meddelat.
 
 ## Viktiga datum
 
@@ -102,7 +104,7 @@ Följande rapportfunktioner och rapporter har tagits bort:
 ### Äldre Gantt
 
 * Alla äldre Gantt-vyer från projekt- och uppgiftslistor samt rapporter och rapportalternativ
-* Underflikarna Äldre Gantt i Portfolio och Program
+* De äldre Gantt-underflikarna i portföljer och program
 * Underfliken Äldre Gantt i en lista över malluppgifter i en mall, vyn Äldre Gantt på fliken Underaktiviteter i en malluppgift och i en malluppgiftsrapport
 
 ### Korrektur
@@ -133,13 +135,13 @@ Mer information finns i följande resurser:
 </div>
 -->
 
-## Äldre verktyg för Flash och ersättningar av dessa {#legacy-flash-based-tools-and-their-replacements}
+## Äldre Flash-baserade verktyg och deras ersättningar {#legacy-flash-based-tools-and-their-replacements}
 
 Om inget annat anges har alla äldre funktioner ersatts med nya, vilket visas i följande tabell.
 
 >[!CAUTION]
 >
->De gamla Flasharna har tagits bort från alla miljöer.
+>De gamla Flash-baserade verktygen har tagits bort från alla miljöer.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -171,11 +173,13 @@ Om inget annat anges har alla äldre funktioner ersatts med nya, vilket visas i 
   </tr> 
   <tr> 
    <td> <p><strong>Resursuppskattningar</strong> </p> <p>Fliken Resursberäkning under varje äldre resurspool har samma syfte som Resursbudgethanteraren, endast i samband med en äldre resurspool. Det här verktyget har samma begränsningar som Resursbudgethanteraren och de äldre resurspoolerna: felaktiga data och manuell inmatning av tillgänglighet. </p> </td> 
-   <td> <p>Med automatisk beräkning av användartillgänglighet har resursuppskattningar blivit föråldrade och tagits bort.</p> <p>Verktyget tas bort från de äldre resurspoolerna och de äldre resursberäkningarna i ett projekts affärsfall. <!--
+   <td> <p>Med automatisk beräkning av användartillgänglighet har resursuppskattningar blivit föråldrade och tagits bort.</p> <p>Verktyget tas bort från de äldre resurspoolerna och de äldre resursberäkningarna i ett projekts affärsfall.
+   <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
        The Legacy Resource Estimates area on the Business Case of the project remains there in View-only mode at this time. 
       </MadCap:conditionalText>
-     --></p> </td> 
+     -->
+     </p> </td>
   </tr> 
   <tr> 
    <td> <p><strong>Kapacitetsplanerare</strong> </p> <p>Kapacitetsplaneraren var ett Workfront-verktyg för att budgetera resurser och prioritera projekt i en äldre resurspool utifrån tillgängliga resurser. Eftersom uppgifterna från resursuppskattningar och resursbudgetförvaltaren som tillhandahöll informationen för kapacitetsplaneraren var ofullständiga, måste projektprioriteringen dubbelkontrolleras mot användarnas tillgänglighet.</p> <p>Att använda en enda äldre resurspool som innehöll alla jobbroller i systemet var det vanligaste scenariot, vilket ledde till prestandaproblem när kapacitetsplaneraren försökte läsa in ett stort antal projekt.</p> </td> 
@@ -212,7 +216,8 @@ Om inget annat anges har alla äldre funktioner ersatts med nya, vilket visas i 
          <li>Hantera användarnas allokeringar till arbetsobjekt. </li>
          <li>Dela belastningsutjämnaren med andra användare som kanske inte har synlighet i området Personer. Använd funktionen Delningsbar länk för att dela en länk till Utjämning av arbetsbelastning och bädda in den i anpassade instrumentpaneler. Alla användare som har åtkomst till Visa användare kan visa de här instrumentpanelerna när du delar dem.</li>
         </ul><p>Utjämning av arbetsbelastning är tillgängligt i området Personer. </p><p>Mer information om belastningsutjämnaren för arbetsbelastning finns i <a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">Översikt över belastningsutjämnaren</a>.</p></li> 
-      </ul> <!--
+      </ul>
+      <!--
        <ul data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
         <li><strong>The Resource Scheduling Areas</strong><strong>:</strong> When assigning your resources to the actual work that must be completed, use the Resource Scheduling areas in the People or Team areas, or at the project level. These areas allow you to visualize and manage the users' workload by day and rectify any problems from one view using the following actions: 
          <ul>
@@ -228,24 +233,25 @@ Om inget annat anges har alla äldre funktioner ersatts med nya, vilket visas i 
           <li>User - the Allocation tab is eliminated as the same information can be accessed in the User View of the Resource Planner.</li>
          </ul></li> 
        </ul>
-      --> </li> 
+      -->
+      </li>
     </ul> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Äldre Gantt-schema, aktivitetslista</strong> </p> <p> Det äldre Gantt-schemat i uppgiftslistan gav användarna möjlighet att se tidslinjen i projektet och utföra konsekvensscenarioplanering utan att implementera ändringar i databasen. Det gamla Gantt-schemat baserades på Flash-teknik, som innebar säkerhetsrisker. </p> </td> 
-   <td> <p><strong>Gantt-schema,</strong> <strong>Uppgiftslista</strong></p> <p> Det nya HTML-baserade Gantt-schemat har samma syfte som det gamla Gantt-schemat. Användarna kan visualisera tidslinjen i projektet och utföra konsekvensscenarioplanering utan att implementera ändringar i databasen genom att ändra till alternativet Spara manuellt i verktygsfältet i uppgiftslistan. </p> <p>Det nya Gantt-schemat är interaktivt när du använder alternativet Spara automatiskt, som du kan använda när du vill spara ändringarna automatiskt när de inträffar. </p> <p>Det nya Gantt-schemat för uppgiftslistor bygger på den senaste tekniken och är tillförlitligt. Det nya Gantt-schemat finns direkt i uppgiftslistan och är enkelt att komma åt när du arbetar med uppgiftslistan utan att behöva byta flikar eller ändra vyn. </p> <p>Även om det nya Gantt-diagrammet har samma funktioner som det föregående diagrammet, finns det vissa skillnader i funktioner jämfört med det gamla Gantt-diagrammet. </p> <p> Underfliken Äldre Gantt i en lista över malluppgifter i en mall, vyn Äldre Gantt på fliken Underaktiviteter i en mallaktivitet och det äldre Gantt-schemat i en mallaktivitetsrapport har också ersatts med det HTML-baserade Gantt-schemat. </p> <p>Om du använder det äldre Gantt-schemat mest för enkla vyer och snabbredigeringar och inte använder det faktiska diagrammet, kan du med det nya alternativet Tidslinjeplanering göra snabba ändringar i viktiga planeringsfält. Du kan välja Planera tidslinje i stället för Spara automatiskt i verktygsfältet i uppgiftslistan.</p> <p>Mer information om hur du sparar en uppgiftslista med alternativet Planering av tidslinje finns i avsnittet Spara ändringar i en uppgiftslista manuellt när du väljer alternativet Planering av tidslinje i artikeln <a href="../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md" class="MCXref xref">Redigera uppgifter i en lista</a>. </p> </td> 
+   <td> <p><strong>Gantt-schema,</strong> <strong>Uppgiftslista</strong></p> <p> Det nya HTML-baserade Gantt-schemat har samma syfte som det gamla Gantt-schemat. Användarna kan visualisera tidslinjen i projektet och utföra konsekvensscenarioplanering utan att implementera ändringar i databasen genom att ändra till alternativet Spara manuellt i verktygsfältet i uppgiftslistan. </p> <p>Det nya Gantt-schemat är interaktivt när du använder alternativet Spara automatiskt, som du kan använda när du vill spara ändringarna automatiskt när de inträffar. </p> <p>Det nya Gantt-schemat för uppgiftslistor bygger på den senaste tekniken och är tillförlitligt. Det nya Gantt-schemat finns direkt i uppgiftslistan och är enkelt att komma åt när du arbetar med uppgiftslistan utan att behöva byta flikar eller ändra vyn. </p> <p>Även om det nya Gantt-diagrammet har samma funktioner som det föregående diagrammet, finns det vissa skillnader i funktioner jämfört med det gamla Gantt-diagrammet. </p> <p> Underfliken Äldre Gantt i en lista över malluppgifter i en mall, den äldre Gantt-vyn på fliken Underaktiviteter i en mallaktivitet och det äldre Gantt-diagrammet i en mallaktivitetsrapport har också ersatts med det HTML-baserade Gantt-diagrammet. </p> <p>Om du använder det äldre Gantt-schemat mest för enkla vyer och snabbredigeringar och inte använder det faktiska diagrammet, kan du med det nya alternativet Tidslinjeplanering göra snabba ändringar i viktiga planeringsfält. Du kan välja Planera tidslinje i stället för Spara automatiskt i verktygsfältet i uppgiftslistan.</p> <p>Mer information om hur du sparar en uppgiftslista med alternativet Planering av tidslinje finns i avsnittet Spara ändringar i en uppgiftslista manuellt när du väljer alternativet Planering av tidslinje i artikeln <a href="../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md" class="MCXref xref">Redigera uppgifter i en lista</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Äldre Gantt-schema för en projektlista</strong> </p> <p>Det äldre Gantt-schemat i projektlistan ger användarna möjlighet att se projekt och deras uppgifter i en vy. Utan att lämna projektlistans sammanhang kan användarna se information om aktiviteterna i ett projekt samt beroendena mellan projekten. Det äldre Gantt-schemat i projektlistan baserades på Flash-teknik, som innebär säkerhetsrisker. </p> </td> 
+   <td> <p><strong>Äldre Gantt-schema för en projektlista</strong> </p> <p>Det äldre Gantt-schemat i projektlistan ger användarna möjlighet att se projekt och deras uppgifter i en vy. Utan att lämna projektlistans sammanhang kan användarna se information om aktiviteterna i ett projekt samt beroendena mellan projekten. Det äldre Gantt-schemat i projektlistan baserades på Flash-teknik, som innebar säkerhetsrisker. </p> </td> 
    <td> <p><strong>Gantt-schema, projektlista</strong> </p> <p>Det HTML-baserade Gantt-diagrammet har samma syfte som det gamla Gantt-diagrammet. Användare kan visa projekt och deras uppgifter i en vy för att visuellt identifiera beroenden mellan projekt och uppgifter. Gantt-schemat för projektlistan finns direkt i projektlistan. Det nya Gantt-schemat har ett modernt gränssnitt och bygger på den senaste tekniken.</p> <p>Mer information om Gantt-schemat för projektlistor finns i <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref">Visa information i Gantt-schemat </a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Dialogrutor för delning av rapporter, kalendrar och dokument</strong> </p> <p>När du delar rapporter, kalendrar och dokument baserades dialogrutorna på Flash.</p> </td> 
-   <td> <p>Erfarenheten när du delar rapporter, kalendrar och dokument i Workfront har inte ändrats. Men upplevelsen är inte längre beroende av Flash.</p> <p>Mer information om hur du delar dessa objekt finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Översikt över delningsbehörigheter för objekt</a>.</p> </td> 
+   <td> <p><strong>Dialogrutor för delning av rapporter, kalendrar och dokument</strong> </p> <p>När du delar rapporter, kalendrar och dokument var de dialogrutor som användes baserade på Flash-teknik.</p> </td> 
+   <td> <p>Erfarenheten när du delar rapporter, kalendrar och dokument i Workfront har inte ändrats. Upplevelsen är dock inte längre beroende av Flash.</p> <p>Mer information om hur du delar dessa objekt finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Översikt över delningsbehörigheter för objekt</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Tidigare korrekturläsare</strong> </p> <p>Det äldre korrekturläsaren var ett webbaserat korrekturläsare med funktioner för korrektur av statisk text, video och interaktiva korrektur.</p> </td> 
-   <td> <p><strong>Visningsprogram för webbkorrektur och korrekturläsare för skrivbord</strong> </p> <p>I Web Proofing Viewer finns funktioner för korrektur av statisk text och video.</p> <p>Desktop Proofing Viewer har funktioner för korrektur av interaktiva korrektur och ger dessutom fullt stöd för statiskt material och videoklipp.</p> <p>Filformatet SWF stöds inte längre av någon av de största leverantörerna och har ersatts med HTML5 banners för korrektur. </p> <p>Mer detaljerad information om skillnaderna mellan tillgängliga korrekturläsare finns i <a href="../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md" class="MCXref xref">Skillnader mellan Web Proofing Viewer och Desktop Proofing Viewer.</a>.</p> </td> 
+   <td> <p><strong>Visningsprogram för webbkorrektur och korrekturläsare för skrivbord</strong> </p> <p>I Web Proofing Viewer finns funktioner för korrektur av statisk text och video.</p> <p>Desktop Proofing Viewer har funktioner för korrektur av interaktiva korrektur och ger dessutom fullt stöd för statiskt material och videoklipp.</p> <p>Filformatet SWF stöds inte längre av någon av de största leverantörerna och har ersatts med HTML5-banners för korrekturläsning. </p> <p>Mer detaljerad information om skillnaderna mellan tillgängliga korrekturläsare finns i <a href="../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md" class="MCXref xref">Skillnader mellan Web Proofing Viewer och Desktop Proofing Viewer.</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

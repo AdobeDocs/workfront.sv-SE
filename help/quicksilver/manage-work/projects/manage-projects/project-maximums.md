@@ -7,7 +7,9 @@ description: Adobe Workfront har gränser för hur många objekt som kan kopplas
 author: Alina
 feature: Work Management
 exl-id: 60576107-89f1-4328-89e2-5b1e5e243fd9
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 0%
@@ -62,7 +64,8 @@ Några exempel på aktivitetssamband som kan påverka eller förhindra omberäkn
  </tbody> 
 </table>
 
-<!-- Notes from the table: 
+<!--
+ Notes from the table: 
      <p>For tasks limits: (This is NOT TRUE , but the PMs always wanted this to stay the way it is because they don't want customers creating projects bigger than this.)</p>
     <p>For issue limits: (this is true only for some clusters; according to Anna A., some clusters are set to a million.)</p>
     -->
