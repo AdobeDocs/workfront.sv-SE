@@ -37,7 +37,7 @@ Du kan importera exporterade data på följande sätt:
 
 Sandlådemiljön för förhandsgranskning uppdateras under våra underhållsperioder under helgen.
 
-Mer information om underhållsfönstren för förhandsvisningens sandlådemiljö finns i [Adobe statuswebbplats](https://status.adobe.com).
+Mer information om underhållsfönstren för förhandsvisningens sandlådemiljö finns i [Adobe statuswebbplats](https://status.adobe.com/sv-se).
 
 >[!IMPORTANT]
 >

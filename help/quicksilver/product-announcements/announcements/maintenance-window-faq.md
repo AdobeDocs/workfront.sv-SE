@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Underhållsfönster är tidsblock som Workfront reserverat för att göra uppdateringar av infrastruktur och andra plattformsrelaterade problem. Ibland ingår sandlådemiljöer i underhållet.
 
-Workfront strävar efter att så långt som möjligt undvika störningar. Om underhåll krävs schemaläggs det och tillkännages på Workfront statuswebbplats på [status.adobe.com](https://status.adobe.com/).
+Workfront strävar efter att så långt som möjligt undvika störningar. Om underhåll krävs schemaläggs det och tillkännages på Workfront statuswebbplats på [status.adobe.com](https://status.adobe.com/sv-se/).
 
 ## När är Workfront underhållsperiod?
 
@@ -27,6 +27,6 @@ Underhållstiderna är vanligtvis schemalagda i förväg under helger mellan kl.
 
 ## Kan jag få ett meddelande före ett planerat underhåll?
 
-Du kan få ett avancerat meddelande om planerat underhåll genom att prenumerera på Workfront Status-webbplatsen ([status.adobe.com](https://status.adobe.com/)). Workfront Status-webbplatsen meddelar underhåll minst 3 dagar före evenemanget. Om det uppstår en krissituation kan förhandsmeddelandet vara mindre.
+Du kan få ett avancerat meddelande om planerat underhåll genom att prenumerera på Workfront Status-webbplatsen ([status.adobe.com](https://status.adobe.com/sv-se/)). Workfront Status-webbplatsen meddelar underhåll minst 3 dagar före evenemanget. Om det uppstår en krissituation kan förhandsmeddelandet vara mindre.
 
 Mer information om hur du får statusuppdateringar av underhålls- och trendproblem finns i [Prenumerera eller Hantera din prenumeration](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md#managing-your-subscription) i artikeln [Adobe Workfront Status-webbplatsen](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md).

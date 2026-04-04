@@ -150,7 +150,7 @@ Följande resurser kan hjälpa dig att lära dig mer om API:t [!DNL Workfront] o
 
 ## När utför [!DNL Workfront] underhåll? Hur tar jag reda på om [!DNL Workfront] är nere?
 
-Prenumerera på [status.adobe.com](https://status.adobe.com/) för att få information om underhållsscheman och driftsavbrott.
+Prenumerera på [status.adobe.com](https://status.adobe.com/sv-se/) för att få information om underhållsscheman och driftsavbrott.
 
 Mer information om statuswebbplatsen [!DNL Workfront] finns i [Statuswebbplatsen [!DNL Adobe Workfront] Status](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md).
 

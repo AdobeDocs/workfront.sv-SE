@@ -31,7 +31,7 @@ Du har tillgång till följande information på statuswebbplatsen:
 
 Du kan visa statusuppdateringar på [!DNL Adobe]-statuswebbplatsen.
 
-1. Skriv [status.adobe.com](https://status.adobe.com/) i webbläsaren för att komma åt statuswebbplatsen.
+1. Skriv [status.adobe.com](https://status.adobe.com/sv-se/) i webbläsaren för att komma åt statuswebbplatsen.
 
 1. Välj **[!UICONTROL Experience Cloud]**.
 1. Rulla ned och välj **[!UICONTROL Adobe Workfront]** i listan över lösningar.
@@ -40,7 +40,7 @@ Du kan visa statusuppdateringar på [!DNL Adobe]-statuswebbplatsen.
 
 Så här prenumererar du på statuswebbplatsen eller för att hantera din prenumeration efter att du redan har prenumererat:
 
-1. Gå till [status.adobe.com](https://status.adobe.com/).
+1. Gå till [status.adobe.com](https://status.adobe.com/sv-se/).
 1. Välj **[!UICONTROL Manage subscriptions]** i statusfältet.
    ![](assets/manage-subs.png)
 1. Om du har ett befintligt konto loggar du in på kontot, annars skapar du ett nytt konto.
@@ -59,7 +59,7 @@ Sårbarhets-forskare och utvecklare namnger sina projekt internt så att det bli
 
 ### Hur visar jag namngivna sårbarheter som identifierats av [!DNL Workfront?]? {#how-do-i-view-named-vulnerabilities-identified-by-workfront}
 
-1. Gå till [status.adobe.com](https://status.adobe.com/) och klicka sedan på **[!UICONTROL Security]**.
+1. Gå till [status.adobe.com](https://status.adobe.com/sv-se/) och klicka sedan på **[!UICONTROL Security]**.
 
 ## Varför är detta viktigt? {#why-is-this-important}
 
