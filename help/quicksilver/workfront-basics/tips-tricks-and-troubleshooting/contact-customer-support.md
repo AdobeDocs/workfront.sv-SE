@@ -85,7 +85,7 @@ Du kan skicka en supportanmälan från självbetjäningsportalen [!DNL Experienc
 >Endast behöriga supportkontakter (eller supportberättigade användare) kan skicka supportärenden online.
 
 
-1. Klicka på [[!DNL Experience League] överst på webbplatsen &#x200B;](https://experienceleague.adobe.com)**[!UICONTROL Support]**.
+1. Klicka på [[!DNL Experience League] överst på webbplatsen &#x200B;](https://experienceleague.adobe.com/sv)**[!UICONTROL Support]**.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
@@ -141,7 +141,7 @@ Om du har några frågor eller problem med att skicka in en förfrågan kan du r
 
 
 <!--
-drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
+drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737?profile.language=sv)
 
 - this is the information that was there before - pointing to WorkfrontOne: 
 
