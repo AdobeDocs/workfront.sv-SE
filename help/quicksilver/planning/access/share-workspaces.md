@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 0%
@@ -160,15 +160,23 @@ Så här delar du en arbetsyta med andra:
 
    * Om du är systemadministratör väljer du bland följande alternativ:</span>
 
-      * <span class="preview">**Endast inbjudna personer har åtkomst till**: Du måste markera entiteter i delningsrutan och välja deras åtkomst till arbetsytan. Det här är standardvalet. </span>
-      * <span class="preview">**Alla i systemet kan visa**: Alla i systemet som har tillgång till Planering kan visa arbetsytan i sina **Arbetsytor** i Planering.</span>
+     <div class="preview">
+
+      * **Endast inbjudna personer har åtkomst till**: Du måste markera entiteter i delningsrutan och välja deras åtkomst till arbetsytan. Det här är standardvalet.
+      * **Alla i systemet kan visa**: Alla i systemet som har tillgång till Planering kan visa arbetsytan i sina **Arbetsytor** i Planering.
+
+     </div>
 
    * <span class="preview">(Villkorligt) Om du är arbetsytehanterare med en standardlicens kan du se något av följande alternativ, men du kan inte ändra dem:</span>
 
-      * <span class="preview">**Endast inbjudna personer har åtkomst till**. Det här är standardinställningen.</span>
-      * <span class="preview">**Alla i systemet kan visa**</span>
+     <div class="preview">
 
-     <span class="preview">Du måste be en systemadministratör att ändra en global behörighet för en arbetsyta.</span>
+      * **Endast inbjudna personer har åtkomst till**. Det här är standardinställningen.
+      * **Alla i systemet kan visa**
+
+     Du måste be en systemadministratör att ändra en global behörighet för en arbetsyta.
+
+     </div>
 
 1. I fältet **Bevilja åtkomst till den här arbetsytan** börjar du skriva namnet på en användare, grupp, team, företag eller jobbroll och klickar sedan på den när den visas i listan.
 

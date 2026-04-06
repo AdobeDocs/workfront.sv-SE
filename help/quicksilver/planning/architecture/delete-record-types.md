@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,9 @@ ht-degree: 0%
 
 # Ta bort posttyper
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -169,6 +167,13 @@ Old:
 
    Utöka den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta i en arbetsyta, sök efter en arbetsyta och markera den när den visas i listan.
 
+   >[!TIP]
+   >
+   ><span class="preview">Du kan använda följande tangentbordskombination för att öppna den globala sökrutan från alla Workfront Planning-sidor och söka efter arbetsytor:</span>
+   >
+   >* <span class="preview">CTRL+K för Windows</span>
+   >* <span class="preview">⌘+K för Mac</span>
+
    Arbetsytan öppnas och posttyperna visas.
 1. Gör något av följande:
 
@@ -240,7 +245,7 @@ Ta bort en global posttyp från en sekundär arbetsyta:
 
 1. Gå till den globala posttypen på den sekundära arbetsytan.
 
-1. (Valfritt) Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) på posttypens kort och klicka sedan på **Ta bort**.
+1. (Valfritt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) på posttypens kort och klicka sedan på **Ta bort**.
 1. (Villkorligt) Skriv **delete** i det angivna fältet och klicka sedan på **Ta bort permanent**.
 
    ![Ta bort bekräftelseruta för den sekundära globala posttypen](assets/delete-secondary-global-record-type.png)

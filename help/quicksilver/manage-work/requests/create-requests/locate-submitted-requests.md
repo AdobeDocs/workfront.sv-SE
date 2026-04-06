@@ -10,7 +10,7 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 0%
@@ -131,7 +131,7 @@ Så här visar du förfrågningar som du eller andra användare har skickat in i
 
    <div class="preview">
 
-   * Grupp
+   * **Gruppering**
    * Formatera celler
    * Radhöjd
 
@@ -254,7 +254,7 @@ Så här visar du begäranden som du eller andra användare har skickat in i den
     </tbody> 
    </table>
 
-1. (Valfritt) Klicka på ikonen **Filtrera sida** ![Sök &#x200B;](assets/search-icon.png) högst upp i listan om du vill söka efter en begäran per namn. Listan uppdateras med resultat som matchar dina sökvillkor.
+1. (Valfritt) Klicka på ikonen **Filtrera sida** ![Sök ](assets/search-icon.png) högst upp i listan om du vill söka efter en begäran per namn. Listan uppdateras med resultat som matchar dina sökvillkor.
 
    <!--
 

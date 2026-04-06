@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: c4716157a6fdf667f7e608d0c37399f57ec1bbfe
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
-source-wordcount: '1199'
+source-wordcount: '1200'
 ht-degree: 0%
 
 ---
@@ -148,11 +148,11 @@ Du kan skapa arbetsytor på följande sätt:
 
 * Skapa flera arbetsytor med ett standardpaket med flera arbetsytor
 
-  Mer information finns i avsnittet [Skapa flera arbetsytor med ett mallpaket för flera arbetsytor &#x200B;](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle) i den här artikeln
+  Mer information finns i avsnittet [Skapa flera arbetsytor med ett mallpaket för flera arbetsytor ](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle) i den här artikeln
 
   >[!TIP]
   >
-  >Du kan inte skapa flera arbetsytor samtidigt om du inte använder mallpaketet med de bästa metoderna.
+  >Du kan bara skapa flera arbetsytor samtidigt när du använder mallpaketet med de bästa metoderna.
 
 
 </div>

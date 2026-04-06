@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1228'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,9 @@ ht-degree: 0%
 
 # Skapa posttyper
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -197,6 +195,16 @@ Du kan lägga till posttyper manuellt i avsnitten Driftposttyper och Taxonomier.
    eller
 
    Utöka den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta i en arbetsyta, sök efter en arbetsyta och markera den när den visas i listan.
+
+   >[!TIP]
+   >
+   ><span class="preview">Du kan använda följande tangentbordskombination för att öppna den globala sökrutan från alla Workfront Planning-sidor och söka efter arbetsytor:</span>
+   >
+   >* <span class="preview">CTRL+K för Windows</span>
+   >* <span class="preview">⌘+K för Mac</span>
+   >
+   >![Global sökruta](assets/global-search-box.png)
+
 1. (Valfritt) Klicka på **Lägg till avsnitt** om du vill lägga till ett nytt avsnitt på arbetsytan.
 1. Klicka på **Lägg till posttyp** och sedan **Lägg till manuellt**.
 
@@ -214,7 +222,7 @@ Du kan lägga till posttyper manuellt i avsnitten Driftposttyper och Taxonomier.
 
 1. (Valfritt och villkorligt) Om du är systemadministratör klickar du på fliken **Inställningar för arbetsytan mellan arbetsytor** och uppdaterar informationen om funktionerna för arbetsytan mellan arbetsytorna för posttypen.
 
-   ![Redigera posttypsruta med fliken Inställningar för arbetsyta &#x200B;](assets/edit-record-type-box-advanced-settings-tab.png) </span>
+   ![Redigera posttypsruta med fliken Inställningar för arbetsyta ](assets/edit-record-type-box-advanced-settings-tab.png) </span>
 
    Mer information finns i [Konfigurera funktioner för arbetsytan över flera arbetsytor för posttyper](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
@@ -225,17 +233,17 @@ Beskrivning av posttypen visas på kortet.
 
    ![Posttypkort med beskrivning](assets/record-type-card-with-description.png)
 
-   Om du valde att ansluta den här posten från andra arbetsytor visas ikonen **Kopplingsbar post** ![Anslut från andra platser &#x200B;](assets/connect-from-other-workspaces-icon.png) på postkortet.
+   Om du valde att ansluta den här posten från andra arbetsytor visas ikonen **Kopplingsbar post** ![Anslut från andra platser ](assets/connect-from-other-workspaces-icon.png) på postkortet.
 
    Om du har valt att tillåta att den här posten läggs till på andra arbetsytor visas ikonen **Global post** ![Global posttyp](assets/global-icon.png) på postkortet.
 
-1. (Valfritt) Håll markören över posttypskortet, klicka på ikonen **Mer** ![Mer &#x200B;](assets/more-menu.png) i det övre högra hörnet och klicka sedan på **Redigera** eller **Inställningar** för att ändra information om posttypen.
+1. (Valfritt) Håll markören över posttypskortet, klicka på ikonen **Mer** ![Mer ](assets/more-menu.png) i det övre högra hörnet och klicka sedan på **Redigera** eller **Inställningar** för att ändra information om posttypen.
 
    Mer information finns i [Redigera posttyper](/help/quicksilver/planning/architecture/edit-record-types.md).
 
 1. (Valfritt) Klicka på posttypskortet för att öppna posttypssidan.
 
-   ![Posttypen för operativt &#x200B;](assets/operational-record-type-blank.png) är tom
+   ![Posttypen för operativt ](assets/operational-record-type-blank.png) är tom
 
    Posttypssidan visas som standard i tabellvyn. Kolumnerna i tabellen är fält som är kopplade till den nya posttypen. Varje rad är en unik post som du måste lägga till.
 

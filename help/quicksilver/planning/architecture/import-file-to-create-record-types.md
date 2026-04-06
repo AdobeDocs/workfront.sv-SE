@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
@@ -156,6 +156,14 @@ Så här importerar du posttyper med en Excel- eller CSV-fil:
    eller
 
    Utöka den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta i en arbetsyta, sök efter en arbetsyta och markera den när den visas i listan.
+
+   >[!TIP]
+   >
+   ><span class="preview">Du kan använda följande tangentbordskombination för att öppna den globala sökrutan från alla Workfront Planning-sidor och söka efter arbetsytor:</span>
+   >
+   >* <span class="preview">CTRL+K för Windows</span>
+   >* <span class="preview">⌘+K för Mac</span>
+
 1. Klicka på **Lägg till posttyp**.
 1. Klicka på **Överför från fil**.
 1. Dra och släpp en Excel- eller CSV-fil som du tidigare har sparat på datorn eller klicka på **Välj en CSV- eller Excel-fil** om du vill bläddra efter en fil och markera den.

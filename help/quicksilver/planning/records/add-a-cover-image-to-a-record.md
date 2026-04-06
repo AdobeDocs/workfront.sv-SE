@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '736'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,10 @@ ht-degree: 0%
 
 # Lägga till en omslagsbild till en post
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -156,6 +155,13 @@ Du kan anpassa en post genom att lägga till en omslagsbild högst upp i postens
 
    Utöka den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta i en arbetsyta, sök efter en arbetsyta och markera den när den visas i listan.
 
+   >[!TIP]
+   >
+   ><span class="preview">Du kan använda följande tangentbordskombination för att öppna den globala sökrutan från alla Workfront Planning-sidor och söka efter arbetsytor:</span>
+   >
+   >* <span class="preview">CTRL+K för Windows</span>
+   >* <span class="preview">⌘+K för Mac</span>
+
    Arbetsytan öppnas och posttyperna visas.
 
 1. Klicka på ett posttypskort.
@@ -173,7 +179,7 @@ Du kan anpassa en post genom att lägga till en omslagsbild högst upp i postens
    ![Förhandsgranskningsruta för detaljer](assets/details-box.png)
 
 
-1. (Valfritt) Klicka på ikonen **Öppna på ny flik** ![Öppna på ny flik &#x200B;](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av postförhandsvisningen för att öppna postens sida på en ny flik.
+1. (Valfritt) Klicka på ikonen **Öppna på ny flik** ![Öppna på ny flik ](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av postförhandsvisningen för att öppna postens sida på en ny flik.
 
    Postsidan öppnas.
 
@@ -205,7 +211,7 @@ Rutan **Postomslag** öppnas på fliken **Överför** .
 1. (Valfritt) Hovra över bilden, klicka sedan på menyn **Mer** ![Mer](assets/more-menu.png) i det nedre högra hörnet av omslagsbilden och gör något av följande:
 
    * Klicka på **Överför** om du vill ersätta omslagsbilden och upprepa steg 6 för att överföra och spara en ny bild.
-   * Klicka på **Flytta** och använd verktyget **Flytta** ![Flytta &#x200B;](assets/reposition-tool-icon.png) för att centrera omslagsbilden. Klicka sedan på **Spara** när du är klar.
+   * Klicka på **Flytta** och använd verktyget **Flytta** ![Flytta ](assets/reposition-tool-icon.png) för att centrera omslagsbilden. Klicka sedan på **Spara** när du är klar.
    * Klicka på **Ta bort** för att ta bort omslagsbilden.
 
    Workfront sparar automatiskt ändringarna.

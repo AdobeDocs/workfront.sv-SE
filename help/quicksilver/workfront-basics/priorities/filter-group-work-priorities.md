@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: a56441276fbc508a81d5331874580385ceb8812f
+source-git-commit: 02a4269777e18a8c66a245d374565eb61efd39ef
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -155,7 +155,8 @@ Använd naturligt språk för att snabbt filtrera arbetet.
 
 1. Klicka på **Grupper** längst upp till vänster i arbetslistan.
 1. Välj en grupp för att ordna din arbetslista.
-   ![Grupper](assets/groups-new.png)
+
+![Grupper](assets/groups-new.png)
 
 +++Expandera om du vill visa detaljerad information om tillgängliga grupper
 
@@ -172,7 +173,7 @@ Använd naturligt språk för att snabbt filtrera arbetet.
 
 Du kan dra och släppa enskilda arbetsobjekt mellan kategorier när du grupperar efter Min prioritet eller Status.
 
-1. Gruppera ditt arbete efter **status** eller **Min prioritet**.
+1. Gruppera ditt arbete efter **Status** eller **Mitt fokus**.
 2. Håll markören över arbetsobjektet för att klicka på ikonen **Dra** och flytta det till önskad kategori.
    ![dra-ikon](assets/drag-and-drop.png)
 
@@ -192,6 +193,6 @@ Om du vill sortera enskilda kolumner går du till kolumnen och klickar på nedpi
 
 ### Expandera eller komprimera alla gruppavsnitt
 
-Om du vill expandera eller komprimera alla gruppavsnitt öppnar du **Grupp** och klickar på **Expandera alla** eller **Komprimera alla**.
+Om du vill expandera eller komprimera alla gruppavsnitt öppnar du **Grupp** och klickar på **Expandera alla** om grupperingarna är komprimerade eller **Komprimera alla** om grupperingarna är expanderade.
 
 ![Expandera eller komprimera grupper](assets/expand-collapse-groups.png)

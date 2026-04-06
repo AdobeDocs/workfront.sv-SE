@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
 source-wordcount: '2913'
 ht-degree: 0%
@@ -421,7 +421,7 @@ Grupperingar delar upp objekten i listan i områden baserat på specifika kriter
 
 Workfront har ett begränsat antal fördefinierade grupperingar och du kan inte ändra dem.
 
-1. Klicka på **Grupp** ovanför listan.
+1. Klicka på **Gruppera** ovanför listan.
 1. Välj en gruppering för att ordna listan.
 
    ![Välj en gruppering](assets/glist-grouping-choose-a-group-by.png)
@@ -431,7 +431,7 @@ Workfront har ett begränsat antal fördefinierade grupperingar och du kan inte 
 
    ![Gruppering i utökade listor](assets/glist-group-by-due-date-priorities.png)
 
-   En indikator visas på knappen **Grupp** när en gruppering används i listan.
+   En indikator visas på knappen **Gruppering** när en gruppering används i listan.
 
    ![Gruppering av tillämpad indikator](assets/glist-grouping-applied-indicator.png)
 
@@ -453,7 +453,7 @@ Så här sorterar du enskilda kolumner:
 
    ![Sortera efter kolumn](assets/glist-sort-by-column.png)
 
-1. (Valfritt) Om du vill sortera ditt arbete inom en gruppering klickar du på **Grupp**, går till raden för den gruppering som används, klickar på listrutan Sorterare och väljer en stigande eller fallande ordning.
+1. (Valfritt) Om du vill sortera ditt arbete inom en gruppering klickar du på **Gruppering**, går till raden för den gruppering som används, klickar på listrutan Sorterare och väljer en stigande eller fallande ordning.
 
    ![Sortera i en gruppering](assets/sort-in-groups.png)
 
