@@ -6,9 +6,10 @@ title: Översikt över intäkt och kostnadshierarki
 description: I den här artikeln beskrivs den stegvisa processen för att fastställa lämplig fakturerings- och kostnadsnivå för jobbroller och användare för intäktstypen och kostnadstypen för användaren och rollen per timme.
 author: Lisa
 feature: Work Management
-source-git-commit: dfc6344303f33a9c3c89837b759235612e54904e
+exl-id: 623828fb-e1ac-4cae-8b9f-567a6f8cb7ae
+source-git-commit: 3a194bc2b2707c7b7e1cd5edffc3dd5ab43e91b3
 workflow-type: tm+mt
-source-wordcount: '3519'
+source-wordcount: '3604'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,17 @@ För att få exakta ekonomiska beräkningar använder Workfront rätt fakturerin
 
 Avsnitten i den här artikeln innehåller information om den stegvisa processen för att fastställa lämplig fakturerings- och kostnadsnivå för jobbroller och användare för intäktstypen och kostnadstypen Användare och Roll per timme.
 
+>[!NOTE]
+>
+>Hastighetshierarkin som visas i den här artikeln används bara när Inkomsterna eller kostnadstypen Användaren och Roll per timme används för uppgiften.
+
 Mer information om faktureringstariffer, intäktstyper och hur intäkten beräknas finns i [Översikt över fakturering och intäkt](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+## Undantag för hierarkin och intäktstypen för användare och roll per timme
+
+* Företagsavgifter stöds inte i hierarkin.
+* Endast den primära rollen används för hierarkiberäkningar. Andra roller används inte.
+* När en uppgifts intäktstyp är Användare och Roll-timme kan en användare som har loggat timmar på uppgiften inte tas bort från den uppgiften.
 
 ## Översikt över giltighetsdatum
 
@@ -232,4 +243,3 @@ Workfront söker i användaregenskaperna för ägaren enligt den här hierarkin:
    * Därefter letar systemet efter rollfrekvensen på systemnivå, med hänsyn tagen till giltighetsdatum.
 
 1. Om ingen av dessa taxor hittas är faktureringstaxan 0.
-

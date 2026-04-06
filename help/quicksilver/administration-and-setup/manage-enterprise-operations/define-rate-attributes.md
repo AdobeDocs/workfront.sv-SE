@@ -7,13 +7,13 @@ description: Graderingsattribut utökar Adobe Workfront funktion för hastighets
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 8e948d1c90a9d528c7ffd4963e14630ae7577e70
+exl-id: d570ef6a-935f-4dd0-9c54-a480163ec9d8
+source-git-commit: 3a194bc2b2707c7b7e1cd5edffc3dd5ab43e91b3
 workflow-type: tm+mt
 source-wordcount: '1373'
 ht-degree: 0%
 
 ---
-
 
 # Definiera tariffattribut
 
@@ -85,16 +85,18 @@ Attributen för prissättning stöds i alla områden där det finns tariffer i W
 * Åsidosättningar på projektnivå: Använd attribut när du åsidosätter frekvenser på projektnivå.
 * Jobbroller (i konfigurationen): Ange standardrollfrekvenser för jobb med attribut.
 * Användare (användarprofiler): Tilldela enskilda användare systemspecifika attribut så att deras tilldelningar automatiskt anpassas till rätt frekvenser.
+
 <!--
-* Staffing plan resources
-* Non-labor resources: Attributes can also be defined on resources such as equipment or services.-->
+BULLET POINT Staffing plan resources
+BULLET POINT Non-labor resources: Attributes can also be defined on resources such as equipment or services.-->
 
 <!--Non-labor resource categories and -->Jobbroller saknar stöd för hastighetsattribut direkt på objektnivå. De är kopplade till tariffattribut via de hastigheter som definierats på dem.
 
 När du kan skapa platshållartilldelningar som är knutna till rätt attributvärden, fylls dina värden i i enlighet med detta.
 
 * När du senare ersätter platshållaren med en riktig användare för jobbroller återställer systemet automatiskt tilldelningens attribut till dem som definierats i användarens profil. I det här läget kan attribut inte längre redigeras på uppdragsnivån. De ärver från användaren för att bevara konsekvensen och förhindra felpassning mellan användarattribut och tillämpad frekvens.
-  <!--* For non-labor resource categories, placeholder assignments can be used similarly: You assign the category through a placeholder that carries the required attributes. Once the actual non-labor resource is substituted, the attributes are automatically pulled from the resource's profile. Just like with users, these attributes cannot be overridden manually at the assignment level, ensuring financial data integrity and preventing accidental mismatches between resources and their designated attributes.-->
+
+<!-- BULLET POINT For non-labor resource categories, placeholder assignments can be used similarly: You assign the category through a placeholder that carries the required attributes. Once the actual non-labor resource is substituted, the attributes are automatically pulled from the resource's profile. Just like with users, these attributes cannot be overridden manually at the assignment level, ensuring financial data integrity and preventing accidental mismatches between resources and their designated attributes.-->
 
 ## Åtkomstkrav
 
@@ -201,5 +203,3 @@ Filter måste alltid konfigureras i båda riktningarna. Om attribut A har ett re
    * (Endast attributfiltertyp) **Referensfält**: Det fält i det refererade attributet som måste matcha, till exempel byråns ID.
 
 1. Klicka på **Spara** för varje attribut för att spara egenskaper och filter.
-
-

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: 4ce13e7d46efb026c1d42a61f4fce4bf1a37bb5f
+source-git-commit: f490d72b46073786cc079eec0640a0b535533281
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '793'
 ht-degree: 0%
 
 ---
@@ -182,7 +182,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
      <tr> 
        <td><span class="preview">[!UICONTROL Rate Card]</span></td> 
        <td><span class="preview">Namnet på ett tariffkort</span></td> 
-       <td><span class="preview">[!UICONTROL Job Roles and Rates], [!UICONTROL Rate Card Details], [!UICONTROL Expense Type and Rates]</span></td> 
+       <td><span class="preview">[!UICONTROL Job Roles and Rates] (kan inte döljas), [!UICONTROL Rate Card Details]</span></td> 
      </tr>
      <tr> 
        <td><span class="preview">[!UICONTROL Group]</span></td> 
@@ -203,20 +203,6 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
        <td>My Timesheets, Timesheets I Approve, All Timesheets (cannot be hidden) </td> 
       </tr>
      --> 
-     <!--
-      <tr> 
-       <td>Resourcing</td> 
-       <td>The name of the resource</td> 
-       <td>Planner (cannot be hidden), Workload Balancer, Utilization, Resource Pools </td> 
-      </tr>
-     --> 
-     <!--
-      <tr> 
-       <td>User Details</td> 
-       <td>____________</td> 
-       <td>Details (cannot be hidden), Org Chart, Time Off, Custom Forms </td> 
-      </tr>
-     --> 
     </tbody> 
    </table>
 
@@ -227,7 +213,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 1. Gör något av följande i listan **[!UICONTROL Left panel]** för att avgöra vad användare kommer att se i den vänstra panelen för det [!DNL Workfront] -område eller den objekttyp som du har valt:
 
-   * Klicka på ikonerna **Visa** ![Visa &#x200B;](assets/add-secondary-nav-item.png) eller **Dölj** ![Dölj ikon](assets/delete-secondary-nav-item.png) om du vill visa eller dölja avsnitt i den vänstra panelen. Du kan inte dölja objekt som inte har en **Visa**- eller **Dölj**-ikon.
+   * Klicka på ikonerna **Visa** ![Visa ](assets/add-secondary-nav-item.png) eller **Dölj** ![Dölj ikon](assets/delete-secondary-nav-item.png) om du vill visa eller dölja avsnitt i den vänstra panelen. Du kan inte dölja objekt som inte har en **Visa**- eller **Dölj**-ikon.
 
    * Dra objekt ![Flytta ikon](assets/move-icon---dots.png) om du vill ändra deras ordning på den vänstra panelen.
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 106ff601a4a19dbbf50cb3329675928ad7087b21
+source-git-commit: 3a194bc2b2707c7b7e1cd5edffc3dd5ab43e91b3
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Som Adobe Workfront-administratör eller gruppadministratör kan du använda en 
 
 >[!IMPORTANT]
 >
->Det går för närvarande att anpassa objektrubriker för projekt, uppgifter, utgåvor, <span class="preview">portföljer, program, mallar, faktureringsposter, team, grupper, användare, företag, grupper och kurskort.</span>
+>Det går för närvarande att anpassa objektrubriker för projekt, uppgifter, utgåvor, <span class="preview">portföljer, program, mallar, faktureringsposter, team, användare, företag, grupper och kurskort.</span>
 
 ![Objektrubrikfält](assets/object-header-fields.png)
 
