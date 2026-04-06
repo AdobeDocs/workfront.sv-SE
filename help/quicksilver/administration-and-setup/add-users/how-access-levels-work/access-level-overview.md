@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+source-git-commit: 21c396fc5b52463477d6fedfae8dcd27de989817
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1765'
 ht-degree: 0%
 
 ---
@@ -126,6 +126,7 @@ Användare med åtkomstnivån Light:
 * Kan komma åt förfrågningar och dokument på huvudmenyn.
 * Har begränsad möjlighet att skapa objekt - de kan inte skapa projekt, portfolior, program eller rapporter.
 * Det går bara att logga tiden på projektnivå när Redigera-åtkomst är aktiverat. De kan inte skapa, redigera, ta bort eller dela projekt.
+* Kan endast uppdatera anpassade formulär i ärenden och dokument.
 
 >[!NOTE]
 >
@@ -218,7 +219,7 @@ Följande är de högsta tillgängliga åtkomstinställningarna för objekt på 
   <tr> 
    <td>Finansiella uppgifter</td> 
    <td></td> 
-   <td> <p>✓(standardinställningen är Ingen åtkomst)</p> </td> 
+   <td> <p>✓ (Standardinställningen är Ingen åtkomst)</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -262,6 +263,7 @@ Användare med denna inbyggda åtkomstnivå:
   >Medarbetare kan delta i godkännanden, men kan inte öppna fliken Godkännanden för att visa eller hantera godkännandeprocesser.
 
 * Kan granska status för de utgåvor som de har skickat in
+* Kan endast uppdatera anpassade formulär i ärenden och dokument.
 * Kan tilldelas arbetsobjekt men kan inte slutföra dem
 * Kan bara komma åt begäranden från huvudmenyn. Mer information om begärandeköer finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
