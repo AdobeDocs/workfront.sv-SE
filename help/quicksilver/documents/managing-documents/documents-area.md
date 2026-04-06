@@ -9,9 +9,9 @@ feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ed7944fe4934ac5ab52b1eed3e144309de9781c4
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -74,9 +74,7 @@ På sidan Dokumentinformation finns en mer fullskalig version av Dokumentinforma
 
 ## Nytt dokumentområde
 
->[!NOTE]
->
->Det globala dokumentområdet är inte tillgängligt i det nya dokumentområdets upplevelse. Du kan bara komma åt dokument från program, portföljer, projekt, uppgifter eller utgåvor.
+Det nya dokumentområdet är bara tillgängligt om din organisation har Enterprise-lagring. Mer information om Enterprise-lagring finns i [Översikt över Adobe Enterprise-lagring](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Använda sammanfattningspanelen
 
@@ -106,3 +104,9 @@ Du kan visa ett dokuments historik i området för nya dokument. Historiken inne
 ### Mappar på systemnivå för dokumentbehörigheter
 
 Workfront skapar automatiskt en mapp på systemnivå när det första dokumentet överförs till en uppgift eller ett problem. De här mapparna ärver behörigheter från uppgiften eller utgåvan och visas i dokumentområdet på projektnivå. Alla dokument som överförs till den uppgiften eller utgåvan lagras i den mappen och ärver behörigheter från den. Detta är det primära sättet att hantera behörigheter för dokument i området för nya dokument. Mer information finns i [Objektbehörigheter och översikt över åtkomstnivån för Adobe Enterprise-lagringsmodell](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+
+## Överväganden
+
+* Det nya dokumentområdet är optimerat för skärmar som är 1 024 pixlar breda eller större. Om skärmen är mindre kan det uppstå problem när du öppnar panelen Sammanfattning.
+
+* Det globala dokumentområdet är inte tillgängligt i det nya dokumentområdets upplevelse. Du kan bara komma åt dokument från program, portföljer, projekt, uppgifter eller utgåvor.
