@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: 59a9725e7697a81be2a827a902ee3d23085a2ecd
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
@@ -74,6 +74,10 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 <div class="preview">
 
 ## Systemvyer för begäranden
+
+>[!NOTE]
+>
+>Systemvyer kanske inte är tillgängliga i förhandsvisningsmiljön. De kommer att vara tillgängliga i Production för alla kunder den 16 april 2026.
 
 Förutom de vyer du kan skapa själv erbjuder Workfront följande systemvyer för området Förfrågningar och widgeten Mina förfrågningar i Hem:
 

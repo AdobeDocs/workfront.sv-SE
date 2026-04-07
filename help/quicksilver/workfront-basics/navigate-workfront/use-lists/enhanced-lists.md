@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: 59a9725e7697a81be2a827a902ee3d23085a2ecd
 workflow-type: tm+mt
-source-wordcount: '2913'
+source-wordcount: '2915'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Nedan visas några typer av Workfront-objektlistor som använder det förbättra
 | Lista över begäranden | <ul><li>Begäranden (endast ny upplevelse)</li><li>Widgeten Mina förfrågningar på startsidan</li></ul> |
 | Statuslistor, prioriteter, allvarlighetsgrader och valutakurser i installationsprogrammet | <ul><li>Inställningar > Projektinställningar > Status</li><li>Inställningar > Projektinställningar > Prioriteter</li><li>Inställningar > Projektinställningar > Allvarlighetsgrader</li><li>Inställningar > Projektinställningar > Exchange-priser</li></ul> |
 | <span class="preview">Lista över rapporter</span> | <span class="preview">Rapporter (**Använd delningsbara mappar** måste vara aktiverat)</span> |
-| <span class="preview">Lista över jobbroller och frekvenser i installationen</span> | <span class="preview">Inställningar > Klassificeringskort > Välj ett tariffkort > Jobbroller och priser</span> |
+| <span class="preview">Lista över jobbroller och avgifter på ett tariffkort</span> | <span class="preview">Inställningar > Klassificeringskort > Välj ett tariffkort > Jobbroller och priser</span> |
 | <span class="preview">Lista över översättningar</span> | <span class="preview">Inställningar > Lokalisering</span> |
 | <span class="preview">Lista över ögonblicksbilder</span> | <span class="preview">Projekt > Ögonblicksbilder</span> |
 | <span class="preview">Lista över resurser för fakturering</span> | <span class="preview">Projekt > Resurs för fakturering</span> |
