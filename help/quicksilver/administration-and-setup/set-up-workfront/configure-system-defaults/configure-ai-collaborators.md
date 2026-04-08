@@ -87,7 +87,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 1. Ange ett namn för medarbetaren i fältet Medarbetarens namn. Det här namnet visas i listan med tillgängliga tilldelningar för en uppgift.
    <!--1. Select whether the collaborator will use a brand or Adobe Brand Intelligence for its reviews.-->
    <!--1. (Conditional) If the AI Collaborator will use Adobe Brand Intelligence, select the tenant that it will use.-->
-1. <!--(Conditional) If the AI Collaborator will use a Brand,-->Välj det varumärke och den varumärkesriktlinje som ska användas.
+1. &#x200B;<!--(Conditional) If the AI Collaborator will use a Brand,-->Välj det varumärke och den varumärkesriktlinje som ska användas.
 1. Klicka på **Spara**.
 
 ## Hantera AI-samarbetspartners
