@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 71b3af519d0fac1d15164e5d9f40bda5d76d0f5c
+source-git-commit: 16ca615d8a0432f371debb832236e788ee5beb88
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Den här sidan beskriver administratörsförbättringar som gjorts i den andra u
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den andra utgåvan av kvartal 2026 finns i [Översikt över den andra utgåvan av kvartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
-## AI-samarbetspartners finns nu tillgängliga
+## AI-samarbete för innehållsgranskning är nu tillgängligt
 
 >[!NOTE]
 >
@@ -28,13 +28,11 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 >Production fast release: 15 april 2026
 >Produktion för alla: 16 april 2026
 
-För att du enklare ska kunna dra nytta av AI i ditt dagliga arbete har vi skapat AI-medarbetare. AI-samarbetspartners är ett sätt att införliva AI-agenter i projekt och uppgifter. Du kan konfigurera en AI-samarbetspartner med varumärkesriktlinjer och sedan tilldela den till en uppgift på samma sätt som en användare.
+För att du enklare ska kunna dra nytta av AI i ditt dagliga arbete har vi skapat AI Collaborator för innehållsgranskning. Medarbetaren är ett sätt att införliva AI-agenter i projekt och uppgifter. Du kan konfigurera en AI-samarbetspartner med varumärkesriktlinjer och sedan tilldela den till en uppgift på samma sätt som en användare.
 
-För närvarande kan AI-medarbetare användas för att granska innehåll. Fler funktioner för AI Collaborator kommer att vara tillgängliga i framtiden.
+För närvarande är Content Review den enda tillgängliga AI Collaborator. Fler funktioner för AI Collaborator kommer att vara tillgängliga i framtiden.
 
-<!--
-For more information, see [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators).
--->
+Mer information finns i [Konfigurera AI-medarbetare](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
 
 ## Anpassade kvartal är nu tillgängliga som en separat sida i Inställningar
 

@@ -8,14 +8,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: 25d5fef46bc8f02e92d778685c2ad6e93439f9ff
+source-git-commit: 7d359a2536860d13658d3ec0c95264a55db7ab29
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
 
 # Konfigurera AI-samarbetspartners
+
+>[!IMPORTANT]
+>
+>För närvarande är Content Reviewer den enda tillgängliga typen av AI Collaborator. Fler funktioner för AI Collaborator kommer att vara tillgängliga i framtiden.
 
 {{highlighted-preview-article-level}}
 
@@ -28,10 +32,6 @@ Tillgängliga AI Collaborator-typer är:
 * Granskare: Skapa en medarbetare med varumärken <!-- or Adobe Brand Intelligence--> och tilldela sedan medarbetaren som granskare för resurser.
 
   Mer information finns i [Kom igång med Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
-
-  >[!NOTE]
-  >
-  >För närvarande är Reviewer den enda tillgängliga typen av AI Collaborator. Fler funktioner för AI Collaborator kommer att vara tillgängliga i framtiden.
 
 
 ## Åtkomstkrav
@@ -87,7 +87,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 1. Ange ett namn för medarbetaren i fältet Medarbetarens namn. Det här namnet visas i listan med tillgängliga tilldelningar för en uppgift.
    <!--1. Select whether the collaborator will use a brand or Adobe Brand Intelligence for its reviews.-->
    <!--1. (Conditional) If the AI Collaborator will use Adobe Brand Intelligence, select the tenant that it will use.-->
-1. &#x200B;<!--(Conditional) If the AI Collaborator will use a Brand,-->Välj det varumärke och den varumärkesriktlinje som ska användas.
+1. <!--(Conditional) If the AI Collaborator will use a Brand,-->Välj det varumärke och den varumärkesriktlinje som ska användas.
 1. Klicka på **Spara**.
 
 ## Hantera AI-samarbetspartners
