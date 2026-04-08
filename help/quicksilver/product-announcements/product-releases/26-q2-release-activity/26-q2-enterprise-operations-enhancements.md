@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 72130462-ae78-4b9b-ae18-848602d4a858
-source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
+source-git-commit: c0cb423c73a6b0e982081ae67ffef6316b03db7f
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
@@ -86,6 +86,8 @@ Använd **projektögonblicksbilder** för att hantera projekt effektivare och fa
 
 Mer information finns i [Skapa och visa projektögonblicksbilder](/help/quicksilver/manage-work/projects/create-projects/create-snapshots.md).
 
+[Visa en videodemonstration av ögonblicksbilder av projekt.](https://video.tv.adobe.com/v/3483249/){target="_blank"}
+
 >[!NOTE]
 >
 >* Ögonblicksbilder av projekt är bara tillgängliga för organisationer i Workflow Ultimate-paketet.
@@ -96,6 +98,8 @@ Mer information finns i [Skapa och visa projektögonblicksbilder](/help/quicksil
 **Affärsprofiler** ger säker, skalbar systemåtkomst och hjälper till att stärka företagsstyrningen.
 
 Mer information finns i [Översikt över affärsprofiler](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
+
+[Visa en videodemonstration av affärsprofiler.](https://video.tv.adobe.com/v/3483246/){target="_blank"}
 
 >[!NOTE]
 >
@@ -110,6 +114,8 @@ Behörigheter att visa både kostnads- och faktureringsdata har dessutom separer
 ### Förbättringar av anpassade formulär och fält
 
 Avancerad logik i skräddarsydda formulär ger tydligare insikter och exaktare projekthantering och finansiell hantering.
+
+[Visa en videodemonstration av anpassade formulär- och fältförbättringar.](https://video.tv.adobe.com/v/3483244/){target="_blank"}
 
 Förbättringarna av anpassade formulär är bland annat:
 
@@ -159,6 +165,8 @@ I layoutmallar kan du anpassa sidhuvuden och vänsternavigeringsmenyer för ytte
 
 Mer information finns i [Skapa och hantera layoutmallar](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
+[Visa en videodemonstration av förbättringarna av layoutmallen.](https://video.tv.adobe.com/v/3483245/){target="_blank"}
+
 ### Anpassad lokalisering
 
 >[!NOTE]
@@ -171,6 +179,8 @@ Du kan till exempel ställa in etiketten &quot;Målpublik&quot; till att övers�
 
 Mer information finns i [Konfigurera anpassad lokalisering](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
 
+[Visa en videodemonstration av anpassad lokalisering.](https://video.tv.adobe.com/v/3483248/){target="_blank"}
+
 ### Automatisera åtgärder med affärsregler
 
 >[!NOTE]
@@ -180,3 +190,6 @@ Mer information finns i [Konfigurera anpassad lokalisering](/help/quicksilver/ad
 Workfront-administratörer kan nu konfigurera affärsregler för att automatisera åtgärder för det skapade, redigerade eller ändrade objektet när vissa villkor uppfylls. Tillgängliga åtgärder kan vara att dela objektet eller bifoga ett anpassat formulär till objektet.
 
 Mer information finns i [Skapa och redigera affärsregler](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+
+[Visa en videodemonstration av förbättringarna av affärsreglerna.](https://video.tv.adobe.com/v/3483247/){target="_blank"}
+
