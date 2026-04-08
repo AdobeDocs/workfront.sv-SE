@@ -5,7 +5,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
-source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
+source-git-commit: cada5387ddfb710029d06cd38841ecb9c8a6484b
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 # Ge användarna administrativ åtkomst till vissa områden
 
 <!--Linked in several places, do not rename or change URL.-->
+
+{{highlighted-preview}}
 
 Som Adobe Workfront-administratör kan du använda en åtkomstnivå för att ge användare med en Standard- eller Plan-licens administrativ åtkomst till vissa delar av systemet.
 

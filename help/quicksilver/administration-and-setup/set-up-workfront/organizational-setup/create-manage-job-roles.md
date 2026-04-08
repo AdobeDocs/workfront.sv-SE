@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 3fe3313bd545d51be7aa0fb021dd0bb0f91b4321
+source-git-commit: cada5387ddfb710029d06cd38841ecb9c8a6484b
 workflow-type: tm+mt
-source-wordcount: '1685'
+source-wordcount: '1689'
 ht-degree: 0%
 
 ---
@@ -69,8 +69,7 @@ Så här skapar du en jobbroll:
 {{step-1-to-setup}}
 
 1. Klicka på **[!UICONTROL Job Roles]** i den vänstra panelen.
-1. Klicka på **[!UICONTROL New Job Role]**.
-<!-- 1. Click **New Job Role > Create new job role**.  -->
+1. Klicka på **[!UICONTROL New Job Role]<span class="preview">> Skapa ny jobbroll**.</span>
 1. Ange information i följande fält:
 
    * **Namn**: Ange ett namn för jobbrollen. Det här namnet visas överallt i Workfront där fältet Jobbroll visas.
