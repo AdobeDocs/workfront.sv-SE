@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: 25c4d4435cc3507ab2d163600a8c42be66efd4c2
+source-git-commit: 25d5fef46bc8f02e92d778685c2ad6e93439f9ff
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Du kan till exempel konfigurera en granskare-typ av AI Collaborator med varumär
 
 Tillgängliga AI Collaborator-typer är:
 
-* Granskare: Skapa en medarbetare med hjälp av varumärken eller varumärkeshjärna och tilldela sedan medarbetaren som granskare för resurser.
+* Granskare: Skapa en medarbetare med varumärken <!-- or Adobe Brand Intelligence--> och tilldela sedan medarbetaren som granskare för resurser.
 
   Mer information finns i [Kom igång med Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
@@ -85,9 +85,9 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
    >För närvarande är endast granskartypen tillgänglig. Fler typer av AI Collaborator kommer att vara tillgängliga i framtiden.
 
 1. Ange ett namn för medarbetaren i fältet Medarbetarens namn. Det här namnet visas i listan med tillgängliga tilldelningar för en uppgift.
-1. Välj om medarbetaren ska använda ett varumärke eller en varumärkeshjärna för sina recensioner.
-1. (Villkorligt) Om AI-medarbetaren ska använda ett varumärkeskommentar väljer du den klient som ska användas.
-1. (Villkorligt) Om AI-samarbetspartnern ska använda ett varumärke, väljer du det varumärke och den varumärkesriktlinje som ska användas.
+   <!--1. Select whether the collaborator will use a brand or Adobe Brand Intelligence for its reviews.-->
+   <!--1. (Conditional) If the AI Collaborator will use Adobe Brand Intelligence, select the tenant that it will use.-->
+1. <!--(Conditional) If the AI Collaborator will use a Brand,-->Välj det varumärke och den varumärkesriktlinje som ska användas.
 1. Klicka på **Spara**.
 
 ## Hantera AI-samarbetspartners
