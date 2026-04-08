@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '840'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 <!--Linked in several places, do not rename or change URL.-->
 
-Som Adobe Workfront-administratör kan du använda en åtkomstnivå för att ge användare med en avtalslicens administrativ åtkomst till vissa delar av systemet.
+Som Adobe Workfront-administratör kan du använda en åtkomstnivå för att ge användare med en Standard- eller Plan-licens administrativ åtkomst till vissa delar av systemet.
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 +++
 
-## Bevilja plananvändare administrativ åtkomst till vissa delar av Workfront
+## Ge användare av Standard eller Plan administrativ åtkomst till vissa delar av Workfront
 
 >[!IMPORTANT]
 >
@@ -96,12 +96,13 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
      </tr> 
      <tr> 
       <td role="rowheader">Jobbroller</td> 
-      <td> <p>Med den här åtkomsten kan användaren göra följande:</p> 
+      <td> <p><span class="preview"><b>Obs!</b> I förhandsvisningsmiljön styrs åtkomsten till jobbroller som en objekttyp på åtkomstnivån. Se <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-job-roles.md">Bevilja åtkomst till jobbroller</a>.</span></p>
+      <p>Med den här åtkomsten kan användaren göra följande:</p> 
        <ul> 
         <li>Visa och redigera befintliga jobbroller</li> 
         <li>Lägg till nya jobbroller</li> 
         <li>Redigera rollfakturering och kostnadstariffer</li> 
-       </ul> <p><b>VIKTIGT</b>: Om du ger en planerare administratörsåtkomst till jobbroller aktiveras inställningen Redigera rollfakturering och kostnadstariffer för ekonomiska data automatiskt för användaren. Om du senare inaktiverar administrativ åtkomst till jobbroller för planeraren, visas jobbrollerna fortfarande för användaren eftersom inställningen Redigera rollfakturering och kostnadstariffer fortfarande är aktiverad. Om detta inträffar och du måste ta bort användarens åtkomst för att kunna visa jobbroller, måste du inaktivera användarens behörighetsinställning Redigera rollfakturering och kostnadstariffer. Instruktioner finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Bevilja åtkomst till ekonomiska data</a>.</p> </td> 
+       </ul> <p><b>VIKTIGT</b>: Om du ger en Standard- eller Plan-användare administrativ åtkomst till jobbroller aktiveras inställningen Redigera rollfakturering och kostnadstariffer för finansiella data automatiskt för användaren. Om du senare inaktiverar administrativ åtkomst till jobbroller för Standard- eller Planera-användaren är jobbrollerna fortfarande synliga för användaren eftersom inställningen Redigera rollfakturering och kostnadstariffer fortfarande är aktiverad. Om detta inträffar och du måste ta bort användarens åtkomst för att kunna visa jobbroller, måste du inaktivera användarens behörighetsinställning Redigera rollfakturering och kostnadstariffer. Instruktioner finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Bevilja åtkomst till ekonomiska data</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Milstolpar i min grupp</td> 

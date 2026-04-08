@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 551f316bcfd5e0a1390e7be4679e06cd6808e969
+source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
 workflow-type: tm+mt
-source-wordcount: '13917'
+source-wordcount: '13922'
 ht-degree: 0%
 
 ---
@@ -552,6 +552,7 @@ ht-degree: 0%
          * [Bevilja åtkomst till utleveranser](administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
          * [Bevilja åtkomst till dokument](administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)
          * [Bevilja åtkomst för användare](administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+         * [Bevilja åtkomst till jobbroller](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-job-roles.md)
          * [Bevilja åtkomst för team](administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md)
          * [Bevilja åtkomst till mallar](administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)
          * [Ge åtkomst till rapporter, instrumentpaneler och kalendrar](administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)

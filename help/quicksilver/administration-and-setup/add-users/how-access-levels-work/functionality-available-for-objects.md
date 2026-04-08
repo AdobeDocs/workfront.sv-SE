@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 1721d6d4c2059fa32d0fd2ae80af4bd26a8f06a7
+source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1597'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ Det anger också vilka åtgärder Workfront-administratörer kan inaktivera elle
 >[!NOTE]
 >
 >* I den här artikeln beskrivs de funktioner som är tillgängliga för åtkomstnivåer i den nya paketmodellen för Workfront. Information om vilka funktioner som är tillgängliga i den aktuella paketmodellen finns i [Tillgängliga funktioner för varje objekttyp för olika åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* En lista över funktioner som är tillgängliga för de olika paketen i den senaste modellen finns i [Adobe Workfront Pricing and Packaging](https://business.adobe.com/se/products/workfront/pricing.html).
+>* En lista över funktioner som är tillgängliga för de olika paketen i den senaste modellen finns i [Adobe Workfront Pricing and Packaging](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Projekt
 
@@ -231,7 +231,7 @@ Användare med en Standard-licens har fullständig åtkomst till rapporter. Alla
 | Dela hela systemet | ✓&#42; |   |   |   |
 | Visa | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
 | Redigera information | ✓ | ✓ | ✓ |   |
-| Ladda ned | ✓ | ✓ | ✓ | ✓ |
+| Ladda ner | ✓ | ✓ | ✓ | ✓ |
 | Utcheckning | ✓ | ✓ | ✓ |   |
 | Lägg till godkännare (dokument) | ✓ | ✓ | ✓ |   |
 | Godkänn dokument | ✓ | ✓ | ✓ | ✓ |
@@ -302,30 +302,30 @@ De här alternativen är tillgängliga i produktionsmiljön:
 
 &#42;&#42;Externa användare kan bara söka efter andra användare.
 
-<!--
-
 <div class="preview">
 
-## Job Roles
+## Jobbroller
 
-|  Action           |  Standard  |  Light  |  Contributor  | External user |
+| Åtgärd | Standard | Ljus | Medarbetare | Extern användare |
 |-------------------|------------|---------|---------------|---------------|
-| View              | ✓          | ✓       | ✓             | &nbsp;        |
-| Edit              | ✓          | &nbsp;  | &nbsp;        | &nbsp;        |
-| Create            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Delete            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Edit Billing Rates | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Edit Cost Rates   | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Edit General Finance | ✓*      | &nbsp;  | &nbsp;        | &nbsp;        |
-| View Billing Rates | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
-| View Cost Rates    | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
-| View General Finance | ✓       | &nbsp;  | &nbsp;        | &nbsp;        |
+| Visa | ✓ | ✓ | ✓ |   |
+| Redigera | ✓ |   |   |   |
+| Skapa | ✓* |   |   |   |
+| Ta bort | ✓* |   |   |   |
+| Redigera faktureringstariffer | ✓* |   |   |   |
+| Redigera kostnadstariffer | ✓* |   |   |   |
+| Redigera allmän finansiering | ✓* |   |   |   |
+| Visa faktureringstariffer | ✓* |   |   |   |
+| Visa kostnadstariffer | ✓* |   |   |   |
+| Visa allmän finansiering | ✓* |   |   |   |
 
 {style="table-layout:auto"}
 
-&#42; Using an access level, Workfront administrators can disable or enable this functionality.
+&#42; Med en åtkomstnivå kan Workfront-administratörer inaktivera eller aktivera den här funktionen.
 
 </div>
+
+<!--
 
 ## Companies
 
