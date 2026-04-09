@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2a147980da25d981c7a494e76fb771eac83cd59a
+source-git-commit: 56849377a2c31c9232e0ecd8517046f76c7963df
 workflow-type: tm+mt
-source-wordcount: '2289'
+source-wordcount: '2288'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
 
 Förbättringarna på den här sidan är tillgängliga i förhandsvisningsmiljön. Den här sidan kommer att uppdateras med ytterligare förbättringar eftersom den andra utgåvan av kvartal 2026 närmar sig den planerade produktionsutgåvan.
 
-Live-webbinarier hålls för varje kvartalsrelease - där de nya funktionerna markeras och detaljerad information presenteras. Registrera dig på [eventsidan](https://experienceleague.adobe.com/sv/events?filters=Workfront) och filtrera efter Workfront.
+Live-webbinarier hålls för varje kvartalsrelease - där de nya funktionerna markeras och detaljerad information presenteras. Registrera dig på [eventsidan](https://experienceleague.adobe.com/en/events?filters=Workfront) och filtrera efter Workfront.
 
 >[!IMPORTANT]
 >
@@ -84,7 +84,7 @@ Live-webbinarier hålls för varje kvartalsrelease - där de nya funktionerna ma
     </tr>
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Omfattande textfältstyp är nu tillgänglig i anpassade formulär</a><p>Den nya fälttypen <b>RTF</b> i anpassade formulär är en robust textredigerare med formateringsalternativ som upphöjd och nedsänkt text, rubriker och tabeller, utöver de traditionella alternativen fet, kursiv, understrykning, punkter, numrering, hyperlänkar och blockcitattecken. Teckengränsen är fortfarande 15 000.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">RTF-fält som ersätter text med fälttypen Formatting</a><p>Den nya fälttypen <b>RTF</b> i anpassade formulär är en robust textredigerare med formateringsalternativ som upphöjd och nedsänkt text, rubriker och tabeller, utöver de traditionella alternativen fet, kursiv, understrykning, punkter, numrering, hyperlänkar och blockcitattecken. Teckengränsen är fortfarande 15 000.</p>
         </td>
         <td><p>29 januari 2026</p></td>
         <td><p>12 februari 2026</p>
@@ -415,7 +415,7 @@ We are updating the interface throughout Adobe Workfront to improve the user exp
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Förbättringar av Workfront Planning
 
@@ -486,13 +486,13 @@ För att kunna leverera mer stabila och skalbara integreringar går vi över til
 * Workfront för Salesforce.
 
 Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Google Workspace.
-En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Underhållsuppdateringar för Workfront
 
-Mer information om underhållsuppdateringar som gjordes under andra kvartersversionen 2026 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=sv-SE).
+Mer information om underhållsuppdateringar som gjordes under andra kvartersversionen 2026 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan &#x200B;](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=sv-SE).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
