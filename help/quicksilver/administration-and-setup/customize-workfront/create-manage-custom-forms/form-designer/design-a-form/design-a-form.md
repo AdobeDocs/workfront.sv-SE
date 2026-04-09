@@ -10,9 +10,9 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 0db6cd1091052af7a71ad3e4fce6a9e3fcbb9f67
 workflow-type: tm+mt
-source-wordcount: '7439'
+source-wordcount: '7436'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Om du använder Workflow Ultimate-paketet kan du även skapa anpassade formulär
 
 1. Skriv den anpassade formulärtiteln i området **Lägg till ett formulärnamn**.
 1. <span class="preview">(Valfritt) Om du vill lägga till fler objekttyper i formuläret så att det kan kopplas till fler objekt klickar du på **Objekttyper** i formulärdesignerns huvud. Markera de objekttyper som du vill lägga till och avmarkera de objekttyper som du vill ta bort från formuläret.</span>
-1. (Valfritt) Om du vill lägga till fler objekttyper i formuläret så att det kan kopplas till fler objekt klickar du på ikonen **Lägg till** ![Lägg till objekt &#x200B;](assets/add-objects-icon.png) bredvid **Objekttyper** och väljer sedan önskad typ på menyn som visas. Du kan upprepa detta om du vill lägga till så många objekttyper som du vill.
+1. (Valfritt) Om du vill lägga till fler objekttyper i formuläret så att det kan kopplas till fler objekt klickar du på ikonen **Lägg till** ![Lägg till objekt ](assets/add-objects-icon.png) bredvid **Objekttyper** och väljer sedan önskad typ på menyn som visas. Du kan upprepa detta om du vill lägga till så många objekttyper som du vill.
 
    När du har lagt till mer än ett objekt i formuläret kan du klicka på X för en objekttyp för att ta bort det från formuläret.
 
@@ -302,16 +302,16 @@ Lägga till ett textfält:
     </tr>
     <tr>
       <td><span class="preview">Typ av ekonomisk behörighet</span></td>
-      <td><p><span class="preview">Välj den ekonomiska behörighetstyp som användarna måste ha innan de kan visa eller redigera det här anpassade fältet. Alla format tillåts för beräkningsfält.</span></p>
-      <ul span class="preview">
+      <td><p><span class="preview">Välj den ekonomiska behörighetstyp som användarna måste ha innan de kan visa eller redigera det här anpassade fältet. Valutaformatet måste väljas.</span></p>
+      <ul>
       <li><p><strong>Ingen behörighet krävs:</strong> Alla användare kan se det här fältet</p></li>
       <li><p><strong>Allmänt:</strong> Användare måste ha behörighet att redigera eller visa Allmän ekonomi</p></li>
       <li><p><strong>Faktura:</strong> Användare måste ha behörighet att redigera eller visa faktureringsfrekvenser</p></li>
       <li><p><strong>Kostnad:</strong> Användare måste ha behörighet att redigera eller visa kostnadstariffer</p></li>
       </ul>
-      <p><span class="preview">Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Begränsa åtkomst till ekonomiska data i anpassade fält</a>.</span></p>
+      <p>Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Begränsa åtkomst till ekonomiska data i anpassade fält</a>.</p>
       </td>
-      <td><ul span class="preview">
+      <td><ul>
        <li>Enkelradig text</li>
        <li>Stycke</li>
        </ul></td>
@@ -458,16 +458,16 @@ Så här lägger du till alternativknappar, kryssrutegrupper och listrutor:
     </tr> 
     <tr>
       <td><span class="preview">Typ av ekonomisk behörighet</span></td>
-      <td><p><span class="preview">Välj den ekonomiska behörighetstyp som användarna måste ha innan de kan visa eller redigera det här anpassade fältet. Alla format tillåts för beräkningsfält.</span></p>
-      <ul span class="preview">
+      <td><p><span class="preview">Välj den ekonomiska behörighetstyp som användarna måste ha innan de kan visa eller redigera det här anpassade fältet. Valutaformatet måste väljas.</span></p>
+      <ul>
       <li><p><strong>Ingen behörighet krävs:</strong> Alla användare kan se det här fältet</p></li>
       <li><p><strong>Allmänt:</strong> Användare måste ha behörighet att redigera eller visa Allmän ekonomi</p></li>
       <li><p><strong>Faktura:</strong> Användare måste ha behörighet att redigera eller visa faktureringsfrekvenser</p></li>
       <li><p><strong>Kostnad:</strong> Användare måste ha behörighet att redigera eller visa kostnadstariffer</p></li>
       </ul>
-      <p><span class="preview">Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Begränsa åtkomst till ekonomiska data i anpassade fält</a>.</span></p>
+      <p>Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Begränsa åtkomst till ekonomiska data i anpassade fält</a>.</p>
       </td>
-      <td><ul span class="preview">
+      <td><ul>
        <li>Alternativknappar</li>
        <li>Kryssrutegrupp</li>
        <li>Listruta med ett val</li>
@@ -723,14 +723,14 @@ Så här lägger du till en extern sökning:
      </tr> 
      <tr>
       <td><span class="preview">Typ av ekonomisk behörighet</span></td>
-      <td><p><span class="preview">Välj den ekonomiska behörighetstyp som användarna måste ha innan de kan visa eller redigera det här anpassade fältet. Alla format tillåts för beräkningsfält.</span></p>
-      <ul span class="preview">
+      <td><p><span class="preview">Välj den ekonomiska behörighetstyp som användarna måste ha innan de kan visa eller redigera det här anpassade fältet. Valutaformatet måste väljas.</span></p>
+      <ul>
       <li><p><strong>Ingen behörighet krävs:</strong> Alla användare kan se det här fältet</p></li>
       <li><p><strong>Allmänt:</strong> Användare måste ha behörighet att redigera eller visa Allmän ekonomi</p></li>
       <li><p><strong>Faktura:</strong> Användare måste ha behörighet att redigera eller visa faktureringsfrekvenser</p></li>
       <li><p><strong>Kostnad:</strong> Användare måste ha behörighet att redigera eller visa kostnadstariffer</p></li>
       </ul>
-      <p><span class="preview">Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Begränsa åtkomst till ekonomiska data i anpassade fält</a>.</span></p>
+      <p>Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Begränsa åtkomst till ekonomiska data i anpassade fält</a>.</p>
       </td>
      </tr>
      <tr> 
@@ -754,12 +754,12 @@ Så här lägger du till en extern sökning:
       <td role="rowheader">JSON-sökväg</td>
       <td><p>Skriv eller klistra in JSON-sökvägen för API:t.</p> <p>Med det här alternativet kan data extraheras från den JSON som returneras av API-URL:en. Det är ett sätt att välja vilka värden från JSON som ska visas i listrutan.</p><p>Om din API-URL till exempel returnerar JSON i följande format kan du använda "$.data[*].name" för att välja USA och Kanada som nedrullningsbara alternativ:</br>
       <pre>
-      &lbrace;
-       data: &lbrace;
+      {
+       data: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Mer information om JSON-sökvägen och hur du ser till att du skriver rätt JSON-sökväg finns på <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
