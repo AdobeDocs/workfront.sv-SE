@@ -9,9 +9,9 @@ role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 196e7963d04ac5927b222e843eb42d4f300a397a
 workflow-type: tm+mt
-source-wordcount: '3390'
+source-wordcount: '3416'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ Den här layouten för avancerade uppdrag gäller endast för uppgifter. Mer inf
    >[!TIP]
    >
    >Du kan göra avancerade uppdrag direkt i uppgiftslistan. Klicka i fältet **Uppdrag** på samma rad som uppgiften och klicka sedan på **Avancerat** längst ned i listan eller på ikonen **Personer** i det övre högra hörnet av uppdragsrutan för att öppna fönstret Avancerade uppdrag. Gå till steg 5 om du vill fortsätta skapa avancerade uppdrag.
-   >![Klicka på Avancerat eller på ikonen Personer &#x200B;](assets/access-aa-from-lists.png)
+   >![Klicka på Avancerat eller på ikonen Personer ](assets/access-aa-from-lists.png)
 
 1. Klicka på **Tilldela till** i fältet **Tilldelningar** i uppgiftens huvud
 
@@ -125,6 +125,10 @@ Den här layouten för avancerade uppdrag gäller endast för uppgifter. Mer inf
 1. Granska information om aktivitetens varaktighet efter behov. Dessa fält är endast skrivskyddade från avancerade uppdrag och du kan uppdatera dem i uppgiften.
 
    Mer information om aktivitetens varaktighet, varaktighetstyper, tidsenheter och planerade timmar finns i [Översikt över aktivitetens varaktighet och varaktighetstyp](/help/quicksilver/manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+
+   >[!NOTE]
+   >
+   >Om en datakolumn som du vill visa inte visas kan du lägga till den. Se [Lägg till och ta bort kolumner i listan Avancerade uppdrag](#add-and-remove-columns-on-the-advanced-assignments-list) nedan.
 
 1. (Valfritt) Välj **Timmar**, **FTE** eller **Procent** för att visa allokeringarna.
 
@@ -322,7 +326,7 @@ Den här layouten för avancerade uppdrag gäller för både uppgifter och ären
    >[!TIP]
    >
    >Du kan göra avancerade uppdrag direkt i uppgifts- eller utleveranslistan. Klicka i fältet **Uppdrag** på samma rad som uppgiften eller utgåvan och klicka sedan på **Avancerat** längst ned i listan eller på ikonen **Personer** i det övre högra hörnet av uppdragsrutan för att öppna fönstret Avancerade uppdrag. Gå till steg 5 om du vill fortsätta skapa avancerade uppdrag.
-   >![Klicka på Avancerat eller på ikonen Personer &#x200B;](assets/access-aa-from-lists.png)
+   >![Klicka på Avancerat eller på ikonen Personer ](assets/access-aa-from-lists.png)
 
 1. Klicka på **Tilldela till** i fältet **Tilldelningar** i huvudet på uppgiften eller problemet
 
