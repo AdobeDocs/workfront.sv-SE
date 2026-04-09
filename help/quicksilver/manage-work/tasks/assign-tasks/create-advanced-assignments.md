@@ -9,9 +9,9 @@ role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 196e7963d04ac5927b222e843eb42d4f300a397a
+source-git-commit: 676cd1697ae2f379a699075f4e1ab06886c6837a
 workflow-type: tm+mt
-source-wordcount: '3416'
+source-wordcount: '3415'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Du kan justera följande uppdragsinformation när du gör avancerade uppdrag:
 * Avgör vilken användare som ska utses till ägare eller primär tilldelad till uppgiften eller utgåvan.
 * Ange vilken roll varje användare ska ha när de arbetar med uppgiften eller problemet.
 * <span class="preview">Lägg till information om fakturering och kostnadstariff på tilldelningsnivå.</span>
-* <span class="preview">Granska följande information för varje tilldelning: tidsbaserade planerade timmar, totalkostnad och totala intäkter.</span>
+* <span class="preview">Granska följande information för varje tilldelning: planerade timmar, total kostnad och totala intäkter.</span>
 
 >[!NOTE]
 >
@@ -106,7 +106,7 @@ Den här layouten för avancerade uppdrag gäller endast för uppgifter. Mer inf
    >[!TIP]
    >
    >Du kan göra avancerade uppdrag direkt i uppgiftslistan. Klicka i fältet **Uppdrag** på samma rad som uppgiften och klicka sedan på **Avancerat** längst ned i listan eller på ikonen **Personer** i det övre högra hörnet av uppdragsrutan för att öppna fönstret Avancerade uppdrag. Gå till steg 5 om du vill fortsätta skapa avancerade uppdrag.
-   >![Klicka på Avancerat eller på ikonen Personer &#x200B;](assets/access-aa-from-lists.png)
+   >![Klicka på Avancerat eller på ikonen Personer ](assets/access-aa-from-lists.png)
 
 1. Klicka på **Tilldela till** i fältet **Tilldelningar** i uppgiftens huvud
 
@@ -326,7 +326,7 @@ Den här layouten för avancerade uppdrag gäller för både uppgifter och ären
    >[!TIP]
    >
    >Du kan göra avancerade uppdrag direkt i uppgifts- eller utleveranslistan. Klicka i fältet **Uppdrag** på samma rad som uppgiften eller utgåvan och klicka sedan på **Avancerat** längst ned i listan eller på ikonen **Personer** i det övre högra hörnet av uppdragsrutan för att öppna fönstret Avancerade uppdrag. Gå till steg 5 om du vill fortsätta skapa avancerade uppdrag.
-   >![Klicka på Avancerat eller på ikonen Personer &#x200B;](assets/access-aa-from-lists.png)
+   >![Klicka på Avancerat eller på ikonen Personer ](assets/access-aa-from-lists.png)
 
 1. Klicka på **Tilldela till** i fältet **Tilldelningar** i huvudet på uppgiften eller problemet
 
