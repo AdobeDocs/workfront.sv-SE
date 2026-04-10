@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b3e2ac00126facab9cc45ba8fb193d8951a37ec
+source-git-commit: f89b6edead9dce1b0b4baa5ac792cf5e56fd46c0
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -129,3 +129,12 @@ Mer information om hur du signerar avtalet finns i [Signera Adobe Gen AI-avtalet
 
 
 1. När du är klar klickar du på **Publicera** för att göra varumärket tillgängligt för Content Reviewer.
+
+
+## Bästa tillvägagångssätt för att skriva varumärkesriktlinjer
+
+*  Skriv riktlinjer för varumärken som beskriver mätbara kriterier. Content Reviewer utvärderar innehållet bokstavligen, så objektiva regler ger mer konsekventa resultat än subjektiva.
+
+* Sök efter ord som &quot;undvik&quot;, &quot;behåll&quot; eller &quot;kontrollera&quot; i dina riktlinjer. De här signalerar ofta att man kan dra åt benen. Ersätt den otydliga instruktionen med en specifik lista med ord, format eller begränsningar. Ersätt till exempel&quot;undvik vanliga skidklickningar&quot; med&quot;använd inte&quot;gnar&quot;,&quot;pow&quot; eller&quot;shred&quot;&quot;.
+
+* Om du inte kan ta bort subjektiviteten kan du begränsa den. Ersätt breda adjektiv med specifika begränsningar. Till exempel blir&quot;Direkt och handlingsorienterad&quot;&quot;Direkt och handlingsorienterad&quot;, utelämnar utfyllnadstecken och säkringsspråk.&quot;

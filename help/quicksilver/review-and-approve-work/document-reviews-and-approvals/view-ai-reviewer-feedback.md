@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 838e8f3d-0ea6-4844-a261-ef7b0e78a755
-source-git-commit: 20cbe6b280d2d06543b52e1e50d0b2c5edda6418
+source-git-commit: f89b6edead9dce1b0b4baa5ac792cf5e56fd46c0
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,15 @@ Sekunder efter att du har skickat gransknings- och godkännandebegäran kan du v
 Content Reviewer är inte avsedd som beslutsfattare i arbetsflödet för granskning och godkännande. Det ger bara poäng och rekommendationer för att anpassa resursen efter de angivna varumärkeskraven.
 
 ![Återkoppling från innehållsgranskare](assets/ai-reviewer-output.png)
+
+## Förstå hur poäng beräknas
+
+Content Reviewer beräknar poängen på olika sätt beroende på granskningstyp:
+
+* Bildgranskning: Detta resultat återspeglar förhållandet mellan skickade riktlinjer och underkända riktlinjer.
+* Copy review: This score uses a balance weight of subjetive and objective results. Riktlinjer för mål (visas under &quot;Korrigera&quot;) vägs tre gånger mer än de subjektiva riktlinjerna (visas under &quot;Överväg&quot;).
+
+Eftersom objektiva riktlinjer har större betydelse vid kopieringsgranskningar rekommenderar vi att ni skriver konkreta, mätbara riktlinjer i ert varumärke. Mer information finns i avsnittet [Bästa tillvägagångssätt för att skriva varumärkesriktlinjer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md#best-practices-for-writing-brand-guidelines) i artikeln Skapa och hantera varumärken för Content Reviewer.
 
 ## Visa poäng och feedback
 

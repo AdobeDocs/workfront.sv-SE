@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: c989b5d6a91a4b1f19b044916b4f68a1738f9b16
+source-git-commit: 735fc46cb982ebd7e28bed486589efe415741683
 workflow-type: tm+mt
 source-wordcount: '3874'
 ht-degree: 0%
@@ -404,7 +404,7 @@ Ja. Eftersom integreringen använder Adobe Enterprise-lagring gäller följande 
 
 * Dokument i samma projekt kan inte ha samma namn.
 
-* Program, portföljer, projekt, mallar, uppgifter, utgåvor, dokument, dokumentmappsnamn får inte innehålla följande specialtecken: `\\ / : \* ? \" \| \< \>` och får innehålla högst 255 tecken.
+* Program, portföljer, projekt, mallar, uppgifter, utgåvor, dokument, dokumentmappsnamn får inte innehålla följande specialtecken: `\ / : * ? " | < >` och får innehålla högst 255 tecken.
 
 Workfront byter automatiskt namn på objekt och dokument efter behov för att förhindra konflikter.
 
