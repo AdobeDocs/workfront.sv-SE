@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: e5ac8fde409b960aacd3cf7daa0532e9bc3e8121
+source-git-commit: dbe12b780491212105ee62058aec7e708d207e1f
 workflow-type: tm+mt
-source-wordcount: '3478'
+source-wordcount: '3466'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/se/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -149,7 +149,9 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 * **Ange automatiskt aktivitetsstatus till Pågår när uppgifter tilldelas själv**: När det här alternativet är markerat anger du automatiskt status Pågår för användaren själv i stället för Nytt.
 
-* **Generera automatiskt korrektur när dokument överförs**: Markera det här alternativet om du vill att de dokument som användaren överför ska generera ett korrektur omedelbart.
+>[!NOTE]
+>
+>Alternativet&quot;Generera korrektur automatiskt när dokument överförs&quot; har tagits bort.
 
 ### Meddelanden
 
