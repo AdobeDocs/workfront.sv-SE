@@ -6,9 +6,9 @@ description: Den information du visar i  [!DNL Adobe Workfront]  representeras a
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: d11066d9aa76077bfaaa2d44f2e29c983dafa96f
 workflow-type: tm+mt
-source-wordcount: '2217'
+source-wordcount: '2165'
 ht-degree: 0%
 
 ---
@@ -125,16 +125,6 @@ I följande områden visas det uppdaterade namnet på objekten:
 * Exporterade filer
 * E-post
 * Mobilappar
-
-### Områden av [!DNL Workfront] som inte återspeglar de anpassade objektnamnen
-
-I följande områden visas inte objektens uppdaterade namn:
-
-<!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Referenced Object Type selection for a Typeahead field in a Custom Form </p> <p>(NOTE: drafting this because I don't think this is true)</p> </li>
-  -->
-
-* [!DNL Outlook]-tillägg
 
 ### Konsekvenser av anpassning av objektnamn
 

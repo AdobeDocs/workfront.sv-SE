@@ -9,9 +9,9 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 50088ae0-8460-4163-acab-ebb711acda5a
-source-git-commit: 321ffac87bd694325dfb05e4019b25479f58684a
+source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,6 @@ Det här avsnittet innehåller följande artiklar:
 * [Konfigurera  [!DNL Experience Manager Assets Essentials] integreringen](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
 * [[!DNL Workfront] och [!DNL Experience Manager Assets] Integrationer](../../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
 * [Konfigurera [!DNL Workfront] med [!DNL Adobe Experience Manager] äldre koppling](../../administration-and-setup/configure-integrations/configure-workfront-aem.md)
-* [Aktivera [!UICONTROL Adobe Workfront for Outlook]](../../administration-and-setup/configure-integrations/enable-workfront-for-outlook.md)
 * [Konfigurera dokumentintegreringar](../../administration-and-setup/configure-integrations/configure-document-integrations.md)
 * [Inaktivera dokumentintegreringar](../../administration-and-setup/configure-integrations/disable-document-integrations.md)
 * [Konfigurera  [!DNL SharePoint] integreringen](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md)

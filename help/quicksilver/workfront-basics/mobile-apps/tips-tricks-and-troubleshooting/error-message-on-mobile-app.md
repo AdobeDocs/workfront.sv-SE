@@ -2,15 +2,15 @@
 content-type: tips-tricks-troubleshooting
 product-previous: mobile
 navigation-topic: tips-tricks-and-troubleshooting-mobile-apps
-title: '"Felmeddelande för  [!DNL Adobe Workfront] mobilappen: "Ditt konto är inte API-aktiverat."'
-description: '"Felmeddelande för  [!DNL Adobe Workfront] mobilappen: "Ditt konto är inte API-aktiverat."'
+title: 'Felmeddelande på  [!DNL Adobe Workfront] mobilappen: Ditt konto är inte API-aktiverat.'
+description: 'Felmeddelande på  [!DNL Adobe Workfront] mobilappen: Ditt konto är inte API-aktiverat.'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 120e56f4-9fd5-4c41-890e-981937714db0
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: d11066d9aa76077bfaaa2d44f2e29c983dafa96f
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 0%
+source-wordcount: '123'
+ht-degree: 1%
 
 ---
 
@@ -53,7 +53,7 @@ Din [!DNL Workfront]-administratör har inte aktiverat din [!DNL Workfront]-milj
 1. Gå till området **[!UICONTROL Setup]**.
 1. Expandera menyn **[!UICONTROL System]** och klicka sedan på **[!UICONTROL Preferences]**.
 
-1. Under avsnittet **[!UICONTROL Security]** markerar du alternativet **[!UICONTROL Let people use [!DNL Workfront]'s mobile applications and the [!DNL Workfront Outlook] Add-In]** för att aktivera det.
+1. Under avsnittet **[!UICONTROL Security]** markerar du alternativet **[!UICONTROL Let people use [!DNL Workfront]'s mobile applications]** för att aktivera det.
 
 1. Klicka på **[!UICONTROL Save]**.\
-   Alla användare i systemet kan nu komma åt [!DNL Workfront] från sina mobilappar och från [!DNL Outlook].
+   Alla användare i systemet kan nu komma åt [!DNL Workfront] från sina mobilappar.

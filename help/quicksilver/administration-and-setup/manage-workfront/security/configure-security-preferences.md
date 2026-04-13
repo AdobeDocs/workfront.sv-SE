@@ -10,9 +10,9 @@ role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -92,8 +92,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
       <td> <p>Tillåter användare att använda information om sessions-ID för en webbplats när en extern sida läggs till på en instrumentpanel.</p> <p>Det här alternativet är osäkert och inaktiverat som standard. Vi rekommenderar att du använder OAuth för integreringar i stället.</p> <p>Mer information om hur du lägger till externa sidor på en kontrollpanel finns i <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Bädda in en extern webbsida på en kontrollpanel</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Låt andra använda Workfront mobilprogram och Workfront Outlook-tillägget</td> 
-      <td> <p>Tillåter användare åtkomst till mobilapparna (Workfront View för iPad och mobilappar) och Workfront Outlook-appen.</p> <p>Det här alternativet är aktiverat som standard. </p> <p>Mer information om Workfront View finns i <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Use Adobe Workfront View</a>. Mer information om mobilapparna finns i <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Använda Adobe Workfront-mobilappen: artikelindex</a>.</p> </td> 
+      <td role="rowheader">Låt användare använda Workfront mobilappar</td> 
+      <td> <p>Tillåter användare åtkomst till mobilapparna (Workfront View för iPad och mobilappar)</p> <p>Det här alternativet är aktiverat som standard. </p> <p>Mer information om Workfront View finns i <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Use Adobe Workfront View</a>. Mer information om mobilapparna finns i <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Använda Adobe Workfront-mobilappen: artikelindex</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Samarbeta med personer utan Workfront-konton via e-postadresser</p> </td> 

@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d2962100-3a64-47a9-a67c-5ebf6a594711
-source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
+source-git-commit: d11066d9aa76077bfaaa2d44f2e29c983dafa96f
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,6 @@ ht-degree: 0%
 * [Förbättringar av anpassade formulär](custom-form-enhancements.md)
 * [Uppdaterad mobilapp för iOS och Android (tidig augusti 2017)](updated-mobile-app.md)
 * [TLS 1.2 krävs i Adobe Workfront](tls-1-disabled.md)
-* [Outlook 365-tillägget är nu tillgängligt](../../outlook-365-add-in/outlook-365-add-in-now-available.md)
 * [Ersättning av Flash-baserade verktyg i Adobe Workfront](replace-flash-tools.md)
 * [Nytt Adobe Workfront-hanterat system som ersätter POP-e-post för begärandeköer med 21.1](pop-removal-request-queue.md)
 * [Nytt Adobe Workfront-hanterat system som ersätter POP-e-post för begärandeköer med 21.1](pop-removal-request-queue.md)

@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: d11066d9aa76077bfaaa2d44f2e29c983dafa96f
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -137,8 +137,6 @@ När du får ett e-postmeddelande från Workfront kan du snabbt lägga till en u
 >[!IMPORTANT]
 >
 >* Du måste ha behörighet att åtminstone visa objektet som utlöste uppdateringen innan du kan svara på e-postmeddelandet.
->
->* För att undvika inskickningsfel bör Outlook-användare ta bort det befintliga e-postinnehållet innan de skriver in ditt svar.
 
 Så här lägger du till en uppdatering i ett e-postmeddelande från Workfront:
 

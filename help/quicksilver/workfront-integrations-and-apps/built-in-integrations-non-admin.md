@@ -9,7 +9,7 @@ author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: d11066d9aa76077bfaaa2d44f2e29c983dafa96f
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 0%
@@ -45,8 +45,8 @@ Följande inbyggda integreringar är för närvarande tillgängliga i Workfront.
      <li>Premiere Pro </li>
      <li>After Effects </li>
      </ul>
-     <li><p>Hämta/installera från <a href="https://exchange.adobe.com/apps/browse/cc?page=1&product=All&q=workfront&sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
-     <p>Mer information och instruktioner finns i <a href="https://experienceleague.adobe.com/sv/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Installera plugin-programmet [!DNL Adobe Workfront] för [!DNL Creative Cloud]-program</a>.</p> </td> 
+     <li><p>Hämta/installera från <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
+     <p>Mer information och instruktioner finns i <a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Installera plugin-programmet [!DNL Adobe Workfront] för [!DNL Creative Cloud]-program</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Adobe Experience Manager Assets och Assets Essentials </p>  </p> </td> 
@@ -80,15 +80,6 @@ Följande inbyggda integreringar är för närvarande tillgängliga i Workfront.
      <li>Länka dokument och mappar till [!DNL Workfront]</li> 
     </ul> </td> 
   </tr> 
-  <!--
-  <tr> 
-   <td role="rowheader">Microsoft Calendars (Office 365 / Outlook Live)</td> 
-   <td> 
-    <ul> 
-     <li> <p>Integrate with a web-based version of Outlook in cloud-hosted Office 365 or Outlook Live. </p>
-    </ul> </td> 
-  </tr>
-  -->
   <tr> 
    <td role="rowheader"> <p>Microsoft OneDrive</p> <p> <img src="assets/microsoft-onedrive.png"> </p> </td> 
    <td> 
@@ -96,18 +87,6 @@ Följande inbyggda integreringar är för närvarande tillgängliga i Workfront.
      <li>Länka dokument och mappar till [!DNL Workfront]</li> 
     </ul> </td> 
   </tr> 
-  <!--
-  <tr> 
-   <td role="rowheader"> <p>Microsoft Outlook</p> <p> <img src="assets/outlook.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>Update an existing project/task/issue with info from an email </li> 
-     <li>Convert emails into [!DNL Workfront] items right from your inbox </li> 
-     <li>Create new tasks from an email </li> 
-     <li>Comment on [!DNL Workfront] items </li> 
-    </ul> </td> 
-  </tr>
-  -->
   <tr> 
    <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p><b>OBS!</b>: Från och med den 1 juli 2025 tar Microsoft bort stöd för Classic Teams-datorprogrammet. Därför stöds inte Workfront-integreringen med Microsoft Teams när Classic Teams-datorprogrammet inte längre är tillgängligt. </p> </td> 
    <td> 

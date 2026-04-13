@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,6 @@ När du har sparat en layoutmall där du ändrat terminologi, loggat ut från Wo
 
 >[!NOTE]
 >
->* I området för Outlook-tillägg visas inte de anpassade etiketterna.
 >* Du kan stöta på grammatik och andra problem när du anpassar etiketter. Om du till exempel ändrar&quot;Problem&quot; till&quot;Begäran&quot; kan det finnas platser i användargränssnittet där du ser frasen&quot;En begäran&quot;. Mer information finns i [Konsekvenser av anpassning av objektnamn](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names) i artikeln [Förstå objekt i Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
 >
 

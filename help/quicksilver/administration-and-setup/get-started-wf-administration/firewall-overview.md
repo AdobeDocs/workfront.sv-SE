@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 46e072d40cc881c3a903c8fd51475dc185f1f849
+source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -73,10 +73,9 @@ Ge nätverksadministratören följande information:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-integreringar</td> 
-   <td>Informera nätverksadministratören om du använder något av följande:
+   <td>Informera nätverksadministratören om du använder följande:
     <ul>
      <li><p>Workfront för Microsoft Teams</p></li>
-     <li><p>Workfront för Outlook</p></li>
     </ul></td> 
   </tr> 
   <tr> 

@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 3c680b39685e650dd442adbb49e4091d558d1410
+source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1569'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >Den procedur som beskrivs på denna sida gäller endast organisationer som ännu inte har anslutit sig till Admin Console. Om du har anslutit dig till Adobe Admin Console måste du utföra den här åtgärden via Adobe Admin Console.
 >
->Mer information om hur du konfigurerar din tillåtelselista om din organisation har anslutit till Adobe Admin Console finns i [Domäner som tillåts för Adobe appar och tjänster](https://helpx.adobe.com/se/enterprise/kb/network-endpoints.html).
+>Mer information om hur du konfigurerar din tillåtelselista om din organisation har anslutit till Adobe Admin Console finns i [Domäner som tillåts för Adobe appar och tjänster](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns i [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -69,12 +69,6 @@ Så här hittar du din organisations kluster:
 Mer information finns i avsnittet [Visa din organisations kluster och Workfront-plan](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan) i artikeln [Översikt över brandväggen](../../administration-and-setup/get-started-wf-administration/firewall-overview.md).
 
 ## IP-adresser som ska läggas till i tillåtelselista
-
->[!IMPORTANT]
->
->Vissa Workfront-integreringar fungerar inte när tillåtelselista är aktiverat eftersom de inte kan konfigureras med en statisk IP-adress. Om du vill använda följande integreringar måste du inaktivera tillåtelselista.
->
->* Workfront för Outlook
 
 * [IP-adresser som tillåter kluster 1, 2, 3, 5, 7, 8 och 9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
 * [IP-adresser som tillåter kluster 4](#ip-addresses-to-allow-for-cluster-4)
@@ -330,7 +324,7 @@ Lägg till följande IP-adresser i tillåtelselista för att Workfront Fusion sk
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] på Microsoft Azure-klustret</td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] i Microsoft Azure-klustret</td> 
    <td> 
     <ul> 
      <li>20.36.133.48/28</li> 
@@ -356,7 +350,7 @@ Om din organisation använder utgående nätverksfiltrering lägger du till föl
    <td> <p>hook.app.workfrontfusion.com </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Adobe Workfront Fusion] på Microsoft Azure-klustret</p> </td> 
+   <td role="rowheader"> <p>[!DNL Adobe Workfront Fusion] i Microsoft Azure-klustret</p> </td> 
    <td> <p>hook.app-az.workfrontfusion.com </p> </td> 
   </tr> 
  </tbody> 
