@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 93eab1106953bfc7324f4b7cc99d3442364a56cd
+source-git-commit: ca06f89747110f1abc4cc6ff46490ac6f7a54e96
 workflow-type: tm+mt
-source-wordcount: '3865'
+source-wordcount: '3876'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ Mer information om hur du hanterar projekt i Workfront finns i [Projekt: artikel
 
 Eftersom en enhetlig granskning och godkännande byggs med Adobe Enterprise-lagring finns det vissa tvingande struktur- och namnkonventioner som du bör känna till när du hanterar projekt och dokument.
 
-* Adobe Enterprise-lagring kräver unika namn för peer-objekt med samma överordnade objekt i hierarkiträdet.
+* Program och projekt kan inte ha samma namn om de tillhör samma portfölj.
 * Dokument kan inte ha samma namn om de tillhör samma projekt.
 * Objektnamn får inte innehålla något av följande specialtecken: \ / : * ? &quot; | &lt; >
 * Objektnamn får innehålla högst 255 tecken.
@@ -399,7 +399,9 @@ Några av fördelarna med Adobe Enterprise-lagring:
 
 Ja. Eftersom integreringen använder Adobe Enterprise-lagring gäller följande konventioner:
 
-* Objekt- och dokumentnamn måste vara unika inom samma överordnade i mapphierarkin.
+* Program och projekt kan inte ha samma namn om de tillhör samma portfölj.
+
+* Dokumentnamn måste vara unika inom samma överordnade i mapphierarkin.
 
 * Dokument i samma projekt kan inte ha samma namn.
 
