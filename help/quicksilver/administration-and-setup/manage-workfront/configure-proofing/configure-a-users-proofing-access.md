@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 98c90139-f31a-41bc-af0b-577dd8b254e3
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 322a24fabd22ca2b54c020aded33b736a98f4bf5
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -49,19 +49,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
 +++
-
-## Aktivera och inaktivera korrektur för en användare (endast äldre planer) {#enable-and-disable-proofing-for-a-user-legacy-plans-only}
-
-Om din organisation använder en äldre Select- eller Premium Workfront-plan, som Workfront-administratör, kan du aktivera och inaktivera språkfunktioner för användaren.
-
-När du aktiverar korrektur för en användare aktiveras alternativet att användarens korrektur genereras automatiskt i Workfront.
-
-Även om du kan aktivera en användare som korrekturanvändare måste han eller hon ha administratörsbehörighet för att kunna navigera direkt till Workfront Proof-gränssnittet från Workfront huvudmeny. Information om hur du kan aktivera det här alternativet för alla språkanvändare i ditt Workfront-system finns i [Konfigurera Workfront Proof-åtkomst via Workfront huvudmeny för alla användare](#configure-workfront-proof-access-via-workfront-main-menu-for-all-users).
-
-1. Välj **Användare** på **huvudmenyn**.
-
-1. Markera en användare och klicka sedan på ikonen **Redigera** .
-1. I avsnittet **Åtkomst** markerar eller avmarkerar du **Användaren kan generera korrektur**.
 
 ## Konfigurera en användares behörighetsprofil för korrektur
 
@@ -131,7 +118,7 @@ Du kan ge alla användare åtkomst till Workfront Proof-knappen på Workfront hu
 
 ## Konfigurera användaråtkomst till Desktop Proofing Viewer
 
-Om användarna i din organisation föredrar att använda Desktop Proofing Viewer istället för Web Proofing Viewer för att granska interaktivt innehåll, kan du konfigurera Desktop Proofing Viewer så att den startas automatiskt när användare öppnar interaktiva innehållskorrektur. Information om detta i Desktop Proofing Viewer och om hur det skiljer sig från Web Proofing Viewer finns i [Förstå Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md) och [Skillnader mellan Web Proofing Viewer och Desktop Proofing Viewer &#x200B;](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
+Om användarna i din organisation föredrar att använda Desktop Proofing Viewer istället för Web Proofing Viewer för att granska interaktivt innehåll, kan du konfigurera Desktop Proofing Viewer så att den startas automatiskt när användare öppnar interaktiva innehållskorrektur. Information om detta i Desktop Proofing Viewer och om hur det skiljer sig från Web Proofing Viewer finns i [Förstå Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md) och [Skillnader mellan Web Proofing Viewer och Desktop Proofing Viewer ](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
 
 1. I Workfront klickar du på Workfront Proof-ikonen i det globala navigeringsfältet för att komma åt Workfront Proof.
 
