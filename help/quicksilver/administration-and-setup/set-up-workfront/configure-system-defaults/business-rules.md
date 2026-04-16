@@ -10,32 +10,19 @@ role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 2b190de6b6ef9ce53e96475d426a4d39cfbd4df4
 workflow-type: tm+mt
-source-wordcount: '1823'
+source-wordcount: '1864'
 ht-degree: 0%
 
 ---
 
 # Skapa och redigera affärsregler
 
-<!--
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
--->
-
 Med en affärsregel kan du validera Workfront-objekt och hindra användare från att skapa, redigera eller ta bort ett objekt när vissa villkor är uppfyllda. Validering av affärsregler förbättrar datakvaliteten och effektiviteten genom att man förhindrar åtgärder som kan äventyra dataintegriteten.
 
-<!--
+Organisationer som har Workflow Ultimate-paketet kan också konfigurera affärsregler för att automatisera åtgärder för det skapade, redigerade eller ändrade objektet när vissa villkor uppfylls. Tillgängliga åtgärder kan vara att dela objektet eller bifoga ett anpassat formulär till objektet.
 
-<div class="preview">
-
-Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object or attaching a custom form to the object.  
-
-</div>
-
--->
 
 En affärsregel kan bara tilldelas ett objekt. Om du t.ex. skapar en affärsregel för att inte redigera projekt under vissa förhållanden, kan du inte använda samma regel för uppgifter. Du måste skapa en separat affärsregel med samma villkor för uppgifter.
 
@@ -261,7 +248,7 @@ Du kan använda jokertecken i åtgärder för affärsregler, vilket beskrivs i a
    * &quot;object&quot; är den objekttyp som du valde när du skapade affärsregeln. Den visas i dialogrutans rubrik.
    * &quot;action&quot; är den utlösare som du valde för regeln: skapa, redigera eller ta bort objektet.
    * Eftersom objektet och åtgärden redan är definierade, tar du inte med dem i formeln.
-   * Det anpassade felmeddelandet <span class="preview"> inkluderas bara om regeln är för validering och </span> visas för användaren när de utlöser affärsregeln. Den ska innehålla tydliga instruktioner om vad som gick fel och hur problemet ska åtgärdas.
+   * Det anpassade felmeddelandet inkluderas bara om regeln gäller för validering och visas för användaren när de utlöser affärsregeln. Den ska innehålla tydliga instruktioner om vad som gick fel och hur problemet ska åtgärdas.
 
      Du kan inkludera en statisk URL-adress i felmeddelandet, för att länka till dokumentation eller andra användbara sidor som hjälper användaren hur de ändrar sin åtgärd inom regelbegränsningen.
 
@@ -283,21 +270,19 @@ Du kan använda jokertecken i åtgärder för affärsregler, vilket beskrivs i a
 
    För andra paket är det här alternativet förvalt.
 
-1. <span class="preview">(Villkorligt) Om du vill automatisera en annan åtgärd väljer du åtgärden. </span>
+1. (Villkorligt) Om du vill automatisera en annan åtgärd markerar du åtgärden.
 
-   <span class="preview">Mer information om de här åtgärderna finns i avsnittet [Alternativ för automatisering av affärsregler](#business-rule-automation-options) i den här artikeln.</span>
+   Mer information om de här åtgärderna finns i avsnittet [Automatiseringsalternativ för affärsregler](#business-rule-automation-options) i den här artikeln.
 
    >[!NOTE]
    >
-   ><span class="preview">Din organisation måste finnas i Workflow Ultimate-paketet för att kunna använda åtgärder förutom validering. Om du inte ser de här andra alternativen finns din organisation inte i Workflow Ultimate-paketet.</span>
+   >Din organisation måste finnas i Workflow Ultimate-paketet för att kunna använda andra åtgärder än validering. Om du inte ser dessa andra alternativ finns din organisation inte i Workflow Ultimate-paketet.
 
 1. Klicka på **Spara** när du är klar med att skapa affärsregeln.
 
 >[!NOTE]
 >
 >När du har lagt till en affärsregel bör du testa den genom att lägga till, redigera eller ta bort det associerade objektet för att se till att regeln tillämpas korrekt.
-
-<div class="preview">
 
 ### Automatiseringsalternativ för affärsregler
 
@@ -311,8 +296,6 @@ Du kan ställa in dessa åtgärder så att de automatiseras när affärsregeln a
 |---|---|
 | Bifoga ett eget formulär | Välj det anpassade formulär som du vill lägga till |
 | Dela objektet | Välj personer, roller, grupper, företag eller åtkomstnivåer som du vill dela objektet med. |
-
-</div>
 
 ## Aktivera en affärsregel
 

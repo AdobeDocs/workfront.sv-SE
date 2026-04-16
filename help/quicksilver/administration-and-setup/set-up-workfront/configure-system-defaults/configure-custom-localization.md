@@ -6,7 +6,8 @@ description: Med anpassad lokalisering kan du definiera anpassade termer och fra
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 18211a3529b612a6fcdcedf7820aecfe38cb3b6f
+exl-id: bdc6d5ee-2037-4d0b-bf18-3e6cc9cb078e
+source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 1%

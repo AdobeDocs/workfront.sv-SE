@@ -7,16 +7,14 @@ description: Din Adobe Workfront-administratör kan ge dig åtkomst till att vis
 author: Courtney
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
+source-git-commit: 3bc953ebb6f16d3d4a71fe9764551a8a4cf1087a
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
 
 # Dela ett program
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 
 Din Adobe Workfront-administratör kan ge dig åtkomst till att visa eller redigera program när du tilldelar din åtkomstnivå. Du måste ha en planlicens för att kunna redigera ett program. Mer information finns i [Bevilja åtkomst till program](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md).
@@ -91,7 +89,7 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
 
    ![Knappen Dela program](assets/share-program-button.png)
 
-1. I fältet **Bevilja programåtkomst till** börjar du med att skriva namnet på den användare, det team, den roll, den grupp, det företag eller den affärsprofil <span class="preview"> som du vill dela programmet med och klickar sedan på namnet när det visas i listrutan.</span>
+1. I fältet **Bevilja programåtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp, det företag eller den affärsprofil som du vill dela programmet med och klickar sedan på namnet när det visas i listrutan.
 
    >[!TIP]
    >
@@ -127,7 +125,7 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
 
    ![Dela program satsvis](assets/bulk-share-programs.png)
 
-1. I fältet **Bevilja programåtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp, det företag eller den företagsprofil <span class="preview"> som du vill dela programmen med och klickar sedan på namnet i listrutan.</span>
+1. I fältet **Bevilja programåtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp, det företag eller den affärsprofil som du vill dela programmen med och klickar sedan på namnet när det visas i listrutan.
 
    >[!TIP]
    >
@@ -155,8 +153,8 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
 
 I följande tabell visas vilka behörigheter du kan ge användarna när de får visa eller hantera ett program:
 
-| **Åtgärder** | **Hantera** | **Visa** |
-|---|---|---|
+| **Åtgärder** | **Hantera** **Visa** |
+| --- | --- |--- |
 | Redigera programinformation | ✓ |   |
 | Visa ett program | ✓ | ✓ |
 | Ta bort ett program | ✓ |   |

@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 5f5a32b9a569221acc3d5f38568bb6a1e609070f
+source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: '1556'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 0%
 # Översikt över granskningsloggar
 
 <!--Audited: 08/2025-->
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Som Adobe Workfront-administratör kan du spåra användarändringar som utlösts i systemet under de senaste 90 dagarna med hjälp av granskningsloggarna som beskrivs nedan.
 
@@ -68,7 +66,7 @@ Följande fält registreras i alla poster i granskningsloggen:
 
 * [Åtkomstnivå](#access-level)
 * [Affärsprofiler](#business-profiles)
-* <span class="preview">[Affärsregler](#business-rules)</span>
+* [Affärsregler](#business-rules)
 * [Företag](#company)
 * [Villkor](#condition)
 * [Anpassat fält](#custom-field)
@@ -102,8 +100,6 @@ Systemet genererar en loggpost på åtkomstnivå när en användare utför någo
      >
      >Om en användare t.ex. ändrar åtkomsttypen Planering från Visa till Redigera, visas inte information i den nedrullningsbara menyn Finjustera inställningarna.
 
-<div class="preview">
-
 ### Affärsprofiler
 
 Systemet genererar en loggpost för affärsprofilsgranskning när en användare gör något av följande:
@@ -111,8 +107,6 @@ Systemet genererar en loggpost för affärsprofilsgranskning när en användare 
 * Skapar en affärsprofil
 * Redigerar en affärsprofil:
 * Tar bort en affärsprofil
-
-</div>
 
 ### Affärsregler
 

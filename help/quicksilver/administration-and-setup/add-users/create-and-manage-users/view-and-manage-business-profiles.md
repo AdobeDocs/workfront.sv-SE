@@ -11,16 +11,14 @@ role: Admin
 exl-id: 2227cdb7-909c-429d-a078-4f508157a679
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 2b190de6b6ef9ce53e96475d426a4d39cfbd4df4
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
 
 # Visa och hantera affärsprofiler
-
-<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön för specifika kunder.</span>
 
 Om du vill tilldela en affärsprofil till en användare måste du tilldela en grupp och en tillhörande åtkomstnivå.
 

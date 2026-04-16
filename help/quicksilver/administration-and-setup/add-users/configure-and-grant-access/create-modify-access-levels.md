@@ -10,9 +10,9 @@ role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
 workflow-type: tm+mt
-source-wordcount: '1612'
+source-wordcount: '1590'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,6 @@ ht-degree: 0%
 <!--Audited: 12/2023-->
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help. -->
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Som Adobe Workfront-administratör kan du skapa anpassade åtkomstnivåer och använda dem för användare. När du arbetar med åtkomstnivåer är det viktigt att förstå hur de fungerar tillsammans med objektbehörigheterna som användarna ger när de delar objekt med varandra. Mer information om åtkomstnivåer finns i:
 
@@ -203,13 +201,13 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    </table>
 
 
-1. <span class="preview">(Valfritt) Om du vill hindra användare med den här åtkomstnivån från att se specifika fält lägger du till fälten i avsnittet Lägg till begränsade fält.</span>
+1. (Valfritt) Om du vill hindra användare med den här åtkomstnivån från att se specifika fält lägger du till fälten i avsnittet Lägg till begränsade fält.</span>
 
-   <span class="preview">Du kan söka efter både inbyggda och anpassade fält i det här avsnittet. Det finns en gräns på 20 begränsade fält.</span>
+   Du kan söka efter både inbyggda och anpassade fält i det här avsnittet. Det finns en gräns på 20 begränsade fält.
 
-   <span class="preview">Fälten begränsas när åtkomstnivån tilldelas en användare som primär åtkomstnivå eller via en affärsprofil. Mer information om affärsprofiler finns i [Översikt över affärsprofiler](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).</span>
+   Fälten begränsas när åtkomstnivån tilldelas en användare som primär åtkomstnivå eller genom en affärsprofil. Mer information om affärsprofiler finns i [Översikt över affärsprofiler](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
 
-   <span class="preview">Ett begränsat fält är fortfarande synligt för användarna i systemet, men visas som tomt eller visar N/A i stället för faktiska data.</span>
+   Ett begränsat fält är fortfarande synligt för användarna i systemet, men visas som tomt eller visar N/A i stället för faktiska data.
 
 1. (Villkorligt och valfritt) Om ditt Workfront-system är konfigurerat för användare som tillhör flera företag kan du begränsa synligheten till andra användare baserat på vilket företag de tillhör i avsnittet **Personer i andra företag bör endast visa användare från**.
 

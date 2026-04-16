@@ -4,16 +4,14 @@ description: Du kan dela en portfölj med andra användare om du har behörighet
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
+source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
 
 # Dela en portfölj
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Din Adobe Workfront-administratör kan ge dig åtkomst att visa eller redigera portföljer när du tilldelar din åtkomstnivå. Du måste ha en planlicens för att kunna redigera en portfölj. Mer information finns i [Bevilja åtkomst till portföljer](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md).
 
@@ -84,7 +82,7 @@ Mer information om objekthierarkin i Workfront finns i [Förstå objekt i Adobe 
 
    ![Knappen Dela portfölj](assets/share-portfolio-button.png)
 
-1. I fältet **Bevilja portföljåtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp, det företag eller den affärsprofil <span class="preview"> som du vill dela portföljen med och klickar sedan på namnet i listrutan.</span>
+1. I fältet **Bevilja portföljåtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp, det företag eller den affärsprofil som du vill dela portföljen med och klickar sedan på namnet i listrutan.
 
    >[!TIP]
    >
@@ -117,7 +115,7 @@ Mer information om objekthierarkin i Workfront finns i [Förstå objekt i Adobe 
 
    ![Dela flera portföljer](assets/bulk-share-portfolios.png)
 
-1. I fältet **Bevilja portföljåtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp, det företag eller den affärsprofil <span class="preview"> som du vill dela portföljerna med och klickar sedan på namnet i listrutan.</span>
+1. I fältet **Bevilja portföljåtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp, det företag eller den affärsprofil som du vill dela portföljerna med och klickar sedan på namnet när det visas i listrutan.
 
    >[!TIP]
    >
@@ -147,24 +145,24 @@ Mer information om objekthierarkin i Workfront finns i [Förstå objekt i Adobe 
 Tabellen nedan visar vilka behörigheter du kan ge användare när de får visa eller hantera en Portfolio:
 
 | **Åtgärder** | **Hantera** | **Visa** |
-|---|---|---|
-| Redigera Portfolio-information | ✓ |   |
+| --- | --- | --- |
+| Redigera Portfolio-information | ✓ | |
 | Se en Portfolio | ✓ | ✓ |
-| Ta bort en Portfolio | ✓ |   |
-| Bifoga ett eget formulär | ✓ |   |
-| Redigera ett anpassat fält | ✓ |   |
-| Lägg till eller ta bort ett program&#42; | ✓ |   |
-| Lägg till eller ta bort ett projekt&#42; | ✓ |   |
-| Godkänn ett projekt | ✓ |   |
-| Portfolio-optimering&#42; | ✓ |   |
+| Ta bort en Portfolio | ✓ | |
+| Bifoga ett eget formulär | ✓ | |
+| Redigera ett anpassat fält | ✓ | |
+| Lägg till eller ta bort ett program&#42; | ✓ | |
+| Lägg till eller ta bort ett projekt&#42; | ✓ | |
+| Godkänn ett projekt | ✓ | |
+| Portfolio-optimering&#42; | ✓ | |
 | Lägg till en dokumentmapp &#42; | ✓ | ✓ |
 | Lägga till ett dokument | ✓ | ✓ |
 | Uppdateringar/kommentarer | ✓ | ✓ |
 | Dela | ✓ | ✓ |
-| Dela hela systemet |   | ✓ |
-| Redigera faktureringstariffer &#42; | ✓ |   |
-| Redigera kostnadstariffer&#42; | ✓ |   |
-| Redigera allmän ekonomi &#42; | ✓ |   |
+| Dela hela systemet | | ✓ |
+| Redigera faktureringstariffer &#42; | ✓ | |
+| Redigera kostnadstariffer&#42; | ✓ | |
+| Redigera allmän ekonomi &#42; | ✓ | |
 | Visa faktureringstariffer &#42; | ✓ | ✓ |
 | Visa kostnadstariffer&#42; | ✓ | ✓ |
 | Visa allmän ekonomi &#42; | ✓ | ✓ |

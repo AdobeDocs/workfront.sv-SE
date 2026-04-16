@@ -11,16 +11,14 @@ role: Admin
 exl-id: 7f62de33-e544-4be9-8dcf-03a2e09e8a05
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 2b190de6b6ef9ce53e96475d426a4d39cfbd4df4
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
 
 # Översikt över affärsprofiler
-
-<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön för specifika kunder.</span>
 
 Affärsprofiler är en förbättrad behörighetsmodell som gör det möjligt för kunder som myndigheter att effektivt hantera användaråtkomst och säkerställa exakt kontroll över behörigheter på gruppnivå. I en affärsprofil har användarna distinkta behörigheter för gruppspecifika objekt. Ytterligare objekt kan också delas direkt med affärsprofilen.
 
