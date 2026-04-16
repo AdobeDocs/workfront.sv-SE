@@ -5,9 +5,8 @@ title: Skapa och visa projektbilder
 description: Med ögonblicksbilder i Adobe Workfront kan du se skillnader mellan ögonblicksbilder (tagna på ett visst datum och en viss tid) och projektets aktuella data.
 author: Lisa
 feature: Work Management
-hidefromtoc: true
-hide: true
-source-git-commit: 6ccb4669a973a8f855120e83de7c0d437c9495a4
+exl-id: 9ff84f9a-46bd-46e8-a58d-7dafbc333507
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 0%
@@ -15,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Skapa och visa ögonblicksbilder av projekt
-
-{{highlighted-preview-article-level}}
 
 Projektledare behöver ofta jämföra tidigare data i ett projekt med aktuell status för att fatta välgrundade beslut och se hur deras projekt har ändrats över tid.
 
@@ -113,7 +110,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 
 Du kan exportera listan över alla ögonblicksbilder eller en ögonblicksbildsjämförelse i formatet .xlsx eller .csv. Alla kolumner som visas inkluderas i den exporterade filen.
 
-1. Klicka på ikonen **Exportera** ![Exportera &#x200B;](assets/export-icon.png) i ögonblicksbildslistan eller i ögonblicksbildsjämförelsen.
+1. Klicka på ikonen **Exportera** ![Exportera ](assets/export-icon.png) i ögonblicksbildslistan eller i ögonblicksbildsjämförelsen.
 1. Välj exportfilens format.
 
    Filen sparas på datorn. Du kan uppmanas att välja plats.
@@ -212,4 +209,3 @@ Så här använder eller skapar du en vy:
 1. (Valfritt) Filtrera listan. Mer information finns i [Filtrera objekt i en lista](#filter-items-in-a-list).
 
 Ändringar av vyer sparas automatiskt. Nästa gång du använder den här vyn behåller du inställningarna för kolumner och filter. Mer information om vyer finns i [Använd förbättrade listor](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
-

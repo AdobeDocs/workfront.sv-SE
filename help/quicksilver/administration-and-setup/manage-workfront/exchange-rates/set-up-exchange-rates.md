@@ -8,7 +8,7 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: b16523bf6c37747702efe3b5ecfcc33801526af1
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 0%
@@ -20,8 +20,6 @@ ht-degree: 0%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">*** DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
-
-{{highlighted-preview}}
 
 Som Adobe Workfront-administratör kan du ställa in valutakurser i Workfront. Detta inkluderar följande:
 
@@ -93,8 +91,6 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 1. (Valfritt) Om du vill ta bort en valuta markerar du kryssrutan bredvid valutanamnet och väljer **Ta bort** i åtgärdsfältet längst ned på skärmen. Du kan inte ta bort standardvalutan.
 
-<div class="preview">
-
 ## Ange giltighetsdatum för valutakurser
 
 Giltiga datum för en valutas valutakurser konfigureras så att ett kursvärde slutar på ett visst datum och en annan kurs börjar. Växelkursen för rätt datum används sedan i finansiella beräkningar.
@@ -116,8 +112,6 @@ Giltiga datum för en valutas valutakurser konfigureras så att ett kursvärde s
 1. Ange det nya **valutakursen**.
 1. (Valfritt) Klicka på **Lägg till giltighetskurs** om du vill lägga till fler valutakurser med giltighetsdatum för den här valutan.
 1. Klicka på **Spara**.
-
-</div>
 
 ## Ge användarna möjlighet att ändra standardvalutan för ett projekt
 

@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
-source-git-commit: e5ac8fde409b960aacd3cf7daa0532e9bc3e8121
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '1332'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 ---
 
 # Hantera tariffkort
-
-{{highlighted-preview-article-level}}
 
 Ett tariffkort representerar det avtalsavtal med kunden där timtaxor har definierats för de jobbroller som kommer att slutföra arbetet. På ett avgiftskort kan du definiera flera faktureringstariffer per jobbroll baserat på attribut som byrå, plats eller kostnadsställe. Attributen för din unika frekvens konfigureras under Konfigurera. Mer information finns i [Definiera tariffattribut](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
 

@@ -7,7 +7,8 @@ description: Du kan dela ett priskort med användare, jobbroller, grupper, team,
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 760fa2a0833367604b23a4617359f2ca6596e15a
+exl-id: 9f2f9fd8-bca8-4a3d-b022-b51c080a78aa
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
@@ -15,8 +16,6 @@ ht-degree: 0%
 ---
 
 # Dela ett tariffkort
-
-{{highlighted-preview-article-level}}
 
 Du kan dela ett priskort med användare, jobbroller, grupper, team, företag och affärsprofiler.
 
@@ -70,4 +69,3 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 1. Klicka på [!UICONTROL **Spara**].
 
    Mer information om delning finns i [Dela ett objekt](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
-

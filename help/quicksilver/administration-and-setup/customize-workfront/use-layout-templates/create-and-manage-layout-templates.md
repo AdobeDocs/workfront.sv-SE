@@ -11,7 +11,7 @@ role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 0%
@@ -26,8 +26,6 @@ ht-degree: 0%
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-{{highlighted-preview}}
-
 Som Adobe Workfront-administratör eller gruppadministratör kan du skapa och ändra layoutmallar för att anpassa följande layoutelement i Workfront:
 
 * Huvudmeny
@@ -36,8 +34,8 @@ Som Adobe Workfront-administratör eller gruppadministratör kan du skapa och ä
 * Panelen Sammanfattning
 * Vyer, filter och grupperingar som andra använder med listor och rapporter.
 * Terminologi på skärmen
-* <span class="preview">Objektrubriker</span>
-* <span class="preview">Mer meny (trepunktsmeny) för ett objekt</span>
+* Objektrubriker
+* Mer-meny (trepunktsmeny) för ett objekt
 
 När du har skapat eller ändrat en layoutmall kan du tilldela den till enskilda användare, team, grupper eller jobbroller.
 

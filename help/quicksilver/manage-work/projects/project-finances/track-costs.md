@@ -7,7 +7,7 @@ description: Du kan spåra kostnader för projekt, uppgifter och problem i Adobe
 author: Lisa
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: cb21414992587c62c37580f156100f2b5b755e9b
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '2755'
 ht-degree: 0%
@@ -18,11 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 02/2024 -->
 
-{{highlighted-preview}}
-
 Du kan spåra kostnader för projekt, uppgifter och problem i Adobe Workfront.
-
-<div class="preview">
 
 ## Hur Workfront beräknar kostnader - Workflow Ultimate-paket
 
@@ -47,8 +43,6 @@ Följande scenarier finns:
   Mer information om kostnadshierarkin finns i [Översikt över intäkt- och kostnadshierarkin](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
 
 * Workfront beräknar endast faktisk kostnad för utleveranser, och utleveranser saknar kostnadstyp. Mer information finns i avsnittet [Hur Workfront spårar kostnader för problem](#how-workfront-tracks-costs-for-issues) i den här artikeln.
-
-</div>
 
 ## Hur Workfront beräknar kostnader - alla andra paket
 
@@ -228,8 +222,8 @@ I följande tabell beskrivs de tillgängliga kostnadstyperna för uppgifter i Wo
    <td> <p><strong>Planerad kostnad</strong> beräknas med följande formel: </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost+ Task Planned Expense Cost</code> </p> <p>Där den planerade arbetskostnaden beräknas av:</p> <p><code>Task Planned Labor Cost = Planned Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Obs! Om du tilldelar flera resurser till en aktivitet, justerar Workfront beräkningarna för Planerade timmar baserat på procentandelen av uppgiften som tilldelats varje resurs. Dessutom tar timtaxan i formeln hänsyn till eventuella faktiska datumändringar av räntesatsen.</p> <p><strong>Faktisk kostnad</strong> beräknas med följande formel: </p> <p><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>Där den faktiska arbetskostnaden för aktiviteten beräknas av:</p> <p><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>En uppgift tilldelas till exempel en jobbroll eller en användare med en jobbroll där kostnaden per timme är 20 USD. När en användare loggar 5 timmar för en uppgift är den faktiska arbetskostnaden 100 USD för den uppgiften. Om användaren som är tilldelad till uppgiften inte har någon jobbroll kopplad till sig för aktiviteten, beräknas den faktiska kostnaden baserat på kostnaden per timme för den primära rollen. Om de inte har någon jobbroll eller om Kostnad per timme inte har definierats för sin jobbroll är den faktiska kostnaden för aktiviteten noll. </p> <p>Obs! De faktiska timmarna för en uppgift för roll per timme beräknas baserat på jobbrollerna för de användare som är associerade med uppgiften, inte på de roller som är associerade med den användare som loggar tiden. Dessutom tar kostnadstariffen per timme i formeln hänsyn till eventuella datumändringar i räntesatsen.</p> <p>Om din Workfront-administratör har aktiverat inställningen <strong>Tilldela jobbroller till timposter manuellt</strong> i Inställningar för tidrapporter och timmar i Inställningar, och inloggningstiden för aktiviteten väljer en annan roll att associera med den här tiden, beräknas den faktiska kostnaden för en roll-timme baserat på den roll som angavs när timmarna loggades. Mer information om hur du aktiverar loggningstid för en viss jobbroll finns i artikeln <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Konfigurera tidrapport och timinställningar</a>.</p> </p> </td> 
   </tr>
   <tr> 
-   <td> <p><span class="preview">Användare och roll varje timme</span></p> </td> 
-   <td> <p><span class="preview"><strong>Planerad kostnad</strong> beräknas med följande formel:</span></p> <p><span class="preview"><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost + Task Planned Expense Cost</code> </span></p> <p><span class="preview">Där den planerade arbetskostnaden beräknas av:</span></p> <p><span class="preview"><code>Planned Labor Cost = Planned Hours * Cost per Hour Rate according to the hierarchy</code> </span></p> <p><span class="preview"><strong>Faktisk kostnad</strong> beräknas med följande formel:</span></p> <p><span class="preview"><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code> </span></p> <p><span class="preview">Där den faktiska arbetskostnaden för aktiviteten beräknas av:</span></p> <p><span class="preview"><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate according to the hierarchy</code> </span></p> </td> 
+   <td> <p>&gt;Användare och roll varje timme</p> </td> 
+   <td> <p><strong>Planerad kostnad</strong> beräknas med följande formel:</p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost + Task Planned Expense Cost</code></p> <p>Där den planerade arbetskostnaden beräknas av:</p> <p><code>Planned Labor Cost = Planned Hours * Cost per Hour Rate according to the hierarchy</code></p> <p><strong>Faktisk kostnad</strong> beräknas med följande formel:</p> <p><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code></p> <p>Där den faktiska arbetskostnaden för aktiviteten beräknas av:</p> <p><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate according to the hierarchy</code></p> </td> 
   </tr> 
   <tr> 
    <td> <p>Fast en timme</p> </td> 

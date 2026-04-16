@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 4ce13e7d46efb026c1d42a61f4fce4bf1a37bb5f
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
 
 # Anpassa huvudmenyn med hjälp av en layoutmall
-
-{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -124,8 +122,6 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
      >
      > Anpassade program måste skapas separat innan de blir tillgängliga som alternativ för huvudmeny. Mer information finns i [Skapa ett anpassat program för Workfront med Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 
-<div class="preview">
-
 I förhandsvisningsmiljön:
 
 1. Gör något av följande för de **ursprungliga** objekten:
@@ -139,17 +135,9 @@ I förhandsvisningsmiljön:
    * Dölj ![Dölj ikoner](assets/remove-icon---x-in-circle.png) objekt som du inte vill visa på huvudmenyn.
    * Visa ![Visa ikonobjekt](assets/add-icon-plus-in-circle.png) som du vill visa på huvudmenyn.
 
-</div>
-
->[!NOTE]
->
-><span class="preview">Du kan inte ändra ordningen på systemobjekt. Dessa objekt visas alltid längst ned på huvudmenyn när de är aktiva.</span>
-
-1. Gör något av följande i produktionsmiljön:
-
-   * Dölj ![Dölj ikon](assets/remove-icon---x-in-circle.png) **Aktiva objekt** som du inte vill visa
-   * Visa ![Visa ikon](assets/add-icon-plus-in-circle.png) **Tillgängliga objekt** som du vill visa på huvudmenyn.
-   * Dra ikonen ![Dra &#x200B;](assets/move-icon---dots.png) **aktiva objekt** om du vill ändra deras visningsordning på huvudmenyn.
+   >[!NOTE]
+   >
+   >Du kan inte ändra ordningen på systemobjekt. De här objekten visas alltid längst ned på huvudmenyn när de är aktiva.
 
 1. Klicka på **Klar**.
 

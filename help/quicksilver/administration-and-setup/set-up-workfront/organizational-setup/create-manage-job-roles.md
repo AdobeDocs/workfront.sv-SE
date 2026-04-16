@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: cada5387ddfb710029d06cd38841ecb9c8a6484b
+source-git-commit: df1d844346d7ed26dcb004ba1a10ec9e8d07422a
 workflow-type: tm+mt
-source-wordcount: '1689'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,11 @@ ht-degree: 0%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-{{highlighted-preview}}
-
 >[!IMPORTANT]
 >
 >I version 25.11 har åsidosättningsvalutan för jobbroller tagits bort i produktionen. (Borttagningen ägde rum den 30 oktober i förhandsvisningsmiljön.) I stället för att ha en basvaluta och åsidosätta valutor finns nu en valuta tillgänglig för jobbroller, och kostnads- och faktureringstarifferna definieras med den valutan.
 
-Som administratör för [!DNL Adobe Workfront] eller användare med administrativ åtkomst till jobbroller kan du skapa jobbroller som kan tilldelas användare och ta bort standardjobbroller som inte är relevanta för din organisation. Mer information om administrativ åtkomst i [!DNL Workfront] finns i [Bevilja användare administrativ åtkomst till vissa områden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+Som administratör för [!DNL Adobe Workfront] eller standardanvändare med Redigera-åtkomst till jobbroller kan du skapa jobbroller som kan tilldelas användare och ta bort standardjobbroller som inte är relevanta för din organisation. Mer information om administrativ åtkomst i [!DNL Workfront] finns i [Bevilja användare administrativ åtkomst till vissa områden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 >[!TIP]
 >
@@ -69,7 +67,7 @@ Så här skapar du en jobbroll:
 {{step-1-to-setup}}
 
 1. Klicka på **[!UICONTROL Job Roles]** i den vänstra panelen.
-1. Klicka på **[!UICONTROL New Job Role]<span class="preview">> Skapa ny jobbroll**.</span>
+1. Klicka på **[!UICONTROL New Job Role]> Skapa ny jobbroll**.
 1. Ange information i följande fält:
 
    * **Namn**: Ange ett namn för jobbrollen. Det här namnet visas överallt i Workfront där fältet Jobbroll visas.
@@ -83,45 +81,7 @@ Så här skapar du en jobbroll:
 
      Mer information om hur du inaktiverar jobbroller finns i [Inaktivera jobbroller](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
 
-   * **Valuta**: Basvalutan visas som standard. Workfront-administratören lägger till basvalutan under Konfigurera. Du kan ändra valet till en annan tillgänglig valuta och du kan ändra valutan i gällande datumintervall.
-
-     >[!TIP]
-     >
-     >I det här fältet är endast valutor tillgängliga i området Valutakurser i ditt system. Om du bara har ställt in en valuta är endast den valutan tillgänglig.
-
-     Mer information om hur du ställer in basvalutan i Workfront finns i [Konfigurera valutakurser](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
-
-     Mer information om hur du ändrar valuta för ett projekt finns i [Ändra projektvalutan](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md).
-
-   * **Kostnadsgrad**: Detta är kostnaden per timma för jobbrollen. Detta värde beräknar de planerade och faktiska kostnaderna för aktiviteter och ärenden som är kopplade till rollen samt slutligen de planerade och faktiska kostnaderna för projekten. Ange kursen med den valda valutan.
-
-     Klicka på **Lägg till kurs** om du vill se datumfaktiska kostnadstariffer. Ange värdet för kostnad/timme för tidsperioden och tilldela ett startdatum och ett slutdatum efter behov. Den första kostnadstariffen har inget startdatum och den sista kostnadstariffen har inget slutdatum.
-
-     Vissa datum läggs till automatiskt. Om till exempel den första kostnadstariffen inte har ett slutdatum och du lägger till en andra kostnadstariff med startdatumet 1 maj 2025, läggs ett slutdatum som är 30 april 2025 till den första kostnadstariffen så att inga luckor uppstår.
-
-     Mer information om hur Workfront beräknar kostnader finns i [Spåra kostnader](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
-
-     >[!TIP]
-     >
-     >När du redigerar en befintlig jobbroll kan du sortera listan så att du ser det senaste startdatumet högst upp i hastighetslistan.
-
-   * **Faktureringsgrad**: Detta är faktureringshastigheten per timme för jobbrollen. Detta värde beräknar de planerade och faktiska intäkterna för uppgifter och ärenden som är kopplade till rollen och slutligen projektens planerade och faktiska intäkter. Ange kursen med den valda valutan.
-
-     Klicka på **Lägg till ränta** om du vill se gällande faktureringspriser för datum. Ange värdet för fakturering/timme för tidsperioden och tilldela startdatum och slutdatum efter behov. Den första faktureringstakten har inget startdatum och den sista faktureringstakten har inget slutdatum.
-
-     Vissa datum läggs till automatiskt. Om till exempel den första faktureringssatsen inte har ett slutdatum och du lägger till en andra med startdatumet 1 maj 2025, läggs slutdatumet 30 april 2025 till den första faktureringsavgiften så att inga luckor uppstår.
-
-     Mer information om hur Workfront beräknar intäkter finns i [Översikt över fakturering och intäkter](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
-
-     >[!TIP]
-     >
-     >När du redigerar en befintlig jobbroll kan du sortera listan så att du ser det senaste startdatumet högst upp i hastighetslistan.
-
-<!-- Remove or hide the billing rate and cost rate bullets on April 16 for GA -->
-
 1. Klicka på **[!UICONTROL Create Job Role]**. Jobbrollen är nu tillgänglig för att tilldelas aktiviteter, utgåvor, godkännanden eller så kan du dela layoutmallar eller andra objekt med den. Mer information om all användning av jobbroller i [!DNL Workfront] finns i [Översikt över jobbroller](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md). Mer information om hur du tar bort en jobbroll finns i [Ta bort jobbroller](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md).
-
-<div class="preview">
 
 ## Lägg till satser och attribut i en jobbroll
 
@@ -176,7 +136,9 @@ Mer information finns i [Definiera tariffattribut](/help/quicksilver/administrat
 
    Klicka på **Lägg till ränta** om du vill se gällande faktureringspriser för datum. Ange värdet för fakturering/timme för tidsperioden och tilldela startdatum och slutdatum efter behov. Den första faktureringstakten har inget startdatum och den sista faktureringstakten har inget slutdatum.
 
-   Vissa datum läggs till automatiskt. Om till exempel den första faktureringstakten inte har ett slutdatum och du lägger till en andra med startdatumet 1 maj, läggs slutdatumet 30 april till den första faktureringstakten så att inga luckor uppstår.
+   <!-- Some dates are added automatically. For example, if the first billing rate does not have an end date, and you add a second with a start date of May 1, an end date of April 30 is added to the first billing rate so that no gaps exist.-->
+
+   I Workfront kan du lämna tomrum mellan datumintervall, men du får en varning som bekräftar att detta är avsiktligt.
 
    Mer information om hur Workfront beräknar intäkter finns i [Översikt över fakturering och intäkter](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
@@ -202,8 +164,6 @@ Mer information finns i [Definiera tariffattribut](/help/quicksilver/administrat
 
 1. Klicka på [!UICONTROL **Spara**].
 
-</div>
-
 <!--
    * **Override Currency Cost Rate**: This is the cost per hour rate of the job role using the selected Override Currency. Workfront uses this value to calculate the planned and the actual costs of tasks and issues associated with the job role.
 
@@ -224,6 +184,45 @@ Mer information finns i [Definiera tariffattribut](/help/quicksilver/administrat
      >[!TIP]
      >
      >When updating an existing job role that already has a billing rate associated with it, Workfront calculates the Override Currency rate based on the conversion rate in your system. If you update the Override Currency Billing Rate, the billing rate of the job role also updates automatically.
+
+-->
+
+
+<!--
+
+   * **Currency**: The Base Currency is shown by default. The Workfront administrator adds the Base Currency in the Setup area. You can change the selection to another available currency, and you can change the currency on effective dated time ranges.
+
+      >[!TIP]
+      >
+      >Only currencies available in the Exchange Rates area in your system are available in this field. If you only have one currency set up, only that currency is available.
+
+      For information about setting up the Base Currency in Workfront, see [Set up exchange rates](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+
+      For information about changing the currency of a project, see [Change the project currency](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md).
+   
+   * **Cost Rate**: This is the cost per hour rate of the job role. This value calculates the planned and the actual costs of tasks and issues associated with the role, and ultimately the planned and actual costs of the projects. Enter the rate using the selected currency.
+
+      For date effective cost rates, click **Add Rate**. Enter the value of the cost/hour for the time period, and assign a Start Date and End Date as needed. The first cost rate will not have a start date and the last cost rate will not have an end date.
+
+      Some dates are added automatically. For example, if the first cost rate does not have an end date, and you add a second cost rate with a start date of May 1, 2025, an end date of April 30, 2025 is added to the first cost rate so that no gaps exist.
+
+      For information about how Workfront calculates cost, see [Track costs](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
+
+      >[!TIP]
+      >
+      >When editing an existing job role, you can sort the list to see the most recent start date at the top of the rate list.
+
+   * **Billing Rate**: This is the billing per hour rate of the job role. This value calculates the planned and actual revenues of tasks and issues associated with the role, and ultimately the planned and actual revenues of the projects. Enter the rate using the selected currency.
+
+      For date effective billing rates, click **Add Rate**. Enter the value of the billing/hour for the time period, and assign a Start Date and End Date as needed. The first billing rate will not have a start date and the last billing rate will not have an end date.
+
+      Some dates are added automatically. For example, if the first billing rate does not have an end date, and you add a second with a start date of May 1, 2025, an end date of April 30, 2025 is added to the first billing rate so that no gaps exist.
+
+      For information about how Workfront calculates revenue, see [Overview of Billing and Revenue](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+      >[!TIP]
+      >
+      >When editing an existing job role, you can sort the list to see the most recent start date at the top of the rate list.
 
 -->
 

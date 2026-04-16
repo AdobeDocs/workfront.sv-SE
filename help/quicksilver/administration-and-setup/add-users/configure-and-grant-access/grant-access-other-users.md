@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: d45c34b1f48a7ffcae29556d34558bb4d1d8a016
+source-git-commit: f895803007a8f606169589bc4b17c19711c9e3f8
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '898'
 ht-degree: 1%
 
 ---
@@ -66,15 +66,34 @@ Du kan hantera vilken information användare kan visa och redigera för andra an
 ## Konfigurera användaråtkomst för att redigera användare med en anpassad åtkomstnivå
 
 1. Börja skapa eller redigera åtkomstnivån enligt beskrivningen i [Skapa eller ändra anpassade åtkomstnivåer](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. Så här ändrar du möjligheten för användare med en plan- eller arbetslicens att visa profiler för andra användare:
+1. Om du vill ändra möjligheten för användare med en Standard-, Plan- eller Work-licens att visa information för andra användare klickar du på kugghjulsikonen ![Kugghjulsikonen](assets/gear-icon-settings.png) på knappen **Visa** till höger om **Användare** och väljer sedan de visningsalternativ du vill ge i rutan **Finjustera inställningarna** :
 
-   1. Klicka på kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen **Visa** till höger om **Användare**.
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><strong>Visa faktureringsbelopp</strong> </td> 
+      <td> Tillåter användare att visa faktureringstariffer för användarprofiler.</td>  
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Visa kontaktinformation</strong> </td> 
+      <td> Tillåter användare att visa användarinformationssidor för andra användare.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Visa kostnadstariffer</strong> </td> 
+      <td> Tillåter användare att visa kostnadstariffer för användarprofiler.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Visa allmän ekonomi</strong> </td> 
+      <td> Tillåter användare att visa allmänna ekonomifält (som inte är relaterade till fakturering eller kostnadstariffer) för användarprofiler.</td>
+     </tr> 
+    </tbody> 
+   </table>
 
-   1. Inaktivera **Visa kontaktinformation** och klicka sedan på X för att stänga rutan **Finjustera dina inställningar**.
+   ![Finjustera visningsinställningar](assets/fine-tune-view-users.png)
 
-      ![finjustera användarinställningar](assets/fine-tune-users.png)
-
-1. Om du vill ändra möjligheten för användare med en planlicensåtkomst att redigera andra användare klickar du på kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen **Redigera** till höger om **Användare** och väljer sedan de möjligheter du vill ge:
+1. Om du vill ändra möjligheten för användare med Standard- eller Planera-licens att redigera andra användare klickar du på kugghjulsikonen ![Kugghjulsikonen](assets/gear-icon-settings.png) på knappen **Redigera** till höger om **Användare** och väljer sedan de redigeringsalternativ som du vill bevilja i rutan **Finjustera dina inställningar** :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -89,6 +108,18 @@ Du kan hantera vilken information användare kan visa och redigera för andra an
      <tr> 
       <td role="rowheader"><strong>Ta bort</strong> </td> 
       <td> <p> Tillåter användare att ta bort de användare som de själva har skapat.<br>Det här alternativet är aktiverat som standard.</p> <p><b>Obs!</b> Detta är inte tillgängligt om din organisation har anslutit sig till Adobe Admin Console. Kontakta nätverks- eller IT-administratören om du behöver mer information.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Redigera faktureringstariffer</strong> </td> 
+      <td> Tillåter användare att redigera faktureringstariffer för användarprofiler.</td>  
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Redigera kostnadstariffer</strong> </td> 
+      <td> Användare kan redigera kostnadstariffer för användarprofiler.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Redigera allmän finansiering</strong> </td> 
+      <td> Tillåter användare att redigera allmänna ekonomiska fält (som inte är relaterade till fakturering eller kostnadstariffer) för användarprofiler.</td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Användaradministratör (alla användare)</strong> </td> 
@@ -108,6 +139,18 @@ Du kan hantera vilken information användare kan visa och redigera för andra an
          <li><p>Återställ användarens lösenord</p><p><b>OBS!</b>: En gruppadministratör kan inte logga in som eller återställa lösenordet för en Workfront-administratör.</p></li>
         </ul><p>Det här alternativet är inaktiverat som standard.</p></p> </td> 
      </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Visa faktureringsbelopp</strong> </td> 
+      <td> Tillåter användare att visa faktureringstariffer för användarprofiler.</td>  
+     </tr>
+     <tr> 
+      <td role="rowheader"><strong>Visa kostnadstariffer</strong> </td> 
+      <td> Tillåter användare att visa kostnadstariffer för användarprofiler.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Visa allmän ekonomi</strong> </td> 
+      <td> Tillåter användare att visa allmänna ekonomifält (som inte är relaterade till fakturering eller kostnadstariffer) för användarprofiler.</td>
+     </tr>
     </tbody> 
    </table>
 

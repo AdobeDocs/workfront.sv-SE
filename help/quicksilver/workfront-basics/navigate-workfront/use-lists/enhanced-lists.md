@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 59a9725e7697a81be2a827a902ee3d23085a2ecd
+source-git-commit: 2131e91f5269ca5b9f062b6bc6b2cb618f9d279a
 workflow-type: tm+mt
 source-wordcount: '2915'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # Använd förbättrade listor
-
-{{preview-fast-release-general}}
 
 Förbättrade listor finns i vissa delar av Adobe Workfront. De här listorna har ett tabellformat för att visa listobjekten, och de har ett annat utseende och en annan känsla än standardlistorna. Hanteringen av vyer har också förbättrats, bland annat filtrering, gruppering, hantering av kolumner och sökning.
 
@@ -64,13 +62,12 @@ Nedan visas några typer av Workfront-objektlistor som använder det förbättra
 | Prioriteringar | <ul><li>Hem > välj ikonen Prioriteter i den vänstra menyn</li><li>Huvudmeny > Prioriteter</li></ul> |
 | Lista över begäranden | <ul><li>Begäranden (endast ny upplevelse)</li><li>Widgeten Mina förfrågningar på startsidan</li></ul> |
 | Statuslistor, prioriteter, allvarlighetsgrader och valutakurser i installationsprogrammet | <ul><li>Inställningar > Projektinställningar > Status</li><li>Inställningar > Projektinställningar > Prioriteter</li><li>Inställningar > Projektinställningar > Allvarlighetsgrader</li><li>Inställningar > Projektinställningar > Exchange-priser</li></ul> |
-| <span class="preview">Lista över rapporter</span> | <span class="preview">Rapporter (**Använd delningsbara mappar** måste vara aktiverat)</span> |
-| <span class="preview">Lista över jobbroller och avgifter på ett tariffkort</span> | <span class="preview">Inställningar > Klassificeringskort > Välj ett tariffkort > Jobbroller och priser</span> |
-| <span class="preview">Lista över översättningar</span> | <span class="preview">Inställningar > Lokalisering</span> |
-| <span class="preview">Lista över ögonblicksbilder</span> | <span class="preview">Projekt > Ögonblicksbilder</span> |
-| <span class="preview">Lista över resurser för fakturering</span> | <span class="preview">Projekt > Resurs för fakturering</span> |
-| <span class="preview">Nya avancerade tilldelningar för en aktivitet</span> | <span class="preview">Aktivitet > Uppdrag > Avancerat </span> |
-
+| Förteckning över rapporter | Rapporter (**Använd delningsbara mappar** måste vara aktiverat) |
+| Lista över jobbroller och avgifter på ett tariffkort | Inställningar > Klassificera kort > Välj ett tariffkort > Jobbroller och priser |
+| Lista över översättningar | Inställningar > Lokalisering |
+| Lista över ögonblicksbilder | Projekt > Ögonblicksbilder |
+| Lista över resurser för fakturering | Projekt > Resurs för fakturering |
+| Nya avancerade uppdrag för en uppgift | Aktivitet > Uppdrag > Avancerat |
 
 ## Lägga till objekt i en förbättrad lista
 
@@ -189,8 +186,6 @@ Så här lägger du till och tar bort kolumner:
 
    Listan uppdaterar kolumnerna enligt de val du har gjort.
 
-<div class="preview">
-
 ### Ändra radhöjden i en vy
 
 >[!NOTE]
@@ -204,8 +199,6 @@ Så här lägger du till och tar bort kolumner:
    * Standard. Det här är standardalternativet.
    * Medium
    * Hög
-
-</div>
 
 ## Uppdatera utökade listelement
 
@@ -261,17 +254,15 @@ Så här delar du en vy:
 
    * **Visa**: Användare kan tillämpa vyn på listan men inte dela den.
 
-     <span class="preview">När Visa-användare uppdaterar vyn sparas de ändringarna i användarens personliga inställningar. En blå punkt på vynamnet (i användarens **delade vyer**) visar att personliga uppdateringar tillämpas på vyn.</span>
+     När Visa-användare uppdaterar vyn sparas dessa ändringar i användarens personliga inställningar. En blå punkt på vynamnet (i användarens **delade vyer**) visar att personliga uppdateringar tillämpas på vyn.
 
    * **Hantera**: Användare kan byta namn på, dela eller ta bort vyn och redigera vyns element.
 
-     <span class="preview">När du hanterar åtkomstanvändare gör ändringar i vyn kommer alla användare som har den delade vyn att se uppdateringarna när vyn används i listan.</span>
+     När du hanterar åtkomst för användare gör ändringar i vyn kommer alla användare som har den delade vyn att se uppdateringarna när vyn används i listan.
 
 1. Klicka på **Spara**.
 
-   <span class="preview">Om du delar en vy med en användare och sedan tar bort åtkomsten tas vyn bort från användarens **delade vyer**. Om användaren använde den delade vyn i listan när åtkomsten togs bort används systemets standardvy.</span>
-
-<div class="preview">
+   Om du delar en vy med en användare och sedan tar bort åtkomsten tas vyn bort från användarens **delade vyer**. Om användaren använde den delade vyn på listan när åtkomsten togs bort, används systemets standardvy.
 
 ### Kopiera en vy
 
@@ -291,10 +282,6 @@ När en vy delas med dig som du inte har behörighet att redigera kan du kopiera
    >
    >Alternativet **Kopiera med inställningar** är bara tillgängligt när du har gjort ändringar i en vy som delats med dig.
 
-</div>
-
-<div class="preview">
-
 ### Återställ en vy
 
 >[!NOTE]
@@ -312,10 +299,6 @@ När en vy delas med dig som du inte har behörighet att redigera, och du uppdat
    >Alternativet **Återställ till standard** är bara tillgängligt när du har gjort ändringar i en vy som delats med dig.
 
    ![Kopiera och återställa visningsalternativ](assets/glist-copy-view-shared-with-you.png)
-
-</div>
-
-<div class="preview">
 
 ### Använda villkorsstyrd formatering i en vy
 
@@ -363,8 +346,6 @@ Med villkorsstyrd formatering kan du markera viktig information i vyn baserat p�
 Formateringen används omedelbart i listvyn.
 Det finns en blå punkt bredvid ikonen **Formatera celler** som anger att specialformatering används i vyn.
 
-</div>
-
 ### Filtrera objekt i en förbättrad lista
 
 >[!NOTE]
@@ -385,9 +366,7 @@ Med filter kan du minska mängden information som visas i listan.
 
    >[!TIP]
    >
-   ><span class="preview">Om du vill använda ett anpassat filter väljer du något av följande alternativ för ett fältvärde:</span>
-   >
-   ><div class="preview">
+   >Om du vill använda ett anpassat filter väljer du ett av följande alternativ för ett fältvärde:
    >
    >* **Jag (inloggad användare)** för att hänvisa till den inloggade användaren i fält som refererar till användare.
    >
@@ -398,8 +377,6 @@ Med filter kan du minska mängden information som visas i listan.
    >* **Mitt företag** för att hänvisa till ditt företag i fält som refererar till företag.
    > 
    >* **Mina roller** eller **Min primära roll** som refererar till dina jobbroller i fält som refererar till roller.
-   >
-   ></div>
 
 1. Klicka på **Lägg till villkor** om du vill lägga till ytterligare ett villkor i filtret.
 

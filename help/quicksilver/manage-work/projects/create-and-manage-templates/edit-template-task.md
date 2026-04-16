@@ -9,9 +9,9 @@ feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
-source-wordcount: '2958'
+source-wordcount: '3008'
 ht-degree: 0%
 
 ---
@@ -52,8 +52,9 @@ Du kan redigera en malluppgift åt gången eller redigera flera malluppgifter sa
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Alla</p> </td> 
-  </tr> 
+   <td>  <p>Så här använder du Inkomster och kostnadstyper per timme för användare och roll: Arbetsflöde Ultimate</p>
+      <p>Om du vill redigera alla andra inställningar och använda alla andra Intäkts- och kostnadstyper: Alla Workfront- eller arbetsflödespaket</p>  </td> 
+  </tr>
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
    <td> <p>Standard</p>
@@ -124,7 +125,7 @@ Du kan redigera en malluppgift med området Redigera malluppgift eller Malluppgi
    1. (Valfritt) Klicka på **Dokument** i den vänstra panelen för att lägga till dokument i mallåtgärden. Dokumenten överförs till projektuppgifterna när du använder mallen för att skapa projektet.
    1. (Villkorligt) Om du vill redigera begränsad information om en malluppgift klickar du på **Information om malluppgift** i den vänstra panelen. Gå sedan till områdena i detaljavsnittet för att redigera information för varje område.
    1. (Valfritt) Gör något av följande:
-      * Klicka på ikonen **Komprimera alla** ![Komprimera alla &#x200B;](assets/collapse-all-icon.png) om du vill komprimera alla områden.
+      * Klicka på ikonen **Komprimera alla** ![Komprimera alla ](assets/collapse-all-icon.png) om du vill komprimera alla områden.
       * Klicka på ikonen **Redigera** ![Redigera](assets/edit-icon.png) och välj sedan något av områdena nedan. Du kan också klicka på **Redigera alla** om du vill redigera information i alla områden:
 
          * Översikt
@@ -439,6 +440,7 @@ Namnen på tullformulär visas bara om det finns anpassade formulär kopplade ti
         <li> <p style="font-weight: normal;"><span>Korrigerad timme</span> </p> </li> 
         <li> <p style="font-weight: normal;"><span>Användartimme</span> </p> </li> 
         <li> <p style="font-weight: normal;"><span>Roll varje timme</span> </p> </li> 
+        <li> <p style="font-weight: normal;">Användare och roll varje timme</p> </li>
        </ul> <p>Mer information om spårningskostnader finns i <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Spåra kostnader</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -448,11 +450,14 @@ Namnen på tullformulär visas bara om det finns anpassade formulär kopplade ti
         <li> <p style="font-weight: normal;">Ej fakturerbar</p> </li> 
         <li> <p style="font-weight: normal;">Användare per timme</p> </li> 
         <li> <p style="font-weight: normal;">Roll timvis</p> </li> 
+        <li> <p style="font-weight: normal;">Användare och roll varje timme</p> </li>
         <li> <p style="font-weight: normal;">Fast en timme</p> </li> 
         <li> <p style="font-weight: normal;">Användartimme med versaler</p> </li> 
         <li> <p style="font-weight: normal;">Roll timvis med ändpunkt</p> </li> 
+        <li> <p style="font-weight: normal;">Användare och roll per timme med tak</p> </li>
         <li> <p style="font-weight: normal;">Användarens timma plus fast</p> </li> 
         <li> <p style="font-weight: normal;">Roll timvis plus fast</p> </li> 
+        <li> <p style="font-weight: normal;">Användare och roll per timme plus fast</p> </li>
         <li> <p style="font-weight: normal;">Fast intäkt</p> </li> 
        </ul> <p>Mer information om att spåra intäkter finns i <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Översikt över fakturering och intäkter</a>.</p> </td> 
      </tr> 

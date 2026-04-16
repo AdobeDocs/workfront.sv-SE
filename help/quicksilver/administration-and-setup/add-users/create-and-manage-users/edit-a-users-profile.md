@@ -8,16 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: dbe12b780491212105ee62058aec7e708d207e1f
+source-git-commit: df1d844346d7ed26dcb004ba1a10ec9e8d07422a
 workflow-type: tm+mt
-source-wordcount: '3466'
+source-wordcount: '3417'
 ht-degree: 0%
 
 ---
 
 # Redigera en användares profil
-
-{{highlighted-preview}}
 
 <!--
 
@@ -25,7 +23,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/se/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -319,15 +317,19 @@ Mer information finns i [Konfigurera händelsemeddelanden för alla i systemet](
 
   Klicka på **Lägg till kurs** om du vill se datumfaktiska kostnadstariffer. Ange värdet för kostnadstariffen för tidsperioden och tilldela startdatum och slutdatum efter behov. Kostnadsnivå 1 har inget startdatum och den sista kostnadstariffen har inget slutdatum.
 
-  Vissa datum läggs till automatiskt. Om t.ex. Kostnadsgrad 1 inte har ett slutdatum och du lägger till Kostnadsnivå 2 med startdatumet 1 maj 2023, läggs ett slutdatum som är 30 april 2023 till Kostnadsnivå 1 så att inga luckor uppstår.
+  <!--Some dates are added automatically. For example, if Cost Rate 1 does not have an end date, and you add Cost Rate 2 with a start date of May 1, 2023, an end date of April 30, 2023 is added to Cost Rate 1 so that no gaps exist.-->
 
-* <span class="preview">**Åsidosättning av kostnadstariff tillåts**: Aktivera det här alternativet om du vill tillåta åsidosättningar av kostnadstariffer för den här användaren i projekt. Mer information finns i [Åsidosätta användarkostnader på projektnivå](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md).</span>
+  I Workfront kan du lämna tomrum mellan datumintervall, men du får en varning som bekräftar att detta är avsiktligt.
+
+* **Åsidosättning av kostnadstariff tillåts**: Aktivera det här alternativet om du vill tillåta åsidosättningar av kostnadstariffer för den här användaren i projekt. Mer information finns i [Åsidosätta användarkostnader på projektnivå](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md).
 
 * **Faktureringshastighet**: Användarens faktureringsbelopp per timme.
 
   Klicka på **Lägg till ränta** om du vill se gällande faktureringspriser för datum. Ange faktureringsvärdet för tidsperioden och tilldela startdatum och slutdatum efter behov. Faktureringsränta 1 har inget startdatum och den senaste faktureringstakten har inget slutdatum.
 
-  Vissa datum läggs till automatiskt. Om till exempel Faktureringstariff 1 inte har något slutdatum och du lägger till en andra med startdatumet 1 maj 2023, läggs ett slutdatum som är 30 april 2023 till Faktureringstariff 1 så att inga luckor uppstår.
+  <!--Some dates are added automatically. For example, if Billing Rate 1 does not have an end date, and you add a second with a start date of May 1, 2023, an end date of April 30, 2023 is added to Billing Rate 1 so that no gaps exist.-->
+
+  I Workfront kan du lämna tomrum mellan datumintervall, men du får en varning som bekräftar att detta är avsiktligt.
 
   ![Användarkostnader och faktureringstaxor](assets/user-cost-billing-rates-2025.png)
 
@@ -340,8 +342,6 @@ Koppla ett befintligt anpassat formulär till den här användaren. Du måste sk
 >Avancerade anpassade formulärfunktioner som externa sökningsfält och inbyggda Workfront-fält är bara tillgängliga när du öppnar användarposten på informationssidan, inte i dialogrutan Redigera användare. (I listan över användare klickar du på användarnamnet för att öppna informationen.)
 
 Mer information om hur du skapar anpassade formulär finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-
-<div class="preview">
 
 ### Attribut
 
@@ -360,8 +360,6 @@ Graderingsattribut stöds i områden i Workfront där det finns priser, t.ex. jo
       **Startdatum** för nästa uppsättning läggs till automatiskt.
 
    1. Lägg till attributvärdena för nästa attributuppsättning. Dessa värden börjar gälla på startdatumet.
-
-</div>
 
 ### Kommentar
 

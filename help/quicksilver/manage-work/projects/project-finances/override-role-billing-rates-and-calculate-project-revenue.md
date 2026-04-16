@@ -6,7 +6,7 @@ description: Du kan använda faktureringstariffer för att beräkna intäkterna 
 author: Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
-source-git-commit: fda01f74912b5b9f28085e6dbc79ca3ba69e38fc
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '4653'
 ht-degree: 0%
@@ -15,16 +15,12 @@ ht-degree: 0%
 
 # Översikt över åsidosättande av faktureringstariffer och beräkning av intäkter för ett projekt
 
-{{highlighted-preview}}
-
 Du kan använda faktureringstariffer för att beräkna intäkterna från dina projekt när du multiplicerar dem med timmarna som har ägnats åt projektet. Mer information om faktureringstariffer och intäkter finns i artikeln [Översikt över fakturering och intäkter](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 ## Översikt över faktureringstariffer och intäktstyper för uppgifter
 
 Som Adobe Workfront-administratör kan du associera faktureringstaxor med både användare och jobbroller.\
 Mer information om hur du skapar användare och associerar dem med faktureringstariffer finns i artikeln [Lägg till användare](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md). Mer information om hur du skapar jobbroller och associerar dem med faktureringsfrekvenser finns i artikeln [Skapa och hantera jobbroller](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
-
-<div class="preview">
 
 ### Översikt - Workflow Ultimate package
 
@@ -50,8 +46,6 @@ Om du vill beräkna intäkter för projekt baserat på användarnas fakturerings
 
 Mer information om **intäktstyp** och faktureringstariffer finns i [Översikt över fakturering och intäkt](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
-</div>
-
 ### Översikt - alla andra Workfront- och Workflow-paket
 
 Faktureringstariffer som är associerade med användare kan inte åsidosättas.
@@ -65,8 +59,6 @@ Om du vill beräkna intäkter för projekt baserat på faktureringsfrekvenser f�
 * Roll timvis plus fast
 
 Mer information om **intäktstyp** och faktureringstariffer finns i [Översikt över fakturering och intäkt](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
-
-<div class="preview">
 
 ## Hierarki för faktureringshastighet åsidosätter vid beräkning av intäkt - Ultimate-paket för arbetsflöde
 
@@ -87,8 +79,6 @@ En jobbroll kan ha en associerad faktureringsfrekvens på följande sätt:
   De ändrade rollsatserna i projektet kommer endast att påverka det projektet.
 
   Mer information om att åsidosätta rollfrekvenser för projektet finns i [Åsidosätt faktureringshastigheter för jobbroller på projektnivå](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
-
-</div>
 
 ## Faktureringshierarkin åsidosätter vid beräkning av intäkt - alla andra Workfront- och arbetsflödespaket
 
@@ -123,19 +113,17 @@ En jobbroll kan ha en associerad faktureringsfrekvens på följande sätt:
 
 Som projektledare kan du ange faktureringssatsen för en jobbroll i ett visst projekt. Den här faktureringsnivån på projektnivå åsidosätter faktureringsnivån på systemnivån för den här jobbrollen. Workfront använder faktureringssatsen på projektnivå för jobbrollen för att beräkna intäkten, i stället för att använda faktureringssatsen på systemnivå.
 
-<span class="preview">Du kan även koppla ett betalkort till projektet, som importerar faktureringstaxorna för jobbrollen från tariffkortet till projektet.</span>
+Du kan även koppla ett betalkort till projektet, som importerar faktureringstarifferna för jobbrollen från tariffkortet till projektet.
 
 Mer information om hur du åsidosätter faktureringshastigheter för jobbroller på projektnivå finns i [Åsidosätt faktureringshastigheter för jobbroller på projektnivå](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
 
 Mer information om vilken jobbroll som används för att beräkna intäkter för projektet finns i avsnittet [Intäktsberäkningar för aktiviteter baserade på användar- och rolltilldelningar](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments) i [Översikt över fakturering och intäkt](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
-<span class="preview">Mer information om hur du kopplar ett tariffkort till ett projekt finns i [Koppla ett tariffkort till ett projekt](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).</span>
+Mer information om hur du bifogar ett tariffkort till ett projekt finns i [Koppla ett tariffkort till ett projekt](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).
 
 >[!NOTE]
 >
 >När det gäller Faktisk intäkt bör de faktureringstariffer som tillämpas på timmar som läggs till i en faktureringspost som är markerad som Fakturerad inte påverkas av åsidosättningar av faktureringstaxor som inträffar efter att faktureringsposten har fakturerats.
-
-<div class="preview">
 
 ## Översikt över avsnittet Faktureringstariffer i ett projekt - Ultimate-paketet för arbetsflöde
 
@@ -158,8 +146,6 @@ Om du har flera åsidosatta faktureringssatser för en viss jobbroll visas de un
 >När **Startdatum** eller **Slutdatum** är tomt för ett datumgiltighetsvärde antar Workfront att den första åsidosättningsfrekvensen används för alla timmar med ett datum som är äldre än **Slutdatum** för den första åsidosättningen och den senaste åsidosättningsfrekvensen tillämpas för alla timmar med ett datum som är senare än **Startdatum** för den senaste åsidosättningen.
 >Om en timme loggas före projektets planerade startdatum används den första faktureringstakten.\
 >Om en timme loggas efter projektets planerade slutförandedatum används den senaste faktureringstakten.
-
-</div>
 
 ## Översikt över avsnittet Faktureringssatser i ett projekt - alla andra Workfront- och Workflow-paket
 
@@ -219,7 +205,7 @@ Tänk på följande när du beräknar planerad intäkt baserat på åsidosättni
 
 * När **intäktstypen** för en aktivitet är **Roll timme** multiplicerar Workfront antalet planerade timmar för en aktivitet med faktureringsfrekvensen för den jobbroll som är associerad med aktiviteten för att beräkna planerad intäkt för aktiviteten.
 
-* <span class="preview">När **Inkomsttypen** för en aktivitet är **Användare och roll per timme** använder Workfront en hierarki för att fastställa faktureringsfrekvensen för varje aktivitet. Mer information finns i [Översikt över intäkt- och kostnadshierarkin](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).</span>
+* När **intäktstypen** för en aktivitet är **Användare och roll per timme** använder Workfront en hierarki för att fastställa faktureringsfrekvensen för varje aktivitet. Mer information finns i [Översikt över intäkt- och kostnadshierarkin](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
 
 * När faktureringsgraden för jobbrollen har åsidosatts på projektnivå använder Workfront åsidosättningsfrekvensen från projektet för att beräkna planerad intäkt.
 * När en uppgift har flera tilldelningar beräknas den planerade intäkten genom att multiplicera faktureringsfrekvensen för varje tilldelnings jobbroll och deras respektive allokering av planerad timma.
@@ -238,16 +224,12 @@ Tänk på följande när du beräknar planerad intäkt baserat på åsidosättni
 
   Mer information om vilken jobbroll som används för att beräkna planerad intäkt finns i avsnittet Förstå intäktsberäkningar för aktiviteter baserade på användar- och rolltilldelningar i artikeln [Översikt över fakturering och intäkt](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
-<div class="preview">
-
 * När **intäktstypen** för en aktivitet är **Användare och roll per timme** och en användare inte har tilldelats, multiplicerar Workfront de planerade timmarna för en aktivitet med någon av dessa för att beräkna den planerade intäkten för aktiviteten:
 
    * En manuell åsidosättningsfrekvens för jobbrollen för aktiviteten
    * Rollfrekvensen för projektjobb, som kan komma från ett tariffkort eller från systemnivån.
 
   Mer information om vilken jobbroll som används för att beräkna planerad intäkt finns i [Översikt över intäkt- och kostnadshierarkin](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md) och i avsnittet [Intäktsberäkningar för aktiviteter baserade på användar- och rolltilldelningar](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments) i artikeln [Översikt över fakturering och intäkt](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
-
-</div>
 
 * Om flera faktureringstariffer åsidosätts, den frekvens med vilken de planerade timmarna multipliceras med ändringar under en uppgifts varaktighet. Som standard distribuerar Workfront de planerade timmarna jämnt över en uppgifts varaktighet och tilldelar ett jämnt antal timmar för varje dag. När du beräknar **Planerad intäkt** för en aktivitet multiplicerar Workfront den planerade timmen per dag med faktureringsfrekvensen för den dagen. Vid flera faktureringspriser kan priset vara olika varje dag.
 
@@ -295,7 +277,7 @@ Tänk på följande när du beräknar faktisk intäkt baserat på en engångsfak
 
   Mer information om vilken jobbroll som används för att beräkna **Faktisk intäkt** finns i avsnittet Förstå intäktsberäkningar för aktiviteter baserade på användar- och rolltilldelningar i artikeln [Översikt över fakturering och intäkt](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
-* <span class="preview">När **Inkomsttypen** för en aktivitet är **Användare och roll per timme** använder Workfront en hierarki för att fastställa faktureringsfrekvensen för varje aktivitet. Mer information finns i [Översikt över intäkt- och kostnadshierarkin](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).</span>
+* När **intäktstypen** för en aktivitet är **Användare och roll per timme** använder Workfront en hierarki för att fastställa faktureringsfrekvensen för varje aktivitet. Mer information finns i [Översikt över intäkt- och kostnadshierarkin](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
 
 * Om faktureringssatsen för jobbrollen har åsidosatts på projektnivå använder Workfront åsidosättningsfrekvensen från projektet för att beräkna faktisk intäkt. När du åsidosätter faktureringssatsen för jobbrollen i projektet beräknas projektets **faktiska inkomster** automatiskt om med den nya justerade tariffen.
 
@@ -312,7 +294,7 @@ Tänk på följande när du beräknar faktisk intäkt baserat på flera åsidos�
 
 * När **intäktstypen** för en aktivitet är **Roll per timme** multiplicerar Workfront aktivitetens **faktiska timmar** med faktureringsfrekvensen för de jobbroller som tilldelats för aktiviteten för att beräkna **Faktisk intäkt** för aktiviteten. Faktiska timmar är timmar som loggas direkt till uppgiften.
 
-* <span class="preview">När **Inkomsttypen** för en aktivitet är **Användare och roll per timme** använder Workfront en hierarki för att fastställa faktureringsfrekvensen för varje aktivitet. Mer information finns i [Översikt över intäkt- och kostnadshierarkin](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).</span>
+* När **intäktstypen** för en aktivitet är **Användare och roll per timme** använder Workfront en hierarki för att fastställa faktureringsfrekvensen för varje aktivitet. Mer information finns i [Översikt över intäkt- och kostnadshierarkin](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
 
 * Om det finns flera åsidosättningar av faktureringssatsen kan den frekvens med vilken **faktiska timmar** multipliceras för att beräkna **faktisk intäkt** ändras under en uppgifts varaktighet. Workfront använder faktureringsfrekvensen för den jobbroll vars tidsram matchar **anmälningsdatumet** för de timmar som loggats för uppgiften för att beräkna **Faktisk intäkt.**
 
@@ -348,7 +330,7 @@ I dessa fall kan antalet planerade timmar per dag vara olika för två användar
 
 Tänk på följande när du beräknar planerad intäkt för användare i olika tidszoner:
 
-* För aktiviteter som har **intäktstypen** av **Roll per timme** eller <span class="preview">**Användare och roll per timme**</span> och som tilldelas till jobbroller, beräknas **Planerad intäkt** genom att multiplicera **Planerade timmar** för en aktivitet med faktureringsfrekvensen för jobbrollen.
+* För aktiviteter som har **intäktstypen** av **Roll per timme** eller **Användare och roll per timme** och som tilldelas till jobbroller, beräknas **Planerad intäkt** genom att multiplicera **Planerade timmar** för en aktivitet med faktureringsfrekvensen för jobbrollen.
 
 * **Planerade timmar** fördelas jämnt över aktivitetens **Varaktighet**.
 
@@ -365,7 +347,7 @@ Tänk på följande när du beräknar planerad intäkt för användare i olika t
 
 Tänk på följande när du beräknar faktisk intäkt för användare i olika tidszoner:
 
-* När **intäktstypen** för en aktivitet är **Roll per timme** eller <span class="preview">**Användare och roll per timme**</span> multiplicerar Workfront aktivitetens **faktiska timmar** med faktureringsfrekvensen för de jobbroller som tilldelats för aktiviteten för att beräkna den **faktiska intäkten**. Faktiska timmar är timmar som loggas direkt till uppgiften.
+* När **intäktstypen** för en aktivitet är **Roll per timme** eller **Användare och roll per timme** multiplicerar Workfront aktivitetens **faktiska timmar** med faktureringsfrekvensen för de jobbroller som tilldelats för aktiviteten för att beräkna den **faktiska intäkten**. Faktiska timmar är timmar som loggas direkt till uppgiften.
 
 * Om det finns flera åsidosättningar av faktureringsfrekvensen använder Workfront faktureringsfrekvensen för den jobbroll vars tidsram matchar **anmälningsdatumet** för de timmar som loggats för uppgiften för att beräkna **Faktisk intäkt**.
 

@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 34c63e1b7d6323a4cf25514aaff9f923010d8958
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
 
 # Översikt över anpassade formulär
-
-{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -33,17 +31,7 @@ Formulärdesignern har en arbetsyteliknande arbetsyta som gör att du kan visa f
 
 Mer information finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-<div class="preview">
-
-Exempelbild i förhandsvisningsmiljön:
-
 ![Exempelformulärdesigner](assets/form-designer-example-032526.png)
-
-</div>
-
-Exempelbild i produktionsmiljön:
-
-![Exempelformulärdesigner](assets/form-designer-example.png)
 
 ## Anpassade fält och widgetar
 
@@ -61,6 +49,7 @@ Du kan lägga till följande typer av anpassade fält i ett anpassat formulär i
 * Extern sökning
 * Ursprunglig fältreferens
 * Typeahead
+* Planeringsfältsanslutning
 * Beräknat
 * Datum
 * Kryssrutegrupp
@@ -92,8 +81,11 @@ Användare kan bifoga anpassade formulär till följande objekttyper:
 * Portfolio
 * Utgift
 * Grupp
+* Jobbroll
+* Team
 * Upprepning
 * Faktureringspost
+* Hastighetskort
 
 Mer information om hur du bifogar anpassade formulär till objekt finns i [Lägga till ett anpassat formulär till ett objekt](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 

@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 5cdaccd9381b02f183b837208eaac4389b0b7a24
+source-git-commit: e6aa40917f2e4421c84d2cc36e86187328c6f775
 workflow-type: tm+mt
 source-wordcount: '2714'
 ht-degree: 0%
@@ -18,8 +18,6 @@ ht-degree: 0%
 # Lägga till beräknade fält i ett formulär
 
 <!-- Audited: 5/2025 -->
-
-{{highlighted-preview}}
 
 Du kan lägga till ett beräknat anpassat fält som använder befintliga data för att generera nya data när det anpassade formuläret kopplas till ett objekt.
 
@@ -172,26 +170,26 @@ Så här återanvänder du ett befintligt beräknat anpassat fält:
       <td><p>Det här alternativet är aktiverat som standard.<p><p>När du anger ett fält som Inaktivt tas det inte med i rapporter, filter och vyer, och är inte längre tillgängligt i det anpassade formulärfältbiblioteket.</p></td>
      </tr>
      <tr>
-      <td><span class="preview">Automatisk behörighet</span></td>
-      <td><span class="preview"><p>Aktivera det här alternativet om du vill att de ekonomiska behörigheterna automatiskt ska komma från de fält som används i formeln. Behörighetsdefinitionerna visas i fältet Behörighetstyp nedan.</p><p>Åtkomst krävs för alla fält i formeln. Om till exempel två fält används i ett beräkningsfält, och ett av dem har faktureringsbehörighet och det andra har kostnadstillstånd, måste användaren ha behörighet att visa både fakturerings- och kostnadstariffer för att kunna se det beräknade värdet.</p></span></td>
+      <td>Automatisk behörighet</td>
+      <td><p>Aktivera det här alternativet om du vill att de ekonomiska behörigheterna automatiskt ska komma från de fält som används i formeln. Behörighetsdefinitionerna visas i fältet Behörighetstyp nedan.</p><p>Åtkomst krävs för alla fält i formeln. Om till exempel två fält används i ett beräkningsfält, och ett av dem har faktureringsbehörighet och det andra har kostnadstillstånd, måste användaren ha behörighet att visa både fakturerings- och kostnadstariffer för att kunna se det beräknade värdet.</p></td>
      </tr>
      <tr>
-      <td><span class="preview">Typ av ekonomisk behörighet</span></td>
-      <td><p><span class="preview">När fältet Automatisk behörighet är inaktiverat kan du välja den behörighetstyp som användarna måste ha innan de kan visa eller redigera det här anpassade fältet. Alla format tillåts för beräkningsfält. Fälten som används i formeln avgör om fältet är aktivt eller inte. Om behörighetsfältet är tomt stöder inte formelfälten de ekonomiska behörigheterna.</span></p>
-      <ul span class="preview">
+      <td>Typ av ekonomisk behörighet</td>
+      <td><p>När fältet Automatisk behörighet är inaktiverat kan du välja den behörighetstyp som användarna måste ha innan de kan visa eller redigera det här anpassade fältet. Alla format tillåts för beräkningsfält. Fälten som används i formeln avgör om fältet är aktivt eller inte. Om behörighetsfältet är tomt stöder inte formelfälten de ekonomiska behörigheterna.</p>
+      <ul>
       <li><p><strong>Ingen behörighet krävs:</strong> Alla användare kan se det här fältet</p></li>
       <li><p><strong>Allmänt:</strong> Användare måste ha behörighet att redigera eller visa Allmän ekonomi</p></li>
       <li><p><strong>Faktura:</strong> Användare måste ha behörighet att redigera eller visa faktureringsfrekvenser</p></li>
       <li><p><strong>Kostnad:</strong> Användare måste ha behörighet att redigera eller visa kostnadstariffer</p></li>
       </ul>
-      <p><span class="preview">Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Begränsa åtkomst till ekonomiska data i anpassade fält</a>.</span></p>
+      <p>Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Begränsa åtkomst till ekonomiska data i anpassade fält</a>.</p>
       </td>
      </tr>
     </tbody> 
    </table>
 
 1. Börja bygga beräkningen i rutan **Beräkning**:
-   1. Klicka på **Maximera** för att öppna beräkningsredigeraren och skapa beräkningen.</p>
+   1. Klicka på **Maximera** för att öppna beräkningsredigeraren och skapa beräkningen.
 En beräkning börjar oftast med ett uttryck följt av parenteser som innehåller de fält som du vill referera till när det anpassade formuläret är kopplat till ett objekt.
 
       Varje fält måste omges av klammerparenteser. När du börjar skriva namnet på ett fält ger systemet förslag och du kan välja ett som infogar det i beräkningen.

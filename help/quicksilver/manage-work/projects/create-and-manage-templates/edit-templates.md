@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
-source-wordcount: '4971'
+source-wordcount: '5076'
 ht-degree: 0%
 
 ---
@@ -117,7 +117,7 @@ Old:
 
 1. Gå till mallen som du vill redigera.
 1. (Villkorligt) Om du vill redigera begränsad information om mallen klickar du på **Mallinformation** i den vänstra panelen och går sedan till de områden som visas i den vänstra panelen för att redigera information för varje område.
-1. Om du vill redigera information i detaljavsnittet klickar du på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) , väljer något av områdena nedan eller klickar på **Redigera alla** om du vill redigera information i alla områden:
+1. Om du vill redigera information i detaljavsnittet klickar du på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) , väljer något av områdena nedan eller klickar på **Redigera alla** om du vill redigera information i alla områden:
 
    * Översikt
    * Anpassad Forms
@@ -268,7 +268,7 @@ Old:
 1. Börja redigera mallen enligt beskrivningen ovan.
 1. Klicka på **Ekonomi** i rutan **Redigera mall**.
 
-   ![Redigera mallrutans finansavsnitt](assets/edit-template-box-finance-section.png)
+   ![Redigera mallrutans finansavsnitt](assets/edit-template-finance-section-040626.png)
 
 1. Uppdatera följande fält:
 
@@ -276,6 +276,14 @@ Old:
     <col> 
     <col> 
     <tbody> 
+     <tr>
+      <td><strong>Bevara information om projektfaktureringssatser</strong></td>
+      <td><p>När du aktiverar det här alternativet fryses alla tilldelningsfaktureringstaxor permanent till den högsta tillämpliga nivån från faktureringshierarkin. Detta är en engångsåtgärd och du kan inte inaktivera alternativet när projektet har tilldelningar eller timmar. Efter bevarande kan inte faktureringspriserna för tilldelning ändras, redigeras eller åsidosättas någonstans i projektet.</p></td>
+     </tr>
+     <tr>
+      <td><strong>Använd datumeffektiva valutakurser från systemet</strong></td>
+      <td><p>När det här alternativet har valts används alltid de datumeffektiva växelkurserna på systemnivå, och valutakursåsidosättningar tillåts inte i projektet.</p> <p>Du måste också välja <strong>valutakursdatum</strong> att starta från när alternativet är markerat.</p></td> 
+     </tr>
       <tr> 
       <td role="rowheader"><strong>Valuta</strong></td> 
       <td><p>Ange valutan för det framtida projektet, om den skiljer sig från standardvalutan i systemet. Det här fältet är inte synligt om du bara har standardvalutan i systemet.<br>Mer information om valutor finns i <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Konfigurera valutakurser</a>.</p></td> 

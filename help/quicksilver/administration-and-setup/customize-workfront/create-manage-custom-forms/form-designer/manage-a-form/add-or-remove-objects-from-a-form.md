@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,6 @@ Du kan lägga till ytterligare objekttyper i formuläret så att det kan kopplas
 >
 >Mer information finns i [Hur flera objekttyper kan påverka behörigheten för avsnittsbrytning](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md#how-multiple-object-types-can-affect-section-break-permissions).
 
-
 {{step-1-to-setup}}
 
 1. Klicka på **Egen Forms** i den vänstra panelen.
@@ -66,9 +65,9 @@ Du kan lägga till ytterligare objekttyper i formuläret så att det kan kopplas
 
 1. Markera det anpassade formulär som du vill lägga till ytterligare objekttyper i och klicka sedan på ikonen ![Redigera](assets/edit-icon2.png) .
 
-1. Klicka på plustecknet + efter **Objekttyper** längst upp i formuläret och välj sedan önskad typ på menyn som visas. Du kan upprepa detta om du vill lägga till så många objekttyper som du vill.
+1. Klicka på **Objekttyper** längst upp i formuläret och välj sedan den typ som du vill lägga till på menyn som visas. Du kan upprepa detta om du vill lägga till så många objekttyper som du vill.
 
-   ![Lägg till nytt objekt](assets/add-new-object.png)
+   ![Lägg till nytt objekt](assets/add-new-object-to-custom-form-041026.png)
 
 1. Klicka på **Spara och stäng**.
 
@@ -92,9 +91,5 @@ Så här tar du bort en objekttyp:
 
 1. Klicka på **Egen Forms** i den vänstra panelen.
 1. Markera det anpassade formulär som du vill redigera och klicka sedan på ikonen ![Redigera](assets/edit-icon2.png).
-1. Klicka på X på någon av de **objekttyper** som du vill ta bort från formuläret.
-
-   ![Ta bort objekttyper](assets/delete-object-types.png)
-
-1. (Valfritt) Upprepa föregående steg för andra objekttyper som du vill ta bort från formuläret.
+1. Klicka på **Objekttyper** längst upp i formuläret och avmarkera sedan kryssrutorna för de objekt som du vill ta bort från formuläret.
 1. Klicka på **Använd** och sedan på **Spara och stäng**.

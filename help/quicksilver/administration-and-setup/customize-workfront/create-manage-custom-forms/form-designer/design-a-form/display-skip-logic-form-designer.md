@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: a060b0023d6ea04f0eb1210c61b7add37a943842
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
-source-wordcount: '3485'
+source-wordcount: '3544'
 ht-degree: 0%
 
 ---
 
 # Lägga till logiska regler i anpassade formulär och fält
-
-{{highlighted-preview}}
 
 Med logiska regler kan du anpassa fälten i formuläret ytterligare.
 
@@ -60,7 +58,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 Anpassade formulär visar ikoner som anger när logik används i fälten.
 
-<span class="preview">Klicka på **Visa logik** i formulärdesignerns huvud om du vill visa eller dölja ikonerna för de olika fältslogiktyperna.</span>
+Klicka på **Visa logik** i formulärdesignerns sidhuvud om du vill visa eller dölja ikonerna för de olika fältslogiktyperna.
 
 | Ikon | Definition |
 | --- | --- |
@@ -70,14 +68,14 @@ Anpassade formulär visar ikoner som anger när logik används i fälten.
 | ![Hoppa över logikikon för referensfält](assets/skip-logic-bottom-left.png) | Fältet är referensfältet för hopplogik. Om du väljer ett specifikt fält i målfältet, hoppar formuläret framför det här fältet och fälten däremellan döljs. |
 | ![Valideringslogik för målfält](assets/validation-logic-icon.png) | Fältet är det målfält där valideringslogik används. Ett specifikt val eller värde i referensfältet avgör om valideringen misslyckas. Målfältet och referensfältet kan vara samma för valideringslogik. |
 | ![Valideringslogik för referensfält](assets/validation-logic-reference-field.png) | Fältet är referensfältet för valideringslogik. Ett specifikt val eller värde i det här fältet avgör om valideringen misslyckas i målfältet. Målfältet och referensfältet kan vara samma för valideringslogik. |
-| ![Standardvärdelogik för målfält](assets/default-value-logic-icon.png) | <span class="preview">Fältet är det målfält där standardvärdelogik används. Ett specifikt val eller värde i referensfältet avgör standardvärdet. Målfältet och referensfältet kan vara samma för standardvärdeslogiken.</span> |
-| ![Standardvärdelogik för referensfält](assets/default-value-logic-reference-field.png) | <span class="preview">Fältet är referensfält för standardvärdeslogik. Ett specifikt val eller värde i det här fältet avgör standardvärdet i målfältet. Målfältet och referensfältet kan vara samma för standardvärdeslogiken.</span> |
-| ![Formateringslogik för målfält](assets/formatting-logic-icon.png) | <span class="preview">Fältet är målfältet där formateringslogik används. Formateringen bestäms av en viss markering eller ett visst värde i referensfältet. Målfältet och referensfältet kan vara samma för formateringslogik.</span> |
-| ![Formateringslogik för referensfält](assets/formatting-logic-reference-field.png) | <span class="preview">Fältet är referensfält för formateringslogik. Ett specifikt val eller värde i det här fältet avgör formateringen i målfältet. Målfältet och referensfältet kan vara samma för formateringslogik.</span> |
-| ![Ändringslogik för målfält](assets/editability-logic-icon.png) | <span class="preview">Fältet är målfältet där redigeringslogik används. Fältet kan vara redigerbart eller skrivskyddat när de definierade villkoren uppfylls. Målfältet och referensfältet kan vara samma för redigeringslogik.</span> |
-| ![Ändringslogik för referensfält](assets/editability-logic-reference-field.png) | <span class="preview">Fältet är referensfält för redigerbarhetslogik. När de definierade villkoren uppfylls i det här fältet används logiken i målfältet. Målfältet och referensfältet kan vara samma för redigeringslogik.</span> |
+| ![Standardvärdelogik för målfält](assets/default-value-logic-icon.png) | Fältet är det målfält där standardvärdelogik används. Ett specifikt val eller värde i referensfältet avgör standardvärdet. Målfältet och referensfältet kan vara samma för standardvärdeslogiken. |
+| ![Standardvärdelogik för referensfält](assets/default-value-logic-reference-field.png) | Fältet är referensfält för standardvärdeslogik. Ett specifikt val eller värde i det här fältet avgör standardvärdet i målfältet. Målfältet och referensfältet kan vara samma för standardvärdeslogiken. |
+| ![Formateringslogik för målfält](assets/formatting-logic-icon.png) | Fältet är det målfält där formateringslogik används. Formateringen bestäms av en viss markering eller ett visst värde i referensfältet. Målfältet och referensfältet kan vara samma för formateringslogik. |
+| ![Formateringslogik för referensfält](assets/formatting-logic-reference-field.png) | Fältet är referensfältet för formateringslogik. Ett specifikt val eller värde i det här fältet avgör formateringen i målfältet. Målfältet och referensfältet kan vara samma för formateringslogik. |
+| ![Ändringslogik för målfält](assets/editability-logic-icon.png) | Fältet är målfältet där redigerbarhetslogik används. Fältet kan vara redigerbart eller skrivskyddat när de definierade villkoren uppfylls. Målfältet och referensfältet kan vara samma för redigeringslogik. |
+| ![Ändringslogik för referensfält](assets/editability-logic-reference-field.png) | Fältet är referensfältet för redigeringslogik. När de definierade villkoren uppfylls i det här fältet används logiken i målfältet. Målfältet och referensfältet kan vara samma för redigeringslogik. |
 
-<!-- ![Logic icons](assets/logic-icons-3.png) -->
+[Logic icons](assets/custom-form-logic-icon-samples.png)
 
 Om du bara vill visa och hoppa över logik markerar du ett fält för att visa de befintliga logikreglerna i fältinställningarna.
 
@@ -109,7 +107,7 @@ Visningslogik definierar vilka anpassade fält som visas i formuläret när anv�
 
 >[!NOTE]
 >
-><span class="preview">Den här proceduren beskriver det grundläggande läget för visningslogik. Avancerad visningslogik finns också tillgänglig. Mer information finns i [Lägg till avancerad visningslogik i ett anpassat formulär](#add-advanced-display-logic-to-a-custom-form) i den här artikeln.</span>
+>Den här proceduren beskriver det grundläggande läget för visningslogik. Avancerad visningslogik finns också tillgänglig. Mer information finns i [Lägg till avancerad visningslogik i ett anpassat formulär](#add-advanced-display-logic-to-a-custom-form) i den här artikeln.
 
 {{step-1-to-setup}}
 
@@ -120,7 +118,7 @@ Visningslogik definierar vilka anpassade fält som visas i formuläret när anv�
 1. Välj fliken **Visning** i logikverktyget.
 1. Klicka på **Lägg till visningsregel**.
 
-   ![Visa logikverktyget](assets/simple-display-logic1-val-only-in-menu.png)
+   ![Visa logikverktyget](assets/simple-display-logic1.png)
 
 1. Följ stegen nedan för att skapa logiksatsen i verktyget.
 
@@ -135,9 +133,7 @@ Visningslogik definierar vilka anpassade fält som visas i formuläret när anv�
 
 1. Klicka på **Använd** när du är klar med att skapa logiksatsen.
 
-   Ikonerna för visningslogik läggs till i målfältet och i definitionsfältet i formulärdesignern.
-
-<div class="preview">
+   Logiken används och logikonerna läggs till i målfältet och referensfältet i formulärdesignern.
 
 ## Lägga till avancerad visningslogik i ett anpassat formulär
 
@@ -180,7 +176,7 @@ Med följande villkor blir fältet Sold KPI bara synligt när projektet är klar
 1. Välj fliken **Visning** i logikverktyget.
 1. Aktivera **avancerat läge**.
 
-   Det här alternativet kan aktiveras automatiskt för fält som inte har stöd för det enkla läget för visningslogik.
+   Det här alternativet kan aktiveras automatiskt för fälttyper som inte har stöd för det enkla läget för visningslogik.
 
    ![Avancerat läge för visningslogik](assets/advanced-display-logic-blank-editor.png)
 
@@ -190,13 +186,11 @@ Med följande villkor blir fältet Sold KPI bara synligt när projektet är klar
 
 1. Klicka på **Använd**.
 
-   Logiken används i fältet och ikonen för visningslogik läggs till i formulärdesignern.
+   Logiken används och logikonerna läggs till i målfältet och referensfältet i formulärdesignern.
 
    >[!NOTE]
    >
    >Avancerad visningslogik stöds inte i formulärdesignerns förhandsgranskningsläge.
-
-</div>
 
 ## Lägga till hopplogik i ett anpassat formulär
 
@@ -211,7 +205,7 @@ Hopplogik definierar anpassade formulärfält som hoppas över när användaren 
 1. Välj fliken **Hoppa över** i logikverktyget.
 1. Klicka på **Lägg till överhoppningsregel**.
 
-   ![Hoppa över logikbyggaren](assets/skip-logic1-val-only-in-menu.png)
+   ![Hoppa över logikbyggaren](assets/skip-logic1.png)
 
 1. Följ stegen nedan för att skapa logiksatsen i verktyget.
 
@@ -226,9 +220,7 @@ Hopplogik definierar anpassade formulärfält som hoppas över när användaren 
 
 1. Klicka på **Använd** när du är klar med att skapa logiksatsen.
 
-   Ikonerna för hopplogik läggs till i målfältet och definieringsfältet i formulärdesignern.
-
-<div class="preview">
+   Logiken används och logikonerna läggs till i målfältet och referensfältet i formulärdesignern.
 
 ## Lägga till standardvärdeslogik i ett anpassat formulär
 
@@ -270,13 +262,11 @@ När det anpassade formuläret är kopplat till ett projekt och projektstatusen 
 
 1. Klicka på **Använd**.
 
-   Logiken tillämpas på fältet i formulärdesignern.
+   Logiken används och logikonerna läggs till i målfältet och referensfältet i formulärdesignern.
 
    >[!NOTE]
    >
    >Standardvärdelogik stöds inte i förhandsgranskningsläget för formulärdesignern.
-
-</div>
 
 ## Lägga till valideringslogik i ett anpassat formulär
 
@@ -313,7 +303,7 @@ Fler exempel på valideringslogik finns i [Exempel på avancerad logik i anpassa
 1. Markera fältet som logiken ska användas i och klicka på **Lägg till logik**.
 1. Välj fliken **Validering** i logikverktyget.
 
-   ![Verifieringslogikverktyget](assets/validation-logic-blank-editor-val-only-in-menu.png)
+   ![Verifieringslogikverktyget](assets/validation-logic-blank-editor.png)
 
 1. Bygg valideringsvillkoret i redigeraren, inklusive felmeddelandet som visas när valideringen inte uppfylls.
 
@@ -321,13 +311,11 @@ Fler exempel på valideringslogik finns i [Exempel på avancerad logik i anpassa
 
 1. Klicka på **Använd**.
 
-   Logiken tillämpas på fältet i formulärdesignern.
+   Logiken används och logikonerna läggs till i målfältet och referensfältet i formulärdesignern.
 
    >[!NOTE]
    >
    >Valideringslogik stöds inte i förhandsgranskningsläget för formulärdesignern.
-
-<div class="preview">
 
 ## Lägga till formateringslogik i ett anpassat formulär
 
@@ -386,15 +374,11 @@ IF(
 
 1. Klicka på **Använd**.
 
-   Logiken tillämpas på fältet i formulärdesignern.
+   Logiken används och logikonerna läggs till i målfältet och referensfältet i formulärdesignern.
 
    >[!NOTE]
    >
    >Formateringslogik stöds inte i formulärdesignerns förhandsgranskningsläge.
-
-</div>
-
-<div class="preview">
 
 ## Lägg till redigeringslogik i ett anpassat formulär
 
@@ -440,10 +424,8 @@ IF($$USER.{role}.{name}="Resource Manager", true)
 
 1. Klicka på **Använd**.
 
-   Logiken tillämpas på fältet i formulärdesignern.
+   Logiken används och logikonerna läggs till i målfältet och referensfältet i formulärdesignern.
 
    >[!NOTE]
    >
    >Ändringslogik stöds inte i förhandsgranskningsläget för formulärdesignern.
-
-</div>

@@ -9,7 +9,7 @@ role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '7855'
 ht-degree: 0%
@@ -155,7 +155,7 @@ Mer information om hur du skapar ett projekt från en mall finns i [Skapa ett pr
 
    Så här redigerar du information i detaljavsnittet:
 
-   1. (Valfritt) Klicka på ikonen **Komprimera alla** ![Komprimera alla &#x200B;](assets/collapse-icon.png) i det övre högra hörnet om du vill komprimera alla områden.
+   1. (Valfritt) Klicka på ikonen **Komprimera alla** ![Komprimera alla ](assets/collapse-icon.png) i det övre högra hörnet om du vill komprimera alla områden.
    1. (Valfritt och villkorligt) När ett område är komprimerat klickar du på **högerpilen** ![högerpilen](assets/right-pointing-arrow.png) bredvid varje område för att expandera det område som du vill redigera.
    1. Mer information om hur du redigerar information på fliken Projektinformation finns i följande artiklar:
 
@@ -163,7 +163,7 @@ Mer information om hur du skapar ett projekt från en mall finns i [Skapa ett pr
       * [Hantera information i projektfinansieringsdelen](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
 
    1. (Valfritt) Om du vill bifoga ett anpassat formulär börjar du skriva namnet på ett formulär i fältet **Lägg till anpassat formulär** och markerar det när det visas i listan. Klicka sedan på **Spara ändringar**.
-   1. (Valfritt) Klicka på ikonen **Exportera** ![Exportera &#x200B;](assets/export.png) om du vill exportera översiktsinformation och anpassad formulärinformation till en PDF-fil. Klicka sedan på **Exportera**. Välj bland följande:
+   1. (Valfritt) Klicka på ikonen **Exportera** ![Exportera ](assets/export.png) om du vill exportera översiktsinformation och anpassad formulärinformation till en PDF-fil. Klicka sedan på **Exportera**. Välj bland följande:
 
       * Markera alla (visas bara när det finns minst ett anpassat formulär bifogat)
       * Översikt
@@ -409,9 +409,7 @@ Så här redigerar du fält i finanssektorn:
 1. Börja redigera ditt projekt enligt beskrivningen ovan.
 1. Klicka på **Ekonomi** i den vänstra panelen.
 
-   ![Ekonomi i redigeringsrutan för projekt](assets/nwe-finance-in-edit-project-box-350x183.png)
-
-   <!--![Finance area in the project edit box](assets/edit-project-finance-section.png)-->
+   ![Ekonomi i redigeringsrutan för projekt](assets/edit-project-finance-section.png)
 
 1. Uppdatera följande ekonomiska information för projektet:
 
@@ -420,12 +418,12 @@ Så här redigerar du fält i finanssektorn:
     <col> 
     <tbody> 
      <tr>
-      <td><strong><span class="preview">Använd datumeffektiva valutakurser från systemet</span></strong></td>
-      <td><p><span class="preview">När det här alternativet har valts används alltid de datumeffektiva växelkurserna på systemnivå, och valutakursåsidosättningar tillåts inte i projektet.</span></p> <p><span class="preview">Du måste också välja <strong>valutakursdatum</strong> att starta från när alternativet är markerat.</span></p></td> 
+      <td><strong>Använd datumeffektiva valutakurser från systemet</strong></td>
+      <td><p>När det här alternativet har valts används alltid de datumeffektiva växelkurserna på systemnivå, och valutakursåsidosättningar tillåts inte i projektet.</p> <p>Du måste också välja <strong>valutakursdatum</strong> att starta från när alternativet är markerat.</p></td> 
      </tr>
      <tr>
-      <td><strong><span class="preview">Bevara information om projektfaktureringssatser</span></strong></td>
-      <td><p><span class="preview">När du aktiverar det här alternativet fryses alla tilldelningsfaktureringstaxor permanent till den högsta tillämpliga nivån från faktureringshierarkin. Detta är en engångsåtgärd och du kan inte inaktivera alternativet när projektet har tilldelningar eller timmar. Efter bevarande kan inte faktureringspriserna för tilldelning ändras, redigeras eller åsidosättas någonstans i projektet.</span></p></td>
+      <td><strong>Bevara information om projektfaktureringssatser</strong></td>
+      <td><p>När du aktiverar det här alternativet fryses alla tilldelningsfaktureringstaxor permanent till den högsta tillämpliga nivån från faktureringshierarkin. Detta är en engångsåtgärd och du kan inte inaktivera alternativet när projektet har tilldelningar eller timmar. Efter bevarande kan inte faktureringspriserna för tilldelning ändras, redigeras eller åsidosättas någonstans i projektet.</p></td>
      </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Valuta</strong> </td> 

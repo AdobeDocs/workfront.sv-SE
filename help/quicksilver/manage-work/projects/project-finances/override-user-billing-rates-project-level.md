@@ -6,7 +6,8 @@ title: Åsidosätt användarens faktureringstariffer på projektnivå
 description: I den här artikeln beskrivs hur du kan åsidosätta systemanvändarnas faktureringstaxor för ett projekt.
 author: Lisa
 feature: Work Management
-source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
+exl-id: eb7dbb6f-a31c-4569-be54-9a151dcf4135
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 0%
@@ -14,8 +15,6 @@ ht-degree: 0%
 ---
 
 # Åsidosätt användarfakturering på projektnivå
-
-{{highlighted-preview-article-level}}
 
 Som projektledare kan du ange faktureringssatsen för en användare i ett visst projekt. Den här faktureringsnivån på projektnivå åsidosätter faktureringsnivån på systemnivån för den här användaren. Workfront använder användarens faktureringstaxa på projektnivå för att beräkna intäkten, i stället för att använda faktureringstaxan på systemnivå.
 

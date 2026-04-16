@@ -10,9 +10,9 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
+source-git-commit: 15592c8dee4bae503382205b38b5daaef5cc74dd
 workflow-type: tm+mt
-source-wordcount: '7426'
+source-wordcount: '7329'
 ht-degree: 0%
 
 ---
@@ -63,17 +63,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 1. Klicka på **Nytt anpassat formulär.**
 1. Välj vilka objekttyper du vill koppla det anpassade formuläret till och klicka sedan på **Fortsätt**.
 
-<div class="preview">
-
-Exempelbild i förhandsvisningsmiljön:
-
-![Välj objekttyper](assets/new-custom-form-select-objects-032526.png)
-
-</div>
-
-Exempelbild i produktionsmiljön:
-
-![Välj objekttyper](assets/new-custom-form-select-objects.png)
+   ![Välj objekttyper](assets/new-custom-form-select-objects-032526.png)
 
 +++ Expandera om du vill visa en lista med objekt som stöder anpassade formulär.
 
@@ -89,9 +79,7 @@ Exempelbild i produktionsmiljön:
 * Upprepning
 * Faktureringspost
 * Grupp
-* <span class="preview">Team</span>
-
-<div class="preview">
+* Team
 
 Om du använder Workflow Ultimate-paketet kan du även skapa anpassade formulär för dessa objekt:
 
@@ -99,15 +87,10 @@ Om du använder Workflow Ultimate-paketet kan du även skapa anpassade formulär
 * Hastighetskort
 * Tilldelning
 
-</div>
-
 +++
 
 1. Skriv den anpassade formulärtiteln i området **Lägg till ett formulärnamn**.
-1. <span class="preview">(Valfritt) Om du vill lägga till fler objekttyper i formuläret så att det kan kopplas till fler objekt klickar du på **Objekttyper** i formulärdesignerns huvud. Markera de objekttyper som du vill lägga till och avmarkera de objekttyper som du vill ta bort från formuläret.</span>
-1. (Valfritt) Om du vill lägga till fler objekttyper i formuläret så att det kan kopplas till fler objekt klickar du på ikonen **Lägg till** ![Lägg till objekt &#x200B;](assets/add-objects-icon.png) bredvid **Objekttyper** och väljer sedan önskad typ på menyn som visas. Du kan upprepa detta om du vill lägga till så många objekttyper som du vill.
-
-   När du har lagt till mer än ett objekt i formuläret kan du klicka på X för en objekttyp för att ta bort det från formuläret.
+1. (Valfritt) Om du vill lägga till fler objekttyper i formuläret så att det kan kopplas till fler objekt klickar du på **Objekttyper** i formulärdesignerns huvud. Markera de objekttyper som du vill lägga till och avmarkera de objekttyper som du vill ta bort från formuläret.
 
    >[!CAUTION]
    >
@@ -301,8 +284,8 @@ Lägga till ett textfält:
     </ul></td>
     </tr>
     <tr>
-      <td><span class="preview">Typ av ekonomisk behörighet</span></td>
-      <td><p><span class="preview">Välj den ekonomiska behörighetstyp som användarna måste ha innan de kan visa eller redigera det här anpassade fältet. Valutaformatet måste väljas.</span></p>
+      <td>Typ av ekonomisk behörighet</td>
+      <td><p>Välj den ekonomiska behörighetstyp som användarna måste ha innan de kan visa eller redigera det här anpassade fältet. Valutaformatet måste väljas.</p>
       <ul>
       <li><p><strong>Ingen behörighet krävs:</strong> Alla användare kan se det här fältet</p></li>
       <li><p><strong>Allmänt:</strong> Användare måste ha behörighet att redigera eller visa Allmän ekonomi</p></li>
@@ -457,8 +440,8 @@ Så här lägger du till alternativknappar, kryssrutegrupper och listrutor:
     </ul></td>
     </tr> 
     <tr>
-      <td><span class="preview">Typ av ekonomisk behörighet</span></td>
-      <td><p><span class="preview">Välj den ekonomiska behörighetstyp som användarna måste ha innan de kan visa eller redigera det här anpassade fältet. Valutaformatet måste väljas.</span></p>
+      <td>Typ av ekonomisk behörighet</td>
+      <td><p>Välj den ekonomiska behörighetstyp som användarna måste ha innan de kan visa eller redigera det här anpassade fältet. Valutaformatet måste väljas.</p>
       <ul>
       <li><p><strong>Ingen behörighet krävs:</strong> Alla användare kan se det här fältet</p></li>
       <li><p><strong>Allmänt:</strong> Användare måste ha behörighet att redigera eller visa Allmän ekonomi</p></li>
@@ -721,8 +704,8 @@ Så här lägger du till en extern sökning:
       </ul></td>
      </tr> 
      <tr>
-      <td><span class="preview">Typ av ekonomisk behörighet</span></td>
-      <td><p><span class="preview">Välj den ekonomiska behörighetstyp som användarna måste ha innan de kan visa eller redigera det här anpassade fältet. Valutaformatet måste väljas.</span></p>
+      <td>Typ av ekonomisk behörighet</td>
+      <td><p>Välj den ekonomiska behörighetstyp som användarna måste ha innan de kan visa eller redigera det här anpassade fältet. Valutaformatet måste väljas.</p>
       <ul>
       <li><p><strong>Ingen behörighet krävs:</strong> Alla användare kan se det här fältet</p></li>
       <li><p><strong>Allmänt:</strong> Användare måste ha behörighet att redigera eller visa Allmän ekonomi</p></li>
@@ -753,12 +736,12 @@ Så här lägger du till en extern sökning:
       <td role="rowheader">JSON-sökväg</td>
       <td><p>Skriv eller klistra in JSON-sökvägen för API:t.</p> <p>Med det här alternativet kan data extraheras från den JSON som returneras av API-URL:en. Det är ett sätt att välja vilka värden från JSON som ska visas i listrutan.</p><p>Om din API-URL till exempel returnerar JSON i följande format kan du använda "$.data[*].name" för att välja USA och Kanada som nedrullningsbara alternativ:</br>
       <pre>
-      &lbrace;
-       data: &lbrace;
+      {
+       data: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Mer information om JSON-sökvägen och hur du ser till att du skriver rätt JSON-sökväg finns på <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>

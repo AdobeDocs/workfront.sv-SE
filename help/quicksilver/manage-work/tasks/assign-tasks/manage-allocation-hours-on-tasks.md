@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
@@ -109,6 +109,10 @@ Take this piece out of the table above when we remove the new experience/ after 
 1. Kontrollera att aktivitetens **varaktighetstyp** är **enkel**.
 1. Ändra fältet **Allokeringar** för varje tilldelad uppgift. Detta är övergripande allokeringar för varje tilldelning för den här aktiviteten, under hela aktivitetens varaktighet. Detta kan även uppdatera aktivitetens övergripande **Planerade timmar**.
 
+   En av dessa skärmar kan visas beroende på din organisations Workfront- eller Workflow-paket.
+
    ![Ändra allokeringar](assets/advanced-assignments-duration-type-allocations.png)
+
+   ![Ändra allokeringar](assets/new-aa-allocation-by-hour.png)
 
 1. Klicka på **Spara**.

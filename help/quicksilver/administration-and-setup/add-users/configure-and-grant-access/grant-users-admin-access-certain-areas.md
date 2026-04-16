@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
-source-git-commit: cada5387ddfb710029d06cd38841ecb9c8a6484b
+source-git-commit: 85399542ce8e92de6da5a1de0960194e72958987
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,6 @@ ht-degree: 0%
 # Ge användarna administrativ åtkomst till vissa områden
 
 <!--Linked in several places, do not rename or change URL.-->
-
-{{highlighted-preview}}
 
 Som Adobe Workfront-administratör kan du använda en åtkomstnivå för att ge användare med en Standard- eller Plan-licens administrativ åtkomst till vissa delar av systemet.
 
@@ -95,17 +93,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
         <li>Deras egna utgifter</li>
         <li>Utgifter för underordnade</li>
        </ul></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Jobbroller</td> 
-      <td> <p><span class="preview"><b>Obs!</b> I förhandsvisningsmiljön styrs åtkomsten till jobbroller som en objekttyp på åtkomstnivån. Se <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-job-roles.md">Bevilja åtkomst till jobbroller</a>.</span></p>
-      <p>Med den här åtkomsten kan användaren göra följande:</p> 
-       <ul> 
-        <li>Visa och redigera befintliga jobbroller</li> 
-        <li>Lägg till nya jobbroller</li> 
-        <li>Redigera rollfakturering och kostnadstariffer</li> 
-       </ul> <p><b>VIKTIGT</b>: Om du ger en Standard- eller Plan-användare administrativ åtkomst till jobbroller aktiveras inställningen Redigera rollfakturering och kostnadstariffer för finansiella data automatiskt för användaren. Om du senare inaktiverar administrativ åtkomst till jobbroller för Standard- eller Planera-användaren är jobbrollerna fortfarande synliga för användaren eftersom inställningen Redigera rollfakturering och kostnadstariffer fortfarande är aktiverad. Om detta inträffar och du måste ta bort användarens åtkomst för att kunna visa jobbroller, måste du inaktivera användarens behörighetsinställning Redigera rollfakturering och kostnadstariffer. Instruktioner finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Bevilja åtkomst till ekonomiska data</a>.</p> </td> 
-     </tr> 
+     </tr>
      <tr> 
       <td role="rowheader">Milstolpar i min grupp</td> 
       <td>Visa alla milstolpesökvägar i systemet under menyn Milstolpbanor i Konfigurera. Användare kan också redigera eller ta bort alla milstolpbanor som tillhör någon av deras grupper. Användare kan inte hantera (redigera eller ta bort) de milstolpbanor som inte är tilldelade någon av deras grupper.<br><p>Utan den här åtkomsten kan användare bara visa befintliga milstolpbanor och använda dem i projekt som de har tillgång till för att hantera.</p></td> 
@@ -133,3 +121,17 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    >[!NOTE]
    >
    >Du kan tillåta användare att ha administrativ åtkomst till användare. Mer information om hur du ger användare administrativ åtkomst till användare så att de kan hantera användarkonton finns i [Bevilja åtkomst till användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+
+
+<!--     
+     <tr> 
+      <td role="rowheader">Job roles</td> 
+      <td> <p><b>NOTE</b>: In the Preview environment, access to job roles is controlled as an object type in the access level. See <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-job-roles.md">Grant access to job roles</a>.</p>
+      <p>With this access, the user is allowed to do the following:</p> 
+       <ul> 
+        <li>View and edit existing job roles</li> 
+        <li>Add new job roles</li> 
+        <li>Edit role billing and cost rates</li> 
+       </ul> <p><b>IMPORTANT</b>: If you grant a Standard or Plan user administrative access to job roles, the Financial Data access setting Edit Role Billing &amp; Cost Rates is enabled for the user automatically. Later, if you disable administrative access to job roles for the Standard or Plan user, job roles are still visible to the user because the Edit Role Billing &amp; Cost Rates setting is still enabled. If this happens and you need to remove the user's access to view job roles, you need to disable the user's Edit Role Billing &amp; Cost Rates permission setting. For instructions, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Grant access to financial data</a>.</p> </td> 
+     </tr>
+-->

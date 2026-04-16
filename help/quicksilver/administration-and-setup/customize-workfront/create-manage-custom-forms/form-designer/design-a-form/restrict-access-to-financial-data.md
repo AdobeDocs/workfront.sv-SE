@@ -7,17 +7,15 @@ description: När du skapar ett anpassat fält kan du definiera valfria inställ
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 5cdaccd9381b02f183b837208eaac4389b0b7a24
+exl-id: 3380cce6-8372-43c0-8520-473442ea0eb4
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 0%
 
 ---
 
-
 # Begränsa åtkomst till ekonomiska data i anpassade fält
-
-{{highlighted-preview-article-level}}
 
 När du skapar ett anpassat fält kan du definiera valfria inställningar för att begränsa åtkomsten till ekonomiska data. På så sätt kan användare som har vissa behörigheter angivna i åtkomstnivåer se data och de hindras från att se ekonomiska data som de inte ska ha tillgång till.
 
@@ -119,4 +117,3 @@ När användaren visar projekten i en lista eller rapport:
 När du exporterar projektinformation visas samma värden för ekonomiska fält (eller tomma fält) som i listan.
 
 När du gruppredigerar båda projekten visas fakturerings- och finansfälten som skrivskyddade och kostnadsfälten visar inget.
-

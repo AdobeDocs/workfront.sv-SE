@@ -6,7 +6,8 @@ title: Definiera en övertidskvot
 description: Du kan definiera en övertidskvot för en uppgift om du vill justera beräkningen av den planerade intäkten för aktivitetstilldelningarna.
 author: Lisa
 feature: Work Management
-source-git-commit: bf8dcc9dfa9697c8d212072bb511c57aa01e7529
+exl-id: 832d3aab-3e09-4d83-91a6-be0145ce3554
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -14,8 +15,6 @@ ht-degree: 0%
 ---
 
 # Definiera en övertidskvot
-
-{{highlighted-preview-article-level}}
 
 När en övertidskvot läggs till i en uppgift används den på alla tilldelningar i aktiviteten. Den multiplicerar alla planerade timmar för den uppgiften och påverkar beräkningarna av den planerade intäkten.
 
@@ -87,4 +86,3 @@ Fältet **Övertidsförhållande** måste vara aktiverat i layoutmallen.
 1. Klicka på **Uppgiftsinformation** i den vänstra panelen.
 1. I området **Ekonomi** anger du multiplikatorn för övertid i fältet **Övertidsförhållande**.
 1. Klicka på **Spara ändringar**.
-

@@ -6,7 +6,7 @@ description: Som projektledare kan du konfigurera ett projekt så att det använ
 author: Lisa
 feature: Work Management
 exl-id: c496fe92-5c17-41a5-972b-1c063643bde3
-source-git-commit: b16523bf6c37747702efe3b5ecfcc33801526af1
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 * Om du inte anger en annan valuta för ett projekt antar Workfront att projektets valuta är systemets standardvaluta. Mer information om standardvaluta på systemnivå finns i [Konfigurera valutakurser](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 * Som standard har alla användare med full licens tillgång till valutor och valutakurser. Workfront-administratören måste bevilja ytterligare administrativ åtkomst för **valutakurser** för att användare ska kunna ange specifika priser för projekt.
 * Valutakurserna i Workfront är inte dynamiska. Värdet anges av en administratör och måste uppdateras när växelkursändringar inträffar.
-* <span class="preview">Om giltighetsdatum används för en valuta och dess valutakurser kan växelkursen ändras under projektets livstid. Mer information om aktuella valutakurser finns i [Konfigurera valutakurser](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).</span>
+* Om gällande datum tillämpas på en valuta och dess växelkurser kan växelkursen ändras under projektets löptid. Mer information om aktuella valutakurser finns i [Ställa in valutakurser](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 * När du skapar en rapport som återspeglar valutan i ett projekt grupperas alla rapporter som standard efter projektets standardvaluta. Om du skapar en rapport med flera projekt som har olika valutakurser, återspeglar alla grupperingar som används i projektet standardväxelkursen på systemnivå. Mer information finns i artikeln [Skapa rapporter om finansiella data med unika valutakurser](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 
 ## Konfigurera valutan för ett projekt
@@ -79,6 +79,6 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
    >[!NOTE]
    >
-   ><span class="preview">Om inställningen **Använd datumeffektiva valutakurser från systemet** är aktiverad för det här projektet tillåts inte valutakursåsidosättningar. Mer information finns i [Redigera projekt](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).</span>
+   >Om inställningen **Använd datumeffektiva valutakurser från systemet** är aktiverad för det här projektet tillåts inte åsidosättningar av valutakurser. Mer information finns i [Redigera projekt](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
 1. Klicka på **Spara ändringar**.

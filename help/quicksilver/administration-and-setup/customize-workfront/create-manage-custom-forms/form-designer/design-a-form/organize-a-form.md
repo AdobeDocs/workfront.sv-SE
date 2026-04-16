@@ -10,16 +10,14 @@ role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1351'
 ht-degree: 0%
 
 ---
 
 # Ordna och förhandsgranska ett formulär
-
-{{preview-fast-release-general}}
 
 Du kan ordna ett anpassat formulär med formulärdesignern och förhandsgranska det för att kontrollera att det är korrekt konfigurerat.
 
@@ -85,8 +83,8 @@ Mer information om anpassade fält och widgetar i anpassade formulär finns i [S
       <td role="rowheader">Beskrivning</td> 
       <td>Skriv text om du vill förklara för användarna vad avsnittet är till för. Detta visas under avsnittets etikett i det anpassade formuläret.</td> 
      </tr> 
-      <td><span class="preview">Komprimerad som standard</span></td>
-      <td><span class="preview">Som standard expanderas alla avsnitt i ett anpassat formulär när själva formuläret expanderas. Välj det här alternativet om du vill att avsnittet ska komprimeras som standard när en användare öppnar formuläret.</span></td>
+      <td>Komprimerad som standard</td>
+      <td>Som standard expanderas alla avsnitt i ett anpassat formulär när själva formuläret expanderas. Välj det här alternativet om du vill att avsnittet ska komprimeras som standard när en användare öppnar formuläret.</td>
      <tr>
      </tr>
      <tr> 
@@ -120,7 +118,7 @@ Mer information om anpassade fält och widgetar i anpassade formulär finns i [S
      </tr> 
      <tr> 
       <td role="rowheader"><p>Lägg till logik</p></td> 
-      <td><p>Använd visningslogik för att ange om avsnittet ska visas i formuläret, baserat på de val som användare gör i anpassade fält med flera val när de fyller i formuläret.</p><p><strong>Obs!</strong> Om alla enskilda fält under en avsnittsbrytning har visningslogik tillämpad på dem och alla är dolda som ett resultat av logiken, döljs hela avsnittet i det anpassade formuläret. Detta inträffar även om visningslogik inte används för avsnittsbrytningen.</p><p>Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">Lägga till visningslogik och hoppa över logik med formulärdesignern</a>.</p></td> 
+      <td><p>Använd visningslogik för att ange om avsnittet ska visas i formuläret, baserat på de val som användare gör i anpassade fält med flera val när de fyller i formuläret.</p><p><strong>Obs!</strong> Om alla enskilda fält under en avsnittsbrytning har visningslogik tillämpad på dem och alla är dolda som ett resultat av logiken, döljs hela avsnittet i det anpassade formuläret. Detta inträffar även om visningslogik inte används för avsnittsbrytningen.</p><p>Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">Lägga till logiska regler i anpassade formulär och fält</a>.</p></td> 
      </tr> 
     </tbody> 
    </table>

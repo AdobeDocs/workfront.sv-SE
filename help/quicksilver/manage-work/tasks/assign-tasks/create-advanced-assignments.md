@@ -9,7 +9,7 @@ role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 676cd1697ae2f379a699075f4e1ab06886c6837a
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
 source-wordcount: '3415'
 ht-degree: 0%
@@ -17,8 +17,6 @@ ht-degree: 0%
 ---
 
 # Skapa avancerade uppdrag
-
-{{highlighted-preview}}
 
 <!-- Audited: 11/2025-->
 
@@ -43,8 +41,8 @@ Du kan justera följande uppdragsinformation när du gör avancerade uppdrag:
 * Justera och omfördela det antal timmar som varje tilldelad tilldelas.
 * Avgör vilken användare som ska utses till ägare eller primär tilldelad till uppgiften eller utgåvan.
 * Ange vilken roll varje användare ska ha när de arbetar med uppgiften eller problemet.
-* <span class="preview">Lägg till information om fakturering och kostnadstariff på tilldelningsnivå.</span>
-* <span class="preview">Granska följande information för varje tilldelning: planerade timmar, total kostnad och totala intäkter.</span>
+* Lägg till information om fakturering och kostnadstariff på tilldelningsnivå.
+* Granska följande information för varje tilldelning: planerade timmar, totalkostnad och totala intäkter.
 
 >[!NOTE]
 >
@@ -94,11 +92,17 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 +++
 
-<div class="preview">
-
 ## Skapa avancerade uppdrag - Ultimate-paket för arbetsflöde
 
 Den här layouten för avancerade uppdrag gäller endast för uppgifter. Mer information finns i [Skapa avancerade uppdrag - alla andra paket](#create-advanced-assignments--all-other-packages).
+
+<!--
+
+>[!NOTE]
+>
+>Use the experience switcher to choose between the old and new Advanced Assignments experiences. For information about the old experience, see [Create Advanced Assignments – all other packages](#create-advanced-assignments--all-other-packages), below.
+
+-->
 
 1. Gå till det projekt där du vill tilldela en uppgift.
 1. Klicka på **Åtgärder** eller **Problem** i den vänstra panelen och klicka sedan på namnet på en uppgift i listan.
@@ -106,7 +110,7 @@ Den här layouten för avancerade uppdrag gäller endast för uppgifter. Mer inf
    >[!TIP]
    >
    >Du kan göra avancerade uppdrag direkt i uppgiftslistan. Klicka i fältet **Uppdrag** på samma rad som uppgiften och klicka sedan på **Avancerat** längst ned i listan eller på ikonen **Personer** i det övre högra hörnet av uppdragsrutan för att öppna fönstret Avancerade uppdrag. Gå till steg 5 om du vill fortsätta skapa avancerade uppdrag.
-   >![Klicka på Avancerat eller på ikonen Personer &#x200B;](assets/access-aa-from-lists.png)
+   >![Klicka på Avancerat eller på ikonen Personer ](assets/access-aa-from-lists.png)
 
 1. Klicka på **Tilldela till** i fältet **Tilldelningar** i uppgiftens huvud
 
@@ -314,8 +318,6 @@ Du kan bara visa tilldelningsdata efter datum för en enskild användare eller r
 
    När du är klar med granskningen av data klickar du på pilen längst upp till vänster för att gå tillbaka till fönstret Avancerade uppdrag.
 
-</div>
-
 ## Skapa avancerade uppdrag - alla andra paket
 
 Den här layouten för avancerade uppdrag gäller för både uppgifter och ärenden.
@@ -326,7 +328,7 @@ Den här layouten för avancerade uppdrag gäller för både uppgifter och ären
    >[!TIP]
    >
    >Du kan göra avancerade uppdrag direkt i uppgifts- eller utleveranslistan. Klicka i fältet **Uppdrag** på samma rad som uppgiften eller utgåvan och klicka sedan på **Avancerat** längst ned i listan eller på ikonen **Personer** i det övre högra hörnet av uppdragsrutan för att öppna fönstret Avancerade uppdrag. Gå till steg 5 om du vill fortsätta skapa avancerade uppdrag.
-   >![Klicka på Avancerat eller på ikonen Personer &#x200B;](assets/access-aa-from-lists.png)
+   >![Klicka på Avancerat eller på ikonen Personer ](assets/access-aa-from-lists.png)
 
 1. Klicka på **Tilldela till** i fältet **Tilldelningar** i huvudet på uppgiften eller problemet
 

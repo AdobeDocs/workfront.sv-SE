@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: f490d72b46073786cc079eec0640a0b535533281
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 ---
 
 # Anpassa den vänstra panelen med en layoutmall
-
-{{highlighted-preview}}
 
 <!--Audited: 10/2024-->
 
@@ -140,9 +138,9 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
       <td>[!UICONTROL Projects]</td> 
      </tr> 
      <tr> 
-      <td><span class="preview">[!UICONTROL Resourcing]</span></td> 
-      <td><span class="preview">[!UICONTROL Resourcing] i [!UICONTROL Main Menu] <img src="assets/main-menu-icon-left-nav.png"></span></td> 
-      <td><span class="preview">[!UICONTROL Planner] (kan inte döljas), [!UICONTROL Workload Balancer], [!UICONTROL Utilization], [!UICONTROL Resource Pools]</span></td> 
+      <td>[!UICONTROL Resourcing]</td> 
+      <td>[!UICONTROL Resourcing] i [!UICONTROL Main Menu] <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>[!UICONTROL Planner] (kan inte döljas), [!UICONTROL Workload Balancer], [!UICONTROL Utilization], [!UICONTROL Resource Pools]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Requests]</td> 
@@ -175,19 +173,19 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
       <td>[!UICONTROL Stories], [!UICONTROL Issues], [!UICONTROL Story Board], [!UICONTROL Overview], [!UICONTROL Custom Forms], [!UICONTROL Updates] </td> 
      </tr> 
      <tr> 
-       <td><span class="preview">[!UICONTROL User Details]</span></td> 
-       <td><span class="preview">Namnet på en användare</span></td> 
-       <td><span class="preview">[!UICONTROL Details], [!UICONTROL Org Chart], [!UICONTROL Time Off], [!UICONTROL Custom Forms], [!UICONTROL Business Profiles], [!UICONTROL Updates], [!UICONTROL Workload Balancer]</span></td> 
+       <td>[!UICONTROL User Details]</td> 
+       <td>Namnet på en användare</td> 
+       <td>[!UICONTROL Details], [!UICONTROL Org Chart], [!UICONTROL Time Off], [!UICONTROL Custom Forms], [!UICONTROL Business Profiles], [!UICONTROL Updates], [!UICONTROL Workload Balancer]</td> 
      </tr>
      <tr> 
-       <td><span class="preview">[!UICONTROL Rate Card]</span></td> 
-       <td><span class="preview">Namnet på ett tariffkort</span></td> 
-       <td><span class="preview">[!UICONTROL Job Roles and Rates] (kan inte döljas), [!UICONTROL Rate Card Details]</span></td> 
+       <td>[!UICONTROL Rate Card]</td> 
+       <td>Namnet på ett tariffkort</td> 
+       <td>[!UICONTROL Job Roles and Rates] (kan inte döljas), [!UICONTROL Rate Card Details]</td> 
      </tr>
      <tr> 
-       <td><span class="preview">[!UICONTROL Group]</span></td> 
-       <td><span class="preview">Namnet på en grupp</span></td> 
-       <td><span class="preview">[!UICONTROL Group Members], [!UICONTROL Subgroup Members], [!UICONTROL Group Details], [!UICONTROL Project Preferences], [!UICONTROL Tasks & Issues Preferences], [!UICONTROL Timesheets & Hours], [!UICONTROL Subgroups], [!UICONTROL Statuses], [!UICONTROL Event Notifications], [!UICONTROL Portfolios], [!UICONTROL Programs], [!UICONTROL Projects], [!UICONTROL Templates], [!UICONTROL Recently Deleted], [!UICONTROL Recently Restored], [!UICONTROL Approvals], [!UICONTROL Companies], [!UICONTROL Teams], [!UICONTROL Schedules], [!UICONTROL Timesheet Profiles], [!UICONTROL Layout Templates]</span></td> 
+       <td>[!UICONTROL Group]</td> 
+       <td>Namnet på en grupp</td> 
+       <td>[!UICONTROL Group Members], [!UICONTROL Subgroup Members], [!UICONTROL Group Details], [!UICONTROL Project Preferences], [!UICONTROL Tasks & Issues Preferences], [!UICONTROL Timesheets & Hours], [!UICONTROL Subgroups], [!UICONTROL Statuses], [!UICONTROL Event Notifications], [!UICONTROL Portfolios], [!UICONTROL Programs], [!UICONTROL Projects], [!UICONTROL Templates], [!UICONTROL Recently Deleted], [!UICONTROL Recently Restored], [!UICONTROL Approvals], [!UICONTROL Companies], [!UICONTROL Teams], [!UICONTROL Schedules], [!UICONTROL Timesheet Profiles], [!UICONTROL Layout Templates]</td> 
      </tr>
      <!--
       <tr> 
@@ -213,7 +211,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 1. Gör något av följande i listan **[!UICONTROL Left panel]** för att avgöra vad användare kommer att se i den vänstra panelen för det [!DNL Workfront] -område eller den objekttyp som du har valt:
 
-   * Klicka på ikonerna **Visa** ![Visa &#x200B;](assets/add-secondary-nav-item.png) eller **Dölj** ![Dölj ikon](assets/delete-secondary-nav-item.png) om du vill visa eller dölja avsnitt i den vänstra panelen. Du kan inte dölja objekt som inte har en **Visa**- eller **Dölj**-ikon.
+   * Klicka på ikonerna **Visa** ![Visa ](assets/add-secondary-nav-item.png) eller **Dölj** ![Dölj ikon](assets/delete-secondary-nav-item.png) om du vill visa eller dölja avsnitt i den vänstra panelen. Du kan inte dölja objekt som inte har en **Visa**- eller **Dölj**-ikon.
 
    * Dra objekt ![Flytta ikon](assets/move-icon---dots.png) om du vill ändra deras ordning på den vänstra panelen.
 

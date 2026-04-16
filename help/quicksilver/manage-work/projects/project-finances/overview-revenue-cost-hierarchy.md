@@ -7,7 +7,7 @@ description: I den här artikeln beskrivs den stegvisa processen för att fastst
 author: Lisa
 feature: Work Management
 exl-id: 623828fb-e1ac-4cae-8b9f-567a6f8cb7ae
-source-git-commit: 3a194bc2b2707c7b7e1cd5edffc3dd5ab43e91b3
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '3604'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # Översikt över intäkter och kostnadshierarki
-
-{{highlighted-preview-article-level}}
 
 {{ultimate-package}}
 

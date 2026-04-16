@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 59a9725e7697a81be2a827a902ee3d23085a2ecd
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,15 @@ ht-degree: 0%
 
 # Skapa och hantera vyer i området Förfrågningar
 
-<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-Om du använder den nya begärandeupplevelsen i Adobe Workfront kan du skapa och spara vyer för området Förfrågningar. De här vyerna innehåller filter, kolumnuppsättningar <span class="preview"> och grupperingar.</span>
+-->
 
+Om du använder den nya begärandeupplevelsen i Adobe Workfront kan du skapa och spara vyer för området Förfrågningar. De här vyerna innehåller filter, kolumnuppställningar och grupperingar.
 
 >[!IMPORTANT]
 >
@@ -71,13 +73,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 +++
 
-<div class="preview">
-
 ## Systemvyer för begäranden
-
->[!NOTE]
->
->Systemvyer kanske inte är tillgängliga i förhandsvisningsmiljön. De kommer att vara tillgängliga i Production för alla kunder den 16 april 2026.
 
 Förutom de vyer du kan skapa själv erbjuder Workfront följande systemvyer för området Förfrågningar och widgeten Mina förfrågningar i Hem:
 
@@ -88,8 +84,6 @@ Förutom de vyer du kan skapa själv erbjuder Workfront följande systemvyer fö
 * **Öppna begäranden**: Begäranden som du eller någon annan har skickat i köer eller för arbetsytor som du har behörighet att visa som fortfarande är öppna. Detta är inte tillgängligt för widgeten Mina förfrågningar.
 
 Du kan inte redigera systemvyer. Du kan ändra elementen i dem och sedan kopiera vyn och redigera eller dela kopian.
-
-</div>
 
 ## Skapa en vy för begäranden
 
@@ -128,14 +122,9 @@ Genom att redigera en vy kan du ändra följande element i vyn:
 * Namn
 * Filter
 * Kolumner
-
-<div class="preview">
-
 * Gruppering
 * Formatera celler
 * Radhöjd
-
-</div>
 
 Mer information finns i [Använd förbättrade listor](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
@@ -191,7 +180,7 @@ hide these details - all the information is in "Use enhanced lists" - we need on
 >[!IMPORTANT]
 >
 > * Ändringar av vyer sparas automatiskt.
-> * Ändringar av vyer är bara synliga för alla som använder vyn <span class="preview">när du delar en ny kopia av vyn efter att du har ändrat den.</span>
+> * Ändringar av vyer är bara synliga för alla som använder vyn när du delar en ny kopia av vyn efter att du har ändrat den.
 > * Använd jokertecknet **Jag (inloggad användare)** i alla fält där användare har värdet.
 
 ## Lägga till vyn med förfrågningar i en layoutmall
@@ -206,9 +195,9 @@ Du kan dela vyer som du skapar med andra användare, team, grupper eller företa
 
 När du har delat en vy kan andra användare visa de uppdaterade vyelementen som du har redigerat för vyn innan de delar den.
 
-<span class="preview">Om de uppdaterar vyn visas inte ändringarna för andra, såvida de inte kopierar samma vy och behåller ändringarna innan de delar kopian.
+Om de uppdaterar vyn visas inte ändringarna för andra, såvida de inte kopierar samma vy och behåller ändringarna innan de delar kopian.
 
-Mer information finns i [Använd förbättrade listor](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+Mer information finns i [Använd förbättrade listor](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 <!--
 Let's just redirect to Use enhanced lists so we avoid duplicating information. 

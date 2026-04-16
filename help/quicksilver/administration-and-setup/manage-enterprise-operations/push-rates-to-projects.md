@@ -7,7 +7,8 @@ description: Ett tariffkort representerar det avtalsavtal med kunden där timtax
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 38441ec5ae6fd8cf5c79f939403d5966c5616c98
+exl-id: c38e60dd-7fb2-4afc-976a-b0966398c162
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 0%
@@ -15,8 +16,6 @@ ht-degree: 0%
 ---
 
 # Justera hastighetsändringar i projekt
-
-{{highlighted-preview-article-level}}
 
 När ett tariffkort är kopplat till ett projekt <!--or a staffing plan--> kan tarifferna på tariffkortet fortfarande justeras. Sedan kan du om du vill skicka dessa frekvenser till projekten <!--and staffing plans --> som tariffkortet är kopplat till. Om du inte flyttar de nya tarifferna kommer de ursprungliga priserna att finnas kvar i projektet <!-- or staffing plan-->.
 

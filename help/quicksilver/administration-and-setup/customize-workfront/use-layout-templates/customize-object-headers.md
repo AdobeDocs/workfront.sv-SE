@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 3a194bc2b2707c7b7e1cd5edffc3dd5ab43e91b3
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 0%
@@ -17,13 +17,11 @@ ht-degree: 0%
 
 # Anpassa objektrubriker med hjälp av en layoutmall
 
-{{highlighted-preview}}
-
 Som Adobe Workfront-administratör eller gruppadministratör kan du använda en layoutmall för att konfigurera de fält som användarna ser i objekthuvudet när de öppnar ett objekts sida.
 
 >[!IMPORTANT]
 >
->Det går för närvarande att anpassa objektrubriker för projekt, uppgifter, utgåvor, <span class="preview">portföljer, program, mallar, faktureringsposter, team, användare, företag, grupper och kurskort.</span>
+>Det går för närvarande att anpassa objektrubriker för projekt, uppgifter, utgåvor, portfolior, program, mallar, faktureringsposter, team, användare, företag, grupper och kurskort.
 
 ![Objektrubrikfält](assets/object-header-fields.png)
 

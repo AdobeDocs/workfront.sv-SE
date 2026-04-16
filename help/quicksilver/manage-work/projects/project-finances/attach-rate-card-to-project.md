@@ -5,7 +5,7 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: 97c33c5a-e42d-4015-841f-69dc44a0599d
-source-git-commit: 58d3f084c343bcc404f30edd270017fa5f86eb58
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 0%
@@ -13,8 +13,6 @@ ht-degree: 0%
 ---
 
 # Koppla ett tariffkort till ett projekt
-
-{{highlighted-preview-article-level}}
 
 Hastighetskort lagrar flera faktureringsfrekvenser per jobbroll, baserat på attribut. Du kan till exempel ha en befattning som Designer baserad i Paris för byrå A, en annan Designer baserad i Paris för byrå B och en tredje Designer baserad i New York som inte tilldelats någon byrå, var och en med olika faktureringstaxor. Attribut krävs dock inte för jobbroller på ett tariffkort. Attributen fungerar som verktyg för att fastställa mer detaljerade frekvenser. En faktureringstaxa på ett betalkort kan också vara giltighetsdatum, så att priset börjar och slutar på angivna datum.
 

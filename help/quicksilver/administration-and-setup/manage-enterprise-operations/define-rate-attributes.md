@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d570ef6a-935f-4dd0-9c54-a480163ec9d8
-source-git-commit: 3a194bc2b2707c7b7e1cd5edffc3dd5ab43e91b3
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '1373'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 ---
 
 # Definiera tariffattribut
-
-{{highlighted-preview-article-level}}
 
 Graderingsattribut utökar Adobe Workfront funktion för hastighetskort och tariffer genom att göra det möjligt att lägga till ytterligare dimensioner till hastigheter utöver jobbrollen. Detta är viktigt för myndigheter och företag där priset inte bara varierar beroende på befattningsroll utan även på faktorer som myndighet, plats, varumärke, kostnadsställe eller andra.
 Genom att kombinera dessa attribut kan Workfront automatiskt välja rätt grad för tilldelningar, vilket garanterar att alla projekt är ekonomiskt korrekta och konsekventa.

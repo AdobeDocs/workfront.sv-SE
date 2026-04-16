@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -111,6 +111,10 @@ Take this piece out of the table above when we remove the new experience/ after 
 
    Du kan inte ändra allokeringsprocenten för ett team som tilldelats en aktivitet.
 
+   En av dessa skärmar kan visas beroende på din organisations Workfront- eller Workflow-paket.
+
    ![Ändra allokeringsprocent](assets/advanced-assignments-allocation-percentage.png)
+
+   ![Ändra allokeringsprocent](assets/new-aa-allocation-by-percentage.png)
 
 1. Klicka på **Spara**.
