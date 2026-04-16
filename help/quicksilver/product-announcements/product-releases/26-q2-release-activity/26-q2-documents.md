@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: b334e8b234c9c87dd1b1ecd26df6645b3381ffb0
+source-git-commit: 8d7cffd5b629b62ae3fbaf3bfddb86a05875acd9
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,27 @@ ht-degree: 0%
 På den här sidan beskrivs de dokumentförbättringar som gjorts i den andra utgåvan av kvartalet 2026 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den andra utgåvan av kvartal 2026 finns i [Översikt över den andra utgåvan av kvartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Upptäck och återanvänd material snabbare med Content Advisor för AEM Assets i Workfront
+
+>[!NOTE]
+>
+>Förhandsgranska: 16 april 2026
+>Production fast release: 16 april 2026
+>Produktion för alla: 16 april 2026
+
+Content Advisor finns nu i Workfront tack vare integreringen med Adobe Experience Manager Assets, vilket gör det enklare för team att upptäcka och återanvända befintligt värdefullt innehåll.
+
+Med Content Advisor kan du
+
+* Upptäck innehåll med smarta förslag eller korta kampanjdetaljer
+* snabbt bedöma innehållets lämplighet genom att granska nyckeldetaljerna före återanvändning
+* Upptäck och återanvänd innehållsfragment
+* Utforska samlingar för att identifiera relaterat varumärkesrelaterat innehåll
+
+Integrationen hjälper team att minska antalet kopior av material, snabba upp exekveringen och maximera värdet av befintligt AEM-material - direkt i Workfront.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3483142/)
 
 ## GenStudio Foundations Provisioning har stöd för AI-samarbetspartners
 

@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 72130462-ae78-4b9b-ae18-848602d4a858
-source-git-commit: c0cb423c73a6b0e982081ae67ffef6316b03db7f
+source-git-commit: 855ff527d54fa7212555675bf2d89466384b59ca
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1366'
 ht-degree: 0%
 
 ---
@@ -192,4 +192,23 @@ Workfront-administratörer kan nu konfigurera affärsregler för att automatiser
 Mer information finns i [Skapa och redigera affärsregler](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
 
 [Visa en videodemonstration av förbättringarna av affärsreglerna.](https://video.tv.adobe.com/v/3483247/){target="_blank"}
+
+
+### Tillåtna mellanrum för datumgällande kurser
+
+>[!NOTE]
+>
+>Den här funktionen är tillgänglig för organisationer på alla Workfront- och Workflow-paket.
+>Observera att kurskort endast är tillgängliga för organisationer i Workflow Ultimate-paketet.
+
+Med Workfront kan du lämna luckor mellan datumintervall för fakturering och kostnadstariffer, men du får en varning som bekräftar att detta är avsiktligt.
+
+Det kan finnas luckor mellan datumintervallen när det finns hastigheter:
+
+* Kurser för en jobbroll
+* Kurser för en användarprofil
+* Kurser på ett tariffkort
+* När någon av dessa frekvenser åsidosätts på projektnivå
+
+Mer information finns i [Skapa och hantera jobbroller](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md), [Redigera en användares profil](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) och [Hantera tariffkort](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
 
