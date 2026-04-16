@@ -6,9 +6,9 @@ description: Åsidosätt faktureringstariffer på projektnivå med faktureringst
 author: Lisa
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: f8e869f1ce8127d6ee095a58c84a94915df3acab
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Du kan konfigurera ett projekt så att det använder faktureringstariffer på f�
   </tr> 
   <tr> 
    <td>Objektbehörigheter</td> 
-   <td>Hantera behörigheter till projektet med behörigheter för att hantera ekonomi</td> 
+   <td>Hantera behörigheter till projektet med behörighet att redigera faktureringstariffer och allmänna finanser</td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,7 +61,7 @@ När ett företag är associerat med ett projekt och det här alternativet är a
 När en användare manuellt beräknar om budgeten för projektet tillämpas eventuella ändringar av faktureringstarifferna på företagsnivå. Historiska intäktsberäkningar åsidosätts också såvida de inte markeras som fakturerade.
 
 1. Gå till ett projekt.
-1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/qs-more-icon-on-an-object.png) bredvid namnet på projektet i sidhuvudet och klicka sedan på **Redigera**.
+1. Klicka på menyn **Mer** ![Mer ](assets/qs-more-icon-on-an-object.png) bredvid namnet på projektet i sidhuvudet och klicka sedan på **Redigera**.
 1. I avsnittet **Ekonomi** aktiverar du alternativet **Tillåt faktureringstariffer på företagsnivå för att åsidosätta faktureringstariffer på projektnivå**.
 
    >[!CAUTION]

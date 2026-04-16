@@ -2,22 +2,20 @@
 product-area: projects
 navigation-topic: financials
 title: Åsidosätt faktureringshastigheter för jobbroller på projektnivå
-description: Som projektledare kan du ange faktureringssatsen för en jobbroll i ett visst projekt. Den här faktureringsnivån på projektnivå åsidosätter faktureringsnivån på systemnivån för den här jobbrollen. Workfront använder faktureringssatsen på projektnivå för jobbrollen för att beräkna intäkten, i stället för att använda faktureringssatsen på systemnivå.
+description: I den här artikeln beskrivs hur du kan åsidosätta faktureringstaxorna för systemjobbroller för ett projekt.
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
 
 # Åsidosätt faktureringshastigheter för jobbroller på projektnivå
-
-{{highlighted-preview}}
 
 Som projektledare kan du ange faktureringssatsen för en jobbroll i ett visst projekt. Den här faktureringsnivån på projektnivå åsidosätter faktureringsnivån på systemnivån för den här jobbrollen. Workfront använder faktureringssatsen på projektnivå för jobbrollen för att beräkna intäkten, i stället för att använda faktureringssatsen på systemnivå.
 
@@ -56,7 +54,7 @@ Mer information om vilken jobbroll som används för att beräkna intäkter för
   </tr> 
   <tr> 
    <td>Objektbehörigheter</td> 
-   <td>Hantera behörigheter för det projekt som innehåller Redigera ekonomiska data </td> 
+   <td>Hantera behörigheter till det projekt som innehåller Redigera faktureringstariffer </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,21 +80,17 @@ Så här åsidosätter du en faktureringstaxa för ett projekt:
 
    eller
 
-   <span class="preview">Klicka på **Kurser** i den vänstra panelen och klicka på fliken **Fakturering** om den inte redan är markerad.</span>
+   Klicka på **Priser** i den vänstra panelen och klicka på fliken **Fakturering** om den inte redan är markerad.
 
-1. Klicka på **Lägg till faktureringsränta** > **Ny faktureringsränta**.
-
-   eller
-
-   <span class="preview">Klicka på **Lägg till faktureringsfrekvens > Ny faktureringsfrekvens för jobbroll**.</span>
+1. Klicka på **Lägg till faktureringsfrekvens > Ny faktureringsfrekvens för jobbroll**.
 
    Rutan Ny faktureringsränta öppnas.
 
 1. I fältet **Jobbroll** väljer du den jobbroll du vill ändra faktureringsfrekvensen för.
 
-1. <span class="preview">(Valfritt) Välj eventuella attribut för faktureringsfrekvensen, till exempel byrå eller plats.</span>
+1. (Valfritt) Välj eventuella attribut för faktureringstaxan, t.ex. byrå eller plats.
 
-   <span class="preview">Systemadministratören definierar tariffattribut i inställningsområdet.</span>
+   Systemadministratören definierar hastighetsattribut under Konfigurera.
 
 1. Välj **Valuta** för åsidosättning av faktureringsfrekvens.
 1. I fältet **Faktureringsgrad** anger du åsidosättning av faktureringsfrekvens och klickar sedan på **Spara** för att åsidosätta faktureringssatsen en gång

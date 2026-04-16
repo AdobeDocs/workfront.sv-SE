@@ -7,9 +7,9 @@ description: Din Adobe Workfront-administratör kan ge dig åtkomst till att vis
 author: Courtney
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: ddaecaf65fc7080e27ae67d6c8f4980586f1241e
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -169,6 +169,12 @@ I följande tabell visas vilka behörigheter du kan ge användarna när de får 
 | Lägg till uppdateringar/kommentarer | ✓ | ✓ |
 | Dela | ✓ | ✓ |
 | Dela hela systemet |   | ✓ |
+| Redigera faktureringstariffer &#42; | ✓ |   |
+| Redigera kostnadstariffer&#42; | ✓ |   |
+| Redigera allmän ekonomi &#42; | ✓ |   |
+| Visa faktureringstariffer &#42; | ✓ | ✓ |
+| Visa kostnadstariffer&#42; | ✓ | ✓ |
+| Visa allmän ekonomi &#42; | ✓ | ✓ |
 
 *Dessa behörigheter styrs av åtkomstnivån och behörigheterna för andra objekt, som projekt.
 

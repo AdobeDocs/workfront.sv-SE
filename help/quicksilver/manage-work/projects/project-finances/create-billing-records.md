@@ -5,9 +5,9 @@ description: Förutom att ställa in intäkter och spåra utgifter kan du skapa 
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
+source-git-commit: f8e869f1ce8127d6ee095a58c84a94915df3acab
 workflow-type: tm+mt
-source-wordcount: '1633'
+source-wordcount: '1637'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Du kan inte skapa faktureringsposter för uppgifter. Du kan bara skapa faktureri
   </tr> 
   <tr> 
    <td>Objektbehörigheter</td> 
-   <td>Hantera behörigheter till projektet med behörigheter för att hantera ekonomi</td> 
+   <td>Hantera behörigheter till projektet med behörighet att redigera faktureringstariffer och allmänna finanser</td> 
   </tr> 
  </tbody> 
 </table>

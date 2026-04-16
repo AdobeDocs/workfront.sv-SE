@@ -6,9 +6,9 @@ description: Ekonomer beräknas för ett projekt i takt med att förändringar s
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1632'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Ekonomer beräknas för ett projekt i takt med att förändringar sker i de timm
   </tr> 
   <tr> 
    <td>Objektbehörigheter</td> 
-   <td>Hantera behörigheter till projektet med behörigheter för att hantera ekonomi</td> 
+   <td>Hantera behörigheter för projektet med behörigheter för att redigera kostnadstariffer, redigera faktureringstariffer och redigera allmän ekonomi</td> 
   </tr> 
  </tbody> 
 </table>
@@ -79,21 +79,24 @@ När ekonomiska data för ett projekt beräknas om beräknar Workfront retroakti
 
 Inkomstnivåerna kan ändras under ett projekts hela livstid.
 
-Mer information om faktureringstariffer och intäkter finns i artikeln [Översikt över fakturering och intäkter](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Mer information om faktureringstariffer och intäkter finns i [Översikt över fakturering och intäkter](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 Inkomstnivåerna kan ändras på följande nivåer:
 
 * Systemnivån (för jobbroller)\
-  Mer information om hur du skapar jobbroller med faktureringsfrekvenser på systemnivå finns i artikeln [Skapa och hantera jobbroller](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  Mer information om hur du skapar jobbroller med faktureringsfrekvenser på systemnivå finns i [Skapa och hantera jobbroller](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 * Användarnivån\
-  Mer information om hur du ändrar faktureringsinformation för användare finns i artikeln [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Mer information om hur du ändrar faktureringsinformation för användare finns i [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-* Företagsnivå (för jobbroller)\
+* Företagsnivån (för jobbroller)\
   Mer information finns i [Åsidosätta faktureringstariffer för jobbroller på företagsnivå](../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
-* Projektnivån (för jobbroller)\
-  Mer information om hur du åsidosätter rollfrekvenser för jobb på projektnivå finns i artikeln [Översikt över åsidosättande av faktureringsfrekvenser och beräkning av intäkter för ett projekt](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+* Hastighetskortsnivån
+Mer information om tariffkort finns i [Hantera tariffkort](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
+
+* Projektnivån (för jobbroller, användare och betygskort)\
+  Mer information om att åsidosätta tariffer på projektnivå finns i [Översikt över åsidosättande av faktureringstariffer och beräkning av intäkter för ett projekt](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 En användares faktureringstakt ändras till exempel under ett projekt från 50 till 75 USD per timme och du vill att alla befintliga data ska fortsätta att beräknas till den gamla avgiften ($50 och timme). När projektets ekonomi beräknas om kommer dock befintliga finansiella uppgifter att uppdateras för att återspegla den nya faktureringstakten (75 USD i timmen).
 
@@ -106,13 +109,13 @@ När faktureringspriserna ändras på någon nivå som nämns ovan kan du behål
 
 När du inte beräknar om ekonomin i projektet eller när du låser timmarna som är inloggade i en fakturerad faktureringspost, kommer timmarna som loggas efter prisändringen att beräknas med den nya avgiften, och timmarna som loggas innan kostnadstariffen ändras kommer att beräknas med den gamla kursen.
 
-Mer information om hur du skapar faktureringsposter finns i artikeln [Skapa faktureringsposter](../../../manage-work/projects/project-finances/create-billing-records.md).
+Mer information om hur du skapar faktureringsposter finns i [Skapa faktureringsposter](../../../manage-work/projects/project-finances/create-billing-records.md).
 
 #### Bevara projektintäkter genom att använda flera åsidosättningar av faktureringsgrad {#preserve-project-revenue-by-using-multiple-billing-rate-overrides}
 
 När faktureringstarifferna ändras för jobbroller på projektnivå kan du behålla befintliga intäkter som redan har beräknats i projektet genom att använda flera åsidosättningar av faktureringsfrekvenser som är låsta inom en angiven tidsram.
 
-Mer information om hur du använder flera åsidosättningar av faktureringssatser finns i artikeln [Översikt över åsidosättande av faktureringssatser och beräkning av intäkter för ett projekt](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Mer information om hur du använder flera åsidosättningar av faktureringstariffer finns i [Översikt över åsidosättande av faktureringstaxor och beräkning av intäkter för ett projekt](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 >[!NOTE]
 >
@@ -123,12 +126,15 @@ Mer information om hur du använder flera åsidosättningar av faktureringssatse
 Kostnadstarifferna kan ändras på följande nivåer:
 
 * Systemnivå (för jobbroller)\
-  Mer information om hur du skapar jobbroller med kostnadstariffer på systemnivå finns i artikeln [Skapa och hantera jobbroller](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  Mer information om hur du skapar jobbroller med kostnadstariffer på systemnivå finns i [Skapa och hantera jobbroller](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 * Användarnivå\
-  Mer information om hur du ändrar information om kostnadstariff för användare finns i artikeln [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Mer information om hur du ändrar information om kostnadstariff för användare finns i [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-När faktureringspriserna ändras på någon nivå som nämns ovan kan du behålla befintliga kostnader som redan har beräknats i projektet genom att låsa den tid som registrerats i projektet och beräkna med den gamla avgiften i en faktureringspost med statusen Fakturerad. Mer information om hur du skapar faktureringsposter finns i artikeln [Skapa faktureringsposter](../../../manage-work/projects/project-finances/create-billing-records.md).
+* Projektnivå (för användare)
+Mer information om hur du åsidosätter användarkostnader finns i [Åsidosätt användarkostnader på projektnivå](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md).
+
+När faktureringspriserna ändras på någon nivå som nämns ovan kan du behålla befintliga kostnader som redan har beräknats i projektet genom att låsa den tid som registrerats i projektet och beräkna med den gamla avgiften i en faktureringspost med statusen Fakturerad. Mer information om hur du skapar faktureringsposter finns i [Skapa faktureringsposter](../../../manage-work/projects/project-finances/create-billing-records.md).
 
 Du kan också undvika att använda alternativet för manuell omberäkning av ekonomi om du inte vill skapa en faktureringspost, vilket beskrivs i avsnittet [Beräkna finanser manuellt för ett projekt](#manually-recalculate-finances-for-a-project) i den här artikeln.
 
@@ -148,13 +154,13 @@ Du kan beräkna om ekonomin samtidigt som du redigerar dem i grupp. Mer informat
 
 1. Gå till projektet där du vill beräkna om ekonomin och klicka på ikonen **Mer** ![Mer meny](assets/qs-more-icon-on-an-object.png) till höger om projektnamnet.
 
-   ![Fler listrutor på projektnivå](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![Fler listrutor på projektnivå](assets/project-level-more-dropdown.png)
 
    eller
 
    Gå till en projektlista eller rapport och välj ett eller flera projekt och klicka sedan på ikonen **Mer** ![Mer-menyn](assets/qs-more-icon-on-an-object.png) överst i listan.
 
-   ![Beräkna om uttryck](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Beräkna om ekonomi](assets/recalculate-expressions-timeline-finance.png)
 
    >[!TIP]
    >
@@ -178,9 +184,9 @@ Du kan manuellt beräkna om ekonomin för flera projekt genom att redigera dem i
 Så här beräknar du om ekonomin för flera projekt manuellt:
 
 1. Gå till en lista med projekt.
-1. Markera flera projekt i listan och klicka sedan på ikonen **Mer** ![Mer &#x200B;](assets/qs-more-icon-on-an-object.png) överst i listan.
+1. Markera flera projekt i listan och klicka sedan på ikonen **Mer** ![Mer ](assets/qs-more-icon-on-an-object.png) överst i listan.
 
-   ![Beräkna om uttryck](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Beräkna om ekonomi](assets/recalculate-expressions-timeline-finance.png)
 
    >[!TIP]
    >

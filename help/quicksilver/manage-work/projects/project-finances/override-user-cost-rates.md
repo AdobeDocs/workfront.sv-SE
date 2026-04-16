@@ -6,16 +6,15 @@ title: Åsidosätt användarkostnadstariffer på projektnivå
 description: I den här artikeln beskrivs hur du kan åsidosätta systemets användarkostnader för ett projekt.
 author: Lisa
 feature: Work Management
-source-git-commit: cb21414992587c62c37580f156100f2b5b755e9b
+exl-id: ff1110fd-2d24-48a7-8000-712e551ca61a
+source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
 
 # Åsidosätt användarkostnadstariffer på projektnivå
-
-{{highlighted-preview-article-level}}
 
 Du kan ange kostnadsnivån för en användare i ett visst projekt. Kostnadsnivån på projektnivå åsidosätter kostnadsnivån på systemnivån för den här användaren. Workfront använder kostnadstariffen på projektnivå för jobbrollen för att beräkna kostnaden, i stället för att använda kostnadstariffen på systemnivå.
 
@@ -50,7 +49,7 @@ Mer information om hur du beräknar kostnader för projektet finns i [Översikt 
   </tr> 
   <tr> 
    <td>Objektbehörigheter</td> 
-   <td>Hantera behörigheter för det projekt som innehåller Redigera ekonomiska data </td> 
+   <td>Hantera behörigheter till projektet som innehåller Redigera kostnadsnivåer </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,7 +93,7 @@ Mer information finns i [Redigera en användares profil](/help/quicksilver/admin
 
    Workfront tillämpar rollfrekvensen för åsidosättningsjobb på de timmar som inträffar under dessa tidsramar när kostnaden för projektet beräknas.
 
-   Det ska inte finnas några mellanrum mellan tidsbildrutorna för två åsidosättningsfrekvenser. **Startdatum** för en åsidosättningsfrekvens ska vara dagen omedelbart efter **Slutdatum** för föregående åsidosättningsdatum.
+   I Workfront kan du lämna luckor mellan åsidosättandetidsramar, men du får en varning som bekräftar att detta är avsiktligt.
 
    Du behöver inte ange ett startdatum för den första åsidosättningsfrekvensen eller ett slutdatum för den senaste åsidosättningsfrekvensen.
 
@@ -107,5 +106,3 @@ Mer information finns i [Redigera en användares profil](/help/quicksilver/admin
    Om en timme loggas efter projektets planerade slutförandedatum används den sista kostnadstariffen.
 
 1. Klicka på **Spara**.
-
-

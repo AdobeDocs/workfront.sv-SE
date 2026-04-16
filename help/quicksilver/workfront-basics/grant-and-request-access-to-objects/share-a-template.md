@@ -6,9 +6,9 @@ description: Som Adobe Workfront-administratör kan du ge användare åtkomst ti
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Tabellen nedan visar vilka behörigheter du kan ge användarna när de får visa
  <col> 
  <thead> 
   <tr> 
-   <th>Åtgärder</th> 
+   <th>Instruktioner</th> 
    <th>Hantera</th> 
    <th>Visa</th> 
   </tr> 
@@ -147,6 +147,36 @@ Tabellen nedan visar vilka behörigheter du kan ge användarna när de får visa
    <td>  </td> 
    <td>✓</td> 
   </tr> 
+  <tr> 
+   <td>Visa faktureringstariffer</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Visa kostnadstariffer</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Visa allmän finansiering</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Redigera faktureringstariffer</td> 
+   <td>✓</td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td>Redigera kostnadstariffer</td> 
+   <td>✓</td> 
+   <td>  </td> 
+  </tr>
+  <tr> 
+   <td>Redigera allmän ekonomi</td> 
+   <td>✓</td> 
+   <td>  </td> 
+  </tr>
   <tr data-mc-conditions=""> 
    <td> <p>Lägg till dokument</p> <p>Tips! Ibland lägger man till dokument i en projektmall som tror att de läggs till i ett projekt. Du kan förhindra detta för mottagarna genom att inaktivera den här inställningen.</p> </td> 
    <td>  </td> 

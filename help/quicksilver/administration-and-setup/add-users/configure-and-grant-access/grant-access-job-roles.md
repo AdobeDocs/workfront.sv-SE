@@ -1,20 +1,18 @@
 ---
 title: Bevilja åtkomst till jobbroller
 description: Som Adobe Workfront-administratör kan du definiera en användares åtkomst till jobbroller i Workfront via åtkomstnivån.
-author: Becky and Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a5ba79da-37f3-43f8-a7e2-4ccd75b56fef
-source-git-commit: c0cb423c73a6b0e982081ae67ffef6316b03db7f
+source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
 
 # Bevilja åtkomst till jobbroller
-
-{{highlighted-preview-article-level}}
 
 Som Adobe Workfront-administratör kan du definiera en användares åtkomst till jobbroller via användarens åtkomstnivå, vilket förklaras i [Översikt över åtkomstnivåer](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
@@ -59,14 +57,20 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
    ![Finjustera tillgången till jobbrollen](assets/job-role-access-view-fine-tune.png)
 
-   Användare med **Visa**-åtkomst kan visa befintliga jobbroller och eventuellt visa faktureringstariffer, kostnadstariffer och allmän ekonomi för jobbroller.
+   Användare med **Visa**-åtkomst kan visa befintliga jobbroller och kan göra följande om du vill:
+
+   * Visa faktureringstariffer för jobbroller
+   * Visa kostnadstariffer för jobbroller
+   * Visa allmänna finansfält (som inte är relaterade till fakturering eller kostnadstariffer) för jobbroller
 
    Användare med **Redigera**-åtkomst kan visa och redigera befintliga jobbroller och kan göra följande om du vill:
 
    * Skapa nya jobbroller
    * Ta bort jobbroller
-   * Visa faktureringstariffer, kostnadstariffer och allmänna finanser för jobbroller
-   * Redigera faktureringstariffer, kostnadstariffer och allmänna finanser för jobbroller
+   * Redigera faktureringstariffer för jobbroller
+   * Redigera kostnadstariffer för jobbroller
+   * Redigera allmänna finansfält (som inte är relaterade till fakturering eller kostnadstariffer) på jobbroller
+   * Visa faktureringstariffer, kostnadstariffer och allmänna finansområden för jobbroller
 
 1. (Valfritt) Om du vill konfigurera åtkomstinställningar för andra objekt och områden på den åtkomstnivå du arbetar med ska du fortsätta med en av artiklarna i [Konfigurera åtkomst till Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), till exempel [Bevilja åtkomst till aktiviteter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
 1. När du är klar klickar du på **Spara**.

@@ -4,9 +4,9 @@ description: Du kan dela en portfölj med andra användare om du har behörighet
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: ddaecaf65fc7080e27ae67d6c8f4980586f1241e
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -162,5 +162,11 @@ Tabellen nedan visar vilka behörigheter du kan ge användare när de får visa 
 | Uppdateringar/kommentarer | ✓ | ✓ |
 | Dela | ✓ | ✓ |
 | Dela hela systemet |   | ✓ |
+| Redigera faktureringstariffer &#42; | ✓ |   |
+| Redigera kostnadstariffer&#42; | ✓ |   |
+| Redigera allmän ekonomi &#42; | ✓ |   |
+| Visa faktureringstariffer &#42; | ✓ | ✓ |
+| Visa kostnadstariffer&#42; | ✓ | ✓ |
+| Visa allmän ekonomi &#42; | ✓ | ✓ |
 
 *Behörigheterna styrs av åtkomstnivån och behörigheterna för andra objekt, som projekt, program och dokument.

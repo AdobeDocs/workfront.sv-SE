@@ -6,9 +6,9 @@ description: Du kan visa eller redigera den ekonomiska informationen för ett pr
 author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '1275'
+source-wordcount: '1277'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Du kan visa eller redigera den ekonomiska informationen för ett projekt genom a
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa behörigheter till ett projekt eller högre som innehåller Visa finansiella behörigheter</p> <p>Hantera behörigheter till projektet som innehåller Hantera finans för att redigera finansiell information för projektet</p> </td> 
+   <td> <p>Visa behörigheter till ett projekt eller högre som innehåller Visa allmänna ekonomibehörigheter</p> <p>Hantera behörigheter till projektet som innehåller Redigera allmän finansiering för att redigera finansiell information för projektet</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -128,14 +128,6 @@ Tänk på följande när du visar eller redigerar information på finansområdet
      <tr> 
       <td role="rowheader">Fakturerad intäkt</td> 
       <td> <p>Inkomster som faktureras kunder eller andra parter och som anges i Faktureringsregister. Mer information om faktureringsposter finns i artikeln <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">Skapa faktureringsposter</a>. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"> </td> 
-      <td> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"> </td> 
-      <td> </td> 
      </tr> 
     </tbody> 
    </table>

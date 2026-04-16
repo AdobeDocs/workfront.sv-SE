@@ -8,16 +8,14 @@ feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '560'
 ht-degree: 0%
 
 ---
 
 # Dela ekonomiska behörigheter för ett objekt
-
-{{highlighted-preview}}
 
 Din Adobe Workfront-administratör kan ge dig åtkomst att visa eller redigera ekonomiska data när du tilldelar åtkomstnivån. Mer information finns i [Bevilja åtkomst till ekonomiska data](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
@@ -80,8 +78,7 @@ drafted for P&P:
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa behörigheter eller högre för projekt, uppgifter och utgåvor som innehåller minst Visa ekonomibehörigheter</p>
-   <p><span class="preview">Visa behörigheter eller högre för projekt, uppgifter och utgåvor som innehåller minst Visa faktureringstariffer, Visa kostnadstariffer eller Visa allmänna behörigheter för ekonomi</span></p></td> 
+   <td> Visa behörigheter eller högre för projekt, uppgifter och utgåvor som innehåller minst Visa faktureringstariffer, Visa kostnadstariffer och Visa allmänna behörigheter för ekonomi</td> 
   </tr> 
  </tbody> 
 </table>
@@ -96,6 +93,7 @@ Tänk på följande när du tilldelar ekonomiska behörigheter till objekt:
 
 * Du kan bevilja ekonomiska behörigheter för projekt, uppgifter och ärenden.
 * Behörigheter kan ärvas: om du har behörigheten Visa allmänna ekonomier för ett projekt ärver du automatiskt behörigheten Visa allmänna ekonomier för aktiviteterna och problemen i projektet.
+* Genom att bevilja behörigheter för fakturering och kostnadstariffer kan användaren visa eller redigera taxorna för det objektet. Tillstånd till allmän finansiering gör det möjligt för användaren att visa eller redigera allmänna ekonomiska områden (som inte är relaterade till fakturering eller kostnadstariffer) för objektet.
 
 Så här tilldelar du ekonomiska behörigheter till ett objekt:
 
@@ -116,10 +114,8 @@ Så här tilldelar du ekonomiska behörigheter till ett objekt:
 
 1. I samma nedrullningsbara meny klickar du på ikonen för avancerade alternativ bredvid behörighetsnivån och gör sedan något av följande:
 
-   * Om du valde något av de tre alternativen i föregående steg kontrollerar du att **Visa finansiering** är markerat.
-   * Om du valde **Hantera ekonomi** i föregående steg kontrollerar du att **Hantera ekonomi** är markerat.
-   * <span class="preview">För alla behörighetsnivåer väljer du **Visa faktureringstariffer**, **Visa kostnadstariffer** och **Visa allmänna ekonomiska resurser** efter behov.</span>
-   * <span class="preview">Välj **Redigera faktureringstariffer**, **Redigera kostnadstariffer** och **Redigera allmänna ekonomi** efter behov för endast **Hantera**-behörigheter.</span>
+   * Välj **Visa faktureringstariffer**, **Visa kostnadstariffer** och **Visa allmänna ekonomi** efter behov, för alla behörighetsnivåer.
+   * Välj **Redigera faktureringstariffer**, **Redigera kostnadstariffer** och **Redigera allmänna ekonomier** efter behov, endast för **Hantera**-behörigheter.
 
 1. Klicka på **Spara**.
 
@@ -148,55 +144,37 @@ Tabellen nedan visar vilka ekonomiska behörigheter användare får när du ger 
    <td>  </td> 
   </tr> 
   <tr> 
-   <td>Hantera/visa rollfakturering och kostnadstariffer</td> 
-   <td>✓</td> 
-   <td>  </td> 
-   <td>  </td> 
-  </tr> 
-  <tr> 
-   <td>Hantera/visa användarfakturering och kostnadstariffer</td> 
-   <td>✓</td> 
-   <td>  </td> 
-   <td>  </td> 
-  </tr> 
-  <tr> 
-   <td>Visa ekonomi</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>  ✓</td> 
-  </tr>
-  <tr> 
-   <td><span class="preview">Redigera faktureringstariffer</span></td> 
+   <td>Redigera faktureringstariffer</td> 
    <td>✓</td> 
    <td></td> 
    <td>  </td> 
   </tr> 
   <tr> 
-   <td><span class="preview">Redigera kostnadstariffer</span></td> 
+   <td>Redigera kostnadstariffer</td> 
    <td>✓</td> 
    <td></td> 
    <td>  </td> 
   </tr>  
   <tr> 
-   <td><span class="preview">Redigera allmän finansiering</span></td> 
+   <td>Redigera allmän finansiering</td> 
    <td>✓</td> 
    <td></td> 
    <td>  </td> 
   </tr>
   <tr> 
-   <td><span class="preview">Visa faktureringstariffer</span></td> 
+   <td>Visa faktureringstariffer</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 
   </tr> 
   <tr> 
-   <td><span class="preview">Visa kostnadstariffer</span></td> 
+   <td>Visa kostnadstariffer</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 
   </tr>  
   <tr> 
-   <td><span class="preview">Visa allmän finansiering</span></td> 
+   <td>Visa allmän finansiering</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 
@@ -225,3 +203,21 @@ Tabellen nedan visar vilka ekonomiska behörigheter användare får när du ger 
 &#42;Kräver ytterligare åtkomst till resurshanteringen.
 
 Mer information om åtkomst till resurshantering finns i [Bevilja åtkomst till resurshantering](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+
+<!--
+These rows removed from last table.
+
+  <tr> 
+   <td>Manage/ View Role Billing and Cost Rates</td> 
+   <td>✓</td> 
+   <td>  </td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td>Manage/ View User Billing and Cost Rates</td> 
+   <td>✓</td> 
+   <td>  </td> 
+   <td>  </td> 
+  </tr> 
+
+-->

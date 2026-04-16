@@ -6,9 +6,9 @@ description: Processen för att skapa och hantera utgifter är densamma för bå
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: f8e869f1ce8127d6ee095a58c84a94915df3acab
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Det totala beloppet för dina utgifter för alla uppgifter och projekt bidrar ti
   </tr> 
   <tr> 
    <td>Objektbehörigheter</td> 
-   <td>Contribute eller högre behörigheter för projektet, med behörighet att visa eller hantera ekonomi</td> 
+   <td>Contribute eller högre behörigheter för projektet, med behörighet att visa eller redigera allmän finansiering</td> 
   </tr> 
  </tbody> 
 </table>

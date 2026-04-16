@@ -6,9 +6,9 @@ description: Du kan dela eller ta bort behörigheter till ett objekt som du har 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
+source-git-commit: dec69522dd5f233bfabe84a9846b8e1246993a2a
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1353'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,8 @@ Du kan dela följande objekt i Workfront med andra användare:
    * [Dela en kalenderrapport](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
 * **Filter, vyer och grupperingar**: Mer information finns i [Dela ett filter, en vy eller en gruppering](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+
+* **Gradkort**: Mer information finns i [Dela ett tariffkort](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md).
 
 * **Planer**: Mer information finns i [Dela en plan i scenarioplanen](../../scenario-planner/share-a-plan.md).
 
@@ -118,7 +120,7 @@ Följande tabell visar behörighetsnivån som du kan välja när du delar ett ob
      <li><p>Visa objektet</p></li> 
      <li><p>Lägga till dokument i objektet</p></li> 
      <li><p>Lägg till problem i objektet (om det är en uppgift eller ett projekt)</p></li> 
-     <li><p>Visa ekonomisk information om objektet</p></li> 
+     <li><p>Visa kostnadstariffer, faktureringstariffer eller allmän ekonomisk information om objektet</p></li> 
      <li> <p>Dela objektet<br></p> <p>När du delar objektet kan du ge andra användare samma behörighetsnivå som du bara har på objektet, inte en högre nivå.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -140,7 +142,7 @@ Följande tabell visar behörighetsnivån som du kan välja när du delar ett ob
     <ul> 
      <li>Alla åtgärder som ingår i behörigheterna Visa och Contribute</li> 
      <li>Ta bort den</li> 
-     <li>Hantera finansiell information i den</li> 
+     <li>Hantera kostnadstariffer, faktureringstariffer eller information om allmänna finanser i den</li> 
     </ul> </td> 
   </tr> 
   <tr> 

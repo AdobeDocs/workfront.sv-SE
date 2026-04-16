@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 09bbb257a80c3f85abea9d238900d63c493fea2e
+source-git-commit: fbc8024269aa91370f2a93ace6b7f07679c7f37d
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%
@@ -19,8 +19,6 @@ ht-degree: 0%
 # Tillgång till objekt och områden med hjälp av licenser
 
 <!-- Audited: 2/2024 -->
-
-{{highlighted-preview}}
 
 >[!NOTE]
 >
@@ -107,7 +105,7 @@ Tabellen nedan visar den högsta åtkomstnivån (Redigera eller Visa) som var oc
         <td>Visa</td>
     </tr>
     <tr>
-        <td><span class="preview">Jobbroller</span></td>
+        <td>Jobbroller</td>
         <td>Redigera</td>
         <td>Visa</td>
         <td>Visa</td>
@@ -149,7 +147,7 @@ Tabellen nedan visar den högsta åtkomstnivån (Redigera eller Visa) som var oc
         <td>Ingen åtkomst</td>
     </tr>
     <tr>
-        <td><span class="preview">Kreditkort</span></td>
+        <td>Kreditkort</td>
         <td>Redigera</td>
         <td>Visa</td>
         <td>Ingen åtkomst</td>
