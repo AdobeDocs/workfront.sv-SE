@@ -8,9 +8,9 @@ author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 8aad1efc-1a91-441a-8bb8-0ce9429492c6
-source-git-commit: 5d818b2e3c3314c6af076df46f7f806214f97bab
+source-git-commit: ac3534cde15da84ae12f577b05eced88f74068e7
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,8 @@ ht-degree: 0%
 <!-- Audited: 4/2025 -->
 
 * [Översikt över Adobe Experience Manager Assets integreringar](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
-* [Länka resurser och mappar från Experience Manager Assets eller Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
+* [Länka resurser och mappar med Experience Manager Assets Content Advisor](../../documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
+* [Länka resurser och mappar från Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md)
 * [Visa mappade metadata för Experience Manager Assets eller Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)
 * [Skicka ett dokument till Experience Manager Assets eller Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
 * [Korrektur för en länkad resurs för Experience Manager Assets eller Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
