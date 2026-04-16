@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
+source-git-commit: 3e76f4a798a55a674a5ada2661c4b6bbb55195f2
 workflow-type: tm+mt
 source-wordcount: '1302'
 ht-degree: 0%
@@ -16,9 +16,6 @@ ht-degree: 0%
 ---
 
 # Skapa en tabellrapport på en Canvas Dashboard
-
-{{highlighted-preview}}
-
 
 >[!IMPORTANT]
 >
@@ -100,13 +97,11 @@ Det finns många konfigurationsalternativ för att skapa en tabellrapport. I det
 
    1. Ange en rapport **Beskrivning**.
 
-   1. <span class="preview">(Valfritt) I fältet **Kör den här rapporten med åtkomsträttigheter för** börjar du skriva namnet på den användare vars behörigheter du vill att rapporten ska använda och väljer sedan användaren när han/hon visas i listan. När du konfigurerar en rapport att köras som en annan användare, ser alla granskare på kontrollpanelen samma data, oavsett deras egen åtkomstnivå. Om du inte väljer en användare ser varje visningsprogram data baserat på deras egna behörigheter.
+   1. (Valfritt) I fältet **Kör den här rapporten med åtkomsträttigheter för** börjar du med att skriva namnet på den användare vars behörigheter du vill att rapporten ska använda och väljer sedan användaren när han/hon visas i listan. När du konfigurerar en rapport att köras som en annan användare, ser alla granskare på kontrollpanelen samma data, oavsett deras egen åtkomstnivå. Om du inte väljer en användare ser varje visningsprogram data baserat på deras egna behörigheter.
 
       >[!IMPORTANT]
       >
       >Om den valda användaren är inaktiverad eller förlorar åtkomst till de relevanta arbetsytorna eller posttyperna kan rapporten visa ofullständiga data eller misslyckas med att återge.
-
-   </span>
 
 1. Följ stegen nedan för att konfigurera avsnittet **Bygg tabell**:
 

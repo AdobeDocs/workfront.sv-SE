@@ -7,7 +7,7 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 838e8f3d-0ea6-4844-a261-ef7b0e78a755
-source-git-commit: f89b6edead9dce1b0b4baa5ac792cf5e56fd46c0
+source-git-commit: 243aa2b0893e3034d37b959384a50b8a5e4a4bf0
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # Visa Content Reviewer-poäng och feedback
-
-{{highlighted-preview-article-level}}
 
 Sekunder efter att du har skickat gransknings- och godkännandebegäran kan du visa resultatet och feedback från Content Reviewer på panelen Dokumentsammanfattning.
 

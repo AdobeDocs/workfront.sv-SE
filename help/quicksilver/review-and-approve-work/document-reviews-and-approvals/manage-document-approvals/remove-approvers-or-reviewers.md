@@ -8,16 +8,14 @@ feature: Work Management, Digital Content and Documents
 exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
 
 # Ta bort godkännare eller granskare från ett arbetsflöde för dokumentgodkännande
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Du kan ta bort enskilda godkännare eller granskare från en resurs eller ett dokument när de har tilldelats.
 
@@ -62,40 +60,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 +++
 
 
-## Ta bort godkännare eller granskare från sidan Dokumentinformation i produktionsmiljön
-
-1. Gå till dokumentsidan genom att klicka på dokumentets namn och markera sedan den version av dokumentet som du vill ta bort ett godkännande för i versionslistan. Den senaste versionen är markerad som standard.
-
-1. Välj **Godkännanden** på den vänstra panelen.
-
-1. Håll muspekaren över namnet på den godkännare eller granskare som du vill ta bort och klicka sedan på ikonen **Ta bort** ![Ta bort &#x200B;](../assets/delete.png) som visas efter namnet.
-
-   Godkännandet eller granskningsbegäran tas bort och godkännaren får ett meddelande om att deras godkännande inte längre behövs. Deras godkännanderelaterade resursåtkomst tas också bort.
-
-1. (Valfritt) Om du vill nedgradera en godkännare till en granskare i stället för att ta bort dem helt, avmarkerar du kryssrutan **Godkännare** enligt deras namn.
-
-1. Upprepa föregående steg om du vill ta bort ytterligare godkännare eller granskare.
-
-## Ta bort godkännare eller granskare från dokumentsammanfattningen i produktionsmiljön
-
-1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
-
-1. Klicka på det dokument du behöver så öppnas dokumentsammanfattningspanelen för det dokumentet.
-
-1. Välj den version av dokumentet som du vill ta bort en godkännare eller granskare för i listrutan för version. Den senaste versionen är markerad som standard.
-
-1. Bläddra ned till avsnittet **Godkännanden** på panelen Dokumentsammanfattning. Håll muspekaren över namnet på den godkännare eller granskare som du vill ta bort och klicka sedan på ikonen **Ta bort** ![Ta bort &#x200B;](../assets/delete.png) som visas efter namnet.
-
-   Godkännandet eller granskningsbegäran tas bort och godkännaren får ett meddelande om att deras godkännande inte längre behövs. Deras godkännanderelaterade resursåtkomst tas också bort.
-
-1. (Valfritt) Om du vill nedgradera en godkännare till en granskare i stället för att ta bort dem helt, avmarkerar du kryssrutan **Godkännare** enligt deras namn.
-
-1. Upprepa föregående steg om du vill ta bort ytterligare godkännare eller granskare.
-
-
-<div class="preview">
-
-## Ta bort godkännare eller granskare från ett arbetsflöde för godkännande i förhandsgranskningsmiljön i det äldre dokumentområdet
+## Ta bort godkännare eller granskare från ett arbetsflöde för godkännande i det äldre dokumentområdet
 
 Om ditt företag använder Workfront-lagring visas det äldre dokumentområdet när du öppnar dokument i Workfront. Mer information om Workfront-lagring finns i [Workfront-lagring jämfört med Adobe Enterprise-lagring](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
 
@@ -146,4 +111,5 @@ Så här skapar du ett arbetsflöde för godkännande:
 1. Upprepa föregående steg om du vill ta bort ytterligare godkännare eller granskare.
 
    ![ta bort deltagare från en scen](assets/add-or-remove-participants.png)
+
 1. Klicka på **Spara**.

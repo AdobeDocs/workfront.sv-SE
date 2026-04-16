@@ -8,16 +8,14 @@ feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
 
 # Skapa en arbetsflödesmall för godkännande av dokument
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 I Workfront Setup kan användare med en standardlicens skapa återanvändbara godkännandemallar. När du har skapat mallar för godkännande kan du använda dem på resurser i dokumentområdet för ett projekt, en uppgift eller en utgåva.
 
@@ -49,30 +47,9 @@ I Workfront Setup kan användare med en standardlicens skapa återanvändbara go
 Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+ß
 
-
-
-
-## Skapa en godkännandemall i produktionsmiljön
-
-{{step-1-to-setup}}
-
-1. Klicka på **Granska och godkänn** > **Godkännandemallar** i den vänstra panelen.
-1. Klicka på **Ny mall** till höger på sidan.
-1. Ange följande information:
-
-   | Mallnamn | Börja skriva ett namn för mallen. |
-   |----------------------------|---|
-   | **(Valfritt) Tidsram** | Ange tidsramen i dagar. Tidsgränsen för godkännande beräknas från det här fältet när mallen tillämpas på en tillgång. |
-   | **Lägg till godkännare eller granskare** | Börja skriva namnet på användare eller team och ange dem sedan som granskare eller godkännare. |
-
-1. Klicka på **Spara**.
-
-
-
-<div class="preview">
-
-## Skapa en godkännandemall i förhandsvisningsmiljön
+## Skapa en godkännandemall
 
 {{step-1-to-setup}}
 
@@ -116,7 +93,6 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 När mallen har skapats kan den tillämpas på dokument i dokumentdelen av ett projekt, en uppgift eller en utgåva för att starta den formella gransknings- och godkännandeprocessen i Workfront.
 
-</div>
 
 
 <!--

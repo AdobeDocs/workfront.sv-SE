@@ -8,16 +8,14 @@ feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
 
 # Skapa ett arbetsflöde för dokumentgodkännande
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Du kan begära godkännande från andra användare eller team för ett dokument i Adobe Workfront, eller begära att de granskar ett dokument utan att behöva godkänna det.
 
@@ -60,51 +58,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 +++
 
-
-## Skapa en dokumentgranskning eller godkännandebegäran från dokumentsidan i produktionsmiljön
-
-1. Håll muspekaren över dokumentet och klicka sedan på Dokumentinformation.
-   ![Dokumentinformation](assets/doc-details.png)
-
-1. I närheten av dokumentnamnet väljer du den version av dokumentet som du vill skapa ett godkännande för i listrutan. Den senaste versionen är markerad som standard.
-
-1. Klicka på **Godkännanden** på den vänstra panelen.
-
-1. (Valfritt) Ange en tidsgräns för godkännandet. Användare och team meddelas via e-post 72 timmar, sedan 24 timmar före den angivna tidsgränsen.
-
-1. Om du vill lägga till en godkännare klickar du på **Godkännaren** och börjar skriva in ett användar- eller teamnamn.
-
-1. Om du vill lägga till en granskare klickar du på kryssrutan **Granskare** och börjar skriva in ett användar- eller teamnamn.
-
-   ![Lägg till godkännare och deadline](assets/add-approver-and-deadline.png)
-
-1. Upprepa föregående steg om du vill lägga till ytterligare godkännare eller granskare.
-
-## Skapa en dokumentgranskning eller godkännandebegäran från panelen Dokumentsammanfattning i produktionsmiljön
-
-1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
-
-1. Klicka på det dokument du behöver så öppnas vänsterpanelen Dokumentsammanfattning för det dokumentet.
-
-1. Välj den version av dokumentet som du vill skapa ett godkännande för i listrutan. Den senaste versionen är markerad som standard.
-
-1. Bläddra ned till avsnittet **Godkännanden** i rutan Dokumentsammanfattning och klicka sedan på **Lägg till**.
-
-![Lägg till godkännare i dokumentsammanfattning](assets/doc-summary-add-approvers.png)
-
-1. (Valfritt) Ange en tidsgräns för godkännandet. Användare och team meddelas via e-post 72 timmar, sedan 24 timmar före den angivna tidsgränsen.
-
-1. Om du vill lägga till en godkännare klickar du på **Godkännaren** och börjar skriva in ett användar- eller teamnamn.
-
-1. Om du vill lägga till en granskare klickar du på kryssrutan **Granskare** och börjar skriva in ett användar- eller teamnamn.
-
-   ![Lägg till godkännare och deadline](assets/add-approver-and-deadline.png)
-
-1. Upprepa föregående steg om du vill lägga till ytterligare godkännare eller granskare.
-
-<div class="preview">
-
-## Skapa ett arbetsflöde för godkännande från panelen Sammanfattning i förhandsvisningsmiljön i det äldre dokumentområdet
+## Skapa ett arbetsflöde för godkännande från panelen Sammanfattning i det äldre dokumentområdet
 
 Om ditt företag använder Workfront-lagring visas det äldre dokumentområdet när du öppnar dokument i Workfront. Mer information om Workfront-lagring finns i [Workfront-lagring jämfört med Adobe Enterprise-lagring](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
 
@@ -148,7 +102,6 @@ Så här skapar du ett arbetsflöde för godkännande:
 
    ![Dokumentinformation](assets/new-stage.png)
 
-</div>
 
 ## Skapa ett arbetsflöde för godkännande från panelen Sammanfattning i det nya dokumentområdet
 

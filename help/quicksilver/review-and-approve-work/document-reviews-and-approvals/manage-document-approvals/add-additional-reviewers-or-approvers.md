@@ -8,16 +8,14 @@ feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
 
 # Lägga till ytterligare godkännare eller granskare i ett arbetsflöde för dokumentgodkännande
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Du kan lägga till ytterligare godkännare eller granskare i ett arbetsflöde för dokumentgodkännande som redan har väntande godkännanden.
 
@@ -59,31 +57,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 +++
 
 
-## Lägg till ytterligare godkännare eller granskare från sidan Dokumentinformation i produktionsmiljön
 
-1. Gå till dokumentsidan genom att klicka på dokumentets namn och markera sedan den version av dokumentet som du vill lägga till en godkännare eller granskare i den nedrullningsbara menyn version. Den senaste versionen är markerad som standard.
-
-1. Välj **Godkännanden** på den vänstra panelen. Alla befintliga godkännare och granskare listas här.
-
-1. Om du vill lägga till en godkännare markerar du kryssrutan **Godkännare** och börjar sedan skriva i textrutan **Granskare**. Du kan lägga till Workfront-användare eller -team efter namn. Om du vill lägga till en granskare i stället avmarkerar du kryssrutan **Godkännare** innan du skriver.
-
-1. Upprepa föregående steg om du vill lägga till ytterligare godkännare eller granskare.
-
-## Lägg till ytterligare godkännare eller granskare från Dokumentsammanfattning i produktionsmiljön
-
-1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
-
-1. Klicka på det dokument du behöver så öppnas dokumentsammanfattningspanelen.
-
-1. Välj den version av dokumentet som du vill lägga till en godkännare eller granskare i listrutan för versionen. Den senaste versionen är markerad som standard.
-
-1. Bläddra ned till avsnittet **Godkännanden** på panelen Dokumentsammanfattning, där alla befintliga godkännare och granskare listas. Om du vill lägga till en godkännare markerar du kryssrutan **Godkännare** och börjar sedan skriva i textrutan **Granskare**. Du kan lägga till Workfront-användare eller -team efter namn. Om du vill lägga till en granskare i stället avmarkerar du kryssrutan **Godkännare** innan du skriver.
-
-1. Upprepa föregående steg om du vill lägga till ytterligare godkännare eller granskare.
-
-<div class="preview">
-
-## Lägg till ytterligare godkännare eller granskare från dokumentsammanfattningen i förhandsgranskningsmiljön i det äldre dokumentområdet
+## Lägg till ytterligare godkännare eller granskare från dokumentsammanfattningen i det äldre dokumentområdet
 
 Om ditt företag använder Workfront-lagring visas det äldre dokumentområdet när du öppnar dokument i Workfront. Mer information om Workfront-lagring finns i [Workfront-lagring jämfört med Adobe Enterprise-lagring](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
 
@@ -108,7 +83,6 @@ Så här lägger du till ytterligare godkännare eller granskare från Dokuments
 1. Upprepa steg 5-6 för att lägga till ytterligare godkännare eller granskare.
 När du har sparat får deltagarna som lagts till ett e-postmeddelande om att de behöver godkänna eller granska dokumentet.
 
-</div>
 
 
 ## Lägg till ytterligare godkännare eller granskare från dokumentsammanfattningen i området för nya dokument

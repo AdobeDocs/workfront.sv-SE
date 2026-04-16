@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b3e2ac00126facab9cc45ba8fb193d8951a37ec
+source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -17,8 +17,6 @@ ht-degree: 0%
 ---
 
 # Kom igång med Workfront Content Reviewer
-
-{{highlighted-preview-article-level}}
 
 Content Reviewer är en AI-samarbetspartner, en typ av AI-agent som kan läggas till i projekt, uppgifter och dokument. AI-samarbetspartners kan konfigureras under Konfigurera och tilldelas precis som användare.
 

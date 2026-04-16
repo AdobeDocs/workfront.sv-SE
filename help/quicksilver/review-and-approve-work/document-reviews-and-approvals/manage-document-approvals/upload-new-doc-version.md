@@ -8,16 +8,14 @@ feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
 
 # Överför en ny dokumentversion och begär godkännande
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Om ett dokument är markerat som&quot;Behöver arbete&quot; i en tidigare granskning kan du överföra en ny version till originaldokumentet och starta en ny godkännandeomgång. När du har överfört en ny version av dokumentet är de tidigare versionerna låsta.
 
@@ -64,51 +62,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 +++
 
 
-## Använd dra-och-släpp för att lägga till en ny version i produktionsmiljön
 
->[!NOTE]
->
->Det går inte att dra och släppa i Internet Explorer.
-
-
-Om du behöver en ny granskningsrunda och ett godkännande av ett dokument kan du skapa en ny dokumentversion i Workfront.
-
-Du kan lägga till föregående deltagare, nya deltagare eller en blandning av båda. Du kan visa information om tidigare versioner och deltagare på sidan Dokumentinformation.
-
-Lägga till en ny version:
-
-1. Navigera till dokumentet i Workfront.
-1. Dra och släpp den nya filen ovanpå det föregående dokumentet. En ny version skapas automatiskt.
-
-1. När dokumentet har överförts markerar du dokumentet och klickar sedan på **Dokumentinformation**.
-   ![Öppna dokumentinformationssidan](assets/open-doc-details.png)
-
-
-1. Klicka på **Godkännanden** i den vänstra panelen och klicka sedan på **Lägg till**.
-
-1. Om du vill lägga till alla tidigare deltagare klickar du på **Lägg till alla**. Du kan också lägga till nya deltagare eller ta bort tidigare deltagare efter behov.
-
-
-1. Om du vill lägga till en befintlig godkännandemall klickar du på knappen Mall och börjar skriva in ett mallnamn.
-
-   >[!TIP]
-   >
-   >   Användare med en standardlicens kan skapa återanvändbara godkännandemallar under Konfigurera. Mer information finns i [Skapa en arbetsflödesmall för godkännande för dokument](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
-
-
-1. (Valfritt) Ange en tidsgräns för godkännandet. Användare och team meddelas via e-post 72 timmar, sedan 24 timmar före den angivna tidsgränsen.
-
-1. När du har lagt till alla granskare och godkännare klickar du på **Skicka begäran**. Deltagare meddelas via e-post.
-
-   ![skicka ny version för godkännande](assets/add-previous-participants.png)
-
-
-
-
-
-<div class="preview">
-
-## Använd dra-och-släpp för att lägga till en ny version i förhandsvisningsmiljön i det äldre dokumentområdet
+## Använd dra och släpp för att lägga till en ny version i det äldre dokumentområdet
 
 Om ditt företag använder Workfront-lagring visas det äldre dokumentområdet när du öppnar dokument i Workfront. Mer information om Workfront-lagring finns i [Workfront-lagring jämfört med Adobe Enterprise-lagring](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
 
@@ -175,8 +130,3 @@ Lägga till en ny version:
 
    ![begär godkännande](assets/request-approval.png)
    <!--1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.-->
-
-
-
-</div>
-

@@ -6,7 +6,7 @@ description: Widgeten Mina godkännanden visar alla dina väntande, tilldelade, 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 276a33f5-92de-440c-ae3a-8cd01731434f
-source-git-commit: 30e27ba5a12733660a88cd7e9643bea868503774
+source-git-commit: bd70f4a92eab8861d87316f5e21b0d7ca7e8c31f
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Hantera dina godkännanden med widgeten Mina godkännanden
-
-{{highlighted-preview}}
 
 Widgeten Mina godkännanden visar alla dina väntande, tilldelade, delegerade och skickade godkännanden på ett och samma ställe. Här kan du filtrera och organisera dina godkännanden, fatta beslut och delegera godkännanden efter behov.
 
@@ -73,10 +71,10 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
    >Godkännanden som tilldelats till jobbroller eller grupper visas inte i Hem. Godkännanden som tilldelats team visas i widgeten Mina godkännanden för varje teammedlem.
 
 
-1. <span class="preview">(Villkorligt) Klicka på listrutan **Sortera** och välj sedan **Senaste först** för att se de senast tillagda godkännandena.</span>
+1. (Villkorligt) Klicka på listrutan **Sortera** och välj sedan **Senaste först** för att visa de senast tillagda godkännandena.
 
 
-1. <span class="preview">(Valfritt) Klicka på helskärmsikonen ![&#x200B; &#x200B;](assets/full-screen.png) för att öppna widgeten Mina godkännanden i helskärmsläge.</span>
+1. (Valfritt) Klicka på helskärmsikonen ![Helskärmsikonen](assets/full-screen.png) för att öppna widgeten Mina godkännanden i helskärmsläge.
 
 1. Markera objektet där du vill fatta ett beslut om godkännande.
 
