@@ -26,7 +26,7 @@ Använd bara när **all** är true:
 
 Om omfånget är oklart bekräftar du det innan du redigerar.
 
-**Innehållsförteckning/indexsidor - hoppa alltid över det här fallet:** **Aldrig** placera en fil i inventeringen när den **endast** förhandsvisningsrelaterade ordalydelsen är **inuti** en markeringslänks visningstext som pekar på **en annan** artikel (t.ex. *Skicka en rapport i förhandsgranskningssandlådemiljön*) **)** 2}och **filen innehåller** no`class="preview"` **,** no **kodfragmentvariabler och** no **förhandsvisningsmallarna i** prose utanför länkarna. Det här är inte en markering av förhandsvisningen på den sidan, utan bara ett omnämnande av innehållsförteckningen. Gäller alla index/innehållsförteckningar, inte bara en fil.
+**Innehållsförteckning/indexsidor - hoppa alltid över det här fallet:** **Aldrig** placera en fil i inventeringen när den **endast** förhandsvisningsrelaterade ordalydelsen är **inuti** en markeringslänks visningstext som pekar på **en annan** artikel (t.ex. *Skicka en rapport i förhandsgranskningssandlådemiljön*) **)** 2&rbrace;och **filen innehåller** no`class="preview"` **,** no **kodfragmentvariabler och** no **förhandsvisningsmallarna i** prose utanför länkarna. Det här är inte en markering av förhandsvisningen på den sidan, utan bara ett omnämnande av innehållsförteckningen. Gäller alla index/innehållsförteckningar, inte bara en fil.
 
 ### Exkluderade banor
 
@@ -92,7 +92,7 @@ Om strukturen är tvetydig (ingen klar parallell struktur) **stop** och visar b�
 - Kör inte det här arbetsflödet på sökvägar under **`product-announcements`** (versionsinformation och relaterade). Lagret måste exkludera dem.
 - Inventera eller redigera inte sökvägar som listas under **[Exkluderade sökvägar](#excluded-paths)** såvida inte användaren uttryckligen ber att inkludera en sådan.
 - **Ta inte** bort eller redigera **kommenterade-utkommenterade** (`<!-- … -->`) block automatiskt. Följ **Utkommenterade avsnitt** ovan.
-- Ta inte bort Förhandsgranska när det **inte** handlar om det här mönstret för funktionstillgänglighet (t.ex. [Förhandsgranska sandlådemiljö](·) som ett **produktnamn** i ett orelaterat sammanhang). Använd ett omdöme och fråga om det är osäkert.
+- Ta inte bort Förhandsgranska när det **inte** handlar om det här mönstret för funktionstillgänglighet (t.ex. [Förhandsgranska sandlådemiljö] (·) som ett **produktnamn** i ett orelaterat sammanhang). Använd ett omdöme och fråga om det är osäkert.
 - Ändra inte `author:` eller icke-relaterade fronter såvida inte användaren frågar.
 - Hoppa inte över steget **visa → godkänn**.
 
