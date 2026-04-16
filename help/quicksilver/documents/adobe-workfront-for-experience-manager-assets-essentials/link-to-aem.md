@@ -70,7 +70,7 @@ Innan du börjar:
 
 * Din Workfront-administratör måste konfigurera en Experience Manager-integrering. Mer information finns i [Konfigurera integreringen med Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 
-* Om du vill använda smarta förslag eller Campaign Brief-funktionen måste du signera ett GenAI-tillägg. Mer information finns i [Använd Content Advisor för att få åtkomst till AEM-innehåll i Adobe-program](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search).
+* Om du vill använda smarta förslag eller Campaign Brief-funktionen måste du signera ett GenAI-tillägg. Mer information finns i [Använd Content Advisor för att få åtkomst till AEM-innehåll i Adobe-program](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search).
 
 
 
@@ -94,43 +94,43 @@ Så här länkar du innehåll:
    <tbody>
       <tr>
          <td><strong>Sök efter resurser med hjälp av AI-sökning.</strong> Använd en AI-baserad sökning som förstår innebörd och återgivning i frågor och stöder flera språk, typografi och synonymer.</td>
-         <td>Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search">AI-sökning efter smartare resursidentifiering</a>.</td>
+         <td>Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search">AI-sökning efter smartare resursidentifiering</a>.</td>
       </tr>
       <tr>
          <td><strong>Visa smarta förslag baserat på sammanhang och avsikt.</strong> Identifiera resurser som är anpassade till ditt innehåll med hjälp av kontextmedvetna rekommendationer från Adobe-värdprogrammet.</td>
-         <td>Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#smart-suggestions-content-advisor">Smarta förslag baserade på sammanhang och avsikt</a>.</td>
+         <td>Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#smart-suggestions-content-advisor">Smarta förslag baserade på sammanhang och avsikt</a>.</td>
       </tr>
       <tr>
          <td><strong>Ladda upp en kampanjsammanfattning för att identifiera relevanta resurser.</strong> Överför ett kort kampanjdokument för PDF, DOCX eller TXT så att Content Advisor kan analysera det och rekommendera relevanta resurser.</td>
-         <td>Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#campaign-briefs-content-advisor">Kampanjinformation för att identifiera relevanta resurser</a>.</td>
+         <td>Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#campaign-briefs-content-advisor">Kampanjinformation för att identifiera relevanta resurser</a>.</td>
       </tr>
       <tr>
          <td><strong>Visa och välj återgivningar av dynamiska mediefiler.</strong> Bläddra bland kanaloptimerade återgivningar som bildförinställningar, smarta beskärningar och formattyper och använd dynamiska mediemodifieringar för att förhandsgranska justeringar i realtid.</td>
-         <td>Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">Återgivningar av dynamiska mediefiler som kan användas</a>.</td>
+         <td>Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">Återgivningar av dynamiska mediefiler som kan användas</a>.</td>
       </tr>
       <tr>
          <td><strong>Använd dynamiska mediemodifierare på återgivningar.</strong> Lägg till modifierare för att omvandla resursrenderingar i realtid och förhandsgranska resultatet innan du väljer en rendering för värdprogrammet.</td>
-         <td>Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">Återgivningar av dynamiska mediefiler som kan användas</a>.</td>
+         <td>Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">Återgivningar av dynamiska mediefiler som kan användas</a>.</td>
       </tr>
       <tr>
          <td><strong>Identifiera och bläddra bland innehållsfragment.</strong> Sök bland innehållsfragment, visa förhandsvisningar av miniatyrbilder i realtid, kontrollera status (utkast, ändrad eller publicerad) och granska detaljerade egenskaper, referenser och variationer.</td>
-         <td>Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">Identifiering av innehållsfragment</a>.</td>
+         <td>Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">Identifiering av innehållsfragment</a>.</td>
       </tr>
       <tr>
          <td><strong>Få åtkomst till metadata för resurser.</strong> Granska resursegenskaper som titel, beskrivning, format, storlek och andra metadataflikar (produkt, kampanj, taggar) som är kompatibla med Assets-vyn.</td>
-         <td>Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#asset-metadata-content-advisor">Åtkomst till resursmetadata i enlighet med Assets-vyn</a>.</td>
+         <td>Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#asset-metadata-content-advisor">Åtkomst till resursmetadata i enlighet med Assets-vyn</a>.</td>
       </tr>
       <tr>
          <td><strong>Filtrera resurser med fördefinierade filter.</strong> Förfina resursens resultat med filter som filtyp, filformat, resursstatus, filstorlek, bildbredd, bildhöjd, ändringsdatum och Skapad den.</td>
-         <td>Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#filters-content-advisor">Åtkomstfilter som är konsekventa med Assets-vyn</a>.</td>
+         <td>Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#filters-content-advisor">Åtkomstfilter som är konsekventa med Assets-vyn</a>.</td>
       </tr>
       <tr>
          <td><strong>Spara och återanvänd sökningar.</strong> Skapa sparade sökningar genom att ange en sökterm och filteralternativ och sedan återanvända dem i Experience Manager Assets och andra Adobe-program.</td>
-         <td>Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#saved-searches-content-advisor">Åtkomst till och återanvändning av senaste och sparade sökningar</a>.</td>
+         <td>Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#saved-searches-content-advisor">Åtkomst till och återanvändning av senaste och sparade sökningar</a>.</td>
       </tr>
       <tr>
          <td><strong>Sök efter resurser i och mellan samlingar.</strong> Sök efter resurser eller samlingar i alla samlingar, eller begränsa sökningen till en viss samling.</td>
-         <td>Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#search-collections-content-advisor">Söka efter resurser i och mellan samlingar</a>.</td>
+         <td>Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#search-collections-content-advisor">Söka efter resurser i och mellan samlingar</a>.</td>
       </tr>
    </tbody>
    </table>
