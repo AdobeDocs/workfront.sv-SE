@@ -65,7 +65,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 1. Klicka på **Välj menyalternativ**.
 1. Gör något av följande i rutan **Välj menyalternativ** för att avgöra vad användare ska se på Mer-menyn för det Workfront-område eller den objekttyp som du har valt:
 
-   * Klicka på ikonerna **Visa** ![Visa ](assets/add-secondary-nav-item.png) eller **Dölj** ![Dölj ikon](assets/delete-secondary-nav-item.png) om du vill visa eller dölja avsnitt i den vänstra panelen. Du kan inte dölja objekt som inte har en **Visa**- eller **Dölj**-ikon.
+   * Klicka på ikonerna **Visa** ![Visa &#x200B;](assets/add-secondary-nav-item.png) eller **Dölj** ![Dölj ikon](assets/delete-secondary-nav-item.png) om du vill visa eller dölja avsnitt i den vänstra panelen. Du kan inte dölja objekt som inte har en **Visa**- eller **Dölj**-ikon.
 
    * Dra objekt ![Flytta ikon](assets/move-icon---dots.png) om du vill ändra deras ordning på den vänstra panelen.
 
