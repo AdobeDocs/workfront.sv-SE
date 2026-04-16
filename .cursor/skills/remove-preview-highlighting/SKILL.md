@@ -104,4 +104,4 @@ Om strukturen är tvetydig (ingen klar parallell struktur) **stop** och visar b�
 
 ## Referenser
 
-- Matcha **[dokumentationsformat för Workfront](https://experienceleague.adobe.com/?lang=sv#home)** och repo-konventioner (implementerings-/PR-regler om användaren implementerar).
+- Matcha **[dokumentationsformat för Workfront](https://experienceleague.adobe.com/sv?lang=sv#home)** och repo-konventioner (implementerings-/PR-regler om användaren implementerar).
