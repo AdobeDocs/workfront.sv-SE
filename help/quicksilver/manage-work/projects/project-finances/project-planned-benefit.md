@@ -7,9 +7,9 @@ description: Den planerade förmånen är det beräknade belopp som en organisat
 author: Lisa
 feature: Work Management
 exl-id: 1ded9d16-57be-40e0-b083-ee5273fd9b56
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Mer information om beräkning av ett projekts nettovärde finns i artikeln [Ber�
   </tr> 
   <tr> 
    <td>Objektbehörigheter</td> 
-   <td>Hantera behörigheter till projektet med behörigheter för att hantera ekonomi</td> 
+   <td>Hantera behörigheter till projektet med behörighet att redigera allmän finansiering</td> 
   </tr> 
  </tbody> 
 </table>

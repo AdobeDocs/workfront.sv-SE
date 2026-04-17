@@ -7,9 +7,9 @@ description: Uppskattningen vid slutförande (Estiate at Completion, EAC) är en
 author: Lisa
 feature: Work Management
 exl-id: 9061fa56-cff3-4fe2-866e-1fdda9d43efc
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Med den här inställningen kan du definiera hur EAC-värdet ska beräknas.
   </tr> 
   <tr> 
    <td>Objektbehörigheter</td> 
-   <td>Visa eller högre behörigheter för projektet med behörighet att visa ekonomi</td> 
+   <td>Visa eller högre behörigheter för projektet med behörighet att visa allmän ekonomi</td> 
   </tr> 
  </tbody> 
 </table>

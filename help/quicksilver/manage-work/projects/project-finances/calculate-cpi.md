@@ -7,9 +7,9 @@ description: Kostnadsprestandaindexet (CPI) beskriver förhållandet på projekt
 author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
-source-git-commit: f88b6ec019963ff6256e35b9c94eb4d1b7e99730
+source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Endast organisationer som kräver tidsregistrering kan använda CPI. Dessutom ä
   </tr> 
   <tr> 
    <td>Objektbehörigheter</td> 
-   <td>Visa eller högre behörigheter för projektet med behörighet att visa ekonomi</td> 
+   <td>Visa eller högre behörigheter för projektet med behörighet att visa allmän ekonomi</td> 
   </tr> 
  </tbody> 
 </table>

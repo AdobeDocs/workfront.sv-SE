@@ -6,9 +6,9 @@ description: Performance Index Method (PIM) for the project controls the method 
 author: Lisa
 feature: Work Management
 exl-id: de628881-c016-4521-bc33-3bcfba19a88f
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Workfront beräknar dessa värden enligt följande:
   </tr> 
   <tr> 
    <td>Objektbehörigheter</td> 
-   <td>Hantera behörigheter till projektet med behörigheter för att hantera ekonomi</td> 
+   <td>Hantera behörigheter till projektet med behörighet att redigera allmän finansiering</td> 
   </tr> 
  </tbody> 
 </table>

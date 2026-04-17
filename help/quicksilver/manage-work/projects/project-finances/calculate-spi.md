@@ -7,9 +7,9 @@ description: Schemalägg prestandaindex (SPI) beskriver förhållandet mellan de
 author: Lisa
 feature: Work Management
 exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Schemalägg prestandaindex (SPI) beskriver förhållandet mellan det planerade s
   </tr> 
   <tr> 
    <td>Objektbehörigheter</td> 
-   <td>Visa eller högre behörigheter för projektet med behörighet att visa ekonomi</td> 
+   <td>Visa eller högre behörigheter för projektet med behörighet att visa allmän ekonomi</td> 
   </tr> 
  </tbody> 
 </table>
