@@ -7,9 +7,9 @@ description: Du kan visa och hantera information om resursplanering för de proj
 author: Lisa
 feature: Resource Management
 exl-id: d2bfc411-188a-4f8b-8180-0e984f01b5ab
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
@@ -55,13 +55,13 @@ För att kunna budgetera resurser, hantera resurspooler och se Kostnadsinformati
        <li> <p>Åtkomst för att hantera resurspooler, om du behöver hantera resurspooler.</p> </li> 
       </ul> <p>Mer information om åtkomstnivån för resurshantering finns i artikeln <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Bevilja åtkomst till resurshantering</a>.</p> </li> 
      <li> <p>Redigera åtkomst till projekt och användare. </p> </li> 
-     <li> <p> Redigera åtkomsten till finansiella data på din åtkomstnivå om du behöver visa eller hantera information via Kostnad.</p> <p>Mer information om åtkomstnivån för finansiella data finns i artikeln <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Bevilja åtkomst till ekonomiska data</a>.</p> </li> 
+     <li> <p> Redigera åtkomsten till finansiella data på din åtkomstnivå som ger åtkomst till Visa eller Redigera kostnadsnivåer och Visa eller Redigera allmän finansiering, om du behöver visa eller hantera information per kostnad.</p> <p>Mer information om åtkomstnivån för finansiella data finns i artikeln <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Bevilja åtkomst till ekonomiska data</a>.</p> </li> 
     </ul> 
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter för projektet med behörigheterna Hantera ekonomi.</p> <p>Mer information om projektbehörigheter finns i artikeln <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Dela ett projekt i Adobe Workfront</a>.</p> <p>Mer information om ekonomiska behörigheter för ett projekt finns i artikeln <a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Dela ekonomiska behörigheter för ett objekt</a></a>.</p>
+   <td> <p>Hantera behörigheter för projektet som inkluderar Redigera kostnadsnivåer och Redigera allmänna ekonomibehörigheter.</p> <p>Mer information om projektbehörigheter finns i artikeln <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Dela ett projekt i Adobe Workfront</a>.</p> <p>Mer information om ekonomiska behörigheter för ett projekt finns i artikeln <a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Dela ekonomiska behörigheter för ett objekt</a></a>.</p>
 
 <p><b>Obs!</b> Om du har mindre än Hantera behörigheter för minst ett projekt i rollen kan du inte budgetera timmar, FTE eller kostnad för rollen när du budgeterar resurser i rollvyn. Du kan bara budgetera de projekt som du har behörigheten Hantera för.</p> </td> 
   </tr> 

@@ -8,9 +8,9 @@ feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '7099'
+source-wordcount: '7110'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Du kan visa hur dina resurser används i användningsrapporten.
      <li> <p>Projekt</p> </li> 
      <li> <p>Portföljer</p> </li> 
      <li> <p>Program</p> </li> 
-     <li> <p>Finansiella data, om du vill visa information efter kostnad</p> </li> 
+     <li> <p>Finansiella data som inkluderar åtkomst till Visa kostnadsnivåer och Visa allmän ekonomi, om du vill visa information per kostnad</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

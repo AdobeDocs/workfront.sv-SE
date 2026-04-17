@@ -6,9 +6,9 @@ description: Adobe Workfront kan generera en unik URL för användarvyn i resurs
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Adobe Workfront kan generera en unik URL för användarvyn i resursplaneraren so
   </tr> 
   <tr> 
    <td>Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Visa eller ge senare åtkomst till resurshantering, projekt och användare</p> <p>Visa åtkomst till finansiella data för att visa kostnadsinformation</p></td> 
+   <td> <p>Visa eller ge senare åtkomst till resurshantering, projekt och användare</p> <p>Visa åtkomst till finansiella data som innehåller åtkomst till Visa kostnadssatser och Visa allmänna finanser för att visa kostnadsinformation</p></td> 
   </tr> 
   <tr> 
    <td>Objektbehörigheter</td> 
@@ -55,7 +55,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 Tänk på följande när du genererar den unika URL:en för användarvyn i resursplaneraren:
 
 * Du kan bara hämta en unik URL-adress för användarvyn. Alternativet att generera URL:en finns inte i projekt- eller rollvyerna.
-* Du kan dela URL-adressen med andra användare, inklusive användare med arbets- och granskningsbehörighet.\
+* Du kan dela URL-adressen med andra användare, inklusive användare med arbets-, medverkande- och granskningsbehörighet.\
   De måste ha tillgång till andra användare för att kunna visa informationen i resursplaneraren från den URL som du delar med dem.
 * Följande information sparas när du delar URL-adressen med andra användare:
 

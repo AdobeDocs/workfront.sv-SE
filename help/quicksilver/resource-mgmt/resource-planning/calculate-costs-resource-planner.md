@@ -6,9 +6,9 @@ description: Du kan budgetera dina resurser i Adobe Workfront Resursplanering ge
 author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '1392'
+source-wordcount: '1412'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,12 @@ Mer information om hur du förstår informationen i resursplaneraren vid budgete
   </tr> 
   <tr> 
    <td>Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Redigera åtkomst till resurshantering som inkluderar åtkomst till Redigera prioriteringar och budgettimmar i Resursplanering</p> <p>Redigera åtkomst till finansiella data, projekt och användare</p></td> 
+   <td> <p>Redigera åtkomst till resurshantering som inkluderar åtkomst till Redigera prioriteringar och budgettimmar i Resursplanering</p> <p>Redigera åtkomst till finansiella data som innefattar åtkomst till Redigera kostnadsnivåer och Redigera allmän finansiering</p>
+   <p>Redigera åtkomst till projekt och användare</p></td> 
   </tr> 
   <tr> 
    <td>Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter för de projekt som du vill budgetera information för med möjlighet att hantera finanser</p></td>
+   <td> <p>Hantera behörigheter för de projekt som du vill budgetera information för med möjlighet att redigera kostnadsnivåer och redigera allmän finansiering</p></td>
   </tr> 
  </tbody> 
 </table>

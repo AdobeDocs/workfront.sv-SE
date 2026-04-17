@@ -6,9 +6,9 @@ description: Om du upptäcker att det finns överbeläggningar av dina resurser 
 author: Lisa
 feature: Resource Management
 exl-id: bc49d45a-73a5-4b02-9054-9c9dbb54224d
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,12 @@ Om du upptäcker att det finns överbeläggningar av dina resurser efter att du 
   </tr> 
   <tr> 
    <td>Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Redigera åtkomst till resurshantering som inkluderar åtkomst till Redigera prioriteringar och budgettimmar i Resursplanering</p> <p>Redigera åtkomst till finansiella data, projekt och användare</p></td> 
+   <td> <p>Redigera åtkomst till resurshantering som inkluderar åtkomst till Redigera prioriteringar och budgettimmar i Resursplanering</p> <p>Redigera åtkomst till finansiella data som innefattar åtkomst till Redigera kostnadsnivåer och Redigera allmän finansiering</p>
+   <p>Redigera åtkomst till projekt och användare</p></td> 
   </tr> 
   <tr> 
    <td>Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter för de projekt som du vill budgetera information för med möjlighet att hantera finanser</p></td> 
+   <td> <p>Hantera behörigheter för de projekt som du vill budgetera information för med möjlighet att redigera kostnadsnivåer och redigera allmän finansiering</p></td> 
   </tr> 
  </tbody> 
 </table>

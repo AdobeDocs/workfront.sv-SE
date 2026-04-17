@@ -6,9 +6,9 @@ description: Projekt listas i prioritetsordning i resursplaneraren med det vikti
 author: Lisa
 feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1302'
 ht-degree: 0%
 
 ---
@@ -36,11 +36,12 @@ Projekt listas i prioritetsordning i resursplaneraren med det viktigaste projekt
   </tr> 
   <tr> 
    <td>Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Redigera åtkomst till resurshantering som inkluderar åtkomst till Redigera prioriteringar och budgettimmar i Resursplanering</p> <p>Redigera åtkomst till finansiella data, projekt och användare</p></td> 
+   <td> <p>Redigera åtkomst till resurshantering som inkluderar åtkomst till Redigera prioriteringar och budgettimmar i Resursplanering</p> <p>Redigera åtkomst till finansiella data som innefattar åtkomst till Redigera kostnadsnivåer och Redigera allmän finansiering</p>
+    <p>Redigera åtkomst till projekt och användare</p></td> 
   </tr> 
   <tr> 
    <td>Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter för de projekt som du vill budgetera information för med möjlighet att hantera finanser</p></td>
+   <td> <p>Hantera behörigheter för de projekt som du vill budgetera information för med möjlighet att redigera kostnadsnivåer och redigera allmän finansiering</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -107,7 +108,7 @@ Så här redigerar du projektplaneringsprioriteten:
 >
 >Företaget måste ha ett Prime-paket eller ett högre Workfront-paket för att kunna prioritera projekt i Portfolio Optimizer.
 >
->Mer information om Workfront-paket finns i [Adobe Workfront-paket och priser](https://business.adobe.com/se/products/workfront/pricing.html).
+>Mer information om Workfront-paket finns i [Adobe Workfront-paket och priser](https://business.adobe.com/products/workfront/pricing.html).
 >
 >Mer information om hur du prioriterar projekt i Portfolio Optimizer finns i [Prioritera projekt i Portfolio Optimizer](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 

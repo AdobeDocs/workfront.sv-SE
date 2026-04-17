@@ -9,9 +9,9 @@ role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+source-git-commit: d8a01839b8f1332741f87be766f3ccb7d08cef96
 workflow-type: tm+mt
-source-wordcount: '7855'
+source-wordcount: '7859'
 ht-degree: 0%
 
 ---
@@ -155,7 +155,7 @@ Mer information om hur du skapar ett projekt från en mall finns i [Skapa ett pr
 
    Så här redigerar du information i detaljavsnittet:
 
-   1. (Valfritt) Klicka på ikonen **Komprimera alla** ![Komprimera alla &#x200B;](assets/collapse-icon.png) i det övre högra hörnet om du vill komprimera alla områden.
+   1. (Valfritt) Klicka på ikonen **Komprimera alla** ![Komprimera alla ](assets/collapse-icon.png) i det övre högra hörnet om du vill komprimera alla områden.
    1. (Valfritt och villkorligt) När ett område är komprimerat klickar du på **högerpilen** ![högerpilen](assets/right-pointing-arrow.png) bredvid varje område för att expandera det område som du vill redigera.
    1. Mer information om hur du redigerar information på fliken Projektinformation finns i följande artiklar:
 
@@ -163,7 +163,7 @@ Mer information om hur du skapar ett projekt från en mall finns i [Skapa ett pr
       * [Hantera information i projektfinansieringsdelen](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
 
    1. (Valfritt) Om du vill bifoga ett anpassat formulär börjar du skriva namnet på ett formulär i fältet **Lägg till anpassat formulär** och markerar det när det visas i listan. Klicka sedan på **Spara ändringar**.
-   1. (Valfritt) Klicka på ikonen **Exportera** ![Exportera &#x200B;](assets/export.png) om du vill exportera översiktsinformation och anpassad formulärinformation till en PDF-fil. Klicka sedan på **Exportera**. Välj bland följande:
+   1. (Valfritt) Klicka på ikonen **Exportera** ![Exportera ](assets/export.png) om du vill exportera översiktsinformation och anpassad formulärinformation till en PDF-fil. Klicka sedan på **Exportera**. Välj bland följande:
 
       * Markera alla (visas bara när det finns minst ett anpassat formulär bifogat)
       * Översikt
@@ -396,12 +396,12 @@ Så här redigerar du information i anpassade formulär när du redigerar ett pr
 
 Beroende på din åtkomstnivå och din behörighet för projektet finns följande scenarier:
 
-* Om du har behörigheten Visa åtkomst till finansiella data och Visa finansiella behörigheter för projektet kan du bara visa fälten i avsnittet Ekonomi. Du kan inte redigera fälten i det här avsnittet.
-* Om du har behörigheterna Redigera åtkomst till finansiella data och Hantera finanser för projektet kan du uppdatera fälten i det här avsnittet.
+* Om du har behörigheterna Visa åtkomst till finansiella data och Visa allmänna ekonomibehörigheter för projektet kan du bara visa fälten i avsnittet Ekonomi. Du kan inte redigera fälten i det här avsnittet.
+* Om du har behörigheterna Redigera åtkomst till finansiella data och Redigera allmänna finanser för projektet kan du uppdatera fälten i det här avsnittet.
 
 När du markerar flera projekt som ska redigeras samtidigt och i stället väljs följande scenarier:
 
-* Om du väljer minst ett projekt där du har behörigheten Visa ekonomi (i stället för Hantera ekonomi), kan du bara visa fälten i det här avsnittet för alla markerade projekt. Du kan inte redigera fälten i finansavsnittet satsvis.
+* Om du väljer minst ett projekt där du har behörigheten Visa allmän ekonomi (i stället för Redigera allmän ekonomi), kan du bara visa fälten i det här avsnittet för alla markerade projekt. Du kan inte redigera fälten i finansavsnittet satsvis.
 * Om du väljer minst ett projekt utan ekonomisk behörighet visas inte det här avsnittet alls.
 
 Så här redigerar du fält i finanssektorn:

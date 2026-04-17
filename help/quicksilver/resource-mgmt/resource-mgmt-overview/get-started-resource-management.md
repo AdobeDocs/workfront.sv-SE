@@ -7,9 +7,9 @@ description: Med Resurshantering kan du konfigurera ditt system så att användn
 author: Lisa
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1201'
 ht-degree: 0%
 
 ---
@@ -144,8 +144,8 @@ Du måste vara en av följande användare och ha följande åtkomst och behörig
   Förutom att du har en licens för Work (Work) eller högre (eller en standardlicens) måste du ha följande för att kunna använda specifika resurshanteringsverktyg:
 
    * Redigera åtkomst till resurshantering (behövs inte för att göra tilldelningar i arbetsbelastningsutjämnaren)
-   * Redigera åtkomst till finansiella data för att visa kostnadsinformation i resursplaneraren
-   * Visa åtkomst till ekonomiska data för att visa kostnads- och intäktsinformation i användningsrapporten (endast användare med en planlicens)
+   * Redigera åtkomst till finansiella data som innefattar åtkomst till Visa eller Redigera kostnadstariffer och Visa eller Redigera allmän finansiering, för att visa kostnadsinformation i resursplaneraren
+   * Visa åtkomst till finansiella data som innefattar åtkomst till Visa eller Redigera kostnadsnivåer och Visa allmän finansiering för att visa information om kostnad och intäkt i användningsrapporten (endast användare med en plan- eller standardlicens)
 
 * Contribute eller högre behörigheter som innehåller Skapa uppdrag för de projekt du vill hantera resurser för.
 

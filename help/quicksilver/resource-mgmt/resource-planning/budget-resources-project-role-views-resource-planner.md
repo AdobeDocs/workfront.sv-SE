@@ -6,9 +6,9 @@ description: Du kan budgetera resurser i Adobe Workfront Resursplanering med pro
 author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '2098'
+source-wordcount: '2109'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Läs följande artiklar innan du börjar budgetera information i resursplanerare
   </tr> 
   <tr> 
    <td>Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Redigera åtkomst till resurshantering som inkluderar åtkomst till Redigera prioriteringar och budgettimmar i Resursplanering</p> <p>Redigera åtkomst till finansiella data för att budgetera resurser efter kostnad</p> <p>Redigera åtkomst till projekt och användare</p></td> 
+   <td> <p>Redigera åtkomst till resurshantering som inkluderar åtkomst till Redigera prioriteringar och budgettimmar i Resursplanering</p> <p>Redigera åtkomst till finansiella data som innefattar tillgång till Redigera kostnadstariffer och Redigera allmänna finanser, till budgetresurser per kostnad</p> <p>Redigera åtkomst till projekt och användare</p></td> 
   </tr> 
   <tr> 
    <td>Objektbehörigheter</td> 
@@ -104,7 +104,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
    * Klicka på menyn **Mer** för projektet och klicka sedan på **Ange rollernas planerade timmar som budgeterade**.\
      Budgeterade timmar för varje roll beräknas med följande formel:\
-     &#x200B;*
+     *
 
      `Role Budgeted Hours = Role Planned Hours`
 
@@ -174,8 +174,8 @@ Om du vill budgetera allokeringar i resursplaneraren i rollvyn***:
    * I kolumnen **BDG** anger du manuellt antalet budgeterade timmar, FTE eller kostnad för jobbrollerna.\
      Detta fördelar rollbudgeterade timmar till projektbudgeterade timmar för de projekt som du har tillgång till för att hantera.
 
-   * Klicka på menyn **Mer** för jobbrollen och klicka sedan på **Ange projektens planerade timmar som budgeterade.**&#x200B;Rollbudgeterade timmar beräknas med följande formel:\
-     &#x200B;*
+   * Klicka på menyn **Mer** för jobbrollen och klicka sedan på **Ange projektens planerade timmar som budgeterade.**Rollbudgeterade timmar beräknas med följande formel:\
+     *
 
      `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 
