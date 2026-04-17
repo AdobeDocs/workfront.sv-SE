@@ -8,16 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
-source-git-commit: d45c34b1f48a7ffcae29556d34558bb4d1d8a016
+source-git-commit: 82f2fbb55dd46b9bfc55e9864c38f600041de968
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
 
 # Bevilja åtkomst till finansiella uppgifter
-
-{{highlighted-preview}}
 
 Som Adobe Workfront-administratör kan du definiera en användares åtkomst till följande via användarens åtkomstnivå, vilket förklaras i [Översikt över åtkomstnivåer](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md):
 
@@ -61,18 +59,14 @@ Tänk på följande när du ger användare tillgång till ekonomiska data i Work
 * En användare vars åtkomstnivå inte tillåter åtkomst till ekonomiska data kan inte ge åtkomst som skulle göra det möjligt för andra att visa ekonomiska data. Detta innefattar att ge åtkomst till projekt som skulle visa ekonomiska data, eller ändra en åtkomstnivå för att tillåta visning av ekonomiska data.
 * En användare vars åtkomstnivå inte tillåter åtkomst till ekonomiska data kan inte skapa en risk för ett projekt. Mer information finns i [Skapa och redigera risker i projekt](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
 * Du kan också använda en åtkomstnivå för att avgöra vilka resurshanteringsaktiviteter en användare kan använda för att budgetera eller visa resursallokering. Mer information finns i [Bevilja åtkomst till resurshantering](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
-* <span class="preview">Åtkomsten till faktureringstariffer, kostnadstariffer och allmän ekonomi är separat, vilket ger mer exakt kontroll över olika användarroller som hanterar komplexa ekonomiska detaljer. Allmän finansiering är ytterligare finansiella data som inte inkluderar fakturering och kostnadstariffer.</span>
+* Tillgång till faktureringstariffer, kostnadstariffer och allmän finansiering är separat, vilket ger mer exakt kontroll över olika användarroller som hanterar komplexa ekonomiska detaljer. Allmän finansiering är ytterligare finansiella uppgifter som inte inkluderar fakturering och kostnadstariffer.
 
 ## Konfigurera användaråtkomst till ekonomiska data med en anpassad åtkomstnivå
 
 1. Börja skapa eller redigera åtkomstnivån enligt beskrivningen i [Skapa eller ändra anpassade åtkomstnivåer](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Klicka på kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen **Visa** eller **Redigera** till höger om Finansiella data och välj sedan de funktioner som du vill ge under **Finjustera dina inställningar**.
 
-   <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
    ![Finjustera åtkomst till ekonomiska data](assets/financial-data-access-fine-tune.png)
-
-   Exempelbild i produktionsmiljön:
-   ![Finjustera åtkomst till ekonomiska data](assets/financial-data-fine-tune-nwe.png)
 
 1. (Valfritt) Välj följande alternativ i området **Tillåt administrativ åtkomst för**:
 
@@ -131,36 +125,66 @@ En användare utan åtkomst till ekonomiska data har inte åtkomst till följand
 
 * Avsnittet Ekonomi under Projekt och uppgifter
 * Affärsärende
-* Faktureringstariffer och faktureringsposter för projekt
-* Kostnad per timme och fakturering per timme för användarprofiler
-* Kostnad per timme och fakturering per timme för jobbroller
+* Faktureringsposter för projekt
+* Faktureringstariffer och kostnadstariffer för projekt
+
+<!--  
+
+* Cost per hour and billing per hour on user profiles
+* Cost per hour and billing per hour on Job Roles
+
+-->
 
 ### Visa åtkomst
 
 En användare med behörigheten Visa för ekonomiska data kan visa (inte redigera) följande:
 
 * Avsnittet Ekonomi under Projekt och uppgifter
+
+  Du kan konfigurera detta med kugghjulsikonen ![](assets/gear-icon-settings.png) på Visa-knappen i steg 4 ovan.
+
 * Affärsärende
-* Faktureringstariffer och faktureringsposter för projekt
-* Kostnad per timme och fakturering per timme för användarprofiler
+* Faktureringsposter för projekt
+* Faktureringstariffer och kostnadstariffer för projekt
 
   Du kan konfigurera detta med kugghjulsikonen ![](assets/gear-icon-settings.png) på Visa-knappen i steg 4 ovan.
 
-* Kostnad per timme och fakturering per timme för jobbroller
+<!--  
 
-  Du kan konfigurera detta med kugghjulsikonen ![](assets/gear-icon-settings.png) på Visa-knappen i steg 4 ovan.
+* Cost per hour and billing per hour on user profiles
+
+  You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the View button in step 4 above.
+
+* Cost per hour and billing per hour on Job Roles
+
+  You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the View button in step 4 above.
+
+-->
 
 ### Redigera åtkomst
 
 En användare med Redigera-åtkomst till ekonomiska data kan visa och redigera följande:
 
 * Avsnittet Ekonomi under Projekt och uppgifter
+
+  Du kan konfigurera detta med kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen Redigera i steg 4 ovan.
+
 * Affärsärende
-* Faktureringstariffer, faktureringsposter och kostnadstariffer för projekt
-* Kostnad per timme och fakturering per timme för användarprofiler
+* Faktureringsposter för projekt
+* Faktureringstariffer och kostnadstariffer för projekt
 
   Du kan konfigurera detta med kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen Redigera i steg 4 ovan.
 
-* Kostnad per timme och fakturering per timme för jobbroller
+<!--  
 
-  Du kan konfigurera detta med kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen Redigera i steg 4 ovan.
+* Cost per hour and billing per hour on user profiles
+
+  You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the Edit button in step 4 above.
+
+* Cost per hour and billing per hour on Job Roles
+
+  You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the Edit button in step 4 above.
+
+-->
+
+
