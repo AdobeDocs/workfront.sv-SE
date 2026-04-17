@@ -10,9 +10,9 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1377'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 <!--
 Remove production and preview references at release
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
-
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Du kan visa förfrågningar som du eller någon annan har skickat, eller förfrågningar som du har startat men som du aldrig har slutfört. De oavslutade förfrågningarna sparas som utkast.
 
@@ -112,7 +112,7 @@ Du kan visa skickade begäranden i området Förfrågningar och i widgeten Mina 
 >
 >* Planering och Workfront-begäranden i ämnesfältet.
 >* Planeringsposter som har skapats från planeringsbegäranden i fältet Objekt som har skapats.
->* <span class="preview">Workfront-uppgifter och -problem som konverterats från Workfront-begäranden i fältet Objekt som skapats i förhandsvisningsmiljön. </span>
+>* Workfront uppgifter och problem som konverterats från Workfront-begäranden i fältet Objekt som skapats.
 
 Så här visar du förfrågningar som du eller andra användare har skickat in i den nya begärandeupplevelsen:
 
@@ -128,14 +128,9 @@ Så här visar du förfrågningar som du eller andra användare har skickat in i
    * Visa
    * Filter
    * Kolumner
-
-   <div class="preview">
-
-   * **Gruppering**
+   * Gruppering
    * Formatera celler
    * Radhöjd
-
-   </div>
 
    Mer information om hur du hanterar information i listan över förfrågningar finns i [Använda förbättrade listor](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
@@ -254,7 +249,7 @@ Så här visar du begäranden som du eller andra användare har skickat in i den
     </tbody> 
    </table>
 
-1. (Valfritt) Klicka på ikonen **Filtrera sida** ![Sök &#x200B;](assets/search-icon.png) högst upp i listan om du vill söka efter en begäran per namn. Listan uppdateras med resultat som matchar dina sökvillkor.
+1. (Valfritt) Klicka på ikonen **Filtrera sida** ![Sök ](assets/search-icon.png) högst upp i listan om du vill söka efter en begäran per namn. Listan uppdateras med resultat som matchar dina sökvillkor.
 
    <!--
 

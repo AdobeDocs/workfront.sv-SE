@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 02a4269777e18a8c66a245d374565eb61efd39ef
+source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 0%
@@ -153,8 +153,8 @@ Använd naturligt språk för att snabbt filtrera arbetet.
 
 {{step1-to-priorities}}
 
-1. Klicka på **Grupper** längst upp till vänster i arbetslistan.
-1. Välj en grupp för att ordna din arbetslista.
+1. Klicka på **Gruppering** längst upp till vänster i arbetslistan.
+1. Välj en gruppering för att ordna din arbetslista.
 
 ![Grupper](assets/groups-new.png)
 
@@ -179,11 +179,11 @@ Du kan dra och släppa enskilda arbetsobjekt mellan kategorier när du grupperar
 
 ## Sortera materialet
 
-### Sortera i grupper
+### Sortera i grupperingar
 
-Om du vill sortera ditt arbete i en grupp öppnar du **Grupp** och väljer om du vill sortera i stigande eller fallande ordning.
+Om du vill sortera ditt arbete i en gruppering öppnar du **Gruppering** och väljer om du vill sortera i stigande eller fallande ordning.
 
-![Sortera i grupper](assets/sort-in-groups.png)
+![Sortera i grupperingar](assets/sort-in-groups.png)
 
 ### Sortera kolumner
 

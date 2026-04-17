@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 539f87ddeab85eb6e8a028bcb6e394c3cd179c4d
+source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
 workflow-type: tm+mt
-source-wordcount: '3071'
+source-wordcount: '2954'
 ht-degree: 0%
 
 ---
@@ -22,10 +22,11 @@ ht-degree: 0%
 
 # Koppla posttyper
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -94,7 +95,7 @@ Ett exempel på hur du ansluter posttyper och poster finns i [Exempel på att an
    <ul><li><p>En Adobe Experience Manager Assets-licens och en integrering mellan AEM Assets och Workfront för att koppla AEM-material till posttyperna Planning.</p>
    <p>Mer information finns i <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront för Experience Manager Assets och Assets Essentials: artikelindex</a>. </p></li>
    <li><p> En Adobe GenStudio for Performance Marketing-licens för att koppla posttyper till GenStudio Brands</p>
-   <p>Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/get-started">Kom igång med Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Kom igång med Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -228,18 +229,16 @@ Old:
 
      >[!TIP]
      >
-     ><span class="preview">Du kan använda följande tangentbordskombination för att öppna den globala sökrutan från valfri Workfront Planning-sida och söka efter posttyper:</span>
+     >Du kan använda följande tangentbordskombination för att öppna den globala sökrutan från valfri Workfront Planning-sida och söka efter posttyper:
      >
-     >* <span class="preview">CTRL+K för Windows</span>
-     >* <span class="preview">⌘+K för Mac</span>
+     >* CTRL+K för Windows
+     >* ⌘+K för Mac
      >
      >![Global sökruta](assets/global-search-box.png)
 
    * Ett **projekt, Portfolio, program, företag** eller **grupp** från avsnittet **Workfront-objekttyper**.
 
      ![Val av projektanslutning för Workfront](assets/multi-select-connection-picker-project.png)
-
-   <div class="preview">
 
    * En **ursprunglig begärandetyp** från avsnittet **Workfront-objekttyper**.
 
@@ -254,8 +253,6 @@ Old:
      >* [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md).
 
      ![Ursprungligt anslutningsval för begäran](assets/original-request-connection-selection.png)
-
-   </div>
 
 
    * **Experience Manager** från avsnittet **Adobe-program**.
@@ -319,7 +316,7 @@ Old:
 
    >[!NOTE]
    >
-   >Workfront-administratören kan mappa Workfront Planning-fält till Experience Manager-fält via metadatamappningen i Workfront. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >Workfront-administratören kan mappa Workfront Planning-fält till Experience Manager-fält via metadatamappningen i Workfront. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Villkorligt) När du väljer att ansluta till Experience Manager, till en post av typen Workfront Planning eller till ett GenStudio-märke, väljer du något av följande alternativ i området **Postutseende**:
@@ -349,14 +346,15 @@ Old:
 
    >[!TIP]
    >
-   >* Du kan inte lägga till referensfält från ett annat program som uppslagsfält. Du kan till exempel inte lägga till Projektgrupp eller Företag som sökfält i Planering när du ansluter till Workfront-projekt.
+   >* Du kan inte lägga till referensfält från ett annat program som uppslagsfält. Du kan till exempel inte lägga till Projekt, Grupp eller Företag som sökfält i Planering när du ansluter till Workfront-projekt.
    >
-   >* I produktionsmiljön kan du inte lägga till Workfront-användarfält (inklusive fält som Projektägare eller Projektsponsor) som sökfält. <span class="preview">Du kan lägga till användarfält som sökfält i förhandsvisningsmiljön.</span>
+   ><!--* In the Production environment, you cannot add Workfront user fields (including fields like Project Owner, or Project Sponsor) as lookup fields. <span class="preview">You can add user fields as lookup fields in the Preview environment.</span>-->
    >
    >* Information om datumfält i Workfront-objekt visas i 24-timmarsformat i Workfront Planning, oavsett hur den visas i Workfront.
    >
    >   Om till exempel ett projekts planerade startdatum visas som 3:00 PM i Workfront, visas det som 15:00 i Workfront Planning i ett importerat uppslagsfält.
-   >* I produktionsmiljön kan du inte lägga till personfält som sökfält. <span class="preview">Du kan lägga till personfält som sökfält i förhandsvisningsmiljön.</span>
+   >
+   ><!--* In the Production environment, you cannot add People fields as lookup fields. <span class="preview">You can add People fields as lookup fields in the Preview environment.</span>-->
 
 1. Klicka på **Skapa**.
 
@@ -433,7 +431,7 @@ Old:
    >* **UNIQUE**: $100 000
    >
 
-1. (Valfritt) Använd ikonen **sök** ![Sök &#x200B;](assets/search-icon.png) för att söka efter ett fält.
+1. (Valfritt) Använd ikonen **sök** ![Sök ](assets/search-icon.png) för att söka efter ett fält.
 
 1. Klicka på **Lägg till fält** för att spara ändringarna.
 

@@ -8,20 +8,22 @@ feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
 
 # Använda widgeten Mina förfrågningar
 
-<!--remove Preview and Production references at Production release April 15, 2026-->
+<!--
+remove Preview and Production references at Production release April 15, 2026
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 >[!IMPORTANT]
 >
@@ -102,14 +104,9 @@ To configure the filter in the My Requests widget:
    * Visa
    * Filter
    * Kolumner
-
-   <div class="preview">
-
    * Gruppering
    * Formatera celler
    * Radhöjd
-
-   </div>
 
    Mer information om hur du uppdaterar vyelement i listan över förfrågningar finns i [Använda förbättrade listor](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
@@ -212,7 +209,7 @@ Du kan söka efter objekt som har skapats av en begäran i widgeten Mina förfr�
 >
 >* Planering och Workfront-begäranden i ämnesfältet.
 >* Planeringsposter som har skapats från planeringsbegäranden i fältet Objekt som har skapats.
->* <span class="preview">Workfront-uppgifter och -problem som konverterats från Workfront-begäranden i fältet Objekt som skapats i förhandsgranskningsmiljön.</span>
+>* Workfront uppgifter och problem som konverterats från Workfront-begäranden i fältet Objekt som skapats.
 
 1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/lines-main-menu.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Home]**.
 1. (Villkorligt) Om du vill lägga till widgeten **Mina förfrågningar** på hemskärmen. Klicka på **Anpassa** och sök efter **Mina förfrågningar**. Klicka sedan på den för att lägga till den i **Hem**.
@@ -223,10 +220,7 @@ Du kan söka efter objekt som har skapats av en begäran i widgeten Mina förfr�
 
    >[!TIP]
    >
-   >I produktionsmiljön har bara planeringsposter en länk i fältet **Skapat objekt**.
-   >   
-   ><span class="preview">I förhandsgranskningsmiljön har Workfront-aktiviteter och -projekt som konverterats från problem samt planeringsposter som skapats från planeringsbegäranden en länk i fältet **Skapat objekt**.</span>
-   >
+   >Workfront-aktiviteter och projekt som konverterats från problem samt planeringsposter som skapats från planeringsbegäranden har en länk i fältet **Skapat objekt**.
 
 
 
