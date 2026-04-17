@@ -104,7 +104,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
    * Klicka på menyn **Mer** för projektet och klicka sedan på **Ange rollernas planerade timmar som budgeterade**.\
      Budgeterade timmar för varje roll beräknas med följande formel:\
-     *
+     &#x200B;*
 
      `Role Budgeted Hours = Role Planned Hours`
 
@@ -174,8 +174,8 @@ Om du vill budgetera allokeringar i resursplaneraren i rollvyn***:
    * I kolumnen **BDG** anger du manuellt antalet budgeterade timmar, FTE eller kostnad för jobbrollerna.\
      Detta fördelar rollbudgeterade timmar till projektbudgeterade timmar för de projekt som du har tillgång till för att hantera.
 
-   * Klicka på menyn **Mer** för jobbrollen och klicka sedan på **Ange projektens planerade timmar som budgeterade.**Rollbudgeterade timmar beräknas med följande formel:\
-     *
+   * Klicka på menyn **Mer** för jobbrollen och klicka sedan på **Ange projektens planerade timmar som budgeterade.**&#x200B;Rollbudgeterade timmar beräknas med följande formel:\
+     &#x200B;*
 
      `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 
