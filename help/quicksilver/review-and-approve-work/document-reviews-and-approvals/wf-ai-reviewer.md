@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
+source-git-commit: 72fa86e6dc653905181603e0111f65eb0ca5965b
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '785'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,7 @@ Alla användare kan lägga till Content Reviewer i en gransknings- och godkänna
    * Content Reviewer i Workfront innehåller de funktioner som är tillgängliga i GenStudio Foundation för granskning och godkännande av resurser. Du behöver inte komma åt GenStudio Foundation direkt för att slutföra arbetet. Din åtkomst till GenStudio Foundation-funktioner via Content Reviewer följer villkoren i ditt Workfront-avtal.
 * Adobe måste ha ett signerat Adobe Gen AI-avtal till hands.
 Mer information om hur du signerar avtalet finns i [Signera Adobe Gen AI-avtalet](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
+* Content Reviewer är inte tillgängligt i sandlådemiljöer.
 
 
 ## Filtyper som stöds {#supported-file-types-ai-reviewer}
