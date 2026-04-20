@@ -5,7 +5,7 @@ description: Det övre navigeringsfältet - som visas högst upp på skärmen i 
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 4ad4873f1646a2ff499d03dabd9749d43022f6b1
+source-git-commit: 0a38554b8bbd870b8b9b0e221b25c120cd0f941e
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Det övre navigeringsfältet, som visas högst upp på skärmen i [!DNL Adobe Wo
 
 Ikonen **[!UICONTROL Home]** ![](assets/home-icon.png) tar dig till sidan [!UICONTROL Home], som är standardstartsidan.
 
-Som standard öppnas området Hem med Hem-ikonen. Mer information om Hem finns i [Använda [!UICONTROL Home] området &#x200B;](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+Som standard öppnas området Hem med Hem-ikonen. Mer information om Hem finns i [Använda [!UICONTROL Home] området ](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
 Workfront-administratören kan anpassa hemikonen för att öppna en annan sida genom att skapa en layoutmall och tilldela den till dig. Mer information finns i [Anpassa landningssidan med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
 
@@ -84,15 +84,11 @@ Vilka alternativ som är tillgängliga i [!UICONTROL Main Menu] beror på:
 
 * **Layoutmallskonfigurationer**: Information om hur en [!DNL Workfront] -administratör kan ändra [!UICONTROL Main Menu] från en layoutmall finns i [Anpassa [!UICONTROL Main Menu] med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-* **Licenstyp**: Information om standardkonfigurationerna för olika licenstyper finns i [Förstå navigeringen för en granskningslicensanvändare](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) eller [Förstå navigeringen för en [!UICONTROL Work]-licensanvändare](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
+* **Licenstyp**: Information om standardkonfigurationerna för olika licenstyper finns i [Förstå navigeringen för en användare med en ljuslicens](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) eller [Förstå navigeringen för en [!UICONTROL Work]-licensanvändare](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
 
 Varje ikon tar dig till olika delar av Workfront.
 
 Mer information om de olika områdena finns i:
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Update screenshot and add icons for new products/features.)</p>
--->
 
 <table style="table-layout:auto"> 
  <col> 

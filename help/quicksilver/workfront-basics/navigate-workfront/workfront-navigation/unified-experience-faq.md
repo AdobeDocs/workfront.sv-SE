@@ -8,14 +8,20 @@ feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: d9d6d572840f5691888d0db3242f3908978079b3
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: '1392'
 ht-degree: 0%
 
 ---
 
 # Vanliga frågor om [!DNL Adobe Unified Experience]
+
+<!--Remove me October 2026-->
+
+>[!NOTE]
+>
+>Alla Workfront-organisationer använder nu Adobe Unified Experience för att få tillgång till Workfront.
 
 Med [!DNL Adobe Unified Experience] för [!DNL Workfront] kan du hantera alla dina [!DNL Adobe]-program på ett och samma ställe med en enda inloggning. Navigeringsområdet [!DNL Adobe] är integrerat med [!DNL Workfront]. Några funktioner är annorlunda och du kan ha frågor när din [!DNL Workfront]-instans migreras till den enhetliga upplevelsen.
 
@@ -61,7 +67,7 @@ Mer information om [!DNL Admin Console] finns i följande artiklar:
 
 ### Vad behöver jag som kund för att underlätta migreringen?
 
-Befintliga kunder kontaktas för att schemalägga migreringar. De supportteam som arbetar med migrering kommer att hjälpa kunderna genom processen, ge råd om konfigurationen av [!DNL Admin Console] och tillhandahålla länkar till dokumentation som behövs för att göra flytten så enkel och krångelfri som möjligt. Mer information finns i [[!DNL Adobe Business Platform] och [!DNL Admin Console] Vanliga frågor](https://experienceleague.adobe.com/sv/docs/support-resources/adobe-support-tools-guide/workfront/faq).
+Befintliga kunder kontaktas för att schemalägga migreringar. De supportteam som arbetar med migrering kommer att hjälpa kunderna genom processen, ge råd om konfigurationen av [!DNL Admin Console] och tillhandahålla länkar till dokumentation som behövs för att göra flytten så enkel och krångelfri som möjligt. Mer information finns i [[!DNL Adobe Business Platform] och [!DNL Admin Console] Vanliga frågor](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/workfront/faq).
 
 ### Hur hanterar du [!DNL Adobe Admin Console] för företag som redan har detta aktiverat för Federated ID:n på ett annat sätt än [!DNL Workfront] enkel inloggning har konfigurerats?
 

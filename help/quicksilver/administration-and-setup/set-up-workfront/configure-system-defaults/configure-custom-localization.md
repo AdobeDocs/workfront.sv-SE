@@ -7,16 +7,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bdc6d5ee-2037-4d0b-bf18-3e6cc9cb078e
-source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '365'
 ht-degree: 1%
 
 ---
 
 # Konfigurera anpassad lokalisering
 
-Med anpassad lokalisering kan du definiera anpassade termer och fraser på olika språk. Workfront visar sedan dessa termer på det språk som anges i användarens IMS-inställningar (Adobe Identity Management). Om användaren inte befinner sig på Adobe IMS visas termerna i det språk som anges i användarens webbläsarinställningar.
+Med anpassad lokalisering kan du definiera anpassade termer och fraser på olika språk. Workfront visar sedan dessa termer på det språk som anges i användarens IMS-inställningar (Adobe Identity Management).
 
 Du kan till exempel ställa in etiketten &quot;Målpublik&quot; till att översätta till det tyska ordet &quot;Zielgruppe&quot;. Alla användare med tyska som har valts som webbläsarens huvudspråk ser ordet&quot;Zielgruppe&quot; som etikett för alla fält med namnet&quot;Target Audience&quot; på engelska.
 

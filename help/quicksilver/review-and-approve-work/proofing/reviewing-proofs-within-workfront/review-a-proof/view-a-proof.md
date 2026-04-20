@@ -6,9 +6,9 @@ description: Lär dig hur du visar innehåll i ett korrektur.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
-source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
+source-git-commit: 480f40d77cfc494ac28a2332c0e15bd1f0f00a6b
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Du kan använda korrekturläsaren för att visa och kommentera filer i Workfront
 
 >[!NOTE]
 >
->Om din Workfront-instans finns på Unified Experience öppnas korrekturläsaren på en ny flik.
+>Språkvisningsprogrammet öppnas på en ny flik.
 
 
 ## Åtkomstkrav

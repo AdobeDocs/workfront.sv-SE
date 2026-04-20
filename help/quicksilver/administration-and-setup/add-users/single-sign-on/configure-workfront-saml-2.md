@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: cf09859c-7d6f-4bf0-9b7f-c57096233c94
-source-git-commit: 22ae8b489c63ba6eea1472cf415f95e375a94773
+source-git-commit: d8ccdeac9a658ca7a2862781e98c2c3c6fa0e8a0
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
@@ -27,17 +27,23 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Den procedur som beskrivs på denna sida gäller endast organisationer som ännu inte har anslutit sig till Adobe Admin Console.
+>Den procedur som beskrivs på den här sidan gäller endast för organisationer som ännu inte har anslutit sig till Adobe Admin Console.
 >
->Mer information om hur du mappar användarattribut i organisationer som har anslutit till Adobe Admin Console finns i [Mappa användarattribut i den enhetliga Adobe-upplevelsen](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) i artikeln Mappa användarattribut.
+>Eftersom alla organisationer nu går med i Adobe Admin Console är proceduren inte längre tillgänglig.
+>
+>Information om hur du mappar användarattribut i organisationer som har anslutit till Adobe Admin Console finns i [Mappa användarattribut](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) i artikeln Mappa användarattribut.
 
-Som Adobe Workfront-administratör kan du konfigurera Workfront webb- och mobilprogram så att de integreras med en SAML 2.0-lösning för enkel inloggning (SSO).
+<!--Remove me October 2026-->
 
-När du har konfigurerat SAML 2.0 i Workfront, enligt beskrivningen i följande avsnitt, kan du upprätthålla konfigurationen enligt beskrivningen i [Uppdatera SAML 2.0-metadata i identitetsleverantören](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md).
+<!--
 
-## Åtkomstkrav
+As an Adobe Workfront administrator, you can configure the Workfront web and mobile applications to integrate with a Security Assertion Markup Language (SAML) 2.0 solution for single sign-on (SSO).
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+After you have configured SAML 2.0 in Workfront, as described in the following sections, you can maintain the configuration, as described in [Update SAML 2.0 metadata in your identity provider](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md).
+
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,145 +51,147 @@ När du har konfigurerat SAML 2.0 i Workfront, enligt beskrivningen i följande 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td><p>Alla</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td><p>Standard</p><p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör.</p> </p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## Aktivera autentisering till Workfront med SAML 2.0
+## Enable authentication to Workfront with SAML 2.0
 
 {{step-1-to-setup}}
 
-1. Klicka på **System** > **enkel inloggning (SSO).**
+1. Click **System** > **Single Sign-On (SSO).**
 
-1. I listrutan **Typ** väljer du **SAML 2.0.**
+1. In the **Type** drop-down list, select **SAML 2.0.**
 
-1. Klicka på **Hämta SAML 2.0-metadata** för att hämta filen på datorn. Det är nära de översta alternativen som visas.
+1. Near the top of the options that appear, click **Download SAML 2.0 Metadata** to download the file on your computer.
 
-   Din SAML 2.0-identitetsleverantör kräver en XML-fil med information som genereras i din Workfront-instans. När du har laddat ned filen måste du komma åt din SAML 2.0 Identity Provider-server och ladda upp XML-filen för Workfront SAML 2.0.
+   Your SAML 2.0 Identity Provider requires an XML file with information generated in your Workfront instance. After downloading the file, you must access your SAML 2.0 Identity Provider server and upload the Workfront SAML 2.0 Metadata XML file there.
 
-1. Ange följande information i Workfront:
+1. Specify the following information in Workfront:
 
    <table style="table-layout:auto">
     <col>
     <col>
     <tbody>
      <tr>
-      <td role="rowheader">Tjänsteleverantörens ID </td>
-      <td> Denna URL, som redan är ifylld för dig, identifierar Workfront för identitetsleverantören. Till exempel: <code>&lt;yourcompany&gt;.com/SAML2</code>.</td>
+      <td role="rowheader">Service Provider ID </td>
+      <td> This URL, already populated for you, identifies Workfront to your identity provider. For example: <code>&lt;yourcompany&gt;.com/SAML2</code>.</td>
      </tr>
      <tr>
-      <td role="rowheader">Bindningstyp </span> </td>
-      <td> <p>Välj den metod som stöds av IDP-servern för att skicka autentiseringsinformation:</p>
+      <td role="rowheader">Binding Type</span> </td>
+      <td> <p>Select the method supported by your IDP server for sending authentication information:</p>
        <ul>
        <li>POST</li>
-       <li>OMDIRIGERA</li>
+       <li>REDIRECT</li>
        </ul> </td>
      </tr>
      <tr>
-      <td role="rowheader">Fyll i fält från identitetsleverantörens metadata </td> 
-      <td>I SAML 2.0 Identity Provider-lösningen exporterar du en XML-fil för tjänstleverantörens metadata och sparar den på en tillfällig plats på datorn. Välj <strong>Välj Arkiv</strong>, sök efter och markera filen som du sparade för att lägga till den i din Workfront-konfiguration.</td> 
+      <td role="rowheader">Populate fields from Identity Provider Metadata </td> 
+      <td>In your SAML 2.0 Identity Provider solution, export a Service Provider Metadata XML file and save it to a temporary location on your computer. Select <strong>Choose File</strong>, then find and select the file you saved to add it to your Workfront configuration.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">URL för inloggningsportal </span> </td> 
-      <td>Ange din organisations gemensamma inloggningsportal. Det här är den URL där användare loggar in för att få tillgång till Workfront och alla andra program som är integrerade med SAML 2.0.</td> 
+      <td role="rowheader">Login Portal URL</span> </td> 
+      <td>Enter your organization's common login portal. This is the URL where users log in to access Workfront and all other applications integrated with SAML 2.0.</td> 
      </tr>
      <tr>
-      <td role="rowheader">Utloggnings-URL</span> </td> 
-      <td> <p>Ange URL:en för utloggning för IDP-servern. Workfront skickar en HTTP-begäran till den här URL:en innan Workfront loggas ut. Detta stänger användarens session på fjärrservern när Workfront-sessionen stängs.</p> <p><b>Obs!</b> Du omdirigeras bara till utloggnings-URL om du har alternativet <strong>Tillåt endast SAML 2.0-autentisering</strong> aktiverat i din användarprofil.</p> </td>
+      <td role="rowheader">Sign-Out URL</span> </td> 
+      <td> <p>Enter the sign-out URL for the IDP server. Workfront sends an HTTP request to this URL before signing out of Workfront. This closes the user's session on the remote server when the Workfront session is closed.</p> <p><b>NOTE</b>:  You are redirected to the sign-out URL only if you have the option <strong>Only Allow SAML 2.0 Authentication</strong> enabled in your user profile.</p> </td>
      </tr>
      <tr>
-      <td role="rowheader">Ändra lösenord-URL </td> 
-      <td> <p> Ange den URL som användarna ska omdirigeras till för att ändra sina lösenord. </p> <p>Eftersom inloggningsuppgifterna för SAML 2.0 används för att få åtkomst till Workfront måste man omdirigera användare till en sida där de kan ändra sitt SAML 2.0-lösenord i stället för att slutföra den här aktiviteten via Workfront.</p> </td> 
+      <td role="rowheader">Change Password URL </td> 
+      <td> <p> Specify the URL where users will be redirected to change their passwords. </p> <p>Because the SAML 2.0 credentials are used to access Workfront, users must be redirected to a page where they can change their SAML 2.0 password instead of completing this activity through Workfront.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Säker hash-algoritm </td> 
-      <td> <p>Välj den SHA (Secure Hash Algorithm) som din IDP stöder:</p> 
+      <td role="rowheader">Secure Hash Algorithm </td> 
+      <td> <p>Select the Secure Hash Algorithm (SHA) that your IDP supports:</p> 
        <ul> 
        <li>SHA-1</li> 
        <li>SHA-256</li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Etablera användare automatiskt</span> </td> 
-      <td> <p>Det här alternativet skapar automatiskt en användare i systemet när en ny användare med ett kataloganvändarnamn och lösenord försöker logga in på Workfront för första gången.</p> <p>Om du vill skapa användare i Workfront måste du mappa Workfront-dataattribut till följande användardataattribut i din katalogleverantör:</p> 
+      <td role="rowheader">Auto-Provision Users</span> </td> 
+      <td> <p>This option automatically creates a user in the system when a new user with a directory username and password attempts to log in to Workfront for the first time.</p> <p>To create users in Workfront, you must map Workfront data attributes with the following user data attributes in your directory provider:</p> 
        <ul> 
-       <li>Förnamn</li> 
-       <li>Efternamn</li> 
-       <li>E-postadress</li> 
+       <li>First Name</li> 
+       <li>Last Name</li> 
+       <li>Email Address</li> 
        </ul> 
-       <p>När du markerar kryssrutan visas följande alternativ:</p> 
+       <p>When you select the check box, the following options display:</p> 
        <p> <img src="assets/saml-2.0-auto-provision-users-ui.png"> </p> 
-       <p>Markera det Workfront-användarattribut som du vill mappa i listrutan och ange sedan motsvarande katalogattribut i användarkatalogen.</p> 
-       <p>Fältet <strong>Katalogattribut</strong> ska innehålla katalogattributnamnet från tabellen för användarattribut som du sparade när din SAML 2.0-konfiguration testades.</p> 
-       <p>Du kan ange ett standardvärde för Workfront i fältet <strong>Standardvärde</strong>. Du kan också ange regler baserat på värdena från din SAML 2.0-identitetsleverantör.</p> 
-       <p><b>VARNING</b>: Workfront försöker mappa nedanstående attribut varje gång en användare loggar in i systemet. Därför rekommenderar vi inte att åtkomstnivåer mappas. Du kan enkelt ta bort administrativ åtkomst om ett attribut är felaktigt mappat. Klicka på <strong>Lägg till mappning</strong> om du vill lägga till ytterligare regler.
+       <p>Select the Workfront User Attribute that you want to map from the drop-down list, then specify the corresponding Directory Attribute in the user directory.</p> 
+       <p>The <strong>Directory Attribute</strong> field should contain the Directory Attribute Name from the User Attribute table you saved when successfully testing your SAML 2.0 configuration.</p> 
+       <p>You can set a Default Workfront Value in the <strong>Default Value</strong> field. You can also set rules based on the values from your SAML 2.0 Identity Provider.</p> 
+       <p><b>WARNING</b>: Workfront attempts to map the attributes listed below every time a user logs into the system. Because of this, we do not recommend mapping access levels. You can easily remove administrative access if an attribute is mapped incorrectly. Click <strong>Add Mapping</strong> to add additional rules.
        </p> 
-       <p>Du kan mappa följande Workfront-attribut:</p> 
+       <p>You can map the following Workfront attributes:</p> 
       <ul> 
-      <li> <p>Åtkomstnivå</p> </li> 
-      <li> <p>Adress</p> </li> 
-      <li> <p>Adress 2</p> </li> 
-      <li> <p>Fakturering per timme</p> </li> 
-      <li> <p>Ort</p> </li> 
-      <li> <p>Företag</p> </li> 
-      <li> <p>Kostnad per timme</p> </li> 
-      <li> <p>E-postadress</p> </li> 
-      <li> <p>Tillägg</p> </li> 
-      <li> <p>Förnamn</p> </li> 
-      <li> <p>Hemgrupp</p> </li> 
-      <li> <p>Hemteam</p> </li> 
-      <li> <p>Jobbroll</p> </li> 
-      <li> <p>Efternamn</p> </li> 
-      <li> <p>Layoutmall</p> </li> 
+      <li> <p>Access Level</p> </li> 
+      <li> <p>Address</p> </li> 
+      <li> <p>Address2</p> </li> 
+      <li> <p>Billing Per Hour</p> </li> 
+      <li> <p>City</p> </li> 
+      <li> <p>Company</p> </li> 
+      <li> <p>Cost Per Hour</p> </li> 
+      <li> <p>Email Address</p> </li> 
+      <li> <p>Extension</p> </li> 
+      <li> <p>First Name</p> </li> 
+      <li> <p>Home Group</p> </li> 
+      <li> <p>Home Team</p> </li> 
+      <li> <p>Job Role</p> </li> 
+      <li> <p>Last Name</p> </li> 
+      <li> <p>Layout Template</p> </li> 
       <li> <p>Manager</p> </li> 
-      <li> <p>Mobiltelefon</p> </li> 
-      <li> <p>Telefonnummer</p> </li> 
-      <li> <p>Postnummer</p> </li> 
-      <li> <p>Schema</p> </li> 
-      <li> <p>Läge</p> </li> 
-      <li> <p>Tidrapportprofil</p> </li> 
-      <li> <p>Titel</p> </li> 
+      <li> <p>Mobile Phone</p> </li> 
+      <li> <p>Phone Number</p> </li> 
+      <li> <p>Postal Code</p> </li> 
+      <li> <p>Schedule</p> </li> 
+      <li> <p>State</p> </li> 
+      <li> <p>Timesheet Profile</p> </li> 
+      <li> <p>Title</p> </li> 
       </ul>
-      <p>Klicka på <strong>Spara</strong> när du är klar med mappningen av användarattribut.</p> </td> 
+      <p>Click <strong>Save</strong> when you are finished mapping user attributes.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Certifikat </td> 
-      <td> <p>Överför ett giltigt SSL-certifikat för att säkerställa en säker anslutning mellan autentiseringstjänsten och Workfront. För OnDemand-konton krävs alltid ett certifikat. Du kan hämta det här certifikatet från din SAML 2.0-systemadministratör.</p> </td> 
+      <td role="rowheader">Certificate </td> 
+      <td> <p>Upload a valid SSL certificate to ensure a secure connection between the authentication service and Workfront. For OnDemand accounts, a certificate is always required. You can obtain this certificate from your SAML 2.0 system administrator.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Administratörsundantag </td> 
-      <td> <p>Gör att Workfront-administratörer kan komma åt Workfront via sin Workfront-inloggning. Om det här alternativet inte är markerat måste Workfront-administratörer använda sitt SAML 2.0-användarnamn och -lösenord.</p> 
-      <p>Workfront försöker först logga in på Workfront via SAML 2.0 för användare med åtkomstnivån Workfront System Administrator. Om SAML 2.0-autentiseringen misslyckas använder Workfront lokal autentisering för Workfront-administratörer.</p> 
-      <p>Vi rekommenderar att du alltid har valt det här alternativet så att Workfront-administratören kan logga in på Workfront om din SAML 2.0-leverantör inte är tillgänglig för tillfället.</p> </td> 
+      <td role="rowheader">Admin Exemption </td> 
+      <td> <p>Allows Workfront administrators to access Workfront using their Workfront login. If this option is not selected, Workfront administrators must use their SAML 2.0 username and password.</p> 
+      <p>Workfront first attempts to log in to Workfront via SAML 2.0 for users with the Workfront System Administrator access level. If the SAML 2.0 authentication fails, Workfront uses local authentication for Workfront administrators.</p> 
+      <p>We recommend that you always have this option selected so that your Workfront administrator can log in to Workfront if your SAML 2.0 provider is ever temporarily unavailable.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Aktivera </td> 
-      <td> <p>Aktiverar enkel inloggning på Workfront-systemet. Kontrollera att du har skickat inloggningsinstruktioner till användarna.</p> <p>När du har aktiverat din SSO-konfiguration i Workfront måste du aktivera inställningen <strong>Tillåt endast SAML 2.0-autentisering</strong> för alla användare så att de kan använda SSO.</p> <p>Mer information om hur du uppdaterar användare för enkel inloggning finns i <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Uppdatera användare för enkel inloggning</a>.</p> <p>Mer information om användarinställningar finns i <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Redigera en användares profil</a>.</p> </td> 
+      <td role="rowheader">Enable </td> 
+      <td> <p>Activates SSO on the Workfront system. Ensure that you have communicated login instructions to your users.</p> <p>After you enable your SSO configuration in Workfront, you must enable the <strong>Only Allow SAML 2.0 Authentication</strong> setting for all users so that they can use SSO.</p> <p>For more information about updating users for SSO, see <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Update users for single sign-on</a>.</p> <p>For more information about user settings, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Bekräfta konfiguration </td> 
+      <td role="rowheader">Confirm Configuration </td> 
       <td> 
-      <p>Klicka på <strong>Testa anslutning</strong> för att verifiera att Workfront och SAML 2.0-identitetsleverantören kan kommunicera med varandra. Anslutningen fungerar bara om du har bytt ut XML-filerna.
+      <p>Click <strong>Test Connection</strong> to verify that Workfront and the SAML 2.0 Identity Provider can communicate with each other. This connection is successful only if you exchanged the XML files.
       </p> 
-      <p>När du har testat länken mellan din SAML 2.0-identitetsleverantör och Workfront visas en skärm som liknar bilden nedan.</p>
-      <p><b>Obs!</b> Den här skärmen visas i ett webbläsarpopup-fönster så att du kan inaktivera popup-blockerare i webbläsaren.</p>
-      <p>Spara informationen som visas i tabellen för senare bruk.</p>
+      <p>After you successfully test the link between your SAML 2.0 Identity Provider and Workfront, you will see a screen similar to the image below.</p>
+      <p><b>NOTE</b>:  This screen is displayed in a browser pop-up, so ensure that you disable pop-up blockers in your browser.</p>
+      <p>Save the information displayed in the table for later use.</p>
       <p><img src="assets/success-table-saml-2.png"></p></td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicka på **Spara** för att spara SAML 2.0-konfigurationen.
+1. Click **Save** to save the SAML 2.0 configuration.
+
+-->

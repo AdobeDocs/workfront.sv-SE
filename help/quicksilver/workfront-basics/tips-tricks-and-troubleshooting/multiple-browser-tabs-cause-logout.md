@@ -6,18 +6,14 @@ description: När en användare har flera webbläsarflikar öppna kan Workfront 
 feature: Get Started with Workfront
 author: Becky
 exl-id: 1cc8bf6c-0eda-41ef-8efd-bba3a5f33b08
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 440640f5b916b76096c99eed8253236de477a02a
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
 
 # Flera webbläsarflikar gör att Workfront loggar ut
-
->[!IMPORTANT]
->
->Problemet gäller endast organisationer som har anslutit sig till Adobe IMS.
 
 ## Problem
 

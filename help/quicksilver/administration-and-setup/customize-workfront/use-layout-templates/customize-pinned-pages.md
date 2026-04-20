@@ -8,16 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+source-git-commit: 58a6b489ca5f1683a5c40c63bb4528b1f49e9324
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 0%
+source-wordcount: '526'
+ht-degree: 1%
 
 ---
 
 # Anpassa fästa sidor med en layoutmall
 
-I en layoutmall kan du fästa de sidor som du vill att användarna alltid ska ha tillgängliga överst i Adobe Workfront. Dessa kan antingen nås via huvudmenyikonen ![Huvudmeny](assets/main-menu-icon.png) eller huvudmenyikonen ![Huvudmeny](assets/main-menu-icon-left-nav.png) om den är tillgänglig, eller via kontrollpaneler.
+I en layoutmall kan du fästa de sidor som du vill att användarna alltid ska ha tillgängliga överst i Adobe Workfront. Dessa kan antingen nås via huvudmenyikonen ![Huvudmeny](assets/main-menu-icon-left-nav.png) eller via kontrollpaneler.
 
 Alla punkter som användarna har lagt till separat visas till höger om de punkter som du lägger till i layoutmallen.
 

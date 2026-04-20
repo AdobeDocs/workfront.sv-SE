@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1538'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >Den procedur som beskrivs på denna sida gäller endast organisationer som ännu inte har anslutit sig till Admin Console. Om du har anslutit dig till Adobe Admin Console måste du utföra den här åtgärden via Adobe Admin Console.
 >
->Mer information om hur du konfigurerar din tillåtelselista om din organisation har anslutit till Adobe Admin Console finns i [Domäner som tillåts för Adobe appar och tjänster](https://helpx.adobe.com/se/enterprise/kb/network-endpoints.html).
+>Mer information om hur du konfigurerar din tillåtelselista om din organisation har anslutit till Adobe Admin Console finns i [Domäner som tillåts för Adobe appar och tjänster](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns i [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -32,12 +32,6 @@ ht-degree: 0%
 >Organisationens sätt att konfigurera tillåtelselista är unikt för varje organisation. Samarbeta med IT-avdelningen för att identifiera organisationens rutiner och implementera dessa tillägg.
 
 Om brandväggen eller e-postservern är konfigurerad att endast tillåta åtkomst till vissa leverantörer måste du lägga till vissa IP-adresser i tillåtelselista. Detta öppnar kommunikationen mellan din miljö och Adobe Workfront-servrarna och tillåter följande processer:
-
-* Skicka meddelanden från Workfront-programmet
-
-  >[!NOTE]
-  >
-  >Detta är inte tillgängligt om din organisations Workfront-instans har aktiverats med Adobe IMS. Kontakta nätverks- eller IT-administratören om du behöver mer information.
 
 * Använda dokumentwebhooks när du konfigurerar anpassade dokumentintegreringar
 * Använda Workfront Event-prenumerationer
@@ -434,7 +428,7 @@ Om din organisation använder utgående nätverksfiltrering lägger du till föl
 * *.static.workfront.com
 
 
-  Det här är en statisk domän som expanderar alla följande domäner. Du kan lägga till de enskilda domänerna om du vill:
+  Det här är en statisk domän som omfattar alla följande domäner. Du kan lägga till de enskilda domänerna om du vill:
 
    * mfe.static.workfront.com
    * mfe-c.static.workfront.com
@@ -442,7 +436,7 @@ Om din organisation använder utgående nätverksfiltrering lägger du till föl
    * mfe-preview.static.workfront.com
    * mfe-review.static.workfront.com
 
-Om din organisation använder Adobe Unified Experience används följande domäner. Dessa domäner täcks av `*.adobe.com`, men kan läggas till om så önskas.
+Eftersom din organisation använder Adobe Unified Experience används följande domäner. Dessa domäner täcks av `*.adobe.com`, men kan läggas till om så önskas.
 
 * &lt;your domain>.my.workfront.adobe.com
 * &lt;your domain>.preview.workfront.adobe.com
@@ -451,6 +445,8 @@ Om din organisation använder Adobe Unified Experience används följande domän
 
 
 För Workfront Fusion lägger du till följande domäner:
+
+<!--Remove me October 2026-->
 
 * För företag som inte är med i Adobe Unified Experience:
    * app.workfrontfusion.com (US AWS)

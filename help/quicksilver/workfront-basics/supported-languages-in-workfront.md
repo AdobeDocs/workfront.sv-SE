@@ -8,9 +8,9 @@ author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: eb5296348c27f806dd50b997970166ebae4c97f4
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
@@ -94,13 +94,13 @@ För närvarande stöder Workfront Fusion endast engelska.
 * Workfront Fusion stöder inte användning av icke-engelska texttecken i fält som användaren anger.
 
 Företaget måste köpa en Workfront Fusion-licens för att få tillgång till Workfront Fusion.\
-Mer information om Workfront Fusion finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Mer information om Workfront Fusion finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ## Ändra språk
 
 Du kan ändra det språk som används för att visa Workfront och det språk som används i utgående e-postmeddelanden genom att ändra följande inställningar:
 
-* Språket i webbläsaren (för användare som inte befinner sig i Adobe Admin Console)
+<!--* DELETE THIS SECTION MARCH 2026 The language on your browser (for users not on the Adobe Admin Console)-->
 * Det primära och sekundära språket i din AEM-profil (för användare på Adobe Admin Console)
 * Inställningarna för kundinformation och användarens e-postadress i ditt Workfront-konto.
 
@@ -117,14 +117,18 @@ Om du vill ta reda på om din organisation har migrerats till Adobe Admin Consol
 * [Ändra Adobe Experience Cloud-språk](#change-the-adobe-experience-cloud-language)
 * [Ändra e-postadresser för Workfront och användare](#change-the-workfront-and-user-locales)
 
-### Ändra webbläsarspråk {#change-the-browser-language}
+<!--DELETE THIS SECTION MARCH 2026-->
 
-Om din organisation inte har migrerats till Adobe Admin Console visas ditt Workfront-gränssnitt på det språket när du byter webbläsarspråk.\
-Mer information om vilka språk som stöds av Workfront finns i [Språk som stöds i Adobe Workfront](#supported-languages).
+<!--
 
-Webbläsarspråket måste ändras för enskilda användare.
+### Change the browser language {#change-the-browser-language}
 
-Se hjälpmenyn för din webbläsare för mer information om hur du byter språk i din webbläsare.
+If your organization has not been migrated to the Adobe Admin Console, when you change the browser language, your Workfront interface displays in that language.   
+For more information about what languages are supported by Workfront, see [Supported languages in Adobe Workfront](#supported-languages).
+
+The browser language must be changed on an individual user basis.
+
+See the "Help" menu for your browser for specific information about how to change the language of your browser.-->
 
 ### Ändra Adobe Experience Cloud-språk
 
@@ -159,20 +163,23 @@ Så här ändrar du Workfront standardspråk för e-post:
 
 ### Ändra användarens e-postspråk {#change-the-user-locale}
 
-När du ändrar ditt språkområde för e-post för användare ändrar du språk, datum och nummerformat som används i dina utgående meddelanden. De här inställningarna åsidosätter de systeminställningar som har valts under Kundinformation i installationsprogrammet.
+<!--
+
+
+When changing your User Email Locale, you modify the language, date, and number format used in your outgoing messages. These settings override the system settings selected in the Customer Info area of Setup.-->
 
 >[!NOTE]
 >
->När din organisation använder Adobe Unified Experience lagras språkinställningarna i din Adobe-profil och e-postspråkinställningen används inte. Se [Ändra Adobe Experience Cloud &#x200B;](#change-the-adobe-experience-cloud-language) i den här artikeln.
+>Språkinställningarna lagras i din Adobe-profil och e-postspråket används inte. Se [Ändra Adobe Experience Cloud ](#change-the-adobe-experience-cloud-language) i den här artikeln.
 
-Så här ändrar du din e-postadress för användare:
+<!--To change your User Email Locale:
 
 {{step1-click-main-menu}}
 
-1. Klicka på din användarprofilbild.
+1. Click your user profile picture.
 
-1. Klicka på menyn Mer ![](assets/more-icon.png) och sedan på **Redigera**.
+1. Click the More menu ![](assets/more-icon.png), then click **Edit**.
 
-1. I avsnittet **Inställningar** klickar du på listrutan **Språk för e-post** för att välja det språk som du vill att Workfront-e-postmeddelanden ska visas i.
+1. In the **Preferences** section, click the **Email Locale** drop-down list to select the language that you want Workfront emails to display in.
 
-1. Klicka på **Spara ändringar**.
+1. Click **Save Changes**.-->

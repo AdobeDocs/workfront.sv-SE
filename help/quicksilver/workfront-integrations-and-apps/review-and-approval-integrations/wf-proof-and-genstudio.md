@@ -8,9 +8,9 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 9905a522-9913-49c0-8c80-a8b46221fcbb
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+source-git-commit: d9d6d572840f5691888d0db3242f3908978079b3
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Tack vare integrationen mellan GenStudio for Performance Marketing och Workfront
 
 * Visa granskningsbeslut i GenStudio for Performance Marketing för slutligt godkännande och publicering
 
-Mer information om granskning och godkännande i GenStudio for Performance Marketing finns i [Workfront Proof-integrering med GenStudio for Performance Marketing](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration).
+Mer information om granskning och godkännande i GenStudio for Performance Marketing finns i [Workfront Proof-integrering med GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration).
 
 
 ## Åtkomstkrav
@@ -71,8 +71,6 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 * Användare kan bara tillhöra en Workfront-instans inom IMS-organisationen.
 
-* Workfront-instansen måste vara aktiverad på Adobe Unified Experience.
-
 * Integrationen måste vara aktiverad i Workfront Setup.
 
 
@@ -80,7 +78,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 Du måste vara systemadministratör för att kunna aktivera den här integreringen.
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på ikonen **[!UICONTROL Setup]** ![Konfigurera &#x200B;](/help/_includes/assets/gear-icon-setup.png) .
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på ikonen **[!UICONTROL Setup]** ![Konfigurera ](/help/_includes/assets/gear-icon-setup.png) .
 1. Klicka på **Granska och godkänn** > **Adobe GenStudio** i den vänstra panelen.
 1. Aktivera **Använd korrekturgodkännanden**.
    ![aktivera korrektur för GenStudio-inställning](assets/enable-proofing-gs.png)
@@ -102,7 +100,7 @@ Mer information om hur du skapar automatiska arbetsflöden och mallar i Workfron
 
 När en användare initierar en granskning i GenStudio for Performance Marketing väljer de bara den mall de behöver. Användarna kan enkelt ändra alla korrekturmallar, lägga till eller ta bort granskare och faser när som helst.
 
-Mer information finns i [Begär granskning och godkännande](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
+Mer information finns i [Begär granskning och godkännande](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
 
 ## Granska och godkänn GenStudio for Performance Marketing-utkast i Workfront korrekturläsare
 
@@ -114,7 +112,7 @@ Med korrekturläsaren kan du
 * Markera utkast för att visa vad som behöver ändras
 * Fatta ett beslut
 
-Mer information finns i [Granska och redigera innehåll](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit).
+Mer information finns i [Granska och redigera innehåll](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit).
 
 
 >[!IMPORTANT]
@@ -126,4 +124,4 @@ Mer information finns i [Granska och redigera innehåll](https://experienceleagu
 
 När materialet har granskats och godkänts kan du se granskningsbeslutet och publicera det direkt från GenStudio for Performance Marketing.
 
-Mer information finns i [Publicera godkänt innehåll](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).
+Mer information finns i [Publicera godkänt innehåll](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).

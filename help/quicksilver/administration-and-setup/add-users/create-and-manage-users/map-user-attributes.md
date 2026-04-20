@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
-source-git-commit: 9e7d20fe165e08997c14e207406fb8bed7597a56
+source-git-commit: d8ccdeac9a658ca7a2862781e98c2c3c6fa0e8a0
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -60,75 +60,6 @@ Tänk på följande när du mappar attribut:
   Exempel: Om du mappar&quot;efternamn&quot; och uppdaterar deras namn i Workfront utan att uppdatera värdet i deras identitetsleverantör, skrivs efternamnet över så att det matchar värdet i identitetsleverantören nästa gång användaren loggar in.
 
 ## Mappa användarattribut för din organisation
-
-Hur du mappar attribut varierar beroende på om din organisation använder Adobe enhetliga upplevelse.
-
-Om du vill ta reda på om din organisation använder Adobe enhetliga upplevelse kan du kontrollera den URL som du använder för att få tillgång till Workfront.
-
-| URL | Adobe Experience |
-|---|---|
-| (CompanyName).my.workfront.com | Klassisk erfarenhet |
-| experience.adobe.com | Adobe enhetliga upplevelse |
-
-* [Mappa användarattribut i den klassiska upplevelsen](#map-user-attributes-in-the-classic-experience)
-* [Mappa användarattribut i Adobe enhetliga upplevelse](#map-user-attributes-in-the-adobe-unified-experience)
-
-### Mappa användarattribut i den klassiska upplevelsen
-
-1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på ikonen **Konfigurera** ![Nätövertoningsinställningar](assets/gear-icon-settings.png) .
-
-1. Klicka på **System** > **enkel inloggning (SSO)**.
-
-1. Klicka på **SAML 2.0** i listrutan **Typ**.
-
-1. Klicka på **Mappa användarattribut**.
-
-   ![Mappa användarattribut](assets/map-user-attributes.png)
-
-1. I den rad med alternativ som visas mappar du de attribut du behöver för dina Workfront-användare.
-
-   Du kan mappa attribut som adress, chef, jobbroll, hemgrupp och så vidare.
-
-   Attributmappningar fungerar på ett :1-förhållande. Du kan till exempel inte ange alla grupper som en användare tillhör. Du kan bara ange en per användare.
-
-   >[!IMPORTANT]
-   >
-   >Vi rekommenderar inte att du mappar åtkomstnivåer i attributmappningar. Om du gör det ska du vara försiktig när du anger standardvärdet för att vara säker på att du inte tar bort Admin Access av misstag.
-
-   I följande tabell förklaras de fält som du kan använda för att mappa attribut:
-
-   <table style="table-layout:auto"> 
-    <col data-mc-conditions=""> 
-    <col data-mc-conditions=""> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Workfront-användarattribut</td> 
-      <td>Välj namnet på attributet som du mappar</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Katalogattribut</td> 
-      <td>Skriv den SSO-attributetikett som du vill använda.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Standardvärde</td> 
-      <td> <p>När du har valt ett Workfront-användarattribut fylls det här fältet i med motsvarande standardvärde i systemet om värdet är NULL under anslutningen. Ange bara ett värde här om du tänker tillämpa reglerna för attributmappning (se steg 7). Standardvärdet fungerar som ett undantag till dessa regler.</td> 
-     </tr> 
-    </tbody> 
-   </table>
-
-1. (Valfritt) Klicka på **Regler** om du vill lägga till en regel i attributet.
-
-   1. I listrutan väljer du den attributmodifierare som du vill använda.
-   1. I de två fälten till höger anger du värdet för katalogattributet och det värde som du vill ersätta det med.
-
-      ![Regelfält](assets/rule-fields.png)
-
-   Du kan klicka på **Lägg till regel** om du vill lägga till fler regler i attributet.
-
-1. (Valfritt) Om du vill mappa fler användarattribut klickar du på **Lägg till mappning** och upprepar steg 6-7.
-1. Klicka på **Spara**.
-
-### Mappa användarattribut i Adobe enhetliga upplevelse
 
 1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-left.png) i det övre vänstra hörnet av Adobe Workfront och klicka sedan på ikonen **Konfigurera** ![Nätövertoningsinställningar](assets/gear-icon-settings.png) .
 

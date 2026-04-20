@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1269'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->* **Om din organisation har anslutit sig till Adobe Admin Console måste du skapa systemadministratörer via Adobe Admin Console.**
+>* **Du måste skapa systemadministratörer via Adobe Admin Console.**
 >
 >   Instruktioner om hur du skapar systemadministratörer i Adobe Admin Console finns i [Hantera användare i Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
@@ -30,19 +30,20 @@ ht-degree: 0%
 >   En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns i [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
 >* **Om din organisation använder enkel inloggning (SSO)** rekommenderar vi att du skapar användare och tilldelar dem till Workfront i Adobe Admin Console. Det går att skapa dessa användare i Workfront, men det kan uppstå problem när informationen ska överföras till Adobe Admin Console, baserat på hur organisationens Admin Console är konfigurerad.
->  &#x200B;>   När du har skapat användaren i Adobe Admin Console kan du konfigurera användarens information i Workfront, till exempel tilldela roller, grupper, team och åtkomstnivåer.
+>   När du har skapat användaren i Adobe Admin Console kan du konfigurera användarens information i Workfront, till exempel tilldela roller, grupper, team och åtkomstnivåer.
 >* **Om din organisation inte använder enkel inloggning (SSO)** kan du lägga till användare som inte är systemadministratörer direkt i Workfront. Det går att lägga till användare i Adobe Admin Console, men om du lägger till dem i Workfront kan du ange åtkomstnivå när du skapar dem, vilket sparar tid.
 
 
 
-Du kan lägga till användare i Adobe Workfront genom att skapa enskilda användare från grunden eller genom att kopiera befintliga användare.
-
-Mer information om hur du importerar flera användare samtidigt finns i [Importera användare](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
-
 <!--
-Replace this intro with something like the following when we switch to Admin Console:
-As an Adobe administrator, you can add users in Adobe Workfront by adding them to your Workfront product profile in the Adobe Admin Console. For instructions, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a>.
+
+You can add users in Adobe Workfront by creating individual users from scratch or by copying existing users.
+
+For information about how to import multiple users simultaneously, see [Import users](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
+
 -->
+
+Som Adobe-administratör kan du lägga till användare i Adobe Workfront genom att lägga till dem i din Workfront-produktprofil i Adobe Admin Console. Instruktioner finns i [Hantera användare i Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
 ## Åtkomstkrav
 
@@ -124,7 +125,7 @@ Innan du lägger till en användare ska du samla in informationen om användaren
    >
    >* Om Workfront-administratören har aktiverat en SSO-integrering med Workfront är fältet Tillåt endast &lt;SSO-konfiguration>-autentisering dolt om du inaktiverar e-postinbjudan. Fältet Federations-ID eller &lt;SSO-konfiguration>-användarnamn är fortfarande synligt.
    >
-   >* Om din organisation har anslutit sig till Admin Console och du lägger till en användare via Workfront har du inte möjlighet att skicka en e-postinbjudan.
+   >* Eftersom din organisation har anslutit sig till Admin Console och du lägger till en användare via Workfront har du inte möjlighet att skicka en e-postinbjudan.
    >
    >   För befintliga Adobe-användare kan det hända att användaren inte får något e-postmeddelande om att Workfront är tillgängligt. Detta är en inställning som styrs av Adobe-administratören för produkten.
 
@@ -181,6 +182,6 @@ Om du har valt att skicka en inbjudan till användaren bör användaren få ett 
 
 >[!NOTE]
 >
->Om din organisation har anslutit sig till Admin Console och du lägger till en användare via Workfront har du inte möjlighet att skicka en e-postinbjudan.
+>Eftersom din organisation har anslutit sig till Admin Console och du lägger till en användare via Workfront har du inte möjlighet att skicka en e-postinbjudan.
 >
 >För befintliga Adobe-användare kan det hända att användaren inte får något e-postmeddelande om att Workfront är tillgängligt. Detta är en inställning som styrs av Adobe-administratören för produkten.

@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 5b5f9083ed4b60fa6642100cfb9b0da46799dffa
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '1722'
+source-wordcount: '1565'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Sandlådan för anpassad uppdatering är en miljö där du kan testa och arbeta 
 >
 >  Det finns också en extra kostnad för att hämta den anpassade uppdateringssandlådan som inte behövs för förhandsvisningssandlådan.
 >
->  Mer information om förhandsvisningssandlådan finns i [Förhandsgranskningssandlådemiljön [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+>  Mer information om förhandsvisningssandlådan finns i [Förhandsgranskningssandlådemiljön [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
 ## Åtkomstkrav
 
@@ -92,7 +92,7 @@ Som [!DNL Workfront]-administratör har du åtkomst till din anpassade uppdateri
 
 Så här kommer du åt din anpassade uppdateringssandlåda:
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny &#x200B;](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på ikonen **[!UICONTROL Setup]** ![Nätform &#x200B;](assets/gear-icon-settings.png) .
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny ](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på ikonen **[!UICONTROL Setup]** ![Nätform ](assets/gear-icon-settings.png) .
 
 1. Klicka på **[!UICONTROL System]** >**[!UICONTROL Preferences]**.
 
@@ -189,19 +189,25 @@ Så här schemalägger du en uppdatering av din kunduppdateringssandlåda:
 >[!NOTE]
 >
 >Rapportleverans och push-meddelanden på mobilappen är alltid inaktiverade för sandlådemiljön för anpassad uppdatering. Varken du eller administratören för [!DNL Workfront] kan aktivera rapportleverans eller push-meddelanden för mobilappen när du använder sandlådemiljön för anpassad uppdatering.\
->Mer information om rapportleveranser för produktionsmiljön finns i [Översikt över rapportleverans](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).Mer information om push-meddelanden för mobilappen för produktionsmiljön finns i avsnittet i .
+>Mer information om rapportleveranser för produktionsmiljön finns i [Översikt över rapportleverans](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
-## Konfigurera enkel inloggning i sandlådan Anpassad uppdatering
+<!--
 
-Om du vill konfigurera din anpassade uppdateringssandlåda så att den fungerar med en enkel inloggningslösning kan du göra det genom att konfigurera den separat från produktionsmiljön. SSO-konfigurationen i sandlådan för anpassad uppdatering är oberoende av SSO-konfigurationen i produktionsmiljön.\
-När du uppdaterar din anpassade uppdateringssandlåda kopieras inte SSO-informationen från produktionsmiljön för att skriva över konfigurationen för den anpassade uppdateringssandlådan.
+Remove me October 2026
 
-Stegen för att konfigurera enkel inloggning i sandlådan för anpassad uppdatering liknar de som används för att konfigurera den i produktionsmiljön.\
-Mer information om hur du konfigurerar [!DNL Workfront] med enkel inloggning finns i [Översikt över enkel inloggning i Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+## Configure Single Sign-On in the Custom Refresh Sandbox
+
+If you want to configure your Custom Refresh Sandbox to work with a Single Sign-On solution, you can do so by configuring it separately from your Production environment. The SSO configuration in the Custom Refresh Sandbox is independent from your SSO configuration in the Production environment.\
+When you refresh your Custom Refresh Sandbox, the SSO information is not copied from your Production environment to overwrite the Custom Refresh Sandbox configuration.
+
+The steps for configuring single sign-on in the Custom Refresh Sandbox are similar to those for configuring it in the Production environment.\
+For more information about configuring [!DNL Workfront] with SSO, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 >[!NOTE]
 >
->Detta är inte tillgängligt om din organisations [!DNL Workfront]-instans har aktiverats med Adobe IMS. Kontakta nätverks- eller IT-administratören om du behöver mer information.
+>This is not available if your organization's [!DNL Workfront] instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+
+-->
 
 ## Automatisk omberäkning av projekttidslinjer
 

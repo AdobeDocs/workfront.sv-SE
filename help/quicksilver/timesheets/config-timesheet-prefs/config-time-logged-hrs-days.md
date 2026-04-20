@@ -6,9 +6,9 @@ description: Som användare med en planlicens kan du konfigurera om du ska logga
 author: Lisa
 feature: Timesheets
 exl-id: 4f801a13-182d-4e06-98ea-f6863f6a8edf
-source-git-commit: b0a3a11a3c04a0969bee99f8e1cea231911f0e6a
+source-git-commit: 58a6b489ca5f1683a5c40c63bb4528b1f49e9324
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
@@ -52,11 +52,11 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 1. Gör något av följande, beroende på ditt mål och din åtkomstnivå i systemet:
 
-   * **Standardanvändare eller plananvändare som konfigurerar tidsloggning för sig själv:** Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på ditt användarnamn bredvid din profilbild. Eller (om det är tillgängligt) klicka på din profilbild i det övre navigeringsområdet och klicka sedan på **[!UICONTROL Workfront Profile]**. Klicka sedan på ikonen **Mer** bredvid ditt namn och välj **Redigera**.
+   * **Standardanvändare eller plananvändare som konfigurerar tidsloggning för sig själv:** Klicka på din profilbild i det övre navigeringsområdet och klicka sedan på **[!UICONTROL Workfront Profile]**. Klicka sedan på ikonen **Mer** bredvid ditt namn och välj **Redigera**.
 
    * **Systemadministratören konfigurerar tidsloggning för andra:** Börja redigera ett eller flera användarkonton, enligt beskrivningen i [Redigera en användares profil](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-1. I den dialogruta som visas letar du reda på alternativet **Loggtid in** i avsnittet **Resursplanering**.
+1. I dialogrutan för användarprofilen går du till avsnittet **Resursplanering** och letar upp alternativet **Loggtid in**.
 
    ![Logga in med alternativ](assets/user-profile-log-time-options.png)
 

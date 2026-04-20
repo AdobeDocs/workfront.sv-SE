@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d817bd2b-1aaa-4dde-8e75-392c1da2943a
-source-git-commit: 6b2d93d2573d72e4390761038d8078f47d96d55e
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -60,25 +60,30 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 Du kan även ringa Workfront Support och få hjälp med att ändra din domän.
 
-## Uppdatera den nya domänen om du är en SSO-kund
+<!--
 
-Om ditt företag använder enkel inloggning krävs följande steg när du har ändrat din Workfront-domän.
+## Update the new domain if you are an SSO customer
+
+If your company utilizes SSO, the following steps are required after you have your Workfront domain changed.
 
 >[!NOTE]
 >
->Detta är inte tillgängligt om din organisations Workfront-instans har aktiverats med Adobe IMS. Kontakta nätverks- eller IT-administratören om du behöver mer information.
+>This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
 {{step-1-to-setup}}
 
-1. Klicka på **System** > **Kundinformation** i det vänstra sidofältet och kontrollera att din domän är uppdaterad på sidan Kundinformation.
+1. In the left sidebar, click **System** > **Customer Info** and make sure that your domain is updated on the Customer Info page.
 
-1. Klicka på **System** > **enkel inloggning (SSO)** i den vänstra sidofältet.
+1. In the left sidebar, click **System** > **Single Sign-On (SSO)**.
 
-1. Klicka på **Hämta SAML 2.0-metadata**.
-1. När filen har laddats ned öppnar du den och ser till att du har följande:
+1. Click **Download SAML 2.0 Metadata**.
+1. After the file is downloaded, open it and make sure of the following:
 
-   1. **entityID** pekar på den nya domänen.
-   1. Alla platser inom **`<md:AssertionConsumerService>`** pekar på den nya domänen.
+   1. **entityID** is pointing to the new domain.
+   1. All locations within **`<md:AssertionConsumerService>`** point to the new domain.
 
-1. Skicka den hämtade metadatafilen till din identitetsleverantör så att de kan uppdatera den när de vill.
-1. Se till att domänen uppdateras för alla Workfront-integreringar som används av din organisation.
+1. Provide the downloaded metadata file to your Identity Provider so that they can update it on their end.
+1. Make sure the domain is updated for all Workfront integrations used by your organization.
+
+
+-->

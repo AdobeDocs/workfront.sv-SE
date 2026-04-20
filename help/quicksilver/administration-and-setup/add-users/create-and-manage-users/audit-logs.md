@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
+source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1478'
 ht-degree: 0%
 
 ---
@@ -263,17 +263,23 @@ Mer information om hur du konfigurerar jobbroller finns i [Skapa och hantera job
 
 ### Inloggningsförsök {#login-attempt}
 
-Systemet genererar en inloggningsförsöksloggpost när en användare utför någon av följande åtgärder:
+<!--Delete me October 2026-->
 
-* Loggar in, loggar ut eller misslyckas med ett inloggningsförsök i Workfront (i en webbläsare och i mobilappen)
-* Loggar in, loggar ut eller misslyckas med ett inloggningsförsök i någon Workfront-integrering (t.ex. Workfront för Slack)
-* Loggar in eller loggar ut från Workfront API
+<!--
 
-Inloggningsförsöksloggar registreras inte när en Workfront-administratör använder funktionen Logga in som.
+The system generates a Login Attempt audit log entry when a user does one of the following actions:
+
+* Logs in, logs out, or fails a login attempt in Workfront (in a browser and in the mobile app)
+* Logs in, logs out, or fails a login attempt in any Workfront integration (such as Workfront for Slack)
+* Logs in or logs out of the Workfront API
+
+Login Attempt Logs do not record when a Workfront administrator uses the Log In As feature.
+
+-->
 
 >[!NOTE]
 >
->Detta är inte tillgängligt om din organisation har anslutit sig till Adobe Admin Console. Kontakta nätverks- eller IT-administratören om du behöver mer information.
+>Eftersom alla organisationer har anslutit sig till Adobe Admin Console är den här funktionen inte längre tillgänglig.Kontakta nätverks- eller IT-administratören om du behöver mer information.
 
 ### Prioritet {#priority}
 
@@ -366,7 +372,7 @@ Systemet genererar en loggpost för användargranskning när en användare utfö
 
   >[!NOTE]
   >
-  >Detta är inte tillgängligt om din organisation har anslutit sig till Adobe Admin Console. Kontakta nätverks- eller IT-administratören om du behöver mer information.
+  >Eftersom alla organisationer har anslutit sig till Adobe Admin Console är den här funktionen inte längre tillgänglig.Kontakta nätverks- eller IT-administratören om du behöver mer information.
 
 * Tar bort en användare
 * Ändrar en användares åtkomstnivå, företag, team eller grupp

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 8e8eec4977614529a1bab78dda003cdcdf32dba0
 workflow-type: tm+mt
-source-wordcount: '2512'
+source-wordcount: '2158'
 ht-degree: 0%
 
 ---
@@ -55,13 +55,13 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 >[!IMPORTANT]
 >
->Den procedur som beskrivs på den här sidan gäller endast för organisationer som ännu inte har anslutit till [!DNL Adobe Experience Cloud].
+>Den procedur som beskrivs på den här sidan har tagits bort eftersom den endast gäller för organisationer som ännu inte har anslutit sig till Adobe Admin Console.
 >
-> Om din organisation har anslutit sig till [!DNL Adobe Experience Cloud], se [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>Alla Workfront-organisationer har nu anslutit sig till Adobe Admin Console.
 
 ## Steg 1 - Klicka bara på huvudmenyn {#step1-click-main-menu}
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet av Adobe Workfront.
 
 ## Steg 1 - Klicka bara på Huvudmenyskal {#step1-click-main-menu-shell-only}
 
@@ -69,11 +69,11 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 ## Steg 1 - Klicka på huvudmenyn och sedan på - {#step1-click-mm-then-click}
 
-1. Klicka på **[!UICONTROL Main Menu]**-ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet av Adobe Workfront och klicka sedan på
 
 ## Steg 1 - Klicka på din profilbild - {#step1-click-profile-pic}
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på ditt användarnamn bredvid din profilbild. Eller (om det är tillgängligt) klicka på din profilbild i det övre navigeringsområdet och klicka sedan på **[!UICONTROL Workfront Profile]**.
+1. Klicka på din profilbild i det övre navigeringsområdet i Adobe Workfront och klicka sedan på **[!UICONTROL Workfront Profile]**.
 
 <!-- Notes for Workflow packaging -->
 
@@ -99,7 +99,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 ## Steg 1 - Komma igång med installationen {#step-1-to-setup}
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Setup]** ![ikonen Konfigurera](/help/_includes/assets/gear-icon-setup.png).
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet av Adobe Workfront och klicka sedan på ikonen **[!UICONTROL Setup]** ![Konfigurera ](/help/_includes/assets/gear-icon-setup.png) .
 
 ## Formulärdesigner till GA {#form-designer-default}
 
@@ -124,32 +124,32 @@ Du kan kontrollera att du associerar rätt grupp med gruppen genom att hålla ma
 
 ## Steg 1 - Gå till användare {#step-1-to-users}
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Users]** ![Användare &#x200B;](/help/_includes/assets/users-icon-in-main-menu.png) .
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet av Adobe Workfront och klicka sedan på ikonen **[!UICONTROL Users]** ![Användare](/help/_includes/assets/users-icon-in-main-menu.png) .
 
 
 <!-- Agile -->
 
 ## Steg 1 - Komma till styrelserna - {#step1-to-boards}
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Boards]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Boards]**.
 
 <!-- Blueprints -->
 
 ## Steg 1 - Gå till utkast - {#step1-to-blueprints}
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Blueprints]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Blueprints]**.
 
 <!-- Calendars -->
 
 ## Steg 1 - Gå till kalendrar - {#step1-to-calendars}
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Calendars]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Calendars]**.
 
 <!-- Documents -->
 
 ## Steg 1 - Gå till dokument - {#step1-to-documents}
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Documents]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Documents]**.
 
 ## konfigurera länkade mappar {#setup-linked-folder}
 
@@ -174,7 +174,7 @@ Så här konfigurerar du länkade mappar:
 
 ## Steg 1 - komma hem - {#step1-to-home}
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Home]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Home]**.
 
 ## Klicka på hemikonen {#click-home}
 
@@ -189,7 +189,7 @@ Så här konfigurerar du länkade mappar:
 
 ## Steg 1 - Komma igång med prioriteter - {#step1-to-priorities}
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Priorities]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Priorities]**.
 
 <!-- Integrations -->
 
@@ -287,7 +287,7 @@ Du måste installera rätt plugin-program för det Adobe Creative Cloud-program 
 
 ## Steg 1 - Komma till Maestro - {#step1-to-planning}
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Planning]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Planning]**.
 
    Startsidan för Workfront Planning öppnas.
 
@@ -344,23 +344,23 @@ OLD:
 
 ## Steg 1 - Gå till portföljer - {#step1-to-portfolios}
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Portfolios]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Portfolios]**.
 
 ## Steg 1 - Gå till Program - {#step1-to-programs}
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Programs]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Programs]**.
 
 ## Steg 1 - Gå till projekt - {#step1-to-projects}
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Projects]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Projects]**.
 
 ## Steg 1 - Gå till begäranden - {#step1-to-requests}
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Requests]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Requests]**.
 
 ## Steg 1 - Gå till mallar - {#step1-to-templates}
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Templates]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Templates]**.
 
 <!-- Mobile -->
 
@@ -372,7 +372,7 @@ OLD:
 
 ## Steg 1 - Gå till Mina uppdateringar - {#step1-to-my-updates}
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL My Updates]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL My Updates]**.
 
 <!-- Notifications -->
 
@@ -382,7 +382,7 @@ OLD:
 
 ## Steg 1 - Korrektur - {#step1-to-proofing}
 
-1. I Workfront klickar du på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) eller (om den är tillgänglig) på ikonen **[!UICONTROL Main Menu]** i det övre vänstra hörnet ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) och sedan på **[!UICONTROL Proofing]** för att öppna Workfront Proof.
+1. I Workfront klickar du på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och sedan på **[!UICONTROL Proofing]** för att öppna Workfront Proof.
 
 ## Senaste DPV-version {#latest-version}
 
@@ -397,25 +397,25 @@ OLD:
 
 ## Steg 1 - Gå till rapporter - {#step1-to-reports}
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Reports]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Reports]**.
 
 ## Steg 1 - Gå till instrumentpaneler - {#step1-to-dashboards}
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Dashboards]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Dashboards]**.
 
 ## Steg 1 - Komma igång med Analytics - {#step1-to-analytics}
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Analytics]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Analytics]**.
 
 <!-- Resource Management -->
 
 ## Steg 1 - Resurser hämtas - {#step1-to-resourcing}
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Resourcing]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Resourcing]**.
 
 ## Steg 1 - Gå till användningsrapporten - {#step1-to-utilization-report}
 
-1. Klicka på **[!UICONTROL Main Menu]**-ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]**-ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet, klicka sedan på **[!UICONTROL Resourcing]** och sedan på [!UICONTROL **Utnyttjande**] i den vänstra panelen.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet av Adobe Workfront, klicka sedan på **[!UICONTROL Resourcing]** och sedan på [!UICONTROL **Utnyttjande**] i den vänstra panelen.
 
 <!-- Review and approve work -->
 
@@ -423,19 +423,19 @@ OLD:
 
 ## Steg 1 - Gå till scenarioplan - {#step1-to-scenario-planner}
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Scenarios]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Scenarios]**.
 
 <!-- Teams -->
 
 ## Steg 1 - Gå till ett team - {#step1-to-team}
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Teams]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Teams]**.
 
 ## Klar, knapp för en eller flera statusar {#configure-done-button}
 
 Du kan ändra vilken status som ska användas för arbetsposten med knappen Klar. Du kan också ange flera statusvärden och låta användaren välja vilken status som passar bäst.
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Teams]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Teams]**.
 
 1. Klicka på ikonen **[!UICONTROL Switch team]** och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
 1. Klicka på menyn **[!UICONTROL More]** och sedan på **[!UICONTROL Edit]**.
@@ -473,10 +473,10 @@ Om du vill att ändringarna av funktionen Klar ska vara synliga för användarna
 
 Så här associerar du användare med ett hemteam:
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet av Adobe Workfront.
 
 1. Klicka på **[!UICONTROL Users]** och välj sedan den eller de användare som du vill associera med ett hemteam.
-1. Klicka på menyn **[!UICONTROL More]** och välj sedan **[!UICONTROL Edit]**.\
+1. Klicka på menyn **[!UICONTROL More]** och välj sedan **[!UICONTROL Edit]**.
    ![](/help/_includes/assets/user-settings-nwe-350x291.png)
 
 1. Markera fältet **[!UICONTROL Organization]** i avsnittet **[!UICONTROL Home Team]**. Börja skriva namnet på det team vars inställningar du vill associera med användarna. Klicka på teamets namn när du ser det i listan.
@@ -489,13 +489,13 @@ Alla gruppinställningar, inklusive statusvärdena som är kopplade till knappen
 
 ## Steg 1 - Gå till tidrapporter - {#step1-to-timesheets}
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Timesheets]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Timesheets]**.
 
 <!-- Workfront Goals -->
 
 ## Steg 1 - Gå till mål - {#step1-to-goals}
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Goals]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Goals]**.
 
 <!-- Workfront Fusion -->
 

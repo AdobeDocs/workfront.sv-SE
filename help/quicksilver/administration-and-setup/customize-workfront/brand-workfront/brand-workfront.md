@@ -4,15 +4,15 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
-description: Som Workfront-administratör kan du anpassa varumärket i din Workfront-instans och skapa en anpassad hjälp-URL.
+description: Som Workfront-administratör kan du skapa en anpassad hjälp-URL.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8a733194-f99b-4066-949f-755046b8d515
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: 081eff3b840004f1c3b421032f3593cb6c175690
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '37'
 ht-degree: 0%
 
 ---

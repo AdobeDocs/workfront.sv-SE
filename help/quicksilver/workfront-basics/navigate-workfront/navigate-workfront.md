@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 author: Courtney
 recommendations: noDisplay, noCatalog
 exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+source-git-commit: 0a38554b8bbd870b8b9b0e221b25c120cd0f941e
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
@@ -39,4 +39,4 @@ Det här avsnittet innehåller följande underavsnitt och artiklar:
 * [Access [!DNL Adobe Workfront] help](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
 * [Översikt över projekt-, uppgifts- och utfärdandedatum i  [!DNL Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
 * [Förstå navigeringen för en [!UICONTROL Work]-licensanvändare](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
-* [Förstå navigeringen för en [!UICONTROL Review]-licensanvändare](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
+* [Förstå navigeringen för en [!UICONTROL Light]-licensanvändare](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)

@@ -7,18 +7,18 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 8f5b78c9-b84f-4f56-b7cc-ba686fac2da1
-source-git-commit: b9547764abd4f1f61d93da6bc66d9e6776954f4d
+source-git-commit: 480f40d77cfc494ac28a2332c0e15bd1f0f00a6b
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
 
 # Domänformat för Adobe Workfront API-anrop
 
-När du gör ett API-anrop till Workfront API använder du organisationens domän i anropet. Formatet för den här domän-URL:en skiljer sig åt beroende på om din organisation har anslutit till Adobe Unified Shell.
+När du gör ett API-anrop till Workfront API använder du organisationens domän i anropet.
 
-Om du vill veta om din organisation finns i Adobe Unified Shell kan du kontrollera den URL som visas när du visar en Workfront-sida.
+Vilken URL du skapar för API-anropet beror på vilken URL du använder för att ansluta till Workfront.
 
 | Workfront URL börjar med: | URL för API-anrop: |
 |---|---|

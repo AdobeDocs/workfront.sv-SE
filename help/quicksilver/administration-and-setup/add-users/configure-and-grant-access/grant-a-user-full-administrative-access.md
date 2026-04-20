@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1571'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,13 @@ ht-degree: 0%
 
 <!--Audited: 12/2024-->
 
+<!--Remove me October 2026-->
+
 >[!IMPORTANT]
 >
->Den procedur som beskrivs på denna sida gäller endast organisationer som ännu inte har anslutit sig till Admin Console. Om du har anslutit dig till Adobe Admin Console måste du utföra den här åtgärden via Adobe Admin Console.
+>Den procedur som beskrivs på denna sida gäller endast organisationer som ännu inte har anslutit sig till Admin Console. När organisationen har anslutit sig till Adobe Admin Console måste du utföra den här åtgärden via Adobe Admin Console.
+>
+>**Eftersom alla organisationer nu har migrerats till Adobe Admin Console är informationen i den här artikeln inte längre relevant och kommer att tas bort inom den närmaste framtiden.**
 >
 >Instruktioner om hur du ger fullständig administratörsåtkomst i Adobe Admin Console finns i [Hantera användare i Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >

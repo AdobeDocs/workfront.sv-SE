@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
 workflow-type: tm+mt
 source-wordcount: '2587'
 ht-degree: 0%
@@ -16,17 +16,6 @@ ht-degree: 0%
 ---
 
 # Redigera användarprofiler gruppvis
-
-<!--
-
->[!IMPORTANT]
->
->The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
->
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Bulk Upload Users](https://helpx.adobe.com/se/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
->
->For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
--->
 
 Du kan redigera flera användarkonton samtidigt. När användare gruppredigeras uppdateras endast de fält som du specifikt markerar med samma information för alla markerade användare. Alla andra fält som du lämnar omarkerade förblir desamma för varje enskild användare, även om de är olika för varje användare.
 

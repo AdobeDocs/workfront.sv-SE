@@ -10,7 +10,7 @@ role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
 workflow-type: tm+mt
 source-wordcount: '1133'
 ht-degree: 0%
@@ -25,18 +25,6 @@ ht-degree: 0%
 >abstract="När du inaktiverar en användare tas de bort från Workfront och Frame.io. Inaktiverade användare kan återaktiveras senare."
 
 <!--Audited 5/2025-->
-
-<!--
-
->[!IMPORTANT]
->
->The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
->
->For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/se/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
->
->For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
-
--->
 
 Om en användare lämnar organisationen bör du inaktivera dem i systemet för att undvika att andra användare blir förvirrade när de lägger till dem i uppdateringar eller tilldelar dem arbete. När du inaktiverar en användare ser andra användare inte längre sitt namn när de söker efter personer i systemet.
 

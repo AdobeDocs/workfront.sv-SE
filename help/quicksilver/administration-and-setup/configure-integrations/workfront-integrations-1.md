@@ -11,9 +11,9 @@ role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
+source-git-commit: d8ccdeac9a658ca7a2862781e98c2c3c6fa0e8a0
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1242'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
      </ul>
    </ul>
      <p>Mer information finns i <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">Kom igång med korrektur och GenStudio for Performance Marketing-integrering</a>.</p> 
-     </td>  <td><ul><li>Du måste ha licenser för både Workfront och GenStudio for Performance Marketing.</li><li>Din Workfront-instans måste finnas på Adobe Unified Experience.</li><li>Workfront och GenStudio for Performance Marketing måste distribueras till samma IMS-organisation.</li></ul></td> 
+     </td>  <td><ul><li>Du måste ha licenser för både Workfront och GenStudio for Performance Marketing.</li><li>Workfront och GenStudio for Performance Marketing måste distribueras till samma IMS-organisation.</li></ul></td> 
    <td>Integreringen kan aktiveras i Workfront Setup när alla krav är uppfyllda. Mer information finns i <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">Kom igång med korrektur och GenStudio for Performance Marketing-integrering</a>. </td> 
   </tr>
   <tr> 
@@ -129,8 +129,8 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
      <li>Premiere Pro </li>
      <li>After Effects </li>
      </ul>
-     <li><p>Hämta/installera från <a href="https://exchange.adobe.com/apps/browse/cc?page=1&product=All&q=workfront&sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
-     <p>Mer information och instruktioner finns i <a href="https://experienceleague.adobe.com/sv/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Installera plugin-programmet [!DNL Adobe Workfront] för [!DNL Creative Cloud]-program</a></p> 
+     <li><p>Hämta/installera från <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
+     <p>Mer information och instruktioner finns i <a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Installera plugin-programmet [!DNL Adobe Workfront] för [!DNL Creative Cloud]-program</a></p> 
      </td>  <td> </td> 
    <td> </td> 
   </tr> 
@@ -250,7 +250,7 @@ Med [!DNL Workfront] kan du utnyttja andra inbyggda integreringar och integrerad
 
   [!DNL Adobe Workfront Fusion] länkar åtgärder inom och mellan program och tjänster för att skapa ett scenario som överför och omvandlar dina data automatiskt. Den har dedikerade anslutningar till många appar, men kan ansluta till alla program med ett offentligt API.
 
-  Mer information finns i [[!DNL Adobe Workfront Fusion] översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+  Mer information finns i [[!DNL Adobe Workfront Fusion] översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan] (kräver [!DNL Workfront Fusion])

@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: d8ccdeac9a658ca7a2862781e98c2c3c6fa0e8a0
 workflow-type: tm+mt
-source-wordcount: '1486'
+source-wordcount: '1468'
 ht-degree: 0%
 
 ---
@@ -61,8 +61,11 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 Om du vill använda formulärifyllning från AI för att fylla i en begäran med hjälp av en prompt eller ett dokument måste **alla** av följande gälla:
 
-* Din organisation måste ha migrerat till Adobe IMS (Identity Management System)
-* Adobe Unified Experience måste aktiveras
+<!--
+Remove me October 2026
+* Your organization must have migrated to Adobe IMS (Identity Management System)
+* The Adobe Unified Experience must be enabled
+-->
 * Din organisation måste ha en Select-, Prime- eller Ultimate Workfront-plan
 * Adobe måste ha ett signerat Adobe Gen AI-avtal till hands
 

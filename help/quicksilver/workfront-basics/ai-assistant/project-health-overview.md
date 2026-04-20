@@ -5,7 +5,7 @@ description: Funktionen Project Health utnyttjar funktionerna i AI Assistant fö
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: b95be2e0917b53195ac327880a2ea7399c1485de
+source-git-commit: d9d6d572840f5691888d0db3242f3908978079b3
 workflow-type: tm+mt
 source-wordcount: '2060'
 ht-degree: 0%
@@ -76,6 +76,8 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 Din organisation måste ha AI Assistant aktiverat för att kunna använda Project Health.
 
 Om du vill aktivera AI Assistant och Projekthälsa för din organisation måste du göra något av följande:
+
+<!--Remove me October 2026-->
 
 * Din organisation måste ha migrerat till Adobe Identity Management System (IMS).
 * Din organisation måste ha ett Workfront- eller Workflow Select-, Prime- eller Ultimate-paket.
@@ -277,7 +279,7 @@ När Workfront-administratören har skapat en projekthälsokonfiguration kan du 
 
 1. Välj ett projekt på sidan **Projekt**.
 
-1. Klicka på ikonen **Mer** ![Mer &#x200B;](assets/more-icon.png) till höger om projektnamnet och välj sedan **Redigera**. Rutan **Redigera projekt** öppnas.
+1. Klicka på ikonen **Mer** ![Mer ](assets/more-icon.png) till höger om projektnamnet och välj sedan **Redigera**. Rutan **Redigera projekt** öppnas.
 
 1. Klicka på **Projektinställningar** i den vänstra panelen.
 
@@ -331,7 +333,7 @@ Så här genererar du en Project Health-utvärdering för ett projekt eller prog
 
    ![Utökad information](assets/expanded-details.png)
 
-1. När du har granskat projekthälsoinformationen klickar du på ikonen **Stäng** ![Stäng &#x200B;](assets/close-icon.png) i det övre högra hörnet av AI Assistant.
+1. När du har granskat projekthälsoinformationen klickar du på ikonen **Stäng** ![Stäng ](assets/close-icon.png) i det övre högra hörnet av AI Assistant.
 
 ## Generera en Project Health-utvärdering för flera projekt
 
@@ -353,7 +355,7 @@ Ett projekt inkluderas bara i den kombinerade Project Health-bedömningen om pro
 
 1. (Valfritt) Klicka på ett av projektets hälsovillkorsemblem för att expandera projektlistan och välj sedan en länk för ett visst projekt för att gå till informationssidan för det projektet.
 
-1. När du har granskat projektens hälsoinformation klickar du på ikonen **Stäng** ![Stäng &#x200B;](assets/close-icon.png) i det övre högra hörnet av AI Assistant för att stänga den.
+1. När du har granskat projektens hälsoinformation klickar du på ikonen **Stäng** ![Stäng ](assets/close-icon.png) i det övre högra hörnet av AI Assistant för att stänga den.
 
 <!--
 

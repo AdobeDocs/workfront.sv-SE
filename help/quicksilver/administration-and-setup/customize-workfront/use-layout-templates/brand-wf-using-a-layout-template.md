@@ -3,14 +3,14 @@ title: Märk Adobe Workfront med en layoutmall
 user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
-description: Som Adobe Workfront-administratör eller gruppadministratör kan du använda en layoutmall för att anpassa logotyperna i det övre navigeringsområdet och på huvudmenyn för vissa grupper, team, jobbroller och användare. Detta är särskilt användbart för grupper i en stor organisation som har sina egna varumärken.
+description: Varumärkesprofilering finns inte längre för Adobe Workfront. Den här funktionen har tagits bort som en del av introduktionen av Workfront i Adobe Experience Cloud.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+source-git-commit: 081eff3b840004f1c3b421032f3593cb6c175690
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '60'
 ht-degree: 0%
 
 ---
@@ -21,23 +21,28 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Den procedur som beskrivs på den här sidan gäller endast för organisationer som ännu inte har anslutit till [!DNL Adobe Experience Cloud].
+>Varumärkesprofilering finns inte längre för Adobe Workfront. Den här funktionen har tagits bort som en del av introduktionen av Workfront i Adobe Experience Cloud.
+
+<!-- 
+
+
+>[!IMPORTANT]
 >
-> Om din organisation har anslutit sig till [!DNL Adobe Experience Cloud] är varumärkning inte tillgängligt.
+>The procedure described on this page applies only to organizations that are not yet onboarded to [!DNL Adobe Experience Cloud].
+>
+> If your organization has been onboarded to [!DNL Adobe Experience Cloud], branding is not available.
 
-Du kan använda en layoutmall för att anpassa logotyperna i det övre navigeringsområdet och på huvudmenyn för vissa grupper, team, jobbroller och användare. Detta är särskilt användbart för grupper i en stor organisation som har sina egna varumärken.
+You can use a layout template to customize the logos in the top navigation area and on the Main Menu for certain groups, teams, job roles, and users. This is especially useful for groups in a large organization that have their own branding.
 
-Mer information om layoutmallar för grupper finns i [Skapa och ändra en grupps layoutmallar](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+For information about layout templates for groups, see [Create and modify a group's layout templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 >[!NOTE]
 >
->En Workfront-administratör kan göra samma anpassningar för hela organisationen på systemnivå, vilket förklaras i [Varumärket din Adobe Workfront-instans](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). Men om du använder varumärke i en layoutmall åsidosätts varumärkningen på systemnivå.
+>A Workfront administrator can make the same branding customizations for the entire organization at the system level, as explained in [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). But branding in a layout template overrides system-level branding.
 
-<!-- Maybe add a section about deleting these 2 settings to revert to default branding? -->
+## Access requirements
 
-## Åtkomstkrav
-
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,51 +50,53 @@ Mer information om layoutmallar för grupper finns i [Skapa och ändra en grupps
  <tbody> 
   <tr> 
    <td>Adobe Workfront package</td> 
-   <td><p>Alla</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td>Adobe Workfront-licens</td> 
+   <td>Adobe Workfront license</td> 
    <td><p>Standard</p>
        <p>Plan</p></td>
   </tr> 
   </tr> 
   <tr> 
-   <td>Konfigurationer på åtkomstnivå</td> 
-   <td> <p>För att kunna utföra dessa steg på systemnivå måste du ha åtkomstnivån Systemadministratör.</p>
-        <p>Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> </td> 
+   <td>Access level configurations</td> 
+   <td> <p>To perform these steps at the system level, you need the System Administrator access level.</p>
+        <p>To perform them for a group, you must be a manager of that group.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## Varumärk Adobe Workfront med en layoutmall
+## Brand Adobe Workfront using a layout template
 
-1. Börja arbeta med en layoutmall enligt beskrivningen i [Skapa och hantera layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Klicka på nedpilen ![nedpilen](assets/dropdown-arrow.png) under **Anpassa det som visas för användarna** och klicka sedan på **Varumärkning**.
-1. Gör någon av följande ändringar för att anpassa Workfront med varumärkesbilder för dem som har tilldelats den här layoutmallen.
+1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Click the down arrow ![Down arrow](assets/dropdown-arrow.png) under **Customize what users see**, then click **Branding**.
+1. Make any of the following changes to customize Workfront with branding images for those who are assigned this layout template.
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>Förse hemikonen <span style="font-weight: normal;"> (visas längst till vänster i det övre navigeringsområdet)</span></p> </td> 
-      <td> <p>I avsnittet <strong>Övre navigering</strong>, under <strong>Hem-ikonen</strong>, klickar du var som helst i rutan och söker sedan efter och väljer logotypbilden. Eller dra en bild till rutan.</p> <p>Om du vill beskära bilden använder du rullningskontrollerna och drar bilden till den plats du vill ha inuti det förskrivna utrymmet.</p> <p>Vi rekommenderar en bild på 120 x 120. Den kan ha något av följande format: GIF, JPG, PNG, SVG.</p> <p>Den här ikonen visas även i rapporter, listor, kontrollpaneler och levererade rapporter som användare exporterar som PDF-filer.</p> </td> 
+      <td role="rowheader"> <p>Brand the Home icon <span style="font-weight: normal;">(displays at the far left of the top navigation area)</span></p> </td> 
+      <td> <p>In the <strong>Top navigation area</strong> section, under <strong>Home icon</strong>, click anywhere in the box, then find and select your logo image. Or drag an image to the box.</p> <p>To crop the image, use the scrolling controls and drag the image to the position you want inside the prescribed space.</p> <p>We recommend a 120 x 120 image. It can be in any of the following formats: GIF, JPG, PNG, SVG.</p> <p>This icon also appears in reports, lists, dashboards, and delivered reports that users export as PDF files.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>Märk huvudmenylogotypen <img src="assets/main-menu-icon.png"> <span style="font-weight: normal;"> (visas i det övre högra hörnet av huvudmenyn)</span></p> </td> 
-      <td> <p> <p> <p>I avsnittet <strong>Övre navigering</strong>, under <strong>Huvudmenylogotyp</strong>, klickar du var som helst i rutan och letar sedan reda på och väljer logotypbilden. Eller dra en bild till rutan.</p> <p>Om du vill beskära bilden använder du rullningskontrollerna och drar bilden till den plats du vill ha inuti det förskrivna utrymmet.</p> <p>Vi rekommenderar en bild på 300 x 120 pixlar. Den kan ha något av följande format: GIF, JPG, PNG, SVG.</p> </p> </p> </td> 
+      <td role="rowheader"> <p>Brand the Main Menu <img src="assets/main-menu-icon.png"> logo <span style="font-weight: normal;">(displays in the upper-right corner of the Main Menu)</span></p> </td> 
+      <td> <p> <p> <p>In the <strong>Top navigation area</strong> section, under <strong>Main Menu logo</strong>, click anywhere in the box, then find and select your logo image. Or drag an image to the box.</p> <p>To crop the image, use the scrolling controls and drag the image to the position you want inside the prescribed space.</p> <p>We recommend a 300 x 120 pixel image. It can be in any of the following formats: GIF, JPG, PNG, SVG.</p> </p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Fortsätt att anpassa layoutmallen. Du kan klicka på **Använd** när som helst för att spara förloppet.
+1. Continue customizing the layout template. You can click **Apply** at any time to save your progress.
 
-   eller
+   Or
 
-   Om du är klar med anpassningen klickar du på **Spara och stäng**.
+   If you are finished customizing, click **Save and Close**.
 
-Mer information om layoutmallar finns i [Skapa och hantera layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+For more information about layout templates, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+
+-->

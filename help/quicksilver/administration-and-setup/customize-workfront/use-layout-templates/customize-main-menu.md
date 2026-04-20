@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+source-git-commit: d8ccdeac9a658ca7a2862781e98c2c3c6fa0e8a0
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Som Adobe Workfront-administratör eller gruppadministratör kan du använda en 
 >
 >De alternativ på huvudmenyn som användarna ser beror på licenstypen och vilka inställningar som har konfigurerats på åtkomstnivån. Vissa användare som kommer att använda den här layoutmallen kanske inte ser alla alternativ som du väljer här. Mer information finns i [Hur åtkomstnivåer och behörigheter fungerar tillsammans](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) och [Konfigurerbar åtkomst till funktioner för varje objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 >
->Du kan se olika alternativ på huvudmenyn om din organisation har anslutit sig till Adobe Workfront Unified Experience. Mer information finns i [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>Du kan se olika alternativ på huvudmenyn när din organisation har anslutit sig till Adobe Workfront Unified Experience. Mer information finns i [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 Mer information om hur du skapar layoutmallar finns i [Skapa och hantera layoutmallar](../use-layout-templates/create-and-manage-layout-templates.md).
 

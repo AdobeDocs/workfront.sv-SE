@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: f1fe1a2fe6e123d8a039e8d7e3547c0b0a8141df
+source-git-commit: 480f40d77cfc494ac28a2332c0e15bd1f0f00a6b
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 1%
+source-wordcount: '305'
+ht-degree: 0%
 
 ---
 
@@ -120,25 +120,13 @@ När du återställer användarinställningarna återställs vissa inställninga
 1. Välj **Logga in som**.
 1. Börja skriva namnet på den användare vars inställningar du vill återställa och klicka sedan på namnet när det visas i listrutan.
 1. Välj **Logga in**.
-1. Om din organisation inte har anslutit sig till Adobe Unified Experience gör du så här:
+1. Lägg till `/resetUser` efter `workfront` i URL-fältet högst upp i webbläsaren.
 
-   * Lägg till `/resetUser` efter `workfront.com` i URL-fältet högst upp i webbläsaren.
-
-     >[!NOTE]
-     >
-     >Det här är skiftlägeskänsligt. U måste ha inledande versal och de återstående tecknen måste ha gemener. Exempel:
-     >
-     >`https://company_domain.my.workfront.com/resetUser`
-
-1. Om din organisation har anslutit sig till Adobe Unified Experience gör du så här:
-
-   * Lägg till `/resetUser` efter `workfront` i URL-fältet högst upp i webbläsaren.
-
-     >[!NOTE]
-     >
-     >Det här är skiftlägeskänsligt. U måste ha inledande versal och de återstående tecknen måste ha gemener. Exempel:
-     >
-     >`https://experience.adobe.com/#/@company/so:(domain)-(environment)/workfront/resetUser`
+   >[!NOTE]
+   >
+   >Det här är skiftlägeskänsligt. U måste ha inledande versal och de återstående tecknen måste ha gemener. Exempel:
+   >
+   >`https://experience.adobe.com/#/@company/so:(domain)-(environment)/workfront/resetUser`
 
 1. Tryck på **Retur**.
 
