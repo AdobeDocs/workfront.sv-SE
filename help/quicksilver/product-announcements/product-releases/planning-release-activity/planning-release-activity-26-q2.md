@@ -32,7 +32,7 @@ En lista över alla funktioner som släppts för Adobe Workfront Planning finns 
 >Förhandsgranska: 16 april 2026
 >Production fast release: 16 april 2026
 >Produktion för alla: 16 april 2026
->[!BADGE Frånschemat ]{type=Neutral}
+>[!BADGE Frånschemat &#x200B;]{type=Neutral}
 
 Nu kan du komma åt Experience Manager Content Advisor i Workfront Planning. Med Content Advisor kan du
 
