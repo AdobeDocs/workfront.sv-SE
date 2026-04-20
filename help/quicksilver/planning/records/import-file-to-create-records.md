@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -142,8 +142,8 @@ Old:
 * Tomma blad stöds inte.
 * Fält av följande typer stöds inte och kan inte mappas till fält på importbladet:
 
-   * Anslutningsfält till objekttyperna Workfront och AEM Assets. Du kan bara mappa anslutningsfält till posttyperna Planering.
-   * Sök efter fält från anslutna Planning-poster eller Workfront- och AEM Assets-objekt
+   * Anslutningsfält till objekttyperna Workfront och Adobe Experience Manager. Du kan bara mappa anslutningsfält till posttyperna Planering.
+   * Sök efter fält från anslutna Planning-poster eller Workfront- och Adobe Experience Manager-objekt
    * Formelfält
    * Skapad den, skapad av
    * Senast ändrat den

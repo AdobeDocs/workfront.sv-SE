@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '894'
 ht-degree: 0%
 
 ---
@@ -138,8 +138,8 @@ Old:
 * Tomma blad stöds inte.
 * Fält av följande typer stöds inte och kan inte mappas till fält på importbladet:
 
-   * Kopplingsfält till Workfront, AEM Assets objekttyper eller GenStudio Brands.
-   * Sök efter fält från anslutna Planning-poster, Workfront-, AEM Assets-objekt eller GenStudio-varumärken.
+   * Kopplingsfält till Workfront, Adobe Experience Manager objekttyper eller GenStudio Brands.
+   * Sök efter fält från anslutna Planning-poster, Workfront-, Adobe Experience Manager-objekt eller GenStudio-varumärken.
    * Formelfält
    * Skapad den, skapad av
    * Senast ändrat den
@@ -203,7 +203,7 @@ Så här importerar du posttyper med en Excel- eller CSV-fil:
 
    >[!TIP]
    >
-   >Du kan bara mappa till fält från Workfront Planning-anslutna poster. Du kan inte mappa till fält från Workfront-, AEM Assets- eller GenStudio-varumärkesanslutningar. Mer information finns i avsnittet [Att tänka på när du importerar posttyper med hjälp av en Excel- eller CSV-fil](#considerations-about-importing-record-types-using-an-excel-or-csv-file) i den här artikeln.
+   >Du kan bara mappa till fält från Workfront Planning-anslutna poster. Du kan inte mappa till fält från Workfront-, Adobe Experience Manager- eller GenStudio-varumärkesanslutningar. Mer information finns i avsnittet [Att tänka på när du importerar posttyper med hjälp av en Excel- eller CSV-fil](#considerations-about-importing-record-types-using-an-excel-or-csv-file) i den här artikeln.
 
 1. (Villkorligt) När du har uppdaterat informationen om fältet klickar du på **Spara**.
 

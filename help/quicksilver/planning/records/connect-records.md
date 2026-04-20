@@ -8,9 +8,9 @@ author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 539f87ddeab85eb6e8a028bcb6e394c3cd179c4d
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '3558'
+source-wordcount: '3536'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,11 @@ ht-degree: 0%
 
 # Koppla poster
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -54,8 +55,17 @@ Du kan ansluta följande:
 
    * Adobe Experience Manager
 
-      * Bildfiler
-      * Mappar
+      * Resurser
+
+        Du kan ansluta följande typer av resurser från Workfront Planning:
+
+         * Bildfiler
+         * Mappar
+      * Innehållsfragment
+
+* Adobe GenStudio for Performance Marketing
+
+   * Varumärken
 
   <!--when you add more objects, fix the Access Requirements below which right now refer only to projects-->
 
@@ -75,8 +85,8 @@ Du kan ansluta följande:
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Alla Workfront- och Planning-paket</p>
-<p>Alla arbetsflöden och alla planeringsdokument</p>
+<p>Alla Workfront- eller Workflow-paket</p>
+<p>Planeringspaket</p>
 <p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
    </td> 
 <tr> 
@@ -84,10 +94,10 @@ Du kan ansluta följande:
    <p> Ytterligare produkter</p> </td> 
    <td> 
    <p> Förutom Adobe Workfront måste du ha följande om du vill koppla poster till objekt från följande program:</p>
-   <ul><li><p>En Adobe Experience Manager Assets-licens och en integrering mellan AEM Assets och Workfront för att koppla ihop AEM-material med Planning-typer.</p>
+   <ul><li><p>En Adobe Experience Manager-licens och en integrering mellan Adobe Experience Manager och Workfront för att koppla ihop AEM-material eller innehållsfragment med posttyperna Planning.</p>
    <p>Mer information finns i <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront för Experience Manager Assets och Assets Essentials: artikelindex</a>. </p></li>
    <li><p> En Adobe GenStudio for Performance Marketing-licens för att koppla posttyper till GenStudio Brands</p>
-   <p>Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/get-started">Kom igång med Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Kom igång med Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>   
 <tr> 
@@ -385,17 +395,21 @@ När du har skapat en anslutning mellan en posttyp och en Workfront-objekttyp ka
 
 >[!IMPORTANT]
 >
->Du måste ha en Adobe Experience Manager Assets-licens och din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console för att kunna ansluta Workfront Planning-poster till Adobe Experience Manager Assets.
+>Du måste ha en Adobe Experience Manager-licens och din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console för att kunna ansluta Workfront Planning-poster till Adobe Experience Manager.
 >
 >Om du har frågor om introduktion till Adobe Admin Console kan du läsa [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
-När du har skapat en anslutning mellan en posttyp och Adobe Experience Manager Assets kan du koppla enskilda poster till Experience Manager-resurser. De resursfält som du anslöt från Experience Manager när du skapade anslutningen fylls automatiskt i på den posttyp som du länkade från.
+När du har skapat en anslutning mellan en posttyp och Adobe Experience Manager-objekt kan du koppla enskilda poster till Experience Manager-objekt. De resursfält som du anslöt från Experience Manager när du skapade anslutningen fylls automatiskt i på den posttyp som du länkade från.
 
 >[!NOTE]
 >
->Planeringsposter och deras fält är tillgängliga från Experience Manager Assets när Workfront-administratören konfigurerar metadatamappningen genom integrationen mellan Workfront och Adobe Experience Manager Assets. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+>Planeringsposter och deras fält är tillgängliga från Experience Manager Assets när Workfront-administratören konfigurerar metadatamappningen genom integrationen mellan Workfront och Adobe Experience Manager Assets. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
-Så här ansluter du poster med Experience Manager-resurser:
+<!--
+not sure if the above 2 paragraphs also apply to fragments; checking with Court and the Andy
+-->
+
+Så här ansluter du poster med Experience Manager-objekt:
 
 {{step1-to-planning}}
 
@@ -403,24 +417,27 @@ Så här ansluter du poster med Experience Manager-resurser:
 
    Arbetsytan öppnas och posttyperna visas.
 1. Klicka på kortet för en posttyp för att öppna posttypssidan.
-1. Välj en **tabellvy** på den nedrullningsbara menyn **Visa** i det övre högra hörnet på posttypssidan.
+1. Välj en **tabellvy** på den nedrullningsbara menyn **Visa** i det övre vänstra hörnet på posttypssidan.
 
 1. (Valfritt) Klicka på **Ny post** om du vill lägga till nya poster till den posttyp du valde. Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
-1. (Villkorligt) När du har anslutit den valda posttypen till Experience Manager går du till det anslutna fältet på en post och klickar antingen på fältet, eller klickar på **Anslut** för att lägga till Experience Manager-resurser till posten och klickar sedan på ikonen **+** .
+1. (Villkorligt) När du har kopplat den markerade posttypen till Experience Manager-objekt går du till det anslutna fältet på en post och antingen klickar på fältet, eller klickar på **Anslut** för att lägga till Experience Manager-objekt i posten och klickar sedan på ikonen **+** .
 
    >[!TIP]
    >
-   >  Du kan lägga till klicka på ikonen **+** i fältet för länkade objekt på postsidan för att ansluta resurser till posten.
+   >  Du kan klicka på ikonen **+** i det länkade objektfältet på postens informationssida för att ansluta resurser till posten.
 
    Rutan Innehållsrådgivare visas.
 
    ![Rutan Innehållsrådgivare för AEM-postanslutningar](assets/content-advisor-assets-nothing-selected.png)
 
-   <!-- The **Select Assets** box displays. we might change this to Connect assets.-->
+   <!--
+    The **Select Assets** box displays. we might change this to Connect assets.
+    -->
 
-   <!-- ![Select assets box for AEM record connections](assets/select-assets-box-for-aem-record-connections.png)-->
+   <!--
+    ![Select assets box for AEM record connections](assets/select-assets-box-for-aem-record-connections.png)-->
 
-1. Klicka för att välja någon av följande typer av resurser i **Assets** -området:
+1. På fliken **Assets** klickar du för att välja någon av följande typer av resurser:
 
    * Bilder
    * Mappar
@@ -430,20 +447,20 @@ Så här ansluter du poster med Experience Manager-resurser:
    >[!IMPORTANT]
    >
    > Du kan bara ansluta resurser som du har tillgång till för att visa i Experience Manager. När du är ansluten kan alla användare av Workfront Planning se resurserna i Workfront Planning, oavsett vilken åtkomst de har i Experience Manager Assets.
-   > Mer information om Content Advisor finns i [Använd Content Advisor för att få åtkomst till AEM-innehåll i Adobe-program](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
+   > Mer information om Content Advisor finns i [Använd Content Advisor för att få åtkomst till AEM-innehåll i Adobe-program](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
 
-1. Klicka på **Innehållsfragment** om du vill välja vilka innehållsfragment som ska läggas till i det länkade postfältet.
+1. På fliken **Innehållsfragment** markerar du de innehållsfragment som ska läggas till i det länkade postfältet.
 
-   Mer information om innehållsfragment finns i [Använd Content Advisor för att få åtkomst till AEM-innehåll i Adobe-program](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
+   Mer information om innehållsfragment finns i [Använd Content Advisor för att få åtkomst till AEM-innehåll i Adobe-program](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
 
 1. När du har valt resurser eller innehållsfragment klickar du på **Välj**. <!-- we might change this to Connect-->
 
    Följande ska läggas till:
 
-   * De valda Experience Manager-resurserna läggs till i det länkade postfältet.
-   * De länkade fälten (eller sökfälten) innehåller information från de Experience Manager-anslutna resurserna.
+   * De valda Experience Manager-resurserna eller innehållsfragmenten läggs till i det länkade postfältet.
+   * De länkade fälten (eller sökfälten) innehåller information från de Experience Manager-anslutna objekten.
 
-     All befintlig information från fälten för Experience Manager-resurserna visas automatiskt i de länkade fälten eller sökfälten.
+     All befintlig information från fälten för Experience Manager-resurser eller innehållsfragment visas automatiskt i de länkade fälten eller sökfälten. <!--verifying of fragments also share lookup fields - not sure from the UI available-->
 
      >[!TIP]
      >
@@ -451,7 +468,7 @@ Så här ansluter du poster med Experience Manager-resurser:
      >
      >* Ett länkat postfält till de länkade posterna för Workfront Planning skapas inte för de länkade Experience Manager-resurserna i Experience Manager Assets-programmet.
 
-1. (Valfritt) Gå till den posttyp som du länkade till Experience Manager från och klicka på namnet på en resurs i det länkade postfältet. Information om resursen visas i ett popup-fönster i Experience Manager.
+1. (Valfritt och villkorligt) För resurser går du till den posttyp som du länkade till Experience Manager från och klickar på namnet på en resurs i det länkade postfältet. Information om resursen visas i ett popup-fönster i Experience Manager. <!--not sure if this is also possible for fragments??-->
 
    ![Popup-fönstret Resurser med AEM-information och miniatyrbild](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
 
@@ -467,13 +484,13 @@ Så här ansluter du poster med Experience Manager-resurser:
    * Skapad den
    * Ändrat den
 
-1. (Valfritt) Om du vill öppna Experience Manager resurspostsida i Experience Manager går du till posttypssidan för den post du länkar från, klickar på namnet på en resurs i det länkade postfältet för att öppna popup-fönstret och klickar sedan på ikonen **Öppna i AEM** ![Öppna resurs i AEM-ikon &#x200B;](assets/open-asset-icon.png) för att öppna resursen.
+1. (Valfritt och villkorligt) Om du vill öppna Experience Manager resurspostsida i Experience Manager för resurser går du till posttypssidan för den post du länkar från, klickar på namnet på en resurs i det länkade postfältet för att öppna popup-fönstret och klickar sedan på ikonen **Öppna i AEM** ![Öppna resurs i AEM-ikon ](assets/open-asset-icon.png) för att öppna resursen. <!--not sure if this is also possible for fragments??-->
 
    Då öppnas Experience Manager-resursen i Adobe Experience Manager Assets.
 
-1. (Valfritt) Håll markören över kolumnrubriken för den länkade Experience Manager-resursen i tabellvyn för posttypen och klicka sedan på **Redigera uppslagsfält**.
+1. (Valfritt och villkorligt) För resurser håller du markören över kolumnrubriken för den länkade Experience Manager-resursen i tabellvyn för posttypen och klickar sedan på **Redigera uppslagsfält**. <!--not sure if this is also possible for fragments??-->
 
-1. Lägg till Experience Manager Assets-objektfält från området **Omarkerade fält**
+1. Lägg till Experience Manager Assets-objektfält från **Omarkerade fält** <!--not sure if this is also possible for fragments??-->
 
    eller
 

@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '2016'
+source-wordcount: '2005'
 ht-degree: 0%
 
 ---
@@ -18,12 +18,15 @@ ht-degree: 0%
 
 # Visa
 
-<!--there are several mentions on how to share public links for global record types in secondary workspaces in this articel; you have to update all of these mentions when something changes-->
+<!--
+there are several mentions on how to share public links for global record types in secondary workspaces in this articel; you have to update all of these mentions when something changes
+-->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -217,7 +220,7 @@ Du kan dela vyer som du har skapat eller vyer som du har behörigheten Hantera m
    >
    >* Förutom team, grupper, företag och jobbroller kan du bara dela med användare som har lagts till i Adobe Admin Console. Du kan inte lägga till användare med endast Workfront. Mer information finns i [Hantera användare i Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
    >
-   >* När du delar en vy med en användare visas även deras primära jobbroll <span class="preview"> och deras e-postadress</span> i fältet. Du måste ha inställningen Visa kontaktinformation aktiverad för objektet Användare på din åtkomstnivå för att kunna se användarens e-post.
+   >* När du delar en vy med en användare visas även deras primära jobbroll och e-postadress i fältet. Du måste ha inställningen Visa kontaktinformation aktiverad för objektet Användare på din åtkomstnivå för att kunna se användarens e-post.
 
    * **Alla på arbetsytan kan visa**: Alla användare som har behörighet att visa eller högre på arbetsytor kan komma åt vyn.
 
@@ -225,7 +228,7 @@ Du kan dela vyer som du har skapat eller vyer som du har behörigheten Hantera m
 
    ![Dela en vy med grupper](assets/sharing-a-view-ui-with-groups.png)
 
-1. <span class="preview">(Valfritt) När du delar med en grupp, ett team, en roll eller ett företag håller du muspekaren över namnet på enheten och klickar på högerpilen för att visa en lista över användare som får behörigheterna. </span>
+1. (Valfritt) När du delar med en grupp, ett team, en roll eller ett företag håller du muspekaren över namnet på enheten och klickar på högerpilen för att visa en lista över de användare som får behörigheterna.
 
    ![Dela vy med team](assets/share-view-with-team-expanding-arrow-highlighted.png)
 
@@ -239,15 +242,20 @@ Du kan dela vyer som du har skapat eller vyer som du har behörigheten Hantera m
 
 1. Klicka på **Spara**.
 
-   Vyn uppdateras med en personikon ![Vyn som delas med andra ikoner](assets/view-shared-with-others-people-icon.png) för att ange att vyn nu delas med andra användare.
-
    Användarna som du delade vyn med får både ett meddelande i appen och ett e-postmeddelande om att de har behörighet till den.
 
-   >[!TIP]
-   >
-   >Vyer utan personer eller globala ikoner är vyer som du har skapat och som inte delas med andra. Vyer som inte delas visas bara för dig.
-
 1. Dela den kopierade länken med andra. Användare som tar emot länken måste vara aktiva användare och logga in på Workfront för att kunna komma åt posttypssidan och visa den i den valda vyn.
+
+1. (Valfritt) Håll muspekaren över namnet på en vy för att lära dig namnet på vyägaren och om vyn delas privat eller offentligt.
+
+   Följande etiketter finns:
+
+   * **Offentlig**: Vyn delas offentligt. Mer information finns i avsnittet [Dela behörigheter till en offentlig vy](#share-permissions-to-a-view-publicly) i den här artikeln.
+   * **Ägs av dig**: Vyn skapas av dig.
+   * **Delas med dig**: Vyn skapas av andra och delas med dig. Ägarens namn visas också.
+   * **Privat**: Du skapade vyn eller andra skapade den, men den delas inte offentligt.
+
+   ![Hovra över etikett för vy som delas privat](assets/privately-shared-view-hover-over-label.png)
 
 ## Dela behörigheter till en vy offentligt
 
@@ -296,22 +304,16 @@ Så här delar du en vy offentligt i Workfront Planning:
 
 1. Klicka på **Spara**.
 
-   Vyn uppdateras med den globala ikonen ![Offentlig delad vy markerad](assets/public-shared-view-icon-highlighted.png) för att visa att vyn delas offentligt.
+1. (Valfritt) Hovra över namnet på vyn i listan över vyer och lägg märke till att vyn visar att den nu delas offentligt.
 
-   >[!TIP]
-   >
-   >Vyer utan personer eller globala ikoner är vyer som du har skapat och som inte delas med andra. Vyer som inte delas visas bara för dig.
+   ![Vyhovring över etikett som delas offentligt](assets/publicly-shared-view-hover-over-label.png)
 
 1. (Valfritt) Klistra in länken som du kopierade till ett e-postmeddelande, chattmeddelande, dokument eller i en Workfront-kommentar för att dela den med andra.
 
-   <div class="preview">
-
    När andra öppnar en offentlig vy ser de följande information om vyn i sidhuvudet:
 
-   * Vynamn och ikon
+   * Vynamnet och ikonen. Ikonen anger vytypen: en tabell, tidslinje eller en kalender.
    * Namnet på posttypen som visas i vyn
-
-   </div>
 
 ## Kopiera en länk till en vy
 
