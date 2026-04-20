@@ -170,7 +170,7 @@ When changing your User Email Locale, you modify the language, date, and number 
 
 >[!NOTE]
 >
->Språkinställningarna lagras i din Adobe-profil och e-postspråket används inte. Se [Ändra Adobe Experience Cloud ](#change-the-adobe-experience-cloud-language) i den här artikeln.
+>Språkinställningarna lagras i din Adobe-profil och e-postspråket används inte. Se [Ändra Adobe Experience Cloud &#x200B;](#change-the-adobe-experience-cloud-language) i den här artikeln.
 
 <!--To change your User Email Locale:
 

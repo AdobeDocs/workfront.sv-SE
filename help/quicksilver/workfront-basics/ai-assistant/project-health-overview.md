@@ -279,7 +279,7 @@ När Workfront-administratören har skapat en projekthälsokonfiguration kan du 
 
 1. Välj ett projekt på sidan **Projekt**.
 
-1. Klicka på ikonen **Mer** ![Mer ](assets/more-icon.png) till höger om projektnamnet och välj sedan **Redigera**. Rutan **Redigera projekt** öppnas.
+1. Klicka på ikonen **Mer** ![Mer &#x200B;](assets/more-icon.png) till höger om projektnamnet och välj sedan **Redigera**. Rutan **Redigera projekt** öppnas.
 
 1. Klicka på **Projektinställningar** i den vänstra panelen.
 
@@ -333,7 +333,7 @@ Så här genererar du en Project Health-utvärdering för ett projekt eller prog
 
    ![Utökad information](assets/expanded-details.png)
 
-1. När du har granskat projekthälsoinformationen klickar du på ikonen **Stäng** ![Stäng ](assets/close-icon.png) i det övre högra hörnet av AI Assistant.
+1. När du har granskat projekthälsoinformationen klickar du på ikonen **Stäng** ![Stäng &#x200B;](assets/close-icon.png) i det övre högra hörnet av AI Assistant.
 
 ## Generera en Project Health-utvärdering för flera projekt
 
@@ -355,7 +355,7 @@ Ett projekt inkluderas bara i den kombinerade Project Health-bedömningen om pro
 
 1. (Valfritt) Klicka på ett av projektets hälsovillkorsemblem för att expandera projektlistan och välj sedan en länk för ett visst projekt för att gå till informationssidan för det projektet.
 
-1. När du har granskat projektens hälsoinformation klickar du på ikonen **Stäng** ![Stäng ](assets/close-icon.png) i det övre högra hörnet av AI Assistant för att stänga den.
+1. När du har granskat projektens hälsoinformation klickar du på ikonen **Stäng** ![Stäng &#x200B;](assets/close-icon.png) i det övre högra hörnet av AI Assistant för att stänga den.
 
 <!--
 

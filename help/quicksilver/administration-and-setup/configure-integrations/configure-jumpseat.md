@@ -92,7 +92,7 @@ Så här konfigurerar du integreringen av [!DNL JumpSeat]:
 
 https://{mycompanyname}.hoppseat.io
 
->>
+&#x200B;>>
 
 >[!ENDSHADEBOX]
 
