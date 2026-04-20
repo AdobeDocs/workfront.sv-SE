@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: d20215ae2d535ba98ca27ce62aaa28fd372e935a
+source-git-commit: ca0583d7e375e7f17d058d7ca287785d17de35dd
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -79,10 +79,6 @@ AI-samarbetspartners för granskare kan konfigureras att använda Workfront-varu
 
 * **Varumärken**: Varumärken skapas i Workfront. Du kan skapa varumärken i Workfront genom att överföra PDF-filer som innehåller varumärkesriktlinjerna eller genom att ange märkeselement manuellt.
 * <span class="preview">**Adobe Brand Intelligence**: När en AI-medarbetare granskar en resurs med Adobe Brand Intelligence kan du visa kommentarer som har gjorts av granskaren i Frame.io.  </span>
-
->[!NOTE]
->
->Content Reviewer är inte tillgängligt i sandlådemiljöer.
 
 
 {{step-1-to-setup}}
