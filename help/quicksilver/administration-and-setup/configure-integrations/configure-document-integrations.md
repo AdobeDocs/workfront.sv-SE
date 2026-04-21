@@ -8,7 +8,7 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: f9c2c7192254a0d0c04056bc4c193eb35d4116b5
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 0%
@@ -69,8 +69,8 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 Du kan konfigurera följande integreringar för hantering av dokument:
 
 <!--
-  Experience Manager Assets Essentials </p>
-  -->
+   Experience Manager Assets Essentials </p>
+   -->
 
 * [!DNL Workfront DAM]
 

@@ -10,9 +10,9 @@ role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b190de6b6ef9ce53e96475d426a4d39cfbd4df4
+source-git-commit: f9c2c7192254a0d0c04056bc4c193eb35d4116b5
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1820'
 ht-degree: 0%
 
 ---
@@ -224,14 +224,9 @@ Du kan använda jokertecken i åtgärder för affärsregler, vilket beskrivs i a
    * Personalplan
    * Mall
    * Resurs för personalplan
-<!--
+   <!--
    * <span class="preview">Team</span>
--->
-
-1. Skriv **Namn** för affärsregeln i dialogrutan Regelbyggaren.
-1. I fältet **Är aktiv** väljer du om regeln ska vara aktiv när du sparar den.
-
-   Om du väljer **Nej** sparas regeln som inaktiv och du kan aktivera den senare.
+   -->
 
 1. Välj en **utlösare** för affärsregeln. Alternativen är:
 
@@ -306,4 +301,3 @@ Så här aktiverar du en affärsregel:
 1. Markera affärsregeln i listan med regler och klicka på ikonen Redigera.
 1. Välj **Ja** för **Är aktiv** i dialogrutan för affärsregler.
 1. Klicka på **Spara**.
-

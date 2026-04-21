@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c38e60dd-7fb2-4afc-976a-b0966398c162
-source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
+source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 0%
@@ -17,7 +17,9 @@ ht-degree: 0%
 
 # Justera hastighetsändringar i projekt
 
-När ett tariffkort är kopplat till ett projekt <!--or a staffing plan--> kan tarifferna på tariffkortet fortfarande justeras. Sedan kan du om du vill skicka dessa frekvenser till projekten <!--and staffing plans --> som tariffkortet är kopplat till. Om du inte flyttar de nya tarifferna kommer de ursprungliga priserna att finnas kvar i projektet <!-- or staffing plan-->.
+När ett tariffkort är kopplat till ett projekt <!--or a staffing plan--> kan tarifferna på tariffkortet fortfarande justeras. Sedan kan du välja att överföra dessa priser till de projekt som tariffkortet är kopplat till. Om ni inte tänjer på de nya priserna ligger de ursprungliga priserna kvar på projektet.
+<!-- and staffing plans -->
+<!-- or staffing plan -->
 
 Mer information om hur du bifogar ett tariffkort till ett projekt finns i [Koppla ett tariffkort till ett projekt](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).
 
@@ -60,7 +62,12 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 1. Klicka på kortnamnet i listan Klassificeringskort.
 1. Kontrollera att taxorna är korrekta och redigera eventuella taxor efter behov på skärmen Klassificeringskort > Jobbroller och taxor.
 1. Klicka på [!UICONTROL **Push changes**].
-1. I dialogrutan [!UICONTROL **Använd för alla projekt**]<!--/staffing plans--> är alla projekt <!--and staffing plans --> som använder det här tariffkortet markerade som standard. Om du inte vill att ett projekt <!--or staffing plan --> ska tillämpa hastighetsändringarna måste du avmarkera det.
+1. I dialogrutan [!UICONTROL **Använd för alla projekt**] väljs alla projekt som använder det här tariffkortet som standard. Om du inte vill att ett projekt ska tillämpa hastighetsändringarna måste du avmarkera det.
+
+   <!--/staffing plans-->
+   <!--and staffing plans -->
+   <!--or staffing plan -->
+
 1. Klicka på [!UICONTROL **Spara**].
 
    De nya priserna visas nu i de projekt <!--and staffing plans --> som använder tariffkortet.

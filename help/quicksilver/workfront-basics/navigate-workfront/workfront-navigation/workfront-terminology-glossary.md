@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: f9c2c7192254a0d0c04056bc4c193eb35d4116b5
 workflow-type: tm+mt
 source-wordcount: '17947'
 ht-degree: 0%
@@ -52,19 +52,18 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Actual Cost]</td> 
-   <td> <p>För uppgifter och ärenden är detta kostnaden associerat med de faktiska timmarna som loggats i relation till kostnaden per timme för den resurs som tilldelats uppgiften eller utgåvan. För projekt är detta det totala antalet [!UICONTROL Actual Costs] från aktiviteter och ärenden i projektet. Mer information finns i <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Spåra kostnader</a>.</p>
-
-<p>[!UICONTROL Actual Cost] beräkningar tar hänsyn till [!UICONTROL Legacy Actual Hours]. Mer information finns i [!UICONTROL Actual Hours] eller [!UICONTROL Legacy Actual Hours] i den här tabellen. </p>   </td> 
+   <td> <p>För uppgifter och ärenden är detta kostnaden associerat med de faktiska timmarna som loggats i relation till kostnaden per timme för den resurs som tilldelats uppgiften eller utgåvan. För projekt är detta det totala antalet [!UICONTROL Actual Costs] från aktiviteter och ärenden i projektet. Mer information finns i <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Spåra kostnader</a>.</p>    
+  <p>[!UICONTROL Actual Cost] beräkningar tar hänsyn till [!UICONTROL Legacy Actual Hours]. Mer information finns i [!UICONTROL Actual Hours] eller [!UICONTROL Legacy Actual Hours] i den här tabellen. </p>   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Actual Expense Cost]</td> 
    <td> <p>Summan av [!UICONTROL Actual Amounts] för alla utgifter som loggats för ett projekt eller en uppgift.</p> <b>EXEMPEL </b>
    <p>Om du skapar en utgift för Uppgift 1 och anger 600,00 USD i fältet [!UICONTROL Actual Amount], är [!UICONTROL Actual Expense Cost] för den här aktiviteten 600,00 USD. </p> 
-   <p>För ett projekt använder [!DNL Workfront] följande formel för att beräkna [!UICONTROL Actual Expense Cost]:</p> <p><code>Project Actual Expense Cost = SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost</code> <br> </p> 
+   <p>För ett projekt använder [!DNL Workfront] följande formel för att beräkna [!UICONTROL Actual Expense Cost]:</p> <p><code>Project Actual Expense Cost = SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost</code> <br> </p>
    <!--
-     <p>Important: If the value in the Actual Amount field for an expense is negative, Workfront will ignore that expense record. For example, if the value in the Planned Amount field is $200.00 but the value in the Actual Amount field is -$300.00, the system will ignore this entire expense record which means you would not include the $200.00 planned value or the -$300.00 actual value in any calculations for Planned Expense Cost or Actual Expense Cost. (drafting this because not sure if this is still correct)</p>
-    -->
-    </td>
+   <p>Important: If the value in the Actual Amount field for an expense is negative, Workfront will ignore that expense record. For example, if the value in the Planned Amount field is $200.00 but the value in the Actual Amount field is -$300.00, the system will ignore this entire expense record which means you would not include the $200.00 planned value or the -$300.00 actual value in any calculations for Planned Expense Cost or Actual Expense Cost. (drafting this because not sure if this is still correct)</p> 
+   -->
+   </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Actual Hours]</td> 
@@ -91,9 +90,9 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
   </tr> 
   <!--
   <tr> 
- <td>A type of work process that is unplanned.</td> 
- -->
+   <td>A type of work process that is unplanned.</td> 
   </tr>
+  -->
   <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td>Additional Schedules</td> 
@@ -118,7 +117,7 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
     <ul>
     <!--
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Estimates</li>
-     --> 
+    --> 
      <li>[!UICONTROL Project] (Finansiella uppgifter)</li> 
      <li>[!UICONTROL Budgeted Hour]</li> 
     </ul> <p>För
@@ -134,15 +133,15 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
          how resources are budgeted for work, or 
        </MadCap:conditionalText>
-      -->
+     -->
       mängden [!UICONTROL Planned Hours] som tilldelas dina resurser.</li>
      <li> <p>[!UICONTROL Allocation Date] är den första dagen (söndag) i en vecka där allokeringen av [!UICONTROL Job Role] till en aktivitet startar. En resurs ([!UICONTROL Job Role]) kan ha så många [!UICONTROL Allocation Dates] som den har veckor under [!UICONTROL Duration] av de uppgifter som den är tilldelad till. Om uppgifter sträcker sig över flera månader kan den första dagen i en månad också bli [!UICONTROL Allocation Date], om den ligger inom [!UICONTROL Duration] för uppgiften.</p> <p>Du kan till exempel ha en [!UICONTROL Job Role] tilldelad till en aktivitet som sträcker sig över 3 veckor och har 90 [!UICONTROL Planned Hours]. De här timmarna fördelas jämnt under aktivitetens varaktighet, vilket gör att du tilldelar 6 [!UICONTROL Planned Hours] till din jobbroll varje dag:</p> <p><em> [!UICONTROL Daily Planned Hours] = [!UICONTROL Total Planned Hours]/ Antal [!UICONTROL Work Days] under [!UICONTROL Duration] för aktiviteten </em> </p> <p>Det innebär att det finns tre [!UICONTROL Allocation Dates], en för varje söndag varje vecka under [!UICONTROL Duration] för aktiviteten, där vart och ett har ett visst antal [!UICONTROL Planned Hours] associerade.<br>Om aktiviteten startar i mitten av den sista veckan i en månad och slutar två veckor efter början av en ny månad har aktiviteten fyra [!UICONTROL Allocation Dates] : en för varje söndag i varje vecka under [!UICONTROL Duration] för aktiviteten och en för den första dagen i den nya månaden.</p> <p>Vi rekommenderar att du skapar en
-     <!--
+       <!--
         <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
           Resource Estimates or a 
         </MadCap:conditionalText>
        -->
-       Project (Financial Data)-rapport och lägg till en matrisgruppering för [!UICONTROL Allocation Date] och gruppera sedan resultaten varje vecka, månad, kvartal eller år för att få de mest korrekta uppgifterna.<br>Mer information om hur du skapar en matrisgruppering finns i artikeln <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Skapa en matrisrapport</a>.</p> </li>
+     Project (Financial Data)-rapport och lägg till en matrisgruppering för [!UICONTROL Allocation Date] och gruppera sedan resultaten varje vecka, månad, kvartal eller år för att få de mest korrekta uppgifterna.<br>Mer information om hur du skapar en matrisgruppering finns i artikeln <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Skapa en matrisrapport</a>.</p> </li>
     </ul> <p>Den ekonomiska informationen fylls i i [!UICONTROL Project (Financial Data)] rapporter endast när de data som är associerade med den är mindre än 5 år gamla. Om en jobbroll till exempel allokerades till en aktivitet i januari 2015 och idag är september 2021, fylls inte ett ekonomiskt fält som [!UICONTROL Allocation Date] för jobbrollen i rapporten [!UICONTROL Project (Financial Data)]. </p> 
     <div> 
      <p>För en [!UICONTROL Budgeted Hour]-rapport:</p> 
@@ -243,22 +242,19 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
    <td>[!UICONTROL Automatic And On Change]</td> 
    <td> <p>En av [!UICONTROL Project Update]-typerna. Detta beräknar om projektets planerade och planerade tidslinjer när den nattliga omberäkningen körs och när någon uppdatering görs av projektet eller aktiviteterna i projektet. </p> <p>Mer information finns i <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Välj projekttypens uppdateringstyp </a>.</p> </td> 
   </tr>
-
-<tr> 
+  <tr> 
    <td><p>Tillgänglighet</p></td> 
    <td> <p>Den här termen används i relation till "användartillgänglighet" eller "resurstillgänglighet" och visar hur lång tid resursen (användaren eller jobbrollen) är tillgänglig för arbete. </p> 
    <p>Workfront beräknar användartillgänglighet i flera fält och beroende på vilka inställningar som finns i systemet för resurshanteringsinställningar. Mer information finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Konfigurera inställningar för resurshantering</a>. </p>
    <p>Mer information om resurstillgänglighet finns i <a href="../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md">Kom igång med resurshantering</a></p>
    Alternativt används"kapacitet" även för att hänvisa till resurstillgänglighet. 
    </td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Automatic Only]</td> 
    <td> <p>En av [!UICONTROL Project Update]-typerna. Detta beräknar om planerade och planerade tidslinjer när nattomberäkningen körs.</p> <p>Mer information finns i <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Välj typ av projektuppdatering</a>.</p> </td> 
-  </tr>
-
-<tr data-mc-conditions=""> 
+  </tr> 
+  <tr data-mc-conditions=""> 
    <td>[!UICONTROL BAU]</td> 
    <td>Arbeta som vanligt och få det att fungera som vanligt.</td> 
   </tr> 
@@ -269,9 +265,8 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Baseline]</td> 
    <td>En datakälla för att mäta iterationer mot i en Agile-miljö.</td> 
-  </tr>
-
-<tr data-mc-conditions=""> 
+  </tr> 
+  <tr data-mc-conditions=""> 
    <td>[!UICONTROL Billable Expense]</td> 
    <td> <p>En utgift som är markerad som fakturerbar för kunden. Detta kan vara antingen en planerad utgift eller en faktisk utgift.</p> <p>Fälten Planerad fakturerbar utgift och Faktisk fakturerbar utgiftskostnad är tillgängliga så att du kan lägga till i vyer och rapporter. De visas inte på projekt- eller uppgiftsinformationssidorna.</p>
    <p>Du hittar dessa fält i följande typer av rapporter:</p>
@@ -283,21 +278,17 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
    <p>Mer information om hur du markerar en utgift som fakturerbar finns i <a href="/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md">Hantera projektutgifter</a>.</p>
    </td> 
   </tr>
-
-<tr data-mc-conditions=""> 
+  <tr data-mc-conditions=""> 
    <td>[!UICONTROL Billing Record]</td> 
    <td> <p>Registrerar intäkter, timmar eller utgifter som kan faktureras. Den här informationen kan användas för att skapa fakturor i ett externt redovisningssystem.</p> <p>Mer information finns i <a href="../../../manage-work/projects/project-finances/create-billing-records.md">Skapa faktureringsposter</a>. </p> 
    </td> 
   </tr>
-
-<tr> 
+ <tr> 
    <td>Faktureringspoststatus</td> 
    <td> <p>I en faktureringspost- eller timrapport visar status för en faktureringspost om faktureringsposten har fakturerats eller inte. Du kan inte ta bort ett projekt eller redigera tid som är associerad med en faktureringspost. Mer information finns i <a href="../../../manage-work/projects/project-finances/create-billing-records.md" >Skapa faktureringsposter</a>.</p>  
    </td> 
   </tr>
-
-
-<tr> 
+  <tr> 
    <td>[!UICONTROL Branding]</td> 
    <td><p>Processen att anpassa [!DNL Workfront] för att ge gränssnittet ett utseende som speglar ditt företag genom att använda dina färger och logotyper.</p><p><strong>Obs!</strong><br>Om din organisation har anslutit till [!DNL Adobe Experience Cloud] är varumärkning inte tillgängligt.</p></td> 
   </tr> 
@@ -311,26 +302,24 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
     <ul>
     <!--
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode">If the project is  not added to the capacity planner, its value is <i>Not Included</i>.  </li>
-     -->
-     <!--
+    -->
+    <!--
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode">If the project is  added to the Capacity Planner but is excluded from the budget calculation,  the value is <i>Included but not Calculated</i>.  </li>
-     -->
-     <!--
+    -->
+    <!--
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> If the project is  added to the Capacity Planner and included in the budget calculation, the value is <i>Included and Calculated</i>. </li>
-     --> 
+    --> 
     </ul> </td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Breakdown]</td> 
    <td> <p>I Workfront Planning kan du visa anslutna poster i en posts tidslinjevy med hjälp av funktionen Uppdelning. </p>
    <p>Genom att dela upp poster efter deras anslutningar kan du visa tidslinjerna för andra anslutna poster och förstå hur de kan påverka posternas prestanda och deadlines. </p>
    <p>Kopplade poster visas kapslade under respektive post. </p>
    <p>Mer information finns i <a href="/help/quicksilver/planning/views/manage-the-timeline-view.md">Hantera tidslinjevyn</a>. </p>
    </td> 
-    </tr>
-
-<tr> 
+    </tr> 
+  <tr> 
    <td>[!UICONTROL Budgeted Completion Date]</td> 
    <td> <p>Detta är ett inaktuellt fält. All information som det här fältet kan visa är relaterad till en funktion som [!DNL Workfront] har tagit bort. Det går inte att uppdatera det här fältet. </p>
    <p> Det här fältet är fortfarande synligt i [!UICONTROL project] rapporter och listor.</p>  </td> 
@@ -901,7 +890,7 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
      <li>[!UICONTROL Effort Driven]</li> 
      <li>[!UICONTROL Simple]</li> 
     </ul> <p>Mer information finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Översikt över aktiviteten [!UICONTROL Duration] och [!UICONTROL Duration Type]</a>.</p> 
-    —&gt;
+    --&gt;
     </td>
    </tr> 
    <tr> 
@@ -1051,9 +1040,8 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
 
 <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Task field used by the planner to set how the work required is allocated to the assignees across the duration.</p>
-<!--
-FTE
-The designated full time equivalency for users. A full-time user should have 100% FTE and part-time user should have a percentage that equals their working hours. 
+     FTE
+     The designated full time equivalency for users. A full-time user should have 100% FTE and part-time user should have a percentage that equals their working hours. 
 -->
 
 ## G - I
@@ -2106,7 +2094,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
    <td>[!UICONTROL Risk]</td> 
    <td> <p>Detta kan referera till följande koncept i [!DNL Workfront]:</p> 
     <ul> 
-     <li> <p>Ett fält i ett projekt som anger hur riskabelt ett projekt kan vara. Du kan prioritera genomförandet av dina projekt baserat på risknivån. Projekt kan ha följande risknivåer:</p> <p>– [!UICONTROL Very Low]</p> <p>– [!UICONTROL Low]</p> <p>– [!UICONTROL Medium]</p> <p>– [!UICONTROL High]</p> <p>– [!UICONTROL Very High]</p> <p>De risknivåer du anger för ett projekt kan inte anpassas. </p> <p> Mer information om hur du uppdaterar risken för ett projekt finns i avsnittet Projektinställningar i artikeln <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Redigera projekt</a>. Du kan visa riskfältet för ett projekt i rapporter. </p> </li> 
+     <li> <p>Ett fält i ett projekt som anger hur riskabelt ett projekt kan vara. Du kan prioritera genomförandet av dina projekt baserat på risknivån. Projekt kan ha följande risknivåer:</p> <p>- [!UICONTROL Very Low]</p> <p>- [!UICONTROL Low]</p> <p>- [!UICONTROL Medium]</p> <p>- [!UICONTROL High]</p> <p>- [!UICONTROL Very High]</p> <p>De risknivåer du anger för ett projekt kan inte anpassas. </p> <p> Mer information om hur du uppdaterar risken för ett projekt finns i avsnittet Projektinställningar i artikeln <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Redigera projekt</a>. Du kan visa riskfältet för ett projekt i rapporter. </p> </li> 
      <li> <p>En händelse som kan inträffa under ett projekts livslängd och som identifierar en potentiell inverkan på projektets kostnad, omfattning eller schema. Du definierar potentiella risker för ett projekt och associerar en sannolikhet för att de ska inträffa eller en kostnad när du skapar projektets affärsärende. Mer information om hur du lägger till risker i projektets affärsmodell finns i"Skapa och redigera risker i projekt". </p> <p>Du kan inte visa risker som definierats i [!UICONTROL Business Case] i rapporter. Du kan bara visa flera typer av riskkostnader i rapporter och listor. </p> </li> 
     </ul> </td>
 
@@ -2158,7 +2146,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Scenario] (i [!DNL Workfront Fusion]) </td> 
-   <td> <p>Ett scenario består av en serie steg (moduler) som anger hur data ska överföras och transformeras mellan program/tjänster.</p> <p>Mer information om scenarier i [!DNL Workfront Fusion] finns i <a href="https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] scenarioöversikt </a>.</p> </td> 
+   <td> <p>Ett scenario består av en serie steg (moduler) som anger hur data ska överföras och transformeras mellan program/tjänster.</p> <p>Mer information om scenarier i [!DNL Workfront Fusion] finns i <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] scenarioöversikt </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scenario] (i [!DNL Workfront Scenario Planner]) </td> 

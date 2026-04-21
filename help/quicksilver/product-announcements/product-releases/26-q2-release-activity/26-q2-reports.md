@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 1ef6ead705231a41cbf62b8a8b35f480da004970
+source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Befintliga filter för klassiska rapporter som använder `isCurrentVersion` elle
 >Production fast release: 15 april 2026
 >Produktion för alla: 16 april 2026
 
-Workfront innehåller nu en ny typ av länkleverans för schemalagda rapporter. I stället för att generera och bifoga en fil skickar det här alternativet ett e-postmeddelande som innehåller en direktlänk till rapporten i Workfront, vilket gör att mottagarna kan visa {{$include }} de senaste data som finns i programmet.
+Workfront innehåller nu en ny typ av länkleverans för schemalagda rapporter. I stället för att generera och bifoga en fil skickar det här alternativet ett e-postmeddelande med en direktlänk till rapporten i Workfront, vilket gör att mottagarna kan visa `{{$include }}` de senaste data som finns i programmet.
 
 Alternativet Länka är nu standardleveranstyp för nya leveransregler för schemalagda rapporter, medan befintliga filbaserade format (HTML, PDF, Excel och TSV) fortfarande är tillgängliga.
 
