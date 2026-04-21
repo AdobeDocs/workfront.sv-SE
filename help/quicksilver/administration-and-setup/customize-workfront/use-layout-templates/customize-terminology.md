@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
+source-git-commit: 3080fc1ebf33186f3bdf64a960fd1b5572dbfb2f
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ När du har sparat en layoutmall där du ändrat terminologi, loggat ut från Wo
 >[!NOTE]
 >
 >* Du kan stöta på grammatik och andra problem när du anpassar etiketter. Om du till exempel ändrar&quot;Problem&quot; till&quot;Begäran&quot; kan det finnas platser i användargränssnittet där du ser frasen&quot;En begäran&quot;. Mer information finns i [Konsekvenser av anpassning av objektnamn](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names) i artikeln [Förstå objekt i Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
->
+>* Mer information om hur du anpassar terminologisk översättning till andra språk än engelska finns i [Konfigurera anpassad lokalisering](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
 
 Mer information om layoutmallar finns i [Skapa och hantera layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
