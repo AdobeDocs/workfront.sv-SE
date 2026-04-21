@@ -10,9 +10,9 @@ role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f9c2c7192254a0d0c04056bc4c193eb35d4116b5
+source-git-commit: 8ee1cda376b51a5f5b7b4af44e6d34bf70ee9600
 workflow-type: tm+mt
-source-wordcount: '1820'
+source-wordcount: '1803'
 ht-degree: 0%
 
 ---
@@ -202,30 +202,25 @@ Du kan använda jokertecken i åtgärder för affärsregler, vilket beskrivs i a
    * Dokument
    * Program
    * Utgift
+   * Användare
    * Företag
    * Upprepning
    * Faktureringspost
    * Grupp
-   * Icke-arbetsrelaterad resurs
    * risk
    * Kreditkort
    * Tilldelning
-   * Användare
-   * Roll
-   * Timme
-   * Mall
-   * Tid av
-   * Resurspool
    * Jobbroll
-   * Resurskategori utanför arbetsplats
    * Resurspool
    * Tid av
    * Timme
-   * Personalplan
    * Mall
-   * Resurs för personalplan
    <!--
-   * <span class="preview">Team</span>
+   * Non-labor resource
+   * Non-labor resource category
+   * Staffing Plan
+   * Staffing Plan Resource
+   * Team
    -->
 
 1. Välj en **utlösare** för affärsregeln. Alternativen är:
