@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '2978'
+source-wordcount: '2918'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,11 @@ ht-degree: 0%
 
 # Redigera poster
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -143,7 +144,7 @@ Old:
 * Följande typer av fält uppdateras automatiskt och du kan inte redigera deras värden manuellt:
    * Länkade fält från andra poster
    * Formelfält
-   * Systemfält (Skapat av, Skapat den, Senast ändrat av, Senast ändrat den, Godkänt den, Godkänd av, <span class="preview">Post-ID</span>)
+   * Systemfält (Skapat av, Skapat den, Senast ändrat av, Senast ändrat den, Godkänt den, Godkänd av, Post-ID)
 * Om de poster som du visar är länkade till andra poster, återspeglas den nya informationen om de poster som du redigerar på de länkade posterna på alla arbetsytor där posten är länkad.
 * Du kan inte redigera flera poster samtidigt. <!--this will probably change-->
 * URL-adresser känns bara igen som länkar i enradiga textfält när de börjar med följande: http://, https://, ftp:// eller www.
@@ -281,7 +282,7 @@ Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create
 
 1. Klicka på fältet för en post för att öppna dess informationsområde och redigera alla fält.
 
-   Mer information finns i avsnittet [Redigera en post från postens förhandsgranskning i vyn &#x200B;](#edit-a-record-from-the-records-preview-in-a-view) i den här artikeln.
+   Mer information finns i avsnittet [Redigera en post från postens förhandsgranskning i vyn ](#edit-a-record-from-the-records-preview-in-a-view) i den här artikeln.
 
 ### Redigera en post i kalendervyn för en posttyp
 
@@ -298,7 +299,7 @@ Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create
 
 1. Klicka på fältet för en post för att öppna dess informationsområde och redigera alla fält.
 
-   Mer information finns i avsnittet [Redigera en post från postens förhandsgranskning i vyn &#x200B;](#edit-a-record-from-the-records-preview-in-a-view) i den här artikeln.
+   Mer information finns i avsnittet [Redigera en post från postens förhandsgranskning i vyn ](#edit-a-record-from-the-records-preview-in-a-view) i den här artikeln.
 
 ### Redigera en post från postens förhandsgranskning i en vy
 
@@ -345,7 +346,7 @@ Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create
 
    När inställningen är inaktiverad visas avatarerna och namnen i realtidsindikatorområdet, och fälten som redigeras markeras inte.
 
-   ![Indikatorn för heltidsvisning expanderade postförhandsgranskning](assets/real-time-indicator-expanded-record-preview-box.png)
+   ![Realtidsindikator - ruta för förhandsgranskning av utökad post](assets/real-time-indicator-expanded-record-preview-box.png)
 
 1. (Valfritt) Klicka på **Exportera**-menyn ![Exportikonen på postinformationssidan](assets/export-icon-in-record-details-page.png) om du vill exportera postens information. Mer information finns i [Exportera information för en post](/help/quicksilver/planning/records/export-the-record-page.md).
 
@@ -393,7 +394,7 @@ Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create
 
    eller
 
-   Håll pekaren över den befintliga omslagsbilden och klicka sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) > **Överför** för att lägga till en ny omslagsbild för posten.
+   Håll pekaren över den befintliga omslagsbilden och klicka sedan på menyn **Mer** ![Mer ](assets/more-menu.png) > **Överför** för att lägga till en ny omslagsbild för posten.
 
    Mer information finns i [Lägga till en omslagsbild till en post](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 

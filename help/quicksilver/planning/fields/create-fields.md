@@ -8,16 +8,16 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 795d115e7a745de052b462ba444425136a3d4953
 workflow-type: tm+mt
-source-wordcount: '5686'
+source-wordcount: '5655'
 ht-degree: 0%
 
 ---
 
 
 <!--
-Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=sv-SE ??
+Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??
 -->
 
 <!--
@@ -32,10 +32,11 @@ Do we need this for FORMULAS: when we release permissions to RECORDS and we rele
 
 <!--information about choice values must stay in yellow till Jan 2026-->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -252,7 +253,7 @@ Mer information finns i [Importera fält från Workfront](/help/quicksilver/plan
    * [Senast ändrat den](#last-modified-date)
    * [Godkänt den](#approved-date)
    * [Godkänd av](#approved-by)
-   * <span class="preview">[Post-ID](#record-id)</span>
+   * [Post-ID](#record-id)
      <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
@@ -590,7 +591,7 @@ Mer information finns i [Översikt över formelfält](/help/quicksilver/planning
    >
    >* Du kan referera till ett fält som är upp till fyra fält (och objekt) utanför den aktuella posttypen. Om du till exempel skapar ett formelfält för en aktivitetsposttyp (1) och aktiviteten är kopplad till kampanjposttypen (2) som är kopplad till ett Workfront-projekt (3), kan du referera till projektets budgetfält (4) i formeln som du skapar för aktivitetsposttypen.
    >
-   >![Formelexempel för projektbudget fyra fält har tagits bort &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Formelexempel för projektbudget fyra fält har tagits bort ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Valfritt) Klicka på **Maximera** för att öppna formelrutan i ett större område.
@@ -630,7 +631,9 @@ Du kan använda fälttypen Personer för att lägga till en användare i en post
 
 >[!TIP]
 >
->* När du lägger till namnet på en användare i ett personfält visas även den primära jobbrollen <span class="preview"> och användarens e-postadress</span> i fältet. Du måste ha inställningen Visa kontaktinformation aktiverad för objektet Användare på din åtkomstnivå för att kunna se användarens e-post.
+>* När du lägger till namnet på en användare i ett personfält visas även den primära jobbrollen och användarens e-postadress i fältet. Du måste ha inställningen Visa kontaktinformation aktiverad för objektet Användare på din åtkomstnivå för att kunna se användarens e-post.
+>
+>* Endast användare som har lagts till i Adobe Admin Console visas i personfält. Workfront-användare visas inte när de försöker lägga till dem i ett personfält.
 >
 >* Personfält visas som en referens (eller anslutningstyp) i en formulärbyggare för begäran.
 >
@@ -812,8 +815,6 @@ Du kan använda fälttypen Godkänd av för att lägga till den användare som s
 
    Det nya fältet Godkänd efter typ läggs till som en kolumn till posttypen och dess värden är förifyllda med namnet på den användare som senast ändrade varje post.
 
-<span class="preview">
-
 ## Post-ID
 
 Du kan använda fälttypen Post-ID för att visa en systemgenererad, skrivskyddad identifierare för varje post.
@@ -834,8 +835,6 @@ Du kan inte ändra värdet för ett post-ID-fält manuellt.
 1. Klicka på **Skapa**.
 
    Det nya fältet för post-ID läggs till som en kolumn till posttypen och dess värden är förifyllda med ett alfanumeriskt värde.
-
-</span>
 
 
 <!--

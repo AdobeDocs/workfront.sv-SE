@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '2460'
+source-wordcount: '2400'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,12 @@ ht-degree: 0%
 # Skicka Adobe Workfront Planning-begäranden för att skapa poster
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
-<!--take Preview and Prod references out when releasing to Prod all-->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -108,17 +109,12 @@ Följande måste finnas innan du kan skicka en begäran till ett Workfront Plann
 * Poster som skapas när förfrågningsformulär skickas är kopplade till den ursprungliga begäran. Det går inte att ta bort den här anslutningen.
 * Du kan visa både poster som skapats och förfrågningar som använts för att skapa dem i följande områden:
    * Området med förfrågningar i Workfront.
-
-  <div class="preview">
-
    * I ett anslutet fält på en posttypssida i Workfront Planning när du lägger till begäran som en ansluten post.
    * I ett anslutet fält i området Detaljer för en post i Workfront Planning när du lägger till begäran som en ansluten post.
 
-  </div>
-
   >[!TIP]
   >
-  ><span class="preview">Du kan visa namnet på begäran i fältet Ämne i området Begäranden i Workfront eller i fältet Original request connection i Workfront Planning. </span>
+  >Du kan visa namnet på begäran i fältet Ämne i området Begäranden i Workfront eller i fältet Original request i Workfront Planning.
 
 * Skickade planeringsbegäranden visas bara i den nya begärande upplevelsen. Du kan inte se Planering-begäranden i den äldre upplevelsen av begäranden.
 
@@ -185,13 +181,13 @@ Om du aktiverar den här inställningen blir Workfront Planning-förfrågningsfo
       * **Objekttyp**: Namnet på arbetsytan och posttypen där poster skapades från begäran i Planning.
       * **Status**: Status för begärandeobjektet.
       * **Formulär för begäran**: Namnet på det begärandeformulär som är associerat med posttypen i Planning.
-      * <span class="preview">**Skapad objektstatus**: Status för den skapade posten.</span>
+      * **Skapad objektstatus**: Status för den skapade posten.
 
    * Om begärandeformuläret associerades med ett godkännande läggs begäran till i listan över förfrågningar i området Workfront-förfrågningar och i widgeten Mina förfrågningar med statusen **Väntande granskning**. En ny post läggs bara till på posttypssidan efter att godkännarna har godkänt den.
 
      Mer information finns i [Lägga till ett godkännande i ett begärandeformulär](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-   * <span class="preview">Du kan lägga till anslutningsfältet **Originalbegäran** till en posttyp i Planning för att visa namnet på den ursprungliga begäran som skapade en post. Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md). </span>
+   * Du kan lägga till anslutningsfältet **Original request** till en posttyp i Planning för att visa namnet på den ursprungliga begäran som skapade en post. Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
    * Begäran är bara synlig för ägaren, godkännaren och de personer som har minst behörigheten Visa på arbetsytan. Workfront-administratörer kan visa alla begäranden som skickas till valfri arbetsyta i systemet.
    * Du får ett meddelande i appen och ett e-postmeddelande om att begäran antingen har skickats eller skickats för granskning.
    * Om begärandeformuläret associerades med ett godkännande får godkännarna ett meddelande i appen och ett e-postmeddelande för att granska och godkänna begäran.
@@ -208,15 +204,9 @@ Om du aktiverar den här inställningen blir Workfront Planning-förfrågningsfo
    * Visa
    * Filter
    * Kolumner
-
-   <div class="preview">
-
    * Gruppering
    * Formatera celler
    * Radhöjd
-
-   </div>
-
 
    Mer information finns i [Använd förbättrade listor](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
@@ -304,7 +294,7 @@ Externa personer har inte åtkomst till interna Workfront-områden, till exempel
      >
      >E-postmeddelandet och meddelandet i appen visas bara när din organisations instans av Workfront är kopplad till Adobe Unified Experience.
 
-   <span class="preview"> När begäran har godkänts och posten har skapats visar datumfälten Godkänd av och Godkänd information om godkännandet för posten.</span>
+     När begäran har godkänts och posten har skapats visar datumfälten Godkänd av och Godkänd information om godkännandet på posten.
 
 1. (Valfritt) Klicka på **Visa din begäran** för att öppna begäran i Workfront.
 

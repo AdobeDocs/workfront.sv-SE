@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be95161b-2443-464a-b91c-82a96d5354a2
-source-git-commit: b934764d12aa81f836b5d71b624ce9d83aab63b1
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '609'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,10 @@ Mer information finns i [Skapa och hantera vyer i området Förfrågningar](/hel
 
 >[!NOTE]
 >
->Fördefinierade vyer kommer inte att ha någon förhandsgranskningsversion och kommer att släppas direkt i Production den 16 april.
+>Fördefinierade vyer kommer inte att ha någon förhandsgranskningsversion och kommer att släppas direkt i produktionen.
+>Förhandsgranska: TBD
+>Snabb produktion: TBD
+>Produktion för alla: TBD
 
 För att hjälpa dig att organisera din begärandelista bättre har vi lagt till följande fördefinierade vyer i listan över förfrågningar i området Begäranden och widgeten Mina förfrågningar i Hem:
 

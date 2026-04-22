@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
 source-wordcount: '1791'
 ht-degree: 0%
@@ -162,7 +162,7 @@ Removed - more direct steps below:
       >
       >* Du kan återställa en vy som du har delat med dig och som du bara har behörighet att visa, efter att du har ändrat den för att återställa de ursprungliga inställningarna, eller så kan du kopiera den med dina ändringar och dela kopian. Mer information finns i [Använd förbättrade listor](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
-   1. Klicka på ikonen **Filter** ![Filter &#x200B;](assets/filter-icon.png) för att lägga till ett filter i vyn. Resultaten filtreras omedelbart i listan. Du kan inte spara och namnge filter. Filter sparas när du öppnar sidan i framtiden och de är en del av delade vyer.
+   1. Klicka på ikonen **Filter** ![Filter ](assets/filter-icon.png) för att lägga till ett filter i vyn. Resultaten filtreras omedelbart i listan. Du kan inte spara och namnge filter. Filter sparas när du öppnar sidan i framtiden och de är en del av delade vyer.
 
       >[!TIP]
       >
@@ -261,8 +261,6 @@ Det finns en blå punkt bredvid ikonen **Formatera celler** som anger att specia
 
    * **Ta bort** om du vill ta bort objektet. Om du tar bort ett projekt kopplas det från posten och flyttas till Workfront papperskorg. Workfront-administratörer kan återställa borttagna projekt upp till 30 dagar efter att de tagits bort. När du tar bort ett formulär tas inte de förfrågningar eller poster som skapades när formuläret skickades bort.
    * **Koppla från** om du vill koppla från projektet från posten. När du kopplar från ett projekt tas det bort och alla värden i sökfälten tas bort från den aktuella posten.
-
-     <!--update screen shot at preview release-->
 
      ![Åtgärdsfältet i sidvyn Anslutna poster](assets/actions-bar-connected-records-page-list-view.png)
 

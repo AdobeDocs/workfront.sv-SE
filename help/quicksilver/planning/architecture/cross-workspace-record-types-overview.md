@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1802'
+source-wordcount: '1742'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,11 @@ ht-degree: 0%
 
 # Posttypöversikt för arbetsytan över flera arbetsytor
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 {{planning-important-intro}}
 
@@ -234,7 +236,7 @@ Så här använder du kopplingsbara posttyper:
 
    >[!TIP]
    >
-   ><span class="preview">Det är bara systemadministratörer som kan ange en posttyp som kan anslutas från alla arbetsytor i systemet. Alla andra arbetsytehanterare kan ange särskilda arbetsytor som du vill ansluta till posttypen från. </span>
+   >Det är bara systemadministratörer som kan ange en posttyp som kan anslutas från alla arbetsytor i systemet. Alla andra arbetsytehanterare kan ange särskilda arbetsytor som du vill ansluta till posttypen från.
    >
    >Mer information finns i [Konfigurera funktioner för arbetsytan över arbetsytor för posttyper](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 1. Anslut till en posttyp som är angiven som anslutningsbar från en annan arbetsyta som du hanterar.

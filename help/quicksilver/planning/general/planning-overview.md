@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '2357'
+source-wordcount: '2268'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,10 @@ this article is linked to the WF Planning landing page - do not change URL or mo
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 >[!IMPORTANT]
 >
@@ -291,7 +292,7 @@ Du kan skapa anpassade fält av följande typer:
 * Senast ändrat den
 * Godkänd av
 * Godkänt den
-* <span class="preview">Post-ID</span>
+* Post-ID
 
 <!--update the screen shot above-->
 
@@ -333,9 +334,6 @@ Om du till exempel kopplar en Campaign-posttyp till en Workfront Project-objektt
 >   * Senast ändrad av
 >   * Workfront typsnittsfält (inklusive fält som Projektägare eller Projektsponsor)
 >
->* Du kan inte lägga till följande fälttyper som sökfält från den anslutna posten eller objekttypen i Production, <span class="preview">men du kan lägga till dem i förhandsvisningsmiljön:</span>
->
->   * Folk
 
 Mer information om hur du ansluter posttyper, poster och skapar länkade fält finns i följande artiklar:
 
@@ -393,7 +391,7 @@ Du kan konfigurera och aktivera automatiseringen på posttypens sida i Workfront
 
 Du kan till exempel skapa en automatisering som tar en Workfront Planning-kampanj och skapar ett varumärke som ska kopplas till kampanjen.
 
-Mer information om hur du skapar objekt med en befintlig automatisering finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning &#x200B;](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+Mer information om hur du skapar objekt med en befintlig automatisering finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
 ### Begär formulär
 
@@ -461,7 +459,7 @@ Så här hittar du Workfront Planning:
     >The Workfront AI Assistant has been temporarily removed and it will be available at a later date.
     -->
 
-* [Adobe Workfront planeringsmoduler för Workfront Fusion](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Med Adobe Workfront Planning-modulerna kan du utlösa ett scenario när händelser inträffar i Workfront Planning. Du kan också skapa, läsa, uppdatera och ta bort poster eller utföra ett anpassat API-anrop till ditt Adobe Workfront Planning-konto.
+* [Adobe Workfront planeringsmoduler för Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Med Adobe Workfront Planning-modulerna kan du utlösa ett scenario när händelser inträffar i Workfront Planning. Du kan också skapa, läsa, uppdatera och ta bort poster eller utföra ett anpassat API-anrop till ditt Adobe Workfront Planning-konto.
 
 * [Grunderna i Adobe Workfront Planning API](/help/quicksilver/planning/general/planning-api-basics.md): Målet för Adobe Workfront Planning API är att förenkla byggintegreringar med Planning genom att införa en REST-full arkitektur som fungerar över HTTP.
 

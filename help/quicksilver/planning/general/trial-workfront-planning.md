@@ -7,9 +7,9 @@ role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ff87e425389f30dfaa1a178ea2b548d1c41179bb
+source-git-commit: 10bdce8dd7656d4313296ce830abe9c7baca1acb
 workflow-type: tm+mt
-source-wordcount: '2184'
+source-wordcount: '2224'
 ht-degree: 0%
 
 ---
@@ -217,14 +217,18 @@ Du kan granska exempel på planeringarbetsytor och deras objekt och skapa egna n
 1. (Villkorligt och obligatoriskt) Som Workfront-administratör signerar du det kostnadsfria provavtalet.
 
    Mer information finns i avsnittet [Registrera dig i den kostnadsfria provversionen av Adobe Workfront Planning](#enroll-in-the-adobe-workfront-planning-free-trial) i den här artikeln.
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-shell.png) och sedan på **Planering**. Ikonen visar en **Trial** -etikett bredvid den.
+1. (Villkorligt) När utvärderingsavtalet har signerats av en Workfront-administratör klickar du på ikonen **Huvudmeny** ![](assets/main-menu-shell.png) och sedan på något av följande för att öppna området **Planering**:
+
+   * **Planerar**. Ikonen visar en **Trial** -etikett bredvid den.
+   * **Projekt**, **Förfrågningar**, **Kalendrar** och klicka sedan på **Utforska kampanjkalendrar**
+   * **Portföljer**, **Program** eller från en portfölj eller ett program    Klicka sedan på **Utforska anpassade hierarkier**.
 
    Området **Planering** öppnas på fliken **Exempelarbetsytor** .
-1. Granska följande arbetsytor som finns på fliken **Exempelarbetsytor** :
+1. Granska följande arbetsytor på fliken **Exempelarbetsytor**:
 
    * **Globala klassificeringar och taxonomier**: Innehåller exempel på Planning-objekttyper som utgör grunden för ett Marketing System of Record.
 
-     Alla posttyper på den här arbetsytan kan utgöra byggstenar i din Workfront Planning-struktur. Alla posttyper är globala och kan läggas till eller anslutas från alla andra arbetsytor. Mer information finns i [Posttypöversikt för arbetsytan över &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+     Alla posttyper på den här arbetsytan kan utgöra byggstenar i din Workfront Planning-struktur. Alla posttyper är globala och kan läggas till eller anslutas från alla andra arbetsytor. Mer information finns i [Posttypöversikt för arbetsytan över ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
      Mer information om hur du använder arbetsytan Globala taxonomier finns i [Förvandla din första vinst till hållbar utveckling: en spelbok för hanterad skalning](/help/quicksilver/planning/best-practices.md/playbook-how-to-scale.md).
    * Ytterligare exempelarbetsytor: Följande arbetsytor fungerar som exempel på vad ett exempelföretag (Fréscopa) kan behöva som specifika arbetsytor, posttyper, fält och vyer för att arkitekturera sin organisation och arbetsstruktur:

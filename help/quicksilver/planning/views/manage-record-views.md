@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
 source-wordcount: '1375'
 ht-degree: 0%
@@ -288,10 +288,10 @@ Mer information om listvyer finns i [Hantera listvyn](/help/quicksilver/planning
 
    >[!TIP]
    >
-   ><span class="preview">Du kan använda följande tangentbordskombination för att öppna den globala sökrutan från valfri Workfront Planning-sida och söka efter vyer:</span>
+   >Du kan använda följande tangentbordskombination för att öppna den globala sökrutan från alla Workfront Planning-sidor och söka efter vyer:
    >
-   >* <span class="preview">CTRL+K för Windows</span>
-   >* <span class="preview">⌘+K för Mac</span>
+   >* CTRL+K för Windows
+   >* ⌘+K för Mac
    >
    >![Global sökruta](assets/global-search-box.png)
 
@@ -325,7 +325,7 @@ Mer information om listvyer finns i [Hantera listvyn](/help/quicksilver/planning
 1. (Valfritt) Klicka på **Mer**-menyn ![Fler vyer med nedåtriktade ikoner](assets/more-caret-down-icon-views.png) bredvid den senaste vyn om du vill visa alla vyer för den valda posttypen.
 
    Ytterligare vyer visas på menyn **Mer** efter fliken för den senaste vyn. Siffran bredvid menyn **Mer** visar antalet ytterligare vyer.
-1. (Valfritt) Om du vill byta namn på en vy efter att den har skapats klickar du på listrutan Visa och sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) > **Byt namn** för att uppdatera visningsnamnet
+1. (Valfritt) Om du vill byta namn på en vy efter att den har skapats klickar du på listrutan Visa och sedan på menyn **Mer** ![Mer ](assets/more-menu.png) > **Byt namn** för att uppdatera visningsnamnet
 
    eller
 

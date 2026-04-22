@@ -8,17 +8,15 @@ recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '2954'
+source-wordcount: '2969'
 ht-degree: 0%
 
 ---
 
 
 <!--keep the 30 fields limit in yellow till Jan 2026; also the global record type cross-workspace capability information-->
-
-<!--take production and preview references out at prod-->
 
 # Koppla posttyper
 
@@ -95,7 +93,7 @@ Ett exempel på hur du ansluter posttyper och poster finns i [Exempel på att an
    <ul><li><p>En Adobe Experience Manager Assets-licens och en integrering mellan AEM Assets och Workfront för att koppla AEM-material till posttyperna Planning.</p>
    <p>Mer information finns i <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront för Experience Manager Assets och Assets Essentials: artikelindex</a>. </p></li>
    <li><p> En Adobe GenStudio for Performance Marketing-licens för att koppla posttyper till GenStudio Brands</p>
-   <p>Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/get-started">Kom igång med Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Kom igång med Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -214,7 +212,7 @@ Old:
      >
      >Inställningen **Tillåt anslutning till den här posttypen i andra arbetsytor** måste aktiveras för en posttyp på fliken **Inställningar för arbetsyta** i rutan **Redigera posttyp** för att en posttyp ska kunna nås från andra arbetsytor. Om det inte finns några posttyper som har konfigurerats för att ansluta från andra arbetsytor visas inte arbetsyteavsnittet.
      >
-     >Mer information finns i [Konfigurera funktioner för arbetsytan mellan arbetsytor för posttyper](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). <!--update screen shot at production-->
+     >Mer information finns i [Konfigurera funktioner för arbetsytan över arbetsytor för posttyper](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
      >
      >![Fliken Redigera inställningar för arbetsytan mellan arbetsytor i rutan för posttyp](assets/edit-record-type-box-advanced-settings-tab.png)
 
@@ -316,7 +314,7 @@ Old:
 
    >[!NOTE]
    >
-   >Workfront-administratören kan mappa Workfront Planning-fält till Experience Manager-fält via metadatamappningen i Workfront. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >Workfront-administratören kan mappa Workfront Planning-fält till Experience Manager-fält via metadatamappningen i Workfront. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Villkorligt) När du väljer att ansluta till Experience Manager, till en post av typen Workfront Planning eller till ett GenStudio-märke, väljer du något av följande alternativ i området **Postutseende**:
@@ -339,22 +337,14 @@ Old:
 
 1. Välj **Välj uppslagsfält** om du vill lägga till fält från den posttyp som du ansluter till. Uppslagsfälten är fält som är kopplade till den post eller objekttyp som du länkar till. När du länkar dem visas information från posten eller objektet som du länkar till på posten som du länkar från. Detta är markerat som standard.
 
-   <!--
-    When reference fields are coming, change the first bullet in the TIP below with this: 
-    >* In the Production environment, you cannot add Workfront reference fields (for example, the Project Group or Company from a Workfront Project) as lookup fields in Planning. <span class="preview">You can add Workfront reference fields as lookup fields in the Preview environment.</span>
-    -->
-
    >[!TIP]
    >
-   >* Du kan inte lägga till referensfält från ett annat program som uppslagsfält. Du kan till exempel inte lägga till Projekt, Grupp eller Företag som sökfält i Planering när du ansluter till Workfront-projekt.
-   >
-   ><!--* In the Production environment, you cannot add Workfront user fields (including fields like Project Owner, or Project Sponsor) as lookup fields. <span class="preview">You can add user fields as lookup fields in the Preview environment.</span>-->
-   >
+   >* Förutom systemfält som Namn och Beskrivning kan du lägga till följande typer av fält som sökfält från objekttyper från ett annat program:
+   >   * Användarfält, som Projektägare eller Sponsorn, från Workfront-projekt.
+   >   * Referensfält, som projektgrupp eller projektföretag från Workfront-projekt.
    >* Information om datumfält i Workfront-objekt visas i 24-timmarsformat i Workfront Planning, oavsett hur den visas i Workfront.
    >
    >   Om till exempel ett projekts planerade startdatum visas som 3:00 PM i Workfront, visas det som 15:00 i Workfront Planning i ett importerat uppslagsfält.
-   >
-   ><!--* In the Production environment, you cannot add People fields as lookup fields. <span class="preview">You can add People fields as lookup fields in the Preview environment.</span>-->
 
 1. Klicka på **Skapa**.
 
@@ -431,7 +421,7 @@ Old:
    >* **UNIQUE**: $100 000
    >
 
-1. (Valfritt) Använd ikonen **sök** ![Sök &#x200B;](assets/search-icon.png) för att söka efter ett fält.
+1. (Valfritt) Använd ikonen **sök** ![Sök ](assets/search-icon.png) för att söka efter ett fält.
 
 1. Klicka på **Lägg till fält** för att spara ändringarna.
 

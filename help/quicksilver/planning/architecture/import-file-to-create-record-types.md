@@ -8,18 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '835'
 ht-degree: 0%
 
 ---
 
 # Skapa posttyper genom att importera information från en CSV- eller Excel-fil
 
-<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -145,7 +147,7 @@ Old:
    * Senast ändrat den
    * Godkänt den
    * Folk
-   * <span class="preview">Post-ID</span>
+   * Post-ID
 
 Så här importerar du posttyper med en Excel- eller CSV-fil:
 
@@ -159,10 +161,10 @@ Så här importerar du posttyper med en Excel- eller CSV-fil:
 
    >[!TIP]
    >
-   ><span class="preview">Du kan använda följande tangentbordskombination för att öppna den globala sökrutan från alla Workfront Planning-sidor och söka efter arbetsytor:</span>
+   >Du kan använda följande tangentbordskombination för att öppna den globala sökrutan från alla Workfront Planning-sidor och söka efter arbetsytor:
    >
-   >* <span class="preview">CTRL+K för Windows</span>
-   >* <span class="preview">⌘+K för Mac</span>
+   >* CTRL+K för Windows
+   >* ⌘+K för Mac
 
 1. Klicka på **Lägg till posttyp**.
 1. Klicka på **Överför från fil**.

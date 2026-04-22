@@ -6,18 +6,20 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
-source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
 
 # Arbetsytor - översikt
 
-<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -35,7 +37,7 @@ En arbetsyta är en samling posttyper som används av en organisationsenhet och 
    * Från början
    * Använda en mall. Mallar innehåller ett förkonfigurerat antal posttyper och deras fält.
    * Med AI-driven Planning Designer. Den här funktionen finns i Beta.
-   * <span class="preview">Använder ett mallpaket för flera arbetsytor.</span>
+   * Använda ett mallpaket för flera arbetsytor.
 
   Mer information finns i [Skapa arbetsytor](/help/quicksilver/planning/architecture/create-workspaces.md).
 

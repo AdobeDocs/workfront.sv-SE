@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 10bdce8dd7656d4313296ce830abe9c7baca1acb
 workflow-type: tm+mt
-source-wordcount: '1648'
+source-wordcount: '1641'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,11 @@ ht-degree: 0%
 
 # Hantera postsidans layout
 
-<span class="preview">Informationen som är markerad på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -173,6 +175,7 @@ Old:
 
 Tänk på följande när du lägger till avsnitt på en postsida:
 
+* Du kan bara lägga till avsnitt när alla fält i en post visas. Du kan inte lägga till avsnitt när du döljer de dolda fälten i en tabellvy.
 * Det finns ingen gräns för hur många avsnitt du kan ha på en sida.
 * Du kan inte ha ett tomt avsnitt. Du måste ha minst ett fält i ett avsnitt.
 * Du kan dra och släppa fält från ett avsnitt till ett annat. Mer information finns i avsnittet [Hantera fält på sidan för postförhandsgranskning eller information](#manage-fields-in-the-records-details-tab) i den här artikeln.
@@ -196,7 +199,7 @@ Så här lägger du till ett avsnitt i en postförhandsgranskning eller sida:
 
    I tabellvyn klickar du på ikonen **Öppna detaljer** ![Öppna detaljer i tabellnamnsfältet](assets/open-details-icon-in-table-name-field.png) i den första kolumnen.
 
-   <span class="preview">Postens förhandsgranskning öppnas i vyn.</span>
+   Postens förhandsgranskning öppnas i vyn.
 
    ![Informationsruta](assets/details-box.png)
 
@@ -275,32 +278,24 @@ Följande saker händer:
 
    I tabelltabellvyn klickar du på ikonen **Öppna detaljer** ![Öppna detaljikonen i tabellnamnsfältet](assets/open-details-icon-in-table-name-field.png) i den första kolumnen.
 
-   <span class="preview">Postens förhandsgranskning öppnas i vyn.</span>
+   Postens förhandsgranskning öppnas i vyn.
 
    ![Informationsruta](assets/details-box.png)
 
-1. <span class="preview">(Valfritt och villkorligt) Beroende på vilka fält du vill visa på detaljsidan gör du något av följande:</span>
+1. (Valfritt och villkorligt) Beroende på vilka fält du vill visa på detaljsidan gör du något av följande:
 
-   <div class="preview">
 
-   * Välj inställningen **Visa alla fält** om du vill visa alla fält från postens tabellvy, inklusive dolda fält.
-   * Avmarkera inställningen **Visa alla fält** om du bara vill visa fält som inte är dolda i postens tabellvy. Det här är standardinställningen
+   * Välj inställningen **Visa alla fält** om du vill inkludera alla postens fält på sidan **Detaljer** . Det här är standardinställningen.
+   * Avmarkera inställningen **Visa alla fält** om du vill utesluta postens fält som är dolda i postens tabellvy från sidan **Detaljer** .
 
-   </div>
+     >[!TIP]
+     >
+     >* Inställningen **Visa alla fält** är bara tillgänglig i postens förhandsvisningsruta Detaljer. Den är inte tillgänglig när postens informationssida öppnas i ett webbläsarfönster.
+     >* Du kan inte lägga till avsnitt på en postsida när du utelämnar dolda fält i förhandsvisningsrutan Detaljer.
 
-   <!--
-      replace with this when they fix the UI text:
-      * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
-      * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
-      -->
+1. (Valfritt) Om du vill navigera till en ansluten post klickar du på den postens namn i det synliga fältet högst upp på informationssidan.
 
-   >[!TIP]
-   >
-   ><span class="preview">Inställningen **Visa alla fält** är bara tillgänglig i postens förhandsvisningsruta Detaljer. Den är inte tillgänglig på postens informationssida.</span>
-
-1. (Valfritt) Om du vill navigera till en ansluten post klickar du på den postens namn i det synliga fältet högst upp på informationssidan. <span class="preview">
-
-   Om du inte kan se namnet på en post i den synliga sökvägen klickar du på **Mer**. Då visas den synliga sökvägen på flera rader. Klicka på **Less** om du vill korta av förgrundsrubriken och visa den på en rad.</span>
+   Om du inte kan se namnet på en post i den synliga sökvägen klickar du på **Mer**. Då visas den synliga sökvägen på flera rader. Klicka på **Mindre** om du vill förkorta den synliga sökvägen och visa den på en rad.
 
    >[!TIP]
    >
@@ -312,7 +307,7 @@ Följande saker händer:
 
    ![Informationssida](assets/details-page.png)
 
-1. På fliken **Detaljer** klickar du på ikonen **Ta** ![Ta tag i &#x200B;](assets/grab-icon.png) till vänster om fältnamnet och drar och släpper den på önskad plats.
+1. På fliken **Detaljer** klickar du på ikonen **Ta** ![Ta tag i ](assets/grab-icon.png) till vänster om fältnamnet och drar och släpper den på önskad plats.
 
    >[!TIP]
    >

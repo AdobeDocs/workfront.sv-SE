@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1141'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,11 @@ ht-degree: 0%
 
 # Skapa arbetsytor
 
-<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -49,13 +51,13 @@ Allmän information om arbetsytor finns i [Översikt över arbetsytor](/help/qui
    <td> 
 <p>Alla Workfront- eller Workflow-paket</p> 
 <p>Alla Workfront Planning-paket</p>
-<p>Ett Workfront Planning Prime-paket eller ett högre paket <span class="preview"> som kan användas för att skapa flera arbetsytor samtidigt</span></p>
+<p>Ett Workfront Planning Prime-paket eller ett högre paket för att skapa flera arbetsytor samtidigt</p>
 <p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
    <td><p>Standard</p>
-   <p><span class="preview">Systemadministratör kan skapa flera arbetsytor samtidigt med mallpaketet med bästa praxis</p>
+   <p>Systemadministratör kan skapa flera arbetsytor samtidigt med mallpaketet med bästa praxis</p>
    </td> 
   </tr> 
   <tr> 
@@ -144,18 +146,13 @@ Du kan skapa arbetsytor på följande sätt:
 
   Mer information finns i [Kom igång med Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
 
-<div class="preview">
-
 * Skapa flera arbetsytor med ett standardpaket med flera arbetsytor
 
-  Mer information finns i avsnittet [Skapa flera arbetsytor med ett mallpaket för flera arbetsytor &#x200B;](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle) i den här artikeln
+  Mer information finns i avsnittet [Skapa flera arbetsytor med ett mallpaket för flera arbetsytor ](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle) i den här artikeln
 
   >[!TIP]
   >
   >Du kan bara skapa flera arbetsytor samtidigt när du använder mallpaketet med de bästa metoderna.
-
-
-</div>
 
 ### Skapa en arbetsyta från grunden eller från en mall
 
@@ -226,8 +223,6 @@ Du kan skapa arbetsytor på följande sätt:
    >
    >Mer information om IMS finns i [Adobe Unified Experience för Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-<div class="preview">
-
 ### Skapa flera arbetsytor med ett standardpaket med flera arbetsytor
 
 >[!IMPORTANT]
@@ -277,8 +272,6 @@ Mallarna som ingår i paketet innehåller arbetsytor, posttyper, poster, vyer oc
    Mer information om de bästa sätten att implementera Workfront finns i artiklarna i avsnittet [Bästa praxis för Adobe Workfront-planering: artikelindex](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
 
    Mer information om hur du redigerar arbetsytor finns i [Redigera arbetsytor](/help/quicksilver/planning/architecture/edit-workspaces.md).
-
-</div>
 
 
 

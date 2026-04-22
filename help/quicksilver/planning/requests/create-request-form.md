@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '3603'
+source-wordcount: '3185'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,11 @@ ht-degree: 0%
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -83,7 +84,7 @@ Mer information om hur du skickar begäranden om Workfront Planning finns i [Ski
 
       * Skapad av, senast ändrad av, Godkänd av
       * Skapat den, senast ändrat den, Godkänt den
-      * <span class="preview">Post-ID</span>
+      * Post-ID
       * Workfront-objektens sökfält
       * Sökfält för Workfront Planning-anslutna poster
 
@@ -172,12 +173,7 @@ Du kan skapa ett begärandeformulär från den posttyp som är associerad med fo
 Formulärinformationen är uppdelad i flikar.
 
 * På fliken **Formulär** kan du lägga till fält och innehållselement i formuläret
-* På fliken **Konfiguration** kan du ange en godkännandeprocess för formuläret och ange alternativ för slutförande av begäran.
-
-  >[!NOTE]
-  >
-  ><span class="preview">I förhandsvisningsmiljön ersatte fliken Inställningar fliken Konfiguration.</span>
-  <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
+* På fliken **Inställningar** kan du ange en godkännandeprocess för formuläret och ange alternativ för slutförande av begäran.
 
 #### Ställ in formulärinformation
 
@@ -203,7 +199,7 @@ Formulärinformationen är uppdelad i flikar.
      >* Fältet **Ämne** kräver ett värde när det är synligt i begärandeformuläret. Du kan dock ta bort fältet **Ämne** om det behövs, och den som beställer kan inte se det i formuläret när de skickar begäran.
      >* När fältet **Ämne** saknas i ett begärandeformulär, men det finns ett namnfält för den framtida postens namn, tilldelas namnet på begäran automatiskt samma namn som den skapade posten.
      >* När både fälten **Ämne** och **Namn** saknas i formuläret för begäran namnges begäran med följande mönster: `< Request form name > < Entry date of the request >`. Posten heter **Namnlös**.
-     >* <span class="preview">Om du vill visa **Ämne**-fältets information i Workfront Planning kan du lägga till anslutningsfältet **Originalbegäran** i posttypen som är associerad med förfrågningsformuläret. Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).</span>
+     >* Om du vill visa **Ämne**-fältets information i Workfront Planning kan du lägga till anslutningsfältet **Ursprunglig begäran** till posttypen som är associerad med förfrågningsformuläret. Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
 
    * Alla fält som är associerade med posttypen.
 
@@ -239,49 +235,48 @@ Formulärinformationen är uppdelad i flikar.
 1. (Valfritt) Klicka på **Förhandsgranska** om du vill visa hur formuläret kommer att visas för andra användare när de kommer att använda det för att skicka en ny post.
 1. Fortsätt till något av följande:
 
-   * [Konfigurera konfigurationsinformation](#set-up-configuration-details) om du vill konfigurera mer information för formuläret i produktionsmiljön
-   * <span class="preview">[Konfigurera inställningar](#configure-settings) om du vill konfigurera mer information för formuläret i produktionsmiljön</span>
+   <!--
+   * [Set up Configuration details](#set-up-configuration-details) if you want to configure more details for the form in the Production environment
+   -->
+   * [Konfigurera inställningar](#configure-settings) om du vill konfigurera mer information för formuläret i produktionsmiljön
    * [Slutför skapandet av begärandeformuläret](#complete-request-form-creation) om du inte vill konfigurera fler inställningar.
 
-#### Ställ in konfigurationsinformation
+<!--
+#### Set up Configuration details
 
 >[!NOTE]
 >
->Fliken är bara tillgänglig i produktionsmiljön.
+>This tab is available only in the Production environment.
 
-På fliken Konfiguration kan du ange godkännandeprocessen och konfigurera när en begäran som skapats från det här formuläret ska markeras som Slutförd.
+On the Configuration tab, you can set the approval process and configure when a request created from this form will be marked as Completed.
 
-1. Börja skapa eller redigera ett begärandeformulär, enligt beskrivningen i avsnittet [Börja skapa ett begärandeformulär](#begin-creating-a-request-form).
+1. Begin creating or editing a request form, as described in the section [Begin creating a request form](#begin-creating-a-request-form).
+   
+    The request form for the selected record type opens in the Form tab. 
+1. (Optional) Set up any form details, as described in [Set up Form details](#set-up-form-details).    
 
-   Formuläret för begäran om den valda posttypen öppnas på fliken Formulär.
-1. (Valfritt) Konfigurera formulärinformation enligt beskrivningen i [Konfigurera formulärinformation](#set-up-form-details).
+1. (Optional) If you want to add approvers, click the **Configuration** tab, then add at least one user or team to the **Approvers** field to approve new requests for this record form. 
 
-1. (Valfritt) Om du vill lägga till godkännare klickar du på fliken **Konfiguration** och lägger sedan till minst en användare eller grupp i fältet **Godkännare** för att godkänna nya begäranden för det här postformuläret.
+   ![Configuration tab](assets/configuration-tab.png)
 
-   ![Fliken Konfiguration](assets/configuration-tab.png)
+   (******)-below bullet list is duplicated in the Add approval to a request form article(****)
 
-   <!--below bullet list is duplicated in the Add approval to a request form article-->
+   * You can add one or several approvers to a request form.
+   * If at least one approver rejects the request, the request is rejected and the record is not created. The request remains in the Requests area of Workfront.
+   * If you add more than one approver, and the Only one decision is required option is not enabled, all approvers must make a decision before a request is either approved or rejected.
+   * If a team is set as an approver, only one decision is required from the team.
 
-   * Du kan lägga till en eller flera godkännare i ett begärandeformulär.
-   * Om minst en godkännare avvisar begäran, avvisas begäran och posten skapas inte. Begäran finns kvar under Begäranden i Workfront.
-   * Om du lägger till mer än en godkännare och alternativet Endast ett beslut krävs inte är aktiverat, måste alla godkännare fatta ett beslut innan en begäran godkänns eller avslås.
-   * Om ett team utses till godkännare krävs endast ett beslut från teamet.
+   For more information about adding approvals to request forms, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
 
-   Mer information om hur du lägger till godkännanden i begärandeformulär finns i [Lägga till godkännande i ett begärandeformulär](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+1. (Conditional) If you want the record to be created after any one of the approvers has approved it, check the **Only one decision is required** checkbox.
 
-1. (Villkorligt) Om du vill att posten ska skapas efter att någon av godkännarna har godkänt den, markerar du kryssrutan **Endast ett beslut krävs**.
+1. Select whether you want a request created from this form to be marked complete when the requested object is created, or when the requested object is completed.
+1. (Conditional) If you have selected for the request to be marked complete when the requested object is completed, select the field and value that indicate when the object is complete. For example, you could select the field Status and the value Complete to complete the request when the created object's status is set to Complete.
+1. Continue to [Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to [Complete request form creation](#complete-request-form-creation).
 
-1. Välj om du vill att en begäran som skapats från det här formuläret ska markeras som fullständig när det begärda objektet skapas, eller när det begärda objektet slutförs.
-1. (Villkorligt) Om du har valt att begäran ska markeras som slutförd när det begärda objektet slutförs, markerar du det fält och det värde som anger när objektet är klart. Du kan till exempel välja fältstatus och värdet Fullständig för att slutföra begäran när det skapade objektets status är Fullständig.
-1. Fortsätt till <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[Slutför formulärskapandet för begäran](#complete-request-form-creation).
-
-<div class="preview">
+-->
 
 ### Konfigurera inställningar
-
->[!NOTE]
->
->Den här fliken är bara tillgänglig i förhandsvisningsmiljön.
 
 På fliken Inställningar kan du ange godkännanderegler och konfigurera när en begäran som skapats från det här formuläret ska markeras som Slutförd.
 
@@ -349,8 +344,6 @@ Med alternativen för slutförande kan du ange om en begäran ska markeras som s
 1. (Villkorligt) Om du har valt att begäran ska markeras som slutförd när det begärda objektet slutförs, markerar du det fält och det värde som anger när objektet är klart. Du kan till exempel välja fältstatus och värdet Fullständig för att slutföra begäran när det skapade objektets status är Fullständig.
 1. Fortsätt till <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[Slutför formulärskapandet för begäran](#complete-request-form-creation).
 
-</div>
-
 <!--
  
 <div class="preview">
@@ -383,23 +376,24 @@ For information on creating automations in other areas of Workfront Planning, se
 ### Skapa formulär för fullständig begäran
 
 1. Skapa och konfigurera formuläret enligt beskrivningen i [Börja skapa ett begärandeformulär](#begin-creating-a-request-form) och [Konfigurera information för begärandeformuläret](#set-up-details-for-the-request-form).
-1. (Valfritt) Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om formulärets namn i rubriken och klicka sedan på **Redigera** för att uppdatera formulärets namn.
+1. (Valfritt) Klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om formulärets namn i huvudet, klicka sedan på **Redigera** för att uppdatera namnet på formuläret och dess **Beskrivning** och klicka sedan på **Spara**.
 
 1. Klicka på **Publicera** för att publicera formuläret och få en unik länk för det.
 
    Följande saker händer:
 
    * Knappen **Publicera** har tagits bort.
+
+     Formuläret blir tillgängligt under Begäranden på huvudmenyn i Workfront.
    * Knappen **Avpublicera** läggs till i formuläret. Om du klickar på den går det inte att komma åt formuläret.
    * En **Dela**-knapp läggs till i formuläret.
-   * Formuläret blir tillgängligt under Begäranden på huvudmenyn i Workfront.
 
 1. Klicka på **Dela** om du vill dela formuläret med andra.
 
    Mer information om hur du delar ett begärandeformulär finns i avsnittet [Dela ett begärandeformulär](#share-a-request-form) i den här artikeln
 1. Klicka på vänsterpilen till vänster om formulärets namn i rubriken för att stänga formuläret.
 
-   Tabellvyn **Begär formulär** öppnas och formuläret läggs till i den.
+   Listvyn **Begär formulär** öppnas och formuläret läggs till i den.
 
 ## Hantera befintliga förfrågningsformulär
 
@@ -412,19 +406,14 @@ For information on creating automations in other areas of Workfront Planning, se
 
    Posttypssidan öppnas i den vy som du senast använde. Som standard öppnas en posttypssida i tabellvyn.
 
-1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Hantera begärandeformulär**.
+1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Hantera begärandeformulär**.
 
    Sidan **Begär formulär** öppnas och alla förfrågningsformulär som är associerade med posttypen visas i en tabellvy.
 1. (Valfritt) Uppdatera följande vyelement på sidan **Begär formulär** om du vill ändra hur information visas i tabellen:
 
    * Kolumner
-
-   <!--
-   <div class="preview">
-   * Grouping <!-ensure they will change the label by Prod->
-   * Row height
-   </div>
-   -->
+   * Gruppering
+   * Radhöjd
 
    Mer information finns i [Hantera listvyn](/help/quicksilver/planning/views/manage-the-list-view.md).
 
@@ -436,14 +425,12 @@ For information on creating automations in other areas of Workfront Planning, se
    * **Kopiera länk**: Klicka här om du snabbt vill kopiera länken för begärandeformuläret utan att öppna formuläret.
    * **Ta bort**: Klicka här för att ta bort formuläret. Alla förfrågningar och poster som lagts till med formuläret tas inte bort. Formuläret kan inte återskapas.
 
-   <!--update screen shot at preview:-->
-
    ![Mer meny i begärandeformulär från listan över begärandeformulär](assets/more-menu-on-request-form-from-request-forms-list.png)
 
 1. Klicka på vänsterpilen till vänster om **Begär formulär** i sidhuvudet för att stänga tabellen med förfrågningsformulär.
 
    Posttypssidan öppnas.
-1. (Valfritt och villkorligt) Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn i rubriken och gör sedan något av följande:
+1. (Valfritt och villkorligt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn i rubriken och gör sedan något av följande:
 
    1. Klicka på **Uppdatera begärandeformuläret** för att göra ändringar i begärandeformuläret och klicka sedan på ett begärandeformulär för att öppna och redigera det.
    1. Klicka på **Kopiera länk för att begära formulär** om du vill dela länken till formuläret med andra.
