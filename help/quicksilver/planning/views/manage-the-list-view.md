@@ -162,7 +162,7 @@ Removed - more direct steps below:
       >
       >* Du kan återställa en vy som du har delat med dig och som du bara har behörighet att visa, efter att du har ändrat den för att återställa de ursprungliga inställningarna, eller så kan du kopiera den med dina ändringar och dela kopian. Mer information finns i [Använd förbättrade listor](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
-   1. Klicka på ikonen **Filter** ![Filter ](assets/filter-icon.png) för att lägga till ett filter i vyn. Resultaten filtreras omedelbart i listan. Du kan inte spara och namnge filter. Filter sparas när du öppnar sidan i framtiden och de är en del av delade vyer.
+   1. Klicka på ikonen **Filter** ![Filter &#x200B;](assets/filter-icon.png) för att lägga till ett filter i vyn. Resultaten filtreras omedelbart i listan. Du kan inte spara och namnge filter. Filter sparas när du öppnar sidan i framtiden och de är en del av delade vyer.
 
       >[!TIP]
       >

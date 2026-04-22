@@ -406,7 +406,7 @@ For information on creating automations in other areas of Workfront Planning, se
 
    Posttypssidan öppnas i den vy som du senast använde. Som standard öppnas en posttypssida i tabellvyn.
 
-1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Hantera begärandeformulär**.
+1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Hantera begärandeformulär**.
 
    Sidan **Begär formulär** öppnas och alla förfrågningsformulär som är associerade med posttypen visas i en tabellvy.
 1. (Valfritt) Uppdatera följande vyelement på sidan **Begär formulär** om du vill ändra hur information visas i tabellen:
@@ -430,7 +430,7 @@ For information on creating automations in other areas of Workfront Planning, se
 1. Klicka på vänsterpilen till vänster om **Begär formulär** i sidhuvudet för att stänga tabellen med förfrågningsformulär.
 
    Posttypssidan öppnas.
-1. (Valfritt och villkorligt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn i rubriken och gör sedan något av följande:
+1. (Valfritt och villkorligt) Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn i rubriken och gör sedan något av följande:
 
    1. Klicka på **Uppdatera begärandeformuläret** för att göra ändringar i begärandeformuläret och klicka sedan på ett begärandeformulär för att öppna och redigera det.
    1. Klicka på **Kopiera länk för att begära formulär** om du vill dela länken till formuläret med andra.
