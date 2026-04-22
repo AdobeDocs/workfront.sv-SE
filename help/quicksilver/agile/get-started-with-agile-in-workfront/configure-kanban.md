@@ -8,9 +8,9 @@ feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: b05fcb7bdc1693e9e2384390f2584330b855c39c
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1465'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ Så här definierar du de statusvärden som är tillgängliga för den artikelpa
 
 {{step1-to-team}}
 
-1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team &#x200B;](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
+1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team ](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
 
 1. Välj det Agile-team som du vill hantera.
 1. Klicka på menyn **[!UICONTROL More]** och välj sedan **[!UICONTROL Edit]**.
@@ -144,7 +144,7 @@ Så här konfigurerar du artikelkort som tilldelats Agile-teamet så att ytterli
 
 {{step1-to-team}}
 
-1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team &#x200B;](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
+1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team ](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
 
 1. Välj det Agile-team som du vill hantera.
 1. Klicka på menyn **[!UICONTROL More]** och välj sedan **[!UICONTROL Edit]**.
@@ -169,7 +169,7 @@ Så här begränsar du PIA för ditt Kanban-team:
 
 {{step1-to-team}}
 
-1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team &#x200B;](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
+1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team ](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
 
 1. Välj det Kanban-team som du vill hantera.
 1. Klicka på **[!UICONTROL More]**-menyn ![](assets/more-menu.png) och välj sedan **[!UICONTROL Edit]**.
@@ -192,9 +192,24 @@ Begränsningen för PIA är bara en visuell varning och förhindrar inte teamet 
 
 Du kan konfigurera artiklar från en eftersläpning så att de automatiskt läggs till i den första kolumnen på [!UICONTROL Kanban]-ritytan omedelbart efter att ett objekt har flyttats från den kolumnen.
 
+Du måste aktivera inställningen **Visa eftersläpning** på [!UICONTROL Kanban]-tavlan om du vill använda den här funktionen.
+
+Varje gång en artikel flyttas från kolumnen [!UICONTROL In Progress] till en kolumn på artikelpanelen som representerar en [!UICONTROL Complete]-status (eller en status som är lika med [!UICONTROL Complete]), flyttas nästa artikel från kolumnen Backlog automatiskt till kolumnen [!UICONTROL New] i kolumnen [!UICONTROL Kanban Board] .
+
+Nästa artikel är den ofullständiga artikeln med det lägsta ordernumret för eftersläpning som uppfyller alla följande kriterier:
+
+* Det är tilldelat teamet.
+* Den har inget faktiskt slutförandedatum (d.v.s. är den inte färdig än).
+* Den finns inte redan på en Kanban-styrelse.
+* Den tillhör ett projekt med aktuell status.
+
+Eftersläpningsordningen är inte densamma som prioriteten. Du kan ordna eftersläpningen genom att dra och släppa artiklar i kolumnen Eftersläpning. Berättelsen högst upp i eftersläpningen är den som dras till styrelsen härnäst.
+
+Så här lägger du automatiskt till artiklar från eftersläpningen på [!UICONTROL Kanban]-panelen:
+
 {{step1-to-team}}
 
-1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team &#x200B;](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
+1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team ](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
 
 1. Välj det Kanban-team som du vill hantera.
 1. Klicka på **[!UICONTROL More]**-menyn ![](assets/more-menu.png) och välj sedan **[!UICONTROL Edit]**.
@@ -203,10 +218,6 @@ Du kan konfigurera artiklar från en eftersläpning så att de automatiskt lägg
 
 1. Välj **[!UICONTROL Automatically add next story from backlog]** om du vill konfigurera att nästa objekt från eftersläpningen automatiskt läggs till i kolumnen **[!UICONTROL New]** när ett objekt flyttas bort från kolumnen **[!UICONTROL In Progress]**.
 
-   Användarna måste aktivera inställningen **Visa eftersläpning** på [!UICONTROL Kanban] för att den här funktionen ska börja gälla. När användare aktiverar inställningen [!UICONTROL Show Backlog] för [!UICONTROL Kanban Board] utförs följande funktioner:
-
-   Varje gång en artikel flyttas från kolumnen [!UICONTROL In Progress] till en kolumn på artikelpanelen som representerar en [!UICONTROL Complete]-status (eller en status som är lika med [!UICONTROL Complete]), flyttas en artikel från kolumnen Eftersläpning automatiskt till kolumnen [!UICONTROL New] i kolumnen [!UICONTROL Kanban Board] .
-När artikeln läggs till från eftersläpningen läggs artikeln med högst prioritet till på artikelpanelen.
 
 1. Klicka på **[!UICONTROL Save Changes]**.
 
