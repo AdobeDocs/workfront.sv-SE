@@ -24,7 +24,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 >Förhandsgranska: 23 april 2026
 >Production fast release: 23 april 2026
 >Produktion för alla: 23 april 2026
->[!BADGE Frånschemat ]{type=Neutral}
+>[!BADGE Frånschemat &#x200B;]{type=Neutral}
 
 För att hjälpa dig att organisera din begärandelista bättre har vi lagt till följande fördefinierade vyer i listan över förfrågningar i området Begäranden och widgeten Mina förfrågningar i Hem:
 
