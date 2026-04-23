@@ -97,7 +97,7 @@ Du kan ansluta följande:
    <ul><li><p>En Adobe Experience Manager-licens och en integrering mellan Adobe Experience Manager och Workfront för att koppla ihop AEM-material eller innehållsfragment med posttyperna Planning.</p>
    <p>Mer information finns i <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront för Experience Manager Assets och Assets Essentials: artikelindex</a>. </p></li>
    <li><p> En Adobe GenStudio for Performance Marketing-licens för att koppla posttyper till GenStudio Brands</p>
-   <p>Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Kom igång med Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/get-started">Kom igång med Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>   
 <tr> 
@@ -407,7 +407,7 @@ När du har skapat en anslutning mellan en posttyp och Adobe Experience Manager-
 
 >[!NOTE]
 >
->Planeringsposter och deras fält är tillgängliga från Experience Manager Assets när Workfront-administratören konfigurerar metadatamappningen genom integrationen mellan Workfront och Adobe Experience Manager Assets. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+>Planeringsposter och deras fält är tillgängliga från Experience Manager Assets när Workfront-administratören konfigurerar metadatamappningen genom integrationen mellan Workfront och Adobe Experience Manager Assets. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 <!--
 metadata mapping is not available yet for content fragments - as of April 22, 2026. Syuzanna said the mapping is available just for GenS workspace, but checking again with her and Isk.
@@ -452,11 +452,11 @@ Så här ansluter du poster med Experience Manager-objekt:
    >[!IMPORTANT]
    >
    > Du kan bara ansluta resurser som du har tillgång till för att visa i Experience Manager. När du är ansluten kan alla användare av Workfront Planning se resurserna i Workfront Planning, oavsett vilken åtkomst de har i Experience Manager Assets.
-   > Mer information om Content Advisor finns i [Använd Content Advisor för att få åtkomst till AEM-innehåll i Adobe-program](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
+   > Mer information om Content Advisor finns i [Använd Content Advisor för att få åtkomst till AEM-innehåll i Adobe-program](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
 
 1. På fliken **Innehållsfragment** markerar du de innehållsfragment som ska läggas till i det länkade postfältet.
 
-   Mer information om innehållsfragment finns i [Använd Content Advisor för att få åtkomst till AEM-innehåll i Adobe-program](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
+   Mer information om innehållsfragment finns i [Använd Content Advisor för att få åtkomst till AEM-innehåll i Adobe-program](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
 
 1. När du har valt resurser eller innehållsfragment klickar du på **Välj**. <!-- we might change this to Connect-->
 
