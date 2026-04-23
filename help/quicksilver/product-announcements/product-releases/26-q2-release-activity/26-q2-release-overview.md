@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 7a2ca1b61b2e8069445b1be162422660e3b4e100
 workflow-type: tm+mt
-source-wordcount: '2359'
+source-wordcount: '2343'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
 
 Förbättringarna på den här sidan är tillgängliga i förhandsvisningsmiljön. Den här sidan kommer att uppdateras med ytterligare förbättringar eftersom den andra utgåvan av kvartal 2026 närmar sig den planerade produktionsutgåvan.
 
-Live-webbinarier hålls för varje kvartalsrelease - där de nya funktionerna markeras och detaljerad information presenteras. Registrera dig på [eventsidan](https://experienceleague.adobe.com/sv/events?filters=Workfront) och filtrera efter Workfront.
+Live-webbinarier hålls för varje kvartalsrelease - där de nya funktionerna markeras och detaljerad information presenteras. Registrera dig på [eventsidan](https://experienceleague.adobe.com/en/events?filters=Workfront) och filtrera efter Workfront.
 
 >[!IMPORTANT]
 >
@@ -394,9 +394,9 @@ Live-webbinarier hålls för varje kvartalsrelease - där de nya funktionerna ma
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md" class="MCXref xref" xrefformat="{para}">Fördefinierade vyer som lagts till i listan över förfrågningar i området Förfrågningar och i widgeten Mina förfrågningar </a><p></p>
             <p>För att hjälpa dig att organisera din begärandelista bättre har vi lagt till fördefinierade vyer i listan över förfrågningar i området Förfrågningar och widgeten Mina förfrågningar i Hem.</p>
         </td>
-           <td><p>Ej tillämpligt</p><p>Fördefinierade vyer kommer inte att ha någon förhandsgranskningsversion och kommer att släppas direkt i produktionen. </p></td>
-        <td><p>TBD</p></td>
-        <td><p>TBD</p></td>
+           <td><p>23 april 2026</p></td>
+        <td><p>23 april 2026</p></td>
+        <td><p>23 april 2026</p></td>
  </tr>
     <tr>
         <td>
@@ -434,7 +434,7 @@ We are updating the interface throughout Adobe Workfront to improve the user exp
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Förbättringar av Workfront Planning
 
@@ -505,15 +505,15 @@ För att kunna leverera mer stabila och skalbara integreringar går vi över til
 * Workfront för Salesforce.
 
 Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Google Workspace.
-En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Underhållsuppdateringar för Workfront
 
-Mer information om underhållsuppdateringar som gjordes under andra kvartersversionen 2026 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=sv-SE).
+Mer information om underhållsuppdateringar som gjordes under andra kvartersversionen 2026 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan &#x200B;](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=sv-SE).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
 
 
