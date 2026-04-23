@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2400'
+source-wordcount: '2342'
 ht-degree: 0%
 
 ---
@@ -137,7 +137,6 @@ Om du aktiverar den här inställningen blir Workfront Planning-förfrågningsfo
 
    >[!TIP]
    >
-   >Den här inställningen är bara tillgänglig när din Workfront-instans har anslutits till Adobe Unified Experience.
    >
    >För att kunna skicka in Workfront Planning-begäranden i det här området måste du uppfylla följande villkor:
    >
@@ -192,11 +191,7 @@ Om du aktiverar den här inställningen blir Workfront Planning-förfrågningsfo
    * Du får ett meddelande i appen och ett e-postmeddelande om att begäran antingen har skickats eller skickats för granskning.
    * Om begärandeformuläret associerades med ett godkännande får godkännarna ett meddelande i appen och ett e-postmeddelande för att granska och godkänna begäran.
 
-     >[!NOTE]
-     >
-     >E-postmeddelandet och meddelandet i appen visas bara när din organisations instans av Workfront är kopplad till Adobe Unified Experience.
-     >
-     >Det finns en länk till begäran i e-postbekräftelsen eller godkännandemeddelandet.
+     Det finns en länk till begäran i e-postbekräftelsen eller godkännandemeddelandet.
 
 1. (Valfritt) Klicka på **Visa din begäran** i bekräftelsemeddelandet om du vill öppna begäran eller klicka på ikonen **X** om du vill stänga bekräftelsen.
 1. (Valfritt) Om du vill hantera hur informationen visas i listan med begäranden uppdaterar du följande vyelement för listan:
@@ -289,10 +284,6 @@ Externa personer har inte åtkomst till interna Workfront-områden, till exempel
 
    * Du får ett meddelande i appen och ett e-postmeddelande om att begäran antingen har skickats eller skickats för granskning.
    * Om begärandeformuläret associerades med ett godkännande får godkännarna ett meddelande i appen och ett e-postmeddelande för att granska och godkänna begäran.
-
-     >[!NOTE]
-     >
-     >E-postmeddelandet och meddelandet i appen visas bara när din organisations instans av Workfront är kopplad till Adobe Unified Experience.
 
      När begäran har godkänts och posten har skapats visar datumfälten Godkänd av och Godkänd information om godkännandet på posten.
 

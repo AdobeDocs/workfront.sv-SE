@@ -10,9 +10,9 @@ role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2257'
+source-wordcount: '2177'
 ht-degree: 0%
 
 ---
@@ -143,7 +143,7 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt i he
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Estimate at Completion &#x200B;]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Estimate at Completion ]</p> </td> 
    <td> <p>Avgör vilka data [!DNL Workfront] använder för att beräkna [!UICONTROL Estimate at Completion] (EAC) som representerar den planerade totala kostnaden för ett projekt.</p> 
     <ul> 
      <li><strong>[!UICONTROL Calculate at project level]</strong>: EAC för den överordnade aktiviteten och projektet bestäms genom att [!UICONTROL Actual Hours] eller [!UICONTROL Actual Labor Cost] anges i EAC-formlerna. Den här beräkningen innehåller [!UICONTROL Actual Hours] eller [!UICONTROL Costs and Expenses] som lagts till direkt i den överordnade aktiviteten eller projektet.</li> 
@@ -239,12 +239,14 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt i he
      <li><strong>[!UICONTROL Typical work days per week]</strong>: Ange standardarbetsvecka för användare som arbetar med projekt. Standardvärdet är 5 dagar.</li> 
     </ul> <p>Dessa två alternativ konverterar dagar till timmar, eller veckor till dagar.</p> <p>Om du till exempel har en aktivitet med 8 planerade timmar och varaktigheten beräknas baserat på Planerade timmar, konverterar [!DNL Workfront] dessa timmar till dagar för att visa Varaktighet som dagar.</p> <p>I fältet Normal [!UICONTROL work days per week] beräknar [!DNL Workfront] heltidsmotsvarigheten (FTE) för systemet. Detta är vad [!DNL Workfront] använder när allokeringar beräknas för användare.</p> <p>Dessa värden används när du planerar projekttidslinjer, budgeterar för resurser eller loggar tid mot projekt. </p> <p>De används inte när du skapar tidrapporter för användare i systemet, vilket beskrivs i <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">[!UICONTROL Configure] tidrapport- och timinställningar </a>.</p> <p><b>OBS</b>:</p> <p>[!DNL Workfront] administratörer kan inte låsa upp inställningarna för [!UICONTROL Timeline Calculations].</p> </td> 
   </tr> 
+  <!--
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>[!UICONTROL Custom Quarters]</p> </td> 
-   <td> <span class="preview">Området Egna kvartal har tagits bort från avsnittet Projektinställningar i förhandsvisningsmiljön.</span> 
-   <span class="preview"> Mer information finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Aktivera anpassade kvartal</a>.</p></span>
-   <p>I produktionsmiljön konfigurerar du anpassade årliga kvartal för användare som ska arbeta med projekt. Kvartal är vanligtvis kvartal som inte motsvarar den traditionella fördelningen av kvartal under ett kalenderår. Du kan lägga till flera anpassade kvartal.   <p><b>OBS</b>: </p><p>[!DNL Workfront] administratörer kan inte låsa upp inställningarna för [!UICONTROL Custom Quarters] och gruppadministratörer kan inte redigera dessa inställningar på gruppnivå.</p> </td> 
+   <td> <span class="preview">The Custom Quarters area has been removed from the Project Preferences section in the Preview environment.</span> 
+   <span class="preview">For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Enable custom quarters</a>.</p></span>
+   <p>In the Production environment, configure custom yearly quarters for the users who will be working on projects. Custom quarters are usually quarters that do not match the traditional breakdown of quarters during a calendar year. You can add multiple custom quarters.   <p><b>NOTE</b>: </p><p>[!DNL Workfront] administrators cannot unlock [!UICONTROL Custom Quarters] preferences and group administrators cannot edit these settings at the group level.</p> </td> 
   </tr> 
+  -->
  </tbody> 
 </table>
 

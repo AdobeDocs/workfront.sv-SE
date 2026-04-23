@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2186'
+source-wordcount: '2155'
 ht-degree: 0%
 
 ---
@@ -108,8 +108,6 @@ Mer information om hur du ansluter posttyper finns i [Koppla posttyper](/help/qu
         >Du måste ha följande för att kunna ansluta till Adobe Experience Manager-objekt och GenStudio-varumärken:
         >* En Adobe Experience Manager-licens
         >* En Adobe GenStudio for Performance Marketing-licens
-        >* Din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console.
-        >Mer information om Adobe Admin Console finns i [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 * När två posttyper eller en posttyp och en objekttyp från ett annat program är sammankopplade finns följande scenarier:
 
@@ -130,7 +128,7 @@ Mer information om hur du ansluter posttyper finns i [Koppla posttyper](/help/qu
       * Planeringspostfält är inte tillgängliga från Workfront-objekt.
       * Planeringsposter visas från Workfront-objektets Planning-avsnitt. Mer information finns i [Hantera postanslutningar från Workfront-objekt](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
       * Du kan skapa ett anpassat fält för planeringsanslutning och koppla det till ett Workfront-objekts anpassade formulär. Mer information finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-      * Du kan planera postfält från Experience Manager-resurser när Workfront-administratören konfigurerar metadatamappningen genom integrationen mellan Workfront och Adobe Experience Manager Assets. Mer information finns i [Konfigurera mappning av metadata för resurs mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping). <!--not sure if this is also possible for content fragments-->
+      * Du kan planera postfält från Experience Manager-resurser när Workfront-administratören konfigurerar metadatamappningen genom integrationen mellan Workfront och Adobe Experience Manager Assets. Mer information finns i [Konfigurera mappning av metadata för resurs mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping). <!--not sure if this is also possible for content fragments-->
       * Det går inte att komma åt planeringspostfält från varumärken i GenStudio for Performance Marketing.
 
    * **När du lägger till uppslagsfält från posten eller objektet som du ansluter till**: Förutom att skapa ett länkat postfält kan du även ansluta till fält från den anslutna posten eller objekttypen som kallas uppslagsfält. Ett länkat (eller sökfält) med information från den post som du ansluter till visas på den post som du ansluter från. <!--not sure if this is also possible for content fragments-->

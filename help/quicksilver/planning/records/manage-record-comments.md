@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '822'
 ht-degree: 0%
 
 ---
@@ -141,8 +141,6 @@ Old:
 </table>
 -->
 
-
-
 ## Att tänka på när du kommenterar en post
 
 * Du kan lägga till kommentarer och svar till poster i Workfront Planning, under Kommentarer i en post.
@@ -158,10 +156,6 @@ Old:
   Kommentarer som läggs till i projekt i Workfront visas t.ex. inte i samma projekt som är länkat till en kampanj i Workfront Planning, och kommentarer som läggs till i projektet Workfront Planning-posten visas inte i Workfront.
 
 * Du kan tagga användare eller team så att de uppmärksammas på en uppdatering. Både individuellt taggade användare och användare från taggade team får ett meddelande i appen och ett e-postmeddelande om uppdateringen.
-
-  >[!NOTE]
-  >
-  >   Endast användare som har anslutit sig till Adobe Unified Experience får både ett meddelande i appen och ett e-postmeddelande. Information om hur du avgör om ditt företag använder Adobe Unified Experience finns i [Adobe Unified Experience för Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 * Du kan lägga till en uppdatering i poster och granska ändringshistoriken från följande områden i Workfront Planning:
 
@@ -197,7 +191,7 @@ Posttypssidan öppnas och alla poster av den typen visas.
 1. (Valfritt) Om du vill ångra eller göra om en ändring använder du följande kortkommandon:
    * CTRL + Z (⌘ + z för Mac) för att ångra en ändring
    * CTRL + Y (⌘+y för Mac) för att göra om en ändring
-1. (Valfritt och villkorligt) Om din Workfront-instans ingår i Adobe Unified Experience lägger du till **@** följt av namnet på en användare eller ett team som taggar dem i uppdateringen. Mer information finns i avsnittet [Att tänka på när du kommenterar en post](#considerations-about-commenting-on-a-record) i den här artikeln.
+1. Lägg till **@** följt av namnet på en användare eller ett team som ska tagga dem i uppdateringen. Mer information finns i avsnittet [Att tänka på när du kommenterar en post](#considerations-about-commenting-on-a-record) i den här artikeln.
 
 1. (Valfritt) Använd alternativen i verktygsfältet RTF för att formatera texten, lägga till känslolägesikoner eller länkar till uppdateringen för att förbättra innehållet.
 

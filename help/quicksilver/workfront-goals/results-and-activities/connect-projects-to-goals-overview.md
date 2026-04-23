@@ -10,9 +10,9 @@ feature: Workfront Goals
 exl-id: 683c9cd9-6c7b-4d50-b326-b4000c9863e8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
@@ -175,7 +175,7 @@ There is an indication on the goal list that the project no longer updates progr
 
 ## Lägg till projekt i mål
 
-1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) (utkast för Shell: eller klicka på **Huvudmeny** ![Huvudmenyrader](assets/three-line-main-menu-icon.png) i det övre vänstra hörnet, om det är tillgängligt.) och sedan på **Mål**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/lines-main-menu.png) och sedan på **Mål**.
 1. Öppna målsidan genom att klicka på namnet på ett mål i mållistan.
 1. Klicka på **Förloppsindikatorer** i den vänstra panelen.
 1. Klicka på **Lägg till befintligt projekt** i den nedrullningsbara menyn **Ny förloppsindikator**.

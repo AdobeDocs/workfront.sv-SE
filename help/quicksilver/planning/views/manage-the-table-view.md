@@ -8,19 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '3563'
+source-wordcount: '3503'
 ht-degree: 0%
 
 ---
 
 # Hantera tabellvyn
 
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>
 
-<span class="preview">Informationen som är markerad på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
-
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -195,7 +196,7 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
 
    Kolumnerna som du lägger till är synliga för alla användare som kommer åt posttypen och läggs till som nya fält på postens sida.
 
-1. (Valfritt) Klicka på ikonen **Fält** ![Fält &#x200B;](assets/fields-icon.png) i verktygsfältet, sök efter ett fält och avmarkera sedan alternativet till höger om fältnamnet för att dölja fältet.
+1. (Valfritt) Klicka på ikonen **Fält** ![Fält ](assets/fields-icon.png) i verktygsfältet, sök efter ett fält och avmarkera sedan alternativet till höger om fältnamnet för att dölja fältet.
 
 1. Gör något av följande om du vill ändra ordning på kolumnerna i tabellen:
 
@@ -241,7 +242,7 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
    >
    >Antalet dolda fält visas till vänster om ikonen Fält i verktygsfältet.
    >
-   ><span class="preview">Som standard visas inte dolda fält i postens förhandsvisningsruta **Detaljer**. Alla fält visas på postens informationssida. Mer information finns i [Hantera postsidans layout](/help/quicksilver/planning/records/manage-the-record-page.md)</span>
+   >Som standard visas inte dolda fält i postens förhandsvisningsruta **Detaljer**. Alla fält visas på postens informationssida. Mer information finns i [Hantera postsidans layout](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 
 1. Klicka på ikonen **Fält** och aktivera växlingen som är kopplad till de fält som du vill visa i tabellens kolumner. Alla fält visas som standard.
@@ -439,7 +440,7 @@ Tänk på följande när du sorterar poster i tabellvyn:
 Så här sorterar du <!--ungrouped (add this when sorting for groupings will be available--> poster:
 
 1. Skapa en tabellvy enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
-1. Klicka på ikonen **Sortera** ![Sortera &#x200B;](assets/sort-icon.png) i tabellens övre högra hörn
+1. Klicka på ikonen **Sortera** ![Sortera ](assets/sort-icon.png) i tabellens övre högra hörn
 
    eller
 
@@ -601,11 +602,11 @@ När du visar tabellvyn kan du även visa vilket fält en annan användare redig
 
    <!--maybe include a screen shot after release if they update the UI text in this list of users-->
 
-1. <span class="preview">(Valfritt) Klicka på triangeln i det övre högra hörnet i cellen som innehåller det fält som har redigerats av andra. En lista över användare som redigerar fältet visas.</span>
+1. (Valfritt) Klicka på triangeln i det övre högra hörnet i cellen som innehåller det fält som har redigerats av andra. En lista över användare som redigerar fältet visas.
 
 >[!TIP]
 >
-><span class="preview">Visningsindikatorer i realtid visar användare som redigerar ett fält var som helst i Workfront Planning. Detta inkluderar antingen tabellvyn eller datapostens detaljområde.</span>
+>Visningsindikatorer i realtid visar användare som redigerar ett fält var som helst i Workfront Planning. Detta inkluderar antingen tabellvyn eller datapostens detaljområde.
 
 
 

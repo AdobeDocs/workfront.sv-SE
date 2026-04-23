@@ -8,18 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '1790'
+source-wordcount: '1763'
 ht-degree: 0%
 
 ---
 
 # Konfigurera automatisering av Adobe Workfront Planning
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 <!--add screen shots when UI is finalized AND redo all the steps - some things got changed and moved around-->
 
@@ -147,7 +149,7 @@ Du måste konfigurera en automatisering för en posttyp i Workfront Planning inn
 1. Klicka på ett posttypskort och klicka sedan på namnet på en post.
 
    Posttypssidan öppnas.
-1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn och klicka sedan på **Hantera automatisering**.
+1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn och klicka sedan på **Hantera automatisering**.
 
    En lista över tillgängliga automatiseringar för den valda posttypen öppnas.
 
@@ -164,37 +166,33 @@ Sidan med information om automatisering öppnas.
    * **Utlösare**: Välj en åtgärd som ska utlösa automatiseringen:
 
       * Knappklicka
-      * <span class="preview">Fältvärdeändring</span>
+      * Ändring av fältvärde
 
-   1. (Villkorligt) Om du valde **Knappklicka** går du till steg 9 nedan som beskriver området **Åtgärder**. <!--ensure this number stays accurate-->
+1. (Villkorligt) Om du valde **Knappklicka** går du till steg 9 nedan som beskriver området **Åtgärder**. <!--ensure this number stays accurate-->
 
-   1. <span class="preview">(Villkorligt) Om du valde **Ändra fältvärde** gör du följande i avsnittet **Inställningar**: </span>
+1. (Villkorligt) Om du valde **Ändra fältvärde** gör du följande i avsnittet **Inställningar** :
 
-      1. <span class="preview">Välj ett fält i listrutan. Detta är fält som är associerade med den posttyp du valde.</span>
-      1. <span class="preview">Fortsätt att definiera villkor för det markerade fältet.</span>
-      1. <span class="preview">Klicka på **Lägg till villkor** om du vill lägga till upp till 5 fält och definiera deras villkor.</span>
+   1. Välj ett fält i listrutan. Det här är fält som är associerade med den posttyp som du valde.
+   1. Fortsätt att definiera villkor för det markerade fältet.
+   1. Klicka på **Lägg till villkor** för att lägga till upp till 5 fält och definiera deras villkor.
 
-         <span class="preview">Du kan lägga till följande typer av fält:</span>
+      Du kan lägga till följande typer av fält:
 
-         <div class="preview">
+      * Enkelval
+      * Flera val
+      * Enkelradig text
+      * Stycke
+      * Nummer
+      * Kryssruta
+      * Datum
 
-         * Enkelval
-         * Flera val
-         * Enkelradig text
-         * Stycke
-         * Nummer
-         * Kryssruta
-         * Datum
+      Workfront Planning skapar automatiskt objekt när villkoren är uppfyllda.
 
-         </div>
+      ![Utlösaren för ändring av fältvärde har valts](assets/field-value-change-trigger-selected.png)
 
-         <span class="preview">Workfront Planning skapar objekt automatiskt när villkoren uppfylls. </span>
-
-         ![Utlösaren för ändring av fältvärde har valts](assets/field-value-change-trigger-selected.png)
-
-         >[!TIP]
-         >
-         ><span class="preview">Modifieraren i varje villkor ändras med den typ av fält som du väljer.</span>
+      >[!TIP]
+      >
+      >Modifieraren i varje villkor ändras med den typ av fält som du väljer.
 
 1. Uppdatera följande fält i avsnittet **Åtgärder**: <!--submitted bugs for these fields - see if they need changing here-->
    * **Åtgärder**: Välj den åtgärd som du vill att Workfront ska utföra när automatiseringen aktiveras. Detta är ett obligatoriskt fält.
@@ -218,7 +216,7 @@ Välj någon av följande åtgärder:
       * **Anslutet fält där projektet skapas**: Det här är det anslutna fältet som det nya projektet ska visas i. Detta är ett obligatoriskt fält.
       * **Projektmall**: Välj en projektmall som Workfront ska använda för att skapa projektet.
 
-   * Skapa flera projekt:
+   * **Skapa flera projekt**:
       * **Anslutet fält där projektet skapas**: Det här är det anslutna fältet som det nya projektet ska visas i. Detta är ett obligatoriskt fält.
       * **Fält vars val skapar posterna**: Välj ett fält med flera eller enstaka val från den valda posttypen. Workfront skapar ett projekt för varje fältval som är markerat på den post från vilken du utlöser automatiseringen.
 
@@ -297,29 +295,32 @@ Uppdatera följande information i området **Kartfält**:
 1. Klicka på ett posttypskort och klicka sedan på namnet på en post.
 
    Posttypssidan öppnas.
-1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn och klicka sedan på **Hantera automatisering**.
+1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn och klicka sedan på **Hantera automatisering**.
 
    En lista över tillgängliga automatiseringar för den valda posttypen öppnas.
 
-1. (Valfritt) Gör något av följande om du vill redigera, inaktivera eller ta bort en automatisering:
+1. (Valfritt) Om du vill visa, inaktivera eller ta bort en automatisering från en lista med automatiseringar klickar du på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om namnet på en automatisering och gör sedan något av följande:
 
-   1. Håll markören över namnet på en sparad automatisering i listan över automatiseringar och klicka sedan på menyn **Mer** ![Mer](assets/more-menu.png).
+   * Klicka på **Visa** för att visa automatiseringsinställningarna för en automatisering av fältvärdeändring.
 
-   1. Klicka på **Redigera** för att uppdatera följande information:
+     >[!TIP]
+     >
+     >Du kan inte redigera inställningarna för en automatisering efter att de har sparats, när automatiseringen aktiveras av en fältvärdeändring.
 
-      * Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om automatiseringsnamnet och klicka sedan på **Redigera** för att ändra namnet på automatiseringen.
+   * Klicka på **Redigera** för att uppdatera följande information om du vill automatisera en knapp:
+
+      * Automatiseringsnamnet genom att klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om automatiseringsnamnet och sedan på **Redigera**.
       * Alla fält i automatiseringen, förutom fältet **Åtgärder**.
 
-        >[!TIP]
-        >
-        >Du kan inte ändra åtgärden som du ursprungligen valde för en automatisering.
+     >[!TIP]
+     >
+     >Du kan inte ändra åtgärden som du ursprungligen valde för en automatisering.
 
+   * Klicka på **Inaktivera** om du vill ta bort automatiseringen från postens tabellvy och hindra användare från att använda den för att skapa poster eller objekt.
 
-   1. Klicka på **Inaktivera** om du vill ta bort automatiseringen från postens tabellvy och hindra användare från att använda den för att skapa poster eller objekt.
+     Poster som har skapats med en inaktiverad automatisering är fortfarande kopplade till den post som ursprungligen valdes.
 
-      Poster som har skapats med en inaktiverad automatisering är fortfarande kopplade till den post som ursprungligen valdes.
+     Om du vill göra den tillgänglig igen klickar du på menyn **Mer** ![Mer](assets/more-menu.png) igen och sedan på **Aktivera**.
+   * Klicka på **Ta bort** om du vill ta bort automatiseringen. En borttagen automatisering kan inte återställas.
 
-      Om du vill göra den tillgänglig igen klickar du på menyn **Mer** ![Mer](assets/more-menu.png) igen och sedan på **Aktivera**.
-   1. Klicka på **Ta bort** om du vill ta bort automatiseringen. En borttagen automatisering kan inte återställas.
-
-      Poster som har skapats med en borttagen automatisering är fortfarande kopplade till den post som ursprungligen valdes.
+     Poster som har skapats med en borttagen automatisering är fortfarande kopplade till den post som ursprungligen valdes.

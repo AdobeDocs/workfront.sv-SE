@@ -8,19 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '4067'
+source-wordcount: '4007'
 ht-degree: 0%
 
 ---
 
 # Hantera tidslinjevyn
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -216,7 +217,7 @@ Så här hanterar du en tidslinjevy:
 
 1. Gör följande för att snabbt hitta poster som matchar ett nyckelord:
 
-   1. Klicka på ikonen **Sök** ![Sök &#x200B;](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med ett fält i en post som visas på skärmen. Antalet korrekta matchningar visas bredvid sökobjektet och posten med rätt matchning markeras.
+   1. Klicka på ikonen **Sök** ![Sök ](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med ett fält i en post som visas på skärmen. Antalet korrekta matchningar visas bredvid sökobjektet och posten med rätt matchning markeras.
 
       ![Sökruta och tidslinjevy för resultat](assets/search-box-and-results-timeline-view.png)
 
@@ -405,22 +406,18 @@ Så här lägger du till en gruppering i tidslinjevyn:
 1. Skapa en tidslinjevy för en posttyp enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
 1. Klicka på **Gruppering** i det övre högra hörnet av tidslinjevyn.
 
-   <span class="preview">![Gruppera vyn för användargränssnittets tidslinje med länkade fält](assets/grouping-ui-timeline-view-with-linked-fields.png)</span>
+   ![Gruppera vyn för användargränssnittets tidslinje med länkade fält](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. Klicka på ett av de föreslagna fälten eller klicka på **Välj ett annat fält** och sök efter ett annat fält. Klicka sedan på det när det visas i listan.
 
    Grupperingen används automatiskt på tidslinjen och posterna visas inuti grupperingsrutan.
-1. <span class="preview"> (Valfritt och villkorligt) Beroende på vilken fälttyp du har valt att gruppera efter väljer du något av följande sorteringsalternativ för att sortera grupperingarna i stigande eller fallande ordning: </span>
-
-   <div class="preview">
+1. (Valfritt och villkorligt) Beroende på vilken fälttyp du har valt att gruppera efter väljer du något av följande sorteringsalternativ för att sortera grupperingarna i stigande eller fallande ordning:
 
    * **A -> Z** eller **Z -> A** för urvalsfält, textfält, styckefält, kopplade poster eller objekt, personfält
    * **0 -> 9** eller **9 -> 0** för fälten Nummer, Valuta eller Procent.
    * **tidigaste -> senaste** eller **senaste -> tidigaste** för datumfält
 
-   </div>
-
-   <span class="preview"> Grupperingarna i tidslinjevyn sorteras därefter. Posterna i grupperingarna sorteras i den ordning som de har **Startdatum**, som är standardsortering. </span>
+   Grupperingarna i tidslinjevyn sorteras därefter. Posterna i grupperingarna sorteras i den ordning som de har **Startdatum**, som är standardsortering.
 
 1. (Valfritt) Upprepa stegen ovan om du vill lägga till upp till tre grupperingar.
 

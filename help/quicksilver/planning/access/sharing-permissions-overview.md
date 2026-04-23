@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1151'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Du kan dela följande objekt manuellt i Workfront Planning:
 
   >[!IMPORTANT]
   >
-  >Om din organisations instans av Workfront har registrerats för Adobe Unified Experience måste de användare som du vill dela Planning-objekt med läggas till i Adobe Admin Console. Du kan inte dela Planning-objekt med Workfront-användare som inte har lagts till i Adobe Admin Console.
+  >De användare du vill dela Planning-objekt med måste läggas till i Adobe Admin Console. Du kan inte dela Planning-objekt med Workfront-användare som inte har lagts till i Adobe Admin Console.
 
 * Du kan dela planeringsobjekt på följande sätt:
 

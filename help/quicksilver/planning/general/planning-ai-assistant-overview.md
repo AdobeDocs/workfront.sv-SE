@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
@@ -115,9 +115,9 @@ AI-assistenten finns i följande områden i Workfront Planning:
 
 ## Gå till AI-assistenten i Planning Area
 
-1. Logga in på Workfront och klicka sedan på ikonen **Huvudmeny** ![Huvudmeny](assets/dots-main-menu.png) i skärmens övre högra hörn eller på ikonen **Huvudmeny** ![Linjernas huvudmeny](assets/lines-main-menu.png) i det övre vänstra hörnet, om den är tillgänglig.
+1. Logga in på Workfront, klicka på ikonen **Huvudmeny** ![Rader-huvudmenyn](assets/lines-main-menu.png) i det övre vänstra hörnet och klicka sedan på **Planering**.
 
-. Klicka på **Planering**. Planeringsområdet öppnas.
+   Planeringsområdet öppnas.
 
 1. Klicka på ett **arbetsytekort**.
 

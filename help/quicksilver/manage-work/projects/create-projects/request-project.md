@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 1%
+source-wordcount: '545'
+ht-degree: 2%
 
 ---
 
@@ -105,7 +105,7 @@ Old:
 
 1. Gör något av följande:
 
-   * Klicka på ikonen **Huvudmeny**![Huvudmenyrader](assets/lines-main-menu.png) i det övre vänstra hörnet eller på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet, klicka på **Projekt** och expandera sedan **Nytt projekt**.
+   * Klicka på ikonen **Huvudmeny**![Huvudmenyrader](assets/lines-main-menu.png) i det övre vänstra hörnet, klicka på **Projekt** och expandera sedan **Nytt projekt**.
    * Gå till en portfölj och expandera sedan **Nytt projekt**.
    * Gå till ett program och expandera sedan **Nytt projekt**.
    * Om du är gruppadministratör kan du även skapa ett projekt i avsnittet Projekt i en grupp som du hanterar. Mer information finns i [Skapa och ändra en grupps projekt](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).

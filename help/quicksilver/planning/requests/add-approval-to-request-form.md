@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-<!--take Preview and Production references at Production time-->
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
-
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -82,58 +82,53 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 * Om minst en godkännare avvisar begäran och alla andra godkänner den, skapas en begäran för området Förfrågningar i Workfront, men ingen post skapas för den posttyp som är associerad med förfrågningsformuläret.
 * Det är valfritt att lägga till godkännanden i ett begärandeformulär. Workfront Planning skapar omedelbart en post när en begäran skickas, om begärandeformuläret inte är kopplat till ett godkännande.
 
-## Lägga till ett godkännande i ett begärandeformulär i produktionsmiljön
+<!--
 
-1. Börja skapa ett begärandeformulär för en posttyp enligt beskrivningen i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
-1. Klicka på **Konfiguration**.
+## Add an approval to a request form in the Production environment
 
-   Området **Konfiguration** visas.
+1. Start creating a request form for a record type, as described in [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+1. Click **Configuration**.
 
-   ![Fliken Konfiguration](assets/configuration-tab.png)
-1. I fältet **Godkännare** börjar du skriva namnet på en användare eller ett team som du vill ange som godkännare och markerar det sedan när det visas i listan.
-1. (Valfritt och villkorligt) Om du har angett mer än en godkännare och bara behöver en godkännare för att fatta ett beslut, aktiverar du alternativet **Endast ett beslut krävs**.
+    The **Configuration** area displays.
 
-   <!--most of the Note below is duplicated in the Create a request form article-->
+    ![Configuration tab](assets/configuration-tab.png)
+1. In the **Approvers** field, start typing the name of a user or team that you want to set as an approver, then select it when it displays in the list. 
+1. (Optional and conditional) If you have set more than one approver, and only need one approver to make a decision, enable the **Only one decision is required** option.
 
-   >[!NOTE]
-   >
-   >
-   >* Du kan lägga till en eller flera godkännare i ett begärandeformulär.
-   >
-   >* Om du lägger till mer än en godkännare och alternativet Endast ett beslut krävs inte är aktiverat, måste alla godkännare godkänna begäran innan Workfront Planning skapar en post.
-   >
-   >* Om minst en godkännare avvisar begäran, avvisas begäran och posten skapas inte. Begäran finns kvar under Begäranden i Workfront.
-   >
-   >* Om du lägger till mer än en godkännare och alternativet Endast ett beslut krävs inte är aktiverat, måste alla godkännare fatta ett beslut innan en begäran godkänns eller avslås.
-   >
-   >* Om ett team utses till godkännare krävs endast ett beslut från teamet.
+    (****most of the Note below is duplicated in the Create a request form article***)
 
-
-1. (Valfritt) Klicka på **Publicera** om du aldrig har delat begärandeformuläret tidigare.
-
-   eller
-
-   Klicka på **Dela** för att dela formuläret och sedan på **Kopiera länk**.
-1. (Valfritt) När en användare har använt länken som du delar och skickar en begäran skickar Workfront Planning ett meddelande om godkännande i appen och ett e-postmeddelande till godkännarna.
-
-   >[!NOTE]
-   >
-   >Din organisations instans av Workfront måste vara registrerad på Adobe Unified Experience för att användare ska kunna ta emot e-post och meddelanden i appen.
+      >[!NOTE]
+      >
+      >
+      >* You can add one or several approvers to a request form.
+      >
+      >* If you add more than one approver, and the Only one decision is required option is not enabled, all approvers must approve the request before Workfront Planning creates a record.
+      >
+      >* If at least one approver rejects the request, the request is rejected and the record is not created. The request remains in the Requests area of Workfront.
+      >
+      >* If you add more than one approver, and the Only one decision is required option is not enabled, all approvers must make a decision before a request is either approved or rejected.
+      >
+      >* If a team is set as an approver, only one decision is required from the team.
 
 
-   Mer information om hur du godkänner begäranden finns i [Godkänn en begäran](/help/quicksilver/planning/requests/approve-request.md).
+1. (Optional) Click **Publish** if you have never shared the request form before.
 
-<div class="preview">
+    Or
 
-## Lägga till godkännanderegler i ett begärandeformulär i förhandsgranskningsmiljön
+    Click **Share** to share the form, then **Copy link**. 
+1. (Optional) After a user uses the link you share and submits a request, Workfront Planning sends an approval in-app notification and an email to the approvers.
+
+   For information about approving requests, see [Approve a request](/help/quicksilver/planning/requests/approve-request.md).
+
+-->
+
+## Lägga till godkännanderegler i ett begärandeformulär
 
 Godkännanderegler definierar godkännandeprocessen baserat på fältvärden i de skickade begäranden.
 
 Om ett begärandeformulär till exempel har fältet&quot;Kampanjtyp&quot; kan en regel skapas som skickar begäran till en person när fältet har värdet&quot;Digital&quot;, och en annan person när det har värdet&quot;Skriv ut&quot;.
 
 Tänk på följande när du lägger till godkännanderegler:
-
-<!--below bullet list is duplicated in the Add approval to a request form in the Production environment section above-->
 
 * Du kan lägga till en eller flera godkännare till en godkännanderegel.
 * Om minst en godkännare avvisar begäran, avvisas begäran och posten skapas inte. Begäran finns kvar under Begäranden i Workfront.
@@ -174,5 +169,3 @@ Så här anger du godkännanderegler för ett begärandeformulär:
 
 1. Klicka på **Spara** för att spara godkännandereglerna.
 1. (Valfritt) Klicka på **Publicera** om du aldrig har delat begärandeformuläret tidigare.
-
-</div>

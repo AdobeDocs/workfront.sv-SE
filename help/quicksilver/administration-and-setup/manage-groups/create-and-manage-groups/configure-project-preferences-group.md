@@ -10,9 +10,9 @@ role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2833'
+source-wordcount: '2682'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,11 @@ ht-degree: 0%
 # Konfigurera projektinställningar för en grupp
 
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Om du är gruppadministratör och en Adobe Workfront-administratör låser upp en projektinställning för alla grupper i systemet kan du konfigurera den inställningen så att den påverkar alla efterföljande projekt som gruppen skapar.
 
@@ -233,15 +235,17 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt som 
      <li><strong>Vanliga arbetsdagar per vecka</strong>: Ange standardarbetsveckan för de användare som ska arbeta med projekt. Standardvärdet är 5 dagar.</li> 
     </ul> <p>Dessa två alternativ konverterar dagar till timmar, eller veckor till dagar.</p> <p>Om du till exempel har en aktivitet med 8 planerade timmar och varaktigheten beräknas baserat på Planerade timmar, konverterar Workfront dessa timmar till dagar för att visa Varaktighet som dagar.</p> <p>I fältet Normal arbetsdagar per vecka beräknas heltidsmotsvarigheten (FTE) för datorn. Detta är vad Workfront använder vid beräkning av allokeringar för användare.</p> <p>Dessa värden används när du planerar projekttidslinjer, budgeterar för resurser eller loggar tid mot projekt. </p> <p>De används inte när du skapar tidrapporter för användare i systemet, vilket beskrivs i <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">Konfigurera tidrapport och timinställningar</a>.</p> <p><b>Obs!</b> Workfront-administratörer kan inte låsa upp inställningarna för tidslinjeberäkningar.</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p><strong>Egna kvartal</strong> </p> </td> 
+  <!--
+  <tr> 
+   <td role="rowheader"> <p><strong>Custom Quarters</strong> </p> </td> 
    <td> 
-   <span class="preview">Området Egna kvartal har tagits bort från gruppens projektinställningar i förhandsvisningsmiljön.</span>
-   <p>Kvartal är vanligtvis kvartal som inte motsvarar den traditionella fördelningen av kvartal under ett kalenderår. En Workfront-administratör kan lägga till flera anpassade kvartal under <b>Inställningar</b>. Mer information finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Aktivera anpassade kvartal</a>.</p>  
-   <p><b>VIKTIGT<b></p>
-   <p>Du kan inte ändra konfigurationen för anpassat kvartal som gruppadministratör. <p>Workfront-administratörer kan inte låsa upp anpassade kvartal så att gruppadministratörer kan hantera det.</p> <p>Området Anpassade kvartal är skrivskyddat för gruppadministratörer.</p>
+   <span class="preview">The Custom Quarters area has been removed from the Group's Project Preferences section in the Preview environment.</span>
+   <p>Custom quarters are usually quarters that do not match the traditional breakdown of quarters during a calendar year. A Workfront administrator can add multiple custom quarters in the <b>Setup</b> area. For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Enable custom quarters</a>.</p>  
+   <p><b>IMPORTANT<b></p>
+   <p>You cannot change the Custom Quarter configuration as a group administrator. <p>Workfront administrators cannot unlock Custom Quarters preferences so that group administrators can manage it.</p> <p>The Custom Quarters area is read-only for group administrators.</p>
    </td> 
   </tr> 
+  -->
  </tbody> 
 </table>
 

@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1122'
 ht-degree: 0%
 
 ---
@@ -148,7 +148,7 @@ Du kan skapa arbetsytor på följande sätt:
 
 * Skapa flera arbetsytor med ett standardpaket med flera arbetsytor
 
-  Mer information finns i avsnittet [Skapa flera arbetsytor med ett mallpaket för flera arbetsytor &#x200B;](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle) i den här artikeln
+  Mer information finns i avsnittet [Skapa flera arbetsytor med ett mallpaket för flera arbetsytor ](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle) i den här artikeln
 
   >[!TIP]
   >
@@ -217,11 +217,10 @@ Du kan skapa arbetsytor på följande sätt:
 
    Namnet på den användare som skapade arbetsytan sparas på arbetsytans kort som ägare.
 
-   >[!NOTE]
+   >[!TIP]
    >
-   >För användare som för närvarande går över till Adobe Identity Management System (IMS) visas arbetsytor som skapats av användare med endast Workfront som inte är IMS-användare som skapats av **System**.
+   >Arbetsytor som skapats av användare med endast Workfront och som inte har lagts till i Adobe Admin Console visas som de skapats i **System** .
    >
-   >Mer information om IMS finns i [Adobe Unified Experience för Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 ### Skapa flera arbetsytor med ett standardpaket med flera arbetsytor
 

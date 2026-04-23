@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: de066d44-d214-47cc-8483-37c2623585ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1042'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Nedan följer några fördelar med att använda hierarkier i dina arbetsytor:
 * Du kan inte lägga till följande objekttyper i en hierarki:
    * Posttyper från andra arbetsytor, även när de är inställda som kopplingsbara eller globala posttyper. Du kan bara lägga till globala posttyper i hierarkier när de har lagts till på arbetsytan som du skapar hierarkin från.
    * Alla andra Workfront-objekt.
-   * AEM Assets eller Content Fragments.
+   * Adobe Experience Manager Assets eller Content Fragments.
 * Hierarkier kan innehålla både Planning-posttyper och Workfront-projekt samtidigt.
 
   Du kan till exempel ha en Campaign-posttyp med Planning Tactics och Workfront Projects som underordnade i samma arbetsytehierarki.

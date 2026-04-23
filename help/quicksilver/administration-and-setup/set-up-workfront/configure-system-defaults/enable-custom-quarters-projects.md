@@ -10,9 +10,9 @@ role: Admin
 exl-id: 0f643d36-6235-4fd3-b6d3-54fbd03c9b33
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,11 @@ ht-degree: 0%
 
 <!--Audited: 03/2026-->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 I rapporteringssyfte kan du skapa anpassade kvartal om organisationens kvartal baseras på andra specifika villkor än kalenderdatum (t.ex. arbetsdagar eller kunddagar).
 
@@ -64,10 +66,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 {{step-1-to-setup}}
 
-1. (Villkorligt) Beroende på vilken miljö du använder anpassade kvartal från gör du något av följande:
-
-   * I produktionsmiljön klickar du på **[!UICONTROL Project Preferences]** > **[!UICONTROL Projects].**
-   * <span class="preview">Klicka på **[!UICONTROL Custom Quarters]** i förhandsgranskningsmiljön.</span>
+1. Klicka på **[!UICONTROL Custom Quarters]**.
 
 1. Välj **[!UICONTROL Enable Custom Quarters]**.
 
