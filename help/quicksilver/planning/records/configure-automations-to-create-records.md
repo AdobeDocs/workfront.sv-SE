@@ -149,7 +149,7 @@ Du måste konfigurera en automatisering för en posttyp i Workfront Planning inn
 1. Klicka på ett posttypskort och klicka sedan på namnet på en post.
 
    Posttypssidan öppnas.
-1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn och klicka sedan på **Hantera automatisering**.
+1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn och klicka sedan på **Hantera automatisering**.
 
    En lista över tillgängliga automatiseringar för den valda posttypen öppnas.
 
@@ -295,11 +295,11 @@ Uppdatera följande information i området **Kartfält**:
 1. Klicka på ett posttypskort och klicka sedan på namnet på en post.
 
    Posttypssidan öppnas.
-1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn och klicka sedan på **Hantera automatisering**.
+1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn och klicka sedan på **Hantera automatisering**.
 
    En lista över tillgängliga automatiseringar för den valda posttypen öppnas.
 
-1. (Valfritt) Om du vill visa, inaktivera eller ta bort en automatisering från en lista med automatiseringar klickar du på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om namnet på en automatisering och gör sedan något av följande:
+1. (Valfritt) Om du vill visa, inaktivera eller ta bort en automatisering från en lista med automatiseringar klickar du på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om namnet på en automatisering och gör sedan något av följande:
 
    * Klicka på **Visa** för att visa automatiseringsinställningarna för en automatisering av fältvärdeändring.
 

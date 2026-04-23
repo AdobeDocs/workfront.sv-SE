@@ -489,7 +489,7 @@ Så här ansluter du poster med Experience Manager-objekt:
    * Skapad den
    * Ändrat den
 
-1. (Valfritt och villkorligt) Om du vill öppna Experience Manager resurspostsida i Experience Manager för resurser går du till posttypssidan för den post du länkar från, klickar på namnet på en resurs i det länkade postfältet för att öppna popup-fönstret och klickar sedan på ikonen **Öppna i AEM** ![Öppna resurs i AEM-ikon ](assets/open-asset-icon.png) för att öppna resursen. <!--not sure if this is also possible for fragments??-->
+1. (Valfritt och villkorligt) Om du vill öppna Experience Manager resurspostsida i Experience Manager för resurser går du till posttypssidan för den post du länkar från, klickar på namnet på en resurs i det länkade postfältet för att öppna popup-fönstret och klickar sedan på ikonen **Öppna i AEM** ![Öppna resurs i AEM-ikon &#x200B;](assets/open-asset-icon.png) för att öppna resursen. <!--not sure if this is also possible for fragments??-->
 
    Då öppnas Experience Manager-resursen i Adobe Experience Manager Assets.
 
