@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
 workflow-type: tm+mt
 source-wordcount: '3008'
 ht-degree: 0%
@@ -125,7 +125,7 @@ Du kan redigera en malluppgift med området Redigera malluppgift eller Malluppgi
    1. (Valfritt) Klicka på **Dokument** i den vänstra panelen för att lägga till dokument i mallåtgärden. Dokumenten överförs till projektuppgifterna när du använder mallen för att skapa projektet.
    1. (Villkorligt) Om du vill redigera begränsad information om en malluppgift klickar du på **Information om malluppgift** i den vänstra panelen. Gå sedan till områdena i detaljavsnittet för att redigera information för varje område.
    1. (Valfritt) Gör något av följande:
-      * Klicka på ikonen **Komprimera alla** ![Komprimera alla &#x200B;](assets/collapse-all-icon.png) om du vill komprimera alla områden.
+      * Klicka på ikonen **Komprimera alla** ![Komprimera alla ](assets/collapse-all-icon.png) om du vill komprimera alla områden.
       * Klicka på ikonen **Redigera** ![Redigera](assets/edit-icon.png) och välj sedan något av områdena nedan. Du kan också klicka på **Redigera alla** om du vill redigera information i alla områden:
 
          * Översikt
@@ -154,13 +154,13 @@ Namnen på tullformulär visas bara om det finns anpassade formulär kopplade ti
 
 1. Det kan vara bra att ange information i följande avsnitt:
 
-* [Malluppgiftsnamn](#template-task-name)
-* [Översikt](#overview)
-* [Uppdrag](#assignments)
-* [Ekonomi](#finance)
-* [Anpassad Forms](#custom-forms)
-* [Inställningar](#settings)
-* [Kommentar](#comment)
+   * [Malluppgiftsnamn](#template-task-name)
+   * [Översikt](#overview)
+   * [Uppdrag](#assignments)
+   * [Ekonomi](#finance)
+   * [Anpassad Forms](#custom-forms)
+   * [Inställningar](#settings)
+   * [Kommentar](#comment)
 
 1. Fortsätt redigera malluppgifterna enligt beskrivningen i avsnitten nedan.
 

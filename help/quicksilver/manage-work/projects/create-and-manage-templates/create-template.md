@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '740'
 ht-degree: 1%
 
 ---
@@ -126,7 +126,7 @@ Old:
 
    Klicka på **Ny mallaktivitet** om du vill lägga till aktiviteter i mallen i rutan **Ny mallaktivitet**.
 
-   Rutan **Skapa malluppgift** öppnas i den nya versionen.
+   Rutan **Skapa malluppgift** öppnas i den nya upplevelsen när du klickar på **Ny mallaktivitet**.
 
    ![Ny upplevelse för aktiviteten Ny mall](assets/new-template-task-box-unshimmed.png)
 
