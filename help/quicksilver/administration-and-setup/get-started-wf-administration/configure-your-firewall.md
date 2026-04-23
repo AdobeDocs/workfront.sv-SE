@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1539'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,13 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
+<!--Follow up October 2026-->
+
 >[!IMPORTANT]
 >
->Den procedur som beskrivs på denna sida gäller endast organisationer som ännu inte har anslutit sig till Admin Console. Om du har anslutit dig till Adobe Admin Console måste du utföra den här åtgärden via Adobe Admin Console.
+>Den procedur som beskrivs på denna sida gäller endast organisationer som ännu inte har anslutit sig till Admin Console. Eftersom alla organisationer nu har anslutit sig till Adobe Admin Console måste du utföra den här åtgärden via Adobe Admin Console.
 >
->Mer information om hur du konfigurerar din tillåtelselista om din organisation har anslutit till Adobe Admin Console finns i [Domäner som tillåts för Adobe appar och tjänster](https://helpx.adobe.com/se/enterprise/kb/network-endpoints.html).
+>Mer information om hur du konfigurerar ditt tillåtelselista efter att din organisation har anslutit till Adobe Admin Console finns i [Domäner som tillåts för Adobe appar och tjänster](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns i [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 

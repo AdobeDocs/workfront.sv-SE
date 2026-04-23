@@ -9,10 +9,10 @@ author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4d868625-e976-47b4-9e80-f1eca84a2768
-source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 1%
+source-wordcount: '220'
+ht-degree: 0%
 
 ---
 
@@ -20,9 +20,13 @@ ht-degree: 1%
 
 <!-- Audited: 1/2024 -->
 
+<!--Remove me October 2026-->
+
 >[!IMPORTANT]
 >
 >Den procedur som beskrivs på den här sidan gäller endast för organisationer som ännu inte har anslutit till [!UICONTROL Adobe Admin Console].
+>
+>Eftersom alla organisationer nu har anslutit sig till Adobe Admin Console kommer den här artikeln att tas bort inom kort.
 >
 >Om din organisation har anslutit sig till [!UICONTROL Adobe Admin Console], se [Plattformsbaserade administrationsskillnader ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 

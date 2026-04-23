@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 6aa0aa5b8ffd088e3d79e7d1be66373a7f753f99
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1295'
 ht-degree: 0%
 
 ---
@@ -156,9 +156,11 @@ Mer information om enkel inloggning finns i [Översikt över enkel inloggning i 
 
 >[!IMPORTANT]
 >
->Den procedur som beskrivs på den här sidan gäller endast för organisationer som ännu inte har anslutit till [!DNL Adobe Admin Console]. Om din organisation har anslutit sig till [!DNL Adobe Admin Console] behövs ingen åtgärd.
+>Den procedur som beskrivs i det här avsnittet gäller endast för organisationer som ännu inte har anslutit till [!DNL Adobe Admin Console]. Eftersom alla organisationer nu har anslutit sig till [!DNL Adobe Admin Console] behövs ingen åtgärd.
 >
 >En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till [!DNL Adobe Admin Console] finns i [Plattformsbaserade administrationsskillnader ([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe Business Platform])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>
+>Det här avsnittet kommer att tas bort inom den närmaste framtiden.
 
 
 Om du vill konfigurera din förhandsvisningssandlåda så att den fungerar med en enkel inloggningslösning kan du göra det genom att konfigurera den separat från produktionsmiljön. Konfigurationen av enkel inloggning i förhandsgranskningssandlådan är oberoende av SSO-konfigurationen i produktionsmiljön.

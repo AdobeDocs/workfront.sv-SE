@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Den procedur som beskrivs på den här sidan gäller endast organisationer som ännu inte har anslutit sig till Adobe Business Platform. Om du har anslutit dig till Adobe Business Platform måste du ta bort användare i Adobe Admin Console.
+>Den procedur som beskrivs på den här sidan gäller endast för organisationer som ännu inte har anslutit sig till Adobe Business Platform. Om du har anslutit dig till Adobe Business Platform måste du ta bort användare i Adobe Admin Console.
 >
 >**Eftersom alla organisationer nu har anslutit sig till Adobe Admin Console kommer informationen på den här sidan att tas bort inom en nära framtid.**
 >
@@ -37,7 +37,7 @@ När en användare lämnar organisationen kan du ta bort den användaren från A
 >
 >Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].
 >
->  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/se/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >

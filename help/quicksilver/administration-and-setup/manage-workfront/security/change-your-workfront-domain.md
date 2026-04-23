@@ -8,20 +8,24 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d817bd2b-1aaa-4dde-8e75-392c1da2943a
-source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
 
 # Ändra din Adobe Workfront-domän
 
+<!--Remove me October 2026-->
+
 >[!IMPORTANT]
 >
->Den procedur som beskrivs på denna sida gäller endast organisationer som ännu inte har anslutit sig till Admin Console. Om din organisation har anslutit sig till Adobe Admin Console går det inte att ändra din Workfront-domän.
+>Den procedur som beskrivs på denna sida gäller endast organisationer som ännu inte har anslutit sig till Admin Console. Eftersom alla organisationer nu har anslutit sig till Adobe Admin Console går det inte att ändra din Workfront-domän ****.
 >
 >En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns i [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>
+>Den här artikeln kommer att tas bort inom den närmaste framtiden.
 
 Som Adobe Workfront-administratör och behörig Workfront Support-kontakt kan du begära hjälp från Workfront Support-team för att ändra din organisations Workfront-domän.
 

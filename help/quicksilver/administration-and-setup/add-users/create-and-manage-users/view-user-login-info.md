@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -63,11 +63,6 @@ Logga in på Workfront på något av följande sätt som en inloggning på Workf
 * Workfront mobilappar (iOS- eller Android-enheter)
 * Alla Workfront-integreringar som stöds med andra program från tredje part (som Slack)
 * Anpassad integrering mellan Workfront och andra program från tredje part.
-* WORKFRONT API
-
-  >[!NOTE]
-  >
-  >Logga in på Workfront via Workfront API är endast tillgängligt för organisationer som ännu inte har anslutit sig till Adobe Business Platform.
 
 ## Visa användningsinformation i en användarlista eller rapport
 
