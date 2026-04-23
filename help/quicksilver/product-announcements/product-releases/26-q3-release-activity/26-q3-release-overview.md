@@ -17,7 +17,7 @@ Den här sidan innehåller information om de funktioner som ingår i den tredje 
 
 Förbättringarna på den här sidan är tillgängliga i förhandsvisningsmiljön. Den här sidan kommer att uppdateras med ytterligare förbättringar eftersom utgåvan för tredje kvartalet 2026 närmar sig den planerade produktionsutgåvan.
 
-Live-webbinarier hålls för varje kvartalsrelease - där de nya funktionerna markeras och detaljerad information presenteras. Registrera dig på [eventsidan](https://experienceleague.adobe.com/en/events?filters=Workfront) och filtrera efter Workfront.
+Live-webbinarier hålls för varje kvartalsrelease - där de nya funktionerna markeras och detaljerad information presenteras. Registrera dig på [eventsidan](https://experienceleague.adobe.com/sv/events?filters=Workfront) och filtrera efter Workfront.
 
 >[!IMPORTANT]
 >
@@ -64,7 +64,7 @@ Live-webbinarier hålls för varje kvartalsrelease - där de nya funktionerna ma
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Förbättringar av Workfront Planning
 
@@ -115,12 +115,12 @@ Mer information om API-versioner finns i [API-versionshantering och supportschem
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=sv-SE).
 
 -->
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan &#x200B;](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan &#x200B;](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=sv-SE).
 
 
