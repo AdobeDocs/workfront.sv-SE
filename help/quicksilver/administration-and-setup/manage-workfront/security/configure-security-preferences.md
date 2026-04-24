@@ -10,9 +10,9 @@ role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
+source-git-commit: 77b78c5905736092c972e08283fdabf321bfa580
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
@@ -126,6 +126,10 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
      <tr> 
       <td role="rowheader">Aktivera arbetslistan Prioriteter </td> 
       <td>Gör att du kan välja att aktivera eller inaktivera arbetslistan Prioriteter för dina användare. Användarna kommer fortfarande att se Prioritetsikonerna i Workfront, men de kommer inte att ha tillgång till funktionerna. Mer information om prioriteringar finns i <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Kom igång med prioriteringar</a>.</td> 
+     </tr>
+      <tr> 
+      <td role="rowheader">Aktivera Adobe Enterprise-lagring </td> 
+      <td>Gör att du kan välja att aktivera eller inaktivera Adobe Enterprise-lagring för hela organisationen eller för särskilda grupper. Mer information om Adobe Enterprise Storage finns i <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">Aktivera Adobe Enterprise-lagring för din organisation</a>.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Aktivera AI </td> 
