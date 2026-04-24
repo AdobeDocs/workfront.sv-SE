@@ -8,9 +8,9 @@ feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: fee6b71eeb0ca79703a2a9e29a14040b91cb7387
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,22 @@ Vi rekommenderar att du lägger till projekt i portföljer när du initierar dem
 
 Tänk på följande när du lägger till projekt i portföljer:
 
-* Även om en portfölj kan innehålla ett obegränsat antal projekt kan du bara koppla en portfölj till ett projekt.
+* Du kan bara associera en portfölj med ett projekt.
 * Ett projekt blir kvar i en portfölj tills det tas bort eller kopplas till en annan portfölj.
+* En portfölj kan innehålla ett obegränsat antal projekt.
+
+>[!CAUTION]
+>
+>   Ärvda behörigheter kanske inte tillämpas korrekt när de används i ett stort antal underordnade objekt.
+>   
+>   För att undvika problem med ärvda behörigheter rekommenderar vi följande:
+>
+>   * Begränsa antalet underordnade objekt (projekt) under ett enskilt överordnat objekt (portfölj eller program). Vi rekommenderar högst 10 000 projekt per portfölj eller program.
+>   * Minska arvsdjupet genom att tillämpa behörigheter på ett objekt på lägre nivå.
+>
+>     Du kan till exempel lägga till behörigheter direkt på projektnivå i stället för att förlita dig på de behörigheter som ärvts från portföljen i programmet och sedan på projektet.
+>   * Dela program för att innehålla färre projekt, vilket minskar behörighetens komplexitet.
+
 
 ## Åtkomstkrav
 
