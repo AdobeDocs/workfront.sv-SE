@@ -99,7 +99,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 ## Steg 1 - Komma igång med installationen {#step-1-to-setup}
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet av Adobe Workfront och klicka sedan på ikonen **[!UICONTROL Setup]** ![Konfigurera ](/help/_includes/assets/gear-icon-setup.png) .
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet av Adobe Workfront och klicka sedan på ikonen **[!UICONTROL Setup]** ![Konfigurera &#x200B;](/help/_includes/assets/gear-icon-setup.png) .
 
 ## Formulärdesigner till GA {#form-designer-default}
 

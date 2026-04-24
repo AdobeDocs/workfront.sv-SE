@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Den procedur som beskrivs på denna sida gäller endast organisationer som ännu inte har anslutit sig till Admin Console. Eftersom alla organisationer nu har anslutit sig till Adobe Admin Console går det inte att ändra din Workfront-domän ****.
+>Den procedur som beskrivs på denna sida gäller endast organisationer som ännu inte har anslutit sig till Admin Console. Eftersom alla organisationer nu har anslutit sig till Adobe Admin Console går det inte att ändra din Workfront-domän **&#x200B;**.
 >
 >En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns i [Administrationsskillnader mellan Adobe Workfront och Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
