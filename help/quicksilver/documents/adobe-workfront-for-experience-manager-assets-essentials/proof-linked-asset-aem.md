@@ -6,9 +6,9 @@ description: När du har länkat en resurs från Experience Manager Assets Essen
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abd641a1-081b-4b86-95ee-f0ed030d704c
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 0%
 # Korrektur för en länkad resurs för Experience Manager Assets eller Assets Essentials
 
 När du har länkat en resurs från Experience Manager Assets Essentials kan du skapa ett korrektur och tilldela användare behörighet att granska och lägga till kommentarer i resursen.
+
+>[!NOTE]
+>
+>Den här funktionen är inte tillgänglig i området för nya dokument.<br>
+>Om ditt företag använder Enterprise-lagring visas det nya dokumentområdet när du öppnar dokument i Workfront. Därifrån kan du lägga till resurser från Experience Manager Assets och granska och godkänna dem med Frame.io-visningsprogrammet. Mer information finns i [Använda Adobe Experience Manager med Frame.io-integrering](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 ## Åtkomstkrav
 

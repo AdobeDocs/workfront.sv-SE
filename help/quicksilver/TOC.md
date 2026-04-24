@@ -1,16 +1,16 @@
 ---
-user-guide-title: Användarhandbok om Workfront
-user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
+user-guide-title: Workfront Guide
+user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur ni implementerar och använder Adobe Workfront effektivt i er organisation.
 role: User
 feature-set: Workfront
-source-git-commit: d32fd0ffe1750cb08ec90d0b766034de5ffe6eaf
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '13945'
+source-wordcount: '14070'
 ht-degree: 0%
 
 ---
 
-# Användarhandbok om Workfront {#using}
+# Workfront Guide {#using}
 
 * [Workfront-dokumentation](home.md)
 * Produktmeddelanden {#product-announcements}
@@ -816,8 +816,8 @@ ht-degree: 0%
       * [Skapa OAuth2-program för Workfront-integreringar](administration-and-setup/configure-integrations/create-oauth-application.md)
       * [Visa och hantera anpassade OAuth2-program](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
       * [Konfigurera JumpSeat-integrering](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
-   * Utkast {#blueprints}
-      * [Utkast](administration-and-setup/blueprints/blueprints.md)
+   * Blueprints {#blueprints}
+      * [Blueprints](administration-and-setup/blueprints/blueprints.md)
       * [Översikt över utkast](administration-and-setup/blueprints/blueprints-overview.md)
       * [Konfigurera åtkomst till ritningar](administration-and-setup/blueprints/configure-access-to-blueprints.md)
       * [Installera en plan](administration-and-setup/blueprints/blueprints-install.md)
@@ -1872,7 +1872,7 @@ ht-degree: 0%
    * Arbetsgodkännanden {#work-approvals}
       * [Arbetsgodkännanden](review-and-approve-work/manage-approvals/manage-approvals.md)
       * [Översikt över godkännandeprocessen](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
-      * [Begär dokumentgodkännanden](review-and-approve-work/manage-approvals/request-document-approvals.md)
+      * [Begär godkännande av äldre dokument](review-and-approve-work/manage-approvals/request-document-approvals.md)
       * [Godkänna arbete](review-and-approve-work/manage-approvals/approving-work.md)
       * [Visa godkännanden](review-and-approve-work/manage-approvals/view-approvals.md)
       * [Påminn godkännare om inskickade godkännanden](review-and-approve-work/manage-approvals/remind-approvers-submitted-approvals.md)
@@ -2656,7 +2656,7 @@ ht-degree: 0%
    * [ProofHQ API](proofhq-api/proofhq-api.md)
    * Allmänt {#general}
       * [Allmänt](proofhq-api/general/general.md)
-      * [Översikt](proofhq-api/general/overview.md)
+      * [Ökning](proofhq-api/general/overview.md)
       * [Kodexempel](proofhq-api/general/code-samples.md)
       * [Vanliga frågor om SOAP API](proofhq-api/general/soap-api-faqs.md)
 * [Dolt testdokument](hidden-test.md)

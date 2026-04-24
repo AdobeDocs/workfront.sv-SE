@@ -8,9 +8,9 @@ feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '2585'
+source-wordcount: '2651'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Du kan granska och godkänna dokument som är länkade till en extern molnlevera
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td>
-   <td> <p> Alla</p> </td>
+   <td> <p>Alla</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td>

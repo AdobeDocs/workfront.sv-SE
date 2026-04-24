@@ -8,9 +8,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 66674732-6ad7-477b-8473-03b1dac750a3
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '62'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 Det här avsnittet innehåller följande artiklar:
 
 * [Översikt över godkännandeprocessen](../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
-* [Begär dokumentgodkännanden](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
+* [Begär godkännande av äldre dokument](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 * [Godkänner arbete](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [Visa godkännanden](../../review-and-approve-work/manage-approvals/view-approvals.md)
 * [Påminn godkännare om inskickade godkännanden](../../review-and-approve-work/manage-approvals/remind-approvers-submitted-approvals.md)

@@ -1,21 +1,27 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Begär dokumentgodkännanden
+title: Begär godkännande av äldre dokument
 description: Du kan begära godkännande från chefer eller andra användare för ett dokument i Adobe Workfront. Du kan också begära dokumentgodkännanden från personer utan Workfront-konton om Workfront-administratören har aktiverat den funktionen, enligt beskrivningen i Konfigurera systemsäkerhetsinställningar.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f54a221b-4bf0-414e-b2f3-ace861d85496
-source-git-commit: 2503b6e628e4860a5652c620d8e4d0eea2414443
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
 
-# Begär dokumentgodkännanden
+# Begär godkännande av äldre dokument
 
 Du kan begära godkännande från chefer eller andra användare för ett dokument i Adobe Workfront. Du kan också begära dokumentgodkännanden från personer utan Workfront-konton om Workfront-administratören har aktiverat den här funktionen, enligt beskrivningen i [Konfigurera systemsäkerhetsinställningar](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+
+>[!NOTE]
+>
+>Informationen i den här artikeln avser godkännanden av äldre dokument. <br>
+>Mer information om ny enhetlig granskning och godkännande finns i [Översikt över enhetlig granskning och godkännande](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+
 
 ## Åtkomstkrav
 

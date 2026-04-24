@@ -6,9 +6,9 @@ description: Du kan hantera flera versioner av ett dokument i Workfront.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 477153e4-847b-46ec-8107-72a7399c3767
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,8 @@ Du kan hantera flera versioner av ett dokument i Workfront.
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p> Alla</p> </td> 
+   <td> <p>Alla Workfront-paket för att hantera dokument med äldre Workfront-lagring</p>
+<p>Alla arbetsflödespaket för att hantera dokument med Adobe Enterprise-lagring</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licenser</td> 
@@ -89,7 +90,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. Klicka på ikonen **Öppna sammanfattning** ![Öppna sammanfattning](assets/qs-summary-in-new-toolbar-small.png) i det övre högra hörnet på sidan. Sidpanelen **Dokumentsammanfattning** öppnas.
 
-1. Klicka på menyn **Mer** **Mer** till höger om versionen i avsnittet ![Versioner](assets/more-icon.png) och klicka sedan på **Hämta** i listrutan som visas.
+1. Klicka på menyn **Mer** ![Mer](assets/more-icon.png) till höger om versionen i avsnittet **Versioner** och klicka sedan på **Hämta** i listrutan som visas.
 
    ![Hämta ett enstaka dokument](assets/more-versions-350x143.png)
 
@@ -130,7 +131,7 @@ Så här tar du bort en dokumentversion:
 1. Klicka på ikonen **Öppna sammanfattning** ![Öppna sammanfattning](assets/qs-summary-in-new-toolbar-small.png) i det övre högra hörnet på sidan. Sidpanelen **Dokumentsammanfattning** öppnas.
 
 1. Bläddra ned till avsnittet **Versioner** om du vill visa alla dokumentversioner.
-1. Klicka på menyn **Mer** **Mer** till höger om versionen i avsnittet ![Versioner](assets/more-icon.png) och klicka sedan på **Ta bort** i listrutan som visas.
+1. Klicka på menyn **Mer** ![Mer](assets/more-icon.png) till höger om versionen i avsnittet **Versioner** och klicka sedan på **Ta bort** i listrutan som visas.
 
    >[!NOTE]
    >

@@ -5,9 +5,10 @@ title: Länka resurser och mappar från Experience Manager Assets Essentials
 description: Du kan länka en resurs eller mapp från Experience Manager Assets Essentials till ett Adobe Workfront-objekt som stöder dokument. Assets som skickas från Assets Essentials räknas inte in i ditt totala dokumentlagringsutrymme i Workfront. Dokument som överförs och skickas från Workfront till Assets Essentials räknas in i det totala lagringsutrymmet.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
-source-git-commit: a9dfc5c7838668bd3007c157a4e1a53ab4bd86f5
+exl-id: 0b93f6f6-cf4b-4077-a464-be7f19f7cd25
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
@@ -17,6 +18,8 @@ ht-degree: 0%
 Du kan länka en resurs eller mapp från Experience Manager Assets Essentials till ett Adobe Workfront-objekt som stöder dokument.
 
 Mer information om hur du länkar resurser och mappar från Experience Manager Assets med hjälp av Content Advisor finns i [Länka resurser och mappar med Content Advisor från Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md).
+
+Om du använder Enterprise-lagring kan du läsa [Använda Adobe Experience Manager med Frame.io-integrering](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 
 ## Åtkomstkrav

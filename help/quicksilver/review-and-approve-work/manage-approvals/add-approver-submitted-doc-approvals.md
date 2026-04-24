@@ -6,9 +6,9 @@ description: Du kan lägga till ytterligare godkännare till ett dokumentgodkän
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 2418565a-639c-424e-873a-f6512efc5cb5
-source-git-commit: 628f668f0c5df34eb967729224d91a28cebbb17c
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,8 @@ Du kan lägga till ytterligare godkännare till ett dokumentgodkännande direkt 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Alla</p> </td> 
+   <td><p>Alla Workfront-paket som hanterar godkännanden med hjälp av äldre Workfront-lagring</p>
+<p>Alla arbetsflödespaket som hanterar godkännanden med Adobe Enterprise-lagring</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 

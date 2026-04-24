@@ -7,9 +7,9 @@ description: Du kan skapa en godkännandeprocess och bifoga den till ett objekt 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: dd0822b6-80f1-4a2e-bf6a-0c425984f4d0
-source-git-commit: e4de185f172b173dcc3ad966afa69ffb3bc479eb
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '1752'
+source-wordcount: '1804'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,9 @@ Mer information om hur du skapar en godkännandeprocess på systemnivå eller en
      >     Om du till exempel har ett uppgiftsgodkännande som är associerat med statusen Pågår, ändrar aktiviteten automatiskt status till Pågår när godkännandet beviljas. Det kan inte automatiskt ändra sin status till Slutförd eller någon annan status som inte är associerad med godkännandet.
      >   
      >   
-     >* Enheterna som är kopplade till en godkännandeprocess kan vara användare, jobbroller eller team. Användarna ansvarar själva för att godkänna eller avvisa godkännandet. Du kan tilldela godkännanden till användare som fyller i en viss roll i projektet. Du kan till exempel tilldela ett godkännande till en projektägare eller Sponsorn. Mer information finns i [Skapa en godkännandeprocess för arbetsobjekt](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+     >
+
+   * Enheterna som är kopplade till en godkännandeprocess kan vara användare, jobbroller eller team. Användarna ansvarar själva för att godkänna eller avvisa godkännandet. Du kan tilldela godkännanden till användare som fyller i en viss roll i projektet. Du kan till exempel tilldela ett godkännande till en projektägare eller Sponsorn. Mer information finns i [Skapa en godkännandeprocess för arbetsobjekt](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
      Följande scenarier finns:
 
@@ -145,11 +147,17 @@ När någon i projektet ändrar status till Klart för utskrift får copywriter 
 
 När de båda har godkänt broschyren i Workfront ändras projektstatusen till Klar för utskrift.
 
-## Dokumentgodkännandeprocesser
+## Godkännandeprocesser för äldre dokument
 
-Dokumentgodkännanden används för ett mer allmänt godkännande. Feedback hämtas i chattformat på fliken Uppdateringar. Du kan använda godkännandeknapparna för att godkänna, avvisa eller godkänna med ändringar.
 
-Mer information om hur du lägger till godkännare i ett dokument när det har överförts till Workfront finns i [Begär dokumentgodkännanden](../../review-and-approve-work/manage-approvals/request-document-approvals.md).
+Äldre dokumentgodkännanden används för ett mer allmänt godkännande. Feedback hämtas i chattformat på fliken Uppdateringar. Du kan använda godkännandeknapparna för att godkänna, avvisa eller godkänna med ändringar.
+
+Mer information om hur du lägger till godkännare i ett dokument när det har överförts till Workfront finns i [Begär ett godkännande av ett äldre dokument](../../review-and-approve-work/manage-approvals/request-document-approvals.md).
+
+>[!NOTE]
+>
+>Det finns för närvarande flera alternativ för dokumentgodkännande i Workfront. Mer information finns i [Tillgänglig funktionalitet för dokumentgodkännanden](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md).
+
 
 ## Bevis på godkännandeprocesser
 

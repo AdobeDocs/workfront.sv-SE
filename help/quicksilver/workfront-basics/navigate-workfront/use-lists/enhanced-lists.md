@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2131e91f5269ca5b9f062b6bc6b2cb618f9d279a
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '2915'
+source-wordcount: '2931'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,7 @@ Nedan visas några typer av Workfront-objektlistor som använder det förbättra
 | Lista över ögonblicksbilder | Projekt > Ögonblicksbilder |
 | Lista över resurser för fakturering | Projekt > Resurs för fakturering |
 | Nya avancerade uppdrag för en uppgift | Aktivitet > Uppdrag > Avancerat |
+| Dokument om Adobe Enterprise-lagring | Projekt, uppgift, utgåva, portfölj, programmall > Dokument |
 
 ## Lägga till objekt i en förbättrad lista
 

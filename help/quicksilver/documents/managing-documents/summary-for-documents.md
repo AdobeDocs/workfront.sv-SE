@@ -9,9 +9,9 @@ feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p> Alla</p> </td> 
+   <td> <p>Alla Workfront-paket för att hantera dokument med äldre Workfront-lagring</p>
+<p>Alla arbetsflödespaket för att hantera dokument med Adobe Enterprise-lagring</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licenser</td> 
@@ -85,7 +86,7 @@ Använd detaljavsnittet för att visa översiktsinformation på hög nivå och i
 * [Översikt](#overview)
 * [Anpassad Forms](#custom-forms)
 
-#### Översikt {#overview}
+#### Ökning {#overview}
 
 Expandera avsnittet Översikt om du vill visa eller ladda ned en miniatyrbild, öppna ett korrektur, uppdatera den grundläggande beskrivningen, checka ut dokumentet med mera.
 

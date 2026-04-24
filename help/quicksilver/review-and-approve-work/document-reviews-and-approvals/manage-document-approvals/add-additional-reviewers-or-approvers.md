@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,8 @@ Du kan lägga till ytterligare godkännare eller granskare i ett arbetsflöde f�
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Alla</p> </td> 
+   <td> <p>Alla Workfront-paket som hanterar godkännanden med hjälp av äldre Workfront-lagring</p>
+<p>Alla arbetsflödespaket som hanterar godkännanden med Adobe Enterprise-lagring</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 

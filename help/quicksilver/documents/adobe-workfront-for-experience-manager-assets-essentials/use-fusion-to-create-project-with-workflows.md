@@ -6,9 +6,9 @@ description: Om du skapar ett projekt via Workfront Fusion och vill inkludera Ad
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: 6a21465ab8c92888c83344f33574302c5cc446e8
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,8 @@ Om du skapar ett projekt via Workfront Fusion och vill inkludera Adobe Experienc
 
 >[!NOTE]
 >
->Arbetsflöden är bara tillgängliga i en Adobe Experience Manager as a Cloud Service-integrering. De är inte tillgängliga i integreringar med Adobe Experience Manager Assets Essentials.
+>Arbetsflöden är bara tillgängliga i en Adobe Experience Manager as a Cloud Service-integrering. De är inte tillgängliga i integreringar med Adobe Experience Manager Assets Essentials.<br>
+>Den här funktionen är inte tillgänglig i området för nya dokument.
 
 
 ## Åtkomstkrav
@@ -82,12 +83,12 @@ Om du vill skapa ett projekt som innehåller Adobe Experience Manager-arbetsflö
 1. Lägg till modulen **Workfront** > **Div åtgärd** i ditt scenario.
 1. I fältet **Anslutning** väljer du den Workfront-anslutning som ansluter till kontot som den här modulen ska använda.
 
-   Instruktioner om hur du skapar en anslutning finns i [Anslut [!DNL Workfront] till [!DNL Workfront Fusion]](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) i artikeln Workfront-moduler.
+   Instruktioner om hur du skapar en anslutning finns i [Anslut [!DNL Workfront] till [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) i artikeln Workfront-moduler.
 
    Instruktioner om hur du skapar klient-ID och klienthemlighet som du måste skapa en anslutning finns i [Skapa ett OAuth-program](#create-an-oauth-application) i den här artikeln.
 
-1. Välj **i fältet** Posttyp`Issue`.
-1. Välj **i fältet**&#x200B;Åtgärd`convertToProject`.
+1. Välj `Issue` i fältet **Posttyp**.
+1. Välj `convertToProject` i fältet **Åtgärd**.
 1. Ange eller mappa ID:t för det problem som du konverterar till ett projekt i fältet **ID**.
 1. Aktivera **Visa avancerade inställningar**.
 1. Bläddra längst ned i modulen och leta upp fältet **Projekt (avancerad samling)**.
@@ -127,7 +128,7 @@ Så här hittar du mappträds-ID:n:
 1. Öppna den mall som du vill använda för det här projektet i Workfront. Den här mallen måste innehålla den Adobe Experience Manager-konfiguration som du vill använda för projektet.
 1. Öppna utvecklarverktygen för webbläsaren.
 1. Öppna fliken **Nätverk** i utvecklarverktygen.
-1. Ange **i rutan** Filter`object-workflow`.
+1. Ange `object-workflow` i rutan **Filter**.
 1. Klicka på det alfanumeriska ID:t som visas i kolumnen Namn.
 
    ![Söker efter mapp-ID 1](assets/finding-folder-id-1.png)
@@ -164,4 +165,4 @@ Du måste konfigurera ett OAuth-program i Workfront för den här modulens anslu
 
 Du använder detta klient-ID och klienthemlighet när du konfigurerar modulens anslutning i Fusion.
 
-Instruktioner om hur du skapar en anslutning finns i [Anslut [!DNL Workfront] till [!DNL Workfront Fusion]](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) i artikeln Workfront-moduler.
+Instruktioner om hur du skapar en anslutning finns i [Anslut [!DNL Workfront] till [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) i artikeln Workfront-moduler.
