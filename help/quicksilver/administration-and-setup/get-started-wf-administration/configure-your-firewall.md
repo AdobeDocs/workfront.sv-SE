@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '1539'
-ht-degree: 0%
+source-wordcount: '1576'
+ht-degree: 10%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 0%
 >
 >Den procedur som beskrivs på denna sida gäller endast organisationer som ännu inte har anslutit sig till Admin Console. Eftersom alla organisationer nu har anslutit sig till Adobe Admin Console måste du utföra den här åtgärden via Adobe Admin Console.
 >
->Mer information om hur du konfigurerar ditt tillåtelselista efter att din organisation har anslutit till Adobe Admin Console finns i [Domäner som tillåts för Adobe appar och tjänster](https://helpx.adobe.com/se/enterprise/kb/network-endpoints.html).
+>Mer information om hur du konfigurerar ditt tillåtelselista efter att din organisation har anslutit till Adobe Admin Console finns i [Domäner som tillåts för Adobe appar och tjänster](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
->En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns i [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns i [Administrationsskillnader mellan Adobe Workfront och Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 >[!NOTE]
 >
@@ -140,7 +140,7 @@ Om produktionsmiljön finns i kluster 4 lägger du till följande IP-adresser f�
 * 52.29.197.69
 * 52.48.124.108
 * 69.169.230.231
-* 69.169. 230,232
+* 69.169. 230.232
 * 3.121.91.129
 * 3.122.11.35
 * 34.246.27.40
@@ -513,7 +513,7 @@ Du måste lägga till följande IP-adresser i tillåtelselista för att kunna an
      <li>3.209.27.146</li> 
      <li>18.205.251.4</li> 
      <li>35.165.152.202</li> 
-     <li>54 184 151 122</li> 
+     <li>54.184.151.122</li> 
      <li>35.84.40.190</li> 
      <li>54.218.48.56</li> 
      <li>34.211.224.9</li> 

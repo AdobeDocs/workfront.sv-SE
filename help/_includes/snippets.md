@@ -1,7 +1,7 @@
 ---
-source-git-commit: 8e8eec4977614529a1bab78dda003cdcdf32dba0
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '2158'
+source-wordcount: '2201'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 ## Steg 1 - Komma igång med installationen {#step-1-to-setup}
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet av Adobe Workfront och klicka sedan på ikonen **[!UICONTROL Setup]** ![Konfigurera &#x200B;](/help/_includes/assets/gear-icon-setup.png) .
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet av Adobe Workfront och klicka sedan på ikonen **[!UICONTROL Setup]** ![Konfigurera ](/help/_includes/assets/gear-icon-setup.png) .
 
 ## Formulärdesigner till GA {#form-designer-default}
 
@@ -120,7 +120,7 @@ Du kan kontrollera att du associerar rätt grupp med gruppen genom att hålla ma
 >
 >Den procedur som beskrivs på denna sida gäller endast organisationer som ännu inte har anslutit sig till Adobe Admin Console.
 >
->Om din organisation har anslutit sig till Adobe Admin Console kan du läsa [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Om din organisation har anslutit sig till Adobe Admin Console läser du [Administrationsskillnader mellan Adobe Workfront och Adobe Business Platform](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 ## Steg 1 - Gå till användare {#step-1-to-users}
 
@@ -479,7 +479,7 @@ Så här associerar du användare med ett hemteam:
 1. Klicka på menyn **[!UICONTROL More]** och välj sedan **[!UICONTROL Edit]**.
    ![](/help/_includes/assets/user-settings-nwe-350x291.png)
 
-1. Markera fältet **[!UICONTROL Organization]** i avsnittet **[!UICONTROL Home Team]**. Börja skriva namnet på det team vars inställningar du vill associera med användarna. Klicka på teamets namn när du ser det i listan.
+1. Markera fältet **[!UICONTROL Home Team]** i avsnittet **[!UICONTROL Organization]**. Börja skriva namnet på det team vars inställningar du vill associera med användarna. Klicka på teamets namn när du ser det i listan.
 
 1. Klicka på **[!UICONTROL Save Changes]**.
 De användare du har valt är nu associerade med ett hemteam.

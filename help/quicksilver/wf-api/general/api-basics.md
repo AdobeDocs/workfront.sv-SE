@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '4398'
+source-wordcount: '4461'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ En lista över objekt, giltiga ObjCodes-fält och objektfält finns på  [API E
 >
 >I Workfront API är ett anpassat formulär ett `Category`-objekt och ett anpassat fält är ett `Parameter`-objekt.
 
-### Användning
+### Operationer
 
 Objekten ändras genom att en HTTP-begäran skickas till deras unika URI. Den åtgärd som ska utföras anges av HTTP-metoden.
 
@@ -135,7 +135,7 @@ API:t använder samma cookie-baserade autentisering som används av webbgränssn
 >
 >Den procedur som beskrivs i detta avsnitt gäller endast organisationer som ännu inte har anslutit sig till Adobe Business Platform. Eftersom alla organisationer nu har anslutit sig till Adobe Business Platform är **inloggning på Workfront via Workfront API inte längre tillgänglig** .
 >
->En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Business Platform finns i [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Business Platform finns i [Administrationsskillnader mellan Adobe Workfront och Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Med ett giltigt användarnamn och lösenord kan du använda följande begäran för att få ett sessions-ID:
 
@@ -318,7 +318,7 @@ Som standard returneras bara den mest använda delmängden av fält när du häm
 
 Du kan använda fältparametern request för att ange att en kommaavgränsad lista med specifika fält returneras. Till exempel begäran
 <pre>/attask/api/v15.0/task/search?fields=planningStartDate,priority</pre>returnerar ett svar som liknar följande:
-<pre>{<br>}    "priority": 2,<br>    "name": "first task", <br>    "ID": "4c7c08fa000002ff924e298ee148df4",<br>    "planningStartDate": "2010-08-30T09:00:00:000-0600" <br>&rbrace;</pre>
+<pre>{<br>}    "priority": 2,<br>    "name": "first task", <br>    "ID": "4c7c08fa000002ff924e298ee148df4",<br>    "planningStartDate": "2010-08-30T09:00:00:000-0600" <br>}</pre>
 
 >[!NOTE]
 >
@@ -367,8 +367,8 @@ Du kan använda `count` för att returnera antalet resultat som matchar din frå
 
 Du kan utföra en rapportbegäran där bara sammanställningen av vissa fält är önskvärd med en eller flera grupperingar. Som framgår av följande exempel är rapportsyntaxen densamma som syntaxen för SOAP API:
 <pre>GET /attask/api/v15.0/hour/report?project:name_1_GroupBy=true&amp;hours_AggFunc=sum</pre>som returnerar följande resultat
-<pre>{<br>}    "Första projektet": <br>        "sum_hours": 15 <br>    &rbrace;, <br>     "Andra projektet": <br>        "sum_hours": 30 <br>    &rbrace; <br></pre>Om du lägger till parametern $$ROLLUP=true inkluderas en summa på varje grupperingsnivå:
-<pre>{<br>}    "Första projektet": <br>        "sum_hours": 15 <br>    &rbrace;, <br>    "Andra projektet": <br>        "sum_hours": 30 <br>    &rbrace;, <br>    "$$ROLLUP": { <br>        "sum_hours": 45 <br>    } <br></pre>
+<pre>{<br>}    "Första projektet": <br>        "sum_hours": 15 <br>    }, <br>     "Andra projektet": <br>        "sum_hours": 30 <br>    } <br></pre>Om du lägger till parametern $$ROLLUP=true inkluderas en summa på varje grupperingsnivå:
+<pre>{<br>}    "Första projektet": <br>        "sum_hours": 15 <br>    }, <br>    "Andra projektet": <br>        "sum_hours": 30 <br>    }, <br>    "$$ROLLUP": { <br>        "sum_hours": 45 <br>    } <br></pre>
 
 ### Sortering av frågeresultat i API
 
@@ -405,7 +405,7 @@ För att få optimala prestanda visas i följande tabell de begränsningar som f
   </tr> 
   <tr> 
    <td>Maximalt antal resultat</td> 
-   <td>2 000</td> 
+   <td>2,000</td> 
    <td>Frågefiltret (dvs. $$LIMIT) kan inte returnera fler än 2 000 resultat. Mer information finns i"Sidnumrerade svar".</td> 
   </tr> 
   <tr> 
@@ -415,12 +415,12 @@ För att få optimala prestanda visas i följande tabell de begränsningar som f
   </tr> 
   <tr> 
    <td>Maximalt antal objekt</td> 
-   <td>50 000</td> 
+   <td>50,000</td> 
    <td>Resultatuppsättningen får inte innehålla 50000 primära och sekundära objekt.</td> 
   </tr> 
   <tr> 
    <td>Maximalt antal fält</td> 
-   <td nowrap>1 000 000</td> 
+   <td nowrap>1,000,000</td> 
    <td>När resultatmängden är mindre än 50 000 objekt kan resultatet innehålla högst 1 000 000 fält.</td> 
   </tr> 
   <tr> 
@@ -475,8 +475,8 @@ POST /attask/api/v15.0/project?copySourceID=4c7...&name=Copied Project
 
 Du kan överföra dokument via följande API-URL:
 <pre>POST /attask/api/v15.0/upload</pre>API förväntar sig att innehållstypen ska vara multipart/form-data. Filens parameternamn måste vara uploadedFile. Servern returnerar följande JSON-data:
-<pre>{<br>}    "handle": "4c7c08fa000002ff924e298ee148df4" <br>&rbrace;</pre>Du kan använda handtaget och skicka till följande URL när du skapar ett Workfront-dokument:
-<pre>POST /attask/api/v15.0/document?updates=<br>    name: aFileName, <br>    handle: abc...123, (handle from the file upload) <br>    docObjCode: PROJ, (eller TASK, OPTASK osv.) <br>    objID: abc...123,<br>    currentVersion:{version:v1.0,filnamn:aFilnamn}<br>&rbrace;</pre>
+<pre>{<br>}    "handle": "4c7c08fa000002ff924e298ee148df4" <br>}</pre>Du kan använda handtaget och skicka till följande URL när du skapar ett Workfront-dokument:
+<pre>POST /attask/api/v15.0/document?updates=<br>    name: aFileName, <br>    handle: abc...123, (handle from the file upload) <br>    docObjCode: PROJ, (eller TASK, OPTASK osv.) <br>    objID: abc...123,<br>    currentVersion:{version:v1.0,filnamn:aFilnamn}<br>}</pre>
 
 ## PUT Behavior
 
@@ -497,7 +497,7 @@ Som visas i följande exempel kan du använda parametern för uppdateringsbegär
 ### Skapa kapslade uppdateringar
 
 Vissa objekt har privatägda samlingar som kan uppdateras. I följande exempel visas hur du skriver över befintliga tilldelningar för en viss uppgift:
-<pre>PUT /attask/api/v15.0/task/4c7..?updates= <br>{<br>}    tilldelningar: [ <br>        <br>            assignToID: "2222...54d0, <br>            assignPercent: 50.0 <br>        &rbrace;,{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br></pre>
+<pre>PUT /attask/api/v15.0/task/4c7..?updates= <br>{<br>}    tilldelningar: [ <br>        <br>            assignToID: "2222...54d0, <br>            assignPercent: 50.0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br></pre>
 
 >[!NOTE]
 >
@@ -509,7 +509,7 @@ I följande exempel blir ett projekt en offentlig helpdesk-kö. Observera att de
 ### Använda parametern Åtgärdsbegäran
 
 Vissa objekt har stöd för ytterligare åtgärder som kan utföras utöver enkla redigeringar. Du kan ange dessa åtgärder med parametern för åtgärdsbegäran. Följande begäran beräknar till exempel om tidslinjen för ett givet projekt:
-<pre>PUT /attask/api/v15.0/project/4c7..?action=calculateTimeline<br><br>eller<br><br>PUT /attask/api/v15.0/project/4c7../calculateTimeline </pre>
+<pre>PUT /attask/api/v15.0/project/4c7..?action=calculateTimeline<br><br>eller<br><br>PUT /attask/api/v15.0/project/4c7.../calculateTimeline </pre>
 
 ### Flytta objekt
 
@@ -536,9 +536,9 @@ DELETE tar bort ett objekt. I samtliga fall kan URI:n innehålla parametern forc
 
 En satsvisa uppdateringssats uppdaterar flera objekt samtidigt i ett enda API-anrop. Ett API-anrop för att skapa satsvis byggs på liknande sätt som ett vanligt uppdateringsanrop, vilket visas i följande exempel:
 <pre>PUT /attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>eller <pre>PUSH /attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>vilket ger en avkastning som liknar följande:
-<pre>data: [{<br>}    ID: "53ff8d3d003b438b57a8a784df38f6b3",<br>    namn: "Test_Project_1",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    planningStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioritet: 0,<br>    selectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>&rbrace;,<br>&lbrace;<br>    ID: "53ff8d49003b43a2562aa34eea3b6b10",<br>    namn: "Test_Project_2",<br>    objCode: "PROJ",<br>    percentComplete: 0usi,<br>    planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    planningStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioritet: 0,<br>    selectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>]</pre>Du kan också göra en gruppuppdatering som liknar följande:
+<pre>data: [{<br>}    ID: "53ff8d3d003b438b57a8a784df38f6b3",<br>    namn: "Test_Project_1",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    planningStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioritet: 0,<br>    selectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>},<br>{<br>    ID: "53ff8d49003b43a2562aa34eea3b6b10",<br>    namn: "Test_Project_2",<br>    objCode: "PROJ",<br>    percentComplete: 0usi,<br>    planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    planningStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioritet: 0,<br>    selectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>]</pre>Du kan också göra en gruppuppdatering som liknar följande:
 <pre>PUT /attask/api/v15.0/proj?Umethod=PUT&amp;updates=[{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_1_Edit"},{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxx", "name":"Test_Project_2_Edit"}]&amp;apiKey=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>vilket ger en avkastning som liknar följande:
-<pre>data: [ {<br>}     ID: "53ff8e15003b461d4560f7f65a440078",<br>     name: "Test_Project_1_Edit",<br>     objCode: "PROJ",<br>     percentComplete: 0,<br>     planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>     planningStartDate: "2014-08-28T11:00:00:000-0400",<br>     prioritet: 0,<br>     selectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>     status: "CUR"<br>&rbrace;,<br>&lbrace;<br>    ID: "53ff8e19003b46238a58d303608de502",<br>    namn: "Test_Project_2_Edit",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    planningStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioritet: 0,<br>    selectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>    status: "CUR"<br>]</pre>Om du vill att alla åtgärder ska utföras i samma transaktion lägger du till"atomic=true" i ditt batch-API-anrop som en request-parameter. På så sätt återställs alla åtgärder om någon av åtgärderna misslyckas.
+<pre>data: [ {<br>}     ID: "53ff8e15003b461d4560f7f65a440078",<br>     name: "Test_Project_1_Edit",<br>     objCode: "PROJ",<br>     percentComplete: 0,<br>     planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>     planningStartDate: "2014-08-28T11:00:00:000-0400",<br>     prioritet: 0,<br>     selectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>     status: "CUR"<br>},<br>{<br>    ID: "53ff8e19003b46238a58d303608de502",<br>    namn: "Test_Project_2_Edit",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    planningStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioritet: 0,<br>    selectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>    status: "CUR"<br>]</pre>Om du vill att alla åtgärder ska utföras i samma transaktion lägger du till"atomic=true" i ditt batch-API-anrop som en request-parameter. På så sätt återställs alla åtgärder om någon av åtgärderna misslyckas.
 
 >[!NOTE]
 >
