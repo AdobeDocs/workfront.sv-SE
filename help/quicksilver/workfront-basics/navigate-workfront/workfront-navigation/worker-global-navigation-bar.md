@@ -7,16 +7,16 @@ description: Huvudmenyn ändras med den åtkomstnivå som du har tilldelats av d
 author: Lisa and Courtney
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+source-git-commit: 1b44fbfc6900efe247db760e958f626d665754c7
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
 
 # Förstå navigeringen för en [!UICONTROL Work]-licensanvändare
 
-[!UICONTROL Main Menu] ändras med den åtkomstnivå som du har tilldelats av din [!DNL Adobe Workfront]-administratör. Som standard får du bara åtkomst till de områden som har funktioner som är tillåtna på din åtkomstnivå. Mer information om komponenterna i standardlayouten för varje åtkomstnivå finns i [Om standardlayouten [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
+[!UICONTROL Main Menu] ändras med den åtkomstnivå som du har tilldelats av din [!DNL Adobe Workfront]-administratör. Som standard får du bara åtkomst till de områden som har funktioner som är tillåtna på din åtkomstnivå. Mer information om komponenterna i standardlayouten för varje åtkomstnivå finns i [Om standardlayouten [!DNL Adobe Workfront] ](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
 ## Förstå standardvärdet [!UICONTROL Main Menu] för en arbetare
 
@@ -34,6 +34,8 @@ Följande områden ingår i standardlayouten för en [!UICONTROL Worker]:
 
 * **[!UICONTROL Calendars]**: Kalendrar som delas med dig visas här. Mer information finns i [Kalendrar: artikelindex](../../../reports-and-dashboards/reports/calendars/calendars.md).
 
+* **[!UICONTROL Resourcing]**: Du kan visa resursallokering i verktygen för resursplanering och visa resurspooler här. Mer information finns i [Hantera resurser](../../../resource-mgmt/manage-resources.md).
+
 * **[!UICONTROL Teams]**: Uppgifter och utgåvor som tilldelats dina team visas i det här området. Som arbetare är du den enda [!DNL Workfront]-användaren som ser [!UICONTROL Teams]-området som standard.
 
   Mer information finns i [Skapa och hantera team](../../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md).
@@ -44,13 +46,13 @@ Följande områden ingår i standardlayouten för en [!UICONTROL Worker]:
 
 * **[!UICONTROL Documents]**: Du kan överföra dokument, eller granska dokument som delas med dig, här. Mer information finns i [Dokument](../../../documents/documents-overview.md).
 
-* **[!UICONTROL Resourcing]**: Du kan visa resursallokering i verktygen för resursplanering och visa resurspooler här. Mer information finns i [Hantera resurser](../../../resource-mgmt/manage-resources.md).
+* **[!UICONTROL Blueprints]**: Granska befintliga utkast i systemet och begär att en ska installeras, om [!DNL Workfront] -administratören konfigurerade begärandekön för utkast. Mer information finns i [Översikt över utkast](../../../administration-and-setup/blueprints/blueprints-overview.md).
+
+* **[!UICONTROL Priorities]**: Du kan hantera och prioritera arbetet snabbt. Mer information finns i [Kom igång med prioriteringar](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md).
 
 * **[!UICONTROL Boards]**: Arbeta flexibelt och i samarbete med teammedlemmarna genom att använda delade paneler som innehåller kolumner och kort som visar det arbete du vill få gjort. Mer information finns i [Kom igång med anslagstavlor: artikelindex](../../../agile/get-started-with-boards/get-started-with-boards.md).
 
-* **[!UICONTROL Blueprints]**: Granska befintliga utkast i systemet och begär att en ska installeras, om [!DNL Workfront] -administratören konfigurerade begärandekön för utkast. Mer information finns i [Översikt över utkast](../../../administration-and-setup/blueprints/blueprints-overview.md).
-
-![Arbetarens huvudmeny](assets/worker-main-menu-350x426.png)
+![Arbetarens huvudmeny](assets/worker-main-menu-2026.png)
 
 ## Anpassa din standardinställning för [!UICONTROL Main Menu]
 

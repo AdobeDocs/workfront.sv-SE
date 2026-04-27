@@ -9,9 +9,9 @@ feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 73364ecfd52621c9c5a966092bf4b4575b980afc
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -32,10 +32,10 @@ Med anslagstavlor kan du:
 
 Mer information om hur du använder de grundläggande funktionerna för ritytor finns i [Kom igång med ritytor: artikelindex](../agile/get-started-with-boards/get-started-with-boards.md). Mer information om Agile-planeringsverktyg i ritytor finns i [Översikt över Agile-planeringsverktyg](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
 
-Mer information om hur du använder en anslagstavla i ett projekt finns i [Hantera ett projekt i Agile-vyn](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Mer information om hur du använder en styrelse i ett projekt finns i [Hantera ett Agile-projekt i styrelsvyn](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 Du kan även komma åt paneler i mobilappen. Mer information finns i [[!DNL Adobe Workfront] [!UICONTROL Boards] för mobil](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
 
-Videogenomgångar av brädfunktioner finns i [[!DNL Adobe Workfront] [!UICONTROL Boards] videodemonstrationer &#x200B;](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md).
+Videogenomgångar av brädfunktioner finns i [[!DNL Adobe Workfront] [!UICONTROL Boards] videodemonstrationer ](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md).
 
 Mer information om ytterligare Agile-verktyg i [!DNL Workfront] finns i [Agile overview](../agile/agile-overview.md).
