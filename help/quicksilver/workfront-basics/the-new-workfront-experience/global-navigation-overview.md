@@ -24,7 +24,7 @@ Det övre navigeringsfältet, som visas högst upp på skärmen i [!DNL Adobe Wo
 
 Ikonen **[!UICONTROL Home]** ![](assets/home-icon.png) tar dig till sidan [!UICONTROL Home], som är standardstartsidan.
 
-Som standard öppnas området Hem med Hem-ikonen. Mer information om Hem finns i [Använda [!UICONTROL Home] området ](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+Som standard öppnas området Hem med Hem-ikonen. Mer information om Hem finns i [Använda [!UICONTROL Home] området &#x200B;](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
 Workfront-administratören kan anpassa hemikonen för att öppna en annan sida genom att skapa en layoutmall och tilldela den till dig. Mer information finns i [Anpassa landningssidan med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
 
