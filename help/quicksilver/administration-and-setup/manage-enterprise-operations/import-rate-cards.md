@@ -7,9 +7,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: debe90e7-08c2-4385-96fb-8d349dec6741
-source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
+source-git-commit: aa774419e65e9e4a5785382d3cb2b22bdb0389c9
 workflow-type: tm+mt
-source-wordcount: '1691'
+source-wordcount: '1807'
 ht-degree: 0%
 
 ---
@@ -134,38 +134,38 @@ Se till att datum inte överlappar om det inte är tänkt.
 
      >[!IMPORTANT]
      >
-     >Du kan inte ange data i både kolumnerna **Jobbroll** och **Resurskategori** som inte är arbetsplats. En krävs.
+     >Du kan inte ange data i både kolumnerna **Jobbroll** och **Resurskategori** som inte är arbetsplats. One is required.
 
-   * **Startdatum** (valfritt): Det datum då tariffen börjar gälla.
+   * **Start Date** (optional): The date when the rate becomes effective.
 
-     Datumet måste följa något av de format som stöds (beroende på var du befinner dig): MM/dd/åååå, dd/MM/åååå, MM/DD/YY, DD/MM/YY, M/d/yy, d/M/åååå/MM/dd, åååå/dd/MM, ååååå-MM-dd, ååååå-dd-MM
+     The date must follow one of the supported formats (depending on your location): MM/dd/yyyy, dd/MM/yyyy, MM/DD/YY, DD/MM/YY, M/d/yy, d/M/yy, yyyy/MM/dd, yyyy/dd/MM, yyyy-MM-dd, yyyy-dd-MM
 
-     Exempel: 01/01/2025
+     Example: 01/01/2025
 
-     Mer information finns i [Datumformateringskrav](#date-formatting-requirements) nedan.
+     For more information, see [Date formatting requirements](#date-formatting-requirements), below.
 
-   * **Slutdatum** (valfritt): Det datum då hastigheten slutar att gälla.
+   * **End Date** (optional): The date when the rate stops being effective.
 
-     Detta datum måste följa samma format som startdatumet som stöds.
+     This date must follow the same supported formats as the start date.
 
-     Mer information finns i [Datumformateringskrav](#date-formatting-requirements) nedan.
+     For more information, see [Date formatting requirements](#date-formatting-requirements), below.
 
-   * **Värde** (valfritt): Det numeriska hastighetsvärdet, till exempel 150. Standardvärdet är 0.
-   * **Valuta** (valfritt): Valutan för kursen, till exempel USD, EUR, GBP. Standardvärdet är systemvalutan.
-   * **Låst** (valfritt): Anger om hastigheten är låst. Giltiga värden är True eller False.
-   * **Attribut** (valfritt/anpassat): De sista kolumnerna (Byrå, Plats, Kostnadscenter osv.) är Attribut som skiljer sig åt beroende på kundkonfiguration. Det här är anpassningsbara fält och kan variera mellan olika kundmiljöer.
+   * **Value** (optional): The numeric rate value, for example 150. Standardvärdet är 0.
+   * **Currency** (optional): The currency for the rate, for example USD, EUR, GBP. The default is the system currency.
+   * **Locked** (optional): Indicates if the rate is locked. Valid values are True or False.
+   * **Attributes** (optional / custom): The last columns (Agency, Location, Cost Center, etc.) are Rate Attributes that differ by customer configuration. These are customizable fields and may vary per customer environment.
 
-     Exempel: Agency = &quot;1: Agency,&quot; Location = &quot;Chicago,&quot; Cost Center = &quot;22: Cost Centre&quot;
+     Example: Agency = &quot;1: Agency,&quot; Location = &quot;Chicago,&quot; Cost Center = &quot;22: Cost Center&quot;
 
-### Fyll i fliken RSALS (alias för tariffkort)
+### Fill out the RSALS (Rate Card Alias) tab
 
-Skapa och visa alla alias på den här fliken. Varje rad representerar ett alias.
+Create and list all of the aliases on this tab. Each row represents one alias.
 
-När hastighetskortet är kopplat till ett projekt visas aliaset på information som platshållartilldelningar, utgifter och rapporter i stället för den interna jobbrollens namn. Endast ett alias kan finnas för varje jobbroll och attributkombination inom ett kreditkort.
+When the rate card is attached to a project, the alias appears on information such as placeholder assignments, expenses, and reports, instead of the internal job role name. Only one alias can exist for each job role and attribute combination within a single rate card.
 
-Ett alias läggs till i systemet, men är inte anslutet till en jobbroll baserat på informationen på den här fliken.
+An alias is added to the system, but it is not connected to a job role based on the information on this tab.
 
-![Fliken RSALS i mallfilen för tariffkortsimport](assets/rsals-tab-rate-card-import.png)
+![RSALS tab on rate card import template file](assets/rsals-tab-rate-card-import.png)
 
 1. Ange namnet på ett alias på varje rad.
 
@@ -201,36 +201,46 @@ På den här fliken kan du definiera anslutningar mellan resurser och alias för
 
    * **Resursalias**: Det alias som anges på fliken RSALS.
 
-### Formateringskrav för datum
+### Date formatting requirements
 
-När du förbereder tariffkortsdata för import måste du se till att datumkolumnerna formateras som **Allmänt**, inte som **Datum**.
+When preparing rate card data for importing, you must ensure that the date columns are formatted as **General**, not as **Date**.
 
-Om kolumnerna är inställda på datumformat kan systemet feltolka värden under importprocessen, vilket kan leda till fel eller misslyckade överföringar. Om du använder formatet Allmänt bevaras datumets numeriska råformat eller textbeteckning, vilket gör att systemet kan validera och använda värdena korrekt.
+If the columns are set to Date format, the system may misinterpret values during the import process, leading to errors or failed uploads. Using the General format preserves the raw numeric or text representation of the date, allowing the system to correctly validate and apply the values.
 
-Om du följer dessa steg förhindras onödiga problem och en smidig och korrekt import av tariffdata säkerställs.
+Following these steps will prevent unnecessary issues and ensure a smooth and accurate import of rate data.
 
-1. Markera datumkolumnerna i kalkylbladet innan du sparar eller överför filen.
-1. Ändra kolumnformatet till **Allmänt**.
-1. Kontrollera att värdena fortfarande visas korrekt (till exempel 01/01/2025 eller 2025-01-01).
+1. Before saving or uploading the file, select the date columns in the spreadsheet.
+1. Change the column format to **General**.
+1. Verify that the values still display correctly (for example, 01/01/2025 or 2025-01-01).
 
-## Importera mallfilen
+## Import the template file
 
 {{step-1-to-setup}}
 
 1. Klicka på [!UICONTROL **Klassificera kort**] i den vänstra panelen.
-1. Klicka på **Nytt tariffkort** och sedan på **Importera nya tariffkort**.
-1. Dra och släpp filen i dialogrutan eller klicka på **Välj en Excel-fil** om du vill bläddra till filen på datorn.
-1. Klicka på **Börja importera**.
+1. Click **New rate card**, then click **Import new rate cards**.
+1. Drag and drop your file into the dialog, or click **Select an Excel file** to browse to the file on your computer.
+1. Click **Start importing**.
 
-   Om det inte är några problem med filen visas ett bekräftelsemeddelande och de nya priskorten visas i listan.
+   If there are no issues with the file, then a confirmation message appears and the new rate cards appear in the list.
 
-1. Om filen innehåller problem visas ett felmeddelande. Klicka på **Visa problem** om du vill visa problemen på en separat skärm.
+1. If the file contains issues, an error message appears. Click **See issues** to view the issues on a separate screen.
 
-   Du måste korrigera problemen i Excel-filen och importera den igen innan tariffkorten finns i Workfront.
+   You must correct the issues in the Excel file and import it again before the rate cards will exist in Workfront.
 
-## Uppdatera befintliga tariffkort
+## Update existing rate cards
 
-Du kan uppdatera tarifferna i dina befintliga tariffkort med samma Excel-mall och överföra ändringarna till Workfront.
+You can update the rates in your existing rate cards using the same Excel template and upload those changes to Workfront.
+
+Only the RATE_RTCRD (Rates Setup) tab is required for updating existing rates.
+
+>[!NOTE]
+>
+>Uploading rates for an existing rate card overwrites all of the current job roles and rates on the rate card.
+>
+>For example, if you have 5 job roles with rates on the existing rate card and the Excel file has 1 job role, then the rate card will have 1 job role after you upload. To keep the other 5 job roles and their rates on the rate card, you must include them in the Excel file.
+
+To update existing rate cards:
 
 {{step-1-to-setup}}
 
