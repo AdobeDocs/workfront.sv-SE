@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
+source-git-commit: ccdace08434cd2abc1290a1ae038ba20f0adbdf6
 workflow-type: tm+mt
-source-wordcount: '3544'
+source-wordcount: '3571'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,8 @@ Du kan till exempel visa eller hoppa över fält eller avsnitt i ett anpassat fo
  <tbody> 
   <tr> 
    <td>Adobe Workfront package</td> 
-   <td> <p>Använda avancerad visning, standardvärde, villkorsstyrd formatering eller redigeringslogik: Arbetsflöde Prime eller senare</p>
-         <p>Så här använder du alla andra logiktyper: alla Workfront- eller Workflow-paket</p> </td> 
+   <td> <p>Om du vill använda avancerad visning, standardvärde, villkorsstyrd formatering eller redigeringslogik: Arbetsflöde Prime eller senare</p>
+         <p>Så här använder du alla andra logiktyper: Alla Workfront- eller Workflow-paket</p> </td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront-licens</td> 
@@ -75,7 +75,7 @@ Klicka på **Visa logik** i formulärdesignerns sidhuvud om du vill visa eller d
 | ![Ändringslogik för målfält](assets/editability-logic-icon.png) | Fältet är målfältet där redigerbarhetslogik används. Fältet kan vara redigerbart eller skrivskyddat när de definierade villkoren uppfylls. Målfältet och referensfältet kan vara samma för redigeringslogik. |
 | ![Ändringslogik för referensfält](assets/editability-logic-reference-field.png) | Fältet är referensfältet för redigeringslogik. När de definierade villkoren uppfylls i det här fältet används logiken i målfältet. Målfältet och referensfältet kan vara samma för redigeringslogik. |
 
-[Logic icons](assets/custom-form-logic-icon-samples.png)
+![Logic icons](assets/custom-form-logic-icon-samples.png)
 
 Om du bara vill visa och hoppa över logik markerar du ett fält för att visa de befintliga logikreglerna i fältinställningarna.
 
@@ -137,7 +137,7 @@ Visningslogik definierar vilka anpassade fält som visas i formuläret när anv�
 
 ## Lägga till avancerad visningslogik i ett anpassat formulär
 
-Med den avancerade visningslogiken för anpassade formulärfält kan du skapa komplex logik med hjälp av formler. Du kan använda den här logiken för följande fälttyper: enkelradstext, stycke, text med formatering, envalslistruta, flervalslistruta, extern sökning, flervalssökning, intern fältreferens, typhuvud, beräknad, datum, kryssrutegrupp och alternativknappar.
+Med den avancerade visningslogiken för anpassade formulärfält kan du skapa komplex logik med hjälp av formler. Du kan använda den här logiken för följande fälttyper: enkelradstext, stycke, text med formatering, listruta för ett val, flervalsmeny, extern sökning, flervalssökning, intern fältreferens, typsnitt, beräknat, datum, kryssrutegrupp och alternativknappar.
 
 >[!NOTE]
 >
@@ -226,7 +226,7 @@ Hopplogik definierar anpassade formulärfält som hoppas över när användaren 
 
 Med standardvärdeslogik kan du konfigurera standardvärden för anpassade formulärfält med hjälp av formler. Standardvärdet visas när de definierade villkoren uppfylls. Ett standardvärde kan vara ett statiskt värde eller ett dynamiskt värde som refererar till andra fält i objektet. Även om standardvärdet kan referera till andra fält, ändras det inte som andra fält i formulärändringen.
 
-Du kan använda avancerad standardvärdelogik för följande fälttyper: enkelradstext, stycke, envalslistruta, flervalslistruta, extern sökning, flervalssökning. intern fältreferens, typsnitt, kryssrutegrupp och alternativknappar.
+Du kan använda avancerad standardvärdelogik för följande fälttyper: enkelradig text, stycke, listruta för enstaka val, listruta för flera val, extern sökning, flervalssökning. intern fältreferens, typsnitt, kryssrutegrupp och alternativknappar.
 
 >[!TIP]
 >
@@ -274,7 +274,7 @@ Valideringslogiken byggs med formler och du kan göra logiken så enkel eller ko
 
 Om fältet med den logik som används uppfyller de definierade valideringsvillkoren när en användare fyller i det anpassade formuläret, markeras fältet och felmeddelandet visas.
 
-Du kan använda valideringslogik för följande fälttyper: enkelradstext, stycke, envalslistruta, flervalslistruta, extern sökning, flervalssökning, texthuvud, datum, kryssrutegrupp och alternativknappar.
+Du kan använda valideringslogik för följande fälttyper: enkelradstext, stycke, listruta med ett val, listruta med flera val, extern sökning, flervalsfunktion för extern sökning, typsnitt, datum, kryssrutegrupp och alternativknappar.
 
 ### Exempel
 
@@ -321,7 +321,7 @@ Fler exempel på valideringslogik finns i [Exempel på avancerad logik i anpassa
 
 Formateringslogiken markerar ett fältvärde när det uppfyller de definierade villkoren. Den använda formateringen fungerar för flera fält samtidigt.
 
-Du kan använda formateringslogik för följande fälttyper: enkelradstext, stycke, envalslistruta, flervalslistruta, extern sökning, flervalssökning, texthuvud, beräknad, datum, kryssrutegrupp och alternativknappar.
+Du kan använda formateringslogik för följande fälttyper: enkelradstext, stycke, listruta för enstaka val, flervalslistruta, extern sökning, flervalsfunktion för extern sökning, typsnitt, beräknat, datum, kryssrutegrupp och alternativknappar.
 
 Formatering som används i anpassade formulär är skilt från formatering som används i listor och rapporter. Mer information om rapportformatering finns i [Använda villkorsstyrd formatering i vyer](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
@@ -384,7 +384,7 @@ IF(
 
 Ändringslogik avgör om ett anpassat formulärfält kan redigeras eller om det är skrivskyddat. Den här logiken skapas med formler, och när fältet uppfyller de definierade villkoren kan det anges som redigerbart eller skrivskyddat.
 
-Du kan använda redigeringslogik för följande fälttyper: enkelradstext, stycke, text med formatering, listruta med ett val, flervalslistruta, extern sökning, flervalssökning, texthuvud, datum, kryssrutegrupp och alternativknappar.
+Du kan använda redigeringslogik för följande fälttyper: enkelradstext, stycke, text med formatering, listruta för enstaka val, flervalsmeny, extern sökning, flervalssökning, typsnitt, datum, kryssrutegrupp och alternativknappar.
 
 ### Exempel
 
