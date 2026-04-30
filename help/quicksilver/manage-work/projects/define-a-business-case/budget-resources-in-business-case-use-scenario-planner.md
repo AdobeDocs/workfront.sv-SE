@@ -5,9 +5,9 @@ description: Som en del av resursplaneringen kan du använda Adobe Workfront Sce
 author: Becky
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '961'
 ht-degree: 0%
 
 ---
@@ -111,9 +111,9 @@ Innan du börjar måste du göra följande:
 >Du kan budgetera dina resurser för en period på 15 år. Om du budgeterar resurser för ett projekt med en varaktighet på mer än 15 år kanske budgetinformationen inte är korrekt.
 
 <!--
-><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">>
+> >
 >(is this still accurate for the Scenario Planner?)>
-></MadCap:conditionalText>>
+> >
 -->
 
 1. Gå till projektet som du vill budgetera resurser för.

@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '2903'
+source-wordcount: '2969'
 ht-degree: 0%
 
 ---
@@ -256,8 +256,8 @@ Du kan ändra något av följande i det här underavsnittet:
    <td> Om din [!DNL Workfront]-administratör har aktiverat en SSO-integrering med [!DNL Workfront] visas ditt SSO-användarnamn i det här fältet. Typen av SSO-konfiguration som är aktiverad för din [!DNL Workfront]-instans visas i det här fältet.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>(Villkorligt) [!UICONTROL Only Allow &lt;SSO Configuration> Authentication]</strong></td> 
-   <td> <p> Om administratören för [!DNL Workfront] aktiverade en SSO-integrering med [!DNL Workfront] och har uppdaterat användare för enkel inloggning, är det här fältet markerat som standard. Typen av SSO-konfiguration som är aktiverad för din [!DNL Workfront]-instans visas i det här fältet.</p> <p>När det här fältet är markerat måste du logga in på [!DNL Workfront] med dina SSO-autentiseringsuppgifter. Om du avmarkerar den kan du logga in på [!DNL Workfront] med dina [!DNL Workfront]-inloggningsuppgifter.</p> <p>Mer information om hur du konfigurerar [!DNL Workfront] med en SSO-lösning finns i <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">Enkel inloggning i [!DNL Workfront]: artikelindex</a>. Mer information om hur du uppdaterar användare för enkel inloggning finns i <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Uppdatera användare för enkel inloggning</a>.</p> </td> 
+   <td role="rowheader"><strong>(Villkorligt) [!UICONTROL Only Allow <SSO Configuration> Authentication]</strong></td> 
+   <td> <p> Om administratören för [!DNL Workfront] aktiverade en SSO-integrering med [!DNL Workfront] och har uppdaterat användare för enkel inloggning, är det här fältet markerat som standard. Typen av SSO-konfiguration som är aktiverad för din [!DNL Workfront]-instans visas i det här fältet.</p> <p>När det här fältet är markerat måste du logga in på [!DNL Workfront] med dina SSO-autentiseringsuppgifter. Om du avmarkerar den kan du logga in på [!DNL Workfront] med dina [!DNL Workfront]-inloggningsuppgifter.</p> <p>Mer information om hur du konfigurerar [!DNL Workfront] med en SSO-lösning finns i <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">enkel inloggning [!DNL Workfront]: artikelindex </a>. Mer information om hur du uppdaterar användare för enkel inloggning finns i <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Uppdatera användare för enkel inloggning</a>.</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -383,16 +383,16 @@ Du kan ändra något av följande i det här underavsnittet:
    <td role="rowheader"><strong>[!UICONTROL Layout Template]</strong> </td> 
    <td>Det här fältet är synligt för användare med åtkomstnivån [!UICONTROL Standard], [!UICONTROL Plan] eller [!UICONTROL [!DNL Workfront] administrator] och kan bara redigeras för [!UICONTROL [!DNL Workfront] administratörer] eller användare med en [!UICONTROL Standard]- eller [!UICONTROL Plan]-licens som också har administratörsbehörighet. Här väljer du en layoutmall för att uppdatera utseendet och fältet i Workfront-gränssnittet. Mer information om hur du konfigurerar användare med administrativ användaråtkomst finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">Konfigurera användarnas åtkomst till att redigera användare med en anpassad åtkomstnivå</a> i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst till användare</a>.<br>Mer information om layoutmallar och hur de påverkar gränssnittet finns i <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Skapa och hantera layoutmallar</a></td> 
   </tr>
-  <!--
+  &lt;!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader"><strong>Log in as</strong> </td> 
-    <td> <p><strong>Add access</strong> for a Workfront administrator or group administrator (associated with a group you are in) to log in as you. Select an <strong>Access expiration date</strong> for the login. </p> <p>You can repeat this to grant login access to multiple administrators.</p> <p>The settings you choose in this section are visible only to you.
-       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-        <span class="PinkDraftNote">Add a note about this being only for the Enterprise package if they decide to do it that way. Functionality that may come in a later sprint: If you want to be notified when the administrator logs in as you, select Receive an email when this user logs in.</span> 
-       </MadCap:conditionalText>
-      </p> </td> 
-   </tr>
-  --> 
+    <td role="rowheader"><strong>Logga in som</strong> </td> 
+    <td> <p><strong>Lägg till åtkomst</strong> för en Workfront-administratör eller gruppadministratör (som är kopplad till en grupp som du är medlem i) för att logga in medan du. Välj ett <strong>förfallodatum för åtkomst</strong> för inloggningen. </p> <p>Du kan upprepa det här om du vill ge flera administratörer inloggningsåtkomst.</p> <p>De inställningar du gör i det här avsnittet visas bara för dig.
+
+    &lt;span class=&quot;PinkDraftNote&quot;>Lägg till en anteckning om att detta endast gäller för Enterprise-paketet om de bestämmer sig för att göra det på det sättet. Funktioner som kan komma i en senare version: Om du vill få ett meddelande när administratören loggar in som du väljer du Få ett e-postmeddelande när användaren loggar in.&lt;/span>
+    
+    &lt;/p> &lt;/td>
+</tr>
+  --&gt; 
   <tr> 
    <td role="rowheader"><strong>(Villkorligt) [!UICONTROL User can generate proofs (... out of ... proof licenses left)]</strong></td> 
    <td>Det här fältet är bara tillgängligt om ditt företag använder ett äldre [!DNL Workfront]-paket och har köpt komponenten [!DNL Workfront Proof]. När det är markerat aktiveras du som korrekturanvändare. Här visas även antalet licenser som används i systemet av det totala antalet köpta korrekturlicenser. Det här fältet är bara synligt och redigerbart för användare som också är [!DNL Workfront] administratörer. Mer information om planalternativ för korrektur i [!DNL Workfront] finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">Åtkomst till korrekturfunktioner i [!DNL Workfront]</a>.</td>
@@ -440,7 +440,7 @@ Du kan ändra något av följande i det här underavsnittet:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Home Group]</strong> </td> 
-   <td> <p>Välj en <strong>[!UICONTROL Home Group]</strong> i listrutan.</p> <p>Obs! Detta är ett obligatoriskt fält. Du kan inte ha en användare som inte är associerad med en grupp.<br></p> <p>Det här fältet är synligt för användare med en [!UICONTROL Standard]-, [!UICONTROL Plan]- eller [!UICONTROL System Administrator]-nivå. Mer information om vem som kan redigera fältet <strong>[!UICONTROL Home Group]</strong> finns i <a href="/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md"class="MCXref xref">Redigera en användares profil</a>. <strong>[!UICONTROL Home Group]</strong> är standardgruppen för alla projekt och standardgruppen <strong>[!UICONTROL Home Group]</strong> för alla nya användare som du skapar. Alla anpassade formulär som du skapar delas med <strong>[!UICONTROL Home Group]</strong> som standard.</p> <p>Mer information om grupper finns i <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Översikt över grupper</a>.</p> </td> 
+   <td> <p>Välj en <strong>[!UICONTROL Home Group]</strong> i listrutan.</p> <p>Obs!  Detta är ett obligatoriskt fält. Du kan inte ha en användare som inte är associerad med en grupp.<br></p> <p>Det här fältet är synligt för användare med en [!UICONTROL Standard]-, [!UICONTROL Plan]- eller [!UICONTROL System Administrator]-nivå. Mer information om vem som kan redigera fältet <strong>[!UICONTROL Home Group]</strong> finns i <a href="/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md"class="MCXref xref">Redigera en användares profil</a>. <strong>[!UICONTROL Home Group]</strong> är standardgruppen för alla projekt och standardgruppen <strong>[!UICONTROL Home Group]</strong> för alla nya användare som du skapar. Alla anpassade formulär som du skapar delas med <strong>[!UICONTROL Home Group]</strong> som standard.</p> <p>Mer information om grupper finns i <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Översikt över grupper</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Other Groups]</strong> </td> 

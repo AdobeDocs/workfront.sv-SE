@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1612'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Du kan skapa ett projekt i Workfront på något av följande sätt:
 
   Mer information om hur du importerar data med hjälp av snabbstartsfunktioner i Workfront finns i [Importera data till Adobe Workfront med en snabbstartsmall](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-  Mer information om hur du importerar projekt med hjälp av snabbstartsfunktioner finns i [Snabbstartscenario: enkla projekt- och uppgiftsimportförberedelser](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
+  Mer information om hur du importerar projekt med hjälp av snabbstart finns i [Snabbstartscenario: enkel import av projekt och uppgifter ](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md) .
 
 * Publicera ett projekt från ett scenario i Adobe Workfront Scenario Planner.
 
@@ -167,6 +167,17 @@ Tänk på följande:
 
      Om du använder en mall när du skapar projektet genom att konvertera problemet, se det andra scenariot ovan för att ta reda på vilken grupp och vilken status Workfront gäller för det nya projektet.
 
+* Var dokument lagras i ett projekt och dess underordnade objekt (uppgifter och problem) beror på vad Workfront-administratören väljer som standard för Lagringsinställningar under Systeminställningar i Konfigurera. Beroende på var du lagrar dokument i din Workfront-instans kan du skapa följande typer av projekt:
+
+   * Äldre Workfront-lagringsprojekt
+   * Adobe lagringsprojekt.
+
+  Mer information finns i [Aktivera Adobe Enterprise-lagring för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+
+* När du skapar ett Enterprise-storage-projekt skapas en dokumentmapp med samma namn för projektet i avsnittet **Dokument** i projektet. När du har lagt till uppgifter i projektet läggs mappar med aktivitetens namn till i avsnittet **Dokument** för varje uppgift.
+
+Mer information finns i [Översikt över dokumenthantering för projekt och relaterade objekt](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 ## Skapa ett projekt från grunden
 
 >[!NOTE]
@@ -175,15 +186,40 @@ Tänk på följande:
 
 1. Gör något av följande:
 
-   * Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet eller på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, om det är tillgängligt, klicka sedan på **Projekt** och expandera **Nytt projekt**.
+   * Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet, klicka sedan på **Projekt** och expandera **Nytt projekt**.
    * Gå till en portfölj och expandera sedan **Nytt projekt**.
    * Gå till ett program och expandera sedan **Nytt projekt**.
    * Om du är gruppadministratör kan du även skapa ett projekt i avsnittet Projekt i en grupp som du hanterar. Mer information finns i [Skapa och ändra en grupps projekt](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
-   ![Ny projektmeny](assets/new-project-dropdown-nwe-350x358.png)
+   ![Ny projektmeny](assets/new-project-drop-down-with-legacy-storage-option.png)
 
-1. Klicka på **Nytt projekt** på menyn om du vill skapa ett projekt från grunden.
-1. Ange ett namn för projektet. Tryck på Retur för att spara namnet.
+1. (Villkorligt) Beroende på vilket dokumentlagringsutrymme din organisation använder klickar du på något av följande:
+
+   * **Nytt projekt** när Workfront-administratören väljer antingen **Adobe Enterprise** eller **Äldre Workfront** och de valde eller inte markerade inställningen **Tillåt användare att välja lagringsprovider**.
+   * **Nytt projekt (äldre lagringsutrymme)** när Workfront-administratören väljer antingen **Adobe Enterprise** eller **Äldre Workfront** och de även valde inställningen **Tillåt användare att välja lagringsprovider** .
+
+     Det här alternativet visas bara när inställningen **Tillåt användare att välja lagringsprovider** har valts under Konfigurera.
+
+     Mer information finns i [Aktivera Adobe Enterprise-lagring för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+
+     >[!NOTE]
+     >
+     >När du skapar ett Enterprise-storage-projekt från en Workfront-lagringsportfölj eller ett program konverteras portföljen eller programmet också till Enterprise-storage-objekt. Alla andra Workfront-lagringsprojekt inom samma portfölj eller program förblir oförändrade.
+
+     Ett projekt skapas och dess standardnamn följer följande mönster, beroende på vilket lagringsutrymme Workfront använder för dokument:
+
+      * **Namnlöst projekt** för ett Workfront-lagringsprojekt.
+
+        I ett Workfront-lagringsprojekt visas en ikon för **äldre Workfront-lagring** ![äldre lagringsprojekt](assets/legacy-storage-project-icon.png) bredvid namnet.
+
+      * **Projekt utan namn - &lt; månad dag, år timme.minut.sekund >** för ett Adobe-lagringsprojekt
+
+        >[!IMPORTANT]
+        >
+        >Projekt som använder Adobe Enterprise-lagring måste ha unika namn.
+
+
+1. Uppdatera namnet på projektet i projektets rubrik. Tryck på Retur för att spara namnet.
 
    ![Ange ett namn för projektet](assets/rename-untitled-project.png)
 

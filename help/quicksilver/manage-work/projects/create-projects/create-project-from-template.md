@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1386'
 ht-degree: 0%
 
 ---
@@ -124,7 +124,7 @@ Du kan skapa ett projekt från området Projekt på huvudmenyn eller från områ
 
 1. Gör något av följande:
 
-   * Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet eller på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, om det är tillgängligt, klicka sedan på **Projekt** och expandera **Nytt projekt**.
+   * Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet, klicka sedan på **Projekt** och expandera **Nytt projekt**.
    * Gå till en portfölj och expandera sedan **Nytt projekt**.
 
      >[!TIP]
@@ -153,15 +153,34 @@ Du kan skapa ett projekt från området Projekt på huvudmenyn eller från områ
 
    ![Välj en favoritmall](assets/new-project-from-template-dropdown-with-template-favorites.png)
 
-   eller
-
-   Gör följande:
+   Eller gör följande:
 
    1. Klicka på **Nytt projekt från mall**.
-   1. I fältet **Sökmallar** börjar du skriva namnet på en mall och klickar på den när den visas i listan.
-   1. Granska mallinformationen till höger.
+   1. (Valfritt) I fältet **Sökmallar** börjar du skriva namnet på en mall och klickar på den när den visas i listan.
+   1. Klicka på namnet på någon av följande typer av mallar för att välja dem:
 
-      Mallinformationen innehåller följande:
+      * En Workfront-lagringsmall
+
+        Workfront-lagringsmallar visar en ikon för äldre lagring ![bredvid namnet ](assets/legacy-storage-project-icon.png).
+
+        Dokument om mallen och om framtida projekt lagras i Workfront.
+      * En Adobe-lagringsmall
+
+        Dokument om mallen och om framtida projekt lagras i Adobe Enterprise.
+
+      >[!NOTE]
+      >
+      >* Med en mall för Adobe Enterprise-storage kan du skapa ett Adobe Enterprise-storage-projekt.
+      >
+      >* Med en mall för Workfront-lagring kan du skapa ett Workfront-lagringsprojekt.
+      >
+      >* När du använder en Adobe Enterprise-storage-mall från en Workfront-lagringsportfölj eller ett program är projektet ett Adobe Enterprise-storage-projekt och portföljen eller programmet konverteras också till Adobe Enterprise-storage-objekt. Alla andra Workfront-lagringsprojekt inom samma portfölj eller program förblir oförändrade.
+      >
+      > Alla kunder har inte båda typerna av dokumentlagring.
+      >
+      >Mer information finns i [Översikt över dokumenthantering för projekt och relaterade objekt](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
+   1. Granska följande mallinformation till höger:
 
       * Mallvaraktighet
       * Mallägare
@@ -169,7 +188,7 @@ Du kan skapa ett projekt från området Projekt på huvudmenyn eller från områ
       * Antalet uppgifter i mallen
       * Namnen på de anpassade mallformulären
 
-   1. (Valfritt) Hovra över namnet på en mall i den vänstra panelen och klicka på ikonen **Favoriter** **&#x200B;**&#x200B;![Favoriter](assets/favorites-icon-small.png) för att markera den som en favorit för framtida bruk.
+   1. (Valfritt) Hovra över namnet på en mall i den vänstra panelen och klicka på ikonen **Favoriter** **** ![Favoriter](assets/favorites-icon-small.png) för att markera den som en favorit för framtida bruk.
 
       eller
 
@@ -207,9 +226,17 @@ Du kan skapa ett projekt från området Projekt på huvudmenyn eller från områ
 
    All information som definieras i mallen kopplas automatiskt till det nya projektet om du inte ändrade dem i det föregående steget.
 
+   En dokumentmapp med samma namn som projektet skapas automatiskt för Adobe-lagringsprojekt i dokumentavsnittet i projektet.
+
 ## Skapa ett projekt från en mall i området Mallar
 
 I stället för att börja i området Projekt kan du skapa ett projekt från en mall genom att börja med mallen.
+
+>[!NOTE]
+>
+>Mallar som är kopplade till Workfront dokumentlagring skapar äldre Workfront-lagringsprojekt. Mallar som är kopplade till Adobe dokumentlagring för företag skapar Adobe-lagringsprojekt. Alla kunder har inte båda typerna av lagring.
+>
+>Mer information finns i [Översikt över dokumenthantering för projekt och relaterade objekt](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 {{step1-to-templates}}
 
@@ -233,3 +260,5 @@ I stället för att börja i området Projekt kan du skapa ett projekt från en 
 1. Klicka på **Skapa projekt**.
 
    All information som definieras i mallen kopplas automatiskt till det nya projektet om du inte ändrade dem i det föregående steget.
+
+   En dokumentmapp med samma namn som projektet skapas automatiskt för Adobe-lagringsprojekt i dokumentavsnittet i projektet.

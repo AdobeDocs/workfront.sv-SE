@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a28adc22-825f-401e-9ed2-efddaa297b8d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1056'
 ht-degree: 0%
 
 ---
@@ -119,6 +119,9 @@ Tänk på följande när du kopierar problem som innehåller dokument eller är 
 * **När ett problem är kopplat till en begärandekö:** När du kopierar ett problem till ett annat objekt och problemet är kopplat till en begärandekö, är det kopierade problemet inte längre kopplat till den ursprungliga kö som det första problemet kom från.
 * **När ett dokument bifogas till utgåvan:** När du kopierar en utgåva till ett annat objekt och utgåvan har ett bifogat dokument, flyttas även dokumentet och dess versioner till den nya utgåvan. Eventuella korrektur eller godkännanden som är kopplade till dokumentet flyttas inte.
 * **När ett problem är länkat till ett dokument eller en mapp:** När du kopierar ett ärende som har dokument eller mappar länkade till en tredjepartstjänst som Google Drive, överförs länkarna till dokumenten till det kopierade problemet.
+* **När du kopierar problem mellan projekt med olika lagringstyper**: Du kan inte kopiera ett problem från ett Workfront-lagringsprojekt till ett Adobe-lagringsprojekt. Det motsatta är också sant. Alla kunder har inte båda typerna av lagring.
+
+  Mer information finns i [Översikt över dokumenthantering för projekt och relaterade objekt](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 ## Kopiera utgåvor i en lista
 
@@ -138,9 +141,9 @@ Du kan kopiera en eller flera utgåvor från en lista med utgåvor eller från e
 1. Fortsätt med att kopiera problemet, enligt beskrivningen i avsnittet [Kopiera ett enstaka problem](#copy-a-single-issue) med början från steg 2.
 
    <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+    
    (NOTE: ensure step number stays accurate)
-   </MadCap:conditionalText>
+    
    -->
 
 ## Kopiera en utgåva {#copy-a-single-issue}

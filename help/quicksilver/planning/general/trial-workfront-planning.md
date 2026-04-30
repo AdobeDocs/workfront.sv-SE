@@ -7,9 +7,9 @@ role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '2209'
+source-wordcount: '2368'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Adobe Workfront Planning ger centraliserad insyn i era marknadsföringslivscykle
 >
 >* Anmälningsperioden upphörde den 1 april 2026 och är nu avslutad.
 >
->* Om du har godkänt testversionen och deltar i den kan du välja mellan följande datum: 2 mars-1 maj 2026.
+>* Om du har godkänt testversionen och deltar i den kan du välja mellan följande datum: 2 mars-1 maj 2026. Åtkomsten fortsätter att vara aktiv till 15 maj 2026.
 >
 >* Observera att testversionen är tillgänglig i 60 dagar efter lanseringen och inte i 60 dagar efter att du har gått med i den.
 >
@@ -71,10 +71,10 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 Följande är viktiga datum som är associerade med Adobe Workfront Planning kostnadsfria testversion:
 
-* **26 januari 2026**: Den kostnadsfria provversionen av Workfront Planning har släppts till Workfront-kunder. Banderollerna innehåller följande:
+* **26 januari 2026**: Workfront Planning - kostnadsfria provbanners för Workfront. Banderollerna innehåller följande:
    * En länk till det här dokumentet.
    * Godkännandefönstret för testversionen. Endast en Workfront-administratör kan acceptera avtalet. Du kan godkänna utvärderingsavtalet när som helst från och med detta datum.
-* **2 mars 2026**: Testversionen av Workfront Planning startades.
+* **2 mars 2026**: Testversionen av Workfront Planning har startats.
 
   När du startar testversionen läggs följande objekt till i din Workfront-instans:
 
@@ -91,14 +91,14 @@ Följande är viktiga datum som är associerade med Adobe Workfront Planning kos
 
    * Om Workfront-administratören inte har godkänt avtalet före detta datum visas banners som presenterar testversionerna av Planning för alla användare, men Planning är ännu inte tillgängligt på Huvudmenyn. Systemadministratören måste godkänna avtalet innan du kan komma åt Workfront Planning.
 
-* **1 april 2026**: Du kan inte längre registrera dig för testversionen.
+* **1 april 2026**: Du kan inte längre registrera dig i testversionen.
 
   Följande objekt har tagits bort från din Workfront-instans:
 
    * Testversionerna av Workfront Planning.
    * Inställningen **Granska utvärderingsavtal** har tagits bort från området **Inställningar**.
 
-* **1 maj 2026**: Testversionen av Workfront Planning avslutas och du har inte längre tillgång till Planning.
+* **1 maj 2026**: Testversionen av Workfront Planning avslutas och du har inte längre tillgång till Planning. Åtkomsten fortsätter att vara aktiv till 15 maj 2026.
 
   Om du deltar i testperioden kan Workfront skydda dina data när testperioden är slut. Du har dock inte längre åtkomst till den efter detta datum.
 
@@ -127,13 +127,13 @@ Alla användare i organisationen får följande Workfront Planning-paket och beh
 
 * **Efter 1 maj 2026:**
 
-  Alla användare i systemet har åtkomst till Workfront Planning borttagen och Workfront skyddar dina data.
+  Tillgång till testversionen är aktiv till 15 maj 2026. Efter 15 maj har alla användare i systemet åtkomst till Workfront Planning tagits bort, och Workfront skyddar dina data.
 
 ## Mer information om Workfront Planning
 
 Allmän information om Workfront Planning finns i [Kom igång med Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
-Mer information om hur du implementerar Workfront Planning finns i [Bästa praxis för Adobe Workfront Planning: artikelindex](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
+De bästa sätten att implementera Workfront Planning finns i [Bästa praxis för Adobe Workfront Planning: artikelindex ](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
 
 <!--
 
@@ -164,7 +164,7 @@ Testversionen startade och din organisation fick tillgång till testversionen av
    * Följ banderollen i appen som innehåller information om testversionen av **Workfront Planning**
 
    * Gå till **området Workfront-meddelanden** i skärmens övre högra hörn och klicka sedan på **Alla meddelanden** och hitta meddelandet om testversionen av Workfront Planning.
-1. Klicka på **Granska utvärderingsavtal**. <!--not sure if this will be available in the email/ banner, or if they can go to System Preferences to do this - might need to adjust the steps here-->
+1. Klicka på **Granska utvärderingsavtalet**. <!--not sure if this will be available in the email/ banner, or if they can go to System Preferences to do this - might need to adjust the steps here-->
 1. Klicka på **Acceptera** när du har granskat avtalet.
 1. (Villkorligt) Om du inte är systemadministratör följer du den banderoll i appen som innehåller information om testversionen av **Workfront Planning** och klickar sedan på **Läs mer**.
 
@@ -174,7 +174,7 @@ Testversionen startade och din organisation fick tillgång till testversionen av
 
 >[!WARNING]
 >
->Anmälningsperioden upphör den 1 april 2026. Testversionen av Planning är dock tillgänglig till 1 maj 2026.
+>Anmälningsperioden upphör den 1 april 2026. Testversionen av Planning är dock tillgänglig till 15 maj 2026.
 
 1. (Villkorligt) Logga in på Adobe Workfront som systemadministratör.
 
@@ -188,7 +188,7 @@ Testversionen startade och din organisation fick tillgång till testversionen av
 1. (Villkorligt) Om du är i området **Inställningar** går du till avsnittet **Andra inställningar** och klickar sedan på **Granska utvärderingsavtal**.
 1. Klicka på **Acceptera** när du har granskat avtalet.
 
-   Din organisation deltar nu i testversionen av Workfront Planning fram till 1 maj 2026.
+   Din organisation deltar nu i testversionen av Workfront Planning fram till 1 maj 2026. Åtkomsten fortsätter att vara aktiv till 15 maj 2026.
 
    Följande saker händer när du har godkänt testversionen av avtalet:
 
@@ -205,7 +205,20 @@ Testversionen startade och din organisation fick tillgång till testversionen av
 
 Mer information om hur du använder Workfront Planning finns i [Kom igång med Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
-Mer information om hur du implementerar Workfront Planning finns i [Bästa praxis för Adobe Workfront Planning: artikelindex](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
+De bästa sätten att implementera Workfront Planning finns i [Bästa praxis för Adobe Workfront Planning: artikelindex ](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
+
+## Skicka feedback om planering
+
+Så här skickar du feedback om ditt arbete med Workfront Planning:
+
+1. Logga in på Workfront och öppna en sida.
+1. Hitta den korta enkäten i det nedre högra hörnet på en Workfront-sida och svara på frågorna och klicka sedan på **Nästa**.
+
+   ![Promo trial survey](assets/promo-trial-survey.png)
+
+1. På den andra bilden besvarar du frågorna och klickar sedan på **Skicka**.
+
+   Din feedback skickas till vårt produkthanteringsteam.
 
 
 ## Upplev Workfront Planning genom den kostnadsfria testversionen
@@ -219,16 +232,16 @@ Du kan granska exempel på planeringarbetsytor och deras objekt och skapa egna n
 
    * **Planerar**. Ikonen visar en **Trial** -etikett bredvid den.
    * **Projekt**, **Förfrågningar**, **Kalendrar** och klicka sedan på **Utforska kampanjkalendrar**
-   * **Portföljer**, **Program** eller från en portfölj eller ett program    Klicka sedan på **Utforska anpassade hierarkier**.
+   * **Portföljer**, **Program** eller från en portfölj eller ett program och klicka sedan på **Utforska anpassade hierarkier**.
 
    Området **Planering** öppnas på fliken **Exempelarbetsytor** .
 1. Granska följande arbetsytor på fliken **Exempelarbetsytor**:
 
    * **Globala klassificeringar och taxonomier**: Innehåller exempel på Planning-objekttyper som utgör grunden för ett Marketing System of Record.
 
-     Alla posttyper på den här arbetsytan kan utgöra byggstenar i din Workfront Planning-struktur. Alla posttyper är globala och kan läggas till eller anslutas från alla andra arbetsytor. Mer information finns i [Posttypöversikt för arbetsytan över &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+     Alla posttyper på den här arbetsytan kan utgöra byggstenar i din Workfront Planning-struktur. Alla posttyper är globala och kan läggas till eller anslutas från alla andra arbetsytor. Mer information finns i [Posttypöversikt för arbetsytan över ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
-     Mer information om hur du använder arbetsytan Globala taxonomier finns i [Förvandla din första vinst till hållbar utveckling: en spelbok för hanterad skalning](/help/quicksilver/planning/best-practices.md/playbook-how-to-scale.md).
+     Om du vill veta mer om hur du använder arbetsytan Globala taxonomier kan du läsa [Förvandla din första vinst till ett hållbart ögonblick: en spelbok för hanterad skalning ](/help/quicksilver/planning/best-practices.md/playbook-how-to-scale.md) .
    * Ytterligare exempelarbetsytor: Följande arbetsytor fungerar som exempel på vad ett exempelföretag (Fréscopa) kan behöva som specifika arbetsytor, posttyper, fält och vyer för att arkitekturera sin organisation och arbetsstruktur:
 
       * **Fréscopa Global Marketing**

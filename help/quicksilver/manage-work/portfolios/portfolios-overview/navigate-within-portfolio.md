@@ -8,9 +8,9 @@ feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -96,8 +96,8 @@ Old:
 
 1. Välj följande i listrutan **[!UICONTROL Filter]**:
 
-   * **[!UICONTROL Portfolios I Own]**: Innehåller en lista över portföljer som du har utsetts till [!UICONTROL Portfolio Manager] för.
-   * **[!UICONTROL All]**: Inkluderar alla portföljer som du har åtminstone åtkomst till Visa för.
+   * **[!UICONTROL Portfolios I Own]**: Innehåller en lista med portföljer som du har utsetts till [!UICONTROL Portfolio Manager] för.
+   * **[!UICONTROL All]**: Inkluderar alla portföljer som du har minst åtkomst till Visa.
 
      Mer information om åtkomst till portföljer finns i [Översikt över åtkomstnivåer](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 Mer information om behörigheter till portföljer finns i [Dela en portfölj](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
@@ -113,9 +113,9 @@ Följande portföljresultatmått visas i området [!UICONTROL Portfolio Details]
    * Portföljen [!UICONTROL Alignment]
    * Portföljen [!UICONTROL Net Value]
 
-1. (Valfritt)   Klicka på **[!UICONTROL Projects]** i den vänstra panelen för att visa projekt som är kopplade till den valda portföljen och välj sedan något av följande filter i listrutan **[!UICONTROL Filter]**:
+1. (Valfritt) Klicka på **[!UICONTROL Projects]** i den vänstra panelen för att visa projekt som är kopplade till den valda portföljen och välj sedan något av följande filter i listrutan **[!UICONTROL Filter]**:
 
-   * **[!UICONTROL Active]**: Inkluderar alla projekt som är associerade med den valda portföljen och som har följande status:
+   * **[!UICONTROL Active]**: Inkluderar alla projekt som är associerade med den valda portföljen och som finns i följande statusar:
 
       * [!UICONTROL Planning]
       * [!UICONTROL Approved]
@@ -147,9 +147,25 @@ Mer information om program finns i avsnittet [Skapa och hantera program](../../.
    >Ditt företag måste ha ett [!UICONTROL Prime]-paket eller ett högre [!DNL Workfront]-paket för att få åtkomst till [!UICONTROL Portfolio Optimizer].
    >
 
-   Mer information om hur du använder Portfolio Optimizer finns i avsnittet [Hantera projekt i Portfolio Optimizer: artikelindex](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md).
+   Mer information om hur du använder Portfolio Optimizer finns i [Hantera projekt i Portfolio Optimizer: artikelindex ](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md) .
 
 1. (Valfritt) Klicka på **Dokument** i den vänstra panelen för att bifoga dokument till portföljen.
+
+   >[!NOTE]
+   >
+   >Hur du lägger till dokument i portföljer varierar beroende på vilken typ av lagring din organisation använder för Workfront.
+   >Vissa kunder kan ha tillgång till båda följande dokumentlagringsmiljöer:
+   >
+   >  * **Det gamla lagringsutrymmet i Workfront**: För portföljer som använder det här lagringsutrymmet visas den gamla lagringsikonen ![Äldre lagringsikonen](assets/legacy-storage-project-icon.png) bredvid namnet.
+   >  * **Adobe Enterprise-lagring**
+   >
+   >Din Workfront-administratör avgör vilket lagringsutrymme ditt företag använder eller låter dig välja vilket lagringsutrymme du associerar varje portfölj med.
+   >Mer information finns i [Aktivera Adobe Enterprise-lagring för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+   >
+   >Hur du lägger till dokument i portföljer varierar beroende på vilken typ av lagring du använder.
+   >
+   >Mer information finns i [Lägga till dokument i Adobe Workfront från filsystemet](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+
 1. (Valfritt) Klicka på **[!UICONTROL Updates]** i den vänstra panelen för att lägga till kommentarer i portföljens uppdateringsström. Mer information finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Valfritt) Klicka på **[!UICONTROL More]-menyn** ![Mer-menyn](assets/qs-more-icon-on-an-object.png) om du vill göra något av följande:
 
@@ -162,4 +178,4 @@ Mer information om program finns i avsnittet [Skapa och hantera program](../../.
 
    * Dela portföljen med andra användare.
 
-1. (Valfritt) Klicka på ikonen **Stjärna** ![Stjärna &#x200B;](assets/qs-star-icon-favorites-39x38.png) till höger om portföljnamnet för att lägga till portföljen i din favoritlista.
+1. (Valfritt) Klicka på ikonen **Stjärna** ![Stjärna ](assets/qs-star-icon-favorites-39x38.png) till höger om portföljnamnet för att lägga till portföljen i din favoritlista.

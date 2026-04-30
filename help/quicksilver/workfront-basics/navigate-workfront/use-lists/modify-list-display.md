@@ -7,9 +7,9 @@ author: Courtney
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Du kan göra följande anpassningar:
 
 Förutom de tillfälliga anpassningarna ovan kan du även justera vilka kolumner listan sorterar efter, som [!DNL Workfront] behåller även efter att du har loggat ut eller stängt webbläsaren. Om någon ändrar sorteringsalternativen i en listvy behålls dock inte den tidigare sorteringsmarkeringen.
 
-Mer information om hur du ändrar informationen som visas i listan finns i [Rapportera element: filter, vyer och grupperingar](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+Mer information om hur du ändrar informationen som visas i listan finns i [Rapportera element: filter, vyer och grupperingar ](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md) .
 
 ## Åtkomstkrav
 
@@ -74,9 +74,9 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+    
    By default, groupings are collapsed.
-   </MadCap:conditionalText>
+    
    <br> </p>
    -->
 

@@ -6,9 +6,9 @@ description: Du kan ta bort problem eller förfrågningar i Adobe Workfront om d
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '759'
 ht-degree: 0%
 
 ---
@@ -90,9 +90,9 @@ Beroende på hur din Workfront- eller gruppadministratör konfigurerar inställn
   Detta gäller också när du försöker ta bort projekt som har uppgifter som har loggats in i timmar.
 
   <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   
   <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">(this is not possible in classic)</span>
-  </MadCap:conditionalText>
+   
   -->
 
   Mer information om hur du konfigurerar raderingsinställningarna för timmar som är inloggade finns i [Konfigurera tidrapport och timinställningar](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).

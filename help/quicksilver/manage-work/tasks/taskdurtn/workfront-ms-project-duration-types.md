@@ -7,9 +7,9 @@ description: De varaktighetstyper som är tillgängliga i Adobe Workfront skilje
 author: Alina
 feature: Work Management
 exl-id: 986ecf91-693d-4ee1-bc56-355a2819ae41
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -51,8 +51,8 @@ När du importerar projekt från Microsoft Project till Workfront blir Fasta enh
 <!--
 <note type="warning">
 When a task has Calculated Work as the Duration Type and the default Duration Type in Setup is set as Calculated Assignment, then MS Project assignment allocations will be lost during the import.
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+ 
 (drafting this because it is misleading)
-</MadCap:conditionalText>
+ 
 </note>
 -->

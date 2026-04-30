@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1506'
+source-wordcount: '1515'
 ht-degree: 0%
 
 ---
@@ -118,11 +118,11 @@ Så här delegerar du dina uppgifter och utgåvor till andra:
 
 1. Uppdatera följande:
 
-   * [!UICONTROL **Delegera dina uppgifter och ärenden till**]: Börja skriva namnet på en användare som du vill att dina uppgifter och utgåvor ska delegeras till och markera den när den visas i listan. Du kan bara välja en användare.
+   * [!UICONTROL **Delegera dina aktiviteter och utgåvor till**]: Börja skriva namnet på en användare som du vill att dina uppgifter och utgåvor ska delegeras till och markera sedan den när den visas i listan. Du kan bara välja en användare.
 
      Användaren som du väljer som ombud får samma behörigheter som dina behörigheter för de uppgifter och utgåvor som du delegerar till dem.
 
-   * [!UICONTROL **Startdatum**]: Välj ett datum i kalendern när delegeringen av dina arbetsobjekt ska starta.
+   * [!UICONTROL **Startdatum**]: Välj ett datum i kalendern när delegeringen av dina arbetsobjekt ska börja.
 
      >[!TIP]
      >
@@ -136,7 +136,7 @@ Så här delegerar du dina uppgifter och utgåvor till andra:
      >
      >Om du låter fältet Slutdatum vara tomt och alternativet Inget slutdatum inte är markerat, ställs delegeringen bara in för den aktuella dagen.
 
-     ![Delegeringsrutan utökad](assets/delegate-box-expanded-in-home.png)
+     ![Rutan Delegera utökad](assets/delegate-box-expanded-in-home.png)
      <!--check screen shot - submitted bug for casing-->
 
 1. Klicka på [!UICONTROL **Spara**].
@@ -156,9 +156,9 @@ Så här delegerar du dina uppgifter och utgåvor till andra:
 
    * Knappen [!UICONTROL **Delegera**] i området [!UICONTROL **Hem**] ändras till [!UICONTROL **Redigera delegering**] för att ange att det finns en delegering på plats.
      <!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       
       (NOTE: is this shot correct? See UI - this is a mock)
-      </MadCap:conditionalText>
+       
       -->
 
      ![Redigera delegeringsknapp](assets/edit-delegation-button-on-my-work-widget.png)
@@ -173,7 +173,7 @@ Så här delegerar du dina uppgifter och utgåvor till andra:
 
 Du kan låta en delegering förfalla, om du har valt ett slutdatum, eller så kan du stoppa det manuellt. Du kan också ändra tidsramen för delegeringen om datumen för delegeringen ändras.
 
-1. Gå till området [!UICONTROL **Hem**] och klicka sedan på [!UICONTROL **Redigera delegering**] i någon av följande widgetar: **Mitt arbete**, **Mina uppgifter** eller **Mina problem**.
+1. Gå till området [!UICONTROL **Hem**] och klicka sedan på [!UICONTROL **Redigera delegering**] i någon av följande widgetar: **Mitt arbete**, **Mina uppgifter** eller **Mina problem** .
 1. Gör något av följande i rutan [!UICONTROL Stop delegating tasks and issues]:
    * Ändra [!UICONTROL **startdatumet**] eller [!UICONTROL **slutdatumet**]
    * Klicka på [!UICONTROL **Stoppa delegering**]
@@ -208,8 +208,8 @@ När uppgifter och ärenden delegeras finns det flera områden i [!DNL Workfront
 
 När system- eller gruppadministratören aktiverar delegering av arbete i systemet visas följande flikar i rutan [!UICONTROL Assignments] där du kan komma åt den:
 
-* [!UICONTROL **Uppdrag**]: Användare som har tilldelats uppgiften eller utgåvan visas här.
-* [!UICONTROL **Delegeringar**]: Användare som har utsetts till delegater av de som har tilldelats uppgiften eller utgåvan visas här.
+* [!UICONTROL **Uppdrag**]: Användare som är tilldelade uppgiften eller utgåvan visas här.
+* [!UICONTROL **Delegeringar**]: Användare som har utsetts till delegater av de som har tilldelats uppgiften eller problemet visas här.
 
 Du kommer åt rutan [!UICONTROL Assignments] i följande områden:
 
@@ -240,9 +240,9 @@ Om en aktivitet eller ett problem har delegerats och underfliken [!UICONTROL Del
 
 1. Gå till området [!UICONTROL **Hem**] i widgeten [!UICONTROL **Mitt arbete**].
 1. Klicka på listrutan för filter och välj ett eller flera av följande alternativ:
-   * [!UICONTROL **Delegerad**]: för att visa uppgifter och utgåvor som delegerats till dig eller av dig.
+   * [!UICONTROL **Delegerad**]: för att visa uppgifter och ärenden som delegerats till dig eller av dig.
    * [!UICONTROL **Delegerad till mig**]: för att visa uppgifter och ärenden som delegerats till dig av en annan användare.
-   * [!UICONTROL **Delegerad av mig**]: för att visa uppgifter och utgåvor som du delegerat till andra användare.
+   * [!UICONTROL **Delegerad av mig**]: om du vill visa uppgifter och utgåvor som du har delegerat till andra användare.
 
      ![Filtret Delegerade aktiviteter och ärenden](assets/delegated-tasks-and-issues-new-home-filter.png)
 

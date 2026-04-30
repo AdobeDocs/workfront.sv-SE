@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
@@ -112,6 +112,9 @@ Tänk på följande när du flyttar problem som innehåller dokument eller är k
 * **När ett problem är kopplat till en frågekö:** När du flyttar ett problem till ett annat objekt och problemet är kopplat till en frågekö, är det flyttade problemet inte längre kopplat till den ursprungliga kön som det första problemet kom från.
 * **När ett dokument är kopplat till utgåvan:** När du flyttar en utgåva till ett annat objekt och utgåvan har ett dokument kopplat till sig, flyttas även dokumentets versioner och korrektur till den nya utgåvan. Alla godkännanden som är kopplade till dokumentet flyttas inte.
 * **När ett problem är länkat till ett dokument eller en mapp:** När du flyttar ett ärende som har dokument eller mappar länkade till en tredjepartstjänst som Google Drive, flyttas länkarna till dokumenten med problemet.
+* **När du flyttar problem mellan projekt med olika lagringstyper**: Du kan inte kopiera ett problem från ett Workfront-lagringsprojekt till ett Adobe-lagringsprojekt. Det motsatta är också sant. Alla kunder har inte båda typerna av lagring.
+
+  Mer information finns i [Översikt över dokumenthantering för projekt och relaterade objekt](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 ## Flytta problem i en lista
 

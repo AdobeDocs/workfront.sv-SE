@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '2090'
+source-wordcount: '2234'
 ht-degree: 0%
 
 ---
@@ -108,6 +108,10 @@ Tänk på följande när du flyttar malluppgifter:
 
    * Milstolpar.
 
+* Du kan inte kopiera eller flytta en malluppgift från en Workfront-lagringsmall till en Adobe-lagringsmall. Det motsatta är också sant. Alla kunder har inte båda typerna av lagring.
+
+  Mer information finns i [Översikt över dokumenthantering för projekt och relaterade objekt](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 ## Kopiera malluppgifter
 
 Du kan kopiera en enstaka malluppgift eller flera malluppgifter samtidigt.
@@ -128,11 +132,18 @@ Rutan Kopiera malluppgift öppnas.
 
 1. Börja skriva namnet på **målmallen** där du vill kopiera malluppgiften i fältet **Välj målmall** och markera den när den visas i listan.
 
+   >[!TIP]
+   >
+   >Du kan också börja skriva referensnumret eller ange ID:t för mallen. Det kan hjälpa dig att skilja mellan mallar med identiska namn.
+
    Det aktuella mallnamnet visas som standard. Om du vill kopiera malluppgiften inom samma mall lämnar du det här fältet oförändrat.
 
    >[!TIP]
    >
-   >Du kan också börja skriva referensnumret eller ange ID:t för mallen. Det kan hjälpa dig att skilja mellan mallar med identiska namn.
+   >Du måste välja en mall med en liknande dokumentlagringstyp. Du kan inte kopiera malluppgifter till en mall med en annan lagringstyp än den ursprungliga mallen. Alla kunder har inte tillgång till flera olika typer av dokumentlagring.
+   >
+   >Mer information finns i [Översikt över dokumenthantering för projekt och relaterade objekt](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 
 1. (Villkorligt) Klicka på **begär åtkomst** för att begära åtkomst till målmallen, om du inte har åtkomst till den valda mallen.
 1. (Villkorligt) Fortsätt att kopiera malluppgiften till den valda målmallen utan att begära åtkomst om du har tillgång till att lägga till malluppgifter i någon av malluppgifterna i målmallen.
@@ -254,7 +265,11 @@ Rutan Flytta malluppgift öppnas.
 
    >[!TIP]
    >
-   >Du kan också börja skriva referensnumret eller ange ID:t för mallen. Det kan hjälpa dig att skilja mellan mallar med identiska namn.
+   >* Du kan också börja skriva referensnumret eller ange ID:t för mallen. Det kan hjälpa dig att skilja mellan mallar med identiska namn.
+   >
+   >* Du måste välja en mall med en liknande dokumentlagringstyp. Du kan inte kopiera malluppgifter till en mall med en annan lagringstyp än den ursprungliga mallen. Alla kunder har inte tillgång till flera olika typer av dokumentlagring.
+   >
+   >Mer information finns i [Översikt över dokumenthantering för projekt och relaterade objekt](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 1. (Villkorligt) Klicka på **begär åtkomst** för att begära åtkomst till mallen, om du inte har åtkomst till målmallen.
 1. (Villkorligt) Fortsätt att flytta malluppgiften till den valda målmallen utan att begära åtkomst om du har tillgång till att lägga till malluppgifter till någon av malluppgifterna i målmallen.
@@ -291,7 +306,6 @@ Rutan Flytta malluppgift öppnas.
       <li> Starta tidigast</li>
       <li> Starta senast</li>
       </ul>
-
 
    </td> 
      </tr> 
@@ -340,7 +354,6 @@ Rutan Flytta malluppgift öppnas.
      </tr>  
     </tbody> 
    </table>
-
 
 1. (Valfritt) Klicka på **Markera överordnad** på den vänstra panelen och välj sedan den malluppgift i målmallen som du vill ska vara överordnad den flyttade malluppgiften.
 
