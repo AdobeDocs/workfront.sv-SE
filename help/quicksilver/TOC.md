@@ -2144,7 +2144,7 @@ ht-degree: 0%
    * Adobe Workfront Planning - bästa praxis {#adobe-workfront-planning-best-practices}
       * [Adobe Workfront bästa praxis: artikelindex](planning/best-practices.md/best-practices-article-index.md)
       * [Ta steget ut till ditt strategiska hem: 30 dagars startplatta](planning/best-practices.md/30-day-launchpad.md)
-      * [Skapa din framgång: modellera kampanjhierarkin ](planning/best-practices.md/model-campaign-hierarchy.md)
+      * [Skapa din framgång: modellera kampanjhierarkin &#x200B;](planning/best-practices.md/model-campaign-hierarchy.md)
       * [Bygg en marknadsföringskalender: inga däck, bara skärpa](planning/best-practices.md/marketing-calendar.md)
       * [Förvandla din första vinst till ett hållbart ögonblick: en spelbok för hanterad skalning](planning/best-practices.md/playbook-how-to-scale.md)
       * [Bygg bryggan: koppla strategisk avsikt till projekt](planning/best-practices.md/the-bridge-connect-strategy-with-projects.md)
@@ -2189,7 +2189,7 @@ ht-degree: 0%
       * [Dela poster](planning/access/share-records.md)
       * [Begära behörigheter till en vy eller arbetsyta](planning/access/request-permissions.md)
    * Adobe Workfront Planning - poster {#adobe-workfront-planning-records}
-      * [Poster: artikelindex ](planning/records/records-information.md)
+      * [Poster: artikelindex &#x200B;](planning/records/records-information.md)
       * [Skapa poster](planning/records/create-records.md)
       * [Skapa poster genom att importera information från en CSV- eller Excel-fil](planning/records/import-file-to-create-records.md)
       * [Översikt över anslutna poster](planning/records/connected-records-overview.md)
@@ -2233,7 +2233,7 @@ ht-degree: 0%
       * [Hantera e-postmeddelanden om Adobe Workfront Planning](planning/notifications/manage-planning-email-notifications.md)
       * [Hantera meddelanden i appen för Adobe Workfront Planning](planning/notifications/manage-planning-in-app-notifications.md)
    * Adobe Workfront Planning and Gen Studio for Performance Marketing Integration {#planning-and-genstudio-integration}
-      * [Integrering med Adobe Workfront Planning och Adobe GenStudio for Performance Marketing: artikelindex ](planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)
+      * [Integrering med Adobe Workfront Planning och Adobe GenStudio for Performance Marketing: artikelindex &#x200B;](planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)
       * [Kom igång med integreringen mellan Adobe Workfront Planning och Adobe GenStudio for Performance Marketing](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
       * [Hantera GenStudio arbetsyta i Adobe Workfront Planning](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
       * [Befordra en Workfront Planning Workspace till GenStudio](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)

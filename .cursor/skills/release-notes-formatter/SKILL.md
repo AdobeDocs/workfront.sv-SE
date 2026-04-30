@@ -73,7 +73,7 @@ Regler:
 >Production for everyone: {Month Day, Year}
 ```
 
-5. **Brödtext**: Funktionsbeskrivning och länka sedan till hjälpdokumentationen
+&#x200B;5. **Brödtext**: Funktionsbeskrivning och länka sedan till hjälpdokumentationen
 
 #### Översikt över sidor
 
@@ -90,10 +90,10 @@ Regler:
 * [Document enhancements](#document-enhancements)
 ```
 
-5. **H3 per produktområde** med HTML-funktionstabell (se [reference.md](reference.md#overview-feature-table))
+&#x200B;5. **H3 per produktområde** med HTML-funktionstabell (se [reference.md](reference.md#overview-feature-table))
    - I varje tabell visas **de senaste funktionerna först** - den senaste raden visas högst upp i tabellen (efter rubrikraden)
 
-6. **Avslutande avsnitt** (H2): Versionsinformation om andra områden, uppdateringar för Desktop Proofing Viewer, meddelanden, API-version, underhållsuppdateringar, utbildningsuppdateringar
+&#x200B;6. **Avslutande avsnitt** (H2): Versionsinformation om andra områden, uppdateringar för Desktop Proofing Viewer, meddelanden, API-version, underhållsuppdateringar, utbildningsuppdateringar
 
 ### Steg 3: Validera länkar
 
