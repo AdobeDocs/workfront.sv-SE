@@ -4,9 +4,10 @@ description: Den här sidan innehåller information om funktioner som ingår i u
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7c0226697436bfdaaa1bde1e12fb68c167a48d7a
+exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
+source-git-commit: 1a498abcf4a9ef8940eb2da09da42636253e557a
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ Den här sidan innehåller information om de funktioner som ingår i den tredje 
 
 Förbättringarna på den här sidan är tillgängliga i förhandsvisningsmiljön. Den här sidan kommer att uppdateras med ytterligare förbättringar eftersom utgåvan för tredje kvartalet 2026 närmar sig den planerade produktionsutgåvan.
 
-Live-webbinarier hålls för varje kvartalsrelease - där de nya funktionerna markeras och detaljerad information presenteras. Registrera dig på [eventsidan](https://experienceleague.adobe.com/sv/events?filters=Workfront) och filtrera efter Workfront.
+Live-webbinarier hålls för varje kvartalsrelease - där de nya funktionerna markeras och detaljerad information presenteras. Registrera dig på [eventsidan](https://experienceleague.adobe.com/en/events?filters=Workfront) och filtrera efter Workfront.
 
 >[!IMPORTANT]
 >
@@ -34,7 +35,32 @@ Live-webbinarier hålls för varje kvartalsrelease - där de nya funktionerna ma
 
 ## Adobe Workfront-förbättringar
 
+* [Förbättrade dokument](#documents-enhancements)
 * [Förbättrade begäranden](#requesting-enhancements)
+
+### Förbättrade dokument
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>Funktion</strong>
+            </td>
+            <td><strong>Förhandsgranskning</strong></td>
+            <td><strong>Snabb release</strong></td>
+            <td><strong>kvartalsvis</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Visa Adobe användning av företagslagring</a>
+                <p>Sidan Kundinformation i installationsprogrammet innehåller nu ett nytt lagringsöversiktsavsnitt med användningsmätare för Adobe Enterprise-lagring.</p>
+            </td>
+            <td><p>30 april 2026</p></td>
+            <td><p>14 maj 2026</p></td>
+            <td><p>16 juli 2026</p></td>
+        </tr>
+    </tbody>
+</table>
 
 ### Förbättrade begäranden
 
@@ -64,7 +90,7 @@ Live-webbinarier hålls för varje kvartalsrelease - där de nya funktionerna ma
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Förbättringar av Workfront Planning
 
@@ -115,12 +141,10 @@ Mer information om API-versioner finns i [API-versionshantering och supportschem
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=sv-SE).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan &#x200B;](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=sv-SE).
-
-
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
