@@ -8,9 +8,9 @@ feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b05fcb7bdc1693e9e2384390f2584330b855c39c
+source-git-commit: b271eca3ab0ab09d96f65d2c3c8c400313e57d3d
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1467'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ Så här konfigurerar du hur berättelser beräknas för ditt Agile-team:
 1. Välj det Agile-team som du vill hantera.
 1. Klicka på **[!UICONTROL More]**-menyn ![](assets/more-menu.png) och välj sedan **[!UICONTROL Edit]**.
 
-   ![Redigera team](assets/edit-team-settings-350x205.png)
+   ![Redigera team](assets/edit-team-settings-kanban.png)
 
 1. I avsnittet **[!UICONTROL Agile]** i området **[!UICONTROL Estimate Stories in]** väljer du om du vill använda punkter eller timmar för att beräkna artikelns storlek (arbetsbelastning). Om du väljer Punkter anger du hur många timmar som ska vara lika med 1 punkt. (Standardvärdet är 1 punkt = 8 timmar.) Detta är antalet planerade timmar som läggs till i artikeln.
 
@@ -96,14 +96,11 @@ Så här definierar du de statusvärden som är tillgängliga för den artikelpa
 
 {{step1-to-team}}
 
-1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team &#x200B;](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
+1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team ](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
 
 1. Välj det Agile-team som du vill hantera.
 1. Klicka på menyn **[!UICONTROL More]** och välj sedan **[!UICONTROL Edit]**.
-
-   ![Redigera team](assets/edit-team-settings-350x205.png)
-
-1. Gå till området **[!UICONTROL Agile]** i avsnittet **[!UICONTROL Story Board]**.
+1. Gå till området **[!UICONTROL Story Board]** i avsnittet **[!UICONTROL Agile]**.
 
 1. (Valfritt) Klicka på **[!UICONTROL Add Column]** om du vill lägga till ytterligare en statuskolumn på artikelpanelen.
 1. (Valfritt) Dra en statuskolumn med dra och släpp-indikatorn för att ändra ordningen på statuskolumnerna på artikelpanelen. Den första kolumnen kan inte flyttas och du kan inte dra en annan kolumn framför den första kolumnen.
@@ -144,13 +141,10 @@ Så här konfigurerar du artikelkort som tilldelats Agile-teamet så att ytterli
 
 {{step1-to-team}}
 
-1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team &#x200B;](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
+1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team ](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
 
 1. Välj det Agile-team som du vill hantera.
 1. Klicka på menyn **[!UICONTROL More]** och välj sedan **[!UICONTROL Edit]**.
-
-   ![Redigera team](assets/edit-team-settings-350x205.png)
-
 1. I avsnittet **[!UICONTROL Agile]** anger du ett fältnamn för att hitta det.
 
    ![Ytterligare fält](assets/agile-additional-fields-kanban.png)
@@ -169,13 +163,10 @@ Så här begränsar du PIA för ditt Kanban-team:
 
 {{step1-to-team}}
 
-1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team &#x200B;](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
+1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team ](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
 
 1. Välj det Kanban-team som du vill hantera.
 1. Klicka på **[!UICONTROL More]**-menyn ![](assets/more-menu.png) och välj sedan **[!UICONTROL Edit]**.
-
-   ![Redigera team](assets/edit-team-settings-350x205.png)
-
 1. Kontrollera att Kanban är markerat i avsnittet **[!UICONTROL Agile]** i avsnittet **[!UICONTROL Methodology]**.
 
 1. I avsnittet **[!UICONTROL Story Board]** i fältet **[!UICONTROL WIP Limit]** anger du det maximala antalet objekt som tillåts i varje kolumn på [!UICONTROL Kanban] Agille-artikelpanelen. Du kan ange olika gränser för varje kolumn. Den maximala gräns du kan ange för varje kolumn är 100.
@@ -209,13 +200,10 @@ Så här lägger du automatiskt till artiklar från eftersläpningen på [!UICON
 
 {{step1-to-team}}
 
-1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team &#x200B;](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
+1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team ](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
 
 1. Välj det Kanban-team som du vill hantera.
 1. Klicka på **[!UICONTROL More]**-menyn ![](assets/more-menu.png) och välj sedan **[!UICONTROL Edit]**.
-
-   ![Redigera team](assets/edit-team-settings-350x205.png)
-
 1. Välj **[!UICONTROL Automatically add next story from backlog]** om du vill konfigurera att nästa objekt från eftersläpningen automatiskt läggs till i kolumnen **[!UICONTROL New]** när ett objekt flyttas bort från kolumnen **[!UICONTROL In Progress]**.
 
 
@@ -230,9 +218,6 @@ Du kan välja hur länge färdiga kort ska vara kvar på [!UICONTROL Kanban]. Ak
 1. (Valfritt) Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team-ikon](assets/switch-team-icon.png) och välj sedan ett nytt Kanban-team i listrutan eller sök efter ett team i sökfältet.
 1. Välj Kanban-teamet.
 1. Klicka på **[!UICONTROL More]**-menyn ![](assets/more-menu.png) och välj sedan **[!UICONTROL Edit]**.
-
-   ![Redigera team](assets/edit-team-settings-350x205.png)
-
 1. Välj ett värde i listrutan **[!UICONTROL Number of days Completed cards stay on the Kanban board]**.
 
    Du kan välja mellan 1 och 30 dagar.
