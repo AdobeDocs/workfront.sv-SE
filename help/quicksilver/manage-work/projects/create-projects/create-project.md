@@ -111,7 +111,7 @@ Du kan skapa ett projekt i Workfront på något av följande sätt:
 
   Mer information om hur du importerar data med hjälp av snabbstartsfunktioner i Workfront finns i [Importera data till Adobe Workfront med en snabbstartsmall](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-  Mer information om hur du importerar projekt med hjälp av snabbstart finns i [Snabbstartscenario: enkel import av projekt och uppgifter ](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md) .
+  Mer information om hur du importerar projekt med hjälp av snabbstart finns i [Snabbstartscenario: enkel import av projekt och uppgifter &#x200B;](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md) .
 
 * Publicera ett projekt från ett scenario i Adobe Workfront Scenario Planner.
 

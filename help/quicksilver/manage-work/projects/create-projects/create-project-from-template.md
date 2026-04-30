@@ -161,7 +161,7 @@ Du kan skapa ett projekt från området Projekt på huvudmenyn eller från områ
 
       * En Workfront-lagringsmall
 
-        Workfront-lagringsmallar visar en ikon för äldre lagring ![bredvid namnet ](assets/legacy-storage-project-icon.png).
+        Workfront-lagringsmallar visar en ikon för äldre lagring ![bredvid namnet &#x200B;](assets/legacy-storage-project-icon.png).
 
         Dokument om mallen och om framtida projekt lagras i Workfront.
       * En Adobe-lagringsmall
@@ -188,7 +188,7 @@ Du kan skapa ett projekt från området Projekt på huvudmenyn eller från områ
       * Antalet uppgifter i mallen
       * Namnen på de anpassade mallformulären
 
-   1. (Valfritt) Hovra över namnet på en mall i den vänstra panelen och klicka på ikonen **Favoriter** **** ![Favoriter](assets/favorites-icon-small.png) för att markera den som en favorit för framtida bruk.
+   1. (Valfritt) Hovra över namnet på en mall i den vänstra panelen och klicka på ikonen **Favoriter** **&#x200B;**&#x200B;![Favoriter](assets/favorites-icon-small.png) för att markera den som en favorit för framtida bruk.
 
       eller
 

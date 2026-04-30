@@ -32,7 +32,7 @@ Du kan göra följande anpassningar:
 
 Förutom de tillfälliga anpassningarna ovan kan du även justera vilka kolumner listan sorterar efter, som [!DNL Workfront] behåller även efter att du har loggat ut eller stängt webbläsaren. Om någon ändrar sorteringsalternativen i en listvy behålls dock inte den tidigare sorteringsmarkeringen.
 
-Mer information om hur du ändrar informationen som visas i listan finns i [Rapportera element: filter, vyer och grupperingar ](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md) .
+Mer information om hur du ändrar informationen som visas i listan finns i [Rapportera element: filter, vyer och grupperingar &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md) .
 
 ## Åtkomstkrav
 

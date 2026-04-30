@@ -133,7 +133,7 @@ Alla användare i organisationen får följande Workfront Planning-paket och beh
 
 Allmän information om Workfront Planning finns i [Kom igång med Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
-De bästa sätten att implementera Workfront Planning finns i [Bästa praxis för Adobe Workfront Planning: artikelindex ](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
+De bästa sätten att implementera Workfront Planning finns i [Bästa praxis för Adobe Workfront Planning: artikelindex &#x200B;](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
 
 <!--
 
@@ -205,7 +205,7 @@ Testversionen startade och din organisation fick tillgång till testversionen av
 
 Mer information om hur du använder Workfront Planning finns i [Kom igång med Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
-De bästa sätten att implementera Workfront Planning finns i [Bästa praxis för Adobe Workfront Planning: artikelindex ](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
+De bästa sätten att implementera Workfront Planning finns i [Bästa praxis för Adobe Workfront Planning: artikelindex &#x200B;](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
 
 ## Skicka feedback om planering
 
@@ -239,9 +239,9 @@ Du kan granska exempel på planeringarbetsytor och deras objekt och skapa egna n
 
    * **Globala klassificeringar och taxonomier**: Innehåller exempel på Planning-objekttyper som utgör grunden för ett Marketing System of Record.
 
-     Alla posttyper på den här arbetsytan kan utgöra byggstenar i din Workfront Planning-struktur. Alla posttyper är globala och kan läggas till eller anslutas från alla andra arbetsytor. Mer information finns i [Posttypöversikt för arbetsytan över ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+     Alla posttyper på den här arbetsytan kan utgöra byggstenar i din Workfront Planning-struktur. Alla posttyper är globala och kan läggas till eller anslutas från alla andra arbetsytor. Mer information finns i [Posttypöversikt för arbetsytan över &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
-     Om du vill veta mer om hur du använder arbetsytan Globala taxonomier kan du läsa [Förvandla din första vinst till ett hållbart ögonblick: en spelbok för hanterad skalning ](/help/quicksilver/planning/best-practices.md/playbook-how-to-scale.md) .
+     Om du vill veta mer om hur du använder arbetsytan Globala taxonomier kan du läsa [Förvandla din första vinst till ett hållbart ögonblick: en spelbok för hanterad skalning &#x200B;](/help/quicksilver/planning/best-practices.md/playbook-how-to-scale.md) .
    * Ytterligare exempelarbetsytor: Följande arbetsytor fungerar som exempel på vad ett exempelföretag (Fréscopa) kan behöva som specifika arbetsytor, posttyper, fält och vyer för att arkitekturera sin organisation och arbetsstruktur:
 
       * **Fréscopa Global Marketing**

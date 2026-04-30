@@ -147,7 +147,7 @@ Mer information om program finns i avsnittet [Skapa och hantera program](../../.
    >Ditt företag måste ha ett [!UICONTROL Prime]-paket eller ett högre [!DNL Workfront]-paket för att få åtkomst till [!UICONTROL Portfolio Optimizer].
    >
 
-   Mer information om hur du använder Portfolio Optimizer finns i [Hantera projekt i Portfolio Optimizer: artikelindex ](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md) .
+   Mer information om hur du använder Portfolio Optimizer finns i [Hantera projekt i Portfolio Optimizer: artikelindex &#x200B;](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md) .
 
 1. (Valfritt) Klicka på **Dokument** i den vänstra panelen för att bifoga dokument till portföljen.
 
@@ -178,4 +178,4 @@ Mer information om program finns i avsnittet [Skapa och hantera program](../../.
 
    * Dela portföljen med andra användare.
 
-1. (Valfritt) Klicka på ikonen **Stjärna** ![Stjärna ](assets/qs-star-icon-favorites-39x38.png) till höger om portföljnamnet för att lägga till portföljen i din favoritlista.
+1. (Valfritt) Klicka på ikonen **Stjärna** ![Stjärna &#x200B;](assets/qs-star-icon-favorites-39x38.png) till höger om portföljnamnet för att lägga till portföljen i din favoritlista.
