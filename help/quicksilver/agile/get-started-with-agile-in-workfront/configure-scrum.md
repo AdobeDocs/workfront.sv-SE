@@ -124,7 +124,7 @@ Så här definierar du de statusvärden som är tillgängliga för den artikelpa
    >
    >Endast låsta systemomfattande statusar är tillgängliga för val; du kan inte välja gruppspecifika statusar. Den första kolumnens status motsvarar dessutom alltid **[!UICONTROL New]**.
 
-   Du kan lägga till anpassade statusvärden om administratören för [!DNL Workfront] har konfigurerat dem; anpassade statusvärden kan konfigureras enligt beskrivningen i [ Skapa eller redigera en status ](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) .
+   Du kan lägga till anpassade statusvärden om administratören för [!DNL Workfront] har konfigurerat dem; anpassade statusvärden kan konfigureras enligt beskrivningen i [&#x200B; Skapa eller redigera en status &#x200B;](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) .
 
    >[!NOTE]
    >
@@ -134,7 +134,7 @@ Så här definierar du de statusvärden som är tillgängliga för den artikelpa
 
 ### Konfigurera statuskolumner för projekt {#configure-status-columns-for-projects}
 
-Mer information om hur du konfigurerar statuskolumner för ett projekt finns i avsnittet [Skapa eller anpassa en [!UICONTROL Agile] vy ](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view) i artikeln [Skapa eller redigera vyer i  [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+Mer information om hur du konfigurerar statuskolumner för ett projekt finns i avsnittet [Skapa eller anpassa en [!UICONTROL Agile] vy &#x200B;](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view) i artikeln [Skapa eller redigera vyer i  [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## Konfigurera ytterligare fält som ska visas på artikelkort på Agile-anslagstavlan
 
@@ -191,7 +191,7 @@ Så här ändrar du hur färger tilldelas artiklar för ett Agile-team:
 1. I avsnittet [!UICONTROL Agile] i området [!UICONTROL Associate Card Color to] väljer du bland följande alternativ:
 
    * **[!UICONTROL Project]**: Färger är kopplade till det projekt som artikeln är kopplad till. (När en artikel skapas måste den kopplas till ett projekt, vilket beskrivs i [Skapa en artikel](/help/quicksilver/agile/work-in-an-agile-environment/create-an-agile-story.md). Alla uppgifter från samma projekt visas med samma färg.
-   * **[!UICONTROL Free Form]**: Alla kort visas som standard med blått tills en användare ändrar färgen manuellt, vilket beskrivs i [[!UICONTROL Categorize stories by color] på skärmtangentbordet ](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md) .
+   * **[!UICONTROL Free Form]**: Alla kort visas som standard med blått tills en användare ändrar färgen manuellt, vilket beskrivs i [[!UICONTROL Categorize stories by color] på skärmtangentbordet &#x200B;](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md) .
    * **[!UICONTROL Priority]**: Färgerna kopplas till artikelprioriteten enligt följande:
 
       * Hög = Röd
