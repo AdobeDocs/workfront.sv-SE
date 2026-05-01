@@ -6,10 +6,10 @@ description: Du kan installera plugin-programmet Adobe Workfront for Photoshop f
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 61e5b763ec527aeb846e975e06842dc2c4c69918
+source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 1%
+source-wordcount: '567'
+ht-degree: 0%
 
 ---
 
@@ -90,7 +90,7 @@ Du kan installera plugin-programmet [!DNL Adobe Workfront for Photoshop] själv 
 
 ## Logga in på [!DNL Adobe Workfront for Photoshop]
 
-1. Välj **[!UICONTROL Plugins]** på menyn **[!UICONTROL Plugin Panel]** överst på skärmen.
+1. Välj **[!UICONTROL Plugin Panel]** på menyn **[!UICONTROL Plugins]** överst på skärmen.
 1. Välj **[!DNL Adobe Workfront for Photoshop]**.
 1. Ange din domän och klicka sedan på **[!UICONTROL Log in]**. En webbläsarsida öppnas. Du kanske måste ge Photoshop tillstånd att öppna webbläsaren.
 
@@ -133,9 +133,9 @@ För att åtgärda problemet
 
    >[!TIP]
    >
-   >Gå till Finder på en Mac och tryck på **Kommando+Skift+.** om du vill visa dolda mappar går du till **/Users//Library/Application Support** och tar sedan bort mappen **Workfront**.
+   >Gå till Finder på en Mac och tryck på **Kommando+Skift+.** Om du vill visa dolda mappar går du till **/Användare//Bibliotek/Application Support** och tar sedan bort mappen **Workfront**.
 
 
 1. Gå tillbaka till plugin-programmet och ange din Workfront-domän. Domänen måste vara `company-name.my.workfront.com` och inte `experience.adobe.com`.
 
-   Om du vill [hitta din Workfront-domän](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) om du använder Adobe Unified Experience går du till Konfigurera, Kundinformation.
+   Om du vill [hitta din Workfront-domän](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) går du till Konfigurera, Kundinformation.

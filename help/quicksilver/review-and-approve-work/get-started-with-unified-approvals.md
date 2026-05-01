@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453d4862883e299fea46b3dfe94548375bfc4209
+source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,11 @@ Mer information om Frame.io finns i [Komma igång med Frame.io](https://support.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3471078)
 
-## Integrationskrav
+<!--
+## Integration requirements
 
-* Workfront-instansen måste vara aktiverad på Adobe Unified Experience.
+* The Workfront instance must be enabled on the Adobe Unified Experience.
+-->
 
 ## Arbetsplanering i Workfront
 
@@ -39,7 +41,7 @@ Om din organisation har en Frame.io Enterprise-licens visas även projekt som sk
 
 Mer information om Adobe Enterprise-lagring eller projekt i Frame.io finns i
 
-* [Workspace - översikt: Projekt](https://help.frame.io/en/articles/9101001-workspace-overview#h_d9f8654895)
+* [Workspace - översikt Projekt](https://help.frame.io/en/articles/9101001-workspace-overview#h_d9f8654895)
 * [Adobe Enterprise Storage - översikt](/help/quicksilver/review-and-approve-work/esm-overview.md)
 
 ## Granska och godkänn resurser
@@ -63,7 +65,7 @@ Projektsamordnare kan skapa engångs- och godkännandemallar eller återanvändb
 
 Granskare och godkännare kan läggas till i ett arbetsflöde för engångsgodkännande eller i en återanvändbar godkännandemall:
 
-* **Engångsgodkännanden**: I det projekt eller den uppgift där resursen finns kan projektkoordinatorn tilldela granskare och godkännare och ange en sluttid. Granskare och godkännare får påminnelser via e-post 72 timmar före ansökningsdeadline, 24 timmar före ansökningsdeadline och sedan efter själva deadline.
+* **Engångsgodkännanden**: I det projekt eller den uppgift där resursen finns kan projektsamordnaren tilldela granskare och godkännare och ange en tidsgräns för slutförande. Granskare och godkännare får påminnelser via e-post 72 timmar före ansökningsdeadline, 24 timmar före ansökningsdeadline och sedan efter själva deadline.
 
   Mer information finns i [Skapa ett arbetsflöde för dokumentgodkännande](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-from-the-summary-panel-in-the-new-document-area).
 
@@ -101,7 +103,7 @@ Kommentarer och resursmarkeringar visas i Frame.io-visningsprogrammet. Mer infor
 När all granskningsaktivitet är klar måste godkännarna fatta något av följande beslut:
 
 * **Godkänn**: Resursen behöver inte ändras och är klar att användas.
-* **Godkänd med ändringar**: Resursen är för det mesta slutförd men behöver mindre ändringar innan den kan användas. När de angivna ändringarna har gjorts är resursen klar och behöver inte gå igenom ytterligare en godkännandeomgång.
+* **Godkänd med ändringar**: Resursen är för det mesta fullständig men behöver mindre ändringar innan den kan användas. När de angivna ändringarna har gjorts är resursen klar och behöver inte gå igenom ytterligare en godkännandeomgång.
 * **Behöver arbete**: Resursen behöver ändras och är inte klar att användas. När de angivna ändringarna har gjorts måste resursen överföras som en ny version och gå igenom en ny godkännandeomgång. <!--is the same approval workflow automatically applied? Does the coordinator have to do anything to get the approval going? -->
 
 Granskarna kan markera sin granskning som slutförd i Workfront, men detta krävs inte för att resursen ska gå vidare i godkännandeprocessen.
@@ -115,8 +117,8 @@ Mer information om beslut i Workfront finns i [Översikt över dokumentets beslu
 
 Projektsamordnarna kan övervaka förloppet för alla pågående godkännanden i Workfront Home-området eller med anpassade rapporter i Canvas Dashboards:
 
-* **Anpassad kontrollpanel**: Skapa en rapportkontrollpanel i kontrollpanelerna på arbetsytan för att visa både högnivåinformation och detaljerad information om granskningar och godkännanden med funktionen för enhetliga godkännanden. Information om hur du kommer igång finns i [Skapa en rapportinstrumentpanel för granskning och godkännande](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
-* **Hem-widgeten för dokumentgodkännandemått**: Visar 2 diagram med information om genomsnittlig godkännandetid och beslut samt listvyer över väntande och försenade godkännanden.
+* **Anpassad instrumentpanel**: Skapa en rapportkontrollpanel i kontrollpanelerna på arbetsytan för att visa både högnivåinformation och detaljerad information om granskningar och godkännanden med funktionen för enhetliga godkännanden. Information om hur du kommer igång finns i [Skapa en rapportinstrumentpanel för granskning och godkännande](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
+* **Hemwidgeten för mått för dokumentgodkännande**: Visar 2 diagram med information om genomsnittlig godkännandetid och beslut samt en lista över väntande och försenade godkännanden.
   ![Alla godkännanden](assets/all-approvals.png)
 
 ## Skicka färdigt material till Adobe Experience Manager

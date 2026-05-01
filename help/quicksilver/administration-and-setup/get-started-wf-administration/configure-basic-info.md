@@ -10,9 +10,9 @@ role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
 last-update: 2026-04-29T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: c298b21e74abc6ac7bed2c8fa4c5a0dc0f6c6237
+source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
@@ -68,30 +68,15 @@ Så här öppnar du sidan Kundinformation:
 
    De avsnitt som är tillgängliga i området Kundinformation är:
 
-* **Grundläggande information**
+   | Avsnitt | Mer information |
+   |---------|-----------------|
+   | **Grundläggande information** | Information om hur du konfigurerar grundläggande information i Workfront finns i [Konfigurera grundläggande information](#configure-basic-info). |
+   | <span class="preview">**Lagringsöversikt**</span> | <span class="preview">Mer information om hur du kontrollerar dokumentlagringsanvändning och -kvot finns i [Kontrollera dokumentlagringsgränser](../../documents/managing-documents/check-document-storage.md).</span> |
+   | **API-nyckelinställningar** | Mer information om API-nyckelinställningar finns i [Hantera API-nycklar](../../administration-and-setup/manage-workfront/security/manage-api-keys.md). |
+   | **IP-Tillåtelselista** | Mer information om hur du lägger till IP-adresserna till tillåtelselista för var dina användare kan få åtkomst till Workfront finns i [Konfigurera din brandväggs tillåtelselista](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md). |
+   | **E-post Tillåtelselista** | Mer information om hur du lägger till e-postmeddelanden till tillåtelselista finns i [Konfigurera din e-post med tillåtelselista](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md). |
 
-  Information om hur du konfigurerar grundläggande information i Workfront finns i [Konfigurera grundläggande information](#configure-basic-info).
-
-
-
-* <span class="preview">**Lagringsöversikt**
-
-  Mer information om hur du kontrollerar dokumentlagringsanvändning och -kvot finns i [Kontrollera dokumentlagringsgränser](../../documents/managing-documents/check-document-storage.md).</span>
-
-
-* **API-nyckelinställningar**
-
-  Mer information om API-nyckelinställningar finns i [Hantera API-nycklar](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
-
-* **IP-Tillåtelselista**
-
-  Mer information om hur du lägger till IP-adresserna till tillåtelselista för var dina användare kan få åtkomst till Workfront finns i [Konfigurera din brandväggs tillåtelselista](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
-
-* **E-post Tillåtelselista**
-
-  Mer information om hur du lägger till e-postmeddelanden till tillåtelselista finns i [Konfigurera din e-post med tillåtelselista](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
-
-<!--
+   <!--
    * **License**
 
      For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).

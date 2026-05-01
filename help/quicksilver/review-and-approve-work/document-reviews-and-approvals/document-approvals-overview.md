@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453d4862883e299fea46b3dfe94548375bfc4209
+source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
 workflow-type: tm+mt
-source-wordcount: '3846'
+source-wordcount: '3890'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,12 @@ Projektsamordnarna hanterar arbetet i Workfront medan kreatörer, marknadsförar
 
 ![Bild som visar det enhetliga arbetsflödet för granskning och godkännande, där projektsamordnare hanterar arbetet i Workfront och granskare och godkännare som ger feedback och fattar beslut i Frame.io-visningsprogrammet.](assets/Unified-Review-Approvals-Image.png)
 
+<!--
+## Integration requirements
 
-## Integrationskrav
+* The Workfront instance must be enabled on the Adobe Unified Experience.
 
-* Workfront-instansen måste vara aktiverad på Adobe Unified Experience.
-
+-->
 
 ## Byggt på Adobe Enterprise-lagring
 
@@ -54,7 +55,7 @@ Med enhetlig granskning och godkännande kan man
 * Använd AI-granskare för att automatisera varumärkesgranskningar
 * med mera
 
-Mer information finns i [Enhetliga dokumentgodkännanden: artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md).
+Mer information finns i [Enhetliga dokumentgodkännanden: artikelindex ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md).
 
 
 ### Använda visningsprogrammet Frame.io
@@ -92,7 +93,7 @@ Workfront språkfunktioner är inte tillgängliga med den här integreringen.
 
 Projektsamordnare kan utnyttja Workfront kraftfulla projekthanteringsfunktioner för att planera, spåra och hantera arbeten.
 
-Mer information om hur du hanterar projekt i Workfront finns i [Projekt: artikelindex](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
+Mer information om hur du hanterar projekt i Workfront finns i [Projekt: artikelindex ](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
 
 ### Tvingad struktur och namnkonventioner
 
@@ -160,7 +161,7 @@ Information om hur du kommer igång med enhetlig granskning och godkännande fin
 
 Enhetlig granskning och godkännande är en inbyggd integrering mellan Adobe Workfront och Adobe Frame.io som sammanför arbetshantering och kreativ granskning i ett enda, uppkopplat system. Projektsamordnarna planerar och håller reda på arbetet i Workfront, medan granskare och godkännare använder det professionella visningsprogrammet Frame.io för att ge feedback, kommentera i materialet och fatta beslut om godkännande - utan att behöva växla mellan olika verktyg eller flytta filer manuellt.
 
-Gransknings- och godkännandeplatserna är i centrum för varje innehållsåtgärd. Det är där kreativt arbete, synpunkter från intressenter och affärsbeslut sammanfaller. När den processen sprids över verktyg som inte är kopplade till varandra - e-posttrådar, chattmeddelanden, skärmbildsmarkeringar - sammanföll resultatet: långsammare time to market, förlorad feedback, versionskonflikter och tidsåtgång för att hantera filer i stället för att skapa innehåll.
+Gransknings- och godkännandeplatserna är i centrum för varje innehållsåtgärd. Det är där kreativt arbete, synpunkter från intressenter och affärsbeslut sammanfaller. När den processen sprids över verktyg som inte är kopplade till varandra - e-posttrådar, chattmeddelanden, skärmbildsmarkeringar - blir resultatet: kortare time-to-market, förlorad feedback, versionskonflikter och tidsåtgång för att hantera filer istället för att skapa innehåll.
 
 Enhetlig granskning och godkännande åtgärdar detta genom att ersätta lapptäcket med verktyg för granskning som inte är kopplade till varandra med ett modernt system - en enda källa till sanning där arbetet redan pågår.
 
@@ -230,11 +231,11 @@ Godkännare måste göra något av följande för att flytta godkännandearbetsf
 
 * **Godkänn**: Resursen är klar att användas som den är.
 
-* **Kräver arbete**: Resursen kräver ändringar och måste skickas in på nytt som en ny version för omgodkännande.
+* **Behöver arbete**: Tillgången måste ändras och måste skickas in på nytt som en ny version för godkännande.
 
 **Vilka typer av arbetsflöden för godkännande kan jag skapa?**
 
-* **Engångsgodkännanden**: Du kan skapa ett engångsgodkännande direkt i ett dokument i ett projekt, en uppgift eller ett ärende. Du kan tilldela granskare och godkännare, ange deadlines och konfigurera flera steg om det behövs. Automatiserade e-postpåminnelser skickas 72 timmar före, 24 timmar före och efter ansökningsdeadline.
+* **Engångsgodkännanden**: Du kan skapa ett enstaka godkännande direkt i ett dokument i ett projekt, en uppgift eller en utgåva. Du kan tilldela granskare och godkännare, ange deadlines och konfigurera flera steg om det behövs. Automatiserade e-postpåminnelser skickas 72 timmar före, 24 timmar före och efter ansökningsdeadline.
 
 * **Godkännandemallar**: Du kan skapa återanvändbara mallar i Workfront Setup. En mall definierar granskarna, godkännarna och en relativ tidsram för slutförande. Du kan skapa flera steg om det behövs. När en mall har tillämpats på en tillgång beräknas tidsgränsen automatiskt.
 
@@ -401,7 +402,7 @@ Ja. Eftersom integreringen använder Adobe Enterprise-lagring gäller följande 
 
 * Dokument i samma projekt kan inte ha samma namn.
 
-* Program, portföljer, projekt, mallar, uppgifter, utgåvor, dokument, dokumentmappsnamn får inte innehålla följande specialtecken: `\ / : * ? " | < >` och får innehålla högst 255 tecken.
+* Program, portföljer, projekt, mallar, uppgifter, utleveranser, dokument, dokumentmappsnamn får inte innehålla följande specialtecken: `\ / : * ? " | < >` och är begränsade till 255 tecken.
 
 Workfront byter automatiskt namn på objekt och dokument efter behov för att förhindra konflikter.
 
@@ -489,9 +490,9 @@ Mer information om hur du konfigurerar och använder AI Reviewer finns i Workfro
 
 Nu finns enhetlig granskning och godkännande. För åtkomst krävs en uppgradering till en Workfront V2 SKU. Om ditt kontrakt undertecknades innan V2-SKU:erna var tillgängliga kan du få åtkomst på något av följande två sätt:
 
-* När avtalet förnyas: Åtkomst aktiveras vid nästa förnyelsedatum.
+* Vid förnyelse: Åtkomst aktiveras vid nästa förnyelsedatum för avtal.
 
-* Tidig omkontraktshantering: Adobe-kontoteamet kan omsluta dig tidigt för att lägga till de nya SKU-berättigandena samtidigt som det befintliga slutdatumet för kontraktet behålls. Ingen prisökning sker vid byte till ett motsvarande paket.
+* Tidig omkontraktstid: Adobe-kontoteamet kan förnya avtalet tidigt för att lägga till de nya SKU-berättigandena samtidigt som det befintliga slutdatumet för avtalet behålls. Ingen prisökning sker vid byte till ett motsvarande paket.
 
 Kontakta din Adobe-kontorepresentant för att fastställa den bästa vägen för din organisation.
 
@@ -582,7 +583,7 @@ Effekten varierar beroende på hur varje arbetsflöde skapas. I allmänhet:
 
 * **Redigera eller uppdatera**: Arbetsflöden där den befintliga korrekturrelaterade åtgärden har en direkt motsvarighet i enhetliga godkännanden kan uppdateras för att använda den nya åtgärden.
 
-* **Återskapa**: Arbetsflöden där de underliggande stegen har ändrats avsevärt, eller där det finns nya funktioner, kan behöva återskapas från grunden.
+* **Återskapa**: Arbetsflöden där de underliggande stegen har ändrats avsevärt, eller där det finns nya funktioner, kan behöva byggas om från grunden.
 
 En tydligare bild kommer att uppstå när Fusion API:er för enhetliga godkännanden är tillgängliga. Vi rekommenderar att du granskar dina befintliga Fusion-arbetsflöden och utvärderar dem mot de nya enhetliga godkännandefunktionerna vid den tidpunkten.
 
