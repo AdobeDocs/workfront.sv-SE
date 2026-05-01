@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5479fcded2dfaf781fa54e046f4fce61e3a9ab7a
+source-git-commit: 18e899b87eb950222b0d22f41a998a458baa6f49
 workflow-type: tm+mt
 source-wordcount: '18032'
 ht-degree: 0%
@@ -312,9 +312,9 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
    <p>Mer information finns i <a href="/help/quicksilver/planning/views/manage-the-timeline-view.md">Hantera tidslinjevyn</a>. </p>
    </td> 
     </tr> 
-  <tr> 
-   <td>[!UICONTROL Budgeted Completion Date]</td> 
-   <td> <p>Detta är ett inaktuellt fält. All information som det här fältet kan visa är relaterad till en funktion som [!DNL Workfront] har tagit bort. Det går inte att uppdatera det här fältet. </p>
+   <tr> 
+  <td>[!UICONTROL Budgeted Completion Date]</td> 
+  <td> <p>Detta är ett inaktuellt fält. All information som det här fältet kan visa är relaterad till en funktion som [!DNL Workfront] har tagit bort. Det går inte att uppdatera det här fältet. </p>
    <p> Det här fältet är fortfarande synligt i [!UICONTROL project] rapporter och listor.</p>  </td> 
   </tr> 
   <tr> 
@@ -336,7 +336,7 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
     <!-- 
      <p>Hours that were formerly budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner)</p>
     <p>Important: This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p>
-  -->
+    -->
     <p> Mer information om att budgetera användare i [!DNL Resource Planner] finns i artikeln <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budgetresurser i [!DNL Resource Planner] med [!UICONTROL Project]- och [!UICONTROL Role]-vyerna</a>. </p> 
     <p>De timmar som har budgeterats i området [!UICONTROL Resource Budgeting] i [!UICONTROL Business Case] eller [!UICONTROL Resource Planner] visas i följande områden i [!DNL Workfront] och under följande namn:</p> 
      <table style="table-layout:auto"> 
@@ -387,24 +387,20 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
     <li>Budgeted Hour report (the Bud. Hours field refers to hours budgeted for users; the Pln. Bud. Hours field refers to hours budgeted for roles or projects)</li>
     <li>Resource Estimates report (in the Project: Budgeted Hours field) </li>
     </ul>
-    -->
-    <!--
     <p>The fields listed below display in the reports listed and are hours formerly budgeted in the  Capacity Planner or the Legacy Resource Estimates area of the Business Case.</p>
     <p>Important: The Capacity Planner and Legacy  Resource Estimates have been removed from Workfront. You cannot update any information that might display in these fields.</p>
-  -->
-  <!--
- <ul>
-  <li>Capacity Planner</li>
-  <li>Legacy  Resource Estimates area of the Business Case (in the Hours field)</li>
-  <li>Resource Estimates report (in the Bud. Hours field)</li>
-  <li>Budgeted Hour report (in the Budgeted Hours field)</li>
-  <li>Project report (in the Budgeted Hours field)</li>
-  <li>Project (Financial  Data) report</li>
-  <li>Task  report (in the Project: Budgeted Hours field)</li>
-  <li>Issue report (in the Project: Budgeted Hours field)</li>
-  </ul>
-  -->
-    </td> 
+    <ul>
+    <li>Capacity Planner</li>
+    <li>Legacy  Resource Estimates area of the Business Case (in the Hours field)</li>
+    <li>Resource Estimates report (in the Bud. Hours field)</li>
+    <li>Budgeted Hour report (in the Budgeted Hours field)</li>
+    <li>Project report (in the Budgeted Hours field)</li>
+    <li>Project (Financial  Data) report</li>
+    <li>Task  report (in the Project: Budgeted Hours field)</li>
+    <li>Issue report (in the Project: Budgeted Hours field)</li>
+    </ul>
+    -->
+  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Budgeted Labor Cost]</td> 
@@ -431,8 +427,6 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
     <!--
     <p>Labor costs for hours budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner). This was available only in Adobe Workfront Classic. </p>
     <p>Important: This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p>
-    -->
-    <!--
      <p>You can locate the Budgeted Labor Cost field based on the hours budgeted in the Resource Planner in the following areas and reports in  Workfront: </p>
      <ul> 
      <li>Resource Planner Cost view (in the BDG column)</li>
@@ -466,7 +460,7 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
   <!--
   <p>This field shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.</p>
   -->   
-   </td> 
+  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Burndown Chart]</td> 
@@ -496,10 +490,8 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
   </tr> 
    <tr> 
    <td>[!UICONTROL Can Start]</td> 
-   <td> <p>Det här fältet anger om en uppgift är klar att börja bearbetas. Om starten är klar att bearbetas i fältet [!UICONTROL Can Start] för aktiviteten är inställd på [!UICONTROL True]. </p> <p>Mer information finns i Översikt över <a href="../../../manage-work/tasks/task-information/can-start-task-overview.md" class="MCXref xref"> [!UICONTROL Can Start] för uppgifter </a>.</p>
-
-
-</td>
+   <td> <p>Det här fältet anger om en uppgift är klar att börja bearbetas. Om starten är klar att bearbetas i fältet [!UICONTROL Can Start] för aktiviteten är inställd på [!UICONTROL True]. </p> <p>Mer information finns i Översikt över <a href="../../../manage-work/tasks/task-information/can-start-task-overview.md" class="MCXref xref"> [!UICONTROL Can Start] för uppgifter </a>.</p> 
+  </td>
   </tr>
   <!--
   <tr> 
@@ -2055,7 +2047,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Scenario] (i [!DNL Workfront Fusion]) </td> 
-   <td> <p>Ett scenario består av en serie steg (moduler) som anger hur data ska överföras och transformeras mellan program/tjänster.</p> <p>Mer information om scenarier i [!DNL Workfront Fusion] finns i <a href="https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] scenarioöversikt </a>.</p> </td> 
+   <td> <p>Ett scenario består av en serie steg (moduler) som anger hur data ska överföras och transformeras mellan program/tjänster.</p> <p>Mer information om scenarier i [!DNL Workfront Fusion] finns i <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] scenarioöversikt </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scenario] (i [!DNL Workfront Scenario Planner]) </td> 
