@@ -55,7 +55,7 @@ Med enhetlig granskning och godkännande kan man
 * Använd AI-granskare för att automatisera varumärkesgranskningar
 * med mera
 
-Mer information finns i [Enhetliga dokumentgodkännanden: artikelindex ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md).
+Mer information finns i [Enhetliga dokumentgodkännanden: artikelindex &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md).
 
 
 ### Använda visningsprogrammet Frame.io
@@ -93,7 +93,7 @@ Workfront språkfunktioner är inte tillgängliga med den här integreringen.
 
 Projektsamordnare kan utnyttja Workfront kraftfulla projekthanteringsfunktioner för att planera, spåra och hantera arbeten.
 
-Mer information om hur du hanterar projekt i Workfront finns i [Projekt: artikelindex ](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
+Mer information om hur du hanterar projekt i Workfront finns i [Projekt: artikelindex &#x200B;](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
 
 ### Tvingad struktur och namnkonventioner
 
