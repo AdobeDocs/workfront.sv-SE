@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b271eca3ab0ab09d96f65d2c3c8c400313e57d3d
+source-git-commit: 4dd591c034e1c84ef3bda64d12b6920fbdd33c26
 workflow-type: tm+mt
-source-wordcount: '1624'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ I den här artikeln beskrivs hur du konfigurerar inställningarna för ett Scrum
 
 * Om artiklarna beräknas i antal poäng eller timmar
 * Statuskolumnerna på Agile-anslagstavlan för iterationer och projekt
-* Ytterligare fält att visa på artikelkort på Agile-anslagstavlan
+* Ytterligare fält att visa på Agile-kort
 * Hur färgindikatorer används för artiklar på Agile-artikelpanelen
 * Hur datum används när arbetsobjekt läggs till i en iteration
 
@@ -124,7 +124,7 @@ Så här definierar du de statusvärden som är tillgängliga för den artikelpa
    >
    >Endast låsta systemomfattande statusar är tillgängliga för val; du kan inte välja gruppspecifika statusar. Den första kolumnens status motsvarar dessutom alltid **[!UICONTROL New]**.
 
-   Du kan lägga till anpassade statusvärden om administratören för [!DNL Workfront] har konfigurerat dem; anpassade statusvärden kan konfigureras enligt beskrivningen i [&#x200B; Skapa eller redigera en status &#x200B;](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) .
+   Du kan lägga till anpassade statusvärden om administratören för [!DNL Workfront] har konfigurerat dem; anpassade statusvärden kan konfigureras enligt beskrivningen i [ Skapa eller redigera en status ](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) .
 
    >[!NOTE]
    >
@@ -134,7 +134,7 @@ Så här definierar du de statusvärden som är tillgängliga för den artikelpa
 
 ### Konfigurera statuskolumner för projekt {#configure-status-columns-for-projects}
 
-Mer information om hur du konfigurerar statuskolumner för ett projekt finns i avsnittet [Skapa eller anpassa en [!UICONTROL Agile] vy &#x200B;](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view) i artikeln [Skapa eller redigera vyer i  [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+Mer information om hur du konfigurerar statuskolumner för ett projekt finns i avsnittet [Skapa eller anpassa en [!UICONTROL Agile] vy ](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view) i artikeln [Skapa eller redigera vyer i  [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## Konfigurera ytterligare fält som ska visas på artikelkort på Agile-anslagstavlan
 
@@ -191,7 +191,7 @@ Så här ändrar du hur färger tilldelas artiklar för ett Agile-team:
 1. I avsnittet [!UICONTROL Agile] i området [!UICONTROL Associate Card Color to] väljer du bland följande alternativ:
 
    * **[!UICONTROL Project]**: Färger är kopplade till det projekt som artikeln är kopplad till. (När en artikel skapas måste den kopplas till ett projekt, vilket beskrivs i [Skapa en artikel](/help/quicksilver/agile/work-in-an-agile-environment/create-an-agile-story.md). Alla uppgifter från samma projekt visas med samma färg.
-   * **[!UICONTROL Free Form]**: Alla kort visas som standard med blått tills en användare ändrar färgen manuellt, vilket beskrivs i [[!UICONTROL Categorize stories by color] på skärmtangentbordet &#x200B;](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md) .
+   * **[!UICONTROL Free Form]**: Alla kort visas som standard med blått tills en användare ändrar färgen manuellt, vilket beskrivs i [[!UICONTROL Categorize stories by color] på skärmtangentbordet ](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md) .
    * **[!UICONTROL Priority]**: Färgerna kopplas till artikelprioriteten enligt följande:
 
       * Hög = Röd

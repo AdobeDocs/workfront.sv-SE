@@ -8,9 +8,9 @@ feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b271eca3ab0ab09d96f65d2c3c8c400313e57d3d
+source-git-commit: 4dd591c034e1c84ef3bda64d12b6920fbdd33c26
 workflow-type: tm+mt
-source-wordcount: '1467'
+source-wordcount: '1466'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ Så här definierar du de statusvärden som är tillgängliga för den artikelpa
 
 {{step1-to-team}}
 
-1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team &#x200B;](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
+1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team ](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
 
 1. Välj det Agile-team som du vill hantera.
 1. Klicka på menyn **[!UICONTROL More]** och välj sedan **[!UICONTROL Edit]**.
@@ -141,7 +141,7 @@ Så här konfigurerar du artikelkort som tilldelats Agile-teamet så att ytterli
 
 {{step1-to-team}}
 
-1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team &#x200B;](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
+1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team ](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
 
 1. Välj det Agile-team som du vill hantera.
 1. Klicka på menyn **[!UICONTROL More]** och välj sedan **[!UICONTROL Edit]**.
@@ -163,7 +163,7 @@ Så här begränsar du PIA för ditt Kanban-team:
 
 {{step1-to-team}}
 
-1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team &#x200B;](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
+1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team ](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
 
 1. Välj det Kanban-team som du vill hantera.
 1. Klicka på **[!UICONTROL More]**-menyn ![](assets/more-menu.png) och välj sedan **[!UICONTROL Edit]**.
@@ -183,7 +183,7 @@ Begränsningen för PIA är bara en visuell varning och förhindrar inte teamet 
 
 Du kan konfigurera artiklar från en eftersläpning så att de automatiskt läggs till i den första kolumnen på [!UICONTROL Kanban]-ritytan omedelbart efter att ett objekt har flyttats från den kolumnen.
 
-Du måste aktivera inställningen **Visa eftersläpning** på [!UICONTROL Kanban]-tavlan om du vill använda den här funktionen.
+Du måste aktivera inställningen **Visa eftersläpning** på [!UICONTROL Kanban] för att kunna använda den här funktionen.
 
 Varje gång en artikel flyttas från kolumnen [!UICONTROL In Progress] till en kolumn på artikelpanelen som representerar en [!UICONTROL Complete]-status (eller en status som är lika med [!UICONTROL Complete]), flyttas nästa artikel från kolumnen Backlog automatiskt till kolumnen [!UICONTROL New] i kolumnen [!UICONTROL Kanban Board] .
 
@@ -200,11 +200,11 @@ Så här lägger du automatiskt till artiklar från eftersläpningen på [!UICON
 
 {{step1-to-team}}
 
-1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team &#x200B;](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
+1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team ](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
 
 1. Välj det Kanban-team som du vill hantera.
 1. Klicka på **[!UICONTROL More]**-menyn ![](assets/more-menu.png) och välj sedan **[!UICONTROL Edit]**.
-1. Välj **[!UICONTROL Automatically add next story from backlog]** om du vill konfigurera att nästa objekt från eftersläpningen automatiskt läggs till i kolumnen **[!UICONTROL New]** när ett objekt flyttas bort från kolumnen **[!UICONTROL In Progress]**.
+1. Välj **[!UICONTROL Automatically add next story from backlog]** om du vill konfigurera nästa objekt från eftersläpningen så att det automatiskt läggs till i kolumnen **[!UICONTROL New]** när ett objekt flyttas bort från kolumnen **[!UICONTROL In Progress]**.
 
 
 1. Klicka på **[!UICONTROL Save Changes]**.

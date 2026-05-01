@@ -6,20 +6,36 @@ description: Du kan återställa ditt [!DNL Adobe Workfront] lösenord. Som en v
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
+source-git-commit: 4dd591c034e1c84ef3bda64d12b6920fbdd33c26
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
 
 # Återställ lösenordet
 
+>[!NOTE]
+>
+>Om du ändrar ditt lösenord ändras det för alla dina [!DNL Adobe CX Enterprise]-program.
+
+Lösenordet hanteras inte i [!DNL Workfront].
+
+Om din organisation använder ett separat program för att hantera lösenord ändrar du lösenordet genom den leverantören.
+
+Om ditt lösenord hanteras av [!DNL Adobe] kan du ändra lösenordet i ditt Adobe-konto.
+
+[Läs den här artikeln om hur du ändrar ditt Adobe-lösenord.](https://helpx.adobe.com/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
+
+Kontakta administratören om du vill ha mer information om hur du ändrar ditt lösenord.
+
+<!--
 >[!IMPORTANT]
 >
->Den procedur som beskrivs på den här sidan har tagits bort eftersom den endast gäller för organisationer som ännu inte har anslutit sig till Adobe Admin Console.
+>The procedure described on this page has been removed because it applied only to organizations that were not yet onboarded to the Adobe Admin Console. 
 >
->Alla Workfront-organisationer har nu anslutit sig till Adobe Admin Console.
+>All Workfront organizations have now been onboarded to the Adobe Admin Console.
+-->
 
 <!--DELETE ME MARCH 2026-->
 
