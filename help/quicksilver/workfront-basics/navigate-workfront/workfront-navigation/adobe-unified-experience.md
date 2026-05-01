@@ -84,10 +84,10 @@ När du har loggat in på [!DNL Adobe CX Enterprise] kan du visa alla [!DNL Work
 
 ## Navigera [!DNL Workfront]
 
-Använd ikonen [!UICONTROL Main Menu] ![Huvudmeny ](assets/main-menu-icon-left-nav.png) till vänster om navigeringsfältet i [!DNL Workfront] för att navigera till sidor som du har tillgång till. Vilka alternativ som är tillgängliga i [!UICONTROL Main Menu] beror på:
+Använd ikonen [!UICONTROL Main Menu] ![Huvudmeny &#x200B;](assets/main-menu-icon-left-nav.png) till vänster om navigeringsfältet i [!DNL Workfront] för att navigera till sidor som du har tillgång till. Vilka alternativ som är tillgängliga i [!UICONTROL Main Menu] beror på:
 
-* **Layoutmallskonfigurationer**: Information om hur en [!DNL Workfront] -administratör kan ändra [!UICONTROL Main Menu] från en layoutmall finns i [ Anpassa [!UICONTROL Main Menu] med hjälp av en layoutmall ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) .
-* **Licenstyp**: Information om standardkonfigurationerna för olika licenstyper finns i [Förstå navigeringen för en [!UICONTROL Light] -licensanvändare ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) eller [Förstå navigeringen för en [!UICONTROL Work] -licensanvändare](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md) .
+* **Layoutmallskonfigurationer**: Information om hur en [!DNL Workfront] -administratör kan ändra [!UICONTROL Main Menu] från en layoutmall finns i [&#x200B; Anpassa [!UICONTROL Main Menu] med hjälp av en layoutmall &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) .
+* **Licenstyp**: Information om standardkonfigurationerna för olika licenstyper finns i [Förstå navigeringen för en [!UICONTROL Light] -licensanvändare &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) eller [Förstå navigeringen för en [!UICONTROL Work] -licensanvändare](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md) .
 
 ![Huvudmeny](assets/main-menu-options-left-nav.png)
 
